@@ -468,8 +468,6 @@ info,umphome,mcclt901
 info,ump1b,brinj901
 info,ump2b,bremn901
 info,ump3b,morrd901
-info,umplf,
-info,umprf,
 info,scorer,""
 info,inputter,"Steve Kolk"
 info,inputtime,1993/08/25 2:29PM
@@ -649,8 +647,6 @@ info,umphome,brinj901
 info,ump1b,bremn901
 info,ump2b,morrd901
 info,ump3b,mcclt901
-info,umplf,
-info,umprf,
 info,scorer,""
 info,inputter,"Steve Kolk"
 info,inputtime,1993/08/25 2:29PM
@@ -819,8 +815,6 @@ info,umphome,bremn901
 info,ump1b,morrd901
 info,ump2b,mcclt901
 info,ump3b,brinj901
-info,umplf,
-info,umprf,
 info,scorer,""
 info,inputter,"Steve Kolk"
 info,inputtime,1993/08/25 2:29PM
@@ -2251,8 +2245,8 @@ play,5,1,cruzj002,??,,K
 play,5,1,mosej001,??,,7
 play,6,0,lowej001,??,,K
 play,6,0,singk001,??,,S7
-play,6,0,dauer001,??,,4(1)4(B)/GDP/INT
-play,6,1,allej101,??,,13
+play,6,0,dauer001,??,,4(1)4(B)/GDP/RINT
+play,6,1,allej101,??,,13/AP
 com,"$Jamie Allen doubled for first ML hit, but missed 1B; out on appeal"
 play,6,1,cowea001,??,,D7
 play,6,1,putnp001,??,,NP
@@ -2691,7 +2685,8 @@ play,2,1,hendd001,??,,9
 play,2,1,phelk001,??,,S9
 play,2,1,cowea001,??,,7
 play,3,0,clarb002,??,,53
-play,3,0,folit001,??,,2/INT
+play,3,0,folit001,??,,2/BINT
+com,"$Tim Foli called for interference"
 play,3,0,boonb001,??,,S9
 play,3,0,carer001,??,,3/G
 play,3,1,sweer101,??,,63
@@ -5507,6 +5502,7 @@ start,allej101,"Jamie Allen",1,7,5
 start,hendd001,"Dave Henderson",1,8,8
 start,merco001,"Orlando Mercado",1,9,2
 start,clarb001,"Bryan Clark",1,0,1
+com,"Protest=V"
 play,1,0,cruzj002,??,,63
 play,1,0,fiskc001,??,,S9
 play,1,0,walkg001,??,,SB2
@@ -5525,13 +5521,13 @@ play,2,0,bainh001,??,,46(1)/FO
 play,2,0,law-v001,??,,8
 play,2,1,cowea001,??,,8
 ladj,1,8
-play,2,1,hendd001,??,,9
+play,2,1,hendd001,??,,9/BOOT
 ladj,1,7
-play,2,1,allej101,??,,W
+play,2,1,allej101,??,,W/BOOT
 com,"$Dave Henderson and Jamie Allen batted out of order"
 com,"but nothing was said by the White Sox"
 ladj,1,9
-play,2,1,merco001,??,,S8.1-2
+play,2,1,merco001,??,,S8/BOOT.1-2
 play,2,1,owens001,??,,64(1)/FO
 play,3,0,dybzj001,??,,9
 play,3,0,cruzj002,??,,S8
@@ -9873,7 +9869,8 @@ play,4,0,simmt001,??,,2/FL
 play,4,0,oglib001,??,,9
 play,4,0,hower001,??,,S8
 play,4,0,mannr001,??,,43
-play,4,1,roenr001,??,,2/BP/INT
+play,4,1,roenr001,??,,2/BP/BINT
+com,"$Ron Roenicke called for interference"
 play,4,1,putnp001,??,,S8
 play,4,1,cowea001,??,,K
 play,4,1,hends001,??,,4(1)/FO

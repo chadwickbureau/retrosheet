@@ -227,7 +227,7 @@ play,3,0,pridj101,??,,W.1-2
 play,3,0,kellg102,??,,K/C
 play,3,0,taylb106,??,,3
 play,3,1,dobyl101,??,,HR
-play,3,1,eastl101,??,,HR
+play,3,1,eastl101,00,X,HR
 play,3,1,rosea101,??,,S6
 play,3,1,fridj101,??,,NP
 sub,stuam101,"Marlin Stuart",0,9,1
@@ -400,7 +400,7 @@ play,4,1,dobyl101,??,,D7.3-H
 play,4,1,eastl101,??,,7/F.2-3
 play,4,1,rosea101,??,,63
 play,4,1,fridj101,??,,53
-com,"$Doby leaves with pulled muscle in R thigh"
+com,"$Larry Doby left with pulled right thigh muscle"
 play,5,0,kellg102,??,,NP
 sub,reisp101,"Pete Reiser",1,3,8
 play,5,0,kellg102,??,,5/FL
@@ -488,7 +488,7 @@ start,wertv101,"Vic Wertz",0,4,9
 start,kolld101,"Don Kolloway",0,5,3
 start,mapec101,"Cliff Mapes",0,6,8
 start,battm101,"Matt Batts",0,7,2
-start,lipoj101,"Johnny Lipon",0,8,6
+start,berrn101,"Neil Berry",0,8,6
 start,troud101,"Dizzy Trout",0,9,1
 start,simph101,"Harry Simpson",1,1,9
 start,avilb101,"Bobby Avila",1,2,4
@@ -502,6 +502,11 @@ start,groms101,"Steve Gromek",1,9,1
 play,1,0,pridj101,??,,K
 play,1,0,kellg102,??,,S8
 play,1,0,mullp101,??,,46(1)3/GDP
+play,1,1,simph101,??,,NP
+sub,lipoj101,"Johnny Lipon",0,8,6
+com,"$Neil Berry was listed on the lineup card, but Tiger manager"
+com,"Red Rolfe sent Lipon out to shortstop, making him in effect"
+com,"an unannounced substitute"
 play,1,1,simph101,??,,K/C
 play,1,1,avilb101,??,,6
 play,1,1,reisp101,??,,S7
@@ -552,10 +557,12 @@ play,5,1,eastl101,??,,K
 play,6,0,kellg102,??,,53
 play,6,0,mullp101,??,,9
 play,6,0,wertv101,??,,43
-play,6,1,rosea101,??,,NP
-sub,swifb102,"Bob Swift",0,7,2
-com,"At some point here Batts was ejected"
 play,6,1,rosea101,??,,HR
+com,"ej,battm101,P,soarh901,Balls and strikes"
+com,”ej,houta101,P,soarh901,Bench jockeying”
+com,"Matt Batts and Art Houtteman ejected by HP umpire Hank Soar"
+play,6,1,fridj101,??,,NP
+sub,swifb102,"Bob Swift",0,7,2
 play,6,1,fridj101,??,,W
 play,6,1,boonr101,??,,K
 play,6,1,tebbb101,??,,CS2(24)
@@ -577,8 +584,6 @@ play,8,1,eastl101,??,,NP
 sub,littd102,"Dick Littlefield",0,9,1
 play,8,1,eastl101,??,,K
 play,8,1,rosea101,??,,6
-play,8,1,fridj101,??,,NP
-sub,berrn101,"Neil Berry",0,8,6
 play,8,1,fridj101,??,,S7
 play,8,1,boonr101,??,,HR.1-H
 play,8,1,tebbb101,??,,S8
@@ -1066,7 +1071,6 @@ start,garcm101,"Mike Garcia",1,9,1
 play,1,0,marsf101,??,,S3
 play,1,0,delsj101,??,,S7.1-2
 play,1,0,rivej101,??,,65(2)/FO.1-2
-com,"DWS: force at third appears correct"
 play,1,0,niemb101,??,,53.1-2;2-3
 play,1,0,goldg101,??,,7
 play,1,1,simph101,??,,K/C
@@ -1295,7 +1299,6 @@ play,7,0,berry101,??,,36(1)/FO.3-H;2-3
 play,7,0,hogub101,??,,NP
 sub,cervb101,"Bob Cerv",0,5,11
 play,7,0,cervb101,??,,OA.1X2(2E4);3-H(UR)
-com,"CC4: in 1952 no CS if E"
 play,7,0,cervb101,??,,K
 play,7,0,woodg101,??,,63
 play,7,1,boonr101,??,,NP
@@ -1394,8 +1397,7 @@ play,1,1,simph101,??,,63
 play,1,1,avilb101,??,,D7
 play,1,1,rosea101,??,,W
 play,1,1,dobyl101,??,,3/G.1-2;2-3
-play,1,1,mitcd101,??,,S8.2-H;3-H;B-2(TH)#
-com,"may have been changed from E8 to S8"
+play,1,1,mitcd101,??,,S8.2-H;3-H;B-2(TH)
 play,1,1,eastl101,??,,7
 play,2,0,berry101,??,,9
 play,2,0,mizej101,??,,43
@@ -1441,7 +1443,7 @@ play,6,0,mizej101,??,,W
 play,6,0,woodg101,??,,NP
 sub,hoppj102,"Johnny Hopp",0,5,12
 play,6,0,woodg101,??,,S8.1-3
-com,"$Per NYT Hopp pulled left thigh muscle rounding 2B"
+com,"$Johnny Hopp pulled left thigh muscle rounding 2B"
 play,6,0,mcdog101,??,,NP
 sub,bridj101,"Jim Brideweser",0,5,12
 play,6,0,mcdog101,??,,NP
@@ -2073,8 +2075,6 @@ start,eastl101,"Luke Easter",1,6,3
 start,kennb104,"Bob Kennedy",1,7,9
 start,hegaj101,"Jim Hegan",1,8,2
 start,wynne101,"Early Wynn",1,9,1
-com,"Scorecard has 'resched game: Kennedy Night' I don't know"
-com,"which Kennedy, Bob or JFK, or what the 'night' was"
 play,1,0,peskj101,??,,W
 play,1,0,throf101,??,,K
 play,1,0,lenhd101,??,,K/C
@@ -2097,9 +2097,6 @@ play,3,0,peskj101,??,,W
 play,3,0,throf101,??,,W.1-2
 play,3,0,lenhd101,??,,PO2(145).1-2
 play,3,0,lenhd101,??,,E6.B-1;2X3(65)#
-com,"This play is a tad confusing, and might more properly be a"
-com,"fielder's choice but COULD be an E6 with a putout if the "
-com,"runner on second took off only after the error"
 play,3,1,avilb101,??,,2/FL
 play,3,1,boonr101,??,,3
 play,3,1,rosea101,??,,K
@@ -2155,7 +2152,6 @@ play,7,1,dobyl101,??,,S9.2-H;1-3
 play,7,1,mitcd101,??,,NP
 sub,wighb101,"Bill Wight",0,9,1
 play,7,1,mitcd101,??,,7/F.3-H
-com,"A sacrifice fly under today's rules, not in 1952"
 play,7,1,eastl101,??,,13
 play,8,0,vollc101,??,,NP
 sub,beraj101,"Johnny Berardino",1,3,5
@@ -2235,8 +2231,7 @@ start,eastl101,"Luke Easter",1,6,3
 start,kennb104,"Bob Kennedy",1,7,9
 start,hegaj101,"Jim Hegan",1,8,2
 start,lemob101,"Bob Lemon",1,9,1
-com,"$Light rain fell during game"
-com,"In addition to paid attendance, there were 1369 kids"
+com,"Light rain fell during game"
 play,1,0,peskj101,??,,43
 play,1,0,goodb101,??,,W
 play,1,0,lenhd101,??,,S8.1-2
@@ -2282,7 +2277,6 @@ play,5,0,stepv101,??,,K/C
 play,5,1,rosea101,??,,43
 play,5,1,dobyl101,??,,8
 play,5,1,mitcd101,??,,FLE5#
-com,"Notation is a little cryptic, but this is best guess"
 play,5,1,mitcd101,??,,K/C
 play,6,0,vollc101,??,,3
 play,6,0,woodk101,??,,W
@@ -2320,7 +2314,6 @@ play,9,0,stepv101,??,,W.1-2
 play,9,0,vollc101,??,,543
 play,9,1,hegaj101,??,,NP
 sub,hatff101,"Fred Hatfield",0,1,5
-com,"Hatfield sub MAY have been a PH in top-9"
 play,9,1,hegaj101,??,,43
 play,9,1,lemob101,??,,NP
 sub,fridj101,"Jim Fridley",1,9,11
@@ -2385,7 +2378,7 @@ play,1,0,kellg102,??,,63
 play,1,1,simph101,??,,W
 play,1,1,avilb101,??,,S8.1-3
 play,1,1,rosea101,??,,W.1-2
-com,"$Per NYT Stuart left due to aching back"
+com,"$Marlin Stuart left with aching back"
 play,1,1,dobyl101,??,,NP
 sub,newhh101,"Hal Newhouser",0,9,1
 play,1,1,dobyl101,??,,46(1)/FO.2-3;3-H
@@ -2406,8 +2399,9 @@ play,3,1,rosea101,??,,8
 play,3,1,dobyl101,??,,S8
 play,3,1,mitcd101,??,,43
 play,4,0,pridj101,??,,W
-play,4,0,kolld101,??,,K
-com,"Times says ump Paparealla ejected Kolloway"
+play,4,0,kolld101,??,,K/C
+com,"ej,kolld101,P,papaj901,Called third strike"
+com,"Don Kolloway ejected by HP umpire Joe Paparella"
 play,4,0,kellg102,??,,64(1)3/GDP
 play,4,1,eastl101,??,,NP
 sub,soucb101,"Bud Souchock",0,2,3
@@ -2458,7 +2452,8 @@ play,7,1,rosea101,??,,W.1-2
 play,7,1,dobyl101,??,,W.2-3;1-2
 play,7,1,mitcd101,??,,K
 play,7,1,eastl101,??,,K/C
-com,"Times says ump Paparealla ejected Easter"
+com,"ej,eastl101,P,papaj901,Called third strike"
+com,"Luke Easter ejected by HP umpire Joe Paparella"
 play,8,0,pridj101,??,,NP
 sub,kennb104,"Bob Kennedy",1,6,9
 play,8,0,pridj101,??,,NP
@@ -2835,7 +2830,6 @@ start,boonr101,"Ray Boone",1,7,6
 start,hegaj101,"Jim Hegan",1,8,2
 start,garcm101,"Mike Garcia",1,9,1
 play,1,0,mantm101,??,,63
-com,"check plate umpire's name"
 play,1,0,rizzp101,??,,K
 play,1,0,baueh101,??,,S8
 play,1,0,berry101,??,,5/FL/P
@@ -3022,6 +3016,9 @@ play,6,1,avilb101,??,,W
 play,6,1,rosea101,??,,D9.1-3
 play,6,1,dobyl101,??,,K
 play,6,1,reisp101,??,,9
+com,"ej,lopea102,M,hurle901,Balls and strikes"
+com,"Indians Manager Al Lopez ejected by HP umpire Eddie Hurley"
+com,"sometime in seventh"
 play,7,0,mantm101,??,,S9
 play,7,0,baueh101,??,,S8.1-2
 play,7,0,berry101,??,,W.2-3;1-2
@@ -3723,7 +3720,6 @@ play,1,0,runnp101,??,,CS2(26)
 play,1,1,simph101,??,,K
 play,1,1,avilb101,??,,S9
 play,1,1,dobyl101,??,,S9.1-3(E9)#
-com,"Total guess where E9 is"
 play,1,1,rosea101,??,,4/P
 play,1,1,mitcd101,??,,IW.1-2
 play,1,1,fridj101,??,,4/P
@@ -3786,9 +3782,9 @@ play,8,1,fridj101,??,,NP
 sub,reisp101,"Pete Reiser",1,5,12
 play,8,1,fridj101,??,,S1/BG.1-2
 play,8,1,combm101,??,,S5/BG.1-2;2-3
-play,8,1,hegaj101,??,,CSH(12)
 play,8,1,hegaj101,??,,5/L
 play,8,1,wynne101,??,,8
+play,8,1,simph101,??,,CSH(2)
 play,9,0,hodem101,??,,NP
 sub,eastl101,"Luke Easter",1,5,3
 play,9,0,hodem101,??,,NP
@@ -3797,7 +3793,6 @@ play,9,0,hodem101,??,,NP
 sub,simph101,"Harry Simpson",1,1,9
 play,9,0,hodem101,??,,S7
 play,9,0,grasm101,??,,E5/BG/TH.1-H(NR)(UR);B-3
-com,"wasn't SH"
 play,9,0,marrc101,??,,NP
 sub,coang101,"Gil Coan",0,8,12
 play,9,0,marrc101,??,,63
@@ -3877,7 +3872,7 @@ play,1,1,dobyl101,??,,SB2
 play,1,1,dobyl101,20,,NP
 sub,brodd101,"Dick Brodowski",0,9,1
 play,1,1,dobyl101,??,,W
-com,"$Parnell leaves with a 2-0 count on Doby with sore shoulder"
+com,"$Mel Parnell left with sore shoulder"
 play,1,1,rosea101,??,,W.2-3;1-2
 play,1,1,simph101,??,,S9.3-H;2-H;1-2
 play,1,1,fridj101,??,,8/F
@@ -4005,9 +4000,6 @@ start,fridj101,"Jim Fridley",1,6,7
 start,combm101,"Merl Combs",1,7,6
 start,hegaj101,"Jim Hegan",1,8,2
 start,fellb101,"Bob Feller",1,9,1
-com,"Attendance comments: 12,987 paid; 2630 'L' (I assume Ladies)"
-com,"plus 6369 (no indication of type, maybe kids?), and 937 from"
-com,"a 'Bank'"
 play,1,0,dimad101,??,,13
 play,1,0,goodb101,??,,63
 play,1,0,stepv101,??,,8
@@ -4156,12 +4148,7 @@ start,fridj101,"Jim Fridley",1,6,7
 start,combm101,"Merl Combs",1,7,6
 start,tebbb101,"Birdie Tebbetts",1,8,2
 start,groms101,"Steve Gromek",1,9,1
-com,"Attendance from Game 2"
-com,"Gromek had a child born at 10:15 PM, though not clear whethe"
-com,"r it was today (6/22) or day before (6/21); child born in"
-com,"Providence Hospital, in Detroit"
-com,"48 minute rain delay, from 3:16 to 4:04, but point"
-com,"during game or before it started not indicated"
+com,"48 minute rain delay, from 3:16 to 4:04 sometime in game"
 play,1,0,dimad101,??,,K
 play,1,0,goodb101,??,,43
 play,1,0,stepv101,??,,K
@@ -4188,7 +4175,6 @@ play,3,1,dobyl101,??,,W
 play,3,1,rosea101,??,,WP.1-2
 play,3,1,rosea101,??,,D7.2-H
 play,3,1,simph101,??,,D9.2XH(962)#
-com,"Slightly unsure about the PO, but it makes the most sens"
 play,3,1,fridj101,??,,K
 play,4,0,dimad101,??,,8
 play,4,0,goodb101,??,,7
@@ -4350,8 +4336,6 @@ play,6,1,hegaj101,??,,NP
 sub,reisp101,"Pete Reiser",1,7,12
 play,6,1,hegaj101,??,,S7.3-H;1-2
 play,6,1,garcm101,??,,34/SH.1-2;2-3
-com,"My guess is that this is the only game in which three sac"
-com,"bunts went 34 with 2 runners on"
 play,6,1,simph101,??,,IW
 play,6,1,avilb101,??,,6
 play,6,1,dobyl101,??,,7
@@ -4439,8 +4423,7 @@ play,2,0,clara102,??,,S7
 play,2,0,sudep101,??,,6
 play,2,1,rosea101,??,,53
 play,2,1,mitcd101,??,,S8
-com,"play,2,1,boonr101,??,,SB2"
-play,2,1,boonr101,??,,43.1-2#
+play,2,1,boonr101,??,,43.1-2
 play,2,1,eastl101,??,,K
 play,3,0,astrj101,??,,3
 play,3,0,shanb102,??,,9
@@ -4486,7 +4469,6 @@ sub,kells102,"Skeeter Kell",0,7,4
 play,8,1,eastl101,??,,43
 play,8,1,hegaj101,??,,8
 play,8,1,wynne101,??,,S8.B-2(E8)#
-com,"Total guess where Valo E8 was"
 play,8,1,simph101,??,,K
 play,9,0,joose101,??,,1/FL
 play,9,0,fainf101,??,,S9
@@ -5353,7 +5335,6 @@ play,10,1,rosea101,??,,63
 play,11,0,minom101,??,,8
 play,11,0,stewb101,??,,13
 play,11,0,robie101,??,,7
-com,"Chicago sheet shows play as 16."
 play,11,1,dobyl101,??,,8/L
 play,11,1,simph101,??,,S9
 play,11,1,tiptj101,??,,5/FL
@@ -5505,7 +5486,7 @@ play,5,1,rosea101,??,,2/FL
 play,6,0,rascv101,??,,S7
 play,6,0,rizzp101,??,,NP
 sub,bridj101,"Jim Brideweser",0,9,12
-com,"$Raschi left game when his bum knee hurt him"
+com,"$Vic Raschi left injured knee"
 play,6,0,rizzp101,??,,D8.1-H;B-3(TH)
 play,6,0,collj101,??,,NP
 sub,harrm101,"Mickey Harris",1,9,1
@@ -5531,7 +5512,7 @@ play,7,1,majeh101,??,,W
 play,7,1,glynb101,??,,NP
 sub,lemob101,"Bob Lemon",1,9,12
 play,7,1,glynb101,??,,34(B)3(1)/LDP
-com,"Martin caught liner off Collins' glove to start DP"
+com,"$the ball deflected off Joe Collins' glove"
 play,8,0,rizzp101,??,,NP
 sub,beraj101,"Johnny Berardino",1,8,6
 play,8,0,rizzp101,??,,NP
@@ -5542,7 +5523,6 @@ play,8,0,baueh101,??,,D7.1-3
 play,8,0,berry101,??,,IW
 play,8,0,mantm101,??,,9/F.3-H
 play,8,0,woodg101,??,,PO1(E3).1-2;2-H(UR)
-com,"Not sure if this play is correct."
 play,8,0,woodg101,??,,9
 play,8,1,avilb101,??,,53
 play,8,1,mitcd101,??,,S7
@@ -5823,7 +5803,6 @@ play,4,1,combm101,??,,8
 play,4,1,lemob101,??,,2/FL
 play,5,0,martb105,??,,E5
 play,5,0,gormt102,??,,OA.1X2(2E4)
-com,"CC4: in 1952 no CS if E"
 play,5,0,gormt102,??,,K
 play,5,0,rizzp101,??,,S1.2-3
 play,5,0,collj101,??,,S8.1-3;3-H(UR)
@@ -6089,14 +6068,12 @@ play,3,0,busbj101,??,,S8
 play,3,0,jensj101,??,,9/L
 play,3,1,wynne101,??,,W
 play,3,1,mitcd101,??,,46(1)/FO
-com,"Indians sheet shows play as 43."
 play,3,1,avilb101,??,,54(1)3/GDP
 play,4,0,runnp101,??,,S9
 play,4,0,vernm101,??,,3/FL
 play,4,0,coang101,??,,W.1-2
 play,4,0,bakef103,??,,7/FL
 play,4,0,grasm101,??,,6/P
-com,"Indians sheet shows fly to 4."
 play,4,1,dobyl101,??,,HR/8
 play,4,1,rosea101,??,,K
 play,4,1,simph101,??,,63
@@ -6135,7 +6112,6 @@ play,8,1,mccob101,??,,6/P
 play,8,1,avilb101,??,,S6.B-2(E6)
 play,8,1,dobyl101,??,,IW
 play,8,1,rosea101,??,,S7.1-2;2-H(UR)
-com,"E6 must have averted BX2 for it to be UR"
 play,8,1,simph101,??,,4(1)/FO
 play,9,0,coang101,??,,9
 play,9,0,bakef103,??,,W
@@ -6573,7 +6549,6 @@ play,6,1,eastl101,??,,W
 play,6,1,hegaj101,??,,64(1)3/GDP
 play,7,0,bakef103,??,,63
 play,7,0,kellh103,??,,S9
-com,"Indians sheet show single to left."
 play,7,0,mastw101,??,,K
 play,7,0,yoste101,??,,K
 play,7,1,combm101,??,,NP
@@ -6789,7 +6764,7 @@ start,eastl101,"Luke Easter",1,6,3
 start,boonr101,"Ray Boone",1,7,6
 start,hegaj101,"Jim Hegan",1,8,2
 start,fellb101,"Bob Feller",1,9,1
-com,"$22 minute rain delay."
+com,"22 minute rain delay before start of game"
 play,1,0,goodb101,??,,W
 play,1,0,throf101,??,,5
 play,1,0,everh101,??,,HR.1-H
@@ -7097,8 +7072,7 @@ play,1,0,phild102,??,,64(1)/FO
 play,1,0,zerng101,??,,S7.1X3(7125);B-2
 play,1,1,fridj101,??,,4
 play,1,1,avilb101,??,,S9
-play,1,1,dobyl101,??,,OA.1X2(2E4)#
-com,"no CS if E in 1952"
+play,1,1,dobyl101,??,,OA.1X2(2E4)
 play,1,1,dobyl101,??,,K
 play,1,1,rosea101,??,,2/FL
 play,2,0,valoe101,??,,S6.B-2(E6)
@@ -7254,7 +7228,6 @@ play,1,0,phild102,??,,63
 play,1,1,mccob101,??,,13
 play,1,1,avilb101,??,,S6
 play,1,1,dobyl101,??,,OA.1X2(2E6)
-com,"no CS if E in 1952"
 play,1,1,dobyl101,??,,K
 play,1,1,rosea101,??,,31
 play,2,0,zerng101,??,,W
@@ -7902,7 +7875,7 @@ play,7,1,mitcd101,??,,W.1-2
 play,7,1,avilb101,??,,13/SH.1-2;2-3
 play,7,1,dobyl101,??,,3/G
 play,7,1,eastl101,??,,43
-com,"No more game account for the Browns."
+com,"game account ends here"
 play,8,0,portj101,??,,99
 play,8,0,niemb101,??,,99
 play,8,0,courc101,??,,99
@@ -8344,8 +8317,10 @@ play,5,1,westw102,??,,W
 play,5,1,eastl101,??,,S9.1-3
 play,5,1,rosea101,??,,64(1)/FO.3-H
 play,5,1,simph101,??,,S8.1-2
-com,"$Lollar ejected sometime during game"
-com,"Richards ejected"
+com,"ej,lolls101,P,summb901,Balls and strikes"
+com,"ej,richp101,M,summb901,Balls and strikes"
+com,"Sherm Lollar and White Sox Manager Paul Richards ejected"
+com,"by HP umpire Bill Summers"
 play,5,1,boonr101,??,,NP
 sub,johnd106,"Darrell Johnson",0,7,2
 play,5,1,boonr101,??,,K
@@ -8477,12 +8452,10 @@ play,5,0,rivej101,??,,SB2#
 play,5,0,rivej101,??,,4
 play,5,0,masip101,??,,W
 play,5,0,miraw101,??,,PO3(25)
-com,"Minoso daydreams."
 play,5,1,simph101,??,,S6
 play,5,1,boonr101,??,,PB.1-2
 play,5,1,boonr101,??,,S8.2-H
 play,5,1,tebbb101,??,,S9.1-3
-com,"Threw bat at pitchout."
 play,5,1,garcm101,??,,14/SH.1-2;3-H
 play,5,1,mitcd101,??,,FC
 play,5,1,avilb101,??,,NP
@@ -8894,7 +8867,6 @@ play,1,1,dobyl101,??,,43
 play,2,0,robie101,??,,7
 play,2,0,meles101,??,,7/7D
 play,2,0,rivej101,??,,8
-com,"CHA sheet shows fly to short."
 play,2,1,eastl101,??,,8
 play,2,1,rosea101,??,,5/L
 play,2,1,westw102,??,,3/FL
@@ -8932,7 +8904,6 @@ play,6,1,dobyl101,??,,W
 play,6,1,eastl101,??,,K
 play,6,1,rosea101,??,,7
 play,7,0,robie101,??,,8
-com,"CHA sheet shows fly to second."
 play,7,0,meles101,??,,3/FL
 play,7,0,rivej101,??,,63
 play,7,1,westw102,??,,6
@@ -9421,6 +9392,9 @@ start,westw102,"Wally Westlake",1,6,9
 start,hegaj101,"Jim Hegan",1,7,2
 start,strig102,"George Strickland",1,8,6
 start,wynne101,"Early Wynn",1,9,1
+com,"ej,lopea102,M,duffj901,Call at 2B"
+com,"Indians Manager Al Lopez ejected by 2B umpire Jim Duffy"
+com,"sometime in game"
 play,1,0,joose101,??,,W
 play,1,0,fainf101,??,,CS2(26)
 play,1,0,fainf101,??,,8
@@ -9515,8 +9489,12 @@ play,9,0,hamit101,??,,S1
 play,9,0,shanb102,??,,NP
 sub,clara102,"Allie Clark",0,9,11
 play,9,0,clara102,??,,K/C
-com,"$Clark ejected for arguing called 3rd strike"
-com,"Joost ejected for arguing Clark's called 3rd strike"
+com,"ej,clara102,P,berrc103,Called third strike"
+com,"ej,dykej101,M,berrc103,Called third strike"
+com,"ej,joose101,P,berrc103,Called third strike"
+com,"Allie Clark ejected by HP umpire Charlie Berry;"
+com,"Athletics Manager Jimmy Dykes and Eddie Joost ejected"
+com,"by Berry arguing"
 play,9,0,joose101,??,,NP
 sub,thomk101,"Kite Thomas",0,1,11
 play,9,0,thomk101,??,,K/C
@@ -9581,7 +9559,6 @@ play,1,1,mitcd101,??,,13
 play,1,1,avilb101,??,,S6
 play,1,1,dobyl101,??,,W.1-2
 play,1,1,eastl101,??,,S7.2-H;1X3(75)#
-com,"Not sure of how out at third was made."
 play,1,1,rosea101,??,,K/C
 play,2,0,zerng101,??,,7
 play,2,0,valoe101,??,,8
@@ -9845,7 +9822,6 @@ play,2,0,stepv101,??,,7
 play,2,0,everh101,??,,K
 play,2,0,whits103,??,,53
 play,2,1,eastl101,??,,S9.BX2(96)
-com,"Easter's hitting streak 15 G pet NYT"
 play,2,1,rosea101,??,,E6
 play,2,1,simph101,??,,K+CS2(26)/DP
 play,3,0,gernd101,??,,S7
@@ -9868,20 +9844,17 @@ play,5,0,everh101,??,,8
 play,5,0,whits103,??,,S8
 play,5,0,gernd101,??,,6
 play,5,0,lipoj101,??,,WP.1-2#
-com,"Wynne has WP per film, paper box but not on s/s so guess here"
 play,5,0,lipoj101,??,,7
 play,5,1,hegaj101,??,,53
 play,5,1,boonr101,??,,S7
 play,5,1,wynne101,??,,S6.1-2
 play,5,1,mitcd101,??,,46(1)/FO.2-H
-com,"$Boudreau, White, and Hudson argued Boone was out"
 play,5,1,avilb101,??,,S5/G.B-2(E5/TH);1XH(92)
 play,6,0,hudss101,??,,S8
 play,6,0,dimad101,??,,34/SH.1-2
 play,6,0,goodb101,??,,13/SH.2-3
 play,6,0,zaria101,??,,4
 play,6,1,dobyl101,??,,D7
-com,"$Doby stretched single into double and breaks 0-for-20 slump per NYT"
 play,6,1,eastl101,??,,3/G.2-3
 play,6,1,rosea101,??,,S7.3-H
 play,6,1,simph101,??,,S8.1-3
@@ -10123,20 +10096,19 @@ start,simph101,"Harry Simpson",1,6,9
 start,tebbb101,"Birdie Tebbetts",1,7,2
 start,boonr101,"Ray Boone",1,8,6
 start,garcm101,"Mike Garcia",1,9,1
-com,"Overflow crowd on field between OF barrier and CF bleachers"
+com,"$overflow crowd on field between OF barrier and CF bleachers"
 play,1,0,rizzp101,??,,13
 play,1,0,collj101,??,,43
 play,1,0,mantm101,??,,D8/89
 play,1,0,woodg101,??,,4!/P
-com,"$Avila sideswiped Doby and both sprawled but held ball to save run"
+com,"$Bobby Avila and Larry Doby collided and fell"
 play,1,1,mitcd101,??,,8
 play,1,1,avilb101,??,,6
 play,1,1,dobyl101,??,,W
 play,1,1,eastl101,??,,K
-play,2,0,berry101,??,,E3.B-2(E3/TH)
-com,"$Easter carelessly threw ball to 2B allowing Berra to take 2B"
+play,2,0,berry101,??,,E3.B-2(E3/TH2)
 play,2,0,baueh101,??,,FC3/BG.2X3(35)
-com,"$Berra beat throw but overslid 3B"
+com,"$Yogi Berra beat the throw but overslid 3B"
 play,2,0,mcdog101,??,,8
 play,2,0,martb105,??,,K
 play,2,1,rosea101,??,,S7
@@ -10187,8 +10159,11 @@ play,6,0,lopae101,??,,K
 play,6,1,rosea101,??,,S7
 play,6,1,simph101,??,,36(1)/FO
 play,6,1,tebbb101,??,,HP.1-2
-com,"$McDonald ejected by 3B ump Hurley from bench; many Yanks thought Tebbets" 
-com,"moved foot into pitch but McGowan stood by his call after umps huddled"
+com,"ej,mcdoj104,P,hurle901,Bench jockeying"
+com,"Jim McDonald ejected by 3B umpire Eddie Hurley"
+com,"the Yankees thought Birdie Tebbetts moved his foot into"
+com,"the pitch but HP umpire Bill McGowan stood by his call"
+com,"after the umpires huddled"
 play,6,1,boonr101,??,,NP
 sub,hegaj101,"Jim Hegan",1,7,12
 play,6,1,boonr101,??,,NP
@@ -10229,7 +10204,7 @@ play,9,0,rizzp101,??,,53
 play,9,0,collj101,??,,W
 play,9,0,mantm101,??,,W.1-2
 play,9,0,norei101,??,,64(1)/FO.2-3
-com,"$Mantle injured knee breaking up DP"
+com,"$Mickey Mantle injured knee breaking up DP"
 play,9,0,berry101,??,,S6.3-H;1-2
 play,9,0,baueh101,??,,S8.1-3;2-H
 play,9,0,mcdog101,??,,K
@@ -10708,7 +10683,6 @@ start,simph101,"Harry Simpson",1,6,9
 start,hegaj101,"Jim Hegan",1,7,2
 start,strig102,"George Strickland",1,8,6
 start,garcm101,"Mike Garcia",1,9,1
-com,"$Extra 3963 ladies for Ladies Night"
 play,1,0,grotj102,??,,S4
 play,1,0,kuenh101,??,,OA.1X2(26)#
 play,1,0,kuenh101,??,,8
@@ -10932,8 +10906,7 @@ play,6,1,mitcd101,??,,2/FL
 play,6,1,avilb101,??,,7
 play,7,0,dropw101,??,,W
 play,7,0,mapec101,??,,W.1-2
-play,7,0,sullr101,??,,46(1)/FO.2-H(E6/TH)(NR);B-2
-com,"apparently Ginsberg 9 would've been RBI cause not UR here"
+play,7,0,sullr101,??,,46(1)/FO.2-H(E6/TH1)(NR);B-2
 play,7,0,ginsj101,??,,9
 play,7,0,fedea101,??,,NP
 sub,hoppj102,"Johnny Hopp",0,8,11
@@ -11065,7 +11038,8 @@ play,5,0,dropw101,??,,FC.1-2;2-3
 play,5,0,mapec101,??,,K
 play,5,0,sullr101,??,,W.3-H;2-3;1-2
 play,5,0,battm101,??,,8
-com,"$Mgr. Lopez ejected arguing ball/strike call with Rosen up"
+com,"ej,lopea102,M,honoj901,Balls and strikes"
+com,"Indians Manager Al Lopez ejected by HP umpire Jim Honochick"
 play,5,1,rosea101,??,,K
 play,5,1,simph101,??,,5/FL
 play,5,1,hegaj101,??,,S8
@@ -11162,20 +11136,15 @@ play,1,0,fox-n101,??,,S1/BG.1-2
 play,1,0,minom101,??,,E2/SH.1-2;2-3
 play,1,0,robie101,??,,S7.1-2;2-H;3-H
 play,1,0,wrigt101,??,,D7.1-3;2-H(UR)
-com,"CLE sheet shows double to center."
 play,1,0,rivej101,??,,8/F.3-H
-com,"CLE sheet shows fly to left."
 play,1,0,lolls101,??,,63
 play,1,0,krsnr101,??,,S8.2-H(UR)
-com,"CLE sheet shows single to left."
 play,1,0,dobsj101,??,,3
 play,1,1,mitcd101,??,,6
 play,1,1,avilb101,??,,2/FL
 play,1,1,dobyl101,??,,K
 play,2,0,carrc105,??,,S5
-com,"CLE sheet shows single to short."
 play,2,0,fox-n101,??,,D9.1XH(942)
-com,"$Kretlow ejected."
 play,2,0,minom101,??,,63.2-3
 play,2,0,robie101,??,,K
 play,2,1,eastl101,??,,D7
@@ -11246,13 +11215,10 @@ sub,brisl101,"Lou Brissie",1,9,1
 play,9,0,wrigt101,??,,53
 play,9,0,rivej101,??,,S8
 play,9,0,lolls101,??,,5
-com,"CLE sheet shows fly to right."
 play,9,0,krsnr101,??,,7
 play,9,1,dobyl101,??,,9
 play,9,1,eastl101,??,,S8
-com,"CLE sheet shows single to right"
-play,9,1,rosea101,??,,S7.1-3#
-com,"CLE sheet shows single to center."
+play,9,1,rosea101,??,,S7.1-3
 play,9,1,simph101,??,,PO3(25)#
 play,9,1,simph101,??,,K
 data,er,dobsj101,1
@@ -11368,7 +11334,10 @@ play,7,1,mitcd101,??,,S7.1-2
 play,7,1,avilb101,??,,24/SH.1-2;2-3
 play,7,1,dobyl101,??,,IW
 play,7,1,eastl101,??,,S8.1-3;2-H;3-H
-com,"$Kretlow ejected for arguing tag play at plate"
+com,"ej,kretl101,P,summb901,Call at HP"
+com,"ej,richp101,M,summb901,Call at HP"
+com,"Lou Kretlow and White Sox Manager Paul Richards ejected by"
+com,"HP umpire Bill Summers"
 play,7,1,rosea101,??,,NP
 sub,aloml101,"Luis Aloma",0,9,1
 play,7,1,rosea101,??,,HR/7.3-H;1-H

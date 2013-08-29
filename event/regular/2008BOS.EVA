@@ -2964,11 +2964,11 @@ play,4,0,braur002,32,BFBBCX,8/F
 play,4,0,fielp001,12,BCSS,K
 play,4,0,hartc001,11,CBX,63/G
 play,4,1,cases001,20,BBX,D8/F
-play,4,1,lugoj001,00,X,2/BG/INT.2-2
+play,4,1,lugoj001,00,X,2/BG/BINT.2-2
 com,"$HP umpire Doug Eddings called Lugo out when the ball"
 com,"bounced up and struck the batter; Lugo was still in the"
 com,"batter's box at the time; the Red Sox argued the call"
-com,"to no avail"
+com,"to no avail; the interference stood"
 play,4,1,ellsj001,11,*BFX,6/P
 play,4,1,pedrd001,22,CBFBS,K
 play,5,0,hardj003,02,CCS,K
@@ -5306,7 +5306,7 @@ play,6,0,robeb003,01,FX,D7/L
 play,6,0,moram002,11,CBX,9/F
 play,6,0,markn001,22,FF*BFBX,63/G.2-3
 play,6,0,salao001,10,BX,D8/F.3-H
-play,6,0,huffa001,32,*BBFBFX,DGR/9/L/INT.2-H
+play,6,0,huffa001,32,*BBFBFX,DGR/9/L/FINT.2-H
 com,"fan interference"
 play,6,0,hernr002,02,CFX,S7/L.2-3
 play,6,0,jonea003,00,X,3/P3F
@@ -5830,7 +5830,7 @@ play,10,0,stavn001,00,X,3/P/IF
 play,10,0,ankir001,22,*BCBSS,K
 play,10,1,ellsj001,00,,NP
 sub,mcclk001,"Kyle McClellan",0,0,1
-play,10,1,ellsj001,10,.BX,DGR/7/INT
+play,10,1,ellsj001,10,.BX,DGR/7/FINT
 com,"fan interference"
 play,10,1,pedrd001,00,X,34/SH/BG.2-3
 play,10,1,drewj001,32,BBCSBS,K
@@ -8765,7 +8765,7 @@ play,5,0,kinsi001,00,,NP
 sub,aardd001,"David Aardsma",1,0,1
 play,5,0,kinsi001,11,.BFX,HR/78/F.2-H;1-H
 play,5,0,younm003,02,FFS,K
-play,5,1,ortid001,32,BCBBSX,DGR/8/F
+play,5,1,ortid001,32,BCBBSX,DGR/8/F/FINT
 com,"fan interference"
 play,5,1,youkk001,22,FB*BCX,HR/8/F.2-H
 play,5,1,lowem001,32,BCBBCS,K
@@ -9143,7 +9143,7 @@ play,8,0,metct001,12,BFSC,K
 play,8,0,bradm001,22,FSBBS,K
 play,8,1,pedrd001,00,,NP
 sub,guare001,"Eddie Guardado",0,0,1
-play,8,1,pedrd001,12,.BFFX,DGR/9/F-
+play,8,1,pedrd001,12,.BFFX,DGR/9/FINT/F-
 com,"fan interference"
 play,8,1,ortid001,00,,NP
 sub,cases001,"Sean Casey",1,3,11
@@ -9439,7 +9439,7 @@ play,8,0,mcdoj003,00,X,8/F
 play,8,0,inglj001,12,CCBX,S8/L.2-H
 play,8,0,scutm001,00,X,S7/L.1-2
 play,8,0,riosa002,22,CFBFBX,S6/G+.2-H;1-2
-play,8,0,wellv001,32,BCSFBB>X,DGR/7.2-H;1-3
+play,8,0,wellv001,32,BCSFBB>X,DGR/7/FINT.2-H;1-3
 com,"fan interference"
 play,8,0,linda001,02,CCX,63/G
 play,8,1,crisc001,00,,NP
@@ -10520,7 +10520,7 @@ play,7,1,varij001,02,SFS,K
 play,8,0,peref001,32,BCBBCX,6/L
 play,8,0,iwama001,12,CCBS,K
 play,8,0,zobrb001,10,BX,S7/F
-play,8,0,penac001,00,X,DGR/9/F.1-3
+play,8,0,penac001,00,X,DGR/9/F/FINT.1-3
 com,"fan interference"
 play,8,0,baldr001,00,,NP
 sub,papej001,"Jonathan Papelbon",1,0,1
@@ -10770,7 +10770,7 @@ play,2,0,hinse001,02,CSS,K
 play,2,0,navad001,01,CX,63/G
 play,2,0,grosg002,02,CFFX,13/G
 play,2,1,bay-j001,12,CBCC,K
-play,2,1,lowem001,10,BX,7/F7LF
+play,2,1,lowem001,10,BX,7/F7LF/FINT
 com,"fan interference"
 play,2,1,kotsm001,22,BBCFX,7/F
 play,3,0,bartj001,02,CCT,K
@@ -11635,6 +11635,10 @@ play,6,1,lowrj001,11,BCX,9/F
 play,6,1,kotsm001,00,X,3/G.1-2
 play,6,1,varij001,31,BBBCB,W
 play,6,1,bailj001,32,BFBBC>X,S5/L.2XH(525);1-2
+com,"$the ball struck 3B umpire Gerry Davis and stopped just beyond the infield dirt;"
+com,"since the ball had already passed an infielder, this was not umpire interference"
+com,"and the ball remained live; 3B Jamey Carroll retrieved the ball and caught Jason"
+com,"in a rundown"
 play,7,0,choos001,00,,NP
 sub,lopej002,"Javier Lopez",1,0,1
 play,7,0,choos001,01,.CX,43/G

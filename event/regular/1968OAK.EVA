@@ -1,9 +1,3 @@
-com,"Copyright 2002 by Retrosheet, Inc."
-com,"20 Sunset Rd."
-com,"Newark, DE 19711"
-com,"All Rights Reserved"
-com,"Data Version 1.00"
-com,"June 30, 2002"
 id,OAK196804170
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -78,8 +72,8 @@ play,3,1,kraul102,??,,W
 play,3,1,campb101,??,,K
 play,4,0,robib104,??,,6/P
 play,4,0,robif103,??,,W
-play,4,0,poweb101,??,,53/INT.1-3(E6)
-com,"$Campaneris called out for obstruction on Robinson"
+play,4,0,poweb101,??,,53/OBS.1-3(E6)
+com,"$Bert Campaneris called for obstruction on Frank Robinson"
 play,4,0,johnd105,??,,S9.3-H
 play,4,0,may-d101,??,,K
 play,4,1,jackr001,??,,K
@@ -192,9 +186,7 @@ play,1,0,blefc101,??,,E4
 play,1,0,blaip101,??,,S8.1-2
 play,1,0,robib104,??,,8.2-3;1-2
 play,1,0,robif103,??,,S.3-H(UR);2-H(UR)
-com,"TJR: I'm not sure what the run from 2nd was unearned."
 play,1,0,poweb101,??,,CS2(26)#
-com,"CS may be with Johnson at bat"
 play,1,0,poweb101,??,,K
 play,1,1,campb101,??,,HP
 play,1,1,jackr001,??,,7
@@ -202,7 +194,6 @@ play,1,1,bands101,??,,S8.1-H
 play,1,1,websr102,??,,46(1)3/GDP
 play,2,0,johnd105,??,,S8
 play,2,0,may-d101,??,,WP.1-2#
-com,"WP may be with Belanger at bat"
 play,2,0,may-d101,??,,6/P
 play,2,0,belam101,??,,43.2-3
 play,2,0,hardj101,??,,K
@@ -296,7 +287,6 @@ sub,roofp101,"Phil Roof",1,9,2
 play,11,0,johnd105,??,,53
 play,11,0,may-d101,??,,W
 play,11,0,belam101,??,,SB2#
-com,"SB may be with Motton at bat"
 play,11,0,belam101,??,,K
 play,11,0,watte101,??,,NP
 sub,mottc101,"Curt Motton",0,9,11
@@ -321,7 +311,6 @@ play,12,0,poweb101,??,,NP
 sub,lindp101,"Paul Lindblad",1,7,1
 play,12,0,poweb101,??,,35(2)/FO/BG.1-2
 play,12,0,johnd105,??,,SB3;SB2#
-com,"double steal may be with May at bat"
 play,12,0,johnd105,??,,K
 play,12,0,may-d101,??,,31
 play,12,1,lindp101,??,,S7
@@ -451,7 +440,6 @@ play,6,1,bands101,??,,4(B)6(2)/LDP
 play,6,1,websr102,??,,43
 play,7,0,coggf101,??,,S6
 play,7,0,colej102,??,,CS2(26)#
-com,"CS may be with Unser at bat"
 play,7,0,colej102,??,,K
 play,7,0,unsed101,??,,43
 play,7,1,paglj101,??,,K
@@ -1347,7 +1335,7 @@ play,4,0,killh102,??,,K
 play,4,0,olivt102,??,,S
 play,4,0,allib103,??,,PB.1-2
 play,4,0,allib103,??,,W
-play,4,0,clarr103,??,,S.2X3(5);1-2
+play,4,0,clarr103,??,,S/BR/G5.2X3(5);1-2
 play,4,1,jackr001,??,,HR
 play,4,1,bands101,??,,S
 play,4,1,websr102,??,,K
@@ -1684,7 +1672,6 @@ play,7,0,carer001,??,,7
 play,7,0,killh102,??,,K
 play,7,1,mondr001,??,,D
 play,7,1,rudij101,??,,WP.2-3#
-com,"WP may be with Hunter at bat"
 play,7,1,rudij101,??,,K
 play,7,1,huntj101,??,,S1/BG.3-H
 play,7,1,campb101,??,,4
@@ -1695,7 +1682,6 @@ play,8,0,allib103,??,,63
 play,8,1,bands101,??,,S
 play,8,1,websr102,??,,S.1-2
 play,8,1,donaj101,??,,25(2)/FO/BG.1-2
-com,"bunt assumed"
 play,8,1,paglj101,??,,64(1)/FO.2-3
 play,8,1,mondr001,??,,W.1-2
 play,8,1,rudij101,??,,NP
@@ -2643,8 +2629,7 @@ play,1,0,salmc101,??,,9
 play,1,0,mayel101,??,,S8
 play,1,0,hortt101,??,,54(1)/FO
 play,1,0,simsd101,??,,K
-play,1,1,campb101,??,,FLE3
-com,"TJR: Horton is missing an error.  Perhaps a FLE3 somewhere?"
+play,1,1,campb101,??,,FLE3#
 play,1,1,campb101,??,,9
 play,1,1,donaj101,??,,K/C
 play,1,1,bands101,??,,W
@@ -2923,6 +2908,8 @@ play,6,1,kraul102,??,,NP
 sub,stanm101,"Mickey Stanley",0,3,8
 play,6,1,kraul102,??,,NP
 sub,nortj101,"Jim Northrup",0,2,9
+com,"Al Kaline left with a hairline fracture of the ulnar bone in"
+com,"his right forearm"
 play,6,1,kraul102,??,,K
 play,6,1,campb101,??,,S
 play,6,1,donaj101,??,,SB2
@@ -3086,11 +3073,23 @@ sub,akerj102,"Jack Aker",1,9,1
 play,6,0,dobsp101,??,,NP
 sub,pricj102,"Jim Price",0,9,11
 play,6,0,pricj102,??,,S.2-H(UR)
+com,"ej,kennb104,M,runge901,Call at HP"
+com,"Athletics Manager Bob Kennedy ejected by HP umpire Ed Runge"
 play,6,0,stanm101,??,,T.1-H
 play,6,0,tracd101,??,,9/SF.3-H
 play,6,0,nortj101,??,,HP
-com,"A brawl erupts after Northrup is hit on the head; several"
-com,"players are ejected."
+com,"ej,nortj101,P,runge901,Fighting"
+com,"ej,kraul102,P,runge901,Fighting"
+com,"ej,odomj101,P,runge901,Fighting"
+com,"$Jim Northrup struck on the back of the helmet by the Jack"
+com,"Aker pitch; Northrup, stunned, charged the mound and the two"
+com,"exchanged punches; both benches cleared; many Tigers went"
+com,"after Aker, who suffered five spike wounds on his right leg,"
+com,"a swollen lip, a cut forehead and a black eye; a fan threw"
+com,"a beer cup at a Tigers player, who threw a baseball into"
+com,"the stands; it struck a woman who suffered a broken cheek;"
+com,"Northrup, Blue Moon Odom and Lew Krausse ejected by HP"
+com,"umpire Ed Runge; Northrup taked to the hospital"
 play,6,0,freeb103,??,,NP
 sub,mclad101,"Denny McLain",0,3,12
 play,6,0,freeb103,??,,NP
@@ -3128,7 +3127,6 @@ play,9,0,wardj101,??,,NP
 sub,hersm101,"Mike Hershberger",1,8,7
 play,9,0,wardj101,??,,NP
 sub,lolim101,"Mickey Lolich",0,3,11
-com,"2 pitchers PH in this game Mayo what are you thinking?"
 play,9,0,lolim101,??,,43
 play,9,0,freeb103,??,,D
 play,9,0,browg101,??,,43.2-3
@@ -4090,7 +4088,6 @@ play,4,1,robif102,??,,D7.2-H
 play,4,1,paglj101,??,,S7.2-H
 play,4,1,cated101,??,,6(1)3/GDP
 play,4,1,jackr001,??,,HR8/IPHR
-com,"IPHR"
 play,4,1,hersm101,??,,D7
 play,4,1,nashj101,??,,WP.2-3
 play,4,1,nashj101,??,,K/C
@@ -4226,7 +4223,7 @@ play,3,1,bands101,??,,63
 play,4,0,whitr101,??,,S9.B-2(E9)
 play,4,0,mantm101,??,,143.2-3
 play,4,0,pepij101,??,,43.3-H(UR)
-com,"$1st run in 26 innings off Oakland pitchers"
+com,"$first run in 26 innings off Athletics pitchers"
 play,4,0,kosca101,??,,S8
 play,4,0,trest101,??,,K
 play,4,1,rudij101,??,,53
@@ -4406,7 +4403,6 @@ play,4,1,duncd101,??,,53.1-2;2-3
 play,4,1,piert101,??,,13
 play,5,0,gibbj101,??,,9
 play,5,0,stotm101,??,,K/C
-com,"Lights on"
 play,5,0,clarh101,??,,8
 play,5,1,campb101,??,,63
 play,5,1,donaj101,??,,7
@@ -4522,11 +4518,9 @@ play,2,0,blefc101,??,,S9
 play,2,0,johnd105,??,,9
 play,2,0,fernc101,??,,8
 play,2,0,hardj101,??,,64(1)/FO#
-com,"unsure of fielder's assist"
 play,2,1,websr102,??,,63
 play,2,1,jackr001,??,,W
 play,2,1,rudij101,??,,SB2.1-3(E2/TH2)#
-com,"guessing timing"
 play,2,1,rudij101,??,,3/FL
 play,2,1,duncd101,??,,K
 play,3,0,blaip101,??,,8
@@ -4540,7 +4534,6 @@ play,4,0,robib104,??,,63
 play,4,0,blefc101,??,,HR/9
 play,4,0,johnd105,??,,W
 play,4,0,fernc101,??,,WP.1-2#
-com,"guessing timing"
 play,4,0,fernc101,??,,8
 play,4,0,hardj101,??,,K
 play,4,1,mondr001,??,,S8
@@ -4588,7 +4581,6 @@ play,8,1,cated101,??,,D7#
 play,8,1,jackr001,??,,S9.2-H
 play,8,1,robif102,??,,NP
 sub,hersm101,"Mike Hershberger",1,7,11
-com,"not sure Hershberger PH'd here"
 play,8,1,hersm101,??,,HR/7.1-H
 play,8,1,duncd101,??,,2/FL
 play,9,0,poweb101,??,,NP
@@ -4596,8 +4588,7 @@ sub,cated101,"Danny Cater",1,5,3
 play,9,0,poweb101,??,,NP
 sub,hersm101,"Mike Hershberger",1,7,7
 play,9,0,poweb101,??,,43
-play,9,0,robib104,??,,S8#
-com,"guessing fielder"
+play,9,0,robib104,??,,S
 play,9,0,blefc101,??,,9
 play,9,0,johnd105,??,,64(1)/FO
 data,er,hardj101,1
@@ -4659,8 +4650,7 @@ play,1,0,valef101,??,,W
 play,1,0,robif103,??,,E5.1-3;B-2(TH)
 play,1,0,poweb101,??,,43.3-H(UR);2-3
 play,1,0,robib104,??,,K
-play,1,1,campb101,??,,S7.B-2(E6)#
-com,"could be S8"
+play,1,1,campb101,??,,S7.B-2(E6)
 play,1,1,donaj101,??,,63
 play,1,1,mondr001,??,,W
 play,1,1,bands101,??,,D9.2-H;1-3
@@ -4678,8 +4668,7 @@ play,2,1,donaj101,??,,NP
 sub,nelsr101,"Roger Nelson",0,9,1
 play,2,1,donaj101,??,,W.1-2
 play,2,1,mondr001,??,,6(1)3/GDP.3-H;2-3
-play,2,1,bands101,??,,S7.3-H#
-com,"could be S6"
+play,2,1,bands101,??,,S7.3-H
 play,2,1,websr102,??,,CS2(26)
 play,3,0,nelsr101,??,,K
 play,3,0,blaip101,??,,53
@@ -4704,8 +4693,7 @@ sub,hende103,"Ellie Hendricks",0,9,11
 play,5,0,hende103,??,,K/C
 play,5,1,websr102,??,,NP
 sub,odonj101,"John O'Donoghue",0,9,1
-play,5,1,websr102,??,,S7#
-com,"guessing fielder"
+play,5,1,websr102,??,,S
 play,5,1,jackr001,??,,W.1-2
 play,5,1,rudij101,??,,7
 play,5,1,roofp101,??,,64(1)3/GDP
@@ -4745,7 +4733,6 @@ play,7,1,rudij101,??,,5
 play,7,1,roofp101,??,,9
 play,8,0,blaip101,??,,NP
 sub,hersm101,"Mike Hershberger",1,7,7
-com,"guessing Hershberger came in here"
 play,8,0,blaip101,??,,3/FL
 play,8,0,valef101,??,,W
 play,8,0,robif103,??,,NP
@@ -4815,10 +4802,6 @@ start,rudij101,"Joe Rudi",1,6,7
 start,websr102,"Ray Webster",1,7,3
 start,duncd101,"Dave Duncan",1,8,2
 start,odomj101,"Johnny Odom",1,9,1
-com,"translator thinks Frank Robinson and Blefary may have"
-com,"traded places, but it's not clear if he meant at the start"
-com,"of the game or in the later innings, as they had done before"
-com,"in previous games"
 play,1,0,bufod101,??,,43
 play,1,0,valef101,??,,3/G
 play,1,0,robif103,??,,8
@@ -4836,10 +4819,8 @@ play,2,1,websr102,??,,43.1-2
 play,2,1,duncd101,??,,53
 play,2,1,odomj101,??,,53
 play,3,0,johnd105,??,,63
-play,3,0,hende103,??,,S8#
-com,"guessing fielder"
-play,3,0,brabg101,??,,FC/SH.1-2;B-1#
-com,"translator put 'SH.B-1;1-2(FC)'"
+play,3,0,hende103,??,,S
+play,3,0,brabg101,??,,FC/SH.1-2;B-1
 play,3,0,bufod101,??,,S9.2-3;1-2
 play,3,0,valef101,??,,46(1)3/GDP
 play,3,1,campb101,??,,HP
@@ -4868,13 +4849,10 @@ play,6,0,poweb101,??,,S9.1-3
 play,6,0,blefc101,??,,K
 play,6,0,robib104,??,,K
 play,6,1,mondr001,??,,43
-play,6,1,bands101,??,,S8#
-com,"guessing fielder"
-play,6,1,jackr001,??,,S8.1-3#
-com,"guessing fielder"
+play,6,1,bands101,??,,S
+play,6,1,jackr001,??,,S.1-3
 play,6,1,rudij101,??,,K
-play,6,1,websr102,??,,S7.3-H;1-3#
-com,"guessing fielder"
+play,6,1,websr102,??,,S.3-H;1-3
 play,6,1,duncd101,??,,W.1-2
 play,6,1,odomj101,??,,K/C
 play,7,0,johnd105,??,,NP
@@ -4930,8 +4908,6 @@ play,9,1,lindp101,??,,NP
 sub,robif103,"Frank Robinson",0,3,9
 play,9,1,lindp101,??,,NP
 sub,blefc101,"Curt Blefary",0,5,7
-com,"See note at start of game.  They swapped positions at some"
-com,"point during the game... placement here is a guess"
 play,9,1,lindp101,??,,7
 play,9,1,campb101,??,,9
 play,9,1,donaj101,??,,S9
@@ -5023,7 +4999,6 @@ play,4,0,blefc101,??,,6
 play,4,1,mondr001,??,,K
 play,4,1,bands101,??,,S8
 play,4,1,jackr001,??,,SB2#
-com,"guessing timing"
 play,4,1,jackr001,??,,K/C
 play,4,1,hersm101,??,,8
 play,5,0,robib104,??,,2/FL
@@ -5057,7 +5032,6 @@ play,8,0,bufod101,??,,NP
 sub,lindp101,"Paul Lindblad",1,9,1
 play,8,0,bufod101,??,,S9.2-3
 play,8,0,valef101,??,,FLE3#
-com,"guess"
 play,8,0,valef101,??,,64(1)/FO.3-H(UR)
 play,8,0,robif103,??,,IW.1-2
 play,8,0,poweb101,??,,43
@@ -5078,13 +5052,11 @@ play,9,1,segud101,??,,NP
 sub,odomj101,"Johnny Odom",1,8,12
 play,9,1,segud101,??,,NP
 sub,gosgj101,"Jim Gosger",1,9,11
-play,9,1,gosgj101,??,,NP
+play,9,1,gosgj101,01,,NP
 sub,cated101,"Danny Cater",1,9,11
 play,9,1,cated101,??,,WP.1-2
 play,9,1,cated101,??,,NP
 sub,richp102,"Pete Richert",0,9,1
-com,"translator says Cater replaced Gosger with count of 0-1, but"
-com,"he makes no mention when Richert came in exactly"
 play,9,1,cated101,??,,3(B)6(2)/LDP
 play,9,1,campb101,??,,S8
 play,9,1,donaj101,??,,46(1)/FO
@@ -5158,7 +5130,6 @@ play,2,0,robib104,??,,6
 play,2,0,johnd105,??,,W
 play,2,0,etcha101,??,,E6.1-2
 play,2,0,bunkw101,??,,FC5.2-H(E5)(UR);1-H(NR)(UR);B-2#
-com,"assuming fielder was 3B.  Perhaps bunt attempt?"
 play,2,0,bufod101,??,,8
 play,2,0,valef101,??,,8
 play,2,1,hersm101,??,,S#
@@ -5173,7 +5144,6 @@ play,3,0,blefc101,??,,9
 play,3,0,robib104,??,,8
 play,3,1,mondr001,??,,S9
 play,3,1,bands101,??,,SB2#
-com,"guessing timing"
 play,3,1,bands101,??,,K/C
 play,3,1,jackr001,??,,S7.2-H;B-2(THH)
 play,3,1,hersm101,??,,8
@@ -5909,8 +5879,7 @@ play,3,1,duncd101,??,,D8.1-3
 play,3,1,huntj101,??,,63.2-3;3-H
 play,3,1,donaj101,??,,K/C
 play,3,1,campb101,??,,53
-play,4,0,browl104,??,,FLE3
-com,"TJR: Webster is missing an error.  Perhaps a FLE3 somewhere?"
+play,4,0,browl104,??,,FLE3#
 play,4,0,browl104,??,,5/FL
 play,4,0,fullv101,??,,43
 play,4,0,mcdos101,??,,3/G
@@ -6292,6 +6261,8 @@ play,9,0,tartj101,??,,7
 play,9,0,andrm101,??,,K/C
 play,9,0,joned102,??,,S4
 play,9,0,yastc101,??,,K/C
+com,"ej,yastc101,P,salea901,Called third strike"
+com,"Carl Yastrzemski ejected by HP umpire Al Salerno"
 play,9,1,campb101,??,,NP
 sub,tartj101,"Jose Tartabull",0,9,7
 play,9,1,campb101,??,,NP
@@ -6690,8 +6661,8 @@ play,2,1,huntj101,??,,3
 play,2,1,donaj101,??,,S.2-H;1-2
 play,2,1,cated101,??,,63.2-3;1-2
 play,2,1,mondr001,??,,W
-play,2,1,bands101,??,,64(1)/FO
-com,"BOGUS PLAY! I know there's a force out but I don't know how."
+play,2,1,bands101,??,,99(1)/FO#
+com,"missing play in OAK196807170"
 play,3,0,stanm101,??,,63
 play,3,0,nortj101,??,,S
 play,3,0,kalia101,??,,7/L
@@ -6732,7 +6703,6 @@ sub,dobsp101,"Pat Dobson",0,9,1
 play,7,1,kubit101,??,,6
 play,7,1,huntj101,??,,S
 play,7,1,donaj101,??,,43(B)63(1)/GDP
-com,"don't ask -- that's what I say!"
 play,8,0,nortj101,??,,8
 play,8,0,kalia101,??,,W
 play,8,0,hortw101,??,,7
@@ -7427,8 +7397,7 @@ play,2,0,kenwd102,??,,K
 play,2,1,bands101,??,,S
 play,2,1,hersm101,??,,S.1-3
 play,2,1,jackr001,??,,S.1-3;3-H;B-2(TH3)
-play,2,1,duncd101,??,,FC5.3XH(52);2X3(25);B-3(TH)
-com,"No DP credited."
+play,2,1,duncd101,??,,FC5/NDP.3XH(52);2X3(25);B-3(TH)
 play,2,1,greed102,??,,K
 play,3,0,mcnej101,??,,S
 play,3,0,johnt001,??,,S.1-3
@@ -8063,9 +8032,7 @@ play,1,0,poweb101,??,,3/FL
 play,1,1,campb101,??,,9
 play,1,1,jackr001,??,,S8
 play,1,1,mondr001,??,,PB.1-2#
-com,"guessing timing"
 play,1,1,mondr001,??,,WP.2-3#
-com,"guessing timing"
 play,1,1,mondr001,??,,K
 play,1,1,donaj101,??,,13
 play,2,0,hende103,??,,5
@@ -8088,7 +8055,6 @@ play,4,0,robib104,??,,W
 play,4,0,johnd105,??,,K
 play,4,1,jackr001,??,,S9
 play,4,1,mondr001,??,,31.1-3
-com,"1-3 is clear on Orioles sheet"
 play,4,1,donaj101,??,,S9.3-H
 play,4,1,greed102,??,,K
 play,4,1,cated101,??,,64(1)/FO
@@ -8104,7 +8070,6 @@ play,6,0,poweb101,??,,8
 play,6,0,hende103,??,,31
 play,6,1,campb101,??,,S6
 play,6,1,jackr001,??,,SB2#
-com,"guessing timing"
 play,6,1,jackr001,??,,K
 play,6,1,mondr001,??,,K/C
 play,6,1,donaj101,??,,K
@@ -8169,7 +8134,6 @@ sub,etcha101,"Andy Etchebarren",0,2,11
 play,10,0,etcha101,??,,NP
 sub,akerj102,"Jack Aker",1,9,1
 play,10,0,etcha101,??,,S8.1-2#
-com,"guessing fielder"
 play,10,0,robif103,??,,7
 play,10,0,blaip101,??,,D/78.2-H;1-H#
 play,10,0,hende103,??,,K/C
@@ -8259,7 +8223,7 @@ play,1,0,belam101,??,,K/C
 play,1,0,robif103,??,,K
 play,1,1,campb101,??,,8
 play,1,1,jackr001,??,,K
-play,1,1,cated101,??,,S#
+play,1,1,cated101,??,,S
 play,1,1,bands101,??,,S8.1-3
 play,1,1,greed102,??,,W.1-2
 play,1,1,hersm101,??,,PB.3-H(UR);2-3;1-2
@@ -8276,7 +8240,6 @@ play,2,1,campb101,??,,6(1)3/GDP
 play,3,0,mcnad102,??,,5/FL#
 play,3,0,bufod101,??,,W
 play,3,0,belam101,??,,SB2#
-com,"guessing timing"
 play,3,0,belam101,??,,K
 play,3,0,robif103,??,,W
 play,3,0,poweb101,??,,D/78.2-H;1-H#
@@ -8291,7 +8254,6 @@ play,4,0,robib104,??,,HR/7
 play,4,0,johnd105,??,,S9
 play,4,0,blefc101,??,,S9.1-2
 play,4,0,mcnad102,??,,BK.2-3;1-2#
-com,"guessing timing"
 play,4,0,mcnad102,??,,5/BP/FL
 play,4,0,bufod101,??,,S9.3-H;2-H;B-2(THH)
 play,4,0,belam101,??,,NP
@@ -8316,7 +8278,6 @@ sub,segud101,"Diego Segui",1,5,1
 play,5,0,robib104,??,,NP
 sub,donaj101,"John Donaldson",1,9,4
 play,5,0,robib104,??,,WP.2-3#
-com,"guessing timing"
 play,5,0,robib104,??,,K/C
 play,5,0,johnd105,??,,FC4.3XH(42);B-2(THH)
 play,5,0,blefc101,??,,IW
@@ -8352,8 +8313,7 @@ play,6,1,bands101,??,,8
 play,7,0,robib104,??,,S7
 play,7,0,johnd105,??,,S.1-2
 play,7,0,blefc101,??,,9/L
-play,7,0,richp102,??,,WP.2-3
-com,"Somewhat of a guess.  Segui was missing a WP somewhere in here."
+play,7,0,richp102,??,,WP.2-3#
 play,7,0,richp102,??,,K
 play,7,0,bufod101,??,,IW.1-2
 play,7,0,belam101,??,,8
@@ -8364,9 +8324,8 @@ play,7,1,hersm101,??,,5
 play,7,1,mondr001,??,,K
 play,8,0,robif103,??,,NP
 sub,akerj102,"Jack Aker",1,5,1
-play,8,0,robif103,??,,D9#
+play,8,0,robif103,??,,D
 play,8,0,poweb101,??,,WP.2-3#
-com,"guessing timing"
 play,8,0,poweb101,??,,6
 play,8,0,blaip101,??,,53
 play,8,0,robib104,??,,IW
@@ -8469,9 +8428,8 @@ start,dobsc101,"Chuck Dobson",1,9,1
 play,1,0,bufod101,??,,8
 play,1,0,belam101,??,,K/C
 play,1,0,robif103,??,,K23
-play,1,1,campb101,??,,S/BG#
+play,1,1,campb101,??,,S/BG
 play,1,1,jackr001,??,,POCS2(13)#
-com,"guessing timing"
 play,1,1,jackr001,??,,K
 play,1,1,keouj101,??,,K/C
 play,2,0,poweb101,??,,43
@@ -8628,8 +8586,7 @@ play,2,1,cated101,??,,53
 play,3,0,cox-b103,??,,K
 play,3,0,clarh101,??,,S7
 play,3,0,stotm101,??,,K
-play,3,0,trest101,??,,SB2
-com,"TJR: placement a guess.  He had a SB sometime in game."
+play,3,0,trest101,??,,SB2#
 play,3,0,trest101,??,,K
 play,3,1,paglj101,??,,S8
 play,3,1,gosgj101,??,,46(1)/FO
@@ -8642,7 +8599,7 @@ play,4,0,colar101,??,,6
 play,4,1,jackr001,??,,43
 play,4,1,keouj101,??,,8
 play,4,1,bands101,??,,HP
-com,"$Bando hit on helmet"
+com,"Sal Bando hit on helmet"
 play,4,1,greed102,??,,WP.1-2
 play,4,1,greed102,??,,W
 play,4,1,cated101,??,,43
@@ -8658,8 +8615,10 @@ play,5,1,jackr001,??,,HR/9.2-H
 play,5,1,keouj101,??,,13
 play,5,1,bands101,??,,53
 play,6,0,trest101,??,,T8
-com,"$Called out at first; ruling reversed and a long dispute"
-com,"follows"
+com,"$Jim Gosger played the ball as he crashed into the fence;"
+com,"2B umpire Frank Umont ruled the play a catch; 3B umpire"
+com,"Bill Haller overrulled Umont and awarded Tom Tresh a"
+com,"triple; the Athletics disputed the reversal"
 play,6,0,gibbj101,??,,W
 play,6,0,mantm101,??,,HR/9.3-H;1-H
 play,6,0,pepij101,??,,7
@@ -8777,8 +8736,7 @@ play,1,1,cated101,??,,S7.1-3
 play,1,1,bands101,??,,9/SF.3-H
 play,1,1,greed102,??,,54(1)/FO
 play,2,0,whitr101,??,,W
-play,2,0,pepij101,??,,SB2
-com,"Placement of SB is a guess."
+play,2,0,pepij101,??,,SB2#
 play,2,0,pepij101,??,,13.2-2
 play,2,0,cox-b103,??,,K
 play,2,0,kosca101,??,,63
@@ -8996,14 +8954,13 @@ play,8,1,gosgj101,??,,43
 play,8,1,huntj101,??,,9
 play,8,1,campb101,??,,9
 play,9,0,pepij101,??,,S6
-com,"$Pepitone injured foot"
 play,9,0,trest101,??,,NP
 sub,michg101,"Gene Michael",0,5,12
+com,"Joe Pepitone left with injured foot"
 play,9,0,trest101,??,,S9.1-2
 play,9,0,kosca101,??,,NP
 sub,kraul102,"Lew Krausse",1,9,1
-play,9,0,kosca101,??,,HR/7.2-H;1-H
-com,"0-2 count"
+play,9,0,kosca101,02,,HR/7.2-H;1-H
 play,9,0,cox-b103,??,,5/FL
 play,9,0,womad101,??,,7
 play,9,0,clarh101,??,,7
@@ -9178,7 +9135,6 @@ play,8,1,donaj101,??,,43
 play,9,0,mcdal101,??,,K
 play,9,0,clarh101,??,,43
 play,9,0,gibbj101,??,,31
-com,"Lights on"
 play,9,1,campb101,??,,13
 play,9,1,jackr001,??,,31
 play,9,1,cated101,??,,63
@@ -10397,11 +10353,7 @@ sub,lashf101,"Fred Lasher",0,9,1
 play,8,1,jackr001,??,,S
 play,8,1,cated101,??,,63.1-2
 play,8,1,bands101,??,,63.2-H(E3)#
-com," this is all a guess on RGF's part -- I have no idea how "
-com,"things happened in this sequence."
 play,8,1,hersm101,??,,S
-com,"no RBI is credited to Hershberger, so that's why I did the"
-com,"previous sequence that way."
 play,8,1,duncd101,??,,WP.1-2
 play,8,1,duncd101,??,,K/C
 play,9,0,nortj101,??,,6
@@ -10493,8 +10445,7 @@ play,3,1,bands101,??,,53
 play,4,0,freeb103,??,,S
 play,4,0,mathe101,??,,8
 play,4,0,matct101,??,,W.1-2
-play,4,0,sparj101,??,,FC1/SH.2-3;1-2;B-1
-com,"BOGUS PLAY! I don't to whom the fc is to. RGF"
+play,4,0,sparj101,??,,FC/SH.2-3;1-2;B-1
 play,4,0,mcaud101,??,,NP
 sub,boglw101,"Warren Bogle",1,9,1
 play,4,0,mcaud101,??,,W.3-H;2-3;1-2
@@ -10503,7 +10454,6 @@ sub,sprae101,"Ed Sprague",1,9,1
 play,4,0,stanm101,??,,9(B)92(3)/FDP
 play,4,1,mondr001,??,,NP
 sub,wertd103,"Don Wert",0,7,5
-com,"unsure of Wert's entry, but Mathews' ab's stop here."
 play,4,1,mondr001,??,,K
 play,4,1,paglj101,??,,53
 play,4,1,donaj101,??,,43
@@ -10557,7 +10507,6 @@ sub,hillj101,"John Hiller",0,9,1
 play,8,1,jackr001,??,,S.1-2#
 play,8,1,cated101,??,,NP
 sub,facer101,"Roy Face",0,9,1
-com,"$First appearance in a Detroit uniform for Face"
 play,8,1,cated101,??,,S.2-H;1-3
 play,8,1,bands101,??,,7
 play,8,1,mondr001,??,,IW.1-2
@@ -10724,15 +10673,13 @@ play,8,1,bands101,??,,SB2
 play,8,1,bands101,??,,W
 play,8,1,keouj101,??,,NP
 sub,facer101,"Roy Face",0,9,1
-play,8,1,keouj101,??,,S9.2-H;1-H(E9)(UR);BX2(94)
+play,8,1,keouj101,??,,S9.2-H;1-H(E9)(UR);BX2(94)#
 play,9,0,wertd103,??,,NP
 sub,gosgj101,"Jim Gosger",1,5,7
 play,9,0,wertd103,??,,NP
 sub,websr102,"Ray Webster",1,9,3
 play,9,0,wertd103,??,,NP
 sub,sprae101,"Ed Sprague",1,3,1
-com,"I don't know Keough was out the last inning -- the BX4 is "
-com,"an RGF BOGUS PLAY"
 play,9,0,wertd103,??,,NP
 sub,mathe101,"Eddie Mathews",0,8,11
 play,9,0,mathe101,??,,W
@@ -11043,8 +10990,7 @@ play,7,1,odomj101,??,,NP
 sub,lewia101,"Allan Lewis",1,8,12
 play,7,1,odomj101,??,,S.2-3
 play,7,1,campb101,??,,46(1)/FO.3-3
-play,7,1,mondr001,??,,SB2
-com,"Placement of SB a guess."
+play,7,1,mondr001,??,,SB2#
 play,7,1,mondr001,??,,K
 play,7,1,cated101,??,,S8.2-H;3-H
 play,7,1,bands101,??,,PO1(E2).1-2

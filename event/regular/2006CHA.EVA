@@ -430,7 +430,8 @@ play,8,0,martv001,12,SBCX,53/G
 play,8,0,broub001,11,BFX,S9/G
 play,8,0,bellr002,00,,NP
 sub,polic001,"Cliff Politte",1,0,1
-play,8,0,bellr002,11,.>F1BX,2/BG/INT.1-1
+play,8,0,bellr002,11,.>F1BX,2/BG/BINT.1-1
+com,"$Ron Belliard called for interference"
 play,8,0,boona001,00,*B,PB.1-2
 play,8,0,boona001,22,*B.BFFS,K23
 play,8,1,mackr001,00,X,9/F
@@ -6219,7 +6220,7 @@ play,4,1,thomj002,32,SBBBCB,W
 play,4,1,konep001,22,CBC*BX,8/F
 play,4,1,dye-j001,01,CX,S9/L.1-2
 play,4,1,credj001,00,X,3/P
-play,5,0,hernr002,00,X,DGR/7
+play,5,0,hernr002,00,X,DGR/7/FINT
 com,"fan interference"
 play,5,0,millk005,00,X,4/P.2-3
 play,5,0,markn001,00,,NP
@@ -9054,7 +9055,7 @@ play,1,1,iguct001,31,BBBCX,13/G
 play,1,1,thomj002,00,X,8/F
 play,2,0,ordom001,22,BFSBS,K
 play,2,0,guilc001,12,FBFS,K
-play,2,0,monrc001,00,X,DGR/7/L
+play,2,0,monrc001,00,X,DGR/7/L/FINT
 com,"fan interference"
 play,2,0,thamm001,22,BBSFS,K
 play,2,1,konep001,11,SBX,4/P
@@ -9526,7 +9527,7 @@ play,5,0,berra001,22,CBBFX,E9/F.2-H(NR)(UR);B-3
 play,5,0,dejed001,32,BBBCCS,K
 play,5,1,credj001,02,CTX,8/F
 play,5,1,uribj002,11,SBX,S5/G
-play,5,1,andeb003,31,1BBBCX,DGR/7.1-3
+play,5,1,andeb003,31,1BBBCX,DGR/7/FINT.1-3
 com,"fan interference"
 play,5,1,podss001,31,F*BB*BX,8/SF.3-H
 play,5,1,iguct001,12,CSBX,S8/G.2-H
@@ -9649,7 +9650,7 @@ play,3,0,dejed001,11,P11F>X,S7/F-.1-2
 play,3,0,grudm001,11,CBX,HR/7/F.2-H;1-H
 play,3,0,teahm001,02,CCFX,3/G
 play,3,0,browe001,20,BBX,D7/L
-play,3,0,sandr002,00,X,DGR/7.2-H
+play,3,0,sandr002,00,X,DGR/7/FINT.2-H
 com,"fan interference"
 play,3,0,shear001,00,X,HR/7/F.2-H
 play,3,0,bakop001,00,X,7/F
@@ -10024,7 +10025,7 @@ play,9,1,iguct001,00,,NP
 sub,cinta001,"Alex Cintron",1,2,11
 play,9,1,cinta001,02,.CF11,PO1(E1).1-2
 play,9,1,cinta001,22,.CF11.FF*BBC,K
-play,9,1,dye-j001,02,CSX,3/P3F
+play,9,1,dye-j001,02,CSX,3/P3F/FINT
 com,"fan interference"
 data,er,radkb001,3
 data,er,guerm001,0
@@ -10669,8 +10670,8 @@ play,9,0,zobrb001,00,..X,S8/G
 play,9,0,paulj001,00,,NP
 sub,navad001,"Dioner Navarro",0,9,11
 play,9,0,navad001,12,.CFFBS,K
-play,9,0,baldr001,21,BBFX,9/LDP.1X2(936)
-com,"$Appeal play"
+play,9,0,baldr001,21,BBFX,9/LDP/AP.1X2(936)
+com,"$Ben Zobrist called out on appeal for leaving 1B too soon"
 data,er,corct002,1
 data,er,miced001,0
 data,er,meadb001,3

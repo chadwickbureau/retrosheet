@@ -345,7 +345,8 @@ play,4,1,moora001,12,CCB1>X,43/G
 play,5,0,patte001,22,FBSBC,K
 play,5,0,pennc001,21,BCBX,7/F
 play,5,0,davir003,12,BCCX,3/P3F
-play,5,1,wilsj002,01,SX,2/BG/INT
+play,5,1,wilsj002,01,SX,2/BG/BINT
+com,"$Jack Wilson called for interference"
 play,5,1,suzui001,32,BCBCBX,S2/G-
 play,5,1,figgc001,31,B1CBBB,W.1-2
 play,5,1,gutif001,32,C*BC*BB>B,W.2-3;1-2
@@ -600,7 +601,7 @@ play,1,0,jacka001,12,CSBFC,K
 play,1,0,rabur001,10,BX,53/G
 play,1,0,ordom001,32,BFBBCB,W
 play,1,0,cabrm001,10,BX,9/L
-play,1,1,suzui001,00,X,DGR/9/L
+play,1,1,suzui001,00,X,DGR/9/L/FINT
 com,"fan interference"
 play,1,1,figgc001,11,CB>B,SB3
 play,1,1,figgc001,32,CB>B.SBF,FLE7
@@ -1333,9 +1334,9 @@ play,7,0,guerv001,01,CX,9/F
 play,7,0,kinsi001,22,FCFBBC,K
 play,7,1,grifk002,22,CBBSX,7/F
 play,7,1,bradm001,12,CTBC,K
-play,7,1,kotcc001,22,CBBFFX,3/G/INT
+play,7,1,kotcc001,22,CBBFFX,3/G/BINT
 com,"$the throw by Matt Treanor went past 1B Justin Smoak; however, Casey Kotchman"
-com,"was called out for running outside the baseline"
+com,"was called for interference for running outside the baseline"
 play,8,0,garkr001,00,,NP
 sub,lowem002,"Mark Lowe",1,0,1
 play,8,0,garkr001,00,.X,8/F
@@ -4208,7 +4209,7 @@ play,4,0,valed001,21,BFBX,5/P
 play,4,1,wilsj003,01,TX,63/G
 play,4,1,johnr009,00,X,S1/BG
 play,4,1,saunm001,12,CCBX,S8/L.1-2
-play,4,1,suzui001,00,X,8/FDP.1X2(16)
+play,4,1,suzui001,00,X,8/FDP/AP.1X2(16)
 com,"$Mariners Michael Saunders was called out on appeal because he touched 2B and"
 com,"took a step beyond but failed to touch the bag on the way back to 1B after the"
 com,"catch in CF"
@@ -5872,7 +5873,7 @@ play,8,1,wilsj002,32,CFBBBX,S4/L-
 play,8,1,suzui001,01,CX,S9/L.1-2
 play,8,1,figgc001,11,CB>B,SB3
 play,8,1,figgc001,32,CB>B.1BS>X,7/SF/F.3-H
-play,8,1,branr001,00,X,DGR/9.1-3
+play,8,1,branr001,00,X,DGR/9/FINT.1-3
 com,"fan interference"
 play,8,1,lopej003,10,BX,53/G
 play,9,0,bloow001,00,,NP
@@ -5997,9 +5998,9 @@ play,6,1,saunm001,22,BFBFFC,K
 play,7,0,betay001,00,,NP
 sub,sweeb001,"Brian Sweeney",1,0,1
 play,7,0,betay001,11,.BSX,D7/L
-play,7,0,getzc001,00,X,2/BG/INT.2-2
+play,7,0,getzc001,00,X,2/BG/BINT.2-2
 com,"$Chris Getz bunted the ball towards the 1B line and ran into it as he"
-com,"left the batter's box; it hit off his left knee"
+com,"left the batter's box; it hit off his left knee and was ruled interference"
 play,7,0,podss001,21,BFBX,8/F.2-3
 play,7,0,kendj001,01,CB,WP.3-H(NR)
 play,7,0,kendj001,22,CB.BFFX,8/F
@@ -6033,7 +6034,7 @@ play,9,0,kendj001,00,,NP
 sub,cordc001,"Chad Cordero",1,0,1
 play,9,0,kendj001,01,.CX,53/G
 play,9,0,dejed001,01,FX,8/L
-play,9,0,butlb003,01,CX,HR/9/F
+play,9,0,butlb003,01,CX,HR/9/F/REV
 com,"replay,9,butlb003,KCA,gormb901,SEA03,O,Y"
 com,"$the fly by Billy Butler flew over the extended reach of Ichiro Suzuki, hit something"
 com,"between the barrier wall and the concrete wall and rebounded back onto the field; it"
@@ -6294,7 +6295,7 @@ play,6,0,canor001,11,CBX,T8/L.3-H(UR);1-H(TUR)
 play,6,0,posaj001,31,BCBBB,W
 play,6,0,granc001,11,BFX,S9/L.3-H(TUR);1-2
 play,6,0,curtc002,12,CFBS,K
-play,6,1,figgc001,01,CX,DGR/9
+play,6,1,figgc001,01,CX,DGR/9/FINT
 com,"fan interference"
 play,6,1,branr001,01,CX,9/F
 play,6,1,lopej003,01,CX,D7/F.2-H
@@ -7478,8 +7479,8 @@ play,1,0,scutm001,22,CBCBX,53/G
 play,1,0,patte001,12,CSBFX,7/F
 play,1,0,ortid001,02,CCS,K
 play,1,1,suzui001,12,CCBS,K23
-play,1,1,figgc001,11,CBX,2/BG/INT
-com,"batter interference"
+play,1,1,figgc001,11,CBX,2/BG/BINT
+com,"$Chone Figgins called for interference"
 play,1,1,gutif001,22,BCCBFX,63/G
 play,2,0,youkk001,22,CBSBT,K
 play,2,0,belta001,32,CFFBBBFB,W
@@ -10428,7 +10429,7 @@ play,5,1,tuiam001,12,CSBFC,K
 play,5,1,moora001,31,SBBBX,31/G+
 play,6,0,martv001,02,CCFFX,4/P
 play,6,0,ortid001,01,CF,FLE2
-play,6,0,ortid001,22,CFBBX,DGR/9
+play,6,0,ortid001,22,CFBBX,DGR/9/FINT
 com,"fan interference"
 play,6,0,belta001,01,FX,7/F
 play,6,0,lowrj001,22,CBBCFX,9/L

@@ -5301,7 +5301,7 @@ play,8,1,andeb003,22,CBCBFC,K
 play,8,1,hallt001,22,BSBFS,K
 play,8,1,cabro001,00,,NP
 sub,uribj002,"Juan Uribe",1,1,11
-play,8,1,uribj002,10,.BX,DGR7/INT
+play,8,1,uribj002,10,.BX,DGR7/FINT
 com,"fan interference"
 play,8,1,ramia003,00,X,E4/P.2-H(NR)(UR);B-2
 play,8,1,quenc001,01,FX,S4/G.2-3
@@ -5996,7 +5996,7 @@ play,2,1,hallt001,22,CFBBX,5!3/G
 play,3,0,sizeg001,12,CCBS,K
 play,3,0,carrj001,22,CSFBBT,K
 play,3,0,franb001,01,FX,S7/L.BX2(743)
-play,3,1,cabro001,00,X,DGR/9/F/INT
+play,3,1,cabro001,00,X,DGR/9/F/FINT
 com,"fan interference"
 play,3,1,andeb003,00,X,53/G
 play,3,1,quenc001,01,SX,9/F
@@ -6328,7 +6328,8 @@ play,7,0,choos001,31,BBCBB,W
 play,7,0,blakc001,01,C1>C,SB2
 play,7,0,blakc001,02,C1>C.X,63/G
 play,7,1,ozunp001,00,X,E5/TH/G.B-2
-play,7,1,swisn001,00,X,2/BG/INT.2-2
+play,7,1,swisn001,00,X,2/BG/BINT.2-2
+com,"$Nick Swisher called for interference"
 play,7,1,ramia003,01,CX,S5/G.2-2
 play,7,1,andeb003,21,SBBX,D8/L.2-H(UR);1-H
 play,7,1,cabro001,10,*BX,13/G
@@ -7833,7 +7834,7 @@ play,4,1,uribj002,32,BBBCT>B,W.1-2
 play,4,1,cabro001,02,CSX,43/G
 play,5,0,bradm001,00,,NP
 sub,carrd001,"D.J. Carrasco",1,0,1
-play,5,0,bradm001,01,.CX,DGR/7/INT
+play,5,0,bradm001,01,.CX,DGR/7/FINT
 com,"fan interference"
 play,5,0,byrdm001,11,LBX,63/G.2-3
 play,5,0,blalh001,01,CX,8/SF/F.3-H
@@ -9828,7 +9829,7 @@ play,3,1,uribj002,02,CFX,S9/L.2-H
 play,3,1,cabro001,22,BBCFX,8/F
 play,4,0,lopej003,11,FBX,8/F
 play,4,0,clemj001,32,CBBSBFX,43/G
-play,4,0,balew001,20,BBX,DGR/7
+play,4,0,balew001,20,BBX,DGR/7/FINT
 com,"fan interference"
 play,4,0,lahab001,20,BBX,8/F
 play,4,1,piera001,22,CBBFX,S8/G
@@ -10371,10 +10372,10 @@ play,10,1,piera001,00,,NP
 sub,hammj002,"Jason Hammel",0,0,1
 play,10,1,piera001,00,.X,S8/G+
 play,10,1,quenc001,00,X,8/F.1-2
-play,10,1,dye-j001,11,CBX,FC6/G.2-3(E5)
-com,"$interference was called on Rays third baseman Willy Aybar by 2B umpire Doug"
+play,10,1,dye-j001,11,CBX,FC6/G/OBS.2-3(E5)
+com,"$obstruction called on Rays third baseman Willy Aybar by 2B umpire Doug"
 com,"Eddings when A.J. Pierzynski stuck his arm out and made contact with Aybar"
-com,"after Aybar made a throw' the ruling was that, even though Pierzynski initiated"
+com,"after Aybar made a throw; the ruling was that, even though Pierzynski initiated"
 com,"the contact, it is Aybar's responsibility to get out of the way"
 play,10,1,thomj002,30,IIII,IW.1-2
 play,10,1,ramia003,01,SX,S9/L.3-H;2-3;1-2
@@ -11336,8 +11337,8 @@ play,3,0,mcdoj003,02,CSX,4/P
 play,3,0,scutm001,32,FBBFBB,W
 play,3,0,bautj002,02,CFS,K
 play,3,0,riosa002,22,CF1BBF1X,8/L
-play,3,1,wised001,00,X,2/BG
-com,"$Wise called out on batter interference"
+play,3,1,wised001,00,X,2/BG/BINT
+com,"$Dewayne Wise called out on batter interference"
 play,3,1,dye-j001,22,CBFBT,K
 play,3,1,thomj002,12,BCSS,K
 play,4,0,wellv001,00,X,4!/L

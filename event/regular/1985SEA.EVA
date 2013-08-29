@@ -64,8 +64,8 @@ play,1,1,cowea001,,,S.2-3;1-2
 play,1,1,presj001,,,K
 play,1,1,kearb001,,,54(1)/FO
 play,2,0,davim002,,,31
-play,2,0,hilld001,,,2/INT
-com,"$Don Hill ran into own batted ball"
+play,2,0,hilld001,,,2/BINT
+com,"$Don Hill called for interference for running into own batted ball"
 play,2,0,grifa001,,,D
 play,2,0,colld001,,,PB.2-3
 play,2,0,colld001,,,W
@@ -246,7 +246,7 @@ play,6,0,heatm001,,,D.2-H;1-H
 play,6,0,davim002,,,9/FL
 play,6,1,bradp001,,,S
 play,6,1,davia002,,,S.1-2
-play,6,1,thomg001,,,3
+play,6,1,thomg001,,,3/IF
 com,"$infield fly dropped untouched"
 play,6,1,hendd001,,,S.2-H;1-2
 play,6,1,cowea001,,,NP
@@ -952,7 +952,7 @@ play,2,1,thomg001,,,W
 play,2,1,hendd001,,,3(B)3(1)/DP
 play,2,1,cowea001,,,K
 play,3,0,schod001,,,W
-play,3,0,pettg001,,,23/BG/INT.1-1
+play,3,0,pettg001,,,23/BG/BINT.1-1
 com,"$Gary Pettis called for interference for running out of the baseline"
 play,3,0,carer001,,,E1.1-3;B-1
 play,3,0,benij001,,,9
@@ -2687,8 +2687,8 @@ play,8,1,presj001,,,64(1)3/GDP
 play,8,1,kearb001,,,13
 play,9,0,connf001,,,K
 play,9,0,dauer001,,,8
-play,9,0,rayff001,,,2/INT
-com,"$Floyd Rayford ran into own batted ball"
+play,9,0,rayff001,,,2/BINT
+com,"$Floyd Rayford called for interference for running into his own batted ball"
 play,9,1,owens001,,,7
 play,9,1,percj001,,,53
 play,9,1,coled001,,,53
@@ -2747,6 +2747,7 @@ start,presj001,"Jim Presley",1,7,5
 start,kearb001,"Bob Kearney",1,8,2
 start,owens001,"Spike Owen",1,9,6
 start,beatj001,"Jim Beattie",1,0,1
+com,"Protest=H"
 play,1,0,lacyl001,,,53
 play,1,0,dwyej001,,,E7/F.B-1
 com,"$Seattle protested game on this call"
@@ -2823,8 +2824,7 @@ play,7,0,fordd001,,,8
 play,7,1,percj001,,,D
 play,7,1,bradp001,,,NP
 sub,stews001,"Sammy Stewart",0,0,1
-play,7,1,bradp001,,,S.2-2
-com,"$infield hit; runner holds"
+play,7,1,bradp001,,,S/G.2-2
 play,7,1,cowea001,,,5(2)4(1)/GDP.B-1
 play,7,1,phelk001,,,E3.1-2;B-1
 play,7,1,davia002,,,NP
@@ -6727,8 +6727,8 @@ play,4,1,thomg001,,,S.1-2
 play,4,1,cowea001,,,64(1)3/GDP.2-3
 play,4,1,hendd001,,,4
 play,5,0,barfj001,,,K
-play,5,0,fernt001,,,23/INT
-com,"$Tony Fernandez called out for running out of baseline"
+play,5,0,fernt001,,,23/BINT
+com,"$Tony Fernandez called for interference for running out of baseline"
 play,5,0,garcd001,,,D
 play,5,0,mosel001,,,3/L
 play,5,1,presj001,,,8
@@ -7399,7 +7399,7 @@ play,3,1,owens001,,,S
 play,3,1,bradp001,,,CS2(24)
 play,3,1,bradp001,,,13
 play,3,1,davia002,,,S
-play,3,1,thomg001,,,7/FL
+play,3,1,thomg001,,,7/FL/FINT
 com,"$fan interference"
 play,4,0,buckb001,,,43
 play,4,0,easlm001,,,K

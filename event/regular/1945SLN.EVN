@@ -4,6 +4,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/05/23
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -112,7 +113,6 @@ play,6,1,marim101,??,,7
 play,6,1,creej101,??,,8
 play,7,0,hartb101,??,,W
 play,7,0,owenm101,??,,3(B)3(1)/LDP/FL
-com,"$Yep, foul line drive for DP"
 play,7,0,basie101,??,,63
 play,7,1,berga102,??,,7
 play,7,1,hoppj102,??,,S
@@ -153,9 +153,10 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/05/24
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
-info,daynight,day
+info,daynight,night
 info,umphome,goetl901
 info,ump1b,jordl901
 info,ump2b,barrg901
@@ -242,9 +243,13 @@ play,5,0,galaa101,??,,S
 play,5,0,aderm101,??,,13
 play,5,1,garmd101,??,,S
 play,5,1,adamb101,??,,HR.1-H
-play,5,1,sandr102,??,,K
+play,5,1,sandr102,??,,K/C
+com,"ej,sandr102,P,goetl901,Called third strike (Threw bat)"
+com,"Ray Sanders ejected by HP umpire Larry Goetz"
 play,5,1,kurow101,??,,7
 play,5,1,odeak101,??,,K
+play,6,0,olmol101,??,,NP
+sub,hoppj102,"Johnny Hopp",1,4,3
 play,6,0,olmol101,??,,8
 play,6,0,hartb101,??,,K
 play,6,0,owenm101,??,,53
@@ -259,16 +264,12 @@ play,7,0,nitco101,??,,NP
 sub,bordf101,"Frenchy Bordagaray",0,9,11
 play,7,0,bordf101,??,,8
 play,7,0,stane101,??,,43
-play,7,1,sandr102,??,,NP
+play,7,1,hoppj102,??,,NP
 sub,chapb102,"Ben Chapman",0,9,1
-play,7,1,sandr102,??,,NP
-sub,hoppj102,"Johnny Hopp",1,4,11
 play,7,1,hoppj102,??,,13
 play,7,1,kurow101,??,,S
 play,7,1,odeak101,??,,CS2(24)
 play,7,1,odeak101,??,,3
-play,8,0,roseg101,??,,NP
-sub,hoppj102,"Johnny Hopp",1,4,3
 play,8,0,roseg101,??,,S
 play,8,0,galaa101,??,,S.1-3
 play,8,0,aderm101,??,,9/F.3-H
@@ -298,6 +299,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/05/25
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -459,6 +461,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/05/26
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -506,7 +509,7 @@ start,wilkt101,"Ted Wilks",1,9,1
 play,1,0,stane101,??,,E7/F.B-1
 play,1,0,roseg101,??,,HR/89.1-H(UR)
 play,1,0,galaa101,??,,HR/9
-com,"$light tower"
+com,"$off a light tower"
 play,1,0,walkd101,??,,4
 play,1,0,olmol101,??,,63
 play,1,0,bordf101,??,,S
@@ -622,6 +625,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/06/01
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -759,7 +763,7 @@ sub,creej101,"Jack Creel",1,9,12
 play,9,1,schor101,??,,7
 play,9,1,hoppj102,??,,T7.1-H
 play,9,1,adamb101,??,,63
-com,"53 min rain and gale delay"
+com,"53 minute rain delay"
 play,9,1,sandr102,??,,S9.3-H
 play,9,1,kurow101,??,,T7.1-H
 data,er,voisb101,4
@@ -771,6 +775,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/06/02
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -867,7 +872,7 @@ play,7,0,trear101,??,,13.1-2
 play,7,0,hausg101,??,,13
 play,7,1,hoppj102,??,,43
 play,7,1,adamb101,??,,W
-com,"Mungo had retired 19 straight"
+com,"$Van Mungo had retired 19 straight"
 play,7,1,sandr102,??,,K
 play,7,1,garmd101,??,,S1.1-H(E1)(NR);B-3
 play,7,1,odeak101,??,,S9.3-H(UR)
@@ -904,7 +909,6 @@ play,9,0,medwj101,??,,K/C
 play,9,1,sandr102,??,,NP
 sub,filis101,"Steve Filipowicz",0,1,7
 play,9,1,sandr102,??,,FLE2
-com,"Lombardi lost foul in sun"
 play,9,1,sandr102,??,,43
 play,9,1,garmd101,??,,S8
 play,9,1,odeak101,??,,E4.1-3;B-1
@@ -924,6 +928,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/06/03
+info,site,STL07
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -1053,8 +1058,6 @@ play,8,1,sandr102,??,,8/F.3-H
 play,8,1,odeak101,??,,D9.1-3
 play,8,1,adamb101,??,,IW
 play,8,1,marim101,??,,D9.3-H;2-H;1-H
-com,"after popping up with bases loaded in first, Marion knocks"
-com,"in 6 of 7 runners on base for him"
 play,8,1,verbe101,??,,S7.2-H
 play,8,1,barrr101,??,,13
 play,9,0,kerrb101,??,,8
@@ -1074,6 +1077,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/06/03
+info,site,STL07
 info,number,2
 info,starttime,0:00PM
 info,daynight,day
@@ -1203,6 +1207,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/07/12
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -1373,6 +1378,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/07/13
+info,site,STL07
 info,number,1
 info,starttime,0:00PM
 info,daynight,night
@@ -1534,6 +1540,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/07/13
+info,site,STL07
 info,number,2
 info,starttime,0:00PM
 info,daynight,night
@@ -1642,7 +1649,6 @@ play,7,1,barrr101,??,,53
 play,7,1,schor101,??,,43
 play,7,1,hoppj102,??,,8
 play,8,0,trear101,??,,43
-com,"Ump Dunn missed Sanders foot off bag"
 play,8,0,hausg101,??,,8
 play,8,0,lockw101,??,,4/P
 play,8,1,adamb101,??,,5/P
@@ -1660,6 +1666,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/07/21
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -1814,6 +1821,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/07/22
+info,site,STL07
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -1958,6 +1966,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/07/22
+info,site,STL07
 info,number,2
 info,starttime,0:00PM
 info,daynight,day
@@ -2130,6 +2139,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/07/24
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -2278,6 +2288,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BSN
 info,hometeam,SLN
 info,date,1945/09/06
+info,site,STL07
 info,number,2
 info,starttime,0:00PM
 info,daynight,night
@@ -2331,8 +2342,7 @@ play,1,1,adamb101,??,,8/L
 play,1,1,kurow101,??,,5/FL
 play,2,0,aderm101,??,,K
 play,2,0,workc101,??,,K
-play,2,0,gillc102,??,,S
-com,"Gillenwater singled off Burkhart's glove."
+play,2,0,gillc102,??,,S1
 play,2,0,hoffs101,??,,7
 play,2,1,hoppj102,??,,7
 play,2,1,odeak101,??,,2/FL
@@ -2343,13 +2353,11 @@ play,3,0,culld101,??,,S.1-2
 play,3,0,wietw101,??,,S.2-3;1-2
 play,3,0,holmt101,??,,5(2)3(B)/GDP
 play,3,1,marim101,??,,K
-play,3,1,burkk101,??,,S
-com,"Burkhart singled off Lee's shins."
+play,3,1,burkk101,??,,S1
 play,3,1,berga102,??,,S.1-2
 play,3,1,schor101,??,,5/FL
 play,3,1,adamb101,??,,HR.2-H;1-H
-play,3,1,kurow101,??,,S
-com,"Kurowski singled off Workman's glove."
+play,3,1,kurow101,??,,S5
 play,3,1,hoppj102,??,,63
 play,4,0,aderm101,??,,4/L
 play,4,0,workc101,??,,4
@@ -2371,8 +2379,7 @@ play,5,1,hoppj102,??,,D.1-3
 play,5,1,odeak101,??,,NP
 sub,hutcj101,"Johnny Hutchings",0,9,1
 play,5,1,odeak101,??,,IW
-play,5,1,verbe101,??,,S.3-H;2-3;1-2
-com,"INF"
+play,5,1,verbe101,??,,S/G.3-H;2-3;1-2
 play,5,1,marim101,??,,7/FL.3-H
 play,5,1,burkk101,??,,6
 play,6,0,holmt101,??,,13
@@ -2403,8 +2410,7 @@ play,8,0,gillc102,??,,8/F.3-H
 play,8,0,hoffs101,??,,64(1)3/GDP
 play,8,1,burkk101,??,,S5
 play,8,1,berga102,??,,PO1(14)
-com,"Wietelmann hurt his knee on the play and had to leave the"
-com,"game."
+com,"$Whitey Wietelmann left with an injured knee"
 play,8,1,berga102,??,,NP
 sub,nelst101,"Tommy Nelson",0,2,4
 play,8,1,berga102,??,,31
@@ -2425,6 +2431,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/09/09
+info,site,STL07
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -2531,8 +2538,7 @@ play,7,0,reyen101,??,,3/FL
 play,7,0,fiscr101,??,,NP
 sub,trear101,"Red Treadway",0,9,11
 play,7,0,trear101,??,,S7.1-2
-play,7,0,ruckj101,??,,D9.2-H;1-H(NR);B-3(TH)
-com,"$no RBI for runner from 1st as 'throw went to third'"
+play,7,0,ruckj101,??,,D9.2-H;1-H(TH3)(NR);B-3(TH)
 play,7,0,hausg101,??,,W
 play,7,0,ott-m101,??,,W.1-2
 play,7,0,gardd101,??,,W.3-H;2-3;1-2
@@ -2574,6 +2580,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/09/09
+info,site,STL07
 info,number,2
 info,starttime,0:00PM
 info,daynight,day
@@ -2654,7 +2661,7 @@ play,4,1,verbe101,??,,E6.B-1
 play,4,1,marim101,??,,W.1-2
 play,4,1,riced101,??,,T7.2-H(UR);1-H
 play,4,1,barrr101,??,,PO3(26)
-com,"Rice picked off after failed squeeze play"
+com,"$missed squeeze"
 play,4,1,barrr101,??,,63
 play,5,0,zabaa101,??,,S4
 play,5,0,trear101,??,,4(B)3(1)/LDP
@@ -2686,7 +2693,6 @@ play,7,1,barrr101,??,,143
 play,8,0,ruckj101,??,,S8
 play,8,0,gardd101,??,,16(1)/FO/BG
 play,8,0,klutc101,??,,CS2(24)
-com,"Gardella caught with pitchout"
 play,8,0,klutc101,??,,S8
 play,8,0,zimmr101,??,,K
 play,8,1,kleil101,??,,NP
@@ -2717,6 +2723,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/09/10
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -2773,7 +2780,6 @@ play,2,0,zimmr101,??,,HP
 play,2,0,jurgb101,??,,CS2(24)
 play,2,0,jurgb101,??,,W
 play,2,0,reyen101,??,,POCS2(16)
-com,"delayed steal"
 play,2,1,kurow101,??,,W
 play,2,1,sandr102,??,,9
 play,2,1,verbe101,??,,S7/P.1-2
@@ -2784,7 +2790,6 @@ play,3,0,voisb101,??,,9/9D
 play,3,0,ruckj101,??,,9
 play,3,1,brech101,??,,K
 play,3,1,schor101,??,,S4
-com,"Red's hit was really Zimmerman's play"
 play,3,1,hoppj102,??,,SB2
 play,3,1,hoppj102,??,,W
 play,3,1,adamb101,??,,3/P
@@ -2796,7 +2801,6 @@ play,4,1,sandr102,??,,63
 play,4,1,verbe101,??,,S7
 play,4,1,kleil101,??,,S7.1-2
 play,4,1,riced101,??,,46(1)/FO.2-3
-com,"argument-Dunn 'double-take'"
 play,4,1,brech101,??,,13
 play,5,0,lombe101,??,,8
 play,5,0,zimmr101,??,,S8
@@ -2807,21 +2811,20 @@ play,5,1,adamb101,??,,W
 play,5,1,kurow101,??,,W.1-2
 play,5,1,sandr102,??,,W.2-3;1-2
 play,5,1,verbe101,??,,S7.3-H;2-H;1-2
-com,"Voiselle had Verban 0-2"
 play,5,1,kleil101,??,,4/P
 play,6,0,reyen101,??,,S9
 play,6,0,voisb101,??,,NP
 sub,kerrb101,"Buddy Kerr",0,9,11
-com,"Reyes hit with broken bat"
 play,6,0,kerrb101,??,,7
 play,6,0,ruckj101,??,,S4.1-2
 play,6,0,hausg101,??,,9/L
 play,6,0,ott-m101,??,,64(1)/FO
+com,"ej,ruckj101,P,dunnt901,Call at 2B"
+com,"Johnny Rucker ejected by 1B umpire Tom Dunn"
 play,6,1,riced101,??,,NP
 sub,emmes101,"Slim Emmerich",0,9,1
 play,6,1,riced101,??,,NP
 sub,trear101,"Red Treadway",0,1,8
-com,"Rucker apparently ejected by Dunn"
 play,6,1,riced101,??,,63
 play,6,1,brech101,??,,13
 play,6,1,schor101,??,,D9
@@ -2842,7 +2845,6 @@ play,8,0,hausg101,??,,S4.3-H;2-3
 play,8,0,ott-m101,??,,3/L
 play,8,1,verbe101,??,,NP
 sub,feldh101,"Harry Feldman",0,9,1
-com,"Ott kicks dirt angrily"
 play,8,1,verbe101,??,,4/P
 play,8,1,kleil101,??,,K23
 play,8,1,riced101,??,,8
@@ -2859,6 +2861,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,SLN
 info,date,1945/09/11
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -2934,7 +2937,7 @@ play,3,1,riced101,??,,8
 play,3,1,juria101,??,,K
 play,4,0,reyen101,??,,S9/P
 play,4,0,magls101,??,,PO1(23)
-com,"Reyes picked off when pitched out on bunt try"
+com,"$pitch out on bunt try"
 play,4,0,magls101,??,,4/P
 play,4,0,ruckj101,??,,43
 play,4,1,berga102,??,,43
@@ -3014,7 +3017,6 @@ sub,younp101,"Pep Young",1,1,11
 play,9,1,younp101,??,,53/SH.2-3;1-2
 play,9,1,schor101,??,,IW
 play,9,1,adamb101,??,,K/C
-com,"argument over K"
 play,9,1,kurow101,??,,S7.3-H;2-H;1-2
 data,er,magls101,4
 data,er,adama101,2
@@ -3029,6 +3031,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/09/12
+info,site,STL07
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -3161,6 +3164,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/09/14
+info,site,STL07
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -3311,6 +3315,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,SLN
 info,date,1945/09/14
+info,site,STL07
 info,number,2
 info,starttime,0:00PM
 info,daynight,day

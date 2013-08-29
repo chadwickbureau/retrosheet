@@ -717,7 +717,6 @@ start,hulsd001,"David Hulse",1,8,8
 start,valej003,"Jose Valentin",1,9,6
 start,eldrc001,"Cal Eldred",1,0,1
 com,"Suspend=19950510,,2,2,53"
-com,"No umpire changes upon resumption"
 play,1,0,curtc001,12,...CBFX,53/G6
 play,1,0,trama001,21,BCBX,S9/L89S
 play,1,0,higgb001,11,BCX,3/G3.1-2
@@ -806,6 +805,7 @@ play,9,1,miesm001,00,,NP
 sub,hennm001,"Mike Henneman",0,0,1
 play,9,1,miesm001,12,.SBCS,K
 play,9,1,hulsd001,11,CBX,3/G3
+com,"$game suspended and completed the next day"
 play,9,1,valej003,00,..,NP
 sub,dohej001,"John Doherty",0,0,1
 play,9,1,valej003,22,...BCFBX,8/L8LD
@@ -4491,14 +4491,14 @@ play,9,1,listp001,00,,NP
 sub,dibbr001,"Rob Dibble",0,0,1
 play,9,1,listp001,10,.B.,NP
 sub,fortt001,"Tim Fortugno",0,0,1
-play,9,1,listp001,10,.B..,NP
-sub,miesm001,"Matt Mieske",1,4,11
-play,9,1,miesm001,31,.B...FBBB,W
 com,"ej,dibbr001,P,roe-r901,Throwing at Pat Listach"
 com,"ej,listp001,P,roe-r901,Fighting with Rob Dibble"
 com,"Rob Dibble threw a 95-MPH fast ball at the head of Pat"
 com,"Listach; both benches emptied and a brawl ensued; Dibble and"
 com,"Listach ejected by HP umpire Rocky Roe"
+play,9,1,listp001,10,.B..,NP
+sub,miesm001,"Matt Mieske",1,4,11
+play,9,1,miesm001,31,.B...FBBB,W
 play,9,1,vaugg001,30,BBBB,W.1-2
 play,9,1,surhb001,30,BBBB,W.2-3;1-2
 play,9,1,hulsd001,01,CX,D8/L78D.3-H;2-H;1-H

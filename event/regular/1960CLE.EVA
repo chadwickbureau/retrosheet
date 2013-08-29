@@ -49,6 +49,7 @@ start,powev101,"Vic Power",1,6,3
 start,heldw101,"Woodie Held",1,7,6
 start,philb102,"Bubba Phillips",1,8,5
 start,bellg102,"Gary Bell",1,9,1
+com,"Debut for umpire Al Smith"
 play,1,0,yoste101,??,,8
 play,1,0,bollf101,??,,53
 play,1,0,maxwc101,??,,K23
@@ -313,8 +314,7 @@ play,5,0,berbl101,??,,13
 play,5,0,mossd101,??,,W
 play,5,0,yoste101,??,,54(1)3/GDP#
 play,5,1,tempj101,??,,E5
-play,5,1,pierj102,??,,E5.1-3(E5)
-com,"$per TSN 3 Yost errors in inning"
+play,5,1,pierj102,??,,E5.1-3(E5/TH)
 play,5,1,bondw101,??,,9/SF.3-H(UR)
 play,5,1,frant101,??,,7
 play,5,1,powev101,??,,43
@@ -590,7 +590,9 @@ play,3,1,powev101,??,,D7#
 play,3,1,tempj101,??,,8
 play,3,1,kuenh101,??,,FC5.2X3(5)
 play,3,1,heldw101,??,,S7.1-2
-play,3,1,pierj102,??,,K
+play,3,1,pierj102,??,,K/C
+com,"ej,pierj102,P,ricej901,Called third strike"
+com,"Jim Piersall ejected by HP umpire John Rice"
 play,4,0,willd104,??,,NP
 sub,hardc101,"Carroll Hardy",1,5,8
 play,4,0,willd104,??,,1/L
@@ -634,8 +636,7 @@ sub,nixor101,"Russ Nixon",1,7,2
 play,8,0,cervb101,??,,NP
 sub,brigj101,"John Briggs",1,9,1
 play,8,0,cervb101,??,,E4
-play,8,0,willd104,??,,36(1)4/GDP/BG#
-com,"$bunt assumed"
+play,8,0,willd104,??,,36(1)4/GDP/BG
 play,8,0,chith101,??,,4/L
 play,8,1,tempj101,??,,9
 play,8,1,kuenh101,??,,W
@@ -1167,7 +1168,6 @@ play,2,1,kuenh101,??,,NP
 sub,ferrd102,"Don Ferrarese",0,9,1
 play,2,1,kuenh101,??,,NP
 sub,hickj101,"Joe Hicks",0,7,8
-com,"$Landis injured when he hit the CF fence on Piersall's HR?"
 play,2,1,kuenh101,??,,S9
 play,2,1,frant101,??,,23
 play,3,0,smita102,??,,2/FL
@@ -1214,7 +1214,6 @@ play,6,0,fox-n101,??,,W
 play,6,0,minom101,??,,8
 play,6,0,klust101,??,,W.1-2
 play,6,0,goodb101,??,,S5.2-H(E5)(NR);1-3;B-2
-com,"$may have originally been E5 rather than S+E5"
 play,6,0,smita102,??,,63.3-H(RBI)
 play,6,0,hickj101,??,,S8.2-H
 play,6,0,browd102,??,,HR/7D.1-H
@@ -1954,8 +1953,7 @@ play,3,1,tempj101,??,,3/FL
 play,4,0,buddd101,??,,7
 play,4,0,runnp101,??,,S7
 play,4,0,malzf101,??,,K+SB2
-play,4,0,wertv101,??,,S4.2-3#
-com,"$Assumed baserunner advancement to thirdbase"
+play,4,0,wertv101,??,,S4.2-3
 play,4,0,stepg101,??,,64(1)/FO
 play,4,1,asprk101,??,,W
 play,4,1,kuenh101,??,,K
@@ -2084,7 +2082,6 @@ play,1,1,asprk101,??,,5/L
 play,1,1,kuenh101,??,,64(1)/FO
 play,1,1,frant101,??,,8
 play,2,0,malzf101,??,,63
-com,"$Boston Sunday Advertiser scored the play 43."
 play,2,0,buddd101,??,,W
 play,2,0,sullh101,??,,K/C
 play,2,0,casaj101,??,,54(1)/FO
@@ -2225,7 +2222,7 @@ start,nixor101,"Russ Nixon",1,6,2
 start,heldw101,"Woodie Held",1,7,6
 start,philb102,"Bubba Phillips",1,8,5
 start,bellg102,"Gary Bell",1,9,1
-com,"$20 minute delay in starting"
+com,"$20 minute rain delay before start of game"
 play,1,0,breem101,??,,K
 play,1,0,peara102,??,,S7
 play,1,0,branj101,??,,HR/7D.1-H
@@ -2260,7 +2257,6 @@ play,3,0,peara102,??,,63
 play,3,0,branj101,??,,8
 play,3,1,tiefb101,??,,E4
 play,3,1,pierj102,??,,S9/G.1-3
-com,"$Bad hop single over Breeding's head"
 play,3,1,asprk101,??,,S7.3-H(UR);1-2
 play,3,1,kuenh101,??,,K
 play,3,1,frant101,??,,W.2-3;1-2
@@ -2281,8 +2277,7 @@ play,5,0,fishj101,??,,K
 play,5,1,asprk101,??,,S8
 play,5,1,kuenh101,??,,54(1)3/GDP
 play,5,1,frant101,??,,3/G
-com,"$After a wait of 1 hour and 17 minutes the"
-com,"$game called due to rain. Stats from top of 6th don't count."
+com,"$game called for rain after 1:17 delay"
 data,er,browh101,5
 data,er,fishj101,0
 data,er,bellg102,7
@@ -2696,8 +2691,7 @@ play,8,0,colar101,??,,K
 play,8,1,pierj102,??,,43
 play,8,1,asprk101,??,,S8
 play,8,1,kuenh101,??,,9
-play,8,1,frant101,??,,WP.1-2#
-com,"$Cle s/s had PB; TSN WP 0PB; film 1 WP"
+play,8,1,frant101,??,,WP.1-2
 play,8,1,frant101,??,,43
 play,9,0,fernc102,??,,NP
 sub,cashn101,"Norm Cash",0,8,11
@@ -3466,8 +3460,6 @@ play,7,0,busbj101,??,,S8.1-2
 play,7,0,hoefb101,??,,NP
 sub,triag101,"Gus Triandos",0,9,11
 play,7,0,triag101,??,,PO1(E2).2-H(NR)(UR);1-3
-com,"$Romano tried to pick Busby off firstbase and"
-com,"$threw wildly into RF."
 play,7,0,triag101,??,,53
 play,7,1,powev101,??,,NP
 sub,porta101,"Arnie Portocarrero",0,9,1
@@ -3487,8 +3479,7 @@ sub,nichd101,"Dave Nicholson",0,3,12
 play,8,0,hansr102,??,,64(1)/FO
 play,8,1,asprk101,??,,NP
 sub,nichd101,"Dave Nicholson",0,3,7
-play,8,1,asprk101,??,,E6/TH.B-2#
-com,"$Assumed throwing error allowed batter to 2nd."
+play,8,1,asprk101,??,,E6/TH1.B-2
 play,8,1,kuenh101,??,,3/FL
 play,8,1,pierj102,??,,S8.2-H(UR)
 play,8,1,powev101,??,,9
@@ -3924,7 +3915,7 @@ play,3,0,tasbw101,??,,S8
 play,3,0,runnp101,??,,5/FL
 play,3,0,willt103,??,,HR/78XD.1-H
 com,"$Ted Williams' 500th career homerun, becoming only"
-com,"$the 4th player in history to reach 500 HR level."
+com,"the fourth player to reach this milestone"
 play,3,0,wertv101,??,,41
 play,3,0,malzf101,??,,8
 play,3,1,hawkw101,??,,K
@@ -3948,7 +3939,7 @@ play,5,1,hawkw101,??,,K
 play,6,0,malzf101,??,,S7
 play,6,0,nixor101,??,,7
 play,6,0,geigg101,??,,363/G.1-2
-com,"$Power's throw to second was too late to force Malzone."
+com,"$Vic Power's throw to 2B was late"
 play,6,0,buddd101,??,,IW
 play,6,0,sullf101,??,,K/C
 play,6,1,kuenh101,??,,S8
@@ -4074,11 +4065,10 @@ play,2,0,runnp101,??,,7
 play,2,1,powev101,??,,43
 play,2,1,frant101,??,,43
 play,2,1,heldw101,??,,15/L
-com,"$Delock deflected Held's line drive to Malzone"
+com,"$Ike Delock deflected the ball to Frank Malzone"
 play,3,0,malzf101,??,,9
 play,3,0,boonr101,??,,K/C
 play,3,0,repur101,??,,8/8XD
-com,"$Repulski's drive caught against the CF fence"
 play,3,1,stigd101,??,,K
 play,3,1,kuenh101,??,,3/FL
 play,3,1,asprk101,??,,W
@@ -4110,11 +4100,8 @@ play,6,1,heldw101,??,,63
 play,7,0,buddd101,??,,9
 play,7,0,sadoe101,??,,W
 play,7,0,deloi101,??,,FC2/SH.1-2;B-1
-com,"$Delock bunted and Romano threw to secondbase"
-com,"$too late to get Sadowski."
 play,7,0,tasbw101,??,,W.2-3;1-2
 play,7,0,runnp101,??,,2(3)/FO.2-3;1-2
-com,"$Slow roller in front of the plate"
 play,7,0,malzf101,??,,31
 play,7,1,stigd101,??,,NP
 sub,tempj101,"Johnny Temple",1,9,11
@@ -4225,7 +4212,6 @@ play,2,0,geigg101,??,,S9.3-H;2-3;1-2
 play,2,0,buddd101,??,,64(1)3/GDP.3-H(NR);2-3
 play,2,0,monbb101,??,,K
 play,2,1,frant101,??,,5/FL
-com,"$CLE s/s scored the play as 3/FL"
 play,2,1,powev101,??,,3/P
 play,2,1,heldw101,??,,8
 play,3,0,tasbw101,??,,8
@@ -4260,8 +4246,8 @@ play,6,0,buddd101,??,,8
 play,6,1,keoum101,??,,7
 play,6,1,romaj101,??,,63
 play,6,1,pierj102,??,,S7
-com,"$Piersall was ejected from the game by Umpire"
-com,"$Stevens after an argument over a called strike"
+com,"ej,pierj102,P,stevj901,Balls and strikes"
+com,"Jim Piersall ejected by HP umpire Johnny Stevens"
 play,6,1,frant101,??,,NP
 sub,philb102,"Bubba Phillips",1,5,12
 play,6,1,frant101,??,,E6/TH.1-2
@@ -4305,8 +4291,6 @@ play,8,0,nixor101,??,,NP
 sub,haleb101,"Bob Hale",1,9,3
 play,8,0,nixor101,??,,4/L
 play,8,0,geigg101,??,,HR/7D
-com,"$Boston Record story said HR went to RF but CLE"
-com,"$scoresheet said to LF"
 play,8,0,buddd101,??,,6/P
 play,8,0,monbb101,??,,43
 play,8,1,romaj101,??,,53
@@ -4907,8 +4891,7 @@ sub,strig102,"George Strickland",1,8,5
 play,8,0,bertr101,??,,NP
 sub,brigj101,"John Briggs",1,9,1
 play,8,0,bertr101,??,,W
-play,8,0,gardb101,??,,36(1)4/GDP/BG#
-com,"$bunt assumed"
+play,8,0,gardb101,??,,36(1)4/GDP/BG
 play,8,0,allib103,??,,K/C
 play,8,1,heldw101,??,,13
 play,8,1,strig102,??,,K/C
@@ -5353,8 +5336,7 @@ play,6,1,kuenh101,??,,4
 play,6,1,frant101,??,,K/C
 play,7,0,howae101,??,,K/BF
 play,7,0,hadlk101,??,,7
-play,7,0,boyec102,??,,K#
-com,"$NYA s/s had 6"
+play,7,0,boyec102,??,,K
 play,7,1,pierj102,??,,63
 play,7,1,romaj101,??,,13
 play,7,1,heldw101,??,,9
@@ -5490,7 +5472,8 @@ play,5,1,kuenh101,??,,D9
 play,5,1,frant101,??,,S7.2-H
 play,5,1,pierj102,??,,46(1)/FO
 play,5,1,heldw101,??,,CS2(24)
-com,"$Piersall ejected!"
+com,"ej,pierj102,P,soarh901,Call at 2B"
+com,"Jim Piersall ejected by 2B umpire Hank Soar"
 play,6,0,boyec102,??,,NP
 sub,keoum101,"Marty Keough",1,5,8
 play,6,0,boyec102,??,,3
@@ -5501,7 +5484,6 @@ play,6,1,foilh101,??,,14/SH.1-2
 play,6,1,philb102,??,,3/L
 play,6,1,perrj102,??,,41
 play,7,0,kubet101,??,,S3
-com,"$Power and Temple collided!"
 play,7,0,lopeh101,??,,64(1)3/GDP
 play,7,0,mantm101,??,,K/C
 play,7,1,tempj101,??,,S9
@@ -5758,8 +5740,7 @@ play,3,1,heldw101,??,,7
 play,3,1,bowst101,??,,S9
 play,3,1,tempj101,??,,53/SH/B.1-2
 play,3,1,asprk101,??,,HR/7D.2-H
-com,"$HR cleared the fence at the foul line and the A's"
-com,"$argued it was foul. Chylak didn't agree."
+com,"$the Athletics argued that the home run was foul"
 play,3,1,keoum101,??,,S8
 play,3,1,kuenh101,??,,3/FL
 play,4,0,tuttb101,??,,6
@@ -5965,8 +5946,9 @@ play,6,0,fox-n101,??,,3/L
 play,6,1,heldw101,??,,NP
 sub,stalg103,"Gerry Staley",0,9,1
 play,6,1,heldw101,??,,63
-play,6,1,lockb101,??,,K
-com,"$Temple ejected by McKinley over called strike."
+play,6,1,lockb101,??,,K/C
+com,"ej,tempj101,P,mckib901,Called third strike"
+com,"Johnny Temple ejected by HP umpire Bill McKinley"
 play,6,1,tempj101,??,,NP
 sub,philb102,"Bubba Phillips",1,1,11
 play,6,1,philb102,??,,43
@@ -6348,6 +6330,8 @@ play,1,1,asprk101,??,,D8.1-H
 play,1,1,kuenh101,??,,7/L
 play,1,1,frant101,??,,S8.2-H
 play,1,1,powev101,??,,S8.1-2
+com,"ej,pierj102,P,drumc901,Balls and strikes"
+com,"Jim Piersall ejected by HP umpire Cal Drummond"
 play,1,1,pierj102,??,,NP
 sub,keoum101,"Marty Keough",1,6,11
 play,1,1,keoum101,??,,S9.2-H;1-3;B-2(E9)
@@ -6578,8 +6562,11 @@ play,6,1,keoum101,??,,5/L
 play,6,1,heldw101,??,,S8.1-2
 play,6,1,foilh101,??,,3
 play,6,1,granj101,??,,S8.2XH(82);1-2
-com,"$Power and Battey fight after tag at plate. Both ejected"
-com,"by plate ump Charley Berry"
+com,"ej,powev101,P,berrc103,Fighting"
+com,"ej,batte101,P,berrc103,Fighting"
+com,"Vic Power came up swinging after being tagged by Earl Battey;"
+com,"both benches cleared; Power and Battey ejected by HP umpire"
+com,"Charlie Berry"
 play,7,0,valdj102,??,,NP
 sub,philb102,"Bubba Phillips",1,5,7
 play,7,0,valdj102,??,,NP
@@ -6859,8 +6846,7 @@ start,stigd101,"Dick Stigman",1,9,1
 play,1,0,boyec102,??,,53
 play,1,0,lopeh101,??,,W
 play,1,0,marir101,??,,4E6.1-2
-com,"$Held broke middle finger on right hand."
-com,"$To miss 3-5 weeks due to injury."
+com,"$Woodie Held broke middle finger on right hand"
 play,1,0,mantm101,??,,K
 play,1,0,skowb101,??,,W.2-3;1-2
 play,1,0,mcdog101,??,,W.3-H(UR);2-3;1-2
@@ -6891,6 +6877,10 @@ play,4,0,richb102,??,,S7/G.1-2
 play,4,0,fordw101,??,,FC5/SH.2-3;1-2
 play,4,0,boyec102,??,,7/SF.3-H;2-3(TH)
 play,4,0,lopeh101,??,,16(1)/FO.3-H
+com,"ej,hardm101,C,drumc901,Call at 1B"
+com,"ej,tannc101,P,drumc901,Call at 1B"
+com,"Chuck Tanner and Indians Coach Mel Harder ejected by"
+com,"1B umpire Cal Drummond"
 play,4,0,marir101,??,,S1.1-2
 play,4,0,mantm101,??,,HR/7.2-H;1-H
 play,4,0,skowb101,??,,K/C
@@ -7023,7 +7013,6 @@ play,3,0,boyec102,??,,S8/G.1-2
 play,3,0,lopeh101,??,,43.2-3;1-2
 play,3,0,mantm101,??,,43.3-H(UR);2-3
 play,3,0,marir101,??,,HR/9D.3-H(UR);B-H(UR)
-com,"$Upper deck homerun by Maris"
 play,3,0,berry101,??,,31
 play,3,1,perrj102,??,,S8
 play,3,1,tempj101,??,,8
@@ -7076,7 +7065,6 @@ play,7,0,boyec102,??,,S8/G.2-H;1-2
 play,7,0,lopeh101,??,,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
 play,7,0,lopeh101,??,,8/L
-com,"$Kuenn robs Lopez of a homerun"
 play,7,0,mantm101,??,,K/C
 play,7,0,marir101,??,,3/G
 play,7,1,romaj101,??,,NP
@@ -7203,7 +7191,6 @@ play,1,0,mantm101,??,,W
 play,1,0,marir101,??,,8/L
 play,1,1,tempj101,??,,43
 play,1,1,asprk101,??,,S8
-com,"$Aspromonte has now hit in 18 straight games."
 play,1,1,kuenh101,??,,S9/G.1-2
 play,1,1,frant101,??,,46(1)3/GDP
 play,2,0,berry101,??,,HP
@@ -7213,7 +7200,7 @@ play,2,0,richb102,??,,W
 play,2,0,ditma101,??,,PO1(E1).2-3;1-2
 play,2,0,ditma101,??,,63
 play,2,1,powev101,??,,S8
-com,"$Power has now hit in 20 straight games."
+com,"$Vic Power has now hit in 20 consecutive games"
 play,2,1,pierj102,??,,HR/7.1-H
 play,2,1,strig102,??,,63
 play,2,1,foilh101,??,,53
@@ -7400,7 +7387,6 @@ play,3,0,stepg101,??,,HP
 play,3,0,woodg101,??,,8
 play,3,0,gentj101,??,,W.1-2
 play,3,0,robib104,??,,8/8XD
-com,"$Orioles s/s: Nice catch by Piersall against the fence."
 play,3,1,tempj101,??,,9
 play,3,1,asprk101,??,,W
 play,3,1,kuenh101,??,,HR/9D.1-H
@@ -7411,8 +7397,7 @@ play,4,0,hansr102,??,,W
 play,4,0,breem101,??,,S7.1-2
 play,4,0,estrc101,??,,9/FL.2-3
 play,4,0,branj101,??,,64(1)/FO
-play,4,1,pierj102,??,,S5/G.B-2(E5/TH)
-com,"$Orioles s/s:Great stop by Robinson,but throws ball away"
+play,4,1,pierj102,??,,S5/G.B-2(E5/TH1)
 play,4,1,delam101,??,,4
 play,4,1,wilsr102,??,,8
 play,4,1,perrj102,??,,6
@@ -7536,7 +7521,6 @@ play,3,0,fishj101,??,,53
 play,3,0,branj101,??,,D7
 play,3,0,woodg101,??,,2/FL
 play,3,0,robib104,??,,8/8D
-com,"$Orioles s/s: Great catch by Piersall on deep line drive."
 play,3,1,wilsr102,??,,53
 play,3,1,harsj101,??,,9
 play,3,1,tempj101,??,,9
@@ -7560,7 +7544,6 @@ play,5,1,harsj101,??,,NP
 sub,browh101,"Hal Brown",0,9,1
 play,5,1,harsj101,??,,9
 play,5,1,tempj101,??,,53
-com,"$Orioles s/s: Fine backhand stop by Robinson."
 play,5,1,delam101,??,,9
 play,6,0,woodg101,??,,K/C
 play,6,0,robib104,??,,S5
@@ -7570,7 +7553,6 @@ play,6,1,powev101,??,,63
 play,6,1,pierj102,??,,8
 play,7,0,triag101,??,,W
 play,7,0,hansr102,??,,D7.1-3
-com,"$Orioles s/s: Hansen's double hits top of fence."
 play,7,0,busbj101,??,,NP
 sub,latmb101,"Barry Latman",1,9,1
 play,7,0,busbj101,??,,NP
@@ -7584,8 +7566,7 @@ play,7,0,stepg101,??,,K
 play,7,0,browh101,??,,NP
 sub,gentj101,"Jim Gentile",0,9,11
 play,7,0,gentj101,??,,K/C
-play,7,0,branj101,??,,E5/P/1.3-H(NR)(UR);2-H(NR)(UR);1-3;B-1
-com,"$Orioles s/s:Bridges drops popup in front of mound after juggling"
+play,7,0,branj101,??,,E5/P1.3-H(NR)(UR);2-H(NR)(UR);1-3;B-1
 play,7,0,woodg101,??,,8
 play,7,1,frant101,??,,NP
 sub,klaub101,"Billy Klaus",0,7,4
@@ -7743,7 +7724,9 @@ play,5,1,kuenh101,??,,W.3-H(UR);2-3;1-2
 play,5,1,powev101,??,,NP
 sub,fishj101,"Jack Fisher",0,9,1
 play,5,1,powev101,??,,643.3-H(RBI)(UR);2-3;1-2
-com,"$Richards ejected by Runge over safe call at 2nd base"
+com,"ej,richp101,M,runge901,Call at 2B"
+com,"Orioles Manager Paul Richards ejected by 2B umpire Ed Runge"
+com,"who said that Marv Breeding was off the bag at 2B"
 play,5,1,pierj102,??,,S7.3-H(UR);2-H(UR)
 play,5,1,frant101,??,,43
 play,6,0,breem101,??,,7
@@ -7788,7 +7771,6 @@ play,8,1,tannc101,??,,5/FL
 play,8,1,klipj101,??,,NP
 sub,haleb101,"Bob Hale",1,9,11
 play,8,1,haleb101,??,,46(1)/FO
-com,"$the FO was 36 per CLE s/s"
 play,8,1,tempj101,??,,NP
 sub,keoum101,"Marty Keough",1,1,11
 play,8,1,keoum101,??,,NP
@@ -7877,7 +7859,7 @@ start,stigd101,"Dick Stigman",1,9,1
 play,1,0,branj101,??,,HR/7D
 play,1,0,busbj101,??,,S7
 play,1,0,robib104,??,,S8.1-3
-com,"$39 minute rain delay before Dropo at bat"
+com,"$39 minute rain delay"
 play,1,0,dropw101,??,,K
 play,1,0,triag101,??,,43.3-H;1-2
 play,1,0,hansr102,??,,W
@@ -7893,7 +7875,6 @@ play,2,0,busbj101,??,,W
 play,2,0,robib104,??,,CS2(24)
 play,2,1,pierj102,??,,4
 play,2,1,frant101,??,,8/8D
-com,"$Orioles:Great leaping catch against fence at 410'"
 play,2,1,romaj101,??,,K
 play,3,0,robib104,??,,S7.B-2(E7)
 play,3,0,dropw101,??,,13.2-3
@@ -7904,10 +7885,8 @@ play,3,1,stigd101,??,,53
 play,3,1,asprk101,??,,6
 play,4,0,nichd101,??,,W
 play,4,0,breem101,??,,S8.1-H(E5/TH3);B-3
-com,"$Orioles:Piersall tried to throw out Nicholson at 3rd but way"
-com,"$too late, allowing Breeding to go to 2nd. Bridges then tried"
-com,"$to get Breeding at 2nd, but threw ball into cf, Breeding to"
-com,"$thirdbase."
+com,"$Jimmy Piersall's throw to 3B late, Breeding to 2B;"
+com,"Rocky Bridges threw to 2B but the ball went in CF"
 play,4,0,pappm101,??,,K
 play,4,0,branj101,??,,S8.3-H
 play,4,0,busbj101,??,,9/FL
@@ -7940,8 +7919,7 @@ play,6,0,triag101,??,,D7.1-H
 play,6,0,hansr102,??,,S8.2-H
 play,6,0,nichd101,??,,S7.1-2
 play,6,0,breem101,??,,PO2(1354)
-com,"$Orioles:Nicholson trapped off first, Hansen eventually"
-com,"$tagged out in rundown between 2nd and third."
+com,"$Dave Nicholson trapped off 1B"
 play,6,1,asprk101,??,,K/C
 play,6,1,delam101,??,,S7
 play,6,1,kuenh101,??,,S7.1-2
@@ -8212,7 +8190,7 @@ play,5,0,runnp101,??,,43
 play,5,0,tasbw101,??,,63
 play,5,0,willt103,??,,HR/7D
 com,"$Ted Williams' 512th homerun, moving him past"
-com,"$Mel Ott, into third place, behind Ruth and Foxx."
+com,"Mel Ott into third place, behind Babe Ruth and Jimmie Foxx"
 play,5,0,wertv101,??,,7
 play,5,1,frant101,??,,S7
 play,5,1,delam101,??,,3/FL
@@ -8326,7 +8304,6 @@ play,1,0,tasbw101,??,,63
 play,1,0,runnp101,??,,W
 play,1,0,malzf101,??,,PB.1-2#
 play,1,0,malzf101,??,,S6.2-2
-com,"verify if Runnels held 2nd on Malzone's infield hit."
 play,1,0,boonr101,??,,K
 play,1,0,paglj101,??,,8
 play,1,1,tempj101,??,,63
@@ -9343,8 +9320,9 @@ play,4,0,fox-n101,??,,8
 play,4,1,tempj101,??,,8
 play,4,1,kuenh101,??,,S5.B-2(E5/TH)
 play,4,1,powev101,??,,4
-play,4,1,pierj102,??,,K
-com,"$Piersall ejected by Drummond"
+play,4,1,pierj102,??,,K/C
+com,"ej,pierj102,P,drumc901,Called third strike"
+com,"Jim Piersall ejected by HP umpire Cal Drummond"
 play,5,0,sievr101,??,,NP
 sub,keoum101,"Marty Keough",1,5,8
 play,5,0,sievr101,??,,S8
@@ -9820,7 +9798,6 @@ play,8,1,frant101,??,,5(B)6(2)/LDP
 play,8,1,kuenh101,??,,PB.1-2
 play,8,1,kuenh101,??,,43
 play,9,0,gardb101,??,,D7/7D
-com,"$ground rule double?"
 play,9,0,greel101,??,,S8.2-H
 play,9,0,killh102,??,,8/8D
 play,9,0,lemoj101,??,,S7.1-2
@@ -10701,10 +10678,10 @@ start,delam101,"Mike de la Hoz",1,7,5
 start,romaj101,"John Romano",1,8,2
 start,perrj102,"Jim Perry",1,9,1
 com,"$Indians pitcher Jim Grant and bullpen coach Ted"
-com,"$Wilks got into a racial argument during the singing"
-com,"$of the National Anthem. Grant then left the stadium"
-com,"$without notifying manager Dykes. Dykes suspened"
-com,"$Grant for the rest of the season without pay."
+com,"Wilks got into a racial argument during the singing"
+com,"of the National Anthem; Grant left the stadium"
+com,"without notifying Indians manager Jimmy Dykes, who suspened"
+com,"Grant for the rest of the season without pay"
 play,1,0,hamlk101,??,,8
 play,1,0,tuttb101,??,,HR/7D
 play,1,0,baueh101,??,,8
@@ -10913,7 +10890,6 @@ play,7,1,bondw101,??,,43
 play,8,0,hamlk101,??,,NP
 sub,pierj102,"Jim Piersall",1,3,8
 play,8,0,hamlk101,??,,6E3
-com,"$Low throw by Held-Power couldn't hold it"
 play,8,0,tuttb101,??,,S8.1-2
 play,8,0,baueh101,??,,NP
 sub,funkf101,"Frank Funk",1,9,1
@@ -11173,7 +11149,6 @@ play,5,1,heldw101,??,,S8.1-3
 play,5,1,delam101,??,,NP
 sub,reedh102,"Howie Reed",0,9,1
 play,5,1,delam101,??,,54(1)/FO.3-H(NR)(UR);B-2(E4/TH)
-com,"$apparently Power was holding 3B till E"
 play,5,1,wilsr102,??,,FLE3#
 play,5,1,wilsr102,??,,HR/7D.2-H(UR);B-H(UR)
 play,5,1,latmb101,??,,K
@@ -11289,7 +11264,6 @@ play,2,0,colar101,??,,8
 play,2,0,gernd101,??,,HR/8XD
 play,2,0,berbl101,??,,HR/9D
 play,2,0,laryf101,??,,53#
-com,"Indians scoresheet and Det s/s hard to read."
 play,2,0,yoste101,??,,W
 play,2,0,mcaud101,??,,S8.1-2
 play,2,0,kalia101,??,,9
@@ -11501,7 +11475,9 @@ play,8,1,bondw101,??,,5
 play,8,1,powev101,??,,9
 play,9,0,landj103,??,,K
 play,9,0,klust101,??,,HR/9D
-com,"$Minoso ejected by Stewart for throwing bat"
+com,"ej,minom101,P,stewb902,Balls and strikes (Threw bat)"
+com,"Minnie Minoso ejected by HP umpire Bob Stewart"
+com,"for throwing his bat"
 play,9,0,minom101,??,,NP
 sub,johns102,"Stan Johnson",0,5,11
 play,9,0,johns102,??,,HR/9D

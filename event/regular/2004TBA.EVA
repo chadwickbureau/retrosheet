@@ -2770,8 +2770,8 @@ play,2,1,lugoj001,12,CBCC,K
 play,2,1,blumg001,01,CX,63/G
 play,3,0,bellm002,32,SBBSFBB,W
 play,3,0,ortid001,11,BCX,6/P
-play,3,0,ramim002,32,1BSBSBS,K+OA/DP/INT.1X1(2)
-com,"Ramirez called for batter's interference"
+play,3,0,ramim002,32,1BSBSBS,K+OA/DP/BINT.1X1(2)
+com,"$Manny Ramirez called for interference"
 play,3,1,gomej001,01,CX,53/G
 play,3,1,fordb001,12,CCBFX,S8/G
 play,3,1,crawc002,02,SS+1X,D7/L.1-3
@@ -5506,7 +5506,7 @@ play,5,1,fordb001,32,BBFFBB,W.1-2
 play,5,1,sancr001,00,X,9/L
 play,5,1,crawc002,10,BX,53/G
 play,6,0,easld001,11,BFX,HR/7/L
-play,6,0,mordm001,22,CBBFX,DGR/9/L/INT
+play,6,0,mordm001,22,CBBFX,DGR/9/L/FINT
 com,"$fan interference"
 play,6,0,pierj002,00,,NP
 sub,harpt002,"Travis Harper",1,0,1
@@ -6093,8 +6093,7 @@ play,4,1,fordb001,10,BX,3/G
 play,5,0,riosa002,00,X,S8/G
 play,5,0,phelj001,21,BFBX,S7/G.1-2
 play,5,0,bergd002,22,FBBFX,S8/L.2-H;1-2
-play,5,0,menef001,22,BCBFS,K+OA.2X3(45)
-com,"no DP on this"
+play,5,0,menef001,22,BCBFS,K+OA/NDP.2X3(45)
 play,5,0,hudso001,02,CFC,K
 play,5,1,blumg001,02,FSX,E3/G
 play,5,1,crawc002,10,B>X,4/LDP.1X1(4)
@@ -6498,7 +6497,7 @@ start,fickr001,"Robert Fick",1,7,10
 start,hallt001,"Toby Hall",1,8,2
 start,sancr001,"Rey Sanchez",1,9,4
 start,brazd001,"Dewon Brazelton",1,0,1
-play,1,0,robeb003,21,BCBX,DGR/9/L
+play,1,0,robeb003,21,BCBX,DGR/9/L/FINT
 com,"$fan interference"
 play,1,0,newhd001,11,BSX,43/G.2-3
 play,1,0,tejam001,12,BFSFX,4/P
@@ -6548,8 +6547,8 @@ play,5,0,lopej001,00,,NP
 sub,harpt002,"Travis Harper",1,0,1
 play,5,0,lopej001,00,.X,9/F
 play,5,1,crawc002,01,SX,D7/L
-play,5,1,baldr001,00,X,13/BG
-com,"$Baldelli called for batter interference"
+play,5,1,baldr001,00,X,13/BG/BINT
+com,"$Rocco Baldelli called for interference"
 play,5,1,huffa001,32,BBCBSC,K
 play,5,1,cruzj004,01,CX,7/F
 play,6,0,bigbl001,32,BBCFBX,6/L
@@ -6685,7 +6684,7 @@ play,4,1,huffa001,20,BBX,S9/L
 play,4,1,lugoj001,12,1BF1FX,53/G.1-2
 play,4,1,martt002,01,CX,7/F
 play,4,1,cantj001,32,BFFBBX,53/G
-play,5,0,lopej001,00,X,DGR/9/F
+play,5,0,lopej001,00,X,DGR/9/F/FINT
 com,"$fan interference"
 play,5,0,palmr001,00,X,3/G.2-3
 play,5,0,hairj002,22,BBFFFX,7/SF.3-H
@@ -8506,7 +8505,6 @@ start,sancr001,"Rey Sanchez",1,8,4
 start,fordb001,"Brook Fordyce",1,9,2
 start,brazd001,"Dewon Brazelton",1,0,1
 play,1,0,suzui001,10,BX,9/L
-com,"replay shows ball was trapped, not caught"
 play,1,0,bloow001,01,CX,9/F
 play,1,0,boonb002,12,CFBS,K+E2/TH.B-1
 play,1,0,ibanr001,02,CS1S,K
@@ -8545,7 +8543,7 @@ play,4,1,cruzj004,11,FBX,6/SF.3-H
 com,"MLB scoring has play 76, but replay clear that shortstop"
 com,"caught it"
 com,"$fly to short left, shortstop caught it, but his"
-com,"momentum took him away away from plate, made weak throw"
+com,"momentum took him away away from HP, made weak throw"
 play,4,1,fickr001,10,11BX,64(1)3/GDP
 play,5,0,boonb002,11,BFX,6/P5F
 play,5,0,ibanr001,10,BX,43/G
@@ -8614,9 +8612,10 @@ play,10,1,crawc002,32,BBCFBX,S8/G
 play,10,1,lugoj001,00,X,3/SH/BG.1-2
 play,10,1,huffa001,30,IIII,IW
 play,10,1,baldr001,30,BBBB,W.2-3;1-2
-play,10,1,martt002,22,BCBFX,7/F/INT.3-H(E6)(NR)(UR)
-com,"$runner awarded home when umpire ruled that shortstop"
-com,"obstructed runner's view of catch while he tagged up"
+play,10,1,martt002,22,BCBFX,7/F/OBS.3-H(E6)(NR)(UR)
+com,"$Carl Crawford awarded HP when 3B umpire Paul Emmel ruled that Jose Lopez"
+com,"obstructed Crawford's view of the catch while he tagged up; Lopez called"
+com,"for obstruction"
 data,er,franr001,1
 data,er,sherg001,0
 data,er,nagec001,0
@@ -11460,7 +11459,7 @@ play,3,1,lugoj001,00,.X,8/SF.3-H
 play,3,1,fordb001,12,BFF1S,K
 play,4,0,ortid001,20,BBX,7/F
 play,4,0,millk005,00,X,8/F
-play,4,0,mirad001,32,CBFFBFBX,DGR/78/F
+play,4,0,mirad001,32,CBFFBFBX,DGR/78/F/FINT
 com,"$fan interference"
 play,4,0,muelb001,10,BH,HP
 play,4,0,miend001,30,BBBX,S9/L.2-3;1-2

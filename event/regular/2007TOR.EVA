@@ -63,11 +63,11 @@ play,2,1,hilla001,12,CCBFX,S9/L
 play,2,1,zaung001,20,BBX,D7/L.1-3
 play,2,1,clayr001,32,BFFFBFBFB,W
 play,2,1,johnr008,22,FSB*BFX,S9/F-.3-H;2-3;1-2
-play,2,1,overl001,02,SFFX,DGR/9.3-H;2-H;1-H
+play,2,1,overl001,02,SFFX,DGR/9/FINT.3-H;2-H;1-H
 com,"fan interference"
 play,2,1,wellv001,00,,NP
 sub,stanj001,"Jason Standridge",0,0,1
-com,"ej,bellb001,M,davig901,Arguing fan interference call"
+com,"ej,bellb001,M,davig901,Fan interference call"
 com,"Royals Manager Buddy Bell ejected by 3B umpire Gerry Davis"
 play,2,1,wellv001,01,..CX,7/L
 play,2,1,thomf001,02,SFS,K
@@ -8914,7 +8914,7 @@ play,4,0,millk005,12,*BFFS,K
 play,4,0,huffa001,00,X,2/P2F
 play,4,0,moram002,31,B*BBCB,W.1-2
 play,4,0,hernr002,11,BCX,64(1)/FO/G
-play,4,1,riosa002,22,BFBFX,DGR/7/L
+play,4,1,riosa002,22,BFBFX,DGR/7/L/FINT
 com,"fan interference"
 play,4,1,wellv001,22,*BF*BSFS,K
 play,4,1,thomf001,31,CBBBX,3/P
@@ -9950,15 +9950,15 @@ play,2,0,broub001,00,X,DGR/9/L
 play,2,0,lopej003,11,BFX,7/F
 play,2,0,burkj003,01,FX,3/G
 ladj,1,7
-play,2,1,overl001,32,CBFBBX,7/F
-com,"$Overbay batted out of turn, but made an out, so Seattle did"
+play,2,1,overl001,32,CBFBBX,7/F/BOOT
+com,"$Lyle Overbay batted out of turn, but made an out, so Seattle did"
 com,"not point out the mistake"
 ladj,1,6
-play,2,1,hilla001,00,X,2
-com,"$Hill doubled, but he was also batting out of turn, so Seattle"
-com,"did point out this mistake and Hill was called out. However, the"
-com,"correct batter at this point was actually Zaun and he is the one"
-com,"who should have been called out. The umpires called the wrong man"
+play,2,1,hilla001,00,X,2/BOOT
+com,"$Aaron Hill doubled, but he was also batting out of turn, so Seattle"
+com,"did point out this mistake and Hill was called out; However, the"
+com,"correct batter at this point was actually Gregg Zaun and he is the one"
+com,"who should have been called out; the umpires called the wrong man"
 com,"out."
 ladj,1,8
 play,2,1,zaung001,12,CBCS,K

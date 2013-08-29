@@ -680,7 +680,7 @@ play,3,0,betew001,10,BX,9/F
 play,3,0,davic003,22,BFFBX,9/L
 play,3,0,andir001,01,CX,9/F
 play,3,1,beckg001,12,SCBFX,5/P
-play,3,1,deaza001,01,SX,2/BG
+play,3,1,deaza001,01,SX,2/BG/BINT
 com,"$Alejandro de Aza called out for batter interference"
 play,3,1,moreb001,22,CCBFBS,K
 play,4,0,reimn001,32,BBBCFB,W
@@ -3102,7 +3102,7 @@ play,4,0,mornj001,22,BBSCS,K
 play,4,1,konep001,11,CBX,S9/F-
 play,4,1,riosa002,02,CFX,HR/7/F.1-H
 play,4,1,piera001,00,X,S9/L
-play,4,1,vicid001,10,BX,46(1)3/G/DP
+play,4,1,vicid001,10,BX,46(1)3/G/DP/RINT
 com,"$A.J. Pierzynski called for runner interference at 2B"
 play,4,1,ramia003,22,SBFFBFX,53/G
 play,5,0,doumr001,12,CSBFS,K
@@ -3268,7 +3268,7 @@ com,"the ball was ruled fair and a home run by 1B umpire Doug"
 com,"Eddings but Twins manager Ron Gardenhire ran out to ask"
 com,"about the ruling; the umpires huddled; crew chief Dana"
 com,"DeMuth watched the replay and overturned the call to a foul ball"
-play,5,1,deaza001,32,BBCBFFC,K
+play,5,1,deaza001,32,BBCBFFC,K/REV
 play,5,1,beckg001,20,BBX,2/P2F
 play,5,1,dunna001,22,CSBBFC,K
 play,6,0,reveb001,11,BCX,3/G
@@ -5121,7 +5121,7 @@ play,4,1,ramia003,12,S2FBB,WP.2-3
 play,4,1,ramia003,22,S2FBB.X,8/SF/F.3-H
 play,4,1,flowt001,01,SX,63/G
 play,5,0,bogub001,12,SBCX,S8/L
-play,5,0,maxwj002,32,>F>F1B1*B1*B>F>F>X,HR/7/F.1-H
+play,5,0,maxwj002,32,>F>F1B1*B1*B>F>F>X,HR/7/F/REV.1-H
 com,"replay,5,maxwj002,HOU,everm901,CHI12,F,N"
 com,"$Justin Maxwell's fly ball down the LF line was ruled fair;"
 com,"White Sox manager Robin Ventura asked about the call, so acting"
@@ -6922,11 +6922,11 @@ play,6,0,rasmc001,21,.B*B1>C.>C,SB3
 play,6,0,rasmc001,32,.B*B1>C.>C.BB,W+WP.3-H(NR)
 play,6,0,bautj002,00,,NP
 sub,jonen001,"Nate Jones",1,0,1
-play,6,0,bautj002,22,.BC1FFFBX,DGR/7.1-H
+play,6,0,bautj002,22,.BC1FFFBX,DGR/7/FINT.1-H
 com,"fan interference; the ball was touched by a security guard and then by a"
 com,"fan; HP umpire D.J. Reyburn allowed Cody Rasmus to score from 1B; White"
 com,"Sox manager Robin Ventura argued the ruling as well as 3B umpire Ron"
-com,"call that it was a fair ball"
+com,"Kulpa's call that it was a fair ball"
 play,6,0,encae001,32,BCFFBFBB,W
 play,6,0,linda001,12,CFFBFX,D7/L.2-H;1-3
 play,6,0,escoy001,02,FFX,FC6/G.3XH(62)
@@ -7502,6 +7502,7 @@ start,vicid001,"Dayan Viciedo",1,7,7
 start,ramia003,"Alexei Ramirez",1,8,6
 start,beckg001,"Gordon Beckham",1,9,4
 start,humbp001,"Philip Humber",1,0,1
+com,"Protest=V"
 play,1,0,troum001,01,CX,43/G
 play,1,0,huntt001,02,CCX,D7/G+
 play,1,0,pujoa001,12,BCFX,9/F

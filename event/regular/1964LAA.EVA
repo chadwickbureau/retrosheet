@@ -53,9 +53,9 @@ play,1,0,lumpj101,??,,W
 play,1,0,cashn101,??,,S9.1-2
 play,1,0,kalia101,??,,W.2-3;1-2
 play,1,0,hortw101,??,,W.3-H;2-3;1-2
-com,"Chance hurt finger on pitching hand"
 play,1,0,mcaud101,??,,NP
 sub,lee-d102,"Don Lee",1,9,1
+com,"Dean Chance left with injured finger on pitching hand"
 play,1,0,mcaud101,??,,K/C
 play,1,0,wertd103,??,,9
 play,1,1,peara102,??,,K/C
@@ -118,7 +118,7 @@ play,6,0,cashn101,??,,NP
 sub,sprij102,"Jack Spring",1,9,1
 play,6,0,cashn101,??,,3/G.3-H(UR);1-2
 play,6,0,kalia101,??,,IW
-com,"Official gives Kaline W and Spring SH (wrong column)"
+com,"discrepancy: Official gives Kaline W and Spring SH (wrong column)"
 play,6,0,hortw101,??,,NP
 sub,dulib101,"Bob Duliba",1,9,1
 play,6,0,hortw101,??,,46(1)/FO
@@ -665,7 +665,7 @@ play,16,0,heldw101,??,,IW
 play,16,0,mcmad102,??,,S7.3-H;2-3;1-2
 play,16,0,howsd101,??,,NP
 sub,osind101,"Dan Osinski",1,9,1
-com,"Official gave Osinski two at bats that should have gone to Navarro"
+com,"discrepancy: Official gave Osinski two at bats that should have gone to Navarro"
 play,16,0,howsd101,??,,S8/DP.3-H;2XH(82);1X3(25)
 play,16,1,osind101,??,,NP
 sub,pierj102,"Jim Piersall",1,9,11
@@ -798,7 +798,7 @@ play,9,0,romaj101,??,,9/SF.3-H;1-2
 play,9,0,frant101,??,,SB3
 play,9,0,frant101,??,,K
 play,9,0,whitf103,??,,IW
-com,"Official gives IW to Foytack"
+com,"discrepancy: Official gave IW to Foytack instead of Lee"
 play,9,0,alvim101,??,,53
 play,9,1,morab101,??,,NP
 sub,kindj101,"Jerry Kindall",0,6,3
@@ -1341,7 +1341,7 @@ start,lee-b104,"Bob Lee",1,9,1
 play,1,0,zimmd101,??,,E1.B-1
 play,1,0,blasd101,??,,K/C
 play,1,0,valef101,??,,46(1)63(B)/GDP
-com,"Official charged GDP to Lock"
+com,"discrepancy: Official charged GDP to Lock"
 play,1,1,peara102,??,,W
 play,1,1,morab101,??,,CS2(26)
 play,1,1,morab101,??,,53
@@ -2184,7 +2184,8 @@ play,8,1,rodgb102,??,,8
 play,8,1,thoml103,??,,W
 play,8,1,simpd102,??,,64(1)43(B)/GDP
 play,9,0,lau-c101,??,,S9
-play,9,0,greed102,??,,2/INT
+play,9,0,greed102,??,,2/BINT
+com,"$Dick Green called for interference"
 play,9,0,wyatj102,??,,K
 play,9,0,causw101,??,,W.1-2
 play,9,0,mathn101,??,,D7.2-H;1-3
@@ -2961,7 +2962,7 @@ start,koppj101,"Joe Koppe",1,8,6
 start,smitw102,"Willie Smith",1,9,1
 play,1,0,versz101,??,,S/BG
 play,1,0,powev101,??,,46(1)63(B)/GDP
-com,"Official didn't charge Power with GDP"
+com,"discrepancy: Official didn't charge Power with GDP"
 play,1,0,rollr101,??,,9
 play,1,1,pierj102,??,,3/FL
 play,1,1,knoob101,??,,W
@@ -3090,7 +3091,7 @@ play,11,0,zimmj101,??,,K
 play,11,0,stigd101,??,,K
 play,11,1,thoml103,??,,NP
 sub,mincd101,"Don Mincher",0,7,3
-com,"Official has Power moving to 2nd"
+com,"discrepancy: Official has Power moving to 2B instead of 3B"
 play,11,1,thoml103,??,,NP
 sub,powev101,"Vic Power",0,2,5
 play,11,1,thoml103,??,,D9
@@ -3508,7 +3509,7 @@ play,6,1,kirke102,??,,9
 play,6,1,perrb103,??,,54(1)/FO
 play,7,0,barbs102,??,,S9
 play,7,0,saveb101,??,,26(1)/FO
-com,"Official charged Barber with CS - probably confused by 26/FO"
+com,"discepancy: Official charged Barber with CS on force out"
 play,7,0,aparl101,??,,S8.1-2
 play,7,0,bowes103,??,,K/C
 play,7,0,robib104,??,,13
@@ -3605,7 +3606,7 @@ play,1,0,joned102,??,,3/G
 play,1,0,brese101,??,,53
 play,1,0,yastc101,??,,W
 play,1,0,stuad101,??,,SB2
-com,"Yaz spiked himself"
+com,"Carl Yastrzemski spiked himself"
 play,1,0,stuad101,??,,NP
 sub,mantf101,"Felix Mantilla",0,3,12
 play,1,0,stuad101,??,,63
@@ -4088,7 +4089,7 @@ play,8,0,joned102,??,,K
 play,8,1,knoob101,??,,NP
 sub,smitw102,"Willie Smith",1,7,11
 play,8,1,smitw102,??,,S1
-com,"Smith's liner hits Radatz in forehead"
+com,"$Dick Radatz struck on forehead by line drive"
 play,8,1,satrt101,??,,NP
 sub,conne102,"Ed Connolly",0,9,1
 play,8,1,satrt101,??,,W.1-2
@@ -4183,14 +4184,13 @@ play,1,0,pepij101,??,,3/BG
 play,1,1,peara102,??,,S7
 play,1,1,morab101,??,,K
 play,1,1,clinl101,??,,S7.1-2
-play,1,1,adcoj101,??,,5(2)/G/FO.B-1;1-2
-com,"Pearson interfered with Boyer. Adcock was out 63, but Adcock"
-com,"returned to 1st base."
+play,1,1,adcoj101,??,,5(2)/G/FO/RINT.B-1;1-2
+com,"$Albie Pearson called for interference with Clete Boyer; Adcock"
+com,"was out 63 on the play which was nullified"
 play,1,1,satrt101,??,,9/F
 play,2,0,boyec102,??,,53
 play,2,0,terrr101,??,,S7/G
 play,2,0,kubet101,??,,63.1-2
-com,"Hit and run play."
 play,2,0,richb102,??,,53
 play,2,1,kirke102,??,,S7/L78
 play,2,1,koppj101,??,,46(1)3/GDP
@@ -4231,7 +4231,6 @@ play,6,0,kubet101,??,,43
 play,6,1,satrt101,??,,K
 play,6,1,kirke102,??,,S8
 play,6,1,koppj101,??,,S9/G.1-3
-com,"Hit and run play."
 play,6,1,knoob101,??,,FC1/SH.B-1;1-2
 play,6,1,belib101,??,,NP
 sub,fregj101,"Jim Fregosi",1,9,11
@@ -4267,7 +4266,6 @@ play,9,0,kubet101,??,,4/P
 play,9,0,richb102,??,,9/L
 play,9,0,trest101,??,,S9
 play,9,0,howae101,??,,S6.1-2
-com,"Ball took bad hop."
 play,9,0,lopeh101,??,,64(1)/FO
 data,er,terrr101,3
 data,er,hamis101,0
@@ -4325,25 +4323,25 @@ start,satrt101,"Tom Satriano",1,6,3
 start,koppj101,"Joe Koppe",1,7,6
 start,knoob101,"Bobby Knoop",1,8,4
 start,chand102,"Dean Chance",1,9,1
+com,"ej,berry101,M,mckib901,Call at 3B"
+com,"Yankees Manager Yogi Berra ejected by 3B umpire Bill McKinley"
+com,"sometime in game"
 play,1,0,kubet101,??,,7/F7D
 play,1,0,richb102,??,,K/C
 play,1,0,trest101,??,,K
 play,1,1,peara102,??,,W
 play,1,1,morab101,??,,43(1)/FO.B-1(E3)
-com,"Richardson intentionally dropped the ball."
+com,"$Bobby Richardson intentionally dropped the ball attempting double play"
 play,1,1,clinl101,??,,K+CS2(24)/DP
-com,"Translator has not that he is unsure of the play."
 play,2,0,marir101,??,,K
 play,2,0,pepij101,??,,W
 play,2,0,blanj101,??,,14(1)/FO.B-1
-com,"Throw appeared to pull Knoop of the bag.  Called out anyway."
 play,2,0,howae101,??,,K/C
 play,2,1,rodgb102,??,,13
 play,2,1,kirke102,??,,S7
 play,2,1,satrt101,??,,S9/G.1-3
 play,2,1,koppj101,??,,PO3(25)
-com,"Koppe missed a suicide sueeze but.  Satriano tried to go"
-com,"back to 3rd but was thrown out at 3rd."
+com,"$missed squeeze"
 play,2,1,koppj101,??,,3/P/FL
 play,3,0,boyec102,??,,E5/G
 play,3,0,boutj101,??,,34/SH.1-2
@@ -4385,14 +4383,12 @@ play,8,0,boyec102,??,,K
 play,8,0,boutj101,??,,63
 play,8,1,knoob101,??,,D8/89
 play,8,1,chand102,??,,14/SH.2-3
-com,"Boyer was off 3rd base or play could have been made at 3rd."
 play,8,1,peara102,??,,5/P
 play,8,1,morab101,??,,W
 play,8,1,clinl101,??,,64(1)/FO
 play,9,0,kubet101,??,,K
 play,9,0,richb102,??,,53
 play,9,0,trest101,??,,43
-com,"Topped the ball."
 play,9,1,rodgb102,??,,S3
 play,9,1,kirke102,??,,36(1)/FO/BG
 play,9,1,satrt101,??,,SB2
@@ -4404,7 +4400,6 @@ play,9,1,chand102,??,,K
 play,10,0,marir101,??,,3/G
 play,10,0,pepij101,??,,43
 play,10,0,blanj101,??,,4/L
-com,"Shift."
 play,10,1,peara102,??,,43
 play,10,1,morab101,??,,S9
 play,10,1,clinl101,??,,7/F
@@ -4544,9 +4539,9 @@ play,3,0,fordw101,??,,W
 play,3,0,kubet101,??,,4/P
 play,3,0,richb102,??,,S9/G.1-3
 play,3,0,trest101,??,,S7/LDP.3-H;1X3(7454);BX2(43)
-com,"Hit and run play.  Runner on 1st caught in a run down"
-com,"trying to go to thrid (7454) then batter thrown out at"
-com,"1st trying to get back to first (43)."
+com,"$hit and run; Bobby Richardson caught in a run down"
+com,"trying to go to 3B then Tom Tresh thrown out at 1B"
+com,"trying to return to the bag"
 play,3,1,mcbrk101,??,,W
 play,3,1,pierj102,??,,W.1-2
 play,3,1,fregj101,??,,5/L
@@ -4597,7 +4592,6 @@ play,8,0,pepij101,??,,D9
 play,8,0,blanj101,??,,D9.2-H
 play,8,0,howae101,??,,NP
 sub,linzp101,"Phil Linz",0,6,12
-com,"Linz is not on scoresheet but in Sporting News boxscore."
 play,8,0,howae101,??,,S8.2-H
 play,8,0,boyec102,??,,NP
 sub,lee-d102,"Don Lee",1,9,1
@@ -4986,7 +4980,7 @@ play,5,1,torrf101,??,,S9
 play,5,1,rodgb102,??,,S7.1-3
 play,5,1,knoob101,??,,S9.3-H;1-3
 play,5,1,belib101,??,,K.3-H(E2)(UR);1-2
-com,"Failed squeeze"
+com,"$missed squeeze"
 play,5,1,pierj102,??,,S8.2-H(UR)
 play,5,1,powev101,??,,SB2.1-3(E2/TH)
 play,5,1,powev101,??,,W
@@ -5833,9 +5827,7 @@ play,1,1,greel101,??,,9
 play,1,1,powev101,??,,13
 play,1,1,fregj101,??,,S8
 play,1,1,smitw102,??,,S8.1-H
-com,"LA Times has great picture of Fregosi scoring from 1st on 1B"
 play,1,1,rodgb102,??,,S7.1-H;B-3(E7)
-com,"Another great picture of repeat play - Smith runs through Edwards"
 play,1,1,kirke102,??,,K
 play,2,0,edwad102,??,,53
 play,2,0,mathn101,??,,K/C
@@ -6052,7 +6044,7 @@ sub,wyatj102,"John Wyatt",0,9,1
 play,9,1,clinl101,??,,NP
 sub,smitw102,"Willie Smith",1,4,11
 play,9,1,smitw102,??,,9
-com,"Official gives Smith's AB to O'Donoghue instead of Wyatt"
+com,"discrepancy: Official gives Smith's AB to O'Donoghue instead of Wyatt"
 play,9,1,adcoj101,??,,E5.2-H(UR);1-3;B-2
 play,9,1,perrb103,??,,NP
 sub,peara102,"Albie Pearson",1,5,12
@@ -6455,7 +6447,10 @@ play,8,0,robif102,??,,NP
 sub,dulib101,"Bob Duliba",1,9,1
 play,8,0,robif102,??,,D9
 play,8,0,stepg101,??,,256/SH.2-3
-com,"Rigney and Power ejected"
+com,"ej,powev101,P,honoj901,Call at 3B"
+com,"ej,rignb101,M,honoj901,Call at 3B"
+com,"Vic Power and Angels Manager Bill Rigney ejected by 3B umpire"
+com,"Jim Honochick arguing the call at 3B"
 play,8,0,wardp102,??,,NP
 sub,satrt101,"Tom Satriano",1,7,5
 play,8,0,wardp102,??,,S7.3-H
@@ -6480,7 +6475,7 @@ play,9,0,robif102,??,,9.2-3
 play,9,0,stepg101,??,,K/C
 play,9,1,knoob101,??,,NP
 sub,peara102,"Albie Pearson",1,8,11
-com,"Official gave Green the K instead of Pearson"
+com,"discrepancy: Official gave Green the K instead of Pearson"
 play,9,1,peara102,??,,K/C
 play,9,1,dulib101,??,,NP
 sub,greel101,"Lenny Green",1,9,11
@@ -6623,7 +6618,6 @@ play,9,0,robif102,??,,S7.2-H;BX2(7534)
 play,9,1,kirke102,??,,43
 play,9,1,greel101,??,,W
 play,9,1,powev101,??,,46(1)63(B)/GDP
-com,"Official credited DP to Buford"
 data,er,horlj101,0
 data,er,latmb101,3
 data,er,lee-b104,1
@@ -6956,7 +6950,7 @@ play,4,0,henrr101,??,,43
 play,4,1,adcoj101,??,,K23
 play,4,1,rodgb102,??,,53
 play,4,1,torrf101,??,,13
-com,"Arrigo hit by line drive"
+com,"$Gerry Arrigo struck by line drive"
 play,5,0,snydj103,??,,5
 play,5,0,arrig101,??,,NP
 sub,kostf101,"Frank Kostro",0,9,11
@@ -6991,10 +6985,10 @@ play,8,0,hallj107,??,,S4
 play,8,0,versz101,??,,S7.1-2
 play,8,0,rollr101,??,,NP
 sub,lee-b104,"Bob Lee",1,9,1
-com,"Official gave one of Bob Lee's ABs to Don Lee"
+com,"discrepancy: Official gave one of Bob Lee's ABs to Don Lee"
 play,8,0,rollr101,??,,S5.2-3;1-2
 play,8,0,olivt102,??,,4(1)43(B)/GDP.3-H;2-3
-com,"Official doesn't charge Oliva with GDP"
+com,"discrepancy: Official doesn't charge Oliva with GDP"
 play,8,0,killh102,??,,K
 play,8,1,smitw102,??,,NP
 sub,worta101,"Al Worthington",0,9,1
@@ -7014,9 +7008,9 @@ play,9,0,snydj103,??,,9
 play,9,1,perrb103,??,,9
 play,9,1,knoob101,??,,8
 play,9,1,lee-b104,??,,9
-com,"Bob Lee pulls muscle"
 play,10,0,worta101,??,,NP
 sub,dulib101,"Bob Duliba",1,9,1
+com,"Bob Lee left with pulled muscle"
 play,10,0,worta101,??,,K
 play,10,0,versz101,??,,43
 play,10,0,rollr101,??,,4
@@ -7516,7 +7510,6 @@ start,torrf101,"Felix Torres",1,6,5
 start,clinl101,"Lou Clinton",1,7,9
 start,knoob101,"Bobby Knoop",1,8,4
 start,newmf101,"Fred Newman",1,9,1
-com,"Season's largest crowd.  Much sports competition"
 play,1,0,kubet101,??,,43
 play,1,0,richb102,??,,8
 play,1,0,marir101,??,,43
@@ -7560,7 +7553,6 @@ play,5,1,powev101,??,,6(1)3/GDP
 play,6,0,marir101,??,,W
 play,6,0,mantm101,??,,5/P
 play,6,0,trest101,??,,K
-com,"Foul tip?"
 play,6,0,pepij101,??,,8
 play,6,1,fregj101,??,,4/P9S
 play,6,1,smitw102,??,,K
@@ -7685,7 +7677,6 @@ play,4,0,trest101,??,,K
 play,4,0,pepij101,??,,5/FL
 play,4,1,torrf101,??,,6/P
 play,4,1,clinl101,??,,K
-com,"Foul tip?"
 play,4,1,knoob101,??,,9
 play,5,0,blanj101,??,,K
 play,5,0,boyec102,??,,K
@@ -7718,7 +7709,6 @@ sub,renih101,"Hal Reniff",0,9,1
 play,8,1,pierj102,??,,53
 play,8,1,powev101,??,,63
 play,8,1,fregj101,??,,S7/G
-com,"Fregosi hit for the cycle"
 play,8,1,smitw102,??,,S8/F8S.1XH(42)
 play,9,0,marir101,??,,5/FL
 play,9,0,mantm101,??,,K/C
@@ -7777,8 +7767,6 @@ start,torrf101,"Felix Torres",1,6,5
 start,clinl101,"Lou Clinton",1,7,9
 start,knoob101,"Bobby Knoop",1,8,4
 start,belib101,"Bo Belinsky",1,9,1
-com,"Weather: Fair"
-com,"Season's largest crowd"
 play,1,0,kubet101,??,,K/C
 play,1,0,richb102,??,,4/L
 play,1,0,marir101,??,,W
@@ -7787,12 +7775,11 @@ play,1,1,pierj102,??,,9
 play,1,1,powev101,??,,S9
 play,1,1,fregj101,??,,6/P
 play,1,1,smitw102,??,,43
-com,"Ball hit hard"
 play,2,0,trest101,??,,S7
 play,2,0,howae101,??,,8/L
 play,2,0,pepij101,??,,S8.1-H(NR);B-3(E6/TH)
-com,"Pepitone got hung up between 1st and 2nd, advanced to 3rd on"
-com,"throwing error by shortstop"
+com,"$Joe Pepitone was hung up between 1B and 2B, advanced to 3B on"
+com,"throwing error"
 play,2,0,boyec102,??,,7/SF/7D.3-H(UR)
 play,2,0,boutj101,??,,K
 play,2,1,rodgb102,??,,13
@@ -7818,9 +7805,7 @@ play,5,0,kubet101,??,,43
 play,5,0,richb102,??,,53
 play,5,0,marir101,??,,3E1.B-1
 play,5,0,mantm101,??,,9/9D
-com,"Check swing?"
 play,5,1,torrf101,??,,S5
-com,"Topped the ball"
 play,5,1,clinl101,??,,6/P7S
 play,5,1,knoob101,??,,64(1)/FO
 play,5,1,belib101,??,,NP
@@ -7835,11 +7820,9 @@ play,6,0,boyec102,??,,W.1-2
 play,6,0,boutj101,??,,K
 play,6,1,pierj102,??,,S7/G
 play,6,1,powev101,??,,K
-com,"Hit a long foul ball, then out on 3rd strike foul tip(?)"
 play,6,1,fregj101,??,,W.1-2
 play,6,1,smitw102,??,,36(1)/FO.2-3
 play,6,1,rodgb102,??,,46(1)/FO
-com,"Ball hit hard"
 play,7,0,kubet101,??,,W
 play,7,0,richb102,??,,E1/BG.B-1;1-2
 play,7,0,marir101,??,,K/DP.2X3(25);1-2
@@ -7850,8 +7833,8 @@ play,7,0,trest101,??,,W.2-3;1-2
 play,7,0,howae101,??,,NP
 sub,osind101,"Dan Osinski",1,9,1
 play,7,0,howae101,??,,S8.2-H;3-H;1-3
-com,"Official gives Howard 3 RBIs"
-com,"Official missed Lopez PR for Mantle, gave run to Mantle"
+com,"discrepancy: Official gives Howard 3 RBIs"
+com,"discrepancy: Official missed Lopez PR for Mantle, gave run to Mantle"
 play,7,0,pepij101,??,,43
 play,7,1,torrf101,??,,NP
 sub,lopeh101,"Hector Lopez",0,4,7
@@ -7862,7 +7845,6 @@ play,7,1,clinl101,??,,9/9D
 play,7,1,knoob101,??,,7/7D
 play,8,0,boyec102,??,,9/9D
 play,8,0,boutj101,??,,S8
-com,"Check swing"
 play,8,0,kubet101,??,,9/L
 play,8,0,richb102,??,,9/9S
 play,8,1,osind101,??,,NP
@@ -8108,7 +8090,7 @@ play,3,1,peara102,??,,S9
 play,3,1,powev101,??,,SB2
 play,3,1,powev101,??,,43.2-3
 play,3,1,fregj101,??,,6(B)5(3)/LDP
-com,"Official gave Fregosi a GDP"
+com,"discrepancy: Official gave Fregosi a GDP"
 play,4,0,stuad101,??,,K/C
 play,4,0,malzf101,??,,7
 play,4,0,hortt101,??,,S9
@@ -8244,7 +8226,7 @@ play,3,0,yastc101,??,,7
 play,3,0,stuad101,??,,K
 play,3,1,greel101,??,,S/78
 play,3,1,fregj101,??,,6(B)6(1)/LDP
-com,"Official gave Fregosi a GDP"
+com,"discrepancy: Official gave Fregosi a GDP"
 play,3,1,smitw102,??,,S7
 play,3,1,adcoj101,??,,8/8D
 play,4,0,malzf101,??,,13
@@ -8283,7 +8265,6 @@ play,7,1,adcoj101,??,,K
 play,7,1,rodgb102,??,,IW
 play,7,1,torrf101,??,,8
 play,8,0,mantf101,??,,S7
-com,"Official doesn't count as GDP so probably not 463"
 play,8,0,yastc101,??,,46(1)63(B)/DP
 play,8,0,stuad101,??,,8
 play,8,1,knoob101,??,,NP
@@ -8378,7 +8359,7 @@ play,3,1,perrb103,??,,9
 play,3,1,greel101,??,,63
 play,4,0,aparl101,??,,S
 play,4,0,johnb104,??,,CS2(2E6).1-2
-com,"Official assigned CS to Brandt"
+com,"discrepancy: Official assigned CS to Brandt"
 play,4,0,johnb104,??,,W
 play,4,0,robib104,??,,8.2-3
 play,4,0,bowes103,??,,S9.3-H(UR);1-3;B-2
@@ -8399,7 +8380,7 @@ play,5,1,rodgb102,??,,43
 play,5,1,torrf101,??,,S9
 play,5,1,knoob101,??,,16(1)63(B)/GDP
 play,6,0,browd102,??,,S7
-com,"Official gave Gatewood an extra AB and took one away from Belinski"
+com,"discrepancy: Official gave Gatewood an extra AB and took one away from Belinski"
 play,6,0,adaij101,??,,NP
 sub,gatea101,"Aubrey Gatewood",1,9,1
 play,6,0,adaij101,??,,D8.1-3
@@ -9110,7 +9091,8 @@ play,5,1,knoob101,??,,8
 play,5,1,chand102,??,,K/C
 play,6,0,lockd101,??,,23
 play,6,0,phild103,??,,43
-play,6,0,brumm101,??,,2/INT
+play,6,0,brumm101,??,,2/BINT
+com,"$Mike Brumley called for interference"
 play,6,1,pierj102,??,,NP
 sub,greel101,"Lenny Green",1,1,11
 play,6,1,greel101,??,,W
@@ -9270,7 +9252,7 @@ play,5,0,davav101,??,,63
 play,5,0,browl104,??,,S7
 play,5,0,heldw101,??,,8
 play,5,0,tianl101,??,,K23
-com,"Official gave Rodgers a W instead of a K"
+com,"discrepancy: Official gave Rodgers a W instead of a K"
 play,5,1,rodgb102,??,,K
 play,5,1,perrb103,??,,3
 play,5,1,knoob101,??,,13
@@ -9280,7 +9262,7 @@ play,6,0,wagnl101,??,,K
 play,6,1,belib101,??,,43
 play,6,1,greel101,??,,E5.B-2
 play,6,1,powev101,??,,HP
-com,"Power beaned"
+com,"$Vic Power beaned"
 play,6,1,fregj101,??,,NP
 sub,gatea101,"Aubrey Gatewood",1,2,12
 play,6,1,fregj101,??,,5/FL
@@ -10150,7 +10132,6 @@ start,reicr101,"Rick Reichardt",1,6,8
 start,satrt101,"Tom Satriano",1,7,2
 start,knoob101,"Bobby Knoop",1,8,4
 start,brung101,"George Brunet",1,9,1
-com,"Weather fair and cool."
 play,1,0,linzp101,??,,53
 play,1,0,gonzp101,??,,9
 play,1,0,trest101,??,,8
@@ -10195,8 +10176,7 @@ play,6,0,mantm101,??,,S5.2-3
 play,6,0,howae101,??,,S9.3-H;1-3
 play,6,0,lopeh101,??,,8/SF/8D.3-H
 play,6,0,pepij101,??,,S8/G.1-2
-com,"Hit triple on a 3-0 count."
-play,6,0,boyec102,??,,T8/8D.1-H;2-H
+play,6,0,boyec102,30,,T8/8D.1-H;2-H
 play,6,0,downa101,??,,NP
 sub,latmb101,"Barry Latman",1,9,1
 play,6,0,downa101,??,,4
@@ -10216,7 +10196,6 @@ sub,torrf101,"Felix Torres",1,9,11
 play,7,1,torrf101,??,,64(1)/FO.B-1
 play,8,0,mantm101,??,,NP
 sub,osind101,"Dan Osinski",1,9,1
-com,"Hit on a 3-0 count."
 play,8,0,mantm101,??,,43
 play,8,0,howae101,??,,63
 play,8,0,lopeh101,??,,W
@@ -10296,11 +10275,9 @@ play,1,0,linzp101,??,,K
 play,1,0,gonzp101,??,,53
 play,1,0,marir101,??,,8
 play,1,1,clinl101,??,,9
-com,"Hit a 'Foul home run' before striking out."
 play,1,1,fregj101,??,,K
 play,1,1,smitw102,??,,43
 play,2,0,mantm101,??,,S7
-com,"Berra claimed no tag on runner from first."
 play,2,0,trest101,??,,4(1)3/GDP
 play,2,0,pepij101,??,,8
 play,2,1,adcoj101,??,,S8
@@ -10308,7 +10285,6 @@ play,2,1,torrf101,??,,9/L
 play,2,1,reicr101,??,,9/9D
 play,2,1,satrt101,??,,9/9D
 play,3,0,howae101,??,,S8
-com,"Batter topped the ball on a hit and run play."
 play,3,0,richb102,??,,13.1-2
 play,3,0,boutj101,??,,63
 play,3,0,linzp101,??,,K
@@ -10320,7 +10296,6 @@ play,4,0,marir101,??,,153
 play,4,0,mantm101,??,,7
 play,4,1,fregj101,??,,E5/G
 play,4,1,smitw102,??,,D7/G5.1-3
-com,"1 run unearned."
 play,4,1,adcoj101,??,,HR/8XD.2-H;3-H(UR)
 play,4,1,torrf101,??,,9
 play,4,1,reicr101,??,,13
@@ -10467,11 +10442,6 @@ play,4,1,mcbrk101,??,,W.1-2
 play,4,1,schap101,??,,64(1)/FO.B-1
 play,5,0,boyec102,??,,63
 play,5,0,stotm101,??,,41
-com,"Listed as S8.B-3(E8) on Yankee scoresheet.  Listed as"
-com,"T8 in Angel scoresheet and Sporting News.  Kubek's run"
-com,"is listed as unearned in the Yankee scoresheet in the"
-com,"batting section, but as earned in the Angel pitching"
-com,"totals.  Apparently it was ruled as a triple."
 play,5,0,kubet101,??,,T8
 play,5,0,richb102,??,,S7.3-H
 play,5,0,marir101,??,,K
@@ -10490,7 +10460,7 @@ play,6,0,trest101,??,,3/G.1-2
 play,6,0,pepij101,??,,7
 play,6,0,blanj101,??,,31
 play,6,1,knoob101,??,,9
-com,"Official gave walk to McBride"
+com,"discrepancy: Official gave walk to McBride"
 play,6,1,lee-b104,??,,W
 play,6,1,schap101,??,,2/FL
 play,6,1,powev101,??,,9
@@ -10899,7 +10869,7 @@ play,5,0,greel101,??,,9/9D
 play,5,1,clinl101,??,,8
 play,5,1,rodgb102,??,,W
 play,5,1,reicr101,??,,64(1)/FO
-com,"Official didn't count as CS"
+com,"discrepancy: Official didn't count as CS"
 play,5,1,knoob101,??,,CS2(2E6).1-2
 play,5,1,knoob101,??,,IW
 play,5,1,latmb101,??,,3/L
@@ -11083,7 +11053,6 @@ play,8,1,clinl101,??,,NP
 sub,peara102,"Albie Pearson",1,4,12
 play,8,1,clinl101,??,,63.1-2
 play,8,1,rodgb102,??,,HR8/IPHR.2-H
-com,"Inside the park"
 play,8,1,reicr101,??,,K/C
 play,9,0,thoml103,??,,NP
 sub,powev101,"Vic Power",1,4,3
@@ -11155,8 +11124,7 @@ play,1,0,yastc101,??,,W
 play,1,0,stuad101,??,,S9.1-2
 play,1,0,thoml103,??,,S9.2-H;1-3
 play,1,0,malzf101,??,,53
-com,"Stuart has FLE3 but no idea where"
-play,1,1,clinl101,??,,FLE3
+play,1,1,clinl101,??,,FLE3#
 play,1,1,clinl101,??,,31
 play,1,1,powev101,??,,53
 play,1,1,fregj101,??,,63
@@ -11225,7 +11193,9 @@ play,8,1,peara102,??,,W
 play,8,1,clinl101,??,,W.1-2
 play,8,1,powev101,??,,K
 play,8,1,fregj101,??,,W.2-3;1-2
-com,"Piersall ejected"
+com,"ej,pierj102,P,flahr901,Bench jockeying"
+com,"Jim Piersall ejected by HP umpire Red Flaherty for"
+com,"razzing Dick Radatz"
 play,8,1,smitw102,??,,T9.3-H;2-H;1-H
 play,8,1,rodgb102,??,,K/C
 play,8,1,torrf101,??,,7
@@ -11233,10 +11203,14 @@ play,9,0,brese101,??,,NP
 sub,satrt101,"Tom Satriano",1,9,5
 play,9,0,brese101,??,,NP
 sub,lee-b104,"Bob Lee",1,6,1
-com,"Radatz ejected"
+com,"ej,radad101,P,flahr901,Balls and strikes"
+com,"Dick Radatz ejected by HP umpire Red Flaherty"
 play,9,0,brese101,??,,K
-com,"Nixon & Thomas ejected"
 play,9,0,nixor101,??,,K/C
+com,"ej,nixor101,P,flahr901,Called third strike (Threw dirt on HP)"
+com,"ej,thoml103,P,flahr901,Called third strike"
+com,"Russ Nixon ejected by HP umpire Red Flaherty for throwing"
+com,"dirt on HP; Lee Thomas ejected by Flaherty from the bench"
 play,9,0,radad101,??,,NP
 sub,hortt101,"Tony Horton",0,9,11
 play,9,0,hortt101,??,,2/FL
@@ -11366,6 +11340,7 @@ play,4,0,hansr102,??,,53
 play,4,1,rodgb102,??,,63
 play,4,1,torrf101,??,,W
 play,4,1,satrt101,??,,2/INT
+com,"$Tom Satriano called for interference"
 play,4,1,knoob101,??,,9
 play,5,0,berrk101,??,,6
 play,5,0,martj107,??,,7
@@ -11381,7 +11356,6 @@ play,6,1,smitw102,??,,9
 play,6,1,clinl101,??,,W
 play,6,1,rodgb102,??,,PO1(E3).1-3
 play,6,1,rodgb102,??,,FC4.3XH(42)
-com,"Martin injured but finishes inning"
 play,6,1,torrf101,??,,3
 play,7,0,mccrt102,??,,NP
 sub,perrb103,"Bob Perry",1,3,8
@@ -11508,7 +11482,7 @@ play,5,0,mcnej101,??,,9
 play,5,0,horlj101,??,,W
 play,5,0,hersm101,??,,W.1-2
 play,5,0,robif102,??,,K+CS3(25)/DP
-com,"Official doesn't charge CS to Horlen"
+com,"discrepancy: Official doesn't charge CS to Horlen"
 play,5,1,pierj102,??,,NP
 sub,carrc104,"Cam Carreon",0,8,2
 play,5,1,pierj102,??,,K/C
@@ -11785,7 +11759,7 @@ play,3,0,granj101,??,,S9
 play,3,0,bethb101,??,,5/FL
 play,3,1,pierj102,??,,S9
 play,3,1,fregj101,??,,54(1)43(B)/GDP
-com,"Official gave GDP to Smith"
+com,"discrepancy: Official gave GDP to Smith"
 play,3,1,smitw102,??,,HR/9
 play,3,1,clinl101,??,,63
 play,4,0,versz101,??,,63

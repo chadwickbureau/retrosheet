@@ -61,9 +61,9 @@ sub,abert101,"Ted Abernathy",1,9,1
 play,1,0,gibsb101,11,,E6.3-H(NR)(UR);2-H(NR)(UR);1-3
 play,1,0,flooc101,12,,43
 play,1,1,beckg101,12,,K/C
-com,"$Debut game for Glenn Beckert"
+com,"Debut game for Glenn Beckert"
 play,1,1,penar101,32,,9
-com,"$Debut game for Roberto Pena"
+com,"Debut game for Roberto Pena"
 play,1,1,willb104,12,,53
 play,2,0,brocl102,22,,63
 play,2,0,whitb105,21,,41
@@ -84,7 +84,6 @@ play,3,0,shanm101,31,,W
 play,3,0,javij101,22,,54(1)/FO
 play,3,0,ueckb101,??,,CS2(23)
 play,3,1,penar101,00,,HR/9
-com,"$first major league hit, HR off Gibson"
 play,3,1,willb104,21,,43
 play,3,1,santr102,01,,53
 play,3,1,altmg101,01,,S6
@@ -108,7 +107,6 @@ play,4,1,baumf102,??,,NP
 sub,gabrl102,"Len Gabrielson",1,9,11
 play,4,1,gabrl102,00,,8
 play,4,1,beckg101,21,,S1.1-2
-com,"$first major league hit"
 play,4,1,penar101,11,,D7.2-H;1-H
 play,4,1,willb104,30,,7
 play,5,0,javij101,??,,NP
@@ -138,7 +136,7 @@ play,6,1,stewj102,00,,HP
 play,6,1,beckg101,11,,7
 play,6,1,penar101,??,,NP
 sub,rickd102,"Dave Ricketts",0,8,2
-com,"$Uecker injured chasing foul ball into wall"
+com,"Bob Uecker injured chasing foul ball into wall"
 play,6,1,penar101,12,,K/C
 play,6,1,willb104,32,,W.1-2
 play,6,1,santr102,12,,K
@@ -205,13 +203,13 @@ play,11,1,santr102,02,,D8.3-H
 play,11,1,altmg101,??,,NP
 sub,carls001,"Steve Carlton",0,9,1
 play,11,1,altmg101,31,,W
-com,"$Debut game for Steve Carlton"
+com,"Debut game for Steve Carlton"
 play,11,1,banke101,??,,NP
 sub,purkb101,"Bob Purkey",0,9,1
 play,11,1,banke101,00,,8.2-3
 play,11,1,clemd101,30,,IW.1-2#
 play,11,1,roznv101,11,,9
-com,"$Game called as 10-10 tie - probably darkness"
+com,"$Game called due to darkness (10-10 tie)"
 data,er,gibsb101,5
 data,er,taylr101,1
 data,er,stalt101,2
@@ -416,9 +414,8 @@ play,2,1,banke101,12,,64(1)3/GDP
 play,2,1,clemd101,32,,43
 play,3,0,rickd102,01,,S9/L
 play,3,0,sader101,02,,K/C
-play,3,0,flooc101,01,,S8.1-3(E4)#
-com,"xE4 was due to interference-couldn't find way to put 'INT' in"
-com,"xmy scoring notation-also assumed it was on this play"
+play,3,0,flooc101,01,,S8/OBS.1-3(E4)
+com,"$Glenn Beckert called for obstruction"
 play,3,0,brocl102,22,,K
 play,3,0,groad101,00,,43
 play,3,1,bertd101,00,,S9/P
@@ -477,7 +474,6 @@ sub,carls001,"Steve Carlton",0,9,1
 play,8,1,clemd101,00,,SB3;SB2#
 play,8,1,clemd101,00,,WP.3-H#
 play,8,1,clemd101,00,,WP.2-3#
-com,"xBoth scoresheets had 2 WP for Carlton-not sure of sequence"
 play,8,1,clemd101,11,,6
 play,8,1,bertd101,22,,63
 play,8,1,ellsd101,22,,K
@@ -547,6 +543,7 @@ start,banke101,"Ernie Banks",1,6,3
 start,clemd101,"Doug Clemens",1,7,9
 start,bertd101,"Dick Bertell",1,8,2
 start,jackl102,"Larry Jackson",1,9,1
+com,"$Joey Jay: 119 pitches; Larry Jackson: 84 pitches"
 play,1,0,rosep001,00,,13
 play,1,0,harpt101,21,,63
 play,1,0,pinsv101,31,,W
@@ -638,11 +635,6 @@ play,9,1,santr102,32,,W
 play,9,1,altmg101,32,,K
 play,9,1,banke101,32,,3/P
 play,9,1,clemd101,10,,13
-com,"$Jay: 119 pitches (22/8/9/14/13/10/12/6/25)"
-com,"$Jackson: 84 pitches (18/12/18/22/7/7)"
-com,"$McDaniel: 19 pitches (10/9)"
-com,"$Faul: 31 pitches (19/12)"
-com,"$Humphreys: 9 pitches"
 data,er,jay-j101,2
 data,er,jackl102,6
 data,er,mcdal101,0
@@ -699,6 +691,7 @@ start,banke101,"Ernie Banks",1,6,3
 start,clemd101,"Doug Clemens",1,7,9
 start,bertd101,"Dick Bertell",1,8,2
 start,koonc101,"Cal Koonce",1,9,1
+com,"$Cal Koonce: 90 pitches; Jim O'Toole: 104 pitches"
 play,1,0,rosep001,01,,43
 play,1,0,harpt101,11,,7/F
 play,1,0,pinsv101,21,,7/F
@@ -782,10 +775,6 @@ play,9,0,shama101,10,,S9
 play,9,0,cardl101,00,,NP
 sub,ruizc102,"Chico Ruiz",0,7,12
 play,9,0,cardl101,12,,K
-com,"$Koonce: 90 pitches (9/30/11/8/5/15/4/8)"
-com,"$Abernathy: 29 pitches (12/17)"
-com,"$O'Toole: 104 pitches (15/18/12/16/10/13/20)"
-com,"$McCool: 17 pitches"
 data,er,otooj101,2
 data,er,mccob105,1
 data,er,koonc101,2
@@ -841,6 +830,7 @@ start,banke101,"Ernie Banks",1,6,3
 start,clemd101,"Doug Clemens",1,7,9
 start,bertd101,"Dick Bertell",1,8,2
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Bob Buhl: 90 pitches; Tony Cloninger: 85 pitches"
 play,1,0,clint101,01,,S9/L
 play,1,0,mayel101,00,,S8/P.1-3;B-2(TH)
 play,1,0,mathe101,31,,9/F
@@ -932,11 +922,6 @@ play,9,0,osind101,00,,NP
 sub,torrj101,"Joe Torre",0,9,11
 play,9,0,torrj101,12,,13
 play,9,0,clint101,12,,K/C
-com,"$Buhl: 90 pitches (20/4/7/14/13/20/12)"
-com,"$Abernathy: 32 pitches (16/16)"
-com,"$Cloninger: 85 pitches (11/24/14/36)"
-com,"$Fischer: 31 pitches (19/12)"
-com,"$Osinski: 41 pitches (30/11)"
 data,er,clont101,3
 data,er,fisch101,0
 data,er,osind101,0
@@ -993,6 +978,7 @@ start,gabrl102,"Len Gabrielson",1,6,9
 start,penar101,"Roberto Pena",1,7,6
 start,bertd101,"Dick Bertell",1,8,2
 start,koonc101,"Cal Koonce",1,9,1
+com,"$Joe Gibbon: 98 pitches; Cal Koonce: 108 pitches"
 play,1,0,rodga101,11,,53
 play,1,0,virdb101,11,,43
 play,1,0,clend101,22,,K
@@ -1087,11 +1073,6 @@ sub,landd101,"Don Landrum",1,9,11
 play,9,1,landd101,10,,S7/G.1-2;2-3
 play,9,1,beckg101,00,,9/F
 play,9,1,altmg101,32,,63
-com,"$Gibbon: 98 pitches (31/6/17/7/15/10/6/6)"
-com,"$McBean: 29 pitches (7/22)"
-com,"$Koonce: 108 pitches (11/17/13/15/13/19/20)"
-com,"$Broglio: 32 pitches (20/12)"
-com,"$Abernathy: 15 pitches"
 data,er,gibbj102,3
 data,er,mcbea101,0
 data,er,koonc101,3
@@ -1148,6 +1129,7 @@ start,gabrl102,"Len Gabrielson",1,6,9
 start,penar101,"Roberto Pena",1,7,6
 start,bertd101,"Dick Bertell",1,8,2
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Bob Buhl: 116 pitches; Vern Law: 104 pitches"
 play,1,0,rodga101,01,,43
 play,1,0,virdb101,12,,7/F
 play,1,0,clend101,32,,W
@@ -1225,11 +1207,6 @@ play,9,0,rodga101,11,,9/F
 play,9,0,virdb101,32,,13
 play,9,0,clend101,31,,W
 play,9,0,starw101,00,,3/G
-com,"$Buhl: 116 pitches (18/19/6/15/8/8/11/15/16)"
-com,"$Law: 104 pitches (12/15/17/19/13/12/16)"
-com,"$Face: 3 pitches"
-com,"$Wood: 10 pitches"
-com,"$Sisk: 10 pitches"
 data,er,law-v101,2
 data,er,facer101,0
 data,er,woodw103,1
@@ -1286,6 +1263,7 @@ start,gabrl102,"Len Gabrielson",1,6,9
 start,penar101,"Roberto Pena",1,7,6
 start,bertd101,"Dick Bertell",1,8,2
 start,jackl102,"Larry Jackson",1,9,1
+com,"$Larry Jackson: 123 pitches; Don Cardwell: 73 pitches"
 play,1,0,rodga101,10,,63
 play,1,0,virdb101,01,,43
 play,1,0,clend101,22,,S4/G
@@ -1295,7 +1273,6 @@ play,1,1,beckg101,32,,S9/L
 play,1,1,altmg101,22,,16(1)/FO
 play,1,1,willb104,01,,4(1)3/GDP
 play,2,0,bailb103,21,,13#
-com,"xScoresheet is unclear"
 play,2,0,paglj101,32,,W
 play,2,0,alleg101,00,,16(1)/FO
 play,2,0,cardd101,10,,S7/L.1-2
@@ -1392,11 +1369,6 @@ sub,abert101,"Ted Abernathy",1,9,1
 play,9,0,clend101,00,,S6/G.1-2
 play,9,0,starw101,32,,W.2-3;1-2
 play,9,0,motam101,21,,9/F
-com,"$Jackson: 123 pitches (18/19/19/18/11/9/5/12/12)"
-com,"$Abernathy: 11 pitches"
-com,"$Cardwell: 73 pitches (14/14/21/13/11)"
-com,"$Schwall: 31 pitches (15/10/6)"
-com,"$McBean: 16 pitches"
 data,er,cardd101,2
 data,er,schwd101,3
 data,er,mcbea101,0
@@ -1453,6 +1425,7 @@ start,gabrl102,"Len Gabrielson",1,6,9
 start,penar101,"Roberto Pena",1,7,6
 start,bertd101,"Dick Bertell",1,8,2
 start,burdl101,"Lew Burdette",1,9,1
+com,"$Dave Giusti: 83 pitches; Lew Burdette: 77 pitches"
 play,1,0,morgj001,01,,8/F
 play,1,0,spana101,01,,S8/L
 play,1,0,wynnj101,11,,13/SH.1-2
@@ -1472,8 +1445,7 @@ play,2,0,giusd101,02,,D7/G.1-H(UR);2-H(UR)
 play,2,0,morgj001,21,,31
 play,2,1,penar101,11,,S9/L
 play,2,1,bertd101,00,,S9/L.1-3;BX2(9543)
-play,2,1,burdl101,12,,K.3XH(2)#
-com,"xApparently got past Bateman, got runner, no DP"
+play,2,1,burdl101,12,,K/NDP.3XH(2)
 play,3,0,spana101,10,,63
 play,3,0,wynnj101,31,,7/L
 play,3,0,bondw101,00,,8/F
@@ -1488,7 +1460,7 @@ play,4,0,batej102,21,,8/F
 play,4,0,kaske101,01,,1/P
 play,4,0,giusd101,00,,6(1)/FO
 play,4,1,gabrl102,21,,S7/L
-play,4,1,penar101,11,,S4/G.1X3(4)
+play,4,1,penar101,11,,S/BR/G4.1X2(4)
 play,4,1,bertd101,02,,K/C
 play,4,1,burdl101,00,,2/P
 play,5,0,morgj001,22,,3/G
@@ -1544,11 +1516,6 @@ play,9,1,mcdal101,00,,NP
 sub,landd101,"Don Landrum",1,8,11
 play,9,1,landd101,00,,13
 play,9,1,roznv101,11,,31
-com,"$Giusti: 83 pitches (23/8/17/12/5/11/7)"
-com,"$Owens: 31 pitches (1/22/8)"
-com,"$Burdette: 77 pitches (12/23/8/14/20)"
-com,"$Broglio: 44 pitches (16/28)"
-com,"$McDaniel: 17 pitches (8/9)"
 data,er,giusd101,4
 data,er,owenj101,0
 data,er,burdl101,3
@@ -1605,6 +1572,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,penar101,"Roberto Pena",1,7,6
 start,bertd101,"Dick Bertell",1,8,2
 start,koonc101,"Cal Koonce",1,9,1
+com,"$Don Nottebart: 73 pitches; Cal Koonce: 42 pitches"
 play,1,0,morgj001,12,,43
 play,1,0,spana101,32,,8/F
 play,1,0,wynnj101,00,,13
@@ -1704,12 +1672,6 @@ play,9,1,baumf102,00,,NP
 sub,landd101,"Don Landrum",1,9,11
 play,9,1,landd101,22,,4/P
 play,9,1,beckg101,10,,5/P
-com,"$Nottebart: 73 pitches (22/16/11/9/15)"
-com,"$Dierker: 59 pitches (4/17/18/9/11)"
-com,"$Koonce: 42 pitches (11/26/5)"
-com,"$Broglio: 40 pitches (18/13/17)"
-com,"$McDaniel: 34 pitches (15/19)"
-com,"$Baumann: 23 pitches (20/3)"
 data,er,nottd101,5
 data,er,dierl101,1
 data,er,koonc101,4
@@ -1767,6 +1729,7 @@ start,altmg101,"George Altman",1,6,9
 start,roznv101,"Vic Roznovsky",1,7,2
 start,penar101,"Roberto Pena",1,8,6
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Ken Johnson: 82 pitches; Bob Buhl: 81 pitches"
 play,1,0,morgj001,10,,S1/BG
 play,1,0,spana101,11,,7/F
 play,1,0,wynnj101,00,,S7/G.1-2
@@ -1871,13 +1834,6 @@ play,9,1,landd101,31,,W
 play,9,1,beckg101,00,,NP
 sub,owenj101,"Jim Owens",0,9,1
 play,9,1,beckg101,01,,8/F
-com,"$Johnson: 82 pitches (19/10/11/16/18/8)"
-com,"$Woodeshick: 35 pitches (6/9/20)"
-com,"$Owens: 2 pitches"
-com,"$Buhl: 81 pitches (15/9/13/11/25/8)"
-com,"$McDaniel: 23 pitches (10/13)"
-com,"$Abernathy: 33 pitches (24/9)"
-com,"$Broglio: 19 pitches"
 data,er,johnk102,5
 data,er,woodh101,0
 data,er,owenj101,0
@@ -1936,6 +1892,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,roznv101,"Vic Roznovsky",1,7,2
 start,penar101,"Roberto Pena",1,8,6
 start,ellsd101,"Dick Ellsworth",1,9,1
+com,"$Dick Ellsworth: 95 pitches; Bob Bruce: 82 pitches"
 play,1,0,lillb101,10,,S8/L
 play,1,0,morgj001,20,,16(1)/FO
 play,1,0,wynnj101,12,,7/L
@@ -1957,7 +1914,6 @@ play,3,0,brucb101,32,,43
 play,3,1,ellsd101,00,,43
 play,3,1,landd101,22,,43
 play,3,1,beckg101,21,,HR/7
-com,"$Beckert's first major league homer"
 play,3,1,willb104,30,,4/P
 play,4,0,lillb101,22,,43
 play,4,0,morgj001,30,,W
@@ -2016,11 +1972,6 @@ play,9,0,morgj001,21,,8/F
 play,9,0,wynnj101,32,,7/F
 play,9,0,bondw101,00,,S7/G
 play,9,0,asprb101,10,,64(1)/FO
-com,"$Ellsworth: 95 pitches (10/8/16/20/12/9/11/9)"
-com,"$Abernathy: 16 pitches (3/13)"
-com,"$Bruce: 82 pitches (12/10/14/19/9/16)"
-com,"$MacKenzie: 13 pitches"
-com,"$Raymond: 42 pitches"
 data,er,brucb101,3
 data,er,mackk101,0
 data,er,raymc101,4
@@ -2165,7 +2116,7 @@ play,7,1,penar101,??,,3
 play,8,0,hartj102,??,,13
 play,8,0,hallt102,??,,43
 play,8,0,lanih101,??,,53
-com,"$believe called for darkness"
+com,"$game called for darkness"
 data,er,sanfj101,4
 data,er,herbr102,3
 data,er,bolib101,0
@@ -2259,7 +2210,7 @@ play,4,0,perrg101,??,,9
 play,4,0,aloum101,??,,3/G
 play,4,1,banke101,??,,NP
 sub,davej101,"Jim Davenport",0,8,6
-com,"$Pagan injured his leg running during his at-bat."
+com,"Jose Pagan left with injured leg"
 play,4,1,banke101,??,,K/C
 play,4,1,clemd101,??,,S7
 play,4,1,bertd101,??,,63.1-2
@@ -2307,7 +2258,6 @@ play,9,0,baile101,??,,S9
 play,9,0,aloum101,??,,NP
 sub,hendk101,"Ken Henderson",0,9,12
 play,9,0,aloum101,??,,WP.1-2#
-com,"xWP may have occurred with any of the next three at bat."
 play,9,0,aloum101,??,,8
 play,9,0,alouj101,??,,K
 play,9,0,mccow101,??,,43
@@ -2500,12 +2450,11 @@ start,clemd101,"Doug Clemens",1,6,9
 start,roznv101,"Vic Roznovsky",1,7,2
 start,penar101,"Roberto Pena",1,8,6
 start,ellsd101,"Dick Ellsworth",1,9,1
-com,"xboth Tracewski and Lefebvre listed as 2B"
+com,"$Dick Ellsworth 129 pitches; Don Drysdale 106 pitches"
 play,1,0,willm102,11,,63
 play,1,0,parkw101,31,,W
 play,1,0,johnl104,20,,54(1)/FO
 play,1,0,fairr101,12,,3/G
-com,"$pitch count Ellsworth 129;Drysdale 106, Miller 7"
 play,1,1,landd101,11,,53/BG
 play,1,1,beckg101,11,,S9/G
 play,1,1,willb104,00,,PO1(E1).1-2#
@@ -2642,7 +2591,6 @@ start,penar101,"Roberto Pena",1,8,6
 start,koonc101,"Cal Koonce",1,9,1
 play,1,0,willm102,??,,S6
 play,1,0,parkw101,??,,CS2(26)#
-com,"xCS may be with Davis or Fairly up"
 play,1,0,parkw101,??,,K/C
 play,1,0,daviw102,??,,3/G
 play,1,1,landd101,??,,K/C
@@ -2680,7 +2628,7 @@ play,5,0,koufs101,??,,CS2(26)
 play,5,0,koufs101,??,,S9
 play,5,0,willm102,??,,9/L
 play,5,1,penar101,??,,99#
-com,"xDWS: missing play"
+com,"missing play in CHN196505220"
 play,5,1,koonc101,??,,K
 play,5,1,landd101,??,,K/C
 play,6,0,parkw101,??,,S3/BG
@@ -2707,7 +2655,6 @@ play,8,0,daviw102,??,,S9
 play,8,0,fairr101,??,,14/SH.1-2
 play,8,0,rosej101,20,,NP
 sub,mcdal101,"Lindy McDaniel",1,9,1
-com,"$McDaniel enters with 2-0 count - walk to Koonce"
 play,8,0,rosej101,30,,IW
 play,8,0,lefej101,??,,K
 play,8,0,johnl104,??,,8
@@ -2786,9 +2733,8 @@ start,clemd101,"Doug Clemens",1,6,9
 start,bertd101,"Dick Bertell",1,7,2
 start,penar101,"Roberto Pena",1,8,6
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Johnny Podres 83 pitches; Bob Buhl 82 pitches"
 play,1,0,willm102,02,,S8/L
-com,"$pitch count Podres 83,Miller 39,Perranoski 25;Buhl 82"
-com,"$Abernathy 26"
 play,1,0,parkw101,10,,SB2
 play,1,0,parkw101,20,,3/G.2-3
 play,1,0,daviw102,00,,S8/L.3-H
@@ -3278,7 +3224,7 @@ play,9,1,beckg101,22,,S6/G
 play,9,1,abert101,00,,NP
 sub,altmg101,"George Altman",1,9,11
 play,9,1,altmg101,22,,3/G
-com,"$Game called, darkness"
+com,"$Game called due to darkness"
 data,er,krolg101,2
 data,er,bearl101,0
 data,er,bethj101,0
@@ -3508,7 +3454,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,roznv101,"Vic Roznovsky",1,7,2
 start,penar101,"Roberto Pena",1,8,6
 start,jackl102,"Larry Jackson",1,9,1
-com,"$pitch count per 15: Bunning 119;Jackson 41, Abernathy 44"
+com,"$Jim Bunning 119 pitches; Larry Jackson 41 pitches"
 play,1,0,rojac101,??,,8/78
 play,1,0,gonzt101,??,,E6.B-1
 play,1,0,callj101,??,,D7.1-3
@@ -3650,6 +3596,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,krugc101,"Chris Krug",1,7,2
 start,penar101,"Roberto Pena",1,8,6
 start,ellsd101,"Dick Ellsworth",1,9,1
+com,"$Dick Ellsworth 68 pitches; Chris Short 84 pitches"
 play,1,0,rojac101,??,,S8
 play,1,0,callj101,??,,3/SH.1-2
 play,1,0,alled101,??,,D7.2-H
@@ -3762,7 +3709,7 @@ play,8,1,banke101,??,,D/78
 play,8,1,clemd101,??,,43
 play,9,0,callj101,??,,6/P
 play,9,0,alled101,??,,W
-com,"$Rain delay of 27 minutes"
+com,"27 minute rain delay"
 play,9,0,stuad101,??,,8
 play,9,0,gonzt101,??,,S7/6/G.1-3
 play,9,0,herrj101,??,,S8.3-H;1-2
@@ -3781,9 +3728,7 @@ play,9,1,mcdal101,??,,NP
 sub,landd101,"Don Landrum",1,9,11
 play,9,1,landd101,??,,IW
 play,9,1,kuenh101,??,,K
-com,"$Rain delay of 35 minutes"
-com,"$pitch count Ellsworth 68, Abern 68,McDaniel 2"
-com,"$Short 84, Herbert 12, Baldschun 24, Belinsky 35"
+com,"35 minute rain delay"
 play,9,1,amalj101,??,,NP
 sub,altmg101,"George Altman",1,2,11
 play,9,1,altmg101,??,,S8/G.3-H;1-2
@@ -3846,6 +3791,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,amalj101,"Joey Amalfitano",1,7,4
 start,krugc101,"Chris Krug",1,8,2
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Bob Buhl 106 pitches; Ray Culp 135 pitches"
 play,1,0,gonzt101,??,,3/G
 play,1,0,alled101,??,,53
 play,1,0,callj101,??,,23
@@ -3916,7 +3862,6 @@ play,8,0,coviw101,??,,NP
 sub,baile101,"Ed Bailey",1,8,2
 play,8,0,coviw101,??,,6/P
 play,8,0,stuad101,??,,53
-com,"$pitch count Buhl 106, McDaniel 28, Hendley 3;Culp 135"
 play,8,0,dalrc101,??,,W
 play,8,0,rojac101,??,,CS2(24)
 play,8,1,willb104,??,,NP
@@ -3936,7 +3881,6 @@ sub,hendb101,"Bob Hendley",1,9,1
 play,9,0,callj101,??,,43
 play,9,1,clemd101,??,,S9/G
 play,9,1,amalj101,??,,S3/BG.1-2
-com,"$Wine fell on bunt, let roll, stayed fair"
 play,9,1,baile101,??,,7
 play,9,1,hendb101,??,,NP
 sub,altmg101,"George Altman",1,9,11
@@ -3998,6 +3942,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,baile101,"Ed Bailey",1,7,2
 start,amalj101,"Joey Amalfitano",1,8,4
 start,jackl102,"Larry Jackson",1,9,1
+com,"$Larry Jackson 60 pitches; Art Mahaffey 57 pitches"
 play,1,0,gonzt101,??,,K
 play,1,0,alled101,??,,9
 play,1,0,callj101,??,,HR/9
@@ -4017,12 +3962,8 @@ play,2,0,mahaa102,??,,6/P
 play,2,0,gonzt101,??,,5/P
 play,2,0,alled101,??,,K23
 play,2,1,amalj101,??,,9
-com,"$source 28 recorded Callison and Gonzalez collide on Amalfitano fly"
 play,2,1,jackl102,??,,53
 play,2,1,landd101,??,,K/C
-com,"$pitch count jackson 60,Humphreys 22,Hendley 5,McDaniel 30"
-com,"$Broglio 39?;Mahaffey 57, Baldschun 9,Belinsky 5,Wagner 84"
-com,"$Roebuck 7?"
 play,3,0,callj101,??,,HR/9
 play,3,0,coviw101,??,,S9
 play,3,0,stuad101,??,,9/L
@@ -4054,7 +3995,7 @@ play,4,1,amalj101,??,,NP
 sub,johna104,"Alex Johnson",0,4,7
 play,4,1,amalj101,??,,NP
 sub,wagng101,"Gary Wagner",0,9,1
-com,"$source 28 says Belinsky leaves after hurting his side"
+com,"Bo Belinsky left with injured side"
 play,4,1,amalj101,??,,W
 play,4,1,hendb101,??,,NP
 sub,altmg101,"George Altman",1,9,11
@@ -4179,6 +4120,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,baile101,"Ed Bailey",1,7,2
 start,amalj101,"Joey Amalfitano",1,8,4
 start,ellsd101,"Dick Ellsworth",1,9,1
+com,"$Dick Ellsworth: 75 pitches; Ken Johnson: 80 pitches"
 play,1,0,alouf101,21,,8/L
 play,1,0,mathe101,00,,8/F
 play,1,0,aaroh101,32,,W
@@ -4292,11 +4234,6 @@ play,10,1,humpb102,00,,NP
 sub,brigh101,"Harry Bright",1,9,11
 play,10,1,brigh101,12,,K
 play,10,1,landd101,00,,7/F
-com,"$Ellsworth: 75 pitches (12/22/10/12/8/9)"
-com,"$Abernathy: 27 pitches (13/14)"
-com,"$McDaniel: 24 pitches (14/10)"
-com,"$Johnson: 80 pitches (13/15/11/7/7/27)"
-com,"$Sadowski: 37 pitches (12/11/14)"
 data,er,johnk102,2
 data,er,sadob102,0
 data,er,odelb101,0
@@ -4356,6 +4293,7 @@ start,krugc101,"Chris Krug",1,6,2
 start,clemd101,"Doug Clemens",1,7,9
 start,beckg101,"Glenn Beckert",1,8,4
 start,koonc101,"Cal Koonce",1,9,1
+com,"$Cal Koonce: 107 pitches; Wade Blasingame: 101 pitches"
 play,1,0,alouf101,02,,4/P
 play,1,0,clint101,00,,13/BG
 play,1,0,aaroh101,00,,S7/L
@@ -4445,10 +4383,6 @@ play,8,1,clemd101,21,,6(1)/FO
 play,9,0,aaroh101,22,,K
 play,9,0,mathe101,01,,43
 play,9,0,cartr101,00,,13
-com,"$Koonce: 107 pitches (15/14/5/18/13/10/11/13/8)"
-com,"$Blasingame: 101 pitches (14/18/15/8/11/21/14)"
-com,"$Kelley: 8 pitches"
-com,"$Niekro: 12 pitches"
 data,er,blasw101,4
 data,er,kelld102,0
 data,er,niekp001,0
@@ -4504,6 +4438,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,krugc101,"Chris Krug",1,7,2
 start,beckg101,"Glenn Beckert",1,8,4
 start,jackl102,"Larry Jackson",1,9,1
+com,"$Larry Jackson: 66 pitches; Tony Cloninger: 130 pitches"
 play,1,0,alouf101,02,,K
 play,1,0,mathe101,30,,W
 play,1,0,aaroh101,02,,K
@@ -4624,13 +4559,6 @@ play,9,1,santr102,00,,NP
 sub,johnk102,"Ken Johnson",0,9,1
 play,9,1,santr102,02,,K
 play,9,1,banke101,02,,K
-com,"$Jackson: 66 pitches (14/18/18/11/5)"
-com,"$Broglio: 31 pitches (11/20)"
-com,"$McDaniel: 25 pitches (17/8)"
-com,"$Abernathy: 13 pitches"
-com,"$Cloninger: 130 pitches (37/28/6/10/11/12/9/7)"
-com,"$O'Dell: 34 pitches (20/14)"
-com,"$Johnson: 8 pitches"
 data,er,clont101,3
 data,er,odelb101,0
 data,er,johnk102,0
@@ -4689,6 +4617,7 @@ start,clemd101,"Doug Clemens",1,6,9
 start,krugc101,"Chris Krug",1,7,2
 start,beckg101,"Glenn Beckert",1,8,4
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Bob Buhl: 112 pitches; Sammy Ellis: 90 pitches"
 play,1,0,harpt101,31,,W
 play,1,0,rosep001,00,,53/SH.1-2
 play,1,0,pinsv101,22,,43.2-3
@@ -4720,7 +4649,6 @@ play,4,0,coleg101,01,,9/F
 play,4,0,robif103,31,,W
 play,4,0,johnd103,10,,9/F
 play,4,0,pavld101,21,,POCS2(1)
-com,"xDWS: clear Frank Robinson CS on film and two sheets"
 play,4,1,banke101,22,,7/L
 play,4,1,clemd101,32,,2/FL
 play,4,1,krugc101,11,,53
@@ -4733,7 +4661,6 @@ play,5,1,landd101,00,,43
 play,6,0,harpt101,11,,63
 play,6,0,rosep001,21,,S7/L
 play,6,0,pinsv101,11,,43/DP.1X2(363)
-com,"xDWS: definitely not a Pinson GDP on official film"
 play,6,1,stewj102,00,,D9/L
 play,6,1,willb104,01,,S9/L.2-H
 play,6,1,santr102,??,,SB2
@@ -4793,11 +4720,6 @@ play,9,1,amalj101,31,,W
 play,9,1,stewj102,00,,NP
 sub,kessd101,"Don Kessinger",1,1,12
 play,9,1,stewj102,01,,43
-com,"$Buhl: 112 pitches 14/13/16/12/12/10/9/12/14)"
-com,"$Abernathy: 4 pitches"
-com,"$Ellis: 90 pitches (15/14/24/14/9/14)"
-com,"$Nuxhall: 15 pitches (4/11)"
-com,"$McCool: 40 pitches (26/14)"
 data,er,ellis101,3
 data,er,nuxhj101,0
 data,er,mccob105,0
@@ -4854,6 +4776,7 @@ start,krugc101,"Chris Krug",1,6,2
 start,beckg101,"Glenn Beckert",1,7,4
 start,kessd101,"Don Kessinger",1,8,6
 start,ellsd101,"Dick Ellsworth",1,9,1
+com,"$Dick Ellsworth: 108 pitches; Jim O'Toole: 75 pitches"
 play,1,0,harpt101,02,,K
 play,1,0,rosep001,11,,S6/G
 play,1,0,pinsv101,32,,D/P.1-3
@@ -4897,8 +4820,10 @@ play,6,0,rosep001,01,,63
 play,6,0,pinsv101,21,,3/G
 play,6,0,johnd103,21,,63
 play,6,1,stewj102,11,,S6/G.B-2(E6/TH)
-play,6,1,willb104,20,,HR/9.2-H
-com,"$O'Toole ejected by Weyer for arguing HR was foul ball"
+play,6,1,willb104,20,,HR/9L.2-H
+com,"ej,otooj101,P,weyel901,Fair/foul call"
+com,"Jim O'Toole ejected by HP umpire Lee Weyer"
+com,"arguing that the home run was foul"
 play,6,1,santr102,00,,NP
 sub,tsitj101,"John Tsitouris",0,9,1
 play,6,1,santr102,12,,5/P
@@ -4949,10 +4874,6 @@ play,9,0,pavld101,00,,NP
 sub,ruizc102,"Chico Ruiz",0,6,12
 play,9,0,pavld101,??,,SB2
 play,9,0,pavld101,12,,K
-com,"$Ellsworth: 108 pitches (20/14/13/8/10/18/12)"
-com,"$O'Toole: 75 pitches (13/9/11/10/26/6)"
-com,"$Tsitouris: 30 pitches (14/16)"
-com,"$Craig: 17 pitches"
 data,er,otooj101,3
 data,er,tsitj101,0
 data,er,crair101,0
@@ -5009,6 +4930,7 @@ start,krugc101,"Chris Krug",1,6,2
 start,beckg101,"Glenn Beckert",1,7,4
 start,kessd101,"Don Kessinger",1,8,6
 start,koonc101,"Cal Koonce",1,9,1
+com,"$Cal Koonce: 132 pitches; Gerry Arrigo: 49 pitches"
 play,1,0,harpt101,22,,9/F
 play,1,0,rosep001,12,,43
 play,1,0,pinsv101,11,,S8/G
@@ -5105,11 +5027,6 @@ sub,abert101,"Ted Abernathy",1,9,1
 play,9,0,coleg101,11,,63.2-3;3-H
 play,9,0,robif103,00,,E6/TH.3-H(NR)(UR)
 play,9,0,johnd103,12,,K
-com,"$Koonce: 132 pitches (18/20/12/7/10/21/14/13/17)"
-com,"$Abernathy: 8+ pitches"
-com,"$Arrigo: 49 pitches (40/9)"
-com,"$Duffalo: 58 pitches (12/15/12/6/13)"
-com,"$Craig: 36 pitches (15/21)"
 data,er,arrig101,6
 data,er,duffj102,3
 data,er,crair101,0
@@ -5192,7 +5109,8 @@ play,3,1,clemd101,??,,WP.2-3#
 play,3,1,clemd101,12,,K
 play,3,1,willb104,31,,W
 play,3,1,santr102,00,,4/P
-com,"$Dark ejected by Secory at start of 4th inning"
+com,"ej,darka101,C,secof101,Balk non-call"
+com,"Cubs Coach Al Dark ejected by HP umpire Frank Secory"
 play,4,0,rosep001,32,,W
 play,4,0,pinsv101,32,,W.1-2
 play,4,0,robif103,31,,D7/L.1-H;2-H
@@ -5257,9 +5175,6 @@ play,9,0,pinsv101,22,,2/FL
 play,9,1,baile101,10,,4/FL
 play,9,1,beckg101,10,,7/F
 play,9,1,kessd101,22,,63
-com,"$Jay: 119+ pitches (22/5/19/15/11/18/15/5/9+)"
-com,"$Unknown # foul balls by Kessinger in 9th"
-com,"$Hendley: 69 pitches (16/12/6/28/3)"
 data,er,jay-j101,0
 data,er,hendb101,3
 data,er,mcdal101,0
@@ -5316,6 +5231,7 @@ start,clemd101,"Doug Clemens",1,6,7
 start,roznv101,"Vic Roznovsky",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,jackl102,"Larry Jackson",1,9,1
+com,"$Larry Jackson: 91 pitches; Dave Giusti: 84 pitches"
 play,1,0,morgj001,01,,3/G
 play,1,0,mayel101,11,,S9/L
 play,1,0,bondw101,00,,8/F
@@ -5390,7 +5306,7 @@ play,8,1,banke101,??,,SB2;SBH#
 play,8,1,banke101,22,,2/FL
 play,8,1,clemd101,00,,HP
 play,8,1,roznv101,32,,HP.2-3;1-2
-com,"$Roznovsky beaned, carried from field on stretcher"
+com,"$Vic Roznovsky struck on head and carried from field on stretcher"
 play,8,1,kessd101,00,,NP
 sub,krugc101,"Chris Krug",1,7,12
 play,8,1,kessd101,00,,NP
@@ -5403,10 +5319,6 @@ play,9,0,gentj101,12,,K
 play,9,0,asprb101,00,,9/F
 play,9,0,wynnj101,00,,S7/G
 play,9,0,triag101,11,,43
-com,"$Jackson: 91 pitches (8/12/8/13/11/16/3/10/10)"
-com,"$Giusti: 84 pitches (12/12/16/19/25)"
-com,"$Nottebart: 25 pitches (16/9)"
-com,"$Lee: 1 pitch"
 data,er,giusd101,6
 data,er,nottd101,0
 data,er,coomd101,1
@@ -5463,11 +5375,10 @@ start,stewj102,"Jimmy Stewart",1,6,7
 start,krugc101,"Chris Krug",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,ellsd101,"Dick Ellsworth",1,9,1
-com,"xhard to read some of sheet, particularly names Chi side"
+com,"$Dick Ellsworth 108 pitches; Claude Osteen 113 pitches"
 play,1,0,willm102,10,,53
 play,1,0,gillj102,10,,53
 play,1,0,parkw101,00,,4/P
-com,"$pitch count Ellsworth 108;Osteen 113"
 play,1,1,beckg101,01,,43
 play,1,1,landd101,01,,31
 play,1,1,willb104,22,,K
@@ -5589,11 +5500,10 @@ start,stewj102,"Jimmy Stewart",1,6,7
 start,krugc101,"Chris Krug",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Bob Buhl 42 pitches; Nick Willhite 15 pitches; Bob Miller 115 pitches"
 play,1,0,willm102,32,,K/C
 play,1,0,parkw101,02,,K
 play,1,0,daviw102,00,,13
-com,"$pitch count Buhl 42, Hoeft 70, McDaniel 21;Willhite 15"
-com,"$Miller 115"
 play,1,1,beckg101,32,,W
 play,1,1,landd101,00,,9
 play,1,1,willb104,12,,S9/P.1-3
@@ -5608,7 +5518,7 @@ play,2,0,rosej101,11,,43
 play,2,0,johnl104,01,,S7
 play,2,0,lefej101,21,,S9/L.1-3
 play,2,0,lejod101,10,,S9/L.3-H;1-2
-com,"$Debut game for Don LeJohn"
+com,"Debut game for Don LeJohn"
 play,2,0,millb106,02,,K
 play,2,1,kessd101,21,,9
 play,2,1,buhlb101,12,,K/C
@@ -5741,9 +5651,8 @@ start,stewj102,"Jimmy Stewart",1,6,7
 start,krugc101,"Chris Krug",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,hendb101,"Bob Hendley",1,9,1
+com,"$Bob Hendley 69 pitches; Johnny Podres 82 pitches"
 play,1,0,willm102,00,,8
-com,"$pitch count Hendley 69,McDaniel 45,Abernathy 26;Podres 82"
-com,"$Perranoski 24"
 play,1,0,gillj102,01,,53
 play,1,0,daviw102,21,,S9/L
 play,1,0,fairr101,00,,13
@@ -6065,8 +5974,7 @@ play,5,1,kessd101,??,,8
 play,5,1,jackl102,??,,53
 play,5,1,beckg101,??,,53
 play,6,0,shawb103,??,,9
-play,6,0,schod101,??,,31#
-com,"xCubs source scores the play 4-1."
+play,6,0,schod101,??,,31
 play,6,0,aloum101,??,,53
 play,6,1,landd101,??,,S1/BG
 play,6,1,willb104,??,,3/G.1-2
@@ -6096,7 +6004,6 @@ play,8,1,santr102,??,,NP
 sub,linzf101,"Frank Linzy",0,9,1
 play,8,1,santr102,??,,9
 play,8,1,banke101,??,,SB3;SB2#
-com,"xLandrum's steal may have occurred earlier."
 play,8,1,banke101,??,,S8.2-H;3-H
 play,8,1,clemd101,??,,W.1-2
 play,8,1,baile101,??,,NP
@@ -6198,7 +6105,6 @@ play,3,1,clemd101,??,,8
 play,4,0,lanih101,??,,8
 play,4,0,bolib101,??,,S8
 play,4,0,schod101,??,,SB2#
-com,"xSB may have occurred with Schofield or Alou at bat."
 play,4,0,schod101,??,,K
 play,4,0,aloum101,??,,13
 play,4,1,baile101,??,,K
@@ -6385,8 +6291,7 @@ play,8,0,whitb105,00,,S6.1-2
 play,8,0,mccat101,00,,NP
 sub,hoefb101,"Billy Hoeft",1,9,1
 play,8,0,mccat101,00,,S9.2-3;1-2
-play,8,0,buchj102,21,,84(1)/FO/SF.3-H;2-3;B-1#
-com,"xnot sure about this play but program accepted it"
+play,8,0,buchj102,21,,84(1)/FO/SF.3-H;2-3;B-1
 play,8,0,stalt101,21,,53
 play,8,1,hoefb101,00,,NP
 sub,shanm101,"Mike Shannon",0,4,9
@@ -6895,9 +6800,8 @@ start,altmg101,"George Altman",1,6,7
 start,baile101,"Ed Bailey",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Bob Buhl 85 pitches, Tony Cloninger 102 pitches"
 play,1,0,alouf101,01,,D7/L
-com,"$pitch count Buhl 85, Abernathy 20;Cloninger 102,O'Dell 17"
-com,"$Osinski 11"
 play,1,0,bollf101,01,,13/SH.2-3
 play,1,0,aaroh101,20,,7/L/SF.3-H
 play,1,0,torrj101,02,,K/C
@@ -7061,11 +6965,9 @@ play,2,0,mathe101,00,,S9/G.1-3
 play,2,0,cartr101,00,,S8/P.3-H;1-3
 play,2,0,jonem102,12,,S9/L.3-H;1-3
 play,2,0,woodw101,00,,2(B)61(3)4(1)/P/FL/TP
-com,"$Bailey caught pop near screen, Jones faked to 2nd,"
-com,"$Bailey threw to Kessinger, Carty tried for home and"
-com,"$was out, Faul covering, then Jones tried for 2nd"
-com,"$and was retired on throw to Beckert."
-com,"$See 1966 TSN Guide, p.57"
+com,"$Ed Bailey caught the popup near the screen; Mack Jones faked going"
+com,"to 2B, so Bailey threw to Don Kessinger; Rico Carty ran and was out"
+com,"at HP; Jones ran and was out"
 play,2,1,santr102,12,,8/L
 play,2,1,banke101,32,,W
 play,2,1,altmg101,10,,S8/L.1-3(E8);B-2
@@ -7198,12 +7100,10 @@ start,clemd101,"Doug Clemens",1,6,7
 start,baile101,"Ed Bailey",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,koonc101,"Cal Koonce",1,9,1
+com,"$Cal Koonce 65 pitches; Ray Culp 24 pitches"
 play,1,0,brigj102,??,,W
 play,1,0,rojac101,??,,5(B)3(1)/LDP
 play,1,0,callj101,??,,K
-com,"$pitch count from 15: Koonce 65, Hoeft 21,Abernathy 33"
-com,"$McDaniel 9, Hendley 20;Culp 24,Roebuck 6,Mahaffey 22,"
-com,"$Burdette 78,Baldschun?,Belinsky ?"
 play,1,1,beckg101,??,,S8/78/L
 play,1,1,landd101,??,,S9/G.1-3
 play,1,1,willb104,??,,WP.1-2
@@ -7570,6 +7470,7 @@ start,clemd101,"Doug Clemens",1,6,7
 start,baile101,"Ed Bailey",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,ellsd101,"Dick Ellsworth",1,9,1
+com,"$Bob Friend: 101 pitches; Dick Ellsworth: 68 pitches"
 play,1,0,bailb103,22,,K
 play,1,0,motam101,00,,63
 play,1,0,clemr101,12,,S8/G
@@ -7662,11 +7563,6 @@ play,9,0,starw101,10,,3/G
 play,9,1,landd101,11,,6/L
 play,9,1,willb104,22,,7/F
 play,9,1,banke101,00,,6/L
-com,"$Friend: 101 pitches (11/10/10/13/12/9/8/18/10)"
-com,"$Ellsworth: 68 pitches (18/12/15/6/9/8)"
-com,"$Humphreys: 9 pitches"
-com,"$McDaniel: 27 pitches (23/4)"
-com,"$Broglio: 17 pitches"
 data,er,frieb102,0
 data,er,ellsd101,4
 data,er,humpb102,0
@@ -7729,7 +7625,6 @@ play,1,0,clemr101,32,,W
 play,1,0,starw101,02,,63
 play,1,1,beckg101,01,,S7/L
 play,1,1,landd101,00,,3/G.1-3(E3/TH)#
-com,"xUnclear when the error occurred - maybe on Beckert's hit"
 play,1,1,willb104,32,,8/L/SF.3-H(UR)
 play,1,1,banke101,00,,5/FL
 play,2,0,clend101,32,,43
@@ -7774,7 +7669,6 @@ play,5,0,alleg101,12,,D9/L.1-3;2-H;3-H
 play,5,0,law-v101,00,,NP
 sub,humpb102,"Bob Humphreys",1,9,1
 play,5,0,law-v101,02,,K13
-com,"xapparently bounce off Krug, no assist to catcher"
 play,5,0,bailb103,21,,7/F
 play,5,1,humpb102,00,,NP
 sub,kuenh101,"Harvey Kuenn",1,9,11
@@ -7829,11 +7723,6 @@ play,9,1,amalj101,21,,13
 play,9,1,abert101,00,,NP
 sub,stewj102,"Jimmy Stewart",1,1,11
 play,9,1,stewj102,00,,63
-com,"$Law: 98+ pitches (12/9/11/25/11/13/12/5+any Landrum fouls"
-com,"$Jackson: 85 pitches (13/16/10/24/22)"
-com,"$Humphreys: 9 pitches"
-com,"$McDaniel: 33 pitches (20/13)"
-com,"$Abernathy: 31 pitches (14/17)"
 data,er,law-v101,4
 data,er,mcbea101,0
 data,er,jackl102,6
@@ -7891,6 +7780,7 @@ start,beckg101,"Glenn Beckert",1,6,4
 start,krugc101,"Chris Krug",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,koonc101,"Cal Koonce",1,9,1
+com,"$Cal Koonce: 85 pitches; Bob Veale: 110 pitches"
 play,1,0,bailb103,01,,13
 play,1,0,virdb101,22,,S7/L
 play,1,0,clemr101,12,,K/C
@@ -8026,7 +7916,6 @@ play,12,1,banke101,01,,S7/G
 play,12,1,santr102,00,,NP
 sub,law-v101,"Vern Law",0,9,1
 play,12,1,santr102,01,,4/FL
-com,"x13th inning from source 247"
 play,13,0,clend101,??,,7
 play,13,0,mazeb101,??,,9
 play,13,0,crand102,??,,HR/78
@@ -8036,11 +7925,6 @@ play,13,1,roznv101,??,,S9
 play,13,1,kessd101,??,,NP
 sub,clemd101,"Doug Clemens",1,8,11
 play,13,1,clemd101,??,,4(1)3/GDP
-com,"$Koonce: 85 pitches (15/24/13/14/14/5)"
-com,"$Humphreys: 28 pitches (12/16)"
-com,"$Abernathy: 59 pitches (16/9/15/19)"
-com,"$McDaniel: ?? pitches (14/??)"
-com,"$Veale: 110 pitches (12/8/15/18/28/15/14)"
 data,er,vealb101,2
 data,er,mcbea101,0
 data,er,carpf101,0
@@ -8164,8 +8048,6 @@ play,9,0,cardd101,00,,NP
 sub,virdb101,"Bill Virdon",0,9,11
 play,9,0,virdb101,21,,43
 play,9,0,bailb103,01,,8/F
-com,"$Faul: 76 pitches (9/5/8/9/9/4/15/7/10)"
-com,"$Cardwell:86+ pitches (14/10/7/13/11/6/7/10+Stewart fouls)"
 data,er,cardd101,5
 data,er,faulb101,0
 id,CHN196507270
@@ -8219,7 +8101,7 @@ start,baile101,"Ed Bailey",1,6,2
 start,beckg101,"Glenn Beckert",1,7,4
 start,kessd101,"Don Kessinger",1,8,6
 start,buhlb101,"Bob Buhl",1,9,1
-com,"$Westrum named interim manager"
+com,"$Wes Westrum named interim manager of the Mets"
 play,1,0,hillc101,01,,9/F
 play,1,0,mcmir101,12,,63
 play,1,0,krane101,00,,D9
@@ -8249,7 +8131,6 @@ play,3,1,landd101,21,,D9/P.1-3;2-H
 play,3,1,willb104,31,,IW
 play,3,1,banke101,22,,D7/L.1-H;2-H;3-H
 play,3,1,santr102,21,,D9/L.2-H
-com,"$Fisher: 54 pitches"
 play,3,1,baile101,00,,NP
 sub,richg101,"Gordie Richardson",0,9,1
 play,3,1,baile101,32,,W
@@ -8267,7 +8148,6 @@ play,4,1,kessd101,00,,NP
 sub,krolg101,"Gary Kroll",0,8,1
 play,4,1,kessd101,00,,NP
 sub,stepj102,"John Stephenson",0,9,2
-com,"$Richardson: 14 pitches"
 play,4,1,kessd101,00,,9/L
 play,4,1,buhlb101,11,,S8
 play,4,1,stewj102,22,,K/C
@@ -8297,7 +8177,6 @@ play,7,1,willb104,00,,NP
 sub,kolbg101,"Gary Kolb",0,8,9
 play,7,1,willb104,00,,NP
 sub,milll101,"Larry Miller",0,7,1
-com,"$Kroll: 49 pitches"
 play,7,1,willb104,00,,53
 play,7,1,banke101,01,,3/FL
 play,7,1,santr102,32,,K
@@ -8317,11 +8196,9 @@ play,9,0,chrij101,22,,K/C
 play,9,0,kolbg101,01,,S7/L.2-H
 play,9,0,stepj102,00,,NP
 sub,hoefb101,"Billy Hoeft",1,9,1
-com,"$Buhl: 120 pitches"
 play,9,0,stepj102,00,,NP
 sub,napod101,"Danny Napoleon",0,9,11
 play,9,0,napod101,30,,W.1-2
-com,"$Hoeft: 4 pitches"
 play,9,0,hillc101,00,,NP
 sub,abert101,"Ted Abernathy",1,9,1
 play,9,0,hillc101,00,,NP
@@ -8389,8 +8266,7 @@ play,1,0,cowab101,32,,K
 play,1,0,mcmir101,21,,13
 play,1,0,chrij101,31,,4/P
 play,1,1,stewj102,21,,4/P
-play,1,1,clemd101,10,,43#
-com,"xMets show 31"
+play,1,1,clemd101,10,,43
 play,1,1,willb104,20,,S4/G
 play,1,1,banke101,31,,HR/F7.1-H
 play,1,1,santr102,30,,W
@@ -8472,7 +8348,6 @@ play,9,0,schaj104,22,,9/F
 play,9,0,krolg101,00,,NP
 sub,cannc101,"Chris Cannizzaro",0,9,11
 play,9,0,cannc101,12,,8/F
-com,"$Ellsworth: 137 pitches"
 data,er,parst101,4
 data,er,richg101,0
 data,er,bearl101,2
@@ -8535,7 +8410,8 @@ play,1,0,mcmir101,11,,S7/G
 play,1,0,lewij102,11,,46(1)/FO
 play,1,0,krane101,32,,CS2(26)
 play,1,1,stewj102,32,,S6/G
-com,"$Westrum ejected for arguing safe call"
+com,"ej,westw101,M,burkk101,Call at 1B"
+com,"Mets Manager Wes Westrum ejected by 1B umpire Ken Burkhart"
 play,1,1,kuenh101,??,,SB2#
 play,1,1,kuenh101,32,,8/F
 play,1,1,willb104,12,,HR/9.2-H
@@ -8543,7 +8419,6 @@ play,1,1,banke101,20,,S7/L
 play,1,1,santr102,12,,K
 play,1,1,krugc101,11,,S7/L.1-2
 play,1,1,beckg101,21,,S8/L.1-3;2-H
-com,"$McGraw: 32 pitches"
 play,1,1,kessd101,00,,NP
 sub,fishj101,"Jack Fisher",0,9,1
 play,1,1,kessd101,20,,43
@@ -8583,7 +8458,6 @@ sub,cowab101,"Billy Cowan",0,9,11
 play,6,0,cowab101,12,,K/C
 play,6,1,kessd101,00,,NP
 sub,krolg101,"Gary Kroll",0,9,1
-com,"$Fisher: 57 pitches"
 play,6,1,kessd101,31,,W
 play,6,1,jackl102,??,,BK.1-2
 play,6,1,jackl102,12,,FC/SH.2-3
@@ -8623,7 +8497,6 @@ sub,chrij101,"Joe Christopher",0,9,11
 play,9,0,chrij101,12,,3/G
 play,9,0,hillc101,00,,43
 play,9,0,klaub102,12,,53
-com,"$Larry Jackson: 70 pitches (!)"
 data,er,mcgrt001,3
 data,er,fishj101,0
 data,er,krolg101,4
@@ -8697,7 +8570,6 @@ play,2,0,cannc101,10,,63.2-3
 play,2,0,ciscg101,31,,W
 play,2,0,hillc101,00,,NP
 sub,hoefb101,"Billy Hoeft",1,9,1
-com,"$Koonce: 23 pitches"
 play,2,0,hillc101,01,,3/BP
 play,2,0,mcmir101,30,,W.1-2
 play,2,0,lewij102,22,,E7/P.2-H(NR)(UR);3-H(NR)(UR);1-H(E6/TH)(UR);B-3
@@ -8729,7 +8601,6 @@ play,5,1,altmg101,22,,K
 play,5,1,stewj102,12,,K/C
 play,6,0,swobr101,00,,NP
 sub,hendb101,"Bob Hendley",1,9,1
-com,"$Hoeft: 50 pitches"
 play,6,0,swobr101,12,,K
 play,6,0,kolbg101,32,,W
 play,6,0,cannc101,??,,SB2
@@ -8764,7 +8635,6 @@ play,8,0,klaub102,??,,FLE2
 play,8,0,klaub102,32,,W
 play,8,0,lewij102,01,,HR/9.3-H;1-H
 play,8,0,smitc105,30,,W
-com,"$Hendley: 64 pitches"
 play,8,0,krane101,00,,NP
 sub,humpb102,"Bob Humphreys",1,9,1
 play,8,0,krane101,00,,46(1)3/GDP
@@ -8776,7 +8646,6 @@ play,8,1,amalj101,01,,9/F
 play,8,1,stewj102,01,,3/G
 play,9,0,hickj103,00,,NP
 sub,mcdal101,"Lindy McDaniel",1,9,1
-com,"$Humphreys: 3 pitches"
 play,9,0,hickj103,22,,K
 play,9,0,cannc101,00,,S9/P
 play,9,0,ciscg101,32,,16(1)/FO
@@ -8845,7 +8714,6 @@ play,1,0,hillc101,02,,9/F
 play,1,0,mcmir101,12,,7/F
 play,1,0,lewij102,02,,S9/G
 play,1,0,smitc105,12,,K
-com,"$Musgraves: 1st ML start"
 play,1,1,stewj102,22,,9/F
 play,1,1,landd101,21,,7/F
 play,1,1,willb104,12,,S9/G
@@ -8915,7 +8783,6 @@ play,8,1,clemd101,00,,NP
 sub,richg101,"Gordie Richardson",0,9,1
 play,8,1,clemd101,00,,NP
 sub,klaub102,"Bobby Klaus",0,8,6
-com,"$Musgraves: 95 pitches"
 play,8,1,clemd101,02,,43
 play,8,1,willb104,32,,K
 play,8,1,banke101,22,,43
@@ -8923,7 +8790,6 @@ play,9,0,lewij102,00,,S8/G
 play,9,0,smitc105,00,,S7/L.1-2
 play,9,0,krane101,00,,NP
 sub,abert101,"Ted Abernathy",1,9,1
-com,"$Faul: 103 pitches"
 play,9,0,krane101,11,,4(1)/FO.2-3
 play,9,0,kolbg101,00,,NP
 sub,cowab101,"Billy Cowan",0,5,12
@@ -8963,7 +8829,6 @@ play,12,0,hillc101,11,,3/G
 play,12,1,santr102,00,,NP
 sub,bearl101,"Larry Bearnarth",0,9,1
 play,12,1,santr102,01,,HR/8
-com,"$Abernathy: 64 pitches"
 data,er,musgd101,1
 data,er,richg101,0
 data,er,bearl101,1
@@ -9020,6 +8885,7 @@ start,krugc101,"Chris Krug",1,6,2
 start,beckg101,"Glenn Beckert",1,7,4
 start,kessd101,"Don Kessinger",1,8,6
 start,buhlb101,"Bob Buhl",1,9,1
+com,"$Denny Lemaster: 127 pitches; Bob Buhl: 82 pitches"
 play,1,0,alouf101,31,,53
 play,1,0,jonem102,02,,5/P
 play,1,0,mathe101,20,,63
@@ -9109,11 +8975,6 @@ play,9,1,beckg101,21,,3/P
 play,9,1,mcdal101,00,,NP
 sub,landd101,"Don Landrum",1,8,11
 play,9,1,landd101,02,,K
-com,"$Lemaster: 127 pitches (9/13/9/15/21/18/10/16/16)"
-com,"$Buhl: 82 pitches (11/20/21/17/13)"
-com,"$Humphreys: 14 pitches"
-com,"$Koonce: 17 pitches (13/4)"
-com,"$McDaniel: 23 pitches (8/15)"
 data,er,lemad102,3
 data,er,buhlb101,5
 data,er,humpb102,2
@@ -9170,6 +9031,7 @@ start,roznv101,"Vic Roznovsky",1,6,2
 start,beckg101,"Glenn Beckert",1,7,4
 start,kessd101,"Don Kessinger",1,8,6
 start,faulb101,"Bill Faul",1,9,1
+com,"$Tony Cloninger: 103 pitches; Bill Faul: 85 pitches"
 play,1,0,alouf101,02,,K23
 play,1,0,jonem102,31,,HR/9
 play,1,0,aaroh101,12,,D7/L
@@ -9274,11 +9136,6 @@ play,9,1,willb104,32,,13
 play,9,1,banke101,12,,S8/L
 play,9,1,santr102,10,,S8/L.1-2
 play,9,1,roznv101,02,,K23/C
-com,"$Cloninger: 103 pitches (27/13/10/12/15/17/9)"
-com,"$Sadowski: 43 pitches (13/10/20)"
-com,"$Faul: 85 pitches (21/20/15/6/8/16)"
-com,"$McDaniel: 30 pitches (23/7)"
-com,"$Abernathy: 9 pitchds"
 data,er,clont101,2
 data,er,sadob102,0
 data,er,faulb101,4
@@ -9335,6 +9192,7 @@ start,baile101,"Ed Bailey",1,6,2
 start,landd101,"Don Landrum",1,7,8
 start,kessd101,"Don Kessinger",1,8,6
 start,jackl102,"Larry Jackson",1,9,1
+com,"$Ken Johnson: 87 pitches; Larry Jackson: 89 pitches"
 play,1,0,alouf101,01,,9/F
 play,1,0,jonem102,01,,3/G
 play,1,0,aaroh101,00,,HR/L7
@@ -9383,7 +9241,8 @@ play,6,1,willb104,00,,S9/L
 play,6,1,banke101,12,,4/P
 play,6,1,santr102,32,,9/P
 play,7,0,mathe101,10,,43
-com,"$Bragan ejected by Jackowski on play at 1B"
+com,"ej,bragb101,M,jackb901,Call at 1B"
+com,"Braves Manager Bobby Bragan ejected by 1B umpire Bill Jackowski"
 play,7,0,torrj101,00,,D7/G
 play,7,0,olivg101,02,,K
 play,7,0,bollf101,00,,53
@@ -9431,7 +9290,6 @@ sub,krugc101,"Chris Krug",1,7,11
 play,9,1,krugc101,??,,WP.1-2
 play,9,1,krugc101,30,,IW
 play,9,1,kessd101,12,,S9/L.2-H(E5)(NR)(UR);1-3(TH);B-2
-com,"xPlay marked by CHN as 92E5, but film gives no assists"
 play,9,1,abert101,21,,9/F
 play,10,0,menkd101,00,,NP
 sub,krugc101,"Chris Krug",1,7,2
@@ -9472,11 +9330,6 @@ play,12,1,altmg101,00,,4/L
 play,12,1,stewj102,10,,S6/G
 play,12,1,amalj101,12,,S7/G.1-2
 play,12,1,willb104,32,,K
-com,"$Johnson: 87 pitches (11/23/9/16/7/14/7)"
-com,"$O'Dell: 81 pitches (16/29/14/22)"
-com,"$Osinski: 18 pitches"
-com,"$Jackson: 89 pitches (7/4/9/14/17/12/7/19)"
-com,"$Abernathy: 66 pitches (13/16/16/21)"
 data,er,johnk102,1
 data,er,odelb101,0
 data,er,osind101,0
@@ -9533,6 +9386,7 @@ start,krugc101,"Chris Krug",1,6,2
 start,beckg101,"Glenn Beckert",1,7,4
 start,kessd101,"Don Kessinger",1,8,6
 start,ellsd101,"Dick Ellsworth",1,9,1
+com,"$Ted Davidson: 102 pitches; Dick Ellsworth: 96 pitches"
 play,1,0,harpt101,11,,8/F
 play,1,0,rosep001,32,,63
 play,1,0,pinsv101,22,,K
@@ -9635,12 +9489,6 @@ play,9,1,landd101,22,,63.1-2;2-3
 play,9,1,abert101,00,,NP
 sub,baile101,"Ed Bailey",1,2,11
 play,9,1,baile101,31,,8/F
-com,"$Davidson: 102 pitches (22/26/17/13/15/9)"
-com,"$McCool: 28 pitches (12/9/7)"
-com,"$Ellis: 19 pitches"
-com,"$Ellsworth: 96 pitches (16/18/10/29/9/14)"
-com,"$McDaniel: 21 pitches (6/15)"
-com,"$Abernathy: 38 pitches (26/12)"
 data,er,davit102,3
 data,er,mccob105,1
 data,er,ellis101,0
@@ -9719,7 +9567,6 @@ play,3,1,beckg101,??,,W
 play,3,1,kessd101,??,,W.1-2
 play,3,1,jackl102,??,,K/C
 play,3,1,landd101,??,,16(1)/FO.2-3
-com,"xDWS: not marked as bunt"
 play,3,1,clemd101,??,,W.1-2
 play,3,1,willb104,??,,43
 play,4,0,rosep001,??,,S8/P
@@ -9837,6 +9684,7 @@ start,baile101,"Ed Bailey",1,6,2
 start,beckg101,"Glenn Beckert",1,7,4
 start,kessd101,"Don Kessinger",1,8,6
 start,koonc101,"Cal Koonce",1,9,1
+com,"$Joey Jay: 136 pitches; Cal Koonce: 67 pitches"
 play,1,0,harpt101,22,,K
 play,1,0,rosep001,31,,W
 play,1,0,pinsv101,00,,8/F
@@ -9880,7 +9728,7 @@ play,5,1,clemd101,01,,8/F
 play,6,0,rosep001,00,,S3/G
 play,6,0,pinsv101,00,,3/G.1-2
 play,6,0,robif103,22,,D8/G.2-H
-com,"$Double was off umpire Landes's leg and into CF"
+com,"$the ball caromed off 2B umpire Stan Landes's leg into CF"
 play,6,0,coleg101,00,,NP
 sub,hoefb101,"Billy Hoeft",1,9,1
 play,6,0,coleg101,00,,NP
@@ -9940,11 +9788,6 @@ play,9,1,landd101,00,,SB2
 play,9,1,landd101,00,,NP
 sub,mccob105,"Billy McCool",0,9,1
 play,9,1,landd101,10,,HR/7.2-H
-com,"$Jay: 136 pitches (5/18/15/20/15/18/11/21/13)"
-com,"$McCool: 2 pitches"
-com,"$Koonce: 67 pitches (17/11/7/10/14/8)"
-com,"$Hoeft: 38 pitches (19/19)"
-com,"$McDaniel: 29 pitches (20/9)"
 data,er,jay-j101,4
 data,er,mccob105,1
 data,er,koonc101,3
@@ -10001,6 +9844,7 @@ start,baile101,"Ed Bailey",1,6,2
 start,clemd101,"Doug Clemens",1,7,7
 start,kessd101,"Don Kessinger",1,8,6
 start,buhlb101,"Bob Buhl",1,9,1
+com,"Debut for umpire Bob Engel"
 play,1,0,mayel101,22,,S9/G
 play,1,0,morgj001,30,,W.1-2
 play,1,0,wynnj101,32,,W.2-3;1-2
@@ -10103,11 +9947,6 @@ sub,thomf103,"Frank Thomas",0,4,3
 play,9,1,stewj102,00,,S8/L
 play,9,1,amalj101,01,,6/L
 play,9,1,landd101,11,,43/DP.1X2(362)
-com,"$Bruce: 114 pitches (13/10/7/12/8/22/25/11/6)"
-com,"$Buhl: 28 pitches"
-com,"$Humphreys: 91 pitches (15/15/9/18/6/12/16)"
-com,"$Abernathy: 24 pitches (12/12)"
-com,"$Hoeft: 11 pitches"
 data,er,brucb101,3
 data,er,buhlb101,3
 data,er,humpb102,1
@@ -10164,6 +10003,7 @@ start,stewj102,"Jimmy Stewart",1,6,6
 start,clemd101,"Doug Clemens",1,7,7
 start,roznv101,"Vic Roznovsky",1,8,2
 start,faulb101,"Bill Faul",1,9,1
+com,"$Bill Faul: 115 pitches; Larry Dierker: 83 pitches"
 play,1,0,mayel101,11,,S8/P
 play,1,0,morgj001,01,,4/P
 play,1,0,thomf103,00,,8/F
@@ -10254,9 +10094,6 @@ sub,kessd101,"Don Kessinger",1,6,6
 play,9,0,staur001,11,,4/P
 play,9,0,branr101,02,,8/F
 play,9,0,gainj101,02,,K/C
-com,"$Faul: 115 pitches (9/16/18/15/11/9/5/23/9)"
-com,"$Dierker: 83 pitches (17/26/13/10/7/10)"
-com,"$Owens: 29 pitches (10/19)"
 data,er,dierl101,0
 data,er,owenj101,1
 data,er,faulb101,0
@@ -10311,12 +10148,12 @@ start,baile101,"Ed Bailey",1,6,2
 start,stewj102,"Jimmy Stewart",1,7,6
 start,clemd101,"Doug Clemens",1,8,7
 start,ellsd101,"Dick Ellsworth",1,9,1
+com,"$Robin Roberts: 148 pitches; Dick Ellsworth: 75 pitches"
 play,1,0,morgj001,22,,23
 play,1,0,wynnj101,31,,S2/G
 play,1,0,thomf103,12,,HR/7.1-H
 play,1,0,asprb101,32,,K
 play,1,0,gainj101,00,,9/F
-com,"$55% humidity"
 play,1,1,landd101,32,,S7/F
 play,1,1,beckg101,??,,SB2#
 play,1,1,beckg101,22,,7/F
@@ -10410,10 +10247,6 @@ play,9,1,clemd101,21,,43.2-3
 play,9,1,broge101,00,,NP
 sub,kuenh101,"Harvey Kuenn",1,9,11
 play,9,1,kuenh101,22,,7/F
-com,"$Roberts: 148 pitches (32/8/14/21/13/12/20/10/18)"
-com,"$Ellsworth: 75 pitches (20/7/22/10/16)"
-com,"$Buhl: 40 pitches (20/20)"
-com,"$Broglio: 36 pitches (27/9)"
 data,er,rober102,2
 data,er,ellsd101,4
 data,er,buhlb101,2
@@ -10469,6 +10302,7 @@ start,baile101,"Ed Bailey",1,6,2
 start,stewj102,"Jimmy Stewart",1,7,7
 start,kessd101,"Don Kessinger",1,8,6
 start,hoefb101,"Billy Hoeft",1,9,1
+com,"$Billy Hoeft: 123 pitches; Turk Farrell: 104 pitches"
 play,1,0,mayel101,10,,6/P
 play,1,0,morgj001,32,,S9/L
 play,1,0,wynnj101,11,,14(1)/FO
@@ -10545,8 +10379,6 @@ sub,lillb101,"Bob Lillis",0,9,11
 play,9,0,lillb101,12,,K
 play,9,0,mayel101,10,,46(1)/FO.2-3
 play,9,0,morgj001,00,,6/L
-com,"$Hoeft: 123 pitches (26/13/11/12/6/12/17/9/17)"
-com,"$Farrell: 104 pitches (19/11/16/9/12/14/7/16)"
 data,er,farrt101,3
 data,er,hoefb101,1
 id,CHN196508310
@@ -10786,8 +10618,7 @@ play,5,1,jackl102,02,,K
 play,6,0,boyek101,01,,2/FL
 play,6,0,whitb105,22,,K
 play,6,0,mccat101,32,,43
-play,6,1,landd101,32,,5/FL#
-com,"xCHN had it as fair ball pop out"
+play,6,1,landd101,32,,5/FL
 play,6,1,amalj101,22,,7/L
 play,6,1,willb104,20,,9
 play,7,0,groad101,01,,D8
@@ -10820,8 +10651,7 @@ play,8,0,shanm101,22,,D8.3-H(UR);1-3
 play,8,0,boyek101,00,,53
 play,8,1,kessd101,00,,NP
 sub,clemd101,"Doug Clemens",1,8,11
-play,8,1,clemd101,11,,341#
-com,"xSLN had '41'"
+play,8,1,clemd101,11,,341
 play,8,1,mcdal101,00,,NP
 sub,altmg101,"George Altman",1,9,11
 play,8,1,altmg101,32,,K
@@ -10912,14 +10742,12 @@ play,2,1,kessd101,00,,46(1)/FO
 play,3,0,mccat101,10,,3/G
 play,3,0,shanm101,11,,E6
 play,3,0,simmc101,12,,K/DP.1X2(26)
-play,3,1,hendb101,22,,K/C#
-com,"xCHN has it as swinging K"
+play,3,1,hendb101,22,,K/C
 play,3,1,landd101,32,,31
 play,3,1,beckg101,01,,S9
 play,3,1,willb104,00,,D8.1-H
 play,3,1,santr102,32,,W
 play,3,1,banke101,01,,HR/7.2-H;1-H
-com,"$400th home run of career"
 play,3,1,kuenh101,31,,43
 play,4,0,brocl102,12,,HR/9
 play,4,0,flooc101,00,,63
@@ -10928,7 +10756,6 @@ play,4,0,boyek101,20,,53
 play,4,1,krugc101,30,,W
 play,4,1,kessd101,11,,S9.1-3
 play,4,1,hendb101,02,,K/C
-com,"xCHN scoresheet had swinging K"
 play,4,1,landd101,21,,8/SF.3-H
 play,4,1,beckg101,22,,S7.1-2
 play,4,1,willb104,10,,9
@@ -10942,8 +10769,7 @@ play,5,0,gaglp101,01,,63
 play,5,1,santr102,00,,NP
 sub,dennd101,"Don Dennis",0,9,1
 play,5,1,santr102,01,,S7
-play,5,1,banke101,21,,46(1)3/GDP#
-com,"xSLN scoresheet had 4-3 GDP no DP SS Groat"
+play,5,1,banke101,21,,46(1)3/GDP
 play,5,1,kuenh101,01,,4
 play,6,0,brocl102,32,,K
 play,6,0,flooc101,00,,53
@@ -11204,8 +11030,7 @@ start,clemd101,"Doug Clemens",1,6,7
 start,roznv101,"Vic Roznovsky",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,buhlb101,"Bob Buhl",1,9,1
-com,"$1:14 rain delay at start."
-com,"$39th game this season for Cubs and this ump crew"
+com,"1:14 rain delay before start of game"
 play,1,0,schod101,??,,S1/BG
 play,1,0,gabrl102,??,,46(1)/FO
 play,1,0,maysw101,??,,5
@@ -11229,7 +11054,7 @@ play,2,1,clemd101,??,,46(1)/FO
 play,2,1,roznv101,??,,46(1)/FO
 play,3,0,hartj102,??,,13
 play,3,0,hallt102,??,,S7
-com,"$39 minute rain delay at this point, 3:04 PM."
+com,"39 minute rain delay"
 play,3,0,lanih101,??,,K
 play,3,0,hendk101,??,,S8.1-3
 play,3,0,herbr102,??,,43
@@ -11246,15 +11071,12 @@ play,4,1,willb104,??,,S/89
 play,4,1,santr102,??,,64(1)3/GDP
 play,5,0,hartj102,??,,63
 play,5,0,hallt102,??,,D8
-com,"$24 minute rain delay at this point, 4:07 PM."
+com,"24 minute rain delay"
 play,5,0,lanih101,??,,NP
 sub,broge101,"Ernie Broglio",1,9,1
 play,5,0,lanih101,??,,43.2-3
 play,5,0,hendk101,??,,IW
 play,5,0,herbr102,??,,93
-com,"$yes, 93 groundout. See TSN 9-18-1965, p.24 for"
-com,"$description of how 'heavy track' kept Herbel from"
-com,"$beating out single through second base"
 play,5,1,banke101,??,,S8
 play,5,1,clemd101,??,,7
 play,5,1,roznv101,??,,7
@@ -11296,7 +11118,6 @@ play,8,1,landd101,??,,9
 play,8,1,beckg101,??,,S9
 play,8,1,willb104,31,,NP
 sub,henrb101,"Bill Henry",0,9,1
-com,"$Henry entered with a 3-1 count on Williams."
 play,8,1,willb104,??,,K
 play,9,0,hartj102,??,,NP
 sub,holtk101,"Ken Holtzman",1,9,1
@@ -11420,7 +11241,6 @@ play,6,0,hartj102,??,,K
 play,6,0,cepeo101,??,,53
 play,6,1,willb104,??,,NP
 sub,mccow101,"Willie McCovey",0,5,3
-com,"xMcCovey may not have entered until later."
 play,6,1,willb104,??,,HR/9
 play,6,1,santr102,??,,53
 play,6,1,banke101,??,,K
@@ -11536,7 +11356,6 @@ play,3,1,yound103,??,,K/C
 play,4,0,gillj102,??,,W
 play,4,0,daviw102,??,,2/FL
 play,4,0,johnl104,??,,HP.1-2
-com,"$Johnson sets new club record for HP"
 play,4,0,lefej101,??,,K/C
 play,4,0,ferra101,??,,5(2)/FO
 play,4,1,beckg101,??,,S4
@@ -11568,7 +11387,7 @@ sub,craww101,"Willie Crawford",0,8,12
 play,7,0,koufs101,??,,NP
 sub,drysd101,"Don Drysdale",0,9,11
 play,7,0,drysd101,??,,S7.2-H;1X3(76)
-com,"$Presumably rounded 2nd too far"
+com,"$Jeff Torborg rounded 2B too far"
 play,7,1,stewj102,??,,NP
 sub,rosej101,"John Roseboro",0,8,2
 play,7,1,stewj102,??,,NP
@@ -11579,7 +11398,6 @@ play,7,1,kessd101,??,,W
 play,7,1,hendb101,??,,K
 play,8,0,willm102,??,,S1/BG
 play,8,0,gillj102,??,,PO1(136341)#
-com,"xPO could be later"
 play,8,0,gillj102,??,,8
 play,8,0,daviw102,??,,K
 play,8,1,yound103,??,,7
@@ -11642,8 +11460,7 @@ start,altmg101,"George Altman",1,6,7
 start,baile101,"Ed Bailey",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,ellsd101,"Dick Ellsworth",1,9,1
-com,"$pitch count Ellsworth 89,Abby 18,Hoeft 14;Drysdale 20,"
-com,"$Willhite 19"
+com,"$Dick Ellsworth 89 pitches; Don Drysdale 20 pitches"
 play,1,0,willm102,11,,9
 play,1,0,gillj102,11,,S8/G
 play,1,0,parkw101,12,,S7/L.1-2
@@ -11661,7 +11478,7 @@ play,2,0,willm102,12,,43
 play,2,1,banke101,31,,S1/L
 play,2,1,altmg101,00,,NP
 sub,willn101,"Nick Willhite",0,9,1
-com,"$Drysdale leaves after taking Banks liner on left shin"
+com,"$Don Drysdale struck by line drive on left shin"
 play,2,1,altmg101,00,,NP
 sub,kuenh101,"Harvey Kuenn",1,6,11
 play,2,1,kuenh101,00,,POCS2(136)
@@ -11973,6 +11790,7 @@ start,boccj101,"John Boccabella",1,6,7
 start,krugc101,"Chris Krug",1,7,2
 start,kessd101,"Don Kessinger",1,8,6
 start,jackl102,"Larry Jackson",1,9,1
+com,"$Larry Jackson: 111 pitches"
 play,1,0,lewij102,32,,K/C
 play,1,0,huntr101,12,,S8/G
 play,1,0,krane101,00,,7/F
@@ -12084,9 +11902,6 @@ sub,swobr101,"Ron Swoboda",0,9,11
 play,9,0,swobr101,11,,63
 play,9,0,lewij102,32,,W
 play,9,0,huntr101,00,,13
-com,"$Jackson: 111 pitches"
-com,"$Hoeft: 14 pitches"
-com,"$Abernathy: 21 pitches"
 data,er,mcgrt001,4
 data,er,eiled101,0
 data,er,richg101,0
@@ -12391,8 +12206,6 @@ sub,gonzt101,"Tony Gonzalez",0,5,11
 play,7,0,gonzt101,??,,K+SB2
 play,7,0,phila101,??,,NP
 sub,brigj102,"John Briggs",0,6,11
-com,"$Stuart's 2nd SB of career, first since 1950s, last of career"
-com,"$great time to do it, down 1 in 7th"
 play,7,0,brigj102,??,,K23
 play,7,1,kessd101,??,,NP
 sub,gonzt101,"Tony Gonzalez",0,5,7
@@ -12541,13 +12354,11 @@ sub,rojac101,"Cookie Rojas",0,2,4
 play,5,1,stewj102,??,,NP
 sub,taylt101,"Tony Taylor",0,6,5
 play,5,1,stewj102,??,,K
-com,"$Stewart K was marked 242nd, for Bunning sets"
-com,"$single-season K record for Phils"
 play,5,1,landd101,??,,7
 play,5,1,beckg101,??,,S7
 play,5,1,willb104,??,,S9.1-3
 play,5,1,santr102,??,,HR/7.3-H;1-H
-com,"$long homer over bleachers onto street"
+com,"$over the bleachers onto street"
 play,5,1,banke101,??,,63
 play,6,0,herrj101,??,,NP
 sub,holtk101,"Ken Holtzman",1,5,1
@@ -12897,12 +12708,11 @@ play,8,1,beckg101,??,,NP
 sub,may-j101,"Jerry May",0,7,2
 play,8,1,beckg101,??,,S
 play,8,1,willb104,??,,E7/F.1-3;B-2#
-com,"xStargell made an error in the game, so I am assuming it came here"
 play,8,1,santr102,??,,IW
 play,8,1,banke101,??,,NP
 sub,facer101,"Roy Face",0,1,1
-play,8,1,banke101,??,,8/SF.3-H(UR);2-2#
-com,"xI am guessing as to the fielder who caught the ball."
+play,8,1,banke101,??,,99/SF.3-H(UR);2-2#
+com,"Missing play in CHN196509250"
 play,8,1,clemd101,??,,7
 play,8,1,abert101,??,,S.2-H(UR);1-2#
 play,8,1,kessd101,??,,63

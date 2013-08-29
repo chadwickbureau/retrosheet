@@ -623,7 +623,8 @@ play,8,0,laroa002,21,CBBX,63/G
 play,8,0,mossb001,32,FBBTBX,6/L
 play,8,1,gonza002,00,,NP
 sub,grabj002,"John Grabow",0,9,1
-play,8,1,gonza002,11,.CBX,2/G/INT
+play,8,1,gonza002,11,.CBX,2/G/BINT
+com,"$Alex Gonzalez called for interference"
 play,8,1,burtj001,00,,NP
 sub,owinm001,"Micah Owings",1,9,11
 play,8,1,owinm001,00,.X,D7/F
@@ -3412,8 +3413,8 @@ play,7,0,lee-c003,00,,NP
 sub,carrj001,"Jamey Carroll",0,9,11
 play,7,0,carrj001,10,.BX,4/L
 play,7,0,cabra002,11,CBX,3/G.2-3
-play,7,0,sizeg001,00,X,T9/L.3-H;B-H(E5)(UR)
-com,"$Obstruction on third baseman"
+play,7,0,sizeg001,00,X,T9/L/OBS.3-H;B-H(E5)(UR)
+com,"$Adam Rosales called for obstruction"
 play,7,0,martv001,32,CBBCBS,K
 play,7,1,cuetj001,00,,NP
 sub,hergm001,"Matt Herges",0,9,1
@@ -5778,7 +5779,8 @@ start,haraa001,"Aaron Harang",1,9,1
 play,1,0,lopef001,02,CCC,K
 play,1,0,drews001,22,FFBBX,43/G
 play,1,0,uptoj001,00,X,43/G
-play,1,1,tavew001,00,X,2/BG/INT
+play,1,1,tavew001,00,X,2/BG/BINT
+com,"$Willy Taveras called for interference"
 play,1,1,hairj002,01,CX,7/F
 play,1,1,vottj001,21,FBBX,D8/F
 play,1,1,philb001,32,FB*BBFX,31/G
@@ -6676,7 +6678,7 @@ sub,geruj001,"Jody Gerut",0,9,11
 play,7,0,geruj001,22,.BCFBFS,K
 play,7,0,counc001,10,BX,S9/G.1-2
 play,7,0,camem001,32,CBBCBB,W.2-3;1-2
-play,7,0,braur002,00,X,54(1)3/G/DP/INT
+play,7,0,braur002,00,X,54(1)3/G/DP/RINT
 com,"$Mike Cameron was called for interfering with second baseman Brandon Phillips,"
 com,"who was turning the double play"
 play,7,1,vottj001,00,,NP
@@ -7962,7 +7964,7 @@ play,6,0,tulot001,22,CCB*B1X,S8/L.1-2
 play,6,0,stewi001,32,BBCBFX,S8/G.2-H;1-H(E6)(NR);B-2
 play,6,0,iannc001,10,BX,7/F.2-3
 play,6,0,gonzc001,30,IIII,IW
-play,6,0,marqj001,01,FX,2/G/INT
+play,6,0,marqj001,01,FX,2/G/BINT
 com,"$Jason Marquis called out for interfering with catcher Ryan Hanigan"
 play,6,1,suttd002,02,SCFFS,K
 play,6,1,hanir001,00,X,63/G
@@ -8814,8 +8816,8 @@ play,1,0,morgn001,12,CFBX,13/G-
 play,1,0,bellr002,00,X,63/G
 play,1,0,zimmr001,12,CBSX,9/F
 play,1,1,dickc001,11,BCX,D7/L
-play,1,1,tavew001,00,X,2/BG/INT
-com,"$Willy Taveras called out for being struck by his own batted ball"
+play,1,1,tavew001,00,X,2/BG/BINT
+com,"$Willy Taveras called for interference for running into his own bunt"
 play,1,1,vottj001,32,2BCBBCB,W
 play,1,1,philb001,22,SBFBX,7/F.2-3
 play,1,1,nix-l001,11,1BCX,8/F
@@ -8826,9 +8828,9 @@ play,2,0,bardj001,11,BSX,9/F
 play,2,0,gonza005,10,BX,46(1)/FO/G
 play,2,1,rosaa001,12,CCBFX,31/G-
 play,2,1,hanir001,21,CBBX,43/G
-play,2,1,janip001,11,CBX,2/BG/INT
+play,2,1,janip001,11,CBX,2/BG/BINT
 com,"ej,jacob001,C,gibsg901,Yelling from dugout about two calls"
-com,"$Paul Janish called out for being struck by his own batted ball;"
+com,"$Paul Janish called for interference for running into his own bunt;"
 com,"Reds Batting Coach Brook Jacoby ejected by HP umpire Greg Gibson"
 play,3,0,martj005,22,BCF.BFX,S8/L-
 play,3,0,morgn001,20,BBX,S9/L.1-3
@@ -10341,8 +10343,8 @@ com,"replay,5,philb001,CIN,reedr901,CIN09,F,Y"
 com,"$Brandon Phillips hit a towering fly ball down the left field line; it was ruled a"
 com,"home run by third base umpire Dan Iassogna but Pirates manager John Russell objected"
 com,"to the call; crew chief Rick Reed watched the replay and overturned the call to a foul"
-com,"ball; it took less than two minutes for the replay."
-play,5,1,philb001,01,FX,S8/G
+com,"ball; it took less than two minutes for the replay"
+play,5,1,philb001,01,FX,S8/G/REV
 play,5,1,roles001,22,BFFBX,8/F
 play,5,1,gomej001,32,BFFB1FB>B,W.1-2
 play,5,1,mcdod002,22,BC*BFF>B,SB3;SB2
@@ -11450,6 +11452,17 @@ play,8,1,suttd002,00,,NP
 sub,donnb001,"Brendan Donnelly",0,9,1
 play,8,1,suttd002,00,...X,T8/F
 play,8,1,vottj001,01,CX,S8/G.3-H
+com,"$with a 3-2 count on Brandon Phillips, Brendan Donnelly stepped back"
+com,"off the rubber; instead of throwing to 1B, he pitched from that position;"
+com,"Brandon Phillips hit the ball to RF that was caught by Brett Carroll;"
+com,"Carroll threw to 1B to double up Joey Votto; the call at 1B was made"
+com,"by HP umpire Adrian Johnson because 1B umpire Derryl Cousins had"
+com,"run into RF to cover the catch; Donnelly threw an illegal pitch according"
+com,"to the rules, resulting in a balk; when Carroll caught the ball the play"
+com,"was dead; 2B umpire Jim Joyce called time after the catch; the umpires"
+com,"huddled to decide what to do with Phillips; they incorrectly called"
+com,"the illegal pitch ball four but the proper call is to award each runner"
+com,"one base on the balk and have the batter remain at HP"
 play,8,1,philb001,32,*BB1SBF1V,W.1-2
 play,8,1,roles001,10,BX,8/F.2-3
 play,8,1,gomej001,00,X,54(1)3/GDP
@@ -11573,7 +11586,7 @@ play,5,1,arrob001,12,CBLC,K
 play,5,1,stubd001,10,BX,63/G
 play,6,0,maybc001,12,BCFX,13/G
 play,6,0,nolar001,02,CSS,K
-play,6,0,coghc001,32,CBBFBX,DGR/9/L
+play,6,0,coghc001,32,CBBFBX,DGR/9/L/FINT
 com,"fan interference"
 play,6,0,johnn001,31,BCBBB,W
 play,6,0,ramih003,22,CFBBX,5(2)/FO/G.1-2;B-1

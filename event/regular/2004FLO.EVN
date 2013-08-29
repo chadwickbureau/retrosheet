@@ -1970,10 +1970,9 @@ play,1,1,castl001,12,BCFX,43/G
 play,1,1,lowem001,20,BBX,7/F
 play,2,0,paytj001,01,FX,D9/L
 play,2,0,longt002,11,SBX,S9/L.2-3
-play,2,0,ojedm001,20,11BBX,S8/F.3-H;1-1;BX1(3)
-com,"$Ojeda and Long thought Pierre had caught ball"
-com,"but it was ruled a trap; Long went back to 1B"
-com,"and Ojeda passed him for the out"
+play,2,0,ojedm001,20,11BBX,S8/F/PASS.3-H;1-1;BX1(3)
+com,"$Miguel Ojeda and Terrence Long thought Juan Pierre had caught the ball"
+com,"but it was ruled a trap; Long went back to 1B and Ojeda passed him"
 play,2,0,greek002,22,CF1B1FBFS,K
 play,2,0,valdi001,02,CSFX,6/P
 play,2,1,choih001,12,CCBS,K
@@ -4707,7 +4706,7 @@ play,7,0,olivm001,00,X,S7/L.1-2
 play,7,0,loaie001,00,X,56(2)4/BGDP.1-2
 play,7,0,peret004,32,BBBCSX,7/L
 play,7,1,redmm001,22,BFFBFX,9/L
-play,7,1,choih001,10,BX,DGR/9/F
+play,7,1,choih001,10,BX,DGR/9/F/FINT
 com,"$fan interference"
 play,7,1,gonza002,30,IIII,IW
 play,7,1,olivd001,00,,NP
@@ -5191,7 +5190,8 @@ play,2,0,delld001,32,BFFB1BX,7/F
 play,2,0,barar001,11,CBX,HR/78/F.1-H
 play,2,0,contj001,32,CBBBFFX,8/L
 play,2,1,pierj002,32,CBFBFFBFS,K
-play,2,1,gonza002,01,CX,2/BG/INT
+play,2,1,gonza002,01,CX,2/BG/BINT
+com,"$Alex Gonzalez called for interference"
 play,2,1,burna001,10,BX,43/G
 play,3,0,rogek001,22,BCFBC,K
 play,3,0,younm003,11,BFX,9!/F
@@ -8412,8 +8412,7 @@ play,2,1,encaj001,31,BSBBX,D8/F
 play,2,1,gonza002,02,CFX,1/P2F
 play,3,0,durrt001,12,BCFC,K
 play,3,0,benng001,31,CBBBB,W
-play,3,0,capuc001,01,LX,26(1)/FO/BG.BX2(46)
-com,"no DP"
+play,3,0,capuc001,01,LX,26(1)/FO/BG/NDP.BX2(46)
 play,3,1,redmm001,12,CFFBX,9/F
 play,3,1,willd003,12,CBSFFFFS,K
 play,3,1,pierj002,21,BBCX,7/F
@@ -10497,7 +10496,7 @@ play,6,0,rivej001,10,BX,8/F
 play,6,0,schnb001,00,,NP
 sub,churr001,"Ryan Church",0,4,12
 com,"$Sledge left game with injured hand"
-play,6,0,schnb001,12,.11BFFX,D/9.1-H
+play,6,0,schnb001,12,.11BFFX,D/9/FINT.1-H
 com,"$fan interference"
 play,6,0,gonza001,12,CBSS,K
 play,6,1,gonza002,00,,NP
@@ -10632,7 +10631,7 @@ play,4,0,schnb001,21,BSBX,D8/L.1-H
 play,4,0,iztum001,30,BIII,IW
 play,4,0,pattj004,01,CX,S7/F-.2-3;1-2
 play,4,0,wilkb002,00,,OA.3X3(5)
-com,"$Mike Lowell caught Brian Schneider with the hidden ball trick"
+com,"$Mike Lowell caught Brian Schneider with the hidden ball trick;"
 com,"Lowell had the ball as play ended, went to the mound, kept ball"
 com,"returned to 3B and tagged Schneider as he led off"
 play,4,1,lodup001,22,BCBFC,K
@@ -10676,8 +10675,8 @@ play,8,1,perim001,00,,NP
 sub,harrl001,"Lenny Harris",1,9,11
 play,8,1,harrl001,12,.CFBX,4/P-
 play,8,1,pierj002,12,CBFX,3/G
-play,8,1,castl001,21,FBBX,13/BG
-com,"$batter interference"
+play,8,1,castl001,21,FBBX,13/BG/BINT
+com,"$Luis Castillo called for interference"
 play,9,0,wilkb002,00,,NP
 sub,weatd001,"David Weathers",1,9,1
 play,9,0,wilkb002,22,.BSFBS,K

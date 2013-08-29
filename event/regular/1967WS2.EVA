@@ -1,9 +1,3 @@
-com,"Copyright 2002 by Retrosheet, Inc."
-com,"20 Sunset Rd."
-com,"Newark, DE 19711"
-com,"All Rights Reserved"
-com,"Data Version 1.00"
-com,"June 30, 2002"
 id,WS2196704100
 version,1
 info,visteam,NYA
@@ -199,7 +193,6 @@ play,1,0,clarh101,??,,S8
 play,1,0,gibbj101,??,,6
 play,1,0,trest101,??,,13.1-2
 play,1,0,pepij101,??,,E7/F.2-H(UR)(NR);B-2
-com,"NR added by Vincent"
 play,1,0,whits101,??,,W
 play,1,0,smitc105,??,,63
 play,1,1,brine101,??,,53
@@ -521,8 +514,8 @@ play,2,1,colej102,??,,2/FL
 play,2,1,brine101,??,,K
 play,2,1,alleb105,??,,K
 play,3,0,peteg101,??,,13
-play,3,0,bufod101,??,,2/G
-com,"Ball hit Buford"
+play,3,0,bufod101,??,,2/G/BINT
+com,"$Don Buford called for interference when he ran into his own batted ball"
 play,3,0,berrk101,??,,9
 play,3,1,valef101,??,,63
 play,3,1,howaf102,??,,K
@@ -2075,7 +2068,6 @@ play,9,1,mcmuk101,??,,NP
 sub,davav101,"Vic Davalillo",0,4,8
 play,9,1,mcmuk101,??,,NP
 sub,vidaj101,"Jose Vidal",0,6,7
-com,"Unsure when they swapped positions"
 play,9,1,mcmuk101,??,,NP
 sub,penao101,"Orlando Pena",0,8,1
 play,9,1,mcmuk101,??,,NP
@@ -2335,7 +2327,7 @@ play,5,1,casap101,??,,K
 play,5,1,brine101,??,,NP
 sub,petec101,"Cap Peterson",1,8,11
 play,5,1,petec101,??,,7
-com,"Rain shortened"
+com,"game called for rain"
 data,er,siebs101,1
 data,er,ortep101,2
 id,WS2196705160
@@ -3358,6 +3350,8 @@ play,9,1,kingj101,??,,W.1-2
 play,9,1,camid101,??,,NP
 sub,casap101,"Paul Casanova",1,7,11
 play,9,1,casap101,??,,K
+com,"ej,casap101,P,valeb901,Balls and strikes"
+com,"Paul Casanova ejected by HP umpire Bill Valentine"
 play,9,1,brine101,??,,43
 play,10,0,campb101,??,,NP
 sub,kingj101,"Jim King",1,6,2
@@ -5390,7 +5384,6 @@ start,pascc102,"Camilo Pascual",1,9,1
 play,1,0,greel101,??,,E6
 play,1,0,lumpj101,??,,6
 play,1,0,mcaud101,??,,K+OBA/DP.1X2(26)
-com,"Probably should be CS but Palmer says not"
 play,1,1,stroe101,??,,S9
 play,1,1,mcmuk101,??,,WP.1-2
 play,1,1,mcmuk101,??,,3
@@ -5401,7 +5394,6 @@ play,2,0,nortj101,??,,S9
 play,2,0,freeb103,??,,4/FL
 play,2,0,wertd103,??,,D8.1-3
 play,2,0,stanm101,??,,PO3(E2).3-H(UR);2-H(UR)#
-com,"TH3 assumed by Vincent"
 play,2,0,stanm101,??,,53
 play,2,0,sparj101,??,,3
 play,2,1,epstm101,??,,T9
@@ -6116,7 +6108,6 @@ play,6,1,casap101,??,,S8
 play,6,1,alleb105,??,,9
 play,6,1,cullt101,??,,S9.1-2
 play,6,1,knowd101,??,,PO1(E1).2-3;1-2
-com,"TH1 assumed by Vincent"
 play,6,1,knowd101,??,,NP
 sub,alleb101,"Bob Allen",0,9,1
 play,6,1,knowd101,??,,S9.3-H;2-3
@@ -6327,7 +6318,7 @@ sub,lined101,"Dick Lines",1,9,1
 play,11,0,snydr102,??,,S7.3-H;2-H(UR);1-3;B-2(THH)
 play,11,0,blaip101,??,,IW
 play,11,0,robib104,??,,7/SF.3-H(UR);2-H
-com,"Hank Allen casually returned ball"
+com,"$Hank Allen casually returned the ball to the infield"
 play,11,0,poweb101,??,,31
 play,11,1,mcmuk101,??,,K
 play,11,1,alleh104,??,,K
@@ -6391,7 +6382,6 @@ play,1,0,chavo101,??,,54(1)/FO
 play,1,0,cated101,??,,W.1-2
 play,1,0,harrk101,??,,5(2)/FO.1-2
 play,1,0,hersm101,??,,HR8/IPHR.2-H;1-H
-com,"IPHR"
 play,1,0,greed102,??,,63
 play,1,1,valef101,??,,S9
 play,1,1,mcmuk101,??,,S1/BG.1-2
@@ -7057,7 +7047,6 @@ play,7,1,howaf102,??,,S7.3-H;2-3
 play,7,1,petec101,??,,NP
 sub,alleh104,"Hank Allen",1,3,12
 play,7,1,petec101,??,,FC6.3XH(6E2)(NR)(UR);1-2
-com,"chg from 3-H(E2) by Vincent"
 play,7,1,epstm101,??,,5/FL
 play,7,1,casap101,??,,54(1)/FO.2-3
 play,7,1,saveb101,??,,D7.3-H(UR);1-3
@@ -7507,7 +7496,6 @@ sub,schap101,"Paul Schaal",0,6,12
 play,7,0,knoob101,??,,NP
 sub,baldd101,"Dave Baldwin",1,9,1
 play,7,0,knoob101,??,,E3/SH.2-H(NR);1-3;B-2
-com,"NR added by Vincent"
 play,7,0,taylh102,??,,NP
 sub,rodgb102,"Bob Rodgers",0,8,11
 play,7,0,rodgb102,??,,IW
@@ -7846,6 +7834,8 @@ play,8,0,rollr101,??,,8.2-3
 play,8,0,carer001,??,,S1.3-H;1-2
 play,8,0,tovac101,??,,S1.2-3;1-2
 play,8,0,olivt102,??,,8/SF.3-H;2-3;1-2
+com,"ej,knowd101,P,soarh901,Balls and strikes"
+com,"Darold Knowles ejected by HP umpire Hank Soar"
 play,8,0,killh102,??,,NP
 sub,baldd101,"Dave Baldwin",1,9,1
 play,8,0,killh102,??,,S8.3-H;2-H
@@ -8977,7 +8967,6 @@ play,6,1,alleh104,??,,7
 play,6,1,cullt101,??,,3/G
 play,7,0,amarr101,??,,S8
 play,7,0,verbj101,??,,1(B)94(1)/P/DP
-com,"That's what the scoresheet says"
 play,7,0,clarh101,??,,W
 play,7,0,whitr101,??,,13
 play,7,1,camid101,??,,NP
@@ -11550,7 +11539,6 @@ play,9,1,nen-d101,??,,W
 play,9,1,humpb102,??,,NP
 sub,petec101,"Cap Peterson",1,9,11
 play,9,1,petec101,??,,PO1(163)
-com,"I know it's wierd but two scoresheets agree"
 play,9,1,petec101,??,,7
 play,10,0,may-d101,??,,NP
 sub,baldd101,"Dave Baldwin",1,9,1
@@ -11655,6 +11643,8 @@ play,3,1,bertf101,??,,NP
 sub,alleb105,"Bernie Allen",1,9,11
 play,3,1,alleb105,??,,63.2-3
 play,3,1,valef101,??,,31
+com,"ej,bertf101,P,neudj901,Bench jockeying"
+com,"Frank Bertaina ejected by HP umpire Jerry Neudecker"
 play,4,0,wilse102,??,,NP
 sub,colej102,"Joe Coleman",1,9,1
 play,4,0,wilse102,??,,S9

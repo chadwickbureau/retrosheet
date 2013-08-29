@@ -184,7 +184,7 @@ stat,dline,ellib103,1,1,5,39,1,2,0,0,0,0
 stat,dline,gords101,1,1,7,39,5,0,0,0,0,0
 stat,dline,holmt101,1,1,9,39,1,0,0,0,0,0
 stat,dline,crand102,1,1,2,39,4,0,0,0,0,0
-stat,dline,kerrb101,1,1,6,39,4,5,0,0,0,0
+stat,dline,kerrb101,1,1,6,39,4,5,0,1,0,0
 stat,dline,bickv101,1,1,1,39,3,0,0,0,0,0
 stat,pline,kramj101,0,1,21,0,29,6,-1,-1,1,2,2,1,0,3,0,0,0,0,0
 stat,pline,magls101,0,2,17,0,21,1,-1,-1,0,1,1,3,0,0,0,0,0,0,0
@@ -287,14 +287,14 @@ stat,dline,murtd101,0,1,4,27,4,4,0,2,0,0
 stat,dline,muelr101,0,1,2,27,5,0,0,0,0,0
 stat,dline,queem101,0,1,1,19,0,0,0,0,0,0
 stat,dline,dickm101,0,1,1,8,0,0,0,0,0,0
-stat,dline,hartr101,1,1,4,27,4,4,1,1,0,0
+stat,dline,hartr101,1,1,4,27,4,4,1,2,0,0
 stat,dline,jeths101,1,1,8,27,2,0,1,0,0,0
-stat,dline,torge101,1,1,3,27,9,0,0,0,0,0
+stat,dline,torge101,1,1,3,27,9,0,0,1,0,0
 stat,dline,ellib103,1,1,5,27,1,0,1,0,0,0
 stat,dline,gords101,1,1,7,27,2,0,0,0,0,0
 stat,dline,coopw102,1,1,2,27,2,3,0,1,0,0
 stat,dline,holmt101,1,1,9,27,0,0,0,0,0,0
-stat,dline,kerrb101,1,1,6,21,4,2,0,0,0,0
+stat,dline,kerrb101,1,1,6,21,4,2,0,1,0,0
 stat,dline,sists101,1,1,6,6,1,1,0,0,0,0
 stat,dline,bickv101,1,1,1,21,1,2,0,0,0,0
 stat,dline,hogub101,1,1,1,3,0,0,0,0,0,0
@@ -1252,6 +1252,8 @@ start,coopw102,"Walker Cooper",1,6,2
 start,holmt101,"Tommy Holmes",1,7,9
 start,kerrb101,"Buddy Kerr",1,8,6
 start,antoj103,"Johnny Antonelli",1,9,1
+com,"ej,sewel101,M,boggd901,Checked swing"
+com,"Reds Manager Luke Sewell ejected by HP umpire Dusty Boggess"
 stat,bline,adamb103,0,1,1,3,0,3,1,1,0,1,0,0,0,1,0,0,0,0,0,0
 stat,bline,usheb101,0,2,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,litwd101,0,3,1,4,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0
@@ -1268,7 +1270,7 @@ stat,bline,hartr101,1,1,1,4,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,addib101,1,2,1,4,1,2,1,0,0,1,0,0,0,0,0,1,0,0,0,0
 stat,bline,torge101,1,3,1,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,ellib103,1,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,gords101,1,5,1,3,1,1,1,0,0,0,0,0,0,1,0,0,1,0,1,0
+stat,bline,gords101,1,5,1,3,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0
 stat,bline,coopw102,1,6,1,2,0,2,0,0,0,1,0,0,1,1,0,0,1,0,0,0
 stat,bline,holmt101,1,7,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 stat,bline,kerrb101,1,8,1,2,1,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0
@@ -1350,6 +1352,8 @@ start,coopw102,"Walker Cooper",1,6,2
 start,holmt101,"Tommy Holmes",1,7,9
 start,kerrb101,"Buddy Kerr",1,8,6
 start,sainj101,"Johnny Sain",1,9,1
+com,"ej,riced101,P,dascf901,Call at HP"
+com,"Del Rice ejected by HP umpire Frank Dascoli"
 stat,bline,glavt101,0,1,1,3,2,1,0,0,0,0,0,0,0,1,0,2,0,0,0,0
 stat,bline,kazae101,0,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,schor101,0,2,1,6,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -1670,6 +1674,8 @@ start,smalr101,"Roy Smalley",1,6,6
 start,sereb101,"Bill Serena",1,7,5
 start,owenm101,"Mickey Owen",1,8,2
 start,laded101,"Doyle Lade",1,9,1
+com,"ej,murtd101,P,barla901,Called third strike"
+com,"Danny Murtaugh ejected by 2B umpire Al Barlick"
 stat,bline,rojes101,0,1,1,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,safft101,0,2,1,5,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,hoppj102,0,3,1,6,3,6,0,0,2,3,0,0,0,0,0,0,0,0,0,0
@@ -1752,314 +1758,6 @@ event,hpline,0,werlb101,terww101
 event,hpline,1,laded101,fernn101
 event,sbline,0,kiner101,,,-1
 event,sbline,0,fernn101,,,-1
-id,CHN195007091
-version,3
-info,visteam,CIN
-info,hometeam,CHN
-info,site,CHI11
-info,date,1950/07/09
-info,number,1
-info,starttime,0:00
-info,daynight,day
-info,usedh,false
-info,umphome,boggd901
-info,ump1b,robbs901
-info,ump2b,(none)
-info,ump3b,pineb101
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,167
-info,attendance,0
-info,wp,raffk101
-info,lp,laded101
-info,save,
-start,merrl102,"Lloyd Merriman",0,1,8
-start,lowrp101,"Peanuts Lowrey",0,2,7
-start,wyroj101,"Johnny Wyrostek",0,3,9
-start,hattg101,"Grady Hatton",0,4,5
-start,ryanc102,"Connie Ryan",0,5,4
-start,adcoj101,"Joe Adcock",0,6,3
-start,pramj101,"Johnny Pramesa",0,7,2
-start,stalv101,"Virgil Stallcup",0,8,6
-start,raffk101,"Ken Raffensberger",0,9,1
-start,terww101,"Wayne Terwilliger",1,1,4
-start,owenm101,"Mickey Owen",1,2,2
-start,cavap101,"Phil Cavarretta",1,3,3
-start,saueh101,"Hank Sauer",1,4,7
-start,pafka101,"Andy Pafko",1,5,8
-start,borkb101,"Bob Borkowski",1,6,9
-start,smalr101,"Roy Smalley",1,7,6
-start,sereb101,"Bill Serena",1,8,5
-start,laded101,"Doyle Lade",1,9,1
-stat,bline,merrl102,0,1,1,5,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,lowrp101,0,2,1,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,wyroj101,0,3,1,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,hattg101,0,4,1,4,2,3,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,ryanc102,0,5,1,3,0,1,0,0,0,1,1,0,1,0,0,0,0,0,0,0
-stat,bline,adcoj101,0,6,1,5,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,pramj101,0,7,1,5,1,2,0,0,1,2,0,0,0,0,0,1,0,0,0,0
-stat,bline,stalv101,0,8,1,4,0,3,2,0,0,1,0,0,0,0,0,2,0,0,0,0
-stat,bline,raffk101,0,9,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,terww101,1,1,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,owenm101,1,2,1,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,cavap101,1,3,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,saueh101,1,4,1,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,pafka101,1,5,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,borkb101,1,6,1,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,smalr101,1,7,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,sereb101,1,8,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,laded101,1,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,verbe101,1,9,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,leond103,1,9,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,klipj101,1,9,4,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,hillf101,1,9,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,verbe101,3,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,klipj101,6,1,1,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,dline,merrl102,0,1,8,27,5,0,0,0,0,0
-stat,dline,lowrp101,0,1,7,27,4,0,0,0,0,0
-stat,dline,wyroj101,0,1,9,27,6,1,0,0,0,0
-stat,dline,hattg101,0,1,5,27,3,0,0,0,0,0
-stat,dline,ryanc102,0,1,4,27,2,1,0,1,0,0
-stat,dline,adcoj101,0,1,3,27,3,0,0,1,0,0
-stat,dline,pramj101,0,1,2,27,1,0,0,0,0,0
-stat,dline,stalv101,0,1,6,27,3,1,0,1,0,0
-stat,dline,raffk101,0,1,1,27,0,1,0,0,0,0
-stat,dline,terww101,1,1,4,27,2,1,1,0,0,0
-stat,dline,owenm101,1,1,2,27,5,0,0,0,0,0
-stat,dline,cavap101,1,1,3,27,7,1,0,0,0,0
-stat,dline,saueh101,1,1,7,27,3,0,0,0,0,0
-stat,dline,pafka101,1,1,8,27,4,0,0,0,0,0
-stat,dline,borkb101,1,1,9,27,3,0,0,0,0,0
-stat,dline,smalr101,1,1,6,27,0,1,0,0,0,0
-stat,dline,sereb101,1,1,5,27,1,0,0,0,0,0
-stat,dline,laded101,1,1,1,9,1,1,0,0,0,0
-stat,dline,leond103,1,1,1,9,0,2,0,0,0,0
-stat,dline,hillf101,1,1,1,9,1,1,0,0,0,0
-stat,pline,raffk101,0,1,27,0,31,6,-1,-1,0,0,0,0,0,1,0,0,0,0,0
-stat,pline,laded101,1,1,9,0,17,6,-1,-1,0,3,3,1,0,1,0,0,0,0,0
-stat,pline,leond103,1,2,9,0,13,3,-1,-1,1,2,2,0,0,2,0,0,0,0,0
-stat,pline,hillf101,1,3,9,0,13,3,-1,-1,0,1,1,0,0,1,1,0,0,1,0
-line,0,0,0,3,0,0,2,1,0,0
-line,1,0,0,0,0,0,0,0,0,0
-stat,tline,0,10,0,1,0
-stat,tline,1,4,6,0,0
-event,hrline,0,pramj101,leond103,6,1,-1
-event,dpline,0,stalv101,ryanc102,adcoj101
-event,hpline,1,hillf101,ryanc102
-id,CHN195007070
-version,3
-info,visteam,CIN
-info,hometeam,CHN
-info,site,CHI11
-info,date,1950/07/07
-info,number,0
-info,starttime,0:00
-info,daynight,day
-info,usedh,false
-info,umphome,robbs901
-info,ump1b,pineb101
-info,ump2b,(none)
-info,ump3b,boggd901
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,164
-info,attendance,9991
-info,wp,blace102
-info,lp,vandj101
-info,save,
-start,merrl102,"Lloyd Merriman",0,1,8
-start,lowrp101,"Peanuts Lowrey",0,2,7
-start,wyroj101,"Johnny Wyrostek",0,3,9
-start,hattg101,"Grady Hatton",0,4,5
-start,ryanc102,"Connie Ryan",0,5,4
-start,adcoj101,"Joe Adcock",0,6,3
-start,pramj101,"Johnny Pramesa",0,7,2
-start,stalv101,"Virgil Stallcup",0,8,6
-start,ramsw101,"Willie Ramsdell",0,9,1
-start,terww101,"Wayne Terwilliger",1,1,4
-start,walkr101,"Rube Walker",1,2,2
-start,cavap101,"Phil Cavarretta",1,3,3
-start,saueh101,"Hank Sauer",1,4,7
-start,pafka101,"Andy Pafko",1,5,8
-start,nortr101,"Ron Northey",1,6,9
-start,smalr101,"Roy Smalley",1,7,6
-start,sereb101,"Bill Serena",1,8,5
-start,dubim101,"Monk Dubiel",1,9,1
-stat,bline,merrl102,0,1,1,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,usheb101,0,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,lowrp101,0,2,1,3,2,1,1,0,0,0,0,0,0,2,0,0,0,0,0,0
-stat,bline,wyroj101,0,3,1,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,hattg101,0,4,1,5,1,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
-stat,bline,ryanc102,0,5,1,3,1,1,0,0,0,1,0,0,0,2,0,0,1,0,0,0
-stat,bline,adcoj101,0,6,1,4,1,2,1,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,pramj101,0,7,1,5,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0
-stat,bline,stalv101,0,8,1,4,0,1,0,0,0,0,0,0,0,1,0,0,1,0,1,0
-stat,bline,ramsw101,0,9,1,3,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-stat,bline,raffk101,0,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,blace102,0,9,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,terww101,1,1,1,5,1,1,0,0,1,1,0,0,0,0,0,2,0,0,0,0
-stat,bline,walkr101,1,2,1,4,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,verbe101,1,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,owenm101,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,cavap101,1,3,1,4,1,2,0,1,0,0,0,0,0,1,0,1,0,0,0,0
-stat,bline,saueh101,1,4,1,5,1,2,0,0,1,2,0,0,0,0,0,0,0,0,0,0
-stat,bline,pafka101,1,5,1,5,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0
-stat,bline,nortr101,1,6,1,5,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
-stat,bline,smalr101,1,7,1,5,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,sereb101,1,8,1,3,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-stat,bline,dubim101,1,9,1,3,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
-stat,bline,edwah101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,vandj101,1,9,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,hillf101,1,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,borkb101,1,9,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,phline,edwah101,9,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,phline,borkb101,11,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,prline,verbe101,9,1,0,0,0
-stat,dline,merrl102,0,1,8,27,3,0,0,0,0,0
-stat,dline,usheb101,0,1,8,6,1,0,0,0,0,0
-stat,dline,lowrp101,0,1,7,33,2,0,0,0,0,0
-stat,dline,wyroj101,0,1,9,33,1,0,0,0,0,0
-stat,dline,hattg101,0,1,5,33,1,2,0,0,0,0
-stat,dline,ryanc102,0,1,4,33,2,2,0,1,0,0
-stat,dline,adcoj101,0,1,3,33,10,1,1,1,0,0
-stat,dline,pramj101,0,1,2,33,10,2,0,0,0,0
-stat,dline,stalv101,0,1,6,33,2,3,0,1,0,0
-stat,dline,ramsw101,0,1,1,26,1,0,0,0,0,0
-stat,dline,raffk101,0,1,1,1,0,0,0,0,0,0
-stat,dline,blace102,0,1,1,6,0,0,0,0,0,0
-stat,dline,terww101,1,1,4,33,2,3,0,1,0,0
-stat,dline,walkr101,1,1,2,27,3,0,0,0,0,0
-stat,dline,owenm101,1,1,2,6,2,1,0,0,0,0
-stat,dline,cavap101,1,1,3,33,10,1,0,0,0,0
-stat,dline,saueh101,1,1,7,33,5,1,1,0,0,0
-stat,dline,pafka101,1,1,8,33,3,0,0,0,0,0
-stat,dline,nortr101,1,1,9,33,1,0,0,0,0,0
-stat,dline,smalr101,1,1,6,33,3,4,1,2,0,0
-stat,dline,sereb101,1,1,5,33,3,2,1,0,0,0
-stat,dline,dubim101,1,1,1,27,1,1,0,0,0,0
-stat,dline,vandj101,1,1,1,5,0,1,0,0,0,0
-stat,dline,hillf101,1,1,1,1,0,0,0,0,0,0
-stat,pline,ramsw101,0,1,26,0,38,8,-1,-1,3,4,4,3,0,10,0,1,0,0,0
-stat,pline,raffk101,0,2,1,0,1,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0
-stat,pline,blace102,0,3,6,0,6,0,-1,-1,0,0,0,1,0,1,0,0,0,0,0
-stat,pline,dubim101,1,1,27,0,37,8,-1,-1,0,4,3,4,0,2,0,0,0,0,0
-stat,pline,vandj101,1,2,5,0,8,0,-1,-1,0,1,0,4,0,2,0,1,0,0,0
-stat,pline,hillf101,1,3,1,0,1,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0
-line,0,0,0,0,0,1,1,0,2,0,0,1
-line,1,0,0,0,2,0,0,0,1,1,0,0
-stat,tline,0,8,4,1,0
-stat,tline,1,8,3,2,0
-event,hrline,1,pafka101,ramsw101,8,0,-1
-event,hrline,1,saueh101,ramsw101,4,1,-1
-event,hrline,1,terww101,ramsw101,9,0,-1
-event,dpline,0,stalv101,ryanc102,adcoj101
-event,dpline,1,smalr101,cavap101
-event,dpline,1,smalr101,terww101,cavap101
-event,sbline,0,ryanc102,,,-1
-event,sbline,0,stalv101,,,-1
-id,CHN195007220
-version,3
-info,visteam,NY1
-info,hometeam,CHN
-info,site,CHI11
-info,date,1950/07/22
-info,number,0
-info,starttime,0:00
-info,daynight,day
-info,usedh,false
-info,umphome,jordl901
-info,ump1b,goetl901
-info,ump2b,(none)
-info,ump3b,dascf901
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,162
-info,attendance,20972
-info,wp,hearj102
-info,lp,laded101
-info,save,
-start,stane101,"Eddie Stanky",0,1,4
-start,mueld101,"Don Mueller",0,2,9
-start,thomh103,"Hank Thompson",0,3,5
-start,weatr101,"Roy Weatherly",0,4,7
-start,westw101,"Wes Westrum",0,5,2
-start,thomb105,"Bobby Thomson",0,6,8
-start,gilbt101,"Tookie Gilbert",0,7,3
-start,darka101,"Al Dark",0,8,6
-start,hearj102,"Jim Hearn",0,9,1
-start,terww101,"Wayne Terwilliger",1,1,4
-start,borkb101,"Bob Borkowski",1,2,8
-start,smalr101,"Roy Smalley",1,3,6
-start,saueh101,"Hank Sauer",1,4,3
-start,pafka101,"Andy Pafko",1,5,9
-start,sereb101,"Bill Serena",1,6,5
-start,maurc101,"Carmen Mauro",1,7,7
-start,owenm101,"Mickey Owen",1,8,2
-start,laded101,"Doyle Lade",1,9,1
-stat,bline,stane101,0,1,1,4,1,3,1,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,mueld101,0,2,1,5,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,thomh103,0,3,1,4,2,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,weatr101,0,4,1,3,1,1,1,0,0,2,0,0,0,0,0,0,0,0,0,0
-stat,bline,irvim101,0,4,2,2,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,westw101,0,5,1,5,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,thomb105,0,6,1,3,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,gilbt101,0,7,1,3,0,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0
-stat,bline,darka101,0,8,1,4,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,hearj102,0,9,1,4,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
-stat,bline,terww101,1,1,1,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,borkb101,1,2,1,4,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,smalr101,1,3,1,3,0,0,0,0,0,0,0,0,0,1,0,3,0,0,0,0
-stat,bline,saueh101,1,4,1,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,pafka101,1,5,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,sereb101,1,6,1,3,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0
-stat,bline,maurc101,1,7,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,owenm101,1,8,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,laded101,1,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,vandj101,1,9,2,3,0,1,0,1,0,0,0,0,0,0,0,2,0,0,0,0
-stat,phline,irvim101,7,0,1,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,dline,stane101,0,1,4,27,6,1,0,1,0,0
-stat,dline,mueld101,0,1,9,27,1,0,0,0,0,0
-stat,dline,thomh103,0,1,5,27,1,3,0,0,0,0
-stat,dline,weatr101,0,1,7,18,3,0,0,0,0,0
-stat,dline,irvim101,0,1,7,9,1,0,0,0,0,0
-stat,dline,westw101,0,1,2,27,8,1,0,1,0,0
-stat,dline,thomb105,0,1,8,27,3,0,0,0,0,0
-stat,dline,gilbt101,0,1,3,27,3,0,0,0,0,0
-stat,dline,darka101,0,1,6,27,1,1,0,0,0,0
-stat,dline,hearj102,0,1,1,27,0,0,0,0,0,0
-stat,dline,terww101,1,1,4,27,5,1,0,0,0,0
-stat,dline,borkb101,1,1,8,27,1,0,0,0,0,0
-stat,dline,smalr101,1,1,6,27,1,2,1,0,0,0
-stat,dline,saueh101,1,1,3,27,6,0,0,0,0,0
-stat,dline,pafka101,1,1,9,27,2,1,0,0,0,0
-stat,dline,sereb101,1,1,5,27,2,2,0,0,0,0
-stat,dline,maurc101,1,1,7,27,4,0,0,0,0,0
-stat,dline,owenm101,1,1,2,27,6,1,0,0,0,0
-stat,dline,laded101,1,1,1,2,0,0,0,0,0,0
-stat,dline,vandj101,1,1,1,25,0,1,0,0,0,0
-stat,pline,hearj102,0,1,27,0,32,5,-1,-1,0,0,0,1,0,8,0,0,0,0,0
-stat,pline,laded101,1,1,2,0,6,4,-1,-1,0,3,3,0,0,0,0,0,0,0,0
-stat,pline,vandj101,1,2,25,0,35,7,-1,-1,0,4,0,4,0,4,0,0,0,0,0
-line,0,3,0,0,0,0,0,4,0,0
-line,1,0,0,0,0,0,0,0,0,0
-stat,tline,0,7,0,1,0
-stat,tline,1,5,3,0,0
-event,dpline,0,westw101,stane101
 id,CHN195008201
 version,3
 info,visteam,PIT
@@ -2345,7 +2043,7 @@ stat,dline,sereb101,1,1,5,27,1,2,0,0,0,0
 stat,dline,smalr101,1,1,6,27,3,6,0,0,0,0
 stat,dline,owenm101,1,1,2,27,4,2,0,1,0,0
 stat,dline,hillf101,1,1,1,27,0,1,0,0,0,0
-stat,pline,haefm101,0,1,24,0,35,10,-1,-1,0,4,4,2,0,4,1,0,0,0,0
+stat,pline,haefm101,0,1,24,0,34,10,-1,-1,0,4,4,2,0,4,1,0,0,0,0
 stat,pline,hillf101,1,1,27,0,34,7,-1,-1,1,3,3,0,0,2,1,0,0,0,0
 line,0,0,0,0,0,0,2,0,0,1
 line,1,0,0,0,0,1,0,2,1
@@ -2606,6 +2304,9 @@ start,litwd101,"Danny Litwhiler",1,6,9
 start,hattg101,"Grady Hatton",1,7,5
 start,stalv101,"Virgil Stallcup",1,8,6
 start,raffk101,"Ken Raffensberger",1,9,1
+com,"ej,durol101,M,goetl901,Call at 3B (Appeal play)"
+com,"Giants Manager Leo Durocher ejected by 3B umpire Larry Goetz"
+com,"arguing an appeal play at 3B in the third"
 stat,bline,stane101,0,1,1,4,1,1,0,1,0,2,0,0,0,1,0,0,0,0,0,0
 stat,bline,darka101,0,2,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,mueld101,0,3,1,5,0,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2827,10 +2528,10 @@ stat,bline,kramj101,0,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,magls101,0,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,thomb105,0,9,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,lowrp101,1,1,1,5,2,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,nortr101,1,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,wyroj101,1,2,1,4,1,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0
 stat,bline,usheb101,1,3,1,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,1,0
 stat,bline,merrl102,1,3,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+stat,bline,nortr101,1,3,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,klust101,1,4,1,3,0,1,0,0,0,2,0,0,0,2,0,0,0,0,0,0
 stat,bline,ryanc102,1,5,1,2,0,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,adamb103,1,5,2,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2863,14 +2564,14 @@ stat,dline,kramj101,0,1,1,5,0,0,0,0,0,0
 stat,dline,magls101,0,1,1,1,0,0,0,0,0,0
 stat,dline,thomb105,0,1,8,3,1,0,0,0,0,0
 stat,dline,lowrp101,1,1,7,24,5,0,0,0,0,0
-stat,dline,nortr101,1,1,9,3,0,0,0,0,0,0
 stat,dline,wyroj101,1,1,9,24,1,0,0,0,0,0
-stat,dline,wyroj101,1,2,7,3,1,0,0,0,0,0
+stat,dline,wyroj101,1,2,8,3,1,0,0,0,0,0
 stat,dline,usheb101,1,1,8,21,2,0,0,0,0,0
 stat,dline,merrl102,1,1,8,6,0,0,0,0,0,0
+stat,dline,nortr101,1,1,9,3,0,0,0,0,0,0
 stat,dline,klust101,1,1,3,27,10,1,0,0,0,0
-stat,dline,ryanc102,1,1,4,15,2,0,0,1,0,0
-stat,dline,adamb103,1,1,4,12,1,1,0,0,0,0
+stat,dline,ryanc102,1,1,4,15,2,0,0,0,0,0
+stat,dline,adamb103,1,1,4,12,1,1,0,1,0,0
 stat,dline,pramj101,1,1,2,27,1,1,0,0,0,0
 stat,dline,hattg101,1,1,5,27,2,2,0,1,0,0
 stat,dline,stalv101,1,1,6,27,2,1,0,0,0,0
@@ -3545,107 +3246,6 @@ event,dpline,1,stalv101,ryanc102,klust101
 event,dpline,1,stalv101,ryanc102,klust101
 event,hpline,0,kosld101,pramj101
 event,sbline,0,thomb105,,,-1
-id,CIN195007170
-version,3
-info,visteam,NY1
-info,hometeam,CIN
-info,site,CIN07
-info,date,1950/07/17
-info,number,0
-info,starttime,0:00
-info,daynight,night
-info,usedh,false
-info,umphome,barla901
-info,ump1b,donaa901
-info,ump2b,(none)
-info,ump3b,warnl101
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,169
-info,attendance,8364
-info,wp,hearj102
-info,lp,wehmh101
-info,save,
-start,rignb101,"Bill Rigney",0,1,4
-start,mueld101,"Don Mueller",0,2,9
-start,irvim101,"Monte Irvin",0,3,7
-start,thomh103,"Hank Thompson",0,4,5
-start,thomb105,"Bobby Thomson",0,5,8
-start,westw101,"Wes Westrum",0,6,2
-start,gilbt101,"Tookie Gilbert",0,7,3
-start,darka101,"Al Dark",0,8,6
-start,hearj102,"Jim Hearn",0,9,1
-start,merrl102,"Lloyd Merriman",1,1,8
-start,ryanc102,"Connie Ryan",1,2,4
-start,hattg101,"Grady Hatton",1,3,5
-start,klust101,"Ted Kluszewski",1,4,3
-start,usheb101,"Bob Usher",1,5,9
-start,adcoj101,"Joe Adcock",1,6,7
-start,pramj101,"Johnny Pramesa",1,7,2
-start,stalv101,"Virgil Stallcup",1,8,6
-start,wehmh101,"Herm Wehmeier",1,9,1
-stat,bline,rignb101,0,1,1,5,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
-stat,bline,mueld101,0,2,1,5,1,1,0,0,0,2,0,0,0,0,0,0,0,0,0,0
-stat,bline,irvim101,0,3,1,3,2,1,0,0,0,0,0,0,1,1,0,0,0,0,0,0
-stat,bline,thomh103,0,4,1,5,0,2,2,0,0,4,0,0,0,0,0,1,0,0,0,0
-stat,bline,thomb105,0,5,1,5,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0
-stat,bline,westw101,0,6,1,3,2,1,0,0,1,1,0,0,0,2,0,1,0,0,0,0
-stat,bline,gilbt101,0,7,1,4,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,darka101,0,8,1,5,2,3,0,0,1,2,0,0,0,0,0,0,0,0,0,0
-stat,bline,hearj102,0,9,1,2,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-stat,bline,merrl102,1,1,1,4,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,ryanc102,1,2,1,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,adamb103,1,2,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,hattg101,1,3,1,3,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,klust101,1,4,1,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-stat,bline,usheb101,1,5,1,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,adcoj101,1,6,1,4,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,pramj101,1,7,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,stalv101,1,8,1,2,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,meeks101,1,8,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,wehmh101,1,9,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-stat,bline,eraue101,1,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,smitf104,1,9,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,dline,rignb101,0,1,4,27,3,1,1,1,0,0
-stat,dline,mueld101,0,1,9,27,1,0,0,0,0,0
-stat,dline,irvim101,0,1,7,27,2,0,0,0,0,0
-stat,dline,thomh103,0,1,5,27,2,5,0,0,0,0
-stat,dline,thomb105,0,1,8,27,6,0,0,0,0,0
-stat,dline,westw101,0,1,2,27,3,0,0,0,0,0
-stat,dline,gilbt101,0,1,3,27,9,0,0,1,0,0
-stat,dline,darka101,0,1,6,27,1,0,1,0,0,0
-stat,dline,hearj102,0,1,1,27,0,4,0,0,0,0
-stat,dline,merrl102,1,1,8,27,4,1,0,0,0,0
-stat,dline,ryanc102,1,1,4,21,1,2,0,0,0,0
-stat,dline,adamb103,1,1,4,6,0,1,0,0,0,0
-stat,dline,hattg101,1,1,5,27,3,4,0,0,0,0
-stat,dline,klust101,1,1,3,27,10,1,1,0,0,0
-stat,dline,usheb101,1,1,9,27,1,0,0,0,0,0
-stat,dline,adcoj101,1,1,7,27,2,0,1,0,0,0
-stat,dline,pramj101,1,1,2,27,6,0,0,0,0,0
-stat,dline,stalv101,1,1,6,18,0,3,0,0,0,0
-stat,dline,meeks101,1,1,6,9,0,0,0,0,0,0
-stat,dline,wehmh101,1,1,1,16,0,1,0,0,0,0
-stat,dline,eraue101,1,1,1,1,0,0,0,0,0,0
-stat,dline,smitf104,1,1,1,10,0,0,0,0,0,0
-stat,pline,hearj102,0,1,27,0,33,4,-1,-1,0,3,1,2,0,2,0,1,0,1,0
-stat,pline,wehmh101,1,1,16,0,27,7,-1,-1,3,8,8,4,0,3,0,0,0,0,0
-stat,pline,eraue101,1,2,1,0,4,2,-1,-1,0,2,2,0,0,1,1,0,0,0,0
-stat,pline,smitf104,1,3,10,0,13,1,-1,-1,0,0,0,2,0,1,0,0,0,0,0
-line,0,0,1,0,2,1,6,0,0,0
-line,1,0,0,1,1,0,0,0,0,1
-stat,tline,0,7,1,1,0
-stat,tline,1,3,10,0,0
-event,hrline,0,darka101,wehmh101,4,0,-1
-event,hrline,0,thomb105,wehmh101,2,0,-1
-event,hrline,0,westw101,wehmh101,4,0,-1
-event,dpline,0,rignb101,gilbt101
-event,hpline,1,eraue101,irvim101
 id,CIN195008271
 version,3
 info,visteam,NY1
@@ -3845,10 +3445,10 @@ stat,dline,thomb105,0,1,8,24,1,0,0,0,0,0
 stat,dline,jones103,0,1,1,19,1,0,0,0,0,0
 stat,dline,kennm101,0,1,1,2,0,0,0,0,0,0
 stat,dline,kramj101,0,1,1,3,0,0,0,0,0,0
-stat,dline,adamb103,1,1,4,27,2,5,0,0,0,0
+stat,dline,adamb103,1,1,4,27,2,5,0,1,0,0
 stat,dline,merrl102,1,1,8,27,4,1,0,0,0,0
 stat,dline,wyroj101,1,1,9,27,3,0,0,0,0,0
-stat,dline,klust101,1,1,3,27,12,0,0,0,0,0
+stat,dline,klust101,1,1,3,27,12,0,0,1,0,0
 stat,dline,hattg101,1,1,5,27,2,1,0,0,0,0
 stat,dline,adcoj101,1,1,7,27,3,0,0,0,0,0
 stat,dline,stalv101,1,1,6,27,0,4,0,0,0,0
@@ -4000,6 +3600,10 @@ start,adcoj101,"Joe Adcock",1,6,7
 start,pramj101,"Johnny Pramesa",1,7,2
 start,stalv101,"Virgil Stallcup",1,8,6
 start,ramsw101,"Willie Ramsdell",1,9,1
+com,"ej,sewel101,M,dascf901,Call at 1B"
+com,"ej,stalv101,P,dascf901,Call at 1B"
+com,"Reds Manager Luke Sewell ejected by 1B umpire Frank Dascoli"
+com,"Virgil Stallcup ejected by 1B umpire Frank Dascoli"
 stat,bline,hartr101,0,1,1,5,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,jeths101,0,2,1,4,1,1,1,0,0,0,0,0,0,1,0,1,0,0,0,0
 stat,bline,torge101,0,3,1,3,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0
@@ -4726,6 +4330,12 @@ start,adcoj101,"Joe Adcock",1,6,7
 start,stalv101,"Virgil Stallcup",1,7,6
 start,howed102,"Dixie Howell",1,8,2
 start,raffk101,"Ken Raffensberger",1,9,1
+com,"ej,ellib103,P,dascf901,Called third strike"
+com,"ej,maucg101,P,dascf901,Called third strike"
+com,"ej,soutb101,M,dascf901,Called third strike"
+com,"Bob Elliott ejected by HP umpire Frank Dascoli"
+com,"Gene Mauch ejected by HP umpire Frank Dascoli"
+com,"Braves Manager Billy Southworth ejected by HP umpire Frank Dascoli"
 stat,bline,hartr101,0,1,1,5,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 stat,bline,jeths101,0,2,1,6,1,3,1,0,1,3,0,0,0,0,0,0,0,0,0,0
 stat,bline,torge101,0,3,1,4,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
@@ -4785,111 +4395,6 @@ line,1,1,0,2,0,0,0,0,0,1
 stat,tline,0,11,4,1,0
 stat,tline,1,5,6,0,0
 event,dpline,0,bickv101,kerrb101,torge101
-id,CIN195009101
-version,3
-info,visteam,CHN
-info,hometeam,CIN
-info,site,CIN07
-info,date,1950/09/10
-info,number,1
-info,starttime,0:00
-info,daynight,day
-info,usedh,false
-info,umphome,barla901
-info,ump1b,donaa901
-info,ump2b,balll901
-info,ump3b,warnl101
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,152
-info,attendance,0
-info,wp,wehmh101
-info,lp,schmj101
-info,save,eraue101
-start,maurc101,"Carmen Mauro",0,1,9
-start,wardp101,"Preston Ward",0,2,3
-start,sereb101,"Bill Serena",0,3,5
-start,saueh101,"Hank Sauer",0,4,7
-start,pafka101,"Andy Pafko",0,5,8
-start,sawac101,"Carl Sawatski",0,6,2
-start,smalr101,"Roy Smalley",0,7,6
-start,terww101,"Wayne Terwilliger",0,8,4
-start,schmj101,"Johnny Schmitz",0,9,1
-start,adamb103,"Bobby Adams",1,1,5
-start,usheb101,"Bob Usher",1,2,8
-start,wyroj101,"Johnny Wyrostek",1,3,9
-start,klust101,"Ted Kluszewski",1,4,3
-start,adcoj101,"Joe Adcock",1,5,7
-start,ryanc102,"Connie Ryan",1,6,4
-start,stalv101,"Virgil Stallcup",1,7,6
-start,howed102,"Dixie Howell",1,8,2
-start,wehmh101,"Herm Wehmeier",1,9,1
-stat,bline,maurc101,0,1,1,3,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,borkb101,0,1,2,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,wardp101,0,2,1,5,1,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,sereb101,0,3,1,5,1,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,saueh101,0,4,1,5,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,pafka101,0,5,1,4,1,1,0,1,0,0,0,0,0,1,0,1,0,0,0,0
-stat,bline,sawac101,0,6,1,5,1,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,smalr101,0,7,1,4,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0
-stat,bline,terww101,0,8,1,2,1,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0
-stat,bline,cavap101,0,8,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,ramab101,0,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,schmj101,0,9,1,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,vandj101,0,9,2,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,nortr101,0,9,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,minnp101,0,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,adamb103,1,1,1,4,2,2,1,0,0,1,0,0,0,2,0,0,0,0,0,0
-stat,bline,usheb101,1,2,1,4,1,1,1,0,0,2,0,0,0,2,0,0,0,0,0,0
-stat,bline,wyroj101,1,3,1,5,1,1,1,0,0,2,0,0,0,0,0,1,0,0,0,0
-stat,bline,klust101,1,4,1,4,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,adcoj101,1,5,1,4,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,ryanc102,1,6,1,4,3,3,1,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,stalv101,1,7,1,5,2,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,howed102,1,8,1,3,1,2,0,0,0,2,1,0,0,1,0,0,0,0,0,0
-stat,bline,wehmh101,1,9,1,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,eraue101,1,9,2,1,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
-stat,phline,cavap101,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,nortr101,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,dline,maurc101,0,1,9,21,2,0,0,0,0,0
-stat,dline,borkb101,0,1,9,3,1,0,0,0,0,0
-stat,dline,wardp101,0,1,3,24,10,0,0,0,0,0
-stat,dline,sereb101,0,1,5,24,2,3,0,0,0,0
-stat,dline,saueh101,0,1,7,24,1,0,0,0,0,0
-stat,dline,pafka101,0,1,8,24,1,0,0,0,0,0
-stat,dline,sawac101,0,1,2,24,4,0,1,0,0,0
-stat,dline,smalr101,0,1,6,24,0,1,0,0,0,0
-stat,dline,terww101,0,1,4,18,1,2,0,0,0,0
-stat,dline,ramab101,0,1,4,6,2,0,0,0,0,0
-stat,dline,schmj101,0,1,1,10,0,1,0,0,0,0
-stat,dline,vandj101,0,1,1,8,0,1,1,0,0,0
-stat,dline,minnp101,0,1,1,6,0,1,1,0,0,0
-stat,dline,adamb103,1,1,5,27,0,3,0,0,0,0
-stat,dline,usheb101,1,1,8,27,2,0,0,0,0,0
-stat,dline,wyroj101,1,1,9,27,1,0,0,0,0,0
-stat,dline,klust101,1,1,3,27,10,0,0,1,0,0
-stat,dline,adcoj101,1,1,7,27,2,0,0,0,0,0
-stat,dline,ryanc102,1,1,4,27,5,4,0,1,0,0
-stat,dline,stalv101,1,1,6,27,2,3,1,1,0,0
-stat,dline,howed102,1,1,2,27,5,0,0,0,0,0
-stat,dline,wehmh101,1,1,1,19,0,0,0,0,0,0
-stat,dline,eraue101,1,1,1,8,0,0,0,0,0,0
-stat,pline,schmj101,0,1,10,0,21,6,-1,-1,0,7,5,5,0,0,0,0,0,0,0
-stat,pline,vandj101,0,2,8,0,11,1,-1,-1,0,1,0,1,0,1,0,0,0,0,0
-stat,pline,minnp101,0,3,6,0,15,6,-1,-1,0,4,3,2,0,2,0,0,0,2,0
-stat,pline,wehmh101,1,1,19,0,33,12,-1,-1,0,5,4,2,0,4,1,0,0,0,0
-stat,pline,eraue101,1,2,8,0,9,1,-1,-1,0,0,0,0,0,0,0,0,0,0,0
-line,0,0,0,1,0,1,1,2,0,0
-line,1,0,0,1,7,0,0,2,2
-stat,tline,0,10,8,0,0
-stat,tline,1,11,4,1,0
-event,dpline,1,stalv101,ryanc102,klust101
-event,hpline,1,wehmh101,terww101
 id,NY1195005201
 version,3
 info,visteam,CIN
@@ -5483,7 +4988,7 @@ stat,dline,irvim101,1,1,3,27,9,1,1,1,0,0
 stat,dline,darka101,1,1,6,27,3,3,0,0,0,0
 stat,dline,thomb105,1,1,8,27,1,0,0,0,0,0
 stat,dline,hearj102,1,1,1,27,1,0,0,0,0,0
-stat,pline,queem101,0,1,13,0,23,7,-1,-1,0,4,4,4,0,4,1,0,0,0,0
+stat,pline,queem101,0,1,13,0,24,7,-1,-1,0,4,4,4,0,4,1,0,0,0,0
 stat,pline,macdb101,0,2,2,0,2,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0
 stat,pline,pierb102,0,3,6,0,8,2,-1,-1,0,1,1,1,0,1,0,0,0,0,0
 stat,pline,lombv101,0,4,3,0,3,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0
@@ -5754,6 +5259,8 @@ start,hamng102,"Granny Hamner",1,6,6
 start,semia101,"Andy Seminick",1,7,2
 start,golim101,"Mike Goliat",1,8,4
 start,meyer101,"Russ Meyer",1,9,1
+com,"ej,meyer101,P,warnl101,Balls and strikes"
+com,"Russ Meyer ejected by HP umpire Lon Warneke"
 stat,bline,terww101,0,1,1,4,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,maurc101,0,2,1,4,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,borkb101,0,3,1,4,0,1,0,0,0,1,0,0,0,0,0,0,0,0,1,0
@@ -5813,213 +5320,6 @@ stat,tline,1,6,4,2,0
 event,hrline,0,pafka101,meyer101,2,0,-1
 event,dpline,1,hamng102,waite101,semia101
 event,dpline,1,waite101,hamng102,candm101
-id,PHI195008100
-version,3
-info,visteam,NY1
-info,hometeam,PHI
-info,site,PHI11
-info,date,1950/08/10
-info,number,0
-info,starttime,0:00
-info,daynight,night
-info,usedh,false
-info,umphome,warnl101
-info,ump1b,barla901
-info,ump2b,donaa901
-info,ump3b,balll901
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,191
-info,attendance,33032
-info,wp,konsj101
-info,lp,kosld101
-info,save,
-start,stane101,"Eddie Stanky",0,1,4
-start,lockw101,"Whitey Lockman",0,2,7
-start,mueld101,"Don Mueller",0,3,9
-start,thomh103,"Hank Thompson",0,4,5
-start,westw101,"Wes Westrum",0,5,2
-start,irvim101,"Monte Irvin",0,6,3
-start,darka101,"Al Dark",0,7,6
-start,thomb105,"Bobby Thomson",0,8,8
-start,jansl101,"Larry Jansen",0,9,1
-start,waite101,"Eddie Waitkus",1,1,3
-start,ashbr101,"Richie Ashburn",1,2,8
-start,sisld101,"Dick Sisler",1,3,7
-start,ennid101,"Del Ennis",1,4,9
-start,jonew101,"Willie Jones",1,5,5
-start,hamng102,"Granny Hamner",1,6,6
-start,semia101,"Andy Seminick",1,7,2
-start,golim101,"Mike Goliat",1,8,4
-start,churb101,"Bubba Church",1,9,1
-stat,bline,stane101,0,1,1,5,0,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,lockw101,0,2,1,5,1,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,mueld101,0,3,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,thomh103,0,4,1,4,1,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,westw101,0,5,1,4,0,1,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,irvim101,0,6,1,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,weatr101,0,6,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,gilbt101,0,6,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,darka101,0,7,1,5,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
-stat,bline,thomb105,0,8,1,5,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,jansl101,0,9,1,2,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
-stat,bline,hartc102,0,9,2,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,kramj101,0,9,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,kosld101,0,9,4,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,waite101,1,1,1,5,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,ashbr101,1,2,1,5,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,sisld101,1,3,1,3,1,0,0,0,0,0,1,0,0,1,0,0,0,0,1,0
-stat,bline,ennid101,1,4,1,4,0,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,jonew101,1,5,1,3,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-stat,bline,hamng102,1,6,1,4,2,3,0,0,1,4,1,0,0,0,0,0,0,0,0,0
-stat,bline,semia101,1,7,1,4,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,golim101,1,8,1,3,1,1,0,0,1,1,0,0,0,1,0,1,0,0,0,0
-stat,bline,churb101,1,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,millb103,1,9,2,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,konsj101,1,9,3,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-stat,phline,weatr101,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,hartc102,8,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,dline,stane101,0,1,4,27,6,1,0,1,0,0
-stat,dline,lockw101,0,1,7,27,3,0,0,0,0,0
-stat,dline,mueld101,0,1,9,27,2,0,0,0,0,0
-stat,dline,thomh103,0,1,5,27,1,2,1,0,0,0
-stat,dline,westw101,0,1,2,27,2,0,0,0,0,0
-stat,dline,irvim101,0,1,3,18,3,3,0,1,0,0
-stat,dline,gilbt101,0,1,3,9,2,1,0,0,0,0
-stat,dline,darka101,0,1,6,27,2,4,0,1,0,0
-stat,dline,thomb105,0,1,8,27,4,1,1,0,0,0
-stat,dline,jansl101,0,1,1,21,2,1,0,0,0,0
-stat,dline,kramj101,0,1,1,1,0,0,0,0,0,0
-stat,dline,kosld101,0,1,1,5,0,0,0,0,0,0
-stat,dline,waite101,1,1,3,30,11,1,0,0,0,0
-stat,dline,ashbr101,1,1,8,30,2,0,0,0,0,0
-stat,dline,sisld101,1,1,7,30,1,0,0,0,0,0
-stat,dline,ennid101,1,1,9,30,4,0,0,0,0,0
-stat,dline,jonew101,1,1,5,30,1,1,0,0,0,0
-stat,dline,hamng102,1,1,6,30,1,1,1,0,0,0
-stat,dline,semia101,1,1,2,30,4,0,0,0,0,1
-stat,dline,golim101,1,1,4,30,4,2,0,0,0,0
-stat,dline,churb101,1,1,1,0,0,0,0,0,0,0
-stat,dline,millb103,1,1,1,23,2,2,0,0,0,0
-stat,dline,konsj101,1,1,1,7,0,2,0,0,0,0
-stat,pline,jansl101,0,1,21,0,34,10,-1,-1,2,5,5,5,0,1,0,0,0,2,0
-stat,pline,kramj101,0,2,1,0,2,0,-1,-1,0,0,0,1,0,0,0,0,0,1,0
-stat,pline,kosld101,0,3,5,0,7,2,-1,-1,0,1,0,0,0,0,0,0,0,0,0
-stat,pline,churb101,1,1,0,0,5,1,-1,-1,0,2,2,3,0,0,0,0,0,0,0
-stat,pline,millb103,1,2,23,0,32,8,-1,-1,0,3,2,0,0,3,0,0,0,1,0
-stat,pline,konsj101,1,3,7,0,9,1,-1,-1,0,0,0,1,0,1,0,0,0,0,0
-line,0,2,0,0,2,0,0,0,1,0,0
-line,1,0,0,0,3,1,0,1,0,0,1
-stat,tline,0,11,5,1,0
-stat,tline,1,10,4,0,0
-event,hrline,1,golim101,jansl101,4,0,-1
-event,hrline,1,hamng102,jansl101,4,1,-1
-event,dpline,0,stane101,darka101,irvim101
-id,PHI195008110
-version,3
-info,visteam,NY1
-info,hometeam,PHI
-info,site,PHI11
-info,date,1950/08/11
-info,number,0
-info,starttime,0:00
-info,daynight,night
-info,usedh,false
-info,umphome,barla901
-info,ump1b,donaa901
-info,ump2b,balll901
-info,ump3b,warnl101
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,150
-info,attendance,15895
-info,wp,magls101
-info,lp,simmc101
-info,save,
-start,stane101,"Eddie Stanky",0,1,4
-start,lockw101,"Whitey Lockman",0,2,7
-start,thomb105,"Bobby Thomson",0,3,8
-start,westw101,"Wes Westrum",0,4,2
-start,irvim101,"Monte Irvin",0,5,3
-start,darka101,"Al Dark",0,6,6
-start,mueld101,"Don Mueller",0,7,9
-start,thomh103,"Hank Thompson",0,8,5
-start,magls101,"Sal Maglie",0,9,1
-start,waite101,"Eddie Waitkus",1,1,3
-start,ashbr101,"Richie Ashburn",1,2,8
-start,jonew101,"Willie Jones",1,3,5
-start,ennid101,"Del Ennis",1,4,7
-start,nichb101,"Bill Nicholson",1,5,9
-start,hamng102,"Granny Hamner",1,6,6
-start,semia101,"Andy Seminick",1,7,2
-start,golim101,"Mike Goliat",1,8,4
-start,simmc101,"Curt Simmons",1,9,1
-stat,bline,stane101,0,1,1,2,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-stat,bline,lockw101,0,2,1,4,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,thomb105,0,3,1,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,westw101,0,4,1,3,0,0,0,0,0,0,0,0,0,1,0,2,0,0,0,0
-stat,bline,irvim101,0,5,1,2,1,0,0,0,0,1,0,0,0,2,0,1,0,0,0,0
-stat,bline,gilbt101,0,5,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,darka101,0,6,1,4,1,1,0,0,1,2,0,0,0,0,0,1,0,0,0,0
-stat,bline,mueld101,0,7,1,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,thomh103,0,8,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
-stat,bline,magls101,0,9,1,4,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
-stat,bline,waite101,1,1,1,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,ashbr101,1,2,1,5,0,3,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,jonew101,1,3,1,3,0,1,0,0,0,0,0,0,0,2,0,0,0,0,1,0
-stat,bline,ennid101,1,4,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,nichb101,1,5,1,4,0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0
-stat,bline,hamng102,1,6,1,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,semia101,1,7,1,0,0,0,0,0,0,0,0,0,1,3,0,0,0,0,0,0
-stat,bline,cabap101,1,7,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,lopas101,1,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,golim101,1,8,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,simmc101,1,9,1,1,1,1,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-stat,bline,whitd103,1,9,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,whitd103,9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,prline,cabap101,8,1,0,0,0
-stat,dline,stane101,0,1,4,27,9,5,1,2,0,0
-stat,dline,lockw101,0,1,7,27,1,0,0,0,0,0
-stat,dline,thomb105,0,1,8,27,2,0,0,0,0,0
-stat,dline,westw101,0,1,2,27,3,1,0,0,0,0
-stat,dline,irvim101,0,1,3,18,5,0,0,3,0,0
-stat,dline,gilbt101,0,1,3,9,3,0,0,0,0,0
-stat,dline,darka101,0,1,6,27,2,4,0,2,0,0
-stat,dline,mueld101,0,1,9,27,1,0,0,0,0,0
-stat,dline,thomh103,0,1,5,27,1,2,0,1,0,0
-stat,dline,magls101,0,1,1,27,0,2,0,0,0,0
-stat,dline,waite101,1,1,3,27,8,1,0,1,0,0
-stat,dline,ashbr101,1,1,8,27,1,0,0,0,0,0
-stat,dline,jonew101,1,1,5,27,1,1,0,0,0,0
-stat,dline,ennid101,1,1,7,27,0,0,0,0,0,0
-stat,dline,nichb101,1,1,9,27,0,0,0,0,0,0
-stat,dline,hamng102,1,1,6,27,2,2,0,1,0,0
-stat,dline,semia101,1,1,2,24,11,0,0,0,0,0
-stat,dline,lopas101,1,1,2,3,1,0,0,0,0,0
-stat,dline,golim101,1,1,4,27,1,4,0,1,0,0
-stat,dline,simmc101,1,1,1,27,2,3,0,0,0,0
-stat,pline,magls101,0,1,27,0,39,7,-1,-1,0,1,1,7,0,3,1,0,0,0,0
-stat,pline,simmc101,1,1,27,0,36,4,-1,-1,1,3,3,6,0,9,0,0,0,0,0
-line,0,0,0,0,2,0,0,0,1,0
-line,1,0,0,0,0,1,0,0,0,0
-stat,tline,0,6,1,3,0
-stat,tline,1,11,3,1,0
-event,hrline,0,darka101,simmc101,4,1,-1
-event,dpline,0,darka101,stane101,irvim101
-event,dpline,0,darka101,irvim101
-event,dpline,0,thomh103,stane101,irvim101
-event,dpline,1,hamng102,golim101,waite101
-event,hpline,0,magls101,semia101
 id,PIT195005050
 version,3
 info,visteam,NY1
@@ -6252,8 +5552,8 @@ stat,pline,hansa101,0,4,3,0,4,0,-1,-1,0,0,0,1,0,1,0,0,0,0,0
 stat,pline,chesb101,1,1,14,0,27,6,-1,-1,0,5,5,5,0,2,1,1,0,0,0
 stat,pline,walsj107,1,2,1,0,1,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0
 stat,pline,mccaw102,1,3,4,0,6,1,-1,-1,0,0,0,2,0,0,0,0,0,0,0
-stat,pline,gregh102,1,4,2,0,2,0,-1,-1,0,0,0,1,0,1,0,0,0,0,0
-stat,pline,lombv101,1,5,0,0,2,1,-1,-1,0,3,3,1,0,0,0,0,0,0,0
+stat,pline,gregh102,1,4,2,0,3,0,-1,-1,0,1,1,1,0,1,0,0,0,0,0
+stat,pline,lombv101,1,5,0,0,2,1,-1,-1,0,2,2,1,0,0,0,0,0,0,0
 stat,pline,macdb101,1,6,0,0,1,1,-1,-1,1,1,1,0,0,0,0,0,0,0,0
 stat,pline,mainw102,1,7,3,0,3,0,-1,-1,0,0,0,0,0,1,0,0,0,0,0
 stat,pline,werlb101,1,8,3,0,3,0,-1,-1,0,0,0,0,0,1,0,0,0,0,0
@@ -6738,6 +6038,8 @@ start,fernn101,"Nanny Fernandez",1,6,5
 start,murtd101,"Danny Murtaugh",1,7,4
 start,mccuc101,"Clyde McCullough",1,8,2
 start,chamc102,"Cliff Chambers",1,9,1
+com,"ej,kramj101,P,dascf901,Balls and strikes"
+com,"Jack Kramer ejected by HP umpire Frank Dascoli"
 stat,bline,stane101,0,1,1,4,1,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,lockw101,0,2,1,4,0,2,0,1,0,2,0,0,0,1,0,0,0,0,0,0
 stat,bline,irvim101,0,3,1,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
@@ -7174,6 +6476,12 @@ start,ocond101,"Danny O'Connell",1,6,5
 start,murtd101,"Danny Murtaugh",1,7,4
 start,turne101,"Earl Turner",1,8,2
 start,werlb101,"Bill Werle",1,9,1
+com,"ej,stane101,P,boggd901,Delaying game while at bat"
+com,"ej,durol101,M,boggd901,Protesting Stanky's ejection"
+com,"$Eddie Stanky continually stepped in and out of the batter's box"
+com,"in an attempt to delay Bell Werle; Stanky was called out on an"
+com,"automatic strike and when he argued, was ejected by HP umpire"
+com,"Dusty Boggess; Giants Manager Leo Durocher ejected by Boggess"
 stat,bline,stane101,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,rignb101,0,1,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,mueld101,0,2,1,4,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
@@ -8787,7 +8095,7 @@ stat,bline,howed102,0,6,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,hattg101,0,7,1,5,0,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,stalv101,0,8,1,4,2,3,0,0,1,1,0,0,0,1,0,0,0,0,0,0
 stat,bline,ramsw101,0,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,fox-h101,0,9,2,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+stat,bline,fox-h101,0,9,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,byerb103,0,9,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,litwd101,0,9,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,eraue101,0,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -9101,6 +8409,8 @@ start,riced101,"Del Rice",1,6,2
 start,mille104,"Eddie Miller",1,7,6
 start,nelsr103,"Rocky Nelson",1,8,3
 start,stalg103,"Gerry Staley",1,9,1
+com,"ej,dyere101,M,dascf901,Tag play"
+com,"Cardinals Manager Eddie Dyer ejected by HP umpire Frank Dascoli"
 stat,bline,ashbr101,0,1,1,4,2,2,1,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,hamng102,0,2,1,3,0,1,0,0,0,0,0,0,0,2,0,0,1,0,0,0
 stat,bline,waite101,0,3,1,5,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0
@@ -9165,7 +8475,7 @@ line,1,0,0,1,2,0,0,0,1,2
 stat,tline,0,8,5,2,0
 stat,tline,1,6,8,5,0
 event,hrline,1,dierc101,simmc101,8,0,-1
-event,hrline,0,sisld101,stalg103,2,0,-1
+event,hrline,0,sisld101,stalg103,2,1,-1
 event,dpline,0,waite101,hamng102,waite101
 event,dpline,0,golim101,hamng102,waite101
 event,dpline,1,schor101,nelsr103
@@ -10233,106 +9543,6 @@ event,hrline,1,slaue101,churb101,5,1,-1
 event,dpline,0,waite101,golim101
 event,dpline,0,konsj101,golim101
 event,dpline,1,papaa101,marim101,musis101
-id,SLN195007192
-version,3
-info,visteam,NY1
-info,hometeam,SLN
-info,site,STL07
-info,date,1950/07/19
-info,number,2
-info,starttime,0:00
-info,daynight,day
-info,usedh,false
-info,umphome,stewb901
-info,ump1b,gorea901
-info,ump2b,(none)
-info,ump3b,conlj102
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,163
-info,attendance,13602
-info,wp,brech101
-info,lp,jones103
-info,save,
-start,stane101,"Eddie Stanky",0,1,4
-start,darka101,"Al Dark",0,2,6
-start,thomb105,"Bobby Thomson",0,3,8
-start,westw101,"Wes Westrum",0,4,2
-start,irvim101,"Monte Irvin",0,5,9
-start,hartc102,"Clint Hartung",0,6,7
-start,thomh103,"Hank Thompson",0,7,5
-start,maguj101,"Jack Maguire",0,8,3
-start,jones103,"Sheldon Jones",0,9,1
-start,nelsr103,"Rocky Nelson",1,1,3
-start,schor101,"Red Schoendienst",1,2,4
-start,musis101,"Stan Musial",1,3,7
-start,slaue101,"Enos Slaughter",1,4,9
-start,howeb101,"Bill Howerton",1,5,8
-start,glavt101,"Tommy Glaviano",1,6,5
-start,mille104,"Eddie Miller",1,7,6
-start,riced101,"Del Rice",1,8,2
-start,brech101,"Harry Brecheen",1,9,1
-stat,bline,stane101,0,1,1,3,0,1,0,0,0,0,0,0,0,2,0,1,0,0,0,0
-stat,bline,darka101,0,2,1,4,0,0,0,0,0,0,0,0,1,0,0,1,0,0,0,0
-stat,bline,thomb105,0,3,1,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,westw101,0,4,1,2,1,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
-stat,bline,calds101,0,4,2,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,irvim101,0,5,1,3,1,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,hartc102,0,6,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,thomh103,0,7,1,3,1,2,0,1,0,2,0,0,0,1,0,1,0,0,0,0
-stat,bline,maguj101,0,8,1,4,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0
-stat,bline,jones103,0,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,hansa101,0,9,2,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,lohrj101,0,9,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,kramj101,0,9,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,nelsr103,1,1,1,4,2,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,schor101,1,2,1,5,1,2,1,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,musis101,1,3,1,4,0,2,0,0,0,2,0,0,0,1,0,0,0,0,0,0
-stat,bline,walkh102,1,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,slaue101,1,4,1,5,1,3,1,0,0,2,0,0,0,0,0,0,0,0,0,0
-stat,bline,howeb101,1,5,1,3,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
-stat,bline,glavt101,1,6,1,4,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,mille104,1,7,1,3,2,1,1,0,0,2,0,0,0,1,0,0,0,0,0,0
-stat,bline,riced101,1,8,1,4,2,2,0,1,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,brech101,1,9,1,3,1,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,phline,lohrj101,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,dline,stane101,0,1,4,24,0,6,0,1,0,0
-stat,dline,darka101,0,1,6,24,4,3,0,1,0,0
-stat,dline,thomb105,0,1,8,24,3,0,0,0,0,0
-stat,dline,westw101,0,1,2,16,1,1,0,0,0,0
-stat,dline,calds101,0,1,2,8,0,0,0,0,0,0
-stat,dline,irvim101,0,1,9,24,0,0,0,0,0,0
-stat,dline,hartc102,0,1,7,24,3,0,0,0,0,0
-stat,dline,thomh103,0,1,5,24,0,2,0,0,0,0
-stat,dline,maguj101,0,1,3,24,10,3,0,1,0,0
-stat,dline,jones103,0,1,1,4,0,0,0,0,0,0
-stat,dline,hansa101,0,1,1,11,1,0,0,0,0,0
-stat,dline,kramj101,0,1,1,9,2,0,0,0,0,0
-stat,dline,nelsr103,1,1,3,27,9,0,0,0,0,0
-stat,dline,schor101,1,1,4,27,2,0,0,0,0,0
-stat,dline,musis101,1,1,7,24,2,0,0,0,0,0
-stat,dline,walkh102,1,1,7,3,0,0,0,0,0,0
-stat,dline,slaue101,1,1,9,27,2,0,0,0,0,0
-stat,dline,howeb101,1,1,8,27,2,0,0,0,0,0
-stat,dline,glavt101,1,1,5,27,3,2,0,0,0,0
-stat,dline,mille104,1,1,6,27,0,3,0,0,0,0
-stat,dline,riced101,1,1,2,27,7,0,0,0,0,0
-stat,dline,brech101,1,1,1,27,0,2,0,0,0,0
-stat,pline,jones103,0,1,4,0,10,4,-1,-1,0,6,6,2,0,1,0,0,0,0,0
-stat,pline,hansa101,0,2,11,0,20,7,-1,-1,0,4,4,3,0,0,0,0,0,0,0
-stat,pline,kramj101,0,3,9,0,10,2,-1,-1,0,0,0,0,0,0,0,0,0,0,0
-stat,pline,brech101,1,1,27,0,40,6,-1,-1,0,3,3,6,0,7,1,0,0,0,0
-line,0,0,1,0,0,0,2,0,0,0
-line,1,0,6,0,2,2,0,0,0
-stat,tline,0,10,10,1,0
-stat,tline,1,6,3,0,0
-event,dpline,0,stane101,darka101,maguj101
-event,hpline,1,brech101,darka101
 id,SLN195007200
 version,3
 info,visteam,NY1
@@ -10377,6 +9587,10 @@ start,glavt101,"Tommy Glaviano",1,6,5
 start,mille104,"Eddie Miller",1,7,6
 start,riced101,"Del Rice",1,8,2
 start,mungr101,"Red Munger",1,9,1
+com,"ej,kauft101,C,gorea901,Call at HP"
+com,"Cardinals Coach Tony Kaufmann ejected by HP umpire Artie Gore"
+com,"ej,riced101,P,gorea901,Call at HP"
+com,"Del Rice ejected by HP umpire Artie Gore"
 stat,bline,stane101,0,1,1,3,1,0,0,0,0,1,1,0,0,2,0,0,0,0,0,0
 stat,bline,mueld101,0,2,1,6,2,3,0,0,0,3,0,0,0,0,0,0,0,0,0,0
 stat,bline,thomh103,0,3,1,5,1,2,1,0,0,1,0,0,0,1,0,0,0,0,0,0
@@ -10864,101 +10078,6 @@ stat,tline,0,12,2,0,0
 stat,tline,1,8,3,1,0
 event,hrline,1,riced101,kosld101,5,1,-1
 event,dpline,1,schor101,marim101,nelsr103
-id,SLN195008260
-version,3
-info,visteam,NY1
-info,hometeam,SLN
-info,site,STL07
-info,date,1950/08/26
-info,number,0
-info,starttime,0:00
-info,daynight,day
-info,usedh,false
-info,umphome,stewb901
-info,ump1b,conlj102
-info,ump2b,(none)
-info,ump3b,gorea901
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,128
-info,attendance,15598
-info,wp,magls101
-info,lp,brech101
-info,save,
-start,stane101,"Eddie Stanky",0,1,4
-start,lockw101,"Whitey Lockman",0,2,7
-start,darka101,"Al Dark",0,3,6
-start,irvim101,"Monte Irvin",0,4,3
-start,westw101,"Wes Westrum",0,5,2
-start,mueld101,"Don Mueller",0,6,9
-start,thomb105,"Bobby Thomson",0,7,8
-start,thomh103,"Hank Thompson",0,8,5
-start,magls101,"Sal Maglie",0,9,1
-start,glavt101,"Tommy Glaviano",1,1,5
-start,schor101,"Red Schoendienst",1,2,4
-start,musis101,"Stan Musial",1,3,8
-start,slaue101,"Enos Slaughter",1,4,9
-start,riceh102,"Hal Rice",1,5,7
-start,marim101,"Marty Marion",1,6,6
-start,jonen101,"Nippy Jones",1,7,3
-start,buchj104,"Johnny Bucha",1,8,2
-start,brech101,"Harry Brecheen",1,9,1
-stat,bline,stane101,0,1,1,3,0,2,1,0,0,1,0,0,0,1,0,0,0,0,0,0
-stat,bline,lockw101,0,2,1,4,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,darka101,0,3,1,4,2,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,irvim101,0,4,1,4,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,gilbt101,0,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,westw101,0,5,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,mueld101,0,6,1,4,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
-stat,bline,thomb105,0,7,1,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,thomh103,0,8,1,3,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,magls101,0,9,1,2,0,0,0,0,0,0,1,0,0,0,0,1,0,0,0,0
-stat,bline,glavt101,1,1,1,4,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,schor101,1,2,1,3,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-stat,bline,musis101,1,3,1,3,0,2,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-stat,bline,slaue101,1,4,1,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,2,0
-stat,bline,riceh102,1,5,1,3,0,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0
-stat,bline,marim101,1,6,1,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,jonen101,1,7,1,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,buchj104,1,8,1,3,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0
-stat,bline,brech101,1,9,1,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,kazae101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,kazae101,9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,dline,stane101,0,1,4,27,8,5,0,3,0,0
-stat,dline,lockw101,0,1,7,27,1,0,0,0,0,0
-stat,dline,darka101,0,1,6,27,1,6,0,3,0,0
-stat,dline,irvim101,0,1,3,24,11,2,0,3,0,0
-stat,dline,gilbt101,0,1,3,3,0,0,0,0,0,0
-stat,dline,westw101,0,1,2,27,3,1,0,0,0,0
-stat,dline,mueld101,0,1,9,27,0,0,0,0,0,0
-stat,dline,thomb105,0,1,8,27,2,0,0,0,0,0
-stat,dline,thomh103,0,1,5,27,0,3,0,0,0,0
-stat,dline,magls101,0,1,1,27,1,2,0,1,0,0
-stat,dline,glavt101,1,1,5,27,0,2,0,0,0,0
-stat,dline,schor101,1,1,4,27,6,2,0,1,0,0
-stat,dline,musis101,1,1,8,27,0,0,0,0,0,0
-stat,dline,slaue101,1,1,9,27,3,0,0,0,0,0
-stat,dline,riceh102,1,1,7,27,4,0,1,0,0,0
-stat,dline,marim101,1,1,6,27,3,2,0,0,0,0
-stat,dline,jonen101,1,1,3,27,7,0,0,1,0,0
-stat,dline,buchj104,1,1,2,27,4,1,0,0,0,0
-stat,dline,brech101,1,1,1,27,0,3,0,0,0,0
-stat,pline,magls101,0,1,27,0,36,11,-1,-1,0,0,0,2,0,2,0,0,0,2,0
-stat,pline,brech101,1,1,27,0,35,8,-1,-1,1,3,3,2,0,4,0,1,0,1,0
-line,0,0,0,0,1,1,0,0,1,0
-line,1,0,0,0,0,0,0,0,0,0
-stat,tline,0,5,0,3,0
-stat,tline,1,9,3,1,0
-event,hrline,0,darka101,brech101,4,0,-1
-event,dpline,0,darka101,stane101,irvim101
-event,dpline,0,darka101,stane101,irvim101
-event,dpline,0,stane101,darka101,irvim101
-event,dpline,1,schor101,jonen101
 id,SLN195009050
 version,3
 info,visteam,CHN
@@ -12468,3 +11587,142 @@ event,hrline,1,riced101,schmj101,13,0,1
 event,dpline,1,dierc101,glavt101
 event,hpline,1,brech101,borkb101
 event,sbline,0,terww101,,,-1
+id,BSN195007070
+version,4
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,NY1
+info,hometeam,BSN
+info,site,BOS08
+info,date,1950/07/07
+info,number,0
+info,starttime,0:00PM
+info,daynight,night
+info,usedh,false
+info,umphome,warnl101
+info,ump1b,stewb901
+info,ump2b,(none)
+info,ump3b,conlj102
+info,scorer,"71,104,96"
+info,translator,"John Gabcik"
+info,inputter,"David W. Smith"
+info,inputtime,2013/03/20 11:57AM
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,126
+info,attendance,21885
+info,wp,sainj101
+info,lp,jansl101
+info,save,
+start,stane101,"Eddie Stanky",0,1,4
+start,jorgs101,"Spider Jorgensen",0,2,5
+start,mueld101,"Don Mueller",0,3,7
+start,thomh103,"Hank Thompson",0,4,9
+start,thomb105,"Bobby Thomson",0,5,8
+start,gilbt101,"Tookie Gilbert",0,6,3
+start,westw101,"Wes Westrum",0,7,2
+start,darka101,"Al Dark",0,8,6
+start,jansl101,"Larry Jansen",0,9,1
+start,hartr101,"Roy Hartsfield",1,1,4
+start,jeths101,"Sam Jethroe",1,2,8
+start,torge101,"Earl Torgeson",1,3,3
+start,ellib103,"Bob Elliott",1,4,5
+start,gords101,"Sid Gordon",1,5,7
+start,holmt101,"Tommy Holmes",1,6,9
+start,crand102,"Del Crandall",1,7,2
+start,kerrb101,"Buddy Kerr",1,8,6
+start,sainj101,"Johnny Sain",1,9,1
+play,1,0,stane101,??,,99
+play,1,0,jorgs101,??,,99
+play,1,0,mueld101,??,,S
+play,1,0,thomh103,??,,99
+play,1,1,hartr101,??,,FLE5
+play,1,1,hartr101,??,,99
+play,1,1,jeths101,??,,W
+play,1,1,torge101,??,,99
+play,1,1,ellib103,??,,99
+play,2,0,thomb105,??,,D
+play,2,0,gilbt101,??,,99
+play,2,0,westw101,??,,K
+play,2,0,darka101,??,,99
+play,2,1,gords101,??,,99
+play,2,1,holmt101,??,,99
+play,2,1,crand102,??,,S
+play,2,1,kerrb101,??,,99
+play,3,0,jansl101,??,,99
+play,3,0,stane101,??,,W
+play,3,0,jorgs101,??,,99
+play,3,0,mueld101,??,,99
+play,3,1,sainj101,??,,99
+play,3,1,hartr101,??,,99
+play,3,1,jeths101,??,,99
+play,4,0,thomh103,??,,99
+play,4,0,thomb105,??,,E6
+play,4,0,gilbt101,??,,4(B)3(1)/LDP
+play,4,1,torge101,??,,K
+play,4,1,ellib103,??,,HP
+play,4,1,gords101,??,,S6.1-2
+play,4,1,holmt101,??,,S1.2-3;1-2
+play,4,1,crand102,??,,D7/L.3-H;2-H;1-3
+play,4,1,kerrb101,??,,K
+play,4,1,sainj101,??,,S8.3-H;2-H
+play,4,1,hartr101,??,,S.1-2
+play,4,1,jeths101,??,,99/P
+play,5,0,westw101,??,,99
+play,5,0,darka101,??,,99
+play,5,0,jansl101,??,,99
+play,5,1,torge101,??,,99
+play,5,1,ellib103,??,,K
+play,5,1,gords101,??,,T8/L
+play,5,1,holmt101,??,,S.3-H
+play,5,1,crand102,??,,E5/G.1-2
+play,5,1,kerrb101,??,,D7.2-H(UR);1-H(UR)
+play,5,1,sainj101,??,,NP
+sub,hansa101,"Andy Hansen",0,9,1
+play,5,1,sainj101,??,,S.2-H
+play,5,1,hartr101,??,,99
+play,6,0,stane101,??,,D
+play,6,0,jorgs101,??,,99
+play,6,0,mueld101,??,,99
+play,6,0,thomh103,??,,W
+play,6,0,thomb105,??,,S.2-H;1-2
+play,6,0,gilbt101,??,,99
+play,6,1,jeths101,??,,99
+play,6,1,torge101,??,,99
+play,6,1,ellib103,??,,K
+play,7,0,westw101,??,,NP
+sub,irvim101,"Monte Irvin",0,7,11
+play,7,0,irvim101,??,,99/P
+play,7,0,darka101,??,,99
+play,7,0,hansa101,??,,NP
+sub,rignb101,"Bill Rigney",0,9,11
+play,7,0,rignb101,??,,99/G
+play,7,1,gords101,??,,NP
+sub,higbk101,"Kirby Higbe",0,9,1
+play,7,1,gords101,??,,NP
+sub,calds101,"Sam Calderone",0,7,2
+play,7,1,gords101,??,,W
+play,7,1,holmt101,??,,K
+play,7,1,crand102,??,,WP.1X3(99)
+com,"Gordon overran base"
+play,7,1,crand102,??,,99
+play,8,0,stane101,??,,99
+play,8,0,jorgs101,??,,99
+play,8,0,mueld101,??,,99
+play,8,1,kerrb101,??,,99
+play,8,1,sainj101,??,,99
+play,8,1,hartr101,??,,99
+play,9,0,thomh103,??,,S
+play,9,0,thomb105,??,,99/G.1-2
+play,9,0,gilbt101,??,,99
+play,9,0,calds101,??,,S.2-H
+play,9,0,darka101,??,,99
+data,er,jansl101,6
+data,er,hansa101,0
+data,er,higbk101,0
+data,er,sainj101,2

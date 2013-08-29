@@ -984,7 +984,8 @@ play,1,0,aloum001,30,BBBX,8/SF.3-H
 play,1,0,durhr001,12,BSFS,K+PB.2-3;B-1
 play,1,0,felip001,12,T1SF*BX,13/G
 play,1,1,counc001,01,CX,S8/G
-play,1,1,byrne001,20,BBX,2/BG/INT.1-1
+play,1,1,byrne001,20,BBX,2/BG/BINT.1-1
+com,"$Eric Byrnes called for interference"
 play,1,1,tracc001,21,B1BF1,POCS2(13)
 play,1,1,tracc001,22,B1BF1.FFX,S8/G
 play,1,1,gonzl001,12,FCBS,K
@@ -4010,7 +4011,8 @@ play,3,1,byrne001,02,CCFS,K
 play,3,1,tracc001,10,BX,S9/L
 play,3,1,jackc002,11,CBX,FC6.1X2(6E4);B-1
 play,3,1,grees001,12,CF*BX,S4/G.2-H(UR)(NR)(E4/TH);1-3
-play,3,1,greea001,10,BX,2/BG/INT
+play,3,1,greea001,10,BX,2/BG/BINT
+com,"$Andy Green called for interference"
 play,4,0,sancf001,01,CX,9/F
 play,4,0,bay-j001,12,BFCFFFFFX,8/F
 play,4,0,wilsc003,10,BX,S7/L
@@ -5686,7 +5688,7 @@ sub,clart002,"Tony Clark",1,9,11
 play,4,1,clart002,22,.SBBSS,K
 play,5,0,guerv001,00,,NP
 sub,aquig001,"Greg Aquino",1,9,1
-play,5,0,guerv001,01,.CX,DGR/7/F
+play,5,0,guerv001,01,.CX,DGR/7/F/FINT
 com,"fan interference"
 play,5,0,andeg001,01,CX,7/F
 play,5,0,napom001,30,BBBB,W
@@ -6869,7 +6871,7 @@ play,7,0,barnc001,12,SBFX,7/F
 play,7,0,weekr001,22,CFBBFX,S9/L
 play,7,0,grosg002,02,CSC,K
 play,7,1,grees001,00,X,S8/G
-play,7,1,hudso001,01,FX,16(1)/FO/G.BX2(36)
+play,7,1,hudso001,01,FX,16(1)/FO/G/NDP.BX2(36)
 play,7,1,drews001,02,CCS,K+WP.B-1
 play,7,1,webbb001,00,,NP
 sub,greea001,"Andy Green",1,9,11
@@ -7441,7 +7443,7 @@ play,4,1,jackc002,01,FX,53/G
 play,4,1,estrj001,32,BSBBCFX,S8/G.2-H
 play,4,1,grees001,32,BBBCF>X,HR/8/F.1-H
 play,4,1,hudso001,22,BSBFFX,53/G
-play,4,1,drews001,00,X,DGR/9/L
+play,4,1,drews001,00,X,DGR/9/L/FINT
 com,"fan interference"
 play,4,1,batim001,11,SBX,43/G
 play,5,0,ethia001,11,BFX,S8/L-
@@ -9000,8 +9002,8 @@ play,3,1,tracc001,12,BCFF1X,S8/L.1-2
 play,3,1,estrj001,21,BBCX,6/L
 play,4,0,felip001,00,X,S8/L
 play,4,0,hills002,12,CCBX,S7/L.1-2
-play,4,0,alfoe002,22,FS*BBX,46(1)3/DP/INT.2-2
-com,"Hillenbrand called for interference at 2B, DP, not GDP"
+play,4,0,alfoe002,22,FS*BBX,46(1)3/DP/RINT.2-2
+com,"$Shea Hillenbrand called for interference at 2B"
 play,4,0,morrm001,02,CCC,K
 play,4,1,grees001,00,X,9/F
 play,4,1,quenc001,11,BCX,53/G
@@ -9037,7 +9039,7 @@ play,7,0,finls001,01,FX,63/G
 play,7,1,penat003,00,,NP
 sub,calla001,"Alberto Callaspo",1,9,11
 play,7,1,calla001,10,.BX,7/F
-play,7,1,byrne001,10,BX,DGR/8/F
+play,7,1,byrne001,10,BX,DGR/8/F/FINT
 com,"fan interference"
 play,7,1,hudso001,00,2>B,SB3
 play,7,1,hudso001,31,2>B.BBCX,D7/F.3-H
@@ -12859,12 +12861,11 @@ sub,calla001,"Alberto Callaspo",1,9,11
 play,9,1,calla001,00,,NP
 sub,younc004,"Chris Young",1,8,12
 play,9,1,calla001,22,..BBCSFX,436(1)/FO/G34D
-com,"$Ball deep in hole, throw to first wide, Gonzalez came"
-com,"off bag to get it, threw to second and Young appeared to"
-com,"beat throw as Greene did not tag him. Padres protested"
-com,"that play at second was force out, so Poncino reversed"
-com,"call and ruled Young out. Replay shows that Greene was"
-com,"off base when he caught the ball."
+com,"$ball deep in hole, throw to 1B wide, Adrian Gonzalez came"
+com,"off bag to get it, threw to 2B and Young appeared to"
+com,"beat throw as Greene did not tag him; Padres protested"
+com,"that play at 2B was force out, so 2B umpire Larry Poncino"
+com,"reversed call and ruled Young out"
 data,er,willw001,4
 data,er,embra001,0
 data,er,lines001,0

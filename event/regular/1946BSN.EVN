@@ -4,6 +4,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/04/16
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -72,7 +73,6 @@ play,3,1,sainj101,??,,4
 play,3,1,ryanc102,??,,5
 play,3,1,hoppj102,??,,8/L
 play,4,0,hermg101,??,,S5/G
-com,"$dribbler; no throw"
 play,4,0,grahj101,??,,8/P
 play,4,0,furic101,??,,7
 play,4,0,riggl101,??,,3/G
@@ -81,15 +81,11 @@ play,4,1,roweb101,??,,3/G.2-3
 play,4,1,mccaj104,??,,43
 play,4,1,masip101,??,,W
 play,4,1,robes101,??,,D8.3-H;1-3
-com,"$Riggs dive just failed"
 play,4,1,culld101,??,,IW
 play,4,1,sainj101,??,,43
 play,5,0,andef102,??,,S1
-com,"off glove"
 play,5,0,gregh102,??,,E2/SH.1-2
-com,"$Masi couldn't find handle"
 play,5,0,reesp101,??,,S1.2-3;1-2
-com,"$Sain fell on ball; throw too late to 1st"
 play,5,0,hermb101,??,,S7.3-H;2-3;1-2
 play,5,0,whitd103,??,,46(1)/FO.3-H(UR);2-3
 play,5,0,hermg101,??,,46(1)3/GDP
@@ -109,7 +105,6 @@ play,6,1,ryanc102,??,,W
 play,6,1,hoppj102,??,,SB2
 play,6,1,hoppj102,??,,W
 play,6,1,holmt101,??,,E9/L.2-H(NR)(UR);1-3
-com,"$9 dropped liner right at him"
 play,6,1,roweb101,??,,8
 play,7,0,andef102,??,,53
 play,7,0,gregh102,??,,NP
@@ -155,6 +150,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/04/17
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -204,14 +200,11 @@ play,1,0,hermb101,??,,S7.1-3
 play,1,0,hermg101,??,,2
 play,1,0,reisp101,??,,S8.3-H;1-2
 play,1,0,furic101,??,,E6.2-H(NR)(UR);1-3
-com,"sure DP"
 play,1,0,whitd103,??,,8(B)63(1)/LDP.3-H(UR)
 play,1,1,ryanc102,??,,S7/5/G
-com,"$thru 5’s legs, backed up"
 play,1,1,hoppj102,??,,D8.1-3
 play,1,1,holmt101,??,,K
 play,1,1,roweb101,??,,OA.3XH(21);2-3
-com,"$nice tag on short PB"
 play,1,1,roweb101,??,,PO3(E2).3-H(UR)
 play,1,1,roweb101,??,,7
 play,2,0,grahj101,??,,S9
@@ -250,10 +243,8 @@ play,4,0,hermb101,??,,63
 play,4,1,robes101,??,,7/F7D
 play,4,1,culld101,??,,53
 play,4,1,walll102,??,,S5/G
-com,"$Reiser bobbled ball"
 play,4,1,ryanc102,??,,W.1-2
 play,4,1,hoppj102,??,,S3.2-3;1-2
-com,"$nice stop Schultz; no throw"
 play,4,1,holmt101,??,,7
 play,5,0,hermg101,??,,K/C
 play,5,0,reisp101,??,,1/G
@@ -278,7 +269,6 @@ play,7,1,ryanc102,??,,53
 play,7,1,hoppj102,??,,43
 play,7,1,holmt101,??,,8
 play,8,0,schuh101,??,,S5
-com,"$5 leapt & knocked down"
 play,8,0,andef102,??,,1/SH.1-2
 play,8,0,behrh101,??,,K
 play,8,0,reesp101,??,,7/L
@@ -289,8 +279,7 @@ sub,sists101,"Sibby Sisti",1,5,12
 play,8,1,masip101,??,,54/SH.2-3;1-2
 play,8,1,robes101,??,,NP
 sub,westm102,"Max West",1,7,11
-play,8,1,westm102,22,,K/C
-com,"3 straight strikes after 2 balls"
+play,8,1,westm102,22,BBKKC,K/C
 play,8,1,culld101,??,,NP
 sub,workc101,"Chuck Workman",1,8,11
 play,8,1,workc101,??,,K
@@ -320,6 +309,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,BSN
 info,date,1946/05/11
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -364,9 +354,9 @@ start,hoffs101,"Stew Hofferth",1,6,2
 start,robes101,"Skippy Roberge",1,7,5
 start,wietw101,"Whitey Wietelmann",1,8,6
 start,sainj101,"Johnny Sain",1,9,1
-com,"$The first night game ever played at Braves Field gave the"
-com,"Braves their largest crowd since 1933."
-com,"Wife of Commissioner Chandler turned on lights and NL President Frick" com,"threw out first pitch."
+com,"$the first night game played at Braves Field; largest crowd since"
+com,"1933; wife of Commissioner Happy Chandler turned on the lights; NL"
+com,"President Ford Frick threw out first pitch"
 play,1,0,rignb101,??,,W
 play,1,0,ruckj101,??,,46(1)/FO
 play,1,0,pikej101,??,,SB2
@@ -405,7 +395,7 @@ play,4,1,hoffs101,??,,K
 play,4,1,robes101,??,,43.1-2
 play,4,1,wietw101,??,,IW
 play,4,1,sainj101,??,,S1.1-2;2XH(15)
-com,"$Fernandez overran third."
+com,"$Nanny Fernandez rounded 3B too far"
 play,5,0,rignb101,??,,S7
 play,5,0,ruckj101,??,,S8.1-2
 play,5,0,pikej101,??,,5/P
@@ -464,6 +454,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PIT
 info,hometeam,BSN
 info,date,1946/05/14
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -523,7 +514,6 @@ play,2,1,hoffs101,??,,9
 play,2,1,robes101,??,,K/C
 play,3,0,cox-b101,??,,63
 play,3,0,cameh101,??,,D/78D
-com,"Off the wall."
 play,3,0,gablk101,??,,3/P
 play,3,0,handl101,??,,W
 play,3,0,gustf101,??,,S7.1-2;2-H
@@ -531,7 +521,6 @@ play,3,0,vanrm101,??,,43
 play,3,1,culld101,??,,43
 play,3,1,walll102,??,,K
 play,3,1,ryanc102,??,,D7/7D
-com,"Off the wall."
 play,3,1,roweb101,??,,S5.2XH(32)
 play,4,0,ellib103,??,,4/P
 play,4,0,kiner101,??,,K
@@ -577,8 +566,8 @@ play,8,0,cameh101,??,,8
 play,8,0,gerha101,??,,NP
 sub,russj102,"Jim Russell",0,9,11
 play,8,0,russj102,??,,K/C
-com,"$Russell was ejected by Umpire Boggess for arguing the called"
-com,"third strike."
+com,"russj102,P,boggd901,Called third strike"
+com,"Jim Russell ejected by HP Umpire Dusty Boggess"
 play,8,1,walll102,??,,NP
 sub,wilkl101,"Lefty Wilkie",0,9,1
 play,8,1,walll102,??,,K
@@ -586,7 +575,6 @@ play,8,1,ryanc102,??,,K
 play,8,1,roweb101,??,,13
 play,9,0,handl101,??,,13
 play,9,0,gustf101,??,,D7
-com,"$Off the third base bag."
 play,9,0,vanrm101,??,,63
 play,9,0,ellib103,??,,7
 data,er,gablk101,5
@@ -599,6 +587,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/05/16
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -647,7 +636,6 @@ play,1,0,kleil101,??,,D
 play,1,0,moort102,??,,K
 play,1,0,musis101,??,,9
 play,1,0,slaue101,??,,HR/9.2-H
-com,"$Enos HR into the Jury Box."
 play,1,0,kurow101,??,,53
 play,1,1,ryanc102,??,,3/P/FL
 play,1,1,roweb101,??,,13
@@ -714,7 +702,6 @@ play,7,0,musis101,??,,D
 play,7,0,slaue101,??,,IW
 play,7,0,kurow101,??,,E6.1-2;2-3
 play,7,0,sisld101,32,,D/89.1-H(UR);2-H(UR);3-H(UR)
-com,"Full count."
 play,7,0,odeak101,??,,2/FL
 play,7,1,holmt101,??,,S
 play,7,1,sandr102,??,,K/C
@@ -733,7 +720,6 @@ play,8,1,ryanc102,??,,4/P
 play,8,1,roweb101,??,,W
 play,8,1,holmt101,??,,WP.1-2;2-3
 play,8,1,holmt101,??,,D9/9D.2-H(UR);3-H(UR)
-com,"Off the screen."
 play,8,1,sandr102,??,,NP
 sub,braza101,"Al Brazle",0,9,1
 play,8,1,sandr102,??,,WP.2-3
@@ -792,6 +778,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/05/17
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,unknown
@@ -848,7 +835,6 @@ play,2,0,sisld101,??,,K
 play,2,0,klutc101,??,,5/FL
 play,2,1,sandr102,??,,43
 play,2,1,gillc102,??,,S5
-com,"$Off Kurowski's glove."
 play,2,1,masip101,??,,2/FL
 play,2,1,robes101,??,,SB2
 play,2,1,robes101,??,,13
@@ -921,6 +907,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,CHN
 info,hometeam,BSN
 info,date,1946/05/20
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -969,12 +956,12 @@ play,1,0,merul101,??,,8
 play,1,0,johnd101,??,,5/P/FL
 play,1,0,lowrp101,??,,S
 play,1,0,cavap101,??,,D9.1-3
-com,"$Hit and run but Lowrey slowed at 2B so only made 3B"
 play,1,0,pafka101,??,,S8.2-H;3-H;BX2(86)
 play,1,1,ryanc102,??,,D9
 play,1,1,roweb101,??,,W
 play,1,1,holmt101,??,,E4/TH2.1-2;2-3
-com,"$Passeau yelled at Magerkurth about his strike zone"
+com,"$Claude Passeau yelled at HP umpire George Magerkurth"
+com,"about his strike zone"
 play,1,1,sandr102,??,,W.3-H(UR);2-3;1-2
 play,1,1,gillc102,??,,64(1)3/GDP.3-H(UR)(NR);2-3
 play,1,1,hoffs101,??,,9
@@ -1064,7 +1051,6 @@ play,9,1,hoppj102,??,,S7.1-2;2-H
 play,9,1,wietw101,??,,NP
 sub,chipb101,"Bob Chipman",0,9,1
 play,9,1,wietw101,??,,K
-com,"$Failed to sacrifice."
 play,9,1,poseb102,??,,NP
 sub,fernn101,"Nanny Fernandez",1,1,11
 play,9,1,fernn101,??,,64(1)/FO.2-3
@@ -1080,6 +1066,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,CIN
 info,hometeam,BSN
 info,date,1946/06/15
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -1144,7 +1131,6 @@ play,3,1,culld101,??,,8
 play,3,1,johns103,??,,K
 play,3,1,ryanc102,??,,53
 play,4,0,clayd101,??,,D7/7D
-com,"Off the wall"
 play,4,0,lukoe101,??,,S8.2-H
 play,4,0,adamb103,??,,E1/SH/TH.1-3
 play,4,0,hattg101,??,,5/P/FL
@@ -1159,7 +1145,6 @@ play,4,1,hoffs101,??,,53
 play,4,1,wietw101,??,,63
 play,5,0,shoke101,??,,8
 play,5,0,mille104,??,,D7/7D
-com,"Off the wall"
 play,5,0,heuse101,??,,K
 play,5,0,clayd101,??,,S8.2-H;B-2(TH)
 play,5,0,lukoe101,??,,8
@@ -1204,7 +1189,6 @@ play,9,0,mille104,??,,8/L
 play,9,0,heuse101,??,,3/G
 play,9,1,holmt101,??,,7
 play,9,1,sandr102,??,,9/9D
-com,"$Great catch at the wall by Libke"
 play,9,1,roweb101,??,,S9
 play,9,1,hoffs101,??,,NP
 sub,litwd101,"Danny Litwhiler",1,6,11
@@ -1218,6 +1202,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/06/17
+info,site,BOS08
 info,number,1
 info,starttime,0:00PM
 info,daynight,unknown
@@ -1317,8 +1302,7 @@ play,4,1,hermb101,??,,WP.1-2;2-3
 play,4,1,hermb101,??,,9
 play,5,0,kurow101,??,,NP
 sub,poseb102,"Bill Posedel",1,9,1
-play,5,0,kurow101,??,,S/1#
-com,"Infield hit."
+play,5,0,kurow101,??,,S/G
 play,5,0,adamb101,??,,5/P
 play,5,0,marim101,??,,SB2.1-3(E2/TH2)
 play,5,0,marim101,??,,W
@@ -1397,6 +1381,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/06/19
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -1463,8 +1448,8 @@ play,2,1,hermb101,??,,S
 play,2,1,culld101,??,,13.1-2
 play,2,1,sainj101,??,,D8.2-H
 play,2,1,barrj106,??,,3/G.2-3
-com,"$J. Barrett twisted his ankle running to first and had to be"
-com,"carried from the field."
+com,"$Johnny Barrett twisted his ankle running to 1B and was"
+com,"carried from the field"
 play,2,1,roweb101,??,,9
 play,3,0,slaue101,??,,NP
 sub,mccom101,"Mike McCormick",1,1,8
@@ -1555,6 +1540,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/06/20
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -1602,7 +1588,6 @@ start,wrige101,"Ed Wright",1,9,1
 play,1,0,crosj101,??,,K
 play,1,0,walkh102,??,,53
 play,1,0,musis101,??,,163/G
-com,"Wright deflected the grounder to Culler"
 play,1,1,mccom101,??,,13
 play,1,1,roweb101,??,,53
 play,1,1,hoppj102,??,,7
@@ -1631,8 +1616,7 @@ play,4,0,kurow101,??,,8
 play,4,0,dusae101,??,,S7.1-2
 play,4,0,marim101,??,,7/L
 play,4,0,garaj101,??,,43
-play,4,1,litwd101,??,,S/1#
-com,"Infield hit."
+play,4,1,litwd101,??,,S/G
 play,4,1,holmt101,??,,46(1)/FO
 play,4,1,masip101,??,,8
 play,4,1,hermb101,??,,4/P
@@ -1641,8 +1625,6 @@ play,5,0,crosj101,??,,23/SH.1-2
 play,5,0,walkh102,??,,7
 play,5,0,musis101,??,,31
 play,5,1,culld101,??,,153/G
-com,"Dickson knocked down Culler's grounder and the ball rolled"
-com,"to Kurowski."
 play,5,1,wrige101,??,,53
 play,5,1,mccom101,??,,8
 play,6,0,slaue101,??,,43
@@ -1692,7 +1674,6 @@ play,9,0,marim101,??,,53
 play,9,1,holmt101,??,,7
 play,9,1,masip101,??,,6/P
 play,9,1,hermb101,??,,S1
-com,"Off Dickson's glove."
 play,9,1,culld101,??,,S/BG.1-2
 play,9,1,singe101,??,,NP
 sub,padgd101,"Don Padgett",1,9,11
@@ -1707,6 +1688,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PIT
 info,hometeam,BSN
 info,date,1946/06/22
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -1760,7 +1742,6 @@ play,1,1,hoppj102,??,,31
 play,2,0,gustf101,??,,6/P
 play,2,0,ellib103,??,,8
 play,2,0,kiner101,??,,D7/7D
-com,"Off the wall."
 play,2,0,flete101,??,,D7.2-H
 play,2,0,cameh101,??,,IW
 play,2,0,sewer101,??,,K
@@ -1795,7 +1776,6 @@ play,5,1,hoppj102,??,,D7.2-H
 play,5,1,litwd101,??,,8/F.2-3
 play,5,1,holmt101,??,,13
 play,6,0,browj107,??,,S4/G
-com,"$Slow roller."
 play,6,0,russj102,??,,6(1)3/GDP
 play,6,0,gustf101,??,,K
 play,6,1,hermb101,??,,13
@@ -1823,7 +1803,6 @@ play,8,1,padgd101,??,,IW
 play,8,1,culld101,??,,54(1)3/GDP
 play,9,0,kiner101,??,,E6
 play,9,0,flete101,??,,HR/9.1-H(UR)
-com,"$HR into the bullpen."
 play,9,0,cameh101,??,,NP
 sub,salkb101,"Bill Salkeld",0,8,11
 play,9,0,salkb101,??,,5/P/FL
@@ -1848,13 +1827,11 @@ play,10,0,kiner101,??,,W.1-2
 play,10,0,flete101,??,,8
 play,10,1,hoppj102,??,,43
 play,10,1,litwd101,??,,S5
-com,"Off Handley's glove."
 play,10,1,holmt101,??,,NP
 sub,mccom101,"Mike McCormick",1,4,12
 play,10,1,holmt101,??,,S9.1-3
 play,10,1,hermb101,??,,IW.1-2
 play,10,1,masip101,11,,WP.3-H
-com,"$1-1 pitch wild"
 data,er,sewer101,4
 data,er,johns103,2
 data,er,roses101,0
@@ -1864,6 +1841,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,CHN
 info,hometeam,BSN
 info,date,1946/06/25
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -1908,8 +1886,6 @@ start,sandr102,"Ray Sanders",1,6,3
 start,ryanc102,"Connie Ryan",1,7,5
 start,culld101,"Dick Culler",1,8,6
 start,roses101,"Steve Roser",1,9,1
-com,"$Eddie Waitkus Night organized by Cambridge American Legion."
-com,"Waitkus presented with new car."
 play,1,0,hacks101,??,,S
 play,1,0,stril101,??,,54/SH.1-2
 play,1,0,lowrp101,??,,S.2-H
@@ -1935,11 +1911,9 @@ play,3,0,lowrp101,??,,13
 play,3,1,roweb101,??,,8
 play,3,1,hoppj102,??,,8/L
 play,3,1,holmt101,??,,S8.B-3(E8)
-com,"Ball went through Lowrey."
 play,3,1,masip101,??,,9
 play,4,0,cavap101,??,,31
 play,4,0,rickm101,??,,HR/9
-com,"$HR into the bullpen."
 play,4,0,waite101,??,,43
 play,4,0,mccuc101,??,,S
 play,4,0,sturb101,??,,CS2(26)
@@ -1954,7 +1928,6 @@ play,5,1,roses101,??,,9
 play,5,1,roweb101,??,,43
 play,5,1,hoppj102,??,,W
 play,5,1,holmt101,??,,D8/89D.1-H;BX3(845)
-com,"Off the screen."
 play,6,0,stril101,??,,S/G
 play,6,0,lowrp101,??,,34/SH.1-2
 play,6,0,cavap101,??,,W
@@ -1983,7 +1956,6 @@ play,7,1,gillc102,??,,13
 play,7,1,roweb101,??,,4/L
 play,7,1,hoppj102,??,,S9.B-2(E9)
 play,7,1,holmt101,??,,D/7S.2-H
-com,"$The ball fell between Sturgeon and Rickert."
 play,7,1,masip101,??,,S9.2-H
 play,7,1,hermb101,??,,D7.1-3
 play,7,1,sandr102,??,,IW
@@ -1994,7 +1966,6 @@ play,8,0,rickm101,??,,D
 play,8,0,waite101,??,,8
 play,8,0,mccuc101,??,,IW
 play,8,0,sturb101,??,,D7.1-H;2-H
-com,"To the wall."
 play,8,0,passc101,??,,53
 play,8,0,hacks101,??,,43
 play,8,1,culld101,??,,4/L
@@ -2014,7 +1985,6 @@ play,9,0,rickm101,??,,K
 play,9,1,holmt101,??,,53
 play,9,1,masip101,??,,S
 play,9,1,hermb101,??,,3#
-com,"Unclear if this was a fly or grounder."
 play,9,1,sandr102,??,,7
 data,er,passc101,3
 data,er,roses101,4
@@ -2026,6 +1996,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/07/06
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -2156,7 +2127,6 @@ play,8,0,edwab101,??,,14/SH.1-2
 play,8,0,herra101,??,,7
 play,8,0,stane101,??,,S1.2-3
 play,8,0,lavac101,??,,CSH(21)
-com,"$attempted double steal, Masi threw to Barrett and Reese dead"
 play,8,1,holmt101,??,,W
 play,8,1,sandr102,??,,K
 play,8,1,masip101,??,,5/FL
@@ -2188,6 +2158,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/07/07
+info,site,BOS08
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -2334,6 +2305,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/07/07
+info,site,BOS08
 info,number,2
 info,starttime,0:00PM
 info,daynight,day
@@ -2378,7 +2350,6 @@ start,holmt101,"Tommy Holmes",1,6,9
 start,fernn101,"Nanny Fernandez",1,7,6
 start,ryanc102,"Connie Ryan",1,8,5
 start,sainj101,"Johnny Sain",1,9,1
-com,"$NYT reported (total?) attendance of 20,261"
 play,1,0,stane101,??,,W
 play,1,0,lavac101,??,,7
 play,1,0,reisp101,??,,S8/89.1-3
@@ -2478,6 +2449,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,CIN
 info,hometeam,BSN
 info,date,1946/07/25
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -2529,7 +2501,6 @@ play,1,0,hattg101,??,,7
 play,1,1,culld101,??,,8/L
 play,1,1,mccom101,??,,9
 play,1,1,hoppj102,00,,S8
-com,"First pitch."
 play,1,1,litwd101,??,,S5.1-2
 play,1,1,masip101,??,,53
 play,2,0,haasb102,??,,8
@@ -2562,8 +2533,7 @@ play,5,1,fernn101,??,,43
 play,5,1,ryanc102,??,,9/FL
 play,5,1,sainj101,??,,S9
 play,5,1,culld101,??,,13
-play,6,0,adamb103,??,,8/8S/L
-com,"$McCormick made a great catch in shallow center."
+play,6,0,adamb103,??,,8/L8S
 play,6,0,hattg101,??,,S8
 play,6,0,haasb102,??,,8
 play,6,0,muelr101,??,,S7.1-3
@@ -2576,15 +2546,12 @@ play,7,0,vandj101,??,,9
 play,7,0,clayd101,??,,63
 play,7,1,masip101,??,,53
 play,7,1,gillc102,??,,S1
-com,"Off Vander Meer's glove."
 play,7,1,fernn101,??,,64(1)3/GDP
 play,8,0,freyl101,??,,W
 play,8,0,adamb103,??,,E3/TH1/SH.1-2
 play,8,0,hattg101,??,,15(2)/FO/BG.1-2
 play,8,0,haasb102,30,,W.2-3;1-2
-com,"On four pitches."
 play,8,0,muelr101,??,,64(1)/FO.2-3;3-H(UR)
-com,"$Haas broke up the double play with a hard slide."
 play,8,0,lukoe101,??,,K
 play,8,1,ryanc102,??,,NP
 sub,usheb101,"Bob Usher",0,7,7
@@ -2611,6 +2578,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/07/27
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -2658,8 +2626,7 @@ start,spahw101,"Warren Spahn",1,9,1
 play,1,0,schor101,??,,8
 play,1,0,adamb101,??,,K
 play,1,0,musis101,??,,7
-play,1,1,culld101,??,,FLE2
-com,"DWS: bogus FLE2 but Rice needs error and I see nowhere to put it"
+play,1,1,culld101,??,,FLE2#
 play,1,1,culld101,??,,8
 play,1,1,mccom101,??,,4/9S
 play,1,1,hoppj102,??,,K
@@ -2669,7 +2636,6 @@ play,2,0,dusae101,??,,63
 play,2,1,litwd101,??,,K
 play,2,1,masip101,??,,S7
 play,2,1,gillc102,??,,E3/G.1-3
-com,"$Ball went between Musial's legs."
 play,2,1,fernn101,??,,S8.1-3;3-H
 play,2,1,ryanc102,??,,K
 play,2,1,spahw101,??,,23
@@ -2706,11 +2672,8 @@ play,6,1,gillc102,??,,8
 play,7,0,adamb101,??,,NP
 sub,roweb101,"Bama Rowell",1,4,7
 play,7,0,adamb101,??,,D8/F78XDW
-com,"Off the wall."
 play,7,0,musis101,??,,S9.2-H
 play,7,0,kurow101,??,,E1/TH2.1-3(E6/TH1)
-com,"$Spahn made bad throw trying for force, then Culler threw"
-com,"it away trying for Kurowski at first"
 play,7,0,slaue101,??,,7/F.3-H(UR)
 play,7,0,dusae101,??,,3/P
 play,7,0,marim101,??,,6/7S
@@ -2751,6 +2714,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/07/28
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,unknown
@@ -2879,6 +2843,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/07/29
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,unknown
@@ -2929,7 +2894,6 @@ play,1,0,musis101,??,,SB2
 play,1,0,musis101,??,,W
 play,1,0,slaue101,??,,7/F.2-3
 play,1,0,kurow101,??,,9/89/L
-com,"$Great play by Holmes"
 play,1,1,culld101,??,,8
 play,1,1,roweb101,??,,S8
 play,1,1,hoppj102,??,,16(1)3/GDP
@@ -2983,7 +2947,6 @@ play,8,0,beazj101,??,,NP
 sub,endib101,"Bill Endicott",0,9,11
 play,8,0,endib101,??,,6/L
 play,8,0,schor101,??,,D8
-com,"$A 'Texas Leaguer' just beyond a diving Connie Ryan."
 play,8,0,walkh102,??,,4/P
 play,8,1,roweb101,??,,NP
 sub,burkk101,"Ken Burkhart",0,9,1
@@ -3003,6 +2966,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/08/05
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -3091,10 +3055,8 @@ play,5,0,behrh101,??,,NP
 sub,hermg101,"Gene Hermanski",0,9,11
 play,5,0,hermg101,??,,K
 play,5,0,stane101,32,,W.1-2
-com,"$Stanky fouled off several pitches after count was full."
 play,5,0,reesp101,??,,HR/78XD.2-H;1-H
 play,5,0,whitd103,??,,S3/G
-com,"$Cooper was late covering 1B."
 play,5,0,walkd101,??,,HR/9D.1-H
 play,5,0,galaa101,??,,7/P
 play,5,1,litwd101,??,,NP
@@ -3159,6 +3121,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NY1
 info,hometeam,BSN
 info,date,1946/08/09
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -3203,17 +3166,12 @@ start,gillc102,"Carden Gillenwater",1,6,8
 start,fernn101,"Nanny Fernandez",1,7,5
 start,ryanc102,"Connie Ryan",1,8,4
 start,spahw101,"Warren Spahn",1,9,1
-com,"$Total attendance 23,397"
 play,1,0,blatb101,??,,K
 play,1,0,witem101,??,,8
 play,1,0,marsw101,??,,2/FL
 play,1,1,culld101,??,,S5
 play,1,1,hermb101,??,,S9.1-3
-com,"$Hit and run."
 play,1,1,holmt101,??,,FC3.1-2
-com,"$Culler was caught in a rundown between third and home but"
-com,"all runners were safe when Culler scrambled safely back to"
-com,"third."
 play,1,1,litwd101,??,,S7.1-2;2-H;3-H
 play,1,1,masip101,??,,24/SH.1-2;2-3
 play,1,1,gillc102,??,,IW
@@ -3251,7 +3209,6 @@ play,5,0,blatb101,??,,5/L
 play,5,1,hermb101,??,,NP
 sub,krauj101,"Jack Kraus",0,9,1
 play,5,1,hermb101,??,,D7/7D
-com,"Off the wall."
 play,5,1,holmt101,??,,13
 play,5,1,litwd101,??,,IW
 play,5,1,masip101,??,,PO2(E1).2-3
@@ -3264,9 +3221,8 @@ play,5,1,fernn101,??,,W.1-2
 play,5,1,ryanc102,??,,63
 play,6,0,witem101,??,,9
 play,6,0,marsw101,??,,13
-play,6,0,younb102,??,,E3/INT.B-2(E1)
-com,"$Young was awarded second when Spahn interfered with him as"
-com,"Spahn tried to cover first."
+play,6,0,younb102,??,,E3/OBS.B-2(E1)
+com,"$Warren Spahn called for obstruction"
 play,6,0,coopw102,??,,S8.2-H(UR)
 play,6,0,gords101,??,,64(1)/FO
 play,6,1,spahw101,??,,63
@@ -3307,6 +3263,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PHI
 info,hometeam,BSN
 info,date,1946/08/14
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -3403,7 +3360,6 @@ play,5,1,roweb101,??,,8
 play,6,0,nortr101,??,,NP
 sub,roweb101,"Bama Rowell",1,7,8
 play,6,0,nortr101,??,,HR/9
-com,"$HR into the Jury Box."
 play,6,0,mccof101,??,,7
 play,6,0,taboj101,??,,8
 play,6,0,ennid101,??,,8
@@ -3412,9 +3368,9 @@ play,6,1,coopm101,??,,S
 play,6,1,culld101,??,,S.1-2
 play,6,1,ryanc102,??,,9
 play,6,1,holmt101,??,,S8.1-2;2-H
-com,"$Cooper tripped over Seminick as he crossed the plate and "
-com,"fell on his pitching arm.  Cooper would leave the game with"
-com,"a sprained elbow and L ankle."
+com,"$Mort Cooper tripped over Andy Seminick crossing HP and"
+com,"fell on his pitching arm; he left with a sprained elbow"
+com,"and left ankle"
 play,6,1,litwd101,??,,63
 play,7,0,semia101,??,,NP
 sub,johns103,"Si Johnson",1,9,1
@@ -3453,6 +3409,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PHI
 info,hometeam,BSN
 info,date,1946/08/15
+info,site,BOS08
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -3503,7 +3460,6 @@ play,1,0,nortr101,??,,3/G.1-2;2-3
 play,1,0,mccof101,??,,W
 play,1,0,taboj101,??,,HR/7.3-H;2-H;1-H
 play,1,0,ennid101,??,,E5/G
-com,"$Ball went through Fernandez' legs."
 play,1,0,semia101,??,,NP
 sub,poseb102,"Bill Posedel",1,9,1
 play,1,0,semia101,??,,64(1)3/GDP
@@ -3584,7 +3540,6 @@ sub,mccom101,"Mike McCormick",1,4,7
 play,7,0,hughr101,??,,NP
 sub,walll102,"Lefty Wallace",1,9,1
 play,7,0,hughr101,??,,4/8S
-com,"$Ryan made a barehanded catch."
 play,7,0,wyroj101,??,,D7
 play,7,0,nortr101,??,,13
 play,7,0,mccof101,??,,E6.2-3
@@ -3596,8 +3551,7 @@ play,7,1,sandr102,??,,NP
 sub,maund101,"Dick Mauney",0,9,1
 play,7,1,sandr102,??,,W
 play,7,1,fernn101,??,,HR.1-H
-play,7,1,ryanc102,??,,S/1#
-com,"Infield hit."
+play,7,1,ryanc102,??,,S/G
 play,7,1,walll102,??,,NP
 sub,masip101,"Phil Masi",1,9,11
 play,7,1,masip101,??,,99
@@ -3627,7 +3581,6 @@ play,9,0,taboj101,??,,99
 play,9,0,ennid101,??,,99
 play,9,1,fernn101,??,,99
 play,9,1,ryanc102,??,,S1
-com,"$Ryan singled Off Donnelly's pitching hand."
 play,9,1,white103,??,,NP
 sub,karla101,"Andy Karl",0,9,1
 play,9,1,white103,??,,NP
@@ -3651,6 +3604,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/09/04
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -3695,7 +3649,6 @@ start,hoppj102,"Johnny Hopp",1,6,3
 start,ryanc102,"Connie Ryan",1,7,4
 start,gillc102,"Carden Gillenwater",1,8,8
 start,spahw101,"Warren Spahn",1,9,1
-com,"$Total attendance 29,465"
 play,1,0,stane101,??,,6/P
 play,1,0,reesp101,??,,S8/P
 play,1,0,medwj101,??,,K
@@ -3772,7 +3725,7 @@ play,9,1,masip101,??,,S7/P
 play,9,1,fernn101,??,,W.1-2
 play,9,1,hoppj102,??,,PO2(E2).2-2
 play,9,1,hoppj102,??,,OA.2X3(85);1-2
-com,"$S/w made it necessary to divide one play into the preceding 2 plays"
+com,"preceding 2 plays one play"
 play,9,1,hoppj102,??,,K/C
 play,9,1,ryanc102,??,,K
 data,er,hattj101,1
@@ -3784,6 +3737,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/09/05
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -3871,7 +3825,6 @@ play,6,1,culld101,??,,S8/G46
 play,6,1,ryanc102,??,,4(1)/FO
 play,7,0,galaa101,??,,S9
 play,7,0,walkd101,??,,SB2
-com,"$Apparently SB when Walker made no contact on hit&run"
 play,7,0,walkd101,??,,53/SH.2-3
 play,7,0,steve101,??,,WP.3-H
 play,7,0,steve101,??,,5/FL
@@ -3906,6 +3859,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PHI
 info,hometeam,BSN
 info,date,1946/09/07
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -3959,7 +3913,7 @@ play,1,1,culld101,??,,W
 play,1,1,hermb101,??,,W.1-2
 play,1,1,hoppj102,??,,NP
 sub,mulch101,"Hugh Mulcahy",0,9,1
-play,1,1,hoppj102,??,,46(1)/FO.2-H(E6/TH);BX2(3646)
+play,1,1,hoppj102,??,,46(1)/FO/NDP.2-H(E6/TH);BX2(3646)
 play,1,1,holmt101,??,,S8
 play,1,1,padgd101,??,,S8.1-2
 play,1,1,roweb101,??,,S7.1-2;2-H
@@ -3985,7 +3939,7 @@ play,3,1,fernn101,??,,53
 play,4,0,mccof101,??,,8
 play,4,0,semia101,??,,S7
 play,4,0,taboj101,??,,S8.1X3(54)
-com,"$Seminick overran second."
+com,"$Andy Seminick rounded 2B too far"
 play,4,0,verbe101,??,,43
 play,4,1,ryanc102,??,,E6
 play,4,1,johns103,??,,23/SH.1-2
@@ -4039,6 +3993,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PIT
 info,hometeam,BSN
 info,date,1946/09/12
+info,site,BOS08
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -4173,6 +4128,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PIT
 info,hometeam,BSN
 info,date,1946/09/13
+info,site,BOS08
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -4227,7 +4183,6 @@ play,2,0,salkb101,??,,S/89
 play,2,0,workc101,??,,34/SH.1-2
 play,2,0,gustf101,??,,43.2-3
 play,2,0,kiner101,??,,D7/7D.3-H
-com,"Off the wall."
 play,2,0,handl101,??,,9
 play,2,1,masip101,??,,7
 play,2,1,litwd101,??,,8
@@ -4245,7 +4200,6 @@ play,4,1,culld101,??,,5/P/FL
 play,4,1,hermb101,??,,7
 play,4,1,holmt101,??,,S/78
 play,4,1,masip101,??,,D7/7D.1-H
-com,"Off the wall."
 play,4,1,litwd101,??,,S7.2-H
 play,4,1,fernn101,??,,4/P
 play,5,0,gustf101,??,,9
@@ -4263,7 +4217,6 @@ play,6,0,russj102,??,,FC6.2X3(6545)
 play,6,0,salkb101,??,,6/P
 play,6,1,hermb101,??,,4/L
 play,6,1,holmt101,??,,S5
-com,"Off Handley's glove."
 play,6,1,masip101,??,,5/P/FL
 play,6,1,litwd101,??,,7
 play,7,0,workc101,??,,3/P/FL
@@ -4274,7 +4227,6 @@ play,7,1,ryanc102,??,,7/L
 play,7,1,gillc102,??,,53
 play,8,0,handl101,??,,4/P
 play,8,0,ostef101,??,,S9.B-2(E9)
-com,"$Ball went through Holmes' legs."
 play,8,0,whitb101,??,,FC6.2X3(6)
 play,8,0,flete101,??,,CS2(26)
 play,8,1,coopm101,??,,9/FL
@@ -4324,7 +4276,6 @@ play,13,1,masip101,??,,99
 play,13,1,litwd101,??,,99
 play,14,0,salkb101,??,,63
 play,14,0,workc101,??,,HR/9
-com,"Into Pittsburgh bullpen."
 play,14,0,gustf101,??,,D
 play,14,0,kiner101,??,,99
 play,14,0,handl101,??,,S.2-H
@@ -4340,6 +4291,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PIT
 info,hometeam,BSN
 info,date,1946/09/14
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -4407,8 +4359,7 @@ play,3,0,gerha101,??,,K+SB2
 play,3,0,browj107,??,,K
 play,3,0,flete101,??,,43
 play,3,1,culld101,??,,S5/G
-com,"$Bad hop caused the ball to hit Handley in the side of his"
-com,"head.  Handley left the game."
+com,"$Lee Handley struck on the side of the head by a bad hop"
 play,3,1,hoppj102,??,,NP
 sub,ellib103,"Bob Elliott",0,8,5
 play,3,1,hoppj102,??,,36(1)/FO
@@ -4416,13 +4367,11 @@ play,3,1,holmt101,??,,S8.1-2
 play,3,1,masip101,??,,3/G.1-2;2-3
 play,3,1,litwd101,??,,S8.2-H;3-H
 play,3,1,fernn101,??,,64(1)/FO
-play,4,0,russj102,??,,S/1#
-com,"Infield hit."
+play,4,0,russj102,??,,S/G
 play,4,0,salkb101,??,,16(1)/FO
 play,4,0,workc101,??,,36(1)/FO
 play,4,0,gustf101,??,,W.1-2
-play,4,0,kiner101,??,,S/1.1-2;2-3#
-com,"Infield hit."
+play,4,0,kiner101,??,,S/G.1-2;2-3
 play,4,0,ellib103,??,,S7.1-H;2-H;3-H;B-2(TH)
 play,4,0,gerha101,??,,NP
 sub,vanrm101,"Maurice Van Robays",0,9,11
@@ -4498,6 +4447,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,CIN
 info,hometeam,BSN
 info,date,1946/09/17
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -4651,6 +4601,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,SLN
 info,hometeam,BSN
 info,date,1946/09/18
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,unknown
@@ -4756,7 +4707,6 @@ play,8,0,walkh102,??,,13
 play,8,1,culld101,??,,NP
 sub,burkk101,"Ken Burkhart",0,9,1
 play,8,1,culld101,??,,63#
-com,"This entry is difficult to read.  It could be a 3/G."
 play,8,1,hoppj102,??,,S9.BX2(963)
 play,8,1,holmt101,??,,S8
 play,8,1,litwd101,??,,64(1)/FO
@@ -4774,6 +4724,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/09/21
+info,site,BOS08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -4818,7 +4769,6 @@ start,fernn101,"Nanny Fernandez",1,6,5
 start,ryanc102,"Connie Ryan",1,7,4
 start,gillc102,"Carden Gillenwater",1,8,8
 start,spahw101,"Warren Spahn",1,9,1
-com,"$Total attendance 14,306"
 play,1,0,stane101,??,,K
 play,1,0,lavac101,??,,8
 play,1,0,medwj101,??,,D/78
@@ -4842,7 +4792,6 @@ play,3,1,spahw101,??,,13
 play,4,0,medwj101,??,,4/P
 play,4,0,walkd101,??,,S9/G
 play,4,0,furic101,??,,S9/G.1-3
-com,"$Walker and Furillo hit and run"
 play,4,0,reesp101,??,,T9/9D.3-H;1-H
 play,4,0,edwab101,??,,S7/G.3-H
 play,4,0,schuh101,??,,D7/7D.1-H
@@ -4933,6 +4882,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/09/22
+info,site,BOS08
 info,number,1
 info,starttime,0:00PM
 info,daynight,day
@@ -5022,7 +4972,6 @@ play,6,0,walkd101,??,,HR/9
 play,6,0,steve101,??,,53
 play,6,0,furic101,??,,E6.B-1
 play,6,0,reesp101,??,,S9/G.1-3
-com,"$Furillo and Reese H&R"
 play,6,0,edwab101,??,,54(1)3/GDP
 play,6,1,neilt101,??,,S7/P
 play,6,1,holmt101,??,,S9/G.1-3
@@ -5091,6 +5040,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,BRO
 info,hometeam,BSN
 info,date,1946/09/22
+info,site,BOS08
 info,number,2
 info,starttime,0:00PM
 info,daynight,day

@@ -292,7 +292,7 @@ info,site,MIN02
 info,date,1977/04/17
 info,number,0
 info,starttime,0:00PM
-info,daynight,night
+info,daynight,day
 info,usedh,true
 info,umphome,hallb901
 info,ump1b,lucir901
@@ -2120,7 +2120,7 @@ play,4,1,smalr001,??,,8
 play,5,0,dadep101,??,,63
 play,5,0,cartr101,??,,S7
 play,5,0,grubj001,??,,D7.1-3
-play,5,0,bellb001,??,,9.3X3(15);2-3
+play,5,0,bellb001,??,,9/AP/NDP.3X3(15);2-3
 com,"ej,bellb001,P,coont901,Call at 3B (Appeal)"
 com,"$Buddy Bell called out on appeal for leaving 3B too soon; Bell"
 com,"ejected by 3B umpire Terry Cooney"
@@ -2244,7 +2244,7 @@ play,1,1,hisll101,??,,54(1)/FO
 play,2,0,kellp101,??,,W
 play,2,0,murre001,??,,K
 play,2,0,decid001,??,,S8.1-3
-play,2,0,smitb101,??,,FC4/INT.1X2(4)
+play,2,0,smitb101,??,,FC4/RINT.1X2(4)
 com,"$Doug DeCinces collided with Bob Randall, who was trying to field"
 com,"Billy Smith's ground ball; DeCinces called out for interference"
 com,"and suffered a broken nose"
@@ -4455,7 +4455,8 @@ play,8,1,bostl101,??,,K
 play,8,1,adamg101,??,,S7
 play,8,1,chilr101,??,,NP
 sub,norww101,"Willie Norwood",1,5,12
-play,8,1,chilr101,??,,K/DP/INT.1X2(26)
+play,8,1,chilr101,??,,K/DP/BINT.1X2(26)
+com,"$Rich Chiles called for interference"
 play,9,0,bayld001,??,,NP
 sub,fordd001,"Dan Ford",1,5,9
 play,9,0,bayld001,??,,13
@@ -5226,7 +5227,7 @@ play,2,1,fordd001,??,,W
 play,2,1,kusic101,??,,K
 play,3,0,sodee101,??,,S7
 play,3,0,essij001,??,,E6/G.1-2
-play,3,0,garrr101,??,,S/89.2-H;1-H(UR);BX1(3)
+play,3,0,garrr101,??,,S/89/PASS.2-H;1-H(UR);BX1(3)
 com,"$Ralph Garr homered but passed Jim Essian near 1B as Essian was"
 com,"returning to 1B thinking the ball might be caught and Garr was"
 com,"watching the ball"
@@ -8608,7 +8609,8 @@ start,schur101,"Ron Schueler",1,0,1
 play,1,0,norrj101,??,,W
 play,1,0,kuipd001,??,,64(1)/FO
 play,1,0,bellb001,??,,13.1-2
-play,1,0,thora001,??,,S7/INT.2-H;B-2(E3)
+play,1,0,thora001,??,,S7/OBS.2-H;B-2(E3)
+com,"$Rod Carew called for obstruction"
 play,1,0,cartr101,??,,W
 play,1,0,bochb001,??,,W.2-3;1-2
 play,1,0,pruir101,??,,D7.3-H(UR);2-H(UR);1-H(UR)
@@ -9394,7 +9396,7 @@ play,4,1,smalr001,??,,63
 play,4,1,wyneb001,??,,W
 play,4,1,bostl101,??,,K+CS2(26)/DP
 play,5,0,belam101,??,,W
-play,5,0,skagd101,??,,CS2(2E1)
+play,5,0,skagd101,??,,CS2(2E1)/OBS
 com,"$Dave Goltz called for obstruction on Mark Belanger"
 play,5,0,skagd101,??,,7/L
 play,5,0,bumba001,??,,63.2-3

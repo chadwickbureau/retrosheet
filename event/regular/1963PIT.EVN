@@ -73,9 +73,7 @@ play,3,0,bollf101,??,,53
 play,3,0,aaroh101,??,,13
 play,3,1,frieb102,??,,63
 play,3,1,schod101,??,,S1
-com,"Off Burdette's leg."
-play,3,1,skinb101,??,,W.1-2
-com,"4 pitches."
+play,3,1,skinb101,30,,W.1-2
 play,3,1,clemr101,??,,64(1)3/GDP
 play,4,0,mathe101,??,,S9
 play,4,0,jonem102,??,,7
@@ -99,7 +97,6 @@ play,6,0,jonem102,??,,43
 play,6,1,skinb101,??,,9/9D
 play,6,1,clemr101,??,,53
 play,6,1,burgs101,??,,HR/9
-com,"No. 1.  Upper deck."
 play,6,1,clend101,??,,T8
 play,6,1,mazeb101,??,,6/P
 play,7,0,larkn101,??,,6/L
@@ -108,7 +105,6 @@ play,7,0,mcmir101,??,,3/FL
 play,7,1,virdb101,??,,S8
 play,7,1,bailb103,??,,CS2(24)
 play,7,1,bailb103,??,,HR/7
-com,"First major league homerun."
 play,7,1,frieb102,??,,6/P
 play,7,1,schod101,??,,3/G
 play,8,0,burdl101,??,,NP
@@ -217,13 +213,11 @@ play,2,0,mcmir101,??,,9
 play,2,0,shawb103,??,,W.1-2
 play,2,0,clint101,??,,7
 play,2,1,burgs101,??,,143
-com,"Bounced off Shaw's glove."
 play,2,1,clend101,??,,S8
 play,2,1,mazeb101,??,,E6/TH.B-2;1-3
 play,2,1,virdb101,??,,IW
 play,2,1,bailb103,??,,K
 play,2,1,cardd101,??,,7/L
-com,"Leaping catch against the scoreboard."
 play,3,0,bollf101,??,,9
 play,3,0,aaroh101,??,,8/8D
 play,3,0,mathe101,??,,K/C
@@ -245,7 +239,6 @@ play,5,0,aaroh101,??,,13
 play,5,0,mathe101,??,,4E1
 play,5,0,jonem102,??,,CS2(26)
 play,5,1,bailb103,??,,D7
-com,"Over Jones' head."
 play,5,1,cardd101,??,,43.2-3
 play,5,1,schod101,??,,43.3-H
 play,5,1,skinb101,??,,3/P
@@ -267,12 +260,11 @@ play,7,1,schod101,??,,3/G
 play,7,1,skinb101,??,,3/G
 play,7,1,clemr101,??,,S8
 play,7,1,burgs101,??,,S9.1X3(9325)
-com,"Clemente overran third."
+com,"$Roberto Clemente rounded 3B too far"
 play,8,0,aaroh101,??,,6/P
 play,8,0,mathe101,??,,W
 play,8,0,jonem102,??,,64(1)3/GDP
 play,8,1,clend101,??,,HR/7
-com,"No. 2."
 play,8,1,mazeb101,??,,S/89S
 play,8,1,virdb101,??,,NP
 sub,lemad102,"Denny Lemaster",0,9,1
@@ -408,8 +400,7 @@ play,6,1,bailb103,??,,64(1)3/GDP
 play,6,1,paglj101,??,,S
 play,6,1,frieb102,??,,13
 play,7,0,cardl101,??,,13
-play,7,0,keoum101,??,,43#
-com,"This play may have been scored 13"
+play,7,0,keoum101,??,,43
 play,7,0,pinsv101,??,,6
 play,7,1,schod101,??,,S9
 play,7,1,skinb101,??,,4
@@ -428,11 +419,13 @@ play,8,1,paglj101,??,,NP
 sub,brosj101,"Jim Brosnan",0,9,1
 play,8,1,paglj101,??,,S8
 play,8,1,frieb102,??,,W.1-2
-com,"Reds manager Hutchinson was ejected"
+com,"ej,hutcf101,M,harvd901,Balls and strikes"
+com,"Reds manager Fred Hutchinson ejected by HP umpire Doug Harvey"
 play,8,1,schod101,??,,14/SH.2-3;1-2
 play,8,1,skinb101,??,,IW
 play,8,1,clemr101,??,,K/C
-com,"Clemente was ejected for throwing his bat"
+com,"ej,clemr101,P,harvd901,Called third strike (Threw bat)"
+com,"Roberto Clemente ejected by HP umpire Doug Harvey"
 play,8,1,clend101,??,,2/FL
 play,9,0,robif103,??,,NP
 sub,starw101,"Willie Stargell",1,3,9
@@ -518,8 +511,7 @@ play,2,1,bailb103,??,,1(B)3(1)/LDP
 play,3,0,edwaj101,??,,S9
 play,3,0,cardl101,??,,CS2(2E6)#
 play,3,0,cardl101,??,,4/L
-play,3,0,pinsv101,??,,T8.2-H(UR);B-H(E6)#
-com,"Originally coded E8/TH but Schofield given error"
+play,3,0,pinsv101,??,,T8.2-H(UR);B-H(E6)
 play,3,0,keoum101,??,,NP
 sub,haddh101,"Harvey Haddix",1,9,1
 play,3,0,keoum101,??,,S8
@@ -583,7 +575,7 @@ play,8,0,cardl101,??,,46(1)3/GDP
 play,8,1,clend101,??,,13/BG
 play,8,1,mazeb101,??,,9
 play,8,1,virdb101,??,,DGR
-com,"Virdon's drive got stuck under the batting cage."
+com,"$the ball stuck under the batting cage"
 play,8,1,bailb103,??,,13
 play,9,0,pinsv101,??,,K/C
 play,9,0,keoum101,??,,K/C
@@ -687,7 +679,6 @@ play,5,1,virdb101,32,,D9
 play,5,1,bailb103,32,,W
 play,5,1,paglj101,10,,CS2(24).2-3#
 play,5,1,paglj101,32,,6
-com,"Real guess Pagliaroni out was 6, very faint"
 play,5,1,frane101,12,,K/C
 play,6,0,landd101,12,,S7
 play,6,0,rodga101,00,,16(1)/FO
@@ -878,7 +869,8 @@ play,9,1,plase101,22,,63
 play,9,1,haddh101,00,,NP
 sub,savat101,"Ted Savage",1,9,11
 play,9,1,savat101,22,,K/C
-com,"Savage ejected by Walsh for disputing third strike"
+com,"ej,savat101,P,walsf901,Called third strike"
+com,"Ted Savage ejected by HP umpire Frank Walsh"
 play,9,1,schod101,12,,5/P
 data,er,jackl102,1
 data,er,cardd101,6
@@ -1140,7 +1132,8 @@ play,8,0,hookj101,??,,NP
 sub,krane101,"Ed Kranepool",0,9,11
 play,8,0,krane101,??,,63
 play,8,0,hickj103,??,,W
-play,8,0,huntr101,??,,2/INT
+play,8,0,huntr101,??,,2/BINT
+com,"$Ron Hunt called for inteference"
 play,8,0,cookc101,??,,E5.1-2;B-1
 play,8,0,thomf103,??,,64(1)/FO
 play,8,1,mazeb101,??,,NP
@@ -1371,14 +1364,11 @@ play,2,0,hallt102,??,,43
 play,2,0,pagaj101,??,,8
 play,2,1,virdb101,??,,S8
 play,2,1,bailb103,??,,PO1(E1).1-2#
-com,"POE may have occurred with Bailey or Pagliaroni at bat."
 play,2,1,bailb103,??,,6/P
 play,2,1,paglj101,??,,W
 play,2,1,frieb102,??,,34/SH.1-2;2-3
 play,2,1,schod101,??,,NP
 sub,amalj101,"Joey Amalfitano",0,2,4
-com,"Stevens makes it appear that Amalfitano had to enter at"
-com,"this point."
 play,2,1,schod101,??,,3/G
 play,3,0,sanfj101,??,,K/C
 play,3,0,kuenh101,??,,S8
@@ -1427,10 +1417,8 @@ play,7,0,sanfj101,??,,NP
 sub,sturt101,"Tom Sturdivant",1,9,1
 play,7,0,sanfj101,??,,S8
 play,7,0,kuenh101,??,,PB.1-2#
-com,"PB may have occurred with Kuenn or Amalfitano at bat."
 play,7,0,kuenh101,??,,5/FL/BP
 play,7,0,amalj101,??,,S7.2-2#
-com,"No advance shown for Sanford."
 play,7,0,maysw101,??,,K
 play,7,0,mccow101,??,,S/89.1-3;2-H
 play,7,0,cepeo101,??,,BK.1-2;3-H
@@ -1654,7 +1642,7 @@ start,bailb103,"Bob Bailey",1,8,5
 start,mcbea101,"Al McBean",1,9,1
 play,1,0,willm102,11,LBX,53
 play,1,0,gillj102,00,X,D8/78/L.BX3(863)
-com,"Gilliam out returning to 2B"
+com,"$Jim Gilliam rounded 2B too far"
 play,1,0,fairr101,02,.CCX,8/L
 play,1,1,schod101,00,X,S8/L
 play,1,1,virdb101,00,X,E6/L.1-2;B-1
@@ -1721,13 +1709,11 @@ play,6,1,burgs101,00,X,7/SF.3-H
 play,6,1,mazeb101,00,B,WP.1-2
 play,6,1,mazeb101,30,B.BBB,W
 play,6,1,bailb103,32,BFCBFBX,HR/7.2-H;1-H
-com,"Bailey's HR to right of scoreboard"
 play,6,1,mcbea101,12,.BFSFX,63
 play,6,1,schod101,00,H,HP
 play,6,1,savat101,22,CBCFBH,HP.1-2
 play,6,1,skinb101,21,BBFX,13
 play,7,0,davit103,00,H,HP
-com,"McBean tries to protect his hitters, will cost him shutout"
 play,7,0,howaf102,10,.BX,S8/L.1-3
 play,7,0,rosej101,01,FX,64(1)3/GDP.3-H(NR)
 play,7,0,skowb101,00,X,43
@@ -1751,7 +1737,6 @@ play,8,0,fairr101,02,CSX,S9/L.2-H;1-2
 play,8,0,davit103,12,CCBS,K
 play,8,1,mazeb101,10,BX,9
 play,8,1,bailb103,11,CBX,HR/7
-com,"Bailey's 2nd HR to right of scoreboard also"
 play,8,1,mcbea101,12,.BCMS,K
 play,8,1,schod101,32,BBCBCX,63
 play,9,0,howaf102,10,BX,S6
@@ -1981,8 +1966,9 @@ play,4,1,skinb101,22,FBSBX,S8/L
 play,4,1,clend101,21,FBBX,8/L
 play,4,1,clemr101,10,BX,54(1)/FO
 play,4,1,mazeb101,21,CBBX,8
-play,5,0,willm102,00,X,2/INT
-com,"Wills bat hit ball twice. Roth had no PO, I guessed 2"
+play,5,0,willm102,00,X,2/BINT
+com,"$Maury Wills called for interference when the ball struck"
+com,"his bat in fair territory"
 play,5,0,gillj102,32,.BBBCFX,6
 play,5,0,fairr101,11,CBX,43
 play,5,1,burgs101,21,BBFX,8
@@ -1997,7 +1983,6 @@ play,6,1,skinb101,11,BFX,7
 play,6,1,clend101,31,BBBCB,W
 play,6,1,clemr101,11,SBX,S9/L.1-3
 play,6,1,mazeb101,00,X,T9/L.3-H;1-H
-com,"Maz gets triple on bad bounce past RF"
 play,6,1,burgs101,00,.B,WP.3-H
 play,6,1,burgs101,20,.B.BX,S6/6MS
 play,6,1,bailb103,00,,NP
@@ -2032,7 +2017,6 @@ sub,haddh101,"Harvey Haddix",1,9,1
 play,9,0,daviw102,00,.,NP
 sub,walll101,"Lee Walls",0,8,11
 play,9,0,walll101,00,..X,HR/7.2-H;1-H
-com,"Walls HR deep over scoreboard"
 play,9,0,perrr101,22,.BCFBC,K
 play,9,0,willm102,00,X,S1/BG.B-3(E1/TH1)(E9/TH2)
 play,9,0,gillj102,11,BFX,D7.3-H
@@ -2107,7 +2091,6 @@ play,1,0,gillj102,21,BBCX,43
 play,1,0,fairr101,12,BCCX,31
 play,1,1,schod101,32,BFFBBB,W
 play,1,1,savat101,00,S,OA.1X2(26)#
-com,"Officially not a CS"
 play,1,1,savat101,22,S.CBBX,T8/78/L
 play,1,1,skinb101,12,SFBX,S9/L.3-H
 play,1,1,starw101,21,BCBX,S8/L.1-2
@@ -2116,7 +2099,6 @@ play,1,1,burgs101,00,X,164(1)3/GDP
 play,2,0,davit103,21,BBCX,S6
 play,2,0,howaf102,12,SFBC,K
 play,2,0,rosej101,??,,WP.1-2#
-com,"Invented... Friend missing a WP here"
 play,2,0,rosej101,12,CFBX,S8/G.2-3
 play,2,0,skowb101,22,SFBBB,OA.3XH(21);1-2
 play,2,0,skowb101,32,SFBBB.X,S5.2-2
@@ -2124,7 +2106,6 @@ play,2,0,daviw102,11,FBX,S9/G.2-H;1-2
 play,2,0,drysd101,22,BCBCC,K
 play,2,1,mazeb101,32,CCFBBFBFX,8
 play,2,1,bailb103,32,BCFBBX,T9
-com,"Bailey's triple hit top of wall"
 play,2,1,frieb102,02,.SFC,K+PO3(25)/DP
 play,3,0,willm102,02,CFX,S8/L
 play,3,0,gillj102,00,>X,S6.1-2
@@ -2182,7 +2163,6 @@ play,7,0,howaf102,00,,NP
 sub,facer101,"Roy Face",1,9,1
 play,7,0,howaf102,00,.X,54(1)/FO
 play,7,1,savat101,22,BSFBFX,S7
-com,"Fairly lost Savage's ball in sun"
 play,7,1,skinb101,21,.BSPX,13/SH.1-2
 play,7,1,starw101,00,X,D9/L.2-H
 play,7,1,clemr101,01,CX,53
@@ -2866,7 +2846,6 @@ play,4,1,mazeb101,00,X,D7
 play,4,1,lyncj102,21,SBBX,9/9D.2-3
 play,4,1,burgs101,00,X,S8.3-H
 play,4,1,clend101,21,BBFX,41.1-2
-com,"Looks like Lewis felt Clendenon safe"
 play,4,1,bailb103,32,.CBFBBB,W
 play,4,1,frieb102,12,FBFS,K
 play,5,0,wineb101,12,SSFBS,K
@@ -2888,6 +2867,8 @@ sub,demed101,"Don Demeter",0,5,7
 play,5,1,schod101,11,..BCX,63
 play,5,1,virdb101,01,CX,S8
 play,5,1,clemr101,10,BX,54(1)3/GDP
+com,"ej,clemr101,P,jackb901,Call at 1B (Bumped umpire)"
+com,"Roberto Clemente ejected by 1B umpire Bill Jackowski"
 play,6,0,dalrc101,00,,NP
 sub,starw101,"Willie Stargell",1,3,9
 play,6,0,dalrc101,22,.FBBFX,2/FL
@@ -3292,9 +3273,9 @@ play,1,0,pinsv101,??,,9
 play,1,1,schod101,??,,S7
 play,1,1,savat101,??,,16(1)/BG/FO
 play,1,1,clemr101,??,,S9.1-2
-com,"Nuxhall reinjured a leg muscle and had to leave the game"
 play,1,1,mazeb101,??,,NP
 sub,owenj101,"Jim Owens",0,9,1
+com,"Joe Nuxhall left with injured leg muscle"
 play,1,1,mazeb101,??,,HR/78XD.2-H;1-H
 play,1,1,clend101,??,,9
 play,1,1,bailb103,??,,S8
@@ -3332,8 +3313,6 @@ sub,zannd101,"Dom Zanni",0,9,1
 play,5,1,cardd101,??,,K
 play,5,1,schod101,??,,S9
 play,5,1,savat101,??,,84(1)/FO
-com,"Pinson missed a diving catch but was still able to get a"
-com,"force."
 play,5,1,clemr101,??,,HP.1-2
 play,5,1,mazeb101,??,,W.2-3;1-2
 play,5,1,clend101,??,,K/C
@@ -3384,8 +3363,6 @@ sub,law-v101,"Vern Law",1,9,12
 play,8,1,schod101,??,,W.1-2
 play,8,1,savat101,??,,NP
 sub,starw101,"Willie Stargell",1,9,12
-com,"The scoresheet says that both Law and Stargell pinch-ran in"
-com,"the 8th in this spot in the order, so this may be incorrect."
 play,8,1,savat101,??,,NP
 sub,burgs101,"Smoky Burgess",1,2,11
 play,8,1,burgs101,??,,S.2-H;1-2
@@ -3543,8 +3520,7 @@ play,8,1,clend101,??,,K
 play,9,0,robif103,??,,HR/7D
 play,9,0,coleg101,??,,NP
 sub,vealb101,"Bob Veale",1,9,1
-play,9,0,coleg101,??,,K
-com,"Coleman struck out on 3 pitches."
+play,9,0,coleg101,02,,K
 play,9,0,spend101,??,,S
 play,9,0,edwaj101,??,,NP
 sub,harpt101,"Tommy Harper",0,6,12
@@ -3612,7 +3588,6 @@ play,1,0,harpt101,??,,4
 play,1,0,pinsv101,??,,S7.1-2
 play,1,0,robif103,??,,W.2-3;1-2
 play,1,0,spend101,??,,9/9D/SF.3-H(UR)
-com,"Clemente made a great leaping catch at the wall."
 play,1,0,pavld101,??,,64(1)/FO
 play,1,1,schod101,??,,9
 play,1,1,virdb101,??,,4
@@ -3696,9 +3671,8 @@ play,8,1,mazeb101,??,,K
 play,8,1,lyncj102,??,,13
 play,8,1,burgs101,??,,7
 play,9,0,henrb101,??,,13
-play,9,0,rosep001,??,,S1.BX2(3)#
-com,"Judging from the sketchy notes on the scoresheet, it appears"
-com,"that Rose turned the wrong way after overrunning first."
+play,9,0,rosep001,??,,S1.BX2(3)
+com,"$Pete Rose turned the wrong way beyond 1B"
 play,9,0,harpt101,??,,K/C
 play,9,1,clend101,??,,43
 play,9,1,bailb103,??,,D/78
@@ -3764,6 +3738,7 @@ start,clend101,"Donn Clendenon",1,6,3
 start,bailb103,"Bob Bailey",1,7,5
 start,paglj101,"Jim Pagliaroni",1,8,2
 start,schwd101,"Don Schwall",1,9,1
+com,"Protest=V"
 play,1,0,rosep001,??,,13
 play,1,0,skinb101,??,,W
 play,1,0,pinsv101,??,,7
@@ -3798,9 +3773,9 @@ play,4,1,clemr101,??,,4
 play,4,1,mazeb101,??,,D
 play,4,1,lyncj102,??,,W
 play,4,1,clend101,??,,S5.2-3;1-2
-com,"Reds manager Hutchinson placed the game under protest when"
-com,"he argued that Mazeroski interfered with Spencer on"
-com,"Clendenon's infield hit."
+com,"$Reds manager Fred Hutchinson placed the game under protest when"
+com,"he argued that Bill Mazeroski interfered with Daryl Spencer on"
+com,"Don Clendenon's infield hit"
 play,4,1,bailb103,??,,54(1)3/GDP
 play,5,0,skinb101,??,,3
 play,5,0,pinsv101,??,,S5
@@ -3847,7 +3822,6 @@ play,7,1,bailb103,??,,NP
 sub,gondj101,"Jesse Gonder",0,7,2
 play,7,1,bailb103,??,,NP
 sub,kaske101,"Eddie Kasko",0,8,6
-com,"I am assuming everyone went in at these positions."
 play,7,1,bailb103,??,,8
 play,7,1,paglj101,??,,7
 play,7,1,vealb101,??,,NP
@@ -3936,7 +3910,6 @@ play,1,0,mcmir101,??,,9
 play,1,0,mayel101,??,,S9
 play,1,0,aaroh101,??,,6/P
 play,1,0,mathe101,??,,HR/9.1-H
-com,"No. 7.  Upper deck"
 play,1,0,torrj101,??,,3/P
 play,1,1,schod101,??,,D7
 play,1,1,starw101,??,,43.2-3
@@ -3958,7 +3931,6 @@ play,2,1,clemr101,??,,NP
 sub,clont101,"Tony Cloninger",0,9,1
 play,2,1,clemr101,??,,13
 play,3,0,mcmir101,??,,S6
-com,"Off Schofield's glove."
 play,3,0,mayel101,??,,8
 play,3,0,aaroh101,??,,S7.1-2
 play,3,0,mathe101,??,,WP.1-2;2-3
@@ -4012,7 +3984,6 @@ play,8,1,clend101,??,,S5
 play,8,1,logaj101,??,,43.1-2
 play,8,1,mcbea101,??,,S7.2-H
 play,8,1,schod101,??,,E4.1-3
-com,"Through Menke."
 play,8,1,starw101,??,,3/G
 play,9,0,aarot101,??,,6/P
 play,9,0,menkd101,??,,S6
@@ -4220,7 +4191,6 @@ play,1,0,mathe101,??,,SB2
 play,1,0,mathe101,??,,T.2-H
 play,1,0,jonem102,??,,S.3-H
 play,1,0,aarot101,??,,64(1)/FO#
-com,"The fielding on this play may be incorrect."
 play,1,0,mcmir101,??,,9
 play,1,1,schod101,??,,D
 play,1,1,savat101,??,,K
@@ -4272,8 +4242,6 @@ play,7,1,clend101,??,,S
 play,7,1,bailb103,??,,64(1)3/GDP
 play,8,0,menkd101,??,,E6
 play,8,0,larkn101,??,,E1/SH.1-H(E9)(UR);B-1#
-com,"There was an error by Clemente at some point during the"
-com,"game, so I am completely guessing it was here."
 play,8,0,aaroh101,??,,NP
 sub,bollf101,"Frank Bolling",0,2,12
 play,8,0,aaroh101,??,,K
@@ -4301,6 +4269,8 @@ play,9,0,mcmir101,??,,NP
 sub,siskt101,"Tommie Sisk",1,9,1
 play,9,0,mcmir101,??,,S
 play,9,0,crand102,??,,CS2(24)
+com,"ej,mcmir101,P,sudoe901,Call at 2B"
+com,"Roy McMillan ejected by 2B umpire Ed Sudol"
 play,9,0,crand102,??,,63
 play,9,0,shawb103,??,,W
 play,9,0,menkd101,??,,NP
@@ -4311,7 +4281,6 @@ sub,mortb101,"Bubba Morton",0,2,11
 play,9,0,mortb101,??,,K
 play,9,1,clend101,??,,NP
 sub,mortb101,"Bubba Morton",0,2,7
-com,"I am assuming Morton remained in the game in LF."
 play,9,1,clend101,??,,NP
 sub,samua101,"Amado Samuel",0,7,4
 play,9,1,clend101,??,,NP
@@ -4556,7 +4525,8 @@ play,4,0,amarr101,00,X,7/L
 play,4,0,mahaa102,02,CFFX,S8
 play,4,0,taylt101,30,BBBB,W.1-2
 play,4,0,callj101,00,X,S9.2-H;1-3;BX2(94)
-com,"Phils coach Al Vincent ejected"
+com,"ej,vinca801,C,venzt901,Call at 2B"
+com,"Phillies Coach Al Vincent ejected by 2B umpire Tony Venzon"
 play,4,0,gonzt101,00,.,NP
 sub,vealb101,"Bob Veale",1,9,1
 play,4,0,gonzt101,21,..BCBX,E5/G.3-H(NR)(UR);B-1
@@ -4632,7 +4602,6 @@ play,9,1,logaj101,30,PBII,I.1-2
 play,9,1,mcbea101,00,,NP
 sub,mazeb101,"Bill Mazeroski",1,9,11
 play,9,1,mazeb101,02,.CM+3,PO3(25)
-com,"Lewis says Maz fanned on squeeze, no CSH so called it PO3"
 play,9,1,mazeb101,12,.CM+3..BFX,13
 play,10,0,demed101,00,,NP
 sub,haddh101,"Harvey Haddix",1,9,1
@@ -4719,7 +4688,7 @@ play,1,1,schod101,32,CFFBFBBX,43
 play,1,1,clemr101,32,BFBSBX,53
 play,2,0,dalrc101,00,,NP
 sub,starw101,"Willie Stargell",1,4,7
-com,"Lynch injured right toe chasing Gonzalez' triple"
+com,"Jerry Lynch injured right toe chasing Tony Gonzalez' triple"
 play,2,0,dalrc101,00,X,63
 play,2,0,wineb101,22,SSBBC,K
 play,2,0,amarr101,00,...X,63
@@ -4757,15 +4726,14 @@ play,6,0,wineb101,00,X,53
 play,6,1,frieb102,00,,NP
 sub,haddh101,"Harvey Haddix",1,9,11
 play,6,1,haddh101,00,.X,D9
-com,"7th and last PH in Haddix career-he had PAB with 5 teams"
 play,6,1,bailb103,12,.BCCX,9
 play,6,1,schod101,21,BFBX,8/8D
 play,6,1,clemr101,00,X,63
 play,7,0,amarr101,00,,NP
 sub,law-v101,"Vern Law",1,9,1
 play,7,0,amarr101,12,.BSSX,9
-play,7,0,mclic101,12,SSBFX,843
-com,"McLish D8 but missed first"
+play,7,0,mclic101,12,SSBFX,843/AP
+com,"$Cal McLish out on appeal for missing 1B on double"
 play,7,0,taylt101,02,.SSC,K
 play,7,1,starw101,22,BFBSFFS,K
 play,7,1,burgs101,11,BFX,43
@@ -4780,7 +4748,7 @@ sub,vealb101,"Bob Veale",1,9,1
 play,8,0,callj101,12,...FBSFX,S8
 play,8,0,gonzt101,00,,NP
 sub,siskt101,"Tommie Sisk",1,9,1
-com,"Veale leaves with blister on thumb"
+com,"Bob Veale left with blister on thumb"
 play,8,0,gonzt101,12,..BCMB,SB2
 play,8,0,gonzt101,32,..BCMB.BB,W
 play,8,0,demed101,11,LBX,S2/BG.2-3;1-2
@@ -4788,8 +4756,9 @@ play,8,0,torrf102,32,BFFBBS,K
 play,8,0,dalrc101,00,,NP
 sub,coviw101,"Wes Covington",0,6,11
 play,8,0,coviw101,00,UX,S4.3-H;2-H(NR);1-3
-com,"Gonzalez scored while Logan argued safe call at 2B on S4"
-com,"Logan ejected"
+com,"ej,logaj101,P,steim901,Call at 2B"
+com,"$Tony Gonzalez scored while Johnny Logan argued safe call at 2B;"
+com,"Logan ejected by 2B umpire Mel Steiner"
 play,8,0,wineb101,00,,NP
 sub,oldib101,"Bob Oldis",0,6,12
 play,8,0,wineb101,00,,NP
@@ -4800,7 +4769,6 @@ play,8,0,wineb101,11,...BFX,E3/TH.3-H(NR)(UR);1-3;B-1
 play,8,0,amarr101,00,,NP
 sub,frane101,"Earl Francis",1,9,1
 play,8,0,amarr101,22,.BBCFS,K+PO3(25)/DP
-com,"No CS indicated, so assumed PO"
 play,8,1,bailb103,00,,NP
 sub,oldib101,"Bob Oldis",0,6,2
 play,8,1,bailb103,32,.BBBSSX,63
@@ -4902,8 +4870,6 @@ play,4,1,lyncj102,32,CBBFFBB,W
 play,4,1,burgs101,00,X,36(1)/FO
 play,4,1,clend101,31,BBBCB,W.1-2
 play,4,1,virdb101,22,CBBCX,S9/G.2XH(92);1-2
-com,"Callison's throw to right of plate, good tag by Dalrymple"
-com,"Pirates argued Burgess safe"
 play,5,0,wineb101,02,..SSX,S8/G
 play,5,0,amarr101,11,LB>X,S8.1-3
 play,5,0,culpr101,00,X,2/BP/FL
@@ -4915,7 +4881,6 @@ play,5,1,cardd101,00,X,9
 play,5,1,bailb103,02,SSC,K
 play,6,0,demed101,00,UX,D8
 play,6,0,torrf102,00,UX,D9.2-3
-com,"Torre's double off Clemente's glove"
 play,6,0,dalrc101,30,.IIII,IW
 play,6,0,wineb101,00,,NP
 sub,law-v101,"Vern Law",1,9,1
@@ -5080,8 +5045,6 @@ play,4,1,burgs101,??,,5/FL
 play,4,1,clend101,??,,K
 play,5,0,moraa102,??,,E6.B-1
 play,5,0,crair101,??,,S9.1-H(E5)(UR)(NR)#
-com,"When this E5? Craig's hit, Piersall's FO, Piersall's SB??"
-com,"Definite no RBI on scoresheet"
 play,5,0,pierj102,??,,6(1)/FO
 play,5,0,nealc101,??,,SB2#
 play,5,0,nealc101,??,,K
@@ -5215,6 +5178,8 @@ play,2,1,haddh101,??,,43
 play,3,0,huntr101,??,,S7
 play,3,0,thomf103,??,,S7.1-3
 play,3,0,harkt101,??,,6(1)3/GDP.3-H(NR)
+com,"ej,harkt101,P,smitv101,Call at 1B"
+com,"Tim Harkness ejected by 1B umpire Vinnie Smith"
 play,3,0,nealc101,??,,53
 play,3,1,schod101,??,,NP
 sub,krane101,"Ed Kranepool",0,5,3
@@ -5233,8 +5198,6 @@ play,4,1,bailb103,??,,W.1-2
 play,4,1,logaj101,??,,64(1)3/GDP
 play,5,0,hickj103,??,,S8
 play,5,0,pierj102,??,,K+OA/DP.1X2(24)#
-com,"Check to confirm this was DP"
-com,"Not a CS"
 play,5,0,huntr101,??,,S8
 play,5,0,thomf103,??,,7
 play,5,1,law-v101,??,,43
@@ -5364,7 +5327,6 @@ play,1,1,clemr101,??,,6/P
 play,2,0,thomf103,??,,43
 play,2,0,harkt101,??,,HP
 play,2,0,tayls102,??,,6(1)3/GDP
-com,"Assume not LDP because not noted"
 play,2,1,lyncj102,??,,8/L
 play,2,1,burgs101,??,,S8
 play,2,1,clend101,??,,7
@@ -5432,7 +5394,6 @@ play,8,1,burgs101,??,,IW
 play,8,1,clend101,??,,NP
 sub,branr101,"Ron Brand",1,5,12
 play,8,1,clend101,??,,4/P.3-H(E4)(NR)(UR);1-3(E4)#
-com,"Kanehl had 2 errors in inning... probably both here"
 play,8,1,bailb103,??,,S8.3-H(UR)
 play,8,1,logaj101,??,,46(1)/FO
 play,9,0,hickj103,??,,NP
@@ -5955,7 +5916,6 @@ play,6,0,asprb101,??,,2/FL
 play,6,1,burgs101,??,,S
 play,6,1,clend101,??,,54(1)/FO
 play,6,1,bailb103,??,,E5.1-3(E5/TH);B-2
-com,"Yes, 2 E5s on same play"
 play,6,1,law-v101,??,,34.3-3;2-2
 play,6,1,schod101,??,,7
 play,7,0,staur001,??,,43
@@ -6052,7 +6012,6 @@ play,3,0,marij101,??,,53
 play,3,1,clend101,??,,W
 play,3,1,bailb103,??,,54(1)/FO
 play,3,1,frieb102,??,,1(B)4(1)/FDP
-com,"Likely a BPDP."
 play,4,0,aloum101,??,,S
 play,4,0,hillc101,??,,63.1-2
 play,4,0,mccow101,??,,S/89.2-3;BX2(96)
@@ -6328,7 +6287,6 @@ play,3,1,mazeb101,??,,4
 play,4,0,hillc101,??,,63
 play,4,0,mccow101,??,,K/C
 play,4,0,maysw101,??,,HR7/IPHR
-com,"IPHR"
 play,4,0,baile101,??,,K
 play,4,1,starw101,??,,K
 play,4,1,burgs101,??,,31
@@ -6371,7 +6329,6 @@ play,8,1,mazeb101,??,,NP
 sub,alouf101,"Felipe Alou",0,1,7
 play,8,1,mazeb101,??,,NP
 sub,mccow101,"Willie McCovey",0,3,9
-com,"Not sure when Alou and McCovey swapped positions"
 play,8,1,mazeb101,??,,NP
 sub,fishj101,"Jack Fisher",0,9,1
 play,8,1,mazeb101,??,,9
@@ -6483,7 +6440,6 @@ play,4,0,aloum101,??,,43
 play,4,0,davej101,??,,43
 play,4,1,bailb103,??,,S7
 play,4,1,paglj101,??,,SB2#
-com,"SB may have occurred with any of the next three at bat."
 play,4,1,paglj101,??,,K
 play,4,1,schwd101,??,,9
 play,4,1,schod101,??,,K/C
@@ -6534,7 +6490,6 @@ sub,motam101,"Manny Mota",1,5,7
 play,9,0,mccow101,??,,9
 play,9,0,cepeo101,??,,S
 play,9,0,hallt102,??,,6(1)3/GDP
-com,"May have been an LDP."
 data,er,sanfj101,3
 data,er,larsd102,0
 data,er,schwd101,2
@@ -6596,7 +6551,6 @@ play,1,0,moonw101,31,BFBBX,8
 play,1,0,davit103,12,CCBC,K
 play,1,1,schod101,00,X,7
 play,1,1,virdb101,21,BBCX,S8/G
-com,"Virfon's S bad hop past Gilliam"
 play,1,1,clemr101,22,.BF>FFFBX,8
 play,1,1,mazeb101,21,BBFX,8/L
 play,2,0,fairr101,32,BBFBFFFFX,HR/7
@@ -6624,11 +6578,10 @@ sub,siskt101,"Tommie Sisk",1,9,1
 play,4,0,rosej101,31,.BBCBX,46(1)/FO
 play,4,0,daviw102,22,BBF>F>X,3/G.1-2
 play,4,0,mcmuk101,30,IIIX,43
-com,"McMullen swung at 4th intentional ball! oops-now 1 leads off"
+com,"$Ken McMullen swung at fourth intentional ball"
 play,4,1,starw101,00,.X,8
 play,4,1,burgs101,11,BCX,8
 play,4,1,clend101,00,X,S4
-com,"Clendennon S a bad hop"
 play,4,1,bailb103,11,.BSX,5/FL
 play,5,0,millb106,01,FX,S7/G
 play,5,0,willm102,00,X,53/SH.1-2
@@ -6658,7 +6611,8 @@ play,7,1,motam101,00,.X,1/BP
 play,7,1,schod101,00,,NP
 sub,perrr101,"Ron Perranoski",0,9,1
 play,7,1,schod101,00,.X,S6.2-3;1-2
-com,"Alston ejected by Sudol"
+com,"ej,alstw101,M,lands901,Call at 1B"
+com,"Dodgers Manager Walter Alston ejected by 1B umpire Stan Landes"
 play,7,1,virdb101,12,.CFBX,12(3)/FO.2-3;1-2
 play,7,1,clemr101,10,BX,43
 play,8,0,moonw101,00,,NP
@@ -6674,7 +6628,6 @@ sub,branr101,"Ron Brand",1,6,12
 play,8,1,clend101,12,.SBFX,43
 play,9,0,rosej101,00,,NP
 sub,branr101,"Ron Brand",1,6,2
-com,"Roth nor paper box show Brand to C or other C entering game!"
 play,9,0,rosej101,32,..BFSBBC,K
 play,9,0,daviw102,01,LX,8/L
 play,9,0,mcmuk101,11,BSX,S8/G
@@ -6761,7 +6714,6 @@ play,2,1,frane101,12,SFBC,K
 play,2,1,schod101,12,SBFS,K
 play,3,0,daviw102,32,BSFBBB,W
 play,3,0,mcmuk101,10,BX,43.1-2
-com,"McMullen hitDP ball, but Maz bobbled and only got 1 out"
 play,3,0,podrj101,01,.CX,43.2-3
 play,3,0,willm102,32,BFFFBFFBS,K
 play,3,1,virdb101,10,BX,43
@@ -6999,7 +6951,6 @@ sub,mcbea101,"Al McBean",1,9,1
 play,9,0,banke101,02,,K
 play,9,0,hubbk101,22,,K
 play,9,0,bertd101,01,,S8/G
-com,"Lynch PA 'S8.E7', I went with S7.E7"
 play,9,0,rodga101,00,,BK.1-2
 play,9,0,rodga101,11,,S3/G.2-3
 play,9,0,warnj104,00,,NP
@@ -7063,9 +7014,6 @@ start,clend101,"Donn Clendenon",1,7,3
 start,bailb103,"Bob Bailey",1,8,5
 start,cardd101,"Don Cardwell",1,9,1
 play,1,0,brocl102,21,,43
-com,"I think Dh for r_ainout 7/20 bottom of 4th 0-0 after 80 min."
-com,"delay. Jackson on bench e_jected by Crawford. Fine r_ained out"
-com,"too?"
 play,1,0,burte101,00,,3/P
 play,1,0,willb104,01,,9
 play,1,1,schod101,32,,K/C
@@ -7081,7 +7029,6 @@ play,3,0,ranem101,12,,S7/L
 play,3,0,rodga101,02,,K/C
 play,3,0,tothp101,10,,14/SH.1-2
 play,3,0,brocl102,00,,HR8/IPHR.2-H
-com,"IPHR"
 play,3,0,burte101,32,,K
 play,3,1,clend101,10,,HR/9
 play,3,1,bailb103,32,,W
@@ -7231,7 +7178,6 @@ play,3,0,rodga101,31,,31
 play,3,0,lemad103,12,,K
 play,3,0,brocl102,32,,W
 play,3,0,burte101,21,,OA.1X2(26)#
-com,"One of Brock's CS in this game not ruled a CS"
 play,3,1,schod101,21,,S7/L
 play,3,1,motam101,00,,PO1(E1).1-2
 play,3,1,motam101,10,,S1/G.2-2
@@ -7255,7 +7201,6 @@ sub,branr101,"Ron Brand",1,7,12
 play,5,1,virdb101,11,,8
 play,5,1,schwd101,10,,S8/L.1-2
 play,5,1,schod101,00,,75(2)/FO.1-2
-com,"Yep, 75 FO"
 play,5,1,motam101,12,,64(1)/FO
 play,6,0,hobbg101,00,,NP
 sub,branr101,"Ron Brand",1,7,2
@@ -7330,7 +7275,6 @@ play,10,0,brocl102,00,,S7/L
 play,10,0,burte101,12,,6/P
 play,10,0,willb104,00,,5/FL
 play,10,0,santr102,22,,CS2(26)
-com,"Did someone PH for Buhl before CS2, because Brewer now in"
 play,10,1,burgs101,00,,NP
 sub,brewj102,"Jim Brewer",0,5,1
 play,10,1,burgs101,00,,9
@@ -7365,7 +7309,6 @@ play,13,1,cardd101,32,,K/C
 play,13,1,clemr101,32,,43
 play,14,0,santr102,11,,63
 play,14,0,warnj104,00,,FLE3
-com,"Looks like , but could be POE3.1-2 ??"
 play,14,0,warnj104,02,,S7/G
 play,14,0,hubbk101,01,,9
 play,14,0,bertd101,11,,1
@@ -7463,9 +7406,7 @@ play,3,1,bailb103,??,,99/G
 play,3,1,motam101,??,,99/G
 play,4,0,aaroh101,??,,W
 play,4,0,torrj101,??,,PO1(E1).1-2#
-com,"Cardwell needs an error"
 play,4,0,torrj101,??,,FLE5#
-com,"Bailey needs an error"
 play,4,0,torrj101,??,,99/F
 play,4,0,olivg101,??,,99/G
 play,4,0,menkd101,??,,99/L
@@ -7632,7 +7573,7 @@ play,7,1,logaj101,??,,K23
 play,8,0,mayel101,??,,3/G
 play,8,0,aaroh101,??,,7/F
 play,8,0,mathe101,??,,43
-com,"$s/s says bank of lights went out now"
+com,"$one bank of lights went out"
 play,8,1,frieb102,??,,S6
 play,8,1,bailb103,??,,14(1)/FO/BG
 play,8,1,virdb101,??,,63.1-2
@@ -7935,8 +7876,7 @@ play,1,0,runnp101,??,,63
 play,1,0,asprb101,??,,K
 play,1,1,bailb103,??,,53
 play,1,1,virdb101,??,,D
-play,1,1,clemr101,??,,S.2-H;B-2(THH)#
-com,"Sheet doesn't indicate B-2, but Clemente must score Maz' S"
+play,1,1,clemr101,??,,S.2-H;B-2(THH)
 play,1,1,lyncj102,??,,8
 play,1,1,mazeb101,??,,S.2-H
 play,1,1,clend101,??,,HP.1-2
@@ -7972,11 +7912,9 @@ play,5,0,runnp101,??,,W
 play,5,0,asprb101,??,,D.1-3
 play,5,0,smith106,??,,NP
 sub,vealb101,"Bob Veale",1,9,1
-play,5,0,smith106,??,,FC6.3XH(625);2-3;B-1#
-com,"Smith may have been able to reach 2B"
-play,5,0,staur001,??,,WP.3-H;1-3#
-com,"When WP, also did Smith 1-3 (if on FC not B-2)"
-play,5,0,staur001,??,,WP.3-H#
+play,5,0,smith106,??,,FC6.3XH(625);2-3;B-1
+play,5,0,staur001,??,,WP.3-H;1-3
+play,5,0,staur001,??,,WP.3-H
 play,5,0,staur001,??,,W
 play,5,0,warwc101,??,,K
 play,5,0,wynnj101,??,,W.1-2
@@ -8052,7 +7990,6 @@ play,9,0,warwc101,??,,64(1)3/GDP
 play,9,1,virdb101,??,,43
 play,9,1,clemr101,??,,43
 play,9,1,mcbea101,??,,K
-com,"MEDIC! 2 extra-inning game DH; 26 innings. Ouch"
 play,10,0,wynnj101,??,,E3.B-1
 play,10,0,gossh101,??,,36(1)/FO
 play,10,0,drotd101,??,,K/C
@@ -8199,7 +8136,6 @@ sub,smith106,"Hal Smith",0,8,11
 play,8,0,smith106,??,,K/C
 play,8,1,bailb103,??,,NP
 sub,fazie101,"Ernie Fazio",0,8,6
-com,"Fazio's only SS appearance in 1963"
 play,8,1,bailb103,??,,8
 play,8,1,virdb101,??,,3/G
 play,8,1,clemr101,??,,9
@@ -8302,8 +8238,6 @@ play,6,0,asprb101,??,,9
 play,6,0,batej102,??,,5/FL
 play,6,1,logaj101,??,,S
 play,6,1,gibbj102,??,,3(B)4(1)/LDP
-com,"Odd DP with man on first, bunt rotation must've been on and"
-com,"Gibbon swung"
 play,6,1,bailb103,??,,7
 play,7,0,wynnj101,??,,D
 play,7,0,staur001,??,,S.2-3
@@ -8327,7 +8261,6 @@ sub,savat101,"Ted Savage",1,7,12
 play,8,1,logaj101,??,,NP
 sub,burgs101,"Smoky Burgess",1,8,11
 play,8,1,burgs101,??,,SB2#
-com,"Timing of the steal a guess"
 play,8,1,burgs101,??,,6/P
 play,8,1,gibbj102,??,,NP
 sub,motam101,"Manny Mota",1,9,11
@@ -8737,7 +8670,6 @@ play,5,0,gonzt101,02,SFS,K
 play,5,1,virdb101,00,,NP
 sub,durer101,"Ryne Duren",0,9,1
 play,5,1,virdb101,32,.BBBCCB,W
-com,"Lewis indicates argument during or at end of Virdon PA"
 play,5,1,clemr101,00,.X,46(1)3/GDP
 play,5,1,lyncj102,01,CX,6/L
 play,6,0,sievr101,00,UX,8
@@ -8917,8 +8849,7 @@ play,8,0,dalrc101,00,,NP
 sub,mcbea101,"Al McBean",1,9,1
 play,8,0,dalrc101,00,.X,D9/3
 play,8,0,wineb101,00,UX,34/SH.2-3
-play,8,0,klipj101,10,BB,OA.3XH(2)#
-com,"Not officially a CS"
+play,8,0,klipj101,10,BB,OA.3XH(2)
 play,8,0,klipj101,32,BB.FBCFFFS,K
 play,8,1,virdb101,21,BCBX,S9
 play,8,1,clemr101,22,FLBBFFX,64(1)3/GDP
@@ -9023,8 +8954,7 @@ play,5,0,poweg101,??,,S7
 play,5,0,carmd101,??,,K/C
 play,5,0,harkt101,??,,4/L
 play,5,1,clend101,??,,163
-com,"Clendenon's liner hit Powell on right cheek"
-com,"Powell stayed in game"
+com,"$Don Clendenon's liner hit Grover Powell on right cheek"
 play,5,1,bailb103,??,,S8
 play,5,1,virdb101,??,,WP.1-2
 play,5,1,virdb101,??,,4(B)6(2)/LDP
@@ -9033,7 +8963,7 @@ play,6,0,gondj101,??,,4(1)/FO
 play,6,0,snidd101,??,,6(1)3/GDP
 play,6,1,branr101,??,,NP
 sub,ciscg101,"Galen Cisco",0,9,1
-com,"Powell leaves complaining of blurred vision"
+com,"$Grover Powell left with blurred vision"
 play,6,1,branr101,??,,63
 play,6,1,frieb102,??,,43
 play,6,1,schod101,??,,K
@@ -9160,7 +9090,6 @@ play,5,0,carmd101,??,,K
 play,5,1,logaj101,??,,7
 play,5,1,cardd101,??,,E5.B-2
 play,5,1,branr101,??,,S9.2-3;B-2(E2)#
-com,"Guessing how E2 entered in, maybe FLe2?"
 play,5,1,motam101,??,,W
 play,5,1,clemr101,??,,3/G.3-H(UR);2-3;1-2
 play,5,1,mazeb101,??,,S9.3-H(UR);2-H(UR)
@@ -9171,7 +9100,6 @@ play,6,0,huntr101,??,,HP
 play,6,0,snidd101,??,,D9.1-3
 play,6,0,thomf103,??,,53.3-H;2-2#
 play,6,0,harkt101,??,,43.2-3#
-com,"Snider's advancing on last to grounders guessed"
 play,6,0,hickj103,??,,53
 play,6,1,bailb103,??,,8
 play,6,1,virdb101,??,,13
@@ -9207,7 +9135,6 @@ play,9,0,hookj101,??,,NP
 sub,chrij101,"Joe Christopher",0,9,11
 play,9,0,chrij101,??,,NP
 sub,facer101,"Roy Face",1,9,1
-com,"Paper's box shows Face 2/3 IP, but not in box's Pirates lineup"
 play,9,0,chrij101,??,,K
 play,9,0,carmd101,??,,K/C
 data,er,jacka101,2
@@ -9292,7 +9219,6 @@ play,3,1,clemr101,??,,43
 play,4,0,kaner101,??,,D7
 play,4,0,huntr101,??,,BK.2-3
 play,4,0,huntr101,??,,FC/SH.3-H;B-1
-com,"Poor Met scorer gave Hunt FC SF! Times story confirms box"
 play,4,0,thomf103,??,,HR/8.1-H
 play,4,0,hickj103,??,,8/L
 play,4,0,harkt101,??,,K
@@ -9319,8 +9245,6 @@ play,5,1,bailb103,??,,S4
 play,5,1,virdb101,??,,3/G
 play,6,0,shern102,??,,NP
 sub,frane101,"Earl Francis",1,9,1
-com,"Francis started top 6th McBean top 7th"
-com,"Mets scorer left Francis off sheet"
 play,6,0,shern102,??,,W
 play,6,0,moraa102,??,,54(1)/FO
 play,6,0,crair101,??,,43.1-2
@@ -9328,15 +9252,11 @@ play,6,0,chrij101,??,,63
 play,6,1,clemr101,??,,3/G
 play,6,1,lyncj102,??,,S7
 play,6,1,starw101,??,,HR8/IPHR.1-H
-com,"IPHR"
 play,6,1,mazeb101,??,,63
 play,6,1,paglj101,??,,HR/9
 play,6,1,schod101,??,,S9
 play,6,1,frane101,??,,NP
 sub,clend101,"Donn Clendenon",1,9,11
-com,"DWENTRY and CHECK let me bat Clemente here w/o telling me already in"
-com,"EXBOX for one of the games gave me the following including 2 fors:"
-com,"Incorrect position 8 for putout registered for for player -29980"
 play,6,1,clend101,??,,NP
 sub,bearl101,"Larry Bearnarth",0,9,1
 play,6,1,clend101,??,,64(1)/FO
@@ -9345,7 +9265,6 @@ sub,mcbea101,"Al McBean",1,9,1
 play,7,0,kaner101,??,,W
 play,7,0,huntr101,??,,S7.1-3
 play,7,0,thomf103,??,,CS2(26)#
-com,"Guessing scoring and when CS occurred"
 play,7,0,thomf103,??,,K/C
 play,7,0,hickj103,??,,K
 play,7,1,bailb103,??,,13
@@ -9359,10 +9278,7 @@ play,8,0,snidd101,??,,S8.1-3#
 play,8,0,moraa102,??,,NP
 sub,gondj101,"Jesse Gonder",0,8,11
 play,8,0,gondj101,??,,S5.3-H;1-H(E5/TH2)(NR);B-3
-com,"Fortunately, paper's story covered this"
-com,"Check it out TH2!"
 play,8,0,bearl101,??,,S7.3-H
-com,"Bearnarth singled over drawn in infield"
 play,8,0,chrij101,??,,NP
 sub,haddh101,"Harvey Haddix",1,9,1
 play,8,0,chrij101,??,,9
@@ -9513,7 +9429,6 @@ play,8,1,savat101,??,,W
 play,8,1,bailb103,??,,W.1-2
 play,8,1,motam101,??,,SB3#
 play,8,1,motam101,??,,2/BP/FL
-com,"Edwards made a diving catch."
 play,8,1,clemr101,??,,S9.3-H;1-3
 play,8,1,mazeb101,??,,NP
 sub,worta101,"Al Worthington",0,9,1
@@ -9596,7 +9511,6 @@ start,schod101,"Dick Schofield",1,8,6
 start,frieb102,"Bob Friend",1,9,1
 play,1,0,rosep001,??,,8/8D
 play,1,0,harpt101,??,,E6#
-com,"I am assuming this is what happened here."
 play,1,0,pinsv101,??,,64(1)3/GDP
 play,1,1,bailb103,??,,7
 play,1,1,motam101,??,,63
@@ -9642,9 +9556,9 @@ play,5,1,savat101,??,,7
 play,6,0,edwaj101,??,,NP
 sub,mcbea101,"Al McBean",1,9,1
 play,6,0,edwaj101,??,,S
-com,"McBean was forced to leave the game with a sore arm."
 play,6,0,freeg102,??,,NP
 sub,frane101,"Earl Francis",1,9,1
+com,"Al McBean left with sore arm"
 play,6,0,freeg102,??,,7
 play,6,0,cardl101,??,,HP.1-2
 play,6,0,otooj101,??,,K
@@ -9655,7 +9569,6 @@ play,6,1,clemr101,??,,K
 play,6,1,mazeb101,??,,6
 play,6,1,clend101,??,,64(1)/FO
 play,7,0,harpt101,??,,HR8/IPHR
-com,"IPHR"
 play,7,0,pinsv101,??,,3/G
 play,7,0,robif103,??,,53
 play,7,0,coleg101,??,,7
@@ -9675,8 +9588,6 @@ play,8,0,edwaj101,??,,D9
 play,8,0,freeg102,??,,E1/SH.2-3
 play,8,0,cardl101,??,,FC4.3XH(42);1-2
 play,8,0,keoum101,??,,K.2-H(E5)(UR);1-3#
-com,"It is unclear how and when Bailey made this error, although"
-com,"the scoresheet says it came on a catcher's throw."
 play,8,0,rosep001,??,,13
 play,8,1,bailb103,??,,K
 play,8,1,motam101,??,,T8
@@ -9752,8 +9663,6 @@ start,clend101,"Donn Clendenon",1,6,3
 start,bailb103,"Bob Bailey",1,7,5
 start,paglj101,"Jim Pagliaroni",1,8,2
 start,cardd101,"Don Cardwell",1,9,1
-com,"The scoresheet does not list any positions for the Reds"
-com,"players, so I am assuming them all."
 play,1,0,rosep001,??,,63
 play,1,0,harpt101,??,,43
 play,1,0,pinsv101,??,,8
@@ -9847,8 +9756,7 @@ play,9,1,motam101,??,,NP
 sub,worta101,"Al Worthington",0,9,1
 play,9,1,motam101,??,,64(1)/FO.2-3
 play,9,1,schod101,??,,W.1-2
-play,9,1,virdb101,??,,HR/9D.3-H;2-H;1-H
-com,"Virdon homered on the 1st pitch."
+play,9,1,virdb101,00,,HR/9D.3-H;2-H;1-H
 data,er,tsitj101,3
 data,er,henrb101,1
 data,er,worta101,2
@@ -10255,7 +10163,6 @@ play,6,1,mazeb101,??,,NP
 sub,altmg101,"George Altman",0,6,9
 play,6,1,mazeb101,??,,S
 play,6,1,paglj101,??,,3/G.1-1#
-com,"NO ADVANCEMENT ON GB TO 1ST?"
 play,6,1,virdb101,??,,S.1-2
 play,6,1,bailb103,??,,WP.2-3;1-2
 play,6,1,bailb103,??,,K
@@ -10421,14 +10328,13 @@ play,5,1,mazeb101,??,,K
 play,5,1,schod101,??,,8
 play,6,0,boyek101,??,,63
 play,6,0,musis101,??,,7
-play,6,0,altmg101,??,,S.BX2(3)#
-com,"ALTMAN ROUNDED 1ST ON LOW THROW & WAS TAGGED OUT"
+play,6,0,altmg101,??,,S.BX2(3)
+com,"$George Altman rounded 1B on low throw"
 play,6,1,lyncj102,??,,NP
 sub,kolbg101,"Gary Kolb",0,5,7
 play,6,1,lyncj102,??,,7
 play,6,1,virdb101,??,,S
-play,6,1,clemr101,??,,S.1X2(46)#
-com,"unusual scoring"
+play,6,1,clemr101,??,,S.1X2(46)
 play,6,1,burgs101,??,,D.1-H
 play,6,1,starw101,??,,3/G
 play,7,0,mccat101,??,,43
@@ -10451,8 +10357,7 @@ sub,shanb102,"Bobby Shantz",0,9,1
 play,8,1,lyncj102,??,,2/FL
 play,8,1,virdb101,??,,13
 play,8,1,clemr101,??,,S
-play,8,1,burgs101,??,,S.1-2#
-com,"no advancement listed"
+play,8,1,burgs101,??,,S.1-2
 play,8,1,starw101,??,,NP
 sub,branr101,"Ron Brand",1,6,12
 play,8,1,starw101,??,,NP
@@ -10463,8 +10368,7 @@ sub,branr101,"Ron Brand",1,6,2
 play,9,0,kolbg101,??,,NP
 sub,clend101,"Donn Clendenon",1,7,3
 play,9,0,kolbg101,??,,S
-play,9,0,altmg101,??,,3(B)4(1)/DP#
-com,"TAG PLAY?"
+play,9,0,altmg101,??,,3(B)4(1)/DP
 play,9,0,mccat101,??,,9
 play,9,1,bailb103,??,,S
 play,9,1,schwd101,??,,NP
@@ -10535,7 +10439,6 @@ play,1,0,gillj102,10,BX,8
 play,1,0,moonw101,12,FCBX,S8/L
 play,1,0,davit103,00,>X,S9/G.1-3
 play,1,0,fairr101,01,CX,S9/F.3-H;1-3
-com,"hit screen"
 play,1,0,howaf102,01,.CX,54(1)/FO
 play,1,1,schod101,12,FFBX,6
 play,1,1,motam101,22,FBBFC,K
@@ -10683,7 +10586,6 @@ play,1,0,gillj102,11,BFC,SB2
 play,1,0,gillj102,32,BFC.BFBFX,43.2-3
 play,1,0,davit103,00,.X,S8/G.3-H
 play,1,0,howaf102,01,FX,S9.1-3;B-2(E3)
-com,"Originally coded 9E3 but no assist given officially"
 play,1,0,skowb101,30,IIII,IW
 play,1,0,mcmuk101,00,X,46(1)3/GDP
 play,1,1,mazeb101,01,CX,S8/L
@@ -10749,7 +10651,6 @@ play,6,0,gillj102,12,CFBX,S8/G.2-H
 play,6,0,davit103,21,BFBX,5/FL
 play,6,0,howaf102,30,BBBB,W.1-2
 play,6,0,skowb101,12,CBFX,46(1)3/GDP
-com,"Maz made diving stop on Skowron"
 play,6,1,virdb101,32,.BBCFFBB,W
 play,6,1,clemr101,00,X,53/SH.1-2
 play,6,1,burgs101,10,BX,HR/9/L.2-H
@@ -10775,7 +10676,6 @@ play,8,1,clemr101,00,,NP
 sub,tracd101,"Dick Tracewski",0,2,4
 play,8,1,clemr101,00,.,NP
 sub,perrr101,"Ron Perranoski",0,9,1
-com,"Check box to see if Perranoski bats 9th or 2nd"
 play,8,1,clemr101,11,...CBX,8
 play,8,1,burgs101,02,CFS,K
 play,8,1,clend101,21,BBCX,53
@@ -10850,7 +10750,7 @@ start,mazeb101,"Bill Mazeroski",1,6,4
 start,virdb101,"Bill Virdon",1,7,8
 start,bailb103,"Bob Bailey",1,8,5
 start,frieb102,"Bob Friend",1,9,1
-com,"71 minute rain delay at start of game"
+com,"71 minute rain delay before start of game"
 play,1,0,willm102,10,BX,31
 play,1,0,gillj102,12,CCBX,S9/L
 play,1,0,moonw101,11,CBX,S7/L.1-2
@@ -11128,7 +11028,6 @@ play,11,0,hallt102,??,,S
 play,11,0,pagaj101,??,,CS2(26)
 play,11,0,pagaj101,??,,NP
 sub,frane101,"Earl Francis",1,9,1
-com,"CS apparently occurred before pitching change."
 play,11,0,pagaj101,??,,K/C
 play,11,0,bowme101,??,,NP
 sub,mccow101,"Willie McCovey",0,9,11
@@ -11253,7 +11152,6 @@ play,3,1,virdb101,??,,K
 play,3,1,clemr101,??,,43
 play,4,0,alouf101,??,,S7
 play,4,0,pagaj101,??,,SB2#
-com,"SB may have occurred with Pagan or Sanford at bat."
 play,4,0,pagaj101,??,,9
 play,4,0,sanfj101,??,,K/BF
 play,4,0,kuenh101,??,,S.2-H
@@ -11294,13 +11192,11 @@ play,7,1,virdb101,??,,W.1-2
 play,7,1,clemr101,??,,K/C
 play,8,0,pagaj101,??,,D7
 play,8,0,sanfj101,??,,WP.2-3#
-com,"WP may have occurred with Sanford or Kuenn at bat."
 play,8,0,sanfj101,??,,K/BF
 play,8,0,kuenh101,??,,8/SF.3-H
 play,8,0,hillc101,??,,8
 play,8,1,burgs101,??,,NP
 sub,davej101,"Jim Davenport",0,1,5
-com,"Davenport may not have entered until later."
 play,8,1,burgs101,??,,2/FL
 play,8,1,clend101,??,,S7
 play,8,1,mazeb101,??,,64(1)3/GDP
@@ -11432,7 +11328,6 @@ play,7,0,odelb101,??,,K
 play,7,0,alouf101,??,,W
 play,7,0,hillc101,??,,S8.1-3
 play,7,0,mccow101,??,,S8.3-H;1-H(E8);B-3(E8)
-com,"Mota apparently was charged with 2 errors here."
 play,7,0,maysw101,??,,NP
 sub,frane101,"Earl Francis",1,9,1
 play,7,0,maysw101,??,,IW
@@ -11459,8 +11354,6 @@ play,8,0,hillc101,??,,S9.1-3
 play,8,0,alouj101,??,,5
 play,8,0,maysw101,??,,S8.1-3;3-H
 play,8,0,cepeo101,??,,PO1(E1).3-H#
-com,"Hardly certain of this being a POE, but Hiller scored somehow"
-com,"as a result of an error charged to Face."
 play,8,0,cepeo101,??,,S7.1-3
 play,8,0,baile101,??,,S9.1-3;3-H
 play,8,0,davej101,??,,NP
@@ -11711,7 +11604,6 @@ play,7,0,burte101,12,,31
 play,7,0,hubbk101,00,,8
 play,7,0,boccj101,02,,K
 play,7,1,clemr101,22,,K
-com,"Clemente Buhl's 1000th K in ML"
 play,7,1,clend101,10,,43
 play,7,1,mazeb101,11,,4/P
 play,8,0,ranem101,00,,S8/G

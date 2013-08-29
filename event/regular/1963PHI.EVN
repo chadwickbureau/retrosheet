@@ -77,7 +77,6 @@ play,4,0,robif103,01,FX,4/P
 play,4,0,coleg101,02,FFC,K
 play,4,1,callj101,10,BX,S8
 play,4,1,gonzt101,00,X,S8.1-2
-com,"No count sign at all for Gonzalez, not usual 0-0 note"
 play,4,1,coviw101,01,.FX,25(2)4/BGDP.1-2
 play,4,1,demed101,12,BCSX,S7/G56.2-H
 play,4,1,dalrc101,31,BCBBX,2/FL
@@ -96,14 +95,12 @@ play,6,1,callj101,11,FBX,D8/89
 play,6,1,gonzt101,32,BBCFBB,W
 play,6,1,coviw101,00,X,46(1)/FO.2-H(E3)(NR)(UR)
 play,6,1,demed101,00,X,6/P
-com,"Demeter also no 0-0 marked"
 play,7,0,robif103,00,.,NP
 sub,torrf102,"Frank Torre",1,5,3
 play,7,0,robif103,00,..,NP
 sub,demed101,"Don Demeter",1,6,7
 play,7,0,robif103,02,...FFS,K
 play,7,0,coleg101,22,BSFBX,43
-com,"Nice play on Coleman"
 play,7,0,edwaj101,01,.FX,E3.B-1
 play,7,0,freeg102,00,X,53
 play,7,1,dalrc101,12,BSSX,43
@@ -208,7 +205,6 @@ play,3,0,robif103,31,CBBBB,W
 play,3,0,coleg101,01,CX,D9.3-H;2-H(UR);1-3
 play,3,0,edwaj101,00,X,D8/89.3-H;2-H
 play,3,0,freeg102,00,X,31
-com,"No pitch count shown on Freese or Harper"
 play,3,0,harpt101,00,.X,13
 play,3,1,amarr101,22,BSSBX,9/L
 play,3,1,mclic101,00,,NP
@@ -268,8 +264,10 @@ play,7,0,edwaj101,00,X,8/8D
 play,7,1,klaub101,32,BBBSCB,W
 play,7,1,culpr101,00,,NP
 sub,grahw101,"Wayne Graham",1,9,11
-play,7,1,grahw101,01,.CS,BK.1-2
 com,"Debut game for Wayne Graham"
+play,7,1,grahw101,01,.CS,BK.1-2
+com,"ej,hutcf101,M,gormt101,Balk call"
+com,"Reds Manager Fred Hutchinson ejected by 3B umpire Tom Gorman"
 play,7,1,grahw101,22,.CS.BBX,E5/G.2-H(NR);B-2
 play,7,1,taylt101,10,BX,S8.2-3
 play,7,1,hoakd101,01,CX,S8.3-H(UR);1-2
@@ -431,7 +429,6 @@ play,7,0,flooc101,??,,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
 play,7,0,flooc101,??,,D
 play,7,0,groad101,??,,21#
-com,"unusual scoring"
 play,7,0,whitb105,??,,K
 play,7,0,boyek101,??,,W
 play,7,0,jamec102,??,,K
@@ -881,18 +878,20 @@ play,4,1,taylt101,??,,W.1-2
 play,4,1,callj101,??,,S.2-H;1-3
 play,4,1,gonzt101,20,,NP
 sub,shanb102,"Bobby Shantz",0,9,1
-com,"SHANTZ REPLACED GIBSON WITH 2-0 COUNT ON GONZALEZ"
 play,4,1,gonzt101,??,,W.1-2
 play,4,1,coviw101,??,,NP
 sub,sievr101,"Roy Sievers",1,4,11
 play,4,1,sievr101,??,,NP
 sub,fanoh101,"Harry Fanok",0,9,1
-play,4,1,sievr101,??,,13#
+play,4,1,sievr101,??,,13
+com,"umpchange,5,umphome,pelec901"
+com,"$HP Umpire Jocko Conlan was struck by a foul ball on the"
+com,"right shoulder in the fourth and left for treatment; 2B"
+com,"umpire Chris Pelekoudas moved to HP"
 play,5,0,boyek101,??,,NP
 sub,sievr101,"Roy Sievers",1,4,3
 play,5,0,boyek101,??,,NP
 sub,demed101,"Don Demeter",1,5,7
-com,"$Umpire Conlan was injured during 5th inning and left game"
 play,5,0,boyek101,??,,W
 play,5,0,carmd101,??,,WP.1-2
 play,5,0,carmd101,??,,W
@@ -1387,7 +1386,6 @@ play,3,1,coviw101,??,,3/G.2-3
 play,3,1,demed101,??,,7
 play,4,0,pagaj101,??,,K
 play,4,0,fishj101,??,,3/G#
-com,"Phillies source scores the play 5-3."
 play,4,0,hillc101,??,,3/G
 play,4,1,hoakd101,??,,43
 play,4,1,dalrc101,??,,S9
@@ -1405,10 +1403,11 @@ play,5,1,demed101,??,,S1.2-3
 play,5,1,hoakd101,??,,64(1)/FO
 play,6,0,alouf101,??,,7
 play,6,0,baile101,??,,K/C
+com,"ej,baile101,P,lands901,Called third strike"
+com,"Ed Bailey ejected by HP umpire Stan Landes"
 play,6,0,pagaj101,??,,13
 play,6,1,dalrc101,??,,NP
 sub,hallt102,"Tom Haller",0,7,2
-com,"Bailey was ejected"
 play,6,1,dalrc101,??,,K/C
 play,6,1,wineb101,??,,6/P
 play,6,1,klipj101,??,,8
@@ -1516,7 +1515,6 @@ play,3,0,gillj102,00,H,HP.1-2
 play,3,0,daviw102,02,FSX,46(1)3/GDP.2-3
 play,3,0,howaf102,12,FCBS,K
 play,3,1,dalrc101,10,BX,S2/BG
-com,"Roth says Dalrymple S2   Lewis says S5"
 play,3,1,wineb101,02,.CSFS,K
 play,3,1,mahaa102,01,LX,FC1/BG.1-2(E1);B-1
 play,3,1,rojac101,10,BX,4/P
@@ -1533,7 +1531,6 @@ play,5,0,drysd101,32,BSBFBS,K
 play,5,0,willm102,12,BFCX,43
 play,5,1,dalrc101,01,FX,7
 play,5,1,wineb101,12,CBFX,S8
-com,"Wine's hit a bloop"
 play,5,1,mahaa102,22,.LLPBS,K
 play,5,1,rojac101,10,BX,3/FL
 play,6,0,gillj102,00,X,9/L
@@ -1542,7 +1539,6 @@ play,6,0,howaf102,12,BCFX,43
 play,6,1,klaub101,01,CX,31
 play,6,1,gonzt101,10,BX,D7/7D
 play,6,1,coviw101,12,CBCX,HR/7/L.2-H
-com,"Covington's homer in upper deck"
 play,6,1,callj101,01,.FX,43
 play,6,1,torrf102,31,BBCBB,W
 play,6,1,dalrc101,01,CX,7/L
@@ -1575,7 +1571,6 @@ sub,demed101,"Don Demeter",1,4,7
 play,9,0,gillj102,10,.BX,3/G
 play,9,0,daviw102,10,BX,9/9D
 play,9,0,howaf102,12,CFBX,S8/78
-com,"Roth called Howard's hit a bloop Lewis hit a pop"
 play,9,0,fairr101,00,.,NP
 sub,tracd101,"Dick Tracewski",0,4,12
 play,9,0,fairr101,11,..BCX,HR/9.1-H
@@ -1675,13 +1670,13 @@ play,4,0,gossh101,22,BSBFFFS,K
 play,4,0,lillb101,22,BBFCX,7/L
 play,4,0,batej102,21,BBCX,5/FL
 play,4,1,taylt101,10,BX,T9/89
-com,"Taylor's triple hit scoreboard"
 play,4,1,callj101,32,.BBBCSS,K
 play,4,1,gonzt101,12,BFFB,WP.3-H
 play,4,1,gonzt101,22,BFFB.X,S8
 play,4,1,coviw101,10,BX,S9/G.1-3
-com,"Mauch argued 1 of these pitches hit Demeter on right hand"
-com,"Smith ejected Mauch"
+com,"ej,maucg101,M,smitv101,HBP non-call"
+com,"Phillies Manager Gene Mauch ejected by HP umpire Vinnie Smith"
+com,"arguing that Don Demeter was struck by a pitch on right hand"
 play,4,1,demed101,11,BF..X,FC3.3XH(3252);1-3;B-2
 play,4,1,hoakd101,31,BBSBX,7
 play,5,0,brucb101,??,X,4/P
@@ -1692,7 +1687,6 @@ play,5,0,staur001,30,BBBB,W
 play,5,0,asprb101,00,,NP
 sub,greed101,"Dallas Green",1,9,1
 play,5,0,asprb101,01,.CX,53
-com,"Great play by Hoak, threw out Aspromonte from his knees"
 play,5,1,dalrc101,32,.BBBSFFB,W
 play,5,1,wineb101,00,X,54(1)/FO
 play,5,1,greed101,00,,NP
@@ -1705,7 +1699,6 @@ sub,hamij101,"Jack Hamilton",1,9,1
 play,6,0,gossh101,??,.X,S7
 play,6,0,lillb101,?2,,K
 play,6,0,batej102,32,.BBBFCX,3/G.1-2
-com,"Scoresheet doesn't show 1-2 advance"
 play,6,0,brucb101,12,.BSCC,K
 play,6,1,gonzt101,01,CX,S9
 play,6,1,coviw101,32,FBBBFB,W.1-2
@@ -1824,7 +1817,6 @@ play,1,0,staur001,22,,HP.1-2
 play,1,0,asprb101,11,,8
 play,1,1,taylt101,00,,S4/BG
 play,1,1,callj101,02,,K+CS2(26)/DP
-com,"Hou had CS 26, Phi as 24"
 play,1,1,gonzt101,01,,2/FL
 play,2,0,gossh101,30,,W
 play,2,0,lillb101,21,,S7.1-3;BX2(564)
@@ -1844,8 +1836,7 @@ play,4,0,staur001,12,,K/C
 play,4,0,asprb101,00,,63
 play,4,0,gossh101,22,,K
 play,4,1,callj101,22,,D9
-play,4,1,gonzt101,31,,D7/7D.2-3#
-com,"Weird but Covington knocks in Callison"
+play,4,1,gonzt101,31,,D7/7D.2-3
 play,4,1,coviw101,20,,D9/9D.3-H;2-H
 play,4,1,sievr101,10,,E6/P.2-3;B-2
 play,4,1,hoakd101,21,,6/P
@@ -2118,7 +2109,6 @@ start,torrf102,"Frank Torre",1,6,3
 start,dalrc101,"Clay Dalrymple",1,7,2
 start,wineb101,"Bobby Wine",1,8,6
 start,klipj101,"Johnny Klippstein",1,9,1
-com,"Klippstein's 162 and last start of his career"
 play,1,0,spana101,32,,7
 play,1,0,lillb101,??,,53
 play,1,0,warwc101,??,,D7
@@ -2286,7 +2276,6 @@ play,3,0,bollf101,00,,7/FL
 play,3,0,aaroh101,22,,7
 play,3,1,shorc102,12,,K
 play,3,1,rojac101,10,,53
-com,"Menke makes great backhand stop on Rojas"
 play,3,1,hoakd101,??,,6/P
 play,4,0,mathe101,32,,S9
 play,4,0,torrj101,02,,K
@@ -2387,7 +2376,6 @@ play,1,1,hoakd101,01,,8/L
 play,1,1,callj101,31,,3/G
 play,1,1,gonzt101,21,,S4
 play,1,1,coviw101,21,,S5.1-3
-com,"Covington's hit was slow roller"
 play,1,1,demed101,10,,WP.1-2
 play,1,1,demed101,32,,5/P
 play,2,0,mathe101,11,,S9
@@ -2538,10 +2526,9 @@ start,greed101,"Dallas Green",1,9,1
 play,1,0,dilld101,01,CX,S8
 play,1,0,bollf101,12,BCSX,54(1)/FO
 play,1,0,aaroh101,31,BBCBB,W.1-2
-play,1,0,mathe101,21,BBCX,E3/TH.2-3;1-2;B-1
-com,"Demeter's throw to 2B hit Aaron"
+play,1,0,mathe101,21,BBCX,E3/TH2.2-3;1-2;B-1
+com,"$Don Demeter's throw struck Hank Aaron"
 play,1,0,larkn101,21,.BBCX,D8/8D.3-H;2-H(UR);1XH(842);B-3(THH)
-com,"Without E3, Aaron would've been erased"
 play,1,0,menkd101,12,SCFBX,8/L
 play,1,1,hoakd101,01,CX,63
 play,1,1,callj101,01,CX,T9/9D
@@ -2768,8 +2755,7 @@ play,4,0,menkd101,??,UX,S9.2-H
 play,4,0,mcmir101,??,UX,S9/89.1-3
 play,4,0,funkf101,00,,NP
 sub,gabrl102,"Len Gabrielson",0,9,11
-play,4,0,gabrl102,12,.BSCX,D9/9D.3-H;1-H;BX3(8E5)#
-com,"Sheet unclear, but Demeter given the assist officially"
+play,4,0,gabrl102,12,.BSCX,D9/9D.3-H;1-H;BX3(8E5)
 play,4,0,dilld101,00,,NP
 sub,hamij101,"Jack Hamilton",1,9,1
 play,4,0,dilld101,??,.UX,D7.3-H(UR)
@@ -3093,7 +3079,6 @@ play,1,0,hubbk101,32,BBCBFX,8/8D
 play,1,0,willb104,22,SSBBS,K
 play,1,0,santr102,21,BCBX,FC5.2X3(5)
 play,1,1,taylt101,00,X,9/L
-com,"Leaping catch by Brock on Taylor liner"
 play,1,1,gonzt101,01,.CX,7/7D
 play,1,1,demed101,22,BFSBX,2/P
 play,2,0,banke101,12,CFFBC,K
@@ -3102,13 +3087,11 @@ play,2,0,mathn101,02,SFS,K
 play,2,0,bertd101,02,SCS,K
 play,2,1,sievr101,00,X,9
 play,2,1,coviw101,01,CH,HP
-com,"Hit on right arm"
 play,2,1,hoakd101,10,.BX,54(1)3/GDP
 play,3,0,ellsd101,32,SBCBBB,W
 play,3,0,brocl102,32,BBBCFFFC,K
 play,3,0,hubbk101,20,BBX,54(1)/FO
 play,3,0,willb104,20,BBS,CS2(26)
-com,"Pitch order for Williams guessed at"
 play,3,1,avere102,12,.BSSX,9
 play,3,1,wineb101,10,BX,63
 play,3,1,boozj101,00,X,4/P
@@ -3124,12 +3107,10 @@ play,5,0,mathn101,02,SSS,K
 play,5,0,bertd101,02,SSX,9
 play,5,0,ellsd101,32,CCBBBC,K
 play,5,1,coviw101,02,SCX,S3/BG
-com,"Lewis said count 0-2 Cubs 1-1 on Covington"
 play,5,1,hoakd101,12,.BCLFS,K
 play,5,1,avere102,01,SX,8
 play,5,1,wineb101,10,BX,53
 play,6,0,brocl102,22,BBSSX,S8
-com,"Guessed on pitch order for Brock"
 play,6,0,hubbk101,00,.X,16(1)/FO/BG
 play,6,0,willb104,12,CSBFFFX,46(1)/FO
 play,6,0,santr102,01,CX,4(1)/FO
@@ -3156,9 +3137,7 @@ play,8,0,bertd101,00,.,NP
 sub,baldj101,"Jack Baldschun",1,9,1
 play,8,0,bertd101,00,..X,53
 play,8,0,ellsd101,12,BSSX,13
-com,"Had to guess pitch order on Ellsworth"
 play,8,0,brocl102,12,.BSSS,K
-com,"Had to guess pitch order on Brock"
 play,8,1,taylt101,12,.BSSC,K
 play,8,1,gonzt101,00,X,6/P
 play,8,1,demed101,00,X,13
@@ -3270,7 +3249,6 @@ play,5,0,hubbk101,10,BX,54(1)3/GDP
 play,5,1,hoakd101,00,,NP
 sub,tothp101,"Paul Toth",0,9,1
 play,5,1,hoakd101,11,.BCX,S7/L
-com,"Lewis has Hoak count 1-1 Cubs 2-1"
 play,5,1,gonzt101,00,.X,46(1)3/GDP
 play,5,1,taylt101,32,BCBCBB,W
 play,5,1,sievr101,01,FX,53
@@ -3356,6 +3334,7 @@ start,demed101,"Don Demeter",1,6,5
 start,dalrc101,"Clay Dalrymple",1,7,2
 start,wineb101,"Bobby Wine",1,8,6
 start,mahaa102,"Art Mahaffey",1,9,1
+com,"Protest=H"
 play,1,0,brocl102,02,LSS,K23
 play,1,0,hubbk101,10,BX,13
 play,1,0,willb104,30,BBBB,W
@@ -3380,9 +3359,9 @@ play,3,0,willb104,00,X,T8.3-H;1-H
 play,3,0,santr102,02,SSC,K
 play,3,1,mahaa102,31,BBBCB,W
 play,3,1,taylt101,32,BCBFBB,W.1-2
-play,3,1,callj101,00,X,2/BP/INT.2-2;1-1
-com,"Mauch protests (presumably game) on Venzon obstruction call"
-com,"on Callison, ball hit bat twice"
+play,3,1,callj101,00,X,2/BP/BINT.2-2;1-1
+com,"$Johnny Callison called for interference when the ball hit"
+com,"the bat twice; Phillies manager Gene Mauch protested the game"
 play,3,1,gonzt101,00,..X,9.2-3
 play,3,1,coviw101,22,BBCFC,K
 play,4,0,ranem101,10,BX,43
@@ -3391,7 +3370,6 @@ play,4,0,landd101,22,BSSBX,8
 play,4,0,bertd101,02,SCS,K
 play,4,1,sievr101,22,SSBBFFX,S7/L
 play,4,1,demed101,11,BCH,HP.1-2
-com,"Demeter hit on left arm"
 play,4,1,dalrc101,00,.X,24/SH.2-3;1-2
 play,4,1,wineb101,01,FX,43.3-H;2-3
 play,4,1,mahaa102,12,SBCX,7/7D
@@ -3523,7 +3501,6 @@ play,3,1,taylt101,??,,S.3-H;2-3
 play,3,1,demed101,??,,SBH;SB2.1-3(E4)
 play,3,1,demed101,??,,6
 play,3,1,sievr101,??,,OA.3XH(253)#
-com,"Unclear;unusual scoring"
 play,4,0,whitb105,??,,6
 play,4,0,groad101,??,,5
 play,4,0,musis101,??,,3/FL
@@ -3879,7 +3856,6 @@ play,6,1,demed101,12,BCSFB,WP.2-3
 play,6,1,demed101,22,BCSFB.S,K
 play,7,0,spend101,00,X,2/FL
 play,7,0,coleg101,01,FX,S8/L
-com,"Demeter misjudged Coleman single"
 play,7,0,edwaj101,00,.X,4(B)3(1)/LDP
 play,7,1,sievr101,22,FFBFBFC,K
 play,7,1,lemoj101,10,BX,63
@@ -3989,7 +3965,7 @@ play,3,1,callj101,01,FX,2/FL
 play,3,1,gonzt101,12,FSBX,9/L
 play,3,1,coviw101,10,BX,S9
 play,3,1,sievr101,32,BFBSBX,S8.1XH(8465)
-com,"Fine trap by Pinson, Covington fell down when held up"
+com,"$Wes Covington fell down when held up at 3B"
 play,4,0,skinb101,11,.BCX,S8
 play,4,0,pinsv101,12,BSFB,CS2(26)
 play,4,0,pinsv101,22,BSFB.X,43
@@ -4048,7 +4024,6 @@ play,9,1,taylt101,00,UX,S4/G
 play,9,1,callj101,00,,NP
 sub,henrb101,"Bill Henry",0,9,1
 play,9,1,callj101,00,.X,HR9/IPHR.1-H
-com,"IPHR"
 play,9,1,gonzt101,32,.BBBCSX,5/FL
 play,10,0,edwaj101,00,,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
@@ -4154,7 +4129,6 @@ play,4,0,robif103,12,BSFS,K
 play,4,0,spend101,02,UCCC,K
 play,4,0,coleg101,00,UX,43
 play,4,1,taylt101,00,UX,D9
-com,"Robinson lost Taylor's double in sun"
 play,4,1,callj101,00,.UX,5/P
 play,4,1,gonzt101,11,BSB,WP.2-3
 play,4,1,gonzt101,31,BSB.BB,W
@@ -4168,7 +4142,6 @@ play,5,1,dalrc101,00,X,HR/9
 play,5,1,wineb101,00,UX,7/L
 play,5,1,boozj101,00,UX,4/P
 play,6,0,rosep001,00,UX,HR8/IPHR
-com,"IPHR"
 play,6,0,skinb101,00,.UX,8
 play,6,0,pinsv101,00,UX,43
 play,6,0,robif103,31,BBSBB,W
@@ -4202,7 +4175,8 @@ play,8,1,callj101,00,UX,31
 play,9,0,edwaj101,00,,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
 play,9,0,edwaj101,32,.BBSBFB,W
-play,9,0,cardl101,10,BX,2/BP/INT.1-1
+play,9,0,cardl101,10,BX,2/BP/BINT.1-1
+com,"$Leo Cardenas called for interference"
 play,9,0,tsitj101,22,BBCLL,K
 play,9,0,rosep001,12,CBFX,S7/G.1-2
 play,9,0,skinb101,11,SBX,8/8D
@@ -4265,14 +4239,11 @@ start,dalrc101,"Clay Dalrymple",1,7,2
 start,wineb101,"Bobby Wine",1,8,6
 start,culpr101,"Ray Culp",1,9,1
 play,1,0,menkd101,12,BSFFS,K
-com,"This s/b T.Aaron's only game at 3B.  Why Bragan has Mathews"
-com,"in left so TA can be at third is beyond me"
 play,1,0,larkn101,31,..BBBCB,W
 play,1,0,aaroh101,32,BFBCBS,K+CS2(24)/DP
 play,1,1,taylt101,01,SX,S8
 play,1,1,callj101,00,X,23/SH.1-2
 play,1,1,gonzt101,11,BSX,D9/9D.2-H
-com,"Gonzalez double off wall at pole"
 play,1,1,demed101,32,.BBSSBX,5/FL
 play,1,1,sievr101,12,CBFX,7/7D
 play,2,0,mathe101,30,BBBB,W
@@ -4284,7 +4255,6 @@ play,2,1,dalrc101,10,BX,34/SH.1-2
 play,2,1,wineb101,00,X,7/L
 play,2,1,culpr101,00,X,43
 play,3,0,mcmir101,11,BFX,53
-com,"Demeter knocked down McMillan's ball--close play"
 play,3,0,hendb101,22,.BBCSS,K
 play,3,0,menkd101,22,BBCFS,K
 play,3,1,taylt101,12,SSBX,9
@@ -4302,7 +4272,6 @@ play,4,1,lemoj101,22,CBFFBX,S8/G.1-2
 play,4,1,dalrc101,02,CFB,WP.2-3;1-2
 play,4,1,dalrc101,32,CFB.BBB,W
 play,4,1,wineb101,12,FFBX,E6/G.3-H(RBI);2-3;1-2;B-1
-com,"McMillan fumbled DP ball"
 play,4,1,culpr101,00,.UX,9
 play,4,1,taylt101,32,BFBBFB,W.3-H(UR);2-3;1-2
 play,4,1,callj101,22,.BBCFS,K
@@ -4444,8 +4413,7 @@ play,5,1,sievr101,00,.UX,53
 play,5,1,lemoj101,21,BCBX,S1.B-2(E1/TH1)
 play,5,1,dalrc101,00,,NP
 sub,amarr101,"Ruben Amaro",1,6,12
-play,5,1,dalrc101,30,.BBBB,W#
-com,"Despite the pitch string on scoresheet, not officially an IBB"
+play,5,1,dalrc101,30,.BBBB,W
 play,5,1,wineb101,01,SX,5(2)/FO.1-2
 play,5,1,mclic101,02,FFX,S1.2-3;1-2
 play,5,1,taylt101,10,BX,8/8D
@@ -4587,7 +4555,8 @@ play,1,0,burte101,01,CX,6/P
 play,1,0,willb104,01,CX,43.1-2
 play,1,0,santr102,22,CBBFFX,S5.2-3
 play,1,0,banke101,32,BBFSBX,D8/8D.3-H;1-H
-com,"Mauch ejected"
+com,"ej,maucg101,M,sudoe901,Visit to pitcher"
+com,"Phillies Manager Gene Mauch ejected by HP umpire Ed Sudol"
 play,1,0,hubbk101,32,.BSFBBB,W
 play,1,0,bertd101,00,X,S7.2-H;1-3;B-2(E7)
 play,1,0,rodga101,12,BCCS,K
@@ -4624,7 +4593,6 @@ play,5,0,brocl102,22,BBSSS,K
 play,5,0,burte101,12,BSSS,K
 play,5,0,willb104,22,SFBBS,K
 play,5,1,taylt101,21,CBBX,9/L
-com,"Brock fell, got up, and still caught Taylor's liner"
 play,5,1,callj101,22,.SBBFS,K
 play,5,1,gonzt101,00,X,S8/G
 play,5,1,demed101,21,BBSX,S4/G.1-3
@@ -4765,7 +4733,6 @@ play,4,0,willb104,00,X,D7
 play,4,0,santr102,22,FSBBX,43
 play,4,1,torrf102,31,BBBCB,W
 play,4,1,dalrc101,12,BFCFX,9/L
-com,"Brock made diving catch on Dalrymple"
 play,4,1,wineb101,00,.X,S8.1-2
 play,4,1,amarr101,21,BFBX,7
 play,4,1,mahaa102,12,SBSS,K
@@ -4815,7 +4782,6 @@ play,8,1,amarr101,21,BBLX,34/SH.1-2
 play,8,1,klipj101,02,SSX,2/FL
 play,8,1,taylt101,12,CBCFS,K
 play,9,0,willb104,10,BX,43
-com,"Williams count when 43 1-0 per Phi 0-1 per Cubs"
 play,9,0,santr102,20,.BBX,HR/7
 play,9,0,banke101,20,BBX,63
 play,9,0,hubbk101,11,FBX,43
@@ -4874,6 +4840,9 @@ start,dalrc101,"Clay Dalrymple",1,6,2
 start,wineb101,"Bobby Wine",1,7,6
 start,amarr101,"Ruben Amaro",1,8,5
 start,culpr101,"Ray Culp",1,9,1
+com,"ej,hoakd101,P,gormt101,Bench jockeying"
+com,"Don Hoak ejected by HP umpire Tom Gorman"
+com,"sometime in game"
 play,1,0,schod101,10,BX,3/G
 play,1,0,virdb101,32,BSBFBB,W
 play,1,0,clemr101,11,BSX,64(1)/FO
@@ -5057,7 +5026,6 @@ sub,vealb101,"Bob Veale",0,9,1
 play,5,1,gonzt101,00,.X,S7.3-H;2-H;1-2
 play,5,1,demed101,21,BCBX,8/8D.2-3;1-2
 play,5,1,torrf102,01,FX,D9.3-H(UR);2-H(UR)
-com,"D9 orig scored as E9, changed after game to hit"
 play,5,1,dalrc101,32,.BBSBFS,K
 play,6,0,vealb101,00,,NP
 sub,rojac101,"Cookie Rojas",1,8,4
@@ -5408,7 +5376,6 @@ play,10,1,mahaa102,22,BBCFFX,D7
 play,10,1,taylt101,01,LX,9/89
 play,10,1,callj101,30,IIII,IW
 play,10,1,gonzt101,02,CFX,54(1)/FO.2-3
-com,"Lewis wrote Callison upset Schofield"
 play,10,1,demed101,12,.FFBX,S7.3-H;1-2
 data,er,frieb102,1
 data,er,mahaa102,0
@@ -5471,7 +5438,6 @@ play,1,1,taylt101,12,FBFC,K
 play,1,1,callj101,32,CBBSBX,S8/G
 play,1,1,gonzt101,32,BFFFBBFFB,W.1-2
 play,1,1,demed101,01,CX,43.2-3;1-2
-com,"Lewis says Schofield bobbled Demeter DP ball"
 play,1,1,sievr101,30,.BIII,IW
 play,1,1,oldib101,12,CBFFX,8
 play,2,0,burgs101,00,UX,3/G
@@ -5490,7 +5456,6 @@ play,3,1,taylt101,00,UX,S4
 play,3,1,callj101,01,LX,53/SH.1-2
 play,3,1,gonzt101,02,SSX,S7.2-H;B-2(THH)
 play,3,1,demed101,12,SSBX,D9.2-3
-com,"Clemente lost Demeter's double in sun"
 play,3,1,sievr101,30,.IIII,IW
 play,3,1,oldib101,11,BFX,64(1)/FO.3-H;2-3
 play,3,1,wineb101,00,UX,D9.3-H;1-H
@@ -5646,9 +5611,7 @@ play,5,0,mccow101,??,,9
 play,5,1,mclic101,??,,W
 play,5,1,taylt101,??,,8
 play,5,1,callj101,??,,W.1-2
-play,5,1,gonzt101,??,,E4.2-3;1-2#
-com,"Originally coded E6... one of Pagan's errors given to Hiller"
-com,"and this seemed the most likely candidate"
+play,5,1,gonzt101,??,,E4.2-3;1-2
 play,5,1,sievr101,??,,S8.1-3;2-H;3-H
 play,5,1,demed101,??,,S7.1-2;3-H(UR)
 play,5,1,hoakd101,??,,NP
@@ -5767,8 +5730,7 @@ play,1,1,taylt101,??,,K/C
 play,1,1,callj101,??,,8
 play,1,1,gonzt101,??,,7
 play,2,0,maysw101,??,,W
-play,2,0,cepeo101,??,,FC4.1X2(456164);B-1
-com,"Technically not a forceout, I suppose."
+play,2,0,cepeo101,??,,FC4/FO.1X2(456164);B-1
 play,2,0,baile101,??,,W.1-2
 play,2,0,davej101,??,,S8.1-3;2-H
 play,2,0,pagaj101,??,,K+CSH(2435)/DP
@@ -5918,8 +5880,8 @@ play,1,0,mccow101,??,,8
 play,1,0,maysw101,??,,W.1-2
 play,1,0,cepeo101,??,,53
 play,1,1,taylt101,??,,S9
-play,1,1,callj101,??,,S9.1-3;BX2(963E4)#
-com,"Hiller called for obstruction."
+play,1,1,callj101,??,,S9/OBS.1-3;BX2(963E4)
+com,"$Chuck Hiller called for obstruction"
 play,1,1,gonzt101,??,,IW
 play,1,1,sievr101,??,,D7.1-H;2-H(UR);3-H
 play,1,1,demed101,??,,S7.2-H;B-2(THH)
@@ -6081,10 +6043,16 @@ play,3,0,hillc101,??,,D9.1-3
 play,3,0,mccow101,??,,63
 play,3,1,amarr101,??,,53
 play,3,1,durer101,??,,HP
+com,"ej,darka101,M,craws901,Intentional HBP"
+com,"Giants Manager Al Dark ejected by HP umpire Shag Crawford"
 play,3,1,taylt101,??,,S9.1-2
 play,3,1,callj101,??,,W.2-3;1-2
 play,3,1,gonzt101,??,,64(1)/FO.2-3;3-H
 play,3,1,sievr101,??,,6/P
+com,"ej,maucg101,M,donaa901,Warning to pitcher"
+com,"$Ryne Duren was warned by the umpires for wetting his fingers"
+com,"on the mound; Phillies Manager Gene Mauch ejected by 3B umpire"
+com,"Augie Donatelli"
 play,4,0,maysw101,??,,8
 play,4,0,cepeo101,??,,S8
 play,4,0,baile101,??,,9
@@ -6230,13 +6198,10 @@ play,2,1,hoakd101,01,FX,D8
 play,2,1,dalrc101,01,CX,13/SH.2-3
 play,2,1,amarr101,02,FFP,OA.3XH(2)
 play,2,1,amarr101,12,FFP.C,K
-com,"CSH of Hoak Lewis scored 2 Roth 12. With pitchout, I buy 2"
-com,"Not officially a CS"
 play,3,0,daviw102,12,.SFBX,S9/G
 play,3,0,podrj101,10,BX,S9/L.1X3(95)
 play,3,0,willm102,30,BBBB,W.1-2
 play,3,0,gillj102,00,X,46(1)3/GDP
-com,"Apparently originally first game of DH, r_ain at start of game"
 play,3,1,mclic101,22,.SCBBS,K
 play,3,1,taylt101,01,FX,S1/BG
 play,3,1,callj101,02,CFX,36(1)3/GDP
@@ -6375,7 +6340,6 @@ play,5,0,davit103,00,X,16(1)3/GDP
 play,5,1,taylt101,01,SX,D9
 play,5,1,callj101,12,BFFFS,K
 play,5,1,gonzt101,01,CX,D8/L.2-H;B-3(E8/THH)
-com,"E8 orig. scored E2 but changed by off. scorer 7/16/63"
 play,5,1,coviw101,12,.SBSFX,43
 play,5,1,sievr101,12,CCBX,S5.3-H;B-2(E5/TH)
 play,5,1,dalrc101,32,FBBBFB,W
@@ -6404,7 +6368,6 @@ play,7,1,coviw101,00,,NP
 sub,demed101,"Don Demeter",1,4,11
 play,7,1,demed101,31,.BSBBX,8
 play,7,1,sievr101,12,BFCX,S7/G
-com,"Sievers' single orig. scored E6, officialy changed 7/16/63"
 play,7,1,dalrc101,01,.CX,3/G
 play,8,0,moonw101,00,,NP
 sub,demed101,"Don Demeter",1,4,7
@@ -6447,8 +6410,6 @@ play,10,1,hoakd101,00,X,S8/78/L
 play,10,1,wineb101,01,MX,26(1)/FO/BG
 play,10,1,baldj101,00,X,24/SH.1-2
 play,10,1,taylt101,30,IIII,IW
-com,"W/ 1-0 count Roth says LF & RF switch, Lewis just says some-"
-com,"time in 10th"
 play,10,1,callj101,01,S..,NP
 sub,moonw101,"Wally Moon",0,3,7
 play,10,1,callj101,01,S...,NP
@@ -6463,7 +6424,6 @@ play,11,1,gonzt101,00,.,NP
 sub,moonw101,"Wally Moon",0,3,9
 play,11,1,gonzt101,00,..,NP
 sub,davit103,"Tommy Davis",0,4,7
-com,"Roth has LF&RF switch back, Lewis doesn't"
 play,11,1,gonzt101,11,....BFX,13
 play,11,1,demed101,21,BFBX,E4/P/8S.B-2
 play,11,1,sievr101,30,IIII,IW
@@ -6571,9 +6531,7 @@ play,5,1,hoakd101,21,BBCX,8/L
 play,6,0,mcmuk101,01,FX,63
 play,6,0,koufs101,02,SSX,13
 play,6,0,willm102,22,BBFFX,S7/G
-com,"Roth says: 'bounce over 5'"
 play,6,0,gillj102,12,.CCBX,D7/F.1-H
-com,"hit top of wall"
 play,6,0,moonw101,12,.CCBX,43
 play,6,1,oldib101,02,SCX,8
 play,6,1,amarr101,00,X,8
@@ -6588,7 +6546,6 @@ play,7,1,gonzt101,22,FBSBX,7/SF.3-H;1-2
 play,7,1,sievr101,02,CCFFX,8
 play,7,1,demed101,00,X,5/FL
 play,8,0,mcmuk101,10,BX,D9/F
-com,"hit wall"
 play,8,0,koufs101,11,.BCX,54/SH.2-3
 play,8,0,willm102,12,CFBS,K
 play,8,0,gillj102,30,BBBB,W
@@ -6602,7 +6559,6 @@ play,8,1,amarr101,21,BFBX,7/L
 play,8,1,baldj101,00,,NP
 sub,avere102,"Earl Averill",1,9,11
 play,8,1,avere102,20,.BBX,D7/L.2-H
-com,"hit top of wall"
 play,8,1,taylt101,12,.SFBX,43
 play,9,0,fairr101,00,,NP
 sub,boozj101,"John Boozer",1,9,1
@@ -6677,7 +6633,6 @@ play,1,1,taylt101,11,BCX,S9/L.B-2(E9)
 play,1,1,callj101,12,SFBX,S9/L.2-H;B-2(THH)
 play,1,1,gonzt101,32,CBBBCX,D7/G.2-H
 play,1,1,sievr101,12,FFBX,S7/7D/L.2-H
-com,"Sievers single was off wall"
 play,1,1,demed101,00,.,NP
 sub,roebe101,"Ed Roebuck",0,9,1
 play,1,1,demed101,32,..BSBSBS,K
@@ -6710,8 +6665,8 @@ play,4,0,fairr101,00,X,S9/L.1-2
 play,4,0,mcmuk101,01,SX,4/L
 play,4,0,olivn101,30,BBBB,W.2-3;1-2
 play,4,0,camid101,21,BBFX,S9.3-H;2-3;1X3(926)
-com,"Fairly started for home then returned to 3B, reminiscent of"
-com,"Brooklyn days. Roth scored 924, I chose Lewis 926"
+com,"$Ron Fairly started for HP then returned to 3B, trapping"
+com,"Nate Oliver"
 play,4,1,greed101,02,..SCS,K
 play,4,1,taylt101,12,CSBX,4
 play,4,1,callj101,12,CSBX,HR/9
@@ -7213,7 +7168,6 @@ play,6,1,gonzt101,11,CBX,S8
 play,6,1,sievr101,00,X,2/FL
 play,7,0,thomf103,12,FMFBS,K
 play,7,0,hickj101,12,BFCFX,4/L
-com,"Taylor dove to get Hicks liner"
 play,7,0,hickj103,32,.CBBFBB,W
 play,7,0,burrl101,02,FFB,CS2(24)
 play,7,1,demed101,11,LBX,3/P
@@ -7239,9 +7193,6 @@ play,9,0,gondj101,22,FBFBS,K
 play,9,0,thomf103,31,BSBBX,63
 play,9,1,callj101,32,CFFBBBX,4/P
 play,9,1,gonzt101,10,BX,T9
-com,"Freudian slip Lewis has Craig with Win instead"
-com,"of Loss (as well as Baldschun with Win)"
-com,"Sievers 300th career HR"
 play,9,1,sievr101,00,.X,HR/7.3-H
 data,er,crair101,2
 data,er,mclic101,1
@@ -7326,7 +7277,6 @@ com,"Debut game for Dick Smith"
 play,3,0,chrij101,11,CBX,7
 play,3,0,huntr101,21,BCBX,S5.1-2
 play,3,0,snidd101,11,SBX,7/7S
-com,"Gonzalez great slide to get Snider"
 play,3,1,demed101,00,,NP
 sub,hookj101,"Jay Hook",0,9,1
 play,3,1,demed101,12,.SBSX,7
@@ -7516,7 +7466,7 @@ play,7,0,schrt101,32,FFFBBFFBS,K
 play,7,1,dalrc101,00,X,3/P
 play,7,1,hoakd101,11,CBX,HR/7
 play,7,1,amarr101,00,UX,D9
-play,7,1,shorc102,00,UX,C/E2/INT.B-1
+play,7,1,shorc102,00,UX,C/E2.B-1
 play,7,1,taylt101,12,SBFS,K
 play,7,1,callj101,02,FCS,K
 play,8,0,mackk101,00,,NP
@@ -7781,7 +7731,6 @@ play,4,1,hoakd101,00,UX,E5/TH1.B-1
 play,4,1,oldib101,12,BFFX,9
 play,5,0,edwaj101,30,BBBB,W
 play,5,0,cardl101,10,BX,7
-com,"Great catch by Covington of Cardenas"
 play,5,0,otooj101,22,.BBFLX,13/SH.1-2
 play,5,0,rosep001,00,X,HR/9.2-H
 play,5,0,harpt101,32,BBBCFB,W
@@ -7836,7 +7785,6 @@ play,7,1,hoakd101,12,BSCX,8/L
 play,8,0,keoum101,00,,NP
 sub,torrf102,"Frank Torre",1,4,3
 play,8,0,keoum101,01,.CX,3/BP
-com,"Torre and Boozer collided on Keough's pop bunt"
 play,8,0,freeg102,00,.X,S9
 play,8,0,edwaj101,21,FBBX,56(1)/FO
 play,8,0,cardl101,00,UX,54(1)/FO
@@ -7978,7 +7926,6 @@ play,6,0,harpt101,00,UX,9
 play,6,0,pinsv101,02,UCCC,K
 play,6,1,hoakd101,22,BSSBX,53
 play,6,1,wineb101,00,X,53
-com,"Wine out 53 per Lewis 63 per Cin"
 play,6,1,bennd101,02,.USSS,K
 play,7,0,robif103,12,BSSC,K
 play,7,0,freeg102,12,BSSX,HR/7
@@ -8069,10 +8016,8 @@ start,wineb101,"Bobby Wine",1,8,6
 start,mclic101,"Cal McLish",1,9,1
 play,1,0,rosep001,00,X,S5/BG
 play,1,0,harpt101,21,BSBB,CS2(26)
-com,"2-1 pitch that was CS was a knockdown"
 play,1,0,harpt101,31,BSBB..X,S5
 play,1,0,pinsv101,00,UX,3(B)63(1)/GDP
-com,"And you thought there was only one way to have a 363 (3,363)"
 play,1,1,taylt101,10,.BX,S9
 play,1,1,callj101,22,BFSBS,K
 play,1,1,coviw101,00,X,9/9D
@@ -8103,10 +8048,8 @@ play,4,0,keoum101,00,UX,43
 play,4,0,freeg102,22,SBSBFX,7/L
 play,4,1,dalrc101,12,FBCX,3/G
 play,4,1,hoakd101,20,BBX,E5/G.B-1
-com,"Freese played Hoak's ball off chest"
 play,4,1,wineb101,22,.BBCFX,FC1.1-3(E1/TH);B-1
 play,4,1,mclic101,02,CFS,K
-com,"3rd strike McLish WP-ruled hit bat-argument"
 play,4,1,taylt101,20,.BBX,4(1)/FO
 play,5,0,edwaj101,01,FX,9/9D
 play,5,0,cardl101,00,UX,53
@@ -8128,8 +8071,6 @@ play,7,0,keoum101,22,CCBBX,S8
 play,7,0,freeg102,00,S,CS2(24)
 play,7,0,freeg102,11,S.BX,53
 play,7,0,edwaj101,01,FH,HP
-com,"Lewis wrore Edwards ' hit on leg 1 hop'.  Does that mean the"
-com,"pitch bounced or that Edwards hopped once then went to first"
 play,7,0,cardl101,21,..BCBX,7
 play,7,1,mclic101,00,UX,43
 play,7,1,taylt101,11,BSX,S8
@@ -8250,8 +8191,9 @@ play,5,1,sievr101,10,BX,D9.BX3(965)
 play,5,1,dalrc101,22,BSSBX,6/P
 play,5,1,hoakd101,21,BBSX,63
 play,6,0,tsitj101,00,X,13
-play,6,0,rosep001,00,UX,2/INT/BG
-com,"Ball hit Rose's bat"
+play,6,0,rosep001,00,UX,2/BINT/BG
+com,"$Pete Rose called for interference when the ball struck"
+com,"his bat in fair territory"
 play,6,0,harpt101,12,.BCFX,HR/7
 play,6,0,pinsv101,02,SCC,K
 play,6,1,wineb101,00,,NP
@@ -8305,7 +8247,6 @@ play,9,0,rosep001,00,UX,C/E2.B-1
 play,9,0,harpt101,00,UX,64(1)3/GDP
 play,9,1,callj101,11,BSX,S1/BG
 play,9,1,coviw101,00,UX,9/9D/L
-com,"Harper leaps at fence to spear Covington's line drive"
 play,9,1,gonzt101,22,.FBBCX,S8/78.1-2
 play,9,1,sievr101,12,SSBX,HR/7.2-H;1-H
 play,9,1,dalrc101,00,,NP
@@ -8440,8 +8381,6 @@ play,8,1,taylt101,??,,NP
 sub,alouf101,"Felipe Alou",0,3,9
 play,8,1,taylt101,??,,NP
 sub,kuenh101,"Harvey Kuenn",0,1,7
-com,"Stevens has Alou playing left; the Phillies source is more"
-com,"likely correct in moving Kuenn to left."
 play,8,1,taylt101,??,,S7
 play,8,1,callj101,??,,8
 play,8,1,coviw101,??,,3(B)6(1)/GDP
@@ -8714,7 +8653,6 @@ play,3,1,taylt101,??,,S8
 play,3,1,callj101,??,,K
 play,4,0,cepeo101,??,,D7
 play,4,0,alouf101,??,,2/BP
-com,"Assuming this was a pop-up."
 play,4,0,hallt102,??,,W
 play,4,0,bowme101,??,,64(1)3/GDP
 play,4,1,coviw101,??,,S9
@@ -8724,6 +8662,8 @@ play,5,0,sanfj101,??,,E5
 play,5,0,kuenh101,??,,W.1-2
 play,5,0,hillc101,??,,24/SH.1-2;2-3
 play,5,0,mccow101,??,,K/C
+com,"ej,mccow101,P,varge901,Called third strike (Bumped umpire)"
+com,"Willie McCovey ejected by HP umpire Ed Vargo"
 play,5,0,maysw101,??,,D8.2-H(UR);3-H(UR)
 play,5,0,cepeo101,??,,IW
 play,5,0,alouf101,??,,SB3.2XH(2432)
@@ -9208,7 +9148,7 @@ play,7,0,willb104,12,CFBX,9
 play,7,1,gonzt101,00,,NP
 sub,koonc101,"Cal Koonce",0,9,1
 play,7,1,gonzt101,00,.X,S1/L
-com,"Koonce hit hard in right arm by Gonzalez liner"
+com,"$Cal Koonce struck hard on right arm by line drive"
 play,7,1,sievr101,00,.,NP
 sub,brewj102,"Jim Brewer",0,9,1
 play,7,1,sievr101,00,..X,D8/78/L.1-H
@@ -9325,11 +9265,9 @@ play,4,1,demed101,01,SX,7
 play,5,0,bertd101,01,SX,53
 play,5,0,rodga101,21,BBSX,S7/G
 play,5,0,buhlb101,00,X,23/SH.1-2
-com,"Buhl SH 23 per Lewis 24 per Cubs"
 play,5,0,brocl102,22,.BBSSX,6/P
 play,5,1,dalrc101,01,SX,S9/G
 play,5,1,wineb101,01,SX,96(1)/FO
-com,"Wine hit Liner over Hubbs"
 play,5,1,mclic101,00,.X,8
 play,5,1,taylt101,10,BX,D8.1XH(862)
 play,6,0,hubbk101,11,BSX,8/8D
@@ -9437,7 +9375,6 @@ start,demed101,"Don Demeter",1,6,5
 start,dalrc101,"Clay Dalrymple",1,7,2
 start,wineb101,"Bobby Wine",1,8,6
 start,bennd101,"Dennis Bennett",1,9,1
-com,"2B Ump Pelekoudas per Lewis Jacowski(sic) per Mets"
 play,1,0,chrij101,21,.BCBX,4/P
 play,1,0,kaner101,02,FFC,K
 play,1,0,huntr101,01,CX,9
@@ -9463,7 +9400,6 @@ play,3,1,coviw101,01,FX,S9
 play,3,1,gonzt101,31,BBBCX,8
 play,3,1,sievr101,02,FSX,8/8D
 play,4,0,chrij101,22,CSBBX,3/G
-com,"Christopher's ball hit 1B bag"
 play,4,0,kaner101,00,.X,D8
 play,4,0,huntr101,11,BFX,53
 play,4,0,thomf103,00,X,8
@@ -9508,7 +9444,6 @@ sub,bearl101,"Larry Bearnarth",0,9,1
 play,8,1,bennd101,12,..BCSX,9/L/9D
 play,8,1,taylt101,20,BBX,S8/G
 play,8,1,callj101,21,BFBX,64(1)/FO
-com,"Callison FO 64 per Lewis 65 per Mets"
 play,8,1,coviw101,11,.CBX,S7.1-2
 play,8,1,gonzt101,00,,NP
 sub,amarr101,"Ruben Amaro",1,3,12
@@ -9597,13 +9532,11 @@ play,2,1,mclic101,22,CBBCC,K
 play,3,0,hickj103,22,BCCBX,63
 play,3,0,harkt101,22,BFBFX,43
 play,3,0,huntr101,00,X,9/L
-com,"Huny out 7 per Mets 9 per Lewis"
 play,3,1,taylt101,12,.SCBX,53
 play,3,1,callj101,00,X,31
 play,3,1,gonzt101,12,SSFBX,3/G
 play,4,0,snidd101,21,BCBX,43
 play,4,0,thomf103,10,BX,7
-com,"Thomas out 7 per Lewis 7/FL per Mets"
 play,4,0,hickj101,21,.CBBX,3/L
 play,4,1,sievr101,01,FX,43
 play,4,1,demed101,00,X,D7
@@ -9640,12 +9573,11 @@ sub,baldj101,"Jack Baldschun",1,9,1
 play,8,0,harkt101,11,.FBX,D8/78.2-H
 play,8,0,huntr101,20,BBX,S9.2XH(92)
 play,8,1,callj101,32,BBCBCX,8
-com,"Hicks dove for Callison's fly"
 play,8,1,gonzt101,21,.BCBX,53
 play,8,1,sievr101,00,X,7
 play,9,0,snidd101,22,BBSSX,S9/G
 play,9,0,thomf103,21,BBSX,HR/7.1-H
-com,"Lewis says Thomas HR onto roof"
+com,"$onto the roof"
 play,9,0,hickj101,00,,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
 play,9,0,hickj101,00,.UX,13
@@ -9715,10 +9647,8 @@ start,demed101,"Don Demeter",1,7,5
 start,wineb101,"Bobby Wine",1,8,6
 start,shorc102,"Chris Short",1,9,1
 play,1,0,chrij101,22,BSFBC,K
-com,"Christopher K Kc per Lewis Ks per Mets"
 play,1,0,kaner101,00,.X,63
 play,1,0,huntr101,00,UX,D9/9D
-com,"Hunt's double off Callison's glove at fence"
 play,1,0,thomf103,22,.CSBBX,S7.2-H
 play,1,0,hickj103,00,X,64(1)/FO
 play,1,1,taylt101,11,CBX,63
@@ -9739,21 +9669,17 @@ play,3,0,kaner101,02,UCCC,K
 play,3,1,taylt101,00,UX,9
 play,3,1,callj101,02,USSS,K
 play,3,1,coviw101,00,UX,S9/9D
-com,"Lewis says Covington singled off wall"
 play,3,1,gonzt101,00,.UX,8
-com,"Gonzalez out 8 per Lewis 9 per Mets"
 play,4,0,huntr101,00,.UX,63
 play,4,0,thomf103,00,UX,3/FL
 play,4,0,hickj103,21,CBBX,S7/G
 play,4,0,shern102,00,UX,9
-com,"Sherry fly out 9 per Lewis 7 per Mets"
 play,4,1,sievr101,30,.UBBBB,W
 play,4,1,dalrc101,01,CX,8
 play,4,1,demed101,32,BBBSSC,K+CS2(24)/DP
 play,5,0,harkt101,00,UX,6
 play,5,0,moraa102,32,BBBSFB,W
 play,5,0,crair101,00,B,CS2(26)#
-com,"Not sure count of cs"
 play,5,0,crair101,12,B..SSS,K
 play,5,1,wineb101,00,UX,63
 play,5,1,shorc102,00,UX,43
@@ -9799,7 +9725,6 @@ sub,durer101,"Ryne Duren",1,9,1
 play,9,0,huntr101,00,..UX,S8
 play,9,0,thomf103,00,UX,4/P
 play,9,0,hickj103,00,UX,64(1)3/GDP
-com,"Hickman GDP 643 per Lewis 543 per Mets"
 play,9,1,coviw101,00,.UX,43
 play,9,1,gonzt101,00,UX,8
 play,9,1,sievr101,21,SBBX,HR/7
@@ -10149,8 +10074,6 @@ play,9,0,mazeb101,00,UX,8.2-3
 play,9,0,clend101,00,U,SB2.3-H(E2/TH)(UR);1XH(82)
 play,9,1,sievr101,00,,NP
 sub,savat101,"Ted Savage",0,2,7
-com,"The play w/ Clendenon up would have taken 1/10th the time it"
-com,"did to figure out if Mazeroski out anything but 8! Why me?"
 play,9,1,sievr101,00,...UX,53
 play,9,1,demed101,00,UX,9
 play,9,1,dalrc101,00,UX,S9
@@ -10221,9 +10144,9 @@ play,1,1,callj101,11,CBB,SB2
 play,1,1,callj101,21,CBB.X,43.2-3
 play,1,1,gonzt101,12,FBSS,K
 play,1,1,sievr101,12,SSFBS,K
-com,"McLish leaves complaining of tight shoulder"
 play,2,0,lyncj102,00,,NP
 sub,boozj101,"John Boozer",1,9,1
+com,"Cal McLish left with tight shoulder"
 play,2,0,lyncj102,12,.CBSX,7
 play,2,0,burgs101,12,..SSBS,K
 play,2,0,mazeb101,02,CCC,K
@@ -10234,7 +10157,6 @@ play,2,1,wineb101,11,BSX,64(1)/FO
 play,3,0,clend101,00,X,3
 play,3,0,schod101,32,BCBFBB,W
 play,3,0,vealb101,00,X,D7.1-3
-com,"Lewis says Phils looking for Veale to bunt"
 play,3,0,bailb103,12,.CBCX,8/SF.3-H;2-3
 play,3,0,virdb101,22,BBFFFX,9
 play,3,1,boozj101,12,SCBS,K
@@ -10243,7 +10165,6 @@ play,3,1,callj101,31,BBBFX,8
 play,4,0,clemr101,12,CFBX,S6
 play,4,0,lyncj102,00,,NP
 sub,starw101,"Willie Stargell",0,4,11
-com,"I understand this move--not"
 play,4,0,starw101,22,..BCCBS,K
 play,4,0,burgs101,01,SX,4/P/8S
 play,4,0,mazeb101,01,CX,2/FL
@@ -10258,7 +10179,7 @@ play,5,0,clend101,00,,NP
 sub,rojac101,"Cookie Rojas",1,5,4
 play,5,0,clend101,00,.,NP
 sub,taylt101,"Tony Taylor",1,1,5
-com,"Demeter leaves with sore wrist"
+com,"Don Demeter left with sore wrist"
 play,5,0,clend101,12,...FBFX,63
 play,5,0,schod101,11,SBX,43
 play,5,0,vealb101,12,SSBC,K
@@ -10278,14 +10199,12 @@ play,7,0,starw101,12,FSBFC,K
 play,7,0,burgs101,10,BX,S7
 play,7,0,mazeb101,12,BSSX,D7/G.1-3
 play,7,0,clend101,00,X,43.3-H;2-2
-com,"Lewis says Rojas made play in hole on Clendenon"
 play,7,0,schod101,30,.IIII,IW
 play,7,0,vealb101,22,SBBCC,K
 play,7,1,wineb101,22,BBSSX,63
 play,7,1,boozj101,00,,NP
 sub,hoakd101,"Don Hoak",1,9,11
 play,7,1,hoakd101,22,.BBSFX,43
-com,"Argument Hoak should be safe because Clendenon's foot off 1B"
 play,7,1,taylt101,32,.BBSBCFB,W
 play,7,1,callj101,31,BBBCB,W.1-2
 play,7,1,gonzt101,22,BSBFFX,43
@@ -10308,7 +10227,6 @@ sub,haddh101,"Harvey Haddix",0,9,1
 play,8,1,emerc101,00,..,NP
 sub,amarr101,"Ruben Amaro",1,7,11
 play,8,1,amarr101,00,...X,64(1)/FO.3-H;2-3
-com,"Schofield dropped Amaro's liner, got FO, but run scored"
 play,8,1,wineb101,02,.SSFX,FC5.3XH(526);1-2;B-1
 play,8,1,durer101,00,,NP
 sub,torrf102,"Frank Torre",1,9,11
@@ -10342,8 +10260,9 @@ play,10,1,wineb101,01,CX,64(1)3/GDP
 play,11,0,bailb103,00,X,8
 play,11,0,virdb101,00,X,S4
 play,11,0,clemr101,11,CBX,64(1)/FO
-play,11,0,starw101,00,UX,2/INT
-com,"Stargell out for interefering during Clemente's SB attempt"
+play,11,0,starw101,00,UX,2/BINT.1-1
+com,"$Willie Stargell called for intereference during Roberto"
+com,"Clemente's attempted steal"
 play,11,1,baldj101,00,.UX,53
 play,11,1,taylt101,01,CX,S6
 play,11,1,callj101,00,X,HR/9.1-H
@@ -10462,8 +10381,7 @@ play,6,1,oldib101,??,,63
 play,6,1,wineb101,??,,8
 play,6,1,culpr101,??,,9
 play,7,0,javij101,??,,E5
-play,7,0,mccat101,??,,E5/SH.1-2#
-com,"origianlly scored a single,later changed;possible after game"
+play,7,0,mccat101,??,,E5/SH.1-2
 play,7,0,sader101,??,,W.2-3;1-2
 play,7,0,flooc101,20,,NP
 sub,baldj101,"Jack Baldschun",1,9,1
@@ -11062,7 +10980,6 @@ play,4,0,mcmir101,11,FBX,FC6.2X3(65);B-1
 play,4,0,lemad102,01,CX,S7.1-2
 play,4,0,mayel101,12,FSBFS,K
 play,4,1,taylt101,00,X,S6/P
-com,"Taylor single dropped by McMillan with back to infield"
 play,4,1,callj101,02,.FSX,2/FL
 play,4,1,demed101,00,X,S5.1-2
 play,4,1,sievr101,01,CX,HR/78.2-H;1-H
@@ -11111,7 +11028,6 @@ play,7,1,coviw101,00,.,NP
 sub,tiefb101,"Bobby Tiefenauer",0,9,1
 play,7,1,coviw101,00,..,NP
 sub,gonzt101,"Tony Gonzalez",1,9,11
-com,"Don't know why Covington out, guess cause Tief in"
 play,7,1,gonzt101,00,....B,WP.3-H;1-2
 play,7,1,gonzt101,10,....B.X,9/9D
 play,7,1,taylt101,01,FX,9
@@ -11426,8 +11342,6 @@ play,8,0,crair101,00,UX,E8.B-2
 play,8,0,chrij101,00,UX,34/SH.2-3
 play,8,0,greep102,31,BBBSB,W
 play,8,0,huntr101,00,U,CS2(243);CSH(352)/DP
-com,"My guess was 243,352 and not 352,243.  I'm pleasantly surpri"
-com,"zed the double CS and DP was possible. Lewis noted 2 CS."
 play,8,1,hoakd101,00,..UX,13
 play,8,1,wineb101,02,USSS,K
 play,8,1,klipj101,00,,NP
@@ -11518,7 +11432,6 @@ play,1,1,dalrc101,30,IIII,IW
 play,1,1,hoakd101,00,X,E5.3-H(NR)(UR);2-H(NR)(UR);1-3;B-2
 play,1,1,wineb101,00,.UX,E6.3-H(NR)(UR);2-3;B-1
 play,1,1,shorc102,00,.UX,C/E2.1-2;B-1
-com,"Houston error on 3 straight PAs"
 play,1,1,taylt101,32,.BBBCFX,9
 play,2,0,batej102,20,BBX,S9/G
 play,2,0,gossh101,22,SSBBC,K
@@ -11544,7 +11457,6 @@ play,3,1,coviw101,00,UX,8
 play,4,0,wynnj101,22,BSSBC,K
 play,4,0,batej102,00,UX,4/P
 play,4,0,gossh101,00,UX,D7
-com,"Lewis wrote on Goss double : Covington nice try"
 play,4,0,staur001,32,.BBBSSB,W
 play,4,0,asprb101,02,USSS,K
 play,4,1,gonzt101,00,,NP
@@ -11575,9 +11487,7 @@ play,5,1,sievr101,30,UBBBB,W.1-2
 play,5,1,dalrc101,00,UX,8
 play,6,0,warwc101,00,,NP
 sub,alled101,"Dick Allen",1,3,7
-com,"Dave, I tried to enter U and PB but told me must be pitch fo"
-com,"r WP or PB"
-play,6,0,warwc101,00,...UX,T8
+play,6,0,warwc101,00,UX,T8
 play,6,0,wynnj101,00,UX,9
 play,6,0,adled101,02,USSS,K
 play,6,0,gossh101,00,UX,9/9D
@@ -11676,10 +11586,8 @@ start,mclic101,"Cal McLish",1,9,1
 play,1,0,spana101,00,X,43
 play,1,0,runnp101,21,BCBX,7
 play,1,0,wynnj101,12,FBSC,K
-com,"Today is first and tomorrow last time in ML Wynn plays 3B"
 play,1,1,taylt101,01,.CX,E6/G.B-1
 play,1,1,callj101,02,FFF1,SB2
-com,"Taylor stole on pick-off!"
 play,1,1,callj101,12,FFF1..BX,D9.2-H(UR)
 play,1,1,coviw101,02,.SSFFFFFS,K
 play,1,1,gonzt101,20,BBX,43.2-3
@@ -11714,7 +11622,6 @@ play,5,1,mclic101,00,UX,43
 play,5,1,taylt101,22,BBCFX,63
 play,6,0,lillb101,01,CX,63
 play,6,0,farrt101,21,BSBX,D7/78
-com,"On Farrell's double, Covington ran into Gonzalez"
 play,6,0,spana101,11,.CBX,53
 play,6,0,runnp101,20,BBX,S7.2-3
 play,6,0,wynnj101,11,BFX,54(1)/FO
@@ -11848,7 +11755,6 @@ play,3,1,callj101,22,BFBFS,K
 play,4,0,wynnj101,22,BFFBS,K
 play,4,0,warwc101,32,BBBCFS,K
 play,4,0,staur001,22,FBCBX,31
-com,"Staub out 31 per Lewis 3/G per Hou"
 play,4,1,coviw101,00,.UX,E4/G.B-1
 play,4,1,gonzt101,00,UX,7
 play,4,1,sievr101,20,BBX,HR/78.1-H(UR)
@@ -11856,7 +11762,6 @@ play,4,1,dalrc101,00,.UX,4/P
 play,4,1,hoakd101,00,UX,6/P
 play,5,0,batej102,00,UX,53
 play,5,0,weekj101,32,BBSSBX,7/7D
-com,"Covington fel on Weekly's ball but made catch"
 play,5,0,lillb101,00,.UX,S6
 play,5,0,browh101,31,BBBCB,W.1-2
 play,5,0,gossh101,10,BX,D8/89.2-H;1-3
@@ -11898,7 +11803,6 @@ play,8,1,sievr101,00,,NP
 sub,mcmad102,"Don McMahon",0,9,1
 play,8,1,sievr101,00,.X,8/8D.1-2
 play,8,1,dalrc101,00,X,163
-com,"Dalrymple out 163 per Hou 63 per Lewis"
 play,9,0,staur001,00,.,NP
 sub,torrf102,"Frank Torre",1,5,3
 play,9,0,staur001,12,..FCBX,3/G
@@ -11965,11 +11869,9 @@ start,shorc102,"Chris Short",1,9,1
 play,1,0,willm102,12,CFBS,K
 play,1,0,gillj102,21,CBBX,13
 play,1,0,davit103,12,CSBFX,D9/F9DW
-com,"hit fence"
 play,1,0,howaf102,22,.SSBBS,K
 play,1,1,taylt101,00,X,63
 play,1,1,callj101,22,BBFFX,D7/F
-com,"Roth says: '7 missed - diving'"
 play,1,1,gonzt101,00,.X,7
 play,1,1,sievr101,32,BCBBFC,K
 play,2,0,skowb101,10,BX,9
@@ -12016,7 +11918,6 @@ play,7,1,demed101,22,BSCBX,53
 play,7,1,hoakd101,01,CX,S9/L
 play,7,1,oldib101,00,B,WP.1-3
 play,7,1,oldib101,21,B.>LBX,14/SH.3-H
-com,"Wow, a second try at a squeeze, and it worked!"
 play,7,1,wineb101,22,.BBCFS,K
 play,8,0,koufs101,00,,NP
 sub,walll101,"Lee Walls",0,9,11
@@ -12037,7 +11938,6 @@ play,9,1,gonzt101,00,,NP
 sub,moonw101,"Wally Moon",0,4,9
 play,9,1,gonzt101,00,.,NP
 sub,fairr101,"Ron Fairly",0,5,3
-com,"DWS: check batting order positions with Lewis"
 play,9,1,gonzt101,10,...BX,S8/L
 play,9,1,sievr101,01,MH,HP.1-2
 play,9,1,demed101,00,,NP
@@ -12204,7 +12104,6 @@ play,9,0,perrr101,00,,NP
 sub,amarr101,"Ruben Amaro",1,5,6
 play,9,0,perrr101,00,.,NP
 sub,avere102,"Earl Averill",1,8,2
-com,"Roth says Wine 3B, but Averill in Wine's slot next 1/2 innin"
 play,9,0,perrr101,22,...BSCFBC,K
 play,9,0,willm102,00,X,3/FL
 play,9,0,gillj102,00,X,53
@@ -12272,7 +12171,6 @@ start,gonzt101,"Tony Gonzalez",1,6,8
 start,oldib101,"Bob Oldis",1,7,2
 start,wineb101,"Bobby Wine",1,8,6
 start,boozj101,"John Boozer",1,9,1
-com,"All of a sudden Mauch reverses Demeter and Gonzalez"
 play,1,0,willm102,12,.CFBC,K
 play,1,0,gillj102,10,BX,S8/L
 play,1,0,moonw101,11,CB>X,9
@@ -12350,7 +12248,6 @@ play,9,0,richp102,00,,NP
 sub,tracd101,"Dick Tracewski",0,8,12
 play,9,0,richp102,00,.S,PB.1-2
 play,9,0,richp102,01,.S.,SBH
-com,"SB and PB appear to have happened in same pitch"
 play,9,0,richp102,12,.S...>FBS,K
 play,9,0,willm102,10,BX,T8/78/L.2-H
 play,9,0,gillj102,00,,NP

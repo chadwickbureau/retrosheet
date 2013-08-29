@@ -5082,9 +5082,9 @@ play,5,1,saboc001,20,BBX,54(1)3/GDP/G56
 play,6,0,deshd001,11,CBX,3/G34
 play,6,0,caldi001,00,X,S6/L6D
 play,6,0,wallt001,00,X,HR/F9D.1-H;B-H
-play,6,0,martd002,00,X,DGR/G3DF
-com,"Reds pitcher Keith Brown warming up in bullpen"
-com,"fielded ball for interference"
+play,6,0,martd002,00,X,DGR/G3DF/FINT
+com,"$Reds pitcher Keith Brown warming up in bullpen"
+com,"fielded ball and called for interference"
 play,6,0,reyeg001,31,SBBBB,W
 play,6,0,walkl001,00,,NP
 sub,carmd001,"Don Carman",1,9,1
@@ -5384,7 +5384,7 @@ play,1,1,morrh001,32,BBFSBFFFFX,6/P6
 play,1,1,saboc001,32,BBFCBB,W.3-H(RBI);2-3;1-2
 play,1,1,reedj001,01,CX,HR/L9LD.3-H;2-H;1-H;B-H
 play,1,1,winnh001,32,BFSBFBX,HR/F9D.B-H
-play,1,1,hammc001,22,BCSFBX,9/F9LD
+play,1,1,hammc001,22,BCSFBX,9/F9LD/FINT
 com,"fan interference"
 play,2,0,clarj002,32,CBSBFBFB,W
 play,2,0,santb001,01,CX,7/F78S
@@ -5567,7 +5567,7 @@ play,4,1,benzt001,01,FX,S6/L6MD
 play,4,1,olivj001,01,LX,S4/L4D.1-2
 play,4,1,scuds001,00,X,56(2)/FO/BG25.1-2;B-1
 play,4,1,hatcb001,32,BFBBFFFFFX,S7/L7S.2-3;1-2
-play,4,1,duncm001,21,BFBX,8(B)35(3)/FDP/F8RM
+play,4,1,duncm001,21,BFBX,8(B)35(3)/FDP/F8RM/AP
 com,"$Joe Oliver called out on appeal"
 play,5,0,rasmd001,11,CBX,63/G6
 play,5,0,robeb002,22,FBFBS,K
@@ -6997,10 +6997,11 @@ play,4,0,smito001,02,CFX,S4/L4.1-2
 play,4,0,zeilt001,21,BCBX,31/G34
 play,4,1,davie001,11,CBX,143/G13
 play,4,1,oneip001,00,X,D7/L7LD
-play,4,1,saboc001,01,FX,13/INT/G56S.2-2
-com,"ej,saboc001,P,willc901,Called out of basepath"
+play,4,1,saboc001,01,FX,13/BINT/G56S.2-2
+com,"ej,saboc001,P,willc901,Interference call"
 com,"Chris Sabo was called out for running out of the"
 com,"base line; Sabo ejected by 1B umpire Charlie Williams"
+com,"arguing the interference call"
 play,4,1,hatcb001,00,X,3/P3SF
 play,5,0,perrg001,00,,NP
 sub,quinl001,"Luis Quinones",1,6,5
@@ -11228,8 +11229,8 @@ start,olivj001,"Joe Oliver",1,7,2
 start,benaf001,"Freddie Benavides",1,8,6
 start,scuds001,"Scott Scudder",1,9,1
 play,1,0,mcgew001,11,BCX,S/L89S
-play,1,0,woodt002,32,C1SF1FBBB>F>S,K+OA/DP.1X2(2)
-com,"$Ted Wood's swing carried him onto the plate and"
+play,1,0,woodt002,32,C1SF1FBBB>F>S,K+OA/DP/BINT.1X2(2)
+com,"$Ted Wood's swing carried him onto HP and"
 com,"interfered with catcher Joe Oliver's throw"
 com,"to 2B on Willie McGee's attempted steal; McGee"
 com,"called out on the interference"

@@ -616,7 +616,8 @@ play,5,1,guzmc001,12,1BCC1>B,SB2
 play,5,1,guzmc001,32,1BCC1>B.*BS,K
 play,6,0,mcgec001,32,CBBBFFX,S8/G
 play,6,0,gomec002,02,LLX,7/F
-play,6,0,zaung001,00,X,2/G/INT.1-1
+play,6,0,zaung001,00,X,2/G/BINT.1-1
+com,"$Gregg Zaun called for interference"
 play,6,0,escoa003,31,BBBC1B,W.1-2
 play,6,0,gally001,12,CS*BS,K
 play,6,1,gonza005,00,X,9/F
@@ -1387,7 +1388,8 @@ play,4,0,gonzc001,01,FX,S7/L.2-H
 play,4,0,fowld001,12,11FFPX,53/G-.1-2
 play,4,0,giamj001,10,BX,S6/G.2-3
 play,4,0,tulot001,10,BX,4/P
-play,4,1,morgn001,31,BBBCX,53/BG/INT
+play,4,1,morgn001,31,BBBCX,53/BG/BINT
+com,"$Nyjer Morgan called for interference"
 play,4,1,guzmc001,10,BX,43/G
 play,4,1,zimmr001,11,BCX,8/F
 play,5,0,hawpb001,02,CCFFX,43/G
@@ -4028,7 +4030,7 @@ play,7,1,nievw001,00,X,14/SH/BG.2-3;1-2
 play,7,1,clipt001,00,,NP
 sub,harrw001,"Willie Harris",1,9,11
 play,7,1,harrw001,00,.X,8/SF/FDP.3-H(UR);2X3(815)
-com,"$com,"ej,desmi001,P,westj901,Overturned call at 3B; threw helmet"
+com,"ej,desmi001,P,westj901,Call at 3B (Reversed; threw helmet)"
 com,"the throw to the plate by CF Drew Stubbs hit the mound and caromed past the"
 com,"plate where it was fielded by pitcher Enerio Del Rosario backing up the"
 com,"play; Del Rosario's throw to 3B was a little late but Ian Desmond's foot"
@@ -4180,7 +4182,7 @@ play,8,0,cabro001,21,.CBBX,D8/F
 play,8,0,philb001,32,B*BCLBX,S8/G.2-H
 play,8,0,vottj001,00,,NP
 sub,burns001,"Sean Burnett",1,9,1
-play,8,0,vottj001,02,.SFB,WP.1-3(E6)
+play,8,0,vottj001,02,.SFB,WP/OBS.1-3(E6)
 com,"ej,riggj801,M,belld901,Obstruction call on Desmond"
 com,"$Brandon Phillips advanced to second when the pitch went to the backstop; he"
 com,"rounded second and continued towards third; Nationals SS Ian Desmond was near"
@@ -5718,10 +5720,11 @@ play,8,1,zimmr001,12,CC1B>B,SB2
 play,8,1,zimmr001,22,CC1B>B.S,K
 play,9,0,getzc001,00,,NP
 sub,slatd001,"Doug Slaten",1,9,1
-play,9,0,getzc001,21,.BBCX,2/BG/INT
+play,9,0,getzc001,21,.BBCX,2/BG/BINT
 com,"$the bunt by Chris Getz bounced up the 1B line; the ball hit his"
 com,"bat a second time as he dropped the bat to run to 1B; Getz was"
-com,"called out and the automatic putout given to the catcher"
+com,"called out and the automatic putout given to the catcher on the"
+com,"interference"
 play,9,0,tejer001,00,,NP
 sub,bloow001,"Willie Bloomquist",0,9,11
 play,9,0,bloow001,22,.BFFBC,K
@@ -5822,7 +5825,7 @@ play,5,0,santj003,22,CBFFBFS,K
 play,5,0,felij002,20,BBX,S9/L
 play,5,0,tejar001,01,F1X,6/L+
 play,5,0,wrigd002,11,BCX,46(1)/FO/G
-play,5,1,desmi001,11,CBX,D7/L78+
+play,5,1,desmi001,11,CBX,D7/REV/L78+
 com,"replay,5,desmi001,WAS,welkt901,WAS11,O,N"
 com,"$Ian Desmond's fly hit on the wall just to the right of the visiting"
 com,"bullpen near the top of the padding and bounced off the front of the"
@@ -6212,7 +6215,7 @@ play,9,1,guzmc001,30,.BBBB,W
 play,9,1,morgn001,02,CCX,5!3/G.1-2
 play,9,1,harrw001,11,CBX,S9/L.2-3
 play,9,1,zimmr001,32,*BBC*BTFB,W.1-2
-play,9,1,dunna001,21,BCBX,D8/F.3-H;2-H;1-3
+play,9,1,dunna001,21,BCBX,D8/F/REV.3-H;2-H;1-3
 com,"replay,9,dunna001,WAS,welkt901,WAS11,O,N"
 com,"$Adam Dunn's fly ball hit the top of the wall at the 402 marker in CF just"
 com,"over the glove of CF Angel Pagan; it bounced back onto the field and was"
@@ -7180,7 +7183,7 @@ play,8,1,bernr001,32,CBSBBX,8/L
 play,9,0,huffa001,00,,NP
 sub,batim001,"Miguel Batista",1,9,1
 play,9,0,huffa001,00,.X,S8/G
-play,9,0,poseb001,11,BFX,HR/89/F.1-H
+play,9,0,poseb001,11,BFX,HR/89/F/REV.1-H
 com,"replay,9,poseb001,SFN,cousd901,WAS11,I,N"
 com,"$Buster Posey's fly was caught over the RF scoreboard by a fan wearing a"
 com,"Giants cap; it was ruled a homer but the Nationals asked if the ball"
@@ -8689,7 +8692,7 @@ play,1,1,dunna001,22,CSF*BFBS,K
 play,1,1,zimmr001,21,*BBCX,4/P
 play,2,0,uggld001,30,BBBB,W
 play,2,0,rossc001,11,C1BX,3/P
-play,2,0,stanm004,10,B+1X,HR/89/F.1-H
+play,2,0,stanm004,10,B+1X,HR/89/F/REV.1-H
 com,"replay,2,stanm004,FLO,laynj901,WAS11,O,Y"
 com,"$Mike Stanton's fly ball hit on the top of the out-of-town scoreboard in"
 com,"right center and was ruled in play; Stanton made it to third for an"
@@ -10135,7 +10138,7 @@ start,morgn001,"Nyjer Morgan",1,8,8
 start,hernl003,"Livan Hernandez",1,9,1
 play,1,0,schus001,11,CBX,S8/L
 play,1,0,lopef001,00,>X,43/G.1-2
-play,1,0,pujoa001,11,CBX,DGR/7/F.2-H
+play,1,0,pujoa001,11,CBX,DGR/7/F/FINT.2-H
 com,"$Nationals left fielder Roger Bernadina made a sliding attempt at the ball"
 com,"at the foul line; as he slid across the line, the ball struck the line and"
 com,"bounced up towards the stands; a fan touched the ball and was called for"
@@ -10160,7 +10163,7 @@ play,3,0,pujoa001,12,C*BFF1C,K
 play,3,0,hollm001,01,1FX,8/F
 play,3,1,hernl003,02,CCX,S7/F
 play,3,1,kenna001,21,BBCX,S8/L.1-2
-play,3,1,desmi001,00,X,13/BG/INT.2-2;1-1
+play,3,1,desmi001,00,X,13/BG/BINT.2-2;1-1
 com,"ej,olses001,P,drakr901,Bench jockeying on interference call"
 com,"ej,radid801,C,drakr901,Arguing interference call at 1B"
 com,"$Nationals shortstop Ian Desmond was called out by HP umpire Dan Bellino"

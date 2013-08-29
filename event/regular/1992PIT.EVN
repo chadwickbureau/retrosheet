@@ -212,9 +212,9 @@ play,5,0,barbb001,12,CBCS,K
 play,5,1,buecs001,01,CX,S8/L8LS
 play,5,1,lavam001,11,1CBX,S6/L6MS.1-2
 play,5,1,lindj002,12,BCFX,6/P6S
-play,5,1,smitz001,00,X,2/INT.2-2;1-1
-com,"$Zane Smith bunted the ball and his bat struck the ball"
-com,"twice; he was called out for interference"
+play,5,1,smitz001,00,X,2/BINT/BG.2-2;1-1
+com,"$Zane Smith called for interference when the ball struck his"
+com,"bat twice"
 play,5,1,gibsk001,32,BBFCBFB,W.2-3;1-2
 play,5,1,bellj001,12,CBCFX,9/F9D
 play,6,0,owens001,32,BBBCFX,43/G4M
@@ -1601,7 +1601,7 @@ play,2,1,slaud001,22,BBFSFX,8/F8LXD
 play,3,0,nixoo001,01,CX,S8/G6MD
 play,3,0,blauj001,11,CBX,64(1)/FO/G6M.B-1
 play,3,0,pendt001,00,111,BK.1-2
-com,"ej,millr801,P,darlg901,Balk call"
+com,"ej,millr801,C,darlg901,Balk call"
 com,"Pirates coach Ray Miller ejected by HP umpire Gary Darling"
 play,3,0,pendt001,11,111.FBX,7/F7LM
 play,3,0,gantr001,22,SCFBBFFX,S7/G56D.2XH(72)
@@ -4596,8 +4596,8 @@ play,4,0,dauld001,12,BCFX,43/G4
 play,4,0,marst001,00,X,3/P34S
 play,4,0,sveud001,12,BCSC,K
 play,4,1,kingj001,21,SBBX,S/F78M
-play,4,1,mccll001,00,1B,PO1(234E1).1-2
-com,"$pitcher Terry Mulholland charged with obstruction"
+play,4,1,mccll001,00,1B,PO1(234E1)/OBS.1-2
+com,"$Terry Mulholland charged with obstruction"
 com,"during rundown on pickoff"
 play,4,1,mccll001,32,1B.BFBFB,W
 play,4,1,merco002,21,BFBX,8/P6MD
@@ -7409,8 +7409,8 @@ info,number,0
 info,daynight,night
 info,usedh,false
 info,umphome,davib902
-info,ump1b,hohnb901
-info,ump2b,pullf901
+info,ump1b,pullf901
+info,ump2b,(none)
 info,ump3b,mcshj901
 info,scorer,STATS Inc.
 info,translator,
@@ -8894,7 +8894,7 @@ play,5,1,redug001,10,BX,S/L56D
 play,5,1,bellj001,00,1>B,SB2
 play,5,1,bellj001,22,1B.CBSS,K
 play,5,1,vansa001,00,X,5/P5DF
-com,"ej,leylj801,M,kellj901,Arguing fan-interference call"
+com,"ej,leylj801,M,kellj901,Fan interference call"
 com,"Pirates manager Jim Leyland ejected by HP umpire Jeff"
 com,"Kellogg while arguing a fan interference call made"
 com,"by 3B umpire Bruce Froemming"

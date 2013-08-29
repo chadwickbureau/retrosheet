@@ -2491,7 +2491,7 @@ play,5,1,morak001,22,BCBFX,S8/L
 play,5,1,rivej001,11,BFX,54(1)/FO/G
 play,5,1,kendh001,21,BFBX,E6/FO/G.1-3
 play,5,1,woodb003,21,CBBX,46(1)3/GDP
-play,6,0,marsl001,21,BBFX,D8/F89XDW
+play,6,0,marsl001,21,BBFX,D8/F89XDW/REV
 com,"replay,6,marsl001,CLE,westj901,ANA01,O,N"
 com,"$the fly ball by Lou Marson hit the top of the wall in right center and was ruled"
 com,"in play by 2B umpire Paul Schrieber; Indians manager Manny Acta asked about the call"
@@ -3950,7 +3950,8 @@ play,2,0,kotcc001,00,X,3/G
 play,2,1,matsh001,02,FCS,K
 play,2,1,napom001,32,CCBBFBX,53/G
 play,2,1,frank001,00,X,S1/BG
-play,2,1,aybae001,01,FX,2/BG/INT
+play,2,1,aybae001,01,FX,2/BG/BINT
+com,"$Erick Aybar called for interference"
 play,3,0,johnr009,01,CX,13/G
 play,3,0,wilsj003,10,BX,9/F
 play,3,0,suzui001,32,BCBCBFX,S8/L-
@@ -7289,9 +7290,9 @@ sub,atchs001,"Scott Atchison",0,0,1
 play,8,1,iztum001,11,.BCX,S7/L-
 play,8,1,abreb001,22,CBBFX,4(1)/FO/G
 play,8,1,huntt001,00,X,9/F
-play,8,1,matsh001,32,CBC*BFB>X,HR/89/F.1-H
+play,8,1,matsh001,32,CBC*BFB>X,HR/89/F/REV.1-H
 com,"replay,8,matsh001,ANA,bellw901,ANA01,O,N"
-com,"$Hideki Matsui’s fly ball was touched by a fan and ruled a homer; the ball"
+com,"$Hideki Matsui's fly ball was touched by a fan and ruled a homer; the ball"
 com,"caromed back onto the field; the Red Sox asked about the call, so acting chief"
 com,"Wally Bell watched the replay and upheld the call"
 play,8,1,calla001,00,,NP
@@ -8534,7 +8535,7 @@ play,2,0,overl001,31,*BBBCB,W
 play,2,0,encae001,00,X,S7/L.3-H;1-2
 play,2,0,molij001,01,FX,54(1)3/GDP
 play,2,1,huntt001,10,BX,63/G
-play,2,1,rivej001,12,CBCFX,DGR/9/L
+play,2,1,rivej001,12,CBCFX,DGR/9/L/FINT
 com,"fan interference"
 play,2,1,kendh001,11,BFX,53/G
 play,2,1,napom001,11,CBX,63/G
@@ -8685,7 +8686,7 @@ play,3,0,wellv001,00,>C,SB2
 play,3,0,wellv001,32,>C.BF*BBB,W
 play,3,0,linda001,21,SB+2BX,3/G
 play,3,1,abreb001,22,BCSFBX,D9/L
-play,3,1,aybae001,00,X,53/BG/INT
+play,3,1,aybae001,00,X,53/BG/BINT
 com,"$as the throw by Jose Bautista reached first baseman Lyle Overbay, batter"
 com,"Erick Aybar's left shoulder hit Overbay's glove; the ball popped out of the"
 com,"glove; Aybar had been running inside the line and HP umpire Joe West called"
@@ -10069,7 +10070,7 @@ play,5,1,huntt001,22,FSFBFBFX,HR/8/F
 play,5,1,matsh001,20,BBX,7/F
 play,5,1,napom001,00,X,53/G
 play,5,1,kendh001,12,BSSS,K
-play,6,0,hafnt001,10,BX,HR/89/F
+play,6,0,hafnt001,10,BX,HR/89/F/REV
 com,"replay,6,hafnt001,CLE,westj901,ANA01,O,N"
 com,"$Travis Hafner's fly hit the top of the wall in right center, bounced off a"
 com,"railing and caromed back onto the field; it was ruled a home run but the Angels"
@@ -10557,7 +10558,7 @@ sub,rivej001,"Juan Rivera",1,9,9
 play,12,0,tuiam001,00,,NP
 sub,kohnm001,"Michael Kohn",1,0,1
 play,12,0,tuiam001,32,...BBSBFB,W
-play,12,0,moora001,00,X,23/BG/INT.1-1
+play,12,0,moora001,00,X,23/BG/BINT.1-1
 com,"$Adam Moore's bunt was fielded along the 1B line by catcher Bobby Wilson, whose"
 com,"throw hit Moore on the back; Moore was called for interfering with the play"
 com,"because he was running in fair territory"
@@ -11886,7 +11887,7 @@ play,2,1,aybae001,02,S>L1FFX,FC1/G.3-H;1-2;B-1
 com,"$pitcher Brett Anderson flipped the ball to catcher Kurt Suzuki, who blocked the"
 com,"plate and tagged Mike Napoli before his foot touched the plate; HP umpire CB"
 com,"Bucknor called Napoli safe; Athletics manager Bob Geren talked with Bucknor"
-play,2,1,wilsb002,11,B>SX,2/INT.2-2;1-1
+play,2,1,wilsb002,11,B>SX,2/BINT.2-2;1-1
 com,"$Bobby Wilson swung at a pitch while the runners attempted stolen bases; Wilson's"
 com,"swing carried him across the plate and he got in the way of Kurt Suzuki who was"
 com,"attempting to throw to second; Wilson was called out for batter interference"
@@ -12117,7 +12118,7 @@ com,"$Peter Bourjos hit the 2-2 pitch down the LF line; the ball was"
 com,"ruled fair and a home run; the Athletics argued the call, so"
 com,"crew chief Dana DeMuth watched the replay and overturned the call"
 com,"to a foul ball"
-play,7,1,bourp001,22,BFF*BFX,9/F
+play,7,1,bourp001,22,BFF*BFX,9/F/REV
 play,7,1,kendh001,10,BX,9/SF/F.3-H(UR);2-3
 play,7,1,abreb001,12,CCBT,K
 play,8,0,ellim001,00,,NP
