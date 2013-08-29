@@ -1212,7 +1212,7 @@ play,8,0,beltc001,32,.BBBCFFB,W
 play,8,0,churr001,00,X,13/SH/BG.1-2
 play,8,0,castr002,00,,NP
 sub,mottj001,"Jason Motte",1,9,1
-play,8,0,castr002,00,.X,9/F.2XH(52)
+play,8,0,castr002,00,.X,9/F/NDP.2XH(52)
 com,"$Ryan Ludwick's throw from RF got away from 3B Joe Thurston and rolled towards the"
 com,"mound; Carlos Beltran tried to score but did not slide and was tagged out as he"
 com,"stepped on catcher Yadier Molina's foot"
@@ -2935,7 +2935,7 @@ sub,laruj001,"Jason LaRue",1,4,2
 play,8,0,kendj001,22,..CBCBX,S8/L-
 play,8,0,cofft001,00,X,23/SH/BG.1-2
 play,8,0,hallb001,32,BCCF*BBC,K
-play,8,0,counc001,22,CC*BBFX,DGR/9.2-H
+play,8,0,counc001,22,CC*BBFX,DGR/9/FINT.2-H
 com,"fan interference"
 play,8,0,braur002,22,BC*BFX,E5/G+.2-3
 play,8,0,fielp001,00,X,43/G+
@@ -3889,7 +3889,7 @@ play,4,0,calla001,11,CBX,13/G
 play,4,1,ankir001,11,FBX,43/G
 play,4,1,moliy001,32,CBTBBFS,K
 play,4,1,thurj001,01,CX,23/G-
-play,5,0,olivm001,11,FBX,DGR/7
+play,5,0,olivm001,11,FBX,DGR/7/FINT
 com,"fan interference"
 play,5,0,bloow001,31,CBBBX,63/G.2-3
 play,5,0,bannb001,00,X,S9/L.3-H
@@ -4070,7 +4070,7 @@ play,6,0,nix-l001,21,CBBX,S8/L
 play,6,0,gonza002,20,11BBX,8/F
 play,6,1,duncc002,32,SBSBFBC,K
 play,6,1,ankir001,00,X,E3/TH1/G
-play,6,1,laruj001,00,X,8/LDP.1X2(8634)
+play,6,1,laruj001,00,X,8/LDP/AP.1X2(8634)
 com,"$Rick Ankiel had rounded second and failed to touch the bag on the way back"
 com,"to first; he was called out on appeal"
 play,7,0,hanir001,00,,NP
@@ -7611,7 +7611,7 @@ play,12,0,furcr001,00,,NP
 sub,mottj001,"Jason Motte",1,9,1
 play,12,0,furcr001,22,.CBCBX,8/F
 play,12,0,hudso001,02,FSS,K
-play,12,0,ramim002,22,BSBFX,DGR/7/L
+play,12,0,ramim002,22,BSBFX,DGR/7/L/FINT
 com,"fan interference"
 play,12,0,ethia001,30,IIII,IW
 play,12,0,blakc001,22,BFBFX,S9/L.2XH(92);1-2
@@ -7620,9 +7620,8 @@ sub,motag001,"Guillermo Mota",0,9,1
 play,12,1,ryanb002,00,.X,9/F
 play,12,1,mottj001,00,,NP
 sub,thurj001,"Joe Thurston",1,9,11
-play,12,1,thurj001,01,.SX,13/G
-com,"$Thurston hit an apparent double, but was out on appeal for missing"
-com,"first base"
+play,12,1,thurj001,01,.SX,13/G/AP
+com,"$Thurston hit an apparent double, but was out on appeal for missing 1B"
 play,12,1,lugoj001,12,CBSS,K
 play,13,0,lonej001,00,,NP
 sub,hawkb001,"Blake Hawksworth",1,9,1
@@ -7741,7 +7740,7 @@ play,3,1,schus001,20,BBX,1/G-
 play,3,1,rasmc001,00,X,8/L
 play,4,0,ramim002,22,CBCFBX,63/G
 play,4,0,ethia001,00,X,7/F
-play,4,0,blakc001,11,CBX,2/INT
+play,4,0,blakc001,11,CBX,2/BINT
 com,"$Casey Blake called out for interfering with catcher Yadier Molina"
 play,4,1,pujoa001,11,BFX,53/G
 play,4,1,hollm001,00,X,HR/9/F
@@ -7895,7 +7894,7 @@ start,ankir001,"Rick Ankiel",1,6,8
 start,derom001,"Mark DeRosa",1,7,5
 start,laruj001,"Jason LaRue",1,8,2
 start,boggm001,"Mitchell Boggs",1,9,1
-play,1,0,bourm001,11,CBX,DGR/7
+play,1,0,bourm001,11,CBX,DGR/7/FINT
 com,"fan interference"
 play,1,0,matsk001,00,X,14/SH/BG.2-3
 play,1,0,tejam001,11,CBX,S8/L-.3-H
@@ -10232,7 +10231,7 @@ play,6,1,thurj001,11,C*BX,3/G
 play,7,0,hardj003,22,CCBBX,63/G
 play,7,0,loopb001,00,,NP
 sub,counc001,"Craig Counsell",0,9,11
-play,7,0,counc001,32,.FBBBLX,DGR/9/L
+play,7,0,counc001,32,.FBBBLX,DGR/9/L/FINT
 com,"fan interference"
 play,7,0,lopef001,20,BBX,63/G
 play,7,0,geruj001,11,S*BX,43/G-
@@ -11564,7 +11563,7 @@ sub,laruj001,"Jason LaRue",1,9,11
 play,9,1,laruj001,32,.BFCBFFBFFB,W
 play,9,1,derom001,00,,NP
 sub,ryanb002,"Brendan Ryan",1,9,12
-play,9,1,derom001,10,.BX,DGR/7+.1-3
+play,9,1,derom001,10,.BX,DGR/FINT/7+.1-3
 com,"fan interference"
 play,9,1,ludwr001,00,,NP
 sub,nunel001,"Leo Nunez",0,2,1
@@ -12030,7 +12029,7 @@ play,9,1,pujoa001,30,IIII,IW
 play,9,1,hollm001,00,,NP
 sub,carie001,"Esmailin Caridad",0,2,1
 play,9,1,hollm001,12,.CBSFH,HP.2-3;1-2
-play,9,1,ludwr001,10,BX,46(1)3/G/DP/INT
+play,9,1,ludwr001,10,BX,46(1)3/G/DP/RINT
 com,"$the relay throw to first by Ryan Theriot was off the bag towards the plate side"
 com,"and Derrek Lee failed to tag Ryan Ludwick as Skip Schumaker scored from third;"
 com,"however, 2B umpire Marty Foster called Ludwick out because Matt Holliday slid into"

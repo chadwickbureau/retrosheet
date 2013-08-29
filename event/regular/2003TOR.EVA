@@ -97,8 +97,7 @@ play,6,0,willb002,32,CBBBFB,W
 play,6,0,matsh001,00,X,E4/TH/FO/G.1-2;B-1
 play,6,0,posaj001,10,BX,S9/G.2-H(UR);1-2
 play,6,0,ventr001,32,CBF*BBB,W.2-3;1-2
-play,6,0,mondr002,01,FX,6/P
-com,"Infield Fly rule"
+play,6,0,mondr002,01,FX,6/P/IF
 play,6,0,johnn001,12,CFBX,52(3)/FO/G.2-3;1-2
 play,6,0,soria001,32,BSFBFFFB>X,HR/7/F.3-H(UR);2-H(UR);1-H(UR);B-H(UR)
 play,6,0,wilse001,00,,NP
@@ -4691,8 +4690,7 @@ play,7,1,wellv001,22,CBFBC,K
 play,8,0,kendj001,12,CBFX,S8/G
 play,8,0,gileb002,02,FSX,64(1)/FO/G
 play,8,0,ramia001,01,FX,S7/L.1-2
-play,8,0,simor001,00,X,6/P
-com,"Infield Fly rule"
+play,8,0,simor001,00,X,6/P/IF
 play,8,0,wilsc003,22,FBFFBS,K
 play,8,1,delgc001,00,,NP
 sub,willm005,"Mike Williams",0,0,1
@@ -4923,8 +4921,7 @@ play,1,1,wellv001,12,CBSX,43/G
 play,2,0,martr003,02,CCC,K
 play,2,0,milld002,22,BSSFBX,S9/L
 play,2,0,goodt001,00,X,S8/L-.1-2
-play,2,0,grudm001,21,BBCX,4/P
-com,"Infield Fly rule"
+play,2,0,grudm001,21,BBCX,4/P/IF
 play,2,0,gonza001,02,SSS,K
 play,2,1,delgc001,12,CBSS,K
 play,2,1,myerg001,00,X,D9/L
@@ -7234,8 +7231,7 @@ play,2,0,willb002,12,CSBB,WP.3-H(NR);2-3;1-2
 play,2,0,willb002,32,CSBB.FBB,W
 play,2,0,matsh001,00,,NP
 sub,thurc001,"Corey Thurman",1,0,1
-play,2,0,matsh001,30,.BBBX,6/P
-com,"Infield Fly rule"
+play,2,0,matsh001,30,.BBBX,6/P/IF
 play,2,0,posaj001,22,SCFBBX,6/P
 play,2,1,myerg001,21,BBCX,43/G
 play,2,1,hinse001,12,BCSS,K
@@ -7797,7 +7793,8 @@ play,5,0,segud001,20,BBX,S7/L
 play,5,0,cruzd001,00,X,8/F
 play,5,0,fordb001,00,>X,S7/G.1-3
 play,5,0,robeb003,20,BBX,16(1)/FO/G.3-H
-play,5,0,matol001,00,11>X,2/INT
+play,5,0,matol001,00,11>X,2/BINT
+com,"$Luis Matos called for interference"
 play,5,1,bordm001,00,X,S7/G
 play,5,1,cataf001,01,>FX,7/F
 play,5,1,hinse001,21,BCBX,3/G-.1-2
@@ -8079,7 +8076,8 @@ play,3,1,johnr008,22,CSBBFFFX,7/F-
 play,3,1,hinse001,12,CFFBX,9!/F
 play,3,1,wellv001,00,X,3/P3F
 play,4,0,robeb003,01,CX,S4/G
-play,4,0,matol001,32,BBCB>F1>C,K+OA/INT/DP.1X2(2)
+play,4,0,matol001,32,BBCB>F1>C,K+OA/BINT/DP.1X2(2)
+com,"$Luis Matos called for interference"
 play,4,0,moram002,12,CBCX,53/G
 play,4,1,delgc001,00,X,HR/8/F
 play,4,1,kielb001,32,BCCBFBB,W
@@ -8710,8 +8708,7 @@ play,1,1,cataf001,11,CBX,S9/G
 play,1,1,bordm001,01,CB,PB.1-2
 play,1,1,bordm001,21,CB.BX,S8/G.2-H
 play,1,1,wellv001,00,X,S7/G.1-2
-play,1,1,delgc001,22,B*BSFFX,5/P
-com,"Infield Fly rule"
+play,1,1,delgc001,22,B*BSFFX,5/P/IF
 play,1,1,myerg001,00,X,8/F
 play,1,1,phelj001,10,BX,DGR/9/F.2-H;1-3
 play,1,1,hinse001,32,BBS*BSB,W
@@ -9017,14 +9014,14 @@ play,1,0,palmr001,22,BTBFX,63/G
 play,1,0,teixm001,12,CBFX,5/P
 play,1,1,johnr008,22,BBCLFX,13/G
 play,1,1,bordm001,11,BSX,S8/L
-play,1,1,wellv001,02,FFFX,15(B)/L1/DP.1X2(16)
-com,"$Wells hit a line drive up the middle that hit"
-com,"the pitcher and was caught by 3rd baseman Blalock"
-com,"on the fly; Bordick was rounding second so Blalock"
+play,1,1,wellv001,02,FFFX,15(B)/L1/DP/AP.1X2(16)
+com,"$Vernon Wells hit a line drive up the middle that hit"
+com,"the pitcher and was caught by 3rd baseman Hank Blalock"
+com,"on the fly; Mike Bordick was rounding 2B so Blalock"
 com,"lobbed the ball right over the 1st baseman's"
 com,"head and into the stands; Bordick was awarded"
-com,"third but never retouched second; Texas"
-com,"appealed to second and Bordick was called out."
+com,"3B but never retouched 2B; Texas"
+com,"appealed at 2B and Bordick was called out"
 play,2,0,spens001,31,BSBBB,W
 play,2,0,nix-l001,11,CBX,S9/L.1-3
 play,2,0,greet003,02,CFS,K
@@ -9835,8 +9832,7 @@ play,5,0,chave001,31,BBBC11X,7/F
 play,5,0,tejam001,30,BB*BB,W.1-2
 play,5,0,durae001,00,,NP
 sub,sturt001,"Tanyon Sturtze",1,0,1
-play,5,0,durae001,20,.BBX,4/P
-com,"Infield Fly rule"
+play,5,0,durae001,20,.BBX,4/P/IF
 play,5,0,ellim001,02,CCX,36(1)/FO/G
 play,5,1,wilst003,00,,NP
 sub,woodm002,"Mike Wood",0,0,1
@@ -10180,8 +10176,7 @@ play,5,0,longt002,00,,NP
 sub,kersj001,"Jason Kershner",1,0,1
 play,5,0,longt002,01,.CX,D9/L.2-H;1-3
 play,5,0,menef001,01,CH,HP
-play,5,0,byrne001,01,CX,4/P
-com,"Infield Fly rule"
+play,5,0,byrne001,01,CX,4/P/IF
 play,5,0,mcmib001,32,FBFBFBC,K
 play,5,0,guilj001,02,CFH,HP.3-H;2-3;1-2
 play,5,0,chave001,22,BFBFX,31/G

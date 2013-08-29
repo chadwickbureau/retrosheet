@@ -1,9 +1,3 @@
-com,"Copyright 2002 by Retrosheet, Inc."
-com,"20 Sunset Rd."
-com,"Newark, DE 19711"
-com,"All Rights Reserved"
-com,"Data Version 1.00"
-com,"June 30, 2002"
 id,BAL196704110
 version,1
 info,visteam,MIN
@@ -361,7 +355,8 @@ play,3,1,robib104,??,,S.2-H
 play,3,1,poweb101,??,,43
 play,4,0,repor101,??,,D
 play,4,0,chare101,??,,8(B)5(2)/FDP
-com,"Repoz ejected for throwing helmet"
+com,"ej,repor101,P,runge901,Call at 3B (Threw helmet)"
+com,"Roger Repoz ejected by 3B umpire Ed Runge"
 play,4,0,chavo101,??,,K
 play,4,1,blefc101,??,,NP
 sub,gosgj101,"Jim Gosger",0,5,8
@@ -680,8 +675,7 @@ play,4,0,suark101,??,,54(1)3/GDP
 play,4,0,nashj101,??,,W
 play,4,0,campb101,??,,K
 play,4,1,etcha101,??,,W
-play,4,1,barbs102,??,,36(1)4/GDP/BG#
-com,"Bunt assumed by Smith/Vincent"
+play,4,1,barbs102,??,,36(1)4/GDP/BG
 play,4,1,aparl101,??,,D
 play,4,1,snydr102,??,,W
 play,4,1,robif103,??,,K
@@ -1559,9 +1553,10 @@ play,1,0,mcaud101,??,,8
 play,1,0,wertd103,??,,K
 play,1,0,browg101,??,,8
 play,1,1,aparl101,??,,63
+com,"ej,snydr102,P,sprim901,Balls and strikes during at bat"
+com,"Russ Snyder ejected by HP umpire Marty Springstead"
 play,1,1,snydr102,??,,NP
 sub,blaip101,"Paul Blair",1,2,11
-com,"Snyder got tossed for arguing a strike"
 play,1,1,blaip101,??,,W
 play,1,1,robif103,??,,64(1)3/GDP
 play,2,0,kalia101,??,,NP
@@ -1861,12 +1856,13 @@ play,1,1,blefc101,??,,K
 play,1,1,aparl101,??,,S
 play,1,1,robif103,??,,NP
 sub,adaij101,"Jerry Adair",0,2,4
-com,"Sometime in 1st, Causey got injured running into Stevens"
-com,"while backing up a play"
+com,"$Wayne Causey injured in collision with 2B umpire Johnny Stevens"
+com,"while backing up a play sometime in this inning"
 play,1,1,robif103,??,,CS2(136)
 play,1,1,robif103,??,,53
 play,2,0,hansr102,??,,W
-play,2,0,johnt001,??,,2/INT
+play,2,0,johnt001,??,,2/BINT
+com,"$Tommy John called for interference"
 play,2,0,bufod101,??,,W.1-2
 play,2,0,adaij101,??,,NP
 sub,dillb101,"Bill Dillman",1,9,1
@@ -2646,7 +2642,6 @@ play,7,1,blefc101,??,,NP
 sub,ciscg101,"Galen Cisco",0,8,1
 play,7,1,blefc101,??,,3
 play,7,1,johnd105,??,,S5
-com,"Originally scored E5"
 play,7,1,hanel101,??,,8(B)3(1)/FDP
 play,8,0,tartj101,??,,NP
 sub,heldw101,"Woodie Held",1,3,5
@@ -3734,7 +3729,7 @@ play,2,0,knoob101,??,,64(1)/FO
 play,2,0,hamij101,??,,K
 play,2,1,poweb101,??,,NP
 sub,heldw101,"Woodie Held",0,3,6
-com,"Fregosi has back spasms"
+com,"Jim Fregosi left with back spasms"
 play,2,1,poweb101,??,,13
 play,2,1,robib104,??,,7
 play,2,1,johnd105,??,,W
@@ -5066,7 +5061,7 @@ play,4,0,ageet101,??,,54(1)3/GDP
 play,4,0,hansr102,??,,53
 play,4,1,robif103,??,,S7
 play,4,1,robib104,??,,5439(1)/FO
-com,"Collision at 2nd - Weis & FRobinson both leave game"
+com,"$Al Weis and Frank Robinson collide at 2B"
 play,4,1,poweb101,??,,NP
 sub,stewj102,"Jimmy Stewart",0,1,4
 play,4,1,poweb101,??,,S8.1-2
@@ -5281,7 +5276,6 @@ play,8,1,blefc101,??,,NP
 sub,wardp102,"Pete Ward",0,4,9
 play,8,1,blefc101,??,,NP
 sub,berrk101,"Ken Berry",0,5,7
-com,"Unsure when they swapped positions"
 play,8,1,blefc101,??,,NP
 sub,stewj102,"Jimmy Stewart",0,8,6
 play,8,1,blefc101,??,,3/G
@@ -5751,7 +5745,7 @@ sub,salmc101,"Chico Salmon",0,7,6
 play,5,1,poweb101,??,,5/FL
 play,5,1,roznv101,??,,K
 play,5,1,johnd105,??,,13
-com,"Game suspended and completed 7/1"
+com,"$Game suspended and completed the next day"
 play,6,0,wagnl101,??,,NP
 sub,watte101,"Eddie Watt",1,9,1
 play,6,0,wagnl101,??,,K
@@ -6058,7 +6052,7 @@ play,6,1,bowes103,??,,K
 play,6,1,blefc101,??,,43
 play,7,0,colar101,??,,7
 play,7,0,simsd101,??,,K
-com,"Called due to rain"
+com,"game called due to rain"
 data,er,mcdos101,1
 data,er,dillb101,0
 id,BAL196707070
@@ -6128,7 +6122,7 @@ play,2,1,johnd105,??,,K
 play,2,1,bowes103,??,,K
 play,3,0,kennj105,??,,S7
 play,3,0,downa101,??,,26(1)4/BG/GDP
-com,"Neither player ran - thought foul"
+com,"$neither player ran thinking the ball was foul"
 play,3,0,howsd101,??,,7
 play,3,1,etcha101,??,,53
 play,3,1,dillb101,??,,K
@@ -6455,7 +6449,7 @@ play,6,1,bunkw101,??,,43
 play,6,1,aparl101,??,,S7
 play,6,1,poweb101,??,,7
 play,6,1,blaip101,??,,5
-com,"Game suspended, completed 7/9"
+com,"$game suspended and completed the next day"
 play,7,0,whits101,??,,NP
 sub,mills101,"Stu Miller",1,9,1
 play,7,0,whits101,??,,K
@@ -8022,8 +8016,8 @@ play,6,0,cashn101,??,,NP
 sub,stanm101,"Mickey Stanley",0,4,12
 play,6,0,cashn101,??,,46(1)/FO
 play,6,0,nortj101,??,,S9.1-3
-play,6,0,freeb103,??,,S9/INT.3-H;1X2(96)
-com,"Northrup out on interferance"
+play,6,0,freeb103,??,,S9/RINT.3-H;1X2(96)
+com,"$Jim Northrup called for interferance at 2B"
 play,6,0,oyler101,??,,13
 play,6,1,aparl101,??,,NP
 sub,stanm101,"Mickey Stanley",0,4,8
@@ -8049,7 +8043,7 @@ play,8,0,cashn101,??,,S9.2-H
 play,8,0,nortj101,??,,W.1-2
 play,8,0,freeb103,??,,W.2-3;1-2
 play,8,0,oyler101,??,,8/SF.3-H
-com,"Called for rain"
+com,"game called for rain"
 data,er,mclad101,0
 data,er,dillb101,4
 data,er,watte101,1
@@ -8597,6 +8591,15 @@ play,8,0,fullv101,??,,K
 play,8,1,aparl101,??,,W
 play,8,1,poweb101,??,,K
 play,8,1,robif103,??,,SB2
+com,"$Frank Robinson appeared to be hit on the hand by a pitch;"
+com,"he trotted to 1B and Luis Aparicio moved to 2B; HP umpire"
+com,"Emmett Ashford huddled with 1B umpire Red Flaherty; they"
+com,"examined Robinson's hand and ruled that he had not been"
+com,"struck by the ball; Aparicio remained at 2B and the"
+com,"Indians complained; Ashford said that the pitch had been"
+com,"a ball and time had not been called; Aparicio was credited"
+com,"with a stolen base; both managers argued this play for"
+com,"10 minutes"
 play,8,1,robif103,??,,HR/7.2-H
 play,8,1,robib104,??,,53
 play,8,1,blaip101,??,,43
@@ -8612,6 +8615,8 @@ play,9,0,hortt101,??,,W
 play,9,0,alvim101,??,,NP
 sub,drabm101,"Moe Drabowsky",1,9,1
 play,9,0,alvim101,??,,OA.3XH(242)
+com,"ej,adcoj101,M,ashfe901,Call at HP"
+com,"Indians Manager Joe Adcock ejected by HP umpire Emmett Ashford"
 play,9,1,johnd105,??,,NP
 sub,siebs101,"Sonny Siebert",0,9,1
 play,9,1,johnd105,??,,K
@@ -8822,8 +8827,8 @@ start,robib104,"Brooks Robinson",1,6,5
 start,johnd105,"Dave Johnson",1,7,4
 start,etcha101,"Andy Etchebarren",1,8,2
 start,brabg101,"Gene Brabender",1,9,1
+com,"56 minute rain delay at 9:26pm"
 play,1,0,campb101,??,,63
-com,"At 9:26pm there was a 56 minute rain delay"
 play,1,0,gosgj101,??,,K
 play,1,0,donaj101,??,,63
 play,1,1,aparl101,??,,9
@@ -8849,9 +8854,8 @@ play,4,0,gosgj101,??,,S8
 play,4,0,donaj101,??,,S9.1-3
 play,4,0,websr102,??,,E4.3-H(RBI);1-3
 play,4,0,cated101,??,,4(B)3(1)/LDP
-play,4,0,mondr001,??,,S9.3-H(UR)
-com,"UR added by Smith/Vincent; cannot be UR"
-com,"This is a disagreement with the official totals"
+play,4,0,mondr001,??,,S9.3-H(UR)#
+com,"UR is a disagreement with the official totals"
 play,4,0,greed102,??,,6
 play,4,1,robif103,??,,HR/9
 play,4,1,blefc101,??,,K
@@ -9379,7 +9383,7 @@ play,4,0,fregj101,??,,W
 play,4,0,hallj107,??,,46(1)/FO
 play,4,0,mincd101,??,,NP
 sub,belam101,"Mark Belanger",1,7,4
-com,"Johnson pulls muscle"
+com,"Dave Johnson left with pulled muscle"
 play,4,0,mincd101,??,,3/G.1-2
 play,4,0,reicr101,??,,3/FL
 play,4,1,blefc101,??,,S9
@@ -9647,10 +9651,12 @@ play,1,1,poweb101,??,,K
 play,2,0,olivt102,??,,W
 play,2,0,allib103,??,,S9.1-3
 play,2,0,carer001,??,,FC.3-H;1-2;B-1
-play,2,0,batte101,??,,E2/SH.2-3;1-2;B-1
+play,2,0,batte101,??,,E2/SH/OBS.2-3;1-2;B-1
+com,"ej,etcha101,P,umonf901,Obstruction call"
+com,"Andy Etchebarren ejected by HP umpire Frank Umont"
+com,"after being called for obstruction"
 play,2,0,versz101,??,,NP
 sub,hanel101,"Larry Haney",1,8,2
-com,"Etchebarren ejected"
 play,2,0,versz101,??,,8/SF.3-H;2-3
 play,2,0,merrj102,??,,K
 play,2,0,uhlat101,??,,S7.3-H(UR);1-2

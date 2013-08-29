@@ -2702,8 +2702,7 @@ play,6,1,mattg002,22,CBBFS,K
 play,7,0,infao001,31,BBCBB,W
 play,7,0,higgb001,00,X,S7/L.1-2
 play,7,0,yound001,12,BFSX,S9/L-.2-3;1-2
-play,7,0,palmd002,21,*BFBX,3/P
-com,"Infield Fly rule"
+play,7,0,palmd002,21,*BFBX,3/P/IF
 play,7,0,monrc001,32,CFBBFFFBB,W.3-H;2-3;1-2
 play,7,0,halts001,01,SX,52(3)3/GDP
 play,7,1,hairj002,32,CCFBFFFBBX,S8/L
@@ -2828,8 +2827,7 @@ play,4,1,conij001,11,BFX,D7/G.1-3
 play,4,1,gibbj002,31,*BBBCB,W
 play,4,1,batit001,12,FFBFX,8/SF.3-H
 play,4,1,bigbl001,32,BFBBFF>B,W.2-3;1-2
-play,4,1,cruzd001,01,CX,4/P
-com,"Infield Fly rule"
+play,4,1,cruzd001,01,CX,4/P/IF
 play,4,1,fordb001,32,BBCCB>F>F>S,K
 play,5,0,tynej001,11,CBX,S8/G
 play,5,0,andem003,21,BB1FX,3/G.1-2
@@ -5329,8 +5327,7 @@ sub,cormr001,"Rheal Cormier",0,0,1
 play,5,1,matol001,00,.X,13/BG
 play,5,1,robeb003,00,X,S7/G
 play,5,1,moram002,30,1BB1BB,W.1-2
-play,5,1,surhb001,22,BFF>FBX,4/P
-com,"Infield Fly rule"
+play,5,1,surhb001,22,BFF>FBX,4/P/IF
 play,5,1,conij001,01,FX,54(1)/FO/G
 play,6,0,liebm001,22,CBBCX,53/G
 play,6,0,leder001,20,BBX,9/L
@@ -8550,7 +8547,8 @@ play,5,1,robeb003,00,,NP
 sub,mohrd001,"Dustan Mohr",0,7,9
 play,5,1,robeb003,21,..BCBX,7/F
 play,5,1,matol001,02,CCX,S5!/G
-play,5,1,conij001,22,F1BFB+1X,13/G/INT.1-1
+play,5,1,conij001,22,F1BFB+1X,13/G/BINT.1-1
+com,"$Jeff Conine called for interference"
 play,5,1,gibbj002,22,BC1FBX,9/F
 play,6,0,piera001,22,CBBCX,43/G
 play,6,0,huntt001,12,CBFX,3/P3F
@@ -8983,9 +8981,11 @@ play,1,1,robeb003,21,BCBX,4/P
 play,1,1,cruzd001,10,BX,S7/G
 play,1,1,matol001,11,BCX,DGR/78/F.1-3
 ladj,1,5
-play,1,1,batit001,00,X,8/SF.3-H;2-3
+play,1,1,batit001,00,X,8/SF/BOOT.3-H;2-3
+com,"$Tony Batista batted out of turn"
 ladj,1,4
-play,1,1,gibbj002,12,BFSX,31/G
+play,1,1,gibbj002,12,BFSX,31/G/BOOT
+com,"$Jay Gibbons batted out of turn"
 play,2,0,giamj001,22,CCBBS,K
 play,2,0,willb002,32,BCBBCB,W
 play,2,0,matsh001,22,CBFBS,K
@@ -8993,7 +8993,8 @@ play,2,0,boona001,22,BBSFX,D8/F.1-H
 play,2,0,delld001,12,FFBFB,WP.2-3
 play,2,0,delld001,32,FFBFB.BX,63/G
 ladj,1,6
-play,2,1,fordb001,10,BX,5/P
+play,2,1,fordb001,10,BX,5/P/BOOT
+com,"$Brook Fordyce batted out of turn"
 play,2,1,leonj002,22,CFBFBFS,K
 play,2,1,bigbl001,11,CBX,4!3/G
 play,3,0,flahj001,01,SX,2/P2F
@@ -9622,8 +9623,7 @@ play,2,0,lee-t002,10,BX,7/L
 play,2,0,marta001,32,CFBBFBB,W
 play,2,0,andem003,00,X,D7/F.1-3
 play,2,0,sandj001,00,H,HP
-play,2,0,valej004,12,CFFBX,6/P
-com,"Infield Fly rule"
+play,2,0,valej004,12,CFFBX,6/P/IF
 play,2,0,lugoj001,22,CBBCX,3/P3F
 play,2,1,gibbj002,01,CX,8/L
 play,2,1,batit001,12,BCSX,5/P5F
@@ -10957,8 +10957,7 @@ play,4,0,damoj001,00,,NP
 sub,dougs001,"Sean Douglass",1,0,1
 play,4,0,damoj001,22,.BCBSX,S7/L
 play,4,0,muelb001,30,BB1BB,W.1-2
-play,4,0,garcn001,01,FX,4/P.2-3;1-2
-com,"Infield Fly rule"
+play,4,0,garcn001,01,FX,4/P/IF.2-3;1-2
 play,4,0,ramim002,11,3C*BH,HP
 play,4,0,ortid001,32,BCBBFX,36(1)/FO/G.3-H;2-3
 play,4,0,millk005,32,CCBBB>S,K
@@ -11267,8 +11266,7 @@ play,6,0,garck002,01,SX,S8/L
 play,6,0,soria001,11,CBX,S8/F.1-2
 play,6,0,johnn001,12,CBFX,8/F
 play,6,0,jeted001,10,BX,S6/G.2-3;1-2
-play,6,0,giamj001,21,BSBX,4/P
-com,"Infield Fly rule"
+play,6,0,giamj001,21,BSBX,4/P/IF
 play,6,0,posaj001,32,BBBCF>X,D9/L.3-H;2-H;1-H
 play,6,0,matsh001,00,,NP
 sub,parrj003,"John Parrish",1,0,1

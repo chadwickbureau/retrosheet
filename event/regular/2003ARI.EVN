@@ -1223,7 +1223,8 @@ play,6,1,finls001,02,CSX,T8/F
 play,6,1,willm003,22,BCFBS,K
 play,6,1,overl001,00,X,43/G
 play,7,0,bellr002,01,CX,S8/L
-play,7,0,nortg001,32,B11B+1F1BSC,K+OA/DP/INT.1X2(2)
+play,7,0,nortg001,32,B11B+1F1BSC,K+OA/DP/BINT.1X2(2)
+com,"$Greg Norton called for interference"
 play,7,0,heltt001,32,BFBSBX,S3/G
 play,7,0,walkl001,00,X,43/G
 play,7,1,hammr001,00,,NP
@@ -1246,8 +1247,7 @@ sub,fuenb001,"Brian Fuentes",0,8,1
 play,8,1,delld001,00,,NP
 sub,kaplg001,"Gabe Kapler",0,9,7
 play,8,1,delld001,22,..C*BSBS,K
-play,8,1,finls001,20,BBX,3/P
-com,"Infield fly rule"
+play,8,1,finls001,20,BBX,3/P/IF
 play,8,1,willm003,00,,NP
 sub,speij001,"Justin Speier",0,8,1
 play,8,1,willm003,00,.X,63/G
@@ -2272,8 +2272,7 @@ play,5,1,barar001,00,X,DGR/7/F
 play,5,1,webbb001,20,BBX,FC1/BG.2X3(15)
 play,5,1,counc001,22,CCBBX,S7/L.1-2
 play,5,1,spivj001,31,BCBBB,W.2-3;1-2
-play,5,1,gonzl001,31,BBBCX,5/P
-com,"Infield fly rule"
+play,5,1,gonzl001,31,BBBCX,5/P/IF
 play,5,1,bautd001,00,X,8/L
 play,6,0,jonec004,21,BBSX,43/G
 play,6,0,jonea002,32,BSSBBS,K
@@ -4281,8 +4280,7 @@ play,8,1,overl001,32,BBCFBFFFB,W
 play,8,1,willm003,00,,NP
 sub,hergm001,"Matt Herges",0,9,1
 play,8,1,willm003,00,.X,S9/L.1-2
-play,8,1,moelc001,22,BFSBX,3/P
-com,"Infield fly rule"
+play,8,1,moelc001,22,BFSBX,3/P/IF
 play,8,1,koplm001,00,,NP
 sub,baerc001,"Carlos Baerga",1,9,11
 play,8,1,baerc001,10,.BX,8/F
@@ -4707,7 +4705,7 @@ play,7,1,womat001,00,X,S5/BG.1-2
 play,7,1,spivj001,21,BBCH,HP.2-3;1-2
 play,7,1,gonzl001,00,,NP
 sub,orosj001,"Jesse Orosco",0,9,1
-com,"ej,bochb002,M,wintm901,Protesting HBP call"
+com,"ej,bochb002,M,wintm901,HBP call"
 com,"Padres Manager Bruce Bochy ejected by HP umpire Mike Winters"
 com,"for arguing HBP"
 play,7,1,gonzl001,10,..BX,7/F
@@ -6964,7 +6962,7 @@ start,capuc001,"Chris Capuano",1,9,1
 play,1,0,mattg002,21,BBCX,43/G
 play,1,0,lorem001,11,CBX,D8/F
 play,1,0,whitr001,01,CH,HP
-play,1,0,buchb002,10,BX,C/E1/INT/G.2-3;1-2#
+play,1,0,buchb002,10,BX,C/E1/G.2-3;1-2#
 com,"This is really 6E1 as pitcher ran into runner, but"
 com,"for now I can't capture the assist"
 play,1,0,burrs001,31,BBFBX,3/G.3-H(UR);2-3;1-2
@@ -11089,8 +11087,7 @@ sub,myerm001,"Mike Myers",1,8,1
 play,9,0,bondb001,10,.BX,S8/L.3-H;2-H;1-2
 play,9,0,aurir001,00,,NP
 sub,valvj001,"Jose Valverde",1,8,1
-play,9,0,aurir001,12,.C*BTX,6/P
-com,"Infield Fly rule"
+play,9,0,aurir001,12,.C*BTX,6/P/IF
 play,9,0,alfoe001,00,B,SB3.1-2(PB)
 play,9,0,alfoe001,12,B.SSS,K
 play,9,0,cruzj004,30,IIII,IW
@@ -11959,8 +11956,7 @@ play,5,0,zaung001,32,BB11BCCX,46(1)/FO/G
 play,5,0,bellm002,32,BBC1BFB,W.1-2
 play,5,0,stard001,00,,NP
 sub,sweem001,"Mark Sweeney",0,9,11
-play,5,0,sweem001,20,.BBX,4/P
-com,"Infield Fly rule"
+play,5,0,sweem001,20,.BBX,4/P/IF
 play,5,0,uribj002,00,X,3/P
 play,5,1,overl001,00,,NP
 sub,sancj001,"Jesus Sanchez",0,9,1

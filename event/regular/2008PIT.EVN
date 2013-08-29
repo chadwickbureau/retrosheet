@@ -1732,7 +1732,8 @@ play,3,1,dukez001,01,L1>X,7/L
 play,3,1,mclon001,12,CC1BX,8/F
 play,4,0,brune001,12,BCCFX,S8/L
 play,4,0,harmb001,00,1X,D7/F.1-H
-play,4,0,eatoa001,22,CLB*BX,2/BG/INT
+play,4,0,eatoa001,22,CLB*BX,2/BG/BINT
+com,"$Adam Eaton called for interference"
 play,4,0,tagus001,32,BBFBFX,7!/L
 play,4,0,wertj001,32,BCBBSFX,S7/L.2-H
 play,4,0,utlec001,12,F*BF1FX,63/G
@@ -3680,7 +3681,7 @@ play,4,0,therr001,00,X,S3/BG.2-3;1-2
 play,4,0,lee-d002,20,BBX,64(1)/FO/G.3-H;2-3
 play,4,0,ramia001,00,X,9/F
 play,4,0,sotog001,22,SFBBS,K
-play,4,1,bay-j001,22,BCBCX,T8/F
+play,4,1,bay-j001,22,BCBCX,T8/F/FINT
 com,"fan interference"
 play,4,1,laroa001,22,BSSBFS,K
 play,4,1,nadyx001,22,BBFCS,K
@@ -4405,7 +4406,8 @@ play,5,0,oswar001,00,X,1/BP
 play,5,0,bourm001,11,CBX,43/G
 play,5,1,wilsj002,01,CX,S8/L
 play,5,1,sancf001,21,FB1BX,8/L
-play,5,1,mclon001,00,1,OA.1X2(1E3/INT)
+play,5,1,mclon001,00,1,OA/OBS.1X2(1E3)
+com,"$Lance Berkman called for obstruction"
 play,5,1,mclon001,01,1.SX,S7/G.2-H(UR)
 play,5,1,bay-j001,32,FBFBF1F1B>F>B,W.1-2
 play,5,1,nadyx001,12,BFSX,S9/F.2XH(92);1-2
@@ -5104,14 +5106,15 @@ play,1,1,rival001,11,CBX,S8/G
 play,1,1,wilsj002,00,X,46(1)3/GDP
 play,1,1,bay-j001,22,CBCBT,K
 play,2,0,jackc002,10,BX,63/G
-play,2,0,reynm001,32,BCFBBX,D9/F/INT
+play,2,0,reynm001,32,BCFBBX,D9/F/FINT
 com,"ej,melvb001,M,kellj901,Reversal from homer to double"
 com,"$the ball hit by Mark Reynolds was caught by a fan with a glove"
 com,"who leaned several feet over the railing; the ball was initially"
 com,"ruled a home run by 1B umpire Rob Drake but the crew huddled after"
 com,"Pittsburgh manager John Russell complained and changed the call"
-com,"to a double for Reynolds; Arizona manager Bob Melvin was ejected"
-com,"by HP umpire Jeff Kellogg for arguing the call reversal"
+com,"to a double for Reynolds on fan interference; Arizona manager"
+com,"Bob Melvin was ejected by HP umpire Jeff Kellogg for arguing"
+com,"the call reversal"
 play,2,0,younc004,21,.BFBX,3/P3F
 play,2,0,uptoj001,32,BBSBFB,W
 play,2,0,montm001,22,SF*BBS,K
@@ -7921,7 +7924,7 @@ play,7,1,nadyx001,00,,NP
 sub,iztuc001,"Cesar Izturis",0,9,6
 com,"Cardinals center fielder Rick Ankiel left the game due to an injured foot/ankle"
 play,7,1,nadyx001,12,...SBSX,7/F
-play,7,1,laroa001,00,X,DGR/9/L
+play,7,1,laroa001,00,X,DGR/9/L/FINT
 com,"fan interference"
 play,7,1,bautj002,12,CSBFX,S7/F.2-H
 play,7,1,burns001,00,,NP
@@ -8369,7 +8372,7 @@ sub,michj001,"Jason Michaels",1,5,9
 com,"$Nady left game when his trade to Yankees was announced"
 play,2,0,kouzk001,22,.CBBFC,K
 play,2,0,gonza003,32,CFBBBX,3/G+
-play,2,0,headc001,21,BFBX,DGR/9/L
+play,2,0,headc001,21,BFBX,DGR/9/L/FINT
 com,"fan interference"
 play,2,0,bardj001,10,BX,S7/G.2-H
 play,2,0,rodrl002,00,X,46(1)/FO/G
@@ -9482,7 +9485,7 @@ play,5,1,mahop002,22,BLPLL,K/BF
 play,5,1,sancf001,22,1BCB1FX,9/F
 play,5,1,miend001,10,1BX,S6/P.1-3
 play,5,1,mclon001,31,BBCBB,W.1-2
-play,5,1,doumr001,20,BBX,DGR/9/F.3-H;2-H;1-3
+play,5,1,doumr001,20,BBX,DGR/9/F/FINT.3-H;2-H;1-3
 com,"fan interference"
 play,5,1,laroa002,00,,NP
 sub,majeg001,"Gary Majewski",0,9,1
@@ -10190,12 +10193,12 @@ play,2,1,laroa002,21,BBCX,4/P
 play,2,1,pears001,12,BFCX,9/L
 play,2,1,wilsj002,22,BFSBFFFFX,5(2)/FO/G.1-2
 play,3,0,mainj001,32,BBCBCB,W
-play,3,0,reyea003,10,BX,46(1)/FO/G.BX2(2)
+play,3,0,reyea003,10,BX,46(1)/FO/G/NDP.BX2(2)
 com,"ej,manuj101,M,westj901,Runner called out after overthrow"
 com,"$Jack Wilson's throw sailed past first baseman Adam LaRoche to the railing;"
 com,"the ball was retrieved by catcher Ryan Doumit, who tagged Argenis Reyes; 1B"
 com,"umpire Joe West called Reyes out, ruling that Reyes had turned toward 2B after"
-com,"crossing the 1B bag; Mets manager Jerry Manuel ejected by West; This"
+com,"crossing the 1B bag; Mets manager Jerry Manuel ejected by West; this"
 com,"is not a double play"
 play,3,0,evann001,12,.CBFX,9/F
 play,3,1,mahop002,12,BCFFS,K
@@ -11156,6 +11159,7 @@ start,mossb001,"Brandon Moss",1,6,9
 start,gomec001,"Chris Gomez",1,7,3
 start,chavr001,"Raul Chavez",1,8,2
 start,karsj001,"Jeff Karstens",1,9,1
+com,"Protest=V"
 play,1,0,weekr001,32,BFBBFX,HR/7/F
 play,1,0,counc001,32,CCFBFFBBX,53/G
 play,1,0,braur002,12,CFBFX,8/F
@@ -11204,7 +11208,7 @@ play,6,1,karsj001,12,CBCS,K
 play,6,1,wilsj002,12,BCFFX,4/L-
 play,6,1,sancf001,00,X,43/G
 play,7,0,fielp001,21,CBBX,2/P
-play,7,0,hartc001,10,BX,DGR/7
+play,7,0,hartc001,10,BX,DGR/7/FINT
 com,"fan interference"
 play,7,0,kaplg001,32,BCFFB*BF*B,W
 play,7,0,hallb001,00,,NP
@@ -12624,8 +12628,8 @@ play,5,0,bourm001,22,BBFFX,S9/G
 play,5,0,tejam001,20,1BB>B,CS2(24)
 play,5,1,cruzl001,12,CBFFX,4/P
 play,5,1,sneli001,22,CSBBFFT,K
-play,5,1,morgn001,01,CX,2/BG/INT
-com,"$Morgan called out for batter interference"
+play,5,1,morgn001,01,CX,2/BG/BINT
+com,"$Nyjer Morgan called for batter interference"
 play,6,0,tejam001,02,CFFT,K
 play,6,0,berkl001,12,BCCX,7/F
 play,6,0,blumg001,00,X,8/F

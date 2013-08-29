@@ -1895,8 +1895,8 @@ play,8,0,liebm001,01,FX,4!3/G
 play,8,1,edmoj001,32,SBBBFFX,6/L
 play,8,1,roles001,00,X,53/G
 play,8,1,rente001,10,BX,63/G
-play,9,0,belld002,00,X,DGR/7/L
-com,"$Bell's hit was ruled fan interference"
+play,9,0,belld002,00,X,DGR/7/L/FINT
+com,"fan interference"
 play,9,0,rollj001,00,X,13/SH/BG.2-3
 play,9,0,madsr001,00,,NP
 sub,leder001,"Ricky Ledee",0,9,11
@@ -3235,7 +3235,7 @@ play,1,1,womat001,11,CBX,9/F
 play,1,1,lankr001,00,X,HR/9/F
 play,1,1,pujoa001,01,FX,9/F
 play,1,1,roles001,31,BCBBX,53/G
-play,2,0,cabrm001,02,CCX,DGR/7/L
+play,2,0,cabrm001,02,CCX,DGR/7/L/FINT
 com,"fan interference"
 play,2,0,choih001,32,BCBFBFB,W
 play,2,0,conij001,22,BFFBFX,8/F.2-3
@@ -6368,7 +6368,8 @@ play,7,0,penaw001,20,BBX,8!/F
 play,7,0,valej004,31,CBBBX,43/G
 play,7,1,womat001,10,BX,43/G
 play,7,1,rente001,32,CBBBCC,K
-play,7,1,pujoa001,10,BX,23/G/INT
+play,7,1,pujoa001,10,BX,23/G/BINT
+com,"$Albert Pujols called for interference"
 play,8,0,castj004,00,,NP
 sub,tagus001,"So Taguchi",1,6,7
 play,8,0,castj004,11,.FBX,63/G
@@ -8774,12 +8775,12 @@ play,1,0,floyc001,12,CBCFX,2/P2F
 play,1,0,camem001,22,FSFBBX,7/F
 play,1,1,womat001,32,BCBBCX,S7/L
 play,1,1,rente001,32,B11LB1FB1>X,D8/F.1-H
-play,1,1,pujoa001,21,BBF>X,8/FDP.2X2(15)
-com,"$Renteria ran on the pitch and had rounded 3B when the"
+play,1,1,pujoa001,21,BBF>X,8/FDP/AP.2X2(15)
+com,"$Edgar Renteria ran on the pitch and had rounded 3B when the"
 com,"ball was caught; he did not retouch on the way back to"
 com,"2B; the Mets appealed at 3B and Renteria was called out;"
-com,"however, plate umpire Drake had called time after the"
-com,"catch because catcher Wilson had been hit on the head"
+com,"however, HP umpire Rob Drake had called time after the"
+com,"catch because catcher Vance Wilson had been hit on the head"
 com,"by the swing; after he had been treated and removed"
 com,"from the game the Mets appealed for a second time"
 play,1,1,roles001,00,,NP
@@ -11119,8 +11120,8 @@ play,3,1,pujoa001,01,CX,9/F
 play,3,1,edmoj001,22,SBBSS,K
 play,4,0,vizcj001,00,X,63/G
 play,4,0,ausmb001,00,X,S9/L
-play,4,0,clemr001,01,MX,2/BG.1-1
-com,"$Clemens called out for batter interference"
+play,4,0,clemr001,01,MX,2/BG/BINT.1-1
+com,"$Roger Clemens called for interference"
 play,4,0,biggc001,32,BBC*BF>B,W.1-2
 play,4,0,beltc001,11,SBX,E3/G.2-3;1-2
 play,4,0,bagwj001,32,CBF*BBB,W.3-H(UR);2-3;1-2
@@ -12484,8 +12485,8 @@ play,9,1,mckac001,02,.CCS,K
 play,9,1,simoj001,00,,NP
 sub,andem003,"Marlon Anderson",1,7,11
 play,9,1,andem003,22,.CF*BFBX,S8/L-
-play,9,1,moliy001,12,CFFB>S,K/INT/DP.1X1(2)
-com,"$batter interference"
+play,9,1,moliy001,12,CFFB>S,K/BINT/DP.1X1(2)
+com,"$Yadier Molina called for interference"
 data,er,sheeb001,0
 data,er,marqj001,3
 data,er,calic001,0

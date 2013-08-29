@@ -48,6 +48,7 @@ start,berbl101,"Lou Berberet",1,6,2
 start,olsok101,"Karl Olson",1,7,8
 start,valdj102,"Jose Valdivielso",1,8,6
 start,pascc102,"Camilo Pascual",1,9,1
+com,"Debut for umpire Frank Tabacchi"
 play,1,0,baueh101,??,,2/FL
 play,1,0,lumpj101,??,,K
 play,1,0,mantm101,??,,HR/8
@@ -212,8 +213,7 @@ play,2,0,carea101,??,,3/P
 play,2,0,kuckj101,??,,W
 play,2,0,baueh101,??,,K/C
 play,2,0,lumpj101,??,,46(1)/FO
-play,2,1,sievr101,??,,S5.B-2(E6)
-com,"Not sure how Lumpe got error - perhaps on CS"
+play,2,1,sievr101,??,,S5.B-2(E6)#
 play,2,1,runnp101,??,,43
 play,2,1,courc101,??,,3/G.2-3
 play,2,1,olsok101,??,,53
@@ -1206,9 +1206,10 @@ play,4,1,sievr101,??,,S7.3-H
 play,4,1,lemoj101,??,,34/SH.1-2
 play,4,1,olsok101,??,,63.2-3
 play,4,1,berbl101,??,,E1.3-H(NR)(UR)
-com,"Per Pappas DB"
-com,"$Snyder ejected for arguing pitches"
-play,4,1,snydj105,??,,NP
+com,"ej,snydj105,P,runge901,Balls and strikes"
+com,"Jerry Snyder ejected by HP umpire Ed Runge"
+com,"arguing the first strike"
+play,4,1,snydj105,01,,NP
 sub,valdj102,"Jose Valdivielso",1,8,11
 play,4,1,valdj102,??,,8
 play,5,0,carrc105,??,,NP
@@ -3558,7 +3559,7 @@ play,6,1,lemoj101,??,,K
 play,6,1,berbl101,??,,K/C
 play,7,0,busbj101,??,,7
 play,7,0,avere102,??,,W
-play,7,0,garcm101,??,,K/BG
+play,7,0,garcm101,??,,K/BF
 play,7,0,carrc105,??,,CS2(24)
 play,7,1,luttl101,??,,S6
 play,7,1,ramop101,??,,NP
@@ -4095,7 +4096,7 @@ info,daynight,night
 info,usedh,false
 info,umphome,papaj901
 info,ump1b,hurle901
-info,ump2b,
+info,ump2b,(none)
 info,ump3b,soarh901
 info,scorer,"14"
 info,translator,"Comly"
@@ -4240,7 +4241,7 @@ info,daynight,night
 info,usedh,false
 info,umphome,hurle901
 info,ump1b,soarh901
-info,ump2b,
+info,ump2b,(none)
 info,ump3b,papaj901
 info,scorer,"14"
 info,translator,"Comly"
@@ -4382,7 +4383,7 @@ info,daynight,day
 info,usedh,false
 info,umphome,soarh901
 info,ump1b,papaj901
-info,ump2b,
+info,ump2b,(none)
 info,ump3b,hurle901
 info,scorer,"14"
 info,translator,"Comly"
@@ -4545,7 +4546,7 @@ info,daynight,day
 info,usedh,false
 info,umphome,papaj901
 info,ump1b,hurle901
-info,ump2b,
+info,ump2b,(none)
 info,ump3b,soarh901
 info,scorer,"14"
 info,translator,"Comly"
@@ -4713,7 +4714,7 @@ info,daynight,night
 info,usedh,false
 info,umphome,hurle901
 info,ump1b,soarh901
-info,ump2b,
+info,ump2b,(none)
 info,ump3b,papaj901
 info,scorer,"14"
 info,translator,"Comly"
@@ -4850,7 +4851,7 @@ info,daynight,night
 info,usedh,false
 info,umphome,soarh901
 info,ump1b,papaj901
-info,ump2b,
+info,ump2b,(none)
 info,ump3b,hurle901
 info,scorer,"14"
 info,translator,"Comly"
@@ -4991,7 +4992,7 @@ info,daynight,night
 info,usedh,false
 info,umphome,papaj901
 info,ump1b,hurle901
-info,ump2b,
+info,ump2b,(none)
 info,ump3b,soarh901
 info,scorer,"14"
 info,translator,"Comly"
@@ -5237,7 +5238,7 @@ info,daynight,day
 info,usedh,false
 info,umphome,hurle901
 info,ump1b,soarh901
-info,ump2b,
+info,ump2b,(none)
 info,ump3b,papaj901
 info,scorer,"14"
 info,translator,"Comly"
@@ -6021,6 +6022,8 @@ play,5,1,herzw101,??,,K
 play,5,1,runnp101,??,,S3/BG
 play,5,1,sievr101,??,,7
 play,5,1,lemoj101,??,,K
+com,"$the Senators tried to stall during the top of the sixth"
+com,"because rain was coming in"
 play,6,0,smith106,??,,53
 play,6,0,gardb101,??,,S8
 play,6,0,miraw101,??,,S9.1-3
@@ -6045,18 +6048,17 @@ sub,ramop101,"Pedro Ramos",1,6,12
 play,6,1,roigt101,??,,W.1-2
 play,6,1,valdj102,??,,NP
 sub,courc101,"Clint Courtney",1,8,11
-play,6,1,courc101,02,,NP
+com,"ej,courc101,P,hurle901,Batter didn't avoid HBP"
+com,"$Clint Courtney was hit by a pitch but HP umpire Eddie Hurley"
+com,"ruled Courtney didn't get out of way; Courtney ejected by Hurley"
+play,6,1,courc101,22,,NP
 sub,fitze101,"Ed Fitzgerald",1,8,11
-com,"Don't know count at switch."
-com,"$Courtney HBP but Hurley ruled he didn't get out of way."
-com,"Courtney ejected for arguing.  FitzGerald finished AB."
-com,"Courtney gets K."
 play,6,1,fitze101,??,,K/C
 play,6,1,wiesb101,??,,NP
 sub,plewh101,"Herb Plews",1,9,11
 play,6,1,plewh101,??,,7
 play,6,1,yoste101,??,,7
-com,"$Rain.  Game called with Sievers at bat"
+com,"$game called for rain with Roy Sievers at bat"
 data,er,johnc103,1
 data,er,ferrd102,2
 data,er,zuveg101,0
@@ -6444,7 +6446,6 @@ play,3,1,ramop101,??,,W
 play,3,1,yoste101,??,,54(1)3/GDP
 play,3,1,roigt101,??,,W
 play,3,1,runnp101,??,,S9.1-3
-com,"$WS s/s seems to indcate Runnels 17 game hitting streak"
 play,3,1,sievr101,??,,NP
 sub,kuckj101,"Johnny Kucks",0,9,1
 play,3,1,sievr101,??,,64(1)/FO
@@ -6959,6 +6960,9 @@ start,berbl101,"Lou Berberet",1,6,2
 start,roigt101,"Tony Roig",1,7,4
 start,valdj102,"Jose Valdivielso",1,8,6
 start,pascc102,"Camilo Pascual",1,9,1
+com,"ej,harrb106,M,berrc103,Balls and strikes"
+com,"Tigers Manager Bucky Harris ejected by HP umpire Charlie Berry"
+com,"sometime in game"
 play,1,0,kuenh101,??,,4/P
 play,1,0,torge101,??,,K
 play,1,0,maxwc101,??,,8
@@ -7072,8 +7076,6 @@ sub,mastw101,"Walt Masterson",0,9,1
 play,9,1,sievr101,??,,W
 play,9,1,berbl101,??,,S7/P.1-3
 play,9,1,roigt101,??,,13
-com,"Per Pappas DB"
-com,"$Mgr. Harris ejected at some point for arguing pitch"
 data,er,laryf101,3
 data,er,hoefb101,2
 data,er,mastw101,0
@@ -7531,7 +7533,7 @@ play,8,1,herzw101,??,,NP
 sub,aguih101,"Hank Aguirre",0,7,1
 play,8,1,herzw101,??,,K/C
 play,8,1,valdj102,??,,S3/BG.3-H;1-2
-play,8,1,ramop101,??,,K/BG
+play,8,1,ramop101,??,,K/BF
 play,8,1,yoste101,??,,64(1)/FO
 play,9,0,smita102,??,,NP
 sub,orave101,"Ernie Oravetz",1,5,7
@@ -8005,7 +8007,6 @@ play,7,1,lemoj101,??,,NP
 sub,phild102,"Dave Philley",0,5,9
 play,7,1,lemoj101,??,,NP
 sub,nortr101,"Ron Northey",0,7,7
-com,"appears from s/s LF and RF switched sometime in this inning"
 play,7,1,lemoj101,??,,K/C
 play,7,1,runnp101,??,,W
 play,7,1,sievr101,??,,W.2-3;1-2
@@ -8319,8 +8320,7 @@ play,8,1,grigh101,??,,NP
 sub,courc101,"Clint Courtney",1,9,11
 play,8,1,courc101,??,,S9
 play,8,1,yoste101,??,,W.1-2
-play,8,1,herzw101,??,,3/LDP.2X2(36)#
-com,"CC4: per WS s/s 3u; TSN 36; film fits 36"
+play,8,1,herzw101,??,,3/LDP.2X2(36)
 play,8,1,runnp101,??,,6(1)/FO
 play,9,0,mantm101,??,,NP
 sub,grobc101,"Connie Grob",1,9,1
@@ -8398,8 +8398,6 @@ play,1,0,skowb101,??,,W.1-2
 play,1,0,howae101,??,,64(1)/FO.2-3
 play,1,0,carea101,??,,HR/8.3-H;1-H
 play,1,0,colej106,??,,K
-com,"$NYT reports that Senators granted beer selling license effective immed."
-com,"$Senators had been dry since 1901. Pirates and Phillies only 2 dry teams"
 play,1,1,yoste101,??,,HP
 play,1,1,herzw101,??,,S7.1-2
 play,1,1,runnp101,??,,6/P
@@ -8783,7 +8781,8 @@ play,6,1,roigt101,??,,7
 play,6,1,ramop101,??,,3/P
 play,6,1,yoste101,??,,2/FL
 play,7,0,whits103,??,,2/P
-play,7,0,buddd101,??,,1/FL/INT#
+play,7,0,buddd101,??,,1/FL/BINT
+com,"$Don Buddin called for interference"
 play,7,0,suscg101,??,,NP
 sub,stepg101,"Gene Stephens",0,9,11
 play,7,0,stepg101,??,,3/G
@@ -8949,8 +8948,8 @@ play,8,1,runnp101,??,,9/9D
 play,8,1,sievr101,??,,S8
 play,8,1,lemoj101,??,,64(1)/FO
 play,9,0,pierj102,??,,K/C
-com,"Per Pappas DB"
-com,"$Piersall ejected for throwing bat after 3rd strike"
+com,"ej,pierj102,P,romme101,Called third strike (Threw bat)"
+com,"Jim Piersall ejected by HP umpire Eddie Rommel"
 play,9,0,whits103,??,,S8
 play,9,0,buddd101,??,,E6/G.1-2
 play,9,0,dorif101,??,,NP
@@ -9487,7 +9486,7 @@ play,1,1,sievr101,??,,53
 play,2,0,demaj101,??,,43
 play,2,0,boyec102,??,,S5
 play,2,0,kretl101,??,,SB2.1-3(E4)#
-play,2,0,kretl101,??,,K/BG
+play,2,0,kretl101,??,,K/BF
 play,2,0,powev101,??,,S8.3-H
 play,2,0,lopeh101,??,,W.1-2
 play,2,0,skizl101,??,,5(2)/FO
@@ -9634,8 +9633,7 @@ start,valdj102,"Jose Valdivielso",1,8,6
 start,pascc102,"Camilo Pascual",1,9,1
 play,1,0,powev101,??,,63
 play,1,0,lopeh101,??,,W
-com,"$Official daily totals show this as IW, which is ridiculous."
-com,"Good scoresheet clear it is regular BB"
+com,"DIFF: Official daily totals show this as IW"
 play,1,0,skizl101,??,,CS2(26)#
 play,1,0,skizl101,??,,9
 play,1,1,yoste101,??,,W
@@ -10609,7 +10607,6 @@ play,8,1,runnp101,??,,S9
 play,8,1,sievr101,??,,9
 play,8,1,lemoj101,??,,NP
 sub,morgt101,"Tom Morgan",0,9,1
-com,"odd .. mark in Lemon box"
 play,8,1,lemoj101,??,,K
 play,8,1,olsok101,??,,S8.1-2
 play,8,1,plewh101,??,,43
@@ -11815,7 +11812,6 @@ play,8,0,wighb101,??,,NP
 sub,hattg101,"Grady Hatton",0,9,11
 play,8,0,hattg101,??,,W
 play,8,0,causw101,??,,36(1)23/GDP
-com,"CC4: yes s/s and TSN-batter stopped running and C got overthrow?"
 play,8,0,haleb101,??,,D7
 play,8,0,frant101,??,,8
 play,8,1,plewh101,??,,NP

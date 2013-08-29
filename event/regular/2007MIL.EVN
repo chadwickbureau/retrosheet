@@ -1629,7 +1629,7 @@ play,6,1,estrj001,00,X,7/F
 play,7,0,berkl001,11,CBX,3/G+
 play,7,0,lee-c001,01,CX,8/L
 play,7,0,scotl001,22,FCFBBC,K
-play,7,1,jenkg001,10,BX,DGR/7/L
+play,7,1,jenkg001,10,BX,DGR/7/L/FINT
 com,"fan interference"
 play,7,1,grosg002,30,BBBB,W
 play,7,1,counc001,32,CFF*B*BFBFX,6/P/IF
@@ -1762,7 +1762,7 @@ play,5,1,hardj003,20,BBX,8/F
 play,5,1,fielp001,22,BSBFFX,43/G
 play,6,0,duncc002,00,X,13/G-
 play,6,0,pujoa001,22,CSFBBFB,W
-com,"$Pujols awarded a walk after only 3 balls"
+com,"$Albert Pujols awarded a walk after only 3 balls"
 play,6,0,roles001,01,FX,64(1)3/GDP
 play,6,1,hallb001,02,FSFX,D7/G
 play,6,1,estrj001,01,FX,13/G-.2-3
@@ -2008,7 +2008,8 @@ play,1,0,tagus001,11,CBX,63/G
 play,1,0,duncc002,02,CSS,K
 play,1,0,pujoa001,32,BCCBBFFFX,S7/G
 play,1,0,roles001,11,1C1BX,8/F
-play,1,1,weekr001,01,FX,2/BG/INT
+play,1,1,weekr001,01,FX,2/BG/BINT
+com,"$Rickie Weeks called for interference"
 play,1,1,hardj003,02,CFC,K
 play,1,1,fielp001,32,BBBCCFB,W
 play,1,1,hallb001,22,FSBBFS,K
@@ -2806,8 +2807,8 @@ play,4,0,guzmc001,01,CX,S8/G
 play,4,0,zimmr001,22,1C1*BB1FFC,K
 play,4,0,churr001,00,X,8/F
 play,4,0,keara001,10,BX,S9/F-.1-3
-play,4,0,yound001,10,BX,3/P/INT
-com,"$batter interfered with first baseman on popup"
+play,4,0,yound001,10,BX,3/P/BINT
+com,"$Dmitri Young interfered with first baseman on popup"
 play,4,1,menck001,22,BBCFS,K
 play,4,1,jenkg001,12,CCBS,K
 play,4,1,graft001,00,X,3/P3F
@@ -3794,7 +3795,8 @@ play,2,1,estrj001,10,BX,DGR/7/F
 play,2,1,jenkg001,00,X,S9/L+.2-3
 play,2,1,hallb001,22,CBCBX,3/L
 play,2,1,hartc001,02,SSFFX,S8/L-.3-H;1-2
-play,2,1,sheeb001,12,LBLX,2/BG/INT.2-2;1-1
+play,2,1,sheeb001,12,LBLX,2/BG/BINT.2-2;1-1
+com,"$Ben Sheets called for interference"
 play,2,1,weekr001,02,CCS,K
 play,3,0,mccab002,01,FX,3/G-
 play,3,0,jonea002,10,BX,S8/G
@@ -12324,8 +12326,6 @@ sub,gwynt002,"Tony Gwynn",1,9,11
 play,5,1,gwynt002,21,.LBBX,6/L-
 play,5,1,weekr001,32,BBBCSX,S7/G
 play,5,1,hardj003,32,BCPBF>X,S5/G.1-2
-com,"$Froemming blew the call as replays are unequivocal that"
-com,"the throw beat the runner.  Only mild complaint from Padres"
 play,5,1,braur002,12,CFB>X,64(1)3/GDP
 play,6,0,gonza003,00,,NP
 sub,vargc001,"Claudio Vargas",1,9,1

@@ -544,7 +544,8 @@ play,4,0,mondr002,32,BBBFFFFX,8/F
 play,4,1,camem001,32,CBBBCFB,W
 play,4,1,philj003,21,C1B*BX,7/F
 play,4,1,wiggt001,22,BCB>F1S,K
-play,4,1,gutir001,21,PBC>X,2/BG/INT
+play,4,1,gutir001,21,PBC>X,2/BG/BINT
+com,"$Ricky Gutierrez called for interference"
 play,5,0,mackr001,01,FX,2/P2F
 play,5,0,wilsc003,21,CBBX,8/F
 play,5,0,nunea001,00,X,8/F
@@ -1159,7 +1160,7 @@ play,3,1,garck002,20,BBX,D8/G
 play,3,1,zeilt001,32,CBBBSFS,K
 play,4,0,diaze002,12,CFBFX,S8/L
 play,4,0,vidrj001,11,B1>FX,S5/BG.1-2
-play,4,0,cabro001,32,B*BBCS>X,64(1)/FO.2XH(32)
+play,4,0,cabro001,32,B*BBCS>X,64(1)/FO/NDP.2XH(32)
 play,4,0,rivej001,00,X,9/F
 play,4,1,piazm001,00,X,63/G
 play,4,1,camem001,11,BFX,43/G
@@ -3909,7 +3910,7 @@ play,6,1,garck002,30,BBBX,S7/G.2-3;1-2
 play,6,1,wiggt001,12,BFFFX,S8/L.3-H;2-3;1-2
 play,6,1,camem001,00,,NP
 sub,bumpn001,"Nate Bump",0,9,1
-play,6,1,camem001,22,.CBCBX,64(1)/FO/G.3-H;2XH(32)
+play,6,1,camem001,22,.CBCBX,64(1)/FO/G/NDP.3-H;2XH(32)
 play,7,0,choih001,00,,NP
 sub,stanm003,"Mike Stanton",1,6,1
 play,7,0,choih001,00,,NP
@@ -8174,6 +8175,7 @@ start,wrigd002,"David Wright",1,6,5
 start,wilsv001,"Vance Wilson",1,7,2
 start,mcewj001,"Joe McEwing",1,8,6
 start,gintm001,"Matt Ginter",1,9,1
+com,"Protest=V"
 com,"$game played in rain through the first 5 innings;"
 com,"started 11 minutes late"
 play,1,0,biggc001,02,CSX,S8/G

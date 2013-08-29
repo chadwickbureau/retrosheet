@@ -95,8 +95,7 @@ sub,boydb102,"Bob Boyd",0,9,11
 play,5,0,boydb102,??,,13
 play,5,1,eastl101,??,,NP
 sub,fornm101,"Mike Fornieles",0,9,1
-play,5,1,eastl101,??,,S#
-com,"Hit location unclear; S3 or S9?"
+play,5,1,eastl101,??,,S
 play,5,1,rosea101,??,,NP
 sub,glynb101,"Bill Glynn",1,4,12
 play,5,1,rosea101,??,,PO1(E1).1-2
@@ -244,7 +243,6 @@ play,6,0,ellib103,??,,6/P
 play,6,1,simph101,??,,43
 play,6,1,hegaj101,??,,E6
 play,6,1,lemob101,??,,CS2(26)#
-com,"Exact timing of stolen base unclear."
 play,6,1,lemob101,??,,2/FL
 play,7,0,courc101,??,,31
 play,7,0,sievr101,??,,3/P
@@ -273,10 +271,6 @@ play,9,0,ellib103,??,,8
 play,9,0,courc101,??,,S9
 play,9,0,sievr101,??,,NP
 sub,berrn101,"Neil Berry",0,6,12
-com,"It looks like Berry was inserted as a pinch runner, but the"
-com,"run scored is credited to Courtney in the game summary.  I'm"
-com,"guessing that it was an oversight on the scorer's part when"
-com,"calculating the game totals."
 play,9,0,sievr101,??,,W.1-2
 play,9,0,dyckj101,??,,K
 play,9,0,whith101,??,,NP
@@ -287,11 +281,6 @@ sub,miraw101,"Willie Miranda",0,9,12
 play,9,0,grotj102,??,,SB2
 play,9,0,grotj102,??,,NP
 sub,lenhd101,"Don Lenhardt",0,1,11
-com,"It's not clear whether Lenhardt was a pinch hitter or pinch"
-com,"runner in the ninth inning.  Since whoever batted drew a"
-com,"base on balls, the game totals (at-bats) don't help.  This"
-com,"may be a place to look if there is a discrepancy in the walk"
-com,"totals for Groth and Lenhardt at the end of the season."
 play,9,0,lenhd101,??,,W
 play,9,0,younb101,??,,13
 data,er,brech101,4
@@ -624,6 +613,9 @@ start,glynb101,"Bill Glynn",1,6,3
 start,kennb104,"Bob Kennedy",1,7,9
 start,tiptj101,"Joe Tipton",1,8,2
 start,fellb101,"Bob Feller",1,9,1
+com,"ej,hutcf101,M,stevj901,Balls and strikes"
+com,"Tigers Manager Fred Hutchinson ejected by HP umpire Johnny Stevens"
+com,"sometime in game"
 play,1,0,kuenh101,??,,63
 play,1,0,hatff101,??,,8
 play,1,0,sullr101,??,,W
@@ -805,8 +797,7 @@ play,6,1,dobyl101,??,,13
 play,6,1,rosea101,??,,S8
 play,6,1,glynb101,??,,64(1)/FO.B-1
 play,6,1,simph101,??,,S8.1-3
-play,6,1,hegaj101,??,,OA.3XH(21)#
-com,"#Short passed ball assumed."
+play,6,1,hegaj101,??,,OA.3XH(21)
 play,7,0,garvn102,??,,63
 play,7,0,kuenh101,??,,53
 play,7,0,hatff101,??,,53
@@ -907,7 +898,6 @@ start,garcm101,"Mike Garcia",1,9,1
 play,1,0,joose101,??,,E6
 play,1,0,phild102,??,,S8.1-2
 play,1,0,michc101,??,,15(2)/FO.1-2
-com,"Blown sacrifice?"
 play,1,0,robie101,??,,6
 play,1,0,valoe101,??,,K
 play,1,1,boonr101,??,,63
@@ -921,8 +911,7 @@ play,2,1,rosea101,??,,T9
 play,2,1,glynb101,??,,63
 play,2,1,kennb104,??,,8.3-H
 play,2,1,tiptj101,??,,63
-play,3,0,shanb102,??,,23
-com,"Scoresheet not clear, 23 may not be correct"
+play,3,0,shanb102,??,,23#
 play,3,0,joose101,??,,53
 play,3,0,phild102,??,,1/G
 play,3,1,garcm101,??,,9
@@ -966,7 +955,6 @@ play,6,1,glynb101,??,,54(1)/FO
 play,6,1,kennb104,??,,K+CS2(24)/DP
 play,7,0,phild102,??,,S9
 play,7,0,michc101,??,,FC/SH.1-2;B-1
-com,"No play details shown"
 play,7,0,robie101,??,,6
 play,7,0,clara102,??,,64(1)3/GDP
 play,7,1,tiptj101,??,,4
@@ -976,7 +964,6 @@ play,8,0,zerng101,??,,K
 play,8,0,babel101,??,,D7
 play,8,0,astrj101,??,,7
 play,8,0,shanb102,??,,S7.2-H
-com,"Two RBIs for Shantz, which decide the game"
 play,8,0,joose101,??,,54(1)/FO
 play,8,1,avilb101,??,,7
 play,8,1,lemoj101,??,,K
@@ -1174,9 +1161,8 @@ start,hegaj101,"Jim Hegan",1,8,2
 start,lemob101,"Bob Lemon",1,9,1
 play,1,0,goodb101,??,,S9
 play,1,0,pierj102,??,,HP.1-2
-play,1,0,kellg102,??,,WP.2-3;1-2
-play,1,0,kellg102,??,,PB.3-H;2-3
-com,"I'm fairly confident the WP and BB were with Kell at bat"
+play,1,0,kellg102,??,,WP.2-3;1-2#
+play,1,0,kellg102,??,,PB.3-H;2-3#
 play,1,0,kellg102,??,,W
 play,1,0,gernd101,??,,K23#
 com,"to match daily/TSN, arbitrary K to K23"
@@ -1191,8 +1177,7 @@ play,2,0,bollm101,??,,S8
 play,2,0,grism101,??,,16(1)/FO.B-2(E6)
 play,2,0,goodb101,??,,W
 play,2,0,pierj102,??,,63
-play,2,1,rosea101,??,,2/FL#
-com,"to match daily/TSN, 4/FL to 2/FL"
+play,2,1,rosea101,??,,2/FL
 play,2,1,glynb101,??,,W
 play,2,1,simph101,??,,43.1-2
 play,2,1,hegaj101,??,,6/L
@@ -1222,8 +1207,7 @@ play,5,1,lemob101,??,,S4
 play,5,1,boonr101,??,,K
 play,5,1,avilb101,??,,4(1)/FO
 play,6,0,stepg101,??,,E1.B-1
-play,6,0,umpht101,??,,13.1-2#
-com,"not an SH (official/TSN)"
+play,6,0,umpht101,??,,13.1-2
 play,6,0,bollm101,??,,53
 play,6,0,grism101,??,,23
 play,6,1,mitcd101,??,,31
@@ -1260,8 +1244,7 @@ play,9,0,kellg102,??,,NP
 sub,chakb101,"Bob Chakales",1,9,1
 play,9,0,kellg102,??,,63
 play,9,0,gernd101,??,,S8
-play,9,0,whits103,??,,S7.1-H#
-com,"This is what scorecard says, as odd as it is"
+play,9,0,whits103,??,,S7.1-H
 play,9,0,stepg101,??,,S3.1-2
 play,9,0,umpht101,??,,54(1)3/GDP
 play,9,1,rosea101,??,,9
@@ -1360,8 +1343,7 @@ play,5,1,simph101,??,,S8
 play,5,1,hegaj101,??,,54(1)3/GDP
 play,5,1,fellb101,??,,K
 play,6,0,browh101,??,,7
-play,6,0,goodb101,??,,5/FL#
-com,"to match daily/TSN, 2/FL to 5/FL"
+play,6,0,goodb101,??,,5/FL
 play,6,0,pierj102,??,,63
 play,6,1,boonr101,??,,63
 play,6,1,avilb101,??,,5/L
@@ -1397,8 +1379,7 @@ play,9,0,stepg101,??,,9
 play,9,0,umpht101,??,,W
 play,9,0,bollm101,??,,S5.1-2
 play,9,0,browh101,??,,S7.2-H;1-2
-play,9,0,goodb101,??,,53/SH.2-3;1-2#
-com,"weird play! must be SH to match daily/TSN/NYT"
+play,9,0,goodb101,??,,53/SH.2-3;1-2
 play,9,0,pierj102,??,,S9.3-H;2-3
 play,9,0,kellg102,??,,7
 play,9,1,boonr101,??,,9
@@ -1627,7 +1608,6 @@ play,3,1,avilb101,??,,9
 play,3,1,glynb101,??,,31
 play,4,0,runnp101,??,,S8
 play,4,0,terww101,??,,3/G.1-2
-com,"to match daily/TSN, 3/G to 34(?)"
 play,4,0,pedel101,??,,43.2-3
 play,4,0,mastw101,??,,S8.3-H
 play,4,0,yoste101,??,,64(1)/FO
@@ -1652,8 +1632,7 @@ play,6,1,mitcd101,??,,5/L
 play,6,1,rosea101,??,,S8
 play,6,1,dobyl101,??,,HR/9.1-H
 play,6,1,simph101,??,,7
-play,6,1,boonr101,??,,S
-com,"Looks like hit dribbled between P and 2B"
+play,6,1,boonr101,??,,S/G4S
 play,6,1,tiptj101,??,,54(1)/FO
 play,7,0,mastw101,??,,NP
 sub,kennb104,"Bob Kennedy",1,3,7
@@ -1661,7 +1640,6 @@ play,7,0,mastw101,??,,NP
 sub,campf101,"Frank Campos",0,9,11
 play,7,0,campf101,??,,13
 play,7,0,yoste101,??,,W
-com,"The walking man, Eddie Yost, does it for the third time."
 play,7,0,busbj101,??,,54(1)3/GDP
 play,7,1,garcm101,??,,NP
 sub,dixos101,"Sonny Dixon",0,9,1
@@ -1759,7 +1737,6 @@ play,3,0,mantm101,??,,6
 play,3,1,hegaj101,??,,S6
 play,3,1,lemob101,??,,WP.1-2
 play,3,1,lemob101,??,,FC2.2X3(25)
-com,"Most likely failed sac try, but that not shown on sheet"
 play,3,1,avilb101,??,,S1.1-2
 play,3,1,glynb101,??,,46(1)/FO.2-3
 play,3,1,mitcd101,??,,7
@@ -1777,7 +1754,6 @@ play,4,0,mantm101,??,,S7.1-2
 play,4,0,woodg101,??,,13.2-3;1-2
 play,4,0,mizej101,??,,W
 play,4,0,mcdog101,??,,S7.3-H;2-H;1-2
-com,"Could be 1-3; advancement not shown on scoresheet"
 play,4,0,martb105,??,,64(1)/FO
 play,4,1,rosea101,??,,D9
 play,4,1,dobyl101,??,,9
@@ -1789,14 +1765,6 @@ play,5,0,fordw101,??,,NP
 sub,westw102,"Wally Westlake",1,5,8
 play,5,0,fordw101,??,,NP
 sub,aylwd101,"Dick Aylward",1,8,2
-com,"Sheet does not show when these players came in,"
-com,"  so guessing it was at this point. No indication"
-com,"  that they pinch hit."
-com,"Dick Aylward played in only four games in the majors,"
-com,"  and the ones in this game were his only at bats."
-com,"  Big Mac shows he never pinch hit, which supports his"
-com,"  his coming in the top of the fifth since he batted in"
-com,"  in the bottom of the fifth."
 play,5,0,fordw101,??,,S7
 play,5,0,rizzp101,??,,W.1-2
 play,5,0,norei101,??,,W.2-3;1-2
@@ -1826,7 +1794,6 @@ play,7,1,aylwd101,??,,53
 play,7,1,hoskd101,??,,K
 play,7,1,avilb101,??,,W
 play,7,1,glynb101,??,,S9.1-2
-com,"Might have been 1-3"
 play,7,1,lemoj101,??,,K
 play,8,0,woodg101,??,,3/G
 play,8,0,mizej101,??,,13
@@ -1905,25 +1872,20 @@ start,kennb104,"Bob Kennedy",1,6,9
 start,strig102,"George Strickland",1,7,6
 start,hegaj101,"Jim Hegan",1,8,2
 start,lemob101,"Bob Lemon",1,9,1
-play,1,0,fox-n101,??,,8#
-com,"or 7"
+play,1,0,fox-n101,??,,8
 play,1,0,fainf101,??,,4/L
 play,1,0,stepv101,??,,7/7D
 play,1,1,avilb101,??,,9
-play,1,1,glynb101,??,,S3/BG#
-com,"or S5"
-play,1,1,mitcd101,??,,S9.1-2#
-com,"or S7.1-2"
+play,1,1,glynb101,??,,S3/BG
+play,1,1,mitcd101,??,,S9.1-2
 play,1,1,majeh101,??,,8/8D.2-3
 play,1,1,dobyl101,??,,3/G
 play,2,0,meles101,??,,8/8D
 play,2,0,rivej101,??,,S9
 play,2,0,minom101,??,,W.1-2
 play,2,0,lolls101,??,,64(1)3/GDP
-play,2,1,kennb104,??,,S9#
-com,"or S8"
-play,2,1,strig102,??,,S9.1-2#
-com,"or S5.1-2"
+play,2,1,kennb104,??,,S9
+play,2,1,strig102,??,,S9.1-2
 play,2,1,hegaj101,??,,15(2)/FO.1-2
 play,2,1,lemob101,??,,13/BG/SH.2-3;1-2
 play,2,1,avilb101,??,,IW
@@ -1932,8 +1894,7 @@ play,3,0,carrc105,??,,63
 play,3,0,pierb101,??,,63
 play,3,0,fox-n101,??,,43
 play,3,1,mitcd101,??,,8/8D
-play,3,1,majeh101,??,,S9#
-com,"or S8"
+play,3,1,majeh101,??,,S9
 play,3,1,dobyl101,??,,7(B)43(1)/DP
 play,4,0,fainf101,??,,3/G
 play,4,0,stepv101,??,,6
@@ -1941,8 +1902,7 @@ play,4,0,meles101,??,,13
 play,4,1,kennb104,??,,43
 play,4,1,strig102,??,,W
 play,4,1,hegaj101,??,,3/FL
-play,4,1,lemob101,??,,3/FL#
-com,"or 3"
+play,4,1,lemob101,??,,3/FL
 play,5,0,rivej101,??,,S9
 play,5,0,minom101,??,,SB2
 play,5,0,minom101,??,,W
@@ -1963,12 +1923,9 @@ play,6,1,dobyl101,??,,K/C
 play,6,1,kennb104,??,,W
 play,6,1,strig102,??,,5/FL
 play,7,0,lolls101,??,,W
-play,7,0,carrc105,??,,26(1)/FO#
-com,"or 64(1)/FO"
-play,7,0,pierb101,??,,64(1)/FO#
-com,"or 26(1)/FO"
-play,7,0,fox-n101,??,,S7.1-2#
-com,"or S8.1-2"
+play,7,0,carrc105,??,,26(1)/FO
+play,7,0,pierb101,??,,64(1)/FO
+play,7,0,fox-n101,??,,S7.1-2
 play,7,0,fainf101,??,,W.2-3;1-2
 play,7,0,stepv101,??,,31
 play,7,1,hegaj101,??,,9
@@ -2502,8 +2459,7 @@ play,1,0,kuenh101,??,,K
 play,1,0,lundd102,??,,W
 play,1,0,niemb101,??,,9
 play,1,1,boonr101,??,,W
-play,1,1,avilb101,??,,53(B)5(1)/DP#
-com,"#Bunt?"
+play,1,1,avilb101,??,,53(B)5(1)/DP
 play,1,1,dobyl101,??,,13
 play,2,0,delsj101,??,,5/FL
 play,2,0,dropw101,??,,W
@@ -2556,8 +2512,7 @@ play,7,1,glynb101,??,,S9.2-H
 play,7,1,hegaj101,??,,E1/SH.1-2;B-1
 play,7,1,fellb101,??,,NP
 sub,herbr101,"Ray Herbert",0,9,1
-play,7,1,fellb101,??,,53/SH.2-3;1-2#
-com,"to match daily/NYT/TSN, 54/SH to 53/SH"
+play,7,1,fellb101,??,,53/SH.2-3;1-2
 play,7,1,boonr101,??,,IW
 play,7,1,avilb101,??,,W.3-H;2-3;1-2
 play,7,1,dobyl101,??,,WP.3-H(UR);2-3;1-2
@@ -2662,7 +2617,6 @@ play,2,0,goodb101,??,,63
 play,2,0,lepct101,??,,8
 play,2,1,hegaj101,??,,NP
 sub,everh101,"Hoot Evers",0,1,8
-com,"No reason given for Evers sub"
 play,2,1,hegaj101,??,,K
 play,2,1,garcm101,??,,43
 play,2,1,mitcd101,??,,31
@@ -2830,16 +2784,12 @@ play,4,0,goodb101,??,,63
 play,4,1,glynb101,??,,8
 play,4,1,strig102,??,,8
 play,4,1,hegaj101,??,,13
-play,5,0,lepct101,??,,K+E2.B-1#
-com,"I am guessing a PB, or perhaps a throwing error on 2 after"
-com,"a dropped third strike"
+play,5,0,lepct101,??,,K+E2.B-1
 play,5,0,whits103,??,,S9.1-2
 play,5,0,lipoj101,??,,64(1)3/GDP.2-3
 play,5,0,hudss101,??,,53
 play,5,1,wynne101,??,,63
-play,5,1,mitcd101,??,,S8.BX2(64)#
-com,"Confusing play on scorecard; I am guessing an out advancing"
-com,"on the single, but no PO for 8 is credited on scorecard."
+play,5,1,mitcd101,??,,S8.BX2(64)
 play,5,1,avilb101,??,,W
 play,5,1,dobyl101,??,,8
 play,6,0,pierj102,??,,K
@@ -2851,9 +2801,7 @@ play,6,1,westw102,??,,63
 play,6,1,glynb101,??,,K
 play,7,0,goodb101,??,,43
 play,7,0,lepct101,??,,7
-play,7,0,whits103,??,,K2#
-com,"This K has a number 2 below it, so I am assuming dropped th"
-com,"ird strike and tag out by 2"
+play,7,0,whits103,??,,K
 play,7,1,strig102,??,,K
 play,7,1,hegaj101,??,,43#
 com,"to match daily/NYT, arbitrary 63 to 43"
@@ -2884,8 +2832,8 @@ play,9,0,lepct101,??,,62(3)/FO.2-3;1-2;B-1
 play,9,0,whits103,??,,S9.3-H;2-H;1-3
 play,9,0,bollm101,??,,NP
 sub,hoopb101,"Bob Hooper",1,9,1
-play,9,0,bollm101,??,,CSH(2).1-2#
-com,"missed squeeze (NYT game story)"
+play,9,0,bollm101,??,,CSH(2).1-2
+com,"$missed squeeze"
 play,9,0,bollm101,??,,W
 play,9,0,kinde101,??,,63
 play,9,1,glynb101,??,,53
@@ -2950,7 +2898,6 @@ start,glynb101,"Bill Glynn",1,6,3
 start,strig102,"George Strickland",1,7,6
 start,hegaj101,"Jim Hegan",1,8,2
 start,lemob101,"Bob Lemon",1,9,1
-com,"Umps extrapolated from June 2 game"
 play,1,0,pierj102,??,,43
 play,1,0,stepg101,??,,K
 play,1,0,everh101,??,,W
@@ -2969,8 +2916,7 @@ play,2,1,glynb101,??,,S7
 play,2,1,strig102,??,,W.1-2
 play,2,1,hegaj101,??,,S7.2-3;1-2
 play,2,1,lemob101,??,,W.3-H;2-3;1-2
-play,2,1,mitcd101,??,,FC4.3-H;2-3;1-2;B-1#
-com,"Not sure what ^4 means in CLE scorecard"
+play,2,1,mitcd101,??,,FC4.3-H;2-3;1-2;B-1
 play,2,1,avilb101,??,,S7.3-H;2-3;1-2
 play,2,1,dobyl101,??,,NP
 sub,kennb103,"Bill Kennedy",0,9,1
@@ -2995,8 +2941,6 @@ play,4,1,rosea101,??,,K
 play,4,1,westw102,??,,8
 play,5,0,lipoj101,??,,NP
 sub,bollm101,"Milt Bolling",0,8,11
-com,"Not sure whether this is a PH or def sub in bottom-5, but"
-com,"this seems to make most sense"
 play,5,0,bollm101,??,,W
 play,5,0,kennb103,??,,14/SH.1-2
 play,5,0,pierj102,??,,S9.2-3
@@ -3033,8 +2977,6 @@ play,7,0,zaria101,??,,4/P
 play,7,1,mitcd101,??,,S7
 play,7,1,avilb101,??,,NP
 sub,kennb104,"Bob Kennedy",1,1,12
-com,"CLE scorecard does not say was made, but Mitchell is given"
-com,"all 5 ABs for the leadoff spot"
 play,7,1,avilb101,??,,53/SH.1-2
 play,7,1,dobyl101,??,,W
 play,7,1,rosea101,??,,54(1)3/GDP
@@ -3305,8 +3247,7 @@ play,5,0,michc101,??,,43
 play,5,0,mcghe101,??,,63
 play,5,1,garcm101,??,,63
 play,5,1,mitcd101,??,,7
-play,5,1,avilb101,??,,7/FL#
-com,"to match daily/NYT/TSN, 9/FL to 7/FL"
+play,5,1,avilb101,??,,7/FL
 play,6,0,astrj101,??,,53
 play,6,0,byrdh101,??,,S8
 play,6,0,joose101,??,,36(1)/FO
@@ -4253,8 +4194,7 @@ start,hegaj101,"Jim Hegan",1,8,2
 start,fellb101,"Bob Feller",1,9,1
 play,1,0,martb105,??,,9
 play,1,0,collj101,??,,3/G
-play,1,0,norei101,??,,63#
-com,"to match daily/NYT/TSN, 8 to 63"
+play,1,0,norei101,??,,63
 play,1,1,mitcd101,??,,43
 play,1,1,avilb101,??,,D7
 play,1,1,dobyl101,??,,43.2-3
@@ -4457,8 +4397,7 @@ play,5,1,hegaj101,??,,W.1-2
 play,5,1,lemob101,??,,8
 play,6,0,norei101,??,,43
 play,6,0,mantm101,??,,7
-play,6,0,berry101,??,,63#
-com,"to mach daily/TSN/NYT, 6/P to 63"
+play,6,0,berry101,??,,63
 play,6,1,glynb101,??,,K
 play,6,1,avilb101,??,,8
 play,6,1,mitcd101,??,,8
@@ -4469,7 +4408,6 @@ play,7,0,sainj101,??,,NP
 sub,bolld101,"Don Bollweg",0,9,11
 play,7,0,bolld101,??,,D7.1-H
 play,7,0,martb105,??,,PO2(E4).2-3#
-com,"DWS: this is not at all certain"
 play,7,0,martb105,??,,9
 play,7,1,rosea101,??,,NP
 sub,kuzab101,"Bob Kuzava",0,9,1
@@ -4573,8 +4511,7 @@ play,1,0,collj101,??,,K
 play,1,0,norei101,??,,S8
 play,1,0,mantm101,??,,SB2
 play,1,0,mantm101,??,,K
-play,1,1,glynb101,??,,K.B-1(E2)#
-com,"needed to fit NYT/TSN/official"
+play,1,1,glynb101,??,,K.B-1(E2)
 play,1,1,avilb101,??,,9
 play,1,1,mitcd101,??,,8
 play,1,1,dobyl101,??,,5/FL
@@ -4864,7 +4801,6 @@ play,3,0,garvn102,??,,K
 play,3,0,kuenh101,??,,7
 play,3,1,mitcd101,??,,W
 play,3,1,avilb101,??,,S1/BG.1-3(E1);B-2#
-com,"Play is unclear and needs further review."
 play,3,1,rosea101,??,,FC4.3-H(RBI)(UR);2-3;B-1
 play,3,1,eastl101,??,,K
 play,3,1,dobyl101,??,,46(1)/FO.3-H(UR)
@@ -5138,8 +5074,7 @@ play,4,0,rivej101,??,,7
 play,4,0,meles101,??,,S7
 play,4,0,lolls101,??,,7
 play,4,0,carrc105,??,,S9.1-3
-play,4,0,bearg102,??,,S7.3-H;1-2#
-com,"Carrasquel's advance (1 or 2 bases) unclear."
+play,4,0,bearg102,??,,S7.3-H;1-2
 play,4,0,fox-n101,??,,NP
 sub,hoopb101,"Bob Hooper",1,9,1
 play,4,0,fox-n101,??,,D7.2-H;1-H
@@ -5147,7 +5082,6 @@ play,4,0,fainf101,??,,W
 play,4,0,minom101,??,,63
 play,4,1,simph101,??,,9
 play,4,1,strig102,??,,D6
-com,"Carrasquel lost Strickland's popup in the sun!"
 play,4,1,ginsj101,??,,NP
 sub,majeh101,"Hank Majeski",1,8,11
 play,4,1,majeh101,??,,43
@@ -5181,13 +5115,8 @@ play,7,1,kennb104,??,,NP
 sub,dorif101,"Fritz Dorish",0,9,1
 play,7,1,kennb104,??,,NP
 sub,hoskd101,"Dave Hoskins",1,9,11
-com,"It seems unusual, but the scorers show pitcher Dave Hoskins"
-com,"pinch hitting for Kennedy who was announced, but didn't"
-com,"hit.  After singling and scoring, Hoskins takes over on the"
-com,"mound for the Indians in the top of the eighth."
 play,7,1,hoskd101,??,,S8
-play,7,1,mitcd101,??,,S9.1-2#
-com,"Hoskins' advance (1 or 2 bases) unclear."
+play,7,1,mitcd101,??,,S9.1-2
 play,7,1,avilb101,??,,S1/BG.2-3;1-2
 play,7,1,rosea101,??,,64(1)/FO.3-H;2-3
 play,7,1,eastl101,??,,D9.3-H;1-H
@@ -5275,9 +5204,7 @@ start,strig102,"George Strickland",1,6,6
 start,glynb101,"Bill Glynn",1,7,3
 start,tiptj101,"Joe Tipton",1,8,2
 start,chakb101,"Bob Chakales",1,9,1
-play,1,0,fox-n101,??,,S7#
-com,"The scorers disagree as to whether the single was to left"
-com,"or right."
+play,1,0,fox-n101,??,,S7
 play,1,0,fainf101,??,,7
 play,1,0,minom101,??,,W.1-2
 play,1,0,ellib103,??,,K+CS3(25)/DP
@@ -5294,7 +5221,6 @@ play,2,1,strig102,??,,41
 play,3,0,pierb101,??,,13
 play,3,0,fox-n101,??,,S9
 play,3,0,fainf101,??,,CS2(26)#
-com,"Exact timing of caught stealing unclear."
 play,3,0,fainf101,??,,3/FL
 play,3,1,glynb101,??,,S8
 play,3,1,tiptj101,??,,8
@@ -5319,9 +5245,7 @@ play,5,1,glynb101,??,,W
 play,5,1,tiptj101,??,,8
 play,6,0,ellib103,??,,HR/7
 play,6,0,rivej101,??,,5/FL
-play,6,0,meles101,??,,S8#
-com,"The scorers disagree as to whether it was a single to center"
-com,"or left."
+play,6,0,meles101,??,,S8
 play,6,0,sheeb101,??,,1(B)3(1)/LDP
 play,6,1,chakb101,??,,NP
 sub,marsf101,"Fred Marsh",0,4,5
@@ -5329,8 +5253,7 @@ play,6,1,chakb101,??,,NP
 sub,westw102,"Wally Westlake",1,9,11
 play,6,1,westw102,??,,W
 play,6,1,mitcd101,??,,8
-play,6,1,avilb101,??,,S7.1-2#
-com,"Westlake's advance (1 or 2 bases) unclear."
+play,6,1,avilb101,??,,S7.1-2
 play,6,1,rosea101,??,,3/FL
 play,6,1,dobyl101,??,,K
 play,7,0,carrc105,??,,NP
@@ -5347,16 +5270,14 @@ play,8,0,marsf101,??,,14/SH.1-2
 play,8,0,rivej101,??,,S8.2-H;B-2(TH)
 play,8,0,meles101,??,,IW
 play,8,0,sheeb101,??,,CS3(25)
-play,8,0,sheeb101,??,,S8.1-2#
-com,"Mele's advance (1 or 2 bases) unclear."
+play,8,0,sheeb101,??,,S8.1-2
 play,8,0,carrc105,??,,8
 play,8,1,tiptj101,??,,9
 play,8,1,brisl101,??,,NP
 sub,majeh101,"Hank Majeski",1,9,11
 play,8,1,majeh101,??,,43
 play,8,1,mitcd101,??,,S7
-play,8,1,avilb101,??,,S8.1-2#
-com,"Mitchell's advance (1 or 2 bases) unclear."
+play,8,1,avilb101,??,,S8.1-2
 play,8,1,rosea101,??,,9
 play,9,0,pierb101,??,,NP
 sub,hoopb101,"Bob Hooper",1,9,1
@@ -5429,8 +5350,7 @@ play,1,0,ellib103,??,,43
 play,1,1,mitcd101,??,,13
 play,1,1,avilb101,??,,6/P
 play,1,1,rosea101,??,,S8
-play,1,1,eastl101,??,,S8.1-2#
-com,"Rosen's advance (1 or 2 bases) unclear."
+play,1,1,eastl101,??,,S8.1-2
 play,1,1,dobyl101,??,,3/G
 play,2,0,rivej101,??,,S7
 play,2,0,meles101,??,,SB2
@@ -5460,12 +5380,7 @@ play,5,0,rogos101,??,,9
 play,5,0,fox-n101,??,,7
 play,5,1,strig102,??,,S1
 play,5,1,ginsj101,??,,S9.1-2
-play,5,1,garcm101,??,,15(2)/FO.1-2#
-com,"Both scorers agree that the play was a 1-5 putout, but they"
-com,"disagree as to who was putout!  I'm going with the"
-com,"scorer who has George Strickland being putout 1-5 on his"
-com,"way from second to third.  The other scorer shows Joe"
-com,"Ginsburg being putout 1-5 on his way from first to second!"
+play,5,1,garcm101,??,,15(2)/FO.1-2
 play,5,1,mitcd101,??,,D7.2-H;1-3
 play,5,1,avilb101,??,,S8.3-H;2-H;B-2
 play,5,1,rosea101,??,,PO2(16)
@@ -5749,16 +5664,13 @@ play,5,0,shanb102,??,,43
 play,5,1,strig102,??,,K
 play,5,1,hegaj101,??,,S9
 play,5,1,lemob101,??,,36(1)3/GDP
-play,6,0,maurc101,??,,S9#
-com,"Hit location difficult to read; looks like S9."
-play,6,0,phild102,??,,S9.1-2#
-com,"Mauro's advance (1 or 2 bases) unclear."
+play,6,0,maurc101,??,,S9
+play,6,0,phild102,??,,S9.1-2
 play,6,0,robie101,??,,8
 play,6,0,zerng101,??,,14(1)3/GDP
 play,6,1,mitcd101,??,,13
 play,6,1,avilb101,??,,S7
-play,6,1,rosea101,??,,S7.1-2#
-com,"Avila's advance (1 or 2 bases) unclear."
+play,6,1,rosea101,??,,S7.1-2
 play,6,1,eastl101,??,,HR/8.2-H;1-H
 play,6,1,dobyl101,??,,HR/9
 play,6,1,smita102,??,,8
@@ -5778,8 +5690,7 @@ play,7,1,majeh101,??,,CS2(24)
 play,8,0,murrr102,??,,W
 play,8,0,fanof101,??,,NP
 sub,hamit101,"Tom Hamilton",0,9,11
-play,8,0,hamit101,??,,16(1)/FO#
-com,"to match daily/NYT/TSN, 4/FO to 16/FO"
+play,8,0,hamit101,??,,16(1)/FO
 play,8,0,maurc101,??,,46(1)/FO
 play,8,0,phild102,??,,43
 play,8,1,majeh101,??,,NP
@@ -5854,20 +5765,16 @@ start,hegaj101,"Jim Hegan",1,8,2
 start,fellb101,"Bob Feller",1,9,1
 play,1,0,demaj101,??,,W
 play,1,0,phild102,??,,5/FL
-play,1,0,sudep101,??,,S8.1-2#
-com,"DeMaestri's advance (1 or 2 bases) unclear."
+play,1,0,sudep101,??,,S8.1-2
 play,1,0,robie101,??,,HR/9.2-H;1-H
 play,1,0,zerng101,??,,7
 play,1,0,mcghe101,??,,3/FL
-play,1,1,mitcd101,??,,HR/9#
-com,"It looks like an HR/9, but it's a little faded.  It could be"
-com,"an HR/7 . . ."
+play,1,1,mitcd101,??,,HR/9
 play,1,1,avilb101,??,,7
 play,1,1,rosea101,??,,13
 play,1,1,eastl101,??,,8
 play,2,0,babel101,??,,S7
-play,2,0,murrr102,??,,S8.1-2#
-com,"Babe's advance (1 or 2 bases) unclear."
+play,2,0,murrr102,??,,S8.1-2
 play,2,0,byrdh101,??,,E2/SH.2-H(NR);1-3;B-2
 play,2,0,demaj101,??,,S7.3-H;2-H(UR)
 play,2,0,phild102,??,,NP
@@ -5923,7 +5830,6 @@ sub,tiptj101,"Joe Tipton",1,8,2
 play,8,0,robie101,??,,9
 play,8,0,zerng101,??,,S9
 play,8,0,mcghe101,??,,SB2#
-com,"Zernial had an SB - logically here"
 play,8,0,mcghe101,??,,W
 play,8,0,babel101,??,,8
 play,8,0,murrr102,??,,D9.2-H;1-H
@@ -6133,7 +6039,6 @@ play,1,0,kellg102,??,,D7.1-3
 play,1,0,whits103,??,,W
 play,1,0,umpht101,??,,S8.3-H;2-H;1-3
 play,1,0,pierj102,??,,S8.3-H;1-H
-com,"Possible advancement(SB?) by Umplett before S8(Peirsall)"
 play,1,0,bollm101,??,,9
 play,1,1,smita102,??,,W
 play,1,1,avilb101,??,,K
@@ -6150,8 +6055,7 @@ play,3,0,kellg102,??,,53
 play,3,0,whits103,??,,K
 play,3,1,tiptj101,??,,9
 play,3,1,houta101,??,,5
-play,3,1,smita102,??,,43#
-com,"to match daily/NYT/TSN, 4 to 43"
+play,3,1,smita102,??,,43
 play,4,0,umpht101,??,,63
 play,4,0,pierj102,??,,63
 play,4,0,bollm101,??,,43
@@ -6225,8 +6129,7 @@ play,9,0,pierj102,??,,NP
 sub,wighb101,"Bill Wight",1,9,1
 play,9,0,pierj102,??,,K
 play,9,0,bollm101,??,,S9.B-2(E9)
-play,9,0,parnm101,??,,5/F/FL#
-com,"to match daily/NYT/TSN, 6 to 5"
+play,9,0,parnm101,??,,5/F/FL
 play,9,0,goodb101,??,,W
 play,9,0,stepg101,??,,K
 play,9,1,westw102,??,,W
@@ -6320,8 +6223,7 @@ play,3,0,berry101,??,,143
 play,3,1,smita102,??,,8
 play,3,1,avilb101,??,,7
 play,3,1,mitcd101,??,,43
-play,4,0,collj101,??,,31#
-com,"to match daily/NYT/TSN, 63 to 31"
+play,4,0,collj101,??,,31
 play,4,0,woodg101,??,,K
 play,4,0,norei101,??,,W
 play,4,0,rizzp101,??,,W.1-2
@@ -6520,7 +6422,6 @@ play,7,1,dobyl101,??,,S9.1-2
 play,7,1,strig102,??,,NP
 sub,scarr102,"Ray Scarborough",0,9,1
 play,7,1,strig102,??,,S7.2-H;1-3(E2)#
-com,"Error by Berra not specified(when, what) only Doby advances"
 play,7,1,tiptj101,??,,W.1-2
 play,7,1,garcm101,??,,K
 play,7,1,smita102,??,,K
@@ -6627,8 +6528,7 @@ play,3,0,mantm101,??,,K
 play,3,0,berry101,??,,W
 play,3,0,bolld101,??,,5/F
 play,3,1,smita102,??,,D7
-play,3,1,avilb101,??,,53/SH.2-3#
-com,"to match daily/NYT/TSN, 54 to 53"
+play,3,1,avilb101,??,,53/SH.2-3
 play,3,1,mitcd101,??,,FC6.3-H;B-1
 play,3,1,rosea101,??,,S7.1-2
 play,3,1,eastl101,??,,K
@@ -6881,7 +6781,8 @@ play,9,0,runnp101,??,,S6.3-H;2-3;1-2
 play,9,0,busbj101,??,,5(2)/FO
 play,9,1,avilb101,??,,S5
 play,9,1,mitcd101,??,,7/L
-com,"Man.Lopez ejected for arguing play 39"
+com,"ej,lopea102,M,romme101,Catch/trap call"
+com,"Indians Manager Al Lopez ejected by 1B umpire Eddie Rommel"
 play,9,1,rosea101,??,,7
 play,9,1,glynb101,??,,NP
 sub,simaa101,"Al Sima",0,9,1
@@ -7457,6 +7358,8 @@ play,7,0,boydb102,??,,S7.3-H;2-3
 play,7,0,fox-n101,??,,WP.3-H;1-2
 play,7,0,fox-n101,??,,W
 play,7,0,minom101,??,,HR/7.2-H;1-H
+com,"ej,lemob101,P,mcgob901,Balls and strikes"
+com,"Bob Lemon ejected by HP umpire Bill McGowan"
 play,7,0,meles101,??,,NP
 sub,hoopb101,"Bob Hooper",1,9,1
 play,7,0,meles101,??,,7
@@ -7551,8 +7454,7 @@ start,wynne101,"Early Wynn",1,9,1
 play,1,0,boydb102,??,,K
 play,1,0,fox-n101,??,,W
 play,1,0,minom101,??,,S9.1-3
-play,1,0,meles101,??,,SBH;SB2#
-com,"DSB, no Minoso RBI, matches official/NYT"
+play,1,0,meles101,??,,SBH;SB2
 play,1,0,meles101,??,,3/FL
 play,1,0,lolls101,??,,5/P
 play,1,1,mitcd101,??,,7
@@ -7625,7 +7527,9 @@ play,7,1,avilb101,??,,W
 play,7,1,eastl101,??,,43.1-2
 play,7,1,rosea101,??,,IW
 play,7,1,dobyl101,??,,S6.2-H;1-3
-com,"Bearden and Lollar ejected for arguing call"
+com,"ej,bearg102,P,papaj901,Call at HP"
+com,"ej,lolls101,P,papaj901,Call at HP"
+com,"Sherm Lollar and Gene Bearden ejected by HP umpire Joe Paparella"
 play,7,1,simph101,??,,NP
 sub,sheeb101,"Bud Sheely",0,5,2
 play,7,1,simph101,??,,NP
@@ -8665,7 +8569,6 @@ play,5,0,terww101,??,,W
 play,5,0,fitze101,??,,8(B)3(1)/DP
 play,5,1,mitcd101,??,,S6
 play,5,1,rosea101,??,,4(B)3(1)/DP#
-com,"Official has only 1 GDP by Rosen" 
 play,5,1,dobyl101,??,,D8
 play,5,1,simph101,??,,43
 play,6,0,portb102,??,,5/FL
@@ -9084,8 +8987,7 @@ play,5,0,woodg101,??,,8
 play,5,0,collj101,??,,HR/9
 play,5,0,martb105,??,,S5
 play,5,0,rizzp101,??,,W.1-2
-play,5,0,lopae101,??,,4(1)/FO#
-com,"to match daily/NYT/TSN, 43 to 4(1)/FO"
+play,5,0,lopae101,??,,4(1)/FO
 play,5,1,wynne101,??,,5/P
 play,5,1,avilb101,??,,63
 play,5,1,glynb101,??,,E4
@@ -9330,8 +9232,7 @@ play,1,0,willt103,??,,HR/9
 play,1,0,kellg102,??,,7/FL
 play,1,1,avilb101,??,,W
 play,1,1,glynb101,??,,S7.1-2
-play,1,1,mitcd101,??,,56(1)/FO.2-3;B-2(E2)#
-com,"fits official/TSN/NYT"
+play,1,1,mitcd101,??,,56(1)/FO.2-3;B-2(E2)
 play,1,1,rosea101,??,,9
 play,1,1,dobyl101,??,,W
 play,1,1,westw102,??,,S8.3-H;2-H;1-2
@@ -9361,7 +9262,6 @@ play,4,1,westw102,??,,E6
 play,4,1,strig102,??,,D7.1-H(UR)
 play,4,1,hegaj101,??,,D7.2-H
 play,4,1,fellb101,??,,OA.2X3(25)
-com,"DWS: by microfilm, not CS. Also makes sense as not CS"
 play,4,1,fellb101,??,,K
 play,5,0,whits103,??,,HR/7
 play,5,0,lepct101,??,,8
@@ -9582,6 +9482,8 @@ play,8,1,mitcd101,??,,S7
 play,8,1,rosea101,??,,NP
 sub,kennb104,"Bob Kennedy",1,3,12
 play,8,1,rosea101,??,,S7.1-3;BX2(74)
+com,"ej,rosea101,P,berrc103,Call at 2B"
+com,"Al Rosen ejected by 2B umpire Charlie Berry"
 play,8,1,dobyl101,??,,K
 play,9,0,gernd101,??,,NP
 sub,kennb104,"Bob Kennedy",1,3,9
@@ -10045,8 +9947,7 @@ play,9,0,hamit101,??,,9
 play,9,0,murrr102,??,,S5
 play,9,0,fanof101,??,,NP
 sub,watln101,"Neal Watlington",0,9,11
-play,9,0,watln101,??,,3/FL#
-com,"to match daily/NYT/TSN, 2/FL to 3/FL"
+play,9,0,watln101,??,,3/FL
 data,er,byrdh101,5
 data,er,fanof101,0
 data,er,lemob101,3
@@ -10384,12 +10285,10 @@ com,"sub,eastl101,'Luke Easter',1,9,11"
 com,"play,11,1,eastl101,??,,3/L"
 com,"play,11,1,avilb101,??,,S7"
 com,"play,11,1,glynb101,??,,7"
-com,"$Game Called due to Rain, DH the next day."
-com,"DWS: By the rules of the day, since the 11th inning"
-com,"was not completed, all events and appearances were"
-com,"erased and the end point of the game reverted back"
-com,"to the end of the 10th inning"
 com,"data,er,dorif101,0"
+com,"$game called due to rain; by the rules of the day, since the 11th inning"
+com,"was not completed, all events and appearances were erased and the end"
+com,"of the game reverted back to the end of the 10th inning"
 data,er,pierb101,6
 data,er,keegb101,0
 data,er,fornm101,0
@@ -10508,7 +10407,9 @@ play,8,1,strig102,??,,S5
 play,8,1,hegaj101,??,,NP
 sub,dobyl101,"Larry Doby",1,8,11
 play,8,1,dobyl101,??,,K
-com,"Doby and Manager Lopez ejected arguing balls and strikes"
+com,"ej,dobyl101,P,summb901,Balls and strikes"
+com,"ej,lopea102,M,summb901,Balls and strikes"
+com,"Larry Doby and Indians Manager Al Lopez ejected by HP umpire Bill Summers"
 play,8,1,wynne101,??,,NP
 sub,eastl101,"Luke Easter",1,9,11
 play,8,1,eastl101,??,,K
@@ -10848,8 +10749,7 @@ play,1,1,glynb101,??,,K
 play,1,1,mitcd101,??,,63
 play,2,0,wertv101,??,,5/L
 play,2,0,stepv101,??,,3/P
-play,2,0,courc101,??,,163#
-com,"to match daily/NYT/TSN, 6/P to 163"
+play,2,0,courc101,??,,163
 play,2,1,rosea101,??,,8
 play,2,1,dobyl101,??,,K
 play,2,1,simph101,??,,K
@@ -11297,8 +11197,7 @@ play,1,0,boonr101,??,,6
 play,1,1,rosea101,??,,9
 play,1,1,smita102,??,,W
 play,1,1,dobyl101,??,,S5.1-2
-play,1,1,majeh101,??,,S9.2-H(RBI);1-H(E5)(UR);B-3#
-com,"#Majeski took 2d on throw, 3rd on Boone's error.#"
+play,1,1,majeh101,??,,S9.2-H(RBI);1-H(E5)(UR);B-3
 play,1,1,kennb104,??,,53
 play,1,1,glynb101,??,,7
 play,2,0,delsj101,??,,D7
@@ -11370,8 +11269,7 @@ play,7,1,hoskd101,??,,WP.1-2
 play,7,1,hoskd101,??,,13
 play,7,1,rosea101,??,,S6.2-3
 play,7,1,smita102,??,,FC1.3-H(RBI);1-2;B-1
-play,7,1,dobyl101,??,,S3/BG.2-3;1-2;B-1#
-com,"#10 runs up and Doby bunts!?!?#"
+play,7,1,dobyl101,??,,S3/BG.2-3;1-2;B-1
 play,7,1,majeh101,??,,53.3-H;2-3;1-2
 play,7,1,kennb104,??,,53
 play,8,0,dropw101,??,,6/FL
@@ -11388,11 +11286,9 @@ play,8,1,frieo101,??,,K/C
 play,8,1,tiptj101,??,,S6
 play,8,1,hoskd101,??,,7/FL
 play,9,0,pridj101,??,,31
-play,9,0,kalia101,??,,HR/7#
-com,"#Kaline's first of 399 lifetime.##"
+play,9,0,kalia101,??,,HR/7
 play,9,0,lundd102,??,,63
-play,9,0,mullp101,??,,HR/9#
-com,"#... and the last homerun of Pat Mullins' career.#"
+play,9,0,mullp101,??,,HR/9
 play,9,0,dropw101,??,,W
 play,9,0,battm101,??,,8
 data,er,grayt101,5
@@ -11538,9 +11434,6 @@ play,8,1,glynb101,??,,63
 play,9,0,abera101,??,,13
 play,9,0,kuenh101,??,,43
 play,9,0,hatff101,??,,8
-com,"##This was the final ML appearance of Tigers Hutchinson,"
-com,"##Swift, Priddy and Mullin.  Hutchinson played 1b for the"
-com,"##only time in his career.##"
 play,9,1,frieo101,??,,13
 play,9,1,ginsj101,??,,W
 play,9,1,houta101,??,,K

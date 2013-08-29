@@ -55,7 +55,7 @@ play,1,0,madlb001,??,,7
 play,1,1,richg001,??,,W
 play,1,1,chamm101,??,,S7.1-3
 play,1,1,winfd001,??,,64(1)/FO.3-H
-play,1,1,hendg001,??,,3/G.1X3(75)(E6)
+play,1,1,hendg001,??,,3/G/NDP.1X3(75)(E6)
 play,2,0,clarj001,??,,D8
 play,2,0,mccow101,??,,3/L
 play,2,0,ellir101,??,,8
@@ -1594,18 +1594,18 @@ play,1,0,boisb101,??,,S8.1-3
 play,1,0,kingd001,??,,HR/78.3-H;1-H
 play,1,0,milnj101,??,,S8
 ladj,0,7
-com,"$Stearns batted out of order"
 play,1,0,steaj001,??,,BK.1-2
-play,1,0,steaj001,??,,3(B)6(2)/DP
+play,1,0,steaj001,??,,3(B)6(2)/DP/BOOT
+com,"$John Stearns batted out of order"
 play,1,1,rettm101,??,,K/C
 play,1,1,chamm101,??,,4
 play,1,1,winfd001,??,,8
 ladj,0,6
 com,"$the proper batter is Harrelson but Staiger batted"
-play,2,0,stair101,??,,8
+play,2,0,stair101,??,,8/BOOT
 ladj,0,8
 com,"$the proper batter is Stearns but Harrelson batted"
-play,2,0,harrb101,??,,S8
+play,2,0,harrb101,??,,S8/BOOT
 com,"$the Padres missed the chance to cancel the single because of the team batting"
 com,"out of order"
 play,2,0,matlj101,??,,SB2#
@@ -1624,16 +1624,15 @@ play,3,1,robed102,??,,D8/78.1-3
 play,3,1,sawyr101,??,,43.3-H;2-3
 play,3,1,rettm101,??,,7(B)52(3)/DP
 ladj,0,7
-com,"$Stearns batted out of order"
-play,4,0,steaj001,??,,HR/7
-com,"$the Padres missed the chance to cancel the homer because of the team batting"
+play,4,0,steaj001,??,,HR/7/BOOT
+com,"$the Padres missed the chance to cancel the homer because of John Stearns batting"
 com,"out of order"
 ladj,0,6
 com,"$the proper batter is now Harrelson but Staiger batted"
-play,4,0,stair101,??,,63
+play,4,0,stair101,??,,63/BOOT
 ladj,0,8
 com,"$the proper batter is Stearns but Harrelson batted"
-play,4,0,harrb101,??,,53
+play,4,0,harrb101,??,,53/BOOT
 play,4,0,matlj101,??,,5
 play,4,1,chamm101,??,,NP
 sub,philm101,"Mike Phillips",0,2,4
@@ -1649,16 +1648,16 @@ play,5,0,kingd001,??,,HR/7.3-H;1-H
 play,5,0,milnj101,??,,D9
 ladj,0,7
 com,"$Stearns batted out of order"
-play,5,0,steaj001,??,,63.2-3
+play,5,0,steaj001,??,,63/BOOT.2-3
 ladj,0,6
 com,"$the proper batter is now Harrelson but Staiger batted"
-play,5,0,stair101,??,,13
-ladj,0,8
+play,5,0,stair101,??,,13/BOOT
 play,5,1,hendg001,??,,K
 play,5,1,iviem101,??,,9
 play,5,1,raded103,??,,S9.BX2(36)
 com,"$the proper batter is Stearns but Harrelson batted"
-play,6,0,harrb101,??,,E6.B-2
+ladj,0,8
+play,6,0,harrb101,??,,E6/BOOT.B-2
 com,"$the Padres missed the chance to have Harrelson declared out for batting"
 com,"out of turn and removing the error"
 play,6,0,matlj101,??,,FC1/BG.2X3(15);B-1
@@ -1681,14 +1680,14 @@ play,7,0,kingd001,??,,7
 play,7,0,vailm001,??,,K
 ladj,0,7
 com,"$Stearns batted out of order"
-play,7,0,steaj001,??,,W
+play,7,0,steaj001,??,,W/BOOT
 ladj,0,6
 com,"$the proper batter is now Harrelson but Staiger batted and singled"
 com,"Stearns to 3B; the Padres finally speak up about the Mets batting"
 com,"order; the umpires declared Staiger (the man who batted) out instead"
 com,"of the proper batter, Harrelson; automatic putout to the catcher"
 com,"since Staiger reached base"
-play,7,0,stair101,??,,2
+play,7,0,stair101,??,,2/BOOT
 play,7,1,winfd001,??,,4
 play,7,1,tenag101,??,,S9
 play,7,1,hendg001,??,,S7.1-2
@@ -1701,7 +1700,7 @@ play,8,0,harrb101,??,,NP
 sub,bernv101,"Victor Bernal",1,7,1
 com,"$continuing with the incorrect call by the umpires, the proper batter"
 com,"is Stearns but Harrelson batted"
-play,8,0,harrb101,??,,W
+play,8,0,harrb101,??,,W/BOOT
 play,8,0,matlj101,??,,46(1)3/GDP
 play,8,0,mazzl001,??,,K/C
 play,8,1,robed102,??,,4
@@ -10751,7 +10750,7 @@ start,ashft001,"Tucker Ashford",1,8,5
 start,joner101,"Randy Jones",1,9,1
 play,1,0,dejei001,12,,7
 play,1,0,cardj101,20,,63
-play,1,0,buckb001,01,,13/INT
+play,1,0,buckb001,01,,13/BINT
 com,"$Bill Buckner called for interference when Randy Jones' throw"
 com,"hit Buckner"
 play,1,1,richg001,00,,8/L
@@ -11082,8 +11081,8 @@ play,5,0,dejei001,30,,IW
 play,5,0,cling101,00,,52(3)/FO.2-3;1-2
 play,5,0,buckb001,10,,W.3-H(UR);2-3;1-2
 play,5,0,moraj101,00,,64(1)/FO
-play,5,1,robed102,01,,2/INT
-com,"ej,darka101,M,kiblj901,Interference call on batter"
+play,5,1,robed102,01,,2/BINT
+com,"ej,darka101,M,kiblj901,Interference call"
 com,"Padres Manager Al Dark ejected by HP umpire John Kibler"
 com,"when Dave Roberts called for interference for running"
 com,"into his own batted ball"

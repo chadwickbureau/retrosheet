@@ -80,7 +80,7 @@ play,4,1,gwynt002,30,BBBB,W.3-H;2-3;1-2
 play,4,1,corrk001,12,BCFFX,S9/L.3-H;2-H;1-3
 play,4,1,cabre001,02,CFX,FC4/G.3-H;1-2;B-1
 play,4,1,ecksd001,32,BF*BCBX,9/F
-play,4,1,gonza003,00,X,DGR/8/F.2-H;1-3
+play,4,1,gonza003,00,X,DGR/8/F/FINT.2-H;1-3
 com,"fan interference"
 play,4,1,blank002,00,,NP
 sub,reyej003,"Jo-Jo Reyes",0,9,1
@@ -1597,7 +1597,8 @@ play,5,0,geruj001,00,X,43/G
 play,5,1,hundn001,12,.SBCFX,S8/L
 play,5,1,richc002,22,MBLBX,26(1)/FO/BG.B-1
 play,5,1,gwynt002,31,CBBBX,S9/L.1-2
-play,5,1,ecksd001,10,BX,2/BG/INT.2-2;1-1
+play,5,1,ecksd001,10,BX,2/BG/BINT.2-2;1-1
+com,"$David Eckstein called for interference"
 play,5,1,gonza003,02,CSX,8/F
 play,6,0,braur002,32,CTBFBBB,W
 play,6,0,fielp001,12,CBC1S,K
@@ -3846,6 +3847,7 @@ start,salao001,"Oscar Salazar",1,6,7
 start,hairj002,"Jerry Hairston",1,7,6
 start,denoc001,"Chris Denorfia",1,8,8
 start,richc002,"Clayton Richard",1,9,1
+com,"Protest=V"
 play,1,0,morgn001,32,BBBCCFX,31/G
 play,1,0,guzmc001,10,BX,53/G
 play,1,0,dunna001,10,BX,8/F
@@ -5730,7 +5732,7 @@ play,4,1,hairs001,11,BSX,14(1)/FO/G
 play,4,1,torry001,21,B1SB1X,14(1)3/GDP
 play,5,0,lugoj001,32,CBBSFFB*B,W
 play,5,0,iztuc001,20,B1B>B,SB2
-play,5,0,iztuc001,31,B1B>B.CX,2/INT.2-2
+play,5,0,iztuc001,31,B1B>B.CX,2/BINT.2-2
 com,"$Cesar Izturis called out for interfering with catcher Yorvit Torrealba"
 com,"who was trying to throw to 3B on an attempted steal; Izturis leaned back"
 com,"from the plate and the ball went into LF; HP umpire Chris Guccione made"
@@ -9213,7 +9215,7 @@ start,hairj002,"Jerry Hairston",1,6,7
 start,torry001,"Yorvit Torrealba",1,7,2
 start,denoc001,"Chris Denorfia",1,8,8
 start,leblw001,"Wade LeBlanc",1,9,1
-play,1,0,drews001,32,CCBBBX,HR/9/F
+play,1,0,drews001,32,CCBBBX,HR/9/F/REV
 com,"replay,1,drews001,ARI,gormb901,SAN02,O,Y"
 com,"$Stephen Drew's liner hit in the seats in the right field corner and caromed"
 com,"back onto the field; it was ruled in play but crew chief Brian Gorman watched"
@@ -10146,7 +10148,7 @@ play,1,0,moram002,32,BCBBC>X,4(1)/FO/G
 play,1,1,venaw001,11,BFX,43/G
 play,1,1,ecksd001,12,CSBX,7/L
 play,1,1,ludwr001,12,BCTX,S8/L
-play,1,1,gonza003,12,1CTFBX,D9/F.1-H
+play,1,1,gonza003,12,1CTFBX,D9/F/REV.1-H
 com,"replay,1,gonza003,SDN,darlg901,SAN02,O,N"
 com,"$Adrian Gonzalez' fly hit near the top of the padded wall in the RF"
 com,"corner where the wall juts out; the ball was ruled in play but the Padres"
@@ -11208,7 +11210,7 @@ play,9,0,schin001,20,..BBX,D7/L
 play,9,0,uribj002,02,FSX,S6/G.2-2
 play,9,0,rente001,22,CBSBX,65(2)/FO/G.1-2
 play,9,0,white004,01,CX,E1/TH2/FO/G.2-3;1-2
-play,9,0,wilsb001,12,SBSX,12(3)3/G/DP
+play,9,0,wilsb001,12,SBSX,12(3)3/G/DP/RINT
 com,"$Juan Uribe's slide into home was a little wide of the plate and he hooked"
 com,"catcher Nick Hundley, who was throwing to 1B; Uribe was called for interference"
 com,"and batter Brian Wilson declared out"

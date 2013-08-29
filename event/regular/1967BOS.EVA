@@ -1,9 +1,3 @@
-com,"Copyright 2002 by Retrosheet, Inc."
-com,"20 Sunset Rd."
-com,"Newark, DE 19711"
-com,"All Rights Reserved"
-com,"Data Version 1.00"
-com,"June 30, 2002"
 id,BOS196704120
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -763,8 +757,10 @@ play,5,1,yastc101,??,,NP
 sub,amarr101,"Ruben Amaro",0,8,6
 play,5,1,yastc101,02,,NP
 sub,demed101,"Don Demeter",1,3,11
-com,"Yastrzemski ejected by plate umpire Flaherty for arguing a"
-com,"strike call.  Boston manager Dick Williams also ejected"
+com,"ej,yastc101,P,flahr901,Balls and strikes"
+com,"ej,willd104,M,flahr901,Balls and strikes"
+com,"Carl Yastrzemski  and Red Sox Manager Dick Williams ejected"
+com,"by HP umpire Red Flaherty"
 play,5,1,demed101,??,,K
 play,5,1,hortt101,??,,8
 play,5,1,petrr101,??,,K
@@ -1171,7 +1167,6 @@ play,14,0,akerj102,??,,43.1-2
 play,14,0,taltt101,??,,K
 play,14,1,smitr101,??,,S
 play,14,1,foy-j101,??,,64(1)/FO
-com,"Probably should be CS but Palmer says not"
 play,14,1,yastc101,??,,3/G.1-2
 play,14,1,conit101,??,,PO2(26)
 play,15,0,campb101,??,,53
@@ -1261,7 +1256,6 @@ play,2,0,roofp101,??,,K
 play,2,1,petrr101,??,,63
 play,2,1,scotg102,??,,W
 play,2,1,gibsr102,??,,K+OBA/DP.1X2(24)
-com,"Probably should have been CS but Palmer says not"
 play,3,0,nashj101,??,,K
 play,3,0,campb101,??,,6
 play,3,0,hersm101,??,,63
@@ -1437,7 +1431,7 @@ sub,wyatj102,"John Wyatt",1,9,1
 play,8,0,wertd103,??,,6/L
 play,8,0,kalia101,??,,W
 play,8,0,hortw101,??,,SB2.1-3(E2/TH2)
-com,"$Throw hit Wyatt in the head, ouch!"
+com,"$the throw to 2B hit pitcher John Wyatt on the head"
 play,8,0,hortw101,??,,9/SF.3-H(UR)
 play,8,0,nortj101,??,,63
 play,8,1,tartj101,??,,NP
@@ -2301,8 +2295,8 @@ play,8,1,mcmad102,??,,NP
 sub,joned102,"Dalton Jones",1,9,11
 play,8,1,joned102,??,,8
 play,8,1,smitr101,??,,567
-com,"Pop fly hit's Brooks' glove, bounces off Belanger's"
-com,"shoulder, and Blefary makes diving catch"
+com,"$the pop fly hit Brooks Robinson's glove, bounced off Mark"
+com,"Belanger's shoulder and Curt Blefary made a diving catch"
 play,9,0,robif103,??,,NP
 sub,osind101,"Dan Osinski",1,9,1
 play,9,0,robif103,??,,W
@@ -2401,7 +2395,6 @@ play,3,1,scotg102,??,,64(1)/FO
 play,4,0,colar101,??,,K
 play,4,0,whitf103,??,,S
 play,4,0,azcuj101,??,,K+OA/DP.1X2(24)
-com,"Probably should be CS but Palmer says not"
 play,4,1,demed101,??,,53
 play,4,1,petrr101,??,,53
 play,4,1,foy-j101,??,,K
@@ -2446,15 +2439,13 @@ play,9,0,colar101,??,,K
 play,9,0,whitf103,??,,S
 play,9,0,azcuj101,??,,NP
 sub,salmc101,"Chico Salmon",0,5,12
-play,9,0,azcuj101,??,,SB2.1-3(E2/TH2)
-com,"Ryan made error but not known when"
+play,9,0,azcuj101,??,,SB2.1-3(E2/TH2)#
 play,9,0,azcuj101,??,,9
 play,9,0,gonzp101,??,,K23
 play,9,1,ryanm101,??,,NP
 sub,hintc101,"Chuck Hinton",0,2,9
 play,9,1,ryanm101,??,,NP
 sub,colar101,"Rocky Colavito",0,4,7
-com,"Unsure when they swapped positions"
 play,9,1,ryanm101,??,,NP
 sub,salmc101,"Chico Salmon",0,5,3
 play,9,1,ryanm101,??,,NP
@@ -2857,8 +2848,7 @@ play,4,0,whitf103,??,,64(1)3/GDP
 play,4,0,simsd101,??,,6
 play,4,1,yastc101,??,,S
 play,4,1,scotg102,??,,S.1-3
-com,"One run this inning did not have RBI - my current guess"
-play,4,1,petrr101,??,,CS2(24).3-H
+play,4,1,petrr101,??,,CS2(24).3-H#
 play,4,1,petrr101,??,,K
 play,4,1,foy-j101,??,,W
 play,4,1,andrm101,??,,SB2
@@ -3692,9 +3682,8 @@ start,petrr101,"Rico Petrocelli",1,6,6
 start,foy-j101,"Joe Foy",1,7,5
 start,gibsr102,"Russ Gibson",1,8,2
 start,stanl101,"Lee Stange",1,9,1
+com,"$the umpires removed their coats during the game due to extreme heat"
 play,1,0,cullt101,??,,3/FL
-com,"Umpires remove coats during game due to extreme heat"
-com,"First Washington game with semi-naked umpires"
 play,1,0,valef101,??,,D7
 play,1,0,howaf102,??,,HR/7.2-H
 play,1,0,petec101,??,,8
@@ -3774,7 +3763,7 @@ play,8,1,conit101,??,,6
 play,9,0,cullt101,??,,8
 play,9,0,valef101,??,,K
 play,9,0,howaf102,??,,HR/7
-com,"over screen, across street, onto roof"
+com,"$over screen, across street, onto roof"
 play,9,0,petec101,??,,D7
 play,9,0,epstm101,??,,K
 play,9,1,petrr101,??,,NP
@@ -4514,7 +4503,6 @@ play,8,1,yastc101,??,,NP
 sub,willw103,"Walt Williams",0,1,7
 play,8,1,yastc101,??,,NP
 sub,berrk101,"Ken Berry",0,4,9
-com,"Unsure when they swapped positions"
 play,8,1,yastc101,??,,NP
 sub,causw101,"Wayne Causey",0,2,4
 play,8,1,yastc101,??,,6
@@ -4651,10 +4639,12 @@ play,7,0,hansr102,??,,4
 play,7,0,kenwd102,??,,S1.3-H
 play,7,0,martj107,??,,NP
 sub,weisa101,"Al Weis",0,7,12
+com,"ej,stane101,M,neudj901,Fair/foul call"
+com,"$J.C. Martin hit a ball into the RF stands that many"
+com,"witnesses said was fair but 1B umpire Larry Napp ruled"
+com,"foul; White Sox Manager Eddie Stanky ejected by HP"
+com,"umpire Jerry Neudecker"
 play,7,0,martj107,??,,53
-com,"$Martin hit a ball into right field stands that many"
-com,"witnesses said was fair, but umpire ruled foul. Manager"
-com,"Stanky of the White Sox was ejected"
 play,7,1,petrr101,??,,NP
 sub,weisa101,"Al Weis",0,7,4
 play,7,1,petrr101,??,,NP
@@ -4840,6 +4830,10 @@ play,10,0,wardp102,02,,K
 play,10,0,wilhh101,??,,NP
 sub,kenwd102,"Dick Kenworthy",0,9,11
 play,10,0,kenwd102,??,,K
+com,"ej,burgs101,P,nappl901,Balls and strikes"
+com,"ej,stane101,M,nappl901,Balls and strikes"
+com,"Smoky Burgess and White Sox Manager Eddie Stanky ejected by"
+com,"HP umpire Larry Napp"
 play,10,1,wyatj102,??,,NP
 sub,buzhj101,"John Buzhardt",0,6,1
 play,10,1,wyatj102,??,,NP
@@ -4980,8 +4974,7 @@ play,7,1,conit101,??,,IW
 play,7,1,petrr101,??,,HP.3-H;2-3;1-2
 play,7,1,scotg102,??,,NP
 sub,adaij101,"Jerry Adair",1,5,12
-com,"$Petrocelli hit on wrist and left game. He did not"
-com,"return until 7-05"
+com,"Rico Petrocelli hit on the wrist"
 play,7,1,scotg102,??,,K
 play,7,1,tillb101,??,,K
 play,7,1,smitr101,??,,D7.3-H;2-H;1-3
@@ -5265,7 +5258,6 @@ play,5,1,foy-j101,??,,HR/7
 play,5,1,yastc101,??,,K
 play,5,1,conit101,??,,W
 play,5,1,scotg102,??,,OA.1X2(26)
-com,"Probably should be CS, both scorers agree, Palmer says not"
 play,5,1,scotg102,??,,9
 play,6,0,tianl101,??,,NP
 sub,hortt101,"Tony Horton",0,9,11
@@ -5410,7 +5402,6 @@ play,5,1,foy-j101,??,,HR/8
 play,5,1,yastc101,??,,W
 play,5,1,conit101,??,,K
 play,5,1,scotg102,??,,OA.1-2(E6)
-com,"Could have been charged a CS2(26)"
 play,5,1,scotg102,??,,IW
 play,5,1,petrr101,??,,63
 play,6,0,phoet101,??,,NP
@@ -6034,7 +6025,6 @@ play,6,1,lyles101,??,,K
 play,6,1,andrm101,??,,K
 play,7,0,lumpj101,??,,NP
 sub,joned102,"Dalton Jones",1,1,4
-com,"Could have also entered in the top of the 8th"
 play,7,0,lumpj101,??,,D9
 play,7,0,cashn101,??,,WP.2-3#
 play,7,0,cashn101,??,,K
@@ -6427,19 +6417,21 @@ play,2,1,scotg102,??,,K
 play,2,1,petrr101,??,,K
 play,3,0,knoob101,??,,3
 play,3,0,brung101,??,,K
-com,"$Angel first base coach Don Heffner ejected for arguing a"
-com,"ball call sometime in the 3rd inning"
 play,3,0,cardj101,??,,S5
 play,3,0,heldw101,??,,SB2
 play,3,0,heldw101,??,,3/FL
 play,3,1,smitr101,??,,4
 play,3,1,tillb101,??,,K
 play,3,1,branb102,??,,K
+com,"ej,heffd101,C,drumc901,Fair/foul call"
+com,"$Jim Fregosi hit a dribbler down the 3B line; Joe Foy threw"
+com,"wildly to 1B and Fregosi was safe; HP umpire Cal Drummond"
+com,"then ruled the ball foul; Angels coach Don Heffner ejected"
+com,"Drummond"
 play,4,0,fregj101,??,,K
 play,4,0,mincd101,??,,S4
 play,4,0,hallj107,??,,S9.1-3
 play,4,0,reicr101,??,,1(3)45(1)/DP
-com,"Looks crazy but that's what 2 scoresheets say"
 play,4,1,andrm101,??,,W
 play,4,1,foy-j101,??,,S7.1-2
 play,4,1,yastc101,??,,9.2-3
@@ -6484,10 +6476,12 @@ sub,joned102,"Dalton Jones",1,9,11
 play,7,1,joned102,??,,9
 play,7,1,andrm101,??,,S5.3-H(UR);1-2
 play,7,1,foy-j101,??,,S6.2-3;1-2
-com,"$Angel pitcher Jack Hamilton ejected for disputing close"
-com,"call on Foy at first"
-play,7,1,yastc101,??,,D8.3-H(UR);2-H(UR);1-H(UR);BXH(23)(E8)#
-com,"Cardenal not credited with assist for errant throw"
+com,"ej,hamij101,P,hallb901,Call at 1B (not in game)"
+com,"$Joe Foy ruled safe on a close play at 1B; Don Mincher and"
+com,"Angels manager Bill Rigney argued the call; the Angels bench"
+com,"kept hecking 1B umpire Bill Haller; Jack Hamilton ejected"
+com,"by Haller from the bench"
+play,7,1,yastc101,??,,D8.3-H(UR);2-H(UR);1-H(UR);BXH(23)(E8)
 play,8,0,heldw101,??,,NP
 sub,ryanm101,"Mike Ryan",1,8,2
 play,8,0,heldw101,??,,NP
@@ -7070,7 +7064,6 @@ play,2,0,perrj102,??,,64(1)3/GDP.3-H;2-3
 play,2,0,versz101,??,,63
 play,2,1,conit101,??,,S/BG
 play,2,1,scotg102,??,,HR9/IPHR.1-H
-com,"IPHR"
 play,2,1,petrr101,??,,8
 play,2,1,smitr101,??,,6
 play,2,1,ryanm101,??,,S7
@@ -7407,7 +7400,6 @@ play,5,0,tovac101,??,,8
 play,5,1,foy-j101,??,,K
 play,5,1,yastc101,??,,W
 play,5,1,conit101,??,,OA.1X2(24)
-com,"Probably should be CS but Palmer says not"
 play,5,1,conit101,??,,7
 play,6,0,uhlat101,??,,8
 play,6,0,batte101,??,,K
@@ -7650,7 +7642,6 @@ play,1,1,foy-j101,??,,63
 play,1,1,yastc101,??,,W
 play,1,1,conit101,??,,S9.1-3
 play,1,1,scotg102,??,,OA.3XH(242)
-com,"Probably should be CS but Palmer says not"
 play,2,0,mondr001,??,,S/BG
 play,2,0,gosgj101,??,,W.1-2
 play,2,0,greed102,??,,W.2-3;1-2
@@ -7842,8 +7833,7 @@ play,3,0,harrk101,??,,5/L
 play,3,0,gosgj101,??,,E4
 play,3,0,hersm101,??,,9
 play,3,1,yastc101,??,,S4
-play,3,1,conit101,??,,S9.1-H(E9)(NR);B-2(E9)
-com,"2 errors on play... probably bobble and throw"
+play,3,1,conit101,??,,S9.1-H(E9)(NR);B-2(E9/TH)
 play,3,1,scotg102,??,,S8.2-H(NR)(UR);BX3(82425)
 play,3,1,petrr101,??,,7
 play,3,1,smitr101,??,,S9
@@ -8366,8 +8356,9 @@ play,7,0,hortw101,??,,S7
 play,7,0,cashn101,??,,46(1)/FO
 play,7,1,yastc101,??,,W
 play,7,1,scotg102,??,,46(1)3/GDP
-com,"$Boston manager Dick Williams ejected by 1b ump Umont"
-com,"arguing that Scott had beaten the play at first"
+com,"ej,willd104,M,umonf901,Call at 1B"
+com,"Red Sox manager Dick Williams ejected by 1B umpire"
+com,"Frank Umont arguing that Scott had beaten the play at first"
 play,7,1,smitr101,??,,43
 play,8,0,nortj101,??,,9
 play,8,0,freeb103,??,,S7
@@ -8655,7 +8646,8 @@ play,4,0,hallj107,??,,4/L
 play,4,1,scotg102,??,,S8.BX2(86)
 play,4,1,smitr101,??,,8
 play,4,1,conit101,??,,HP
-com,"$The Beaning!"
+com,"$Tony Conigliaro beaned by a Jack Hamilton pitch, which basically"
+com,"ended Tony C's career"
 play,4,1,petrr101,??,,NP
 sub,tartj101,"Jose Tartabull",1,6,12
 play,4,1,petrr101,??,,T8.1-H;B-H(E6)(UR)(NR)
@@ -9141,7 +9133,6 @@ play,2,0,fregj101,??,,S7.3-H;2-3
 play,2,0,hallj107,??,,9/SF.3-H
 play,2,0,mincd101,??,,WP.1-2
 play,2,0,mincd101,??,,W
-com,"Probably should be IW but Palmer says not"
 play,2,0,reicr101,??,,NP
 sub,osind101,"Dan Osinski",1,9,1
 play,2,0,reicr101,??,,D9.2-H;1-H
@@ -9238,6 +9229,8 @@ play,8,0,satrt101,??,,13
 play,8,0,rojam101,??,,K
 play,8,0,repor101,??,,S9
 play,8,0,fregj101,??,,E5.1-2;B-1
+com,"ej,willd104,M,valeb901,Call at 2B"
+com,"Red Sox Manager Dick Williams ejected by 1B umpire Bill Valentine"
 play,8,0,mortb101,??,,46(1)/FO
 play,8,1,adaij101,??,,HR/7
 play,8,1,yastc101,??,,HP
@@ -9489,7 +9482,10 @@ play,4,0,valef101,??,,K
 play,4,0,petec101,??,,63
 play,4,1,yastc101,??,,43
 play,4,1,scotg102,??,,T8
-play,4,1,smitr101,??,,7(B)56(3)/DP
+play,4,1,smitr101,??,,7(B)56(3)/DP/AP
+com,"ej,popoe801,C,hallb901,Call at 3B (Appeal play)"
+com,"$George Scott out on appeal for leaving 3B too soon;"
+com,"Red Sox Coach Eddie Popowski ejected by 3B umpire Bill Haller"
 play,5,0,epstm101,??,,S7
 play,5,0,casap101,??,,64(1)3/GDP
 play,5,0,cullt101,??,,7
@@ -10532,7 +10528,6 @@ play,5,0,willw103,??,,6
 play,5,0,bufod101,??,,31
 play,5,0,ageet101,??,,S8
 play,5,0,wardp102,??,,OA.1X2(26)
-com,"Probably should be CS but Palmer says not"
 play,5,1,scotg102,??,,S6
 play,5,1,petrr101,??,,64(1)3/GDP
 play,5,1,howae101,??,,53
@@ -11247,15 +11242,9 @@ play,3,0,huntj101,??,,K23
 play,3,0,campb101,??,,D7
 play,3,0,donaj101,??,,S7.2-3
 play,3,0,hersm101,??,,K+CS2(21523)/DP
-com,"originally coded K+CS2(24)/DP but both scoresheets have a more"
-com,"complicated strings indicating a run-down of sorts.  Given the"
-com,"official DP data (which does not credit Andrews with a DP here"
-com,"but does credit Adair, Lonborg and Scott, I'm going with a"
-com,"combination of the two sheets"
 play,3,1,smitr101,??,,W
 play,3,1,ryanm101,??,,9
-play,3,1,lonbj101,??,,14/SH.1X3(45)
-com,"For some reason this was not scored as a DP"
+play,3,1,lonbj101,??,,14/SH/NDP.1X3(45)
 play,4,0,websr102,??,,S4
 play,4,0,cated101,??,,S9.1-3
 play,4,0,gosgj101,??,,W.1-2
@@ -12280,8 +12269,7 @@ play,3,0,allib103,??,,K
 play,3,1,santj101,??,,K
 play,3,1,andrm101,20,BB,NP
 sub,perrj102,"Jim Perry",0,9,1
-com,"$Kaat strained left elbow while striking out Santiago."
-com,"Kaat left with 2-0 count on Andrews, walk to Kaat"
+com,"Jim Kaat strained left elbow while striking out Jose Santiago"
 play,3,1,andrm101,??,,W
 play,3,1,adaij101,??,,63.1-2
 play,3,1,yastc101,??,,K
@@ -12493,7 +12481,7 @@ play,8,0,versz101,??,,NP
 sub,reesr101,"Rich Reese",0,1,11
 play,8,0,reesr101,??,,S8
 play,8,0,tovac101,??,,4(1)3/GDP
-com,"$Adair spiked on DP"
+com,"Jerry Adair spiked on DP"
 play,8,0,killh102,??,,NP
 sub,andrm101,"Mike Andrews",1,1,4
 play,8,0,killh102,??,,S9

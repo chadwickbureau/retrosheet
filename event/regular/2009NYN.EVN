@@ -398,7 +398,7 @@ play,4,0,geruj001,32,FFBBFBS,K
 play,4,1,castl001,11,CBX,S5/BG
 play,4,1,mainj001,00,X,16(1)/FO/BG
 play,4,1,reyej001,00,X,36(1)/FO/G
-play,4,1,murpd006,22,BCBFX,DGR/7/INT.1-3
+play,4,1,murpd006,22,BCBFX,DGR/7/FINT.1-3
 com,"fan interference"
 play,4,1,wrigd002,32,BFBBSC,K
 play,5,0,ecksd001,11,BCX,43/G
@@ -861,7 +861,7 @@ play,5,1,santo001,11,BFX,63/G
 play,5,1,figun001,32,CBCBBC,K
 play,5,1,reyej001,10,BX,T9/F
 play,5,1,murpd006,10,BX,13/G
-play,6,0,hardj003,01,CX,7/F7LF/INT
+play,6,0,hardj003,01,CX,7/F7LF/FINT
 com,"fan interference"
 play,6,0,camem001,00,X,HR/78/F+
 play,6,0,hallb001,22,FBBFX,53/G
@@ -1813,7 +1813,7 @@ play,6,0,paulr001,32,BBBCFFS,K
 play,6,0,rossc001,10,BX,3/P3F
 play,6,0,ameza001,30,IIII,IW
 play,6,0,johnj009,12,BFSC,K
-play,6,1,tatif001,01,FX,HR/78/L
+play,6,1,tatif001,01,FX,HR/78/L/REV
 com,"replay,6,tatif001,NYN,scotd901,NYC20,I,N"
 com,"$Tatis hit a ball to the top of the wall that was touched by a fan;"
 com,"the umpires ruled it a home run but the Marlins objected; crew chief"
@@ -2137,7 +2137,7 @@ sub,felip002,"Pedro Feliciano",1,6,1
 play,8,0,victs001,00,,NP
 sub,churr001,"Ryan Church",1,9,9
 play,8,0,victs001,32,..CFFBBBX,S5/G+
-play,8,0,utlec001,01,CX,43/G.1X2(3E6)
+play,8,0,utlec001,01,CX,43/G/OBS.1X2(3E6)
 com,"ej,manuj101,M,welkb901,Obstruction call during rundown"
 com,"$during a rundown, Mets SS Jose Reyes was called for obstruction;"
 com,"Mets manager Jerry Manuel came out to argue with 1B umpire Bill Welke"
@@ -3305,7 +3305,7 @@ play,6,0,harrw001,31,CBBBB,W
 play,6,0,herna003,12,1BSF1>FX,6(1)/FO/G
 play,6,1,castl001,21,BBCX,D7/L
 play,6,1,beltc001,32,CBBF*BB,W
-play,6,1,shefg001,00,X,HR/7/F.2-H;1-H
+play,6,1,shefg001,00,X,HR/7/F/REV.2-H;1-H
 com,"replay,6,shefg001,NYN,vanol901,NYC20,I,N"
 com,"$a fan with a glove reached over the railing and tried to catch the ball but it hit his glove, the wall"
 com,"and then the ground; third base umpire Adrian Johnson called it a homer; acting crew chief Larry Vanover"
@@ -3611,7 +3611,7 @@ play,6,0,maxwj002,12,CCBFS,K
 play,6,0,nievw001,00,X,8/F
 play,6,0,zimmj003,22,BBCFFX,8/F
 play,6,1,shefg001,30,BBBB,W
-play,6,1,murpd006,12,CBCFX,HR/9/F.1-H
+play,6,1,murpd006,12,CBCFX,HR/9/F/REV.1-H
 com,"replay,6,murpd006,NYN,vanol901,NYC20,O,Y"
 com,"$for the second time in the series and fourth time in five days for the Mets, a replay was used;"
 com,"Daniel Murphy hit a fly ball that struck a yellow advertising sign on the facade of the second"
@@ -9836,7 +9836,7 @@ info,daynight,night
 info,usedh,false
 info,umphome,drakr901
 info,ump1b,timmt901
-info,ump2b,(None)
+info,ump2b,(none)
 info,ump3b,wegnm901
 info,howscored,park
 info,pitches,pitches
@@ -10293,7 +10293,7 @@ sub,desse001,"Elmer Dessens",1,9,1
 play,9,0,ibanr001,32,.CFBBFBX,6/P5F
 play,9,0,felip001,10,BX,8/F
 play,9,0,brune001,21,BBFX,9!/L
-com,"ej,manuc101,M,wegnm901,Reversal of call from hit to out"
+com,"ej,manuc101,M,wegnm901,Catch/trap call (Reversed)"
 com,"$the play was called no catch at first with Bruntlett running to third, but"
 com,"after Mets manager Jerry Manuel argued the call, the umpires huddled and reversed"
 com,"it to call Bruntlett out; replay showed he was out; Phillies manager Charlie Manuel"

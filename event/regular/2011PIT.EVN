@@ -192,7 +192,7 @@ play,1,1,mccua001,00,X,6/P
 play,2,0,wiggt001,10,BX,S8/L
 play,2,0,iannc001,21,BBF>X,7/F
 play,2,0,delaj001,02,LLL,K/BF
-play,2,0,fowld001,12,TF1>BX,2/G
+play,2,0,fowld001,12,TF1>BX,2/G/BINT
 com,"$Dexter Fowler leaned across the plate as catcher Jason Jaramillo threw to second:"
 com,"the ball sailed into center field and Fowler was called out for interference"
 play,2,1,overl001,12,CBSS,K
@@ -2409,7 +2409,7 @@ play,1,0,uribj002,20,BBX,S7/G.3-H;1-2
 play,1,0,lonej001,21,BFBX,8/F
 play,1,1,mccua001,10,BX,9/F
 play,1,1,tabaj002,12,CFBX,9/F
-play,1,1,joneg002,22,CBFBFX,DGR/9/F
+play,1,1,joneg002,22,CBFBFX,DGR/9/F/REV/FINT
 com,"replay,1,joneg002,PIT,welkt901,PIT08,O,N"
 com,"$Garrett Jones fly ball was touched by a fan at the top of the wall over the"
 com,"scoreboard; the fan reached over the chain-link fence to touch the ball, which"
@@ -3355,7 +3355,7 @@ play,4,1,overl001,00,X,43/G
 play,5,0,jurrj001,02,CSX,S9/L-
 play,5,0,schaj002,12,LBFX,6/L-
 play,5,0,pradm001,12,CSBX,36(1)/FO/G
-play,5,0,jonec004,00,X,DGR/8/F.1-3
+play,5,0,jonec004,00,X,DGR/8/F/REV/FINT.1-3
 com,"replay,5,jonec004,ATL,kellj901,PIT08,I,N"
 com,"$a fan reached over the fence and caught the ball in his cap but then dropped it; the"
 com,"play was ruled fan interference; Martin Prado scored on the play but after crew chief"
@@ -3883,7 +3883,7 @@ play,5,0,utlec001,21,BBFX,S5/G.2-3
 play,5,0,howar001,00,X,46(1)3/GDP
 play,5,1,tabaj002,22,LBFBFX,43/G
 play,5,1,paulx001,00,X,7/F
-play,5,1,mccua001,11,CBX,DGR/G
+play,5,1,mccua001,11,CBX,DGR/G/FINT
 com,"fan interference"
 play,5,1,walkn001,32,BCBFBX,7/L
 play,6,0,victs001,22,CSBFBFX,31/G
@@ -4061,7 +4061,7 @@ play,6,1,mccua001,32,CBCFBBFFB,W
 play,6,1,walkn001,32,BCFBB>C,K
 play,7,0,ibanr001,01,CX,9/F
 play,7,0,ruizc001,20,BBX,63/G
-play,7,0,browd004,02,CCFX,D9/F
+play,7,0,browd004,02,CCFX,D9/F/REV
 com,"replay,7,browd004,PHI,westj901,PIT08,O,N"
 com,"$Domonic Brown's fly to RF hit the railing just to the left of the scoreboard and caromed"
 com,"back onto the field; the ball was ruled in play; crew chief Joe West watched the replay"
@@ -5036,7 +5036,7 @@ play,6,1,walkn001,10,BX,2/P2F
 play,7,0,beltc001,01,CX,7/F
 play,7,0,murpd006,12,FBCX,S8/G
 play,7,0,pagaa001,21,CB+1B>X,S8/L.1-3
-play,7,0,bay-j001,31,FBBBX,8/SF/FDP.3-H;1X1(8236)
+play,7,0,bay-j001,31,FBBBX,8/SF/FDP/AP.3-H;1X1(8236)
 com,"$Mets Angel Pagan was called out on appeal for rounding 2B and not touching the bag"
 com,"on the way back to 1B; since the run scored before the appeal, it counted"
 play,7,1,overl001,31,BFBBX,8/F
@@ -5157,7 +5157,7 @@ play,1,0,reyej001,21,BFBX,63/G
 play,1,0,turnj001,32,CBBBCB,W
 play,1,0,beltc001,10,BX,54(1)3/GDP
 play,1,1,tabaj002,11,BFX,S9/F-
-play,1,1,paulx001,21,B1CB1X,S8/L.1-3(E6)
+play,1,1,paulx001,21,B1CB1X,S8/L/OBS.1-3(E6)
 com,"$Jose Tabata was thrown out at 3B but 2B umpire Jerry Layne called Mets SS Jose Reyes for"
 com,"obstructing Tabata"
 play,1,1,walkn001,00,X,S8/L.3-H;1-2
@@ -10875,7 +10875,7 @@ play,1,1,mccua001,00,X,64(1)/FO/G
 play,1,1,doumr001,22,BFBF11,POCS2(1342)
 play,2,0,carrj001,01,CX,43/G
 play,2,0,eveld001,22,SBBSFS,K
-play,2,0,gordd002,00,X,13/BG/INT
+play,2,0,gordd002,00,X,13/BG/FINT
 com,"batter interference"
 play,2,1,doumr001,02,CSX,S7/F-
 play,2,1,walkn001,21,BCBX,S68/G.1-3
@@ -12211,10 +12211,10 @@ play,5,0,berkl001,00,.X,64(1)3/GDP
 play,5,1,cirip001,01,CX,S6/G
 play,5,1,walkn001,01,FX,S6/G.1-2
 play,5,1,mccua001,22,BFBFFX,53/G-.2-3;1-2
-play,5,1,lee-d002,02,CFX,9/F/DP.3X3(15)
+play,5,1,lee-d002,02,CFX,9/F/DP/AP.3X3(15)
 com,"ej,hurdc001,M,holbs901,Call at 3B"
 com,"$Pedro Ciriaco tagged and scored on the fly ball; the Cardinals appealed and 3B umpire"
-com,"sam Holbrook called out Ciriaco for leaving the bag early; Pirates manager Clint Hurdle"
+com,"Sam Holbrook called out Ciriaco for leaving the bag early; Pirates manager Clint Hurdle"
 com,"ran onto the field and argued the call but went back to the dugout; he had someone go to"
 com,"the clubhouse and watch the replay, which showed that Ciriaco did not leave early;"
 com,"Hurdle returned to the field during the inning break and was ejected by Holbrook"

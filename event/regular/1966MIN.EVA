@@ -410,7 +410,7 @@ info,site,MIN02
 info,date,1966/04/15
 info,number,0
 info,starttime,0:00PM
-info,daynight,night
+info,daynight,day
 info,usedh,false
 info,umphome,odomj901
 info,ump1b,nappl901
@@ -619,7 +619,6 @@ start,hallj107,"Jimmie Hall",1,6,8
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,granj101,"Jim Grant",1,9,1
-com,"Wind - blowing SSW"
 play,1,0,cardj101,??,,63
 play,1,0,knoob101,??,,4
 play,1,0,fregj101,??,,63
@@ -1077,7 +1076,6 @@ start,alleb105,"Bernie Allen",1,6,4
 start,tovac101,"Cesar Tovar",1,7,8
 start,batte101,"Earl Battey",1,8,2
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: NNW - 10"
 play,1,0,petrr101,??,,S9
 play,1,0,thomg102,??,,W.1-2
 play,1,0,yastc101,??,,3/G.1-2;2-3
@@ -1373,8 +1371,6 @@ start,killh102,"Harmon Killebrew",1,6,5
 start,alleb105,"Bernie Allen",1,7,4
 start,batte101,"Earl Battey",1,8,2
 start,perrj102,"Jim Perry",1,9,1
-com,"Wind: ESE - 3"
-com,"Lowest temp ever.  Smallest Yankee crowd ever"
 play,1,0,whitr101,??,,6
 play,1,0,richb102,??,,S7
 play,1,0,mantm101,??,,PO1(136)
@@ -1428,7 +1424,7 @@ play,6,1,mincd101,??,,7
 play,6,1,killh102,??,,64(1)3/GDP
 play,7,0,trest101,??,,43
 play,7,0,marir101,??,,HR/89
-com,"412 feet (homer 250)"
+com,"412 feet"
 play,7,0,boyec102,??,,S8
 play,7,0,howae101,??,,63.1-2
 play,7,0,stotm101,??,,3/FL
@@ -1660,7 +1656,6 @@ start,allib103,"Bob Allison",1,6,7
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: ESE - 5"
 play,1,0,valef101,??,,HR/7
 play,1,0,brine101,??,,K/C
 play,1,0,mcmuk101,??,,K
@@ -1820,7 +1815,6 @@ start,allib103,"Bob Allison",1,6,7
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: SSE - 15"
 play,1,0,valef101,??,,D7
 play,1,0,blasd101,??,,W
 play,1,0,nen-d101,??,,S9.1-3;2-H
@@ -1977,7 +1971,6 @@ start,killh102,"Harmon Killebrew",1,6,3
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,perrj102,"Jim Perry",1,9,1
-com,"Wind: SE - 15"
 play,1,0,valef101,??,,W
 play,1,0,blasd101,??,,W.1-2
 play,1,0,nen-d101,??,,7.2-3
@@ -2115,7 +2108,6 @@ start,killh102,"Harmon Killebrew",1,6,3
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,pascc102,"Camilo Pascual",1,9,1
-com,"Wind: NNW 15"
 play,1,0,valef101,??,,53
 play,1,0,blasd101,??,,131
 play,1,0,howaf102,??,,S9
@@ -2253,7 +2245,6 @@ start,killh102,"Harmon Killebrew",1,6,3
 start,alleb105,"Bernie Allen",1,7,4
 start,zimmj101,"Jerry Zimmerman",1,8,2
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: NW 10"
 play,1,0,bufod101,??,,3/G
 play,1,0,robif102,??,,43
 play,1,0,ageet101,??,,K/C
@@ -2403,7 +2394,6 @@ start,kosca101,"Andy Kosco",1,6,7
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: WNW 11"
 play,1,0,ageet101,??,,63
 play,1,0,bufod101,??,,43
 play,1,0,robif102,??,,4/L
@@ -2715,8 +2705,11 @@ play,2,0,blaip101,??,,63
 play,2,0,etcha101,??,,K
 play,2,1,killh102,??,,9
 play,2,1,allib103,??,,W
-com,"$Stewart hit with foul tip and left temporarily with"
-com,"Stevens moving to plate from 3B"
+com,"umpchange,2,umphome,stevj901"
+com,"umpchange,2,ump2b,(None)"
+com,"umpchange,2,ump3b,ashfe901"
+com,"$HP umpire Bob Stewart hit by foul ball; 3B umpire Johnny"
+com,"Stevens moved to HP; 2B umpire Emmett Ashford moved to 3B"
 play,2,1,mincd101,??,,K
 play,2,1,zimmj101,??,,S.1-2
 play,2,1,alleb105,??,,8
@@ -2731,7 +2724,10 @@ play,3,1,tovac101,??,,8
 play,4,0,heldw101,??,,63
 play,4,0,bowes103,??,,3/G
 play,4,0,blaip101,??,,63
-com,"$Stewart returned behind plate"
+com,"umpchange,4,umphome,stewb902"
+com,"umpchange,4,ump3b,stevj901"
+com,"umpchange,4,ump2b,ashfe901"
+com,"$umpire Bob Stewart returned behind HP"
 play,4,1,olivt102,??,,5/FL
 play,4,1,killh102,??,,K
 play,4,1,allib103,??,,8
@@ -2745,7 +2741,7 @@ play,5,1,merrj102,??,,43
 play,6,0,johnd105,??,,S7
 play,6,0,robif103,??,,9
 play,6,0,robib104,??,,E5/TH2.1-H(NR);B-H(E2)(UR)
-com,"E2 on throw from RF after Killer's throw into RF"
+com,"E2 on throw from RF"
 play,6,0,heldw101,00,,HR/7.B-H
 play,6,0,bowes103,??,,63
 play,6,0,blaip101,??,,S
@@ -2759,7 +2755,6 @@ play,6,1,allib103,??,,K
 play,7,0,etcha101,??,,63
 play,7,0,barbs102,??,,3/G
 play,7,0,aparl101,??,,K
-com,"Possible called third strike"
 play,7,1,mincd101,??,,7
 play,7,1,zimmj101,??,,W
 play,7,1,alleb105,??,,36(1)/FO
@@ -2858,18 +2853,15 @@ play,1,0,snydr102,??,,43
 play,1,0,poweb101,??,,K
 play,1,1,versz101,??,,4
 play,1,1,tovac101,??,,9
-com,"/L???"
 play,1,1,olivt102,??,,2/FL
 play,2,0,robib104,??,,5
-com,"Extra scratching in box on Orioles sheet"
 play,2,0,blefc101,??,,5/FL
 play,2,0,johnd105,??,,8
 play,2,1,killh102,??,,HR
-com,"450' HR"
+com,"450 ft"
 play,2,1,kosca101,??,,3/FL
 play,2,1,mincd101,??,,S9
 play,2,1,batte101,??,,WP.1-2
-com,"This was questioned by translator -- check it"
 play,2,1,batte101,??,,S9.2-3
 play,2,1,alleb105,??,,S8.3-H;1-2
 play,2,1,siebd101,??,,K/BF
@@ -2898,7 +2890,7 @@ play,5,1,versz101,??,,4
 play,5,1,tovac101,??,,53
 play,5,1,olivt102,??,,S/1
 play,5,1,killh102,??,,HR.1-H;B-H
-com,"375' HR"
+com,"375 ft"
 play,5,1,kosca101,??,,53
 play,6,0,etcha101,??,,K
 play,6,0,drabm101,??,,NP
@@ -2927,8 +2919,7 @@ play,7,1,tovac101,??,,4
 play,7,1,olivt102,??,,8
 play,7,1,killh102,??,,K
 play,8,0,snydr102,??,,43
-play,8,0,poweb101,??,,S
-com,"infield hit"
+play,8,0,poweb101,??,,S/G
 play,8,0,robib104,??,,6/FL
 play,8,0,blefc101,??,,S8/L.1-3
 play,8,0,johnd105,??,,S7/L.3-H;1-2
@@ -2941,7 +2932,7 @@ play,8,1,batte101,??,,S
 play,8,1,alleb105,??,,NP
 sub,kaatj101,"Jim Kaat",1,7,12
 play,8,1,alleb105,??,,HR.1-H;B-H
-com,"375' HR"
+com,"375 ft"
 play,8,1,worta101,??,,D
 play,8,1,versz101,??,,S9.2-H;BXH(942)(E9)
 play,9,0,etcha101,??,,NP
@@ -3067,13 +3058,12 @@ play,5,0,watte101,??,,D7
 play,5,0,aparl101,??,,4(B)6(2)/LDP
 play,5,0,poweb101,??,,D7
 play,5,0,snydr102,??,,WP.2-H
-com,"Battey slow to retrieve ball"
+com,"$catcher Earl Battey slow to retrieve the ball"
 play,5,0,snydr102,??,,W
 play,5,0,robib104,??,,64(1)/FO
 play,5,1,versz101,??,,63
 play,5,1,tovac101,??,,S7
 play,5,1,olivt102,??,,6.1-2
-com,"1-2 questionable CHECK IT"
 play,5,1,killh102,??,,W
 play,5,1,rollr101,??,,5/FL
 play,6,0,blefc101,??,,S
@@ -3179,7 +3169,6 @@ start,allib103,"Bob Allison",1,6,7
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,boswd101,"Dave Boswell",1,9,1
-com,"Wind: S - 10"
 play,1,0,mcaud101,??,,3/G
 play,1,0,lumpj101,??,,13
 play,1,0,cashn101,??,,31
@@ -3339,7 +3328,6 @@ start,mincd101,"Don Mincher",1,6,3
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: S - 15"
 play,1,0,wertd103,??,,K
 play,1,0,lumpj101,??,,K/C
 play,1,0,cashn101,??,,43
@@ -3512,11 +3500,10 @@ play,2,0,azcuj101,??,,9/F
 play,2,0,tianl101,??,,63
 play,2,1,killh102,??,,E6
 play,2,1,mincd101,??,,PO1(13)#
-com,"Not sure when Killebrew picked off"
 play,2,1,mincd101,??,,9/F
 play,2,1,allib103,??,,K
 play,3,0,landj103,??,,HR/7
-com,"Measured at 396"
+com,"396 ft"
 play,3,0,salmc101,??,,S7
 play,3,0,wagnl101,??,,8/L
 play,3,0,colar101,??,,W.1-2
@@ -3527,7 +3514,7 @@ play,3,1,batte101,??,,63
 play,3,1,alleb105,??,,9/L
 play,3,1,granj101,??,,W
 play,3,1,versz101,??,,HR/9.1-H
-com,"Measured at 415"
+com,"415 ft"
 play,3,1,hallj107,??,,7/F
 play,4,0,azcuj101,??,,W
 play,4,0,tianl101,??,,3/SH/BG.1-2
@@ -3535,7 +3522,7 @@ play,4,0,landj103,??,,63
 play,4,0,salmc101,??,,WP.2-3
 play,4,0,salmc101,??,,53
 play,4,1,olivt102,??,,HR/9
-com,"Measured at 388"
+com,"388 ft"
 play,4,1,killh102,??,,7/F
 play,4,1,mincd101,??,,W
 play,4,1,allib103,??,,S7.1-2
@@ -3560,18 +3547,20 @@ play,6,1,mincd101,??,,46(1)3/GDP
 play,7,0,salmc101,??,,NP
 sub,zimmj101,"Jerry Zimmerman",1,7,2
 play,7,0,salmc101,??,,5/P
-com,"$with 1-2 count on Wagner, Haller injured and left game;"
-com,"Stevens moved behind plate"
+com,"umpchange,7,umphome,stevj901"
+com,"umpchange,7,ump2b,(None)"
+com,"$with 1-2 count on Leon Wagner, HP umpire Bill Haller"
+com,"injured and left the game; 2B umpire Johnny Stevens"
+com,"moved behind HP"
 play,7,0,wagnl101,??,,S9
 play,7,0,colar101,??,,S8.1-2
 play,7,0,whitf103,??,,HR/9.2-H;1-H
-com,"Measured at 363"
+com,"363 ft"
 play,7,0,alvim101,??,,2/FL
 play,7,0,gonzp101,??,,S7
 play,7,0,azcuj101,??,,NP
 sub,worta101,"Al Worthington",1,9,1
-play,7,0,azcuj101,??,,54(1)/FO#
-com,"may have gone 53; conflicting sheets"
+play,7,0,azcuj101,??,,54(1)/FO
 play,7,1,allib103,??,,NP
 sub,davav101,"Vic Davalillo",0,4,8
 play,7,1,allib103,??,,NP
@@ -3591,8 +3580,7 @@ play,8,0,wagnl101,??,,SB2
 play,8,0,wagnl101,??,,K/C
 play,8,1,versz101,??,,D7
 play,8,1,hallj107,??,,K/C
-play,8,1,olivt102,??,,S6/G.2-3#
-com,"Not sure who fielded single"
+play,8,1,olivt102,??,,S/G.2-3
 play,8,1,killh102,??,,64(1)/FO.3-H
 play,8,1,mincd101,??,,S7.1-3
 play,8,1,allib103,??,,NP
@@ -3673,10 +3661,9 @@ play,1,0,wagnl101,??,,2/FL
 play,1,1,versz101,??,,9/F
 play,1,1,hallj107,??,,31
 play,1,1,olivt102,??,,HR8/89/IPHR
-com,"IPHR"
 play,1,1,killh102,??,,3/FL
 play,2,0,colar101,??,,HR/7
-com,"380-foot homer"
+com,"380 ft"
 play,2,0,whitf103,??,,13
 play,2,0,alvim101,??,,K
 play,2,0,gonzp101,??,,K
@@ -3697,7 +3684,7 @@ play,4,1,hallj107,??,,9/F
 play,4,1,olivt102,??,,W
 play,4,1,killh102,??,,K/C
 play,4,1,mincd101,??,,HR/9.1-H
-com,"432-foot homer"
+com,"432 ft"
 play,4,1,allib103,??,,W
 play,4,1,alleb105,??,,3/G
 play,5,0,whitf103,??,,S7
@@ -3729,7 +3716,7 @@ play,6,0,martt101,??,,K
 play,6,1,olivt102,??,,8/F
 play,6,1,killh102,??,,8/F
 play,6,1,mincd101,??,,HR/9
-com,"394-foot homer"
+com,"394 ft"
 play,6,1,allib103,??,,63
 play,7,0,simsd101,??,,S9
 play,7,0,kralj101,??,,NP
@@ -3768,8 +3755,7 @@ play,8,1,olivt102,??,,6/P
 play,8,1,killh102,??,,53
 play,9,0,landj103,??,,NP
 sub,kosca101,"Andy Kosco",1,2,7
-play,9,0,landj103,??,,S6/G#
-com,"Not sure who fielded infield hit"
+play,9,0,landj103,??,,S/G
 play,9,0,salmc101,??,,SB2
 play,9,0,salmc101,??,,4/L
 play,9,0,wagnl101,??,,IW
@@ -3861,22 +3847,21 @@ play,2,0,alvim101,??,,HP
 play,2,0,martt101,??,,S9.1-3
 play,2,0,azcuj101,??,,8/SF.3-H;1-2
 play,2,0,siebs101,??,,CS3(25)#
-com,"Caught stealing is assumed"
 play,2,0,siebs101,??,,K
 play,2,1,hallj107,??,,K
 play,2,1,batte101,??,,W
 play,2,1,alleb105,??,,HR/9.1-H
-com,"373-foot homer"
+com,"373 ft"
 play,2,1,boswd101,??,,2/FL
 play,2,1,versz101,??,,4/P
 play,3,0,landj103,??,,K/C
 play,3,0,salmc101,??,,K
 play,3,0,wagnl101,??,,HR/9
-com,"375-foot homer"
+com,"375 ft"
 play,3,0,colar101,??,,W
 play,3,0,whitf103,??,,41
 play,3,1,valds101,??,,HR/9
-com,"372-foot homer"
+com,"372 ft"
 play,3,1,olivt102,??,,K
 play,3,1,mincd101,??,,9/L
 play,3,1,killh102,??,,53
@@ -3898,13 +3883,13 @@ play,5,1,valds101,??,,9/L
 play,5,1,olivt102,??,,43
 play,6,0,whitf103,??,,K/C
 play,6,0,alvim101,??,,HR/7
-com,"367-foot homer"
+com,"367 ft"
 play,6,0,martt101,??,,W
 play,6,0,azcuj101,??,,54(1)/FO
 play,6,0,siebs101,??,,64(1)/FO
 play,6,1,mincd101,??,,8/F
 play,6,1,killh102,??,,HR/7
-com,"411-foot homer"
+com,"411 ft"
 play,6,1,hallj107,??,,8/F
 play,6,1,batte101,??,,8/F
 play,7,0,landj103,??,,43
@@ -3939,7 +3924,7 @@ sub,radad101,"Dick Radatz",0,7,1
 play,8,1,hallj107,??,,NP
 sub,hintc101,"Chuck Hinton",0,9,4
 play,8,1,hallj107,??,,HR/9
-com,"422-foot homer"
+com,"422 ft"
 play,8,1,batte101,??,,9/F
 play,8,1,alleb105,??,,S8/89
 play,8,1,boswd101,??,,K/C
@@ -4012,7 +3997,6 @@ play,1,1,olivt102,??,,K/C
 play,2,0,cated101,??,,S7
 play,2,0,harrk101,??,,S9.1-3
 play,2,0,greed102,??,,SB2#
-com,"Not sure when Harrelson stole 2b"
 play,2,0,greed102,??,,K
 play,2,0,nossj101,??,,6/P
 play,2,0,roofp101,??,,8/F
@@ -4023,7 +4007,7 @@ play,2,1,batte101,??,,14(1)3/GDP
 play,3,0,shelr101,??,,K
 play,3,0,campb101,??,,8/F
 play,3,0,chare101,??,,HR/9
-com,"369-foot homer"
+com,"369 ft"
 play,3,0,hersm101,??,,D7
 play,3,0,cated101,??,,63
 play,3,1,alleb105,??,,S8
@@ -4031,8 +4015,8 @@ play,3,1,kaatj101,??,,8/L
 play,3,1,versz101,??,,D7.1-H(E7)(NR);B-3
 play,3,1,valds101,??,,9/SF.3-H(UR)
 play,3,1,olivt102,??,,9/F
-play,4,0,harrk101,??,,S9.BX2(92)#
-com,"Assumed out rounding first too far"
+play,4,0,harrk101,??,,S9.BX2(92)
+com,"$Ken Harrelson rounded 1B too far"
 play,4,0,greed102,??,,K/C
 play,4,0,nossj101,??,,S7
 play,4,0,roofp101,??,,9/F
@@ -4194,8 +4178,7 @@ play,6,0,campb101,??,,NP
 sub,perrj102,"Jim Perry",1,9,1
 play,6,0,campb101,??,,2/FL
 play,6,1,mincd101,??,,31
-play,6,1,killh102,??,,8/F#
-com,"May have been 9/f; conflicting sheets"
+play,6,1,killh102,??,,8/F
 play,6,1,hallj107,??,,W
 play,6,1,batte101,??,,8/L
 play,7,0,nossj101,??,,63
@@ -4219,8 +4202,7 @@ play,9,0,talbf101,??,,63
 play,9,0,campb101,??,,K/C
 play,9,0,nossj101,??,,8/F
 play,9,1,killh102,??,,D7
-play,9,1,hallj107,??,,S4/G.2-3#
-com,"Infield hit assumed per scoresheet"
+play,9,1,hallj107,??,,S4/G.2-3
 play,9,1,batte101,??,,NP
 sub,akerj102,"Jack Aker",0,9,1
 play,9,1,batte101,??,,S8.3-H;1-2
@@ -4287,12 +4269,13 @@ start,hallj107,"Jimmie Hall",1,6,9
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,pascc102,"Camilo Pascual",1,9,1
-com,"we were 1 high on Worthington's saves so I removed this game's save"
 play,1,0,campb101,??,,S7
 play,1,0,nossj101,??,,S9.1-3
 play,1,0,hersm101,??,,FC.3XH(152);1-2
 play,1,0,cated101,??,,W.2-3;1-2
 play,1,0,harrk101,??,,K/C
+com,"ej,harrk101,P,flahr901,Called third strike"
+com,"Ken Harrelson ejected by HP umpire Red Flaherty"
 play,1,0,stahl101,??,,T7.1-H;2-H;3-H
 play,1,0,greed102,??,,NP
 sub,siebd101,"Dwight Siebler",1,9,1
@@ -4300,7 +4283,6 @@ play,1,0,greed102,??,,S9.3-H
 play,1,0,roofp101,??,,7
 play,1,1,versz101,??,,NP
 sub,stonr102,"Ron Stone",0,5,3
-com,"Harrelson apparently ejected on K--found 20030715"
 play,1,1,versz101,??,,S8
 play,1,1,valds101,??,,W.1-2
 play,1,1,olivt102,??,,36(1)/FO.2-3
@@ -4440,7 +4422,6 @@ start,allib103,"Bob Allison",1,6,9
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: S - 5"
 play,1,0,schap101,??,,43
 com,"Debut game for Clyde Wright"
 play,1,0,kirke102,??,,63
@@ -4625,6 +4606,8 @@ play,4,1,hallj107,??,,S9.1-3
 play,4,1,alleb105,??,,FC.1-2;3XH(52)
 play,4,1,zimmj101,??,,S8.1X3(85);2-H
 play,5,0,knoob101,??,,D8.BX3(865)
+com,"ej,rignb101,M,odomj901,Call at 3B"
+com,"Angels Manager Bill Rigney ejected by 3B umpire Jim Odom"
 play,5,0,satrt101,??,,K
 play,5,0,mcglj101,??,,W
 play,5,0,cardj101,??,,64(1)/FO
@@ -4744,7 +4727,6 @@ start,allib103,"Bob Allison",1,6,9
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: NW - 8"
 play,1,0,cardj101,??,,63
 play,1,0,smitw102,??,,8
 play,1,0,fregj101,??,,K
@@ -4893,7 +4875,6 @@ start,allib103,"Bob Allison",1,6,9
 start,batte101,"Earl Battey",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,perrj102,"Jim Perry",1,9,1
-com,"Wind: NW - 4"
 play,1,0,ageet101,??,,9
 play,1,0,bufod101,??,,5/FL
 play,1,0,mccrt102,??,,7
@@ -5198,7 +5179,6 @@ start,mincd101,"Don Mincher",1,6,3
 start,kosca101,"Andy Kosco",1,7,7
 start,alleb105,"Bernie Allen",1,8,4
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: SW - 12"
 play,1,0,ageet101,??,,63
 play,1,0,bufod101,??,,53
 play,1,0,mccrt102,??,,6
@@ -5240,7 +5220,6 @@ play,5,0,bufod101,??,,K
 play,5,0,mccrt102,??,,5/L
 play,5,1,kosca101,??,,S
 play,5,1,alleb105,??,,16(1)3/GDP
-com,"Min s/s had both 163 and 143; film wants 163"
 play,5,1,kaatj101,??,,2/FL
 play,6,0,romaj101,??,,7/L
 play,6,0,adaij101,??,,K
@@ -5285,7 +5264,6 @@ play,8,1,mincd101,??,,W
 play,8,1,kosca101,??,,SB2;SB3
 play,8,1,kosca101,??,,K
 play,8,1,alleb105,??,,IW
-com,"per film Locker needs IW"
 play,8,1,klipj101,??,,K
 play,9,0,elial101,??,,NP
 sub,causw101,"Wayne Causey",0,7,11
@@ -5349,7 +5327,6 @@ start,hallj107,"Jimmie Hall",1,6,7
 start,tovac101,"Cesar Tovar",1,7,4
 start,zimmj101,"Jerry Zimmerman",1,8,2
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: SSE - 8"
 play,1,0,landj103,??,,S9
 play,1,0,hintc101,??,,14/SH.1-2
 play,1,0,salmc101,??,,S4.2-3
@@ -5485,7 +5462,6 @@ start,kosca101,"Andy Kosco",1,6,7
 start,uhlat101,"Ted Uhlaender",1,7,8
 start,zimmj101,"Jerry Zimmerman",1,8,2
 start,pascc102,"Camilo Pascual",1,9,1
-com,"Wind: WSW - 5"
 play,1,0,davav101,??,,13
 play,1,0,wagnl101,??,,K/C
 play,1,0,salmc101,??,,8/L
@@ -5895,7 +5871,6 @@ start,rollr101,"Rich Rollins",1,6,5
 start,alleb105,"Bernie Allen",1,7,4
 start,nixor101,"Russ Nixon",1,8,2
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: W 13"
 play,1,0,mcaud101,??,,3/G
 play,1,0,lumpj101,??,,7
 play,1,0,cashn101,??,,S9
@@ -6060,7 +6035,6 @@ start,uhlat101,"Ted Uhlaender",1,6,8
 start,allib103,"Bob Allison",1,7,7
 start,tovac101,"Cesar Tovar",1,8,4
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: S 10"
 play,1,0,wertd103,??,,53
 play,1,0,woodj107,??,,K/C
 play,1,0,cashn101,??,,K/C
@@ -6198,7 +6172,6 @@ start,rollr101,"Rich Rollins",1,6,5
 start,batte101,"Earl Battey",1,7,2
 start,tovac101,"Cesar Tovar",1,8,4
 start,merrj102,"Jim Merritt",1,9,1
-com,"Wind: SW 13"
 play,1,0,wertd103,??,,D7
 play,1,0,woodj107,??,,S9.2-3
 play,1,0,cashn101,??,,SB2
@@ -6341,7 +6314,6 @@ start,mincd101,"Don Mincher",1,6,3
 start,batte101,"Earl Battey",1,7,2
 start,tovac101,"Cesar Tovar",1,8,4
 start,boswd101,"Dave Boswell",1,9,1
-com,"Wind: ESE 10"
 play,1,0,mcaud101,??,,W
 play,1,0,lumpj101,??,,13/SH.1-2
 play,1,0,cashn101,??,,43.2-3
@@ -6481,7 +6453,6 @@ start,batte101,"Earl Battey",1,6,2
 start,uhlat101,"Ted Uhlaender",1,7,8
 start,tovac101,"Cesar Tovar",1,8,4
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: NE 8"
 play,1,0,blasd101,??,,8
 play,1,0,saveb101,??,,S8
 play,1,0,valef101,??,,36(1)3/GDP
@@ -6617,7 +6588,6 @@ start,mincd101,"Don Mincher",1,6,3
 start,allib103,"Bob Allison",1,7,7
 start,uhlat101,"Ted Uhlaender",1,8,8
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: SE 7"
 play,1,0,valef101,??,,D7
 play,1,0,saveb101,??,,SB3
 play,1,0,saveb101,??,,K
@@ -6650,7 +6620,6 @@ play,4,0,howaf102,??,,W
 play,4,0,lockd101,??,,W.1-2
 play,4,0,casap101,??,,463.1-2;2-3
 play,4,0,hamlk101,??,,PO2(E6).2-2
-com,"guess it could be E6 in middle 463"
 play,4,0,hamlk101,??,,D7.2-H(UR);3-H
 play,4,0,brine101,??,,63.2-3
 play,4,0,mccom103,??,,K
@@ -6933,7 +6902,6 @@ play,4,1,killh102,??,,53
 play,4,1,mincd101,??,,S9
 play,4,1,hallj107,??,,7
 play,5,0,clinl101,??,,63
-com,"check"
 play,5,0,boyec102,??,,7
 play,5,0,talbf101,??,,K
 play,5,1,batte101,??,,53
@@ -7040,8 +7008,6 @@ start,hallj107,"Jimmie Hall",1,6,7
 start,nixor101,"Russ Nixon",1,7,2
 start,tovac101,"Cesar Tovar",1,8,4
 start,perrj102,"Jim Perry",1,9,1
-com,"Largest crowd of year"
-com,"Largest DH crowd here ever"
 play,1,0,clarh101,??,,63
 play,1,0,richb102,??,,9
 play,1,0,gibbj101,??,,D9
@@ -7116,7 +7082,6 @@ play,7,0,howae101,??,,63
 play,7,0,whitr101,??,,43
 play,7,0,clinl101,??,,W
 play,7,0,boyec102,??,,D8.1-H
-com,"Lost in sun"
 play,7,0,hamis101,??,,8
 play,7,1,nixor101,??,,NP
 sub,barkr102,"Ray Barker",0,5,3
@@ -7239,8 +7204,7 @@ play,3,0,richb102,??,,63
 play,3,1,versz101,??,,3/G
 play,3,1,tovac101,??,,W
 play,3,1,olivt102,??,,S9.1-3
-play,3,1,killh102,??,,164(1)3/GDP#
-com,"143 per MIN;NYA 643"
+play,3,1,killh102,??,,164(1)3/GDP
 play,4,0,gibbj101,??,,13
 play,4,0,pepij101,??,,S8
 play,4,0,howae101,??,,S8.1-2
@@ -7781,7 +7745,6 @@ start,batte101,"Earl Battey",1,6,2
 start,tovac101,"Cesar Tovar",1,7,4
 start,uhlat101,"Ted Uhlaender",1,8,8
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: N - 17"
 play,1,0,petrr101,??,,S8
 play,1,0,foy-j101,??,,9
 play,1,0,yastc101,??,,36(1)/FO
@@ -8347,7 +8310,6 @@ play,3,1,killh102,??,,W
 play,3,1,batte101,??,,CS2(24)
 play,3,1,batte101,??,,53
 play,3,1,kosca101,??,,7/F#
-com,"Just a guess; can't read sheet"
 play,4,0,greed102,??,,53
 play,4,0,chare101,??,,13
 play,4,0,gosgj101,??,,8/F
@@ -8359,7 +8321,6 @@ play,4,1,perrj102,??,,53
 play,4,1,versz101,??,,HP
 play,4,1,rollr101,??,,NP
 sub,alleb105,"Bernie Allen",1,1,12
-com,"Not sure when Allen entered game; HP is best guess"
 play,4,1,rollr101,??,,64(1)3/GDP
 play,5,0,roofp101,??,,NP
 sub,alleb105,"Bernie Allen",1,1,4
@@ -8469,7 +8430,6 @@ start,batte101,"Earl Battey",1,6,2
 start,tovac101,"Cesar Tovar",1,7,4
 start,uhlat101,"Ted Uhlaender",1,8,8
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: NNW - 7"
 play,1,0,campb101,??,,K/C
 play,1,0,hersm101,??,,W
 play,1,0,repor101,??,,64(1)3/GDP
@@ -8780,6 +8740,9 @@ start,batte101,"Earl Battey",1,6,2
 start,kosca101,"Andy Kosco",1,7,7
 start,uhlat101,"Ted Uhlaender",1,8,8
 start,kaatj101,"Jim Kaat",1,9,1
+com,"ej,rignb101,M,odomj901,Checked swing"
+com,"Angels Manager Bill Rigney ejected by HP umpire Jim Odom"
+com,"sometime in game"
 play,1,0,cardj101,??,,9
 play,1,0,johnj002,??,,S9
 play,1,0,fregj101,??,,14(1)3/GDP
@@ -8801,9 +8764,9 @@ play,3,1,kosca101,??,,S7
 play,3,1,uhlat101,??,,S7.1-3(E4)
 play,3,1,kaatj101,??,,K/C
 play,3,1,versz101,??,,43(1)/FO.3-3#
-play,3,1,tovac101,??,,SB2
-play,3,1,tovac101,??,,CSH(425)
-com,"last 2 plays continuous action"
+play,3,1,tovac101,??,,SB2#
+play,3,1,tovac101,??,,CSH(425)#
+com,"last two plays one play"
 play,4,0,johnj002,??,,31
 play,4,0,fregj101,??,,S7
 play,4,0,adcoj101,??,,54(1)3/GDP
@@ -8917,7 +8880,6 @@ start,batte101,"Earl Battey",1,6,2
 start,kosca101,"Andy Kosco",1,7,7
 start,uhlat101,"Ted Uhlaender",1,8,8
 start,perrj102,"Jim Perry",1,9,1
-com,"Wind: WSW - 5"
 play,1,0,johnj002,??,,63
 play,1,0,kirke102,??,,W
 play,1,0,fregj101,??,,K/C
@@ -9062,7 +9024,6 @@ start,batte101,"Earl Battey",1,6,2
 start,kosca101,"Andy Kosco",1,7,7
 start,uhlat101,"Ted Uhlaender",1,8,8
 start,pascc102,"Camilo Pascual",1,9,1
-com,"Wind: NW - 10"
 play,1,0,johnj002,??,,HR/9
 com,"382 feet"
 play,1,0,smitw102,??,,W
@@ -9206,7 +9167,6 @@ start,batte101,"Earl Battey",1,6,2
 start,kosca101,"Andy Kosco",1,7,7
 start,uhlat101,"Ted Uhlaender",1,8,8
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: N - 10"
 play,1,0,cardj101,??,,63
 play,1,0,johnj002,??,,43
 play,1,0,fregj101,??,,4
@@ -9217,7 +9177,6 @@ play,1,1,killh102,??,,K/C
 play,2,0,siebn101,??,,D7
 play,2,0,kirke102,??,,W
 play,2,0,malzf101,??,,5(2)4(1)3/GTP
-com,"Triple play"
 play,2,1,rollr101,??,,63
 play,2,1,batte101,??,,53
 play,2,1,kosca101,??,,E6
@@ -9340,7 +9299,6 @@ start,allib103,"Bob Allison",1,6,7
 start,zimmj101,"Jerry Zimmerman",1,7,2
 start,alleb105,"Bernie Allen",1,8,4
 start,perrj102,"Jim Perry",1,9,1
-com,"Wind: NW - 8"
 play,1,0,brine101,??,,43
 play,1,0,saveb101,??,,S8
 play,1,0,kingj101,??,,S8.1-3
@@ -9476,7 +9434,6 @@ start,uhlat101,"Ted Uhlaender",1,6,8
 start,alleb105,"Bernie Allen",1,7,4
 start,nixor101,"Russ Nixon",1,8,2
 start,merrj102,"Jim Merritt",1,9,1
-com,"Wind: SE - 8"
 play,1,0,brine101,??,,K/C
 play,1,0,saveb101,??,,4
 play,1,0,valef101,??,,53
@@ -9613,7 +9570,6 @@ start,uhlat101,"Ted Uhlaender",1,6,8
 start,alleb105,"Bernie Allen",1,7,4
 start,nixor101,"Russ Nixon",1,8,2
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: S - 10"
 play,1,0,foy-j101,??,,63
 play,1,0,thomg102,??,,63
 play,1,0,demed101,??,,8
@@ -9774,7 +9730,6 @@ play,2,0,marir101,??,,S7
 play,2,0,whits101,??,,E3.1-2
 play,2,0,howae101,??,,S8.1-3;2-H
 play,2,0,boyec102,??,,13.1-2;3-H(UR)
-com,"High bounder"
 play,2,0,boutj101,??,,9
 play,2,0,clarh101,??,,63
 play,2,1,tovac101,??,,1/L
@@ -9910,7 +9865,6 @@ start,batte101,"Earl Battey",1,6,2
 start,uhlat101,"Ted Uhlaender",1,7,8
 start,alleb105,"Bernie Allen",1,8,4
 start,perrj102,"Jim Perry",1,9,1
-com,"Wind: N - 2"
 play,1,0,whitr101,??,,9
 play,1,0,trest101,??,,W
 play,1,0,whits101,??,,8
@@ -10069,7 +10023,7 @@ play,1,1,hallj107,??,,63
 play,1,1,olivt102,??,,3/G
 play,2,0,howae101,??,,9/L
 play,2,0,clinl101,??,,99#
-com,"only s/s had K for Clinton but film for him and P no"
+com,"missing play in MIN196609032"
 play,2,0,stotm101,??,,4
 play,2,1,killh102,??,,4
 play,2,1,mincd101,??,,K/C
@@ -10217,7 +10171,6 @@ start,batte101,"Earl Battey",1,6,2
 start,uhlat101,"Ted Uhlaender",1,7,8
 start,alleb105,"Bernie Allen",1,8,4
 start,kaatj101,"Jim Kaat",1,9,1
-com,"Wind: NW - 20"
 play,1,0,clarh101,??,,HR/7
 com,"396 feet"
 play,1,0,richb102,??,,53
@@ -10360,7 +10313,6 @@ start,batte101,"Earl Battey",1,6,2
 start,uhlat101,"Ted Uhlaender",1,7,8
 start,alleb105,"Bernie Allen",1,8,4
 start,pascc102,"Camilo Pascual",1,9,1
-com,"Wind: NE - 16 to 25"
 play,1,0,berrk101,??,,2/FL
 play,1,0,ageet101,??,,63
 play,1,0,bufod101,??,,S9
@@ -10510,7 +10462,7 @@ info,howscored,unknown
 info,pitches,none
 info,temp,0
 info,winddir,unknown
-info,windspeed,-1
+info,windspeed,0
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -10538,7 +10490,6 @@ start,uhlat101,"Ted Uhlaender",1,6,8
 start,allib103,"Bob Allison",1,7,7
 start,alleb105,"Bernie Allen",1,8,4
 start,granj101,"Jim Grant",1,9,1
-com,"Winds: Calm"
 play,1,0,berrk101,??,,9
 play,1,0,ageet101,??,,S9
 play,1,0,bufod101,??,,HR/9.1-H
@@ -10714,7 +10665,6 @@ start,batte101,"Earl Battey",1,6,2
 start,uhlat101,"Ted Uhlaender",1,7,8
 start,alleb105,"Bernie Allen",1,8,4
 start,perrj102,"Jim Perry",1,9,1
-com,"Wind: S - 5"
 play,1,0,causw101,??,,7
 play,1,0,bufod101,??,,63
 play,1,0,ageet101,??,,K/C
@@ -11192,15 +11142,14 @@ play,4,1,rollr101,??,,8/8D
 play,4,1,uhlat101,??,,S/89
 play,4,1,zimmj101,??,,64(1)3/GDP
 play,5,0,mcnad102,??,,S
-play,5,0,aparl101,??,,4(1)/FO
-com,"CHECK putout -- I have no clue who did it"
+play,5,0,aparl101,??,,99(1)/FO#
+com,"missing play in MIN196609110"
 play,5,0,snydr102,??,,63.1-2
 play,5,0,robif103,??,,D7.2-H
 play,5,0,robib104,??,,9
 play,5,1,alleb105,??,,4
 play,5,1,granj101,??,,63
 play,5,1,tovac101,??,,E5
-com,"CHECK last play"
 play,5,1,versz101,??,,7
 play,6,0,poweb101,??,,9
 play,6,0,blefc101,??,,HP
@@ -11208,13 +11157,11 @@ play,6,0,johnd105,??,,S9.1-3
 play,6,0,etcha101,??,,K
 play,6,0,mcnad102,??,,K
 play,6,1,olivt102,??,,S
-com,"CHECK location"
 play,6,1,killh102,??,,4
 play,6,1,rollr101,??,,7/L
 play,6,1,uhlat101,??,,9
 play,7,0,aparl101,??,,13
 play,7,0,snydr102,??,,S
-com,"CHECK location"
 play,7,0,robif103,??,,HP.1-2
 play,7,0,robib104,??,,D8.2-H;1-3
 play,7,0,poweb101,??,,IW
@@ -11300,7 +11247,7 @@ info,howscored,unknown
 info,pitches,none
 info,temp,67
 info,winddir,unknown
-info,windspeed,0
+info,windspeed,021
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -11328,7 +11275,6 @@ start,nixor101,"Russ Nixon",1,6,2
 start,versz101,"Zoilo Versalles",1,7,6
 start,uhlat101,"Ted Uhlaender",1,8,8
 start,granj101,"Jim Grant",1,9,1
-com,"Wind: NNW - 14 to 28"
 play,1,0,woodj107,??,,9
 play,1,0,mcaud101,??,,7
 play,1,0,cashn101,??,,K
@@ -11682,7 +11628,6 @@ play,4,1,olivt102,??,,8
 play,4,1,killh102,??,,S8
 play,4,1,mincd101,??,,3/G.1-2
 play,4,1,batte101,??,,43
-com,"Cal scoresheet shows Mincher W and Battey 43 GDP"
 play,5,0,kalia101,??,,K
 play,5,0,hortw101,??,,S8
 play,5,0,stanm101,??,,64(1)3/GDP
@@ -11771,7 +11716,6 @@ start,batte101,"Earl Battey",1,6,2
 start,uhlat101,"Ted Uhlaender",1,7,8
 start,versz101,"Zoilo Versalles",1,8,6
 start,perrj102,"Jim Perry",1,9,1
-com,"Wind: NNW - 14"
 play,1,0,fullv101,??,,HP
 play,1,0,davav101,??,,K
 play,1,0,wagnl101,??,,8

@@ -2091,10 +2091,10 @@ play,2,1,wilsd001,11,1CB>X,63/G.1-2
 play,2,1,suzui001,20,BBX,S8/G.2-H
 play,2,1,winnr001,01,CX,43/G
 play,3,0,matsh001,32,BCBSBFB,W
-play,3,0,sierr001,22,BBCCX,S9/F89XDW.1-2;BX1(4)
-com,"$Ball juggled at wall. Matsui thought it was"
-com,"caught and returned to first as Sierra ran"
-com,"past him. Sierra out for passing runner."
+play,3,0,sierr001,22,BBCCX,S9/F89XDW/PASS.1-2;BX1(4)
+com,"$ball juggled at wall; Hideki Matsui thought it was"
+com,"caught and returned to 1B as Ruben Sierra ran"
+com,"past him; Sierra out for passing runner"
 play,3,0,wilse001,02,CSX,8/F
 play,3,0,loftk001,00,X,8/F
 play,3,1,spies001,00,X,9/F
@@ -2821,8 +2821,8 @@ play,2,1,olerj001,31,B11>FB1B1>X,8/F
 play,2,1,wilsd001,02,C1SS,K
 play,3,0,bigbl001,31,BBBCB,W
 play,3,0,hairj002,02,CCX,FC6.1X2(6E4);B-1
-play,3,0,robeb003,01,LX,2/BG/INT.1-1
-com,"Roberts called for batter's interference"
+play,3,0,robeb003,01,LX,2/BG/BINT.1-1
+com,"$Brian Roberts called for interference"
 play,3,0,moram002,12,CFFBX,8/F
 play,3,0,tejam001,12,BCSFFX,8/F
 play,3,1,aurir001,00,X,8/F
@@ -3115,7 +3115,7 @@ play,2,1,ibanr001,22,BCFBX,S6/G
 play,2,1,marte001,22,FBS*BC,K
 play,2,1,spies001,10,B+1X,5/P5F
 play,2,1,olerj001,01,C>X,7/F
-play,3,0,guilc001,21,CBBX,DGR/9/F
+play,3,0,guilc001,21,CBBX,DGR/9/F/FINT
 com,"$fan interference"
 play,3,0,rodri001,00,X,53/G
 play,3,0,whitr001,00,>B,CS3(25)
@@ -3735,7 +3735,7 @@ play,3,1,winnr001,12,CFBX,E3/TH/FO/G.1-2;B-1
 play,3,1,marte001,32,SFBBFBS,K
 play,3,1,bocah001,10,BX,4/P/IF
 play,3,1,boonb002,12,CBFX,43/G
-play,4,0,zaung001,22,BBCFFX,DGR/9
+play,4,0,zaung001,22,BBCFFX,DGR/9/FINT
 com,"$fan interference"
 play,4,0,gomec001,20,BBX,31/G.2-3
 play,4,0,clarh001,00,>X,123/SH/BG.3-H
@@ -5469,7 +5469,8 @@ start,moyej001,"Jamie Moyer",1,0,1
 play,1,0,greek002,21,CBBX,9/L
 play,1,0,lorem001,21,CBBX,9/F
 play,1,0,gileb002,32,BBCSBX,5/P5F
-play,1,1,suzui001,11,CBX,2/BG/INT
+play,1,1,suzui001,11,CBX,2/BG/BINT
+com,"$Ichiro Suzuki called for interference"
 play,1,1,winnr001,12,BSCFS,K
 play,1,1,olerj001,32,CBBSBB,W
 play,1,1,marte001,32,BCBCB>X,9/F
@@ -7956,7 +7957,7 @@ play,7,1,jacob002,12,CBFX,HR/9/F
 play,7,1,hansd001,12,CSBFX,43/G
 play,7,1,cabrj002,01,SX,5/P5F
 play,7,1,spies001,31,BBBCX,2/P2F
-play,8,0,molij001,12,CBCX,DGR/7/INT
+play,8,0,molij001,12,CBCX,DGR/7/FINT
 com,"$fan interference"
 play,8,0,kenna001,32,BSSBBX,3/G.2-3
 play,8,0,ecksd001,02,CFX,FC5/G.3XH(525)

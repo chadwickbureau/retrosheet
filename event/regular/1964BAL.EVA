@@ -57,7 +57,6 @@ play,1,1,aparl101,??,,9
 play,1,1,poweb101,??,,46(1)3/GDP
 play,2,0,mantm101,??,,S8/G
 play,2,0,trest101,??,,K
-com,"Hit and run."
 play,2,0,howae101,??,,63.1-2
 play,2,0,pepij101,??,,4
 play,2,1,siebn101,??,,13
@@ -77,8 +76,9 @@ play,4,0,marir101,??,,43
 play,4,0,mantm101,??,,6
 play,4,1,siebn101,??,,S9/G
 play,4,1,orsij101,??,,D7.1-3
-com,"Coach Billy Hunter thrown out for arguing this strikeout."
 play,4,1,kirkw101,??,,K/BF
+com,"ej,huntb105,C,smita901,Balls and strikes"
+com,"Orioles Coach Billy Hunter ejected by HP umpire Al Smith"
 play,4,1,robib104,??,,IW
 play,4,1,adaij101,??,,9/SF.3-H
 play,4,1,barbs102,??,,K/BF
@@ -89,8 +89,7 @@ play,5,0,boyec102,??,,W.1-2
 play,5,0,boutj101,??,,4/L
 play,5,1,branj101,??,,63
 play,5,1,aparl101,??,,S7
-com,"This steal and error could have occurred with Siebern at bat"
-play,5,1,poweb101,??,,SB2.1-H(E2/TH)(UR)
+play,5,1,poweb101,??,,SB2.1-H(E2/TH)(UR)#
 play,5,1,poweb101,??,,7
 play,5,1,siebn101,??,,43
 play,6,0,linzp101,??,,W
@@ -268,13 +267,11 @@ play,8,0,richb102,??,,53
 play,8,0,marir101,??,,S9
 play,8,0,mantm101,??,,3/G
 play,8,1,aparl101,??,,S7
-com,"Stolen base may have occurred when Siebern was at bat."
-play,8,1,poweb101,??,,SB2
+play,8,1,poweb101,??,,SB2#
 play,8,1,poweb101,??,,K
 play,8,1,siebn101,??,,43.2-3
 play,8,1,orsij101,??,,IW
 play,8,1,bowes103,??,,3/G
-com,"Drag bunt."
 play,9,0,trest101,??,,S3/BG
 play,9,0,pepij101,??,,46(1)3/GDP
 play,9,0,howae101,??,,13
@@ -408,8 +405,8 @@ play,4,0,trest101,??,,W
 play,4,0,pepij101,??,,D7.1-H
 play,4,0,blanj101,??,,IW
 play,4,0,boyec102,??,,S7.2-H(RBI);B-2(E2);1-3
-com,"Time called for a 1 hour 13 minute rain delay at 3:02 PM."
 play,4,0,daleb102,??,,7/L
+com,"1:13 rain delay"
 play,4,1,johnb104,??,,63
 play,4,1,poweb101,??,,K
 play,4,1,siebn101,??,,W
@@ -422,7 +419,7 @@ play,5,0,marir101,??,,D9
 play,5,0,mantm101,??,,S7.2-H
 play,5,0,trest101,??,,W.1-2
 play,5,0,pepij101,??,,S9/G.2-H;1-3
-com,"Pappas replaced because his arm stiffened."
+com,"Milt Pappas left with stiff arm"
 play,5,0,blanj101,??,,NP
 sub,stocw101,"Wes Stock",1,9,1
 play,5,0,blanj101,??,,8
@@ -437,8 +434,7 @@ play,6,0,boyec102,??,,NP
 sub,estrc101,"Chuck Estrada",1,9,1
 play,6,0,boyec102,??,,K+PB.B-1
 play,6,0,daleb102,??,,24/SH.1-2
-com,"WP could have come when Richardson was at bat."
-play,6,0,gonzp101,??,,WP.2-3
+play,6,0,gonzp101,??,,WP.2-3#
 play,6,0,gonzp101,??,,13
 play,6,0,richb102,??,,S9.3-H(UR)
 play,6,0,marir101,??,,S8.1-2
@@ -457,8 +453,7 @@ play,7,0,trest101,??,,NP
 sub,gainj101,"Joe Gaines",1,3,7
 play,7,0,trest101,??,,W
 play,7,0,pepij101,??,,3/G.1-2
-com,"SB could have occurred with Boyer at bat."
-play,7,0,blanj101,??,,SB3
+play,7,0,blanj101,??,,SB3#
 play,7,0,blanj101,??,,IW
 play,7,0,boyec102,??,,SB2
 play,7,0,boyec102,??,,K
@@ -769,8 +764,8 @@ sub,radad101,"Dick Radatz",0,9,1
 play,8,1,orsij101,??,,NP
 sub,snydr102,"Russ Snyder",1,4,12
 play,8,1,orsij101,??,,5/FL
-com,"Official gives K to Morehead instead of Radatz"
-play,8,1,kirkw101,??,,K
+play,8,1,kirkw101,??,,K#
+com,"Discrepancy: Official gives K to Morehead instead of Radatz"
 play,9,0,stuad101,??,,NP
 sub,snydr102,"Russ Snyder",1,4,7
 play,9,0,stuad101,??,,63
@@ -1600,7 +1595,6 @@ play,4,0,rodgb102,??,,8/8D
 play,4,1,poweb101,??,,S8
 play,4,1,kirkw101,??,,36(1)/FO
 play,4,1,orsij101,??,,63.1-3
-com,"That's what the scoresheet says"
 play,4,1,bunkw101,??,,43
 play,5,0,adcoj101,??,,NP
 sub,snydr102,"Russ Snyder",1,6,7
@@ -2668,6 +2662,10 @@ play,2,1,orsij101,??,,K/C
 play,2,1,barbs102,??,,K
 play,2,1,branj101,??,,43
 play,3,0,olivt102,??,,HP
+com,"ej,baueh101,M,salea901,Warning to pitcher"
+com,"$Tony Oliva beaned; Steve Barber fined $50 and warned by HP"
+com,"umpire Al Salerno; Orioles Manager Hank Bauer ejected by Salerno"
+com,"and was restrained by umpires and players"
 play,3,0,allib103,??,,NP
 sub,powev101,"Vic Power",0,3,12
 play,3,0,allib103,??,,8
@@ -3700,7 +3698,7 @@ play,3,0,weisa101,??,,K/C
 play,3,0,mcnej101,??,,63
 play,3,1,saveb101,??,,S7
 play,3,1,cimog101,??,,13.1-2
-com,"Liner off Talbot's leg - will leave later"
+com,"Fred Talbot struck on leg by line drive; will leave later"
 play,3,1,adaij101,??,,63
 play,3,1,siebn101,??,,8
 play,4,0,talbf101,??,,NP
@@ -3822,7 +3820,7 @@ play,1,0,bufod101,??,,SB2
 play,1,0,bufod101,??,,S9.2-H;B-2(E9)
 play,1,0,robif102,??,,NP
 sub,johnb104,"Bob Johnson",1,3,4
-com,"$Adair hit in mouth by Cimoli's throw, needed 6 stitches"
+com,"$Jerry Adair struck on mouth by Gino Cimoli's throw; 6 stitches"
 play,1,0,robif102,??,,K
 play,1,0,wardp102,??,,7
 play,1,0,cunnj101,??,,S8.2-H(UR)
@@ -4000,9 +3998,7 @@ play,6,1,kirkw101,??,,NP
 sub,baumf102,"Frank Baumann",0,9,1
 play,6,1,kirkw101,??,,NP
 sub,cimog101,"Gino Cimoli",1,7,11
-play,6,1,cimog101,??,,IW
-com,"TSN has IW in Cimoli's totals but not for Baltimore"
-com,"Official may have same problem, can't read microfilm"
+play,6,1,cimog101,??,,IW#
 play,6,1,saveb101,??,,62(3)/FO.2-3;1-2
 play,6,1,barbs102,??,,K
 play,6,1,branj101,??,,8
@@ -4413,8 +4409,10 @@ play,6,0,conit101,??,,D9
 play,6,0,yastc101,??,,W
 play,6,0,stuad101,??,,15(2)/FO.1-2
 play,6,0,thoml103,??,,16(1)3/GDP
-play,6,1,siebn101,??,,W
-play,6,1,robib104,??,,E6.1-3;B-2
+play,6,1,siebn101,32,,W
+com,"ej,peskj101,M,valeb901,Balls and strikes"
+com,"Red Sox Manager Johnny Pesky ejected by HP umpire Bill Valentine"
+play,6,1,robib104,??,,E6/TH2.1-3;B-2
 play,6,1,orsij101,??,,8/SF.3-H;2-3
 play,6,1,poweb101,??,,S9.3-H(UR)
 play,6,1,johnb104,??,,NP
@@ -4926,6 +4924,8 @@ play,8,0,conit101,??,,NP
 sub,haddh101,"Harvey Haddix",1,9,1
 play,8,0,conit101,??,,D
 play,8,0,yastc101,??,,K/C
+com,"ej,yastc101,P,stevj901,Balls and strikes"
+com,"Carl Yastrzemski ejected by HP umpire Johnny Stevens"
 play,8,0,stuad101,??,,S.2-3
 play,8,0,malzf101,??,,8/SF.3-H
 play,8,0,thoml103,??,,5/FL
@@ -5002,11 +5002,9 @@ start,kirkw101,"Willie Kirkland",1,7,9
 start,adaij101,"Jerry Adair",1,8,4
 start,bunkw101,"Wally Bunker",1,9,1
 play,1,0,linzp101,??,,D9/L
-com,"weather was warm, fair and muggy"
 play,1,0,richb102,??,,63
 play,1,0,mantm101,??,,PB.2-3
 play,1,0,mantm101,??,,34.3-H(UR)
-com,"34 play is correct."
 play,1,0,marir101,??,,6/L
 play,1,1,branj101,??,,9/F
 play,1,1,johnb104,??,,63
@@ -5086,7 +5084,6 @@ play,8,1,poweb101,??,,K/C
 play,8,1,siebn101,??,,W.1-2;2-3
 play,8,1,robib104,??,,S7/G.3-H;2-H;1-2
 play,8,1,orsij101,??,,D7.2-H;1-3
-com,"Orsino and Robinson both hit the ball off the handle"
 play,8,1,kirkw101,??,,NP
 sub,saveb101,"Bob Saverine",1,6,12
 play,8,1,kirkw101,??,,S9.3-H;2-H
@@ -5104,7 +5101,8 @@ play,9,0,richb102,??,,NP
 sub,lau-c101,"Charlie Lau",1,9,2
 play,9,0,richb102,??,,4/P8S
 play,9,0,mantm101,??,,K/C
-com,"Mantle tossed out of game when he threw his helmet"
+com,"ej,mantm101,P,valeb901,Called third strike (Threw helmet)"
+com,"Mickey Mantle ejected by HP umpire Bill Valentine"
 play,9,0,marir101,??,,HR/9
 play,9,0,trest101,??,,K
 data,er,shelr101,2
@@ -5166,7 +5164,6 @@ start,adaij101,"Jerry Adair",1,7,4
 start,kirkw101,"Willie Kirkland",1,8,9
 start,rober102,"Robin Roberts",1,9,1
 play,1,0,linzp101,??,,53
-com,"Heavy rain in afternoon.  Hot, humid, clearing."
 play,1,0,richb102,??,,63
 play,1,0,mantm101,??,,5/FL
 play,1,1,branj101,??,,D7
@@ -5217,7 +5214,7 @@ play,5,0,richb102,??,,NP
 sub,haddh101,"Harvey Haddix",1,9,1
 play,5,0,richb102,??,,7/L
 play,5,0,mantm101,??,,8/F8D
-com,"Ball was caught over the fence"
+com,"$Jackie Brandt caught the ball over the fence"
 play,5,0,marir101,??,,8/F
 play,5,1,robib104,??,,7/F7D
 play,5,1,orsij101,??,,7/F
@@ -5246,8 +5243,7 @@ play,8,1,orsij101,??,,S7
 play,8,1,adaij101,??,,NP
 sub,saveb101,"Bob Saverine",1,6,12
 play,8,1,adaij101,??,,S9.1-2
-play,8,1,kirkw101,??,,E1/TH/BG.2-H(NR)(UR);1-H(NR)(UR);B-3
-com,"wild throw on attempted forceout at 3rd"
+play,8,1,kirkw101,??,,E1/TH3/BG.2-H(NR)(UR);1-H(NR)(UR);B-3
 play,8,1,halld101,??,,S1/BG.3-H(UR);B-3(E1/TH)
 play,8,1,branj101,??,,5/FL
 play,8,1,johnb104,??,,13
@@ -5320,7 +5316,6 @@ start,kirkw101,"Willie Kirkland",1,7,9
 start,adaij101,"Jerry Adair",1,8,4
 start,barbs102,"Steve Barber",1,9,1
 play,1,0,linzp101,??,,4/P
-com,"Weather was fair."
 play,1,0,richb102,??,,63
 play,1,0,lopeh101,??,,53
 play,1,1,branj101,??,,6/P
@@ -5647,7 +5642,7 @@ play,7,0,rollr101,??,,56(1)/FO
 play,7,0,olivt102,??,,WP.1-2
 play,7,0,olivt102,??,,7/L
 play,7,0,killh102,??,,IW
-com,"Official didn't credit Killebrew & Barber with IW"
+com,"discrepancy: Official didn't credit Killebrew & Barber with IW"
 play,7,0,allib103,??,,W.2-3;1-2
 play,7,0,hallj107,??,,8/8D
 play,7,1,bowes103,??,,K
@@ -5775,8 +5770,7 @@ play,5,1,mcnad102,??,,CS2(26)
 play,5,1,mcnad102,??,,K
 play,6,0,fregj101,??,,S9
 play,6,0,adcoj101,??,,E6.1-2
-play,6,0,perrb103,??,,15(2)54(B)/BG/GDP.1-2#
-com,"DWS: bunt assumed"
+play,6,0,perrb103,??,,15(2)54(B)/BG/GDP.1-2
 play,6,0,rodgb102,??,,K
 play,6,1,branj101,??,,4/FL
 play,6,1,aparl101,??,,6/L
@@ -5785,7 +5779,7 @@ play,7,0,knoob101,??,,W
 play,7,0,satrt101,??,,SB2
 play,7,0,satrt101,??,,8.2-3
 play,7,0,chand102,??,,CSH(2)
-com,"Missed squeeze"
+com,"$Missed squeeze"
 play,7,0,chand102,??,,K/C
 play,7,1,siebn101,??,,43
 play,7,1,robib104,??,,63
@@ -6113,7 +6107,7 @@ play,8,0,bryab101,??,,9/L
 play,8,0,chare101,??,,NP
 sub,alusg101,"George Alusik",0,7,11
 play,8,0,alusg101,??,,8
-com,"Official charges AB to Charles"
+com,"discrepancy: Official charges AB to Charles"
 play,8,1,branj101,??,,NP
 sub,joser101,"Rick Joseph",0,8,5
 play,8,1,branj101,??,,NP
@@ -6451,10 +6445,9 @@ sub,mills101,"Stu Miller",1,9,1
 play,9,0,odonj101,??,,43
 play,9,0,causw101,??,,8
 play,9,0,willg101,??,,23
-play,9,1,siebn101,??,,W
-com,"Stock came in on 3-0 count"
-play,9,1,robib104,??,,NP
+play,9,1,siebn101,30,,NP
 sub,stocw101,"Wes Stock",0,9,1
+play,9,1,siebn101,??,,W
 play,9,1,robib104,??,,9
 play,9,1,cimog101,??,,NP
 sub,poweb101,"Boog Powell",1,6,11
@@ -7112,7 +7105,7 @@ play,1,0,wagnl101,??,,S9.1-3
 play,1,0,chanb101,??,,54(1)3/GDP
 play,1,1,branj101,??,,63
 play,1,1,aparl101,??,,63
-com,"Official gives Aparicio W sometime during game"
+com,"discrepancy: Official gives Aparicio W sometime during game"
 play,1,1,poweb101,??,,D8
 play,1,1,siebn101,??,,K
 play,2,0,romaj101,??,,W
@@ -8282,7 +8275,7 @@ play,1,0,yastc101,??,,153.1-2
 play,1,0,stuad101,??,,IW
 play,1,0,hortt101,??,,W.2-3;1-2
 play,1,0,malzf101,??,,S8.3-H;2-3;1X3(85)
-com,"Horton thrown out before Stuart crossed plate"
+com,"$Tony Horton thrown out before Dick Stuart crossed HP"
 play,1,1,robie102,??,,43
 play,1,1,aparl101,??,,7
 play,1,1,siebn101,??,,W
@@ -8339,7 +8332,7 @@ play,6,1,siebn101,??,,K
 play,6,1,poweb101,??,,W
 play,6,1,robib104,??,,HR.1-H
 play,6,1,bowes103,??,,S8.B-H(E3/TH)(UR)
-com,"Bowens trapped but Stuart threw wild"
+com,"$Sam Bowens trapped but Dick Stuart threw wildly"
 play,6,1,lau-c101,??,,53
 play,6,1,adaij101,??,,D/78
 play,6,1,halld101,??,,NP
@@ -8613,7 +8606,6 @@ play,4,1,aparl101,??,,E6/TH.2-3
 play,4,1,siebn101,??,,SB2
 play,4,1,siebn101,??,,W
 play,4,1,poweb101,??,,46(1)/FO.3-H(UR);2-H(UR)
-com,"Yup, Powell gets two RBIs"
 play,4,1,robib104,??,,46(1)/FO
 play,5,0,brese101,??,,D7
 play,5,0,nixor101,??,,S9.2-H
@@ -8719,7 +8711,6 @@ start,barbs102,"Steve Barber",1,9,1
 play,1,0,linzp101,??,,D7
 play,1,0,richb102,??,,3/G/SH.2-3
 play,1,0,marir101,??,,W
-com,"Siebern lost foul ball in R.F. before Mantle hit his double."
 play,1,0,mantm101,??,,D9/89.3-H;1-H
 play,1,0,trest101,??,,53
 play,1,0,howae101,??,,IW
@@ -8879,8 +8870,7 @@ play,1,0,trest101,??,,53
 play,1,1,robie102,??,,43
 play,1,1,aparl101,??,,6/P7S
 play,1,1,siebn101,??,,S9/G
-com,"Very close play. Shortstop fielded at second base, good play"
-play,1,1,poweb101,??,,63
+play,1,1,poweb101,??,,63/G6M
 play,2,0,howae101,??,,HP
 play,2,0,pepij101,??,,54(1)3/GDP
 play,2,0,boyec102,??,,W
@@ -8888,7 +8878,6 @@ play,2,0,boutj101,??,,13
 play,2,1,robib104,??,,HR/8D
 play,2,1,bowes103,??,,W
 play,2,1,lau-c101,??,,3(B)6(1)/GDP
-com,"DWS: check this GDP"
 play,2,1,adaij101,??,,4/P9S
 play,3,0,linzp101,??,,S5/15
 play,3,0,richb102,??,,W.1-2
@@ -8953,7 +8942,6 @@ play,8,1,siebn101,??,,K
 play,9,0,richb102,??,,NP
 sub,mills101,"Stu Miller",1,9,1
 play,9,0,richb102,??,,53
-com,"On shift."
 play,9,0,marir101,??,,63
 play,9,0,lopeh101,??,,8
 play,9,1,poweb101,??,,9/9D
@@ -9056,8 +9044,9 @@ play,5,1,pappm101,??,,K
 play,5,1,robie102,??,,63
 play,5,1,aparl101,??,,63
 play,6,0,linzp101,??,,K
-com,"Yogi Berra ejected for arguing.  Batter topped the ball."
 play,6,0,richb102,??,,53
+com,"ej,berry101,M,stevj901,Call at 1B"
+com,"Yankees Manager Yogi Berra ejected by 1B umpire Johnny Stevens"
 play,6,0,lopeh101,??,,63
 play,6,1,siebn101,??,,3/G
 play,6,1,poweb101,??,,S8
@@ -9066,14 +9055,12 @@ play,6,1,bowes103,??,,IW
 play,6,1,browd102,??,,8
 play,7,0,marir101,??,,NP
 sub,barbs102,"Steve Barber",1,9,1
-com,"Pappas developed stiffness behind his right shoulder and "
-com,"left the game."
+com,"Milt Pappas left with stiff right shoulder"
 play,7,0,marir101,??,,D7
 play,7,0,trest101,??,,S6.2-3
 play,7,0,pepij101,??,,8/8S
 play,7,0,blanj101,??,,NP
 sub,howae101,"Elston Howard",0,7,11
-com,"Bowens misjudged the ball."
 play,7,0,howae101,??,,D9.3-H;1-H
 play,7,0,boyec102,??,,63
 play,7,0,stotm101,??,,63
@@ -9082,8 +9069,7 @@ sub,howae101,"Elston Howard",0,7,2
 play,7,1,adaij101,??,,D7/7LS
 play,7,1,barbs102,??,,NP
 sub,johnb104,"Bob Johnson",1,9,11
-com,"Richardson threw to 3rd too late."
-play,7,1,johnb104,??,,FC4.B-1;2-3
+play,7,1,johnb104,??,,FC4/R5.B-1;2-3
 play,7,1,robie102,??,,7(B)756(3)/FDP
 play,7,1,aparl101,??,,13
 play,8,0,linzp101,??,,NP
@@ -9097,7 +9083,6 @@ play,8,1,poweb101,??,,5/P2
 play,8,1,robib104,??,,4/P9S
 play,9,0,trest101,??,,31
 play,9,0,pepij101,??,,8
-com,"Topped the ball."
 play,9,0,howae101,??,,S5/15
 play,9,0,boyec102,??,,6
 play,9,1,bowes103,??,,8/8D
@@ -10618,10 +10603,9 @@ play,9,1,greel101,??,,NP
 sub,tartj101,"Jose Tartabull",0,1,7
 play,9,1,greel101,??,,4
 play,9,1,aparl101,??,,W
-play,9,1,siebn101,??,,W.1-2
-com,"Wyatt came in on 2-1 count"
-play,9,1,poweb101,??,,NP
+play,9,1,siebn101,21,,NP
 sub,wyatj102,"John Wyatt",0,9,1
+play,9,1,siebn101,??,,W.1-2
 play,9,1,poweb101,??,,9
 play,9,1,robib104,??,,8/8D
 data,er,segud101,4
@@ -10915,7 +10899,6 @@ play,8,0,batte101,??,,63
 play,8,1,aparl101,??,,S4
 play,8,1,siebn101,??,,3/SH.1-2
 play,8,1,robib104,??,,IW
-com,"Oliva and Killebrew swapped positions, no idea when"
 play,8,1,bowes103,??,,NP
 sub,olivt102,"Tony Oliva",0,3,7
 play,8,1,bowes103,??,,NP
@@ -11460,9 +11443,8 @@ play,9,1,bowes103,??,,5/FL
 play,10,0,clinl101,??,,D7
 play,10,0,torrf101,??,,NP
 sub,koppj101,"Joe Koppe",0,6,11
-play,10,0,koppj101,??,,NP
+play,10,0,koppj101,02,,NP
 sub,peara102,"Albie Pearson",0,6,11
-com,"Count on Koppe was 0-2 when PHed for"
 play,10,0,peara102,??,,13
 play,10,0,rodgb102,??,,IW
 play,10,0,knoob101,??,,D7.2-H;1-H
@@ -12032,7 +12014,7 @@ play,6,1,siebn101,??,,NP
 sub,bronj101,"Jim Bronstad",0,9,1
 play,6,1,siebn101,??,,S9
 play,6,1,branj101,??,,CS2(24)
-com,"Official doesn't charge CS2"
+com,"discrepancy: Official doesn't charge CS2"
 play,6,1,branj101,??,,S7
 play,6,1,browd102,??,,K
 play,6,1,mcnad102,??,,K

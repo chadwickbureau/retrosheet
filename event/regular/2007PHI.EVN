@@ -5384,7 +5384,7 @@ play,1,0,shefg001,01,CX,S7/G+
 play,1,0,ordom001,12,FCBS,K
 play,1,1,rollj001,22,CBFBX,3/P3F
 play,1,1,victs001,00,X,HR/78/F
-play,1,1,utlec001,32,CBCBBX,DGR/89/F
+play,1,1,utlec001,32,CBCBBX,DGR/89/F/FINT
 com,"fan interference"
 play,1,1,howar001,31,SBBBB,W
 play,1,1,rowaa001,00,H,HP.2-3;1-2
@@ -5545,7 +5545,7 @@ play,3,0,granc001,22,BBCFX,S7/L
 play,3,0,polap001,22,B1BC1>F>FX,53/G.1-2
 play,3,0,monrc001,00,X,9/F9LF
 play,3,1,victs001,21,BFBX,8/F
-play,3,1,utlec001,01,CX,DGR/7/L
+play,3,1,utlec001,01,CX,DGR/7/L/FINT
 com,"fan interference"
 play,3,1,howar001,10,BX,9/F.2-3
 play,3,1,rowaa001,22,FBBCX,D8/L.3-H
@@ -7368,8 +7368,8 @@ play,1,0,zimmr001,11,CBX,3/P3F
 play,1,1,rollj001,31,CBBBX,9/L
 play,1,1,victs001,12,CFBT,K
 play,1,1,utlec001,11,BCX,43/G
-play,2,0,yound001,22,CFBBX,2/P/FL
-com,"$Young called out for interfering with catcher Ruiz while the"
+play,2,0,yound001,22,CFBBX,2/P/FL/BINT
+com,"$Dmitri Young called for interfering with catcher Ruiz while the"
 com,"latter was trying to catch the popup"
 play,2,0,churr001,22,CSBBX,8/L-
 play,2,0,keara001,12,BCCX,43/G
@@ -8583,7 +8583,8 @@ play,4,1,howar001,10,BX,7/F
 play,4,1,rowaa001,12,BFFS,K
 play,4,1,wertj001,22,BCFBFH,HP.1-2
 play,4,1,ruizc001,11,BFX,64(1)/FO/G
-play,5,0,deaza001,10,BX,2/G/INT
+play,5,0,deaza001,10,BX,2/G/BINT
+com,"$Alejandro de Aza called for interference"
 play,5,0,willd003,12,CBSFFX,43/G
 play,5,0,ramih003,32,BBSBCB,W
 play,5,0,uggld001,32,1C1B+11SBB>X,13/G
@@ -9826,15 +9827,14 @@ play,4,0,kouzk001,10,BX,S7/L
 play,4,0,bardj001,22,BFBFFX,54(1)3/GDP
 play,4,1,victs001,00,X,D9/G
 play,4,1,ruizc001,22,BCBFX,FC3/G.2-3
-com,"$Gonzalex fielded ball wide of the bag and his throw to 3rd"
+com,"$Gonzalex fielded ball wide of the bag and his throw to 3B"
 com,"beat the runner, but was just wide"
-play,4,1,nunea001,00,X,64(1)3/G/DP/INT.3-3
-com,"$Ruiz went past the bag and threw a football block on Giles"
-com,"who challenged Ruiz immediately. Benches and bullpens empty,"
-com,"but no one was ejected. Play was ruled interference to"
-com,"complete the double play, runner who had scored was sent"
-com,"back to third. Giles left in next inning with hip pointer,"
-com,"onto DL next day with knee strain."
+play,4,1,nunea001,00,X,64(1)3/G/DP/RINT.3-3
+com,"$Carlos Ruiz went past the bag and threw a football block on"
+com,"Marsuc Giles who challenged Ruiz immediately; both benches"
+com,"cleared but no one was ejected; play was ruled interference on"
+com,"Ruiz; the runner who had scored was sent back to 3B;"
+com,"Giles left in next inning with hip pointer"
 play,4,1,moyej001,11,BCX,1/G
 play,5,0,gilem001,32,FBBBCX,S7/L-
 play,5,0,maddg002,02,L1LS,K
@@ -10722,8 +10722,8 @@ sub,andem003,"Marlon Anderson",0,8,11
 play,9,0,andem003,21,..FB1BX,S9/L.1-3
 play,9,0,sosaj002,00,,NP
 sub,grees001,"Shawn Green",0,9,11
-play,9,0,grees001,22,.FSBBX,64(1)3/G/DP/INT
-com,"$Interferene called on Anderson by Bucknor as he went towards Iguchi"
+play,9,0,grees001,22,.FSBBX,64(1)3/G/DP/RINT
+com,"$Interference called on Anderson by Bucknor as he went towards Iguchi"
 com,"instead of the bag at 2B"
 data,er,pereo002,3
 data,er,sosaj002,0
@@ -11500,7 +11500,7 @@ play,4,0,heltt001,00,X,D9/L
 play,4,0,atkig001,20,B*BX,63/G
 play,4,0,hawpb001,20,BBX,S4/G.2-3
 play,4,0,spilr001,00,H,HP.1-2
-play,4,0,torry001,21,BBCX,DGR/9/F.3-H;2-H;1-3
+play,4,0,torry001,21,BBCX,DGR/9/F/FINT.3-H;2-H;1-3
 com,"fan interference"
 play,4,0,jimeu001,01,SX,43/G
 play,4,1,howar001,32,BBBFCX,7/F

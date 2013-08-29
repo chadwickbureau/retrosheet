@@ -1,9 +1,3 @@
-com,"Copyright 2002 by Retrosheet, Inc."
-com,"20 Sunset Rd."
-com,"Newark, DE 19711"
-com,"All Rights Reserved"
-com,"Data Version 1.00"
-com,"June 30, 2002"
 id,DET196904080
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -430,7 +424,6 @@ play,9,0,clarh101,??,,NP
 sub,radad101,"Dick Radatz",1,9,1
 play,9,0,clarh101,??,,S7
 play,9,0,kennj103,??,,1E4/SH.1-H;B-3
-com,"2b failed to cover first"
 play,9,0,murcb101,??,,S8.3-H(UR)
 play,9,0,whitr101,??,,9
 play,9,0,pepij101,??,,HR/9D.1-H
@@ -945,7 +938,7 @@ play,2,0,conit101,??,,S5
 play,2,0,scotg102,??,,SB2
 play,2,0,scotg102,??,,K
 play,2,1,cashn101,??,,HR/9
-com,"Off the roof"
+com,"$Onto the roof"
 play,2,1,hortw101,??,,K
 play,2,1,nortj101,??,,43
 play,2,1,freeb103,??,,53
@@ -1393,7 +1386,6 @@ play,1,0,howaf102,??,,S7.1-2
 play,1,0,epstm101,??,,K
 play,1,0,alleh104,??,,43/G
 play,1,1,mcaud101,??,,HR/9
-com,"Upper deck homer"
 play,1,1,stanm101,??,,S8
 play,1,1,kalia101,??,,16(1)/FO/G.B-1
 play,1,1,browg101,??,,S8/78.1-3
@@ -1476,7 +1468,6 @@ sub,cullt101,"Tim Cullen",0,7,12
 play,9,0,casap101,??,,4/P
 play,9,0,colej102,??,,14/SH/BG.1-2
 play,9,0,unsed101,??,,S9/G.2-H
-com,"Actually S39 by Unser"
 play,9,0,brine101,??,,4/P
 play,9,1,matct101,??,,NP
 sub,cullt101,"Tim Cullen",0,7,4
@@ -1641,8 +1632,7 @@ play,9,0,belam101,??,,NP
 sub,tracd101,"Dick Tracewski",1,4,6
 play,9,0,belam101,??,,S7
 play,9,0,richp102,??,,16(1)/FO/BG
-play,9,0,bufod101,??,,SB2
-com,"Timing of SB a guess."
+play,9,0,bufod101,??,,SB2#
 play,9,0,bufod101,??,,8
 play,9,0,blaip101,??,,NP
 sub,mcmad102,"Don McMahon",1,9,1
@@ -1734,7 +1724,6 @@ play,3,0,bufod101,??,,2/FL
 play,3,1,freeb103,??,,HP
 play,3,1,mclad101,??,,34/SH/B.1-2
 play,3,1,mcaud101,??,,FC1.2X3(165);B-2
-com,"Rundown; McAuliffe takes advantage"
 play,3,1,stanm101,??,,3/FL
 play,4,0,blaip101,??,,5/L
 play,4,0,robif103,??,,53
@@ -1858,7 +1847,6 @@ play,3,0,rodre101,??,,43
 play,3,0,butlb101,??,,K
 play,3,0,hernj102,??,,K
 play,3,1,stanm101,??,,63
-com,"nice plays by both HErnandez and Harrison"
 play,3,1,tracd101,??,,4/P
 play,3,1,kalia101,??,,6/P
 play,4,0,kirke102,??,,3/G
@@ -1934,7 +1922,7 @@ sub,taylh102,"Hawk Taylor",0,8,11
 play,9,0,taylh102,??,,NP
 sub,radad101,"Dick Radatz",1,9,1
 play,9,0,taylh102,??,,HR/78XD.2-H;1-H
-com,"420-foot homer!"
+com,"420 ft"
 play,9,0,bunkw101,??,,K
 play,9,1,stanm101,??,,NP
 sub,taylh102,"Hawk Taylor",0,8,9
@@ -1951,8 +1939,7 @@ play,9,1,freeb103,??,,S8.1-2
 play,9,1,hortw101,??,,W.2-3;1-2
 play,9,1,nortj101,??,,NP
 sub,drabm101,"Moe Drabowsky",0,9,1
-com,"Drabowsky gets Northrup on one pitch"
-play,9,1,nortj101,??,,13
+play,9,1,nortj101,00,X,13
 data,er,butlb101,5
 data,er,wickd101,0
 data,er,mored103,1
@@ -2022,7 +2009,6 @@ play,2,0,olivb101,??,,8/F
 play,2,0,harrc101,??,,43
 play,2,0,campj105,??,,K
 play,2,1,hortw101,??,,43
-com,"nice play by Adair"
 play,2,1,nortj101,??,,K
 play,2,1,pricj102,??,,9/L
 play,3,0,kirke102,??,,K
@@ -2163,21 +2149,13 @@ play,1,1,cashn101,??,,36(1)3/GDP
 play,2,0,nettg001,??,,D9
 play,2,0,reesr101,??,,3/P
 play,2,0,cardl101,??,,S8.2-3
-play,2,0,rosej101,??,,POCSH(232)#
-com,"It appears that Tiger catcher Bill Freehan threw to first"
-com,"to try and pick off Leo Cardenas.  When Graig Nettles took"
-com,"the opportunity to try and score from third, he was thrown"
-com,"out by Detroit first sacker Norm Cash."
-com,"Is this considered a caught stealing home?"
+play,2,0,rosej101,??,,POCSH(232)
 play,2,0,rosej101,??,,3/FL
 play,2,1,hortw101,??,,K
 play,2,1,nortj101,??,,K
 play,2,1,freeb103,??,,K/C
 play,3,0,chand102,??,,13
 play,3,0,uhlat101,??,,8
-com,"The Detroit scorer marked this play with '!!!', but no"
-com,"further explanation of what warranted the exclamation"
-com,"points!"
 play,3,0,carer001,??,,W
 play,3,0,olivt102,??,,D7.1-H
 play,3,0,killh102,??,,K
@@ -2207,9 +2185,7 @@ play,5,1,freeb103,??,,D9
 play,5,1,wertd103,??,,WP.2-3
 play,5,1,wertd103,??,,K
 play,6,0,rosej101,??,,5/FL
-play,6,0,chand102,??,,K#
-com,"The Detroit scorer says it was a K/C; the Minnesota scorer"
-com,"just calls it a K."
+play,6,0,chand102,??,,K/C
 play,6,0,uhlat101,??,,K/C
 play,6,1,hillj101,??,,NP
 sub,campd101,"Dave Campbell",1,9,11
@@ -2228,18 +2204,13 @@ play,7,1,nortj101,??,,HR/9.1-H
 play,7,1,freeb103,??,,W
 play,7,1,wertd103,??,,NP
 sub,browg101,"Gates Brown",1,8,11
-com,"There is no indication on either scorecard as to whether "
-com,"this is Ike or Gates Brown.  I selected Gates because he was"
-com,"used primarily as a pinch hitter during the season and Ike"
-com,"was a reserve utility infielder."
 play,7,1,browg101,??,,NP
 sub,millb106,"Bob Miller",0,9,1
 play,7,1,browg101,??,,43
 play,8,0,nettg001,??,,NP
 sub,tracd101,"Dick Tracewski",1,8,5
 play,8,0,nettg001,??,,4/P
-play,8,0,reesr101,??,,S#
-com,"Hit location unclear"
+play,8,0,reesr101,??,,S
 play,8,0,cardl101,??,,13/SH.1-2
 play,8,0,rosej101,??,,S7.2-H
 play,8,0,millb106,??,,9
@@ -2350,7 +2321,6 @@ play,3,0,olivt102,??,,7
 play,3,1,stanm101,??,,7
 play,3,1,tracd101,??,,63
 play,3,1,kalia101,??,,HR/7
-com,"Lower deck, left field"
 play,3,1,freeb103,??,,S8
 play,3,1,hortw101,??,,7
 play,4,0,killh102,??,,6/P
@@ -2425,8 +2395,7 @@ play,9,0,rosej101,??,,NP
 sub,tracd101,"Dick Tracewski",1,2,6
 play,9,0,rosej101,??,,K
 play,9,0,manuc101,??,,3/G
-play,9,0,uhlat101,??,,S#
-com,"HIt location unclear"
+play,9,0,uhlat101,??,,S
 play,9,0,carer001,??,,K/C
 data,er,kaatj101,2
 data,er,woodd102,0
@@ -2485,7 +2454,7 @@ start,nortj101,"Jim Northrup",1,6,8
 start,freeb103,"Bill Freehan",1,7,2
 start,wertd103,"Don Wert",1,8,5
 start,lolim101,"Mickey Lolich",1,9,1
-com,"35 minute rain delay at start"
+com,"35 minute rain delay before start"
 play,1,0,aloms101,??,,8
 play,1,0,aparl101,??,,S7
 play,1,0,may-c101,??,,46(1)3/GDP
@@ -2525,8 +2494,7 @@ play,5,1,wertd103,??,,63
 play,6,0,aparl101,??,,43
 play,6,0,may-c101,??,,S4
 play,6,0,meltb101,??,,K
-play,6,0,josed101,??,,E5.1-3(E5)
-com,"Two errors given on play."
+play,6,0,josed101,??,,E5.1-3(E5/TH)
 play,6,0,bradb105,??,,K/C
 play,6,1,lolim101,??,,63
 play,6,1,stanm101,??,,53
@@ -2690,7 +2658,6 @@ sub,wardp102,"Pete Ward",0,7,3
 play,6,1,kalia101,??,,9
 play,6,1,cashn101,??,,9/FL
 play,6,1,hortw101,??,,K
-com,"$Peter's 1000th career strikeout"
 play,7,0,peteg101,??,,W
 play,7,0,willw103,??,,S7.1-2
 play,7,0,aparl101,??,,NP
@@ -2804,7 +2771,6 @@ play,2,1,nortj101,??,,13
 play,3,0,johnt001,??,,K
 play,3,0,willw103,??,,63
 play,3,0,aparl101,??,,S9
-com,"$Aparicio's 2000th career hit"
 play,3,0,may-c101,??,,9
 play,3,1,wertd103,??,,63
 play,3,1,wilse102,??,,43
@@ -4368,7 +4334,6 @@ play,5,1,mcaud101,??,,NP
 sub,alyeb101,"Brant Alyea",0,4,7
 play,5,1,mcaud101,??,,NP
 sub,bowes103,"Sam Bowens",0,6,9
-com,"Don't really know when Alyea and Bowens switched positions."
 play,5,1,mcaud101,??,,S7
 play,5,1,kalia101,??,,S7.1-2
 play,5,1,cashn101,??,,46(1)/FO.B-2(E6);2-H(NR)
@@ -4709,9 +4674,8 @@ play,6,1,pattd102,??,,NP
 sub,matct101,"Tommy Matchick",1,9,11
 play,6,1,matct101,??,,D9.1-H;2-H;3-H
 play,6,1,stanm101,??,,9
-com,"Dobson came in to pitch here, but he was not officially credited"
-com,"with an appearance."
-com,"Game called at 7:31 due to rain"
+com,"Game called due to rain; Pat Dobson entered"
+com,"but was not officially credited with an appearance"
 data,er,moorb105,5
 data,er,sparj101,6
 data,er,lashf101,3
@@ -4923,8 +4887,7 @@ start,browi101,"Ike Brown",1,6,5
 start,nortj101,"Jim Northrup",1,7,8
 start,freeb103,"Bill Freehan",1,8,2
 start,mclad101,"Denny McLain",1,9,1
-com,"Wind in from right field"
-com,"$Game delayed 39 minutes by rain at start"
+com,"39 minute rain delay before start of game"
 play,1,0,clarh101,??,,S8
 play,1,0,kennj103,??,,S9.1-2
 play,1,0,murcb101,??,,K
@@ -4935,7 +4898,6 @@ play,1,0,lyttj101,??,,K
 play,1,1,mcaud101,??,,9/9D
 play,1,1,trest101,??,,53
 play,1,1,kalia101,??,,HR/7
-com,"Short"
 play,1,1,hortw101,??,,HR/89
 play,1,1,cashn101,??,,K
 play,2,0,michg101,??,,S3
@@ -4987,7 +4949,6 @@ play,7,1,cashn101,??,,W
 play,7,1,browi101,??,,3/SH.1-2
 play,7,1,nortj101,??,,IW
 play,7,1,freeb103,??,,23.1-2;2-3
-com,"Check"
 play,7,1,mclad101,??,,13
 play,8,0,kennj103,??,,8/8D
 play,8,0,murcb101,??,,43
@@ -5059,7 +5020,6 @@ start,browi101,"Ike Brown",1,6,5
 start,nortj101,"Jim Northrup",1,7,8
 start,freeb103,"Bill Freehan",1,8,2
 start,lolim101,"Mickey Lolich",1,9,1
-com,"Wind from right field to left field"
 play,1,0,clarh101,??,,K
 play,1,0,woodr102,??,,W
 play,1,0,murcb101,??,,PO1(136)
@@ -5338,17 +5298,15 @@ start,freeb103,"Bill Freehan",1,6,2
 start,matct101,"Tommy Matchick",1,7,5
 start,stanm101,"Mickey Stanley",1,8,8
 start,dobsp101,"Pat Dobson",1,9,1
+com,"$Pat Dobson: 136 pitches"
 play,1,0,schod101,00,,3/G
 play,1,0,lahoj101,12,,3/G
 play,1,0,yastc101,22,,HR/9
 play,1,0,smitr101,31,,HR/9
-com,"Sixth time in 1969 the two have homered back-to-back"
-com,"both homers into lower deck"
 play,1,0,petrr101,32,,W
 play,1,0,scotg102,12,,K
 play,1,1,mcaud101,11,,3/G
 play,1,1,trest101,10,,HR/9
-com,"upper deck homer"
 play,1,1,kalia101,12,,K
 play,1,1,cashn101,31,,S8/L
 play,1,1,nortj101,11,,S9/G.1-2
@@ -5356,7 +5314,6 @@ play,1,1,freeb103,20,,64(1)/FO/G
 play,2,0,joned102,11,,8/F
 play,2,0,gibsr102,00,,7/L
 play,2,0,jarvr101,12,,K
-com,"8 pitches by Dobson"
 play,2,1,matct101,32,,7/F
 play,2,1,stanm101,10,,S8/G
 play,2,1,dobsp101,02,,14/SH/BG.1-2
@@ -5371,17 +5328,14 @@ play,2,1,freeb103,32,,K
 play,3,0,schod101,22,,K
 play,3,0,lahoj101,32,,3/G
 play,3,0,yastc101,00,,7/F7LD
-com,"13 pitches by Dobson"
 play,3,1,matct101,21,,1/G
 play,3,1,stanm101,00,,63/G
 play,3,1,dobsp101,00,,13/G
 play,4,0,smitr101,11,,8/F
 play,4,0,petrr101,11,,6/L
 play,4,0,scotg102,10,,8/F89XD
-com,"8 pitches by Dobson"
 play,4,1,mcaud101,00,,43/G
 play,4,1,trest101,22,,HR/F9LD
-com,"another upper deck homer"
 play,4,1,kalia101,21,,53/G
 play,4,1,cashn101,02,,E8/F.B-1
 play,4,1,nortj101,11,,6/P
@@ -5394,7 +5348,6 @@ play,5,0,schod101,00,,WP.2-3
 play,5,0,schod101,22,,53/G
 play,5,1,freeb103,00,,NP
 sub,lee-b101,"Bill Lee",0,9,1
-com,"19 pitches by Dobson; 73 so far"
 play,5,1,freeb103,11,,S7/L
 play,5,1,matct101,22,,3/G.1-2
 play,5,1,stanm101,12,,13/G.2-3
@@ -5402,13 +5355,12 @@ play,5,1,dobsp101,10,,9/F
 play,6,0,lahoj101,31,,9/L
 play,6,0,yastc101,00,,8/F
 play,6,0,smitr101,10,,8/F89XD
-com,"8 pitches by Dobson"
 play,6,1,mcaud101,32,,W
 play,6,1,trest101,21,,S9/P.1-3
 play,6,1,kalia101,00,,46(1)/FO/G.3-H;B-1
 play,6,1,cashn101,22,,K
 play,6,1,nortj101,02,,HR/F89XD.1-H
-com,"off the facing of the right-center field upper deck"
+com,"$off the facing of the right-center field upper deck"
 play,6,1,freeb103,01,,HR/F78XD
 play,6,1,matct101,22,,K/C
 play,7,0,petrr101,00,,NP
@@ -5424,8 +5376,6 @@ sub,satrt101,"Tom Satriano",0,9,11
 play,7,0,satrt101,21,,7/F
 play,7,1,stanm101,00,,NP
 sub,siebs101,"Sonny Siebert",0,9,1
-com,"14 pitches by Dobson"
-com,"no pitches for first two hitters in home 7th"
 play,7,1,stanm101,00,,43/G
 play,7,1,dobsp101,00,,K
 play,7,1,mcaud101,21,,13/G
@@ -5434,7 +5384,6 @@ play,8,0,lahoj101,31,,W
 play,8,0,yastc101,12,,S9/L.1-2
 play,8,0,smitr101,12,,K
 play,8,0,petrr101,10,,31/G
-com,"23 pitches by Dobson"
 play,8,1,trest101,32,,W
 play,8,1,kalia101,32,,8/F
 play,8,1,wertd103,32,,D7.1-H
@@ -5454,7 +5403,6 @@ sub,conit101,"Tony Conigliaro",0,9,11
 play,9,0,conit101,31,,W.1-2
 play,9,0,schod101,00,,S8/G.2-H;1-2
 play,9,0,lahoj101,12,,K
-com,"18 pitches by Dobson, 136 total in complete game"
 data,er,jarvr101,6
 data,er,nagym101,1
 data,er,lee-b101,4
@@ -5511,70 +5459,58 @@ start,pricj102,"Jim Price",1,6,2
 start,browi101,"Ike Brown",1,7,4
 start,wertd103,"Don Wert",1,8,5
 start,mclad101,"Denny McLain",1,9,1
+com,"$Bill Landis: 89 pitches; Denny McLain: 136 pitches"
 play,1,0,schod101,02,,K/C
 play,1,0,lahoj101,32,,K
 play,1,0,yastc101,21,,S8/L78
 play,1,0,smitr101,10,,13/G
-com,"17 pitches by McLain"
 play,1,1,stanm101,31,,W
 play,1,1,trest101,31,,W.1-2
 play,1,1,kalia101,22,,46(1)3/GDP/G.2-3
 play,1,1,freeb103,32,,W
 play,1,1,nortj101,22,,K
-com,"28 pitches by Landis"
 play,2,0,petrr101,00,,S9/P.BX2(96)
 play,2,0,conit101,32,,K/C
 play,2,0,scotg102,01,,63/G
-com,"11 pitches by McLain"
 play,2,1,pricj102,12,,S7/G
 play,2,1,browi101,01,,64(1)3/GDP/G
 play,2,1,wertd103,31,,HR/7
 play,2,1,mclad101,00,,9/F
-com,"12 pitches by Landis"
 play,3,0,gibsr102,10,,8/F89XD
 play,3,0,landb101,01,,43/G
 play,3,0,schod101,02,,S9/G
 play,3,0,lahoj101,22,,K
-com,"13 pitches by McLain"
 play,3,1,stanm101,32,,K
 play,3,1,trest101,11,,S6/G
 play,3,1,kalia101,02,,6/P
 play,3,1,freeb103,00,,43/G
-com,"15 pitches by Landis"
 play,4,0,yastc101,10,,7/L78XD
 play,4,0,smitr101,32,,9/F
 play,4,0,petrr101,31,,W
 play,4,0,conit101,00,,8/F78XD
-com,"14 pitches by McLain"
 play,4,1,nortj101,20,,4/P
 play,4,1,pricj102,11,,63/G
 play,4,1,browi101,00,,8/L
-com,"7 pitches by Landis"
 play,5,0,scotg102,11,,63/G
 play,5,0,gibsr102,01,,63/G
 play,5,0,landb101,11,,13/BG
-com,"8 pitches by McLain"
 play,5,1,wertd103,01,,8/F
 play,5,1,mclad101,12,,K/C
 play,5,1,stanm101,01,,E4/G.B-1
 play,5,1,trest101,00,,HR/7.1-H(UR);B-H(UR)
 play,5,1,kalia101,11,,43/G
-com,"13 pitches by Landis"
 play,6,0,schod101,12,,HP
 play,6,0,lahoj101,00,,9/F9D
 play,6,0,yastc101,12,,36(1)1/GDP/G
-com,"11 pitches by McLain"
 play,6,1,freeb103,00,,D7/G
 play,6,1,nortj101,20,,D8/L.2-H
 play,6,1,pricj102,21,,D8/L.2-3
-com,"Price's fly is dropped by Lahoud, picked up by Smith"
 play,6,1,browi101,00,,NP
 sub,tracd101,"Dick Tracewski",1,6,12
 play,6,1,browi101,22,,K
 play,6,1,wertd103,00,,D7.3-H;2-H;B-3(THH)
 play,6,1,mclad101,00,,NP
 sub,romov101,"Vicente Romo",0,9,1
-com,"14 pitches in inning for Landis, 89 total for game"
 play,6,1,mclad101,00,,CSH(25)
 play,6,1,mclad101,02,,K
 play,7,0,smitr101,00,,NP
@@ -5586,7 +5522,6 @@ play,7,0,petrr101,11,,7/F
 play,7,0,conit101,00,,S7/P
 play,7,0,scotg102,11,,S8/L.1-2
 play,7,0,gibsr102,10,,63/G
-com,"12 pitches by McLain"
 play,7,1,stanm101,01,,S6/G56
 play,7,1,trest101,00,,SB2
 play,7,1,trest101,01,,S8/G.2-H
@@ -5599,7 +5534,6 @@ play,8,0,joned102,11,,4/P
 play,8,0,schod101,32,,13/G
 play,8,0,lahoj101,01,,S9/L
 play,8,0,yastc101,32,,8/F
-com,"22 pitches by McLain"
 play,8,1,cashn101,00,,NP
 sub,lyles101,"Sparky Lyle",0,9,1
 play,8,1,cashn101,22,,43/G
@@ -5610,7 +5544,6 @@ play,9,0,petrr101,20,,7/F
 play,9,0,conit101,11,,S7/L.1-2
 play,9,0,scotg102,12,,9/F
 play,9,0,gibsr102,32,,K
-com,"28 pitches, 136 for game"
 data,er,landb101,4
 data,er,romov101,1
 data,er,lyles101,0
@@ -5666,41 +5599,34 @@ start,freeb103,"Bill Freehan",1,6,2
 start,matct101,"Tommy Matchick",1,7,6
 start,wertd103,"Don Wert",1,8,5
 start,sparj101,"Joe Sparma",1,9,1
+com,"$Ray Culp: 89 pitches; Joe Sparma: 87 pitches"
 play,1,0,schod101,22,,43/G
 play,1,0,lahoj101,32,,2/FL
 play,1,0,yastc101,01,,13/G
-com,"13 pitches by Sparma"
 play,1,1,stanm101,32,,W
 play,1,1,trest101,12,,K/C
 play,1,1,mcaud101,11,,2/FL
 play,1,1,cashn101,02,,S8/G.1-2
 play,1,1,nortj101,10,,8/F
-com,"21 pitches by Culp"
 play,2,0,smitr101,32,,W
 play,2,0,petrr101,12,,K/C
 play,2,0,conit101,12,,K+CS2(24)/DP
-com,"15 pitches by Sparma"
 play,2,1,freeb103,00,,7/F
 play,2,1,matct101,01,,S6/G
 play,2,1,wertd103,00,,64(1)3/GDP/G
-com,"4 pitches by Culp"
 play,3,0,scotg102,10,,53/G
 play,3,0,satrt101,00,,43/G
 play,3,0,culpr101,02,,K/C
-com,"6 pitches by Sparma"
 play,3,1,sparj101,00,,S7/P
 play,3,1,stanm101,11,,8/F
 play,3,1,trest101,12,,8/F
 play,3,1,mcaud101,21,,D9/F.1-3
 play,3,1,cashn101,31,,W
 play,3,1,nortj101,12,,31/G
-com,"21 pitches by Culp"
 play,4,0,schod101,00,,S9/G.BX2(96)
 play,4,0,lahoj101,11,,43/G
 play,4,0,yastc101,30,,HR/F89XD
-com,"Upper deck homer"
 play,4,0,smitr101,32,,8/F
-com,"14 pitches by Sparma"
 play,4,1,freeb103,32,,HR/F78XD
 play,4,1,matct101,21,,E3/G.B-1
 play,4,1,wertd103,31,,W.1-2
@@ -5709,18 +5635,15 @@ play,4,1,stanm101,21,,S7/G.3-H(UR);2-H;1-2
 play,4,1,trest101,00,,36(1)/FO/G.2-3;B-1
 play,4,1,mcaud101,00,,8/SF.3-H(UR)
 play,4,1,cashn101,12,,K
-com,"26 pitches by Culp"
 play,5,0,petrr101,02,,53/G
 play,5,0,conit101,22,,K23
 play,5,0,scotg102,31,,W
 play,5,0,satrt101,00,,43/G
-com,"14 pitches by Sparma"
 play,5,1,nortj101,01,,S9/L
 play,5,1,freeb103,00,,SB2
 play,5,1,freeb103,32,,53/G
 play,5,1,matct101,32,,K
 play,5,1,wertd103,00,,6/P
-com,"17 pitches; 89 total for Culp"
 play,6,0,culpr101,00,,NP
 sub,obris101,"Syd O'Brien",0,9,11
 play,6,0,obris101,02,,53/G
@@ -5729,16 +5652,13 @@ play,6,0,lahoj101,30,,W
 play,6,0,yastc101,31,,9/L
 play,6,1,sparj101,00,,NP
 sub,lyles101,"Sparky Lyle",0,9,1
-com,"18 pitches by Sparma"
 play,6,1,sparj101,22,,63/G
 play,6,1,stanm101,22,,63/G
 play,6,1,trest101,32,,W
 play,6,1,mcaud101,12,,4/P
 play,7,0,smitr101,22,,HR/F89XD
-com,"Upper deck homer"
 play,7,0,petrr101,00,,S7/L
 play,7,0,conit101,00,,S5/G.1-2
-com,"7 pitches this inning by Sparma, total of 87"
 play,7,0,scotg102,00,,NP
 sub,timmt101,"Tom Timmermann",1,9,1
 play,7,0,scotg102,21,,53/G.2-3;1-2
@@ -5823,11 +5743,6 @@ start,nortj101,"Jim Northrup",1,6,7
 start,wertd103,"Don Wert",1,7,5
 start,browi101,"Ike Brown",1,8,4
 start,lolim101,"Mickey Lolich",1,9,1
-com,"Sheet had Stanley and Northrup both in center.  Guessed and"
-com,"put Northrup in left"
-com,"Apparent error by Wert on Rettenmund in 3rd not shown on"
-com,"any of the totals on the scoresheet"
-com,"$Game was originally scheduled to be the first of two"
 play,1,0,belam101,??,,S7
 play,1,0,blaip101,??,,8
 play,1,0,robif103,??,,K
@@ -5884,7 +5799,7 @@ play,5,0,robif103,??,,HR/9
 play,5,0,rettm101,??,,8
 play,5,0,robib104,??,,K
 play,5,0,johnd105,??,,K/C
-com,"46 minute rain delay before game was called"
+com,"game called after 46 minute rain delay"
 data,er,cuelm101,4
 data,er,sevea101,0
 data,er,halld101,0
@@ -5940,8 +5855,7 @@ start,nortj101,"Jim Northrup",1,6,9
 start,wertd103,"Don Wert",1,7,5
 start,tracd101,"Dick Tracewski",1,8,6
 start,dobsp101,"Pat Dobson",1,9,1
-play,1,0,bufod101,??,,S6.B-2(E6)#
-com,"Buford hit possible S7"
+play,1,0,bufod101,??,,S6.B-2(E6)
 play,1,0,blaip101,??,,S7.2-H(E7)(NR);B-2
 play,1,0,robif103,??,,S8.2-H
 play,1,0,poweb101,??,,SB2#
@@ -5964,15 +5878,14 @@ play,2,1,wertd103,??,,K
 play,2,1,tracd101,??,,64(1)3/GDP
 play,3,0,blaip101,??,,T8
 play,3,0,robif103,??,,PO3(2)
-com,"$Bat flew out of Frank Robinson's hand, apparently on"
-com,"a swing; Blair tagged out by Freehan as he strolled back to"
-com,"3B while bat being retrieved; time was never called"
+com,"$the bat flew out of Frank Robinson's hand on a swing;"
+com,"Paul Blair strolled back to 3B while the bat was being"
+com,"retrieved; time was never called"
 play,3,0,robif103,??,,K/C
 play,3,0,poweb101,??,,S9
 play,3,0,robib104,??,,3/FL
 play,3,1,lashf101,??,,NP
 sub,browi101,"Ike Brown",1,9,11
-com,"PH's name blurred.  I. Brown is a total guess"
 play,3,1,browi101,??,,K
 play,3,1,stanm101,??,,53
 play,3,1,mcaud101,??,,S8
@@ -6155,8 +6068,7 @@ play,5,1,kalia101,??,,K/C
 play,5,1,cashn101,??,,43
 play,6,0,poweb101,??,,W
 play,6,0,robib104,??,,3/FL
-play,6,0,hende103,??,,S7.1-2#
-com,"Hendricks' single possibly S1"
+play,6,0,hende103,??,,S.1-2
 play,6,0,johnd105,??,,S9.2-3;1-2
 play,6,0,belam101,??,,K/C
 play,6,0,leond101,??,,NP
@@ -6788,8 +6700,8 @@ play,2,1,wertd103,??,,E1
 play,2,1,wilse102,??,,1/SH/G.1-2
 play,2,1,stanm101,??,,S8.B-2(THH);2-H(UR)
 play,2,1,trest101,??,,3/G
-play,2,1,kalia101,??,,3#
-com,"Interference"
+play,2,1,kalia101,??,,3/BINT
+com,"$Al Kaline called for interference"
 play,3,0,cardj101,??,,2/FL
 play,3,0,browl104,??,,S7
 play,3,0,simsd101,??,,K
@@ -6835,7 +6747,8 @@ play,8,0,browl104,??,,63
 play,8,0,simsd101,??,,S9
 play,8,0,hortt101,??,,53
 play,8,1,cashn101,??,,K/C
-com,"Cash ejected by Springstead"
+com,"ej,cashn101,P,sprim901,Called third strike"
+com,"Norm Cash ejected by HP umpire Marty Springstead"
 play,8,1,nortj101,??,,S9
 play,8,1,pricj102,??,,2/FL
 play,8,1,campd101,??,,K
@@ -7109,7 +7022,6 @@ play,4,1,kalia101,??,,HR/7
 play,4,1,cashn101,??,,S9
 play,4,1,hortw101,??,,14(1)3/GDP
 play,4,1,freeb103,??,,S9.BX2(36)
-com,"one sheet had it 96, but no assist was given to Oliver."
 play,5,0,rodre101,??,,D9
 play,5,0,bunkw101,??,,K
 play,5,0,kellp101,??,,7
@@ -7251,7 +7163,7 @@ play,5,1,trest101,??,,S8
 play,5,1,nortj101,??,,S9.1-3
 play,5,1,kalia101,??,,NP
 sub,stanm101,"Mickey Stanley",1,1,12
-com,"$Tresh pulled hamstring muscle going from first to third"
+com,"$Tom Tresh pulled a hamstring muscle running from 1B to 3B"
 play,5,1,kalia101,??,,8/SF.3-H
 play,5,1,cashn101,??,,3/G
 play,6,0,martb001,??,,NP
@@ -8060,7 +7972,6 @@ sub,berrk101,"Ken Berry",0,9,11
 play,8,0,berrk101,??,,K
 play,8,0,willw103,??,,53
 play,8,0,aparl101,??,,HR/7
-com,"Lower LF"
 play,8,0,hopkg101,??,,13
 play,8,1,pricj102,??,,NP
 sub,woodw103,"Wilbur Wood",0,9,1
@@ -9230,7 +9141,6 @@ play,4,1,freeb103,??,,9
 play,5,0,jackr001,??,,K
 play,5,0,bands101,??,,9
 play,5,0,frant101,??,,HR/9
-com,"Upper RF"
 play,5,0,greed102,??,,K
 play,5,1,wertd103,??,,W
 play,5,1,lashf101,??,,FC/SH.1-2
@@ -9579,7 +9489,8 @@ sub,stanm101,"Mickey Stanley",1,1,8
 play,9,0,bands101,??,,NP
 sub,nortj101,"Jim Northrup",1,2,7
 play,9,0,bands101,??,,K/C
-com,"Bando ejected"
+com,"ej,bands101,P,kunkb101,Called third strike"
+com,"Sal Bando ejected by HP umpire Bill Kunkel"
 play,9,0,frant101,??,,43
 play,9,0,greed102,??,,8/L
 data,er,huntj101,2
@@ -9649,7 +9560,6 @@ play,2,0,reynt101,??,,13
 play,2,0,greed102,??,,K23
 play,2,1,cashn101,??,,K
 play,2,1,nortj101,??,,HR/9
-com,"Lower RF"
 play,2,1,matct101,??,,K
 play,2,1,freeb103,??,,53
 play,3,0,roofp101,??,,K/C
@@ -9663,9 +9573,6 @@ play,4,0,jackr001,??,,K+WP.B-1
 play,4,0,bands101,??,,D7.1-3
 play,4,0,cated101,??,,E2.3-H(NR);2-3
 play,4,0,reynt101,??,,S7.3-H(UR);1-2
-com,"Originally there was no advancement from second on the error."
-com,"I changed this because the run scoring on the single was"
-com,"unearned and that only made sense in the updated scenario."
 play,4,0,greed102,??,,64(1)3/GDP
 play,4,1,trest101,??,,S9
 play,4,1,kalia101,??,,3(B)6(1)/DP
@@ -9693,7 +9600,6 @@ play,7,0,tartj101,??,,8
 play,7,1,trest101,??,,4/L
 play,7,1,kalia101,??,,S7
 play,7,1,cashn101,??,,HR/9.1-H
-com,"#20 Upper RF"
 play,7,1,nortj101,??,,S9
 play,7,1,matct101,??,,K
 play,7,1,freeb103,??,,W.1-2
@@ -9792,7 +9698,7 @@ play,13,1,trest101,??,,K
 play,13,1,kalia101,??,,K
 play,13,1,cashn101,??,,S9
 play,13,1,nortj101,??,,HR/9.1-H
-com,"Roof 3rd deck RF - hit tower base and bounced back"
+com,"$onto the roof; the ball struck the base of a tower and caromed back"
 data,er,dobsc101,3
 data,er,lindp101,0
 data,er,fingr001,0
@@ -9937,7 +9843,6 @@ sub,nortj101,"Jim Northrup",1,5,7
 play,8,0,harpt101,??,,53
 play,8,0,hovls101,??,,S4
 play,8,0,comew101,??,,K
-com,"Other scoresheet has K/C"
 play,8,0,davit103,??,,7
 play,8,1,wertd103,??,,NP
 sub,locks101,"Skip Lockwood",0,9,1
@@ -10014,12 +9919,11 @@ play,1,0,mcnej101,??,,31
 play,1,1,stanm101,??,,D9
 play,1,1,trest101,??,,6(B)6(2)/LDP
 play,1,1,nortj101,??,,S9
-play,1,1,cashn101,??,,W.1-2
+play,1,1,cashn101,32,,W.1-2
+com,"ej,mcnej101,P,nappl901,Balls and strikes"
+com,"Jerry McNertney ejected by HP umpire Larry Napp"
 play,1,1,hortw101,??,,NP
 sub,ranem101,"Merritt Ranew",0,6,2
-com,"Quote from scoresheet: McNertney tossed out for protesting"
-com,"call to Cash on 3-2 pitch in first. Napp gave bad call back"
-com,"on play at plate."
 play,1,1,hortw101,??,,D7.2-H;1XH(752)
 play,2,0,donaj101,??,,S8
 play,2,0,oyler101,??,,7
@@ -10048,7 +9952,6 @@ play,4,1,matct101,??,,63
 play,4,1,freeb103,??,,6/L
 play,5,0,hegam101,??,,63
 play,5,0,comew101,??,,K
-com,"Other scoresheet has K/C."
 play,5,0,mincd101,??,,4/P
 play,5,1,wertd103,??,,S7
 play,5,1,mclad101,??,,34/SH.1-2
@@ -10091,7 +9994,6 @@ play,8,1,hortw101,??,,NP
 sub,segud101,"Diego Segui",0,9,1
 play,8,1,hortw101,??,,43
 play,8,1,tracd101,??,,K
-com,"Other scoresheet has K/C."
 play,8,1,freeb103,??,,W
 play,8,1,wertd103,??,,K
 play,9,0,hovls101,??,,43
@@ -10192,7 +10094,6 @@ play,4,1,freeb103,??,,53
 play,5,0,gil-g101,??,,6/P
 play,5,0,hegam101,??,,43
 play,5,0,comew101,??,,S8
-com,"Other scoresheet has S7."
 play,5,0,mincd101,??,,SB2
 play,5,0,mincd101,??,,W
 play,5,0,hovls101,??,,S9.2XH(9632);1-2
@@ -10201,7 +10102,6 @@ play,5,1,wilse102,??,,W
 play,5,1,stanm101,??,,E6.1-3
 play,5,1,trest101,??,,S8.3-H(UR);1-2
 play,5,1,nortj101,??,,K/C
-com,"Other scoresheet has Ks."
 play,5,1,cashn101,??,,K
 play,6,0,mcnej101,??,,53
 play,6,0,donaj101,??,,S9
@@ -10228,7 +10128,8 @@ sub,segud101,"Diego Segui",0,9,1
 play,7,1,trest101,??,,2/FL
 play,7,1,nortj101,??,,W
 play,7,1,cashn101,??,,K/C
-com,"Cash ejected by Kunkel"
+com,"ej,cashn101,P,kunkb101,Called third strike"
+com,"Norm Cash ejected by HP umpire Bill Kunkel"
 play,7,1,hortw101,??,,46(1)/FO
 play,8,0,comew101,??,,NP
 sub,campd101,"Dave Campbell",1,4,3
@@ -10451,7 +10352,6 @@ play,1,0,etcha101,??,,K/C
 play,1,1,trest101,??,,7
 play,1,1,nortj101,??,,K
 play,1,1,kalia101,??,,53
-com,"great play"
 play,2,0,belam101,??,,8
 play,2,0,cuelm101,??,,K/C
 play,2,0,bufod101,??,,8
@@ -10471,7 +10371,6 @@ sub,lashf101,"Fred Lasher",1,9,1
 play,3,0,etcha101,??,,53
 play,3,1,trest101,??,,4/L
 play,3,1,nortj101,??,,6/L
-com,"great play"
 play,3,1,kalia101,??,,HR/9
 play,3,1,hortw101,??,,S7
 play,3,1,freeb103,??,,64(1)/FO
@@ -10479,7 +10378,6 @@ play,4,0,belam101,??,,63
 play,4,0,cuelm101,??,,T9.B-H(E9)
 play,4,0,bufod101,??,,HP
 play,4,0,blaip101,??,,SB2.1-3(E2/TH2)#
-com,"guessing timing"
 play,4,0,blaip101,??,,K
 play,4,0,robif103,??,,HR/8.3-H
 play,4,0,poweb101,??,,NP
@@ -10522,8 +10420,7 @@ play,8,0,etcha101,??,,NP
 sub,pattd102,"Daryl Patterson",1,9,1
 play,8,0,etcha101,??,,53
 play,8,0,belam101,??,,9
-play,8,0,cuelm101,??,,53#
-com,"other scorecard has 43"
+play,8,0,cuelm101,??,,53
 play,8,1,kalia101,??,,4
 play,8,1,hortw101,??,,7
 play,8,1,freeb103,??,,9
@@ -10618,7 +10515,6 @@ sub,leond101,"Dave Leonhard",0,9,1
 play,2,1,browi101,??,,W
 play,2,1,lolim101,??,,K/BF
 play,2,1,gutic101,??,,CS2(263)#
-com,"guessing timing"
 play,2,1,gutic101,??,,K
 play,3,0,blaip101,??,,HR/7
 play,3,0,robif103,??,,K
@@ -10634,12 +10530,10 @@ play,4,0,leond101,??,,S8
 play,4,0,bufod101,??,,9
 play,4,1,hortw101,??,,S8
 play,4,1,freeb103,??,,4#
-com,"other scorecard says 3/P"
 play,4,1,wertd103,??,,K
 play,4,1,browi101,??,,7/L
 play,5,0,blaip101,??,,W
 play,5,0,robif103,??,,SB2#
-com,"guessing timing"
 play,5,0,robif103,??,,K
 play,5,0,poweb101,??,,3
 play,5,0,robib104,??,,8
@@ -10800,9 +10694,7 @@ play,4,0,robib104,??,,9
 play,4,0,johnd105,??,,4/L
 play,4,1,wertd103,??,,6/FL
 play,4,1,nortj101,??,,K
-com,"other scorecard has K/C"
 play,4,1,browi101,??,,K
-com,"other scorecard has K/C"
 play,5,0,hende103,??,,5
 play,5,0,belam101,??,,K
 play,5,0,mcnad102,??,,K
@@ -10811,7 +10703,6 @@ play,5,1,mclad101,??,,26(1)4/GDP/BG
 play,5,1,gutic101,??,,8
 play,6,0,bufod101,??,,NP
 sub,tracd101,"Dick Tracewski",1,1,6
-com,"unsure if Tracewski entered in 6th or 7th"
 play,6,0,bufod101,??,,S7
 play,6,0,blaip101,??,,7
 play,6,0,robif103,??,,T/89.1-H#
@@ -10871,7 +10762,6 @@ play,11,0,poweb101,??,,63
 play,11,0,robib104,??,,K
 play,11,1,hortw101,??,,NP
 sub,salmc101,"Chico Salmon",0,4,3
-com,"assume Salmon entered here"
 play,11,1,hortw101,??,,S9
 play,11,1,wertd103,??,,4(B)1(1)/FL/P/DP
 play,11,1,nortj101,??,,K
@@ -10965,7 +10855,6 @@ start,wertd103,"Don Wert",1,6,5
 start,pricj102,"Jim Price",1,7,2
 start,browi101,"Ike Brown",1,8,4
 start,wilse102,"Earl Wilson",1,9,1
-com,"Windy"
 play,1,0,clarh101,??,,K
 play,1,0,michg101,??,,K/C
 play,1,0,whitr101,??,,W
@@ -11003,7 +10892,6 @@ play,5,0,kekim101,??,,K
 play,5,1,pricj102,??,,5/FL
 play,5,1,browi101,??,,W
 play,5,1,wilse102,??,,FC1.1-2
-com,"Threw to 2nd base"
 play,5,1,gutic101,??,,8/L
 play,5,1,trest101,??,,7
 play,6,0,clarh101,??,,E6/TH1.B-2
@@ -11279,6 +11167,8 @@ play,5,0,ellsd101,??,,NP
 sub,petec101,"Cap Peterson",0,9,11
 play,5,0,petec101,??,,E4
 play,5,0,cardj101,??,,K/C
+com,"ej,cardj101,P,odomj901,Checked swing"
+com,"Jose Cardenal ejected by HP umpire Jim Odom"
 play,5,1,stanm101,??,,NP
 sub,hargs101,"Steve Hargan",0,9,1
 play,5,1,stanm101,??,,NP
@@ -11410,7 +11300,8 @@ play,3,0,hortt101,??,,E6
 play,3,0,fossr101,??,,54(1)3/GDP
 play,3,1,stanm101,??,,3/FL
 play,3,1,nortj101,??,,K/C
-com,"Northrup was ejected following strikeout"
+com,"ej,nortj101,P,barnl901,Called third strike"
+com,"Jim Northrup ejected by HP umpire Larry Barnett"
 play,3,1,kalia101,??,,D
 play,3,1,hortw101,??,,6
 play,4,0,leone102,??,,NP
@@ -12188,7 +12079,6 @@ play,1,0,brine101,??,,4
 play,1,0,versz101,??,,W
 play,1,0,howaf102,??,,31.1-2
 play,1,0,mcmuk101,??,,HR7/IPHR.2-H
-com,"IPHR"
 play,1,0,alyeb101,??,,9/9D
 play,1,1,stanm101,??,,W
 play,1,1,trest101,??,,5/FL

@@ -3604,7 +3604,7 @@ play,6,1,uribj002,21,SBBX,63/G
 play,6,1,rowaa001,01,SX,63/G
 play,7,0,maxwj002,32,BFCBBFB,W
 play,7,0,guzmc001,10,11BX,8/F
-play,7,0,dunna001,01,1F1X,D9/F.1-3
+play,7,0,dunna001,01,1F1X,D9/F/REV.1-3
 com,"replay,7,dunna001,WAS,gormb901,SFO03,O,N"
 com,"$Adam Dunn's high fly hit the concrete at the top of the RF wall where it juts"
 com,"out into the playing field; the ball caromed into the air and back onto the"
@@ -4368,7 +4368,7 @@ play,6,1,huffa001,00,X,S8/L+
 play,6,1,uribj002,10,BX,9/F
 play,7,0,hawpb001,12,CBFX,8/F
 play,7,0,olivm001,12,TBSFX,S7/L
-play,7,0,moram002,10,B1X,DGR/7.1-3
+play,7,0,moram002,10,B1X,DGR/7/FINT.1-3
 com,"fan interference"
 play,7,0,barmc001,32,CFBFB*BX,8/SF/FDP.3-H;2X3(85)
 play,7,1,poseb001,32,FBBBSX,S9/L
@@ -6739,9 +6739,9 @@ sub,ishit001,"Travis Ishikawa",1,9,3
 play,9,0,tejar001,00,,NP
 sub,cartc001,"Chris Carter",0,1,11
 play,9,0,cartc001,12,...BSFFS,K
-play,9,0,bay-j001,01,CX,2/G/INT
+play,9,0,bay-j001,01,CX,2/G/BINT
 com,"$Mets Jason Bay hit the ball right in front of the plate and"
-com,"touched the ball as he left the batter's box for the out"
+com,"touched the ball as he left the batter's box for interference"
 play,9,0,wrigd002,21,CBBX,S8/L
 play,9,0,beltc001,32,CBBBC>S,K
 data,er,niesj001,1
@@ -7159,7 +7159,7 @@ play,5,0,stanm004,00,X,HR/78/F
 play,5,0,paulr001,00,X,S7/L
 play,5,0,nolar001,00,X,34/SH/BG.1-2
 play,5,0,bonie001,01,CX,8/F
-play,5,0,sancg001,11,FBX,FC5/G.2X3(5)
+play,5,0,sancg001,11,FBX,FC5/G/RINT.2X3(5)
 com,"$as Giants third baseman Juan Uribe tried to move in and to his left to field"
 com,"the ground ball, Marlins runner Ronny Paulino got in the way and the ball"
 com,"went by Uribe; Paulino was called out for runner interference"
@@ -7187,7 +7187,7 @@ play,7,1,ishit001,00,,NP
 sub,tankt001,"Taylor Tankersley",0,9,1
 play,7,1,ishit001,00,,NP
 sub,rowaa001,"Aaron Rowand",1,7,11
-play,7,1,rowaa001,01,..CX,HR/78/F.1-H
+play,7,1,rowaa001,01,..CX,HR/78/F/REV.1-H
 com,"replay,7,rowaa001,SFN,hallt901,SFO03,I,N"
 com,"$Aaron Rowand’s fly ball just cleared the fence and was caught by a fan;"
 com,"Marlins left fielder Emilio Bonifacio claimed that the fan interfered with"
@@ -8854,6 +8854,7 @@ start,sandp001,"Pablo Sandoval",1,6,5
 start,uribj002,"Juan Uribe",1,7,6
 start,rowaa001,"Aaron Rowand",1,8,8
 start,sancj002,"Jonathan Sanchez",1,9,1
+com,"Protest=V"
 play,1,0,hairj002,12,SSBX,D7/G+
 play,1,0,tejam001,12,SFBX,FC6/G-.2X3(65)
 play,1,0,gonza003,01,CB,WP.1-2
@@ -8887,10 +8888,10 @@ play,4,0,torry001,22,CCBBFX,8/F
 play,4,0,headc001,01,CX,S9/G-
 play,4,0,hairs001,01,1C1>B,SB2.1-3(E2/TH2)
 play,4,0,hairs001,32,1C1>B.FBBFB,W
-play,4,0,denoc001,31,*BBBCX,FC4/G.1X2(4)
+play,4,0,denoc001,31,*BBBCX,FC4/G/RINT.1X2(4)
 com,"$the hard grounder caromed off pitcher Jonathan Sanchez towards second"
-com,"baseman Freddy Sanchez; as Sanchez ran in to field the abll on the grass,"
-com,"Scott Hairston, running from first to second, did not know how to get around"
+com,"baseman Freddy Sanchez; as Sanchez ran in to field the ball on the grass,"
+com,"Scott Hairston, running from 1B to 2B, did not know how to get around"
 com,"Sanchez; Hairston ran in front of the fielder, impeding his path to the"
 com,"ball; Hairston was called out for interferering with Sanchez, thus ending"
 com,"the inning and preventing a run from scoring; Padres manager Bud Black"
@@ -12407,7 +12408,7 @@ play,6,1,torra001,22,BBCFFX,8/F
 play,6,1,fontm001,01,CX,E5/G.B-1
 play,6,1,huffa001,31,BBCBB,W.1-2
 play,6,1,poseb001,02,FFC,K
-com,"bochb002,M,SFN,everm901,Called third strike"
+com,"ej,bochb002,M,SFN,everm901,Called third strike"
 com,"$Giants Manager Bruce Bochy ejected by HP umpire Mike Everitt between"
 com,"innings for arguing the last pitch to Buster Posey that was called"
 com,"strike three; he argued with crew chief Tim McClelland before leaving"
@@ -12428,7 +12429,7 @@ play,8,0,torry001,00,,NP
 sub,romos001,"Sergio Romo",1,8,1
 play,8,0,torry001,01,.CX,53/G
 play,8,0,venaw001,10,BX,43/G
-play,8,0,headc001,00,X,DGR/9
+play,8,0,headc001,00,X,DGR/9/FINT
 com,"fan interference"
 play,8,0,gregl001,00,,NP
 sub,salao001,"Oscar Salazar",0,9,11

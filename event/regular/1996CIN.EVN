@@ -2702,7 +2702,6 @@ start,boonb002,"Bret Boone",1,7,4
 start,branj002,"Jeff Branson",1,8,5
 start,portm001,"Mark Portugal",1,9,1
 com,"Suspend=19960511,,3,5,37"
-com,"No umpire changes upon resumption"
 play,1,0,hendr001,00,.X,2/P2RF
 play,1,0,finls001,11,BCX,5/P5SF
 play,1,0,gwynt001,00,X,7/F7M
@@ -2768,6 +2767,7 @@ play,7,0,johnb002,21,BCBX,HR/F7D
 play,7,0,sands002,00,,NP
 sub,gwync001,"Chris Gwynn",0,9,11
 play,7,0,gwync001,02,.FCFX,31/G34
+com,"$game suspended and resumed the next day"
 play,7,0,hendr001,01,CX,8/F8RD
 play,7,0,finls001,00,X,D8/L89M/R4
 play,7,0,gwynt001,00,,NP
@@ -7890,7 +7890,8 @@ sub,moutj001,"James Mouton",0,8,11
 play,9,0,moutj001,11,.BCX,D8/F8LXD
 play,9,0,darwd001,00,,NP
 sub,huntb002,"Brian Lee Hunter",0,9,11
-play,9,0,huntb002,20,.BBX,2/INT
+play,9,0,huntb002,20,.BBX,2/BINT
+com,"$Brian Hunter called for interference"
 play,9,0,cangj001,12,.CBFC,K
 play,9,0,biggc001,02,SFX,6/P4MD
 play,9,1,boonb002,00,,NP
@@ -9255,7 +9256,7 @@ play,1,1,howat001,01,CX,S9/L4D/R4
 play,1,1,boonb002,20,BB11X,46(1)3/GDP/G4M
 play,1,1,larkb001,32,CCBBBB,W
 play,1,1,mitck001,00,X,8/F89D
-play,2,0,castv001,31,BBCBX,S8/L78M/R_
+play,2,0,castv001,31,BBCBX,S8/L78M
 play,2,0,reedj001,20,BBX,D9/L3D.1XH(942)
 play,2,0,reyna001,00,.X,14/SH/BG23.2-3
 play,2,0,youne001,12,BSFX,4/P4
@@ -9268,22 +9269,22 @@ play,2,1,howat001,12,BCCX,S7/F78S.2-3;1-2
 play,2,1,boonb002,22,CBBFX,12(3)3/GDP/G13
 play,3,0,weisw001,21,BCBX,13/G13
 play,3,0,burke001,10,BX,4/P34
-play,3,0,walkl001,11,BCX,S9/L9S/R_
+play,3,0,walkl001,11,BCX,S9/L9S
 play,3,0,galaa001,22,BB+1SS+1FS,K
 play,3,1,larkb001,10,BX,53/G5
 play,3,1,mitck001,00,X,D9/F9LS/R4
 play,3,1,davie001,01,CX,S9/L3D/R2.2-H
 play,3,1,morrh001,00,X,4(1)3/GDP/G4M
-play,4,0,anthe001,10,BX,S7/L56D/R_
+play,4,0,anthe001,10,BX,S7/L56D
 play,4,0,castv001,00,X,HR/F7D.1-H
-play,4,0,reedj001,00,X,S8/G4M/R_
+play,4,0,reedj001,00,X,S8/G4M
 play,4,0,reyna001,00,X,314/SH/BG23.1-2
 play,4,0,youne001,01,CX,43/G4.2-3
 play,4,0,weisw001,00,X,8/F8RD
 play,4,1,olivj001,01,SX,53/G56
 play,4,1,branj002,32,SBBBCB,W
 play,4,1,salkr001,02,CMM,K
-play,4,1,howat001,00,X,S8/L89M/R_.1-3
+play,4,1,howat001,00,X,S8/L89M.1-3
 play,4,1,boonb002,20,B1B1X,23/G2R
 play,5,0,burke001,11,CBX,7/F78D
 play,5,0,walkl001,00,X,8/F8RD
@@ -9312,13 +9313,13 @@ play,6,1,branj002,12,FCBS,K
 play,6,1,servs001,00,,NP
 sub,greew001,"Willie Greene",1,9,11
 play,6,1,greew001,12,.CBFX,S4/G4M/R3
-play,6,1,howat001,22,BBFS1X,S8/L4MD/R_.1-3
+play,6,1,howat001,22,BBFS1X,S8/L4MD.1-3
 play,6,1,boonb002,12,FF*BFFX,36(1)/FO/G34
 play,7,0,galaa001,00,,NP
 sub,smitl001,"Lee Smith",1,9,1
-play,7,0,galaa001,31,.BBBSX,S8/G4M/R_
+play,7,0,galaa001,31,.BBBSX,S8/G4M
 play,7,0,anthe001,12,FB>FC,K
-play,7,0,castv001,10,BX,S8/L8RS/R6.1-2
+play,7,0,castv001,10,BX,S8/L8RS.1-2
 play,7,0,reedj001,12,CBCC,K
 play,7,0,burkj002,00,,NP
 sub,mccrq001,"Quinton McCracken",0,9,11
@@ -11388,7 +11389,7 @@ play,5,1,mitck001,00,X,S7/L
 play,5,1,davie001,12,BSFS,K
 play,5,1,boonb002,22,BCBFFC,K/C
 play,5,1,peree001,22,*BCB>FX,S7/L78S.1-3
-play,5,1,olivj001,22,BBCFF1X,S/G34.1X2(4)
+play,5,1,olivj001,22,BBCFF1X,S/G34/BR.1X2(4)
 play,6,0,benam001,12,.BLCS,K
 play,6,0,muelb001,22,FBFFBFFX,8/F8
 play,6,0,hillg001,32,BBSFBB,W

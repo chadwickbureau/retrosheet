@@ -107,8 +107,7 @@ play,6,0,thomj002,00,,NP
 sub,tejem001,"Michael Tejera",1,9,1
 play,6,0,thomj002,00,.X,S9/G
 play,6,0,burrp001,31,BBCBB,W.1-2
-play,6,0,belld002,31,C*BBBX,3/P
-com,"Infield Fly rule"
+play,6,0,belld002,31,C*BBBX,3/P/IF
 play,6,0,liebm001,00,X,54(1)3/GDP
 play,6,1,tejem001,00,,NP
 sub,willg001,"Gerald Williams",1,9,11
@@ -2588,8 +2587,7 @@ play,9,0,nathj001,00,,NP
 sub,peren001,"Neifi Perez (Diaz)",0,9,11
 play,9,0,peren001,10,.BX,S9/L
 play,9,0,durhr001,30,BBBB,W.1-2
-play,9,0,aurir001,12,CFBX,4/P
-com,"Infield fly rule"
+play,9,0,aurir001,12,CFBX,4/P/IF
 play,9,0,bondb001,00,,NP
 sub,phelt002,"Tommy Phelps",1,9,1
 play,9,0,bondb001,30,.BBBB,W.2-3;1-2
@@ -3322,8 +3320,7 @@ play,5,1,castl001,00,C,SB2
 play,5,1,castl001,01,C.X,S5/BG.2-3
 play,5,1,lowem001,21,1FBBX,S8/G.3-H;1-2
 play,5,1,lee-d002,30,BBBB,W.2-3;1-2
-play,5,1,encaj001,10,BX,4/P
-com,"Infield Fly rule"
+play,5,1,encaj001,10,BX,4/P/IF
 play,5,1,hollt001,00,X,7/SF.3-H
 play,5,1,gonza002,01,CX,63/G
 play,6,0,hernj001,00,X,4/L
@@ -4624,8 +4621,7 @@ play,1,1,lowem001,10,BX,54(1)3/GDP
 play,2,0,dye-j001,32,BBBCSB,W
 play,2,0,chave001,00,X,S9/L.1-3
 play,2,0,hernr002,00,X,S7/G.3-H;1-2
-play,2,0,longt002,21,CBBX,6/P
-com,"Infield Fly rule"
+play,2,0,longt002,21,CBBX,6/P/IF
 play,2,0,menef001,20,BB+1,PO1(E2).2-H;1-3
 play,2,0,menef001,31,BB+1.CBX,S8/G.3-H(UR)
 play,2,0,hudst001,22,C*BC1BX,64(1)3/GDP
@@ -5093,7 +5089,7 @@ play,5,1,hollt001,02,CFS,K
 play,5,1,gonza002,10,BX,S7/L.2-H
 play,5,1,phelt002,00,,NP
 sub,fox-a001,"Andy Fox",1,9,11
-com,"ej,mckej801,M,cedeg901,Arguing that Gonzalez was obstructed"
+com,"ej,mckej801,M,cedeg901,Obstruction non-call"
 com,"Marlins Manager Jack McKeon ejected by 1B umpire Gary Cederstrom"
 play,5,1,fox-a001,10,.BX,6(1)3/GDP
 play,6,0,andeg001,00,,NP
@@ -5990,8 +5986,7 @@ play,9,1,encaj001,00,,NP
 sub,mordm001,"Mike Mordecai",1,4,12
 play,9,1,encaj001,00,.X,3/SH/BG.1-2
 play,9,1,lee-d002,30,IIII,IW
-play,9,1,gonza002,31,BFBBX,4/P
-com,"Infield Fly rule"
+play,9,1,gonza002,31,BFBBX,4/P/IF
 play,9,1,cabrm001,12,FFBX,13/G
 play,10,0,hallt001,00,,NP
 sub,mordm001,"Mike Mordecai",1,4,5
@@ -8925,10 +8920,9 @@ play,3,0,cabrj002,00,X,S7/G
 play,3,0,rossd001,00,,NP
 sub,tejem001,"Michael Tejera",1,9,1
 play,3,0,rossd001,32,.BBBSFX,S5/G.1-2
-play,3,0,romaj002,11,C*BX,4/P
-com,"Infield Fly rule"
-play,3,0,iztuc001,00,X,46(1)3/DP/INT
-com,"DP ruled on runner at 2nd, no GDP"
+play,3,0,romaj002,11,C*BX,4/P/IF
+play,3,0,iztuc001,00,X,46(1)3/DP/RINT
+com,"$David Ross called for interference"
 play,3,1,tejem001,12,CCBX,63/G
 play,3,1,pierj002,02,CCFX,13/G
 play,3,1,castl001,22,FBBCC,K
@@ -9864,8 +9858,7 @@ sub,hansd001,"Dave Hansen",0,9,11
 play,9,0,hansd001,22,..FBCBX,63/G
 play,9,0,mattg002,10,BX,S4/G
 play,9,0,merll001,32,BFB>FBB,W.1-2
-play,9,0,lorem001,22,CFFBBX,3/P
-com,"Infield Fly rule"
+play,9,0,lorem001,22,CFFBBX,3/P/IF
 play,9,0,nevip001,32,BSBBF>F>F>B,W.2-3;1-2
 play,9,0,whitr001,00,,NP
 sub,buchb002,"Brian Buchanan",0,4,12
@@ -10743,8 +10736,8 @@ play,5,0,wilsj002,10,1.BX,8/F.2-3
 play,5,0,kendj001,22,BCFBX,S8/L.3-H(UR)
 play,5,0,sandr002,22,SB*BFFC,K
 play,5,1,willd003,00,X,S7/F
-play,5,1,pierj002,10,BX,14/BG/INT.1-1
-com,"Pierre hit by throw inside baseline, out for interference"
+play,5,1,pierj002,10,BX,14/BG/BINT.1-1
+com,"$Juan Pierre hit by throw inside baseline, called for interference"
 play,5,1,castl001,00,X,46(1)3/GDP
 play,6,0,wilsc003,22,BSCBFC,K
 play,6,0,bay-j001,32,BBBCFFFC,K
@@ -11980,8 +11973,7 @@ play,6,1,castl001,31,.BBCBH,HP
 play,6,1,pierj002,02,LLX,S1/BG.1-3(E1/TH);B-2
 play,6,1,rodri001,00,X,53/G
 play,6,1,lee-d002,30,IIII,IW
-play,6,1,cabrm001,11,BFX,4/P
-com,"Infield Fly rule"
+play,6,1,cabrm001,11,BFX,4/P/IF
 play,6,1,encaj001,01,FX,S6/G.3-H;2-3;1-2
 play,6,1,conij001,11,BCX,S9/L.3-H;2-H;1-3
 play,6,1,gonza002,12,BCFS,K

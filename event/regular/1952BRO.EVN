@@ -129,9 +129,7 @@ play,7,1,furic101,30,BBBB,W.1-2
 play,7,1,erskc101,00,,NP
 sub,morgb102,"Bobby Morgan",1,9,11
 play,7,1,morgb102,00,.X,8/L
-com,"$This is the catch that Mays calls his best. He crashed"
-com,"into the wall and was stunned. Players from both teams"
-com,"gathered around, but he remained in the game"
+com,"$Willie Mays crashed into the wall and was stunned"
 play,8,0,lockw101,00,,NP
 sub,loesb101,"Billy Loes",1,9,1
 play,8,0,lockw101,11,.CBX,23
@@ -399,6 +397,13 @@ play,3,1,wadeb101,00,X,9
 play,3,1,reesp101,30,BBBB,W.1-2
 play,3,1,cox-b101,30,BBBB,W.2-3;1-2
 play,3,1,robij103,01,CX,53
+com,"umpchange,4,umphome,gugla901"
+com,"umpchange,4,ump1b,gorea901"
+com,"umpchange,4,ump2b,(None)"
+com,"$HP umpire Jocko Conlan was struck by a foul ball on the left"
+com,"leg in the second and by a ball on the Adams apple in the"
+com,"fourth; he was taken to the hospital; 1B umpire Augie"
+com,"Guglielmo moved to HP and 2B umpire Artie Gore moved to 1B"
 play,4,0,westw101,22,FBBSS,K
 play,4,0,magls101,32,FSBFBBX,1/L
 play,4,0,willd102,00,X,HR/7
@@ -695,7 +700,6 @@ play,7,0,cusij101,10,BX,9
 play,7,0,wilsj104,00,X,5
 play,7,1,furic101,30,BBBB,W
 play,7,1,roe-p101,10,BX,26(1)4/BGDP
-com,"263 per Roth; NYT box and film 264"
 play,7,1,reesp101,00,X,5/L
 play,8,0,reedb103,01,CX,8
 play,8,0,jeths101,02,CFS,K
@@ -829,8 +833,7 @@ play,6,1,cox-b101,02,FCFX,8
 play,7,0,waite101,00,,NP
 sub,blacj103,"Joe Black",1,9,1
 play,7,0,waite101,10,.BX,S9/G
-play,7,0,drewk101,12,BLLX,2/FL/BP#
-com,"Might this not be considered a strikeout?"
+play,7,0,drewk101,12,BLLX,2/FL/BP
 play,7,0,ashbr101,32,.BLFBFFBB,W.1-2
 play,7,0,hamng102,01,CX,8
 play,7,0,burgs101,00,X,9/L
@@ -1301,8 +1304,6 @@ play,8,1,robij103,21,BSBX,9.2-3
 play,8,1,campr102,11,BCX,S9/L.1-3;3-H
 play,8,1,pafka101,31,FBBBC,SB2;SBH
 play,8,1,pafka101,32,FBBBC.X,13#
-com,"The scoresheet can't be read for this play; I'm scoring it"
-com,"1-3 based on putout/assist data from the boxscore."
 play,9,0,lowrp101,32,..FBBFFFBFFB,W
 play,9,0,musis101,32,BBBCFFX,HR/9.1-H
 play,9,0,schor101,22,CBFBS,K
@@ -1628,7 +1629,7 @@ play,1,1,reesp101,10,BX,9/L
 play,1,1,robij103,10,BX,63.1-2
 play,1,1,campr102,22,BBFKC,K#
 com,"Roth missed a pitch somewhere: he shows Campy striking out"
-com,"on a 2-1 pitch, and only 4 total pitches: two were balls."
+com,"on a 2-1 pitch, and only 4 total pitches: two were balls"
 play,2,0,mersj101,00,..X,D7/L
 play,2,0,delgb101,12,BCCX,S8/L.2-H
 play,2,0,strig102,00,1,PO1(E1).1-2
@@ -1694,8 +1695,7 @@ sub,pafka101,"Andy Pafko",1,5,7
 play,7,0,castp102,31,..BBBCX,63
 play,7,0,bartt101,00,X,7
 play,7,0,metkg101,22,BSFBS,K23
-play,7,1,robij103,22,CCBBX,6#
-com,"Roth scored five pitches, but only seems to acknowledge four"
+play,7,1,robij103,22,CCBBX,6
 play,7,1,campr102,31,.BBFBX,S8/G
 play,7,1,pafka101,00,X,S7/L.1-2
 play,7,1,snidd101,31,BBBFX,S9/L.1-3;2-H
@@ -1717,12 +1717,11 @@ sub,mccuc101,"Clyde McCullough",0,5,2
 play,8,1,labic101,00,.X,53
 play,8,1,cox-b101,02,SF,NP
 sub,fitze101,"Ed Fitzgerald",0,5,2
-com,"McCullough's left little finger was split by the foul."
+com,"$Clyde McCullough's left little finger was split by a foul ball"
 play,8,1,cox-b101,32,SF..BBBFB,W
 play,8,1,reesp101,12,CFBX,64(1)/FO
 play,8,1,robij103,00,X,S6.1-2
 play,8,1,campr102,22,FCBFBX,31#
-com,"The scoring is obscured by the faded scotch tape."
 play,9,0,wilkt101,00,.,NP
 sub,dusae101,"Erv Dusak",0,9,11
 play,9,0,dusae101,01,..CX,S7/L
@@ -1807,7 +1806,7 @@ play,2,1,cox-b101,32,BCBBCB,W.2-3;1-2
 play,2,1,reesp101,10,BX,S9/L.1-2;2-H;3-H
 play,2,1,robij103,32,BCCBBB,W.2-3;1-2
 play,2,1,campr102,11,CBH,HP.3-H;2-3;1-2
-com,"$Campanella hit on left hand, left for X-rays"
+com,"$Roy Campanella hit on left hand, left for X-rays"
 play,2,1,pafka101,02,SSS,K
 play,2,1,snidd101,01,SX,T9/L.1-H;2-H;3-H
 play,2,1,hodgg101,30,BBBB,W
@@ -1976,6 +1975,8 @@ play,4,0,jackr102,21,BFBX,8
 play,4,0,pramj101,00,X,2/FL
 play,4,0,fondd101,10,BX,6
 play,4,1,reesp101,31,BBCBB,W
+com,"ej,cavap101,M,gugla901,Balls and strikes"
+com,"Cubs Manager Phil Cavarretta ejected by HP umpire Augie Guglielmo"
 play,4,1,snidd101,21,BFBX,S8/G.1-3;B-2(TH)
 play,4,1,robij103,00,H,HP
 play,4,1,pafka101,30,BBBB,W.3-H;2-3;1-2
@@ -2105,14 +2106,15 @@ play,2,1,walkr101,00,X,43
 play,3,0,mikse101,00,X,S7/L
 play,3,0,fondd101,12,CSBX,2/FL
 play,3,0,hermg101,11,BCS,CS2(26)
-com,"40 minute rain delay at this point."
+com,"40 minute rain delay"
 play,3,0,hermg101,22,BCS..BS,K
 play,3,1,loesb101,10,BX,43
 play,3,1,cox-b101,32,BBBCFB,W
 play,3,1,reesp101,00,S,SB2
+com,"ej,mikse101,P,gugla901,Call at 2B"
+com,"Eddie Miksis ejected by 3B umpire Augie Guglielmo"
 play,3,1,reesp101,01,S.,NP
 sub,smalr101,"Roy Smalley",0,1,6
-com,"Miksis was ejected after SB."
 play,3,1,reesp101,31,S...BBBB,W
 play,3,1,snidd101,02,SSC,K
 play,3,1,robij103,30,BBBB,W.2-3;1-2
@@ -2146,7 +2148,7 @@ play,6,1,hodgg101,10,BX,63
 play,6,1,willd104,20,BBX,3
 play,6,1,walkr101,12,CCBC,K
 play,7,0,smalr101,12,CBSC,K
-com,"rain?"
+com,"game called for rain (tie game)"
 data,er,lownt101,1
 data,er,loesb101,1
 id,BRO195205210
@@ -2377,8 +2379,8 @@ play,1,1,campr102,10,BC,SB2
 play,1,1,campr102,22,BC.BCS,K
 play,2,0,edwah101,31,FBBBB,W
 play,2,0,westw102,00,X,143.1-2
-play,2,0,semia101,00,X,FC5/INT.2X3(5)#
-com,"Edwards ran into Morgan and was called for interference."
+play,2,0,semia101,00,X,FC5/RINT.2X3(5)
+com,"$Hank Edwards called for interference for running into Bobby Morgan"
 play,2,0,mcmir101,11,.BCX,6
 play,2,1,pafka101,31,BBCBB,W
 play,2,1,snidd101,20,BBX,46(1)3/GDP
@@ -2403,7 +2405,6 @@ play,4,1,campr102,01,CX,9
 play,5,0,adamb103,22,CBBSS,K
 play,5,0,klust101,00,X,S9/G
 play,5,0,adcoj101,01,CS,OA.1X2(2E4)
-com,"on 1952 E makes it not CS"
 play,5,0,adcoj101,12,CS.BX,63
 play,5,0,edwah101,00,X,4/L
 play,5,1,pafka101,11,BCX,S9/L
@@ -2531,13 +2532,11 @@ play,1,0,thomb105,02,SCC,K
 play,1,0,thomh103,12,SBSC,K
 play,1,1,morgb102,30,BBBB,W
 play,1,1,reesp101,10,BX,14(1)3/GDP
-com,"Roth had 163"
 play,1,1,snidd101,00,X,E5/G
 play,1,1,robij103,11,CBX,53
 play,2,0,mueld101,11,BCX,HR/9
 play,2,0,maysw101,00,X,D9
-play,2,0,darka101,32,BCBSFBX,E6/L.2XH(82);B-2(TH)#
-com,"Roth had 62 but Snider needs A"
+play,2,0,darka101,32,BCBSFBX,E6/L.2XH(82);B-2(THH)
 play,2,0,westw101,31,BBCBB,W
 play,2,0,magls101,12,SLBX,64(1)3/GDP
 play,2,1,pafka101,12,LBFX,8
@@ -3805,6 +3804,9 @@ start,snidd101,"Duke Snider",1,6,8
 start,hodgg101,"Gil Hodges",1,7,3
 start,pafka101,"Andy Pafko",1,8,7
 start,vancc101,"Chris Van Cuyk",1,9,1
+com,"ej,johnr103,C,gorea901,Bench jockeying"
+com,"Cubs Coach Roy Johnson ejected by HP umpire Artie Gore"
+com,"sometime in game"
 play,1,0,mikse101,11,BSX,53
 play,1,0,jeffh101,10,BX,HR/78
 play,1,0,hermg101,22,BCBFS,K
@@ -4841,11 +4843,7 @@ play,2,0,mathe101,00,,NP
 sub,branr103,"Ralph Branca",1,9,1
 play,2,0,mathe101,32,.BBCSBB,W
 play,2,0,logaj101,30,BBBB,W.1-2
-play,2,0,johne101,01,LX,36(1)5(2)/BGDP
-com,"DWS: this is probably a GDP.  If so, it is one of the more"
-com,"remarkable reverse GDP I've ever seen"
-com,"CC4: per film not GDP but seems clear"
-com,"$Hodges let pop bunt drop so no infield fly"
+play,2,0,johne101,01,LX,36(1)5(2)/BG/DP
 play,2,0,jeths101,32,BBBCSX,7
 play,2,1,cox-b101,01,CX,5
 play,2,1,robij103,00,X,3/BG
@@ -5000,7 +4998,6 @@ play,4,0,gords101,11,BCX,S8/L
 play,4,0,coopw102,10,BX,S7/L.1-2
 play,4,0,sists101,22,FBBFX,5/FL
 play,4,0,mathe101,01,CB,CS3(25)
-com,"CC4: Roth calles short PB but film CS"
 play,4,0,mathe101,11,CB.X,4
 play,4,1,cox-b101,32,BBSFBB,W
 play,4,1,robij103,00,X,9/L
@@ -5026,8 +5023,7 @@ play,6,1,furic101,10,BX,6
 play,6,1,cox-b101,20,BBX,D/78
 play,6,1,robij103,32,CBCBBB,W
 play,6,1,campr102,31,BCBBB,W.2-3;1-2
-play,6,1,pafka101,22,FBBKS,K#
-com,"Either a pitch was coded wrong, or Roth missed one."
+play,6,1,pafka101,22,FBBKS,K
 play,7,0,jeths101,10,.BX,53
 play,7,0,danij102,32,BLCBBFB,W
 play,7,0,torge101,22,BBFCC,K
@@ -5424,8 +5420,12 @@ play,3,1,furic101,10,BX,4
 play,4,0,burgs101,21,CBBX,2
 play,4,0,wyroj101,11,CBX,S4
 play,4,0,ennid101,22,BBSSX,D/78.1-H
+com,"$Roy Campanella leaped up in protest of the call at HP"
 play,4,0,ryanc102,20,BBX,S7/L.2-H;B-2(TH)
 play,4,0,jonew101,00,B,SB3
+com,"ej,vancc101,P,gugla901,Bench jockeying"
+com,"$Rocky Bridges spiked on the play;"
+com,"Chris Van Cuyk ejected by HP umpire Augie Guglielmo"
 play,4,0,jonew101,30,B.III,IW
 play,4,0,fox-h101,00,X,S7/L.1-2;3-H
 play,4,0,waite101,22,BCCFFBX,31.1-2;2-3
@@ -5468,8 +5468,7 @@ play,7,1,snidd101,10,.BX,7.3-H
 play,7,1,hodgg101,10,BX,HR/7.1-H
 play,7,1,morgb102,00,X,53
 play,8,0,burgs101,31,BBBCX,D7/L
-play,8,0,wyroj101,21,MBBX,FC1.2X3(156)#
-com,"Unspecified rundown play."
+play,8,0,wyroj101,21,MBBX,FC1.2X3(156)
 play,8,0,ennid101,11,.BCX,64(1)3/GDP
 play,8,1,labic101,12,BSFS,K
 play,8,1,furic101,20,BBX,53
@@ -5862,9 +5861,7 @@ play,2,1,furic101,21,BBFX,E5/G.1-H(NR);B-2
 play,2,1,loesb101,22,BLLFBX,9/L.2-3
 play,2,1,cox-b101,22,CBBSX,S8/L.3-H(UR)
 play,2,1,reesp101,11,CBX,S8.1-2
-play,2,1,robij103,02,CFX,64(1)/FO/DP.2XH(42)#
-com,"Short fly dropped behind second, led to DP."
-com,"CC4: odd not infield fly--guess short 8 not deep 6"
+play,2,1,robij103,02,CFX,64(1)/FO/DP.2XH(42)
 play,3,0,lockw101,00,.X,13
 play,3,0,thomb105,11,BCX,53
 play,3,0,thomh103,10,BX,8
@@ -6370,7 +6367,6 @@ sub,blacj103,"Joe Black",1,9,1
 play,8,0,hattg101,12,.BFCFF,NP
 sub,pelle101,"Eddie Pellagrini",0,6,11
 play,8,0,pelle101,12,.BFCFF.S,K
-com,"Charged to Hatton"
 play,8,0,semia101,10,.BX,13
 play,8,0,mcmir101,21,BCBX,23
 play,8,1,reesp101,00,,NP
@@ -6590,6 +6586,7 @@ start,furic101,"Carl Furillo",1,6,9
 start,hodgg101,"Gil Hodges",1,7,3
 start,walkr101,"Rube Walker",1,8,2
 start,vancc101,"Chris Van Cuyk",1,9,1
+com,"$Chris Van Cuyk brushed back Solly Hemus"
 play,1,0,hemus101,31,CBBBB,W
 play,1,0,schor101,12,BCFS,K
 play,1,0,musis101,32,BBBCFX,S7/L.1-3
@@ -6608,6 +6605,7 @@ play,2,0,johnb108,31,BCBBX,S7/L
 play,2,0,sisld101,12,CBSS,K
 play,2,0,presj101,12,CCBS,K
 play,2,0,hemus101,00,H,HP.1-2
+com,"$a continuation of Chris Van Cuyk's throwing at batters"
 play,2,0,schor101,00,X,54(1)/FO
 play,2,1,hodgg101,00,X,4/L
 play,2,1,walkr101,11,CBX,8
@@ -6630,6 +6628,13 @@ play,4,0,musis101,32,FFBBBS,K
 play,4,1,furic101,10,BX,S7/L
 play,4,1,hodgg101,11,CBX,4(1)/FO
 play,4,1,walkr101,30,BBBB,W.1-2
+com,"ej,branr103,P,secof101,HBP non-call"
+com,"ej,campr102,P,secof101,HBP non-call"
+com,"ej,labic101,P,secof101,HBP non-call"
+com,"$the second pitch was thrown at Chris Van Cuyk's head; the ball struck"
+com,"his hand but HP umpire Frank Secory ruled that the ball struck the bat"
+com,"first; Van Cuyk suffered a contusion on the left middle finger;"
+com,"Ralph Branca, Roy Campanella and Clem Labine ejected by Secory"
 play,4,1,vancc101,11,BF,NP
 sub,holmt101,"Tommy Holmes",1,9,11
 play,4,1,holmt101,11,BF.X,46(1)/FO.2-3
@@ -6808,6 +6813,8 @@ play,6,1,walkr101,31,BBFBB,W.1-2
 play,6,1,erskc101,00,,NP
 sub,robij103,"Jackie Robinson",1,9,11
 play,6,1,robij103,10,.BX,7
+com,"ej,robij103,P,warnl101,Bench jockeying"
+com,"Jackie Robinson ejected by HP umpire Lon Warneke"
 play,7,0,mizew101,00,,NP
 sub,blacj103,"Joe Black",1,9,1
 play,7,0,mizew101,12,.CSBFX,8
@@ -6982,6 +6989,12 @@ play,7,0,sisld101,02,..CSC,K
 play,7,0,brech101,02,CCX,S7/L
 play,7,0,hemus101,12,BFFFX,8
 play,7,0,schor101,10,BX,S9/G.1-3
+com,"ej,pitlj101,C,dascf901,Interference non-call"
+com,"ej,schmj101,P,dascf901,Interference non-call"
+com,"$the Dodgers claimed the ball struck Harry Brecheen on the base line"
+com,"and that he should be out for interference; 1B umpire Frank Dascoli"
+com,"disagreed; Dodgers Coach Jake Pitler and Johnny Schmitz ejected"
+com,"Dascoli"
 play,7,0,musis101,32,FBFBFBX,53
 play,7,1,shubg101,32,BCBSBX,7
 play,7,1,pafka101,00,X,31
@@ -7284,6 +7297,9 @@ play,8,0,kiner101,12,FBSS,K
 play,8,0,bellg103,22,FFBBX,D9/L
 play,8,0,mersj101,01,CX,S8/L.2-H
 play,8,0,garaj101,00,X,HR/9.1-H
+com,"ej,campr102,P,gugla901,Fair/foul call"
+com,"Roy Campanella ejected by HP umpire Augie Guglielmo"
+com,"claiming that the home run was foul"
 play,8,0,delgb101,00,X,13/BG
 play,8,1,reesp101,00,,NP
 sub,bartt101,"Tony Bartirome",0,3,3
@@ -7406,7 +7422,6 @@ play,8,0,delgb101,21,CBBB,PB.2-3
 play,8,0,delgb101,32,CBBB.FFX,53
 play,8,0,pollh101,22,BCBSX,6
 play,8,0,koshc101,01,FX,S5/BG.3-H
-com,"Apparently OS ruled ER"
 play,8,0,groad101,12,FFBX,3/G
 play,8,1,willd104,00,,NP
 sub,strig102,"George Strickland",0,2,6
@@ -7533,8 +7548,7 @@ play,2,1,hodgg101,11,BCX,6
 play,2,1,kingc101,00,,NP
 sub,nelsr103,"Rocky Nelson",1,9,11
 play,2,1,nelsr103,32,.BBCCBX,8
-play,2,1,furic101,00,X,E5/G.1-2;2-3;3-H(NR)(UR)#
-com,"CC4: per film 1 E5 0 E3"
+play,2,1,furic101,00,X,E5/G.1-2;2-3;3-H(NR)(UR)
 play,2,1,reesp101,30,BBBB,W.3-H(UR);2-3;1-2
 play,2,1,robij103,12,CFBFX,2
 play,3,0,mccuc101,00,,NP
@@ -7832,8 +7846,7 @@ start,hodgg101,"Gil Hodges",1,8,3
 start,roe-p101,"Preacher Roe",1,9,1
 play,1,0,browt103,12,BCFX,S5
 play,1,0,jeffh101,00,X,S9/L.1-3
-play,1,0,baumf101,10,BX,FC1.3XH(1);1-2#
-com,"May have been an unspecified rundown play."
+play,1,0,baumf101,10,BX,FC1.3XH(1);1-2
 play,1,0,saueh101,20,.BBX,7
 play,1,0,sereb101,00,X,8
 play,1,1,morgb102,21,BBCX,53
@@ -7870,8 +7883,6 @@ play,5,0,baumf101,21,BBFX,S9/L.1-3;3-H
 play,5,0,saueh101,00,,NP
 sub,kingc101,"Clyde King",1,9,1
 play,5,0,saueh101,01,.C1,CSH(132)
-com,"Roth doesn't score it a CS"
-com,"CC4: but official has"
 play,5,0,saueh101,12,.C1..FBX,7
 play,5,0,sereb101,10,BX,13
 play,5,1,shubg101,10,BX,43
@@ -8319,17 +8330,17 @@ play,5,1,robij103,00,X,9/L
 play,6,0,lockw101,21,BBFX,S7/L
 play,6,0,thomh103,10,BX,8
 play,6,0,rhodd101,32,BBBCFFB,W.1-2
-play,6,0,thomb105,02,FCX,5/LDP.1X1(53)#
-com,"CC4: appeared to Roth to be GDP"
+play,6,0,thomb105,02,FCX,5/LDP.1X1(53)
 play,6,1,campr102,01,FX,8
 play,6,1,shubg101,30,BBBB,W
 play,6,1,snidd101,32,BBBCCB,W.1-2
 play,6,1,pafka101,32,BBBCFX,53.1-2;2-3
 play,6,1,hodgg101,30,IIII,IW
 play,6,1,erskc101,30,BBBB,W.3-H;2-3;1-2
+com,"ej,fitzf101,C,balll901,Balls and strikes"
+com,"Giants Coach Freddie Fitzsimmons ejected by HP umpire Lee Ballanfant"
 play,6,1,cox-b101,00,,NP
 sub,wilhh101,"Hoyt Wilhelm",0,9,1
-com,"$Giant coach Fitzsimmons ejected for arguing ball 4"
 play,6,1,cox-b101,21,.BBCX,4
 play,7,0,hartc102,32,BSSBBFB,W
 play,7,0,westw101,00,,NP
@@ -8489,12 +8500,11 @@ play,6,1,moorr101,00,,NP
 sub,nelsr103,"Rocky Nelson",1,9,11
 play,6,1,nelsr103,02,.CFX,S9/G.1-3
 play,6,1,morgb102,32,BBBCCFB,W.1-2
-com,"$55 minute rain delay at this point"
+com,"$55 minute rain delay"
 play,6,1,reesp101,00,.,NP
 sub,wilhh101,"Hoyt Wilhelm",0,9,1
 play,6,1,reesp101,22,..BCBFFC,K
 play,6,1,robij103,00,X,S9/L.3-H;2-H(E9/TH)(NR)(UR);1-H(NR)(UR);B-3
-com,"CC4-I would say 2-H is ER"
 play,6,1,campr102,32,BBBCFB,W
 play,6,1,shubg101,01,FX,7/L.3-H(UR);1-2
 play,6,1,snidd101,30,BBBI,IW
@@ -8666,11 +8676,12 @@ sub,wilhh101,"Hoyt Wilhelm",0,9,1
 play,6,1,shubg101,10,B.X,D9/G.1-3
 play,6,1,snidd101,00,X,S8/L.2-3;3-H
 play,6,1,pafka101,21,BFBX,FC5.3-H;1-2
+com,"ej,westw101,P,gormt101,Call at HP"
+com,"Wes Westrum ejected by HP umpire Tom Gorman"
 play,6,1,hodgg101,00,,NP
 sub,yvars101,"Sal Yvars",0,8,2
 play,6,1,hodgg101,00,.,NP
 sub,corwa101,"Al Corwin",0,9,1
-com,"Westrum was ejected"
 play,6,1,hodgg101,12,...BCFX,54(1)3/GDP.2-3
 play,6,1,ruthj101,00,,NP
 sub,nelsr103,"Rocky Nelson",1,9,11
@@ -8756,7 +8767,6 @@ start,hodgg101,"Gil Hodges",1,8,3
 start,landj101,"Joe Landrum",1,9,1
 play,1,0,ryanc102,32,BCBBCB,W
 play,1,0,ashbr101,00,X,3(B)3(1)/GDP
-com,"Probably an unspecified rundown occurred here"
 play,1,0,wyroj101,01,.CX,8
 play,1,1,cox-b101,00,X,9
 play,1,1,reesp101,21,BFBX,43
@@ -8786,9 +8796,6 @@ play,4,1,snidd101,12,CBSX,3/G
 play,5,0,hamng102,32,BBFBSB,W
 play,5,0,jonew101,00,X,S7/G.1-2
 play,5,0,burgs101,10,BX,D/89.2-H;1-H(E4)(NR);B-3
-com,"DWS: play originally scored as E6, but changed two days"
-com,"later when Robinson told O-scorer ball had bounced off"
-com,"his knee"
 play,5,0,waite101,12,CBFX,S8/L.3-H
 play,5,0,rober102,01,LX,3(B)6(1)/GDP
 play,5,0,ryanc102,00,X,D9/L
@@ -8964,7 +8971,7 @@ play,5,1,reesp101,12,...BCCX,S8/L
 play,5,1,robij103,00,,NP
 sub,bridr101,"Rocky Bridges",1,2,12
 play,5,1,robij103,02,.LLX,S5/BG.1-2
-com,"9 minute rain delay at this point"
+com,"9 minute rain delay"
 play,5,1,campr102,32,.FBBFFBFX,8(B)4(2)/FDP
 play,5,1,pafka101,00,X,53
 play,6,0,cabap101,00,,NP
@@ -8988,7 +8995,7 @@ play,7,0,clarm102,00,.,NP
 sub,cox-b101,"Billy Cox",1,1,4
 play,7,0,clarm102,00,..X,9
 play,7,0,lopas101,11,BCX,S9/L
-com,"rain?"
+com,"game called for rain"
 data,er,simmc101,3
 data,er,hansa101,0
 data,er,konsj101,5
@@ -9099,10 +9106,16 @@ play,7,0,ennid101,02,CFS,K
 play,7,0,hamng102,21,CBBX,13
 play,7,1,campr102,11,CBX,4/L
 play,7,1,shubg101,32,CBSFFBBB,W
-play,7,1,pafka101,00,X,S8/L.1X3(8E5);B-2(TH)
+play,7,1,pafka101,00,X,S8/L.1X3(8E5);B-2(TH3)
+com,"ej,mayoe101,C,secof101,Interference non-call"
+com,"ej,ryanc102,P,secof101,Interference non-call"
+com,"$Karl Drews, backing up the play at 3B, thought Dodgers manager"
+com,"and 3B coach Chuck Dressen had blocked his path; Drews shoved"
+com,"Dressen and yelled about interference; after a long argument,"
+com,"Connie Ryan and Phillies Coach Eddie Mayo ejected by HP umpire"
+com,"Frank Secory"
 play,7,1,snidd101,00,,NP
 sub,cabap101,"Putsy Caballero",0,1,4
-com,"Ryan was ejected"
 play,7,1,snidd101,30,..IIII,IW
 play,7,1,hodgg101,12,FSBFFS,K
 play,7,1,erskc101,00,,NP
@@ -9674,14 +9687,17 @@ play,7,1,walkr101,12,SBLX,S9/G
 play,7,1,cox-b101,00,,NP
 sub,bridr101,"Rocky Bridges",1,7,12
 play,7,1,cox-b101,00,.X,FC1/SH.1-2
+com,"ej,smalr101,P,secof101,Call at 2B"
+com,"Roy Smalley ejected by 2B umpire Frank Secory"
 play,7,1,ruthj101,00,,NP
 sub,browt103,"Tommy Brown",0,8,6
-com,"$Smalley was ejected."
 play,7,1,ruthj101,00,..,NP
 sub,nelsr103,"Rocky Nelson",1,9,11
 play,7,1,nelsr103,01,...CX,S1/BG.1-2;2-3
 play,7,1,reesp101,00,X,8/L.3-H
-play,7,1,robij103,01,CX,D8/L.2-H;1XH(862);B-3(TH)
+play,7,1,robij103,01,CX,D8/L.2-H;1XH(862);B-3(THH)
+com,"ej,ruthj101,P,goetl901,Call at HP"
+com,"Johnny Rutherford ejected by HP umpire Larry Goetz"
 play,7,1,shubg101,11,BCX,S7/L.3-H
 play,7,1,snidd101,00,,NP
 sub,furic101,"Carl Furillo",1,3,12
@@ -9965,9 +9981,10 @@ play,4,1,snidd101,00,X,43
 play,4,1,pafka101,01,CX,S7/L
 play,4,1,hodgg101,30,BBBB,W.1-2
 play,4,1,cox-b101,12,BSCC,K
+com,"ej,cox-b101,P,secof101,Called third strike (Threw bat)"
+com,"Billy Cox ejected by HP umpire Frank Secory"
 play,5,0,sereb101,00,,NP
 sub,morgb102,"Bobby Morgan",1,8,5
-com,"$Cox was ejected."
 play,5,0,sereb101,20,..BBX,63
 play,5,0,jackr102,32,BFBBFX,63
 play,5,0,smalr101,31,BBBFX,HR/8
@@ -10302,7 +10319,8 @@ play,5,1,furic101,01,FX,8
 play,5,1,reesp101,32,CBBSBS,K
 play,5,1,snidd101,01,FX,3/G
 play,6,0,riced101,00,X,S7/L
-play,6,0,mills101,00,X,1/BG/INT.1-1
+play,6,0,mills101,00,X,1/BG/BINT.1-1
+com,"$Stu Miller called for interference"
 play,6,0,hemus101,12,FBFX,S7/L.1-3;B-2(TH)
 play,6,0,schor101,00,X,9.3-H
 play,6,0,musis101,30,IIII,IW
@@ -11879,6 +11897,13 @@ play,10,0,danij102,32,CB2.BCBS,K
 play,10,1,hughj103,02,CSFFX,13
 play,10,1,holmt101,02,CSS,K
 play,10,1,pafka101,12,SBSS,K
+com,"umpchange,11,umphome,gormt101"
+com,"umpchange,11,ump1b,donaa901"
+com,"umpchange,11,ump2b,(None)"
+com,"$HP umpire Al Barlick left the game to catch a train home"
+com,"to Illinois; 1B umpire Tom Gorman moved to HP and 2B umpire"
+com,"Augie Donatelli moved to 1B; Gorman imitated Barlick's"
+com,"'stee-rike' call and gesture, entertaining the fans"
 play,11,0,dittj101,00,X,9
 play,11,0,burdl101,12,SBCS,K23
 play,11,0,jeths101,12,CFBX,8
@@ -11897,7 +11922,7 @@ play,12,1,hughj103,00,,NP
 sub,campr102,"Roy Campanella",1,3,11
 play,12,1,campr102,02,.SSFX,7
 play,12,1,holmt101,21,BBCX,FC1.2X3(156)
-com,"rain?"
+com,"$Game called due to lack of interest"
 data,er,johne101,3
 data,er,jones103,1
 data,er,chipb101,0

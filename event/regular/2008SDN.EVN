@@ -879,6 +879,7 @@ info,daynight,day
 info,usedh,false
 info,umphome,nelsj901
 info,ump1b,carlm901
+info,ump2b,(none)
 info,ump3b,joycj901
 info,howscored,park
 info,pitches,pitches
@@ -2520,7 +2521,8 @@ play,3,0,barmc001,00,X,S7/L
 play,3,0,cooka002,00,11X,34/SH/BG.1-2
 play,3,0,tavew001,32,BFBBSC,K
 play,3,0,quino001,32,BBCFFBX,7/F
-play,3,1,peavj001,00,X,DGR/7/INT
+play,3,1,peavj001,00,X,DGR/7/FINT
+com,"fan interference"
 play,3,1,gileb002,20,BBX,D8/L.2-H
 play,3,1,iguct001,22,BBCLX,53/G.2-3
 play,3,1,gonza003,12,FFFBS,K
@@ -4064,7 +4066,7 @@ play,13,1,geruj001,00,,NP
 sub,haraa001,"Aaron Harang",0,5,1
 play,13,1,geruj001,32,.SCBBBB,W
 play,13,1,hairs001,12,1B1C1MC,K
-play,13,1,iguct001,10,1B>X,2/INT.1-1
+play,13,1,iguct001,10,1B>X,2/BINT.1-1
 com,"$Gerut attempted to steal as Iguchi swung and missed,"
 com,"falling into catcher and being called out for interference"
 play,13,1,gileb002,12,FBF>B,SB2
@@ -6991,7 +6993,8 @@ start,headc001,"Chase Headley",1,6,7
 start,greek002,"Khalil Greene",1,7,6
 start,carll001,"Luke Carlin",1,8,2
 start,bankj001,"Josh Banks",1,9,1
-play,1,0,gomec002,01,FX,2/BG/INT
+play,1,0,gomec002,01,FX,2/BG/BINT
+com,"$Carlos Gomez called for interference"
 play,1,0,casia001,01,CX,8/F
 play,1,0,redmm001,20,BBX,3/L
 play,1,1,geruj001,12,CBFFX,63/G
@@ -8451,7 +8454,7 @@ sub,hudst001,"Tim Hudson",0,3,1
 play,8,1,rodrl002,11,...CBX,43/G
 play,8,1,gonza003,31,FBBBX,43/G
 play,8,1,kouzk001,11,CBX,8/F
-play,9,0,teixm001,22,SFFBBX,DGR/9/F
+play,9,0,teixm001,22,SFFBBX,DGR/9/F/FINT
 com,"fan interference"
 play,9,0,franj004,00,X,3/P3F
 play,9,0,mccab002,22,FBFFBFX,D9/G.2-H
@@ -9516,7 +9519,8 @@ sub,myrob001,"Brian Myrow",1,9,11
 play,7,1,myrob001,20,.BBX,43/G
 play,8,0,hartc001,00,,NP
 sub,hensc002,"Clay Hensley",1,9,1
-play,8,0,hartc001,02,.CSX,2/G/INT
+play,8,0,hartc001,02,.CSX,2/G/BINT
+com,"$Corey Hart called for interference"
 play,8,0,counc001,31,BCBBB,W
 play,8,0,camem001,22,BB>F1CS,K
 play,8,0,kendj001,32,1C1FBBB>F>X,8/F

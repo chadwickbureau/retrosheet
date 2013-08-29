@@ -962,7 +962,7 @@ play,5,0,guzmj005,00,X,4!/L
 play,5,0,headc001,10,11B>C,SB2.1-3(E2/TH2)
 play,5,0,headc001,12,11B>C.SS,K23
 play,5,1,pagaa001,00,X,8/F
-play,5,1,cabrm002,10,BX,DGR7/G
+play,5,1,cabrm002,10,BX,DGR7/G/FINT
 com,"fan interference"
 play,5,1,sandp001,22,BBFFX,9/F
 play,5,1,poseb001,11,*BCX,D9/F.2-H
@@ -5829,7 +5829,7 @@ play,4,0,cozaz001,12,CLBX,53/G
 play,4,1,poseb001,01,CX,S8/G+
 play,4,1,pagaa001,11,CBX,5/P-
 play,4,1,sandp001,31,SBBBB,W.1-2
-play,4,1,beltb001,11,BSX,46(1)3/G/DP
+play,4,1,beltb001,11,BSX,46(1)3/G/DP/RINT
 com,"$as Pablo Sandoval slid across the bag, he reached out with his"
 com,"right hand and grabbed SS Zack Cozart's leg; Cozart fell and did"
 com,"not make a throw; Sandoval called for interference"
@@ -6783,9 +6783,11 @@ play,6,0,alony001,00,X,5/P5F
 play,6,1,ariaj001,00,,NP
 sub,bracb001,"Brad Brach",0,9,1
 play,6,1,ariaj001,22,.CBSBS,K
-play,6,1,crawb001,12,CBCX,13
+play,6,1,crawb001,12,CBCX,13/AP
+com,"ej,crawb001,P,bakej902,Call at 1B (Appeal play)"
 com,"$Brandon Crawford hit an apparent double but was called out"
-com,"on appeal for missing 1B"
+com,"on appeal for missing 1B; Crawford ejected by 1B umpire"
+com,"Jordan Baker"
 play,6,1,voger001,11,BCX,43/G
 play,7,0,venaw001,32,CBSBFBX,9/F
 play,7,0,cabre001,30,BBBB,W
@@ -8061,7 +8063,7 @@ play,8,0,murpd006,32,.BBSBF*B,W
 play,8,0,bay-j001,10,B1>S,SB2
 play,8,0,bay-j001,31,B1>S.BBB,W
 play,8,0,baxtm001,22,BBLLH,HP.2-3;1-2
-play,8,0,tholj001,21,BSBX,32(3)4/GDP.2-2;1-1
+play,8,0,tholj001,21,BSBX,32(3)4/GDP/BINT.2-2;1-1
 com,"$Josh Thole ran inside the line to 1B; the throw by catcher Buster Posey"
 com,"attempting to complete the double play at 1B hit Thole on the shoulder;"
 com,"the ball went into RF but HP Umpire Dale Scott called Thole out on the"
@@ -9128,7 +9130,7 @@ sub,ariaj001,"Joaquin Arias",1,9,11
 play,4,1,ariaj001,22,.B1CSBS,K
 play,5,0,morsm001,00,,NP
 sub,kontg001,"George Kontos",1,9,1
-play,5,0,morsm001,00,.X,D9/F
+play,5,0,morsm001,00,.X,D9/F/REV
 com,"replay,5,morsm001,WAS,laynj901,SFO03,O,F"
 com,"$Michael Morse's fly ball hit the concrete at the top of the wall in right"
 com,"center where the wall juts out; it was ruled in play but the Nationals"
@@ -10805,7 +10807,7 @@ play,6,1,pench001,11,CBX,8/L
 play,6,1,beltb001,00,,NP
 sub,choar001,"Randy Choate",0,9,1
 play,6,1,beltb001,10,.BX,7/F
-play,6,1,blang001,01,CX,DGR/7
+play,6,1,blang001,01,CX,DGR/7/FINT
 com,"fan interference"
 play,6,1,crawb001,30,IIII,IW
 play,6,1,zitob001,22,BBCSS,K
@@ -11107,7 +11109,7 @@ sub,torrc001,"Carlos Torres",0,9,1
 play,6,1,pench001,31,.BBCBB,W
 play,6,1,sanch002,00,1X,S9/L.1-3
 play,6,1,nadyx001,21,*BFBX,S7/G.3-H;1-2
-play,6,1,crawb001,22,C*BCBX,4(1)/FO/G/INT
+play,6,1,crawb001,22,C*BCBX,4(1)/FO/G/RINT
 com,"$Brandon Crawford's chopper fell between pitcher Carlos Torres and 2B DJ"
 com,"LaMahieu; LaMahieu stuck out his arm as Xavier Nady ran by and Nady was"
 com,"called for interference when there was contact"
@@ -11118,7 +11120,7 @@ com,"for throwing equipment, which is an automatic fine; Giants manager Bruce Bo
 com,"restrained Pagan"
 play,7,0,colvt001,00,,NP
 sub,blang001,"Gregor Blanco",1,7,7
-play,7,0,colvt001,31,.BBBCX,C/E2
+play,7,0,colvt001,31,.BBBCK,C/E2
 play,7,0,nelsc001,21,BBCX,S5/G.1-2
 play,7,0,lemad001,12,C*BLT,K
 play,7,0,herrj002,00,,NP
@@ -11172,7 +11174,7 @@ play,8,1,beltb001,12,BSST,K
 play,9,0,nelsc001,00,,NP
 sub,motag001,"Guillermo Mota",1,9,1
 play,9,0,nelsc001,32,.BCCBBFC,K
-play,9,0,lemad001,12,CBFFX,DGR/9/L
+play,9,0,lemad001,12,CBFFX,DGR/9/L/FINT
 com,"fan interference"
 play,9,0,rutlj001,00,,NP
 sub,romos001,"Sergio Romo",1,9,1
@@ -11390,7 +11392,7 @@ play,2,0,rosaw001,22,TBCBX,S9/L
 play,2,0,nelsc001,12,BCFS,K
 play,2,0,browa003,01,CX,8/F
 play,2,0,colvt001,22,CBSB>B,SB2
-play,2,0,colvt001,32,CBSB>B.>FX,C/E2.B-1
+play,2,0,colvt001,32,CBSB>B.>FK,C/E2.B-1
 play,2,0,herrj002,12,CCFBFFX,S7/G.2-H;1-3
 play,2,0,delaj001,01,SX,63/G
 play,2,1,pench001,00,,NP

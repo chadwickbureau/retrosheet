@@ -21,7 +21,7 @@ info,howscored,park
 info,pitches,none
 info,temp,0
 info,winddir,unknown
-info,windspeed,-1
+info,windspeed,32
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -49,7 +49,7 @@ start,lemoj101,"Jim Lemon",1,6,7
 start,batte101,"Earl Battey",1,7,2
 start,consb101,"Billy Consolo",1,8,6
 start,pascc102,"Camilo Pascual",1,9,1
-com,"cool and windy. 30-35 mph."
+com,"Debut for umpire Cal Drummond"
 play,1,0,greep102,??,,K
 play,1,0,runnp101,??,,53
 play,1,0,malzf101,??,,9/L
@@ -58,7 +58,6 @@ play,1,1,greel101,??,,6
 play,1,1,killh102,??,,53
 play,2,0,stepg101,??,,K23
 play,2,0,willt103,??,,HR/8XD
-com,"Williams' 493rd HR, tying Lou Gehrig."
 play,2,0,geigg101,??,,D7/7S
 play,2,0,buddd101,??,,K
 play,2,0,sullh101,??,,K
@@ -98,7 +97,8 @@ play,5,0,sullh101,??,,7
 play,5,0,worta101,??,,K/C
 play,5,1,allib103,??,,K
 play,5,1,lemoj101,??,,W
-play,5,1,batte101,??,,3(1)/FO/INT.B-1
+play,5,1,batte101,??,,3(1)/FO/RINT.B-1
+com,"$Jim Lemon called for interference with Pete Runnels"
 play,5,1,consb101,??,,K
 play,6,0,greep102,??,,K
 play,6,0,runnp101,??,,6
@@ -107,8 +107,8 @@ play,6,1,pascc102,??,,3/G
 play,6,1,gardb101,??,,53
 play,6,1,greel101,??,,9
 play,7,0,stepg101,??,,W
-play,7,0,willt103,??,,2
-com,"Williams hit by batted ball and ruled out."
+play,7,0,willt103,??,,2/BINT
+com,"$Ted Williams called for interference for running into his own batted ball"
 play,7,0,geigg101,??,,SB2.1-3(E2/TH)
 play,7,0,geigg101,??,,K
 play,7,0,buddd101,??,,53
@@ -404,7 +404,6 @@ play,2,0,wertv101,??,,K
 play,2,0,thomb105,??,,S8
 play,2,0,geigg101,??,,S8/G.1-3
 play,2,0,clinl101,??,,64(1)/FO.3-H#
-com,"How run score-per TSN clinl no RBI"
 play,2,0,sadoe101,??,,CS2(24)
 play,2,1,killh102,??,,4
 play,2,1,throf101,??,,K/C
@@ -933,7 +932,7 @@ play,3,1,mincd101,??,,5/FL
 play,4,0,wilhh101,??,,13
 play,4,0,breem101,??,,W
 play,4,0,pilaa101,??,,S5/BG.1-2
-com,"Killebrew pulled leg muscle fielding Pilarcik's bunt."
+com,"$Harmon Killebrew pulled a leg muscle"
 play,4,0,branj101,??,,NP
 sub,bertr101,"Reno Bertoia",1,4,5
 play,4,0,branj101,??,,54(1)/FO.2-3
@@ -1087,8 +1086,8 @@ play,2,1,bertr101,??,,16(1)3/GDP
 play,3,0,bellg102,??,,63
 play,3,0,powev101,??,,S8
 play,3,0,tempj101,??,,PO1(2E4).1-2#
-play,3,0,tempj101,??,,2/G/INT
-com,"$apparently Temple ran into his batted ball"
+play,3,0,tempj101,??,,2/G/BINT
+com,"$Johnny Temple called for interference for running into his own batted ball"
 play,3,0,kuenh101,??,,9
 play,3,1,narah101,??,,31
 play,3,1,ramop101,??,,K
@@ -2434,7 +2433,6 @@ play,1,0,berry101,??,,S9
 play,1,0,marir101,??,,W.1-2
 play,1,0,skowb101,??,,W.2-3;1-2
 play,1,0,howae101,??,,S6.3-H;2-3;1-2
-com,"Originally scored as E6 but changed to a single."
 play,1,0,mcdog101,??,,8/SF.3-H
 play,1,0,richb102,??,,9/L
 play,1,1,gardb101,??,,T9/89
@@ -2870,8 +2868,7 @@ play,2,1,dobbd101,??,,31
 play,2,1,batte101,??,,8
 play,2,1,consb101,??,,9
 play,3,0,keoum101,??,,S1
-play,3,0,runnp101,??,,FC6.1-2;B-1#
-com,"verify who fielded Runnels' ball."
+play,3,0,runnp101,??,,FC.1-2;B-1
 play,3,0,geigg101,??,,K
 play,3,0,wertv101,??,,S8.2-H;1-3
 play,3,0,stepg101,??,,K
@@ -3053,9 +3050,14 @@ play,4,1,narah101,??,,W
 play,4,1,consb101,??,,53
 play,5,0,keoum101,??,,S5/BG
 play,5,0,runnp101,??,,K/C
+com,"ej,runnp101,P,honoj901,Charging the mound"
+com,"$Pete Runnels ducked a brushback from Camilo Pascual;"
+com,"after being called out on strikes, Runnels yelled at"
+com,"Pascual, who shouted back; Runnels started for the mound"
+com,"but was held back by teammates; both benches cleared;"
+com,"Runnels ejected by HP umpire Jim Honochick"
 play,5,0,geigg101,??,,CS2(26)
 play,5,0,geigg101,??,,41
-com,"$per TSN Pascual and Runnels in scuffle--near brawl. Runnels ejected"
 play,5,1,pascc102,??,,NP
 sub,greep102,"Pumpsie Green",0,2,4
 play,5,1,pascc102,??,,K
@@ -3342,6 +3344,13 @@ play,3,1,allib103,??,,64(1)/FO
 play,4,0,gentj101,??,,HR/9D
 play,4,0,courc101,??,,7
 play,4,0,robib104,??,,HR/7D
+com,"ej,ramop101,P,mckib901,Inspection of ball"
+com,"$Orioles manager Paul Richards stopped the game three times"
+com,"saying that Pedro Ramos was throwing a spit ball; one time"
+com,"Richards went to the mound and examined Ramos' cap; this time"
+com,"catcher Earl Battey argued with HP umpire Bill McKinley about"
+com,"the opposing manager and was joined by Senators manager Cookie"
+com,"Lavagetto and Ramos; Ramos was ejected by McKinley"
 play,4,0,tasbw101,??,,NP
 sub,fiscb101,"Bill Fischer",1,9,1
 play,4,0,tasbw101,??,,63
@@ -4286,6 +4295,8 @@ play,3,0,yoste101,??,,53
 play,3,0,bollf101,??,,53
 play,3,0,maxwc101,??,,D9
 play,3,0,kalia101,??,,K/C
+com,"ej,kalia101,P,stewb902,Called third strike"
+com,"Al Kaline ejected by HP umpire Bob Stewart"
 play,3,1,whisp101,??,,NP
 sub,amors101,"Sandy Amoros",0,4,8
 play,3,1,whisp101,??,,W
@@ -4976,7 +4987,7 @@ play,1,1,throf101,??,,13
 play,2,0,frant101,??,,7
 play,2,0,foilh101,??,,W
 play,2,0,heldw101,??,,S7.1-2
-play,2,0,granj101,??,,54(1)/FO.2-H(E4/TH)(UR)(NR);BX2(34)
+play,2,0,granj101,??,,54(1)/FO/NDP.2-H(E4/TH1)(UR)(NR);BX2(34)
 play,2,1,lemoj101,??,,K
 play,2,1,becqj101,??,,43
 play,2,1,gardb101,??,,K/C
@@ -5452,7 +5463,6 @@ play,2,1,valdj102,??,,S8.1-2
 play,2,1,woodh101,??,,FC3/BG.2X3(35);1-3(E5/TH);B-1
 play,2,1,whisp101,??,,D9/9S.3-H;1XH(942)
 play,2,1,bertr101,??,,PO2(26)
-com,"Verify this play. Yankees scoresheet calls it 16."
 play,3,0,mantm101,??,,63
 play,3,0,skowb101,??,,8
 play,3,0,howae101,??,,S2
@@ -5467,7 +5477,6 @@ play,3,1,batte101,??,,4
 play,4,0,coatj101,??,,K
 play,4,0,richb102,??,,13
 play,4,0,lopeh101,??,,HR/9D
-com,"Verify the location of the HR. Yankees said to LF."
 play,4,0,cervb101,??,,W
 play,4,0,mantm101,??,,9/FL
 play,4,1,valdj102,??,,6/8
@@ -5503,7 +5512,6 @@ play,6,1,whisp101,??,,HR/7D.1-H
 play,6,1,bertr101,??,,S9
 play,6,1,allib103,??,,NP
 sub,gablg102,"Gabe Gabler",0,9,1
-com,"Verify if Gabler came in before or after PB."
 play,6,1,allib103,??,,PB.1-2
 play,6,1,allib103,??,,WP.2-3
 play,6,1,allib103,??,,W
@@ -5514,9 +5522,7 @@ play,7,0,boyec102,??,,NP
 sub,hernr101,"Rudy Hernandez",1,9,1
 play,7,0,boyec102,??,,W
 play,7,0,gablg102,??,,K
-play,7,0,richb102,??,,CS2(26)
-com,"Verify if CS2 occured during Gabler or"
-com,"Richardson atbat."
+play,7,0,richb102,??,,CS2(26)#
 play,7,0,richb102,??,,5/FL
 play,7,1,batte101,??,,K
 play,7,1,valdj102,??,,S4
@@ -5637,7 +5643,7 @@ play,3,1,valdj102,??,,K
 play,3,1,ramop101,??,,K
 play,3,1,whisp101,??,,13
 play,4,0,mantm101,??,,HP
-com,"Flaherty warns Ramos"
+com,"$HP umpire Red Flaherty warned Pedro Ramos"
 play,4,0,marir101,??,,13.1-2
 play,4,0,berry101,??,,8/8D.2-3
 play,4,0,hadlk101,??,,PB.3-H(NR)(UR)
@@ -5707,7 +5713,6 @@ play,9,1,throf101,??,,S8.2-H
 play,9,1,narah101,??,,NP
 sub,hernr101,"Rudy Hernandez",1,7,12
 play,9,1,narah101,??,,3(B)6(1)/GDP
-com,"Yankees scoresheet calls this play 363. Verify."
 play,10,0,boyec102,??,,NP
 sub,bertr101,"Reno Bertoia",1,2,4
 play,10,0,boyec102,??,,NP
@@ -6135,10 +6140,9 @@ play,4,0,herzw101,??,,4/L
 play,4,0,siebn101,??,,K
 play,4,0,willd104,??,,63
 play,4,1,greel101,??,,W
-play,4,1,dobbd101,??,,CS2(26)
+play,4,1,dobbd101,??,,CS2(26)#
 play,4,1,dobbd101,??,,7/L
 play,4,1,becqj101,??,,8
-com,"verify when caught stealing occured in the inning."
 play,5,0,throm101,??,,43
 play,5,0,dalep101,??,,K
 play,5,0,johnb104,??,,S8
@@ -6358,8 +6362,7 @@ play,8,1,greel101,??,,NP
 sub,kutym101,"Marty Kutyna",0,9,1
 play,8,1,greel101,??,,S8
 play,8,1,allib103,??,,D8/78D.1-3
-play,8,1,lemoj101,??,,S8.3-H;2XH(21);B-2
-com,"what happened here?"
+play,8,1,lemoj101,??,,S8.3-H;2XH(21);B-2#
 play,8,1,becqj101,??,,NP
 sub,whisp101,"Pete Whisenant",1,4,12
 play,8,1,becqj101,??,,K
@@ -6657,8 +6660,7 @@ play,8,0,chrin101,??,,S9
 play,8,0,grotj102,??,,D7.1-H
 play,8,0,colar101,??,,NP
 sub,moorr101,"Ray Moore",1,9,1
-play,8,0,colar101,??,,CS3(25)
-com,"verify if caught stealing or out at third going for triple"
+play,8,0,colar101,??,,CS3(25)#
 play,8,0,colar101,??,,53
 play,8,0,bilks101,??,,NP
 sub,cashn101,"Norm Cash",0,5,11
@@ -6770,8 +6772,7 @@ play,15,0,foilh101,??,,13
 play,15,0,fernc102,??,,63
 play,15,1,becqj101,??,,1/G
 play,15,1,whisp101,??,,S
-play,15,1,bertr101,??,,S7.1-3(E7)
-com,"verify if E7 occured in the 15th inning."
+play,15,1,bertr101,??,,S7.1-3(E7)#
 play,15,1,allib103,??,,S8.3-H;1-2
 data,er,burnp102,4
 data,er,brucb101,0
@@ -7037,14 +7038,11 @@ play,4,0,aparl101,??,,K/C
 play,4,0,donod101,??,,W
 play,4,0,landj103,??,,K
 play,4,1,killh102,??,,S8
-com,"Killebrew twisted his ankle rounding firstbase."
+com,"$Harmon Killebrew twisted his ankle rounding 1B"
 play,4,1,allib103,??,,NP
 sub,consb101,"Billy Consolo",1,2,12
 play,4,1,allib103,??,,W.1-2
-play,4,1,lemoj101,??,,S7.2-H(RBI);1-H(E7/TH)(NR);B-H(E1/TH)(NR)
-com,"Minoso made a wild throw from leftfield. Donovan recovered"
-com,"the ball and threw wildly to the plate allowing Lemon"
-com,"to score."
+play,4,1,lemoj101,??,,S7.2-H(RBI);1-H(E7/TH)(NR);B-H(E1/THH)(NR)
 play,4,1,becqj101,??,,43
 play,4,1,gardb101,??,,S8
 play,4,1,batte101,??,,NP
@@ -7217,7 +7215,6 @@ play,4,1,lemoj101,??,,S7
 play,4,1,gardb101,??,,153.1-2
 play,4,1,batte101,??,,8/L
 play,4,1,becqj101,??,,8/8XD
-com,"caught against the CF fence."
 play,5,0,freeg102,??,,K/C
 play,5,0,landj103,??,,K/C
 play,5,0,baumf102,??,,43
@@ -7529,7 +7526,6 @@ play,4,1,gardb101,??,,K
 play,4,1,batte101,??,,8
 play,5,0,landj103,??,,S6
 play,5,0,shawb103,??,,16(1)4/GDP/BG
-com,"bunt assumed"
 play,5,0,aparl101,??,,63
 play,5,1,valdj102,??,,3/BP
 play,5,1,clevt101,??,,NP
@@ -7556,7 +7552,8 @@ sub,ramop101,"Pedro Ramos",1,9,1
 play,7,0,minom101,??,,S7
 play,7,0,smita102,??,,K
 play,7,0,freeg102,??,,CS2(26)
-com,"Minoso ejected by 2B umpire Berry over out call at 2B."
+com,"ej,minom101,P,berrc103,Call at 2B"
+com,"Minnie Minoso ejected by 2B umpire Charlie Berry"
 play,7,0,freeg102,??,,K
 play,7,1,bertr101,??,,NP
 sub,stalg103,"Gerry Staley",0,5,1
@@ -7861,7 +7858,6 @@ play,8,1,killh102,??,,D7.3-H;1-3
 play,8,1,lemoj101,??,,NP
 sub,harsj101,"Jack Harshman",0,9,1
 play,8,1,lemoj101,??,,IW
-com,"An intentional walk (trailing 9-0 !)"
 play,8,1,throf101,??,,NP
 sub,whisp101,"Pete Whisenant",1,4,12
 play,8,1,throf101,??,,NP
@@ -7949,8 +7945,7 @@ play,2,0,philb102,??,,8/8D
 play,2,0,wilsr102,??,,4/L
 play,2,1,throf101,??,,W
 play,2,1,gardb101,??,,K
-play,2,1,batte101,??,,CS2(24)
-com,"verify when caught stealing occured in the inning."
+play,2,1,batte101,??,,CS2(24)#
 play,2,1,batte101,??,,7/L
 play,3,0,granj101,??,,S7
 play,3,0,tempj101,??,,53/SH.1-2
@@ -7963,7 +7958,6 @@ play,3,1,kralj101,??,,NP
 sub,dobbd101,"Dan Dobbek",1,9,11
 play,3,1,dobbd101,??,,NP
 sub,frant101,"Tito Francona",0,7,7
-com,"why did Francona replace Phillips? check newspapers."
 play,3,1,dobbd101,??,,8
 play,3,1,bertr101,??,,7/7D
 play,3,1,greel101,??,,D7.1-H
@@ -8159,7 +8153,6 @@ play,7,0,wertv101,??,,S9
 play,7,0,nixor101,??,,NP
 sub,greep102,"Pumpsie Green",0,4,12
 play,7,0,nixor101,??,,E2/SH.1-3;B-1
-com,"verify how the E2 occured. possibly on pickoff play."
 play,7,0,malzf101,??,,4/P
 play,7,0,clinl101,??,,13/SH.3-H;1-2
 play,7,0,buddd101,??,,IW
@@ -8297,7 +8290,6 @@ play,5,0,runnp101,??,,K
 play,5,0,tasbw101,??,,S7.3-H
 play,5,0,willt103,??,,W.1-2
 play,5,0,wertv101,??,,8/78XD
-com,"Circus catch by Green against the fence in left-center"
 play,5,1,consb101,??,,63
 play,5,1,greel101,??,,9
 play,5,1,killh102,??,,K
@@ -8309,9 +8301,8 @@ play,6,1,throf101,??,,43
 play,6,1,bertr101,??,,D8
 play,6,1,dobbd101,??,,PB.2-3
 play,6,1,dobbd101,??,,OA.3XH(21)
-com,"Delock threw a ball wide off the plate to the"
-com,"backstop, but it bounded back straight at Nixon"
-com,"who pegged to Delock to retire Bertoia trying to score."
+com,"$Ike Delock's pitch was well off HP and went to the"
+com,"backstop; the ball caromed back straight to Russ Nixon"
 play,6,1,dobbd101,??,,W
 play,6,1,narah101,??,,43
 play,7,0,deloi101,??,,S5
@@ -8329,8 +8320,7 @@ play,7,1,throf101,??,,46(1)/FO
 play,7,1,bertr101,??,,54(1)/FO
 play,8,0,wertv101,??,,HP
 play,8,0,nixor101,??,,D9/9D.1-H
-com,"Nixon pulled up lame on his double and had"
-com,"to be removed for a pinch runner."
+com,"$Russ Nixon pulled up lame on his double"
 play,8,0,malzf101,??,,NP
 sub,brewt101,"Tom Brewer",0,5,12
 play,8,0,malzf101,??,,K
@@ -8448,7 +8438,6 @@ play,2,1,batte101,??,,S7.1-3
 play,2,1,valdj102,??,,8
 play,2,1,pascc102,??,,6(1)/FO
 play,3,0,ditma101,??,,3/G
-com,"The Senators' scoresheet calls this play 3/P."
 play,3,0,boyec102,??,,53
 play,3,0,kubet101,??,,9
 play,3,1,gardb101,??,,43
@@ -8818,7 +8807,7 @@ play,6,0,blanj101,??,,D8.1-H
 play,6,0,boyec102,??,,53
 play,6,1,whisp101,??,,NP
 sub,coatj101,"Jim Coates",0,9,1
-com,"Ford removed because of the heat."
+com,"$Whitey Ford left with heat exhaustion"
 play,6,1,whisp101,??,,W
 play,6,1,gardb101,??,,W.1-2
 play,6,1,killh102,??,,NP
@@ -8842,8 +8831,7 @@ play,7,1,batte101,??,,NP
 sub,shanb102,"Bobby Shantz",0,9,1
 play,7,1,batte101,??,,7
 play,7,1,valdj102,??,,S9
-play,7,1,woodh101,??,,16(1)4/GDP/BG#
-com,"$bunt assumed"
+play,7,1,woodh101,??,,16(1)4/GDP/BG
 play,8,0,mantm101,??,,S8
 play,8,0,skowb101,??,,54(1)3/GDP
 play,8,0,blanj101,??,,NP
@@ -8995,7 +8983,6 @@ play,8,0,carea101,??,,8
 play,8,1,lemoj101,??,,8
 play,8,1,allib103,??,,K/C
 play,8,1,bertr101,??,,HR9/89XD/IPHR
-com,"Inside the park homerun"
 play,8,1,batte101,??,,K
 play,9,0,willd104,??,,S7
 play,9,0,siebn101,??,,7
@@ -9074,8 +9061,8 @@ play,3,0,hamlk101,??,,K
 play,3,0,kuckj101,??,,9/L
 play,3,0,snydr102,??,,53
 play,3,1,pascc102,??,,13
-play,3,1,gardb101,??,,2
-com,"hit by batted ball. scored correctly ?"
+play,3,1,gardb101,??,,2/BINT
+com,"$Billy Gardner called for interference for running into his own batted ball"
 play,3,1,greel101,??,,9/L
 play,4,0,lumpj101,??,,43
 play,4,0,carea101,??,,63
@@ -9154,10 +9141,6 @@ play,9,1,becqj101,??,,E3/G.3-H(NR)(UR);2-3;B-1
 play,9,1,consb101,??,,NP
 sub,dobbd101,"Dan Dobbek",1,9,11
 play,9,1,dobbd101,??,,K
-com,"Dobbek's batting event is missing from the Senators'"
-com,"scoresheet but a boxscore of the game said he K'd."
-com,"Herbert had one K per his official records, so it's"
-com,"pretty conclusive he struckout."
 data,er,kuckj101,3
 data,er,herbr101,0
 data,er,pascc102,2
@@ -9244,8 +9227,7 @@ play,4,0,carea101,??,,53
 play,4,0,willd104,??,,K
 play,4,1,batte101,??,,S7
 play,4,1,valdj102,??,,K
-play,4,1,stobc101,??,,CS2(26)
-com,"verify when caught stealing occured in the inning."
+play,4,1,stobc101,??,,CS2(26)#
 play,4,1,stobc101,??,,K
 play,5,0,siebn101,??,,3/G
 play,5,0,baueh101,??,,9
@@ -9420,8 +9402,7 @@ play,5,0,berbl101,??,,9
 play,5,1,ramop101,??,,D9
 play,5,1,gardb101,??,,43.2-3
 play,5,1,greel101,??,,S9.3-H
-play,5,1,killh102,??,,CS2(24)
-com,"verify when caught stealing occured in the inning."
+play,5,1,killh102,??,,CS2(24)#
 play,5,1,killh102,??,,K/C
 play,6,0,vealc101,??,,K
 play,6,0,bunnj101,??,,S7
@@ -9523,8 +9504,7 @@ start,consb101,"Billy Consolo",1,8,6
 start,lee-d102,"Don Lee",1,9,1
 play,1,0,virgo101,??,,3/FL
 play,1,0,kalia101,??,,S9
-play,1,0,cashn101,??,,CS2(26)
-com,"verify when caught stealing occured in the inning."
+play,1,0,cashn101,??,,CS2(26)#
 play,1,0,cashn101,??,,K
 play,1,1,gardb101,??,,9
 play,1,1,greel101,??,,7
@@ -9741,9 +9721,8 @@ play,8,0,powev101,??,,NP
 sub,consb101,"Billy Consolo",1,8,6
 play,8,0,powev101,??,,S1/G
 play,8,0,frant101,??,,W.1-2
-play,8,0,pierj102,??,,2/G/INT.2-2;1-1
-com,"interference call on Battey. No baserunner advancement. Was"
-com,"the play scored correctly?"
+play,8,0,pierj102,??,,2/G/BINT.2-2;1-1
+com,"$Jimmy Piersall called for interference with catcher Earl Battey"
 play,8,0,bridr101,??,,SB3;SB2
 play,8,0,bridr101,??,,IW
 play,8,0,wilsr102,??,,NP
@@ -9860,7 +9839,6 @@ play,2,1,valdj102,??,,S3/P.3-H;1-2
 play,2,1,pascc102,??,,64(1)3/GDP
 play,3,0,bridr101,??,,NP
 sub,consb101,"Billy Consolo",1,8,6
-com,"Why did Consolo replace Valdivielso?"
 play,3,0,bridr101,??,,S6
 play,3,0,romaj101,??,,S7.1-2
 play,3,0,granj101,??,,3(B)6(1)/GDP.2-3
@@ -9900,7 +9878,6 @@ play,7,0,romaj101,??,,D7
 play,7,0,granj101,??,,S9.2-3
 play,7,0,tempj101,??,,K
 play,7,0,morgj101,??,,53/DP.1X3(36);3-H
-com,"DWS: RBI is correct, but play needs detail"
 play,7,1,bertr101,??,,K
 play,7,1,batte101,??,,63
 play,7,1,consb101,??,,NP
@@ -10406,8 +10383,7 @@ play,7,1,stobc101,??,,NP
 sub,consb101,"Billy Consolo",1,9,11
 play,7,1,consb101,??,,9
 play,7,1,whisp101,??,,S5/BG
-play,7,1,gardb101,??,,CS2(24)
-com,"verify when caught stealing occured in the inning."
+play,7,1,gardb101,??,,CS2(24)#
 play,7,1,gardb101,??,,K
 play,8,0,barbs102,??,,NP
 sub,woodh101,"Hal Woodeshick",1,9,1
@@ -10916,8 +10892,7 @@ play,1,0,runnp101,??,,63
 play,1,0,tasbw101,??,,13
 play,1,0,willt103,??,,43
 play,1,1,versz101,??,,W
-play,1,1,greel101,??,,FC3.1-H(E3/TH)(UR)(NR);BX3(72)#
-com,"verify what the heck happened here."
+play,1,1,greel101,??,,FC3.1-H(E3/TH2)(UR)(NR);BX3(72)
 play,1,1,killh102,??,,K
 play,1,1,lemoj101,??,,W
 play,1,1,batte101,??,,K
@@ -10935,8 +10910,7 @@ play,3,0,runnp101,??,,S8
 play,3,0,tasbw101,??,,CS2(24)
 play,3,1,versz101,??,,8
 play,3,1,greel101,??,,S8
-play,3,1,killh102,??,,CS2(24)
-com,"verify when the caught stealing occured in the inning."
+play,3,1,killh102,??,,CS2(24)#
 play,3,1,killh102,??,,K/C
 play,4,0,tasbw101,??,,HR/7D
 play,4,0,willt103,??,,S9
@@ -10977,9 +10951,7 @@ play,8,0,wertv101,??,,S6
 play,8,0,nixor101,??,,NP
 sub,hardc101,"Carroll Hardy",0,4,12
 play,8,0,nixor101,??,,7
-com,"assumed Hardy's caught stealing occured during Malzone's"
-com,"atbat since the play went 2-4 and Malzone is a RH hitter."
-play,8,0,malzf101,??,,CS2(24)
+play,8,0,malzf101,??,,CS2(24)#
 play,8,1,lee-d102,??,,NP
 sub,hardc101,"Carroll Hardy",0,4,7
 play,8,1,lee-d102,??,,NP
@@ -11090,8 +11062,7 @@ play,4,0,hansr102,??,,K
 play,4,0,dropw101,??,,S8/8S
 play,4,0,triag101,??,,K
 play,4,1,allib103,??,,W
-play,4,1,bertr101,??,,SB2.1-3(E2/TH)
-com,"verify who was the batter when Allison stole thirdbase."
+play,4,1,bertr101,??,,SB2.1-3(E2/TH2)#
 play,4,1,bertr101,??,,K
 play,4,1,gardb101,??,,S8.3-H
 play,4,1,stobc101,??,,K
@@ -11566,7 +11537,7 @@ play,3,1,versz101,??,,8
 play,3,1,ramop101,??,,63
 play,4,0,marir101,??,,NP
 sub,schaj102,"Johnny Schaive",1,1,4
-com,"Gardner pulled leg muscle."
+com,"$Billy Gardner pulled a leg muscle"
 play,4,0,marir101,??,,7/L
 play,4,0,mantm101,??,,K/C
 play,4,0,longd101,??,,9/L
@@ -11589,7 +11560,6 @@ play,6,0,marir101,??,,S9.1-H(E9)(NR)(UR);B-2
 play,6,0,huntk102,??,,K
 play,6,0,longd101,??,,IW
 play,6,0,mcdog101,??,,5/P
-com,"Yankees (Fisher) scored this play as 7"
 play,6,1,versz101,??,,NP
 sub,mincd101,"Don Mincher",1,8,11
 play,6,1,mincd101,??,,K
@@ -11738,14 +11708,12 @@ play,3,0,kubet101,??,,K/C
 play,3,0,lopeh101,??,,6/L
 play,3,0,marir101,??,,4/L
 play,3,1,schaj102,??,,K+PB.B-1
-com,"Schaive reached first on passed ball on strike three."
 play,3,1,versz101,??,,CS2(23)#
-com,"verify if Schaive was picked off or caught stealing."
 play,3,1,versz101,??,,4/P
 play,3,1,lee-d102,??,,5/P
 play,4,0,mantm101,??,,NP
 sub,consb101,"Billy Consolo",1,7,4
-com,"Schaive injured on cs or po, twisted right knee."
+com,"Johnny Schaive left with twisted right knee"
 play,4,0,mantm101,??,,K/C
 play,4,0,longd101,??,,K/C
 play,4,0,blanj101,??,,K
@@ -11765,7 +11733,6 @@ play,5,1,versz101,??,,NP
 sub,grbae101,"Eli Grba",0,9,1
 play,5,1,versz101,??,,NP
 sub,pisoj101,"Jim Pisoni",0,4,8
-com,"verify when Pisoni entered the game in cf for Mantle."
 play,5,1,versz101,??,,53
 play,5,1,lee-d102,??,,4/P
 play,5,1,bertr101,??,,63
@@ -11780,7 +11747,6 @@ play,6,1,throf101,??,,K
 play,7,0,longd101,??,,9/L
 play,7,0,blanj101,??,,9/9D
 play,7,0,mcdog101,??,,43
-com,"Yankees (Fisher) scored this play as 143."
 play,7,1,batte101,??,,W
 play,7,1,consb101,??,,54/SH.1-2
 play,7,1,versz101,??,,NP
@@ -11818,7 +11784,6 @@ play,8,1,bertr101,??,,NP
 sub,turlb101,"Bob Turley",0,9,1
 play,8,1,bertr101,??,,NP
 sub,howae101,"Elston Howard",0,6,2
-com,"Verify when Howard entered the game."
 play,8,1,bertr101,??,,K/C
 play,8,1,greel101,??,,2/FL
 play,8,1,killh102,??,,7/FL
@@ -11894,9 +11859,8 @@ play,1,0,boyec102,??,,K
 play,1,0,marir101,??,,K
 play,1,0,mantm101,??,,HR/78XD.1-H
 play,1,0,skowb101,??,,7
-com,"Foul tip by Versalles on the second pitch"
-com,"disclocates the ring the finger on the right"
-com,"hand of Elston Howard. Replaced by Yogi Berra."
+com,"$Elston Howard suffered disclocated right ring finger"
+com,"by foul ball on second pitch to Zoilo Versalles"
 play,1,1,versz101,??,,NP
 sub,berry101,"Yogi Berra",0,7,2
 play,1,1,versz101,??,,K
@@ -11918,8 +11882,6 @@ play,3,0,skowb101,??,,43
 play,3,1,consb101,??,,53
 play,3,1,stobc101,??,,31
 play,3,1,versz101,??,,D7
-com,"Versalles stretched a single into a double when"
-com,"Cerv fumbled his hit."
 play,3,1,bertr101,??,,S8.2-H
 play,3,1,killh102,??,,9
 play,4,0,mcdog101,??,,4/P
@@ -11930,8 +11892,6 @@ play,4,1,batte101,??,,63
 play,4,1,allib103,??,,K/C
 play,5,0,fordw101,??,,6/P
 play,5,0,cervb101,??,,6E3
-com,"Killebrew fumbled Versalles' throw for an error."
-com,"Verify if Versalles got an assist."
 play,5,0,boyec102,??,,HR/7D.1-H(UR)
 play,5,0,marir101,??,,8
 play,5,0,mantm101,??,,HR/78XD.B-H(UR)
@@ -12135,8 +12095,7 @@ play,9,1,becqj101,??,,NP
 sub,pilaa101,"Al Pilarcik",0,2,9
 play,9,1,becqj101,??,,NP
 sub,branj101,"Jackie Brandt",0,1,7
-play,9,1,becqj101,??,,S3#
-com,"verify hit location"
+play,9,1,becqj101,??,,S
 play,9,1,allib103,??,,1/P
 play,9,1,batte101,??,,46(1)/FO
 play,9,1,valdj102,??,,NP
@@ -12200,7 +12159,6 @@ start,consb101,"Billy Consolo",1,8,4
 start,ramop101,"Pedro Ramos",1,9,1
 play,1,0,branj101,??,,7
 play,1,0,stepg101,??,,E4.B-2
-com,"what type of error? fielding or throwing?"
 play,1,0,woodg101,??,,W
 play,1,0,gentj101,??,,36(1)/FO.2-3
 play,1,0,robib104,??,,D8/78D.3-H(UR);1-3

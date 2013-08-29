@@ -49,8 +49,8 @@ start,grayd102,"Dick Gray",1,6,5
 start,cimog101,"Gino Cimoli",1,7,8
 start,rosej101,"John Roseboro",1,8,2
 start,erskc101,"Carl Erskine",1,9,1
+com,"$first major league game played in Los Angeles"
 play,1,0,davej101,21,SBBX,S7/L
-com,"$hit wall at base of screen"
 play,1,0,kirkw101,21,.BBSX,S7/F.1-2
 play,1,0,maysw101,01,FX,2/FL
 play,1,0,spend101,22,CBSBX,1(B)4(2)/DP
@@ -69,7 +69,6 @@ play,2,1,erskc101,22,CSBBS,K
 play,3,0,ocond101,02,CCS,K
 play,3,0,worta101,10,BX,3/FL
 play,3,0,davej101,12,CFFBFX,S7/F
-com,"$hit screen high"
 play,3,0,kirkw101,32,.FBSBBFX,D7/L.1-3
 play,3,0,maysw101,30,IIII,IW
 play,3,0,spend101,31,BBBCB,W.3-H;2-3;1-2
@@ -131,7 +130,6 @@ play,6,1,hodgg101,11,CBX,63
 play,7,0,davej101,22,BSBFX,9
 play,7,0,kirkw101,01,CX,8
 play,7,0,maysw101,01,FX,S7/L
-com,"$off screen"
 play,7,0,spend101,00,.X,7
 play,7,1,nealc101,02,CFX,5/FL
 play,7,1,grayd102,20,BBX,HR/F78
@@ -140,7 +138,6 @@ play,7,1,pignj101,31,BBCBX,8/8D
 play,7,1,erskc101,12,CBCX,8
 play,8,0,cepeo101,00,X,3
 play,8,0,saueh101,22,CBBFX,HR/F7
-com,"$over screen"
 play,8,0,schmb101,00,.X,S8/G
 play,8,0,brese101,00,,NP
 sub,lockw101,"Whitey Lockman",0,8,11
@@ -160,12 +157,10 @@ play,8,1,snidd101,22,SBBCC,K
 play,9,0,davej101,00,,NP
 sub,furic101,"Carl Furillo",1,3,9
 play,9,0,davej101,01,.CX,D7/F
-com,"$Roth says: 'hit foul pole'"
-com,"xbut then why a double?"
 play,9,0,kirkw101,00,.,NP
 sub,labic101,"Clem Labine",1,9,1
-play,9,0,kirkw101,20,..BBX,T8.2X3(8635)
-com,"$Davenport missed third and was out on appeal"
+play,9,0,kirkw101,20,..BBX,T8/AP.2X3(8635)
+com,"$Jim Davenport out on appeal for missing 3B"
 play,9,0,maysw101,00,.X,S6.B-2(E6/TH);3-H(NR)
 play,9,0,spend101,12,CBFX,8
 play,9,0,cepeo101,22,BCBSX,7/FL
@@ -452,7 +447,6 @@ sub,labic101,"Clem Labine",1,9,1
 play,8,0,spend101,12,.FBFX,D/78
 play,8,0,thomv101,31,BBBCX,S7.2-H
 play,8,0,ocond101,00,B,OA.1X2(2E6)
-com,"$Apparently not a CS under 1958 rules"
 play,8,0,ocond101,21,B..BCX,9/L
 play,8,0,monzr101,10,BX,63
 play,8,0,davej101,11,BCX,S7/G.2-H(UR)
@@ -593,7 +587,7 @@ play,7,0,thomb105,22,CBBFX,S5
 play,7,0,longd101,00,X,8
 play,7,0,goryj101,31,SBBB,NP
 sub,labic101,"Clem Labine",1,9,1
-com,"$Podres injured elbow - pulled muscle"
+com,"$Johnny Podres left with pulled muscle in his elbow"
 play,7,0,goryj101,32,SBBB..CS,K+CS2(243)/DP
 play,7,1,cimog101,02,FFS,K
 play,7,1,snidd101,32,BCBBSFFB,W
@@ -615,7 +609,6 @@ play,8,1,furic101,22,BCBFX,53
 play,8,1,pignj101,32,BBBCSS,K
 play,9,0,walll101,22,BCBCFX,53
 play,9,0,banke101,11,BCX,S/L78
-com,"$high on screen"
 play,9,0,moryw101,20,.BBX,3/G.1-2
 play,9,0,thomb105,11,BCB,WP.2-3
 play,9,0,thomb105,21,BCB.X,4
@@ -678,7 +671,6 @@ start,rosej101,"John Roseboro",1,8,2
 start,erskc101,"Carl Erskine",1,9,1
 play,1,0,taylt101,32,.BCBBCS,K
 play,1,0,walll101,10,BX,HR/F7
-com,"$screen"
 play,1,0,banke101,11,.BCX,D/L78
 play,1,0,moryw101,32,BSBCBX,4
 play,1,0,thomb105,32,FCBBBX,D7/L.2-H
@@ -704,7 +696,6 @@ play,3,1,nealc101,22,CCBBFX,E4/F.2-H(NR)(UR);1-H(NR)(UR);B-2
 play,3,1,hodgg101,00,X,S4.2-H(E4/TH1)(UR)
 play,3,1,grayd102,31,BBBC>X,S9/L.1-3
 play,3,1,cimog101,01,CH,HP.1-2
-com,"$left elbow"
 play,3,1,furic101,00,.X,3
 play,4,0,moryw101,02,CSX,5/FL
 play,4,0,thomb105,12,CSBX,S5
@@ -736,7 +727,6 @@ play,7,0,taylt101,31,BBCBB,W
 play,7,0,walll101,11,BFX,9
 play,7,1,gillj102,22,CBFBX,3/G
 play,7,1,reesp101,11,BSX,HR/F7
-com,"$screen"
 play,7,1,nealc101,21,.BBSX,6/L
 play,7,1,hodgg101,00,X,HR/F9
 play,7,1,grayd102,00,,NP
@@ -758,7 +748,6 @@ play,8,1,rosej101,00,X,16(1)3/GDP
 play,9,0,elstd101,00,,NP
 sub,tannc101,"Chuck Tanner",0,9,11
 play,9,0,tannc101,22,.BCBFFX,HR/F7
-com,"$screen"
 play,9,0,taylt101,30,.BBB,NP
 sub,labic101,"Clem Labine",1,9,1
 play,9,0,taylt101,32,.BBB.CCX,53
@@ -842,7 +831,6 @@ start,drysd101,"Don Drysdale",1,9,1
 play,1,0,taylt101,32,CFBBBB,W
 play,1,0,walll101,00,B,SB2
 play,1,0,walll101,10,B.X,HR/F7.2-H
-com,"$screen"
 play,1,0,banke101,32,.CBCFBBX,13
 play,1,0,moryw101,22,FSFBFBX,5/FL
 play,1,0,thomb105,12,CBCS,K23
@@ -887,7 +875,6 @@ play,5,0,tappe101,00,X,S7/L.3-H;2-H;1-2
 play,5,0,fodgg101,32,BBBCCB,W.2-3;1-2
 play,5,0,taylt101,00,X,63.3-H;2-3;1-2
 play,5,0,walll101,20,BBX,HR/F7.3-H;2-H
-com,"$screen"
 play,5,0,banke101,01,.CX,9
 play,5,1,jackr102,32,CBBFFBX,63
 play,5,1,furic101,11,CBX,9
@@ -913,7 +900,6 @@ play,7,0,tappe101,00,>X,3/G.1-2
 play,7,0,fodgg101,02,FFX,9
 play,7,0,taylt101,30,BBBB,W
 play,7,0,walll101,12,CBCX,HR/F7.2-H;1-H
-com,"$screen"
 play,7,0,banke101,02,.FFX,53
 play,7,1,nealc101,12,CFBX,HR/F78
 play,7,1,jackr102,02,SFX,9
@@ -931,9 +917,7 @@ play,8,1,negrr101,00,,NP
 sub,valoe101,"Elmer Valo",1,9,11
 play,8,1,valoe101,21,.BBFX,5/FL
 play,8,1,zimmd101,01,FX,HR/F7
-com,"$screen"
 play,8,1,gillj102,11,.CBX,S7/F
-com,"$screen"
 play,8,1,demed101,20,.BBX,64(1)/FO
 play,8,1,hodgg101,11,BFX,S7/L.1-2
 play,8,1,nealc101,21,FBBX,4
@@ -1026,12 +1010,11 @@ play,3,0,wehmh101,00,X,D7/F
 play,3,0,blasd101,21,BFBX,FC1.2X3(15);B-1
 play,3,0,darka101,00,X,53
 play,3,1,kippf101,12,SBSX,D7/F
-com,"$high on screen"
 play,3,1,cimog101,12,.FCBFX,FC6.2X3(65);B-1
 play,3,1,larkn101,11,BFX,36(1)3/GDP
 play,4,0,musis101,00,,NP
 sub,gillj102,"Jim Gilliam",1,6,5
-com,"$Jackson spike on Wehmeier play in 3rd"
+com,"$Randy Jackson spiked by Herm Wehmeier in third"
 play,4,0,musis101,21,..BCBX,S7/L
 play,4,0,ennid101,11,SBX,8
 play,4,0,boyek101,02,FCB,WP.1-2
@@ -1041,7 +1024,7 @@ play,4,1,snidd101,01,CX,43
 play,4,1,hodgg101,11,BFX,S6
 play,4,1,nealc101,12,CFB,NP
 sub,barnf102,"Frank Barnes",0,9,1
-com,"$Wehmeier hurt elbow"
+com,"Herm Wehmeier left with injured elbow"
 play,4,1,nealc101,12,CFB..FFC,K
 play,4,1,gillj102,01,CB,SB2
 play,4,1,gillj102,12,CB.CX,S8/L.2-H
@@ -1057,14 +1040,11 @@ play,5,1,snidd101,01,CX,13
 play,5,1,hodgg101,22,BBCFS,K
 play,6,0,blasd101,02,LFS,K
 play,6,0,darka101,32,CBFBFFBX,HR/F7
-com,"$screen - well hit"
 play,6,0,musis101,31,.BBCBX,S8/L
 play,6,0,ennid101,10,BX,D7/F.1-3
-com,"$high on screen"
 play,6,0,boyek101,11,.BCX,FC5.3XH(52);2-3;B-1
 play,6,0,greeg101,00,X,64(1)/FO
 play,6,1,nealc101,20,BBH,HP
-com,"$on right wrist"
 play,6,1,gillj102,00,.,NP
 sub,reesp101,"Peewee Reese",1,5,12
 play,6,1,gillj102,12,..CLBC,K
@@ -1090,7 +1070,6 @@ play,7,1,gillj102,11,SBX,43
 play,8,0,blasd101,00,X,E6/TH
 play,8,0,darka101,00,X,7
 play,8,0,musis101,01,FX,S7/F.1-3
-com,"$screen"
 play,8,0,ennid101,00,.,NP
 sub,roebe101,"Ed Roebuck",1,9,1
 play,8,0,ennid101,01,..FX,8/SF.3-H(UR)
@@ -1099,7 +1078,6 @@ play,8,1,zimmd101,11,CBX,63
 play,8,1,walkr101,12,BFFX,3/G
 play,8,1,roebe101,00,X,S7/G
 play,8,1,cimog101,00,X,D7/F.1-H
-com,"$screen"
 play,8,1,larkn101,00,.X,S4.2XH(432)
 play,9,0,greeg101,00,,NP
 sub,furic101,"Carl Furillo",1,2,9
@@ -1219,7 +1197,6 @@ play,6,1,cimog101,00,X,8
 play,6,1,zimmd101,22,BFSBFX,63
 play,7,0,boyek101,10,BX,S7/L
 play,7,0,greeg101,11,BFX,HR/F7.1-H
-com,"$well hit"
 play,7,0,kattr101,01,.CX,E5/TH
 play,7,0,schod101,00,,NP
 sub,moonw101,"Wally Moon",0,7,12
@@ -1236,10 +1213,8 @@ play,7,1,reesp101,22,FPFBB,SB2
 play,7,1,reesp101,32,FPFBB.FB,W
 play,7,1,snidd101,00,X,3/G
 play,8,0,darka101,01,FX,S7/F
-com,"$screen"
 play,8,0,musis101,10,.BX,3/G.1-2
 play,8,0,ennid101,00,X,S6.2-3
-com,"$dive 6"
 play,8,0,boyek101,00,.,NP
 sub,labic101,"Clem Labine",1,9,1
 play,8,0,boyek101,22,..BFCBC,K
@@ -1336,10 +1311,8 @@ play,1,1,larkn101,30,BBBB,W
 play,1,1,valoe101,21,BFBX,13.1-2
 play,1,1,hodgg101,32,CBBCBX,S8/G.2-H
 play,1,1,grayd102,00,X,HR/F7.1-H
-com,"$screen - short"
 play,1,1,cimog101,22,.CCBBX,4/F
 play,2,0,boyek101,32,CCBBBX,HR/F7
-com,"$screen-short"
 play,2,0,greeg101,32,.BCBSBX,63
 play,2,0,smith108,32,BCSBBC,K
 play,2,0,kaske101,22,CBBFC,K
@@ -1360,7 +1333,6 @@ play,3,1,grayd102,22,CBCBX,4/F
 play,3,1,cimog101,11,CBX,S8/L
 play,3,1,zimmd101,21,BFBX,S8/L.1-2
 play,3,1,walkr101,22,FBFBX,D/78.2-H;1-H
-com,"$screen - end"
 play,3,1,podrj101,00,.X,43
 play,4,0,musis101,32,BCFBBX,63
 play,4,0,ennid101,10,BX,S5
@@ -1390,7 +1362,6 @@ play,6,1,podrj101,01,CX,13
 play,6,1,gillj102,31,BSBBB,W
 play,6,1,larkn101,00,B,SB2
 play,6,1,larkn101,22,B.BSFFF,FLE4#
-com,"xSLN doesn't show this error, but Roth seems clear - check"
 play,6,1,larkn101,32,B.BSFFF..FBFX,9
 play,6,1,valoe101,00,X,E4/G.2-H(NR)(UR)
 play,6,1,hodgg101,11,SBX,S7/L.1-2
@@ -1408,7 +1379,6 @@ play,7,0,smith108,11,BFX,53
 play,7,0,kaske101,00,X,8
 play,7,1,walkr101,10,BX,6
 play,7,1,podrj101,02,CSX,63
-com,"$Roth says '5 dropped' but no error charged"
 play,7,1,gillj102,12,F.BFS,K
 play,8,0,mabeb101,00,,NP
 sub,kattr101,"Ray Katt",0,9,11
@@ -1498,7 +1468,6 @@ play,1,1,hodgg101,02,CCX,9/9D
 play,2,0,klust101,22,CFFBBX,43
 play,2,0,thomf103,11,CBX,S7/G
 play,2,0,clemr101,21,BCBX,S7/L.1-2
-com,"$screen"
 play,2,0,mazeb101,02,.CSX,54(1)/FO.2-3
 play,2,0,foilh101,01,FX,S5.3-H;1-2
 play,2,0,frieb102,02,FFS,K
@@ -1511,7 +1480,6 @@ play,3,0,skinb101,20,BBX,53
 play,3,1,walkr101,00,X,8/8D
 play,3,1,erskc101,02,CSS,K
 play,3,1,cimog101,11,CBX,HR/F7
-com,"$screen"
 play,3,1,larkn101,12,.BCFC,K
 play,4,0,klust101,02,FCX,31
 play,4,0,thomf103,11,CBX,HR/F7
@@ -1652,7 +1620,6 @@ play,3,1,zimmd101,12,BFFS,K
 play,3,1,walkr101,10,BX,8/8D
 play,3,1,drysd101,12,SCBX,63
 play,4,0,thomf103,32,BBFSBX,HR/F7
-com,"$screen - well hit"
 play,4,0,clemr101,00,.X,3/G
 play,4,0,mazeb101,12,BFSX,3/FL
 play,4,0,foilh101,12,FBCX,3/G
@@ -1663,8 +1630,7 @@ play,4,1,hodgg101,12,CBSX,S7/G.3-H;1-2
 play,4,1,nealc101,21,BSBX,4
 play,4,1,jackr102,32,BBBCCS,K
 play,5,0,klinr102,00,X,3/G
-play,5,0,virdb101,10,BX,S1
-com,"$deflected to 6 who threw late to 1st"
+play,5,0,virdb101,10,BX,S16
 play,5,0,groad101,32,.BFSBBB,W.1-2
 play,5,0,skinb101,11,BSX,6/F
 play,5,0,klust101,10,BX,43
@@ -1682,7 +1648,6 @@ play,6,1,snidd101,00,X,3/G
 play,7,0,virdb101,21,BBCX,D8/F
 play,7,0,groad101,10,BX,53
 play,7,0,skinb101,12,BFFH,HP
-com,"$on leg"
 play,7,0,klust101,02,.CCX,36(1)1/GDP
 play,7,1,hodgg101,22,CCBBC,K
 play,7,1,nealc101,22,SFBBX,9
@@ -1781,7 +1746,6 @@ play,2,1,zimmd101,30,BBBB,W
 play,2,1,rosej101,00,X,9
 play,2,1,newcd101,11,CBX,S8/L.1-2
 play,2,1,gillj102,00,X,7/7DW
-com,"$leap at fence"
 play,3,0,foilh101,22,.CBFFBFX,1/P
 play,3,0,law-v101,12,SBCC,K
 play,3,0,virdb101,12,SBFX,43
@@ -1794,17 +1758,14 @@ play,4,0,klust101,11,CBX,8
 play,4,1,nealc101,01,CX,S9/G
 play,4,1,demed101,12,BFCX,S8/L.1-2
 play,4,1,zimmd101,00,X,1E4/SH.2-3;1-2
-com,"$4 missed base"
 play,4,1,rosej101,02,.FFX,46(1)/FO.3-H(UR);2-H(E6)
 play,4,1,newcd101,20,BB>X,5/FL
 badj,gillj102,R
 play,4,1,gillj102,00,X,S6.1-2
 play,4,1,cimog101,00,X,46(1)/FO
 play,5,0,thomf103,00,X,HR/L7
-com,"$screen"
 play,5,0,mejir101,00,.X,63
 play,5,0,mazeb101,12,BCSFFX,S5
-com,"$high throw took 2 off"
 play,5,0,foilh101,22,.SBFFBS,K
 play,5,0,law-v101,11,BSX,S8/L.1-2
 play,5,0,virdb101,10,BX,S9/L.2-H;1-3
@@ -1817,7 +1778,6 @@ play,5,1,demed101,01,CX,13.1-2
 play,5,1,zimmd101,10,BX,9
 play,6,0,klust101,12,CBFX,S8/L
 play,6,0,thomf103,01,CX,HR/F7.1-H
-com,"$screen"
 play,6,0,mejir101,00,.,NP
 sub,roebe101,"Ed Roebuck",1,9,1
 play,6,0,mejir101,02,..CFS,K
@@ -1825,7 +1785,6 @@ play,6,0,mazeb101,12,SBFF,FLE5
 play,6,0,mazeb101,12,SBFF.X,D7
 play,6,0,foilh101,30,BBBB,W
 play,6,0,law-v101,00,X,HR/F7.2-H(UR);1-H
-com,"$screen - short"
 play,6,0,virdb101,00,.,NP
 sub,collj102,"Jackie Collum",1,9,1
 play,6,0,virdb101,11,..BFX,D9/L
@@ -1937,10 +1896,8 @@ play,1,1,cimog101,12,CCBS,K
 play,1,1,nealc101,01,CX,S8/L
 play,1,1,hodgg101,22,SFBB>FX,63
 play,2,0,thomf103,32,CFBBBFX,S7/L
-com,"$screen"
 play,2,0,clemr101,10,.BX,9
 play,2,0,mazeb101,31,BBBCX,D7/F78.1-3
-com,"$far right of screen"
 play,2,0,foilh101,30,.IIII,IW
 play,2,0,danib102,00,X,S9/G.3-H;2-H;1-3
 play,2,0,mejir101,00,X,T9/F.3-H;1-H
@@ -1953,7 +1910,6 @@ play,2,1,zimmd101,11,BCX,8
 play,3,0,thomf103,22,BSFFBX,S7/G
 play,3,0,clemr101,00,X,8
 play,3,0,mazeb101,31,BBBCX,S4/F4MD.1-2
-com,"$dropped in CF"
 play,3,0,foilh101,22,.FBSBS,K
 play,3,0,danib102,12,BSCC,K
 play,3,1,rosej101,31,BBBCB,W
@@ -1981,7 +1937,6 @@ sub,raydc101,"Curt Raydon",0,9,1
 play,4,1,cimog101,11,..CBX,D7/L.3-H
 play,4,1,nealc101,12,BSFS,K
 play,5,0,klust101,31,BBBCX,S7/F
-com,"$screen"
 play,5,0,thomf103,00,.X,6(1)3/GDP
 play,5,0,clemr101,10,BX,13
 play,5,1,hodgg101,00,X,7
@@ -1992,10 +1947,9 @@ play,6,0,foilh101,22,FFBBS,K
 play,6,0,raydc101,00,,NP
 sub,pendj101,"Jim Pendleton",0,9,11
 play,6,0,pendj101,12,.SBSX,S7/L
-com,"$screen"
 play,6,0,mejir101,00,.,NP
 sub,labic101,"Clem Labine",1,9,1
-com,"$Podres shoulder hurt"
+com,"$Johnny Podres left with injured shoulder"
 play,6,0,mejir101,01,...FX,54(1)/FO
 play,6,1,zimmd101,00,,NP
 sub,blacr101,"Ron Blackburn",0,9,1
@@ -2115,10 +2069,8 @@ play,3,1,cimog101,12,BFCFFX,S7/L.1-3
 play,3,1,snidd101,00,X,8
 play,4,0,mejir101,10,BX,53
 play,4,0,groad101,00,X,HR/F7
-com,"$screen short"
 play,4,0,skinb101,10,.BX,7
 play,4,0,stevr101,00,X,HR/F7
-com,"$screen"
 play,4,0,thomf103,20,.BBX,53
 play,4,1,hodgg101,31,BBCBX,5/L
 play,4,1,nealc101,02,CCX,53
@@ -2148,7 +2100,6 @@ sub,bessd101,"Don Bessent",1,9,1
 play,7,0,mejir101,12,.CCBS,K
 play,7,1,nealc101,22,CSBBC,K
 play,7,1,jackr102,11,BFX,HR/F78
-com,"$extreme right of screen"
 play,7,1,zimmd101,11,.BF,NP
 sub,facer101,"Roy Face",0,9,1
 play,7,1,zimmd101,12,.BF.FX,8
@@ -2170,7 +2121,6 @@ play,9,0,clemr101,21,CBBX,S9/L
 play,9,0,mazeb101,11,CBX,5
 play,9,0,foilh101,11,FBX,3
 play,9,1,hodgg101,01,FX,S7/F
-com,"$screen"
 play,9,1,nealc101,22,.CBFFBFFFS,K
 play,9,1,jackr102,02,CSX,2/FL
 play,9,1,zimmd101,11,BFX,S7/L.1-2
@@ -2234,11 +2184,9 @@ start,zimmd101,"Don Zimmer",1,7,6
 start,rosej101,"John Roseboro",1,8,2
 start,erskc101,"Carl Erskine",1,9,1
 play,1,0,ashbr101,21,CBBX,D/L78
-com,"$screen, right edge"
 play,1,0,phild102,12,.BCFS,K
 play,1,0,andeh101,12,BFFB,SB3
 play,1,0,andeh101,22,BFFB.X,D7/F.3-H
-com,"$screen"
 play,1,0,postw101,10,.BX,53
 play,1,0,hamng102,02,CFX,S6.2XH(6E2)(UR)
 play,1,0,lopas101,10,BX,53
@@ -2264,7 +2212,6 @@ play,3,0,hamng102,31,BBBCX,D8/L.3-H;1-H
 play,3,0,lopas101,00,,NP
 sub,crair101,"Roger Craig",1,9,1
 play,3,0,lopas101,22,.CBFBX,HR/F78.2-H
-com,"$screen"
 play,3,0,kazat101,21,.BCBX,E5/G
 play,3,0,fernc102,11,CBB,SB2
 play,3,0,fernc102,21,CBB.X,9
@@ -2309,8 +2256,7 @@ play,7,0,lopas101,20,BBX,S9/L.1-3
 play,7,0,kazat101,00,X,7(B)54(1)/DP
 play,7,1,cimog101,12,SCBFX,8
 play,7,1,snidd101,01,CX,43
-play,7,1,hodgg101,00,X,E5/TH
-com,"$bobbled, then high throw"
+play,7,1,hodgg101,00,X,E5/TH1
 play,7,1,nealc101,11,.BFX,HR/L78.1-H(UR);B-H(UR)
 play,7,1,jackr102,11,BCX,43
 play,8,0,fernc102,00,X,S9/F
@@ -2420,7 +2366,6 @@ play,3,1,mcded101,12,BFSFS,K
 play,3,1,gillj102,32,CBCBBB,W
 play,3,1,cimog101,12,CBFX,7
 play,3,1,nealc101,02,CSX,HR/7.1-H
-com,"$screen - deep"
 play,3,1,hodgg101,20,.BBX,5/FL
 play,4,0,essec101,12,FFFBX,63
 play,4,0,hamng102,00,X,63
@@ -2428,7 +2373,6 @@ play,4,0,repur101,10,BX,S8/L
 play,4,0,jonew101,02,FCX,8
 play,4,1,furic101,22,BBFFX,63
 play,4,1,jackr102,01,CX,D7/F
-com,"$screen"
 play,4,1,zimmd101,00,.X,S8/F.2-3;B-2(TH)
 play,4,1,walkr101,30,IIII,IW
 play,4,1,mcded101,21,BBCX,6
@@ -2436,7 +2380,6 @@ play,4,1,gillj102,00,X,T9/L.3-H;2-H;1-H
 play,4,1,cimog101,00,,NP
 sub,millb103,"Bob Miller",0,9,1
 play,4,1,cimog101,21,.CBBP,CSH(12)#
-com,"xRoth shows an assist to the pitcher here - I doubt it"
 play,5,0,kazat101,01,.CX,S8/L
 play,5,0,fernc102,32,CLBBBX,64(1)3/GDP
 play,5,0,lonnj101,02,CFC,K
@@ -2444,12 +2387,10 @@ play,5,1,cimog101,31,BBBCX,8
 play,5,1,nealc101,00,X,S7/L
 play,5,1,hodgg101,12,CBFX,S6.1-2
 play,5,1,furic101,21,BCBX,D7/L.2-H;1-3
-com,"$screen"
 play,5,1,jackr102,00,.,NP
 sub,hearj102,"Jim Hearn",0,9,1
 play,5,1,jackr102,30,..IIII,IW
 play,5,1,zimmd101,21,SBBX,S7/F.3-H;2-H;1-2
-com,"$screen - high"
 play,5,1,walkr101,11,.BFX,D7/F.2-H;1-3
 play,5,1,mcded101,00,X,S7/L.3-H;2-3
 play,5,1,gillj102,00,,NP
@@ -2474,14 +2415,12 @@ play,6,1,jackr102,00,,NP
 sub,lipea101,"Angelo LiPetri",0,9,1
 play,6,1,jackr102,31,.BCBBX,S5
 play,6,1,zimmd101,01,FX,HR/F78.1-H
-com,"$extreme right of screen"
 play,6,1,walkr101,02,.CSX,9
 play,6,1,mcded101,02,SFX,43
 play,6,1,gillj102,01,CX,43
 play,7,0,jonew101,30,BBBB,W
 play,7,0,kazat101,12,CFBX,S1.1-2
 play,7,0,fernc102,00,X,S9/F.2-3;1-2
-com,"$3 lost in sun"
 play,7,0,lonnj101,00,.X,8/SF.3-H
 play,7,0,lipea101,00,,NP
 sub,postw101,"Wally Post",0,9,11
@@ -2490,7 +2429,6 @@ play,7,0,ashbr101,21,CBBX,63
 play,7,1,demed101,00,,NP
 sub,mores101,"Seth Morehead",0,9,1
 play,7,1,demed101,22,.CBBCX,D/F78
-com,"$screen"
 play,7,1,nealc101,32,.BBSFBX,4
 play,7,1,hodgg101,32,BFBCFBX,2/FL
 play,7,1,furic101,21,FBBX,S7/G.2-H
@@ -2573,11 +2511,9 @@ start,drysd101,"Don Drysdale",1,9,1
 play,1,0,ashbr101,32,BBCBCX,5E3
 play,1,0,phild102,22,BBCFX,S7/L.1-3;B-2(TH)
 play,1,0,andeh101,00,X,FC6/THH.3-3;2-2;B-1
-com,"$Roth indicates throw home, but no advances or outs"
 play,1,0,postw101,32,.CBSFBBB,W.3-H(UR);2-3;1-2
 play,1,0,hamng102,21,BBSX,T9/L.3-H;2-H;1-H
 play,1,0,lopas101,11,BCX,S8/L78.3-H;BX2(84)
-com,"$off screen"
 play,1,0,kazat101,20,.BBX,53
 play,1,0,fernc102,32,BSBFBX,4
 play,1,1,gillj102,11,CBX,8
@@ -2592,7 +2528,6 @@ play,2,0,andeh101,22,BB..CFX,8/8D
 play,2,1,hodgg101,22,BBCCFS,K
 play,2,1,grayd102,32,CFBBBFB,W
 play,2,1,furic101,21,BBCX,S7/L.1-3
-com,"$screen"
 play,2,1,zimmd101,11,.BFX,64(1)3/GDP
 play,3,0,postw101,32,BCFBBB,W
 play,3,0,hamng102,11,BCS,CS2(24)
@@ -2615,15 +2550,12 @@ play,4,1,hodgg101,31,SBBBB,W.1-2
 play,4,1,grayd102,00,B,WP.2-3;1-2
 play,4,1,grayd102,21,B.CBX,63.3-H;2-3
 play,4,1,furic101,00,X,HR/F78.3-H
-com,"$screen"
 play,4,1,zimmd101,32,.BBCSBB,W
 play,4,1,walkr101,00,X,46(1)3/GDP
 play,5,0,andeh101,12,BSSFX,S9/F
 play,5,0,postw101,21,BCBX,54(1)/FO
 play,5,0,hamng102,21,CBBX,HR/L7.1-H
-com,"$screen"
 play,5,0,lopas101,21,.BCBX,HR/F7
-com,"$screen - deep"
 play,5,0,kazat101,32,.BCFBBB,W
 play,5,0,fernc102,01,CX,16(1)3/GDP
 play,5,1,collj102,00,,NP
@@ -2758,9 +2690,7 @@ play,4,0,postw101,22,CBSBFS,K
 play,4,0,lopas101,32,BBCCFFBS,K
 play,4,1,snidd101,11,CBX,S8/L
 play,4,1,hodgg101,20,BBX,D7/G.1-3
-com,"$deflected by third baseman"
 play,4,1,nealc101,01,.FX,S6/G6M.3-H;2-3
-com,"$Roth says: '6-4 collided'"
 play,4,1,furic101,12,.CFBX,43.3-H;1-2
 play,4,1,grayd102,02,CCX,63.2-3
 play,4,1,walkr101,30,IIII,IW
@@ -2789,7 +2719,6 @@ play,6,0,herrp101,00,.,NP
 sub,andeh101,"Harry Anderson",0,6,11
 play,6,0,andeh101,00,..X,S8/F.3-H;2-H;1-3
 play,6,0,kazat101,22,CBBFX,HR/F7.3-H;1-H
-com,"$screen shot"
 play,6,0,fernc102,00,.X,63
 play,6,0,grayj101,00,X,43
 play,6,0,ashbr101,00,X,S6
@@ -2806,7 +2735,6 @@ play,6,1,walkr101,12,CBSS,K
 play,6,1,labic101,00,,NP
 sub,valoe101,"Elmer Valo",1,9,11
 play,6,1,valoe101,31,.BFBBX,7
-com,"$short"
 play,6,1,gillj102,21,.BBSX,13/BG
 play,7,0,postw101,00,,NP
 sub,roebe101,"Ed Roebuck",1,9,1
@@ -2834,7 +2762,6 @@ play,9,1,larkn101,12,.CBCS,K
 play,9,1,gillj102,32,BBFBCB,W
 play,9,1,zimmd101,12,FBFS,K
 play,9,1,snidd101,01,FB,SB2
-com,"$Roth says: 'Farrell wind up'"
 play,9,1,snidd101,22,FB..BFFX,S9/L.2-H
 play,9,1,hodgg101,12,SBSFX,S7/G.1-2
 play,9,1,nealc101,22,BCFBS,K
@@ -2883,7 +2810,6 @@ play,14,1,hodgg101,22,.BBFCX,54(1)3/GDP
 play,14,1,nealc101,10,BF,FLE2
 play,14,1,nealc101,31,BF.BBB,W
 play,14,1,furic101,01,F>X,S7/F.1-H(UR)
-com,"$off screen. Apparently Furillo stopped running at 1B"
 data,er,sanfj101,3
 data,er,grayj101,2
 data,er,farrt101,1
@@ -2972,7 +2898,6 @@ play,3,1,nealc101,32,BBFBCB,W.1-2
 play,3,1,hodgg101,10,BX,6
 play,3,1,furic101,10,BX,HR/L8.2-H;1-H
 play,3,1,grayd102,00,X,S/F78
-com,"$screen"
 play,3,1,demed101,01,.FX,64(1)/FO
 play,4,0,hamng102,31,BFBBB,W
 play,4,0,lopas101,21,BFBX,54(1)3/GDP
@@ -2992,10 +2917,8 @@ play,5,1,hodgg101,12,FBCX,S9/L
 play,5,1,furic101,00,X,64(1)3/GDP
 play,6,0,hamng102,10,BX,63
 play,6,0,lopas101,10,BX,HR/F78
-com,"$screen - short"
 play,6,0,kazat101,32,.CBBCBB,W
 play,6,0,fernc102,32,BCBBCX,S7/F.1-3;B-2(TH)
-com,"$screen; Roth said D but film,Lewis S"
 play,6,0,simmc101,12,.CFBC,K
 play,6,0,ashbr101,30,BBBB,W
 play,6,0,phild102,01,SX,9
@@ -3006,7 +2929,6 @@ play,6,1,kippf101,00,X,S7/G.1-2
 play,6,1,gillj102,21,CBBX,8
 play,7,0,essec101,10,BX,S7/G.BX2(74)
 play,7,0,postw101,22,SBFBX,S9/F
-com,"$checked swing"
 play,7,0,hamng102,12,.FBFX,D7/L.1-3
 play,7,0,lopas101,00,,NP
 sub,labic101,"Clem Labine",1,9,1
@@ -3022,7 +2944,6 @@ play,7,1,grayd102,22,BFCBX,8
 play,8,0,ashbr101,10,BX,3/G
 play,8,0,phild102,31,BFBBB,W
 play,8,0,essec101,32,BBFFBX,S7/L.1-3
-com,"$screen"
 play,8,0,postw101,12,.CBFX,9/SF.3-H
 play,8,0,hamng102,00,X,T9/F.1-H
 play,8,0,lopas101,00,,NP
@@ -3036,7 +2957,6 @@ play,8,1,pignj101,22,CBBFX,7/L
 play,8,1,newcd101,00,,NP
 sub,jackr102,"Randy Jackson",1,9,11
 play,8,1,jackr102,22,.CCBBX,S/F78
-com,"$screen"
 play,8,1,gillj102,32,.BLCBBX,7
 play,9,0,fernc102,00,,NP
 sub,sherl101,"Larry Sherry",1,9,1
@@ -3047,7 +2967,6 @@ play,9,0,ashbr101,11,FBX,5/FL
 play,9,1,zimmd101,02,FCX,63
 play,9,1,nealc101,30,BBBB,W
 play,9,1,hodgg101,21,BCBX,S7/L.1-2
-com,"$screen"
 play,9,1,furic101,21,.BBCX,54(1)3/GDP
 data,er,simmc101,3
 data,er,kippf101,5
@@ -3153,7 +3072,6 @@ play,5,0,davej101,32,CBBCBFB,W
 play,5,0,tausd101,20,BB,NP
 sub,roebe101,"Ed Roebuck",1,9,1
 play,5,0,tausd101,32,BB.CSBFB,W.3-H(UR);2-3;1-2
-com,"xWalk (and subsequent unearned run) charged to Bessent."
 play,5,0,maysw101,00,X,HR/7.3-H(UR);2-H(UR);1-H(UR);B-H(UR)
 play,5,0,saueh101,00,X,6
 play,5,1,grayd102,21,BFBX,63
@@ -3169,7 +3087,6 @@ play,6,0,schmb101,31,BCBBX,S7/L.1-3
 play,6,0,ocond101,01,FX,S8/L.1-2;3-H
 play,6,0,gomer101,00,X,3/FL
 play,6,0,davej101,22,BFBCX,E5.2-H(NR)(UR);B-2(E5);1X3(35)
-com,"$Gray was charged with 2 errors on the play."
 play,6,1,gillj102,01,CX,13
 play,6,1,zimmd101,11,BFX,53
 play,6,1,snidd101,22,CBFBX,43
@@ -3265,7 +3182,6 @@ play,1,0,davej101,31,BBBCB,W
 play,1,0,tausd101,12,BSFFX,4
 play,1,0,maysw101,11,BSX,HR/F8.1-H
 play,1,0,saueh101,22,BSFBX,E5
-com,"$lost in sun"
 play,1,0,cepeo101,10,.BX,S8.1-2
 play,1,0,spend101,12,CFBX,T9/L.2-H(UR);1-H
 play,1,0,schmb101,22,FFBFBFC,K
@@ -3273,7 +3189,6 @@ play,1,0,ocond101,21,BCBX,S5.3-H(UR)
 play,1,0,mccom103,00,X,13
 play,1,1,gillj102,31,BBBCB,W
 play,1,1,cimog101,02,C>FH,HP.1-2
-com,"$left arm"
 play,1,1,nealc101,32,.BCBBFS,K
 play,1,1,furic101,21,BCBX,HR/F78.2-H;1-H
 play,1,1,hodgg101,00,X,S7/L
@@ -3307,7 +3222,6 @@ play,3,0,tausd101,10,BX,13
 play,3,1,hodgg101,00,,NP
 sub,worta101,"Al Worthington",0,9,1
 play,3,1,hodgg101,00,.X,HR/F7
-com,"$screen"
 play,3,1,grayd102,20,.BBX,8
 play,3,1,zimmd101,11,BSX,E5/TH
 play,3,1,pignj101,11,BSH,HP.1-2
@@ -3316,15 +3230,12 @@ play,3,1,gillj102,31,CBBBX,43
 play,4,0,maysw101,21,FBBX,T8/F
 play,4,0,saueh101,31,BCBBB,W
 play,4,0,cepeo101,00,X,S7/L.3-H;1-2
-com,"$screen"
 play,4,0,spend101,00,.,NP
 sub,roebe101,"Ed Roebuck",1,9,1
 play,4,0,spend101,11,..BCX,HR/F7.2-H;1-H
-com,"$screen"
 play,4,0,schmb101,22,.FCBFBFX,S8/L
 play,4,0,ocond101,02,CFFFX,S7/L.1-2
 play,4,0,worta101,02,MLX,35(2)6(1)/BG/GDP
-com,"$Roth says: 'pop bunt, 3 let drop'"
 play,4,0,davej101,32,.FFBBBB,W.1-2
 play,4,0,tausd101,12,CFBS,K
 play,4,1,cimog101,00,X,2/FL
@@ -3335,11 +3246,8 @@ play,5,0,saueh101,02,SCFB,SB2
 play,5,0,saueh101,12,SCFB.X,2/FL
 play,5,0,cepeo101,01,CB,CS3(25)
 play,5,0,cepeo101,21,CB.BX,HR/F78
-com,"$screen - short"
 play,5,0,spend101,00,.X,D7/F
-com,"$high on screen"
 play,5,0,schmb101,00,.X,D7/F.2-H
-com,"$screen"
 play,5,0,ocond101,12,.BFFX,8
 play,5,1,hodgg101,22,BBCFX,S7/L
 play,5,1,grayd102,32,CBFBBB,W.1-2
@@ -3353,9 +3261,7 @@ play,6,0,worta101,00,,NP
 sub,koufs101,"Sandy Koufax",1,9,1
 play,6,0,worta101,12,.BCFX,3/G
 play,6,0,davej101,10,BX,D7/L
-com,"$screen"
 play,6,0,tausd101,11,.CBX,S9/F.2-3
-com,"$bloop"
 play,6,0,maysw101,32,.BCSBBB,W.1-2
 play,6,0,saueh101,32,BBFBFB,W.3-H;2-3;1-2
 play,6,0,cepeo101,00,,NP
@@ -3373,10 +3279,8 @@ play,6,1,grayd102,00,X,43
 play,7,0,spend101,00,,NP
 sub,valoe101,"Elmer Valo",1,4,9
 play,7,0,spend101,20,.BBX,HR/F7
-com,"$screen"
 play,7,0,schmb101,10,.BX,53
 play,7,0,ocond101,32,BCBCFBX,S7/L
-com,"$screen"
 play,7,0,worta101,00,.X,16(1)/FO/BG
 play,7,0,davej101,22,CBCFBC,K
 play,7,1,zimmd101,00,X,E6/TH.B-2
@@ -3564,7 +3468,8 @@ play,9,0,robif103,21,BFBX,16(1)3/GDP
 play,9,1,hodgg101,22,BFBFS,K
 play,9,1,grayd102,12,CBFX,E5/TH
 play,9,1,nealc101,31,BBCBB,W.1-2
-com,"$Hoak ejected"
+com,"ej,hoakd101,P,jackb901,Balls and strikes"
+com,"Don Hoak ejected by 1B umpire Bill Jackowski"
 play,9,1,zimmd101,00,.,NP
 sub,mcmir101,"Roy McMillan",0,5,6
 play,9,1,zimmd101,00,..,NP
@@ -3665,7 +3570,6 @@ play,4,0,bilks101,32,FCBFBBS,K
 play,4,0,hoakd101,10,BX,63
 play,4,1,grayd102,00,X,63
 play,4,1,nealc101,22,CBBFX,HR/F7
-com,"$screen"
 play,4,1,zimmd101,32,.BSBFBS,K
 play,4,1,podrj101,01,CX,3/G
 play,5,0,whisp101,11,BFX,63
@@ -3776,11 +3680,9 @@ start,zimmd101,"Don Zimmer",1,8,6
 start,erskc101,"Carl Erskine",1,9,1
 play,1,0,tempj101,11,CBX,9
 play,1,0,robif103,11,CBX,DGR/F8XD
-com,"$bounced over fence"
 play,1,0,lyncj102,21,.BBFX,8
 play,1,0,crowg101,01,SB,WP.2-3
 play,1,0,crowg101,11,SB.X,T9/L89.3-H
-com,"$8 missed dive"
 play,1,0,hoakd101,31,.CBBBB,W
 play,1,0,baile101,12,BFFS,K
 play,1,1,gillj102,31,BBBCB,W
@@ -3792,7 +3694,6 @@ play,1,1,grayd102,01,CX,6/L
 play,2,0,bellg103,00,X,13
 play,2,0,mcmir101,00,X,53
 play,2,0,purkb101,22,BCCBFX,HR/F7
-com,"$screen"
 play,2,0,tempj101,32,.CBFBFBX,63
 play,2,1,nealc101,01,CX,S8/G
 play,2,1,zimmd101,01,SX,7
@@ -3803,7 +3704,6 @@ play,3,0,lyncj102,11,BFX,S5/BG.1-2
 play,3,0,crowg101,00,X,53/SH.2-3;1-2
 play,3,0,hoakd101,31,BFBBX,FC5.3XH(52);2-2;B-1
 play,3,0,baile101,01,FX,S7/F.2-H;1-3;BX2(74)
-com,"$screen - high"
 play,3,1,rosej101,32,.BSBBFX,D9/L
 play,3,1,snidd101,00,X,6
 play,3,1,furic101,31,BBBFB,W
@@ -3816,7 +3716,6 @@ play,4,0,tempj101,00,,NP
 sub,bessd101,"Don Bessent",1,9,1
 play,4,0,tempj101,00,.X,T9/L.3-H(UR);2-H
 play,4,0,robif103,11,.CBX,S7/G.3-H
-com,"$screen"
 play,4,0,lyncj102,00,.,NP
 sub,kippf101,"Fred Kipp",1,9,1
 play,4,0,lyncj102,00,..,NP
@@ -3831,7 +3730,6 @@ play,4,1,kippf101,12,FBFX,13
 play,5,0,hoakd101,00,X,8
 play,5,0,baile101,21,CBBX,31
 play,5,0,bellg103,11,BSX,S7/L
-com,"$screen"
 play,5,0,mcmir101,00,.X,2/FL
 play,5,1,gillj102,32,CBBBCX,3/G
 play,5,1,rosej101,00,X,9
@@ -3839,14 +3737,12 @@ play,5,1,snidd101,21,BFBX,3/G
 play,6,0,purkb101,32,BCBSBFFX,53
 play,6,0,tempj101,11,BCX,9/FL
 play,6,0,robif103,00,X,S7/F
-com,"$screen"
 play,6,0,whisp101,02,.CFFS,K
 play,6,1,furic101,00,X,63
 play,6,1,hodgg101,11,BFX,2/FL
 play,6,1,grayd102,12,CSFBFX,53
 play,7,0,crowg101,21,BBCX,6
 play,7,0,hoakd101,11,FBX,HR/F7
-com,"$screen - short"
 play,7,0,baile101,12,.CBFX,63
 play,7,0,bellg103,22,BFBCFFS,K
 play,7,1,nealc101,10,BX,E6/TH
@@ -3858,10 +3754,9 @@ play,7,1,gillj102,11,BCX,3/G
 play,8,0,mcmir101,00,,NP
 sub,roebe101,"Ed Roebuck",1,9,1
 play,8,0,mcmir101,21,.BBCX,D/F78
-com,"$screen"
 play,8,0,purkb101,01,.LX,63
 play,8,0,tempj101,10,BX,23.2-H
-com,"$6 scored from 2nd as 5 late in covering & 2 out of position"
+com,"$John Roseboro out of position after fielding the ball"
 play,8,0,robif103,00,.X,7
 play,8,1,rosej101,00,X,S9/G
 play,8,1,snidd101,12,FBFFX,3(B)6(1)/GDP
@@ -3942,7 +3837,6 @@ play,1,1,furic101,11,FB>X,S7/L.1-2
 play,1,1,grayd102,01,FX,9/L
 play,1,1,nealc101,22,BSFBX,3
 play,2,0,torrf102,12,FBFH,HP
-com,"$knicked thigh"
 play,2,0,haneh101,00,.X,46(1)3/GDP
 play,2,0,logaj101,10,BX,53
 play,2,1,hodgg101,22,CBSBX,S5
@@ -3978,7 +3872,6 @@ play,6,0,mathe101,22,BFSFFBX,6
 play,6,0,torrf102,00,X,46(1)3/GDP
 play,6,1,cimog101,22,SBFBFFX,7
 play,6,1,furic101,21,BBFX,HR/F78
-com,"$extreme right edge of screen"
 play,6,1,grayd102,01,.CX,63
 play,6,1,nealc101,20,BBX,53
 play,7,0,haneh101,10,BX,S9/G
@@ -4009,7 +3902,7 @@ play,8,1,furic101,00,X,S7/L.1-2
 play,8,1,grayd102,00,X,T9/F.2-H;1-H
 play,8,1,nealc101,00,,NP
 sub,reesp101,"Peewee Reese",1,4,12
-com,"$Gray pulled muscle"
+com,"$Dick Gray left with pulled muscle"
 play,8,1,nealc101,00,..,NP
 sub,mcmad102,"Don McMahon",0,9,1
 play,8,1,nealc101,22,...CBBSS,K
@@ -4022,7 +3915,6 @@ play,9,0,logaj101,22,..CBFFBX,63
 play,9,0,brutb101,22,BFFBX,43
 play,9,0,crand102,31,FBBBX,63
 play,9,1,zimmd101,21,BFBX,HR/F7
-com,"$screen"
 data,er,rushb101,3
 data,er,mcmad102,1
 data,er,drysd101,3
@@ -4080,21 +3972,18 @@ start,zimmd101,"Don Zimmer",1,7,6
 start,cimog101,"Gino Cimoli",1,8,8
 start,koufs101,"Sandy Koufax",1,9,1
 play,1,0,mantf101,22,CSBFBX,D7/F
-com,"$screen"
 play,1,0,aaroh101,00,.X,8
 play,1,0,mathe101,02,CCS,K
 play,1,0,adcoj101,22,SBSBC,K
 play,1,1,gillj102,22,CFBFFBFX,7/7D
 play,1,1,reesp101,22,CCBBX,53
 play,1,1,rosej101,22,BFFBX,T8/F78
-com,"$off screen"
 play,1,1,furic101,11,.BFX,63
 play,2,0,roacm101,02,CFX,S8/L
 play,2,0,logaj101,22,BBCFX,5/FL
 play,2,0,pafka101,32,FCBBBB,W.1-2
 play,2,0,crand102,32,CBCBFBX,S7/L.2-3;1-2
 play,2,0,burdl101,32,BBBCCX,16(1)3/GDP
-com,"xDWS: Roth says 'off 1', but I'm not sure this is a GDP-check"
 play,2,1,nealc101,00,.X,S8/L
 play,2,1,hodgg101,11,BSX,S7/L.1-3(E7);B-2
 play,2,1,zimmd101,11,BCX,13
@@ -4128,9 +4017,7 @@ play,5,1,hodgg101,11,BSX,53
 play,6,0,aaroh101,31,BBCBX,7
 play,6,0,mathe101,21,BBCX,S9/L
 play,6,0,adcoj101,10,BX,S7/L.1-3
-com,"$screen"
 play,6,0,roacm101,11,.BCX,E1/TH.1-2
-com,"$Roth says: 'DP ball'"
 play,6,0,logaj101,02,.FCS,K+WP.3-H;2-3;1-2
 play,6,0,pafka101,10,BX,6/L
 play,6,1,zimmd101,11,FBX,S8/G
@@ -4147,7 +4034,6 @@ play,7,0,trowb101,00,,NP
 sub,riced101,"Del Rice",0,9,11
 play,7,0,riced101,32,.BBCFBC,K
 play,7,0,mantf101,22,FBSBX,HR/F7
-com,"$screen"
 play,7,0,aaroh101,02,.FFC,K
 play,7,1,nealc101,00,,NP
 sub,robih101,"Humberto Robinson",0,9,1
@@ -4244,17 +4130,15 @@ play,1,1,zimmd101,22,.FBBFC,K
 play,1,1,cimog101,10,BX,9
 play,2,0,adcoj101,10,BX,S8/L
 play,2,0,logaj101,22,BBCFX,S7/F.1-2
-com,"$screen"
 play,2,0,pafka101,22,.BBFFFX,5(2)/FO.1-2
 play,2,0,crand102,12,SCBS,K
 play,2,0,jay-j101,02,SCS,K
 play,2,1,podrj101,31,BFBBB,W
 play,2,1,gillj102,12,BCCX,D9/F.1-3
 play,2,1,reesp101,12,CBSX,S8/F89.3-H;2XH(5);B-2(TH)
-com,"$Gilliam overran 3rd; Roth had 85 but TSN and film no A for Aaron"
+com,"$Jim Gilliam rounded 3B too far"
 play,2,1,rosej101,00,.X,T9/F.2-H
 play,2,1,furic101,12,FFBX,S7/L.3-H
-com,"$screen"
 play,2,1,nealc101,00,.,NP
 sub,johne101,"Ernie Johnson",0,9,1
 play,2,1,nealc101,00,..X,2/FL
@@ -4272,11 +4156,9 @@ play,3,1,gillj102,10,BX,5/FL
 play,4,0,logaj101,31,BBBCB,W
 play,4,0,pafka101,21,CBBX,7
 play,4,0,crand102,21,BBSX,HR/F7.1-H
-com,"$screen"
 play,4,0,johne101,02,.CFS,K
 play,4,0,mantf101,00,X,63
 play,4,1,reesp101,00,X,D/F78
-com,"$screen"
 play,4,1,rosej101,02,.CFS,K
 play,4,1,furic101,02,CFFX,S6.2-3
 play,4,1,nealc101,01,FX,4
@@ -4286,7 +4168,6 @@ play,4,1,cimog101,01,SX,13
 play,5,0,roacm101,31,BBBCB,W
 play,5,0,mathe101,12,FBSX,6(1)3/GDP
 play,5,0,aaroh101,32,BFBBCX,HR/F78
-com,"$screen"
 play,5,0,adcoj101,02,.CSX,13
 play,5,1,podrj101,00,X,53
 play,5,1,gillj102,21,BCBX,9
@@ -4299,7 +4180,6 @@ play,6,1,furic101,00,X,S9/F
 play,6,1,nealc101,22,BBFFX,D7/L.1-3
 play,6,1,hodgg101,30,IIII,IW
 play,6,1,zimmd101,00,X,S7/F.3-H;2-H;1-3
-com,"$screen"
 play,6,1,cimog101,00,.X,64(1)/FO.3-H
 play,6,1,podrj101,01,FX,3/G
 play,7,0,johne101,00,,NP
@@ -4404,7 +4284,7 @@ play,2,1,gillj102,10,BX,9
 play,2,1,reesp101,00,B,WP.1-2
 play,2,1,reesp101,11,B.CX,43
 play,3,0,lonnj101,00,X,563
-com,"$5 leaped and deflected ball to 6"
+com,"$the ball caromed off Peewee Reese"
 play,3,0,sempr101,00,.X,S7/L
 play,3,0,ashbr101,12,CBFX,9
 play,3,0,hemus101,22,BBCCX,9
@@ -4446,7 +4326,6 @@ play,7,0,lonnj101,00,X,9
 play,7,0,sempr101,02,CSS,K
 play,7,0,ashbr101,00,X,S5/BG
 play,7,0,hemus101,00,S,SB2
-com,"$no throw on SB - 2 dropped"
 play,7,0,hemus101,11,S..BX,9
 play,7,1,reesp101,21,BCBX,63
 play,7,1,snidd101,10,BX,D8/L
@@ -4527,11 +4406,9 @@ play,1,0,repur101,02,CCC,K
 play,1,1,gillj102,12,CFFBX,6
 play,1,1,reesp101,00,X,1/L
 play,1,1,nealc101,21,BBFX,T9/L.B-H(E4)(UR)
-com,"$bad hop over 5 on relay"
 play,1,1,furic101,00,.X,9
 play,2,0,postw101,02,FFX,T9/L
 play,2,0,jonew101,02,CFX,S7/L.3-H
-com,"$high on screen"
 play,2,0,fernc102,01,.FX,S8/L.1-2
 play,2,0,lonnj101,10,BX,64(1)3/GDP.2-3
 play,2,0,simmc101,11,FBX,S9/G.3-H
@@ -4549,17 +4426,19 @@ play,3,0,fernc102,22,CBBCS,K
 play,3,1,drysd101,00,X,S7/L
 play,3,1,gillj102,10,BX,64(1)/FO
 play,3,1,reesp101,21,BCBX,S9/L.1-2
+com,"ej,nealc101,P,conlj102,Balls and strikes"
+com,"Charlie Neal ejected by HP umpire Jocko Conlan"
+com,"with 2-2 count"
 play,3,1,nealc101,22,BFBC,NP
 sub,jackr102,"Randy Jackson",1,3,11
-com,"$Neal ejected by Conlan"
 play,3,1,jackr102,22,BFBC..B,SB3;SB2
 play,3,1,jackr102,32,BFBC..B.B,W
-com,"$Podres ejected"
+com,"ej,podrj101,P,conlj102,Bench jockeying"
+com,"Johnny Podres ejected by HP umpire Jocko Conlan"
 play,3,1,furic101,00,.X,8/SF/8XD.3-H;2-H;1-2
 play,3,1,hodgg101,00,,NP
 sub,hearj102,"Jim Hearn",0,9,1
 play,3,1,hodgg101,01,.FX,HR/F7.2-H
-com,"$screen"
 play,3,1,zimmd101,22,.BFBFX,S5
 play,3,1,cimog101,12,FFBX,8
 play,4,0,lonnj101,00,,NP
@@ -4608,7 +4487,6 @@ play,8,0,bowmb102,20,.BBX,54(1)/FO
 play,8,1,jackr102,00,,NP
 sub,kazat101,"Ted Kazanski",0,7,6
 play,8,1,jackr102,20,.BBX,S7/L
-com,"$screen"
 play,8,1,furic101,00,.X,13/SH.1-2
 play,8,1,hodgg101,02,CFX,D8/F.2-H
 play,8,1,zimmd101,10,BX,S8/L.2-H
@@ -4686,8 +4564,8 @@ play,1,0,jonew101,21,BCBX,7
 play,1,1,gillj102,21,BBCX,S8/L
 play,1,1,reesp101,22,BFCBC,K
 play,1,1,snidd101,10,BX,S6.1-2
-play,1,1,furic101,21,CBBX,6/P
-com,"$6 lost in sun - out on infield fly rule"
+play,1,1,furic101,21,CBBX,6/P/IF
+com,"Chico Fernandez dropped the infield fly"
 play,1,1,rosej101,02,.CFB,WP.2-3;1-2
 play,1,1,rosej101,22,.CFB.FBX,S9/L.3-H;2XH(92)
 play,2,0,repur101,02,SSS,K
@@ -4698,7 +4576,7 @@ play,2,1,hodgg101,21,BBFX,S7/L
 play,2,1,nealc101,00,X,9
 play,2,1,zimmd101,22,SBFFBFFFX,S7/L.1-2
 play,2,1,wills102,10,BX,43.2-H(NR);1-2
-com,"$Hodges scored from 2nd while Zimmer safe in rundown"
+com,"$Gil Hodges scored while Don Zimmer in rundown"
 play,2,1,gillj102,22,.CBBFX,3/L
 play,3,0,ashbr101,21,BCBX,3/G
 play,3,0,hemus101,12,CBFX,3/G
@@ -4706,13 +4584,10 @@ play,3,0,andeh101,00,X,43
 play,3,1,reesp101,21,BCBX,3/FL
 play,3,1,snidd101,30,BBBB,W
 play,3,1,furic101,10,BX,S4/P4D.1-2
-com,"$4 lost in sun"
 play,3,1,rosej101,00,.X,S9/L.2-H;1-3;B-2(TH)
 play,3,1,hodgg101,01,SX,FC6/DP.3XH(62);2X3(258)
-com,"$great rundown for DP"
 play,4,0,postw101,12,.CBSX,63
 play,4,0,jonew101,32,BBFCFBX,D8/F78
-com,"$screen"
 play,4,0,repur101,02,.SSS,K
 play,4,0,fernc102,02,CFX,5
 play,4,1,nealc101,11,CBX,53
@@ -4722,9 +4597,7 @@ play,5,0,lonnj101,00,X,2/FL
 play,5,0,sanfj101,21,BBCX,63
 play,5,0,ashbr101,01,CX,S8/G
 play,5,0,hemus101,00,X,DGR/L9D.1-3
-com,"$bounced into stands"
 play,5,0,andeh101,00,.X,D8/F.3-H;2-H
-com,"$bloop between 4-9-8"
 play,5,0,postw101,00,.X,13
 play,5,1,gillj102,12,CBCX,9
 play,5,1,reesp101,01,FX,63
@@ -4865,7 +4738,6 @@ play,4,1,hodgg101,00,X,8
 play,4,1,nealc101,31,BBBCB,W
 play,4,1,zimmd101,00,X,43
 play,5,0,mejir101,32,BBBCFX,S7/L7DW
-com,"$screen"
 play,5,0,groad101,20,.BBX,T9/L.1-H
 play,5,0,stevr101,00,,NP
 sub,drysd101,"Don Drysdale",1,9,1
@@ -4885,7 +4757,6 @@ play,6,1,rosej101,20,BBX,2/FL
 play,7,0,mejir101,02,CFX,7
 play,7,0,groad101,01,CX,6/L
 play,7,0,stevr101,01,CH,HP
-com,"$left hip"
 play,7,0,thomf103,11,.CBX,54(1)/FO
 play,7,1,hodgg101,32,BBCBFB,W
 play,7,1,nealc101,20,BBX,S9/G.1-2
@@ -5005,7 +4876,6 @@ play,4,1,rosej101,11,CBX,43.3-H;1-2
 play,4,1,hodgg101,30,BBBB,W
 play,4,1,grayd102,02,SSC,K
 play,4,1,zimmd101,12,SSBFX,HR/F7.2-H;1-H
-com,"$screen-deep"
 play,4,1,podrj101,20,.BBX,63
 play,5,0,mazeb101,12,CCBX,53
 play,5,0,foilh101,22,SBBFS,K
@@ -5015,7 +4885,6 @@ play,5,1,nealc101,11,FBX,7/L
 play,5,1,snidd101,00,X,9
 play,6,0,virdb101,00,X,7
 play,6,0,mejir101,32,CBSBBFFX,D/F78
-com,"$screen"
 play,6,0,groad101,10,.BX,53.2-3
 play,6,0,stevr101,20,BBX,63
 play,6,1,furic101,02,FFX,5/L
@@ -5048,7 +4917,8 @@ play,8,1,rosej101,00,,NP
 sub,jackr102,"Randy Jackson",1,5,11
 play,8,1,jackr102,10,.BB,WP.1-2
 play,8,1,jackr102,32,.BB.BCFB,W
-com,"$Murtaugh ejected"
+com,"ej,murtd101,M,jackb901,Balls and strikes"
+com,"Pirates Manager Danny Murtaugh ejected by HP umpire Bill Jackowski"
 play,8,1,hodgg101,22,.BCCBFX,54(1)3/GDP.2-3
 play,8,1,grayd102,02,CCFFS,K
 play,9,0,thomf103,00,,NP
@@ -5120,10 +4990,8 @@ play,1,1,snidd101,22,BBSCX,S7/F
 play,1,1,furic101,32,FBBBCX,63
 play,2,0,klust101,21,BBFX,S7/L
 play,2,0,thomf103,01,FX,HR/F7.1-H
-com,"$screen"
 play,2,0,clemr101,11,.CBX,S9/L
 play,2,0,mazeb101,01,CX,HR/F7.1-H
-com,"$screen short"
 play,2,0,foilh101,02,.CFX,5
 play,2,0,law-v101,00,X,HR/F7
 play,2,0,virdb101,00,,NP
@@ -5156,11 +5024,9 @@ play,4,1,valoe101,02,FSX,43
 play,5,0,skinb101,10,BX,S4
 play,5,0,groad101,22,FBB>FFX,64(1)/FO
 play,5,0,klust101,10,BX,S8/G4M.1-3
-com,"$Roth says: 'bad hop past 4'"
 play,5,0,thomf103,02,.FFH,HP.1-2
 play,5,0,clemr101,02,SCX,S6.3-H;2-3;1-2
 play,5,0,mazeb101,00,H,HP.3-H;2-3;1-2
-com,"$hand"
 play,5,0,foilh101,30,.BBBB,W.3-H;2-3;1-2
 play,5,0,law-v101,00,,NP
 sub,erskc101,"Carl Erskine",1,9,1
@@ -5185,7 +5051,6 @@ play,6,1,nealc101,00,,NP
 sub,bakeg101,"Gene Baker",0,5,5
 play,6,1,nealc101,00,.X,9
 play,6,1,snidd101,22,SFBFBX,S8/F
-com,"$bloop"
 play,6,1,furic101,00,.X,9
 play,6,1,rosej101,12,BFFX,S9/G.1-2
 play,6,1,valoe101,11,BFX,S8/G.2-H;1-3
@@ -5193,7 +5058,6 @@ play,6,1,hodgg101,00,X,13
 play,7,0,foilh101,20,BBX,5
 play,7,0,law-v101,22,CBBCS,K
 play,7,0,virdb101,22,BSBSFFX,D7/F
-com,"$screen"
 play,7,0,skinb101,12,.BFSX,S8/G.2-H
 play,7,0,groad101,00,X,43
 play,7,1,grayd102,01,SX,4
@@ -5335,7 +5199,6 @@ play,6,1,valoe101,21,FBBC,SB2
 play,6,1,valoe101,32,FBBC.BX,43
 play,7,0,flooc101,30,BBBB,W
 play,7,0,landh101,00,X,FC4.1-2(E4)
-com,"$4 dropped ball in tagging Flood"
 play,7,0,kaske101,00,.B,WP.2-3;1-2
 play,7,0,kaske101,21,.B.BCX,7/SF.3-H(UR)
 play,7,0,jones105,12,BFCB,WP.2-3
@@ -5352,7 +5215,6 @@ play,8,0,greeg101,02,CFC,K
 play,8,1,wills102,00,,NP
 sub,furic101,"Carl Furillo",1,9,11
 play,8,1,furic101,22,.BFBFX,S7/L7DW
-com,"$high on screen"
 play,8,1,gillj102,00,.X,S9/L.1-2
 play,8,1,larkn101,22,BFBSX,S8/L.2-H;1-2
 play,8,1,snidd101,00,,NP
@@ -5459,14 +5321,11 @@ play,4,0,ennid101,01,FX,9
 play,4,1,furic101,10,BX,13
 play,4,1,zimmd101,01,SX,5/FL
 play,4,1,grayd102,00,X,HR/F7
-com,"$screen"
 play,4,1,nealc101,10,.BX,HR/F7
-com,"$screen-deep"
 play,4,1,pignj101,02,.CFX,3/G
 play,5,0,cunnj101,20,BBX,43
 play,5,0,smith108,21,BBCX,S8/L
 play,5,0,kaske101,12,CCBX,6(1)/FO
-com,"$wide throw - possible DP"
 play,5,0,magls101,00,.X,4/FL
 play,5,1,podrj101,01,FX,43
 play,5,1,gillj102,31,BCBBB,W
@@ -5476,9 +5335,7 @@ play,5,1,snidd101,12,BFFS,K
 play,6,0,blasd101,01,LX,8
 play,6,0,flooc101,22,SCFBFBS,K
 play,6,0,boyek101,10,BX,HR/F78
-com,"$screen-deep"
 play,6,0,greeg101,00,.X,S7/L
-com,"$screen"
 play,6,0,ennid101,22,.FFBBX,S8/L.1-2
 play,6,0,cunnj101,32,CBBCBS,K
 play,6,1,furic101,00,X,S7/G
@@ -5508,7 +5365,6 @@ play,8,0,flooc101,21,CBBX,7/L
 play,8,0,boyek101,31,BBBCB,W
 play,8,0,greeg101,02,FSX,S6.1-2
 play,8,0,ennid101,12,FFBX,S7/F.2-H;1X3(75)
-com,"$high on screen"
 play,8,1,grayd102,02,.SCS,K
 play,8,1,nealc101,02,FFX,9
 play,8,1,pignj101,02,FFX,53
@@ -5587,9 +5443,8 @@ play,1,1,furic101,21,BFBX,S7/G.1-2
 play,1,1,rosej101,10,BX,64(1)/FO
 play,2,0,thomb105,21,BCBX,3
 play,2,0,bolgj101,11,FBX,31
-com,"$In collision at 1B Koufax sprains and spiked on right ankle,leaves game"
-com,"$Bolger per Chi. Trib former Cincinnati area HS football star"
-com,"$also per Chi. Trib LA att. after 36 home games more than '57 Brooklyn"
+com,"$Sandy Koufax spiked on foot and sprained his right ankle"
+com,"in collision at 1B"
 play,2,0,longd101,00,.,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
 play,2,0,longd101,20,..BBX,5/FL
@@ -5638,7 +5493,7 @@ play,6,1,cimog101,00,>X,S8/F.1-3
 play,6,1,nealc101,00,X,8
 play,7,0,longd101,00,,NP
 sub,reesp101,"Peewee Reese",1,6,6
-com,"$Tribune: 'hobbling on bad knee, Zimmer gave it the old college try'"
+com,"Don Zimmer left with bad knee"
 play,7,0,longd101,12,..SFBX,S8/G
 play,7,0,neemc101,22,BSFBX,S6.1-2
 play,7,0,drabm101,00,X,54/SH.2-3;1-2
@@ -5772,7 +5627,6 @@ play,5,0,darka101,21,BCBX,9
 play,5,0,walll101,12,BSFX,6
 play,5,1,cimog101,31,BCBBB,W
 play,5,1,nealc101,11,FBH,HP.1-2
-com,"$grazed"
 play,5,1,drysd101,00,.X,54/SH.2-3;1-2
 play,5,1,gillj102,10,BX,3/L
 play,5,1,reesp101,00,,NP
@@ -5804,7 +5658,6 @@ play,7,0,banke101,00,X,54(1)/FO.2-3
 play,7,0,moryw101,00,,NP
 sub,podrj101,"Johnny Podres",1,9,1
 play,7,0,moryw101,32,.BSBFFBS,K+CS2(26)/DP
-com,"xCC4: Roth had 24; Hunter,TSN,film 26"
 play,7,1,nealc101,22,CFBBX,63
 play,7,1,podrj101,00,,NP
 sub,bilks101,"Steve Bilko",1,9,11
@@ -5812,7 +5665,6 @@ play,7,1,bilks101,32,.BBBCCB,W
 play,7,1,gillj102,00,,NP
 sub,gialb101,"Bob Giallombardo",1,9,12
 play,7,1,gillj102,01,.CX,S9/F.1-2
-com,"$short pop between 4 and 9"
 play,7,1,valoe101,32,.CBFFBBFB,W.2-3;1-2
 play,7,1,larkn101,31,BBBCB,W.3-H;2-3;1-2
 play,7,1,furic101,00,,NP
@@ -5823,7 +5675,6 @@ play,8,0,longd101,00,,NP
 sub,labic101,"Clem Labine",1,9,1
 play,8,0,longd101,02,.CCC,K
 play,8,0,thomb105,11,CBX,E4/P.B-2
-com,"$4 collided with 3 on pop"
 play,8,0,neemc101,22,.LFBBX,S/F78.2-H(UR)
 play,8,0,elstd101,01,LX,46(1)/FO
 play,8,0,taylt101,30,BBBB,W.1-2
@@ -5905,17 +5756,14 @@ play,1,1,reesp101,32,CFBBBB,W
 play,1,1,larkn101,32,BCCBBF>B,W.1-2
 play,1,1,snidd101,00,X,6
 play,1,1,furic101,01,CX,46(1)/FO.2-3
-com,"$4 let drop and it got away from him"
 play,1,1,rosej101,32,.BBBCSX,S8/F.3-H;1-3
 play,1,1,bilks101,21,BSBX,HR/L7.3-H;1-H
-com,"$screen - hard hit"
 play,1,1,jackr102,31,.SBBBX,E5/TH
 play,1,1,nealc101,20,BBX,64(1)/FO
 play,2,0,aaroh101,00,X,4
 play,2,0,coviw101,11,BSX,41
 play,2,0,brutb101,10,BX,D9/L
 play,2,0,logaj101,10,BX,D7/G.2-H
-com,"$off 5"
 play,2,0,crand102,10,.BX,S7/L.2-H
 play,2,0,willc104,00,,NP
 sub,haneh101,"Harry Hanebrink",0,9,11
@@ -5925,7 +5773,6 @@ sub,conlg101,"Gene Conley",0,9,1
 play,2,1,wills102,00,.X,3
 play,2,1,reesp101,32,CCBBBB,W
 play,2,1,larkn101,20,BB>X,D7/F.1-3
-com,"$hit screen"
 play,2,1,snidd101,30,.IIII,IW
 play,2,1,furic101,32,BBBCFX,S8/L.3-H;2-3;1-2
 play,2,1,rosej101,00,,NP
@@ -5956,8 +5803,6 @@ play,5,0,schor101,30,BBBB,W.1-2
 play,5,0,torrf102,31,BCBBB,W.2-3;1-2
 play,5,0,mathe101,00,X,8/SF/8D.3-H;2-3
 play,5,0,aaroh101,00,C,SB2
-com,"$Williams wound up - no play made on Torre"
-com,"$Roth thought should be DI but film has SB"
 play,5,0,aaroh101,11,C..BX,7
 play,5,1,wills102,32,SBSBBS,K
 play,5,1,reesp101,32,FBCBBX,63
@@ -6048,8 +5893,8 @@ start,nealc101,"Charlie Neal",1,8,4
 start,podrj101,"Johnny Podres",1,9,1
 play,1,0,mantf101,11,BFX,8
 play,1,0,roacm101,11,CBX,S7/L
-play,1,0,mathe101,22,BFBCX,D9/L.1-3
-com,"$fan touched ball"
+play,1,0,mathe101,22,BFBCX,DGR/L9/FINT.1-3
+com,"fan interference"
 play,1,0,aaroh101,30,.IIII,IW
 play,1,0,adcoj101,10,BX,2/FL
 play,1,0,crand102,12,CFBX,4
@@ -6065,7 +5910,6 @@ play,2,1,bilks101,12,CCBX,8/8D
 play,2,1,jackr102,11,CBX,5
 play,3,0,mantf101,01,SX,63
 play,3,0,roacm101,00,X,S7/L
-com,"$screen"
 play,3,0,mathe101,22,.BCBFX,S9/L.1-2
 play,3,0,aaroh101,01,FX,64(1)3/GDP
 play,3,1,nealc101,32,CBFBBX,13
@@ -6106,7 +5950,6 @@ play,6,0,pafka101,00,,NP
 sub,labic101,"Clem Labine",1,9,1
 play,6,0,pafka101,20,.BBX,S8/L
 play,6,0,burdl101,22,LPBSX,16(1)/FO/BG
-com,"$3 dropped pop"
 play,6,0,mantf101,00,.X,S6.1-2
 play,6,0,roacm101,12,CCBX,8
 play,6,0,mathe101,01,SX,6(1)/FO
@@ -6145,7 +5988,6 @@ play,9,0,burdl101,02,.SSS,K
 play,9,1,bilks101,00,,NP
 sub,haneh101,"Harry Hanebrink",0,8,7
 play,9,1,bilks101,12,.BCFX,S7/L
-com,"$screen"
 play,9,1,jackr102,11,.CBX,64(1)3/GDP
 play,9,1,nealc101,22,CBFFBFX,S8/G
 play,9,1,roebe101,00,,NP
@@ -6212,17 +6054,14 @@ play,1,0,roacm101,31,BBBCX,S8/L
 play,1,0,mathe101,00,X,6(1)3/GDP
 play,1,1,reesp101,11,CBX,S4
 play,1,1,larkn101,22,BFFFBX,S6/P.1-3(E6/TH);B-2
-com,"$6 let pop drop& threw wild"
 play,1,1,rosej101,02,.LSX,6
 play,1,1,furic101,30,IIII,IW
 play,1,1,bilks101,02,CFX,32(3)/FO.2-3;1-2
 play,1,1,grayd102,12,BCFS,K
 play,2,0,aaroh101,00,X,E5/G
 play,2,0,coviw101,00,X,S9/G.1-3
-com,"$hop over 3"
 play,2,0,torrf102,01,.SX,5
 play,2,0,logaj101,00,X,46(1)3/GDP
-com,"xCC4: Roth had 43; film,TSN, Hunter 463"
 play,2,1,nealc101,00,X,13
 play,2,1,cimog101,21,BFBX,E5/G
 play,2,1,drysd101,02,CFX,34/SH.1-2
@@ -6250,7 +6089,6 @@ play,5,0,brutb101,01,CX,46(1)/FO
 play,5,0,roacm101,32,CFBBBFB,W.1-2
 play,5,0,mathe101,22,FBSBS,K
 play,5,1,drysd101,00,X,HR/F7
-com,"$screen"
 play,5,1,reesp101,00,.X,8
 play,5,1,larkn101,32,BCCBBB,W
 play,5,1,rosej101,22,>FFFBFBFFC,K
@@ -6259,7 +6097,9 @@ play,5,1,bilks101,10,BX,53
 play,6,0,aaroh101,10,BX,E5/G
 play,6,0,coviw101,00,X,S9/L.1-2
 play,6,0,torrf102,10,BX,DGR/9.2-H(UR);1-H
-com,"$rhubarb on GR, Zimmer ejected by Donatelli"
+com,"ej,zimmd101,P,donaa901,Bench jockeying"
+com,"Don Zimmer ejected by 2B umpire Augie Donatelli"
+com,"as the Dodgers argued the ground rule double"
 play,6,0,logaj101,00,.,NP
 sub,labic101,"Clem Labine",1,9,1
 play,6,0,logaj101,12,..CCFBX,S8/G.2-H
@@ -6283,7 +6123,6 @@ play,7,0,torrf102,00,,NP
 sub,mantf101,"Felix Mantilla",0,5,12
 play,7,0,torrf102,30,.IIII,IW
 play,7,0,logaj101,10,BX,S/F78.2-H;1-2
-com,"$screen"
 play,7,0,crand102,11,.BCX,S7/L.2XH(7142);1-3;B-2
 play,7,0,jay-j101,12,CBCC,K
 play,7,1,larkn101,00,,NP
@@ -6389,19 +6228,16 @@ play,2,0,bellg103,10,BX,3/G
 play,2,0,mcmir101,00,X,2/FL
 play,2,1,larkn101,00,X,3
 play,2,1,furic101,10,BX,S7/F
-com,"$screen"
 play,2,1,rosej101,12,.CBSS,K
 play,2,1,bilks101,12,SBSS,K
 play,3,0,lawrb103,01,CX,53
 play,3,0,tempj101,32,BCBBCX,D/F78
-com,"$sloping screen"
 play,3,0,mored102,20,.BBX,53
 play,3,0,robif103,32,BFFBBX,D7/L.2-H
 play,3,0,dropw101,31,BBFBB,W
 play,3,0,hoakd101,11,CBX,63
 play,3,1,nealc101,00,X,D7/L
 play,3,1,kippf101,00,X,S7/L.2-3
-com,"$off 5 - leap"
 play,3,1,gillj102,01,.CX,S8/L.3-H;1-2
 play,3,1,reesp101,00,X,34/SH.2-3;1-2
 play,3,1,snidd101,01,SX,7/SF.3-H
@@ -6547,11 +6383,9 @@ play,5,0,hoakd101,12,FBCX,3/FL
 play,5,0,baile101,32,BSSBFBB,W
 play,5,0,bellg103,12,LFBS,K
 play,5,0,mcmir101,00,X,S7/L.1-2
-com,"$screen"
 play,5,0,newcd101,11,.FBX,31
 play,5,1,furic101,32,CCBFBBFX,S7/F.BX2(74)
 play,5,1,rosej101,11,CBX,D9/G
-com,"$hop over 3, well hit"
 play,5,1,bilks101,12,.CBSC,K
 play,5,1,nealc101,30,IIII,IW
 play,5,1,wills102,12,SBCS,K
@@ -6570,13 +6404,12 @@ sub,cimog101,"Gino Cimoli",1,4,7
 play,7,0,hoakd101,00,.X,4
 play,7,0,baile101,11,BFX,4/L
 play,7,0,bellg103,00,X,S9/F
-play,7,0,mcmir101,00,X,16(1)/FO#
-com,"xunsure of fielding credit"
+play,7,0,mcmir101,00,X,99(1)/FO#
+com,"missing play in LAN195807131"
 play,7,1,furic101,32,.FBSFFBBS,K+WP.B-1
 play,7,1,rosej101,12,SFBX,6
 play,7,1,hodgg101,02,SCFS,K
 play,7,1,nealc101,10,BX,HR/F7.1-H
-com,"$screen - deep"
 play,7,1,wills102,02,.FSC,K
 play,8,0,newcd101,00,,NP
 sub,thurb101,"Bob Thurman",0,9,11
@@ -6598,7 +6431,6 @@ play,9,0,baile101,00,,NP
 sub,labic101,"Clem Labine",1,9,1
 play,9,0,baile101,10,.BX,6
 play,9,0,bellg103,01,SH,HP.2-3;1-2
-com,"$on foot"
 play,9,0,mcmir101,00,.,NP
 sub,mored102,"Danny Morejon",0,7,12
 play,9,0,mcmir101,00,..,NP
@@ -6666,7 +6498,6 @@ play,1,0,dropw101,30,BBBB,W.1-2
 play,1,0,hoakd101,31,BSBBB,W.2-3;1-2
 play,1,0,whisp101,00,X,54(1)/FO
 play,1,1,gillj102,10,BX,HR/F7
-com,"$screen"
 play,1,1,reesp101,32,.BBBCFFFB,W
 play,1,1,furic101,01,FX,2/FL
 play,1,1,bilks101,22,BBCFX,64(1)3/GDP
@@ -6681,7 +6512,6 @@ play,2,1,nealc101,32,BBBCFB,W
 play,2,1,cimog101,12,BCSFS,K
 play,2,1,pignj101,02,FFS,K
 play,3,0,robif103,00,X,D7/F
-com,"$screen"
 play,3,0,dropw101,22,.BSFFBFS,K
 play,3,0,hoakd101,11,CBX,9
 play,3,0,whisp101,00,X,E6/G.2-3
@@ -6691,8 +6521,8 @@ play,3,1,gillj102,22,BCCBX,4
 play,3,1,reesp101,01,CX,S6
 play,3,1,furic101,21,FBBX,8
 play,4,0,grama101,01,CX,S4
-com,"$thru 1"
-play,4,0,nuxhj101,01,.MX,2/BG/INT.1-1
+play,4,0,nuxhj101,01,.MX,2/BG/BINT.1-1
+com,"Joe Nuxhall called for interference"
 play,4,0,tempj101,11,CBX,46(1)3/GDP
 play,4,1,bilks101,00,X,53
 play,4,1,hodgg101,21,CBBX,4
@@ -6705,7 +6535,6 @@ play,5,1,pignj101,12,CBFX,63
 play,5,1,gialb101,02,SCFS,K
 play,6,0,hoakd101,00,X,7
 play,6,0,whisp101,20,BBX,E4/F.BX2(63)
-com,"$4 dropped in sun in short CF"
 play,6,0,burgs101,21,.BBCX,2/FL
 play,6,1,gillj102,11,CBX,53
 play,6,1,reesp101,30,BBBB,W
@@ -6821,7 +6650,6 @@ play,2,1,larkn101,01,FX,8
 play,2,1,bilks101,12,BFCX,43.1-2
 play,2,1,nealc101,10,BX,E6/G.2-3
 play,2,1,zimmd101,10,BX,HR/F7.3-H(UR);1-H(UR);B-H(UR)
-com,"$screen-deep"
 play,2,1,podrj101,11,.CBX,8
 play,3,0,tempj101,22,CBSBX,3/FL
 play,3,0,mored102,02,CCX,13
@@ -6838,7 +6666,6 @@ play,4,1,furic101,22,BBSCX,63
 play,4,1,larkn101,00,X,S9/G
 play,4,1,bilks101,21,BBFX,S8/F.1-2
 play,4,1,nealc101,10,BX,HR/F7.2-H;1-H
-com,"$screen-deep"
 play,4,1,zimmd101,22,.BCBSX,HR/F78
 play,4,1,podrj101,00,,NP
 sub,kella103,"Alex Kellner",0,9,1
@@ -6846,7 +6673,6 @@ play,4,1,podrj101,12,.BCFX,3/G
 play,4,1,gillj102,32,BCBBFB,W
 play,4,1,rosej101,01,CX,9
 play,5,0,mcmir101,01,CX,D7/L
-com,"$screen"
 play,5,0,kella103,02,.FFX,S7/G.2-3
 play,5,0,tempj101,00,X,5/L
 play,5,0,mored102,21,CBBX,E4/G.3-H(RBI);1-2
@@ -6864,7 +6690,6 @@ play,6,0,whisp101,00,.X,E5/G
 play,6,0,baile101,12,CBCC,K
 play,6,0,mcmir101,12,CFBS,K
 play,6,0,kella103,00,X,S7/F.1-H(E7/TH)(UR);B-2
-com,"$screen"
 play,6,0,tempj101,21,.BBCX,E5/G.2-H(NR)(UR);B-2
 play,6,0,mored102,00,,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
@@ -6883,7 +6708,7 @@ play,7,0,robif103,00,,NP
 sub,hodgg101,"Gil Hodges",1,6,3
 play,7,0,robif103,10,.BX,7/FL
 play,7,0,dropw101,11,BCX,S9/F.BX1(92)
-com,"$bloop over first - 2 cover"
+com,"$bloop over 1B; Walt Dropo rounded 1B too far"
 play,7,0,hoakd101,32,.BBCCBX,8
 play,7,1,gillj102,02,CSX,1/P
 play,7,1,rosej101,00,X,13/BG
@@ -6972,7 +6797,6 @@ play,1,1,snidd101,00,X,6
 play,2,0,thomf103,12,BCSS,K
 play,2,0,skinb101,01,CX,13
 play,2,0,mazeb101,02,SFX,S8/G
-com,"$high bounce"
 play,2,0,groad101,22,.CBFBX,64(1)/FO
 play,2,1,furic101,20,BBX,53
 play,2,1,larkn101,32,CBBCBB,W
@@ -6999,7 +6823,6 @@ play,5,0,groad101,00,X,53
 play,5,0,hallb105,32,CFBFBBB,W
 play,5,0,klinr102,22,BBLLL,K/BF
 play,5,0,virdb101,10,BX,D7/G.1-3
-com,"$bounce over 5"
 play,5,0,clemr101,21,.BBCX,53
 play,5,1,bilks101,00,X,9
 play,5,1,nealc101,02,CSX,13
@@ -7025,7 +6848,6 @@ play,8,0,clemr101,01,FX,53
 play,8,0,stuad101,12,FBFH,HP
 play,8,0,thomf103,00,X,S7/L.1-2
 play,8,0,skinb101,00,X,S7/F.2-H;1-3
-com,"$high on screen"
 play,8,0,mazeb101,00,.,NP
 sub,labic101,"Clem Labine",1,9,1
 play,8,0,mazeb101,02,..FCX,S7/L.3-H;1-3;B-2(TH)
@@ -7135,7 +6957,6 @@ play,1,1,furic101,12,CBSX,63
 play,2,0,thomf103,22,CCFBBS,K
 play,2,0,skinb101,00,X,63
 play,2,0,mazeb101,12,CLBFX,S7/F
-com,"$screen"
 play,2,0,groad101,12,.BSFS,K
 play,2,1,larkn101,21,BCBX,S8/L
 play,2,1,bilks101,02,FSFX,64(1)3/GDP
@@ -7150,11 +6971,9 @@ play,3,1,kippf101,00,X,63
 play,3,1,gillj102,22,CBFBX,4
 play,4,0,thomf103,12,SCBS,K
 play,4,0,skinb101,00,X,D7/L
-com,"$screen"
 play,4,0,mazeb101,11,.CBX,S6.2-2
 play,4,0,groad101,11,BFX,9
 play,4,0,foilh101,10,BX,HR/F7.2-H;1-H
-com,"$screen-deep"
 play,4,0,frieb102,22,.BCBSS,K
 play,4,1,rosej101,22,BBFCFFX,43
 play,4,1,snidd101,12,SBSX,43
@@ -7170,7 +6989,6 @@ play,5,1,nealc101,12,SBCX,D9/L
 play,5,1,zimmd101,00,X,43
 play,6,0,mazeb101,00,X,HR/F8
 play,6,0,groad101,20,BBX,D7/F
-com,"$high on screen"
 play,6,0,foilh101,00,.,NP
 sub,roebe101,"Ed Roebuck",1,9,1
 play,6,0,foilh101,00,..X,8/L.2-3
@@ -7191,7 +7009,6 @@ play,7,0,mazeb101,11,FBX,63
 play,7,0,groad101,00,X,S9/G
 play,7,0,foilh101,00,B,CS2(24)
 play,7,1,snidd101,32,BBBCCX,HR/F7
-com,"$screen"
 play,7,1,furic101,00,.X,43
 play,7,1,larkn101,11,BCX,S3
 play,7,1,bilks101,12,CBFX,S7/L.1-2
@@ -7209,7 +7026,6 @@ play,8,1,rosej101,11,BFX,6
 play,8,1,snidd101,02,FCS,K
 play,8,1,furic101,11,BSX,S9/L.3-H;2-H;B-2(E9)
 play,8,1,larkn101,00,X,D7/F.2-H(UR)
-com,"$screen"
 play,8,1,bilks101,00,.,NP
 sub,facer101,"Roy Face",0,9,1
 play,8,1,bilks101,02,..SFS,K
@@ -7305,10 +7121,8 @@ play,3,1,gillj102,10,B>X,8
 play,3,1,rosej101,32,BSBFBS,K
 play,4,0,virdb101,21,BFBX,8
 play,4,0,clemr101,11,CBX,D7/F
-com,"$screen"
 play,4,0,stuad101,22,.CBFFBS,K
 play,4,0,thomf103,00,H,HP
-com,"$knicked on arm"
 play,4,0,skinb101,31,.FBBBX,7
 play,4,1,larkn101,31,BBBCB,W
 play,4,1,furic101,12,CCBX,64(1)/FO
@@ -7326,14 +7140,12 @@ play,5,1,gillj102,32,BBBCFX,S9/L.1-3
 play,5,1,rosej101,02,FFC,K
 play,5,1,larkn101,22,BBFFX,8/SF/L.3-H
 play,5,1,furic101,00,X,8/8XD
-com,"$at fence"
 play,6,0,clemr101,12,.CFBX,5/FL
 play,6,0,stuad101,12,CBFS,K
 play,6,0,thomf103,10,BX,S4
 play,6,0,skinb101,00,X,163
 play,6,1,bilks101,00,X,7/L
 play,6,1,nealc101,11,BFX,S7/L
-com,"$screen"
 play,6,1,zimmd101,22,.FFBBX,HR/L78.1-H
 play,6,1,cimog101,00,,NP
 sub,blacr101,"Ron Blackburn",0,9,1
@@ -7344,7 +7156,6 @@ sub,hodgg101,"Gil Hodges",1,5,3
 play,7,0,mazeb101,22,.CBBFFX,6/F
 play,7,0,groad101,21,BBCX,7/L
 play,7,0,foilh101,01,CX,HR/F7
-com,"$screen"
 play,7,0,blacr101,00,.,NP
 sub,klust101,"Ted Kluszewski",0,9,11
 play,7,0,klust101,02,..CSX,8/L
@@ -7365,7 +7176,6 @@ sub,pignj101,"Joe Pignatano",1,2,2
 play,8,0,virdb101,00,..,NP
 sub,grayd102,"Dick Gray",1,3,5
 play,8,0,virdb101,22,...CBBCFX,S9/G
-com,"$bounced over 4"
 play,8,0,clemr101,10,.BX,HR/L7.1-H
 play,8,0,stuad101,00,,NP
 sub,labic101,"Clem Labine",1,9,1
@@ -7373,7 +7183,6 @@ play,8,0,stuad101,12,.BFSS,K
 play,8,0,thomf103,12,CBCFFX,4
 play,8,0,skinb101,31,BBBCX,63
 play,8,1,hodgg101,00,X,HR/F7
-com,"$screen deep"
 play,8,1,nealc101,01,.FX,S8/L
 play,8,1,zimmd101,00,,NP
 sub,portb102,"Bob Porterfield",0,9,1
@@ -7452,7 +7261,6 @@ play,1,0,kazat101,00,.X,5/FL
 play,1,1,gillj102,11,BCX,S9/L
 play,1,1,cimog101,22,CFBBX,46(1)3/GDP
 play,1,1,larkn101,10,BX,T9/L
-com,"$Roth says: '9 should have caught - misjudged'"
 play,1,1,bilks101,32,.BFBBCC,K
 play,2,0,sawac101,12,CFBX,63
 play,2,0,cardd101,00,X,53
@@ -7470,7 +7278,6 @@ play,3,0,jonew101,12,BSFB,WP.3-H
 play,3,0,jonew101,32,BSFB.BB,W
 play,3,0,bowmb102,10,BX,46(1)3/GDP
 play,3,1,larkn101,10,BX,S7/F
-com,"$hit screen"
 play,3,1,bilks101,00,.X,8
 play,3,1,zimmd101,00,X,54(1)3/GDP
 play,4,0,postw101,00,X,4
@@ -7483,7 +7290,6 @@ play,4,1,klipj101,12,FBCS,K
 play,5,0,cardd101,00,X,43
 play,5,0,ashbr101,32,FBBCBB,W
 play,5,0,fernc102,10,BX,HR/F7.1-H
-com,"$screen"
 play,5,0,bouce101,31,.BCBBX,HR/F8
 play,5,0,jonew101,00,,NP
 sub,erskc101,"Carl Erskine",1,9,1
@@ -7493,7 +7299,6 @@ play,5,1,gillj102,30,BBBB,W
 play,5,1,cimog101,32,BCBFFFB>B,W.1-2
 play,5,1,larkn101,10,BX,9
 play,5,1,bilks101,12,FBCX,HR/F7.2-H;1-H
-com,"$deep"
 play,5,1,zimmd101,22,.SSFBBX,T9/L
 play,5,1,nealc101,00,,NP
 sub,sanfj101,"Jack Sanford",0,9,1
@@ -7525,7 +7330,6 @@ play,7,0,bouce101,00,.,NP
 sub,hodgg101,"Gil Hodges",1,7,3
 play,7,0,bouce101,00,..X,S8/L
 play,7,0,jonew101,12,CFBX,S9/F.1-2
-com,"$bloop"
 play,7,0,bowmb102,10,.BX,54(1)/FO.2-3
 play,7,0,postw101,10,BX,D9/F.3-H;1-3
 play,7,0,kazat101,30,IIII,IW
@@ -7555,7 +7359,6 @@ play,8,1,larkn101,21,BFBX,4
 play,9,0,jonew101,00,,NP
 sub,valoe101,"Elmer Valo",1,3,7
 play,9,0,jonew101,11,.BFX,S7/F
-com,"$screen"
 play,9,0,farrt101,00,.,NP
 sub,hemus101,"Solly Hemus",0,5,11
 play,9,0,hemus101,21,..CBBX,9
@@ -7642,7 +7445,6 @@ play,2,1,hodgg101,32,SBBBF>FX,6(B)3(1)/LDP
 play,3,0,ashbr101,02,CFX,D7/L
 play,3,0,fernc102,11,FBX,4/F
 play,3,0,bouce101,20,BBX,DGR/F9.2-H
-com,"$bounced over fence"
 play,3,0,jonew101,11,.BCX,E5/G.2-3(E5/TH)
 play,3,0,bowmb102,22,BSBFFFS,K
 play,3,0,postw101,02,CFS,K
@@ -7685,7 +7487,6 @@ play,7,1,koufs101,12,FSFBS,K
 play,8,0,jonew101,31,BBCBB,W
 play,8,0,bowmb102,12,LBLS,K
 play,8,0,postw101,22,BBCCX,HR/F7.1-H
-com,"$screen-short"
 play,8,0,kazat101,32,.CBBBCB,W
 play,8,0,sawac101,00,,NP
 sub,kippf101,"Fred Kipp",1,9,1
@@ -7697,7 +7498,6 @@ play,8,1,cimog101,00,X,6/L
 play,8,1,larkn101,02,CFFX,S8/L
 play,8,1,bilks101,01,CX,64(1)/FO
 play,9,0,fernc102,02,CFFX,D7/F
-com,"$screen"
 play,9,0,bouce101,32,.BCCBBX,53
 play,9,0,jonew101,00,,NP
 sub,roebe101,"Ed Roebuck",1,9,1
@@ -7796,7 +7596,6 @@ play,4,1,hodgg101,11,BFX,6
 play,4,1,pignj101,31,BBCBX,63
 play,5,0,jonew101,10,BX,5/FL
 play,5,0,repur101,01,CX,S7/L
-com,"$screen"
 play,5,0,postw101,02,.SFS,K
 play,5,0,kazat101,10,BX,64(1)/FO
 play,5,1,podrj101,12,CFBS,K
@@ -7901,6 +7700,9 @@ start,zimmd101,"Don Zimmer",1,6,6
 start,demed101,"Don Demeter",1,7,8
 start,pignj101,"Joe Pignatano",1,8,2
 start,drysd101,"Don Drysdale",1,9,1
+com,"ej,alstw101,M,craws901,Call at 1B"
+com,"Dodgers Manager Walter Alston ejected by 1B umpire Shag Crawford"
+com,"sometime in game"
 play,1,0,alouf101,01,CX,13
 play,1,0,davej101,22,CFBBFFX,S7/L
 play,1,0,maysw101,02,FFX,S5.1X3(56);B-2(TH)
@@ -7971,7 +7773,6 @@ play,7,1,drysd101,00,..,NP
 sub,brese101,"Eddie Bressoud",0,9,4
 play,7,1,drysd101,12,...BSCX,S7/L
 play,7,1,gillj102,01,LX,E1/SH.1-2
-com,"xStevens scores this as a hit."
 play,7,1,larkn101,12,CMB,NP
 sub,grism101,"Marv Grissom",0,1,1
 play,7,1,larkn101,12,CMB.B,PB.1-2;2-3
@@ -8125,7 +7926,6 @@ play,7,1,furic101,11,CBX,S8/L.1-2
 play,7,1,hodgg101,00,X,13
 play,8,0,antoj103,10,BX,S9/L
 play,8,0,alouf101,01,M+1,PO1(246)
-com,"xthese plays in 1958 usually not scored CS"
 play,8,0,alouf101,12,M+1.BCFC,K
 play,8,0,davej101,10,BX,HR/7
 play,8,0,maysw101,00,X,7
@@ -8216,7 +8016,6 @@ play,1,0,maysw101,12,BSFS,K
 play,1,0,saueh101,00,X,S8/G.2-H;1-2
 play,1,0,cepeo101,02,CCS,K
 play,1,0,spend101,12,FBSH,HP.2-3;1-2
-com,"$Roth says: 'grazed uniform'"
 play,1,0,schmb101,22,.CSBBFB,WP.3-H;2-3;1-2
 play,1,0,schmb101,32,.CSBBFB.FX,53
 play,1,1,gillj102,32,BBCLBX,9
@@ -8225,10 +8024,8 @@ play,1,1,snidd101,01,SX,D7/G
 play,1,1,furic101,32,BBCBCFFB,W
 play,1,1,rosej101,00,X,8
 play,2,0,ocond101,12,BCCX,HR/F78
-com,"$screen"
 play,2,0,gielp101,12,.FFBFS,K
 play,2,0,alouf101,22,BFCBH,HP
-com,"$hand"
 play,2,0,davej101,00,.,NP
 sub,birrb101,"Babe Birrer",1,9,1
 play,2,0,davej101,10,..BX,5
@@ -8240,7 +8037,6 @@ play,2,1,zimmd101,12,BFCS,K
 play,2,1,birrb101,00,,NP
 sub,valoe101,"Elmer Valo",1,9,11
 play,2,1,valoe101,10,.BX,S3.2-H;1-3
-com,"$deflected off first baseman"
 play,2,1,gillj102,21,.FBBX,46(1)/FO.3-H;B-2(E6/TH)
 play,2,1,larkn101,32,BBCBFS,K
 play,3,0,cepeo101,00,,NP
@@ -8257,7 +8053,6 @@ sub,monzr101,"Ramon Monzant",0,9,1
 play,3,1,rosej101,00,.X,5/FL
 play,3,1,nealc101,32,BBBCCB,W
 play,3,1,hodgg101,10,BX,HR/F7.2-H;1-H
-com,"$screen"
 play,3,1,zimmd101,21,.BFBX,4
 play,3,1,klipj101,02,CSFC,K
 play,4,0,alouf101,22,BBCCC,K
@@ -8266,7 +8061,6 @@ play,4,0,maysw101,20,BBX,D7/L
 play,4,0,saueh101,22,FBBCX,43.2-3
 play,4,0,cepeo101,31,BBBCX,4/F
 play,4,1,gillj102,21,BCBX,S7/F
-com,"$screen"
 play,4,1,larkn101,32,.>FCBBB>F>F>X,43.1-2
 play,4,1,snidd101,01,CX,43.2-3
 play,4,1,furic101,00,C,SBH
@@ -8410,7 +8204,6 @@ start,zimmd101,"Don Zimmer",1,7,6
 start,demed101,"Don Demeter",1,8,8
 start,mcded101,"Danny McDevitt",1,9,1
 play,1,0,goryj101,21,BBCX,S7/F
-com,"$screen"
 play,1,0,darka101,11,.BCX,54(1)3/GDP
 play,1,0,banke101,21,BBCX,S8/L
 play,1,0,thomb105,11,FBX,S7/L.1-2
@@ -8429,7 +8222,6 @@ play,2,1,rosej101,00,H,HP
 play,2,1,hodgg101,32,FCBFBBS,K
 play,2,1,zimmd101,00,X,53
 play,3,0,darka101,31,BBBCX,S7/F
-com,"$screen"
 play,3,0,banke101,01,.FX,E6/G.1-2
 play,3,0,thomb105,00,X,FC3.2-3;1X2(3E6);B-1
 play,3,0,bolgj101,00,B,WP.3-H(UR);2-3;1-2
@@ -8454,8 +8246,7 @@ play,4,1,hodgg101,31,BBBCX,HR/F7.1-H
 play,4,1,zimmd101,22,BSBSX,S9/L
 play,4,1,demed101,32,SBBSBX,7
 play,4,1,birrb101,12,CFBS,K
-play,5,0,thomb105,21,CBBX,S4
-com,"$deflected off 1"
+play,5,0,thomb105,21,CBBX,S14
 play,5,0,bolgj101,21,.BBSX,5
 play,5,0,walll101,00,X,64(1)/FO
 play,5,0,neemc101,21,BCBX,9
@@ -8484,7 +8275,6 @@ play,7,1,demed101,12,CCBS,K
 play,7,1,klipj101,00,,NP
 sub,reesp101,"Peewee Reese",1,9,11
 play,7,1,reesp101,22,.BBCCX,7
-com,"$leap at screen"
 play,7,1,gillj102,32,.CFBBBB,W
 play,7,1,larkn101,32,CBBCFBB,W.1-2
 play,7,1,nealc101,10,BX,S4/L.2-3;1-2
@@ -8606,7 +8396,6 @@ play,4,0,thomb105,00,X,63
 play,4,0,bolgj101,21,BCBX,S8/L
 play,4,0,walll101,31,BBBCB,W.1-2
 play,4,0,neemc101,02,CFX,HR/F78.2-H;1-H
-com,"$screen"
 play,4,0,longd101,00,.X,43
 play,4,1,zimmd101,00,X,53
 play,4,1,demed101,02,CCX,7
@@ -8788,7 +8577,6 @@ play,4,1,rosej101,00,.X,43
 play,5,0,goryj101,12,BFCX,8
 play,5,0,darka101,12,FFFBX,43
 play,5,0,banke101,12,FSBX,S7/L
-com,"$screen"
 play,5,0,moryw101,00,.X,7
 play,5,1,snidd101,20,BBX,S8/F
 play,5,1,furic101,00,X,64(1)3/GDP
@@ -8805,7 +8593,6 @@ play,6,1,hodgg101,31,.BCBBX,S7/L
 play,6,1,nealc101,10,BX,9/L
 play,6,1,zimmd101,00,X,9
 play,6,1,drysd101,10,BX,HR/L7.1-H
-com,"$hit top of screen and bounced over"
 play,6,1,gillj102,32,.FBBBCX,E5/G
 play,6,1,rosej101,11,BLB,CS2(26)
 play,7,0,solim101,00,,NP
@@ -8825,7 +8612,6 @@ play,8,0,moryw101,01,SX,T8/F
 play,8,0,thomb105,10,BX,9/SF.3-H
 play,8,0,walll101,00,X,S6
 play,8,0,longd101,22,FFBFBX,S7/F.1-2
-com,"$screen"
 play,8,0,thacm101,00,.,NP
 sub,tayls102,"Sammy Taylor",0,8,11
 play,8,0,tayls102,00,..,NP
@@ -8838,14 +8624,12 @@ play,8,1,hodgg101,00,X,S5.1-2
 play,8,1,nealc101,01,LS,SB3;SB2
 play,8,1,nealc101,12,LS.BFS,K
 play,8,1,zimmd101,00,X,9/SF.3-H;2-3
-com,"$Roth says: 'meant to be INT BB'"
 play,8,1,klipj101,32,.SBFBFFBS,K
 play,9,0,andeb102,00,,NP
 sub,bolgj101,"Jim Bolger",0,9,11
 play,9,0,bolgj101,22,.BCBSS,K
 play,9,0,goryj101,11,CBX,S9/L
 play,9,0,darka101,22,CFBBX,S7/F.1-2
-com,"$screen"
 play,9,0,banke101,12,.CBFX,E6/G.2-3;1-2
 play,9,0,moryw101,00,,NP
 sub,kippf101,"Fred Kipp",1,9,1
@@ -8920,7 +8704,6 @@ play,1,1,gillj102,32,BBCBCFX,7
 play,1,1,rosej101,32,BBSFBFB,W
 play,1,1,larkn101,20,BB>X,43.1-2
 play,1,1,furic101,00,X,HR/L7.2-H
-com,"$screen"
 play,1,1,hodgg101,22,.FBBFFS,K+WP.B-1
 play,1,1,nealc101,01,CX,S4.1-2
 play,1,1,zimmd101,12,CCBFS,K
@@ -8938,14 +8721,12 @@ play,3,0,boyek101,01,FX,6
 play,3,1,rosej101,00,X,8/8D
 play,3,1,larkn101,12,FBFX,S9/L
 play,3,1,furic101,11,SBX,S7/G.1-2
-com,"$bounce over 5"
 play,3,1,hodgg101,20,.BBX,9/9D.2-3
 play,3,1,nealc101,01,FX,2/FL
 play,4,0,ennid101,21,BFBX,8/L
 play,4,0,greeg101,00,X,43
 play,4,0,moonw101,20,BBX,31
 play,4,1,zimmd101,11,CBX,HR/F7
-com,"$screen"
 play,4,1,demed101,12,.CFBX,8/8D
 play,4,1,podrj101,02,CSS,K
 play,4,1,gillj102,21,BBCX,S6
@@ -8959,10 +8740,8 @@ play,5,1,furic101,21,CBBX,D9/L
 play,5,1,hodgg101,12,CFBS,K
 play,5,1,nealc101,00,X,43
 play,6,0,freeg102,00,X,HR/F7
-com,"$screen"
 play,6,0,cunnj101,32,.BBCSFBB,W
 play,6,0,boyek101,00,X,HR/F7.1-H
-com,"$screen"
 play,6,0,ennid101,00,.X,S9/L
 play,6,0,greeg101,00,,NP
 sub,labic101,"Clem Labine",1,9,1
@@ -8997,7 +8776,6 @@ play,9,1,labic101,12,SCBX,8/8D
 play,10,0,freeg102,12,BCCX,4
 play,10,0,cunnj101,32,BBBCFX,53
 play,10,0,boyek101,10,BX,D7/F
-com,"$screen"
 play,10,0,ennid101,22,.BFFFBFX,6
 play,10,1,gillj102,21,BFBX,63
 play,10,1,rosej101,32,FBFBBX,S9/L
@@ -9012,7 +8790,6 @@ play,11,1,hodgg101,00,X,S8/L
 play,11,1,nealc101,20,BBX,34/SH.1-2
 play,11,1,zimmd101,00,,NP
 sub,amarr101,"Ruben Amaro",0,2,6
-com,"xclear sub at this point, but no indication why"
 play,11,1,zimmd101,12,..BFCFX,S7/L.2-3
 play,11,1,demed101,00,,NP
 sub,snidd101,"Duke Snider",1,8,11
@@ -9088,9 +8865,7 @@ play,2,0,moonw101,12,CBCS,K
 play,2,0,ennid101,12,SCFBC,K
 play,2,0,flooc101,32,SSBBFFBS,K
 play,2,1,nealc101,12,CBFH,HP
-com,"$knicked"
 play,2,1,zimmd101,11,.SBX,D7/F.1-H
-com,"$top of screen"
 play,2,1,demed101,32,.SBFBB>X,7
 play,2,1,pignj101,31,BBBC2,PO2(14)
 play,2,1,pignj101,31,BBBC2.B,W
@@ -9105,7 +8880,6 @@ play,3,1,larkn101,00,B,SB2
 play,3,1,larkn101,22,B.BFFX,8
 play,3,1,snidd101,00,X,T9/F.2-H
 play,3,1,hodgg101,10,BX,HR/F7.3-H
-com,"$screen"
 play,3,1,nealc101,12,.BSFX,7
 play,3,1,zimmd101,00,X,5/L
 play,4,0,musis101,32,BCBBCX,S7/L
@@ -9115,10 +8889,8 @@ play,4,0,ennid101,22,FCBBX,54(1)3/GDP
 play,4,1,demed101,02,CCS,K
 play,4,1,pignj101,10,BX,53
 play,4,1,wills102,00,X,HR/F7
-com,"$screen"
 play,4,1,gillj102,01,.FX,53
 play,5,0,flooc101,01,CX,HR/F7
-com,"$screen"
 play,5,0,landh101,00,.X,S/F78
 play,5,0,magls101,00,,NP
 sub,norei101,"Irv Noren",0,9,11
@@ -9260,7 +9032,6 @@ play,2,1,cimog101,11,FBX,8
 play,2,1,demed101,22,SSBFFBS,K
 play,3,0,ennid101,22,FFBBX,6
 play,3,0,greeg101,00,H,HP
-com,"$left wrist"
 play,3,0,moonw101,00,.X,43.1-2
 play,3,0,blasd101,30,IIII,IW
 play,3,0,chitn101,10,BX,S8/L.2-H;1-3
@@ -9325,10 +9096,8 @@ play,6,1,snidd101,00,X,S7/L
 play,6,1,hodgg101,12,CBCC,K
 play,6,1,larkn101,12,BFCX,3/L
 play,7,0,freeg102,00,X,D7/F
-com,"$screen"
 play,7,0,musis101,12,.FBFX,4
 play,7,0,boyek101,10,BX,D7/F.2-H
-com,"$screen"
 play,7,0,ennid101,11,.BCX,8
 play,7,0,landh101,10,BX,13
 play,7,1,nealc101,00,,NP
@@ -9349,7 +9118,6 @@ play,8,1,hodgg101,12,SFBC,K
 play,9,0,flooc101,11,BCX,4
 play,9,0,norei101,11,BCX,43
 play,9,0,musis101,01,CX,D7/F
-com,"$screen"
 play,9,0,boyek101,01,.CX,5/L
 play,9,1,larkn101,12,BCCX,43
 play,9,1,nealc101,31,CBBBB,W
@@ -9427,7 +9195,6 @@ play,2,1,larkn101,12,BCCC,K
 play,2,1,hodgg101,12,BCCC,K
 play,2,1,cimog101,11,CBX,S7/G
 play,2,1,nealc101,10,BX,HR/F7.1-H
-com,"$screen"
 play,2,1,pignj101,12,.CSBC,K
 play,3,0,flooc101,12,SSBS,K
 play,3,0,freeg102,22,BCFBFX,HR/F7
@@ -9471,7 +9238,7 @@ play,6,1,pignj101,22,BBCFX,HR/F7.2-H;1-H
 play,6,1,mcded101,02,SSS,K
 play,7,0,flooc101,00,,NP
 sub,demed101,"Don Demeter",1,3,8
-com,"$lights on"
+com,"$lights turned on"
 play,7,0,flooc101,21,..BFBX,63
 play,7,0,freeg102,00,X,53
 play,7,0,cunnj101,32,CBCBBB,W
@@ -9480,7 +9247,6 @@ play,7,1,gillj102,31,BBBCB,W
 play,7,1,rosej101,10,BX,64(1)/FO
 play,7,1,demed101,31,BBBCB,W.1-2
 play,7,1,larkn101,12,FFBX,S3.2-H;1-3
-com,"$two base advance clear on infield hit"
 play,7,1,hodgg101,00,.,NP
 sub,mabeb101,"Bob Mabe",0,9,1
 play,7,1,hodgg101,12,..CCBX,FC5.3XH(52);1-2;B-1
@@ -9489,7 +9255,7 @@ play,8,0,ennid101,00,,NP
 sub,lillb101,"Bob Lillis",1,1,6
 play,8,0,ennid101,00,.,NP
 sub,nealc101,"Charlie Neal",1,7,4
-com,"$Gilliam injured side last inning on pickoff attempt"
+com,"$Jim Gilliam injured side last inning on pickoff attempt"
 play,8,0,ennid101,01,...CX,8/8D
 play,8,0,moonw101,32,.CBBSBB,W
 play,8,0,smith108,11,BFB,WP.1-2
@@ -9575,9 +9341,7 @@ play,2,0,adcoj101,22,BCBCS,K
 play,2,0,crand102,11,BCX,9
 play,2,1,larkn101,11,CBX,D7/F
 play,2,1,hodgg101,22,BBCFX,S8/L.2-3
-com,"$8 misjudge"
 play,2,1,nealc101,11,.BSX,HR/F7.3-H;1-H
-com,"$screen"
 play,2,1,cimog101,21,.BBFX,43
 play,2,1,pignj101,32,BBSBFX,S8/L
 play,2,1,drysd101,12,FCBX,8
@@ -9623,8 +9387,8 @@ play,8,0,logaj101,11,SBX,3/FL
 play,8,0,willc104,00,,NP
 sub,haneh101,"Harry Hanebrink",0,9,11
 play,8,0,haneh101,01,.CX,4E3
-com,"$3 came off bag"
-com,"$Lillis ejected"
+com,"ej,lillb101,P,sudoe901,Call at 1B"
+com,"Bob Lillis ejected by 1B umpire Ed Sudol"
 play,8,0,brutb101,22,..CBBCFS,K
 play,8,0,schor101,12,FBFX,53
 play,8,1,gillj102,00,,NP
@@ -9698,7 +9462,8 @@ play,1,0,mathe101,11,BCX,5
 play,1,0,aaroh101,30,BBBB,W.1-2
 play,1,0,adcoj101,20,BBX,9
 play,1,0,pafka101,32,BBCBCC,K
-com,"$Pafko ejected"
+com,"ej,pafka101,P,sudoe901,Called third strike"
+com,"Andy Pafko ejected by HP umpire Ed Sudol"
 play,1,1,gillj102,00,.,NP
 sub,haneh101,"Harry Hanebrink",0,6,7
 play,1,1,gillj102,32,..BCBCFBX,43
@@ -9729,7 +9494,6 @@ play,3,0,haneh101,22,BBCCX,8
 play,3,1,nealc101,22,SBBFC,K
 play,3,1,cimog101,22,CBFBS,K
 play,3,1,demed101,22,FSBFBX,S7/L
-com,"$high on screen"
 play,3,1,pignj101,22,.BCCBB,SB2
 play,3,1,pignj101,32,.BCCBB.C,K
 play,4,0,riced101,12,CCBX,63
@@ -9751,7 +9515,6 @@ play,5,1,demed101,12,BFSS,K
 play,6,0,haneh101,01,SX,4
 play,6,0,riced101,02,CSX,53
 play,6,0,logaj101,21,BFBX,S7/F
-com,"$high on screen"
 play,6,0,rushb101,00,.,NP
 sub,schor101,"Red Schoendienst",0,9,11
 play,6,0,schor101,02,..CCS,K
@@ -9761,7 +9524,6 @@ play,6,1,pignj101,00,.X,S8/L
 play,6,1,podrj101,00,X,34/SH.1-2
 play,6,1,gillj102,00,S,SB3
 play,6,1,gillj102,31,S.BBBX,S7/F.3-H
-com,"$screen"
 play,6,1,rosej101,22,.BBFFX,HR/F7.1-H
 play,6,1,larkn101,01,CX,D9/L
 play,6,1,hodgg101,00,,NP
@@ -9848,7 +9610,6 @@ play,1,0,brutb101,02,CSC,K
 play,1,0,schor101,30,BBBB,W
 play,1,0,mathe101,10,BX,46(1)/FO
 play,1,0,aaroh101,20,BBX,D/78.1-H
-com,"$screen high"
 play,1,0,coviw101,21,.CBBX,3/G
 play,1,1,gillj102,00,X,S8/G
 play,1,1,larkn101,12,BSCX,9
@@ -9877,12 +9638,10 @@ play,4,1,hodgg101,32,CCBBBS,K
 play,4,1,cimog101,31,BBBCX,63
 play,4,1,demed101,12,CBSS,K
 play,5,0,logaj101,01,FX,S7/F
-com,"$high-screen"
 play,5,0,riced101,00,.X,3
 play,5,0,spahw101,12,CBSX,64(1)/FO
 play,5,0,brutb101,20,BBX,7
 play,5,1,pignj101,20,BBX,HR/F7
-com,"$screen"
 play,5,1,wills102,22,.FBSBX,6/L
 play,5,1,gillj102,32,BBBCSB,W
 play,5,1,larkn101,00,X,T9/L.1-H
@@ -9919,7 +9678,6 @@ play,9,0,torrf102,32,BCBFBB,W
 play,9,0,logaj101,00,,NP
 sub,mantf101,"Felix Mantilla",0,6,12
 play,9,0,logaj101,11,.SBX,S7/F.1-2
-com,"$high on screen"
 play,9,0,riced101,00,.,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
 play,9,0,riced101,12,..CBCFS,K
@@ -10008,7 +9766,6 @@ play,4,0,pafka101,11,CBX,D9/F.2-H(UR)
 play,4,0,logaj101,12,BLLS,K
 play,4,0,riced101,21,BSBX,8/8D
 play,4,0,burdl101,12,SFFBFFX,HR/F7.2-H(UR);B-H(UR)
-com,"$screen"
 play,4,0,mantf101,10,.BX,63
 play,4,1,snidd101,12,FSBX,63
 play,4,1,furic101,32,BCSBBFX,8/8D
@@ -10147,11 +9904,9 @@ play,4,1,gillj102,00,X,4
 play,4,1,larkn101,00,X,7
 play,5,0,aaroh101,12,SFBFFX,63
 play,5,0,coviw101,00,X,S7/L
-com,"$screen"
 play,5,0,torrf102,11,.BFX,3(B)3(1)/LDP
 play,5,1,furic101,00,X,2/FL
 play,5,1,hodgg101,02,SFX,S7/L
-com,"$screen"
 play,5,1,nealc101,12,.SFBS,K
 play,5,1,zimmd101,10,BS,SB2
 play,5,1,zimmd101,12,BS.CFX,S7/L.2-3
@@ -10161,9 +9916,7 @@ play,6,0,wisec101,12,CBFX,64(1)3/GDP
 play,6,0,pizaj101,30,BBBB,W
 play,6,0,brutb101,01,CX,4/F
 play,6,1,pignj101,31,BCBBX,HR/F7
-com,"$deep-screen"
 play,6,1,drysd101,00,.X,HR/F7
-com,"$screen"
 play,6,1,gillj102,12,.CSBX,S8/L
 play,6,1,larkn101,00,,NP
 sub,robih101,"Humberto Robinson",0,9,1
@@ -10186,7 +9939,6 @@ play,7,1,pignj101,20,BBX,S8/L.3-H
 play,7,1,drysd101,01,CX,54(1)/FO
 play,8,0,torrf102,00,X,13
 play,8,0,crand102,00,X,HR/F7
-com,"$screen"
 play,8,0,wisec101,00,.X,63
 play,8,0,robih101,00,,NP
 sub,haneh101,"Harry Hanebrink",0,9,11
@@ -10268,19 +10020,16 @@ play,1,1,gillj102,32,BBBCCB,W
 play,1,1,rosej101,11,BCX,36(1)3/GDP
 play,1,1,larkn101,11,BCX,D9/L
 play,1,1,furic101,11,BFX,S8/F.2-H
-com,"$bloop - 8 lost in sun"
 play,1,1,hodgg101,12,.CCFBX,S7/L.1-3
-com,"$screen"
 play,1,1,zimmd101,00,.X,HR/F7.3-H;1-H
 play,1,1,nealc101,22,CBFBFS,K
 play,2,0,baile101,22,BBCFFS,K
 play,2,0,dropw101,11,BCX,S8/G
 play,2,0,grama101,32,BBFBFB,W.1-2
-com,"$LA Times says McDevitt's elbow tightened up"
+com,"$Danny McDevitt left with tight elbow"
 play,2,0,mcmir101,10,B,NP
 sub,labic101,"Clem Labine",1,9,1
 play,2,0,mcmir101,32,B.CBBC>X,5(B)5(2)/LDP
-com,"$Apparently Dropo ran into DP at 3rd after line drive"
 play,2,1,pignj101,00,.X,63
 play,2,1,labic101,22,BFBSFFS,K
 play,2,1,gillj102,11,CBX,43
@@ -10296,7 +10045,6 @@ play,3,1,hodgg101,22,CBCBB,CS2(26)
 play,4,0,baile101,00,X,63
 play,4,0,dropw101,32,BCFBBFFX,S9/L
 play,4,0,grama101,22,BCFBFX,S/F78.1-2
-com,"$screen"
 play,4,0,mcmir101,00,.X,S7/G.2-3;1-2
 play,4,0,acket101,00,,NP
 sub,thurb101,"Bob Thurman",0,9,11
@@ -10321,7 +10069,6 @@ play,6,0,lawrb103,00,X,7
 play,6,0,tempj101,10,BX,9/L
 play,6,1,rosej101,31,BBFBB,W
 play,6,1,larkn101,02,CLX,16(1)3/GDP
-com,"$LA Times says Temple jawed with Roseboro after tried take out SS"
 play,6,1,furic101,00,X,63
 play,7,0,lyncj102,22,CBCBX,3/G
 play,7,0,whisp101,11,CBX,7
@@ -10330,11 +10077,9 @@ play,7,0,baile101,01,SX,3/G
 play,7,1,hodgg101,01,SX,D7/G
 play,7,1,zimmd101,12,LCBS,K
 play,7,1,nealc101,01,FH,HP
-com,"$knicked"
 play,7,1,pignj101,00,.,NP
 sub,snidd101,"Duke Snider",1,8,11
 play,7,1,snidd101,10,..BX,S1.2-H;1-3
-com,"$off pitching rubber into short LF"
 play,7,1,labic101,32,.PBBCCFB,W.1-2
 play,7,1,gillj102,00,X,32(3)/FO.2-3;1-2
 play,7,1,rosej101,00,X,7
@@ -10359,7 +10104,6 @@ play,8,1,zimmd101,22,BBCCFC,K
 play,9,0,tempj101,00,X,D7/L
 play,9,0,lyncj102,22,BSBSFFX,5
 play,9,0,whisp101,11,CBX,S7/F.2-3;BX2(74)
-com,"$high screen"
 play,9,0,robif103,00,.,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
 play,9,0,robif103,00,..X,HR/L7.3-H
@@ -10439,7 +10183,6 @@ play,1,1,zimmd101,32,FSBFBBS,K
 play,2,0,dropw101,12,CBFS,K
 play,2,0,grama101,21,CBBX,53
 play,2,0,mcmir101,11,CBX,S7/L
-com,"$screen"
 play,2,0,haddh101,22,.FBBCFX,43
 play,2,1,nealc101,00,X,7
 play,2,1,demed101,12,BSSX,8
@@ -10452,9 +10195,7 @@ play,3,0,baile101,02,CCS,K
 play,3,1,podrj101,22,FBBFFX,7
 play,3,1,gillj102,32,BFBBCB,W
 play,3,1,cimog101,12,CFBX,S9/F.1-3
-com,"$bloop"
 play,3,1,furic101,00,.X,S7/G.3-H;1-3
-com,"$bounce over 5"
 play,3,1,hodgg101,00,.X,FC5.3XH(525);1-2;B-1
 play,3,1,zimmd101,02,FFX,S8/L.2-H;1-2
 play,3,1,nealc101,12,CSBX,S7/G.2XH(72);1-2
@@ -10494,7 +10235,6 @@ play,8,0,grama101,00,X,2/FL
 play,8,1,cimog101,00,X,HR/F8
 play,8,1,furic101,10,BX,8
 play,8,1,hodgg101,11,FBX,S7/L
-com,"$screen"
 play,8,1,zimmd101,11,.BFX,64(1)3/GDP
 play,9,0,mcmir101,32,CBBBCFX,S8/L
 play,9,0,haddh101,00,,NP
@@ -10556,7 +10296,7 @@ start,nealc101,"Charlie Neal",1,8,4
 start,koufs101,"Sandy Koufax",1,9,1
 play,1,0,tempj101,31,BBBCB,W
 play,1,0,lyncj102,12,BCFX,HR/F9.1-H
-com,"$hit foul pole"
+com,"$off RF pole"
 play,1,0,whisp101,22,.BBCSX,8
 play,1,0,robif103,32,BCBSBB,W
 play,1,0,baile101,12,CSBX,3/G.1-2
@@ -10621,7 +10361,7 @@ play,7,0,mcmir101,00,X,D7/G
 play,7,0,newcd101,00,X,63
 play,7,1,larkn101,12,CBCF,NP
 sub,valoe101,"Elmer Valo",1,5,11
-com,"$Larker hurt on instep on foul ball - strikeout to Larker"
+com,"$Norm Larker fouled a pitch off his instep"
 play,7,1,valoe101,22,CBCF..FBS,K
 play,7,1,hodgg101,11,FBX,63
 play,7,1,zimmd101,02,SFX,S5
@@ -10730,11 +10470,9 @@ play,1,1,gillj102,00,X,53
 play,1,1,cimog101,21,CBBX,7/7D
 play,1,1,furic101,00,X,8/L
 play,2,0,grama101,21,FBBX,S7/L
-com,"$screen"
 play,2,0,mcmir101,00,.X,S9/L.1X3(95);B-2(TH)
 play,2,0,nuxhj101,22,BCSBFS,K
 play,2,0,tempj101,32,BBCBFX,D/F78.2-H
-com,"$high screen"
 play,2,0,lyncj102,12,.BSCX,43
 play,2,1,hodgg101,32,CBBBFX,S7/L
 play,2,1,bilks101,02,CSC,K
@@ -10819,7 +10557,6 @@ play,7,1,cimog101,10,BX,53
 play,8,0,lyncj102,00,,NP
 sub,labic101,"Clem Labine",1,9,1
 play,8,0,lyncj102,21,.BCBX,6/L
-com,"$good dive"
 play,8,0,crowg101,00,X,6
 play,8,0,robif103,22,CSBBS,K
 play,8,1,furic101,01,CX,S7/L
@@ -11056,7 +10793,6 @@ play,1,1,gillj102,00,X,S8/L
 play,1,1,cimog101,21,BBSX,S4.1-2
 play,1,1,snidd101,01,CX,5/FL
 play,1,1,furic101,00,X,D5.2-H;1-3
-com,"xDWS: it clearly shows 'D5' - check Stevens"
 play,1,1,larkn101,11,.FBX,3(B)6(2)/LDP
 play,2,0,saueh101,31,BBCBB,W
 play,2,0,cepeo101,00,B,WP.1-2
@@ -11072,9 +10808,10 @@ play,2,1,pignj101,02,CCX,HR/F7
 play,2,1,birrb101,00,,NP
 sub,drysd101,"Don Drysdale",1,9,11
 play,2,1,drysd101,32,.FSBBBC,K
+com,"ej,drysd101,P,donaa901,Called third strike"
+com,"Don Drysdale ejected by HP umpire Augie Donatelli"
 play,3,0,gomer101,00,,NP
 sub,koufs101,"Sandy Koufax",1,9,1
-com,"$Drysdale ejected"
 play,3,0,gomer101,32,..BBBCCX,9
 play,3,0,davej101,00,X,8
 play,3,0,kirkw101,32,CFBBBFX,5/FL
@@ -11123,12 +10860,10 @@ play,7,1,furic101,10,BX,8
 play,7,1,larkn101,10,BX,D9/L.1-3
 play,7,1,hodgg101,30,IIII,IW
 play,7,1,zimmd101,11,BFX,14(1)/FO
-com,"$deflected off pitcher"
 play,8,0,davej101,22,.BFBSC,K
 play,8,0,kirkw101,12,FBSFC,K
 play,8,0,maysw101,30,BBBX,4
 play,8,1,pignj101,22,FBBCX,S7/L
-com,"$screen"
 play,8,1,koufs101,12,.BLLL,K/BF
 play,8,1,gillj102,00,P,CS2(2636)
 play,8,1,gillj102,10,P.X,63
@@ -11207,7 +10942,6 @@ play,1,0,mills101,21,BB.CX,FC6.3XH(62);2-3
 play,1,0,alouf101,11,BCX,S/89.1-3;3-H
 play,1,0,davej101,12,CBFX,S9/L.1-3;3-H
 play,1,0,maysw101,00,X,E5/G.1-2;3-H(NR)(UR)#
-com,"xRoth awards Mays an RBI, probably not accurately."
 play,1,0,jablr101,31,.CBBBB,W.2-3;1-2
 play,1,0,cepeo101,00,,NP
 sub,erskc101,"Carl Erskine",1,9,1
@@ -11376,7 +11110,6 @@ play,3,1,demed101,32,BSFBBB,W
 play,3,1,podrj101,12,BFFC,K
 play,3,1,gillj102,31,BBCBB,W.1-2
 play,3,1,lillb101,10,BX,5(2)3/GDP
-com,"$Roth says: '2-3 let drop'"
 play,4,0,greeg101,21,BFBX,4
 play,4,0,smitb104,20,BBX,S8/L
 play,4,0,smith108,32,BCFBFBX,53.1-2
@@ -11393,7 +11126,6 @@ play,5,1,cimog101,10,BX,8
 play,5,1,demed101,00,X,13
 play,6,0,boyek101,11,CBX,43
 play,6,0,greeg101,10,BX,D7/L7DW
-com,"$hit base of wall"
 play,6,0,smitb104,12,.BCSS,K
 play,6,0,smith108,02,SFX,4/F
 play,6,1,podrj101,10,BX,31
@@ -11420,16 +11152,14 @@ play,8,1,larkn101,10,.BX,43
 play,8,1,gillj102,12,FFBX,S1
 play,8,1,lillb101,11,BFX,S7/L.1-2
 play,8,1,fairr101,02,CFX,D7/F78.2-H;1-3
-com,"$screen"
 play,8,1,gentj101,00,.X,8
 play,9,0,kaske101,00,,NP
 sub,klipj101,"Johnny Klippstein",1,9,1
 play,9,0,kaske101,31,.BFBBX,53
 play,9,0,jones105,20,BBX,63
-play,9,0,burte101,32,BBFBFX,T9/l
+play,9,0,burte101,32,BBFBFX,T9/L
 play,9,0,tatel101,30,BBBB,W
 play,9,0,musis101,11,FBX,D7/L78.3-H;1-H
-com,"$screen"
 play,9,0,boyek101,00,.,NP
 sub,blasd101,"Don Blasingame",0,3,12
 play,9,0,boyek101,31,..BBBCB,W
@@ -11504,12 +11234,10 @@ play,1,0,burte101,32,BBCFBFFFC,K
 play,1,0,tatel101,22,BBFFX,53
 play,1,0,musis101,21,BBFX,5/FL
 play,1,1,lillb101,12,BFFX,HR/F7
-com,"$over screen"
 play,1,1,cimog101,00,.X,8
 play,1,1,fairr101,32,CBCBBB,W
 play,1,1,gentj101,21,FBBX,36(1)3/GDP
 play,2,0,boyek101,00,X,D7/F
-com,"$screen"
 play,2,0,norei101,12,.CBSS,K
 play,2,0,greeg101,22,CBBFX,4(B)6(2)/LDP
 play,2,1,demed101,10,BX,S7/G
@@ -11521,18 +11249,15 @@ play,3,0,mabeb101,22,CBFBS,K
 play,3,1,nealc101,31,BBFBB,W
 play,3,1,crair101,32,LBBBCC,K
 play,3,1,lillb101,00,X,S7/F.1-2
-com,"$screen"
 play,3,1,cimog101,10,.BX,6
 play,3,1,fairr101,32,BBBCFFX,S8/L.2-H;1-3
 play,3,1,gentj101,00,X,S8/L89.3-H;1X3(835265)
 play,4,0,burte101,30,BBBB,W
 play,4,0,tatel101,10,BX,4(1)3/GDP
-com,"$Roth says: '#194 ties NL record' (presumably team DP)"
 play,4,0,musis101,00,.X,S5
 play,4,0,boyek101,01,CX,8
 play,4,1,demed101,11,BSX,8
 play,4,1,rosej101,00,X,D7/F
-com,"$screen"
 play,4,1,zimmd101,00,.X,3/FL
 play,4,1,nealc101,30,IIII,IW
 play,4,1,crair101,11,BCX,9/L
@@ -11552,7 +11277,6 @@ play,6,0,tatel101,02,CCFX,7
 play,6,1,demed101,00,,NP
 sub,chitn101,"Nelson Chittum",0,9,1
 play,6,1,demed101,22,.BFBSX,HR/F7
-com,"$screen deep"
 play,6,1,rosej101,11,.FBX,43/BG
 play,6,1,zimmd101,10,BX,8/L
 play,6,1,nealc101,02,CSS,K
@@ -11573,7 +11297,6 @@ sub,cunnj101,"Joe Cunningham",0,9,11
 play,8,0,cunnj101,30,.BBBB,W
 play,8,0,burte101,12,CSBS,K
 play,8,0,tatel101,10,BX,S/F78.1-3
-com,"$screen"
 play,8,0,musis101,00,.,NP
 sub,kippf101,"Fred Kipp",1,9,1
 play,8,0,musis101,11,..CBX,13
@@ -11589,7 +11312,6 @@ play,8,1,demed101,22,BBCFS,K
 play,9,0,boyek101,00,,NP
 sub,hodgg101,"Gil Hodges",1,4,3
 play,9,0,boyek101,00,.X,HR/F7
-com,"$screen-deep"
 play,9,0,norei101,00,.,NP
 sub,valeb101,"Benny Valenzuela",0,5,11
 play,9,0,valeb101,00,..,NP
@@ -11676,17 +11398,14 @@ play,2,1,robie102,01,SX,S7/L.1-2
 play,2,1,drysd101,02,CCC,K
 play,2,1,lillb101,10,BX,S9/L.2-H;1-3;B-2(TH)
 play,2,1,rosej101,10,BX,S9/G.3-H;2-H
-com,"$Roth says: 'hopper over 4'"
 play,2,1,fairr101,10,.BS,SB2.1-3(E2/TH)
 play,2,1,fairr101,11,.BS.,NP
 sub,henrb101,"Bill Henry",0,9,1
 play,2,1,fairr101,11,.BS..X,43
 play,3,0,taylt101,22,CSBBC,K
 play,3,0,darka101,01,CX,T9/F
-com,"$bloop"
 play,3,0,banke101,00,.X,4
 play,3,0,moryw101,00,X,S7/F.3-H
-com,"$screen"
 play,3,0,thomb105,22,.BFFBX,64(1)/FO
 play,3,1,gentj101,32,BBBCSS,K
 play,3,1,demed101,00,X,S8/L
@@ -11694,7 +11413,6 @@ play,3,1,howaf102,11,BCX,64(1)3/GDP
 play,4,0,longd101,00,X,3/G
 play,4,0,marsj101,31,BFBBB,W
 play,4,0,tayls102,21,BSBX,S7/L.1-3
-com,"$screen"
 play,4,0,henrb101,00,.,NP
 sub,willb106,"Bob Will",0,9,11
 play,4,0,willb106,00,..X,7/L
@@ -11721,7 +11439,6 @@ play,6,1,nealc101,00,X,8
 play,6,1,robie102,21,LBBX,S8/L
 play,6,1,drysd101,32,BBFFBX,S7/L.1-2
 play,6,1,lillb101,01,FX,S7/F.2-H;1X3(74E5);B-2
-com,"$Roth says: 'Drysdale trapped RD 5 dropped'"
 play,6,1,rosej101,00,.,NP
 sub,philt101,"Taylor Phillips",0,9,1
 play,6,1,rosej101,11,..BSX,43
@@ -11734,7 +11451,6 @@ sub,jackl101,"Lou Jackson",0,9,11
 play,7,0,jackl101,11,...FBX,31
 play,7,0,taylt101,11,BFX,63
 play,7,0,darka101,00,X,S7/G
-com,"$off 5"
 play,7,0,banke101,20,.BBX,2/FL
 play,7,1,fairr101,00,,NP
 sub,singe101,"Elmer Singleton",0,9,1
@@ -11744,7 +11460,6 @@ play,7,1,demed101,11,SBX,53
 play,8,0,moryw101,00,X,8/L
 play,8,0,thomb105,01,CX,S8/L
 play,8,0,longd101,22,FBSBH,HP.1-2
-com,"$bounce foot"
 play,8,0,marsj101,00,.,NP
 sub,kippf101,"Fred Kipp",1,9,1
 play,8,0,marsj101,00,..,NP
@@ -11762,7 +11477,6 @@ sub,neemc101,"Cal Neeman",0,8,2
 play,8,1,cimog101,01,..FX,63
 play,8,1,nealc101,32,BBSBCX,S9/L
 play,8,1,robie102,00,S,CS2(26)
-com,"xclear on Roth not DP but Hunter and film think so"
 play,8,1,robie102,22,S.BBSS,K
 play,9,0,singe101,00,,NP
 sub,tannc101,"Chuck Tanner",0,9,11
@@ -11838,7 +11552,6 @@ play,1,1,reesp101,31,BBFBB,W
 play,1,1,fairr101,21,CBBX,S8/L.1-2
 play,1,1,furic101,00,X,5(2)3/GDP
 play,2,0,thomb105,00,H,HP
-com,"$on head"
 play,2,0,neemc101,02,.CSC,K
 play,2,0,longd101,01,SX,9
 play,2,0,kingc102,02,CSX,8
@@ -11983,17 +11696,15 @@ start,wills102,"Stan Williams",1,9,1
 play,1,0,taylt101,01,CX,S3
 play,1,0,darka101,12,CCPB,SB2
 play,1,0,darka101,32,CCPB.FBFX,S7/F.2-H;B-2(TH)
-com,"$screen"
 play,1,0,banke101,00,.X,7
 play,1,0,moryw101,32,CBFBFBFB,W
 play,1,0,thomb105,12,FBCFX,S7/L.2-3;1-2
 play,1,0,longd101,00,,NP
 sub,bessd101,"Don Bessent",1,9,1
 play,1,0,longd101,21,.BBCX,146(1)3/GDP
-com,"$DWS: Roth clearly notes ball 'off 1'"
 play,1,1,gillj102,22,.CBCBC,K
 play,1,1,rosej101,11,BCX,HR/F9
-com,"$hit foul pole"
+com,"$off RF pole"
 play,1,1,fairr101,11,.BFX,31
 play,1,1,furic101,12,CFBX,S8/L
 play,1,1,hodgg101,22,FCBFBS,K
@@ -12003,7 +11714,6 @@ play,2,0,hilld102,10,BX,4
 play,2,1,zimmd101,31,BBBCB,W
 play,2,1,demed101,12,BCFFFS,K
 play,2,1,nealc101,21,CBBX,S7/L.1-3
-com,"$screen"
 play,2,1,bessd101,00,.,NP
 sub,larkn101,"Norm Larker",1,9,11
 play,2,1,larkn101,12,..FCBC,K
@@ -12031,7 +11741,6 @@ play,5,0,taylt101,10,BX,54(1)3/GDP
 play,5,1,gillj102,21,BCBX,S8/G
 play,5,1,rosej101,20,BBX,8/8D.1-2
 play,5,1,fairr101,00,X,S9/G.2-H
-com,"$Roth says: 'bounce over 3'"
 play,5,1,furic101,20,.BBX,HR/F78.1-H
 play,5,1,hodgg101,00,,NP
 sub,andeb102,"Bob Anderson",0,9,1
@@ -12077,8 +11786,6 @@ sub,podrj101,"Johnny Podres",1,9,1
 play,9,0,elstd101,01,.FX,34/SH.1-2
 play,9,0,taylt101,10,BX,S7/L.2-3;B-2(TH)
 play,9,0,darka101,11,BFX,9/SF/L.3-H(UR)
-com,"xDWS: Roth and TSN agree there is one UR. It must be"
-com,"xthat the E3 'would have had the runner out' "
 play,9,0,banke101,30,IIII,IW
 play,9,0,moryw101,00,,NP
 sub,bolgj101,"Jim Bolger",0,4,11
