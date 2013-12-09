@@ -1387,6 +1387,8 @@ stat,bline,addib101,1,9,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,surkm101,1,9,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,phline,marsw101,8,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,phline,addib101,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+stat,phline,lowrp101,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+stat,phline,dierc101,7,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,dline,glavt101,0,1,5,18,0,1,0,0,0,0
 stat,dline,kazae101,0,1,5,8,0,0,0,0,0,0
 stat,dline,schor101,0,1,4,26,4,2,1,2,0,0
@@ -1651,7 +1653,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,224
+info,timeofgame,164
 info,attendance,34659
 info,wp,mainw102
 info,lp,laded101
@@ -7314,7 +7316,7 @@ start,sisld101,"Dick Sisler",0,3,7
 start,ennid101,"Del Ennis",0,4,9
 start,jonew101,"Willie Jones",0,5,5
 start,hamng102,"Granny Hamner",0,6,6
-start,silvk101,"Ken Silvestri",0,7,2
+start,lopas101,"Stan Lopata",0,7,2
 start,golim101,"Mike Goliat",0,8,4
 start,rober102,"Robin Roberts",0,9,1
 start,castp102,"Pete Castiglione",1,1,5
@@ -7332,9 +7334,9 @@ stat,bline,sisld101,0,3,1,4,1,1,0,0,0,1,0,0,0,1,0,1,0,0,0,0
 stat,bline,ennid101,0,4,1,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 stat,bline,jonew101,0,5,1,5,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,hamng102,0,6,1,5,0,2,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,silvk101,0,7,1,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,lopas101,0,7,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,nichb101,0,7,3,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+stat,bline,lopas101,0,7,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
+stat,bline,nichb101,0,7,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+stat,bline,silvk101,0,7,3,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,golim101,0,8,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,rober102,0,9,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,candm101,0,9,2,2,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -7359,8 +7361,8 @@ stat,dline,sisld101,0,1,7,24,0,0,0,0,0,0
 stat,dline,ennid101,0,1,9,24,0,0,0,0,0,0
 stat,dline,jonew101,0,1,5,24,1,0,1,0,0,0
 stat,dline,hamng102,0,1,6,24,1,4,0,1,0,0
-stat,dline,silvk101,0,1,2,12,0,0,0,0,0,0
 stat,dline,lopas101,0,1,2,12,4,1,1,1,0,0
+stat,dline,silvk101,0,1,2,12,0,0,0,0,0,0
 stat,dline,golim101,0,1,4,24,4,7,0,2,0,0
 stat,dline,rober102,0,1,1,9,1,0,1,0,0,0
 stat,dline,candm101,0,1,1,12,0,3,0,0,0,0
@@ -9642,9 +9644,9 @@ stat,dline,martf101,1,1,1,4,0,0,0,0,0,0
 stat,dline,dusae101,1,1,1,15,0,1,0,0,0,0
 stat,pline,kosld101,0,1,27,0,39,9,-1,-1,0,3,3,6,0,3,1,0,0,0,0
 stat,pline,mungr101,1,1,4,0,9,4,-1,-1,0,2,2,1,0,0,0,0,0,0,0
-stat,pline,papaa101,1,2,4,0,9,4,-1,-1,0,5,5,1,0,0,0,0,0,0,0
+stat,pline,papaa101,1,2,4,0,9,4,-1,-1,0,5,5,1,0,0,0,0,0,1,0
 stat,pline,martf101,1,3,4,0,12,5,-1,-1,0,6,6,2,0,1,0,0,0,0,0
-stat,pline,dusae101,1,4,15,0,20,3,-1,-1,0,0,0,4,0,1,0,0,0,2,0
+stat,pline,dusae101,1,4,15,0,20,3,-1,-1,0,0,0,4,0,1,0,0,0,1,0
 line,0,1,1,8,3,0,0,0,0,0
 line,1,0,0,1,0,0,0,1,1,0
 stat,tline,0,10,3,5,0
@@ -11282,9 +11284,9 @@ stat,dline,nelsr103,1,1,3,27,8,1,0,2,0,0
 stat,dline,riced101,1,1,2,27,5,1,0,0,0,0
 stat,dline,pollh101,1,1,1,26,1,0,1,0,0,0
 stat,dline,stalg103,1,1,1,1,0,0,0,0,0,0
-stat,pline,spahw101,0,1,14,0,25,6,-1,-1,2,9,5,5,0,3,0,0,0,1,0
+stat,pline,spahw101,0,1,14,0,25,6,-1,-1,2,9,5,5,0,3,0,0,0,0,0
 stat,pline,johne101,0,2,0,0,4,1,-1,-1,0,1,0,3,0,0,0,0,0,0,0
-stat,pline,antoj103,0,3,10,0,13,3,-1,-1,0,1,1,1,0,2,0,0,0,0,0
+stat,pline,antoj103,0,3,10,0,13,3,-1,-1,0,1,1,1,0,2,0,0,0,1,0
 stat,pline,pollh101,1,1,26,0,41,13,-1,-1,0,7,4,4,0,4,0,0,0,0,0
 stat,pline,stalg103,1,2,1,0,1,0,-1,-1,0,0,0,0,0,0,0,0,0,0,0
 line,0,0,0,0,1,0,0,3,0,3
@@ -11587,142 +11589,3 @@ event,hrline,1,riced101,schmj101,13,0,1
 event,dpline,1,dierc101,glavt101
 event,hpline,1,brech101,borkb101
 event,sbline,0,terww101,,,-1
-id,BSN195007070
-version,4
-info,inputprogvers,"version 7RS(19) of 07/07/92"
-info,visteam,NY1
-info,hometeam,BSN
-info,site,BOS08
-info,date,1950/07/07
-info,number,0
-info,starttime,0:00PM
-info,daynight,night
-info,usedh,false
-info,umphome,warnl101
-info,ump1b,stewb901
-info,ump2b,(none)
-info,ump3b,conlj102
-info,scorer,"71,104,96"
-info,translator,"John Gabcik"
-info,inputter,"David W. Smith"
-info,inputtime,2013/03/20 11:57AM
-info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,126
-info,attendance,21885
-info,wp,sainj101
-info,lp,jansl101
-info,save,
-start,stane101,"Eddie Stanky",0,1,4
-start,jorgs101,"Spider Jorgensen",0,2,5
-start,mueld101,"Don Mueller",0,3,7
-start,thomh103,"Hank Thompson",0,4,9
-start,thomb105,"Bobby Thomson",0,5,8
-start,gilbt101,"Tookie Gilbert",0,6,3
-start,westw101,"Wes Westrum",0,7,2
-start,darka101,"Al Dark",0,8,6
-start,jansl101,"Larry Jansen",0,9,1
-start,hartr101,"Roy Hartsfield",1,1,4
-start,jeths101,"Sam Jethroe",1,2,8
-start,torge101,"Earl Torgeson",1,3,3
-start,ellib103,"Bob Elliott",1,4,5
-start,gords101,"Sid Gordon",1,5,7
-start,holmt101,"Tommy Holmes",1,6,9
-start,crand102,"Del Crandall",1,7,2
-start,kerrb101,"Buddy Kerr",1,8,6
-start,sainj101,"Johnny Sain",1,9,1
-play,1,0,stane101,??,,99
-play,1,0,jorgs101,??,,99
-play,1,0,mueld101,??,,S
-play,1,0,thomh103,??,,99
-play,1,1,hartr101,??,,FLE5
-play,1,1,hartr101,??,,99
-play,1,1,jeths101,??,,W
-play,1,1,torge101,??,,99
-play,1,1,ellib103,??,,99
-play,2,0,thomb105,??,,D
-play,2,0,gilbt101,??,,99
-play,2,0,westw101,??,,K
-play,2,0,darka101,??,,99
-play,2,1,gords101,??,,99
-play,2,1,holmt101,??,,99
-play,2,1,crand102,??,,S
-play,2,1,kerrb101,??,,99
-play,3,0,jansl101,??,,99
-play,3,0,stane101,??,,W
-play,3,0,jorgs101,??,,99
-play,3,0,mueld101,??,,99
-play,3,1,sainj101,??,,99
-play,3,1,hartr101,??,,99
-play,3,1,jeths101,??,,99
-play,4,0,thomh103,??,,99
-play,4,0,thomb105,??,,E6
-play,4,0,gilbt101,??,,4(B)3(1)/LDP
-play,4,1,torge101,??,,K
-play,4,1,ellib103,??,,HP
-play,4,1,gords101,??,,S6.1-2
-play,4,1,holmt101,??,,S1.2-3;1-2
-play,4,1,crand102,??,,D7/L.3-H;2-H;1-3
-play,4,1,kerrb101,??,,K
-play,4,1,sainj101,??,,S8.3-H;2-H
-play,4,1,hartr101,??,,S.1-2
-play,4,1,jeths101,??,,99/P
-play,5,0,westw101,??,,99
-play,5,0,darka101,??,,99
-play,5,0,jansl101,??,,99
-play,5,1,torge101,??,,99
-play,5,1,ellib103,??,,K
-play,5,1,gords101,??,,T8/L
-play,5,1,holmt101,??,,S.3-H
-play,5,1,crand102,??,,E5/G.1-2
-play,5,1,kerrb101,??,,D7.2-H(UR);1-H(UR)
-play,5,1,sainj101,??,,NP
-sub,hansa101,"Andy Hansen",0,9,1
-play,5,1,sainj101,??,,S.2-H
-play,5,1,hartr101,??,,99
-play,6,0,stane101,??,,D
-play,6,0,jorgs101,??,,99
-play,6,0,mueld101,??,,99
-play,6,0,thomh103,??,,W
-play,6,0,thomb105,??,,S.2-H;1-2
-play,6,0,gilbt101,??,,99
-play,6,1,jeths101,??,,99
-play,6,1,torge101,??,,99
-play,6,1,ellib103,??,,K
-play,7,0,westw101,??,,NP
-sub,irvim101,"Monte Irvin",0,7,11
-play,7,0,irvim101,??,,99/P
-play,7,0,darka101,??,,99
-play,7,0,hansa101,??,,NP
-sub,rignb101,"Bill Rigney",0,9,11
-play,7,0,rignb101,??,,99/G
-play,7,1,gords101,??,,NP
-sub,higbk101,"Kirby Higbe",0,9,1
-play,7,1,gords101,??,,NP
-sub,calds101,"Sam Calderone",0,7,2
-play,7,1,gords101,??,,W
-play,7,1,holmt101,??,,K
-play,7,1,crand102,??,,WP.1X3(99)
-com,"Gordon overran base"
-play,7,1,crand102,??,,99
-play,8,0,stane101,??,,99
-play,8,0,jorgs101,??,,99
-play,8,0,mueld101,??,,99
-play,8,1,kerrb101,??,,99
-play,8,1,sainj101,??,,99
-play,8,1,hartr101,??,,99
-play,9,0,thomh103,??,,S
-play,9,0,thomb105,??,,99/G.1-2
-play,9,0,gilbt101,??,,99
-play,9,0,calds101,??,,S.2-H
-play,9,0,darka101,??,,99
-data,er,jansl101,6
-data,er,hansa101,0
-data,er,higbk101,0
-data,er,sainj101,2
