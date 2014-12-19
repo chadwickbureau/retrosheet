@@ -55,7 +55,6 @@ play,1,1,monrc001,12,CBFX,D7/G
 play,1,1,polap001,01,CX,4/P
 play,1,1,ordom001,32,B*BBCFB,W
 play,1,1,guilc001,21,SBBX,S9/L.2-H;1-3;B-2(E9)
-com,"$Encarnacion briefly misplayed the ball"
 play,1,1,rodri001,10,BX,4/L-
 play,2,0,edmoj001,22,FBBSFFS,K
 play,2,0,roles001,10,BX,HR/7/F
@@ -90,12 +89,11 @@ play,6,0,pujoa001,32,BCBBFB,W
 play,6,0,edmoj001,31,BBBC1,PO1(E1).1-3
 play,6,0,edmoj001,32,BBBC1.FFX,S9/L.3-H
 play,6,0,roles001,01,FX,DGR/F9L.1-3
-com,"$the ball bounced over the wall in foul territory"
 play,6,0,encaj001,00,,NP
 sub,grilj001,"Jason Grilli",1,0,1
-play,6,0,encaj001,22,.BFSBX,E5/THH.3-H;2-H(E5)(UR)(NR);B-2
-com,"$Inge took the ball off the chest, picked it up and hurried his"
-com,"throw to the plate; it sailed wide up the 1B line for the first"
+play,6,0,encaj001,22,.BFSBX,FC5/OBS.3-H(E5/THH);2-H(E5)(UR)(NR);B-2
+com,"$Brandon Inge took the ball off his chest, picked it up and hurried"
+com,"his throw to HP; the ball sailed wide up the 1B line for the first"
 com,"error; he moved into foul territory after the throw and Rolen"
 com,"ran into him after rounding 3B; Inge was called for obstruction"
 com,"for the second error and Rolen allowed to score"
@@ -213,6 +211,11 @@ play,1,1,polap001,11,CBX,63/G
 play,1,1,ordom001,00,X,S6/P-
 play,1,1,guilc001,31,BCBB+1X,D7/L.1-H
 play,1,1,rodri001,02,CCFX,FC5/G.2X3(5)
+com,"$in the top of the first, Kenny Rogers pitched with a brown"
+com,"substance on the heel of his pitching hand; Cardinal manager"
+com,"Tony LaRussa complained to the umpires; the umpires talked"
+com,"with Rogers and Tigers manager Jim Leyland; Rogers washed"
+com,"his hands before the second inning"
 play,2,0,edmoj001,32,FBBCBS,K
 play,2,0,wilsp002,22,BBSSFFX,13/G
 play,2,0,moliy001,00,X,7/F
@@ -235,8 +238,7 @@ play,4,1,cases001,12,TBFFH,HP
 play,4,1,ingeb001,01,CX,S8/L.1-2
 play,4,1,santr002,01,FX,E3/SH/BG.2-3;1-2
 play,4,1,granc001,02,CST,K
-play,4,1,monrc001,01,SX,6/P
-com,"infield fly"
+play,4,1,monrc001,01,SX,6/P/IF
 play,4,1,polap001,10,BX,63/G
 play,5,0,edmoj001,32,BBCCBB,W
 play,5,0,wilsp002,00,X,8!/F
@@ -373,8 +375,7 @@ play,4,1,roles001,30,BBBB,W
 play,4,1,bellr002,12,BFFX,52(3)/FO/G.2-3;1-2
 play,4,1,edmoj001,22,CBBFX,D9/G.3-H;2-H;1-3
 play,4,1,moliy001,30,IIII,IW
-play,4,1,tagus001,11,BFX,6/P
-com,"infield fly"
+play,4,1,tagus001,11,BFX,6/P/IF
 play,4,1,carpc002,01,CX,3/P3F
 play,5,0,guilc001,12,BCFS,K
 play,5,0,rodri001,10,BX,3/G
@@ -404,8 +405,8 @@ play,7,0,guilc001,11,BFX,8/F
 play,7,1,ecksd001,32,CBBFBB,W
 play,7,1,wilsp002,31,C*BBBB,W.1-2
 play,7,1,pujoa001,20,BBX,E1/TH3/G.2-H(UR);1-H(UR);B-2
-com,"$Zumaya made an ill-advised throw to 3B and it sailed past"
-com,"Inge down the line in foul territory"
+com,"$Joel Zumaya made an ill-advised throw to 3B and it sailed past"
+com,"Brandon Inge down the line in foul territory"
 play,7,1,roles001,12,SBFX,43/G.2-3
 play,7,1,bellr002,00,,NP
 sub,grilj001,"Jason Grilli",0,9,1
@@ -490,7 +491,7 @@ start,wilsp002,"Preston Wilson",1,6,7
 start,moliy001,"Yadier Molina",1,7,2
 start,milea001,"Aaron Miles",1,8,4
 start,suppj001,"Jeff Suppan",1,9,1
-com,"$This game delayed one day by rain"
+com,"$this game delayed one day by rain"
 play,1,0,granc001,10,BX,6/L-
 play,1,0,monrc001,10,BX,63/G
 play,1,0,guilc001,02,CCS,K
@@ -561,12 +562,10 @@ play,7,0,cases001,00,,NP
 sub,johnt002,"Tyler Johnson",1,9,1
 play,7,0,cases001,00,.X,9/F
 play,7,1,ecksd001,11,CBX,D8/F
-com,"$Granderson slipped and fell on wet field, or ball"
-com,"would have been caught"
+com,"$Curtis Granderson slipped and fell on the wet field"
 play,7,1,duncc002,00,,NP
 sub,tagus001,"So Taguchi",1,2,11
 play,7,1,tagus001,00,.X,E1/TH1/SH/BG.2-H(NR)(UR);B-2
-com,"$Rodney made barehand pickup and threw ball over Polanco's head"
 play,7,1,pujoa001,30,IIII,IW
 play,7,1,edmoj001,22,CCBFBC,K
 play,7,1,roles001,22,BCS*BS,K
@@ -696,9 +695,9 @@ play,5,0,ingeb001,12,BCCS,K
 play,5,0,verlj001,02,SCS,K
 play,5,0,granc001,32,BFBSFBB,W
 play,5,0,monrc001,01,CX,6/P
-com,"$the swing for strike two on Pujols was called by 1B"
-com,"umpire McClelland; Pujols flipped his bat in the air"
-com,"and failed to catch it; HP umpire Hirschbeck called"
+com,"$the swing for strike two on Albert Pujols was called by 1B"
+com,"umpire Tim McClelland; Pujols flipped his bat in the air"
+com,"and failed to catch it; HP umpire John Hirschbeck called"
 com,"Pujols out on the next pitch with a big motion and"
 com,"McClelland stared at Pujols as the latter walked back"
 com,"to and went in the dugout"
@@ -726,8 +725,7 @@ play,7,1,ecksd001,00,,NP
 sub,rodnf001,"Fernando Rodney",0,9,1
 play,7,1,ecksd001,21,.BBCX,S6/G
 play,7,1,wilsp002,30,BBBB,W.1-2
-play,7,1,pujoa001,22,CFBBFX,4/P
-com,"infield fly"
+play,7,1,pujoa001,22,CFBBFX,4/P/IF
 play,7,1,edmoj001,22,BBFFX,9/F
 play,7,1,roles001,11,BFX,S9/L.2-H;1-3
 play,7,1,bellr002,02,FFX,23/G-
