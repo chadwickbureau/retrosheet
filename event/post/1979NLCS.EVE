@@ -51,16 +51,15 @@ start,knigr001,"Ray Knight",1,6,5
 start,dried001,"Dan Driessen",1,7,3
 start,cruzh101,"Heity Cruz",1,8,8
 start,seavt001,"Tom Seaver",1,9,1
+com,"45 minute rain delay before start of game"
 play,1,0,moreo001,12,SSFBX,63
-com,"45 minute rain delay at start"
 play,1,0,folit001,11,BCX,53
 play,1,0,parkd001,00,X,3
 play,1,1,colld001,11,BCX,4
 play,1,1,morgj001,32,BBFFBFX,9
 play,1,1,concd001,21,BBFX,53
 play,2,0,starw101,12,BFSFS,K
-play,2,0,milnj101,10,BX,3/P
-com,"BS"
+play,2,0,milnj101,10,BX,99
 play,2,0,madlb001,01,FX,S
 play,2,0,ott-e101,10,1BB,SB2
 play,2,0,ott-e101,32,1BB.SSBS,K
@@ -74,8 +73,7 @@ play,3,0,moreo001,00,X,T
 play,3,0,folit001,11,BSX,9/SF.3-H
 play,3,0,parkd001,32,BSBBFFFB,W
 play,3,0,starw101,31,BFB1BB,W.1-2
-play,3,0,milnj101,10,BX,3/P
-com,"BS"
+play,3,0,milnj101,10,BX,99
 play,3,1,cruzh101,12,FBFFX,9
 play,3,1,seavt001,02,CFS,K
 play,3,1,colld001,01,CX,S
@@ -94,8 +92,7 @@ play,5,0,folit001,00,X,S
 play,5,0,parkd001,22,FBFFFBFF1X,64(1)3/GDP
 play,5,1,cruzh101,10,BX,53
 play,5,1,seavt001,00,X,53
-play,5,1,colld001,32,BBCFBX,3/P
-com,"BS"
+play,5,1,colld001,32,BBCFBX,99
 play,6,0,starw101,00,X,6/P
 play,6,0,milnj101,10,BX,9
 play,6,0,madlb001,10,BX,7
@@ -147,7 +144,6 @@ play,11,0,folit001,01,CX,S
 play,11,0,parkd001,00,,NP
 sub,alexm101,"Matt Alexander",0,2,12
 play,11,0,parkd001,12,BFCF1F1X,S.1-2
-com,"Advance may have been farther than this - ok Pete Palmer"
 play,11,0,starw101,00,X,HR.2-H;1-H
 play,11,0,milnj101,00,X,43
 play,11,0,madlb001,10,BX,S
@@ -262,16 +258,13 @@ play,3,1,bencj101,11,B.CX,3
 play,4,0,folit001,00,X,S
 play,4,0,parkd001,00,X,S.1-2
 play,4,0,starw101,01,FX,S.2-3;1-2;BX2(743)
-play,4,0,milnj101,30,IIII,I
+play,4,0,milnj101,30,IIII,IW
 play,4,0,madlb001,11,CBX,63.3-H;2-3;1-2
-com,"Boehm has this marked as 'FC', but that can't be"
-play,4,0,ott-e101,01,CX,3/P
-com,"BS"
+play,4,0,ott-e101,01,CX,63
 play,4,1,dried001,02,FCX,43
 play,4,1,knigr001,00,X,3
 play,4,1,geroc101,22,BBSCS,K
 play,5,0,garnp001,00,X,S9
-com,"Disputed play.  TV replay shows Pulli wrong in ruling trap"
 play,5,0,bibbj001,00,X,54/SH.1-2
 play,5,0,moreo001,01,FX,8
 play,5,0,folit001,12,CFFBX,D.2-H
@@ -340,8 +333,7 @@ sub,baird001,"Doug Bair",1,9,1
 play,10,0,moreo001,11,FBX,S
 play,10,0,folit001,00,111X,14/SH.1-2
 play,10,0,parkd001,21,SBBX,S.2-H
-play,10,0,starw101,30,IIII,I.1-2
-com,"DWS: check this for IW - maybe Stargell to 2nd earlier - ok as is - Pete Palmer"
+play,10,0,starw101,30,IIII,IW.1-2
 play,10,0,robib101,02,SSX,2/FL
 play,10,0,madlb001,10,BX,63
 play,10,1,bencj101,22,SBSBFS,K
@@ -410,7 +402,7 @@ start,madlb001,"Bill Madlock",1,6,5
 start,ott-e101,"Ed Ott",1,7,2
 start,garnp001,"Phil Garner",1,8,4
 start,blylb001,"Bert Blyleven",1,9,1
-com,"Rain delay before game start"
+com,"Rain delay before start of game"
 play,1,0,colld001,22,FCBBX,43
 play,1,0,morgj001,12,BFCX,3/FL/P
 play,1,0,concd001,22,BCSBX,S7/G
@@ -438,14 +430,12 @@ play,3,0,normf101,12,CBSS,K
 play,3,0,colld001,01,CX,S7/G6
 play,3,0,morgj001,01,FX,3/G.1-2
 play,3,0,concd001,21,BCBX,S6.2-3
-com,"Young says 'saves run'"
 play,3,0,fostg001,12,FCBFS,K
 play,3,1,starw101,12,CFBX,HR/9
 play,3,1,milnj101,21,BBSX,2/P
 play,3,1,madlb001,00,X,HR/7/L
 play,3,1,ott-e101,22,BBCFX,3/FL/P
 play,3,1,garnp001,01,FX,3/L
-com,"CHECK it"
 play,4,0,bencj101,10,BX,53
 play,4,0,dried001,12,BSFC,K
 play,4,0,knigr001,00,X,S9

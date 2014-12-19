@@ -47,7 +47,6 @@ start,canor001,"Robinson Cano",1,7,4
 start,swisn001,"Nick Swisher",1,8,9
 start,cabrm002,"Melky Cabrera",1,9,8
 start,sabac001,"C.C. Sabathia",1,0,1
-com,"$Game 1 of the World Series, which was played in a fairly steady drizzle"
 play,1,0,rollj001,00,X,3/BG
 play,1,0,victs001,12,BCFX,4/P
 play,1,0,utlec001,32,CBSBBB,W
@@ -88,7 +87,7 @@ com,"SS Jimmy Rollins was trying to get a trapped ball and a double play; he ran
 com,"stepped on the bag and threw to first too late to get Cano; however, runner Hideki"
 com,"Matsui thought he was out on the force at 2B and stood off the bag while the play"
 com,"finished at 1B, where the throw was off-line; Ryan Howard tagged Matsui; the umpires"
-com,"huddled and correctly called the double play"
+com,"huddled and called the double play"
 play,5,1,swisn001,20,BBX,9/F-
 play,6,0,victs001,31,BBBCX,8/F-
 play,6,0,utlec001,02,CCFX,HR/9/F
@@ -98,7 +97,6 @@ play,6,0,ibanr001,02,11FFS,K
 play,6,1,cabrm002,12,CCBX,9/F
 play,6,1,jeted001,20,BBX,S8/G
 play,6,1,damoj001,22,1BBFCFFX,1/P-
-com,"$pitcher Cliff Lee made a nonchalant catch of the popup on the mound"
 play,6,1,teixm001,20,BBX,4(1)/FO/G
 play,7,0,franb001,32,BBCBFB,W
 play,7,0,felip001,00,X,54(1)3/GDP
@@ -121,8 +119,6 @@ play,8,0,wertj001,30,.B1BBB,W.1-2
 play,8,0,ibanr001,22,CBCFBX,S9/G.3-H;2-H;1-2
 play,8,0,franb001,11,SBX,53/G
 play,8,1,canor001,01,CX,13/G
-com,"$pitcher Cliff Lee stabbed the hard-hit ball behind his back and once the play was"
-com,"over made a funny, 'what just happened' look towards the infielders"
 play,8,1,swisn001,22,CBCFFBC,K
 play,8,1,cabrm002,01,FX,8/F
 play,9,0,felip001,00,,NP
@@ -138,9 +134,6 @@ play,9,0,howar001,11,SBX,D9/L.3-H;1XH(942)
 play,9,1,jeted001,12,FCBX,S8/F-
 play,9,1,damoj001,10,BX,S9/L.1-2
 play,9,1,teixm001,01,SX,46(1)/FO/G.2-H(E6/TH1)(UR);B-2
-com,"$the ball went into the Yankees dugout and the unearned run ruined the shutout for Cliff"
-com,"Lee; it would have been the first time the Yankees had been shut out in the first game"
-com,"of a World Series"
 play,9,1,rodra001,12,CFBS,K
 play,9,1,posaj001,02,CFFS,K
 data,er,lee-c003,0
@@ -209,12 +202,10 @@ play,2,0,howar001,12,CBFFS,K
 play,2,0,wertj001,32,CBCBFFBX,53/G
 play,2,0,ibanr001,22,CBCBX,DGR/7/F-
 play,2,0,staim001,11,C*BX,S57/G+.2-H
-com,"$Matt Stairs hit a hard one-hopper past ARod"
 play,2,0,felip001,12,CF*BS,K
 play,2,1,rodra001,22,FFBFFFFBC,K
 play,2,1,matsh001,21,BBCX,S9/G
 play,2,1,canor001,22,CFFBFBX,7!/F78-
-com,"&LF Raul Ibanez made a diving catch of the sinking liner"
 play,2,1,hairj002,32,BBCCB>X,9/F
 play,3,0,ruizc001,00,X,63/G
 play,3,0,rollj001,32,CBSFBBB,W
@@ -265,9 +256,6 @@ play,7,1,jeted001,02,LC+2L,K/BF
 play,7,1,damoj001,00,,NP
 sub,eyres001,"Scott Eyre",0,0,1
 play,7,1,damoj001,01,.CX,3/LDP.1X1(36)
-com,"$the low liner was ruled a catch by 1B umpire Brian Gorman, who was behind 1Bman"
-com,"Ryan Howard; replay showed that it was likely a trap; runner Jorge Posada was"
-com,"tagged out while standing at 2B; the Yankees argued the call"
 play,8,0,ruizc001,00,,NP
 sub,gardb001,"Brett Gardner",1,7,8
 play,8,0,ruizc001,00,,NP
@@ -372,8 +360,8 @@ play,3,1,wertj001,31,CBBBX,9/F
 play,3,1,ibanr001,00,X,8/F
 play,4,0,damoj001,01,CX,9/F
 play,4,0,teixm001,32,CBFBBB,W
-play,4,0,rodra001,01,SX,HR/9/F.1-H
-com,"replay,4,rodra001,NYA,davig901,PHI13,O,Y"
+play,4,0,rodra001,01,SX,HR/9/F/UREV.1-H
+com,"replay,4,rodra001,NYA,davig901,PHI13,O,Y,I,,H"
 com,"$Alex Rodriguez hit a fly ball down the right field line that hit just inside the pole;"
 com,"the ball struck a television camera and was called in play by RF umpire Jeff Nelson; Yankees"
 com,"manager Joe Girardi asked about the call, so crew chief Gerry Davis and three of the other"
@@ -517,7 +505,7 @@ play,1,0,damoj001,20,BBX,D9/L.1-3
 play,1,0,teixm001,00,X,3/G.3-H;2-3
 play,1,0,rodra001,00,H,HP
 play,1,0,posaj001,01,11CX,7/SF/F.3-H;1-2(E7/THH)
-com,"$the throw by Raul Ibanez glanced off Johnny Damon's helmet"
+com,"$the throw glanced off Johnny Damon's helmet"
 play,1,0,canor001,10,BX,8/F
 play,1,1,rollj001,01,CX,9/F
 play,1,1,victs001,11,BCX,D78/F
@@ -565,9 +553,9 @@ play,6,0,posaj001,22,CFBBS,K
 play,6,0,canor001,22,FBCBFFFX,31/G
 play,6,0,swisn001,32,BBCBSB,W
 play,6,0,cabrm002,22,CCFBBFX,31/G
-com,"$Cabrera pulled hamstring running out grounder, left in next inning,"
-com,"removed from World Series roster next day, replaced on roster by"
-com,"infielder Ramiro Pena"
+com,"$Melky Cabrera pulled a hamstring running out grounder and left in"
+com,"next inning; he was removed from the World Series roster the next"
+com,"day, replaced on roster by Ramiro Pena"
 play,6,1,ibanr001,00,,NP
 sub,gardb001,"Brett Gardner",0,8,8
 play,6,1,ibanr001,02,.CCS,K
@@ -610,8 +598,8 @@ play,9,0,jeted001,32,SBSBFBS,K
 play,9,0,damoj001,32,BFFFBBFFX,S7/L-
 play,9,0,teixm001,00,*B,SB2
 play,9,0,teixm001,10,*BN,SB3
-com,"$Damon stole second, but no one covered third because of big shift"
-com,"in the infield, so Damon continued to third for a second steal on"
+com,"$Johnny Damon stole 2B and no one covered 3B because of big shift"
+com,"in the infield, so Damon continued to 3B for a second steal on"
 com,"the same play"
 play,9,0,teixm001,11,*B..CH,HP
 play,9,0,rodra001,01,CX,D7/L.3-H;1-3
@@ -854,8 +842,6 @@ start,canor001,"Robinson Cano",1,7,4
 start,swisn001,"Nick Swisher",1,8,9
 start,gardb001,"Brett Gardner",1,9,8
 start,petta001,"Andy Pettitte",1,0,1
-com,"$Yankees Hideki Matsui named MVP of the World Series; the 27th time the Yankees"
-com,"have won the Series"
 play,1,0,rollj001,10,BX,63/G
 play,1,0,victs001,02,CFX,S1/G-
 play,1,0,utlec001,11,1BCX,46(1)3/GDP

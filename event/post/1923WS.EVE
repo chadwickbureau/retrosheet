@@ -20,17 +20,13 @@ info,inputtime,2009/08/25 10:45AM
 info,howscored,park
 info,pitches,none
 info,temp,0
-com,"Ideal temperature; overcoats were unnecessary"
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,cloudy
-com,"Slightly overcast"
 info,timeofgame,124
 info,attendance,55307
-com,"Record-breaking paid attendance for a World Series game."
-com,"There were at least 3,000 unpaid attendees, too."
 info,wp,ryanr101
 info,lp,bushj102
 info,save,
@@ -53,6 +49,7 @@ start,warda101,"Aaron Ward",1,6,4
 start,schaw101,"Wally Schang",1,7,2
 start,scote101,"Everett Scott",1,8,6
 start,hoytw101,"Waite Hoyt",1,9,1
+com,"Pitch counts: Mule Watson 38; Rosy Ryan 95; Waite Hoyt 33; Joe Bush 83"
 play,1,0,bancd101,11,CBX,9/F
 play,1,0,grohh101,00,X,S8/G6M
 play,1,0,frisf101,??,,64(1)/FO
@@ -60,16 +57,13 @@ play,1,0,younr101,??,,CS2(24)
 play,1,1,wittw101,??,UX,6/L
 play,1,1,dugaj101,32,,W
 play,1,1,ruthb101,12,CSBX,56(1)/FO/G+
-com,"Groh fumbled momentarily"
 play,1,1,meusb101,??,,D8.1-H
-com,"Sliced to CF; Stengel fumbled slightly"
 play,1,1,pippw101,??,,7/F
 play,2,0,younr101,??,,53
 play,2,0,meusi101,??,,3/FL
 play,2,0,stenc101,??,,9/F9LD
 play,2,1,warda101,00,X,S7
 play,2,1,schaw101,??,,S8/L.1-2
-com,"Hit & run"
 play,2,1,scote101,??,,3/BG23/SH.2-3;1-2
 play,2,1,hoytw101,??,,K
 play,2,1,wittw101,??,,S8.3-H;2-H
@@ -81,23 +75,16 @@ sub,maguf101,"Freddie Maguire",0,8,12
 play,3,0,watsm103,??,,NP
 sub,bentj101,"Jack Bentley",0,9,11
 play,3,0,bentj101,??,,S/F8S-.2-3;1-2
-com,"Kelly waited to see if Texas Leaguer would be caught."
-com,"Bentley fouled off a few pitches during the AB."
 play,3,0,bancd101,??,,NP
 sub,geard101,"Dinty Gearin",0,9,12
 play,3,0,bancd101,??,,64(1)/FO.3-H;2-3
 play,3,0,grohh101,00,,SB2
-com,"Stole on 1st pitch as Hoyt took a full wind-up"
 play,3,0,grohh101,??,,T9/G3L+.3-H;2-H
-com,"Grounded inside 1B; Ruth let it roll past him and further"
-com,"into RF."
 play,3,0,frisf101,??,,NP
 sub,bushj102,"Joe Bush",1,9,1
 play,3,0,frisf101,??,,S9/G3L.3-H
 play,3,0,younr101,??,,64(1)/FO
-com,"Youngs just beat throw to 1B"
 play,3,0,meusi101,??,,OA.1X2(26)
-com,"Tried to take 2B on short PB"
 play,3,1,ruthb101,??,,NP
 sub,snydf101,"Frank Snyder",0,8,2
 play,3,1,ruthb101,??,,NP
@@ -105,79 +92,48 @@ sub,ryanr101,"Rosy Ryan",0,9,1
 play,3,1,ruthb101,21,BBFX,7/F78D
 play,3,1,meusb101,??,,8/F
 play,3,1,pippw101,??,,S/G46-
-com,"Slow infield roller past Ryan"
 play,3,1,warda101,??,,K
 play,4,0,meusi101,??,,63
 play,4,0,stenc101,??,,W
-com,"Stengel fouled off half a dozen pitches"
 play,4,0,kellg101,??,,64(1)3/GDP
 play,4,1,schaw101,??,,W
 play,4,1,scote101,??,,K
-com,"Scott tried repeatedly to lay down a bunt."
-com,"Two snap throws to 1B by Snyder forced Schang to dive back"
 play,4,1,bushj102,??,,D7/7L.1-3
 play,4,1,wittw101,??,,FC1/DP.3XH(15);2-3;BX2(54)
-com,"The ball struck Ryan in the chest and fell to his feet."
-com,"Ryan chased Groh back to 3B; play at 2B was close."
-com,"During this AB, another snap throw by Snyder forced Schang"
-com,"to dive back to 3B."
+com,"$the ball struck Rosy Ryan on the chest and fell at his feet;"
+com,"Ryan chased Heinie Groh back to 3B"
 play,5,0,snydf101,??,,8/F
 play,5,0,ryanr101,??,,K
 play,5,0,bancd101,??,,8/F
 play,5,1,dugaj101,??,,7/F
 play,5,1,ruthb101,00,X,T7/G5L
-com,"Ruth choked his bat, shortened his swing, and hit a slow"
-com,"pitch inside 3B to the bleacher wall.  He beat Meusel's"
-com,"throw to 3B by inches."
+com,"$Babe Ruth choked his bat, shortened his swing, and hit a slow"
+com,"pitch inside 3B to the bleacher wall"
 play,5,1,meusb101,??,,4!!(B)2(3)/DP/P4D
-com,"Spectcular running, twisting catch with his back to the"
-com,"infield.  Frisch then wheeled around and in the same motion"
-com,"threw an accurate strike to the plate on one bounce.  It was"
-com,"not a strong throw, but cut down Ruth by 2 feet."
-com,"Ruth went into the stonewall Snyder like a football tackler"
-com,"but it was Ruth who rebounded like a rubber ball, landing"
-com,"square on his side several feet away."
 play,6,0,grohh101,??,,143/G+
-com,"Bush deflected the drive towards Ward"
 play,6,0,frisf101,??,,9/F
 play,6,0,younr101,??,,W
 play,6,0,meusi101,??,,PO1(E2).1-2
-com,"Schang threw into RF"
 play,6,0,meusi101,??,,13
 play,6,1,pippw101,??,,31
 play,6,1,warda101,??,,7/F
 play,6,1,schaw101,??,,D9/9L
-com,"Close play at 2B; Frisch objected angrily to Nallin's call"
 play,6,1,scote101,??,,4!3/G34
-com,"Splendid stop"
 play,7,0,stenc101,??,,S9/L9L
 play,7,0,kellg101,??,,64(1)3/GDP
 play,7,0,snydf101,??,,K
 play,7,1,bushj102,??,,S8/L
 play,7,1,wittw101,??,,7/F7S
 play,7,1,dugaj101,??,,T9/L89.1-H
-com,"Past Youngs to the fence; Youngs played it badly before he"
-com,"got his hands on it."
 play,7,1,ruthb101,11,FBX,FC3/G3L+.3XH(3!!2)
-com,"Marvelous stop and great throw."
-com,"Kelly knocked it down and, with his back to the plate,"
-com,"pounced on it like a cat, turned, and made a powerful throw."
-com,"After the game many (including McGraw) said it was one of"
-com,"the best plays they'd ever seen."
 play,7,1,meusb101,??,,9/F
 play,8,0,ryanr101,??,,8/F
 play,8,0,bancd101,??,,S9/G34
-com,"Past Ward"
 play,8,0,grohh101,??,,5!3/G56.1-2
-com,"Good stop"
 play,8,0,frisf101,??,,8/F
 play,8,1,pippw101,??,,S2/G2R-
-com,"Beat Snyder's throw"
 play,8,1,warda101,??,,WP.1-2
 play,8,1,warda101,??,,PO2(2!6)
-com,"Ward had squared to bunt, but Snyder called for a pitchout"
-com,"and made a fine throw.  Bancroft blocked the bag."
-com,"This was the first pitch following the WP."
 play,8,1,warda101,??,,S/L78S
 play,8,1,schaw101,??,,13.1-2
 play,8,1,scote101,??,,NP
@@ -188,26 +144,14 @@ sub,johne102,"Ernie Johnson",1,8,6
 play,9,0,younr101,??,,8/L
 play,9,0,meusi101,??,,53
 play,9,0,stenc101,32,,HR8/IPHR/L78D+
-com,"IPHR to CF fence; Meusel relayed Witt's throw home but"
-com,"Stengel was safe easily.  He slid across the plate and up"
-com,"onto one knee in a single motion.  Then he waved his hand in"
-com,"a comical gesture as if to say, 'Well, there you are.'"
-com,"The players almost mobbed Stengel on the field."
 play,9,0,kellg101,??,,63
 play,9,1,bushj102,??,,NP
 sub,cunnb102,"Bill Cunningham",0,6,8
 play,9,1,bushj102,??,,5!3/G6S-
-com,"Fine 1-handed stab and off-balance throw; close play at 1B."
-com,"Bush was ejected by Ump O'Day for arguing the decision."
+com,"ej,bushj102,P,odayh101,Call at 1B"
+com,"Joe Bush ejected by 1B umpire Hank O'Day"
 play,9,1,wittw101,??,,8/F
 play,9,1,dugaj101,??,,7/F#
-com,"Box scores reported 5 POs by I.Meusel (and 2 for Youngs)"
-com,""
-com,"Pitch counts: Total (Balls, Called Strikes, Swinging Strikes, Fouls, Infield Outs, Outfield Outs, Hits)"
-com,"Watson 38 (B=14, C=11, S=4, F=0, IF=4, OF=1, H=4)"
-com,"Ryan   95 (B=37, C=19, S=12,F=3, IF=7, OF=9, H=8)"
-com,"Hoyt   33 (B=12, C= 7, S=3, F=1, IF=4, OF=2, H=4)"
-com,"Bush   83 (B=31, C=22, S=6, F=5, IF=9, OF=6, H=4)"
 data,er,watsm103,3
 data,er,ryanr101,1
 data,er,hoytw101,4
@@ -234,17 +178,13 @@ info,inputtime,2009/08/26 8:33AM
 info,howscored,park
 info,pitches,none
 info,temp,0
-com,"Overcoats were unnecessary"
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,overcast
-com,"Rain threatened during the first few innings and the sun"
-com,"never appeared."
 info,timeofgame,127
 info,attendance,40402
-com,"Record-breaking attendance for the Polo Grounds"
 info,wp,pennh101
 info,lp,mcquh101
 info,save,
@@ -267,6 +207,7 @@ start,cunnb102,"Bill Cunningham",1,6,8
 start,kellg101,"George Kelly",1,7,3
 start,snydf101,"Frank Snyder",1,8,2
 start,mcquh101,"Hugh McQuillan",1,9,1
+com,"Pitch counts: Herb Pennock 116; Hugh McQuillan 49; Jack Bentley 78"
 play,1,0,wittw101,21,,43
 play,1,0,dugaj101,30,BBBB,W
 play,1,0,ruthb101,31,BBCBB,W.1-2
@@ -274,17 +215,12 @@ play,1,0,meusb101,??,,64(1)3/GDP
 play,1,1,bancd101,??,,63
 play,1,1,grohh101,??,,13
 play,1,1,frisf101,??,,4!3/G34
-com,"Fine stop"
 play,2,0,pippw101,??,,5!3/G+
-com,"Good stop of smash"
 play,2,0,warda101,??,UUUX,HR/F7D
-com,"Into upper tier of LF stands"
 play,2,0,schaw101,??,,2/P1S
 play,2,0,scote101,??,,7/F7D
 play,2,1,younr101,??,,5/P
 play,2,1,meusi101,??,,HR/F7D
-com,"Into upper tier of LF stands."
-com,"It was a low pitch around the knees, where Meusel likes them"
 play,2,1,cunnb102,??,,9/F
 play,2,1,kellg101,??,,S9/L+
 play,2,1,snydf101,??,,4/P
@@ -292,48 +228,29 @@ play,3,0,pennh101,??,,43
 play,3,0,wittw101,??,,43
 play,3,0,dugaj101,??,,7/F7LD
 play,3,1,mcquh101,??,,5!3/BG25
-com,"Splendid bare-handed play; out by a step"
 play,3,1,bancd101,??,,7/F
 play,3,1,grohh101,32,,W
 play,3,1,frisf101,??,,S8/L.1-2
 play,3,1,younr101,??,,9!/L
 play,4,0,ruthb101,21,BSBX,HR/F9D+
-com,"Over the roof of the RF stands and fell far away in"
-com,"Manhattan Field, which adjoins the Polo Grounds."
-com,"The pitch was a slow ball, the same kind that fooled him so"
-com,"badly a year ago."
-com,"In his long career, Ruth never hit a HR that he liked"
-com,"better.  As he circled the bases he wore a grin from ear to"
-com,"ear, and when he reached home plate he lifted his cap and"
-com,"waved it as a boy would."
+com,"$over the RF roof"
 play,4,0,meusb101,??,,K/C
 play,4,0,pippw101,??,,S/F9S-
-com,"Texas Leaguer"
 play,4,0,warda101,??,,3/P
 play,4,0,schaw101,??,,S9.1-3(E9)
-com,"Youngs fumbled momentarily"
 play,4,0,scote101,??,,S8/G6M.3-H;1-2
 play,4,0,pennh101,??,,NP
 sub,bentj101,"Jack Bentley",1,9,1
 play,4,0,pennh101,00,H,HP.2-3;1-2
-com,"Hit on the back.  Pennock fell to the ground and players of"
-com,"both teams rushed to the plate.  After a delay of several"
-com,"minutes he walked to 1B, holding his hand over his left side"
-com,"as if he had been hit in the kidney."
-com,"Huggins appeared to think the pitch was deliberate and"
-com,"shouted at Bentley, walked up to him, and made gestures."
+com,"$Herb Pennock hit on the back; Miller Huggins it was deliberate and"
+com,"shouted at Jack Bentley, walked up to him, and made gestures"
 play,4,0,wittw101,??,,8/F
 play,4,1,meusi101,??,,43/G4S-
 play,4,1,cunnb102,??,,9/F
 play,4,1,kellg101,??,,K
-com,"Swung at a low ball"
 play,5,0,dugaj101,??,,63
 play,5,0,ruthb101,12,FFBFX,HR/L9LD
-com,"Into lower tier of RF stands."
-com,"NYT: a glorified fly that became a home run by the grace of"
-com,"a short RF stand."
 play,5,0,meusb101,??,,S9/L+.B-2(E9)
-com,"Youngs fumbled"
 play,5,0,pippw101,??,,3/G.2-3
 play,5,0,warda101,??,,3/FL/P3DF
 play,5,1,snydf101,??,,7/F
@@ -344,27 +261,20 @@ play,6,0,scote101,??,,S8
 play,6,0,pennh101,??,,64(1)3/GDP
 play,6,1,grohh101,??,,S8
 play,6,1,frisf101,??,,S7.1-2#
-com,"One NYT account reported: S7.1-3"
 play,6,1,younr101,??,,S7.2-H;1-2
 play,6,1,meusi101,??,,64(1)/FO.2-3
-com,"Youngs crashed into Ward like a football player and both"
-com,"players went down in a heap.  The Yankees rushed at 2B Ump"
-com,"Hart and claimed Meusel should be called out for Youngs'"
-com,"interference."
+com,"$Ross Youngs crashed into Aaron Ward and both players went down"
+com,"in a heap;  the Yankees rushed at 2B umpire Bob Hart claiming"
+com,"interference"
 play,6,1,cunnb102,??,,64(1)3/GDP
 play,7,0,wittw101,??,,1!3
-com,"Fine 1-handed catch of high bounder"
 play,7,0,dugaj101,??,,13
 play,7,0,ruthb101,31,BSBBB,W
 play,7,0,meusb101,??,,OA.1X2(2363)#
-com,"POCS2(2363) ?"
-com,"NYT claimed Ruth was caught off 1B after a short, wild pitch"
 play,7,1,kellg101,??,,3/FL
 play,7,1,snydf101,??,,7/F
 play,7,1,bentj101,??,,D7/G5L+
 play,7,1,bancd101,??,,5!/FL/P5DF
-com,"Tricky high foul that Dugan caught cleverly near the boxes"
-com,"in LF."
 play,8,0,meusb101,??,,2/FL
 play,8,0,pippw101,30,BBBB,W
 play,8,0,warda101,??,,S8.1-2
@@ -373,9 +283,7 @@ play,8,0,scote101,??,,7/F
 play,8,1,grohh101,??,,53/G6S-
 play,8,1,frisf101,??,,63
 play,8,1,younr101,??,,S8/L+
-com,"Youngs was booed as he went to bat"
 play,8,1,meusi101,??,,S8/L78S+.1-2
-com,"Drive nearly escaped Witt"
 play,8,1,cunnb102,??,,NP
 sub,gowdh101,"Hank Gowdy",1,6,11
 play,8,1,gowdh101,??,,8/F
@@ -384,22 +292,12 @@ sub,stenc101,"Casey Stengel",1,6,8
 play,9,0,pennh101,??,,63
 play,9,0,wittw101,??,,43
 play,9,0,dugaj101,??,,D8/L8S
-com,"Cunningham tried a shoestring catch but it went past him"
 play,9,0,ruthb101,11,BCX,8/F89XDW
-com,"Near CF fence"
-com,"NYT's pitch-by-pitch account for Ruth reported: 8/F78XDW"
 play,9,1,kellg101,??,,5!3/G5S-
-com,"Fine play on slow roller"
 play,9,1,snydf101,??,,63
 play,9,1,bentj101,??,,NP
 sub,jackt101,"Travis Jackson",1,9,11
 play,9,1,jackt101,??,,7/F
-com,""
-com,"Pitch counts: Total (Balls, Called Strikes, Swinging"
-com,"Strikes, Fouls, Infield Outs, Outfield Outs, Hits)"
-com,"Pennock  116 (B=32, C=27, S=15,F=8, IF=17, OF=8, H=9)"
-com,"McQuillan 49 (B=20, C=11, S=4, F=0, IF=7,  OF=2, H=5)"
-com,"Bentley   78 (B=32, C=15, S=6, F=6, IF=10, OF=4, H=5)"
 data,er,pennh101,2
 data,er,mcquh101,3
 data,er,bentj101,1
@@ -432,9 +330,6 @@ info,precip,unknown
 info,sky,sunny
 info,timeofgame,127
 info,attendance,62430
-com,"Record-breaking attendance.  Police, reporters, and"
-com,"employees probably increased total attendance over 66,000."
-com,"NYT reported 25,000 fans were turned away at the gate."
 info,wp,nehfa101
 info,lp,jones104
 info,save,
@@ -457,6 +352,7 @@ start,warda101,"Aaron Ward",1,6,4
 start,schaw101,"Wally Schang",1,7,2
 start,scote101,"Everett Scott",1,8,6
 start,jones104,"Sam Jones",1,9,1
+com,"Pitch counts: Art Nehf 123; Sam Jones 110; Joe Bush 8"
 play,1,0,bancd101,??,,7/F7LD
 play,1,0,grohh101,??,,E6/G.B-1
 play,1,0,frisf101,??,,8/F
@@ -464,74 +360,55 @@ play,1,0,younr101,??,,8/F
 play,1,1,wittw101,00,X,43
 play,1,1,dugaj101,??,,63
 play,1,1,ruthb101,22,BBSSX,S8/L8S+
-com,"Smacked past Nehf's ear"
 play,1,1,meusb101,??,,7/F7D
-com,"B.Meusel flied out to I.Meusel"
+com,"$Bob Meusel flied out to his brother, Irish Meusel"
 play,2,0,meusi101,??,,7/F7D
-com,"I.Meusel flied out to B.Meusel"
+com,"$Irish Meusel flied out to his brother Bob Meusel"
 play,2,0,stenc101,??,,8/L
 play,2,0,kellg101,??,,6/P6D
 play,2,1,pippw101,32,BBBCCX,3/FL
 play,2,1,warda101,??,,2/P1S
-com,"Popped to the right of the pitcher's box"
 play,2,1,schaw101,??,,6/P56D
 play,3,0,snydf101,??,,63
 play,3,0,nehfa101,??,,K/C
 play,3,0,bancd101,??,,43
 play,3,1,scote101,??,,6!3/G56
-com,"Splendid throw"
 play,3,1,jones104,??,,K/C
 play,3,1,wittw101,??,,K
 play,4,0,grohh101,??,,63
 play,4,0,frisf101,??,,S1/BG25
-com,"Perfect bunt; easily beat Jones' throw"
 play,4,0,younr101,??,,9/F89
-com,"Ruth crossed in front of Witt in RCF"
 play,4,0,meusi101,??,,9/F9DW
 play,4,1,dugaj101,00,X,D8
 play,4,1,ruthb101,30,BBBB,W
 play,4,1,meusb101,00,X,64(1)3/GDP.2-3
-com,"Huggins revealed later that he had given Meusel orders to"
-com,"bunt, but Bob swung freely."
 play,4,1,pippw101,??,,43/G34-
 play,5,0,stenc101,31,BBBKB,W
 play,5,0,kellg101,00,X,16(1)3/GDP
 play,5,0,snydf101,??,,63
 play,5,1,warda101,32,,S7
 play,5,1,schaw101,??,,5!6(1)/FO/BG5S#
-com,"Groh wheeled around and made a great throw to Bancroft."
-com,"PO may've been made by Frisch, if box scores were correct."
 play,5,1,scote101,??,,S1/G15.1-2
-com,"High bounder off Nehf's glove spoiled a possible DP"
 play,5,1,jones104,??,,46(1)3/GDP
 play,6,0,nehfa101,??,,3/G
 play,6,0,bancd101,??,,W
 play,6,0,grohh101,??,,5/FL/P5F
-com,"Caught just in front of the boxes near 3B"
 play,6,0,frisf101,??,,S9.1-2
 play,6,0,younr101,??,,43/G+
 play,6,1,wittw101,??,,53
 play,6,1,dugaj101,??,,9/F
 play,6,1,ruthb101,32,BSBFBC,K/C
 play,7,0,meusi101,??,,7/L
-com,"I.Meusel lined out to B.Meusel"
 play,7,0,stenc101,??,,HR/F9D
-com,"High fly landed just over the wire fence in front of the RF"
-com,"bleachers, out of Ruth's reach."
-com,"NYT reported Stengel thumbed his nose at Sam Jones as he ran"
-com,"down the 3B line."
-com,"The pitch was an inside fastball."
 play,7,0,kellg101,??,,7/F
 play,7,0,snydf101,??,,43
 play,7,1,meusb101,??,,9/L+
 play,7,1,pippw101,32,,W
 play,7,1,warda101,??,,164(1)/FO/G+
-com,"Nehf deflected high bounder.  Ward just beat throw to 1B."
-com,"Pipp slid savagely into 2B and twisted his already-injured"
-com,"right ankle.  He was barely able to limp off the field."
+com,"$Wally Pipp slid savagely into 2B and twisted his already-injured"
+com,"right ankle; he was barely able to limp off the field"
 play,7,1,schaw101,??,,S7.1-2
 play,7,1,scote101,??,,5!(2)/FO/G5L+
-com,"Knocked it down then made diving tag on Ward"
 play,8,0,nehfa101,??,,NP
 sub,hainh101,"Hinkey Haines",1,5,9
 play,8,0,nehfa101,??,,NP
@@ -544,38 +421,18 @@ play,8,1,jones104,??,,NP
 sub,hofmf101,"Fred Hofmann",1,9,11
 play,8,1,hofmf101,??,,4/P
 play,8,1,wittw101,??,,S6/G6M
-com,"Knocked it down over 2B but couldn't make a play"
 play,8,1,dugaj101,??,,5!4(1)/FO/G+
-com,"Fine stop by Groh.  Ump Hart got in the way of"
-com,"Frisch's return throw to 1B, preventing a DP."
+com,"$1B umpire Bob Hart got in the way of Frank Frisch's throw to 1B"
 play,8,1,ruthb101,31,BBBFB,W.1-2
 play,8,1,meusb101,??,,8/F8XD
 play,9,0,younr101,??,,NP
 sub,bushj102,"Joe Bush",1,9,1
 play,9,0,younr101,??,,7/FL
-com,"Caught at the edge of the stands"
 play,9,0,meusi101,??,,6/P56D
 play,9,0,stenc101,??,,3/G
 play,9,1,hainh101,??,,53
 play,9,1,warda101,32,,K/C
-com,"An exciting AB:"
-com,"A foul earlier in the AB missed being a double by inches."
-com,"Giants protested vigorously on a called ball that would"
-com,"have been a third strike.  Ward fouled off a couple 3-2"
-com,"pitches.  Then, on the called 3rd strike, Ward protested"
-com,"that Snyder's glove touched Ward's bat, preventing him"
-com,"from swinging.  Ruth, Huggins, and others swarmed around Ump"
-com,"Nallin to argue.  After a delay of several minutes, play"
-com,"was resumed."
 play,9,1,schaw101,??,,53
-com,""
-com,"Box score POs: Bancroft=2, Frisch=5"
-com,""
-com,"Pitch counts: Total (Balls, Called Strikes, Swinging"
-com,"Strikes, Fouls, Infield Outs, Outfield Outs, Hits)"
-com,"Nehf  123 (B=50, C=28, S= 8, F=8, IF=19, OF=4, H=6)"
-com,"Jones 110 (B=41, C=22, S=15, F=7, IF=12, OF=9, H=4)"
-com,"Bush    8 (B= 3, C= 0, S= 2, F=0, IF= 2, OF=1, H=0)"
 data,er,nehfa101,0
 data,er,jones104,1
 data,er,bushj102,0
@@ -601,17 +458,13 @@ info,inputtime,2009/10/16 9:14AM
 info,howscored,park
 info,pitches,none
 info,temp,0
-com,"As warm as the most favorable day of late Spring; ideal"
-com,"for baseball."
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,cloudy
-com,"The sun's rays filtered through sparingly"
 info,timeofgame,151
 info,attendance,46302
-com,"Another record-breaking attendance for the Polo Grounds"
 info,wp,shawb102
 info,lp,scotj101
 info,save,pennh101
@@ -635,11 +488,8 @@ start,kellg101,"George Kelly",1,7,3
 start,snydf101,"Frank Snyder",1,8,2
 start,scotj101,"Jack Scott",1,9,1
 play,1,0,wittw101,32,CBBBKX,S8/L+
-com,"Sharply hit"
 play,1,0,dugaj101,??,,2!/BP/FL
-com,"Fine running catch of short foul"
 play,1,0,ruthb101,22,CBBCC,K/C
-com,"One NYT report had the count 3-2"
 play,1,0,meusb101,??,,64(1)/FO#
 play,1,1,bancd101,??,,7/F
 play,1,1,grohh101,??,,4/P4MD
@@ -649,27 +499,20 @@ play,1,1,meusi101,??,,46(1)/FO#
 play,2,0,pippw101,??,,S8
 play,2,0,warda101,??,,S8/L8S.1-2
 play,2,0,schaw101,??,,E1/BG/SH.2-3;1-2
-com,"Scott fumbled, turned to 3B, saw no play there, then threw"
-com,"a bit wild to Frisch covering 1B.  Frisch made a clever"
-com,"catch of it then lunged futilely at Schang; close play."
+com,"$Jack Scott fumbled, turned to 3B, saw no play there, then threw"
+com,"a bit wild to Frank Frisch covering 1B"
 play,2,0,scote101,??,,S7/7S.3-H;2-H;1-3
 play,2,0,shawb102,??,,NP
 sub,ryanr101,"Rosy Ryan",1,9,1
 play,2,0,shawb102,??,,8/F8D/SF.3-H(UR)
 play,2,0,wittw101,??,,D7!/L78+.1-H
-com,"Good outfielding held Witt to a double"
 play,2,0,dugaj101,??,,FC5.2X3(5!)
-com,"Diving tag"
 play,2,0,ruthb101,31,FBBBB,W.1-2
 play,2,0,meusb101,??,,T7/7D+.2-H(TUR);1-H(TUR)
-com,"Booming triple over his brother"
 play,2,0,pippw101,??,,NP
 sub,mcquh101,"Hugh McQuillan",1,9,1
 play,2,0,pippw101,??,,8/F
 play,2,1,stenc101,??,,W
-com,"During this AB Stengel had quite a debate with Ump Hart"
-com,"over balls and strikes.  After walking, Stengel reportedly"
-com,"turned around and stuck his tongue out at him."
 play,2,1,kellg101,??,,S9/9LS.1-2
 play,2,1,snydf101,??,,2/FL
 play,2,1,mcquh101,??,,31.2-3;1-2
@@ -678,7 +521,6 @@ play,3,0,warda101,??,,W
 play,3,0,schaw101,??,,13/SH.1-2
 play,3,0,scote101,??,,S8.2-3
 play,3,0,shawb102,??,,2/FL
-com,"Caught in front of Giants dugout"
 play,3,0,wittw101,??,,D7/7L.3-H;1-3
 play,3,0,dugaj101,??,,8/F
 play,3,1,grohh101,??,,43
@@ -699,25 +541,19 @@ play,5,0,shawb102,??,,S/G56
 play,5,0,wittw101,??,,23/SH.1-2
 play,5,0,dugaj101,??,,7/F
 play,5,0,ruthb101,22,SBBFS,K
-com,"The line foul almost tore away one section of the RF grand"
-com,"stand."
 play,5,1,bancd101,??,,43
-com,"Ward momentarily fumbled it"
 play,5,1,grohh101,??,,7/F
 play,5,1,frisf101,??,,9/F9S
 play,6,0,meusb101,??,,3/FL
 play,6,0,pippw101,??,,2/FL
-com,"Caught near Giants dugout"
 play,6,0,warda101,??,,4/L
 play,6,1,younr101,??,,S8/F8S
 play,6,1,meusi101,??,,13/G-.1-2
 play,6,1,stenc101,??,,S7/L7S.2-2
-com,"1-handed trap by Meusel"
 play,6,1,kellg101,??,,9/F9D.2-3
 play,6,1,snydf101,??,,54(1)/FO#
 play,7,0,schaw101,??,,S8/L
 play,7,0,scote101,??,,3/G3S.1-2
-com,"Kelly tagged Scott"
 play,7,0,shawb102,??,,8/F
 play,7,0,wittw101,??,,63
 play,7,1,mcquh101,??,,NP
@@ -726,58 +562,39 @@ play,7,1,bentj101,??,,S7/F7S
 play,7,1,bancd101,??,,NP
 sub,maguf101,"Freddie Maguire",1,9,12
 play,7,1,bancd101,??,,5!!/LDP.1X1(53)
-com,"Splendid jumping 1-handed catch"
 play,7,1,grohh101,??,,W
 play,7,1,frisf101,??,,3/FL
 play,8,0,dugaj101,??,,NP
 sub,jonnc101,"Claude Jonnard",1,9,1
 play,8,0,dugaj101,??,,53
-play,8,0,ruthb101,00,X,D9/L#
-com,"One NYT report had this D7"
+play,8,0,ruthb101,00,X,D9/L
 play,8,0,meusb101,??,,6/FL
 play,8,0,pippw101,??,,W
 play,8,0,warda101,??,,64(1)/FO#
 play,8,1,younr101,??,,S5/G-
 play,8,1,meusi101,??,,S/G6.1-3
-com,"Bad hop bounded over Scott; made-to-order DP ball"
 play,8,1,stenc101,??,,S9/L+.3-H;1-3(E9/TH3);B-2
 play,8,1,kellg101,??,,43.3-H;2-3
 play,8,1,snydf101,??,,63.3-H
 play,8,1,jonnc101,??,,NP
 sub,oconj102,"Jimmy O'Connell",1,9,11
 play,8,1,oconj102,??,,HP
-com,"Hit on his right shoulder"
 play,8,1,bancd101,??,,S9.1-2
 play,8,1,grohh101,30,BBBB,W.2-3;1-2
 play,8,1,frisf101,??,,NP
 sub,pennh101,"Herb Pennock",0,9,1
 play,8,1,frisf101,32,,6/P5D
-com,"All runners were in motion on 3-2 count"
 play,9,0,schaw101,??,,NP
 sub,barnv101,"Virgil Barnes",1,9,1
 play,9,0,schaw101,??,,K
 play,9,0,scote101,??,,53
 play,9,0,pennh101,??,,K
 play,9,1,younr101,??,,HR9/IPHR/L89D+
-com,"IPHR past Ruth.  Youngs easily completed the circuit before"
-com,"the ball was returned to the infield."
 play,9,1,meusi101,??,,4!3/G4M
 play,9,1,stenc101,??,,NP
 sub,cunnb102,"Bill Cunningham",1,6,11
 play,9,1,cunnb102,??,,K
 play,9,1,kellg101,??,,8/F8XD
-com,""
-com,"Pitch counts: Total (Balls, Called Strikes, Swinging"
-com,"Strikes, Fouls, Infield Outs, Outfield Outs, Hits, Error)"
-com,"299 (B=110, C=66, S=38, F=14, IF=33, OF=11, H=26, E=1)"
-com,"Yankees' pitchers threw 138, Giants' 161."
-com,"No individual pitcher's records were reported."
-com,""
-com,"There were more complaints from both teams on the calling of"
-com,"balls & strikes than in any other series game."
-com,""
-com,"Pipp played entire game despite painful, heavily-wrapped"
-com,"ankle."
 data,er,shawb102,3
 data,er,pennh101,1
 data,er,scotj101,3
@@ -814,8 +631,6 @@ info,precip,unknown
 info,sky,unknown
 info,timeofgame,115
 info,attendance,62817
-com,"Record attendance for a World Series game.  NYT reported"
-com,"40 to 50 thousand fans were turned away."
 info,wp,bushj102
 info,lp,bentj101
 info,save,
@@ -838,16 +653,16 @@ start,warda101,"Aaron Ward",1,6,4
 start,schaw101,"Wally Schang",1,7,2
 start,scote101,"Everett Scott",1,8,6
 start,bushj102,"Joe Bush",1,9,1
+com,"Pitch counts: Jack Bentley 47; Jack Scott 36; Virgil Barnes 44;"
+com,"Claude Jonnard 14; Joe Bush 107"
 play,1,0,bancd101,??,,43
 play,1,0,grohh101,??,,9/F
 play,1,0,frisf101,??,,43
 play,1,1,wittw101,??,,2/P2F/FL
 play,1,1,dugaj101,??,,S9
-com,"Hit a slow ball"
 play,1,1,ruthb101,32,BFBBCB,W.1-2
 play,1,1,meusb101,??,,T/L78+.2-H;1-H
 play,1,1,pippw101,00,X,9!/F9D/SF.3-H
-com,"Great jumping, twisting catch"
 play,1,1,warda101,??,,S7/L+
 play,1,1,schaw101,??,,SB2
 play,1,1,schaw101,??,,K/C
@@ -859,21 +674,11 @@ play,2,1,scote101,??,,8/F
 play,2,1,bushj102,??,,S8/G6M
 play,2,1,wittw101,??,,W.1-2
 play,2,1,dugaj101,??,,HR8/IPHR/L89-.2-H;1-H
-com,"IPHR; low, short fly that took a freakish bound past Stengel"
-com,"as he and Youngs rushed in to head it off."
-com,"Dugan beat Kelly's relay to the plate.  The crowd gave way"
-com,"to a riot of enthusiasm.  Huggins danced and waved his arms"
-com,"as the whole Yankee team rushed out to shake Dugan's hand."
 play,2,1,ruthb101,21,LBBX,E3/G+
-com,"Hard grounder got through Kelly; ruled an error."
-com,"On first pitch, Ruth bunted foul."
 play,2,1,meusb101,??,,NP
 sub,scotj101,"Jack Scott",0,9,1
 play,2,1,meusb101,00,X,S9/89S+.1-3
-com,"Ruth beat Youngs' throw to 3B"
 play,2,1,pippw101,??,,FC4/G+.3-H(E4/THH)(NR)(UR);1-2
-com,"Splendid pickup of hard smash but throw home was wide, and"
-com,"Ruth made a fine hook slide away from Gowdy."
 play,2,1,warda101,??,,6/LDP.2X2(64)
 play,3,0,gowdh101,??,,9/F
 play,3,0,scotj101,??,,3/FL
@@ -888,10 +693,8 @@ play,4,0,younr101,??,,W
 play,4,0,meusi101,??,,D9/9L.1-3
 play,4,0,stenc101,??,,13
 play,4,1,dugaj101,??,,S4/G
-com,"Off Frisch's shins"
 play,4,1,ruthb101,20,BBX,S9/G34.1-3;BX2(9!3)
-com,"Ruth stumbled after making the turn and was thrown out at 1B"
-com,"on a fine throw by Youngs."
+com,"$Babe Ruth stumbled after making the turn at 1B"
 play,4,1,meusb101,??,,S9/L.3-H
 play,4,1,pippw101,30,BBBB,W.1-2
 play,4,1,warda101,??,,NP
@@ -904,11 +707,8 @@ play,5,0,barnv101,??,,K/C
 play,5,1,scote101,??,,53
 play,5,1,bushj102,??,,8/F78XD
 play,5,1,wittw101,??,,S3/G+
-com,"Kelly knocked it down but had no play"
 play,5,1,dugaj101,??,,S9/L.1-2#
 play,5,1,ruthb101,12,CBSS,K
-com,"Another NYT report had the count as 3-1 when Ruth swung and"
-com,"missed twice."
 play,6,0,bancd101,??,,7/F7LD
 play,6,0,grohh101,??,,9/F9L
 play,6,0,frisf101,??,,9/F9DW
@@ -918,7 +718,6 @@ play,6,1,warda101,??,,S/G56
 play,6,1,schaw101,??,,S5/G.1-2
 play,6,1,scote101,??,,64(1)/FO
 play,7,0,younr101,??,,31/BG
-com,"Close play"
 play,7,0,meusi101,??,,S8/L+
 play,7,0,stenc101,??,,8/F
 play,7,0,kellg101,??,,W.1-2
@@ -934,21 +733,11 @@ play,8,0,grohh101,??,,3/G3L
 play,8,1,ruthb101,??,,NP
 sub,jonnc101,"Claude Jonnard",0,9,1
 play,8,1,ruthb101,32,BCSFBBX,8/F89XD
-com,"Caught on the running track"
 play,8,1,meusb101,??,,13
-com,"High bounder"
 play,8,1,pippw101,??,,K/C
 play,9,0,frisf101,??,,53
 play,9,0,younr101,??,,8/F
 play,9,0,meusi101,??,,43
-com,""
-com,"Pitch counts: Total (Balls, Called Strikes, Swinging Strikes, Fouls, Infield Outs, Outfield Outs, Hits, Errors)"
-com,"Bentley 47 (B=20, C=10, S=6, F=2, IF=1, OF=2, H=5, E=1)"
-com,"Scott   36 (B=14, C= 8, S=3, F=2, IF=3, OF=0, H=5, E=1)"
-com,"Barnes  44 (B=12, C=11, S=5, F=3, IF=7, OF=2, H=4)"
-com,"Jonnard 14 (B= 5, C= 6, S=1, F=0, IF=1, OF=1, H=0)"
-com,"Bush   107 (B=46, C=24, S=7, F=3, IF=14, OF=10, H=3)"
-com,""
 data,er,bentj101,6
 data,er,scotj101,1
 data,er,barnv101,0
@@ -981,8 +770,6 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,cloudy
-com,"Dark clouds hung over the stadium at game time, but the sun"
-com,"broke through in the 5th and stayed out."
 info,timeofgame,127
 info,attendance,34172
 info,wp,pennh101
@@ -1007,60 +794,41 @@ start,cunnb102,"Bill Cunningham",1,6,8
 start,kellg101,"George Kelly",1,7,3
 start,snydf101,"Frank Snyder",1,8,2
 start,nehfa101,"Art Nehf",1,9,1
+com,"Pitch counts: Herb Pennock 97; Sam Jones 18; Art Nehf 94; Rosy Ryan 23"
 play,1,0,wittw101,??,,5/P
 play,1,0,dugaj101,??,,43
 play,1,0,ruthb101,32,CBBFBX,HR/L9LD+
-com,"Into upper RF stands a few yards inside foul line."
-com,"The pitch was a slow curve ball."
-com,"B1=inside, B2=inside, B3=high/inside"
-com,"Ruth claimed Snyder tipped his bat on the foul ball"
 play,1,0,meusb101,32,,K/C
 play,1,1,bancd101,??,,8/F
 play,1,1,grohh101,??,,S7
 play,1,1,frisf101,??,,S156/G1+.1-2
-com,"Slammed off Pennock's glove; rolled between Dugan & Scott"
 play,1,1,younr101,32,,S8.2-H;1X3(8!5)
-com,"Close play at 3B; smart and powerful throw"
 play,1,1,meusi101,??,,K
 play,2,0,pippw101,??,,13
 play,2,0,warda101,??,,S7/7L
 play,2,0,schaw101,??,,16(1)3/GDP/G+
-com,"Close play at 2B"
 play,2,1,cunnb102,??,,8/F
 play,2,1,kellg101,??,,2/FL
-com,"In front of Giants dugout"
 play,2,1,snydf101,??,,K
 play,3,0,scote101,??,,1!3/BG25
-com,"Great play on fine bunt"
 play,3,0,pennh101,??,,13
 play,3,0,wittw101,??,,7/F
 play,3,1,nehfa101,??,,K
 play,3,1,bancd101,32,,53
 play,3,1,grohh101,??,,7/F
 play,4,0,dugaj101,??,,4!!/P9S-
-com,"Astounding running over-the-shoulder catch"
 play,4,0,ruthb101,32,BCBFBB,W
-com,"B1=outside, B2=low, B3=low/outside, B4=inside"
-com,"Ball four was vigorously protested by the Giants"
 play,4,0,meusb101,??,,63.1-2
 play,4,0,pippw101,??,,6!3
-com,"Pretty play on difficult bounder"
 play,4,1,frisf101,??,,S3/BG3S
-com,"Perfect bunt; he reached 1B before Pipp fielded it"
 play,4,1,younr101,??,,43.1-2
 play,4,1,meusi101,??,,8/F
 play,4,1,cunnb102,00,X,S9.2-H
 play,4,1,kellg101,??,,43
 play,5,0,warda101,??,,63
 play,5,0,schaw101,??,,4!3!/G4M+
-com,"Wonderful stop of terrific smash.  He smothered the ball and"
-com,"went sprawling on all fours, but bobbed up rapidly and threw"
-com,"from an awkward position.  Kelly pulled in the wide throw"
-com,"with his glove extended."
 play,5,0,scote101,??,,4!3/G-
-com,"Another fine play of slow bounder"
 play,5,1,snydf101,00,X,HR/F7D
-com,"Into upper LF stands"
 play,5,1,nehfa101,??,,K
 play,5,1,bancd101,??,,63
 play,5,1,grohh101,??,,9/F
@@ -1069,25 +837,19 @@ play,6,0,wittw101,??,,13
 play,6,0,dugaj101,??,,53
 play,6,1,frisf101,??,,T/L78
 play,6,1,younr101,??,,43
+com,"$infield in"
 play,6,1,meusi101,??,,S/G4.3-H
-com,"Past Ward with the infield in"
 play,6,1,cunnb102,??,,3/G.1-2
 play,6,1,kellg101,??,,K
 play,7,0,ruthb101,22,CFBBS,K
-com,"B1=inside, B2=high/inside, S3=wide curve over the outside"
-com,"corner that Ruth missed by a clean foot"
 play,7,0,meusb101,??,,53
 play,7,0,pippw101,??,,63
 play,7,1,snydf101,??,,S7
 play,7,1,nehfa101,??,,K/C
-com,"Nehf had fouled off two bunt attempts"
 play,7,1,bancd101,??,,143/G.1-2
-com,"Pennock deflected it"
 play,7,1,grohh101,??,,63
 play,8,0,warda101,??,,3/P3D
 play,8,0,schaw101,??,,S7/5D-
-com,"Lucky hit over Groh when Schang pulled away from a pitch"
-com,"close to his head."
 play,8,0,scote101,??,,S9/9L.1-3
 play,8,0,pennh101,??,,NP
 sub,hofmf101,"Fred Hofmann",0,9,11
@@ -1097,16 +859,13 @@ sub,hainh101,"Hinkey Haines",0,9,12
 play,8,0,wittw101,??,,NP
 sub,bushj102,"Joe Bush",0,1,11
 play,8,0,bushj102,30,BBBB,W.3-H;2-3;1-2
-com,"Bush claimed the first ball hit him"
 play,8,0,dugaj101,??,,NP
 sub,johne102,"Ernie Johnson",0,1,12
 play,8,0,dugaj101,??,,NP
 sub,ryanr101,"Rosy Ryan",1,9,1
 play,8,0,dugaj101,30,BBBB,W.3-H;2-3;1-2
 play,8,0,ruthb101,12,CFBS,K
-com,"B1=inside, S3=low"
 play,8,0,meusb101,01,CX,S8/G4M.3-H;2-H;1-H(E8/TH3)(NR);B-3
-com,"The throw to 3B was on line but it hopped badly over Groh"
 play,8,0,pippw101,??,,43
 play,8,1,frisf101,??,,NP
 sub,hainh101,"Hinkey Haines",0,9,8
@@ -1123,19 +882,11 @@ sub,stenc101,"Casey Stengel",1,6,8
 play,9,0,warda101,??,,63
 play,9,0,schaw101,??,,43
 play,9,0,scote101,??,,6!3/G6M
-com,"Fine stop over 2B"
 play,9,1,kellg101,??,,3/P
 play,9,1,snydf101,00,X,13
 play,9,1,ryanr101,??,,NP
 sub,bentj101,"Jack Bentley",1,9,11
 play,9,1,bentj101,??,,43
-com,""
-com,"Pitch counts: Total (Balls, Called Strikes, Swinging Strikes, Fouls, Infield Outs, Outfield Outs, Hits)"
-com,"Pennock 97 (B=29, C=28, S=14, F=3, IF= 9, OF= 5, H=9)"
-com,"Jones   18 (B= 6, C= 3, S= 1, F=1, IF= 6, OF= 0, H=1)"
-com,"Nehf    94 (B=37, C=22, S=11, F=2, IF=17, OF= 1, H=4)"
-com,"Ryan    23 (B= 9, C= 7, S= 2, F=0, IF= 4, OF= 0, H=1)"
-com,""
 data,er,pennh101,4
 data,er,jones104,0
 data,er,nehfa101,5

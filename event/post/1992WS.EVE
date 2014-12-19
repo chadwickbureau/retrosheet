@@ -119,8 +119,6 @@ play,8,1,justd001,11,.CBX,5/P5SF/FL
 play,8,1,breas001,11,CBX,3/G
 play,8,1,gantr001,32,BCBFBFB,W
 play,8,1,berrd002,02,11KKK,K
-com,"Scorer missed this AB; pitches added by Inputter"
-com,"All remaining ABs missed; pitches missing"
 play,9,0,whitd001,??,,63
 play,9,0,alomr001,??,,4/P
 play,9,0,cartj001,??,,9
@@ -208,14 +206,12 @@ play,4,0,cartj001,12,FC1BB,WP.1-2
 play,4,0,cartj001,32,FC1BB.BFFX,5/P
 play,4,0,winfd001,00,X,13/G13.2-3
 play,4,0,olerj001,00,B,OA.3XH(21)
-com,"Would have been a WP"
 play,4,1,breas001,32,.CBFBBFB,W
 play,4,1,blauj001,31,BBCB>X,S9/L34D.1-3
 play,4,1,berrd002,12,B1S1S+3X,9/L
 play,4,1,lemkm001,10,BX,S9/G34D.3-H;1-3
 play,4,1,smolj001,11,CB1X,6(1)3/GDP/G6M
 play,5,0,olerj001,??,,9/F9D
-com,"No pitches for previous AB; scorer missed it"
 play,5,0,grubk001,11,.BCX,53/G56
 play,5,0,bordp001,32,FBBCBB,W
 play,5,0,lee-m001,20,BBX,S9/L89S.1-2
@@ -376,10 +372,9 @@ play,3,1,lee-m001,32,BSSBB>X,53/G56.1-2
 play,3,1,whitd001,12,BCSS,K
 play,4,0,sandd001,12,CCFBX,S1/G13
 play,4,0,pendt001,01,1111F11X,S9/L89S.1-2
-play,4,0,justd001,00,X,8/F8XD/DP.1X2(6)
+play,4,0,justd001,00,X,8/F8XD/DP/PASS.1X2(6)
 com,"$Terry Pendleton out for passing Deion Sanders on basepath;"
-com,"this was actually a triple play but 2B umpire Bob Davidson"
-com,"missed the tag on Sanders"
+com,"Sanders tagged for a triple play but ruled safe"
 play,4,0,smitl002,32,..BCBSBS,K
 play,4,1,alomr001,22,FFBBX,53/G56
 play,4,1,cartj001,00,X,HR/F7D
@@ -631,7 +626,7 @@ start,grubk001,"Kelly Gruber",1,7,5
 start,bordp001,"Pat Borders",1,8,2
 start,lee-m001,"Manuel Lee",1,9,6
 start,morrj001,"Jack Morris",1,0,1
-play,1,0,nixoo001,00,X,D7/G5/INT
+play,1,0,nixoo001,00,X,DGR/G5/FINT
 com,"Fan interference"
 play,1,0,sandd001,02,.SSS,K
 play,1,0,pendt001,11,BSB,SB3
@@ -674,7 +669,7 @@ play,5,0,lemkm001,00,X,43
 play,5,0,nixoo001,21,FBBX,S8/G4
 play,5,0,sandd001,00,B,SB2
 play,5,0,sandd001,11,B.FX,S8/L.2-H
-play,5,0,pendt001,00,.X,D9/G3/INT.1-3
+play,5,0,pendt001,00,.X,DGR/G3/FINT.1-3
 com,"Fan interference"
 play,5,0,justd001,30,.IIII,IW
 play,5,0,smitl002,12,FBFFFX,HR/F9D.3-H;2-H;1-H
@@ -696,7 +691,6 @@ play,7,0,sandd001,00,,NP
 sub,timlm001,"Mike Timlin",1,0,1
 play,7,0,sandd001,11,.BFX,8/L8D
 play,7,0,pendt001,11,CBX,2/G2
-com,"Borders tagged Pendleton"
 play,7,0,justd001,11,.BSX,43/G34D
 play,7,1,lee-m001,31,BBCBB,W
 play,7,1,whitd001,00,,NP

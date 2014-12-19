@@ -47,7 +47,6 @@ start,giamj001,"Jason Giambi",1,7,10
 start,boona001,"Aaron Boone",1,8,5
 start,garck002,"Karim Garcia",1,9,9
 start,welld001,"David Wells",1,0,1
-com,"World Series game 1"
 play,1,0,pierj002,01,CX,S4/BG
 play,1,0,castl001,10,B11>X,S3/L.1-3
 play,1,0,rodri001,00,X,8/SF.3-H
@@ -200,7 +199,6 @@ start,boona001,"Aaron Boone",1,7,5
 start,johnn001,"Nick Johnson",1,8,3
 start,rivej001,"Juan Rivera",1,9,9
 start,petta001,"Andy Pettitte",1,0,1
-com,"World Series game 2"
 play,1,0,pierj002,32,BBCFFBFX,43/G
 play,1,0,castl001,32,BBCBCFX,S6/G
 play,1,0,rodri001,32,B1BBC1F>C,K+CS2(24)/DP
@@ -338,7 +336,6 @@ start,lowem001,"Mike Lowell",1,6,5
 start,conij001,"Jeff Conine",1,7,7
 start,gonza002,"Alex Gonzalez",1,8,6
 start,beckj002,"Josh Beckett",1,9,1
-com,"World Series game 3"
 play,1,0,soria001,12,CBFS,K
 play,1,0,jeted001,02,FCS,K
 play,1,0,giamj001,12,FBSX,5/P
@@ -364,8 +361,7 @@ play,3,1,cabrm001,32,CBBFB>F>C,K
 play,4,0,soria001,12,FBFS,K
 play,4,0,jeted001,10,BX,D7/L
 play,4,0,giamj001,32,CBBF*BB,W
-play,4,0,willb002,00,X,6/P
-com,"Infield Fly rule"
+play,4,0,willb002,00,X,6/P/IF
 play,4,0,matsh001,12,CBCH,HP.2-3;1-2
 play,4,0,posaj001,32,BFCF*BFB>B,W.3-H;2-3;1-2
 play,4,0,garck002,12,SF*BX,3/G
@@ -493,7 +489,6 @@ start,lowem001,"Mike Lowell",1,6,5
 start,lee-d002,"Derrek Lee",1,7,3
 start,gonza002,"Alex Gonzalez",1,8,6
 start,pavac001,"Carl Pavano",1,9,1
-com,"World Series game 4"
 play,1,0,soria001,01,SX,S8/G
 play,1,0,jeted001,22,1C+1PB1>FF1>FX,46(1)3/GDP
 play,1,0,giamj001,32,SBFBBX,8/F
@@ -501,8 +496,6 @@ play,1,1,pierj002,10,BX,43/G
 play,1,1,castl001,32,CBBCBFX,63/G
 play,1,1,rodri001,32,BFFBBFFX,S9/L
 play,1,1,cabrm001,22,BSSBFFX,HR/9/F.1-H
-com,"$Cabrera is the 2nd youngest to homer in the Series"
-com,"after Andruw Jones"
 play,1,1,conij001,12,CFBX,S7/L
 play,1,1,lowem001,22,BBFCX,S9/L.1-3
 play,1,1,lee-d002,21,BSBX,S7/G.3-H;1-2
@@ -672,7 +665,6 @@ start,lowem001,"Mike Lowell",1,6,5
 start,lee-d002,"Derrek Lee",1,7,3
 start,gonza002,"Alex Gonzalez",1,8,6
 start,pennb002,"Brad Penny",1,9,1
-com,"World Series game 5"
 play,1,0,jeted001,01,FX,S9/L
 play,1,0,wilse001,00,X,S3/BG.1-3(E3/TH1)
 play,1,0,willb002,20,BBX,9/SF.3-H(UR)
@@ -689,7 +681,7 @@ sub,delld001,"David Dellucci",0,9,11
 play,2,0,delld001,00,.X,1/G
 play,2,1,cabrm001,00,,NP
 sub,contj002,"Jose Contreras",0,9,1
-com,"$Yankees David Wells left the game due to an injured back"
+com,"$David Wells left with an injured back"
 play,2,1,cabrm001,32,.BSBBCX,4/L
 play,2,1,conij001,10,BX,8/F
 play,2,1,lowem001,30,BBBB,W
@@ -833,7 +825,6 @@ start,garck002,"Karim Garcia",1,7,9
 start,boona001,"Aaron Boone",1,8,5
 start,soria001,"Alfonso Soriano",1,9,4
 start,petta001,"Andy Pettitte",1,0,1
-com,"World Series game 6"
 play,1,0,pierj002,21,CBBX,6/P
 play,1,0,castl001,02,CFC,K
 play,1,0,rodri001,00,X,S8/F
@@ -912,10 +903,6 @@ play,9,0,castl001,10,BX,6/L
 play,9,1,willb002,11,BFX,7/F
 play,9,1,matsh001,01,CX,7/F
 play,9,1,posaj001,11,FBX,1/G23
-com,"$Beckett tagged Posada on line; the Marlins win"
-com,"their second Series in their 11-year history;"
-com,"it is their second winning season and they have"
-com,"never finished first in their division"
 data,er,beckj002,0
 data,er,petta001,1
 data,er,rivem002,0

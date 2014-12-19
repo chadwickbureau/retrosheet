@@ -209,7 +209,7 @@ start,rente001,"Edgar Renteria",1,6,6
 start,sandr002,"Reggie Sanders",1,7,7
 start,mathm001,"Mike Matheny",1,8,2
 start,morrm001,"Matt Morris",1,9,1
-com,"30 minute rain delay before start"
+com,"30 minute rain delay before start of game"
 play,1,0,biggc001,00,X,7/F
 play,1,0,beltc001,01,CX,HR/9/F+
 play,1,0,bagwj001,12,CFBFS,K
@@ -219,6 +219,7 @@ play,1,1,walkl001,11,1BC1,PO1(E1).1-2
 play,1,1,walkl001,32,1BC1.BSBFS,K
 play,1,1,pujoa001,22,CBFBFX,5/L
 play,1,1,roles001,21,C*BBX,8/F
+com,"umpchange,2,umplf,(None)"
 com,"$LF umpire Rapuano left game because of dizziness;"
 com,"he was treated at the stadium"
 play,2,0,kentj001,01,SX,D7/G
@@ -236,7 +237,7 @@ play,3,0,bagwj001,10,B*B,WP.1-2
 play,3,0,bagwj001,32,B*B.FBCFB,W
 play,3,0,berkl001,01,CX,8/F
 play,3,0,kentj001,32,CBF*BB>C,K+POCS2(234)/DP
-com,"$Bagwell ran with the pitch but Beltran did not"
+com,"$Jeff Bagwell ran with the pitch but Carlos Beltran did not"
 play,3,1,mathm001,10,BX,S8/G
 play,3,1,morrm001,00,X,1/SH/BG.1-2
 play,3,1,womat001,01,CX,43/G.2-3
@@ -255,8 +256,7 @@ play,5,0,beltc001,02,CSS,K
 play,5,0,bagwj001,32,FCBB*B>FN,BK.1-2
 play,5,0,bagwj001,32,FCBB*B>FN.FB,W
 play,5,0,berkl001,11,FBX,S9/L.2-H;1-2
-play,5,0,kentj001,22,*BFBFX,6/P
-com,"$infield fly"
+play,5,0,kentj001,22,*BFBFX,6/P/IF
 play,5,0,ensbm001,02,FCX,8/F
 play,5,1,mathm001,22,CBFBS,K
 play,5,1,morrm001,00,,NP
@@ -855,7 +855,7 @@ play,3,1,mathm001,32,BFP*BFFS,K
 play,3,1,morrm001,02,CFC,K
 play,4,0,lambm001,00,,NP
 sub,lunah001,"Hector Luna",1,1,4
-com,"$Womack left with back spasms"
+com,"$Tony Womack left with back spasms"
 play,4,0,lambm001,22,.BCBSFX,HR/9/F
 play,4,0,vizcj001,02,FFX,5/P
 play,4,0,ausmb001,00,X,S8/L
@@ -964,7 +964,6 @@ sub,miced001,"Dan Miceli",0,4,1
 play,12,1,pujoa001,30,.BBBB,W
 play,12,1,roles001,00,X,2/P2F
 play,12,1,edmoj001,01,FX,HR/89/F.1-H
-com,"$into the bullpen"
 data,er,munrp001,4
 data,er,harvc001,0
 data,er,qualc001,0
@@ -1024,7 +1023,7 @@ start,womat001,"Tony Womack",1,7,4
 start,mathm001,"Mike Matheny",1,8,2
 start,suppj001,"Jeff Suppan",1,9,1
 play,1,0,biggc001,12,CBFX,HR/7/F
-com,"$the first lead-off homer in a game 7 of any series"
+com,"$the first lead-off homer in a game 7 of any post-season series"
 play,1,0,beltc001,12,CBSX,4/P
 play,1,0,bagwj001,12,BSSX,7/F
 play,1,0,berkl001,22,SBBCS,K
@@ -1107,7 +1106,6 @@ sub,isrij001,"Jason Isringhausen",1,9,1
 play,9,0,kentj001,00,.X,4!/P
 play,9,0,ensbm001,00,X,8/F
 play,9,0,vizcj001,02,CCX,43/G
-com,"$Cardinals win series 4-3, Pujols voted MVP of Series"
 data,er,clemr001,4
 data,er,oswar001,1
 data,er,suppj001,1
