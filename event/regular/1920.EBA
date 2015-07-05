@@ -3095,19 +3095,20 @@ stat,dline,foste103,0,1,5,24,2,2,0,1,0,0
 stat,dline,scote101,0,1,6,24,2,3,0,0,0,0
 stat,dline,waltr102,0,1,2,24,4,3,0,1,0,0
 stat,dline,bushj102,0,1,1,24,0,3,1,0,0,0
-stat,dline,judgj101,1,1,3,27,7,0,0,1,0,0
+stat,dline,judgj101,1,1,3,27,7,0,0,2,0,0
 stat,dline,milac101,1,1,7,27,4,0,0,0,0,0
 stat,dline,rices101,1,1,8,27,2,0,0,0,0,0
 stat,dline,rothb102,1,1,9,27,1,0,0,0,0,0
 stat,dline,shanr101,1,1,5,27,0,0,0,0,0,0
-stat,dline,oneij104,1,1,6,27,4,4,0,0,0,0
-stat,dline,harrb106,1,1,4,27,3,3,0,0,0,0
+stat,dline,oneij104,1,1,6,27,4,4,0,1,0,0
+stat,dline,harrb106,1,1,4,27,3,3,0,1,0,0
 stat,dline,piciv101,1,1,2,27,6,0,0,0,0,0
 stat,dline,johnw102,1,1,1,27,0,2,0,0,0,0
 stat,pline,bushj102,0,1,24,-1,31,7,2,0,0,2,1,2,-1,1,1,0,0,1,0
 stat,pline,johnw102,1,1,27,-1,34,7,1,0,0,0,0,2,-1,5,1,0,0,0,0
 event,dpline,0,foste103,waltr102,mcins101
 event,dpline,1,judgj101
+event,dpline,1,oneij104,harrb106,judgj101
 event,sbline,0,eibeh101,johnw102,piciv101,-1
 event,sbline,1,rices101,bushj102,waltr102,-1
 event,sbline,1,shanr101,bushj102,waltr102,-1
@@ -3122,7 +3123,7 @@ event,hpline,0,bushj102,shanr101
 line,0,0,0,0,0,0,0,0,0,0
 line,1,0,1,0,0,1,0,0,0
 stat,tline,0,7,0,1,0
-stat,tline,1,5,0,1,0
+stat,tline,1,5,0,2,0
 id,NYA192004260
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -5330,9 +5331,9 @@ stat,dline,judgj101,1,1,3,27,10,1,0,1,0,0
 stat,dline,milac101,1,1,7,27,1,0,0,0,0,0
 stat,dline,rices101,1,1,8,27,3,0,0,0,0,0
 stat,dline,rothb102,1,1,9,27,0,0,0,0,0,0
-stat,dline,shanr101,1,1,5,27,3,3,1,1,0,0
+stat,dline,shanr101,1,1,5,27,3,3,1,2,0,0
 stat,dline,oneij104,1,1,6,27,0,3,0,0,0,0
-stat,dline,harrb106,1,1,4,27,6,4,2,1,0,0
+stat,dline,harrb106,1,1,4,27,6,4,2,2,0,0
 stat,dline,piciv101,1,1,2,27,4,1,0,0,0,0
 stat,dline,erice101,1,1,1,25,0,2,0,0,0,0
 stat,dline,johnw102,1,1,1,2,0,0,0,0,0,0
@@ -5341,6 +5342,7 @@ stat,pline,harrs101,0,2,3,-1,8,5,-1,-1,0,3,3,0,-1,0,0,0,0,-1,0
 stat,pline,erice101,1,1,25,-1,34,5,-1,-1,0,4,1,5,-1,3,1,0,0,-1,0
 stat,pline,johnw102,1,2,2,-1,4,0,-1,-1,0,0,0,1,-1,0,0,0,0,-1,0
 event,dpline,0,dugaj101,gallc101,grifi101
+event,dpline,1,harrb106,shanr101
 event,dpline,1,shanr101,harrb106,judgj101
 event,sbline,1,oneij104,,perkc101,-1
 event,csline,0,dykej101,,piciv101,-1
@@ -5349,7 +5351,7 @@ event,hpline,1,erice101,dykej101
 line,0,0,0,0,0,0,1,0,0,3
 line,1,0,1,0,0,0,1,0,3
 stat,tline,0,7,0,1,0
-stat,tline,1,5,0,1,0
+stat,tline,1,5,0,2,0
 id,DET192005030
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -9863,20 +9865,20 @@ stat,bline,rothb102,1,9,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,erice101,1,9,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,prline,rothb102,8,1,0,0,0
 stat,dline,thomf107,0,1,5,27,1,5,0,0,0,0
-stat,dline,gedej101,0,1,4,27,5,2,0,0,0,0
+stat,dline,gedej101,0,1,4,27,5,2,0,1,0,0
 stat,dline,tobij101,0,1,7,27,2,0,0,0,0,0
-stat,dline,sislg101,0,1,3,27,11,0,0,0,0,0
+stat,dline,sislg101,0,1,3,27,11,0,0,1,0,0
 stat,dline,willk101,0,1,8,27,2,0,0,0,0,0
 stat,dline,jacow101,0,1,9,27,1,0,0,0,0,0
 stat,dline,seveh101,0,1,2,27,3,0,1,0,0,0
 stat,dline,gerbw101,0,1,6,27,2,1,0,0,0,0
 stat,dline,shocu101,0,1,1,27,0,2,1,0,0,0
-stat,dline,judgj101,1,1,3,27,13,1,0,0,0,0
+stat,dline,judgj101,1,1,3,27,13,1,0,1,0,0
 stat,dline,milac101,1,1,7,27,1,0,1,0,0,0
 stat,dline,rices101,1,1,8,27,2,0,1,0,0,0
 stat,dline,calvj101,1,1,9,27,1,0,0,0,0,0
 stat,dline,harrb106,1,1,4,27,1,5,0,0,0,0
-stat,dline,ellef101,1,1,5,27,4,2,0,0,0,0
+stat,dline,ellef101,1,1,5,27,4,2,0,1,0,0
 stat,dline,shanr101,1,1,6,27,1,1,0,0,0,0
 stat,dline,gharp101,1,1,2,27,4,1,0,0,0,0
 stat,dline,zacht101,1,1,1,24,0,2,0,0,0,0
@@ -9884,13 +9886,15 @@ stat,dline,erice101,1,1,1,3,0,0,0,0,0,0
 stat,pline,shocu101,0,1,27,-1,33,6,1,1,0,1,1,1,-1,2,0,0,0,2,0
 stat,pline,zacht101,1,1,24,-1,31,10,-1,-1,0,2,1,2,-1,2,0,1,1,-1,0
 stat,pline,erice101,1,2,3,-1,4,0,-1,-1,0,0,0,1,-1,1,0,0,0,-1,0
+event,dpline,0,gedej101,sislg101
+event,dpline,1,ellef101,judgj101
 event,sbline,0,willk101,,gharp101,-1
 event,sbline,1,judgj101,shocu101,seveh101,-1
 event,sbline,1,harrb106,shocu101,seveh101,-1
 line,0,0,2,0,0,0,0,0,0,0
 line,1,0,1,0,0,0,0,0,0,0
-stat,tline,0,9,0,0,0
-stat,tline,1,5,0,0,0
+stat,tline,0,9,0,1,0
+stat,tline,1,5,0,1,0
 id,BOS192005180
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -21554,11 +21558,11 @@ stat,dline,pratd101,0,1,4,27,2,3,0,1,0,0
 stat,dline,hannt101,0,1,2,27,2,0,0,0,0,0
 stat,dline,maysc101,0,1,1,27,1,2,0,0,0,0
 stat,dline,murpe102,1,1,9,27,0,1,1,0,0,0
-stat,dline,colle101,1,1,4,27,3,4,0,0,0,0
-stat,dline,weavb101,1,1,6,27,3,2,0,1,0,0
+stat,dline,colle101,1,1,4,27,3,4,0,1,0,0
+stat,dline,weavb101,1,1,6,27,3,2,0,2,0,0
 stat,dline,jackj101,1,1,7,27,0,0,1,0,0,0
 stat,dline,felsh101,1,1,8,27,7,0,0,0,0,0
-stat,dline,colls101,1,1,3,27,7,0,0,1,0,0
+stat,dline,colls101,1,1,3,27,7,0,0,2,0,0
 stat,dline,mcmuf101,1,1,5,27,2,3,0,0,0,0
 stat,dline,schar103,1,1,2,-1,3,0,0,0,0,0
 stat,dline,lynnb101,1,1,2,-1,2,1,0,0,0,0
@@ -21569,12 +21573,13 @@ stat,pline,willl104,1,1,12,-1,22,4,-1,-1,1,6,4,6,-1,2,0,0,0,-1,0
 stat,pline,wilkr101,1,2,15,-1,16,3,-1,-1,0,1,1,2,-1,2,0,1,0,-1,0
 event,dpline,0,pratd101,peckr101,pippw101
 event,dpline,1,weavb101,colls101
+event,dpline,1,weavb101,colle101,colls101
 event,csline,0,ruthb101,,,-1
 line,0,0,1,2,3,0,1,0,0,0
 line,1,0,0,0,1,1,0,0,0,0
 event,hrline,0,ruthb101,willl104,4,2,-1
 stat,tline,0,6,0,1,0
-stat,tline,1,6,0,1,0
+stat,tline,1,6,0,2,0
 id,DET192006170
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -32611,20 +32616,21 @@ stat,dline,dugaj101,1,1,4,18,2,1,0,1,0,0
 stat,dline,perkc101,1,1,2,18,2,4,0,0,0,0
 stat,dline,grifi101,1,1,3,18,8,1,0,1,0,0
 stat,dline,gallc101,1,1,6,-1,0,1,0,0,0,0
-stat,dline,thomf102,1,1,6,-1,2,1,0,1,0,0
+stat,dline,thomf102,1,1,6,-1,2,1,0,2,0,0
 stat,dline,harrs101,1,1,1,6,0,0,0,0,0,0
 stat,dline,keefd101,1,1,1,12,0,1,0,0,0,0
 stat,pline,bagbj101,0,1,18,-1,24,7,1,0,0,1,1,0,-1,4,0,0,0,0,0
 stat,pline,harrs101,1,1,6,-1,14,6,-1,-1,0,5,4,3,-1,1,0,0,0,1,0
 stat,pline,keefd101,1,2,12,-1,13,3,-1,-1,0,0,0,0,-1,2,0,0,0,0,0
-event,dpline,1,thomf102,grifi101,dykej101,dugaj101,thomf102
+event,dpline,1,thomf102,grifi101,dykej101
+event,dpline,1,dugaj101,thomf102
 event,dpline,0,wambb101,johnd107,chapr101
 event,csline,0,chapr101,,perkc101,-1
 event,csline,0,speat101,,perkc101,-1
 line,0,1,4,0,0,0,0
 line,1,1,0,0,0,0,0
 stat,tline,0,4,0,1,0
-stat,tline,1,5,0,1,0
+stat,tline,1,5,0,2,0
 id,BOS192007160
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -33104,23 +33110,23 @@ stat,bline,erice101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,murpe102,6,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,phline,jourt101,9,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,leibn101,0,1,9,27,3,0,0,0,0,0
-stat,dline,colle101,0,1,4,27,4,3,0,0,0,0
+stat,dline,colle101,0,1,4,27,4,3,0,1,0,0
 stat,dline,weavb101,0,1,5,27,3,1,0,0,0,0
 stat,dline,jackj101,0,1,7,27,3,0,0,0,0,0
 stat,dline,felsh101,0,1,8,27,5,0,0,0,0,0
-stat,dline,colls101,0,1,3,27,8,0,0,0,0,0
-stat,dline,risbs101,0,1,6,27,1,5,0,0,0,0
+stat,dline,colls101,0,1,3,27,8,0,0,1,0,0
+stat,dline,risbs101,0,1,6,27,1,5,0,1,0,0
 stat,dline,lynnb101,0,1,2,15,0,0,0,0,0,0
 stat,dline,schar103,0,1,2,12,0,0,0,0,0,0
 stat,dline,kerrd101,0,1,1,8,0,0,0,0,0,0
 stat,dline,wilkr101,0,1,1,16,0,0,0,0,0,0
 stat,dline,cicoe101,0,1,1,3,0,0,0,0,0,0
-stat,dline,judgj101,1,1,3,27,12,1,0,0,0,0
+stat,dline,judgj101,1,1,3,27,12,1,0,1,0,0
 stat,dline,milac101,1,1,7,27,2,1,0,0,0,0
 stat,dline,rices101,1,1,8,27,2,0,0,0,0,0
 stat,dline,rothb102,1,1,9,27,2,0,0,0,0,0
-stat,dline,harrb106,1,1,4,27,4,2,0,0,0,0
-stat,dline,shanh101,1,1,5,27,1,4,0,0,0,0
+stat,dline,harrb106,1,1,4,27,4,2,0,1,0,0
+stat,dline,shanh101,1,1,5,27,1,4,0,1,0,0
 stat,dline,shanr101,1,1,6,27,1,4,0,0,0,0
 stat,dline,gharp101,1,1,2,27,3,0,0,0,0,0
 stat,dline,courh101,1,1,1,16,0,2,0,0,0,0
@@ -33130,6 +33136,8 @@ stat,pline,wilkr101,0,2,16,-1,21,5,-1,-1,0,1,1,1,-1,0,0,0,0,-1,0
 stat,pline,cicoe101,0,3,3,-1,4,1,-1,-1,0,0,0,0,-1,0,0,0,0,-1,0
 stat,pline,courh101,1,1,16,-1,23,6,-1,-1,0,3,3,2,-1,1,1,0,0,-1,0
 stat,pline,erice101,1,2,11,-1,17,6,-1,-1,1,5,5,1,-1,2,0,0,0,-1,0
+event,dpline,0,risbs101,colle101,colls101
+event,dpline,1,shanh101,harrb106,judgj101
 event,sbline,0,felsh101,,gharp101,-1
 event,sbline,0,colls101,,gharp101,-1
 event,sbline,1,rices101,,,-1
@@ -33139,8 +33147,8 @@ event,hpline,1,courh101,jackj101
 line,0,0,0,0,0,0,3,0,1,4
 line,1,1,1,2,0,1,0,0,0,0
 event,hrline,0,jackj101,erice101,9,3,-1
-stat,tline,0,7,0,0,0
-stat,tline,1,11,0,0,0
+stat,tline,0,7,0,1,0
+stat,tline,1,11,0,1,0
 id,BOS192007171
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -36024,12 +36032,12 @@ stat,dline,vitto101,1,1,5,27,1,3,0,0,0,0
 stat,dline,menom101,1,1,7,27,1,0,0,0,0,0
 stat,dline,schaw101,1,1,8,27,5,1,1,1,0,0
 stat,dline,mcins101,1,1,3,27,7,2,0,1,0,0
-stat,dline,scote101,1,1,6,27,3,3,1,1,0,0
-stat,dline,mcnam101,1,1,4,27,3,1,0,1,0,0
+stat,dline,scote101,1,1,6,27,3,3,1,2,0,0
+stat,dline,mcnam101,1,1,4,27,3,1,0,2,0,0
 stat,dline,waltr102,1,1,2,27,3,0,0,1,0,0
 stat,dline,pennh101,1,1,1,16,1,1,0,0,0,0
 stat,dline,fortg101,1,1,1,6,0,0,0,0,0,0
-stat,dline,karrb101,1,1,1,2,0,1,0,0,0,0
+stat,dline,karrb101,1,1,1,2,0,1,0,1,0,0
 stat,dline,hoytw101,1,1,1,3,0,0,0,0,0,0
 stat,pline,faber101,0,1,15,-1,26,10,-1,-1,0,5,5,1,-1,0,0,0,0,-1,0
 stat,pline,wilkr101,0,2,6,-1,9,5,-1,-1,0,2,2,0,-1,1,0,0,0,-1,0
@@ -36041,6 +36049,7 @@ stat,pline,karrb101,1,3,2,-1,4,1,-1,-1,0,0,0,0,-1,0,0,1,0,-1,0
 stat,pline,hoytw101,1,4,3,-1,4,1,-1,-1,0,0,0,0,-1,0,0,0,0,-1,0
 event,dpline,0,colle101,risbs101,colls101
 event,dpline,1,schaw101,waltr102
+event,dpline,1,scote101,karrb101,mcnam101
 event,dpline,1,scote101,mcnam101,mcins101
 event,sbline,1,menom101,,schar103,-1
 event,sbline,1,menom101,,schar103,-1
@@ -36050,7 +36059,7 @@ event,csline,1,mcnam101,,schar103,-1
 line,0,0,0,0,0,0,4,0,4,0
 line,1,0,0,2,0,3,2,0,0,0
 stat,tline,0,6,0,1,0
-stat,tline,1,9,0,2,0
+stat,tline,1,9,0,3,0
 id,NYA192007230
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -57750,7 +57759,7 @@ line,0,0,0,1,0,0,0,5,5,2,0,0,0
 line,1,1,0,2,5,0,1,1,1,2,0,0,1
 event,hrline,1,veacb101,harph101,9,1,-1
 stat,tline,0,15,0,1,0
-stat,tline,1,13,0,1,0
+stat,tline,1,12,0,1,0
 id,SLA192009170
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"

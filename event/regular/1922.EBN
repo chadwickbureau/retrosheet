@@ -28393,9 +28393,9 @@ stat,dline,power101,0,1,8,28,5,0,0,0,0,0
 stat,dline,nixoa101,0,1,7,28,3,0,0,0,0,0
 stat,dline,cruiw101,0,1,9,28,1,0,0,0,0,0
 stat,dline,boect101,0,1,5,28,1,2,0,0,0,0
-stat,dline,holkw101,0,1,3,28,10,0,0,2,0,0
-stat,dline,fordh101,0,1,6,28,2,5,0,2,0,0
-stat,dline,kopfl101,0,1,4,28,3,2,1,1,0,0
+stat,dline,holkw101,0,1,3,28,10,0,0,3,0,0
+stat,dline,fordh101,0,1,6,28,2,5,0,3,0,0
+stat,dline,kopfl101,0,1,4,28,3,2,1,2,0,0
 stat,dline,gibsf101,0,1,2,28,3,0,0,0,0,0
 stat,dline,watsm103,0,1,1,18,0,0,0,0,0,0
 stat,dline,lansg101,0,1,1,5,0,0,0,0,0,0
@@ -28404,7 +28404,7 @@ stat,dline,burng101,1,1,8,30,2,0,0,0,0,0
 stat,dline,daubj101,1,1,3,30,11,2,0,1,0,0
 stat,dline,duncp101,1,1,7,30,2,0,0,0,0,0
 stat,dline,harpg101,1,1,9,30,2,0,0,0,0,0
-stat,dline,bohns101,1,1,4,30,1,5,0,1,0,0
+stat,dline,bohns101,1,1,4,30,1,5,0,2,0,0
 stat,dline,pineb101,1,1,5,30,3,2,1,1,0,0
 stat,dline,cavei101,1,1,6,30,5,3,0,1,0,0
 stat,dline,wingi101,1,1,2,30,4,0,0,0,0,0
@@ -28412,8 +28412,8 @@ stat,dline,coucj101,1,1,1,10,0,2,0,0,0,0
 stat,dline,gillj103,1,1,1,8,0,0,0,0,0,0
 stat,dline,schnk101,1,1,1,6,0,2,0,0,0,0
 stat,dline,keckc101,1,1,1,6,0,1,0,0,0,0
-stat,pline,watsm103,0,1,18,-1,28,7,-1,-1,1,2,1,3,-1,0,0,0,0,0,0
-stat,pline,lansg101,0,2,5,-1,12,8,-1,-1,0,5,5,2,-1,0,0,0,0,0,0
+stat,pline,watsm103,0,1,18,-1,28,7,-1,-1,0,2,1,3,-1,0,0,0,0,0,0
+stat,pline,lansg101,0,2,5,-1,12,8,-1,-1,1,5,5,2,-1,0,0,0,0,0,0
 stat,pline,mcquh101,0,3,5,-1,11,2,-1,-1,0,1,1,4,-1,1,0,0,0,0,0
 stat,pline,coucj101,1,1,10,-1,18,8,-1,-1,2,5,5,0,-1,0,0,0,0,0,0
 stat,pline,gillj103,1,2,8,-1,13,3,-1,-1,0,1,1,2,-1,1,0,0,0,2,0
@@ -28421,14 +28421,15 @@ stat,pline,schnk101,1,3,6,-1,8,4,-1,-1,0,1,0,1,-1,0,0,0,0,0,0
 stat,pline,keckc101,1,4,6,-1,7,1,-1,-1,0,0,0,0,-1,0,0,0,0,1,0
 line,0,1,1,1,2,1,0,0,1,0,0
 line,1,0,0,0,1,0,1,3,2,0,1
-event,dpline,1,cavei101,daubj101,cavei101,bohns101,pineb101
+event,dpline,1,cavei101,daubj101,bohns101
+event,dpline,1,pineb101,bohns101
 event,dpline,0,fordh101,holkw101
 event,dpline,0,kopfl101,fordh101,holkw101
 event,hrline,0,cruiw101,coucj101,1,0,2
 event,hrline,0,gibsf101,coucj101,4,0,-1
-event,hrline,1,bohns101,watsm103,7,1,1
+event,hrline,1,bohns101,lansg101,7,1,1
 stat,tline,0,9,0,2,0
-stat,tline,1,15,0,1,0
+stat,tline,1,15,0,2,0
 id,CIN192207180
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -30041,7 +30042,7 @@ event,csline,1,duncp101,-1,oneim102,-1
 line,0,0,2,0,0,0,0,1,0,0
 line,1,2,0,2,0,0,0,1,0
 event,dpline,1,cavei101,fonsl101,daubj101
-event,dpline,0,fordh101,barbw101,fordh101
+event,dpline,0,barbw101,fordh101,barbw101
 stat,tline,0,8,0,1,0
 stat,tline,1,8,0,1,0
 id,CIN192208262
@@ -30117,7 +30118,7 @@ stat,dline,power101,0,1,8,24,0,0,0,0,0,0
 stat,dline,kopfl101,0,1,4,24,5,3,0,1,0,0
 stat,dline,cruiw101,0,1,9,24,3,1,0,1,0,0
 stat,dline,boect101,0,1,5,24,0,3,0,0,0,0
-stat,dline,barbw101,0,1,3,24,12,1,0,1,0,0
+stat,dline,barbw101,0,1,3,24,12,1,0,2,0,0
 stat,dline,fordh101,0,1,6,24,2,3,0,1,0,0
 stat,dline,roseb101,0,1,7,24,0,0,0,0,0,0
 stat,dline,gowdh101,0,1,2,-1,2,3,0,0,0,0
@@ -30141,12 +30142,13 @@ event,csline,1,pineb101,-1,-1,-1
 event,hpline,0,oescj101,rouse101
 line,0,0,0,0,0,0,0,1,0,0
 line,1,0,1,0,0,0,1,0,0
-event,dpline,0,cruiw101,fordh101,kopfl101,barbw101
+event,dpline,0,fordh101,kopfl101,barbw101
+event,dpline,0,cruiw101,barbw101
 event,dpline,1,daubj101
 event,dpline,1,fonsl101,cavei101,daubj101
 event,dpline,1,fonsl101,cavei101,daubj101
 event,dpline,1,duncp101,daubj101,fonsl101
-stat,tline,0,6,0,1,0
+stat,tline,0,6,0,2,0
 stat,tline,1,6,0,4,0
 id,CIN192208271
 version,1

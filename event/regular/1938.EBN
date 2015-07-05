@@ -7349,7 +7349,7 @@ event,dpline,1,riggl101,freyl101,mccof101
 line,0,1,0,0,2,3,0,1,0,0
 line,1,1,1,0,2,0,0,0,0,0
 event,hrline,1,crafh101,butcm101,2,0,-1
-stat,tline,0,7,0,1,0
+stat,tline,0,8,0,1,0
 stat,tline,1,11,0,3,0
 id,PIT193805070
 version,3
@@ -9644,8 +9644,8 @@ stat,dline,owenm101,1,1,2,30,8,1,0,0,0,0
 stat,dline,warnl101,1,1,1,14,0,0,0,0,0,0
 stat,dline,lanim101,1,1,1,10,1,0,0,0,0,0
 stat,dline,davic103,1,1,1,6,0,1,0,0,0,0
-stat,pline,davip101,0,1,6,-1,14,8,-1,-1,2,6,6,0,-1,1,0,0,0,1,0
-stat,pline,holla101,0,2,5,-1,10,5,-1,-1,0,5,4,0,-1,0,0,0,0,1,0
+stat,pline,davip101,0,1,6,-1,14,8,-1,-1,0,6,6,0,-1,1,0,0,0,1,0
+stat,pline,holla101,0,2,5,-1,10,5,-1,-1,2,5,4,0,-1,0,0,0,0,1,0
 stat,pline,weavj101,0,3,7,-1,10,2,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 stat,pline,cascj101,0,4,6,-1,6,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,bengr101,0,5,3,-1,5,2,-1,-1,0,1,1,0,-1,0,0,0,0,0,0
@@ -9656,8 +9656,8 @@ event,sbline,1,guttd101,,hersw101,-1
 line,0,0,3,0,1,4,0,1,2,0,0
 line,1,3,0,4,4,0,0,0,0,0,1
 event,hrline,0,goodi101,lanim101,8,1,-1
-event,hrline,1,medwj101,davip101,3,1,-1
-event,hrline,1,padgd101,davip101,3,1,-1
+event,hrline,1,medwj101,holla101,4,1,-1
+event,hrline,1,padgd101,holla101,4,1,-1
 stat,tline,0,10,0,0,0
 stat,tline,1,6,0,0,0
 id,BRO193805160
@@ -20313,7 +20313,7 @@ stat,pline,prest101,1,2,11,-1,14,4,-1,-1,0,1,1,0,-1,3,0,0,0,0,0
 stat,pline,hamll101,1,3,5,-1,9,2,-1,-1,0,1,0,1,-1,3,0,0,0,0,0
 stat,pline,tamuv101,1,4,3,-1,3,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 event,sbline,0,goodi101,,phelb101,-1
-line,0,0,0,4,0,0,1,1,0,0
+line,0,0,0,4,0,0,0,1,1,0
 line,1,0,0,0,0,0,0,0,0,0
 event,hrline,0,mccof101,butcm101,3,2,-1
 stat,tline,0,9,0,0,0
@@ -24836,14 +24836,14 @@ stat,bline,mulch101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,whitp103,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,smita104,1,9,4,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,phline,whitp103,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,dline,freyl101,0,1,4,27,4,7,1,2,0,0
+stat,dline,freyl101,0,1,4,27,4,7,1,3,0,0
 stat,dline,bergw101,0,1,7,27,1,0,0,0,0,0
 stat,dline,goodi101,0,1,9,27,1,0,0,0,0,0
-stat,dline,mccof101,0,1,3,27,12,1,0,2,0,0
+stat,dline,mccof101,0,1,3,27,12,1,0,3,0,0
 stat,dline,hersw101,0,1,2,27,0,0,0,0,0,0
 stat,dline,crafh101,0,1,8,27,4,0,0,0,0,0
 stat,dline,riggl101,0,1,5,27,1,0,0,0,0,0
-stat,dline,myerb101,0,1,6,27,3,8,0,2,0,0
+stat,dline,myerb101,0,1,6,27,3,8,0,3,0,0
 stat,dline,derrp101,0,1,1,27,1,1,0,0,0,0
 stat,dline,muelh101,1,1,4,27,0,0,0,0,0,0
 stat,dline,schag102,1,1,6,27,2,2,0,1,0,0
@@ -24863,12 +24863,13 @@ stat,pline,mulch101,1,2,7,-1,10,3,-1,-1,0,1,1,1,-1,2,0,0,0,0,0
 stat,pline,smita104,1,3,3,-1,5,1,-1,-1,0,1,0,0,-1,1,0,0,0,1,0
 event,dpline,0,freyl101,myerb101,mccof101
 event,dpline,0,freyl101,myerb101,mccof101
+event,dpline,0,myerb101,freyl101,mccof101
 event,dpline,1,schag102,weinp101
 event,hpline,1,lamaw101,goodi101
 line,0,1,2,0,0,1,2,1,0,1
 line,1,0,0,2,0,2,0,1,0,0
 event,hrline,0,crafh101,lamaw101,6,0,-1
-stat,tline,0,8,0,2,0
+stat,tline,0,8,0,3,0
 stat,tline,1,9,0,1,0
 id,CHN193806280
 version,3
@@ -25536,9 +25537,9 @@ start,davip101,"Peaches Davis",0,9,1
 start,handl101,"Lee Handley",1,1,5
 start,wanel101,"Lloyd Waner",1,2,8
 start,wanep101,"Paul Waner",1,3,9
-start,vauga101,"Arky Vaughan",1,4,6
-start,suhrg101,"Gus Suhr",1,5,3
-start,rizzj101,"Johnny Rizzo",1,6,7
+start,suhrg101,"Gus Suhr",1,4,3
+start,rizzj101,"Johnny Rizzo",1,5,7
+start,vauga101,"Arky Vaughan",1,6,6
 start,todda101,"Al Todd",1,7,2
 start,younp101,"Pep Young",1,8,4
 start,tobij103,"Jim Tobin",1,9,1
@@ -25557,9 +25558,9 @@ stat,bline,schog101,0,9,4,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,handl101,1,1,1,4,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,wanel101,1,2,1,4,1,2,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,wanep101,1,3,1,3,0,2,2,0,0,2,0,0,0,1,-1,0,0,0,0,0
-stat,bline,vauga101,1,4,1,3,1,2,1,0,0,0,1,0,0,0,-1,0,0,0,0,0
-stat,bline,suhrg101,1,5,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,bline,rizzj101,1,6,1,4,0,1,0,0,0,0,0,0,0,0,-1,1,0,0,1,0
+stat,bline,suhrg101,1,4,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,rizzj101,1,5,1,4,0,1,0,0,0,0,0,0,0,0,-1,1,0,0,1,0
+stat,bline,vauga101,1,6,1,3,1,2,1,0,0,0,1,0,0,0,-1,0,0,0,0,0
 stat,bline,todda101,1,7,1,4,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,younp101,1,8,1,4,1,1,0,0,0,1,0,0,0,0,-1,1,0,0,0,0
 stat,bline,tobij103,1,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
@@ -25579,9 +25580,9 @@ stat,dline,schog101,0,1,1,3,0,1,0,0,0,0
 stat,dline,handl101,1,1,5,27,1,2,0,0,0,0
 stat,dline,wanel101,1,1,8,27,2,0,1,0,0,0
 stat,dline,wanep101,1,1,9,27,2,0,0,0,0,0
-stat,dline,vauga101,1,1,6,27,1,3,0,0,0,0
 stat,dline,suhrg101,1,1,3,27,10,0,0,0,0,0
 stat,dline,rizzj101,1,1,7,27,2,1,0,0,0,0
+stat,dline,vauga101,1,1,6,27,1,3,0,0,0,0
 stat,dline,todda101,1,1,2,27,7,0,0,0,0,0
 stat,dline,younp101,1,1,4,27,2,3,0,0,0,0
 stat,dline,tobij103,1,1,1,10,0,0,0,0,0,0
@@ -53360,14 +53361,14 @@ stat,dline,myerb101,1,1,6,-1,0,0,0,0,0,0
 stat,dline,moorw102,1,1,1,24,0,1,0,0,0,0
 stat,dline,schog101,1,1,1,9,1,0,0,0,0,0
 stat,pline,rootc101,0,1,33,-1,41,6,0,1,1,1,1,2,-1,3,0,0,0,0,0
-stat,pline,moorw102,1,1,24,-1,30,5,-1,-1,1,1,1,3,-1,1,0,0,0,1,0
-stat,pline,schog101,1,2,9,-1,11,1,-1,-1,0,1,1,0,-1,0,0,1,0,0,0
+stat,pline,moorw102,1,1,24,-1,30,5,-1,-1,0,1,1,3,-1,1,0,0,0,1,0
+stat,pline,schog101,1,2,9,-1,11,1,-1,-1,1,1,1,0,-1,0,0,1,0,0,0
 event,dpline,1,lombe101,freyl101
 event,dpline,1,mccof101,richn101
 event,dpline,1,richn101,freyl101,mccof101
 line,0,0,0,0,1,0,0,0,0,0,0,1
 line,1,0,0,0,0,0,0,0,0,1,0,0
-event,hrline,0,galaa101,moorw102,4,0,-1
+event,hrline,0,galaa101,schog101,11,0,-1
 event,hrline,1,goodi101,rootc101,9,0,-1
 stat,tline,0,6,0,0,0
 stat,tline,1,7,0,3,0
@@ -54627,8 +54628,8 @@ info,daynight,day
 info,usedh,false
 info,umphome,mageg901
 info,ump1b,parkg901
-info,ump2b,(none)
-info,ump3b,morac102
+info,ump2b,morac102
+info,ump3b,balll901
 info,scorer,TSN Box
 info,howscored,unknown
 info,pitches,none
@@ -56988,7 +56989,7 @@ stat,dline,durol101,1,1,6,27,6,3,0,1,0,0
 stat,dline,sheam102,1,1,2,27,2,0,0,0,0,0
 stat,dline,fitzf101,1,1,1,27,1,3,0,0,0,0
 stat,pline,vandj101,0,1,18,-1,25,4,-1,-1,1,4,3,4,-1,4,0,0,0,0,0
-stat,pline,barrr101,0,2,6,-1,11,1,-1,-1,0,2,2,4,-1,1,0,1,0,0,0
+stat,pline,barrr101,0,2,6,-1,12,1,-1,-1,0,2,2,4,-1,1,0,1,0,0,0
 stat,pline,fitzf101,1,1,27,-1,37,11,1,0,0,2,2,0,-1,2,0,1,0,0,0
 event,dpline,1,hudsj101,durol101,camid102
 event,sbline,1,cuylk101,,,-1
@@ -63430,11 +63431,11 @@ stat,pline,klinb101,0,2,0,-1,2,1,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
 stat,pline,blanc101,0,3,6,-1,10,3,-1,-1,0,1,1,1,-1,2,0,0,0,0,0
 stat,pline,browm103,0,4,5,-1,10,4,-1,-1,0,3,1,0,-1,2,0,0,0,0,0
 stat,pline,swifb101,0,5,10,-1,18,6,-1,-1,0,2,1,1,-1,2,0,0,0,1,0
-stat,pline,waltb102,1,1,11,-1,18,4,-1,-1,1,5,2,2,-1,2,0,0,0,1,0
-stat,pline,weavj101,1,2,16,-1,17,2,-1,-1,0,1,1,0,-1,2,0,0,0,0,0
+stat,pline,waltb102,1,1,11,-1,18,4,-1,-1,0,5,2,2,-1,2,0,0,0,1,0
+stat,pline,weavj101,1,2,16,-1,17,2,-1,-1,1,1,1,0,-1,2,0,0,0,0,0
 line,0,0,0,0,5,1,0,0,0,0
 line,1,0,3,1,2,1,0,0,2
-event,hrline,0,rizzj101,waltb102,4,2,-1
+event,hrline,0,rizzj101,weavj101,4,2,-1
 stat,tline,0,2,0,0,0
 stat,tline,1,13,0,0,0
 id,NY1193810010

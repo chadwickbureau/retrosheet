@@ -4011,7 +4011,7 @@ stat,dline,adamb101,0,1,7,24,2,0,0,0,0,0
 stat,dline,wasdj101,0,1,3,24,6,1,0,1,0,0
 stat,dline,dimav101,0,1,8,24,0,0,0,0,0,0
 stat,dline,foxxj101,0,1,5,24,0,1,0,0,0,0
-stat,dline,mancg101,0,1,2,24,6,3,0,0,0,0
+stat,dline,mancg101,0,1,2,24,6,3,0,1,0,0
 stat,dline,hamng102,0,1,6,24,5,2,1,2,0,0
 stat,dline,barrd101,0,1,1,17,1,0,0,0,0,0
 stat,dline,karla101,0,1,1,1,0,0,0,0,0,0
@@ -4034,11 +4034,12 @@ stat,pline,schac101,0,4,3,-1,2,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,javea101,1,1,27,-1,36,7,3,0,0,0,0,4,-1,2,0,0,0,0,0
 event,dpline,0,dingv101,hamng102
 event,dpline,0,hamng101,hamng102,wasdj101
+event,dpline,0,mancg101
 event,dpline,1,culld101,wietw101,mackj101
 event,sbline,0,hamng101,javea101,klutc101,-1
 line,0,0,0,0,0,0,0,0,0,0
 line,1,0,0,0,0,0,1,0,0
-stat,tline,0,9,0,2,0
+stat,tline,0,9,0,3,0
 stat,tline,1,6,0,1,0
 id,BRO194504290
 version,3
@@ -7083,14 +7084,14 @@ stat,dline,willd109,0,1,2,27,2,0,0,0,0,0
 stat,dline,wyseh101,0,1,1,27,1,2,0,0,0,0
 stat,dline,hamng101,1,1,4,-1,3,3,0,2,0,0
 stat,dline,piccn101,1,1,5,-1,0,0,1,0,0,0
-stat,dline,crawg101,1,1,6,27,6,6,0,3,0,0
-stat,dline,dingv101,1,1,9,27,2,1,0,1,0,0
+stat,dline,crawg101,1,1,6,27,6,6,0,2,0,0
+stat,dline,dingv101,1,1,9,27,2,1,0,0,0,0
 stat,dline,wasdj101,1,1,3,27,10,0,0,3,0,0
 stat,dline,dimav101,1,1,8,27,0,0,0,0,0,0
 stat,dline,tripc101,1,1,7,27,2,0,0,0,0,0
 stat,dline,antoj101,1,1,5,-1,1,1,0,0,0,0
 stat,dline,antoj101,1,2,4,-1,0,0,0,0,0,0
-stat,dline,mancg101,1,1,2,27,2,2,0,1,0,0
+stat,dline,mancg101,1,1,2,27,2,2,0,0,0,0
 stat,dline,sproc101,1,1,1,24,0,2,1,0,0,0
 stat,dline,kennv101,1,1,1,1,1,0,0,0,0,0
 stat,dline,rippc101,1,1,1,0,0,0,0,0,0,0
@@ -7103,12 +7104,11 @@ stat,pline,schac101,1,4,2,-1,3,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,1,hamng101,crawg101,wasdj101
 event,dpline,1,crawg101,hamng101,wasdj101
 event,dpline,1,wasdj101
-event,dpline,1,dingv101,mancg101,crawg101
 line,0,0,0,0,0,0,2,1,0,4
 line,1,0,1,0,0,0,0,0,0,0
 event,hrline,1,dimav101,wyseh101,2,0,-1
 stat,tline,0,9,0,0,0
-stat,tline,1,5,0,4,0
+stat,tline,1,5,0,3,0
 id,BSN194505120
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -11575,7 +11575,7 @@ stat,dline,logab101,0,1,1,18,0,2,0,0,0,0
 stat,dline,schah103,0,1,1,6,0,0,0,0,0,0
 stat,dline,hutcj101,0,1,1,12,0,0,0,0,0,0
 stat,dline,coscp101,1,1,4,-1,2,4,0,1,0,0
-stat,dline,saltj101,1,1,4,-1,3,1,1,0,0,0
+stat,dline,saltj101,1,1,4,-1,3,1,1,1,0,0
 stat,dline,barrj106,1,1,8,39,0,0,0,0,0,0
 stat,dline,obrit103,1,1,9,-1,2,0,0,0,0,0
 stat,dline,giona101,1,1,9,-1,1,0,0,0,0,0
@@ -11583,7 +11583,7 @@ stat,dline,ellib103,1,1,5,39,2,1,0,0,0,0
 stat,dline,russj102,1,1,7,39,3,0,0,0,0,0
 stat,dline,dahlb101,1,1,3,-1,9,0,0,1,0,0
 stat,dline,colmf101,1,1,3,-1,2,1,0,0,0,0
-stat,dline,gustf101,1,1,6,39,6,7,1,1,0,0
+stat,dline,gustf101,1,1,6,39,6,7,1,2,0,0
 stat,dline,lopea102,1,1,2,-1,7,2,0,0,0,1
 stat,dline,salkb101,1,1,2,-1,1,0,0,0,0,0
 stat,dline,gerha101,1,1,1,24,0,2,0,0,0,0
@@ -11598,11 +11598,12 @@ stat,pline,sewer101,1,3,14,-1,17,2,-1,-1,0,1,1,1,-1,3,0,0,0,0,0
 event,dpline,1,coscp101,gustf101,dahlb101
 event,dpline,0,culld101,joose101,mackj101
 event,dpline,0,wietw101,culld101,mackj101
+event,dpline,1,gustf101,saltj101
 event,sbline,1,barrj106,,klutc101,-1
 line,0,0,0,0,0,2,0,0,0,5,0,1,0,0
 line,1,1,1,0,0,2,0,0,3,0,0,1,0,1
 stat,tline,0,10,0,2,0
-stat,tline,1,12,0,1,0
+stat,tline,1,12,0,2,0
 id,SLN194505230
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -12465,7 +12466,7 @@ stat,pline,tobij103,0,1,24,-1,38,10,3,0,0,5,5,4,-1,1,1,0,0,0,0
 stat,pline,roe-p101,1,1,27,-1,38,9,2,0,0,3,3,2,-1,5,0,0,0,0,0
 event,hpline,0,tobij103,gustf101
 line,0,0,0,1,2,0,0,0,0,0
-line,1,0,1,3,0,0,1,0,0
+line,1,0,1,3,0,0,0,1,0
 stat,tline,0,8,0,0,0
 stat,tline,1,9,0,0,0
 id,SLN194505250
@@ -13309,7 +13310,7 @@ event,sbline,1,willw101,,ulism101,-1
 line,0,0,0,0,0,0,0,0,0,0
 line,1,1,0,2,0,2,0,0,0
 event,hrline,1,walkg101,hutcj101,5,0,-1
-stat,tline,0,5,0,1,0
+stat,tline,0,6,0,1,0
 stat,tline,1,6,0,1,0
 id,PIT194505271
 version,3
@@ -18370,9 +18371,9 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,umphome,stewb901
-info,ump1b,mageg901
+info,ump1b,balll901
 info,ump2b,(none)
-info,ump3b,balll901
+info,ump3b,mageg901
 info,scorer,TSN Box
 info,howscored,unknown
 info,pitches,none
@@ -26296,8 +26297,8 @@ info,daynight,day
 info,usedh,false
 info,umphome,henlb101
 info,ump1b,rearb901
-info,ump2b,jordl901
-info,ump3b,goetl901
+info,ump2b,goetl901
+info,ump3b,jordl901
 info,scorer,TSN Box
 info,howscored,unknown
 info,pitches,none
@@ -62416,7 +62417,7 @@ start,mccof101,"Frank McCormick",1,4,3
 start,saueh101,"Hank Sauer",1,5,7
 start,mille104,"Eddie Miller",1,6,6
 start,lakea101,"Al Lakeman",1,7,2
-start,willw101,"Woody Williams",1,8,4
+start,wahlk101,"Kermit Wahl",1,8,4
 start,fox-h101,"Howie Fox",1,9,1
 stat,bline,culld101,0,1,1,4,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0
 stat,bline,wietw101,0,2,1,5,1,1,0,0,0,1,0,0,0,0,-1,0,0,0,0,0

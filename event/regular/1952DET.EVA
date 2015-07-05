@@ -488,9 +488,9 @@ play,1,1,mullp101,??,,W
 play,1,1,wertv101,??,,163.1-2;2-3
 play,1,1,mapec101,??,,K/C
 play,2,0,eastl101,??,,W
-play,2,0,rosea101,??,,4(1)3/GDP
-play,2,0,fridj101,??,,E5
-play,2,0,boonr101,??,,64(1)/FO
+play,2,0,rosea101,??,,64(1)/FO
+play,2,0,fridj101,??,,E5.1-2
+play,2,0,boonr101,??,,4(1)3/GDP
 play,2,1,kolld101,??,,9/L
 play,2,1,ginsj101,??,,5
 play,2,1,lipoj101,??,,9
@@ -549,7 +549,7 @@ play,8,1,houta101,??,,K
 play,8,1,pridj101,??,,W
 play,8,1,kellg102,??,,S9.1-2
 play,8,1,grotj102,??,,S9.1-3;2-H
-play,8,1,wertv101,??,,FC.1-2
+play,8,1,wertv101,??,,FC.1-2;B-1
 play,8,1,mapec101,??,,7/F
 play,8,1,kolld101,??,,S8.3-H;2-H;1-2
 play,8,1,ginsj101,??,,HR.2-H;1-H
@@ -2881,8 +2881,8 @@ sub,coang101,"Gil Coan",0,8,12
 play,9,0,mastw101,??,,W
 play,9,0,yoste101,??,,14/SH.1-2;2-3
 play,9,0,rappe101,??,,IW
-play,9,0,jensj101,??,,7(B)15(2)/F/AP/DP.3-H
-com,"$Walt Masterson out on appeal"
+play,9,0,jensj101,??,,7(B)/F/AP/NDP.3-H;2X3(15)
+com,"$Walt Masterson out on appeal; no DP"
 play,9,1,grotj102,??,,NP
 sub,woodk101,"Ken Wood",0,6,9
 play,9,1,grotj102,??,,NP
@@ -3490,7 +3490,7 @@ play,4,0,lepct101,??,,S7.2-H;1-2
 play,4,0,whits103,??,,S7.2-H;1-2
 play,4,0,deloi101,??,,W.2-3;1-2
 play,4,0,dimad101,??,,S8.3-H;2-3;1-2
-play,4,0,goodb101,??,,FC3/G.3-H(E3)(NR)(UR);2-3;1-2
+play,4,0,goodb101,??,,FC3/G.3-H(E3)(NR);2-3;1-2
 play,4,0,vollc101,??,,NP
 sub,hoefb101,"Billy Hoeft",1,9,1
 play,4,0,vollc101,??,,S8.3-H(RBI);2-H(RBI);1-H(NR);B-2(E8/TH)
@@ -3564,7 +3564,7 @@ sub,scarr102,"Ray Scarborough",0,9,1
 play,9,1,lenhd101,??,,K
 data,er,deloi101,6
 data,er,scarr102,0
-data,er,grayt101,7
+data,er,grayt101,8
 data,er,hoefb101,3
 data,er,whith101,0
 data,er,johnk101,0
@@ -8008,7 +8008,7 @@ play,4,0,everh101,??,,53
 play,4,0,gernd101,??,,63
 play,4,0,whits103,??,,9
 play,4,1,fedea101,??,,S
-play,4,1,wighb101,??,,1/BG/SH.1-2
+play,4,1,wighb101,??,,1/SH.1-2
 play,4,1,grotj102,??,,S.2-H
 play,4,1,kuenh101,??,,63.1-2
 play,4,1,tuttb101,??,,K
@@ -8031,9 +8031,9 @@ play,6,1,battm101,??,,W
 com,"Debut game for Milt Bolling"
 play,6,1,fedea101,??,,S7.1-2
 play,6,1,wighb101,??,,S/BG.2-3;1-2
-play,6,1,grotj102,??,,S.3-H;2-3;1-2
-play,6,1,kuenh101,??,,9/F.3-H;2-3
-play,6,1,tuttb101,??,,16(1)/FO.3-H
+play,6,1,grotj102,??,,S.3-H;2-H;1-3
+play,6,1,kuenh101,??,,9/F
+play,6,1,tuttb101,??,,16(1)/FO
 play,6,1,dropw101,??,,6/L
 play,7,0,everh101,??,,D
 play,7,0,gernd101,??,,8
@@ -8068,7 +8068,7 @@ play,9,0,freeh101,??,,NP
 sub,niarg101,"Gus Niarhos",0,9,11
 play,9,0,niarg101,??,,3/G.1-2
 play,9,0,zaria101,??,,13
-data,er,parnm101,6
+data,er,parnm101,5
 data,er,freeh101,0
 data,er,wighb101,2
 id,DET195209110
@@ -9238,7 +9238,7 @@ play,2,0,mitcd101,??,,S/BG
 play,2,0,avilb101,??,,13/SH.1-2
 play,2,0,dobyl101,??,,W
 play,2,0,eastl101,??,,S1.1-2;2-3
-play,2,0,boonr101,??,,PO1(E1).1-2;2-H;3-H#
+play,2,0,boonr101,??,,WP.3-H;2-H(E1);1-2
 play,2,0,boonr101,??,,K
 play,2,0,poped101,??,,S7.2-H;B-2(TH)
 play,2,0,tiptj101,??,,HR.2-H
@@ -9440,6 +9440,8 @@ sub,combm101,"Merl Combs",0,8,6
 play,7,1,lundd102,??,,W
 play,7,1,battm101,??,,46(1)3/GDP
 play,7,1,fedea101,??,,W
+play,7,1,grayt101,??,,NP
+sub,peskj101,"Johnny Pesky",1,8,12
 play,7,1,grayt101,??,,HP.1-2
 play,7,1,berrn101,??,,S8.1-2;2-H
 play,7,1,tuttb101,??,,NP
@@ -9452,7 +9454,7 @@ sub,sullr101,"Russ Sullivan",1,6,9
 play,8,0,mitcd101,??,,NP
 sub,peskj101,"Johnny Pesky",1,8,4
 play,8,0,mitcd101,??,,S/BG
-play,8,0,boonr101,??,,1/G/SH.1-2
+play,8,0,boonr101,??,,1/SH.1-2
 play,8,0,dobyl101,??,,43.2-3
 play,8,0,eastl101,??,,HP
 play,8,0,majeh101,??,,S8.1-2;3-H
