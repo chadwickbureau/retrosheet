@@ -7300,10 +7300,10 @@ stat,bline,whitp103,1,6,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,schag102,1,7,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,davis101,1,8,1,3,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,1,0
 stat,bline,millw102,1,8,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,bline,kleic101,1,8,3,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,marth101,1,8,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,mulch101,1,9,1,2,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,0,0
-stat,bline,marth101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,bline,poinj101,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,poinj101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,kleic101,1,9,3,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,phline,bongn101,-1,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,phline,marth101,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,phline,kleic101,-1,1,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
@@ -28270,10 +28270,10 @@ info,number,1
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,umphome,morac102
-info,ump1b,stewb901
+info,umphome,barrg901
+info,ump1b,morac102
 info,ump2b,(none)
-info,ump3b,(none)
+info,ump3b,stewb901
 info,scorer,TSN Box
 info,howscored,unknown
 info,pitches,none
@@ -28983,9 +28983,9 @@ stat,dline,crafh101,1,1,8,27,4,0,0,0,0,0
 stat,dline,hafeb101,1,1,7,27,2,0,0,0,0,0
 stat,dline,myerb101,1,1,6,27,2,6,1,1,0,0
 stat,dline,derrp101,1,1,1,27,0,0,0,0,0,0
-stat,pline,davic103,0,1,14,-1,23,6,-1,-1,0,5,3,1,-1,1,1,0,0,0,0
+stat,pline,davic103,0,1,14,-1,23,6,-1,-1,1,5,3,1,-1,1,1,0,0,1,0
 stat,pline,shouc101,0,2,1,-1,1,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-stat,pline,warnl101,0,3,6,-1,8,2,-1,-1,1,2,2,1,-1,0,0,0,0,0,0
+stat,pline,warnl101,0,3,6,-1,8,2,-1,-1,0,2,2,1,-1,0,0,0,0,0,0
 stat,pline,bowmb103,0,4,3,-1,4,1,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,derrp101,1,1,27,-1,41,14,5,1,1,4,4,0,-1,4,0,0,0,0,0
 event,dpline,0,browj107,mizej101
@@ -54546,8 +54546,8 @@ stat,dline,blanc101,1,1,1,12,0,1,0,0,0,0
 stat,dline,klinb101,1,1,1,6,1,0,0,0,0,0
 stat,dline,swifb101,1,1,1,6,0,0,0,0,0,0
 stat,dline,sewer101,1,1,1,9,0,1,0,0,0,0
-stat,pline,shofm101,0,1,14,-1,21,8,-1,-1,1,3,3,1,-1,1,0,0,0,0,0
-stat,pline,niggj101,0,2,11,-1,19,4,-1,-1,0,3,3,3,-1,1,1,0,0,1,0
+stat,pline,shofm101,0,1,14,-1,21,8,-1,-1,0,3,3,1,-1,1,0,0,0,0,0
+stat,pline,niggj101,0,2,11,-1,19,4,-1,-1,1,3,3,3,-1,1,1,0,0,1,0
 stat,pline,thomj102,0,3,2,-1,1,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,johnh101,0,4,4,-1,8,3,-1,-1,0,2,1,1,-1,0,0,0,0,1,0
 stat,pline,blanc101,1,1,12,-1,21,7,-1,-1,1,4,4,1,-1,3,0,0,0,1,0
@@ -54563,7 +54563,7 @@ line,0,0,0,1,1,3,0,1,0,0,0,1
 line,1,0,0,0,0,3,1,1,0,1,0,2
 event,hrline,0,lombe101,blanc101,4,0,-1
 event,hrline,0,lombe101,swifb101,7,0,-1
-event,hrline,1,ellib103,shofm101,5,1,-1
+event,hrline,1,ellib103,niggj101,7,1,-1
 stat,tline,0,13,0,3,0
 stat,tline,1,10,0,0,0
 id,BRO193909081
@@ -57211,15 +57211,15 @@ stat,dline,shofm101,1,1,1,21,0,1,0,0,0,0
 stat,pline,salvm101,0,1,7,-1,14,4,-1,-1,0,4,3,3,-1,2,0,1,0,0,0
 stat,pline,browj110,0,2,14,-1,27,9,-1,-1,0,5,4,5,-1,1,0,0,0,0,0
 stat,pline,gormt101,0,3,3,-1,3,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
-stat,pline,niggj101,1,1,6,-1,12,6,-1,-1,0,2,2,0,-1,1,0,0,0,0,0
-stat,pline,shofm101,1,2,21,-1,28,5,-1,-1,1,1,0,2,-1,0,0,0,0,1,0
+stat,pline,niggj101,1,1,6,-1,12,6,-1,-1,1,2,2,0,-1,1,0,0,0,0,0
+stat,pline,shofm101,1,2,21,-1,28,5,-1,-1,0,1,0,2,-1,0,0,0,0,1,0
 event,dpline,0,jurgb101,kampa101,younb102
 event,dpline,1,myerb101,joose101,mccof101
 event,dpline,1,werbb101,joose101,mccof101
 event,sbline,1,gambl101,,dannh101,-1
 line,0,0,1,1,0,0,0,1,0,0
 line,1,0,0,4,0,2,0,3,0
-event,hrline,0,dannh101,shofm101,2,0,-1
+event,hrline,0,dannh101,niggj101,2,0,-1
 stat,tline,0,10,0,1,0
 stat,tline,1,11,0,2,0
 id,PIT193909141
@@ -60210,7 +60210,7 @@ stat,dline,niggj101,1,1,1,13,0,0,1,0,0,0
 stat,dline,johnh101,1,1,1,14,0,1,0,0,0,0
 stat,pline,higbk101,0,1,27,-1,33,6,0,1,0,1,1,2,-1,7,1,0,0,1,0
 stat,pline,vandj101,1,1,0,-1,4,1,-1,-1,0,4,3,2,-1,0,0,0,0,0,0
-stat,pline,niggj101,1,2,13,-1,21,5,-1,-1,0,5,3,1,-1,3,0,0,0,0,0
+stat,pline,niggj101,1,2,13,-1,21,5,-1,-1,0,5,3,1,-1,3,0,0,0,1,0
 stat,pline,johnh101,1,3,14,-1,24,7,-1,-1,0,4,3,3,-1,1,0,0,0,2,0
 event,dpline,0,schag102,hughr101,suhrg101
 event,dpline,0,may-p101,hughr101,suhrg101
@@ -62246,9 +62246,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,umphome,balll901
-info,ump1b,campb901
-info,ump2b,(none)
+info,umphome,klemb901
+info,ump1b,balll901
+info,ump2b,campb901
 info,ump3b,dunnt901
 info,scorer,TSN Box
 info,howscored,unknown

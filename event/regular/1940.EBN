@@ -7421,23 +7421,24 @@ stat,dline,gustf101,0,1,4,24,2,1,0,0,0,0
 stat,dline,bowmj101,0,1,1,17,0,1,0,0,0,0
 stat,dline,macfd101,0,1,1,7,0,0,0,0,0,0
 stat,dline,hacks101,1,1,5,27,1,0,0,0,0,0
-stat,dline,hermb101,1,1,4,27,3,3,0,0,0,0
+stat,dline,hermb101,1,1,4,27,3,3,0,1,0,0
 stat,dline,gleej101,1,1,8,27,0,0,0,0,0,0
 stat,dline,leibh101,1,1,9,27,1,0,0,0,0,0
 stat,dline,dalld101,1,1,7,27,2,0,0,0,0,0
 stat,dline,russr101,1,1,3,27,12,1,0,0,0,0
 stat,dline,todda101,1,1,2,27,5,0,0,0,0,0
-stat,dline,mattb101,1,1,6,27,3,4,0,0,0,0
+stat,dline,mattb101,1,1,6,27,3,4,0,1,0,0
 stat,dline,passc101,1,1,1,14,0,1,1,0,0,0
 stat,dline,pagev101,1,1,1,13,0,0,0,0,0,0
 stat,pline,bowmj101,0,1,17,-1,33,8,-1,-1,0,7,4,5,-1,5,0,0,0,0,0
 stat,pline,macfd101,0,2,7,-1,8,2,-1,-1,0,0,0,1,-1,3,0,0,0,0,0
 stat,pline,passc101,1,1,14,-1,24,9,-1,-1,0,5,4,2,-1,1,0,0,0,0,0
 stat,pline,pagev101,1,2,13,-1,14,1,-1,-1,0,0,0,0,-1,3,0,0,0,0,0
+event,dpline,1,hermb101,mattb101
 line,0,1,0,0,2,2,0,0,0,0
 line,1,0,0,1,0,3,3,0,0
 stat,tline,0,6,0,0,0
-stat,tline,1,10,0,0,0
+stat,tline,1,10,0,1,0
 id,SLN194005110
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -16086,8 +16087,8 @@ start,glosa101,"Al Glossop",0,8,4
 start,gumbh101,"Harry Gumbert",0,9,1
 start,werbb101,"Billy Werber",1,1,5
 start,freyl101,"Lonny Frey",1,2,4
-start,mccof101,"Frank McCormick",1,3,3
-start,mccom101,"Mike McCormick",1,4,9
+start,mccom101,"Mike McCormick",1,3,9
+start,mccof101,"Frank McCormick",1,4,3
 start,lombe101,"Ernie Lombardi",1,5,2
 start,rizzj101,"Johnny Rizzo",1,6,7
 start,crafh101,"Harry Craft",1,7,8
@@ -16111,8 +16112,8 @@ stat,bline,mccaj104,0,9,5,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,vandh101,0,9,6,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,werbb101,1,1,1,4,1,1,0,0,0,2,0,0,0,0,-1,0,0,0,0,0
 stat,bline,freyl101,1,2,1,4,0,1,1,0,0,1,0,0,0,0,-1,1,1,0,0,0
-stat,bline,mccof101,1,3,1,3,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0
-stat,bline,mccom101,1,4,1,3,0,1,1,0,0,0,0,0,0,1,-1,1,0,0,0,0
+stat,bline,mccom101,1,3,1,3,0,1,1,0,0,0,0,0,0,1,-1,1,0,0,0,0
+stat,bline,mccof101,1,4,1,3,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,0,0
 stat,bline,lombe101,1,5,1,4,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,rizzj101,1,6,1,4,2,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,crafh101,1,7,1,4,1,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,0
@@ -16136,8 +16137,8 @@ stat,dline,deanp101,0,1,1,12,0,2,0,0,0,0
 stat,dline,vandh101,0,1,1,3,0,0,0,0,0,0
 stat,dline,werbb101,1,1,5,27,0,0,0,0,0,0
 stat,dline,freyl101,1,1,4,27,1,4,0,1,0,0
-stat,dline,mccof101,1,1,3,27,12,0,0,2,0,0
 stat,dline,mccom101,1,1,9,27,5,0,0,0,0,0
+stat,dline,mccof101,1,1,3,27,12,0,0,2,0,0
 stat,dline,lombe101,1,1,2,27,5,2,0,1,0,0
 stat,dline,rizzj101,1,1,7,27,1,0,0,0,0,0
 stat,dline,crafh101,1,1,8,27,0,0,0,0,0,0

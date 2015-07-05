@@ -222,7 +222,7 @@ play,4,1,skowb101,??,,46(1)3/GDP
 play,5,0,edwaj101,??,,4/L
 play,5,0,jay-j101,??,,K
 play,5,0,chace101,??,,S8/F
-play,5,0,kaske101,??,,S8.1-3
+play,5,0,kaske101,??,,S8/G.1-3
 play,5,0,pinsv101,??,,PB.3-H(UR);1-2
 play,5,0,pinsv101,??,,K
 play,5,1,boyec102,??,,W
@@ -234,7 +234,7 @@ play,6,0,robif103,??,,53
 play,6,0,coleg101,??,,K
 play,6,0,postw101,??,,D7/7LDW
 play,6,0,freeg102,??,,IW
-play,6,0,edwaj101,??,,S9.2-H;1-3
+play,6,0,edwaj101,??,,S9/G.2-H;1-3
 play,6,0,jay-j101,??,,43
 play,6,1,berry101,??,,S8
 play,6,1,blanj101,??,,6/P8S
@@ -251,7 +251,7 @@ play,7,1,richb102,??,,4(1)/FO
 play,8,0,robif103,??,,NP
 sub,arrol101,"Luis Arroyo",1,9,1
 play,8,0,robif103,??,,W
-play,8,0,coleg101,??,,S1/G.1-H(E1/TH1);BX3(95)
+play,8,0,coleg101,??,,S1/G56S.1-H(E1/TH1);BX3(95)
 play,8,0,postw101,??,,E7.B-3
 play,8,0,freeg102,??,,IW
 play,8,0,edwaj101,??,,D7/F.3-H(UR);1-3
@@ -265,7 +265,8 @@ play,9,0,kaske101,??,,4/P
 play,9,0,pinsv101,??,,D7/F7S
 play,9,0,robif103,??,,5/FL
 play,9,0,coleg101,??,,31
-play,9,1,howae101,??,,23
+play,9,1,howae101,??,,2/BINT
+com,"$Ball hit bat in fair territory"
 play,9,1,skowb101,??,,K
 play,9,1,boyec102,??,,W
 play,9,1,arrol101,??,,NP
@@ -346,7 +347,7 @@ play,2,1,purkb101,??,,K/C
 play,3,0,boyec102,??,,3/FL
 play,3,0,stafb101,??,,1/L
 play,3,0,richb102,??,,13/G1
-play,3,1,chace101,??,,S1/BG.B-2(E1/TH1)
+play,3,1,chace101,??,,S1/BG23.B-2(E1/TH1)
 play,3,1,kaske101,??,,3/FL
 play,3,1,pinsv101,??,,43.2-3
 play,3,1,robif103,??,,D7/7DW.3-H
@@ -384,7 +385,7 @@ sub,lyncj102,"Jerry Lynch",1,1,11
 play,7,1,lyncj102,??,,IW
 play,7,1,kaske101,??,,NP
 sub,blasd101,"Don Blasingame",1,1,12
-play,7,1,kaske101,??,,S7.2-H;1-2
+play,7,1,kaske101,??,,S7/L.2-H;1-2
 play,7,1,pinsv101,??,,NP
 sub,daleb102,"Bud Daley",0,9,1
 play,7,1,pinsv101,??,,9
@@ -398,27 +399,28 @@ play,8,0,blanj101,??,,HR/9D
 play,8,0,richb102,??,,S7
 play,8,0,kubet101,??,,SB2
 play,8,0,kubet101,??,,8
-play,8,1,robif103,??,,NP
+play,8,1,robif103,00,,NP
 sub,arrol101,"Luis Arroyo",0,9,1
-play,8,1,robif103,??,,K
-play,8,1,coleg101,??,,2/FL
-play,8,1,postw101,??,,53
-play,9,0,marir101,??,,HR/9D
-play,9,0,mantm101,??,,K
-play,9,0,berry101,??,,31
-play,9,0,howae101,??,,31
-play,9,1,freeg102,??,,NP
+play,8,1,robif103,32,SFBBFBS,K
+play,8,1,coleg101,12,FBCX,2/FL
+play,8,1,postw101,12,FSBX,53
+play,9,0,marir101,21,CBBX,HR/9D
+play,9,0,mantm101,32,BCBSBS,K
+play,9,0,berry101,32,BBFFBX,31
+play,9,0,howae101,12,BSSX,31
+play,9,1,freeg102,00,,NP
 sub,reedj101,"Jack Reed",0,4,8
-play,9,1,freeg102,??,,K
-play,9,1,edwaj101,??,,NP
+play,9,1,freeg102,12,FBFFS,K
+play,9,1,edwaj101,00,,NP
 sub,cardl101,"Leo Cardenas",1,8,11
-play,9,1,cardl101,??,,D/78XDW
-play,9,1,purkb101,??,,NP
+play,9,1,cardl101,10,BX,D8/78XDW
+com,"$off left-center field scoreboard"
+play,9,1,purkb101,00,,NP
 sub,gernd101,"Dick Gernert",1,9,11
-play,9,1,gernd101,??,,63
-play,9,1,blasd101,??,,NP
+play,9,1,gernd101,31,BBFBX,63
+play,9,1,blasd101,00,,NP
 sub,bellg103,"Gus Bell",1,1,11
-play,9,1,bellg103,??,,13/G1
+play,9,1,bellg103,00,X,13/G1
 data,er,stafb101,2
 data,er,daleb102,0
 data,er,arrol101,0
@@ -494,29 +496,29 @@ play,3,0,fordw101,??,,46(1)/FO
 play,3,0,richb102,??,,D7.1-3
 play,3,0,kubet101,??,,8/F78
 play,3,1,coleg101,??,,43
-play,3,1,johnd106,??,,S7
+play,3,1,johnd106,??,,S7/F7S
 play,3,1,otooj101,??,,64(1)/FO
 play,3,1,chace101,??,,43
 play,4,0,marir101,??,,W
-play,4,0,mantm101,??,,S/78.1-3
-play,4,0,howae101,??,,NP
+play,4,0,mantm101,21,BBFX,S7/L78.1-3
+play,4,0,howae101,00,,NP
 sub,lopeh101,"Hector Lopez",0,4,12
-play,4,0,howae101,??,,64(1)3/GDP.3-H
-play,4,0,berry101,??,,41
-play,4,1,kaske101,??,,NP
+play,4,0,howae101,01,CX,64(1)3/GDP.3-H
+play,4,0,berry101,10,BX,41
+play,4,1,kaske101,00,,NP
 sub,marir101,"Roger Maris",0,3,8
-play,4,1,kaske101,??,,NP
+play,4,1,kaske101,00,,NP
 sub,lopeh101,"Hector Lopez",0,4,9
-play,4,1,kaske101,??,,S7
-play,4,1,pinsv101,??,,7/7L
-play,4,1,robif103,??,,HP.1-2
-play,4,1,postw101,??,,64(1)3/GDP
-play,5,0,skowb101,??,,S9
-play,5,0,boyec102,??,,54(1)3/GDP
-play,5,0,fordw101,??,,W
-play,5,0,richb102,??,,S8.1-2
-play,5,0,kubet101,??,,S/89.2-H;1-3;B-2(THH)
-play,5,0,marir101,??,,9/F9D
+play,4,1,kaske101,22,BCBSFX,S7/L7
+play,4,1,pinsv101,00,X,7/F7L
+play,4,1,robif103,02,SFH,HP.1-2
+play,4,1,postw101,10,BX,64(1)3/GDP
+play,5,0,skowb101,32,SBBSFBX,S9/L9S
+play,5,0,boyec102,00,X,54(1)3/GDP
+play,5,0,fordw101,31,BCBBB,W
+play,5,0,richb102,10,BX,S8/G46.1-2
+play,5,0,kubet101,12,FCBX,S8/F89S.2-H;1-3;B-2(THH)
+play,5,0,marir101,12,CFBX,9/F9D
 play,5,1,freeg102,??,,9/F9S
 play,5,1,coleg101,??,,63
 play,5,1,johnd106,??,,S8
@@ -526,12 +528,12 @@ play,5,1,gernd101,??,,54(1)/FO
 play,6,0,lopeh101,??,,NP
 sub,brosj101,"Jim Brosnan",1,9,1
 play,6,0,lopeh101,??,,K/C
-play,6,0,howae101,??,,D/89
+play,6,0,howae101,??,,D9/89
 play,6,0,berry101,??,,IW
-play,6,0,skowb101,??,,S5/G.2-3;1-2
-play,6,0,boyec102,??,,D7.3-H;2-H;1-3
+play,6,0,skowb101,??,,S5/G5S.2-3;1-2
+play,6,0,boyec102,??,,D7/L7LD.3-H;2-H;1-3
 play,6,0,fordw101,??,,3(B)3(3)/G/DP
-play,6,1,chace101,??,,S7
+play,6,1,chace101,??,,S7/L
 play,6,1,kaske101,??,,NP
 sub,coatj101,"Jim Coates",0,9,1
 com,"$Whitey Ford left with an ankle injury"
@@ -630,18 +632,18 @@ start,postw101,"Wally Post",1,6,7
 start,freeg102,"Gene Freese",1,7,5
 start,edwaj101,"Johnny Edwards",1,8,2
 start,jay-j101,"Joey Jay",1,9,1
-play,1,0,richb102,??,,S7
-play,1,0,kubet101,??,,8/F8D
-play,1,0,marir101,??,,9
-play,1,0,blanj101,??,,PO1(E3).1-2
-play,1,0,blanj101,??,,HR/9D.2-H
-play,1,0,howae101,??,,DGR/78XD
+play,1,0,richb102,01,CX,S8
+play,1,0,kubet101,21,FBB1X,8/F8D
+play,1,0,marir101,12,BFFX,9
+play,1,0,blanj101,10,1B1,PO1(E3).1-2
+play,1,0,blanj101,31,1B1.BCBX,HR/9D.2-H
+play,1,0,howae101,00,X,DGR/78XD
 com,"$the ball bounced through an opening in the left-center scoreboard"
-play,1,0,skowb101,??,,S7/7DW.2-H
-play,1,0,lopeh101,??,,NP
+play,1,0,skowb101,32,BBFBSX,S8/F8XDW.2-H
+play,1,0,lopeh101,00,,NP
 sub,maloj102,"Jim Maloney",1,9,1
 play,1,0,lopeh101,??,,T9.1-H
-play,1,0,boyec102,??,,D.3-H
+play,1,0,boyec102,??,,D8/F78XD.3-H
 play,1,0,terrr101,??,,K
 play,1,1,blasd101,??,,13/BG
 play,1,1,kaske101,??,,S7
@@ -668,10 +670,10 @@ play,3,0,lopeh101,??,,K
 play,3,0,boyec102,??,,W
 play,3,0,terrr101,??,,14/SH.1-2
 play,3,0,richb102,??,,63
-play,3,1,blasd101,??,,S8
-play,3,1,kaske101,??,,S7.1-2
-play,3,1,pinsv101,??,,9/F89.2-3
-play,3,1,robif103,??,,HR/89D.3-H;1-H
+play,3,1,blasd101,??,,S8/G
+play,3,1,kaske101,??,,S7/F.1-2
+play,3,1,pinsv101,??,,9/F89
+play,3,1,robif103,??,,HR/89D.2-H;1-H
 play,3,1,coleg101,??,,NP
 sub,daleb102,"Bud Daley",0,9,1
 play,3,1,coleg101,??,,S3/BG3
@@ -751,7 +753,7 @@ play,9,1,blasd101,??,,NP
 sub,chace101,"Elio Chacon",1,1,11
 play,9,1,chace101,??,,63
 play,9,1,kaske101,??,,9
-play,9,1,pinsv101,??,,7
+play,9,1,pinsv101,??,,7/F56D
 data,er,terrr101,3
 data,er,daleb102,0
 data,er,jay-j101,4
