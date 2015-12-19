@@ -23804,8 +23804,8 @@ start,adams101,"Sparky Adams",1,1,5
 start,sladg101,"Gordon Slade",1,2,4
 start,koenm101,"Mark Koenig",1,3,6
 start,bottj101,"Jim Bottomley",1,4,3
-start,schuw101,"Wes Schulmerich",1,5,9
-start,comoa101,"Adam Comorosky",1,6,8
+start,comoa101,"Adam Comorosky",1,5,8
+start,schuw101,"Wes Schulmerich",1,6,9
 start,blakl101,"Linc Blakely",1,7,7
 start,lombe101,"Ernie Lombardi",1,8,2
 start,brend101,"Don Brennan",1,9,1
@@ -23825,10 +23825,10 @@ stat,bline,adams101,1,1,1,6,0,2,0,0,0,1,0,0,0,0,-1,1,0,0,0,0
 stat,bline,sladg101,1,2,1,6,1,1,1,0,0,0,0,0,0,0,-1,1,0,0,0,0
 stat,bline,koenm101,1,3,1,6,2,2,0,0,0,1,0,0,0,0,-1,0,0,0,0,0
 stat,bline,bottj101,1,4,1,5,0,2,1,0,0,1,0,0,0,0,-1,0,0,0,0,0
-stat,bline,schuw101,1,5,1,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,bline,vancd101,1,5,2,1,1,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,bline,kolpr101,1,5,3,2,2,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,bline,comoa101,1,6,1,4,2,2,0,0,0,0,0,0,1,0,-1,0,0,0,0,0
+stat,bline,comoa101,1,5,1,4,2,2,0,0,0,0,0,0,1,0,-1,0,0,0,0,0
+stat,bline,schuw101,1,6,1,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,vancd101,1,6,2,1,1,1,1,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,kolpr101,1,6,3,2,2,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,blakl101,1,7,1,4,2,2,0,0,0,2,0,0,0,1,-1,0,0,0,0,0
 stat,bline,lombe101,1,8,1,5,0,3,3,0,0,3,0,0,0,0,-1,0,0,0,0,0
 stat,bline,brend101,1,9,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
@@ -23854,11 +23854,11 @@ stat,dline,adams101,1,1,5,27,2,3,0,0,0,0
 stat,dline,sladg101,1,1,4,27,2,3,0,1,0,0
 stat,dline,koenm101,1,1,6,27,4,0,1,1,0,0
 stat,dline,bottj101,1,1,3,27,8,1,0,0,0,0
+stat,dline,comoa101,1,2,9,-1,0,0,1,0,0,0
+stat,dline,comoa101,1,1,8,-1,0,0,0,0,0,0
 stat,dline,schuw101,1,1,9,9,3,0,0,0,0,0
 stat,dline,vancd101,1,1,1,10,1,1,0,0,0,0
 stat,dline,kolpr101,1,1,1,8,0,0,0,0,0,0
-stat,dline,comoa101,1,1,8,-1,0,0,1,0,0,0
-stat,dline,comoa101,1,2,9,-1,0,0,0,0,0,0
 stat,dline,blakl101,1,1,7,9,1,0,0,0,0,0
 stat,dline,blakl101,1,2,8,18,0,0,0,0,0,0
 stat,dline,lombe101,1,1,2,27,6,2,0,0,0,0
@@ -24811,8 +24811,8 @@ stat,dline,davik101,0,1,8,30,6,0,0,0,0,0
 stat,dline,allee101,0,1,9,30,2,0,0,0,0,0
 stat,dline,camid102,0,1,3,30,9,0,0,1,0,0
 stat,dline,todda101,0,1,2,30,3,1,0,0,0,0
-stat,dline,haslm101,0,1,4,21,3,1,0,1,0,0
-stat,dline,haslm101,0,2,5,9,0,1,0,0,0,0
+stat,dline,haslm101,0,1,4,21,3,1,0,0,0,0
+stat,dline,haslm101,0,2,5,9,0,1,0,1,0,0
 stat,dline,waltb102,0,1,5,21,3,2,0,0,0,0
 stat,dline,jeffi101,0,1,4,9,0,0,0,0,0,0
 stat,dline,chiol101,0,1,7,30,3,0,0,0,0,0
@@ -35497,7 +35497,7 @@ stat,pline,johns103,0,2,3,-1,7,3,-1,-1,0,3,0,0,-1,0,0,0,0,0,0
 stat,pline,davic103,1,1,27,-1,34,7,0,0,0,0,0,0,-1,4,0,0,0,0,0
 event,dpline,0,schuw101,sladg101
 line,0,0,0,0,0,0,0,0,0,0
-line,1,2,0,1,0,1,0,0,3
+line,1,2,1,0,0,1,0,0,3
 event,hrline,1,davic103,freit101,3,0,-1
 stat,tline,0,7,0,1,0
 stat,tline,1,7,0,0,0
@@ -60812,8 +60812,8 @@ stat,dline,grace101,1,1,2,27,6,0,0,0,0,0
 stat,dline,swifb101,1,1,1,27,0,1,0,0,0,0
 stat,pline,johns103,0,1,1,-1,7,5,-1,-1,0,5,5,1,-1,0,0,0,0,0,0
 stat,pline,kleit101,0,2,5,-1,9,4,-1,-1,0,3,2,0,-1,0,0,0,0,0,0
-stat,pline,grisl101,0,3,9,-1,20,7,-1,-1,0,7,7,4,-1,0,0,0,0,0,0
-stat,pline,edwas101,0,4,9,-1,13,4,-1,-1,0,1,1,1,-1,1,0,0,0,0,0
+stat,pline,grisl101,0,3,9,-1,19,7,-1,-1,0,7,7,4,-1,0,0,0,0,0,0
+stat,pline,edwas101,0,4,9,-1,14,4,-1,-1,0,1,1,1,-1,1,0,0,0,0,0
 stat,pline,swifb101,1,1,27,-1,39,12,3,0,0,3,3,0,-1,5,1,0,0,0,0
 event,dpline,1,vauga101,thevt101,suhrg101
 event,dpline,0,petot101,mccof101
