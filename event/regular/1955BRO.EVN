@@ -892,7 +892,7 @@ play,10,0,darka101,00,,NP
 sub,roebe101,"Ed Roebuck",1,9,1
 play,10,0,darka101,12,.LCBX,S9/L.3-H;2-3
 play,10,0,mueld101,02,FSX,S9/L.3-H;1-3
-play,10,0,thomh103,00,X,9(B)3(1)/SF/DP.3-H
+play,10,0,thomh103,00,X,9(B)6(1)/SF/DP.3-H
 play,10,1,furic101,01,CX,S6
 play,10,1,hoakd101,22,CFBFBFX,S1.1-2
 play,10,1,roebe101,00,,NP
@@ -2776,8 +2776,8 @@ start,hoakd101,"Don Hoak",1,8,5
 start,labic101,"Clem Labine",1,9,1
 play,1,0,clemr101,02,SSC,K
 play,1,0,coled101,00,X,63
-play,1,0,lyncj102,12,CBSX,S9/F
-play,1,0,thomf103,32,.FFBBFFBX,53
+play,1,0,lyncj102,12,CBSX,D9/F
+play,1,0,thomf103,32,FFBBFFBX,53
 play,1,1,gillj102,01,FX,S1
 play,1,1,reesp101,01,FX,3
 play,1,1,snidd101,21,BBFX,46(1)/FO
@@ -5023,7 +5023,7 @@ play,1,0,darka101,11,CBX,8
 play,1,0,lockw101,11,BFX,3/G
 play,1,0,maysw101,22,BCFBX,8
 play,1,1,gillj102,32,CBBBCB,W
-play,1,1,reesp101,32,BBFCB>X,1(B)3(1)/LDP
+play,1,1,reesp101,32,BBFCB>X,7(B)3(1)/LDP
 play,1,1,snidd101,32,BBBCFX,E4/G
 play,1,1,robij103,01,CX,53
 play,2,0,mueld101,02,CSX,13
@@ -5882,10 +5882,10 @@ play,8,0,thomf103,00,,NP
 sub,labic101,"Clem Labine",1,9,1
 play,8,0,thomf103,12,.CBFS,K
 play,8,0,longd101,32,BFBFBB,W
-play,8,0,atwet101,00,,NP
-sub,obrie101,"Eddie O'Brien",0,6,11
-play,8,0,obrie101,21,.BBSB,WP.1-2
-play,8,0,obrie101,32,.BBSB.CB,W
+play,8,0,atwet101,21,BBSB,WP.1-2
+play,8,0,atwet101,32,.BBSB.CB,W
+play,8,0,groad101,00,,NP
+sub,obrie101,"Eddie O'Brien",0,6,12
 play,8,0,groad101,10,BX,46(1)3/GDP
 play,8,1,reesp101,00,,NP
 sub,peteh101,"Hardy Peterson",0,6,2
@@ -6015,7 +6015,7 @@ play,7,0,burbn101,10,BX,D7/G
 play,7,0,jackl102,10,B,NP
 sub,hughj103,"Jim Hughes",1,9,1
 play,7,0,jackl102,20,B.BX,54/SH.2-3
-play,7,0,boyek101,00,S,CSH(2525)
+play,7,0,boyek101,00,S,PO3(2525)
 play,7,0,boyek101,21,S.BBX,S9/L
 play,7,0,moonw101,00,X,HR/F7.1-H
 play,7,0,musis101,32,BFBFBB,W
@@ -6605,7 +6605,7 @@ play,6,1,bessd101,02,FCS,K
 play,6,1,hoakd101,12,SBCX,43
 play,7,0,battm101,01,CX,63
 play,7,0,jablr101,30,BBBB,W
-play,7,0,mcmir101,11,CBX,64(1)3/GDP
+play,7,0,mcmir101,11,CBX,54(1)3/GDP
 play,7,1,reesp101,31,BBBCB,W
 play,7,1,gillj102,21,BBCX,S14.1-2
 play,7,1,hodgg101,11,.MBX,S1/BG.2-3;1-2
@@ -7355,7 +7355,7 @@ play,8,0,pafka101,00,X,8
 play,8,0,tannc101,31,BCBBX,63
 play,8,1,campr102,20,.BBX,S7/G
 play,8,1,hodgg101,11,.CBX,34/SH.1-2
-play,8,1,gillj102,30,IIII,I
+play,8,1,gillj102,30,IIII,IW
 play,8,1,furic101,12,FFBX,HR/F78.2-H;1-H
 play,8,1,zimmd101,00,X,S7/G
 play,8,1,roebe101,00,,NP
@@ -8080,7 +8080,7 @@ play,4,0,kattr101,21,BCBX,53
 play,4,0,gielp101,00,X,53
 play,4,1,reesp101,30,BBBB,W
 play,4,1,snidd101,32,CBBBSB,W.1-2
-play,4,1,campr102,11,BCX,1(B)4(2)/BPDP
+play,4,1,campr102,11,BCX,1(B)6(2)/BP/DP
 play,4,1,hodgg101,00,X,64(1)/FO
 play,5,0,terww101,11,BCX,S9/L
 play,5,0,lockw101,31,BBCBB,W.1-2
@@ -8110,13 +8110,6 @@ play,6,1,hodgg101,32,BFCBBB,W.1-2
 play,6,1,furic101,12,BSFX,43
 play,7,0,lockw101,02,SCX,43
 play,7,0,maysw101,11,FBX,3
-com,"Both Roth and the box score he had on his scoresheet"
-com,"indicate that the Lockman and Mays appearances in the 7th"
-com,"didn't count and that the game reverted to six full innings"
-com,"However, if I do that, then Spooner's totals and the team"
-com,"totals for the year are off by exactly 0.2 IP and 2 BFP"
-com,"Therefore, I reinserted them.  Should be checked against"
-com,"official daily totals some day"
 com,"game called for rain"
 data,er,monzr101,5
 data,er,gielp101,0

@@ -225,7 +225,7 @@ play,1,0,pierj102,??,,36(1)/FO
 play,1,0,everh101,??,,K+CS2(24)/DP
 play,1,1,demaj101,??,,W
 play,1,1,phild102,??,,6/P
-play,1,1,michc101,??,,K+CS2(2E4)/TH.1-2
+play,1,1,michc101,??,,K.1X2(2E4)
 com,"$Billy Goodman hit Joe DeMaestri with throw in the rundown"
 play,1,1,robie101,??,,43
 play,2,0,gernd101,??,,4/F
@@ -234,7 +234,8 @@ play,2,0,whits103,??,,S8
 play,2,0,umpht101,??,,64(1)/FO
 play,2,1,clara102,??,,3/FL
 play,2,1,zerng101,??,,W
-play,2,1,sudep101,??,,S5/G.1-2
+play,2,1,sudep101,??,,WP.1-2
+play,2,1,sudep101,??,,S5/G.2-2
 play,2,1,astrj101,??,,K
 play,2,1,bishc101,31,,S8.2-H;1-3
 play,2,1,demaj101,??,,S7.3-H;1-2
@@ -676,9 +677,9 @@ play,6,0,vernm101,??,,31
 play,6,1,astrj101,??,,W
 play,6,1,shanb102,??,,S6.1-2
 play,6,1,joose101,??,,14/SH.2-3;1-2
+play,6,1,phild102,??,,WP.3-H;2-3
 play,6,1,phild102,??,,NP
 sub,simaa101,"Al Sima",0,9,1
-play,6,1,phild102,??,,WP.3-H;2-3
 play,6,1,phild102,??,,W
 play,6,1,babel101,??,,W.1-2
 play,6,1,robie101,??,,S8.3-H;2-H;1-2
@@ -1665,7 +1666,7 @@ play,6,1,babel101,??,,S8.2-H
 play,6,1,robie101,??,,8
 play,6,1,phild102,??,,W.1-2
 play,6,1,thomk101,??,,S8.2-H;1-2
-play,6,1,sudep101,??,,S4.2-H(E4);1-2#
+play,6,1,sudep101,??,,S3.2-H(E3);1-2#
 play,6,1,mcghe101,??,,S7.2-H;1-3
 play,6,1,astrj101,??,,54(1)/FO.3-H(UR)
 play,6,1,schec101,??,,46(1)/FO
@@ -2125,7 +2126,7 @@ play,10,0,glynb101,??,,16(1)/FO
 play,10,0,tiptj101,??,,W.1-2
 play,10,0,garcm101,??,,NP
 sub,hegaj101,"Jim Hegan",0,8,12
-play,10,0,garcm101,??,,E4.2-3;1-2
+play,10,0,garcm101,??,,E6.2-3;1-2
 play,10,0,boonr101,??,,S8.3-H;2-H;1-2
 play,10,0,avilb101,??,,D8.2-H(UR);1-H;B-3(E5)
 play,10,0,dobyl101,??,,W
@@ -2193,10 +2194,10 @@ start,fornm101,"Mike Fornieles",0,9,1
 start,demaj101,"Joe DeMaestri",1,1,6
 start,babel101,"Loren Babe",1,2,5
 start,robie101,"Eddie Robinson",1,3,3
-start,phild102,"Dave Philley",1,4,8
+start,phild102,"Dave Philley",1,4,9
 start,zerng101,"Gus Zernial",1,5,7
 start,sudep101,"Pete Suder",1,6,4
-start,mcghe101,"Ed McGhee",1,7,9
+start,mcghe101,"Ed McGhee",1,7,8
 start,murrr102,"Ray Murray",1,8,2
 start,byrdh101,"Harry Byrd",1,9,1
 play,1,0,fox-n101,??,,53/BG
@@ -4402,8 +4403,7 @@ start,babel101,"Loren Babe",1,6,5
 start,mcghe101,"Ed McGhee",1,7,8
 start,astrj101,"Joe Astroth",1,8,2
 start,kella103,"Alex Kellner",1,9,1
-play,1,0,grotj102,??,,53#
-com,"to match daily/NYT/TSN, arbitrary 63 to 53"
+play,1,0,grotj102,??,,53
 play,1,0,kokod101,??,,K/C
 play,1,0,sievr101,??,,W
 play,1,0,lenhd101,??,,8
@@ -4702,9 +4702,8 @@ play,2,1,mcghe101,??,,4
 play,2,1,astrj101,??,,53
 play,2,1,byrdh101,??,,7/L
 play,3,0,grotj102,??,,8
-play,3,0,kokod101,??,,T9
-play,3,0,sievr101,??,,4#
-com,"to match daily/NYT, arbitrary 9 to 4"
+play,3,0,kokod101,??,,S9
+play,3,0,sievr101,??,,4
 play,3,0,lenhd101,??,,63
 play,3,1,demaj101,??,,D8
 play,3,1,phild102,??,,9/L
@@ -4908,7 +4907,7 @@ info,hometeam,PHA
 info,date,1953/06/30
 info,site,PHI11
 info,number,0
-info,starttime,0:00
+info,starttime,0:00PM
 info,daynight,night
 info,usedh,false
 info,umphome,hurle901
@@ -5032,7 +5031,7 @@ info,hometeam,PHA
 info,date,1953/07/01
 info,site,PHI11
 info,number,0
-info,starttime,0:00
+info,starttime,0:00PM
 info,daynight,night
 info,usedh,false
 info,umphome,soarh901
@@ -5074,6 +5073,8 @@ start,maurc101,"Carmen Mauro",1,6,8
 start,babel101,"Loren Babe",1,7,5
 start,astrj101,"Joe Astroth",1,8,2
 start,bishc101,"Charlie Bishop",1,9,1
+play,1,0,busbj101,??,,FLE5#
+com,"DWS: bogus FLE5 but Babe needs one this game"
 play,1,0,busbj101,??,,S9
 play,1,0,terww101,??,,9
 play,1,0,vernm101,??,,8
@@ -5913,7 +5914,7 @@ play,8,0,courc101,??,,31
 play,8,0,berrn101,??,,K
 play,8,0,huntb105,??,,13
 play,8,1,zerng101,??,,W
-play,8,1,michc101,??,,FC.1-2
+play,8,1,michc101,??,,FC.1-2;B-1
 play,8,1,mcghe101,??,,S9.2-H;1-2
 play,8,1,murrr102,??,,NP
 sub,paigs101,"Satchel Paige",0,9,1
@@ -6607,8 +6608,7 @@ play,7,0,smita102,??,,HR/7
 play,7,0,glynb101,??,,6/P
 play,7,0,dobyl101,??,,HP
 play,7,0,rosea101,??,,S5.1-2
-play,7,0,westw102,??,,SB3;SB2
-play,7,0,westw102,??,,E6/TH.3-H(NR);2-H;B-3
+play,7,0,westw102,??,,E6/TH.2-H(NR);1-H(NR);B-3
 play,7,0,hegaj101,??,,T7.3-H(UR)
 play,7,0,strig102,??,,2/FL
 play,7,0,frieo101,??,,9
@@ -6617,7 +6617,7 @@ play,7,1,mcghe101,??,,8
 play,7,1,babel101,??,,8
 play,8,0,wynne101,??,,S8
 play,8,0,smita102,??,,K
-play,8,0,glynb101,??,,CS2(263)
+play,8,0,glynb101,??,,PO1(263)
 play,8,0,glynb101,??,,K
 play,8,1,astrj101,??,,43
 play,8,1,kella103,??,,NP
@@ -7383,8 +7383,8 @@ play,8,0,dropw101,??,,63
 play,8,1,michc101,??,,NP
 sub,buchj104,"Johnny Bucha",0,8,2
 play,8,1,michc101,??,,43
-play,8,1,robie101,??,,43
-play,8,1,mcghe101,??,,K/C
+play,8,1,robie101,??,,K/C
+play,8,1,mcghe101,??,,43
 play,9,0,soucb101,??,,S7
 play,9,0,niemb101,??,,NP
 sub,hatff101,"Fred Hatfield",0,7,11
@@ -9641,6 +9641,7 @@ play,2,0,runnp101,??,,SB2
 play,2,0,runnp101,??,,163
 play,2,1,zerng101,??,,HR/7
 play,2,1,maurc101,??,,W
+play,2,1,babel101,??,,SB2
 play,2,1,babel101,??,,9/L
 play,2,1,michc101,??,,K
 play,2,1,murrr102,??,,8
@@ -10951,13 +10952,11 @@ start,giort101,"Tommy Giordano",1,6,4
 start,demaj101,"Joe DeMaestri",1,7,6
 start,murrr102,"Ray Murray",1,8,2
 start,colej101,"Joe Coleman",1,9,1
-play,1,0,yoste101,??,,8#
-com,"to match daily/NYT/TSN, arbitrary 7 to 8"
+play,1,0,yoste101,??,,8
 play,1,0,runnp101,??,,S8
 play,1,0,vernm101,??,,W.1-2
 play,1,0,jensj101,??,,S7.2-H;1-2
-play,1,0,coang101,??,,8#
-com,"to match daily/NYT/TSN, arbitrary 7 to 8"
+play,1,0,coang101,??,,8
 play,1,0,busbj101,??,,5(2)/FO
 play,1,1,babel101,??,,S9
 play,1,1,phild102,??,,E4.1-2
@@ -11101,7 +11100,7 @@ play,1,1,phild102,??,,6/P
 play,1,1,robie101,??,,13
 play,2,0,busbj101,??,,S7
 play,2,0,snydj105,??,,S8.1-2
-play,2,0,fitze101,??,,36(1)3/GDP.2-3
+play,2,0,fitze101,??,,36(1)1/GDP.2-3
 play,2,0,schmj101,??,,K
 play,2,1,zerng101,??,,HR/7
 play,2,1,sudep101,??,,S9

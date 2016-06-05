@@ -316,8 +316,8 @@ play,5,1,jackr102,??,,S9.3-H;2-H;1-2
 play,5,1,banke101,??,,NP
 sub,dealc101,"Cot Deal",0,9,1
 play,5,1,banke101,??,,E6.2-3;1-2
-play,5,1,bakeg101,??,,S3.3-H(UR);2-3;1-2
-play,5,1,edwab101,??,,W.3-H;2-3;1-2
+play,5,1,bakeg101,??,,S3.3-H;2-3;1-2
+play,5,1,edwab101,??,,W.3-H(UR);2-3;1-2
 play,5,1,brosj101,??,,43
 play,6,0,alstt101,??,,NP
 sub,mccuc101,"Clyde McCullough",1,8,2
@@ -351,7 +351,7 @@ sub,sarnb101,"Bill Sarni",0,7,2
 play,7,1,jackr102,??,,D7
 play,7,1,banke101,??,,7/7D
 play,7,1,bakeg101,??,,E5.2XH(32)
-play,7,1,mccuc101,??,,D7.1-H
+play,7,1,mccuc101,??,,D7.1-H(UR)
 play,7,1,brosj101,??,,8
 play,8,0,alstt101,??,,HR/8
 play,8,0,sarnb101,??,,W
@@ -370,7 +370,7 @@ data,er,whith101,2
 data,er,lintr101,2
 data,er,wrigm101,5
 data,er,braza101,4
-data,er,dealc101,1
+data,er,dealc101,0
 data,er,klipj101,4
 data,er,jeffh101,6
 data,er,brosj101,3
@@ -1273,7 +1273,7 @@ play,2,0,adcoj101,??,,T/78.1-H
 play,2,0,logaj101,??,,HR.3-H
 play,2,0,aaroh101,??,,S/9
 play,2,0,crand102,??,,7/L
-play,2,0,conlg101,??,,64(1)3(B)/GDP
+play,2,0,conlg101,??,,64(1)3/GDP
 play,2,1,kiner101,??,,63
 play,2,1,jackr102,??,,63
 play,2,1,banke101,??,,7/F
@@ -2311,8 +2311,7 @@ start,bakeg101,"Gene Baker",1,7,4
 start,garaj101,"Joe Garagiola",1,8,2
 start,jeffh101,"Hal Jeffcoat",1,9,1
 play,1,0,adamb103,??,,E4
-play,1,0,mcmir101,??,,53/SH.1-2#
-com,"from box score"
+play,1,0,mcmir101,??,,53/SH.1-2
 play,1,0,bellg103,??,,9
 play,1,0,klust101,??,,W
 play,1,0,greej102,??,,8
@@ -2321,25 +2320,21 @@ play,1,1,fondd101,??,,8
 play,1,1,kiner101,??,,13
 play,1,1,saueh101,??,,S
 play,1,1,jackr102,??,,W.1-2
-play,1,1,banke101,??,,64(1)/FO#
-com,"from box score"
+play,1,1,banke101,??,,64(1)/FO
 play,2,0,tempj101,??,,K/C
 play,2,0,postw101,??,,K/C
 play,2,0,semia101,??,,W
 play,2,0,wehmh101,??,,K
 play,2,1,bakeg101,??,,S
-play,2,1,garaj101,??,,CS2(24)#
-com,"from box score"
+play,2,1,garaj101,??,,CS2(24)
 play,2,1,garaj101,??,,7
 play,2,1,jeffh101,??,,63
 play,3,0,adamb103,??,,W
-play,3,0,mcmir101,??,,54(1)/FO#
-com,"from box score"
+play,3,0,mcmir101,??,,54(1)/FO
 play,3,0,bellg103,??,,D.1-H
 play,3,0,klust101,??,,31.2-3
 play,3,0,greej102,??,,W
-play,3,0,tempj101,??,,46(1)/FO#
-com,"from box score"
+play,3,0,tempj101,??,,46(1)/FO
 play,3,1,baumf101,??,,E9/F.B-3
 play,3,1,fondd101,??,,K
 play,3,1,kiner101,??,,K
@@ -2362,10 +2357,8 @@ play,5,1,jeffh101,??,,K/C
 play,5,1,baumf101,??,,9
 play,5,1,fondd101,??,,31
 play,6,0,tempj101,??,,W
-play,6,0,postw101,??,,54(1)/FO#
-com,"from box score"
-play,6,0,semia101,??,,54(1)/FO#
-com,"from box score"
+play,6,0,postw101,??,,54(1)/FO
+play,6,0,semia101,??,,54(1)/FO
 play,6,0,wehmh101,??,,13
 play,6,1,kiner101,??,,W
 play,6,1,saueh101,??,,W.1-2
@@ -2382,8 +2375,7 @@ play,6,1,fondd101,??,,HP.2-3;1-2
 play,6,1,kiner101,??,,NP
 sub,judsh101,"Howie Judson",0,9,1
 play,6,1,kiner101,??,,8
-play,6,1,saueh101,??,,5(2)/FO#
-com,"from box score"
+play,6,1,saueh101,??,,5(2)/FO
 play,7,0,adamb103,??,,8
 play,7,0,mcmir101,??,,W
 play,7,0,bellg103,??,,W.1-2
@@ -2391,13 +2383,11 @@ play,7,0,klust101,??,,S.1-2;2-H
 play,7,0,greej102,??,,23.1-2;2-3
 play,7,0,tempj101,??,,8
 play,7,1,jackr102,??,,63
-play,7,1,banke101,??,,8#
-com,"to match daily/TSN, arbitrary 9 to 8"
+play,7,1,banke101,??,,8
 play,7,1,bakeg101,??,,W
 play,7,1,garaj101,??,,HP.1-2
 play,7,1,jeffh101,??,,K
-play,8,0,postw101,??,,9#
-com,"to match TSN, arbitrary 8 to 9"
+play,8,0,postw101,??,,9
 play,8,0,semia101,??,,D
 play,8,0,judsh101,??,,NP
 sub,escan101,"Nino Escalera",0,9,11
@@ -2421,8 +2411,7 @@ sub,merrl102,"Lloyd Merriman",0,2,11
 play,9,0,merrl102,??,,W
 play,9,0,bellg103,??,,NP
 sub,davij103,"Jim Davis",1,9,1
-play,9,0,bellg103,??,,46(1)/FO#
-com,"from box score"
+play,9,0,bellg103,??,,46(1)/FO
 play,9,0,klust101,00,X,HR/9.1-H
 play,9,0,greej102,??,,NP
 sub,hackw102,"Warren Hacker",1,9,1
@@ -2553,11 +2542,9 @@ play,7,0,mcmir101,??,,S
 play,7,0,bellg103,??,,NP
 sub,escan101,"Nino Escalera",0,2,12
 play,7,0,bellg103,??,,D.1-3
-play,7,0,klust101,??,,FLE3
 play,7,0,klust101,??,,W
 play,7,0,greej102,??,,K
-play,7,0,tempj101,??,,5(2)/FO#
-com,"to match boxscore"
+play,7,0,tempj101,??,,5(2)/FO
 play,7,1,garaj101,??,,NP
 sub,bridr101,"Rocky Bridges",0,2,6
 play,7,1,garaj101,??,,W
@@ -3875,7 +3862,7 @@ play,4,1,banke101,??,,5/FL
 play,5,0,gardb101,??,,7
 play,5,0,westw101,??,,W
 play,5,0,hearj102,??,,K
-play,5,0,lockw101,??,,S8.1-3;B-2(E8)
+play,5,0,lockw101,??,,S8.1-3;B-2(E4)
 play,5,0,darka101,??,,13
 play,5,1,fondd101,??,,63
 play,5,1,tappe101,??,,43
@@ -4537,8 +4524,8 @@ play,5,0,cunnj101,??,,K
 play,5,1,bakeg101,??,,S
 play,5,1,fondd101,??,,13.1-2
 play,5,1,kiner101,??,,FC3.2X3(34)#
-play,5,1,jackr102,??,,S.1-3#
-play,5,1,saueh101,??,,IW.1-2
+play,5,1,jackr102,??,,D.1-3
+play,5,1,saueh101,??,,IW
 play,5,1,banke101,??,,6/P
 play,6,0,grama101,??,,9/F
 play,6,0,sarnb101,??,,K
@@ -4806,6 +4793,7 @@ play,2,0,moonw101,??,,7
 play,2,1,jackr102,??,,3
 play,2,1,saueh101,??,,S/8
 play,2,1,banke101,??,,64(1)/FO
+play,2,1,coopw102,??,,PB.1-2
 play,2,1,coopw102,??,,43
 play,3,0,hemus101,??,,43
 play,3,0,schor101,??,,W
@@ -4822,32 +4810,33 @@ play,4,0,lintr101,??,,W
 play,4,0,moonw101,??,,341
 play,4,1,kiner101,??,,S/9
 play,4,1,jackr102,??,,8
-play,4,1,saueh101,??,,64(1)3(B)/GDP
+play,4,1,saueh101,??,,64(1)3/GDP
 play,5,0,hemus101,??,,S/1
 play,5,0,schor101,??,,S/4.1-2
 play,5,0,musis101,??,,D/9.2-H;1-3
 play,5,0,jablr101,??,,NP
 sub,brosj101,"Jim Brosnan",1,9,1
-play,5,0,jablr101,??,,8/SF.3-H;2-H(E8/TH)
+play,5,0,jablr101,??,,8/SF.3-H;2-3
+play,5,0,cunnj101,??,,WP.3-H
 play,5,0,cunnj101,??,,W
 play,5,0,repur101,??,,S/8.1-2
 play,5,0,yvars101,??,,3/P
 play,5,0,lintr101,??,,D/8.2-H;1-H
 play,5,0,moonw101,??,,8
 play,5,1,banke101,??,,S/7
-play,5,1,coopw102,??,,64(1)3(B)/GDP
+play,5,1,coopw102,??,,64(1)3/GDP
 play,5,1,brosj101,??,,63
 play,6,0,hemus101,??,,S/9
 play,6,0,schor101,??,,7
 play,6,0,musis101,??,,64(1)/FO
 play,6,0,jablr101,??,,CS2(26)
 play,6,1,talbb101,??,,S/8
-play,6,1,bakeg101,??,,46(1)3(B)/GDP
+play,6,1,bakeg101,??,,46(1)3/GDP
 play,6,1,fondd101,??,,S/8
 play,6,1,kiner101,??,,9
 play,7,0,jablr101,??,,13
 play,7,0,cunnj101,??,,S/8
-play,7,0,repur101,??,,64(1)3(B)/GDP
+play,7,0,repur101,??,,64(1)3/GDP
 play,7,1,jackr102,??,,NP
 sub,grama101,"Alex Grammas",0,2,6
 play,7,1,jackr102,??,,63
@@ -4867,19 +4856,15 @@ play,8,0,schor101,??,,7
 play,8,1,talbb101,??,,53
 play,8,1,bakeg101,??,,D/8
 play,8,1,fondd101,??,,13
-play,8,1,kiner101,??,,K23#
-com,"to match daily/TSN, arbitrary K to K23"
-play,9,0,musis101,??,,43#
-play,9,0,jablr101,??,,8#
+play,8,1,kiner101,??,,K23
+play,9,0,musis101,??,,43
+play,9,0,jablr101,??,,8
 play,9,0,cunnj101,??,,S
-play,9,0,repur101,??,,3#
-play,9,1,jackr102,??,,63#
-com,"to match box score"
-play,9,1,saueh101,??,,43#
-com,"to match box score"
+play,9,0,repur101,??,,3
+play,9,1,jackr102,??,,63
+play,9,1,saueh101,??,,43
 play,9,1,banke101,??,,W
-play,9,1,coopw102,??,,54(1)/FO#
-com,"to match box score"
+play,9,1,coopw102,??,,54(1)/FO
 data,er,lintr101,0
 data,er,klipj101,5
 data,er,brosj101,2
@@ -5393,7 +5378,7 @@ play,2,0,coled101,??,,K
 play,2,1,saueh101,??,,HR/7
 play,2,1,banke101,??,,HR/7
 play,2,1,coopw102,??,,S
-play,2,1,hackw102,??,,99(1)/FO
+play,2,1,hackw102,??,,64(1)/FO.B-2(E4/TH)
 play,2,1,talbb101,??,,99/F
 play,2,1,bakeg101,??,,99/G
 play,3,0,halld101,??,,K
@@ -5406,7 +5391,7 @@ play,3,1,fondd101,??,,NP
 sub,frieb102,"Bob Friend",0,9,1
 play,3,1,fondd101,??,,S
 play,3,1,jackr102,??,,99/F
-play,3,1,kiner101,??,,E4.1-2
+play,3,1,kiner101,??,,E5.1-2
 play,3,1,saueh101,??,,SB3;SB2
 play,3,1,saueh101,??,,K
 play,3,1,banke101,??,,99/G
@@ -5619,8 +5604,7 @@ play,8,0,reesp101,11,BCX,53/BG
 play,8,0,snidd101,00,X,HR/9
 play,8,0,hodgg101,31,BBFBB,W
 play,8,0,cox-b101,00,X,9
-play,8,0,moryw101,00,B,WP.1-2
-play,8,0,moryw101,10,BX,D7/L.2-H
+play,8,0,moryw101,10,BX,D7/L.1-H
 play,8,0,furic101,01,FX,HR/L7.2-H
 play,8,0,campr102,32,BFBFBX,53
 play,8,1,saueh101,12,CFBS,K
@@ -6543,7 +6527,7 @@ info,ump1b,conlj102
 info,ump2b,gormt101
 info,ump3b,gorea901
 info,scorer,"unknown"
-info,inputter,"unknown"
+info,inputter,"Cramer"
 info,inputtime,2006/8/11 7:07PM
 info,howscored,unknown
 info,pitches,none
@@ -6607,16 +6591,14 @@ play,4,0,hamng102,??,,6/F
 play,4,0,ennid101,??,,S.1-2
 play,4,0,sched102,??,,64(1)3(B)/GDP
 play,4,1,saueh101,??,,53
-play,4,1,banke101,??,,K23#
-com,"to match daily/TSN, arbitrary K to K23"
+play,4,1,banke101,??,,K23
 play,4,1,coopw102,??,,2/FL
 play,5,0,morgb102,??,,K
 play,5,0,jonew101,??,,63
 play,5,0,simmc101,??,,W
 play,5,0,ashbr101,??,,6(1)/FO
 play,5,1,coled103,??,,63
-play,5,1,baumf101,??,,K23#
-com,"to match daily/TSN, arbitrary K to K23"
+play,5,1,baumf101,??,,K23
 play,5,1,bakeg101,??,,63
 play,6,0,torge101,??,,43
 play,6,0,burgs101,??,,31
@@ -8429,13 +8411,11 @@ play,5,0,jonew101,??,,K
 play,5,0,dickm101,??,,7
 play,5,0,ashbr101,??,,7
 play,5,1,kiner101,??,,K
-play,5,1,fondd101,??,,5#
-com,"to match daily/TSN, arbitrary 43 to 5"
+play,5,1,fondd101,??,,5
 play,5,1,garaj101,??,,K
 play,6,0,torge101,??,,2
 play,6,0,burgs101,??,,7
-play,6,0,hamng102,??,,63#
-com,"to match daily/TSN, arbitrary 43 to 63"
+play,6,0,hamng102,??,,63
 play,6,1,klipj101,??,,63
 play,6,1,talbb101,??,,K
 play,6,1,bakeg101,??,,43
@@ -8446,7 +8426,7 @@ play,7,0,jonew101,??,,S7.1-2
 play,7,0,dickm101,??,,K
 play,7,1,jackr102,??,,W
 play,7,1,saueh101,??,,34/SH.1-2
-play,7,1,banke101,??,,PB.2-3#
+play,7,1,banke101,??,,PB.2-3
 play,7,1,banke101,??,,K/C
 play,7,1,kiner101,??,,IW
 play,7,1,fondd101,??,,S9.3-H;1-2
