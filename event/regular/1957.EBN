@@ -99,9 +99,6 @@ stat,dline,wince101,0,1,6,30,1,3,0,0,0,0
 stat,dline,neemc101,0,1,2,30,6,0,0,0,0,0
 stat,dline,rushb101,0,1,1,18,0,0,1,0,0,0
 stat,dline,drotd101,0,1,1,12,0,0,0,0,0,0
-event,dpline,0,wisec101,longd101
-event,dpline,1,schor101,castf101,harrg101
-event,dpline,1,kattr101,spend101
 stat,dline,schor101,1,1,4,30,2,3,0,1,0,0
 stat,dline,rhodd101,1,1,9,27,2,0,0,0,0,0
 stat,dline,mueld101,1,1,9,3,0,0,0,0,0,0
@@ -129,6 +126,9 @@ stat,pline,ridzs101,1,2,6,0,7,0,0,0,0,0,0,2,0,3,0,0,0,0,0
 stat,pline,joneg101,1,3,1,0,4,2,0,0,0,3,3,1,0,1,0,0,0,0,0
 stat,pline,mccaw102,1,4,1,0,4,2,0,0,0,2,2,1,0,1,0,0,0,0,0
 stat,pline,worta101,1,5,1,0,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0
+event,dpline,0,wisec101,longd101
+event,dpline,1,schor101,castf101,harrg101
+event,dpline,1,kattr101,spend101
 line,0,0,0,0,1,0,2,0,0,0,5
 line,1,0,0,0,1,0,0,0,0,2,0
 stat,tline,0,6,1,1,0
@@ -1686,123 +1686,6 @@ event,hrline,1,lockw101,hilld102,1,0,0
 event,hrline,1,lockw101,lownt101,9,1,2
 event,hrline,1,maysw101,brosj101,12,1,0
 event,hrline,1,thomb105,hilld102,1,0,-1
-id,NY1195707150
-version,1
-info,inputprogvers,"version 7RS(19) of 07/07/92"
-info,visteam,CHN
-info,hometeam,NY1
-info,site,NYC14
-info,date,1957/07/15
-info,number,0
-info,starttime,0:00PM
-info,daynight,day
-info,usedh,false
-info,umphome,smitv101
-info,ump1b,conlj102
-info,ump2b,donaa901
-info,ump3b,delmv901
-info,scorer,"TSN"
-info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,146
-info,attendance,2675
-info,wp,antoj103
-info,lp,elstd101
-info,save,worta101
-info,gwrbi,
-start,kindj101,"Jerry Kindall",0,1,5
-start,speab101,"Bob Speake",0,2,3
-start,bolgj101,"Jim Bolger",0,3,8
-start,moryw101,"Walt Moryn",0,4,9
-start,banke101,"Ernie Banks",0,5,6
-start,walll101,"Lee Walls",0,6,7
-start,morgb102,"Bobby Morgan",0,7,4
-start,silvc101,"Charlie Silvera",0,8,2
-start,elstd101,"Don Elston",0,9,1
-start,lockw101,"Whitey Lockman",1,1,3
-start,ocond101,"Danny O'Connell",1,2,5
-start,maysw101,"Willie Mays",1,3,8
-start,thomb105,"Bobby Thomson",1,4,7
-start,spend101,"Daryl Spencer",1,5,4
-start,mueld101,"Don Mueller",1,6,9
-start,brese101,"Eddie Bressoud",1,7,6
-start,thomv101,"Valmy Thomas",1,8,2
-start,antoj103,"Johnny Antonelli",1,9,1
-stat,bline,kindj101,0,1,1,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,speab101,0,2,1,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,bolgj101,0,3,1,4,1,1,0,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,moryw101,0,4,1,4,1,2,1,0,0,1,0,0,0,0,0,2,0,0,0,0
-stat,bline,banke101,0,5,1,4,0,1,0,1,0,2,0,0,0,0,0,1,0,0,0,0
-stat,bline,walll101,0,6,1,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,tannc101,0,6,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,phline,tannc101,8,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,morgb102,0,7,1,3,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,longd101,0,7,2,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,phline,longd101,8,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,littj104,0,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,silvc101,0,8,1,3,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,hilld102,0,8,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,prline,hilld102,7,0,0,0,0
-stat,bline,littd102,0,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,willb106,0,8,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,willb106,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,elstd101,0,9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,pohot101,0,9,2,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,adamb103,0,9,3,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,adamb103,7,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,neemc101,0,9,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,lockw101,1,1,1,4,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,ocond101,1,2,1,4,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,bline,maysw101,1,3,1,3,2,2,1,0,1,2,0,0,0,1,0,0,1,1,0,0
-stat,bline,thomb105,1,4,1,3,0,1,0,0,0,0,1,0,0,0,0,0,0,0,0,0
-stat,bline,spend101,1,5,1,3,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0
-stat,bline,mueld101,1,6,1,3,1,1,0,0,1,1,0,0,0,1,1,0,0,0,0,0
-stat,bline,brese101,1,7,1,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,thomv101,1,8,1,3,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,antoj103,1,9,1,2,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,bline,worta101,1,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,dline,kindj101,0,1,5,24,2,2,1,0,0,0
-stat,dline,speab101,0,1,3,24,11,0,0,0,0,0
-stat,dline,bolgj101,0,1,8,24,4,0,0,0,0,0
-stat,dline,moryw101,0,1,9,24,2,0,0,0,0,0
-stat,dline,banke101,0,1,6,24,1,3,0,0,0,0
-stat,dline,walll101,0,1,7,21,1,1,0,0,0,0
-stat,dline,tannc101,0,1,7,3,0,0,0,0,0,0
-stat,dline,morgb102,0,1,4,21,1,2,0,0,0,0
-stat,dline,littj104,0,1,4,3,0,0,0,0,0,0
-stat,dline,silvc101,0,1,2,21,0,1,0,0,0,0
-stat,dline,neemc101,0,1,2,3,0,0,0,0,0,0
-stat,dline,elstd101,0,1,1,8,0,0,0,0,0,0
-stat,dline,pohot101,0,1,1,10,1,1,0,0,0,0
-stat,dline,littd102,0,1,1,6,1,1,0,0,0,0
-stat,dline,lockw101,1,1,3,27,9,0,0,1,0,0
-stat,dline,ocond101,1,1,5,27,1,1,0,0,0,0
-stat,dline,maysw101,1,1,8,27,3,0,0,0,0,0
-stat,dline,thomb105,1,1,7,27,0,0,0,0,0,0
-stat,dline,spend101,1,1,4,27,2,3,1,1,0,0
-stat,dline,mueld101,1,1,9,27,4,0,0,0,0,0
-stat,dline,brese101,1,1,6,27,1,3,0,1,0,0
-stat,dline,thomv101,1,1,2,27,7,0,0,0,0,0
-stat,dline,antoj103,1,1,1,22,0,2,0,0,0,0
-stat,dline,worta101,1,1,1,5,0,2,0,0,0,0
-event,dpline,1,brese101,spend101,lockw101
-stat,pline,elstd101,0,1,8,0,13,5,0,0,2,4,4,1,0,0,0,0,0,0,0
-stat,pline,pohot101,0,2,10,0,13,1,0,0,0,0,0,2,0,0,0,0,0,0,0
-stat,pline,littd102,0,3,6,0,7,1,1,0,0,1,1,0,0,0,0,0,0,1,1
-stat,pline,antoj103,1,1,22,0,31,10,0,0,0,3,3,0,0,6,0,0,0,0,0
-stat,pline,worta101,1,2,5,0,6,0,0,0,0,0,0,1,0,1,0,0,0,0,0
-line,0,0,0,3,0,0,0,0,0,0
-line,1,0,1,3,0,0,0,0,1
-stat,tline,0,7,5,0,0
-stat,tline,1,4,3,1,0
-event,hrline,1,maysw101,elstd101,3,1,-1
-event,hrline,1,mueld101,elstd101,2,0,-1
 id,PIT195707160
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"

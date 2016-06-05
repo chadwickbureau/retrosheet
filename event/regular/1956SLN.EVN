@@ -257,7 +257,6 @@ play,6,1,boyek101,??,,NP
 sub,nichc102,"Chet Nichols",0,9,1
 play,6,1,boyek101,??,,S7
 play,6,1,virdb101,??,,16(1)/FO
-play,6,1,sarnb101,??,,WP.1-2#
 play,6,1,sarnb101,??,,8
 play,6,1,mcdal101,??,,K/C
 play,7,0,nichc102,??,,13
@@ -755,7 +754,7 @@ play,6,1,repur101,??,,K
 play,6,1,moonw101,??,,E3.B-1
 play,6,1,sarnb101,??,,S8.1-3
 play,6,1,virdb101,??,,S9.3-H(UR);1-3
-play,6,1,mizew101,??,,PO3(2525)/DP.1X2(56)
+play,6,1,mizew101,??,,PO3(2525)/NDP.1X2(56)
 play,7,0,postw101,??,,53
 play,7,0,burgs101,??,,D8
 play,7,0,mcmir101,??,,8
@@ -883,7 +882,7 @@ play,4,1,sarnb101,??,,S9.2-H;1-3
 play,4,1,haddh101,??,,64(1)3/GDP.3-3
 play,4,1,blasd101,??,,K
 play,5,0,moryw101,??,,W
-play,5,0,whisp101,??,,WP.1-2#
+play,5,0,whisp101,??,,WP.1-2
 play,5,0,whisp101,??,,K
 play,5,0,chith101,??,,63
 play,5,0,jones105,??,,NP
@@ -1592,8 +1591,7 @@ play,6,1,schor101,11,CB.X,S9/L.3-H(UR);2-3
 play,6,1,musis101,00,,NP
 sub,koufs101,"Sandy Koufax",0,9,1
 play,6,1,musis101,10,.BX,5
-play,6,1,boyek101,12,BCSF,BK.3-H(UR);1-2
-com,"DIFF: officials have Roebuck 1 ER this game but this is classic TUR"
+play,6,1,boyek101,12,BCSF,BK.3-H;1-2
 play,6,1,boyek101,12,BCSF.FX,7
 play,7,0,nealc101,00,,NP
 sub,mcdal101,"Lindy McDaniel",1,7,1
@@ -1637,7 +1635,7 @@ play,9,0,gillj102,22,CBCBX,6/L
 play,9,0,reesp101,02,CFX,S6
 play,9,0,snidd101,11,BCX,8
 data,er,tempc101,5
-data,er,roebe101,0
+data,er,roebe101,1
 data,er,koufs101,0
 data,er,hughj103,2
 data,er,schmw101,1
@@ -1993,7 +1991,7 @@ play,1,0,lockw101,??,,K/C
 play,1,0,darka101,??,,9
 play,1,0,mueld101,??,,53
 play,1,1,blasd101,??,,K
-play,1,1,schor101,??,,D/78.B-H(E8)
+play,1,1,schor101,??,,D/78.B-H(E8)(NR)(UR)
 play,1,1,musis101,??,,43
 play,1,1,boyek101,??,,9
 play,2,0,maysw101,??,,S7
@@ -2086,7 +2084,7 @@ play,9,1,virdb101,??,,2/FL
 play,9,1,kinde101,??,,NP
 sub,coopw102,"Walker Cooper",1,9,11
 play,9,1,coopw102,??,,2/FL
-data,er,margj101,4
+data,er,margj101,3
 data,er,ridzs101,0
 data,er,wilhh101,0
 data,er,mizew101,5
@@ -2170,7 +2168,7 @@ play,3,1,musis101,??,,W
 play,3,1,boyek101,??,,8
 play,3,1,repur101,??,,8/L
 play,4,0,whitb105,??,,D9
-play,4,0,castf101,??,,OA.2X3(25)#
+play,4,0,castf101,??,,CS3(25)
 play,4,0,castf101,??,,3/L
 play,4,0,westw101,??,,K/C
 play,4,1,moonw101,??,,K/C
@@ -2800,7 +2798,7 @@ play,5,1,mcdal101,??,,NP
 sub,davij103,"Jim Davis",0,9,1
 play,5,1,mcdal101,??,,63
 play,5,1,blasd101,??,,D9
-play,5,1,schor101,??,,IW
+play,5,1,schor101,??,,W
 play,5,1,musis101,??,,S9.2-H;1XH(97632);B-2
 play,5,1,boyek101,??,,S7.2-3
 play,5,1,saueh101,??,,43
@@ -6148,7 +6146,9 @@ play,2,0,palys101,??,,NP
 sub,mcdal101,"Lindy McDaniel",1,9,1
 play,2,0,palys101,??,,K/C
 play,2,1,boyek101,??,,NP
-sub,postw101,"Wally Post",0,5,7
+sub,postw101,"Wally Post",0,5,9
+play,2,1,boyek101,??,,NP
+sub,palys101,"Stan Palys",0,2,7
 play,2,1,boyek101,??,,3/FL
 play,2,1,repur101,??,,9
 play,2,1,harmc101,??,,7
@@ -6359,7 +6359,7 @@ play,8,0,spend101,??,,54(1)/FO
 play,8,1,repur101,??,,T7
 play,8,1,lockw101,??,,NP
 sub,delgb101,"Bobby Del Greco",1,7,11
-play,8,1,delgb101,??,,CSH(12)#
+play,8,1,delgb101,??,,CSH(2)
 play,8,1,delgb101,??,,K
 play,8,1,smith108,??,,K
 play,9,0,sarnb101,??,,NP
@@ -6639,7 +6639,7 @@ play,3,0,worta101,??,,K
 play,3,0,brese101,??,,3/P
 play,3,1,blasd101,??,,K/C
 play,3,1,darka101,??,,S8
-play,3,1,musis101,??,,K+CS2(24)/DP
+play,3,1,musis101,??,,K+CS2(26)/DP
 play,4,0,schor101,??,,9/L
 play,4,0,maysw101,??,,K/C
 play,4,0,spend101,??,,W
@@ -8483,8 +8483,8 @@ play,6,1,blasd101,??,,63
 play,7,0,brutb101,??,,NP
 sub,blayb101,"Bob Blaylock",1,9,1
 play,7,0,brutb101,??,,6/P
-play,7,0,crand102,??,,8
-play,7,0,burdl101,??,,K/C
+play,7,0,crand102,??,,K/C
+play,7,0,burdl101,??,,8
 play,7,1,darka101,??,,43
 play,7,1,musis101,??,,D9
 play,7,1,moonw101,??,,S4.2-3
@@ -8914,7 +8914,7 @@ play,8,1,nelsr103,??,,8
 play,8,1,boyek101,??,,9
 play,9,0,valev101,??,,NP
 sub,kellf102,"Frank Kellert",0,9,11
-play,9,0,kellf102,??,,K
+play,9,0,kellf102,??,,2
 play,9,0,draks101,??,,K
 play,9,0,hoakd101,??,,63
 data,er,kaisd101,4
