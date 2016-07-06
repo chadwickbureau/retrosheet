@@ -185,7 +185,8 @@ start,batej102,"John Bateman",1,8,2
 start,dierl101,"Larry Dierker",1,9,1
 play,1,0,menkd101,??,,S
 play,1,0,alouf101,??,,54(1)/FO
-play,1,0,aaroh101,??,,T.1-H
+play,1,0,aaroh101,??,,PB.1-2
+play,1,0,aaroh101,??,,T.2-H
 play,1,0,jonem102,??,,K
 play,1,0,torrj101,??,,S.3-H
 play,1,0,cartr101,??,,K/C
@@ -200,7 +201,7 @@ play,2,0,woodw101,??,,8
 play,2,0,johnk102,??,,7
 play,2,1,asprb101,??,,8
 play,2,1,batej102,??,,S7.B-2(E7)
-play,2,1,dierl101,??,,FC1.2X3(16)
+play,2,1,dierl101,??,,FC1.2X3(16);B-1
 play,2,1,jacks102,??,,7
 play,3,0,menkd101,??,,9
 play,3,0,alouf101,??,,7
@@ -250,13 +251,14 @@ play,8,0,alouf101,??,,64(1)3/GDP
 play,8,1,wynnj101,??,,NP
 sub,niekp001,"Phil Niekro",0,9,1
 play,8,1,wynnj101,??,,E6
-play,8,1,mathe101,??,,SB2
-play,8,1,mathe101,??,,23.2-3
+play,8,1,mathe101,??,,SB2.1-3(PB)
+play,8,1,mathe101,??,,23
 play,8,1,landj103,??,,S.3-H(UR)
 play,8,1,poina101,??,,W.1-2
+play,8,1,asprb101,??,,PB.2-3;1-2
 play,8,1,asprb101,10,,NP
 sub,schwd101,"Don Schwall",0,9,1
-play,8,1,asprb101,??,,IW.2-3;1-2
+play,8,1,asprb101,??,,IW
 play,8,1,batej102,??,,5(2)3(B)/GDP
 play,9,0,aaroh101,??,,7
 play,9,0,jonem102,??,,K/C
@@ -3262,7 +3264,7 @@ play,2,0,starw101,??,,K/C
 play,2,0,mazeb101,??,,31
 play,2,0,clend101,??,,53
 play,2,1,harrc101,??,,S
-play,2,1,batej102,??,,16(1)3/GDP
+play,2,1,batej102,??,,6(1)3/GDP
 play,2,1,wilsd102,??,,63
 play,3,0,alleg101,??,,63
 play,3,0,may-j101,??,,K
@@ -5230,6 +5232,7 @@ info,inputter,"David W. Smith"
 info,inputtime,1996/03/03 9:14PM
 info,howscored,park
 info,pitches,none
+info,oscorer,wilsj701
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -6058,7 +6061,7 @@ play,6,1,gotaj101,??,,NP
 sub,bailb103,"Bob Bailey",0,9,7
 play,6,1,gotaj101,??,,7/L
 play,7,0,torbj101,??,,S7
-play,7,0,schod101,??,,56(1)4/BG/GDP
+play,7,0,schod101,??,,56(1)3/BG/GDP
 play,7,0,bailb103,??,,53
 play,7,1,morgj001,??,,6363
 play,7,1,wynnj101,??,,K23
@@ -7380,7 +7383,7 @@ play,2,1,batej102,??,,K/C
 play,3,0,willm102,??,,K/C
 play,3,0,alleg101,??,,T
 play,3,0,clemr101,??,,HP
-play,3,0,mazeb101,??,,4(1)3/GDP#
+play,3,0,mazeb101,??,,4(B)3(1)/LDP
 play,3,1,lillb101,??,,63
 play,3,1,belib101,??,,K/C
 play,3,1,davir102,??,,D
@@ -7403,7 +7406,7 @@ play,5,1,morgj001,??,,43
 play,6,0,alleg101,??,,63
 play,6,0,clemr101,??,,S
 play,6,0,mazeb101,??,,S.1-3
-play,6,0,motam101,??,,FC.3-H;1-2
+play,6,0,motam101,??,,E3.3-H(NR);1-2
 play,6,0,starw101,??,,64(1)3/GDP
 play,6,1,wynnj101,??,,S
 play,6,1,staur001,??,,S.1-2
@@ -8633,7 +8636,7 @@ play,5,1,asprb101,??,,64(1)3/GDP
 play,5,1,branr101,??,,7
 play,6,0,olivn101,??,,6
 play,6,0,huntr101,??,,S8
-play,6,0,daviw102,??,,36(1)3/GDP
+play,6,0,daviw102,??,,46(1)3/GDP
 play,6,1,vonhb101,??,,63
 play,6,1,jacks102,??,,2/FL
 play,6,1,morgj001,??,,9/FL
@@ -8837,10 +8840,6 @@ play,6,1,staur001,??,,63
 play,7,0,olivn101,??,,63
 play,7,0,huntr101,??,,53
 play,7,0,daviw102,??,,31
-play,7,1,milln101,??,,NP
-sub,olivn101,"Nate Oliver",0,1,4
-play,7,1,milln101,??,,NP
-sub,michg101,"Gene Michael",0,2,6
 play,7,1,milln101,??,,43
 play,7,1,mathe101,??,,W
 play,7,1,asprb101,??,,46(1)3/GDP
@@ -8855,7 +8854,13 @@ sub,duket101,"Tom Dukes",1,6,1
 play,8,0,torbj101,??,,K
 play,8,0,singb101,??,,S8.3-H;2-H
 play,8,0,olivn101,??,,S8.1-2
+play,8,0,huntr101,??,,NP
+sub,michg101,"Gene Michael",0,2,11
 play,8,0,michg101,??,,64(1)/FO
+play,8,1,batej102,??,,NP
+sub,olivn101,"Nate Oliver",0,1,4
+play,8,1,batej102,??,,NP
+sub,michg101,"Gene Michael",0,2,6
 play,8,1,batej102,??,,D9
 play,8,1,raded103,??,,NP
 sub,gotaj101,"Julio Gotay",1,8,12
@@ -9819,7 +9824,7 @@ play,4,0,carrc103,??,,S
 play,4,0,martm102,??,,7
 play,4,1,staur001,??,,S
 play,4,1,wynnj101,??,,46(1)/FO
-play,4,1,milln101,??,,4(1)3/GDP
+play,4,1,milln101,??,,64(1)3/GDP
 play,5,0,frant101,??,,13
 play,5,0,aaroh101,??,,2/FL
 play,5,0,torrj101,??,,43
@@ -11332,7 +11337,7 @@ play,9,0,johnb104,??,,W
 play,9,0,swobr101,??,,S7.1-2
 play,9,0,davit103,??,,S7.1-2;2-H
 play,9,0,buchj102,??,,9/F
-play,9,0,goosg101,??,,6(B)4(1)/P/DP
+play,9,0,goosg101,??,,5(B)4(1)/P/DP
 data,er,mcgrt001,2
 data,er,cardd101,1
 data,er,koonc101,1
@@ -11404,7 +11409,7 @@ play,2,0,otisa001,??,,9/F
 play,2,0,grotj101,??,,63
 play,2,1,raded103,??,,9/F
 play,2,1,asprb101,??,,S9
-play,2,1,adled101,??,,64(1)3/GDP
+play,2,1,adled101,??,,16(1)3/GDP
 play,3,0,koosj001,??,,W
 play,3,0,harrb101,??,,7/L
 play,3,0,heisb101,??,,46(1)3/GDP
@@ -11445,7 +11450,7 @@ play,7,0,moocj101,??,,S
 play,7,0,otisa001,??,,8/F
 play,7,0,grotj101,??,,K
 play,7,1,adled101,??,,W
-play,7,1,coomd101,??,,54(1)3/GDP
+play,7,1,coomd101,??,,64(1)3/GDP
 play,7,1,murri101,??,,S9
 play,7,1,jacks102,??,,64(1)/FO
 play,8,0,koosj001,??,,NP

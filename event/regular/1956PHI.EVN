@@ -88,7 +88,7 @@ play,5,1,wehmh101,10,,8
 play,5,1,ashbr101,32,,53
 play,5,1,morgb102,10,,6/P
 play,6,0,mueld101,32,,43
-play,6,0,darka101,01,,E4.B-1
+play,6,0,darka101,01,,E5.B-1
 play,6,0,maysw101,22,,7
 play,6,0,rhodd101,10,,6
 play,6,1,hamng102,10,,S7
@@ -238,8 +238,8 @@ play,3,1,ennid101,10,,8
 play,3,1,greej102,22,,K
 play,4,0,lockw101,21,,S9
 play,4,0,darka101,10,,S8.1-2#
-play,4,0,mueld101,02,,D9.2-H;1-3
-play,4,0,maysw101,32,,8(B)62(3)/DP#
+play,4,0,mueld101,02,,D8.2-H;1XH(862)
+play,4,0,maysw101,32,,8
 play,4,0,spend101,11,,9
 play,4,1,lopas101,22,,K
 play,4,1,semia101,32,,63
@@ -352,7 +352,7 @@ play,1,1,ennid101,22,,K
 play,1,1,greej102,12,,K
 play,2,0,gomer101,10,,9
 play,2,0,lockw101,00,,S7
-play,2,0,darka101,00,,54(1)/FO.BX1(4E3)#
+play,2,0,darka101,00,,54(1)/FO.BX1(4E3)
 play,2,0,mueld101,10,,2/FL
 play,2,1,lopas101,31,,W
 play,2,1,kazat101,10,,3/P
@@ -398,12 +398,13 @@ sub,hofmb101,"Bobby Hofman",0,9,11
 play,7,0,hofmb101,32,,W
 play,7,0,lockw101,00,,NP
 sub,coang101,"Gil Coan",0,9,12
-play,7,0,lockw101,00,,S1/BG.1-3(E3)
+play,7,0,lockw101,00,,S1/BG.1-2
 play,7,0,darka101,00,,7
-play,7,0,mueld101,22,,S7.3-H;1-2
+play,7,0,mueld101,22,,S7.2-H;1-2
+play,7,0,maysw101,00,,PO2(E1).2-3;1-2
 play,7,0,maysw101,00,,NP
 sub,meyej101,"Jack Meyer",1,9,1
-play,7,0,maysw101,30,,IW.2-3;1-2
+play,7,0,maysw101,30,,IW
 play,7,0,spend101,12,,S7.3-H;2-H;1-2
 play,7,0,castf101,12,,K
 play,7,0,harrg101,12,,K
@@ -648,6 +649,7 @@ play,1,0,thomf103,22,,2/FL
 play,1,0,kravd101,12,,S9.3-H;2-H
 play,1,0,wardp101,10,,SB2
 play,1,0,wardp101,32,,W+OA.2X3(25)#
+play,1,1,ashbr101,22,,FLE3#
 play,1,1,ashbr101,22,,63
 play,1,1,kazat101,21,,6
 play,1,1,hamng102,10,,43
@@ -728,7 +730,9 @@ sub,shepj102,"Jack Shepard",0,9,2
 play,7,1,ennid101,00,,NP
 sub,kingn101,"Nellie King",0,7,1
 play,7,1,ennid101,00,,NP
-sub,obrie101,"Eddie O'Brien",0,5,9
+sub,obrie101,"Eddie O'Brien",0,5,5
+play,7,1,ennid101,00,,NP
+sub,wardp101,"Preston Ward",0,6,9
 play,7,1,ennid101,12,,K
 play,7,1,greej102,32,,K
 play,7,1,lopas101,12,,6/P
@@ -741,8 +745,6 @@ play,8,1,jonew101,00,,NP
 sub,delgb101,"Bobby Del Greco",0,6,8
 play,8,1,jonew101,00,,NP
 sub,clemr101,"Roberto Clemente",0,1,9
-play,8,1,jonew101,00,,NP
-sub,obrie101,"Eddie O'Brien",0,5,5
 play,8,1,jonew101,32,,2/FL
 play,8,1,semia101,10,,63
 play,8,1,meyej101,00,,NP
@@ -1263,7 +1265,7 @@ play,5,0,repur101,??,,9
 play,5,0,moonw101,??,,S9
 play,5,0,delgb101,??,,D/78.1-H
 play,5,0,sarnb101,??,,13.2-3
-play,5,0,schmw101,??,,CSH(25)#
+play,5,0,schmw101,??,,PO3(25)
 play,5,1,lopas101,??,,63
 play,5,1,jonew101,??,,6/P
 play,5,1,greej102,??,,13
@@ -1337,7 +1339,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,177
-info,attendance,0
+info,attendance,7605
 info,wp,mcdal101
 info,lp,rogos101
 info,save,
@@ -1400,8 +1402,7 @@ play,3,1,lopas101,??,,K
 play,3,1,greej102,??,,8
 play,3,1,kazat101,??,,8
 play,4,0,blasd101,??,,S3
-play,4,0,hattg101,??,,WP.1-3#
-play,4,0,hattg101,??,,E6.3-3
+play,4,0,hattg101,??,,E6.1-3
 play,4,0,musis101,??,,7/SF.3-H
 play,4,0,boyek101,??,,8/8D
 play,4,0,moonw101,??,,S8.1-3
@@ -1855,8 +1856,8 @@ play,1,0,banke101,30,,IW
 play,1,0,moryw101,12,,K/C
 play,1,0,irvim101,12,,K/C
 play,1,1,ashbr101,32,,K
-play,1,1,hemus101,02,,53
-play,1,1,hamng102,22,,K
+play,1,1,hemus101,02,,K
+play,1,1,hamng102,22,,53
 play,2,0,whisp101,01,,9
 play,2,0,chith101,20,,S7
 play,2,0,hackw102,02,,K/BF
@@ -1873,11 +1874,11 @@ play,3,0,irvim101,21,,6/P
 play,3,1,semia101,32,,W
 play,3,1,haddh101,12,,K
 play,3,1,ashbr101,01,,6
-play,3,1,hemus101,00,,9
+play,3,1,hemus101,00,,K/C
 play,4,0,whisp101,11,,43
 play,4,0,chith101,11,,3/FL
 play,4,0,hackw102,00,,43
-play,4,1,hamng102,12,,K/C
+play,4,1,hamng102,12,,9
 play,4,1,ennid101,11,,S9
 play,4,1,lopas101,11,,D7.1-3
 play,4,1,valoe101,30,,IW
@@ -1912,7 +1913,7 @@ play,7,0,moryw101,10,,8
 play,7,1,semia101,11,,9
 play,7,1,haddh101,22,,3/G
 play,7,1,ashbr101,32,,W
-play,7,1,hemus101,11,,8
+play,7,1,hemus101,11,,K/C
 play,8,0,irvim101,00,,HR/7
 play,8,0,whisp101,11,,9
 play,8,0,chith101,32,,HR
@@ -1920,7 +1921,7 @@ play,8,0,valev101,00,,NP
 sub,millb103,"Bob Miller",1,9,1
 play,8,0,valev101,02,,13
 play,8,0,mikse101,11,,13
-play,8,1,hamng102,12,,K/C
+play,8,1,hamng102,12,,8
 play,8,1,ennid101,11,,S7
 play,8,1,lopas101,00,,8
 play,8,1,valoe101,12,,13
@@ -2205,7 +2206,7 @@ play,7,1,hemus101,01,,43
 play,8,0,kingn101,00,,NP
 sub,millb103,"Bob Miller",1,9,1
 play,8,0,kingn101,32,,E4/F.B-2#
-play,8,0,obrij101,02,,FC5.2X3(5);B-1
+play,8,0,obrij101,02,,E5.2X3(5);B-1
 play,8,0,groad101,11,,S1.1-2
 play,8,0,walll101,01,,54(1)/FO.2-3
 play,8,0,longd101,30,,S4.3-H(UR);1-2
@@ -2222,9 +2223,9 @@ play,8,1,millb103,00,,NP
 sub,burkm101,"Mack Burk",1,8,12
 play,8,1,millb103,00,,NP
 sub,baumf101,"Frank Baumholtz",1,9,11
-play,8,1,baumf101,00,,NP
-sub,mungr101,"Red Munger",0,9,1
 play,8,1,baumf101,32,,W.3-H;2-3;1-2
+play,8,1,ashbr101,00,,NP
+sub,mungr101,"Red Munger",0,9,1
 play,8,1,ashbr101,10,,43
 play,9,0,freeg102,00,,NP
 sub,lonnj101,"Joe Lonnett",1,8,2
@@ -2374,7 +2375,7 @@ play,8,1,hamng102,00,,3/P
 play,9,0,obrij101,00,,13
 play,9,0,law-v101,00,,S8
 play,9,0,freeg102,10,,S8.1-2#
-play,9,0,virdb101,10,,46(1)3/GDP
+play,9,0,virdb101,10,,6(1)3/GDP
 play,9,1,kazat101,00,,NP
 sub,hemus101,"Solly Hemus",1,8,11
 play,9,1,hemus101,00,,3/G
@@ -5667,7 +5668,7 @@ sub,saueh101,"Hank Sauer",0,9,11
 play,7,0,saueh101,??,,S7.1-3;B-2(E7)
 play,7,0,blasd101,??,,63.3-H
 play,7,0,darka101,??,,S9.2-H(UR)
-play,7,0,musis101,??,,6(1)3/GDP#
+play,7,0,musis101,??,,16(1)3/GDP
 play,7,1,hamng102,??,,NP
 sub,peetc101,"Charlie Peete",0,8,8
 play,7,1,hamng102,??,,NP
@@ -5761,7 +5762,7 @@ play,2,1,jonew101,??,,K23
 play,2,1,hamng102,??,,63
 play,3,0,smith108,??,,8/8D
 play,3,0,delgb101,??,,S7
-play,3,0,dickm101,??,,64(1)3/GDP#
+play,3,0,dickm101,??,,54(1)3/GDP#
 play,3,1,kazat101,??,,53
 play,3,1,haddh101,??,,S7
 play,3,1,ashbr101,??,,9
@@ -6417,7 +6418,7 @@ play,4,1,valoe101,10,,3/G
 play,5,0,valev101,02,,4/P
 play,5,0,draks101,21,,S9/3
 play,5,0,hoakd101,01,,S8.1-3
-play,5,0,fondd101,00,,8/SF/DP.3-H;1X2(86)
+play,5,0,fondd101,00,,8/SF/DP.3-H;1X2(84)
 play,5,1,jonew101,00,,5/L
 play,5,1,hamng102,30,,W
 play,5,1,hemus101,00,,53.1-2
@@ -6455,11 +6456,11 @@ play,8,1,ennid101,31,,S8
 play,8,1,valoe101,20,,9
 play,9,0,moryw101,00,,NP
 sub,kazat101,"Ted Kazanski",1,8,4
-play,9,0,moryw101,01,,S9.BX2(946)
-play,9,0,irvim101,01,,S7
+play,9,0,moryw101,01,,S9
+play,9,0,irvim101,01,,S7.1-2
 play,9,0,mikse101,00,,NP
 sub,kindj101,"Jerry Kindall",0,6,12
-play,9,0,mikse101,22,,9
+play,9,0,mikse101,22,,9(B)46(2)/DP
 play,9,0,landh101,00,,43
 data,er,valev101,5
 data,er,meyer101,0
@@ -7539,7 +7540,7 @@ start,kazat101,"Ted Kazanski",1,8,4
 start,meyej101,"Jack Meyer",1,9,1
 play,1,0,virdb101,10,,9
 play,1,0,groad101,11,,S7/6
-play,1,0,skinb101,12,,3(B)6(1)/GDP#
+play,1,0,skinb101,12,,36(1)1/GDP
 play,1,1,ashbr101,22,,8
 play,1,1,hamng102,12,,4
 play,1,1,blaym101,02,,K/C
@@ -8677,11 +8678,11 @@ play,2,0,sarnb101,??,,8
 play,2,0,castf101,??,,7
 play,2,1,semia101,??,,W
 play,2,1,kazat101,??,,8
-play,2,1,simmc101,??,,16(1)/FO
+play,2,1,simmc101,??,,16(1)/FO/BG
 play,2,1,ashbr101,??,,W.1-2
-play,2,1,hamng102,??,,S8.2-H;1-3#
-play,2,1,jonew101,??,,BK.3-H;1-2#
-play,2,1,jonew101,??,,S.2-3
+play,2,1,hamng102,??,,S7.2-H;1-2
+play,2,1,jonew101,??,,BK.2-3;1-2
+play,2,1,jonew101,??,,S7.3-H;2-3
 play,2,1,lopas101,??,,NP
 sub,hearj102,"Jim Hearn",0,9,1
 play,2,1,lopas101,??,,64(1)/FO
@@ -8700,6 +8701,7 @@ play,4,0,sarnb101,??,,53
 play,4,0,castf101,??,,PO2(99)
 play,4,1,simmc101,??,,NP
 sub,margj101,"Joe Margoneri",0,9,1
+com,"$Hearn left with a sore muscle in his side"
 play,4,1,simmc101,??,,K
 play,4,1,ashbr101,??,,W
 play,4,1,hamng102,??,,S7.1-2
@@ -8859,7 +8861,8 @@ play,2,0,thomf103,??,,53
 play,2,0,groad101,??,,4
 play,2,0,mazeb101,??,,63
 play,2,1,ennid101,??,,S
-play,2,1,jonew101,??,,W.1-2
+play,2,1,jonew101,??,,SB2
+play,2,1,jonew101,??,,W
 play,2,1,valoe101,??,,34/SH.2-3;1-2
 play,2,1,hamng102,??,,IW
 play,2,1,rober102,??,,K
@@ -9003,7 +9006,8 @@ play,2,1,valoe101,00,,E6/G.B-1
 play,2,1,hamng102,01,,9/L
 play,3,0,clemr101,32,,D8/78.BX3(865)
 play,3,0,walll101,30,,W
-play,3,0,thomf103,02,,63.1-2
+play,3,0,thomf103,02,,PO1(E1).1-2
+play,3,0,thomf103,02,,63
 play,3,0,longd101,30,,IW
 play,3,0,groad101,22,,9
 play,3,1,rogos101,22,,8
@@ -9288,7 +9292,7 @@ play,2,0,frieb102,00,,FC1/BG.3XH(12);1-2;B-1
 play,2,0,thomf103,00,,E5.2-H(NR)(UR);1-3;B-2(E3)
 play,2,0,walll101,00,,FC5.2X3(5)#
 play,2,1,ennid101,10,,S7
-play,2,1,blaym101,21,,64(1)3/GDP
+play,2,1,blaym101,21,,46(1)3/GDP
 play,2,1,valoe101,12,,S6
 play,2,1,hamng102,01,,7
 play,3,0,clemr101,12,,13
@@ -9352,10 +9356,12 @@ play,7,0,foilh101,02,,13
 play,7,0,groad101,32,,W
 play,7,0,virdb101,02,,K
 play,7,1,ashbr101,22,,S8
-play,7,1,hemus101,22,,S9/AP.1-H(E9)(NR)(UR);BX2(1)
-com,"$Solly Hemus out on appeal"
+play,7,1,hemus101,22,,S9.1-H(E9)(NR)(UR);B-2
 play,7,1,jonew101,32,,W
-play,7,1,lopas101,10,,5/P
+play,7,1,lopas101,10,,56(1)/FO/DP/BP.2XH(62)
+com,"$Thomas intentionally dropped the bunt, forced Jones at"
+com,"second and Groat then threw to Foiles to complete DP on"
+com,"Hemus who had continued to run from second"
 play,7,1,ennid101,00,,2/FL
 play,8,0,mazeb101,01,,6/P
 play,8,0,klinr102,00,,NP
