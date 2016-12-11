@@ -8554,8 +8554,8 @@ stat,dline,daush101,1,1,1,19,0,0,0,0,0,0
 stat,dline,coleb101,1,1,1,5,0,2,0,0,0,0
 stat,dline,oldhr101,1,1,1,3,0,0,0,0,0,0
 stat,pline,faber101,0,1,27,-1,44,17,7,0,1,7,7,3,-1,3,0,0,0,0,0
-stat,pline,daush101,1,1,19,-1,34,9,-1,-1,0,5,5,5,-1,5,0,0,0,0,0
-stat,pline,coleb101,1,2,5,-1,7,3,-1,-1,0,2,2,1,-1,1,0,0,0,0,0
+stat,pline,daush101,1,1,19,-1,30,9,-1,-1,0,5,5,5,-1,5,0,0,0,0,0
+stat,pline,coleb101,1,2,5,-1,8,3,-1,-1,0,2,2,1,-1,1,0,0,0,0,0
 stat,pline,oldhr101,1,3,3,-1,5,2,-1,-1,1,2,1,0,-1,0,0,0,0,0,0
 event,dpline,0,faber101,colle101,strua102
 event,dpline,1,clard101,rignt101,bluel101
@@ -13378,7 +13378,7 @@ stat,dline,gharp101,1,1,2,27,1,0,0,0,0,0
 stat,dline,peckr101,1,1,6,27,0,4,0,0,0,0
 stat,dline,zacht101,1,1,1,27,0,0,0,0,0,0
 stat,pline,courh101,0,1,6,-1,12,5,-1,-1,0,5,4,2,-1,0,0,0,0,1,0
-stat,pline,hodgs101,0,2,18,-1,23,8,-1,-1,0,3,3,1,-1,3,0,0,0,0,0
+stat,pline,hodgs101,0,2,18,-1,24,8,-1,-1,0,3,3,1,-1,3,0,0,0,0,0
 stat,pline,zacht101,1,1,27,-1,36,5,2,0,0,1,1,3,-1,0,0,0,0,1,0
 event,dpline,0,hodgs101,johne102,sheee101
 event,csline,1,judgj101,,schar103,-1
@@ -29055,12 +29055,12 @@ stat,dline,maync101,0,1,6,21,0,2,0,0,0,0
 stat,dline,pittp101,0,1,6,3,0,1,0,0,0,0
 stat,dline,russa101,0,1,1,21,1,2,0,0,0,0
 stat,dline,fullc102,0,1,1,3,0,0,0,0,0,0
-stat,dline,judgj101,1,1,3,27,9,0,0,1,0,0
+stat,dline,judgj101,1,1,3,27,9,0,0,2,0,0
 stat,dline,peckr101,1,1,6,27,3,1,0,1,0,0
 stat,dline,rices101,1,1,8,27,1,0,0,0,0,0
-stat,dline,shanh101,1,1,5,27,4,4,0,1,0,0
+stat,dline,shanh101,1,1,5,27,4,4,0,2,0,0
 stat,dline,browf102,1,1,9,27,2,0,0,0,0,0
-stat,dline,harrb106,1,1,4,27,3,3,0,1,0,0
+stat,dline,harrb106,1,1,4,27,3,3,0,2,0,0
 stat,dline,smite107,1,1,7,27,0,0,0,0,0,0
 stat,dline,gharp101,1,1,2,27,5,3,0,1,0,0
 stat,dline,zacht101,1,1,1,27,0,3,0,2,0,0
@@ -29069,6 +29069,7 @@ stat,pline,fullc102,0,2,3,-1,6,3,-1,-1,1,2,2,0,-1,0,0,0,0,0,0
 stat,pline,zacht101,1,1,27,-1,33,6,1,0,0,0,0,6,-1,4,0,0,0,0,0
 event,dpline,1,gharp101,shanh101,zacht101,peckr101,gharp101,shanh101,gharp101
 event,dpline,1,zacht101,harrb106,judgj101
+event,dpline,1,shanh101,harrb106,judgj101
 event,csline,0,colls101,zacht101,gharp101,-1
 event,csline,0,maync101,zacht101,gharp101,-1
 event,csline,1,browf102,,ruelm101,-1
@@ -29076,7 +29077,7 @@ line,0,0,0,0,0,0,0,0,0,0
 line,1,0,0,1,0,2,0,0,2
 event,hrline,1,browf102,fullc102,8,0,-1
 stat,tline,0,6,0,0,0
-stat,tline,1,8,0,2,0
+stat,tline,1,8,0,3,0
 id,CHA192207020
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -62021,114 +62022,6 @@ line,0,2,0,2,1,1,0,0,0,0
 line,1,1,0,1,0,0,0,0,1,2
 stat,tline,0,7,0,3,0
 stat,tline,1,7,0,1,0
-id,CHA192209240
-version,3
-info,inputprogvers,"version 7RS(19) of 07/07/92"
-info,visteam,WS1
-info,hometeam,CHA
-info,date,1922/09/24
-info,number,0
-info,starttime,0:00PM
-info,daynight,day
-info,usedh,false
-info,umphome,guthb901
-info,ump1b,morig101
-info,ump2b,"(none)"
-info,ump3b,"(none)"
-info,scorer,TSN Box
-info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,111
-info,attendance,0
-info,wp,mogrg101
-info,lp,faber101
-info,save,franr101
-info,gwrbi,
-start,judgj101,"Joe Judge",0,1,3
-start,harrb106,"Bucky Harris",0,2,4
-start,rices101,"Sam Rice",0,3,8
-start,goslg101,"Goose Goslin",0,4,7
-start,browf102,"Frank Brower",0,5,9
-start,gharp101,"Patsy Gharrity",0,6,2
-start,peckr101,"Roger Peckinpaugh",0,7,6
-start,lamob101,"Bobby LaMotte",0,8,5
-start,mogrg101,"George Mogridge",0,9,1
-start,hooph101,"Harry Hooper",1,1,9
-start,johne102,"Ernie Johnson",1,2,6
-start,colle101,"Eddie Collins",1,3,4
-start,sheee101,"Earl Sheely",1,4,3
-start,mostj101,"Johnny Mostil",1,5,8
-start,falkb101,"Bibb Falk",1,6,7
-start,mullj103,"Joe Mulligan",1,7,5
-start,schar103,"Ray Schalk",1,8,2
-start,faber101,"Red Faber",1,9,1
-stat,bline,judgj101,0,1,1,4,0,1,0,0,0,1,0,0,0,1,-1,0,0,0,-1,0
-stat,bline,harrb106,0,2,1,5,1,1,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,rices101,0,3,1,4,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,goslg101,0,4,1,4,0,2,0,0,0,1,0,0,0,0,-1,0,0,1,-1,0
-stat,bline,browf102,0,5,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,gharp101,0,6,1,3,1,2,1,0,0,0,0,0,0,1,-1,0,0,0,-1,0
-stat,bline,peckr101,0,7,1,3,1,0,0,0,0,1,1,0,0,0,-1,0,0,0,-1,0
-stat,bline,lamob101,0,8,1,4,1,2,1,0,0,0,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,mogrg101,0,9,1,4,0,1,0,0,0,1,0,0,0,0,-1,3,0,0,-1,0
-stat,bline,franr101,0,9,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,hooph101,1,1,1,3,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,-1,0
-stat,bline,johne102,1,2,1,5,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,colle101,1,3,1,4,0,1,0,0,0,1,1,0,0,0,-1,0,0,0,-1,0
-stat,bline,sheee101,1,4,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,1,0,-1,0
-stat,bline,mostj101,1,5,1,4,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,falkb101,1,6,1,3,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,longj103,1,6,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,mullj103,1,7,1,4,2,4,2,0,0,0,0,0,0,0,-1,0,1,0,-1,0
-stat,bline,schar103,1,8,1,4,1,2,0,0,0,0,0,0,0,0,-1,0,0,1,-1,0
-stat,bline,faber101,1,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,mcclh103,1,9,2,1,1,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,blant101,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,yaryy101,1,9,4,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,davel101,1,9,5,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,phline,longj103,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,phline,mcclh103,5,1,1,1,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
-stat,phline,yaryy101,9,1,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
-stat,prline,davel101,-1,1,0,0,0
-stat,dline,judgj101,0,1,3,27,13,2,0,1,0,0
-stat,dline,harrb106,0,1,4,27,2,4,0,0,0,0
-stat,dline,rices101,0,1,8,27,3,0,0,0,0,0
-stat,dline,goslg101,0,1,7,27,0,0,0,0,0,0
-stat,dline,browf102,0,1,9,27,1,0,0,0,0,0
-stat,dline,gharp101,0,1,2,27,3,1,0,0,0,0
-stat,dline,peckr101,0,1,6,27,2,5,1,1,0,0
-stat,dline,lamob101,0,1,5,27,1,1,0,0,0,0
-stat,dline,mogrg101,0,1,1,25,2,1,1,0,0,0
-stat,dline,franr101,0,1,1,2,0,1,0,0,0,0
-stat,dline,hooph101,1,1,9,27,1,0,0,0,0,0
-stat,dline,johne102,1,1,6,27,2,2,0,0,0,0
-stat,dline,colle101,1,1,4,27,3,4,0,0,0,0
-stat,dline,sheee101,1,1,3,27,12,0,0,0,0,0
-stat,dline,mostj101,1,1,8,27,3,0,1,0,0,0
-stat,dline,falkb101,1,1,7,27,1,0,0,0,0,0
-stat,dline,mullj103,1,1,5,27,0,5,0,0,0,0
-stat,dline,schar103,1,1,2,27,5,1,0,0,0,0
-stat,dline,faber101,1,1,1,15,0,2,0,0,0,0
-stat,dline,blant101,1,1,1,12,0,0,0,0,0,0
-stat,pline,mogrg101,0,1,25,-1,37,10,-1,-1,0,4,3,1,-1,3,0,0,0,1,0
-stat,pline,franr101,0,2,2,-1,2,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-stat,pline,faber101,1,1,15,-1,20,5,-1,-1,0,4,2,0,-1,2,0,0,0,1,0
-stat,pline,blant101,1,2,12,-1,18,5,-1,-1,0,1,1,2,-1,3,0,0,0,0,0
-event,dpline,0,judgj101,peckr101,judgj101
-event,sbline,1,sheee101,,gharp101,-1
-event,sbline,1,mullj103,,gharp101,-1
-event,csline,0,goslg101,,schar103,-1
-event,csline,1,schar103,,gharp101,-1
-line,0,0,0,0,2,2,0,1,0,0
-line,1,0,0,0,0,3,0,0,0,1
-stat,tline,0,6,0,1,0
-stat,tline,1,8,0,0,0
 id,CLE192209240
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"

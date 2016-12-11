@@ -2182,8 +2182,9 @@ play,3,0,nicaj001,01,L1X,54/SH/BG.1-2
 play,3,0,barnb002,00,X,S8/L.2-H
 play,3,0,arenn001,11,1C1B11,PO1(13)/MREV
 com,"replay,3,arenn001,COL,vanol901,LOS03,,Y,M,LAN,A"
-com,"$when Brandon Barnes was called safe, Dodgers manager Don"
-com,"Mattingly challenged the ruling; it was overturned by replay"
+com,"$when Brandon Barnes was called safe at 1B, Dodgers"
+com,"manager Don Mattingly challenged the ruling; the"
+com,"call was overturned by replay"
 play,3,1,gordd002,10,BX,T8/L
 play,3,1,puigy001,22,BSBFH,HP
 play,3,1,ramih003,12,FFB>X,63/G.3-H;1-3
@@ -2696,12 +2697,13 @@ sub,leagb001,"Brandon League",1,9,1
 play,6,0,hickb002,01,.CX,3/P
 play,6,1,gordd002,32,BCBFFBS,K
 play,6,1,puigy001,22,BCBFX,HR/8/F
+play,6,1,ramih003,12,SBCN,OA
 com,"ej,mattd001,M,littw901,Balls and strikes"
 com,"$Yasiel Puig backed out of the box on the second pitch, a strike;"
-com,"as he rounded 3B, Madison Bumgarner was standing near the line and"
-com,"said something to Puig; Puig yelled back and continued to HP;"
-com,"after the third pitch to Hanley Ramirez, Dodgers Manager Don"
-com,"Mattingly ejected by HP umpire Will Little"
+com,"as Puig rounded 3B after homering, Madison Bumgarner was standing"
+com,"near the line and said something to Puig; Puig yelled back and"
+com,"continued to HP; after the third pitch to Hanley Ramirez,"
+com,"Dodgers Manager Don Mattingly ejected by HP umpire Will Little"
 play,6,1,ramih003,32,SBC.BBFS,K
 play,6,1,gonza003,21,CBBX,8/F
 play,7,0,crawb001,10,BX,S8/G
@@ -6384,12 +6386,17 @@ play,2,1,ethia001,11,BCX,S8/G
 play,2,1,turnj001,12,BSCX,D9/L.1-H
 play,2,1,ellia001,00,,NP
 sub,rojam002,"Miguel Rojas",1,7,12
+com,"Dodgers third baseman Justin Turner left the game due to an injured leg"
 play,2,1,ellia001,31,.BBBCX,D9/F.2-H
 play,2,1,greiz001,10,BB,WP.2-3
 play,2,1,greiz001,22,BB.CFX,13/G
 play,2,1,gordd002,22,FFBBFFX,DGR/9/F.3-H
 play,2,1,puigy001,31,BBBCB,W
-play,2,1,ramih003,21,CBBB,WP.2XH(21);1-3
+play,2,1,ramih003,21,CBBB,WP/UREV.2XH(21);1-3
+com,"replay,2,ramih003,LAN,millb901,LOS03,,N,U,,P"
+com,"$when Dee Gordon was called out at HP, crew chief"
+com,"Bill Miller requested a review; the call was"
+com,"upheld by replay"
 play,2,1,ramih003,31,CBBB.B,W
 play,2,1,gonza003,02,FFX,S9/L-.3-H;1-2
 play,2,1,kempm001,21,BBFX,S8/L-.2-H;1-2
@@ -10835,11 +10842,12 @@ play,7,0,cabra002,02,FMX,S8/L
 play,7,0,lobaj001,11,1S1*BX,46(1)/FO/G
 play,7,1,ramih003,02,FFX,8/L+
 play,7,1,crawc002,00,X,D9/F-
-play,7,1,turnj001,32,FBTBFBX,HR/8/F/MREV.2-H
+play,7,1,turnj001,32,FBTBFBN,OA/MREV
 com,"replay,7,turnj001,LAN,barrt901,LOS03,,N,M,LAN,I"
 com,"$when Justin Turner was hit by a pitch but not granted"
 com,"1B, Dodgers manager Don Mattingly challenged the ruling;"
 com,"the call was upheld by replay"
+play,7,1,turnj001,32,FBTBFBX,HR/8/F.2-H
 play,7,1,pedej001,00,,NP
 sub,thorm001,"Matt Thornton",0,9,1
 play,7,1,pedej001,22,.BBFFC,K
@@ -12033,11 +12041,12 @@ play,7,0,beltb001,22,FBBFC,K
 play,7,0,domic001,22,BCCBX,E4/TH1/G
 play,7,0,crawb001,00,,NP
 sub,perej002,"Juan Perez",0,7,12
-play,7,0,crawb001,22,.1BBFT+1>C,K/MREV
+play,7,0,crawb001,22,.1BBFT+1,OA/MREV.1-1
 com,"replay,7,crawb001,SFN,millb901,LOS03,,N,M,LAN,A"
 com,"$when Juan Perez was called safe on an attempted pickoff,"
 com,"Dodgers manager Don Mattingly challenged the ruling; the"
 com,"call was upheld by replay"
+play,7,0,crawb001,22,.1BBFT+1>C,K
 play,7,1,uribj002,00,,NP
 sub,perej002,"Juan Perez",0,7,7
 play,7,1,uribj002,01,.CX,31/G
