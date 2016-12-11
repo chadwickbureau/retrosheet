@@ -1980,7 +1980,8 @@ com,"replay,6,deaza001,CHA,kellj901,ARL02,,N,M,CHA,I"
 com,"$HP umpire James Hoye ruled that Alejandro de Aza was hit"
 com,"by the pitch; then the ruling was changed to a swinging"
 com,"strike for strike three; White Sox manager Robin Ventura"
-com,"challenged the call, which was upheld by replay"
+com,"challenged the call, which was upheld by replay as a"
+com,"strikeout"
 play,6,0,flowt001,00,,NP
 sub,tolls002,"Shawn Tolleson",1,0,1
 play,6,0,flowt001,00,.>S,SB2
@@ -2171,15 +2172,18 @@ play,7,1,riosa002,11,BCX,S8/L
 play,7,1,morem001,02,CFT,K
 play,8,0,jasoj001,11,BSX,9/L
 play,8,0,reddj001,10,BX,S9/L
-play,8,0,bartd001,32,BC1B+11BF1X,8/FDP/MREV/UREV.1X1(83)
+play,8,0,bartd001,32,BC1B+11BF1,OA/MREV.1-1
 com,"replay,8,bartd001,OAK,nelsj901,ARL02,,N,M,TEX,A"
-com,"replay,8,bartd001,OAK,nelsj901,ARL02,,Y,U,,C"
 com,"$when Josh Reddick was called safe on a pick off attempt,"
 com,"Rangers manager Ron Washington challenged the ruling;"
-com,"it was upheld by replay; then Leonys Martin caught Daric"
-com,"Barton's fly at the top of the right center wall and threw"
-com,"to 1B on one bounce; Reddick was called safe but crew chief"
-com,"Jeff Nelson requested a review; it was overturned by replay"
+com,"it was upheld by replay"
+play,8,0,bartd001,32,BC1B+11BF1X,8/FDP/UREV.1X1(83)
+com,"replay,8,bartd001,OAK,nelsj901,ARL02,,Y,U,,C"
+com,"$Leonys Martin caught Daric Barton's fly at the top"
+com,"of the right center wall and threw to 1B on one bounce;"
+com,"Josh Reddick was called safe but crew chief Jeff"
+com,"Nelson requested a review; the call was overturned"
+com,"by replay"
 play,8,1,wilsj003,00,X,53/G
 play,8,1,martl004,22,BBCSS,K
 play,8,1,chirr001,22,SBFFBX,63/G
@@ -3076,6 +3080,7 @@ play,8,0,rossd001,00,,NP
 sub,germj001,"Justin Germano",1,0,1
 play,8,0,rossd001,01,.SX,6/P
 play,8,0,middw001,22,BCBFFFH,HP
+play,8,0,bradj001,00,1,OA
 com,"ej,maddm002,C,carav901,Balls and strikes"
 com,"Rangers Pitching Coach Mike Maddux ejected by 1B umpire Vic Carapazza"
 play,8,0,bradj001,00,1.X,S9/G.1-2

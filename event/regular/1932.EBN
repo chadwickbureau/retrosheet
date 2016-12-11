@@ -36545,7 +36545,7 @@ stat,dline,thevt101,1,1,5,33,2,0,0,0,0,0
 stat,dline,grace101,1,1,2,33,6,1,0,0,0,0
 stat,dline,frenl101,1,1,1,33,0,3,0,0,0,0
 stat,pline,ellij103,0,1,24,-1,33,8,-1,-1,0,4,3,1,-1,2,0,0,0,2,0
-stat,pline,collp102,0,2,9,-1,12,2,-1,-1,0,0,0,2,-1,0,0,0,0,0,0
+stat,pline,collp102,0,2,9,-1,13,2,-1,-1,0,0,0,2,-1,0,0,0,0,0,0
 stat,pline,frenl101,1,1,33,-1,44,13,6,1,0,5,3,0,-1,5,0,0,0,2,0
 event,dpline,0,bartd101,whitp103,hursd101
 event,dpline,0,bartd101,whitp103,hursd101
@@ -40296,8 +40296,8 @@ stat,dline,marse101,1,1,6,27,3,3,3,1,0,0
 stat,dline,walkb101,1,1,1,12,0,2,0,0,0,0
 stat,dline,gibss101,1,1,1,12,0,0,0,0,0,0
 stat,dline,schuh103,1,1,1,3,0,0,0,0,0,0
-stat,pline,kremr101,0,1,9,-1,16,6,-1,-1,2,5,5,1,-1,0,0,0,0,0,0
-stat,pline,harrb105,0,2,6,-1,9,3,-1,-1,0,1,1,0,-1,0,0,0,0,0,0
+stat,pline,kremr101,0,1,9,-1,16,6,-1,-1,1,5,5,1,-1,0,0,0,0,0,0
+stat,pline,harrb105,0,2,6,-1,9,3,-1,-1,1,1,1,0,-1,0,0,0,0,0,0
 stat,pline,speng101,0,3,3,-1,4,1,-1,-1,1,1,1,0,-1,0,0,0,0,0,0
 stat,pline,frenl101,0,4,9,-1,13,3,-1,-1,0,1,1,1,-1,1,0,0,0,0,0
 stat,pline,walkb101,1,1,12,-1,19,6,-1,-1,2,4,4,2,-1,1,0,0,0,0,0
@@ -40309,7 +40309,7 @@ event,sbline,1,ott-m101,,paddt101,-1
 line,0,2,1,0,1,0,4,1,0,0
 line,1,0,1,2,2,1,1,0,0,1
 event,hrline,1,terrb101,kremr101,2,0,-1
-event,hrline,1,lindf101,kremr101,4,0,-1
+event,hrline,1,lindf101,harrb105,5,0,-1
 event,hrline,1,moorj103,speng101,6,0,-1
 event,hrline,0,vauga101,walkb101,1,1,-1
 event,hrline,0,piett101,walkb101,4,0,-1
@@ -44136,7 +44136,7 @@ stat,pline,bentl101,0,1,26,-1,33,7,0,0,1,4,0,0,-1,2,0,0,0,0,0
 stat,pline,browb106,1,1,24,-1,31,5,-1,-1,1,2,2,3,-1,3,0,0,0,2,0
 stat,pline,franf101,1,2,3,-1,4,2,-1,-1,1,1,1,0,-1,0,0,0,0,0,0
 event,dpline,1,browb106,urbab101,moorr103
-event,dpline,1,franf101,urbab101,moorr103
+event,dpline,1,franf101,marar101,moorr103
 line,0,0,0,0,0,0,0,0,2,1
 line,1,0,0,0,0,0,0,0,0,4
 event,hrline,1,schuw101,bentl101,9,2,2
@@ -54408,8 +54408,8 @@ stat,dline,meinh101,1,1,1,11,0,2,0,1,0,0
 stat,dline,harrb105,1,1,1,13,0,1,0,0,0,0
 stat,dline,frenl101,1,1,1,3,0,0,0,0,0,0
 stat,pline,browb106,0,1,11,-1,21,6,-1,-1,0,4,1,4,-1,2,0,0,0,0,0
-stat,pline,franf101,0,2,0,-1,2,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
-stat,pline,brane101,0,3,11,-1,18,6,-1,-1,0,6,5,1,-1,1,0,0,0,1,0
+stat,pline,franf101,0,2,0,-1,1,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
+stat,pline,brane101,0,3,11,-1,19,6,-1,-1,0,6,5,1,-1,1,0,0,0,1,0
 stat,pline,betth101,0,4,2,-1,3,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,meinh101,1,1,11,-1,21,9,-1,-1,0,5,5,1,-1,0,0,0,0,1,0
 stat,pline,harrb105,1,2,13,-1,18,5,-1,-1,0,1,1,0,-1,1,1,0,0,1,0
