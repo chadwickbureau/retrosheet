@@ -92,7 +92,7 @@ play,5,1,ott-e101,??,,HR/9
 play,5,1,garnp001,??,,9
 play,5,1,blylb001,??,,K/C
 play,6,0,cromw101,??,,E6.B-1
-play,6,0,valee001,??,,E9.1-2;BX2(9436)
+play,6,0,valee001,??,,E9/F.1-2;BX2(9436)
 play,6,0,peret001,??,,53
 play,6,0,cartg001,??,,K
 play,6,1,tavef101,??,,S9
@@ -145,7 +145,7 @@ play,9,1,starw101,??,,S9.BX2(96)
 play,9,1,robib101,??,,5/L
 play,9,1,stenr101,??,,9
 play,10,0,dawsa001,??,,HP
-play,10,0,scotr101,??,,PO1(E1).1-2#
+play,10,0,scotr101,??,,PO1(E3).1-2
 play,10,0,scotr101,??,,K/C
 play,10,0,cromw101,??,,31.2-3
 play,10,0,valee001,??,,E5.3-H(UR)(NR);B-1
@@ -792,7 +792,8 @@ sub,griet101,"Tom Grieve",0,9,11
 play,9,0,griet101,??,,W
 play,9,0,brocl102,??,,NP
 sub,dimmm101,"Mike Dimmel",0,9,12
-play,9,0,brocl102,??,,K+CS2(26)/DP
+play,9,0,brocl102,??,,K
+play,9,0,tempg001,??,,CS2(26)
 play,9,0,tempg001,??,,3/G
 data,er,vuckp001,1
 data,er,brunt101,0
@@ -1124,7 +1125,9 @@ play,9,0,hendg001,??,,53
 play,9,1,berrd001,??,,NP
 sub,littm101,"Mark Littell",0,5,1
 play,9,1,berrd001,??,,NP
-sub,carbb101,"Bernie Carbo",0,9,8
+sub,dimmm101,"Mike Dimmel",0,7,8
+play,9,1,berrd001,??,,NP
+sub,carbb101,"Bernie Carbo",0,9,7
 play,9,1,berrd001,??,,S9
 play,9,1,garnp001,??,,K
 play,9,1,parkd001,??,,3.1-2
@@ -6613,7 +6616,7 @@ start,garnp001,"Phil Garner",1,8,4
 start,robed101,"Dave Roberts",1,9,1
 play,1,0,gonzj101,??,,T8
 play,1,0,reync001,??,,S8.3-H
-play,1,0,puhlt001,??,,54(1)3/GDP
+play,1,0,puhlt001,??,,4(1)3/GDP
 play,1,0,leonj001,??,,8
 play,1,1,moreo001,??,,43
 play,1,1,folit001,??,,S9
@@ -6632,8 +6635,9 @@ play,2,1,ott-e101,??,,S9.1-2
 play,2,1,garnp001,??,,13.2-3;1-2
 play,2,1,robed101,??,,3/G
 play,3,0,reync001,??,,K
+play,3,0,puhlt001,??,,FLE5
 play,3,0,puhlt001,??,,43
-play,3,0,leonj001,??,,E9.B-1
+play,3,0,leonj001,??,,E9/F.B-1
 play,3,0,cabee001,??,,64(1)/FO
 play,3,1,moreo001,??,,S9
 play,3,1,folit001,??,,S7.1-3
@@ -6660,8 +6664,7 @@ play,5,0,leonj001,??,,16(1)/FO
 play,5,0,cabee001,??,,54(1)/FO
 play,5,0,cruzj001,??,,53
 play,5,1,milnj101,??,,S9
-play,5,1,robib101,??,,K
-play,5,1,madlb001,??,,CS2(24)
+play,5,1,robib101,??,,K+CS2(24)/DP
 play,5,1,madlb001,??,,W
 play,5,1,ott-e101,??,,43
 play,6,0,howea001,??,,NP
@@ -6996,7 +6999,7 @@ play,8,0,hubbg001,??,,NP
 sub,roysj001,"Jerry Royster",0,1,11
 play,8,0,roysj001,??,,4
 play,8,0,mattg001,??,,W
-play,8,0,lum-m101,??,,64(1)/FO/GDP/RINT.BX1(4)
+play,8,0,lum-m101,??,,64(1)/FO/GDP/RINT.BX1(3)
 com,"$Gary Matthews called for interference at 2B; Mike Lum declared"
 com,"out at 1B"
 play,8,1,robib101,??,,NP
@@ -7146,7 +7149,7 @@ play,8,1,blylb001,??,,NP
 sub,mclaj001,"Joey McLaughlin",0,9,1
 play,8,1,blylb001,??,,63
 play,8,1,moreo001,??,,S9
-play,8,1,folit001,??,,7(B)43(1)/DP
+play,8,1,folit001,??,,7(B)3(1)/DP
 play,9,0,mattg001,??,,E3.B-1
 play,9,0,offir101,??,,8
 play,9,0,hornb001,??,,S7.1-2
@@ -7849,7 +7852,7 @@ play,1,1,moreo001,??,,S7
 play,1,1,folit001,??,,S9.1-3
 play,1,1,parkd001,??,,S7.3-H;1-2
 play,1,1,starw101,??,,S7.2-H;1-2
-play,1,1,milnj101,??,,16(1)3/GDP.2-3
+play,1,1,milnj101,??,,6(1)3/GDP.2-3
 play,1,1,madlb001,??,,9
 play,2,0,hends001,??,,S9
 play,2,0,montw101,??,,8
@@ -10160,7 +10163,7 @@ play,5,0,littd101,??,,K/C
 play,5,1,folit001,21,BCBX,S4
 play,5,1,parkd001,31,BFBBX,D7/L.1-3
 play,5,1,starw101,30,IIII,IW
-play,5,1,milnj101,00,X,8/L/SF/DP.3-H;2-3;1X2(854)
+play,5,1,milnj101,00,X,8/L/SF/NDP.3-H;2-3;1X2(824)
 play,5,1,madlb001,12,SBFS,K
 play,6,0,montj001,??,,K
 play,6,0,hernl001,??,,D8/L
@@ -12187,7 +12190,7 @@ play,4,0,mumpj001,??,,K/C
 play,4,1,parkd001,??,,HR/9
 play,4,1,starw101,??,,S8
 play,4,1,milnj101,??,,9
-play,4,1,madlb001,??,,54(1)3/GDP
+play,4,1,madlb001,??,,564(1)3/GDP
 play,5,0,hernk001,??,,43
 play,5,0,simmt001,??,,D9
 play,5,0,hendg001,??,,WP.2-3
@@ -12227,7 +12230,7 @@ play,7,0,scott001,??,,S9.1X3(96)
 play,7,1,garnp001,??,,S7
 play,7,1,ellid101,??,,NP
 sub,stenr101,"Rennie Stennett",1,9,11
-play,7,1,stenr101,??,,54(1)3/GDP
+play,7,1,stenr101,??,,64(1)3/GDP
 play,7,1,moreo001,??,,D7
 play,7,1,folit001,??,,S8.2-H
 play,7,1,parkd001,??,,S8.1-3

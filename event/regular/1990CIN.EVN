@@ -8365,8 +8365,10 @@ start,bragg001,"Glenn Braggs",1,5,7
 start,oneip001,"Paul O'Neill",1,6,9
 start,duncm001,"Mariano Duncan",1,7,4
 start,olivj001,"Joe Oliver",1,8,2
-start,scuds001,"Scott Scudder",1,9,1
-com,"$Danny Jackson announced as starter, gets Game played, no game pitched"
+start,jackd001,"Danny Jackson",1,9,1
+play,1,0,butlb001,00,,NP
+sub,scuds001,"Scott Scudder",1,9,1
+com,"$Danny Jackson announced as starter, left with no pitches"
 play,1,0,butlb001,11,BFX,13/G1
 play,1,0,littg001,11,.CBX,S8/G4M
 play,1,0,clarw001,22,B1FB11FF11FFX,D8/L89.1-H
@@ -11835,9 +11837,8 @@ play,7,0,clarj001,00,,NP
 sub,scuds001,"Scott Scudder",1,9,1
 play,7,0,clarj001,32,.FCBBFBB,W.2-3;1-2
 play,7,0,cartj001,32,SFBFFFBBX,53/G5
-com,"sub,clarj002,'Jerald Clark',0,1,7"
-com,"DWS: I don't think Clark actually gets a game played"
-com,"so I commented out his entry"
+play,7,1,duncm001,00,,NP
+sub,clarj002,"Jerald Clark",0,1,7
 com,"Game called for rain"
 data,er,white001,1
 data,er,charn001,3
