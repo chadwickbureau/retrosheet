@@ -12740,6 +12740,7 @@ stat,bline,mcmin101,1,7,1,3,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,pittp101,1,8,1,3,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,ferga101,1,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,odoul101,1,9,2,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,prline,wader101,5,0,0,0,0
 stat,dline,blueo102,0,1,5,27,1,7,0,0,0,0
 stat,dline,harrb106,0,1,4,27,4,4,0,2,0,0
 stat,dline,rices101,0,1,9,27,2,0,1,0,0,0
@@ -19565,6 +19566,7 @@ stat,bline,fewsc101,1,7,1,2,1,1,1,0,0,1,0,0,0,2,-1,0,0,0,-1,0
 stat,bline,mcmin101,1,8,1,4,0,2,0,0,0,2,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,quinj102,1,9,1,2,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,odoul101,1,9,2,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,phline,odoul101,7,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,hooph101,0,1,9,27,3,0,0,0,0,0
 stat,dline,mcclh103,0,1,6,27,1,7,0,0,0,0
 stat,dline,colle101,0,1,4,27,3,3,0,0,0,0
@@ -38046,9 +38048,9 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,umphome,evanb901
-info,ump1b,holmd102
+info,ump1b,hildg101
 info,ump2b,(none)
-info,ump3b,hildg101
+info,ump3b,holmd102
 info,scorer,TSN Box
 info,howscored,unknown
 info,pitches,none
@@ -38106,6 +38108,7 @@ stat,bline,mcmin101,1,8,1,4,0,2,1,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,pierb103,1,9,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,murrg101,1,9,2,3,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,piciv101,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,phline,hargp101,7,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,piciv101,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,leibn101,0,1,8,27,3,0,0,0,0,0
 stat,dline,bushd102,0,1,5,-1,1,2,0,0,0,0
@@ -38324,21 +38327,21 @@ stat,dline,peckr101,0,1,6,27,2,6,0,0,0,0
 stat,dline,evanj101,0,1,3,27,12,0,0,0,0,0
 stat,dline,zahnp101,0,1,1,20,0,1,0,0,0,0
 stat,dline,mitcm101,0,1,1,7,0,0,0,0,0,0
-stat,dline,fewsc101,1,1,4,27,1,2,0,0,0,0
+stat,dline,fewsc101,1,1,4,27,1,2,0,1,0,0
 stat,dline,piciv101,1,1,2,27,1,0,2,0,0,0
 stat,dline,flagi101,1,1,9,27,2,1,0,1,0,0
 stat,dline,burng102,1,1,3,27,13,0,0,1,0,0
 stat,dline,reicd101,1,1,8,27,2,0,1,0,0,0
 stat,dline,harrj103,1,1,7,27,3,0,0,0,0,0
 stat,dline,shanh101,1,1,5,27,1,1,0,0,0,0
-stat,dline,mcmin101,1,1,6,27,3,6,0,2,0,0
+stat,dline,mcmin101,1,1,6,27,3,6,0,1,0,0
 stat,dline,ehmkh101,1,1,1,4,0,0,0,0,0,0
 stat,dline,odoul101,1,1,1,23,1,2,0,0,0,0
 stat,pline,zahnp101,0,1,20,-1,34,10,-1,-1,1,6,6,4,-1,1,0,0,0,0,0
 stat,pline,mitcm101,0,2,7,-1,10,2,-1,-1,0,1,1,1,-1,1,0,0,0,0,0
 stat,pline,ehmkh101,1,1,4,-1,12,6,-1,-1,0,7,7,2,-1,1,0,0,0,1,0
 stat,pline,odoul101,1,2,23,-1,30,8,-1,-1,0,3,3,1,-1,0,0,0,0,1,0
-event,dpline,1,flagi101,mcmin101
+event,dpline,1,flagi101,fewsc101
 event,dpline,1,mcmin101,burng102
 line,0,6,1,0,0,0,3,0,0,0
 line,1,0,0,0,0,0,0,6,1,0
@@ -39653,6 +39656,8 @@ stat,bline,shanh101,1,7,1,4,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,pittp101,1,8,1,4,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,ehmkh101,1,9,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,gardl101,9,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,phline,colls101,8,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,phline,mortg101,5,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,jamic101,0,1,7,33,1,0,1,0,0,0
 stat,dline,summh101,0,1,9,33,2,0,0,0,0,0
 stat,dline,speat101,0,1,8,33,3,0,0,0,0,0
@@ -41644,6 +41649,7 @@ stat,bline,harrj103,1,6,1,4,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,shanh101,1,7,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,mcmin101,1,8,1,0,1,0,0,0,0,0,0,0,0,3,-1,0,0,0,-1,0
 stat,bline,pierb103,1,9,1,1,0,0,0,0,0,0,2,0,0,0,-1,0,0,0,-1,0
+stat,phline,pratd101,0,4,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,bluel101,0,1,3,24,11,2,0,0,0,0
 stat,dline,joneb103,0,1,5,24,0,5,1,0,0,0
 stat,dline,cobbt101,0,1,8,24,3,0,0,0,0,0

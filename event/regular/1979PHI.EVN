@@ -531,7 +531,7 @@ sub,chapk001,"Kelvin Chapman",0,8,4
 play,5,1,mcbrb101,??,,43
 play,5,1,bowal001,??,,S7
 play,5,1,rosep001,??,,S8.1-2
-play,5,1,luzig001,??,,64(1)3/GDP
+play,5,1,luzig001,??,,6(1)3/GDP
 play,6,0,tavef101,??,,S5
 play,6,0,hends001,??,,S8.1-2
 play,6,0,hebnr001,??,,3/G.2-3;1-2
@@ -708,8 +708,8 @@ play,8,0,tavef101,??,,NP
 sub,mcbrb101,"Bake McBride",1,9,9
 play,8,0,tavef101,??,,NP
 sub,cardj101,"Jose Cardenal",1,1,7
-play,8,0,tavef101,??,,S8.2-H;B-H(E5/TH)(NR)(UR)
-play,8,0,hebnr001,??,,3/L
+play,8,0,tavef101,??,,S8.2-H;B-2(THH)
+play,8,0,hebnr001,??,,3/L.2-H(E3/TH3)(NR)(UR)
 play,8,0,mazzl001,??,,6/P
 play,8,1,maddg001,??,,NP
 sub,chapk001,"Kelvin Chapman",0,8,4
@@ -1434,7 +1434,7 @@ play,1,0,turnj101,??,,S7
 play,1,0,winfd001,??,,4/P
 play,1,1,mcbrb101,??,,D9
 play,1,1,bowal001,??,,8.2-3
-play,1,1,rosep001,??,,9(B)256(3)/DP
+play,1,1,rosep001,??,,9(B)2(3)/DP
 play,2,0,bevak001,??,,9
 play,2,0,tenag101,??,,K
 play,2,0,brigd101,??,,K
@@ -2191,7 +2191,7 @@ play,3,1,schmm001,??,,SB2#
 play,3,1,schmm001,??,,K
 play,3,1,unsed101,??,,W
 play,3,1,grosg001,??,,7
-play,3,1,boonb001,??,,E6.2-H(NR)(UR);1-3;B-2(E6)
+play,3,1,boonb001,??,,E6.2-H(NR)(UR);1-3
 play,3,1,meolr101,??,,K
 play,4,0,cromw101,??,,K/C
 play,4,0,peret001,??,,9
@@ -4273,7 +4273,7 @@ play,7,1,harrb101,??,,NP
 sub,robeb001,"Bert Roberge",0,9,1
 play,7,1,harrb101,??,,CS3(25)
 play,7,1,harrb101,??,,W.1-2
-play,7,1,espin101,??,,2(B)6(2)/DP
+play,7,1,espin101,??,,2(B)4(2)/DP
 play,8,0,robeb001,??,,NP
 sub,andem101,"Mike Anderson",1,4,7
 play,8,0,robeb001,??,,NP
@@ -4348,8 +4348,8 @@ start,harrb101,"Bud Harrelson",1,8,4
 start,ruthd001,"Dick Ruthven",1,9,1
 play,1,0,puhlt001,??,,S5
 play,1,0,reync001,??,,SB2
-play,1,0,reync001,??,,S1.2-2#
-play,1,0,cedec001,??,,S7.2-H;1-2#
+play,1,0,reync001,??,,S1.2-3(E3)
+play,1,0,cedec001,??,,S7.3-H;1-2
 play,1,0,cruzj001,??,,7
 play,1,0,cabee001,??,,3/P
 play,1,0,leonj001,??,,64(1)/FO
@@ -4366,7 +4366,7 @@ play,2,1,boonb001,??,,8
 play,3,0,puhlt001,??,,S8
 play,3,0,reync001,??,,SB2#
 play,3,0,reync001,??,,9
-play,3,0,cedec001,??,,S8.2-H;B-2(E8)
+play,3,0,cedec001,??,,S8.2-H;B-2(TH)
 play,3,0,cruzj001,??,,IW
 play,3,0,cabee001,??,,54(1)/FO
 play,3,0,leonj001,??,,9
@@ -6315,7 +6315,7 @@ sub,reedr001,"Ron Reed",1,9,1
 play,3,0,bevak001,??,,S8.2-H(UR)
 play,3,0,gonzf101,??,,9
 play,3,0,dacqj101,??,,K/C
-play,3,0,richg001,??,,E3.1-3;B-1
+play,3,0,richg001,??,,E3.1-3(E3);B-1
 play,3,0,smito001,??,,43
 play,3,1,mcbrb101,??,,7
 play,3,1,bowal001,??,,S8
@@ -6471,7 +6471,7 @@ play,3,1,mcbrb101,??,,S8
 play,3,1,bowal001,??,,POCS2(136)
 play,3,1,bowal001,??,,W
 play,3,1,rosep001,??,,W.1-2
-play,3,1,schmm001,??,,65(2)4(1)/GDP
+play,3,1,schmm001,??,,64(1)3/GDP
 play,4,0,turnj101,??,,K
 play,4,0,winfd001,??,,W
 play,4,0,tenag101,??,,D8.1-H
@@ -6523,7 +6523,11 @@ play,8,0,bevak001,??,,S8.2-H
 play,8,0,gonzf101,??,,8
 play,8,0,kendf101,??,,9
 play,8,1,maddg001,??,,NP
-sub,fingr001,"Rollie Fingers",0,9,1
+sub,fingr001,"Rollie Fingers",0,8,1
+play,8,1,maddg001,??,,NP
+sub,johnj002,"Jay Johnstone",0,9,3
+play,8,1,maddg001,??,,NP
+sub,tenag101,"Gene Tenace",0,5,2
 play,8,1,maddg001,??,,S6
 play,8,1,trilm001,??,,36(1)/FO
 play,8,1,andem101,??,,NP
@@ -6534,12 +6538,10 @@ sub,unsed101,"Del Unser",1,9,11
 play,8,1,unsed101,??,,IW
 play,8,1,mcbrb101,??,,9/SF.3-H;2-3
 play,8,1,bowal001,??,,K
-play,9,0,fingr001,??,,NP
+play,9,0,johnj002,??,,NP
 sub,grosg001,"Greg Gross",1,8,7
-play,9,0,fingr001,??,,NP
+play,9,0,johnj002,??,,NP
 sub,mcgrt001,"Tug McGraw",1,9,1
-play,9,0,fingr001,??,,NP
-sub,johnj002,"Jay Johnstone",0,9,11
 play,9,0,johnj002,??,,7/L
 play,9,0,richg001,??,,43
 play,9,0,smito001,??,,K/C
@@ -8044,7 +8046,7 @@ play,9,1,grosg001,??,,46(1)/FO.2-3
 play,9,1,schmm001,??,,IW.1-2
 play,9,1,andem101,??,,NP
 sub,mcbrb101,"Bake McBride",1,4,11
-play,9,1,mcbrb101,??,,E1.3-H(NR)(UR);2-3;1-2;B-1
+play,9,1,mcbrb101,??,,E3.3-H(NR)(UR);2-3;1-2;B-1
 data,er,roges001,3
 data,er,sosae101,0
 data,er,ruthd001,2
@@ -9720,7 +9722,7 @@ play,4,1,mcbrb101,??,,13.2-3
 play,4,1,boonb001,??,,S7.3-H
 play,4,1,maddg001,??,,S7.1-2
 play,4,1,trilm001,??,,E3.2-3;1-2;B-1
-play,4,1,lercr001,??,,32(3)4/BG/GDP
+play,4,1,lercr001,??,,32(3)3/BG/GDP
 play,5,0,landr001,??,,43
 play,5,0,willr101,??,,K
 play,5,0,cedec001,??,,D7
@@ -10149,7 +10151,7 @@ play,1,0,colld001,??,,S7
 play,1,0,morgj001,??,,D9.1-3
 play,1,0,concd001,??,,S8.3-H;2-3
 play,1,0,fostg001,??,,W.1-2
-play,1,0,bencj101,??,,6(1)3/GDP.3-H(NR);2-3
+play,1,0,bencj101,??,,64(1)3/GDP.3-H(NR);2-3
 play,1,0,dried001,??,,8
 play,1,1,rosep001,??,,S7
 play,1,1,bowal001,??,,46(1)/FO
