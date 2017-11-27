@@ -8036,8 +8036,6 @@ info,wp,wills102
 info,lp,munim101
 info,save,
 info,gwrbi,
-com,"Suspend=19710907,,6,3,67"
-com,"Protest=X"
 start,brocl102,"Lou Brock",0,1,7
 start,javij101,"Julian Javier",0,2,4
 start,melel101,"Luis Melendez",0,3,9
@@ -8056,6 +8054,8 @@ start,moned101,"Don Money",1,6,5
 start,stonr102,"Ron Stone",1,7,7
 start,freer101,"Roger Freed",1,8,9
 start,frymw101,"Woodie Fryman",1,9,1
+com,"Suspend=19710907,,6,3,67"
+com,"Protest=X"
 play,1,0,brocl102,32,SSBBBFS,K
 play,1,0,javij101,32,SBBBFS,K
 play,1,0,melel101,22,BSCBS,K
@@ -8195,7 +8195,8 @@ com,"umpchange,12,umphome,kiblj901"
 com,"umpchange,12,ump1b,froeb901"
 com,"umpchange,12,ump2b,barla901"
 com,"umpchange,12,ump3b,pryop901"
-com,"31 minute rain delay; game was to revert to 3-3 tie when"
+com,"suspended,19710907,PHI12,protested - unplayable field"
+com,"$31 minute rain delay; game was to revert to 3-3 tie when"
 com,"rain removal machine broke down before making field playable;"
 com,"the Cardinals protested and won; game resumed on 9/7 with"
 com,"new umpires"
@@ -10610,7 +10611,7 @@ info,site,PHI12
 info,date,1971/09/05
 info,number,0
 info,starttime,0:00PM
-info,daynight,night
+info,daynight,day
 info,usedh,false
 info,umphome,mcshj901
 info,ump1b,burkk101

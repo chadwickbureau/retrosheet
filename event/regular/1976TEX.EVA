@@ -3220,7 +3220,6 @@ info,wp,foucs101
 info,lp,pattm101
 info,save,
 info,gwrbi,
-com,"Suspend=19760527,,4,4,54"
 start,poqut101,"Tom Poquette",0,1,7
 start,otisa001,"Amos Otis",0,2,8
 start,bretg001,"George Brett",0,3,5
@@ -3241,6 +3240,7 @@ start,griet101,"Tom Grieve",1,7,7
 start,smalr001,"Roy Smalley",1,8,4
 start,faheb101,"Bill Fahey",1,9,2
 start,briln101,"Nelson Briles",1,0,1
+com,"Suspend=19760527,,4,4,54"
 play,1,0,poqut101,??,,S9
 play,1,0,otisa001,??,,6(B)63(1)/LDP
 play,1,0,bretg001,??,,41
@@ -3359,7 +3359,8 @@ play,9,1,moatd101,??,,43
 play,9,1,fregj101,??,,S7
 play,9,1,hargm001,??,,36(1)/FO
 play,9,1,harrt001,??,,64(1)/FO
-com,"$game suspended and resumed the next day"
+com,"suspended,19760527,ARL01,curfew"
+com,"$game suspended fr curfew resumed the next day"
 play,10,0,poqut101,??,,D9
 play,10,0,wohlj001,??,,POCS3(265)
 play,10,0,wohlj001,??,,13

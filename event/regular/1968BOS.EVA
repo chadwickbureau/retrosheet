@@ -4490,7 +4490,6 @@ info,wp,stanl101
 info,lp,harrb110
 info,save,
 info,gwrbi,
-com,"Suspend=19680804,BOS07,1,1,33"
 start,heldw101,"Woodie Held",0,1,5
 start,fregj101,"Jim Fregosi",0,2,6
 start,repor101,"Roger Repoz",0,3,8
@@ -4509,6 +4508,7 @@ start,lahoj101,"Joe Lahoud",1,6,9
 start,petrr101,"Rico Petrocelli",1,7,6
 start,gibsr102,"Russ Gibson",1,8,2
 start,bellg102,"Gary Bell",1,9,1
+com,"Suspend=19680804,BOS07,1,1,33"
 play,1,0,heldw101,??,,6
 play,1,0,fregj101,??,,K/C
 play,1,0,repor101,??,,W
@@ -4550,6 +4550,7 @@ play,5,1,gibsr102,??,,13
 play,6,0,fregj101,??,,8
 play,6,0,repor101,??,,43
 play,6,0,mincd101,??,,8
+com,"suspended,19680804,BOS07,pre-determined stopping time"
 com,"$game suspended and resumed on 8/4"
 play,6,1,bellg102,??,,NP
 sub,hintc101,"Chuck Hinton",0,1,9

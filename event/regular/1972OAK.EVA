@@ -7327,7 +7327,6 @@ info,wp,huntj101
 info,lp,bahns101
 info,save,
 info,gwrbi,
-com,"Suspend=19720811,,3,3,102"
 start,willw103,"Walt Williams",0,1,9
 start,andrm101,"Mike Andrews",0,2,4
 start,alled101,"Dick Allen",0,3,3
@@ -7346,6 +7345,7 @@ start,duncd101,"Dave Duncan",1,6,2
 start,manga101,"Angel Mangual",1,7,9
 start,cullt101,"Tim Cullen",1,8,4
 start,holtk101,"Ken Holtzman",1,9,1
+com,"Suspend=19720811,,3,3,102"
 play,1,0,willw103,??,,S8
 play,1,0,andrm101,??,,4(1)/FO.B-2(E4/TH1)
 play,1,0,alled101,??,,IW
@@ -7536,7 +7536,8 @@ play,17,0,morar102,??,,63
 play,17,1,rudij101,??,,3/P
 play,17,1,epstm101,??,,K/C
 play,17,1,bands101,??,,2/FL/P
-com,"$game suspended and resumed the next day"
+com,"suspended,19720811,OAK01,curfew"
+com,"$game suspended for curfew and resumed the next day"
 play,18,0,alled101,??,,NP
 sub,huntj101,"Jim Hunter",1,9,1
 play,18,0,alled101,??,,W

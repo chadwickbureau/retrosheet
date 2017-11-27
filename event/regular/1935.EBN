@@ -34930,7 +34930,7 @@ stat,dline,bartd101,0,1,6,32,1,4,0,0,0,0
 stat,dline,dannh101,0,1,2,32,7,1,0,1,0,0
 stat,dline,hubbc101,0,1,1,32,0,3,0,1,0,0
 stat,dline,galaa101,1,1,7,33,3,0,0,0,0,0
-stat,dline,hermb101,1,1,4,33,3,5,0,0,0,0
+stat,dline,hermb101,1,1,4,33,3,5,0,1,0,0
 stat,dline,cavap101,1,1,3,33,11,2,0,0,0,0
 stat,dline,hartg103,1,1,2,33,11,2,0,1,0,0
 stat,dline,demaf102,1,1,8,33,0,0,0,0,0,0
@@ -34943,7 +34943,7 @@ stat,pline,hubbc101,0,1,32,-1,50,10,3,0,1,5,5,6,-1,4,0,1,0,3,0
 stat,pline,carlt101,1,1,9,-1,16,6,-1,-1,2,4,4,0,-1,4,0,1,0,0,0
 stat,pline,rootc101,1,2,24,-1,29,5,-1,-1,0,0,0,1,-1,7,0,0,0,2,0
 event,dpline,0,hubbc101,dannh101,terrb101
-event,dpline,1,hartg103,jurgb101
+event,dpline,1,hartg103,jurgb101,hermb101
 line,0,0,2,2,0,0,0,0,0,0,0,0
 line,1,0,1,1,0,1,0,1,0,0,0,1
 event,hrline,1,stait101,hubbc101,2,0,-1
