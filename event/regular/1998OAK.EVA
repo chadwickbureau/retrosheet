@@ -683,7 +683,6 @@ info,attendance,6963
 info,wp,krivr001
 info,lp,candt001
 info,save,jackm001
-com,"Suspend=19980408,,6,5,48"
 start,loftk001,"Kenny Lofton",0,1,8
 start,branj002,"Jeff Branson",0,2,4
 start,justd001,"Dave Justice",0,3,10
@@ -704,6 +703,7 @@ start,spies001,"Scott Spiezio",1,7,4
 start,hinca001,"A.J. Hinch",1,8,2
 start,bourr001,"Rafael Bournigal",1,9,6
 start,candt001,"Tom Candiotti",1,0,1
+com,"Suspend=19980408,,6,5,48"
 com,"$Start of game delayed 1:46 by rain, first pitch"
 com,"at 8:51; delay of 1:44 at 10:18 PM, game resumed"
 com,"at 12:02 AM, game suspended at 1:22 AM for curfew,"
@@ -805,7 +805,8 @@ play,8,1,hendr001,02,CCX,7/F7M
 play,8,1,mcdoj002,00,,NP
 sub,assep001,"Paul Assenmacher",0,0,1
 play,8,1,mcdoj002,10,BX,8/L8LM
-com,"$Game suspended at this point (1:22 AM), resumed on 4-08"
+com,"suspended,19980408,OAK01,curfew"
+com,"$Game suspended for curfew at this point (1:22 AM), resumed on 4-08"
 play,9,0,justd001,00,,NP
 sub,blowm001,"Mike Blowers",1,6,5
 play,9,0,justd001,00,,NP

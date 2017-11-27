@@ -2129,7 +2129,6 @@ info,wp,olins001
 info,lp,russj001
 info,save,joned001
 info,gwrbi,
-com,"Suspend=19900512,ARL01,4,4,33"
 start,browj001,"Jerry Browne",0,1,4
 start,websm001,"Mitch Webster",0,2,8
 start,jamed001,"Dion James",0,3,7
@@ -2150,6 +2149,7 @@ start,incap001,"Pete Incaviglia",1,7,7
 start,cools001,"Scott Coolbaugh",1,8,5
 start,pettg001,"Gary Pettis",1,9,8
 start,ryann001,"Nolan Ryan",1,0,1
+com,"Suspend=19900512,ARL01,4,4,33"
 play,1,0,browj001,01,FX,S7/P56D
 play,1,0,websm001,00,X,T9/L9LS.1-H
 play,1,0,jamed001,32,SBBCBS,K
@@ -2208,6 +2208,7 @@ play,6,0,jacob001,30,IIII,I
 play,6,0,hernk001,00,,NP
 sub,russj001,"Jeff Russell",1,0,1
 play,6,0,hernk001,32,.BCBFBX,8/F8D
+com,"suspended,19900512,ARL01,rain"
 com,"$game suspended here due to rain, completed on May 12"
 play,6,1,petrg001,00,.,NP
 sub,jamec001,"Chris James",0,3,7
@@ -8835,8 +8836,8 @@ play,5,1,russj002,10,BX,8/F8XD
 play,5,1,buecs001,00,H,HP
 com,"ej,buecs001,P,mcclt901,Charging mound after HBP"
 com,"Steve Buechele ejected by HP umpire Tim McClelland for"
-com,"charging the mound; he was hurt during the fight and later"
-com,"suspended"
+com,"charging the mound; he was hurt during the fight and"
+com,"later suspended"
 play,5,1,kunkj001,00,.,NP
 sub,husoj001,"Jeff Huson",1,8,12
 play,5,1,kunkj001,02,..FSS,K

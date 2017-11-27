@@ -4196,7 +4196,6 @@ info,wp,nye-r101
 info,lp,arrig101
 info,save,johnk102
 info,gwrbi,
-com,"Suspend=19690902,CIN07,5,4,42"
 start,kessd101,"Don Kessinger",0,1,6
 start,popop101,"Paul Popovich",0,2,4
 start,santr102,"Ron Santo",0,3,5
@@ -4215,6 +4214,7 @@ start,corrp102,"Pat Corrales",1,6,2
 start,helmt101,"Tommy Helms",1,7,4
 start,chand101,"Darrel Chaney",1,8,6
 start,arrig101,"Gerry Arrigo",1,9,1
+com,"Suspend=19690902,CIN07,5,4,42"
 play,1,0,kessd101,,,3/G
 play,1,0,popop101,12,,HP
 play,1,0,santr102,11,,4/P
@@ -4309,7 +4309,9 @@ com,"umpchange,8,umphome,venzt901"
 com,"umpchange,8,ump1b,secof101"
 com,"umpchange,8,ump2b,davis901"
 com,"umpchange,8,ump3b,pryop901"
-com,"$game suspended and completed on 9/2 with new umpires"
+com,"suspended,19690902,CIN07,pre-determined stopping time"
+com,"$game suspended as previously agreed and completed on 9/2"
+com,"with new umpires"
 play,8,0,rudok101,,,NP
 sub,ramop101,"Pedro Ramos",1,9,1
 play,8,0,rudok101,,,NP

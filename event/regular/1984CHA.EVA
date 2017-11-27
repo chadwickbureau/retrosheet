@@ -2161,7 +2161,6 @@ info,wp,seavt001
 info,lp,portc001
 info,save,
 info,gwrbi,
-com,"Suspend=19840509,CHI10,3,3,102"
 start,readr001,"Randy Ready",0,1,5
 start,sundj001,"Jim Sundberg",0,2,2
 start,younr001,"Robin Yount",0,3,6
@@ -2182,6 +2181,7 @@ start,law-v001,"Vance Law",1,7,5
 start,flets001,"Scott Fletcher",1,8,6
 start,cruzj002,"Julio Cruz",1,9,4
 start,fallb001,"Bob Fallon",1,0,1
+com,"Suspend=19840509,CHI10,3,3,102"
 play,1,0,readr001,,,63
 play,1,0,sundj001,,,W
 play,1,0,younr001,,,54(1)3/GDP
@@ -2371,7 +2371,8 @@ play,17,1,fiskc001,,,5
 play,17,1,hillm001,,,D7
 play,17,1,stegd001,,,K
 play,17,1,bainh001,,,43
-com,"$Game suspended here and completed the next day"
+com,"suspended,19840509,CHI10,curfew"
+com,"$Game suspended for curfew and completed the next day"
 play,18,0,readr001,,,D
 play,18,0,schrb001,,,4/SH.2-3
 play,18,0,younr001,,,IW

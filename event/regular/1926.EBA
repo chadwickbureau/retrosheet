@@ -50,16 +50,16 @@ stat,bline,koenm101,0,1,1,5,2,1,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,combe101,0,2,1,5,2,2,0,1,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,gehrl101,0,3,1,4,3,2,1,1,0,2,1,0,0,1,-1,0,1,0,-1,0
 stat,bline,ruthb101,0,4,1,6,3,3,2,0,0,2,0,0,0,0,-1,0,1,0,-1,0
-stat,bline,meusb101,0,5,1,3,1,1,1,0,0,0,2,0,0,1,-1,0,0,0,-1,0
+stat,bline,meusb101,0,5,1,3,1,1,1,0,0,1,2,0,0,1,-1,0,0,0,-1,0
 stat,bline,lazzt101,0,6,1,4,1,1,0,0,0,1,0,0,1,1,-1,0,0,0,-1,0
-stat,bline,dugaj101,0,7,1,5,0,3,0,0,0,3,0,0,0,1,-1,0,0,0,-1,0
+stat,bline,dugaj101,0,7,1,5,0,3,0,0,0,1,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,collp101,0,8,1,3,0,2,0,0,0,3,0,0,0,2,-1,0,0,0,-1,0
 stat,bline,shawb102,0,9,1,3,0,0,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,shocu101,0,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,jones104,0,9,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,flagi101,1,1,1,6,2,4,2,0,0,2,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,hanef101,1,2,1,5,1,2,0,0,0,2,1,0,0,0,-1,1,0,0,-1,0
-stat,bline,roses102,1,3,1,5,1,1,0,0,0,0,1,0,0,0,-1,2,0,0,-1,0
+stat,bline,roses102,1,3,1,5,1,1,0,0,0,1,1,0,0,0,-1,2,0,0,-1,0
 stat,bline,todtp101,1,4,1,5,0,1,1,0,0,2,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,jenkt101,1,5,1,5,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,herrm101,1,6,1,3,1,2,1,0,0,1,0,0,1,1,-1,0,0,0,-1,0
@@ -651,12 +651,13 @@ stat,pline,quinj102,0,2,12,-1,17,5,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,coves101,1,1,27,-1,34,6,0,1,0,1,0,1,-1,2,0,0,0,0,0
 event,dpline,0,gallc101,bishm102
 event,dpline,0,frenw101,hausj101
+event,dpline,0,gallc101,bishm102,hausj101
 event,dpline,1,myerb103,harrb106,judgj101
 event,sbline,0,lamab101,coves101,ruelm101,-1
 event,sbline,1,judgj101,,cochm101,-1
 line,0,0,0,0,0,0,1,0,0,0
 line,1,0,0,0,3,0,0,0,0
-stat,tline,0,6,0,2,0
+stat,tline,0,6,0,3,0
 stat,tline,1,8,0,1,0
 id,CHA192604150
 version,3
@@ -748,8 +749,8 @@ stat,dline,gullt102,1,1,9,27,4,0,0,0,0,0
 stat,dline,schar103,1,1,2,27,5,0,0,0,0,0
 stat,dline,kammw101,1,1,5,27,1,0,0,0,0,0
 stat,dline,blant101,1,1,1,27,0,1,0,0,0,0
-stat,pline,zacht101,0,1,2,-1,12,4,-1,-1,0,8,0,2,-1,0,0,0,0,2,0
-stat,pline,boles101,0,2,22,-1,30,7,-1,-1,0,3,3,4,-1,2,0,0,0,0,0
+stat,pline,zacht101,0,1,2,-1,10,4,-1,-1,0,8,0,2,-1,0,0,0,0,2,0
+stat,pline,boles101,0,2,22,-1,32,7,-1,-1,0,3,3,4,-1,2,0,0,0,0,0
 stat,pline,blant101,1,1,27,-1,38,9,1,0,0,4,4,2,-1,4,0,0,0,0,0
 event,dpline,0,gerbw101,mcmam101,sislg101
 event,dpline,0,gerbw101,mcmam101,sislg101
@@ -1290,7 +1291,7 @@ stat,pline,heimf101,0,2,3,-1,5,0,-1,-1,0,0,0,2,-1,0,0,0,0,0,0
 stat,pline,grovl101,0,3,3,-1,6,2,-1,-1,0,2,2,2,-1,0,0,0,0,0,0
 stat,pline,walbr101,0,4,8,-1,9,1,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 stat,pline,romme101,0,5,3,-1,4,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-stat,pline,ruetd101,1,1,25,-1,38,10,-1,-1,0,3,3,3,-1,2,0,0,0,1,0
+stat,pline,ruetd101,1,1,25,-1,39,10,-1,-1,0,3,3,3,-1,2,0,0,0,1,0
 stat,pline,marbf101,1,2,2,-1,3,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 event,dpline,0,bishm102,gallc101,hausj101
 event,dpline,0,bishm102,gallc101,millb110
@@ -1699,7 +1700,7 @@ stat,dline,lazzt101,0,1,4,27,0,2,0,0,0,0
 stat,dline,dugaj101,0,1,5,27,1,2,0,0,0,0
 stat,dline,collp101,0,1,2,27,2,1,0,1,0,0
 stat,dline,jones104,0,1,1,0,0,0,0,0,0,0
-stat,dline,hoytw101,0,1,1,27,1,3,0,1,0,0
+stat,dline,hoytw101,0,1,1,27,1,3,0,0,0,0
 stat,dline,rices101,1,1,8,27,3,0,1,0,0,0
 stat,dline,harrb106,1,1,4,27,2,3,0,0,0,0
 stat,dline,goslg101,1,1,7,27,2,0,0,0,0,0
@@ -1817,7 +1818,7 @@ stat,pline,uhleg101,0,1,24,-1,35,9,5,0,0,5,5,5,-1,4,0,0,0,1,0
 stat,pline,lyont102,1,1,27,-1,39,9,1,0,0,1,0,4,-1,0,0,0,0,0,0
 event,dpline,0,sewel101,sewej101
 event,dpline,0,uhleg101,sewej101,burng102
-event,dpline,1,colle101,scote101,sheee101
+event,dpline,1,lyont102,scote101,sheee101
 line,0,0,0,0,0,1,0,0,0,0
 line,1,0,0,0,1,4,0,0,0
 stat,tline,0,11,0,2,0
@@ -1847,7 +1848,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,145
-info,attendance,0
+info,attendance,29000
 info,wp,white102
 info,lp,david102
 info,save,doylj105
@@ -1858,8 +1859,8 @@ start,sislg101,"George Sisler",0,3,3
 start,willk101,"Ken Williams",0,4,7
 start,mcmam101,"Marty McManus",0,5,4
 start,jacow101,"Baby Doll Jacobson",0,6,8
-start,robeg101,"Gene Robertson",0,7,5
-start,schaw101,"Wally Schang",0,8,2
+start,schaw101,"Wally Schang",0,7,2
+start,robeg101,"Gene Robertson",0,8,5
 start,david102,"Dixie Davis",0,9,1
 start,warnj101,"Jack Warner",1,1,5
 start,orouf101,"Frank O'Rourke",1,2,4
@@ -1881,10 +1882,10 @@ stat,bline,sislg101,0,3,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,willk101,0,4,1,3,0,2,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,mcmam101,0,5,1,2,1,0,0,0,0,0,0,0,0,2,-1,0,0,0,-1,0
 stat,bline,jacow101,0,6,1,4,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,robeg101,0,7,1,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,hargp101,0,7,2,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,melis101,0,7,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,schaw101,0,8,1,4,1,1,0,0,0,1,0,0,0,0,-1,2,0,0,-1,0
+stat,bline,schaw101,0,7,1,4,1,1,0,0,0,1,0,0,0,0,-1,2,0,0,-1,0
+stat,bline,robeg101,0,8,1,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,hargp101,0,8,2,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,melis101,0,8,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,david102,0,9,1,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,riceh101,0,9,2,2,0,1,1,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,warnj101,1,1,1,3,0,1,1,0,0,2,1,0,0,1,-1,0,0,0,-1,0
@@ -1909,9 +1910,9 @@ stat,dline,sislg101,0,1,3,24,6,1,0,1,0,0
 stat,dline,willk101,0,1,7,24,2,0,0,0,0,0
 stat,dline,mcmam101,0,1,4,24,7,4,0,1,0,0
 stat,dline,jacow101,0,1,8,24,0,0,0,0,0,0
+stat,dline,schaw101,0,1,2,24,3,2,0,0,0,0
 stat,dline,robeg101,0,1,5,15,1,2,0,0,0,0
 stat,dline,melis101,0,1,5,9,0,1,0,0,0,0
-stat,dline,schaw101,0,1,2,24,3,2,0,0,0,0
 stat,dline,david102,0,1,1,15,1,0,0,0,0,0
 stat,dline,riceh101,0,1,9,9,0,0,0,0,0,0
 stat,dline,warnj101,1,1,5,27,1,1,0,0,0,0
@@ -2238,11 +2239,12 @@ stat,pline,ruffr101,1,1,27,-1,37,8,1,0,0,1,1,5,-1,2,0,0,0,4,0
 event,dpline,1,flagi101,biscj101
 event,dpline,1,flagi101,hanef101,herrm101,biscj101
 event,dpline,1,ruffr101,herrm101,todtp101
+event,dpline,1,flagi101,biscj101
 event,sbline,0,bishm102,ruffr101,biscj101,-1
 line,0,0,0,0,0,1,0,0,0,0
 line,1,0,2,0,0,0,0,0,0
 stat,tline,0,9,0,0,0
-stat,tline,1,5,0,3,0
+stat,tline,1,5,0,4,0
 id,CHA192604190
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -2551,12 +2553,12 @@ stat,dline,falkb101,1,1,7,27,0,0,0,0,0,0
 stat,dline,gullt102,1,1,9,27,4,0,0,0,0,0
 stat,dline,schar103,1,1,2,27,3,0,0,0,0,0
 stat,dline,kammw101,1,1,5,27,1,2,0,0,0,0
-stat,dline,thurs101,1,1,1,17,0,2,0,0,0,0
-stat,dline,thomt103,1,1,1,7,0,1,0,0,0,0
+stat,dline,thurs101,1,1,1,16,0,2,0,0,0,0
+stat,dline,thomt103,1,1,1,8,0,1,0,0,0,0
 stat,dline,edwaj102,1,1,1,3,0,0,0,0,0,0
 stat,pline,shauj101,0,1,27,-1,37,7,0,0,1,5,5,4,-1,3,0,0,0,0,0
-stat,pline,thurs101,1,1,17,-1,26,10,-1,-1,1,5,5,0,-1,0,0,0,0,1,0
-stat,pline,thomt103,1,2,7,-1,16,7,-1,-1,0,4,1,1,-1,2,0,0,0,1,0
+stat,pline,thurs101,1,1,16,-1,26,10,-1,-1,1,5,5,0,-1,0,0,0,0,1,0
+stat,pline,thomt103,1,2,8,-1,16,7,-1,-1,0,4,1,1,-1,2,0,0,0,1,0
 stat,pline,edwaj102,1,3,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,0,spurf101,sewej101,burng102
 line,0,0,0,0,0,1,5,1,2,0
@@ -3563,7 +3565,7 @@ event,dpline,1,melis101,mcmam101,sislg101
 event,dpline,1,lamob101,mcmam101,sislg101
 event,dpline,1,melis101,sislg101
 event,dpline,1,lamob101,mcmam101,sislg101
-event,dpline,1,hargp101,mcmam101
+event,dpline,1,hargp101,lamob101
 event,csline,0,falkb101,,hargp101,-1
 line,0,1,0,1,0,0,6,0,0,3
 line,1,0,0,3,1,0,3,0,0,0
@@ -3974,7 +3976,7 @@ stat,pline,lyont102,0,1,35,-1,44,6,2,0,0,2,2,8,-1,1,0,0,0,0,0
 stat,pline,gastm101,1,1,36,-1,48,9,0,0,0,1,1,7,-1,1,0,0,0,1,0
 event,dpline,1,mcmam101,lamob101,sislg101
 event,dpline,0,kammw101,colle101,sheee101
-event,dpline,1,mcmam101,sislg101,mcmam101,hargp101
+event,dpline,1,mcmam101,sislg101,lamob101,hargp101
 event,dpline,0,scote101,colle101,sheee101
 event,dpline,0,schar103,lyont102,kammw101,colle101,schar103,colle101
 event,csline,0,harrs102,gastm101,hargp101,-1
@@ -4180,7 +4182,7 @@ stat,dline,shocu101,1,1,1,27,2,2,0,0,0,0
 stat,pline,wilth101,0,1,21,-1,35,10,-1,-1,0,6,6,3,-1,1,0,0,0,5,0
 stat,pline,lundd101,0,2,3,-1,6,2,-1,-1,1,3,3,1,-1,1,0,0,0,0,0
 stat,pline,shocu101,1,1,27,-1,33,4,1,1,0,1,1,3,-1,3,0,0,0,0,0
-event,dpline,0,rignt101,herrm101,todtp101
+event,dpline,0,hanef101,herrm101,todtp101
 event,dpline,0,rignt101
 event,dpline,1,collp101,dugaj101
 event,sbline,1,meusb101,,gasta101,-1
@@ -4364,10 +4366,10 @@ stat,prline,winge102,7,1,0,0,0
 stat,phline,gerbw101,9,1,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,dline,mostj101,0,1,8,27,4,0,0,0,0,0
 stat,dline,harrs102,0,1,9,27,2,0,0,0,0,0
-stat,dline,colle101,0,1,4,27,4,5,0,2,0,0
+stat,dline,colle101,0,1,4,27,4,5,0,1,0,0
 stat,dline,sheee101,0,1,3,27,9,2,0,1,0,0
 stat,dline,falkb101,0,1,7,27,2,0,0,0,0,0
-stat,dline,kammw101,0,1,5,27,0,1,1,0,0,0
+stat,dline,kammw101,0,1,5,27,0,1,1,1,0,0
 stat,dline,croub101,0,1,2,27,3,2,0,0,0,0
 stat,dline,scote101,0,1,6,27,3,4,0,2,0,0
 stat,dline,thomt103,0,1,1,10,0,0,0,0,0,0
@@ -4391,7 +4393,7 @@ stat,pline,boles101,1,3,6,-1,7,2,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 event,dpline,1,melis101,mcmam101,sislg101
 event,dpline,1,melis101,mcmam101,sislg101
 event,dpline,0,scote101,kammw101
-event,dpline,0,colle101,sheee101,colle101
+event,dpline,0,colle101,sheee101,scote101
 event,csline,0,mostj101,,schaw101,-1
 event,csline,1,willk101,,croub101,-1
 line,0,1,0,0,2,1,0,3,0,0
@@ -5139,12 +5141,13 @@ stat,dline,ruetd101,1,1,1,27,0,3,0,0,0,0
 stat,pline,ehmkh101,0,1,18,-1,30,11,-1,-1,0,5,4,2,-1,1,0,0,1,1,0
 stat,pline,kiefj101,0,2,6,-1,10,4,-1,-1,0,1,1,1,-1,0,0,1,0,1,0
 stat,pline,ruetd101,1,1,27,-1,38,8,0,0,0,2,2,3,-1,4,0,0,0,0,0
+event,dpline,0,rignt101,herrm101,todtp101
 event,dpline,1,myerb103,harrb106,judgj101
 event,sbline,1,rices101,,gasta101,-1
 event,csline,1,goslg101,,gasta101,-1
 line,0,0,0,0,0,0,2,0,0,0
 line,1,0,0,0,2,2,1,1,0
-stat,tline,0,9,0,0,0
+stat,tline,0,9,0,1,0
 stat,tline,1,10,0,1,0
 id,DET192604270
 version,3
@@ -5767,7 +5770,7 @@ stat,pline,grovl101,0,1,24,-1,34,10,2,1,0,3,3,2,-1,11,0,1,0,2,0
 stat,pline,jones104,1,1,27,-1,36,3,0,0,0,0,0,6,-1,4,0,1,0,2,0
 event,dpline,1,lazzt101,gehrl101
 event,dpline,0,hales101,bishm102,hausj101
-event,dpline,0,frenw101,cochm101,hales101
+event,dpline,0,frenw101,hausj101,hales101
 event,sbline,0,gallc101,jones104,collp101,-1
 line,0,0,0,0,0,0,0,0,0,0
 line,1,0,0,0,0,0,0,0,3
@@ -5974,11 +5977,12 @@ stat,pline,kiefj101,0,2,17,-1,20,3,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 stat,pline,ogdec101,1,1,27,-1,38,8,1,1,0,2,2,4,-1,2,0,0,0,0,0
 event,dpline,1,harrb106,myerb103,judgj101
 event,dpline,0,rignt101,herrm101,todtp101
+event,dpline,0,rignt101,herrm101,todtp101
 event,sbline,0,hanef101,ogdec101,seveh101,-1
 line,0,0,0,0,0,0,0,0,2,0
 line,1,1,1,3,0,0,0,0,0
 event,hrline,1,harrb106,wilth101,1,0,1
-stat,tline,0,9,0,1,0
+stat,tline,0,9,0,2,0
 stat,tline,1,6,0,1,0
 id,CLE192604290
 version,3
@@ -7452,7 +7456,6 @@ stat,pline,robec101,1,1,18,-1,30,11,-1,-1,1,6,6,3,-1,4,0,0,0,1,0
 stat,pline,winge102,1,2,9,-1,10,2,-1,-1,0,0,0,0,-1,1,0,0,0,1,0
 event,dpline,1,melis101,gerbw101,sislg101
 event,dpline,1,mcmam101,melis101,sislg101
-event,dpline,1,mcmam101
 event,csline,0,neunj101,,schaw101,-1
 line,0,0,1,0,0,1,1,3,0,0
 line,1,0,0,4,0,1,0,1,0,3
@@ -7460,7 +7463,7 @@ event,hrline,0,cobbt101,robec101,6,0,-1
 event,hrline,1,bennh102,gibss101,3,1,-1
 event,hrline,1,willk101,welle101,9,2,-1
 stat,tline,0,7,0,0,0
-stat,tline,1,6,0,3,0
+stat,tline,1,6,0,2,0
 id,WS1192605020
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8285,7 +8288,7 @@ stat,pline,vange101,0,1,14,-1,27,12,-1,-1,0,8,6,1,-1,1,0,0,0,2,0
 stat,pline,winge102,0,2,10,-1,17,4,-1,-1,0,3,2,2,-1,0,0,0,0,1,0
 stat,pline,uhleg101,1,1,27,-1,42,13,3,0,0,5,3,3,-1,5,0,0,0,3,0
 event,dpline,0,gerbw101,melis101,sislg101
-event,dpline,1,padge101,spurf101
+event,dpline,1,spurf101,burng102
 event,sbline,1,burng102,,schaw101,-1
 event,sbline,1,padge101,,schaw101,-1
 event,sbline,1,uhleg101,,schaw101,-1
@@ -8387,8 +8390,8 @@ stat,dline,dykej101,1,1,5,27,1,2,1,1,0,0
 stat,dline,millb110,1,1,9,27,0,0,0,0,0,0
 stat,dline,gallc101,1,1,6,27,2,3,1,1,0,0
 stat,dline,quinj102,1,1,1,27,0,4,0,1,0,0
-stat,pline,jones104,0,1,4,-1,13,4,-1,-1,1,5,4,2,-1,0,0,0,0,3,0
-stat,pline,thomm101,0,2,11,-1,16,4,-1,-1,0,3,0,2,-1,2,0,0,0,2,0
+stat,pline,jones104,0,1,4,-1,11,4,-1,-1,1,5,4,2,-1,0,0,0,0,3,0
+stat,pline,thomm101,0,2,11,-1,18,4,-1,-1,0,3,0,2,-1,2,0,0,0,2,0
 stat,pline,braxg101,0,3,6,-1,6,0,-1,-1,0,0,0,0,-1,4,0,0,0,0,0
 stat,pline,mcquh102,0,4,3,-1,6,3,-1,-1,0,2,2,0,-1,1,0,0,0,1,0
 stat,pline,quinj102,1,1,27,-1,43,13,4,0,0,5,2,1,-1,5,0,0,0,3,0
@@ -8618,9 +8621,9 @@ stat,pline,johna101,0,2,6,-1,11,3,-1,-1,0,4,4,2,-1,0,0,0,0,2,0
 stat,pline,daush101,0,3,12,-1,18,3,-1,-1,0,0,0,2,-1,1,0,0,0,1,0
 stat,pline,thomt103,1,1,10,-1,18,4,-1,-1,0,4,4,5,-1,1,0,0,0,0,0
 stat,pline,edwaj102,1,2,5,-1,11,5,-1,-1,0,5,5,1,-1,1,0,0,1,0,0
-stat,pline,steem102,1,3,3,-1,5,2,-1,-1,0,1,1,0,-1,0,0,0,0,0,0
+stat,pline,steem102,1,3,3,-1,6,2,-1,-1,0,1,1,0,-1,0,0,0,0,0,0
 stat,pline,conns101,1,4,6,-1,8,1,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
-stat,pline,leved101,1,5,3,-1,8,2,-1,-1,1,4,3,1,-1,0,0,0,0,2,0
+stat,pline,leved101,1,5,3,-1,7,2,-1,-1,1,4,3,1,-1,0,0,0,0,2,0
 event,dpline,1,scote101,colle101,sheee101
 line,0,0,0,0,4,0,6,0,0,4
 line,1,1,0,2,4,0,0,0,0,0
@@ -9041,10 +9044,10 @@ stat,dline,dugaj101,1,1,5,27,2,1,0,0,0,0
 stat,dline,collp101,1,1,2,27,6,1,1,0,0,1
 stat,dline,shocu101,1,1,1,21,1,0,0,0,0,0
 stat,dline,shawb102,1,1,1,6,0,0,0,0,0,0
-stat,pline,ruetd101,0,1,20,-1,34,7,-1,-1,0,2,2,6,-1,2,1,0,0,1,0
-stat,pline,marbf101,0,2,7,-1,11,3,-1,-1,0,1,1,3,-1,1,0,0,0,0,0
-stat,pline,shocu101,1,1,21,-1,29,5,-1,-1,2,3,3,1,-1,1,0,0,0,0,0
-stat,pline,shawb102,1,2,6,-1,9,2,-1,-1,0,2,1,2,-1,2,1,0,0,0,0
+stat,pline,ruetd101,0,1,20,-1,33,7,-1,-1,0,2,2,6,-1,2,1,0,0,0,0
+stat,pline,marbf101,0,2,7,-1,12,3,-1,-1,0,1,1,3,-1,1,0,0,0,1,0
+stat,pline,shocu101,1,1,21,-1,27,5,-1,-1,2,3,3,1,-1,1,0,0,0,0,0
+stat,pline,shawb102,1,2,6,-1,11,2,-1,-1,0,2,1,2,-1,2,1,0,0,0,0
 event,dpline,0,peckr101,harrb106,judgj101
 event,csline,0,mcnee101,,collp101,-1
 event,hpline,1,shawb102,blueo102
@@ -9271,6 +9274,7 @@ stat,pline,shauj101,0,1,27,-1,36,7,2,0,0,2,1,2,-1,2,0,1,0,0,0
 stat,pline,kiefj101,1,1,5,-1,14,5,-1,-1,0,7,7,2,-1,0,2,0,0,0,0
 stat,pline,welzt101,1,2,16,-1,24,7,-1,-1,0,2,0,0,-1,0,0,0,0,0,0
 stat,pline,lundd101,1,3,6,-1,9,2,-1,-1,0,2,2,0,-1,1,1,0,0,1,0
+event,dpline,0,sewej101,spurf101,burng102
 event,sbline,0,jamic101,,gasta101,-1
 event,sbline,0,spurf101,,gasta101,-1
 event,sbline,0,speat101,,gasta101,-1
@@ -9280,7 +9284,7 @@ event,hpline,1,,burng102
 event,hpline,1,,burng102
 line,0,2,5,0,0,1,1,0,2,0
 line,1,1,0,0,0,0,1,0,0,0
-stat,tline,0,9,0,0,0
+stat,tline,0,9,0,1,0
 stat,tline,1,7,0,0,0
 id,NYA192605070
 version,3
@@ -9392,7 +9396,7 @@ stat,pline,welle101,0,3,3,-1,6,2,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
 stat,pline,stonl101,0,4,10,-1,15,3,-1,-1,0,1,1,3,-1,2,0,0,0,1,0
 stat,pline,hoytw101,1,1,21,-1,34,9,-1,-1,0,5,5,5,-1,3,0,0,0,1,0
 stat,pline,pennh101,1,2,12,-1,15,2,-1,-1,0,1,0,1,-1,4,0,0,0,0,0
-event,dpline,1,lazzt101,koenm101,ruthb101
+event,dpline,1,lazzt101,koenm101,gehrl101
 event,sbline,0,cobbt101,,collp101,-1
 event,sbline,1,meusb101,,bassj102,-1
 event,csline,1,meusb101,,bassj102,-1
@@ -10010,7 +10014,7 @@ stat,dline,thoml104,1,1,1,0,0,0,0,0,0,0
 stat,dline,marbf101,1,1,1,6,0,0,1,0,0,0
 stat,dline,morrb101,1,1,1,3,0,1,0,0,0,0
 stat,pline,blant101,0,1,27,-1,41,10,1,2,0,5,5,4,-1,2,0,0,0,0,0
-stat,pline,ogdec101,1,1,15,-1,29,10,-1,-1,1,8,2,3,-1,1,0,0,0,0,0
+stat,pline,ogdec101,1,1,15,-1,30,10,-1,-1,1,8,2,3,-1,1,0,0,0,0,0
 stat,pline,kellh101,1,2,3,-1,4,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,thoml104,1,3,0,-1,2,0,-1,-1,0,0,0,2,-1,0,0,0,0,0,0
 stat,pline,marbf101,1,4,6,-1,9,3,-1,-1,0,2,2,0,-1,0,0,0,0,0,0
@@ -10558,12 +10562,11 @@ stat,dline,heimf101,1,1,1,26,0,3,0,0,0,0
 stat,pline,gastm101,0,1,24,-1,32,7,0,1,1,3,3,2,-1,1,0,1,0,3,0
 stat,pline,patej101,1,1,1,-1,4,2,-1,-1,0,0,0,1,-1,0,0,0,0,1,0
 stat,pline,heimf101,1,2,26,-1,31,5,-1,-1,0,2,2,0,-1,1,0,0,0,0,0
-event,dpline,0,melis101,lamob101,sislg101
-event,dpline,1,dykej101,gallc101,hausj101
+event,dpline,1,dykej101,bishm102,hausj101
 line,0,0,0,0,0,0,2,0,0,0
 line,1,0,1,0,1,0,0,0,1
 event,hrline,1,simma101,gastm101,4,0,-1
-stat,tline,0,6,0,1,0
+stat,tline,0,6,0,0,0
 stat,tline,1,5,0,1,0
 id,WS1192605100
 version,3
@@ -10759,7 +10762,7 @@ stat,pline,faber101,0,1,12,-1,18,6,-1,-1,0,5,5,1,-1,3,0,0,0,0,0
 stat,pline,thomt103,0,2,12,-1,19,2,-1,-1,0,1,1,5,-1,3,0,0,0,1,0
 stat,pline,grovl101,1,1,27,-1,41,8,0,0,0,2,1,5,-1,11,0,0,0,0,0
 event,dpline,0,hunnb101,colle101,sheee101
-event,dpline,1,dykej101,hausj101
+event,dpline,1,dykej101,bishm102,hausj101
 event,sbline,0,harrs102,grovl101,perkc101,-1
 event,sbline,1,dykej101,,grabj101,-1
 event,csline,1,gallc101,,grabj101,-1
@@ -10896,7 +10899,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,116
-info,attendance,0
+info,attendance,3000
 info,wp,wilth101
 info,lp,hollk101
 info,save,
@@ -11062,8 +11065,8 @@ stat,dline,lazzt101,1,1,4,30,1,2,1,0,0,0
 stat,dline,dugaj101,1,1,5,30,3,0,0,0,0,0
 stat,dline,collp101,1,1,2,30,1,0,0,0,0,0
 stat,dline,shocu101,1,1,1,30,1,2,0,0,0,0
-stat,pline,smits102,0,1,24,-1,38,12,-1,-1,1,5,5,2,-1,1,0,0,0,3,0
-stat,pline,buckg101,0,2,5,-1,9,1,-1,-1,0,1,0,4,-1,0,0,0,0,0,0
+stat,pline,smits102,0,1,24,-1,37,12,-1,-1,1,5,5,2,-1,1,0,0,0,2,0
+stat,pline,buckg101,0,2,5,-1,10,1,-1,-1,0,1,0,4,-1,0,0,0,0,1,0
 stat,pline,shocu101,1,1,30,-1,45,11,2,0,0,5,5,4,-1,1,0,0,0,3,0
 event,dpline,0,sewej101,spurf101,burng102
 event,dpline,1,gehrl101,koenm101,gehrl101
@@ -12648,7 +12651,7 @@ stat,dline,shocu101,1,1,1,27,0,2,0,0,0,0
 stat,pline,blant101,0,1,18,-1,29,8,-1,-1,1,5,5,3,-1,4,0,0,0,2,0
 stat,pline,edwaj102,0,2,6,-1,8,0,-1,-1,0,0,0,3,-1,0,0,0,0,2,0
 stat,pline,shocu101,1,1,27,-1,40,10,4,0,0,3,3,3,-1,3,0,0,0,0,0
-event,dpline,1,collp101,gazem101
+event,dpline,1,collp101,koenm101
 event,dpline,0,harrs102,hunnb101
 event,sbline,0,hunnb101,shocu101,collp101,-1
 event,sbline,0,colle101,shocu101,collp101,-1
@@ -12856,11 +12859,12 @@ stat,pline,ruetd101,1,1,17,-1,31,13,-1,-1,0,7,7,3,-1,2,0,0,0,1,0
 stat,pline,ogdec101,1,2,7,-1,10,3,-1,-1,0,1,1,1,-1,0,0,0,0,1,0
 stat,pline,ferga101,1,3,3,-1,7,3,-1,-1,0,4,2,1,-1,0,0,0,0,0,0
 event,dpline,1,harrb106,peckr101,judgj101
+event,dpline,1,judgj101,ruelm101
 event,csline,0,buckg101,,ruelm101,-1
 line,0,1,0,2,0,2,2,0,1,4
 line,1,3,1,0,1,0,0,0,0,0
 stat,tline,0,9,0,0,0
-stat,tline,1,7,0,1,0
+stat,tline,1,7,0,2,0
 id,BOS192605180
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -13074,7 +13078,7 @@ stat,pline,jones104,1,1,16,-1,25,7,-1,-1,1,3,3,2,-1,2,1,0,0,2,0
 stat,pline,braxg101,1,2,10,-1,13,4,-1,-1,0,0,0,2,-1,0,0,0,0,0,0
 stat,pline,pennh101,1,3,1,-1,1,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,1,meusb101,collp101
-event,dpline,1,gazem101,koenm101
+event,dpline,1,gazem101,lazzt101
 event,sbline,1,lazzt101,thurs101,croub101,-1
 event,hpline,1,jones104,falkb101
 line,0,0,0,0,1,0,2,0,0,0
@@ -14497,8 +14501,8 @@ stat,dline,dykej101,1,1,4,-1,2,6,0,2,0,0
 stat,dline,bishm102,1,1,4,-1,1,4,0,0,0,0
 stat,dline,millb110,1,1,7,-1,3,0,0,0,0,0
 stat,dline,millb110,1,2,9,-1,3,0,0,0,0,0
-stat,dline,hausj101,1,1,3,18,8,0,0,2,0,0
-stat,dline,poolj101,1,1,3,21,11,0,0,0,0,0
+stat,dline,hausj101,1,1,3,18,8,0,0,1,0,0
+stat,dline,poolj101,1,1,3,21,11,0,0,1,0,0
 stat,dline,romme101,1,1,1,22,0,2,0,0,0,0
 stat,dline,patej101,1,1,1,2,0,0,0,0,0,0
 stat,dline,baums101,1,1,1,13,0,0,0,0,0,0
@@ -14510,12 +14514,13 @@ stat,pline,patej101,1,2,2,-1,2,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 stat,pline,baums101,1,3,13,-1,21,7,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
 stat,pline,heimf101,1,4,2,-1,3,0,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 event,dpline,1,dykej101,wambb101,hausj101
+event,dpline,1,wambb101,dykej101,poolj101
 event,sbline,1,simma101,,myatg101,-1
 line,0,0,1,0,0,0,2,0,0,0,0,0,0,1
 line,1,0,0,0,0,0,1,1,0,1,0,0,0,0
 event,hrline,0,burng102,romme101,2,0,-1
 stat,tline,0,15,0,0,0
-stat,tline,1,15,0,1,0
+stat,tline,1,15,0,2,0
 id,WS1192605210
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -15109,7 +15114,7 @@ stat,pline,white102,0,1,8,-1,17,5,-1,-1,0,4,2,3,-1,0,0,0,0,0,0
 stat,pline,daush101,0,2,16,-1,22,4,-1,-1,0,2,2,2,-1,0,0,0,0,1,0
 stat,pline,kellh101,1,1,9,-1,17,5,-1,-1,0,5,4,4,-1,2,0,0,0,0,0
 stat,pline,bushj102,1,2,15,-1,20,3,-1,-1,0,1,1,2,-1,6,0,0,0,0,0
-event,dpline,1,harrb106,peckr101,harrj103
+event,dpline,1,harrb106,peckr101,harrj103,ruelm101
 event,dpline,1,myerb103,harrb106,harrj103
 line,0,1,0,4,0,1,0,0,0
 line,1,2,0,2,2,0,0,0,0
@@ -15721,14 +15726,11 @@ stat,pline,levsd101,1,1,15,-1,23,7,-1,-1,0,5,4,1,-1,2,0,0,0,2,0
 stat,pline,shauj101,1,2,3,-1,7,3,-1,-1,0,3,0,1,-1,0,0,0,0,0,0
 stat,pline,lehrn101,1,3,9,-1,10,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,0,gerbw101,sislg101
-event,dpline,0,gerbw101,sislg101
-event,dpline,0,gerbw101,melis101,sislg101
-event,dpline,0,gerbw101,melis101,sislg101
 event,dpline,0,gerbw101,melis101,sislg101
 event,dpline,1,spurf101,knodr101
 line,0,0,3,1,1,0,3,0,0,0
 line,1,1,0,0,1,0,0,0,3,0
-stat,tline,0,5,0,5,0
+stat,tline,0,5,0,2,0
 stat,tline,1,6,0,1,0
 id,DET192605240
 version,3
@@ -15828,14 +15830,14 @@ stat,dline,johna101,1,1,1,15,1,2,0,0,0,0
 stat,dline,barfc101,1,1,1,12,1,3,0,1,0,0
 stat,pline,thomt103,0,1,23,-1,34,7,-1,-1,0,4,4,4,-1,3,0,0,0,1,0
 stat,pline,thurs101,0,2,4,-1,4,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-stat,pline,johna101,1,1,15,-1,21,4,-1,-1,1,4,4,2,-1,1,0,0,0,1,0
-stat,pline,barfc101,1,2,12,-1,23,8,-1,-1,2,6,5,2,-1,0,0,0,0,1,0
+stat,pline,johna101,1,1,15,-1,21,4,-1,-1,2,4,4,2,-1,1,0,0,0,1,0
+stat,pline,barfc101,1,2,12,-1,23,8,-1,-1,1,6,5,2,-1,0,0,0,0,1,0
 event,dpline,1,barfc101,bluel101
 event,sbline,0,hunnb101,,,-1
 line,0,0,0,0,1,3,0,2,0,4
 line,1,0,0,1,0,3,0,0,0,0
 event,hrline,0,falkb101,johna101,4,0,-1
-event,hrline,0,mostj101,barfc101,5,2,-1
+event,hrline,0,mostj101,johna101,5,2,-1
 event,hrline,0,barrb105,barfc101,9,2,-1
 stat,tline,0,7,0,0,0
 stat,tline,1,7,0,1,0
@@ -16140,12 +16142,13 @@ stat,pline,zacht101,0,1,24,-1,31,6,-1,-1,0,4,1,2,-1,1,0,0,0,2,0
 stat,pline,ballw101,0,2,8,-1,14,5,-1,-1,1,2,2,2,-1,1,0,1,0,2,0
 stat,pline,uhleg101,1,1,33,-1,45,12,3,1,1,4,3,0,-1,10,0,0,0,0,0
 event,dpline,0,zacht101,gerbw101,sislg101
+event,dpline,0,gerbw101,sislg101
 event,csline,0,riceh101,uhleg101,sewel101,-1
 line,0,1,0,0,0,0,0,0,2,1,0,0
 line,1,0,1,0,0,0,3,0,0,0,0,2
 event,hrline,1,uhleg101,ballw101,11,1,-1
 event,hrline,0,hargp101,uhleg101,8,1,-1
-stat,tline,0,8,0,1,0
+stat,tline,0,8,0,2,0
 stat,tline,1,7,0,0,0
 id,DET192605250
 version,3
@@ -16368,6 +16371,9 @@ stat,pline,heimf101,1,2,0,-1,3,3,-1,-1,0,3,1,0,-1,0,0,0,0,0,0
 stat,pline,walbr101,1,3,2,-1,7,3,-1,-1,0,3,0,1,-1,1,0,0,0,0,0
 stat,pline,grays102,1,4,9,-1,9,0,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
 stat,pline,baums101,1,5,3,-1,5,3,-1,-1,0,2,2,0,-1,0,0,0,0,0,0
+event,dpline,1,gallc101,hausj101
+event,dpline,1,hales101,bishm102,poolj101
+event,dpline,1,frenw101,bishm102,poolj101
 event,sbline,0,judgj101,,,-1
 event,sbline,0,blueo102,,,-1
 event,sbline,1,poolj101,,ruelm101,-1
@@ -16376,7 +16382,7 @@ line,1,4,0,0,2,0,0,0,4,2
 event,hrline,1,hausj101,morrb101,4,1,-1
 event,hrline,1,hales101,marbf101,9,1,-1
 stat,tline,0,5,0,0,0
-stat,tline,1,13,0,0,0
+stat,tline,1,13,0,3,0
 id,PHA192605252
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -16824,12 +16830,13 @@ stat,pline,quinj102,0,1,27,-1,40,9,1,0,0,1,1,4,-1,2,0,0,0,1,0
 stat,pline,bushj102,1,1,21,-1,34,9,-1,-1,0,3,3,2,-1,2,0,0,0,1,0
 stat,pline,ferga101,1,2,3,-1,4,1,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,marbf101,1,3,3,-1,3,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
+event,dpline,0,dykej101,hausj101
 event,sbline,0,gallc101,,,-1
 event,sbline,0,gallc101,,,-1
 event,sbline,1,rices101,quinj102,cochm101,-1
 line,0,1,0,0,0,1,0,1,0,0
 line,1,0,0,0,0,0,0,0,1,0
-stat,tline,0,11,0,0,0
+stat,tline,0,11,0,1,0
 stat,tline,1,12,0,0,0
 id,CHA192605270
 version,3
@@ -17237,15 +17244,15 @@ stat,dline,thurs101,1,1,1,9,0,1,0,0,0,0
 stat,dline,steem102,1,1,1,12,0,1,1,0,0,0
 stat,dline,conns101,1,1,1,6,0,1,0,1,0,0
 stat,pline,johna101,0,1,27,-1,38,6,2,0,0,3,1,5,-1,1,0,0,0,1,0
-stat,pline,thurs101,1,1,9,-1,15,7,-1,-1,0,4,4,0,-1,0,0,0,0,2,0
-stat,pline,steem102,1,2,12,-1,19,5,-1,-1,1,2,1,2,-1,1,0,0,0,4,0
+stat,pline,thurs101,1,1,9,-1,15,7,-1,-1,1,4,4,0,-1,0,0,0,0,2,0
+stat,pline,steem102,1,2,12,-1,19,5,-1,-1,0,2,1,2,-1,1,0,0,0,4,0
 stat,pline,conns101,1,3,6,-1,7,0,-1,-1,0,0,0,2,-1,1,0,0,0,0,0
 event,dpline,1,conns101,hunnb101,sheee101
 event,csline,0,warnj101,,grabj101,-1
 event,csline,1,mostj101,johna101,manic101,-1
 line,0,0,1,3,0,0,0,2,0,0
 line,1,0,0,0,1,0,2,0,0,0
-event,hrline,0,heilh101,steem102,3,1,-1
+event,hrline,0,heilh101,thurs101,3,1,-1
 stat,tline,0,8,0,0,0
 stat,tline,1,8,0,1,0
 id,NYA192605281
@@ -18412,7 +18419,7 @@ stat,pline,ruffr101,0,3,0,-1,1,0,-1,-1,0,0,0,0,-1,0,1,0,0,0,0
 stat,pline,ogdec101,1,1,21,-1,29,6,-1,-1,0,2,1,3,-1,1,0,0,0,0,0
 stat,pline,ferga101,1,2,12,-1,17,3,-1,-1,0,1,1,1,-1,2,0,0,0,2,0
 event,dpline,1,harrb106,judgj101
-event,dpline,1,goslg101,harrb106,judgj101
+event,dpline,1,goslg101,blueo102,judgj101
 event,dpline,0,rignt101,herrm101,todtp101
 event,dpline,0,wilth101,rignt101,todtp101
 event,hpline,0,ruffr101,harrb106
@@ -19277,12 +19284,12 @@ stat,dline,biscj101,1,1,2,27,3,0,0,0,0,0
 stat,dline,wingt101,1,1,1,27,0,4,0,0,0,0
 stat,pline,harrs101,0,1,5,-1,11,4,-1,-1,0,4,2,1,-1,0,0,0,0,0,0
 stat,pline,heimf101,0,2,1,-1,2,1,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
-stat,pline,patej101,0,3,12,-1,18,3,-1,-1,0,1,1,3,-1,0,0,0,0,0,0
-stat,pline,walbr101,0,4,2,-1,3,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
+stat,pline,patej101,0,3,12,-1,17,3,-1,-1,0,1,1,3,-1,0,0,0,0,0,0
+stat,pline,walbr101,0,4,2,-1,4,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,romme101,0,5,4,-1,5,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,wingt101,1,1,27,-1,39,9,2,0,1,4,2,4,-1,2,0,0,0,2,0
 event,dpline,0,gallc101,hausj101
-event,dpline,1,rignt101,herrm101,todtp101
+event,dpline,1,hanef101,herrm101,todtp101
 line,0,0,0,1,2,0,0,1,0,0
 line,1,2,2,0,0,1,0,0,0
 event,hrline,0,cochm101,wingt101,3,0,-1
@@ -19819,9 +19826,9 @@ stat,dline,bengb101,1,1,2,24,6,1,1,0,0,0
 stat,dline,collp101,1,1,2,3,0,0,0,0,0,0
 stat,dline,hoytw101,1,1,1,24,0,0,0,0,0,0
 stat,dline,braxg101,1,1,1,3,0,0,0,0,0,0
-stat,pline,johnw102,0,1,15,-1,24,7,-1,-1,1,5,5,4,-1,6,0,0,0,0,0
-stat,pline,ferga101,0,2,6,-1,10,2,-1,-1,0,0,0,1,-1,1,0,0,0,1,0
-stat,pline,marbf101,0,3,3,-1,4,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
+stat,pline,johnw102,0,1,15,-1,25,7,-1,-1,1,5,5,4,-1,6,0,0,0,0,0
+stat,pline,ferga101,0,2,6,-1,9,2,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
+stat,pline,marbf101,0,3,3,-1,4,0,-1,-1,0,0,0,1,-1,0,0,0,0,1,0
 stat,pline,hoytw101,1,1,24,-1,38,9,-1,-1,0,4,3,3,-1,5,0,0,0,1,0
 stat,pline,braxg101,1,2,3,-1,4,0,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 event,dpline,0,ruelm101,blueo102
@@ -21194,7 +21201,7 @@ stat,dline,thomt103,1,1,1,0,0,0,0,0,0,0
 stat,dline,edwaj102,1,1,1,27,1,2,0,0,0,0
 stat,pline,ruffr101,0,1,18,-1,27,8,-1,-1,0,6,6,2,-1,2,0,1,0,2,0
 stat,pline,wingt101,0,2,1,-1,6,2,-1,-1,0,4,4,3,-1,0,0,0,0,0,0
-stat,pline,lundd101,0,3,5,-1,7,1,-1,-1,0,0,0,1,-1,0,0,1,1,1,0
+stat,pline,lundd101,0,3,5,-1,7,1,-1,-1,0,0,0,1,-1,0,0,1,0,1,0
 stat,pline,thomt103,1,1,0,-1,4,3,-1,-1,0,3,3,1,-1,0,0,0,0,0,0
 stat,pline,edwaj102,1,2,27,-1,30,4,-1,-1,0,2,2,2,-1,3,0,0,0,2,0
 event,dpline,0,todtp101
@@ -21709,12 +21716,11 @@ stat,pline,morrb101,0,2,12,-1,15,3,-1,-1,0,0,0,0,-1,0,0,0,0,1,0
 stat,pline,ferga101,0,3,1,-1,3,1,-1,-1,0,1,0,1,-1,0,0,0,0,0,0
 stat,pline,marbf101,0,4,1,-1,2,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 stat,pline,levsd101,1,1,27,-1,40,9,3,1,0,4,2,3,-1,2,0,0,0,0,0
-event,dpline,1,sewel101,sewej101
 event,csline,0,myerb103,levsd101,sewel101,-1
 line,0,0,0,0,0,2,0,0,0,2
 line,1,2,0,0,2,0,0,0,0,1
 stat,tline,0,9,0,0,0
-stat,tline,1,9,0,1,0
+stat,tline,1,9,0,0,0
 id,DET192606080
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -22690,7 +22696,7 @@ stat,pline,pennh101,0,1,27,-1,34,5,1,0,0,1,0,3,-1,3,1,0,0,1,0
 stat,pline,johna101,1,1,15,-1,25,5,-1,-1,1,6,3,3,-1,2,1,0,0,2,0
 stat,pline,smitg102,1,2,12,-1,19,5,-1,-1,1,2,2,2,-1,1,0,0,0,0,0
 event,dpline,0,lazzt101,gazem101
-event,dpline,0,lazzt101,gehrl101
+event,dpline,0,koenm101,lazzt101,gehrl101
 event,sbline,0,koenm101,,manic101,-1
 event,csline,1,neunj101,pennh101,collp101,-1
 event,hpline,1,johna101,ruthb101
@@ -23739,12 +23745,13 @@ stat,pline,wilth101,0,1,27,-1,39,11,0,0,0,3,3,3,-1,4,0,0,0,0,0
 stat,pline,gibss101,1,1,2,-1,8,2,-1,-1,0,3,0,3,-1,0,0,0,0,0,0
 stat,pline,hollk101,1,2,19,-1,26,7,-1,-1,0,3,3,1,-1,5,0,0,0,0,0
 stat,pline,johna101,1,3,6,-1,9,3,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
+event,dpline,0,rignt101,regab101
 event,dpline,1,tavej101,gehrc101,neunj101
 event,dpline,1,heilh101,neunj101
 event,dpline,0,rignt101,regab101,todtp101
 line,0,3,0,0,0,0,0,3,1,0
 line,1,0,0,0,0,2,0,0,1,0
-stat,tline,0,9,0,1,0
+stat,tline,0,9,0,2,0
 stat,tline,1,9,0,2,0
 id,SLA192606130
 version,3
@@ -24074,6 +24081,7 @@ stat,pline,white102,1,1,21,-1,31,6,-1,-1,0,4,4,4,-1,2,1,0,0,0,0
 stat,pline,daush101,1,2,3,-1,6,2,-1,-1,1,3,3,1,-1,0,0,0,0,0,0
 stat,pline,collr104,1,3,3,-1,5,1,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 event,dpline,0,todtp101,rignt101,todtp101
+event,dpline,1,gehrc101,neunj101
 event,sbline,1,neunj101,,biscj101,-1
 event,sbline,1,heilh101,,biscj101,-1
 event,sbline,1,tavej101,,biscj101,-1
@@ -24084,7 +24092,7 @@ line,0,0,0,0,0,0,0,4,3,0
 line,1,0,3,0,0,0,1,0,4
 event,hrline,0,ruffr101,daush101,8,2,-1
 stat,tline,0,8,0,1,0
-stat,tline,1,5,0,0,0
+stat,tline,1,5,0,1,0
 id,SLA192606140
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -24942,10 +24950,11 @@ stat,pline,smits102,1,1,27,-1,30,5,0,1,0,1,1,0,-1,1,0,0,0,0,0
 event,dpline,1,lutzr101,spurf101,burng102
 event,dpline,1,sewej101,spurf101,burng102
 event,dpline,0,regab101,rignt101,todtp101
+event,dpline,0,regab101,rignt101,todtp101
 event,sbline,1,sewej101,,gasta101,-1
 line,0,0,1,0,0,0,0,0,0,0
 line,1,2,0,1,0,0,0,0,0
-stat,tline,0,2,0,1,0
+stat,tline,0,2,0,2,0
 stat,tline,1,9,0,2,0
 id,DET192606170
 version,3
@@ -25051,12 +25060,14 @@ stat,pline,grovl101,0,3,4,-1,7,1,-1,-1,0,2,0,0,-1,1,0,0,0,1,0
 stat,pline,welle101,1,1,23,-1,39,9,-1,-1,1,11,6,7,-1,3,0,0,0,4,0
 stat,pline,smitg102,1,2,1,-1,3,2,-1,-1,0,1,1,0,-1,0,0,0,0,0,0
 stat,pline,daush101,1,3,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
+event,dpline,0,hausj101,englc102
+event,dpline,1,winga101,gehrc101
 line,0,0,4,0,0,0,0,2,6,0
 line,1,0,0,2,1,0,0,0,4,2
 event,hrline,1,manuh101,grays102,3,1,-1
 event,hrline,0,simma101,welle101,7,1,-1
-stat,tline,0,6,0,0,0
-stat,tline,1,9,0,0,0
+stat,tline,0,6,0,1,0
+stat,tline,1,9,0,1,0
 id,SLA192606170
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -25455,18 +25466,19 @@ stat,dline,woodl101,1,1,2,9,2,0,0,0,0,0
 stat,dline,white102,1,1,1,16,0,1,0,0,0,0
 stat,dline,gibss101,1,1,1,2,1,0,0,0,0,0
 stat,dline,johna101,1,1,1,9,0,1,0,0,0,0
-stat,pline,grays102,0,1,17,-1,22,4,-1,-1,0,2,0,2,-1,2,0,0,0,0,0
+stat,pline,grays102,0,1,17,-1,23,4,-1,-1,0,2,0,2,-1,2,0,0,0,0,0
 stat,pline,quinj102,0,2,10,-1,13,2,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 stat,pline,white102,1,1,16,-1,26,9,-1,-1,0,8,7,4,-1,0,0,0,0,1,0
 stat,pline,gibss101,1,2,2,-1,5,3,-1,-1,0,2,0,0,-1,1,0,0,0,1,0
 stat,pline,johna101,1,3,9,-1,14,3,-1,-1,0,2,2,2,-1,1,0,0,0,1,0
-event,dpline,1,warnj101,orouf101
 event,dpline,1,warnj101,orouf101,bluel101
+event,dpline,1,tavej101,orouf101,bluel101
+event,dpline,1,warnj101,orouf101
 event,sbline,0,foxxj101,,,-1
 line,0,0,0,0,0,0,10,1,1,0
 line,1,0,0,0,0,0,2,0,0,0
 stat,tline,0,6,0,0,0
-stat,tline,1,6,0,2,0
+stat,tline,1,6,0,3,0
 id,SLA192606180
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -25880,13 +25892,14 @@ stat,dline,daush101,1,1,1,3,0,0,0,0,0,0
 stat,pline,grovl101,0,1,24,-1,38,11,1,1,0,5,0,4,-1,6,0,0,0,5,0
 stat,pline,hollk101,1,1,24,3,34,8,-1,-1,0,3,3,2,-1,6,1,1,0,2,0
 stat,pline,daush101,1,2,3,-1,3,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
+event,dpline,1,bluel101,tavej101,bluel101
 event,dpline,0,dykej101,bishm102,hausj101
 event,csline,1,orouf101,grovl101,cochm101,-1
 event,hpline,1,hollk101,hausj101
 line,0,1,0,0,0,0,2,0,0,0
 line,1,1,0,0,3,1,0,0,0
 stat,tline,0,7,0,1,0
-stat,tline,1,9,0,0,0
+stat,tline,1,9,0,1,0
 id,SLA192606190
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -26277,15 +26290,15 @@ stat,dline,heilh101,1,1,9,27,1,0,0,0,0,0
 stat,dline,warnj101,1,1,5,27,3,2,0,0,0,0
 stat,dline,tavej101,1,1,6,27,1,3,0,0,0,0
 stat,dline,woodl101,1,1,2,27,5,0,0,0,0,0
-stat,dline,stonl101,1,1,1,15,1,0,0,0,0,0
+stat,dline,stonl101,1,1,1,12,1,0,0,0,0,0
 stat,dline,coopw101,1,1,1,0,0,0,0,0,0,0
-stat,dline,gibss101,1,1,1,12,0,1,0,0,0,0
+stat,dline,gibss101,1,1,1,15,0,1,0,0,0,0
 stat,pline,walbr101,0,1,12,-1,20,5,-1,-1,1,6,0,1,-1,2,0,0,0,0,0
-stat,pline,patej101,0,2,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-stat,pline,romme101,0,3,9,-1,16,4,-1,-1,0,2,1,1,-1,1,0,1,0,2,0
-stat,pline,stonl101,1,1,15,-1,19,2,-1,-1,0,3,2,5,-1,2,0,0,0,0,0
+stat,pline,romme101,0,2,9,-1,16,4,-1,-1,0,2,1,1,-1,1,0,1,0,2,0
+stat,pline,patej101,0,3,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
+stat,pline,stonl101,1,1,12,-1,19,2,-1,-1,0,3,2,5,-1,2,0,0,0,0,0
 stat,pline,coopw101,1,2,0,-1,2,1,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
-stat,pline,gibss101,1,3,12,-1,19,3,-1,-1,0,0,0,0,-1,2,0,0,0,0,0
+stat,pline,gibss101,1,3,15,-1,19,3,-1,-1,0,0,0,0,-1,3,0,0,0,0,0
 event,sbline,1,bluel101,,cochm101,-1
 line,0,1,0,0,0,2,0,0,0,0
 line,1,1,0,0,5,0,1,1,0
@@ -26610,6 +26623,7 @@ stat,dline,welle101,1,1,1,30,0,1,0,0,0,0
 stat,pline,zacht101,0,1,29,-1,42,9,2,2,0,5,4,5,-1,2,0,0,0,4,0
 stat,pline,welle101,1,1,30,-1,41,10,1,0,1,4,3,2,-1,3,0,0,0,1,0
 event,dpline,0,melis101,gerbw101,sislg101
+event,dpline,1,tavej101,orouf101,bluel101
 event,sbline,0,millb110,welle101,,-1
 event,csline,0,riceh101,welle101,,-1
 event,csline,1,manuh101,zacht101,hargp101,-1
@@ -26617,7 +26631,7 @@ line,0,0,0,0,3,0,1,0,0,0,0
 line,1,0,1,0,2,0,1,0,0,0,1
 event,hrline,0,millb110,welle101,6,0,-1
 stat,tline,0,7,0,1,0
-stat,tline,1,8,0,0,0
+stat,tline,1,8,0,1,0
 id,PHA192606210
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -26727,7 +26741,7 @@ stat,pline,ruffr101,0,2,16,-1,26,6,-1,-1,0,2,1,3,-1,1,0,0,0,2,0
 stat,pline,ehmkh101,1,1,10,-1,16,7,-1,-1,1,5,5,1,-1,1,0,1,0,1,0
 stat,pline,willl103,1,2,6,-1,10,3,-1,-1,0,0,0,2,-1,1,0,0,0,2,0
 stat,pline,romme101,1,3,17,-1,25,7,-1,-1,0,1,1,2,-1,2,0,0,0,2,0
-event,dpline,1,ehmkh101,gallc101
+event,dpline,1,ehmkh101,bishm102
 event,dpline,1,ehmkh101,hausj101
 event,csline,0,rignt101,,cochm101,-1
 line,0,0,1,0,4,0,0,0,0,0,0,1
@@ -26809,10 +26823,10 @@ stat,dline,summh101,0,1,9,28,2,0,0,0,0,0
 stat,dline,spurf101,0,1,4,28,5,3,0,2,0,0
 stat,dline,sewej101,0,1,6,28,2,3,0,1,0,0
 stat,dline,burng102,0,1,3,28,11,1,0,2,0,0
-stat,dline,speat101,0,1,8,28,4,1,0,0,0,0
+stat,dline,speat101,0,1,8,28,4,1,0,1,0,0
 stat,dline,myatg101,0,1,2,28,1,3,0,0,0,0
 stat,dline,jamic101,0,1,7,28,1,0,0,0,0,0
-stat,dline,lutzr101,0,1,5,28,2,4,1,1,0,0
+stat,dline,lutzr101,0,1,5,28,2,4,1,2,0,0
 stat,dline,smits102,0,1,1,28,0,4,0,0,0,0
 stat,dline,mostj101,1,1,8,30,3,0,0,0,0,0
 stat,dline,hunnb101,1,1,6,30,1,1,0,0,0,0
@@ -26939,11 +26953,12 @@ stat,pline,vange101,0,3,1,-1,5,4,-1,-1,0,4,4,0,-1,0,0,0,0,1,0
 stat,pline,ballw101,0,4,2,-1,4,2,-1,-1,0,1,1,0,-1,0,0,0,0,0,0
 stat,pline,white102,1,1,21,-1,30,8,-1,-1,0,4,3,1,-1,1,0,0,0,2,0
 stat,pline,daush101,1,2,6,-1,8,1,-1,-1,0,0,0,1,-1,0,0,0,0,2,0
+event,dpline,1,tavej101,orouf101,bluel101
 event,csline,1,tavej101,,,-1
 line,0,0,0,0,0,0,0,3,1,0
 line,1,1,0,0,1,1,1,0,5
 stat,tline,0,7,0,0,0
-stat,tline,1,7,0,0,0
+stat,tline,1,7,0,1,0
 id,WS1192606221
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -27173,13 +27188,12 @@ stat,pline,hoytw101,0,1,27,-1,33,5,2,1,0,1,1,2,-1,5,0,0,0,1,0
 stat,pline,palme102,1,1,9,-1,17,4,-1,-1,1,7,4,4,-1,2,0,1,0,2,0
 stat,pline,ogdec101,1,2,15,-1,23,6,-1,-1,0,2,2,3,-1,2,0,0,0,0,0
 stat,pline,morrb101,1,3,3,-1,3,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-event,dpline,0,hoytw101,koenm101,gehrl101
 event,dpline,0,koenm101,lazzt101,gehrl101
 event,csline,0,meusb101,,,-1
 line,0,4,0,3,0,1,0,1,0,0
 line,1,0,0,0,0,0,0,0,0,1
 event,hrline,0,ruthb101,palme102,3,1,1
-stat,tline,0,7,0,2,0
+stat,tline,0,7,0,1,0
 stat,tline,1,5,0,0,0
 id,CHA192606230
 version,3
@@ -27264,12 +27278,12 @@ stat,dline,padge101,0,1,5,6,1,0,0,0,0,0
 stat,dline,uhleg101,0,1,1,24,0,1,0,0,0,0
 stat,dline,mostj101,1,1,8,27,2,0,0,0,0,0
 stat,dline,hunnb101,1,1,6,27,3,3,0,1,0,0
-stat,dline,colle101,1,1,4,27,2,2,0,1,0,0
+stat,dline,colle101,1,1,4,27,2,2,0,2,0,0
 stat,dline,sheee101,1,1,3,27,11,0,0,1,0,0
 stat,dline,falkb101,1,1,7,27,2,0,0,0,0,0
 stat,dline,barrb105,1,1,9,27,3,1,0,0,0,0
 stat,dline,kammw101,1,1,5,27,0,2,0,0,0,0
-stat,dline,croub101,1,1,2,27,4,2,0,0,0,0
+stat,dline,croub101,1,1,2,27,4,2,0,1,0,0
 stat,dline,blant101,1,1,1,27,0,0,0,0,0,0
 stat,pline,uhleg101,0,1,24,-1,37,11,1,0,0,5,5,2,-1,4,0,0,0,2,0
 stat,pline,blant101,1,1,27,-1,37,10,1,0,0,3,3,4,-1,3,0,0,0,2,0
@@ -27363,12 +27377,12 @@ stat,phline,roses102,11,1,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,dline,pascb102,0,1,8,-1,3,0,0,0,0,0
 stat,dline,pascb102,0,2,7,-1,0,0,0,0,0,0
 stat,dline,koenm101,0,1,6,32,3,2,0,0,0,0
-stat,dline,gehrl101,0,1,3,32,8,2,0,0,0,0
+stat,dline,gehrl101,0,1,3,32,8,2,0,1,0,0
 stat,dline,ruthb101,0,1,7,-1,2,0,0,0,0,0
 stat,dline,combe101,0,1,8,-1,2,0,0,0,0,0
 stat,dline,meusb101,0,1,9,32,2,0,0,0,0,0
 stat,dline,lazzt101,0,1,4,32,4,4,0,0,0,0
-stat,dline,gazem101,0,1,5,32,3,1,0,0,0,0
+stat,dline,gazem101,0,1,5,32,3,1,0,1,0,0
 stat,dline,collp101,0,1,2,32,4,0,0,0,0,0
 stat,dline,pennh101,0,1,1,25,0,0,0,0,0,0
 stat,dline,hoytw101,0,1,1,7,1,0,0,0,0,0
@@ -27491,8 +27505,8 @@ stat,dline,kammw101,1,1,5,27,2,7,0,1,0,0
 stat,dline,schar103,1,1,2,27,4,1,0,0,0,0
 stat,dline,edwaj102,1,1,1,11,0,0,0,0,0,0
 stat,dline,steem102,1,1,1,16,1,0,1,0,0,0
-stat,pline,buckg101,0,1,6,-1,9,3,-1,-1,0,3,3,0,-1,0,0,0,0,0,0
-stat,pline,levsd101,0,2,18,-1,27,5,-1,-1,1,6,6,4,-1,2,0,0,0,2,0
+stat,pline,buckg101,0,1,6,-1,10,3,-1,-1,0,3,3,0,-1,0,0,0,0,0,0
+stat,pline,levsd101,0,2,18,-1,26,5,-1,-1,1,6,6,4,-1,2,0,0,0,2,0
 stat,pline,edwaj102,1,1,11,-1,21,8,-1,-1,0,4,4,2,-1,3,0,0,0,0,0
 stat,pline,steem102,1,2,16,-1,20,4,-1,-1,0,2,2,2,-1,0,0,0,0,0,0
 event,dpline,1,kammw101,sheee101
@@ -28020,8 +28034,8 @@ stat,bline,mccuh101,1,8,2,2,1,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,faber101,1,9,1,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
 stat,bline,thurs101,1,9,2,3,0,2,1,0,0,1,0,0,0,0,-1,1,0,0,-1,0
 stat,dline,dursc101,0,1,8,27,5,0,0,0,0,0
-stat,dline,melis101,0,1,4,27,4,2,1,0,0,0
-stat,dline,sislg101,0,1,3,27,9,0,0,0,0,0
+stat,dline,melis101,0,1,4,27,4,2,1,1,0,0
+stat,dline,sislg101,0,1,3,27,9,0,0,1,0,0
 stat,dline,mcmam101,0,1,5,27,0,3,0,0,0,0
 stat,dline,millb110,0,1,7,27,4,0,0,0,0,0
 stat,dline,riceh101,0,1,9,27,3,1,0,0,0,0
@@ -28042,8 +28056,8 @@ stat,dline,mccuh101,1,1,2,-1,2,0,0,0,0,0
 stat,dline,faber101,1,1,1,6,0,2,0,0,0,0
 stat,dline,thurs101,1,1,1,21,0,1,0,0,0,0
 stat,pline,gastm101,0,1,27,-1,40,12,2,1,0,4,4,3,-1,1,0,0,0,2,0
-stat,pline,faber101,1,1,6,-1,16,7,-1,-1,0,6,5,2,-1,1,0,0,0,1,0
-stat,pline,thurs101,1,2,21,-1,29,8,-1,-1,1,5,4,1,-1,1,0,0,0,1,0
+stat,pline,faber101,1,1,6,-1,15,7,-1,-1,0,6,5,2,-1,1,0,0,0,0,0
+stat,pline,thurs101,1,2,21,-1,30,8,-1,-1,1,5,4,1,-1,1,0,0,0,2,0
 event,dpline,0,melis101,sislg101
 event,sbline,0,melis101,,,-1
 line,0,2,0,5,0,0,2,0,2,0
@@ -28668,7 +28682,7 @@ stat,pline,falkc102,0,1,15,-1,22,7,-1,-1,0,4,4,1,-1,0,1,0,0,2,0
 stat,pline,vange101,0,2,9,-1,13,4,-1,-1,0,2,2,1,-1,0,0,0,0,0,0
 stat,pline,blant101,1,1,27,-1,39,11,3,0,0,3,3,2,-1,3,0,0,0,0,0
 event,dpline,0,melis101,gerbw101,sislg101
-event,dpline,0,mcmam101,melis101,sislg101
+event,dpline,0,gerbw101,melis101,sislg101
 event,sbline,1,hunnb101,,hargp101,-1
 event,hpline,0,falkc102,mostj101
 line,0,0,0,0,1,0,2,0,0,0
@@ -28955,14 +28969,14 @@ stat,bline,ruelm101,1,8,1,3,1,1,1,0,0,2,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,ruetd101,1,9,1,4,0,1,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,phline,hales101,-1,0,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,phline,welcf101,-1,0,1,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,prline,cochm101,9,0,0,0,0
 stat,dline,bishm102,0,1,4,24,2,2,0,0,0,0
 stat,dline,frenw101,0,1,9,24,2,0,0,0,0,0
 stat,dline,simma101,0,1,8,24,2,0,0,0,0,0
 stat,dline,lamab101,0,1,7,24,4,0,0,0,0,0
 stat,dline,dykej101,0,1,5,24,2,1,0,0,0,0
 stat,dline,poolj101,0,1,3,24,6,1,0,0,0,0
-stat,dline,perkc101,0,1,2,-1,5,0,0,0,0,0
-stat,dline,cochm101,0,1,2,-1,0,0,0,0,0,0
+stat,dline,perkc101,0,1,2,24,5,0,0,0,0,0
 stat,dline,gallc101,0,1,6,24,1,2,0,0,0,0
 stat,dline,ehmkh101,0,1,1,15,0,0,0,0,0,0
 stat,dline,romme101,0,1,1,9,0,0,0,0,0,0
@@ -29086,7 +29100,7 @@ event,dpline,0,judgj101,peckr101,harrb106
 event,dpline,0,peckr101,harrb106,judgj101
 event,dpline,0,harrb106,peckr101,judgj101
 event,dpline,0,blueo102,ruelm101,judgj101
-event,dpline,1,herrm101,rignt101,todtp101
+event,dpline,1,herrm101,regab101,todtp101
 event,sbline,0,peckr101,wilth101,stoka102,-1
 event,csline,1,rignt101,,ruelm101,-1
 event,hpline,1,wilth101,goslg101
@@ -30272,7 +30286,7 @@ stat,pline,zacht101,1,1,24,-1,31,6,-1,-1,0,4,4,2,-1,1,1,0,0,3,0
 stat,pline,ballw101,1,2,3,-1,5,1,-1,-1,0,0,0,0,-1,1,0,0,0,1,0
 event,dpline,0,woodl101,orouf101
 event,dpline,0,tavej101,bluel101
-event,dpline,0,welle101,tavej101,bluel101
+event,dpline,0,orouf101,tavej101,bluel101
 event,dpline,0,bluel101,tavej101,bluel101
 event,sbline,1,riceh101,welle101,woodl101,-1
 event,csline,0,fothb101,,,-1
@@ -30385,15 +30399,15 @@ stat,dline,johna101,1,1,1,3,0,0,0,0,0,0
 stat,dline,smitg102,1,1,1,3,1,0,0,0,0,0
 stat,pline,karrb101,0,1,27,-1,40,11,6,2,1,6,6,2,-1,0,0,1,0,2,0
 stat,pline,gibss101,1,1,21,-1,32,7,-1,-1,0,6,6,4,-1,0,1,0,0,0,0
-stat,pline,johna101,1,2,3,-1,5,2,-1,-1,1,2,2,0,-1,0,0,0,0,0,0
-stat,pline,smitg102,1,3,3,-1,8,2,-1,-1,0,3,3,2,-1,0,0,0,0,0,0
+stat,pline,johna101,1,2,3,-1,5,2,-1,-1,0,2,2,0,-1,0,0,0,0,0,0
+stat,pline,smitg102,1,3,3,-1,8,2,-1,-1,1,3,3,2,-1,0,0,0,0,0,0
 event,dpline,1,bluel101,tavej101,bluel101
 event,sbline,0,burng102,,,-1
 event,sbline,1,cobbt101,karrb101,,-1
 event,hpline,1,gibss101,summh101
 line,0,0,0,0,2,0,0,0,6,3
 line,1,2,0,0,0,1,0,3,0,0
-event,hrline,0,summh101,johna101,9,2,-1
+event,hrline,0,summh101,smitg102,9,2,-1
 event,hrline,1,manuh101,karrb101,1,1,-1
 stat,tline,0,7,0,0,0
 stat,tline,1,7,0,1,0
@@ -30818,7 +30832,7 @@ stat,dline,winge102,1,1,1,27,1,1,0,1,0,0
 stat,pline,thomt103,0,1,26,-1,38,6,0,1,1,4,4,7,-1,4,0,0,0,0,0
 stat,pline,winge102,1,1,27,-1,35,7,0,0,1,3,2,2,-1,0,0,0,0,2,0
 event,dpline,0,colle101,hunnb101,sheee101
-event,dpline,0,mostj101,sheee101
+event,dpline,0,thomt103,sheee101
 event,dpline,1,winge102,melis101,sislg101
 event,dpline,0,hunnb101,colle101,sheee101
 event,sbline,0,mostj101,winge102,schaw101,-1
@@ -30925,12 +30939,13 @@ stat,pline,smits102,0,1,24,-1,40,15,3,3,0,9,9,2,-1,1,0,0,0,0,0
 stat,pline,daush101,1,1,21,-1,27,6,-1,-1,0,3,3,1,-1,2,0,0,0,0,0
 stat,pline,hollk101,1,2,6,-1,7,1,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 event,dpline,0,sewej101,spurf101,burng102
-event,dpline,0,smits102,lutzr101,burng102
+event,dpline,0,smits102,lutzr101,spurf101
+event,dpline,1,hollk101,tavej101,bluel101
 event,csline,0,jamic101,,,-1
 line,0,0,0,0,3,0,0,0,0,0
 line,1,0,0,1,0,1,0,7,0
 stat,tline,0,4,0,2,0
-stat,tline,1,7,0,0,0
+stat,tline,1,7,0,1,0
 id,PHA192607020
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -31036,8 +31051,8 @@ stat,dline,patej101,1,1,1,3,0,1,0,0,0,0
 stat,pline,wilth101,0,1,27,-1,34,6,-1,-1,0,1,1,4,-1,1,0,0,0,1,0
 stat,pline,zahnp101,0,2,10,-1,21,6,-1,-1,0,3,2,3,-1,0,0,0,0,2,0
 stat,pline,ehmkh101,1,1,36,-1,48,7,-1,-1,0,3,2,4,-1,9,0,1,0,2,0
-stat,pline,patej101,1,2,3,-1,5,1,-1,-1,0,0,0,2,-1,1,0,0,0,0,0
-event,dpline,0,regab101,rignt101,wilth101
+stat,pline,patej101,1,2,3,-1,6,1,-1,-1,0,0,0,2,-1,1,0,0,0,1,0
+event,dpline,0,todtp101,rignt101,wilth101
 event,dpline,1,perkc101,bishm102
 event,sbline,1,simma101,,biscj101,-1
 event,csline,0,flagi101,,,-1
@@ -31241,7 +31256,7 @@ stat,pline,bealw101,0,3,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,ruetd101,1,1,25,-1,39,11,-1,-1,1,5,4,3,-1,2,1,0,0,1,0
 stat,pline,marbf101,1,2,2,-1,2,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,0,gehrl101,collp101
-event,dpline,1,ruetd101,myerb103,judgj101
+event,dpline,1,ruetd101,harrb106,judgj101
 event,sbline,0,pascb102,,ruelm101,-1
 event,hpline,1,ruetd101,combe101
 line,0,1,0,2,0,1,0,0,0,1
@@ -31307,7 +31322,7 @@ stat,bline,summh101,0,6,1,1,1,1,1,0,0,0,0,0,0,3,-1,0,1,0,-1,0
 stat,bline,sewel101,0,7,1,2,0,0,0,0,0,1,2,0,0,0,-1,0,0,0,-1,0
 stat,bline,lutzr101,0,8,1,4,1,1,1,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,uhleg101,0,9,1,4,0,1,0,0,0,1,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,bluel101,1,1,1,3,1,1,0,1,0,0,1,0,0,1,-1,2,0,0,-1,0
+stat,bline,bluel101,1,1,1,4,1,1,0,1,0,0,0,0,0,1,-1,2,0,0,-1,0
 stat,bline,orouf101,1,2,1,2,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
 stat,bline,winga101,1,2,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,burkl101,1,2,3,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
@@ -31349,7 +31364,7 @@ stat,dline,coopw101,1,1,1,7,0,2,0,0,0,0
 stat,dline,collr104,1,1,1,14,1,1,0,0,0,0
 stat,dline,johna101,1,1,1,1,0,0,0,0,0,0
 stat,dline,hollk101,1,1,1,5,0,0,0,0,0,0
-stat,pline,uhleg101,0,1,27,-1,39,8,2,2,0,5,5,5,-1,5,0,1,0,4,0
+stat,pline,uhleg101,0,1,27,-1,39,8,2,2,0,5,5,5,-1,5,0,1,0,3,0
 stat,pline,coopw101,1,1,7,-1,15,7,-1,-1,0,5,4,1,-1,0,0,0,0,3,0
 stat,pline,collr104,1,2,14,-1,14,1,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 stat,pline,johna101,1,3,1,-1,4,1,-1,-1,0,2,2,2,-1,0,0,0,0,0,0
@@ -31459,6 +31474,7 @@ stat,dline,romme101,1,1,1,27,1,1,0,0,0,0
 stat,pline,harrs101,0,1,1,-1,6,5,-1,-1,0,4,4,0,-1,0,0,0,0,1,0
 stat,pline,welzt101,0,2,23,-1,35,9,-1,-1,1,8,6,3,-1,2,0,0,0,2,0
 stat,pline,romme101,1,1,27,-1,38,10,2,0,1,4,3,1,-1,1,0,0,0,1,0
+event,dpline,1,dykej101,bishm102,poolj101
 event,sbline,1,poolj101,,stoka102,-1
 event,csline,1,cochm101,,stoka102,-1
 line,0,0,0,0,0,1,0,0,1,2
@@ -31466,7 +31482,7 @@ line,1,4,1,0,2,1,0,1,3
 event,hrline,0,flagi101,romme101,9,1,-1
 event,hrline,1,cochm101,welzt101,5,0,-1
 stat,tline,0,7,0,0,0
-stat,tline,1,5,0,0,0
+stat,tline,1,5,0,1,0
 id,PHA192607032
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -31677,7 +31693,7 @@ stat,pline,edwaj102,0,1,27,-1,39,9,2,0,0,3,3,5,-1,0,0,0,0,2,0
 stat,pline,gastm101,1,1,20,-1,34,12,-1,-1,0,6,3,4,-1,1,0,0,0,1,0
 stat,pline,david102,1,2,1,-1,1,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,vange101,1,3,6,-1,8,1,-1,-1,1,2,2,1,-1,1,0,0,0,0,0
-event,dpline,0,sheee101,colle101,sheee101
+event,dpline,0,sheee101,hunnb101,sheee101
 event,csline,1,dursc101,edwaj102,schar103,-1
 line,0,0,1,0,1,1,0,3,0,2
 line,1,0,0,0,1,0,0,0,1,1
@@ -32005,7 +32021,7 @@ stat,pline,welle101,1,1,12,-1,20,7,-1,-1,0,4,4,3,-1,2,0,0,0,1,0
 stat,pline,stonl101,1,2,12,-1,18,5,-1,-1,0,3,3,1,-1,2,0,0,0,1,0
 stat,pline,smitg102,1,3,3,-1,4,0,-1,-1,0,0,0,2,-1,0,0,0,0,0,0
 event,dpline,1,tavej101,bluel101
-event,dpline,1,tavej101,woodl101,orouf101
+event,dpline,1,tavej101,woodl101
 event,dpline,1,warnj101,tavej101,warnj101
 event,sbline,0,barrb105,,,-1
 event,sbline,0,kammw101,,,-1
@@ -32309,7 +32325,7 @@ stat,pline,bengr101,0,2,5,-1,11,6,-1,-1,0,3,3,1,-1,0,0,0,0,0,0
 stat,pline,lehrn101,0,3,17,-1,21,2,-1,-1,0,1,1,2,-1,3,0,0,0,0,0
 stat,pline,thomt103,1,1,27,-1,34,6,1,0,0,0,0,4,-1,3,0,0,0,0,0
 event,dpline,1,hunnb101,colle101,sheee101
-event,dpline,1,colle101,hunnb101,mccuh101
+event,dpline,1,colle101,hunnb101,sheee101
 event,dpline,1,hunnb101,mccuh101
 event,csline,1,mostj101,,,-1
 event,csline,1,hunnb101,,,-1
@@ -32836,7 +32852,7 @@ stat,dline,ruelm101,1,1,2,27,5,0,0,0,0,0
 stat,dline,johnw102,1,1,1,27,0,3,0,0,0,0
 stat,pline,heimf101,0,1,24,-1,35,9,1,0,0,7,6,4,-1,2,0,0,0,2,0
 stat,pline,johnw102,1,1,27,-1,39,8,1,1,0,4,2,3,-1,5,0,0,0,1,0
-event,dpline,0,stoka102,regab101
+event,dpline,0,stoka102,rignt101
 event,dpline,0,rignt101,regab101,todtp101
 event,sbline,1,blueo102,heimf101,,-1
 event,sbline,1,blueo102,heimf101,,-1
@@ -33672,8 +33688,8 @@ stat,dline,cochm101,1,1,2,27,6,1,0,0,0,0
 stat,dline,gallc101,1,1,6,27,4,1,0,0,0,0
 stat,dline,ehmkh101,1,1,1,25,0,2,0,0,0,0
 stat,dline,patej101,1,1,1,2,0,0,0,0,0,0
-stat,pline,thurs101,0,1,13,-1,21,7,-1,-1,2,5,5,2,-1,0,0,0,0,2,0
-stat,pline,edwaj102,0,2,5,-1,9,3,-1,-1,0,3,3,1,-1,1,0,0,0,1,0
+stat,pline,thurs101,0,1,13,-1,21,7,-1,-1,1,5,5,2,-1,0,0,0,0,2,0
+stat,pline,edwaj102,0,2,5,-1,9,3,-1,-1,1,3,3,1,-1,1,0,0,0,1,0
 stat,pline,conns101,0,3,6,-1,7,2,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,ehmkh101,1,1,25,-1,40,13,-1,-1,0,7,7,2,-1,5,0,0,0,1,0
 stat,pline,patej101,1,2,2,-1,3,1,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
@@ -33684,7 +33700,7 @@ event,csline,0,hunnb101,,cochm101,-1
 line,0,0,0,1,0,1,0,0,0,5
 line,1,1,0,0,2,5,0,0,0
 event,hrline,1,simma101,thurs101,4,0,-1
-event,hrline,1,poolj101,thurs101,5,2,-1
+event,hrline,1,poolj101,edwaj102,5,2,-1
 stat,tline,0,9,0,1,0
 stat,tline,1,5,0,0,0
 id,BOS192607090
@@ -34198,13 +34214,13 @@ stat,bline,roses102,1,9,2,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,wingt101,1,9,3,2,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,phline,roses102,-1,1,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,bluel101,0,1,3,28,14,0,0,1,0,0
-stat,dline,orouf101,0,1,4,28,1,4,1,0,0,0
+stat,dline,orouf101,0,1,4,28,1,4,1,1,0,0
 stat,dline,fothb101,0,1,7,28,1,0,0,0,0,0
 stat,dline,manuh101,0,1,8,28,2,0,0,0,0,0
 stat,dline,winga101,0,1,9,28,1,1,0,0,0,0
 stat,dline,warnj101,0,1,5,28,1,3,0,0,0,0
 stat,dline,tavej101,0,1,6,28,3,4,0,1,0,0
-stat,dline,manic101,0,1,2,28,5,2,0,1,0,0
+stat,dline,manic101,0,1,2,28,5,2,0,0,0,0
 stat,dline,gibss101,0,1,1,14,0,1,0,0,0,0
 stat,dline,johna101,0,1,1,7,0,1,0,0,0,0
 stat,dline,daush101,0,1,1,7,0,1,0,0,0,0
@@ -34223,15 +34239,16 @@ stat,pline,johna101,0,2,7,-1,10,2,-1,-1,0,1,1,1,-1,3,0,0,0,0,0
 stat,pline,daush101,0,3,7,-1,11,2,-1,-1,1,2,1,2,-1,0,0,0,0,1,0
 stat,pline,harrs101,1,1,15,-1,23,8,-1,-1,0,5,3,1,-1,3,0,0,0,1,0
 stat,pline,wingt101,1,2,15,-1,15,2,-1,-1,0,0,0,0,-1,1,0,1,0,0,0
-event,dpline,0,orouf101,tavej101
+event,dpline,0,orouf101,tavej101,bluel101
 event,dpline,1,rignt101,regab101,todtp101
 event,dpline,1,rignt101,regab101,todtp101
+event,dpline,1,gasta101,regab101
 event,csline,1,flagi101,,manic101,-1
 line,0,0,0,0,1,4,0,0,0,0,0
 line,1,0,0,0,0,3,1,0,1,0,1
 event,hrline,1,jacow101,daush101,8,0,-1
 stat,tline,0,3,0,1,0
-stat,tline,1,7,0,2,0
+stat,tline,1,7,0,3,0
 id,BOS192607102
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -34436,7 +34453,7 @@ stat,dline,collp101,1,1,2,24,3,0,0,0,0,0
 stat,dline,bengb101,1,1,2,12,3,1,0,0,0,0
 stat,dline,shocu101,1,1,1,24,0,2,0,0,0,0
 stat,dline,braxg101,1,1,1,12,0,0,0,0,0,0
-stat,pline,shauj101,0,1,34,-1,48,13,1,2,1,4,4,7,-1,5,0,0,0,2,0
+stat,pline,shauj101,0,1,34,-1,49,13,1,2,1,4,4,7,-1,5,0,0,0,2,0
 stat,pline,shocu101,1,1,24,-1,32,8,-1,-1,1,3,3,1,-1,2,0,0,0,1,0
 stat,pline,braxg101,1,2,12,-1,16,2,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
 event,dpline,0,sewej101,spurf101,burng102
@@ -34577,7 +34594,6 @@ stat,pline,grays102,1,2,4,-1,10,3,-1,-1,0,6,3,1,-1,1,0,0,0,1,0
 stat,pline,patej101,1,3,5,-1,11,5,-1,-1,2,4,4,1,-1,1,0,0,0,0,0
 stat,pline,walbr101,1,4,3,-1,5,2,-1,-1,0,0,0,0,-1,2,0,0,0,0,0
 event,dpline,0,mostj101,schar103
-event,dpline,0,barrb105,kammw101,hunnb101,barrb105,kammw101
 event,sbline,0,colle101,,,-1
 event,csline,0,barrb105,,,-1
 event,csline,1,gallc101,,,-1
@@ -34588,7 +34604,7 @@ line,1,0,0,0,6,3,2,0,6
 event,hrline,0,falkb101,patej101,8,2,-1
 event,hrline,0,sheee101,patej101,8,0,-1
 event,hrline,1,simma101,blant101,4,1,-1
-stat,tline,0,6,0,2,0
+stat,tline,0,6,0,1,0
 stat,tline,1,10,0,0,0
 id,WS1192607100
 version,3
@@ -35134,8 +35150,8 @@ stat,dline,shawb102,1,1,1,9,0,2,0,0,0,0
 stat,dline,bealw101,1,1,1,15,0,3,0,1,0,0
 stat,dline,braxg101,1,1,1,3,0,0,0,0,0,0
 stat,pline,uhleg101,0,1,27,-1,34,4,0,0,0,2,2,3,-1,8,0,0,0,0,0
-stat,pline,shawb102,1,1,9,-1,17,9,-1,-1,2,4,4,0,-1,0,0,0,0,2,0
-stat,pline,bealw101,1,2,15,-1,23,3,-1,-1,0,2,1,3,-1,3,1,1,1,1,0
+stat,pline,shawb102,1,1,9,-1,18,9,-1,-1,2,4,4,0,-1,0,0,0,0,3,0
+stat,pline,bealw101,1,2,15,-1,22,3,-1,-1,0,2,1,3,-1,3,1,1,1,0,0
 stat,pline,braxg101,1,3,3,-1,5,1,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 event,dpline,1,bealw101,collp101,gehrl101
 event,hpline,1,bealw101,burng102
@@ -36199,8 +36215,8 @@ stat,dline,herrm101,1,1,5,-1,0,0,0,0,0,0
 stat,dline,stoka102,1,1,2,27,2,1,0,0,0,0
 stat,dline,heimf101,1,1,1,27,0,2,1,1,0,0
 stat,pline,shauj101,0,1,2,-1,6,5,-1,-1,0,3,3,0,-1,0,0,0,0,0,0
-stat,pline,buckg101,0,2,19,-1,24,2,-1,-1,0,1,0,2,-1,3,0,0,0,2,0
-stat,pline,lehrn101,0,3,3,-1,7,3,-1,-1,0,2,2,1,-1,0,0,0,0,1,0
+stat,pline,buckg101,0,2,19,-1,24,2,-1,-1,0,1,0,2,-1,3,0,0,0,3,0
+stat,pline,lehrn101,0,3,3,-1,7,3,-1,-1,0,2,2,1,-1,0,0,0,0,0,0
 stat,pline,heimf101,1,1,27,-1,32,6,0,0,0,2,2,1,-1,0,0,1,0,1,0
 event,dpline,0,spurf101,sewej101,burng102
 event,dpline,1,heimf101,rignt101,todtp101
@@ -36711,10 +36727,10 @@ stat,phline,tayld101,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,phline,ruetd101,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,harrj103,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,jamic101,0,1,7,27,3,1,0,1,0,0
-stat,dline,spurf101,0,1,4,27,2,6,0,1,0,0
+stat,dline,spurf101,0,1,4,27,2,6,0,2,0,0
 stat,dline,speat101,0,1,8,27,1,0,0,0,0,0
-stat,dline,burng102,0,1,3,27,10,1,0,1,0,0
-stat,dline,sewej101,0,1,6,27,5,5,0,2,0,0
+stat,dline,burng102,0,1,3,27,10,1,0,2,0,0
+stat,dline,sewej101,0,1,6,27,5,5,0,3,0,0
 stat,dline,summh101,0,1,9,27,2,0,1,0,0,0
 stat,dline,sewel101,0,1,2,27,3,0,0,0,0,0
 stat,dline,lutzr101,0,1,5,27,0,2,0,0,0,0
@@ -36736,6 +36752,7 @@ stat,pline,palme102,1,2,6,-1,11,4,-1,-1,0,2,2,2,-1,2,0,0,0,1,0
 stat,pline,ogdec101,1,3,6,-1,10,1,-1,-1,0,1,0,2,-1,0,0,0,0,2,0
 event,dpline,0,jamic101,sewej101
 event,dpline,0,spurf101,sewej101,burng102
+event,dpline,0,sewej101,spurf101,burng102
 event,sbline,0,jamic101,,ruelm101,-1
 event,sbline,0,summh101,,ruelm101,-1
 event,sbline,0,lutzr101,,ruelm101,-1
@@ -36744,7 +36761,7 @@ event,hpline,0,levsd101,mcnee101
 event,hpline,0,levsd101,goslg101
 line,0,0,1,3,0,1,1,1,1,0
 line,1,0,0,0,0,0,0,0,0,0
-stat,tline,0,11,0,2,0
+stat,tline,0,11,0,3,0
 stat,tline,1,10,0,0,0
 id,BOS192607171
 version,3
@@ -36829,8 +36846,8 @@ stat,dline,rignt101,1,1,6,27,1,3,0,0,0,0
 stat,dline,todtp101,1,1,3,27,12,2,0,1,0,0
 stat,dline,jacow101,1,1,9,27,1,0,0,0,0,0
 stat,dline,shanw103,1,1,7,27,4,0,0,0,0,0
-stat,dline,regab101,1,1,4,27,1,2,0,0,0,0
-stat,dline,hanef101,1,1,5,27,1,2,0,1,0,0
+stat,dline,regab101,1,1,4,27,1,2,0,1,0,0
+stat,dline,hanef101,1,1,5,27,1,2,0,0,0,0
 stat,dline,gasta101,1,1,2,-1,5,0,0,0,0,0
 stat,dline,stoka102,1,1,2,-1,0,1,0,0,0,0
 stat,dline,harrs101,1,1,1,27,0,2,0,0,0,0
@@ -36936,8 +36953,8 @@ stat,dline,stoka102,1,1,2,27,5,0,0,0,0,0
 stat,dline,wingt101,1,1,1,24,1,1,0,0,0,0
 stat,dline,ruffr101,1,1,1,3,0,0,0,0,0,0
 stat,pline,lyont102,0,1,24,-1,36,10,3,0,0,4,1,1,-1,2,0,0,0,4,0
-stat,pline,wingt101,1,1,24,2,34,9,-1,-1,0,3,3,4,-1,2,0,0,0,1,0
-stat,pline,ruffr101,1,2,3,-1,5,0,-1,-1,0,0,0,0,-1,1,0,0,0,1,0
+stat,pline,wingt101,1,1,24,2,36,9,-1,-1,0,3,3,4,-1,2,0,0,0,1,0
+stat,pline,ruffr101,1,2,3,-1,3,0,-1,-1,0,0,0,0,-1,1,0,0,0,1,0
 event,dpline,1,hanef101,regab101,todtp101
 line,0,0,0,0,0,0,0,0,2,1
 line,1,0,1,0,0,0,0,3,0
@@ -37547,8 +37564,8 @@ stat,dline,russj103,1,1,1,3,2,0,0,0,0,0
 stat,dline,heimf101,1,1,1,21,0,0,0,0,0,0
 stat,dline,welzt101,1,1,1,3,0,0,0,0,0,0
 stat,dline,biscj101,1,1,2,3,0,0,0,0,0,0
-stat,pline,thomt103,0,1,22,-1,32,6,-1,-1,0,2,1,5,-1,4,0,0,0,0,0
-stat,pline,lyont102,0,2,5,-1,9,2,-1,-1,0,2,2,1,-1,0,0,0,0,1,0
+stat,pline,thomt103,0,1,22,-1,33,6,-1,-1,0,2,1,5,-1,4,0,0,0,0,0
+stat,pline,lyont102,0,2,5,-1,8,2,-1,-1,0,2,2,1,-1,0,0,0,0,1,0
 stat,pline,heimf101,1,1,21,-1,29,6,-1,-1,0,4,4,3,-1,0,0,0,0,4,0
 stat,pline,welzt101,1,2,3,-1,4,1,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 stat,pline,russj103,1,3,3,-1,5,1,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
@@ -37652,7 +37669,7 @@ stat,dline,shocu101,1,1,1,27,0,3,1,0,0,0
 stat,pline,giarj101,0,1,1,-1,6,5,-1,-1,0,5,5,0,-1,0,0,0,0,0,0
 stat,pline,david102,0,2,5,-1,10,4,-1,-1,1,3,3,1,-1,0,0,0,0,1,0
 stat,pline,nevee101,0,3,18,-1,27,6,-1,-1,0,3,3,3,-1,2,0,0,0,2,0
-stat,pline,shocu101,1,1,27,-1,39,10,0,0,1,2,2,2,-1,2,0,0,0,0,0
+stat,pline,shocu101,1,1,27,-1,39,10,0,0,1,2,2,2,-1,2,0,0,0,1,0
 event,dpline,0,millb110,mcmam101
 event,dpline,1,lazzt101,koenm101,gehrl101
 line,0,0,0,2,0,0,0,0,0,0
@@ -37723,6 +37740,7 @@ stat,bline,haywr101,0,8,2,1,0,1,0,0,0,2,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,white102,0,9,1,4,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,dykej101,1,1,1,2,0,2,0,0,0,0,0,0,0,3,-1,0,1,0,-1,0
 stat,bline,welcf101,1,2,1,4,0,1,0,0,0,1,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,englc102,1,2,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,simma101,1,3,1,4,0,0,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,lamab101,1,4,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,hales101,1,5,1,4,2,4,1,1,0,0,0,0,0,0,-1,0,0,0,-1,0
@@ -37733,10 +37751,9 @@ stat,bline,gallc101,1,8,1,3,1,0,0,0,0,0,0,0,0,1,-1,0,1,0,-1,0
 stat,bline,quinj102,1,9,1,1,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,-1,0
 stat,bline,grays102,1,9,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,wambb101,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,englc102,1,9,4,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,winga101,8,0,0,1,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,phline,wambb101,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,prline,englc102,9,1,0,0,0
+stat,prline,englc102,0,1,0,0,0
 stat,dline,bluel101,0,1,3,27,10,0,0,3,0,0
 stat,dline,manuh101,0,1,8,27,0,0,0,0,0,0
 stat,dline,fothb101,0,1,7,27,3,0,0,0,0,0
@@ -37869,12 +37886,13 @@ stat,pline,millj109,0,1,21,-1,32,10,-1,-1,0,4,3,2,-1,2,0,0,0,3,0
 stat,pline,buckg101,0,2,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,marbf101,1,1,27,-1,35,3,0,1,0,1,0,5,-1,2,0,0,0,0,0
 event,dpline,0,sewel101,sewej101
+event,dpline,1,goslg101,ruelm101
 event,sbline,1,ruelm101,,sewel101,-1
 event,csline,1,myerb103,,sewel101,-1
 line,0,1,0,0,0,0,0,0,0,0
 line,1,0,0,0,0,0,4,0,0
 stat,tline,0,7,0,1,0
-stat,tline,1,7,0,0,0
+stat,tline,1,7,0,1,0
 id,BOS192607200
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -37978,7 +37996,7 @@ stat,dline,clowb101,1,1,1,2,0,0,0,0,0,0
 stat,dline,russj103,1,1,1,15,2,0,0,0,0,0
 stat,pline,faber101,0,1,27,-1,39,10,0,1,0,2,2,1,-1,6,0,0,0,0,0
 stat,pline,ruffr101,1,1,5,-1,13,5,-1,-1,0,7,5,3,-1,0,0,0,0,2,0
-stat,pline,lundd101,1,2,5,-1,12,3,-1,-1,0,6,6,4,-1,1,1,1,0,0,0
+stat,pline,lundd101,1,2,5,-1,12,3,-1,-1,0,6,6,4,-1,1,1,1,1,0,0
 stat,pline,clowb101,1,3,2,-1,3,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,russj103,1,4,15,-1,16,3,-1,-1,0,0,0,0,-1,2,0,0,0,1,0
 event,dpline,1,hanef101
@@ -38205,7 +38223,7 @@ stat,dline,dykej101,1,1,5,27,2,3,0,0,0,0
 stat,dline,poolj101,1,1,3,27,9,1,0,2,0,0
 stat,dline,perkc101,1,1,2,-1,4,1,0,0,0,0
 stat,dline,foxxj101,1,1,2,-1,1,0,0,0,0,0
-stat,dline,gallc101,1,1,6,24,2,3,0,1,0,0
+stat,dline,gallc101,1,1,6,24,2,3,0,2,0,0
 stat,dline,englc102,1,1,6,3,0,0,0,0,0,0
 stat,dline,walbr101,1,1,1,13,0,1,0,0,0,0
 stat,dline,willl103,1,1,1,5,0,0,0,0,0,0
@@ -38215,12 +38233,14 @@ stat,pline,walbr101,1,1,13,-1,23,10,-1,-1,0,5,5,2,-1,2,0,0,0,1,0
 stat,pline,willl103,1,2,5,-1,5,2,-1,-1,0,0,0,0,-1,0,0,0,0,1,0
 stat,pline,patej101,1,3,9,-1,11,3,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,1,gallc101,poolj101
+event,dpline,0,gehrc101,tavej101,bluel101
+event,dpline,1,bishm102,gallc101,poolj101
 event,sbline,0,heilh101,,,-1
 event,hpline,0,collr104,dykej101
 line,0,1,0,0,1,3,0,0,0,0
 line,1,0,0,0,0,0,0,0,0,0
-stat,tline,0,7,0,0,0
-stat,tline,1,6,0,1,0
+stat,tline,0,7,0,1,0
+stat,tline,1,6,0,2,0
 id,PHA192607202
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -38643,11 +38663,12 @@ stat,pline,heimf101,1,2,10,-1,16,5,-1,-1,0,1,1,2,-1,0,0,0,0,0,0
 stat,pline,russj103,1,3,6,-1,8,1,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 event,dpline,0,mcmam101,melis101,sislg101
 event,dpline,1,rignt101,todtp101
+event,dpline,0,giarj101,melis101,sislg101
 event,sbline,1,biscj101,giarj101,schaw101,-1
 line,0,1,1,1,3,1,0,0,0,0
 line,1,1,0,3,0,0,0,0,0,0
 event,hrline,1,jacow101,giarj101,3,2,-1
-stat,tline,0,10,0,1,0
+stat,tline,0,10,0,2,0
 stat,tline,1,7,0,1,0
 id,NYA192607211
 version,3
@@ -38734,9 +38755,9 @@ stat,dline,blant101,0,1,1,27,0,3,0,0,0,0
 stat,dline,pascb102,1,1,9,27,3,0,0,0,0,0
 stat,dline,koenm101,1,1,6,27,0,4,0,0,0,0
 stat,dline,ruthb101,1,1,7,27,4,0,0,0,0,0
-stat,dline,gehrl101,1,1,3,27,6,2,0,0,0,0
+stat,dline,gehrl101,1,1,3,27,6,2,0,1,0,0
 stat,dline,combe101,1,1,8,27,6,0,0,0,0,0
-stat,dline,lazzt101,1,1,4,27,6,1,1,0,0,0
+stat,dline,lazzt101,1,1,4,27,6,1,1,1,0,0
 stat,dline,dugaj101,1,1,5,27,0,0,0,0,0,0
 stat,dline,bengb101,1,1,2,24,2,3,0,0,0,1
 stat,dline,skifb101,1,1,2,3,0,0,0,0,0,0
@@ -38955,8 +38976,8 @@ stat,dline,gallc101,1,1,6,27,1,1,0,0,0,0
 stat,dline,ehmkh101,1,1,1,24,0,2,0,0,0,0
 stat,dline,grays102,1,1,1,3,0,0,0,0,0,0
 stat,pline,levsd101,0,1,27,-1,34,7,0,0,0,0,0,2,-1,1,0,0,0,2,0
-stat,pline,ehmkh101,1,1,24,5,32,7,-1,-1,0,5,5,3,-1,2,0,0,0,0,0
-stat,pline,grays102,1,2,3,-1,5,2,-1,-1,0,1,1,0,-1,0,0,0,0,1,0
+stat,pline,ehmkh101,1,1,24,5,33,7,-1,-1,0,5,5,3,-1,2,0,0,0,0,0
+stat,pline,grays102,1,2,3,-1,4,2,-1,-1,0,1,1,0,-1,0,0,0,0,1,0
 event,dpline,1,simma101,perkc101
 event,csline,1,simma101,levsd101,sewel101,-1
 event,csline,1,gallc101,levsd101,sewel101,-1
@@ -39398,9 +39419,9 @@ stat,dline,braxg101,1,1,1,0,0,0,0,0,0,0
 stat,dline,jones104,1,1,1,15,0,3,0,0,0,0
 stat,pline,thomt103,0,1,5,-1,14,8,-1,-1,1,7,7,2,-1,1,0,0,0,0,0
 stat,pline,thurs101,0,2,19,-1,28,9,-1,-1,0,6,6,3,-1,3,0,1,0,0,0
-stat,pline,thomm101,1,1,12,-1,23,5,-1,-1,0,6,6,5,-1,0,0,0,0,0,0
+stat,pline,thomm101,1,1,12,-1,22,5,-1,-1,0,6,6,5,-1,0,0,0,0,0,0
 stat,pline,braxg101,1,2,0,-1,2,1,-1,-1,0,2,2,1,-1,0,0,0,0,0,0
-stat,pline,jones104,1,3,15,-1,21,5,-1,-1,0,2,1,2,-1,2,0,0,0,2,0
+stat,pline,jones104,1,3,15,-1,22,5,-1,-1,0,2,1,2,-1,2,0,0,0,2,0
 event,dpline,1,lazzt101,koenm101,gehrl101
 event,dpline,0,sheee101,hunnb101
 event,dpline,0,sheee101,hunnb101,sheee101
@@ -40079,14 +40100,13 @@ stat,pline,uchrj101,1,2,6,-1,12,7,-1,-1,0,4,4,1,-1,0,0,0,0,0,0
 stat,pline,morrb101,1,3,6,-1,7,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,1,rices101,blueo102
 event,dpline,0,orouf101,gehrc101,bluel101
-event,dpline,1,rices101,ruelm101
 event,sbline,0,tavej101,,,-1
 event,sbline,1,rices101,,,-1
 event,sbline,1,rices101,,,-1
 line,0,1,0,0,0,4,0,4,0,0
 line,1,0,0,2,0,0,1,2,0,1
 stat,tline,0,12,0,1,0
-stat,tline,1,12,0,2,0
+stat,tline,1,12,0,1,0
 id,BOS192607241
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -41171,7 +41191,7 @@ stat,pline,edwaj102,1,2,1,-1,4,0,-1,-1,0,2,2,3,-1,0,0,0,0,0,0
 stat,pline,conns101,1,3,4,-1,5,1,-1,-1,0,1,1,0,-1,1,0,0,0,0,0
 event,dpline,1,schar103,morer102
 event,dpline,0,myerb103,judgj101
-event,dpline,0,rices101
+event,dpline,0,rices101,judgj101
 event,dpline,0,goslg101,tateb101
 event,csline,0,mcnee101,,schar103,-1
 event,csline,0,blueo102,,schar103,-1
@@ -41579,8 +41599,8 @@ stat,dline,sewel101,1,1,2,27,8,1,1,1,0,0
 stat,dline,lutzr101,1,1,5,27,1,3,0,0,0,0
 stat,dline,levsd101,1,1,1,27,0,1,1,0,0,0
 stat,pline,walbr101,0,1,1,-1,4,3,-1,-1,0,1,1,0,-1,0,0,0,0,0,0
-stat,pline,willl103,0,2,11,-1,17,6,-1,-1,0,3,2,0,-1,0,0,0,0,1,0
-stat,pline,patej101,0,3,12,-1,16,5,-1,-1,0,1,1,2,-1,0,0,0,0,2,0
+stat,pline,willl103,0,2,11,-1,16,6,-1,-1,0,3,2,0,-1,0,0,0,0,1,0
+stat,pline,patej101,0,3,12,-1,17,5,-1,-1,0,1,1,2,-1,0,0,0,0,2,0
 stat,pline,levsd101,1,1,27,-1,37,8,1,0,0,2,1,2,-1,6,0,0,0,1,0
 event,dpline,1,sewel101,burng102
 event,dpline,0,wambb101,poolj101
@@ -41679,7 +41699,7 @@ stat,dline,ehmkh101,0,1,1,24,0,0,0,0,0,0
 stat,dline,jamic101,1,1,7,27,1,0,0,0,0,0
 stat,dline,spurf101,1,1,4,27,2,2,0,1,0,0
 stat,dline,speat101,1,1,8,27,0,0,0,0,0,0
-stat,dline,burng102,1,1,3,27,8,1,0,1,0,0
+stat,dline,burng102,1,1,3,27,8,1,0,2,0,0
 stat,dline,sewej101,1,1,6,27,5,3,0,1,0,0
 stat,dline,summh101,1,1,9,27,0,0,0,0,0,0
 stat,dline,sewel101,1,1,2,27,8,1,0,0,0,0
@@ -41687,6 +41707,8 @@ stat,dline,lutzr101,1,1,5,27,3,3,0,1,0,0
 stat,dline,uhleg101,1,1,1,27,0,0,0,0,0,0
 stat,pline,ehmkh101,0,1,24,-1,34,6,4,0,0,2,2,4,-1,4,0,0,0,3,0
 stat,pline,uhleg101,1,1,27,-1,29,4,1,0,0,0,0,1,-1,7,0,0,0,0,0
+event,dpline,1,lutzr101,spurf101,burng102
+event,dpline,1,sewej101,burng102
 event,dpline,0,frenw101,gallc101
 event,sbline,1,burng102,ehmkh101,,-1
 event,sbline,1,summh101,ehmkh101,,-1
@@ -41695,7 +41717,7 @@ event,csline,0,dykej101,uhleg101,sewel101,-1
 line,0,0,0,0,0,0,0,0,0,0
 line,1,0,0,0,0,1,0,0,1
 stat,tline,0,2,0,1,0
-stat,tline,1,8,0,0,0
+stat,tline,1,8,0,2,0
 id,DET192607280
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -42204,7 +42226,7 @@ stat,dline,stonl101,1,1,1,27,0,1,0,0,0,0
 stat,pline,wilth101,0,1,13,-1,25,6,-1,-1,1,6,5,5,-1,0,0,0,0,0,0
 stat,pline,wingt101,0,2,11,-1,10,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,stonl101,1,1,27,-1,38,8,1,0,0,5,5,3,-1,3,1,0,0,1,0
-event,dpline,0,wingt101,regab101,todtp101
+event,dpline,0,herrm101,todtp101
 event,sbline,1,burkl101,,gasta101,-1
 event,hpline,1,stonl101,jacow101
 line,0,0,0,2,0,0,3,0,0,0
@@ -43022,7 +43044,7 @@ stat,bline,heilh101,1,4,1,5,1,4,1,0,0,3,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,gehrc101,1,5,1,2,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
 stat,bline,warnj101,1,5,2,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,burkl101,1,6,1,3,1,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,orouf101,1,6,2,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
+stat,bline,orouf101,1,6,2,1,0,0,0,0,0,0,1,0,0,0,-1,1,0,0,-1,0
 stat,bline,tavej101,1,7,1,4,1,2,0,0,0,2,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,woodl101,1,8,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,welle101,1,9,1,2,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
@@ -43030,13 +43052,13 @@ stat,bline,daush101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,neunj101,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,smitg102,1,9,4,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,neunj101,8,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,dline,bishm102,0,1,4,27,5,4,1,0,0,0
+stat,dline,bishm102,0,1,4,27,5,4,1,1,0,0
 stat,dline,perkc101,0,1,2,27,3,0,0,0,0,0
 stat,dline,welcf101,0,1,7,27,3,0,0,0,0,0
 stat,dline,hales101,0,1,5,27,3,6,1,1,0,0
 stat,dline,simma101,0,1,8,27,0,0,0,0,0,0
 stat,dline,barbd101,0,1,9,27,1,0,0,0,0,0
-stat,dline,poolj101,0,1,3,27,10,3,0,1,0,0
+stat,dline,poolj101,0,1,3,27,10,3,0,2,0,0
 stat,dline,gallc101,0,1,6,27,0,1,0,0,0,0
 stat,dline,quinj102,0,1,1,19,2,1,0,0,0,0
 stat,dline,grovl101,0,1,1,8,0,0,0,0,0,0
@@ -43054,7 +43076,7 @@ stat,dline,welle101,1,1,1,15,0,1,0,0,0,0
 stat,dline,daush101,1,1,1,9,0,0,0,0,0,0
 stat,dline,smitg102,1,1,1,3,0,0,0,0,0,0
 stat,pline,quinj102,0,1,19,-1,31,9,-1,-1,0,5,4,2,-1,0,0,0,0,1,0
-stat,pline,grovl101,0,2,8,-1,10,3,-1,-1,0,1,1,1,-1,2,0,0,0,0,0
+stat,pline,grovl101,0,2,8,-1,11,3,-1,-1,0,1,1,1,-1,2,0,0,0,1,0
 stat,pline,welle101,1,1,15,-1,25,8,-1,-1,2,7,7,2,-1,0,0,0,0,1,0
 stat,pline,daush101,1,2,9,-1,13,2,-1,-1,0,2,2,2,-1,0,0,0,0,0,0
 stat,pline,smitg102,1,3,3,-1,3,0,-1,-1,0,0,0,2,-1,1,0,0,0,0,0
@@ -43339,11 +43361,11 @@ stat,bline,levsd101,1,9,1,1,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
 stat,bline,myatg101,1,9,2,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,myatg101,9,1,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,bratf101,0,1,7,26,2,0,0,0,0,0
-stat,dline,rignt101,0,1,6,26,1,3,0,1,0,0
+stat,dline,rignt101,0,1,6,26,1,3,0,0,0,0
 stat,dline,jacow101,0,1,8,26,5,0,0,0,0,0
 stat,dline,roses102,0,1,9,26,3,0,0,0,0,0
 stat,dline,todtp101,0,1,3,26,6,1,0,1,0,0
-stat,dline,regab101,0,1,4,26,3,1,1,1,0,0
+stat,dline,regab101,0,1,4,26,3,1,1,2,0,0
 stat,dline,hanef101,0,1,5,26,2,2,0,1,0,0
 stat,dline,gasta101,0,1,2,26,3,1,0,0,0,0
 stat,dline,ruffr101,0,1,1,26,1,1,0,0,0,0
@@ -43645,13 +43667,13 @@ stat,bline,burkl101,1,6,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,tavej101,1,7,1,3,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,bassj102,1,8,1,3,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,gibss101,1,9,1,2,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
-stat,dline,bishm102,0,1,4,27,1,2,0,0,0,0
+stat,dline,bishm102,0,1,4,27,1,2,0,1,0,0
 stat,dline,cochm101,0,1,2,27,1,0,0,0,0,0
 stat,dline,welcf101,0,1,7,27,7,0,0,0,0,0
-stat,dline,hales101,0,1,5,27,0,2,0,0,0,0
+stat,dline,hales101,0,1,5,27,0,2,0,1,0,0
 stat,dline,simma101,0,1,8,27,5,0,0,0,0,0
 stat,dline,barbd101,0,1,9,27,3,0,0,0,0,0
-stat,dline,poolj101,0,1,3,27,9,0,0,0,0,0
+stat,dline,poolj101,0,1,3,27,9,0,0,1,0,0
 stat,dline,gallc101,0,1,6,27,1,2,0,0,0,0
 stat,dline,ehmkh101,0,1,1,27,0,3,1,0,0,0
 stat,dline,bluel101,1,1,3,27,9,1,0,1,0,0
@@ -44343,10 +44365,11 @@ stat,pline,daush101,1,2,6,-1,7,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,0,hales101,poolj101
 event,dpline,1,tavej101,bluel101,gehrc101
 event,dpline,1,gehrc101,bluel101
+event,dpline,0,gallc101,bishm102,poolj101
 line,0,0,0,0,1,0,2,0,0,0,0
 line,1,0,0,0,0,0,0,0,0,3,1
 event,hrline,0,simma101,stonl101,6,1,-1
-stat,tline,0,4,0,1,0
+stat,tline,0,4,0,2,0
 stat,tline,1,9,0,2,0
 id,SLA192608030
 version,3
@@ -44766,13 +44789,14 @@ stat,pline,coves101,0,1,21,-1,29,9,-1,-1,0,4,4,1,-1,0,0,0,0,2,0
 stat,pline,marbf101,0,2,7,-1,10,3,-1,-1,0,1,1,1,-1,1,0,0,0,1,0
 stat,pline,white102,1,1,23,-1,36,7,-1,-1,1,4,3,4,-1,1,0,0,0,1,0
 stat,pline,gibss101,1,2,7,-1,11,3,-1,-1,0,0,0,1,-1,1,1,0,0,0,0
+event,dpline,0,myerb103,harrb106,harrj103
 event,csline,0,myerb103,,bassj102,-1
 event,csline,1,gehrc101,,,-1
 event,hpline,1,gibss101,harrb106
 line,0,0,0,1,0,1,0,0,2,0,0
 line,1,2,1,1,0,0,0,0,0,0,1
 event,hrline,0,harrj103,white102,5,0,-1
-stat,tline,0,13,0,0,0
+stat,tline,0,13,0,1,0
 stat,tline,1,6,0,0,0
 id,DET192608042
 version,3
@@ -44890,8 +44914,8 @@ stat,pline,murrg101,0,1,27,-1,43,9,-1,-1,0,7,7,4,-1,2,2,0,0,3,0
 stat,pline,crowg102,0,2,5,-1,9,2,-1,-1,0,0,0,2,-1,0,0,0,0,0,0
 stat,pline,marbf101,0,3,1,-1,1,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,welle101,1,1,10,-1,19,8,-1,-1,0,6,6,0,-1,1,0,0,0,0,0
-stat,pline,daush101,1,2,14,-1,18,4,-1,-1,1,1,1,1,-1,0,0,0,0,1,0
-stat,pline,hollk101,1,3,9,-1,18,6,-1,-1,0,4,4,1,-1,0,1,0,0,0,0
+stat,pline,daush101,1,2,14,-1,18,4,-1,-1,0,1,1,1,-1,0,0,0,0,1,0
+stat,pline,hollk101,1,3,9,-1,18,6,-1,-1,1,4,4,1,-1,0,1,0,0,0,0
 event,dpline,1,tavej101,gehrc101,neunj101
 event,sbline,1,neunj101,,,-1
 event,hpline,1,hollk101,blueo102
@@ -44899,7 +44923,7 @@ event,hpline,0,murrg101,warnj101
 event,hpline,0,murrg101,warnj101
 line,0,0,0,2,4,0,0,0,1,0,0,4
 line,1,5,0,0,0,0,0,0,2,0,0,0
-event,hrline,0,harrj103,daush101,11,2,-1
+event,hrline,0,harrj103,hollk101,11,2,-1
 stat,tline,0,11,0,0,0
 stat,tline,1,13,0,1,0
 id,SLA192608040
@@ -45963,7 +45987,7 @@ stat,dline,schar103,1,1,2,27,3,2,0,0,0,0
 stat,dline,faber101,1,1,1,27,0,2,0,0,0,0
 stat,pline,ehmkh101,0,1,27,-1,36,6,0,0,0,2,1,3,-1,1,1,0,0,1,0
 stat,pline,faber101,1,1,27,-1,40,11,0,0,0,3,3,4,-1,1,1,0,0,2,0
-event,dpline,1,colle101,sheee101
+event,dpline,1,barrb105,colle101,sheee101
 event,dpline,0,simma101,poolj101
 event,sbline,1,sheee101,ehmkh101,cochm101,-1
 event,csline,0,bishm102,faber101,schar103,-1
@@ -46582,8 +46606,8 @@ stat,dline,conns101,1,1,1,12,0,0,0,0,0,0
 stat,dline,thurs101,1,1,1,9,0,0,0,0,0,0
 stat,dline,thomt103,1,1,1,9,0,0,0,0,0,0
 stat,dline,croub101,1,1,2,12,3,2,0,0,0,0
-stat,pline,quinj102,0,1,4,-1,9,4,-1,-1,0,3,3,0,-1,1,0,0,0,0,0
-stat,pline,grays102,0,2,26,-1,33,4,-1,-1,0,2,2,4,-1,3,0,1,0,0,0
+stat,pline,quinj102,0,1,4,-1,10,4,-1,-1,0,3,3,0,-1,1,0,0,0,0,0
+stat,pline,grays102,0,2,26,-1,32,4,-1,-1,0,2,2,4,-1,3,0,1,0,0,0
 stat,pline,thurs101,1,1,9,-1,17,7,-1,-1,0,5,5,1,-1,1,0,0,0,1,0
 stat,pline,thomt103,1,2,9,-1,9,1,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,conns101,1,3,12,-1,15,4,-1,-1,0,1,0,0,-1,3,0,0,0,0,0
@@ -47635,15 +47659,15 @@ stat,dline,neunj101,1,1,3,21,5,0,0,2,0,0
 stat,dline,manuh101,1,1,8,21,3,0,0,0,0,0
 stat,dline,fothb101,1,1,7,21,2,0,0,0,0,0
 stat,dline,heilh101,1,1,9,21,0,0,0,0,0,0
-stat,dline,gehrc101,1,1,4,21,3,2,0,0,0,0
+stat,dline,gehrc101,1,1,4,21,3,2,0,1,0,0
 stat,dline,orouf101,1,1,5,21,3,1,1,1,0,0
 stat,dline,tavej101,1,1,6,21,1,2,0,1,0,0
 stat,dline,woodl101,1,1,2,12,3,1,0,0,0,0
 stat,dline,bassj102,1,1,2,9,1,0,0,0,0,0
 stat,dline,welle101,1,1,1,12,0,1,0,1,0,0
 stat,dline,daush101,1,1,1,9,0,0,0,0,0,0
-stat,pline,shocu101,0,1,18,-1,30,9,-1,-1,1,3,3,2,-1,1,0,0,0,2,0
-stat,pline,shawb102,0,2,3,-1,6,3,-1,-1,0,2,2,1,-1,0,0,0,0,1,0
+stat,pline,shocu101,0,1,18,-1,29,9,-1,-1,1,3,3,2,-1,1,0,0,0,2,0
+stat,pline,shawb102,0,2,3,-1,7,3,-1,-1,0,2,2,1,-1,0,0,0,0,1,0
 stat,pline,welle101,1,1,12,-1,19,7,-1,-1,0,3,2,2,-1,3,0,0,0,0,0
 stat,pline,daush101,1,2,9,-1,10,2,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 event,dpline,1,welle101,tavej101,neunj101
@@ -48379,9 +48403,9 @@ stat,dline,stoka102,1,1,2,21,2,1,0,0,0,0
 stat,dline,zahnp101,1,1,1,15,0,2,0,0,0,0
 stat,dline,welzt101,1,1,1,6,1,0,0,0,0,0
 stat,pline,romme101,0,1,21,-1,28,5,1,0,0,0,0,3,-1,1,0,0,0,0,0
-stat,pline,zahnp101,1,1,15,-1,24,10,-1,-1,0,5,3,1,-1,1,0,0,0,3,0
-stat,pline,welzt101,1,2,6,-1,10,2,-1,-1,0,0,0,1,-1,0,0,0,0,1,0
-event,dpline,0,cochm101,gallc101
+stat,pline,zahnp101,1,1,15,-1,25,10,-1,-1,0,5,3,1,-1,1,0,0,0,4,0
+stat,pline,welzt101,1,2,6,-1,9,2,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
+event,dpline,0,cochm101,bishm102
 event,sbline,0,hales101,,stoka102,-1
 event,csline,1,tobij101,romme101,cochm101,-1
 line,0,1,0,1,2,1,0,0
@@ -48774,14 +48798,13 @@ stat,pline,hoytw101,0,1,27,-1,39,9,2,1,0,5,4,3,-1,0,0,0,0,1,0
 stat,pline,johnw102,1,1,15,-1,23,7,-1,-1,2,6,6,1,-1,4,0,0,0,0,0
 stat,pline,morrb101,1,2,9,-1,12,5,-1,-1,1,1,1,0,-1,1,0,0,0,0,0
 stat,pline,crowg102,1,3,3,-1,3,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
-event,dpline,0,pascb102,lazzt101,collp101
 event,dpline,1,blueo102,stews101,judgj101
 line,0,1,0,0,3,2,0,1,0,0
 line,1,0,0,1,1,1,0,2,0,0
 event,hrline,0,gehrl101,johnw102,4,0,0
 event,hrline,0,gehrl101,johnw102,5,1,0
 event,hrline,0,combe101,morrb101,7,0,-1
-stat,tline,0,4,0,1,0
+stat,tline,0,4,0,0,0
 stat,tline,1,7,0,1,0
 id,BOS192608141
 version,3
@@ -48964,7 +48987,7 @@ stat,dline,simma101,0,1,8,27,3,0,0,0,0,0
 stat,dline,poolj101,0,1,3,27,8,0,0,1,0,0
 stat,dline,cochm101,0,1,2,-1,5,0,0,0,0,0
 stat,dline,perkc101,0,1,2,-1,4,2,0,0,0,0
-stat,dline,gallc101,0,1,6,27,2,2,1,0,0,0
+stat,dline,gallc101,0,1,6,27,2,2,1,1,0,0
 stat,dline,grovl101,0,1,1,27,0,4,0,1,0,0
 stat,dline,tobij101,1,1,9,27,2,0,0,0,0,0
 stat,dline,rignt101,1,1,6,27,1,3,0,0,0,0
@@ -49486,15 +49509,15 @@ stat,dline,summh101,1,1,9,27,2,1,0,0,0,0
 stat,dline,sewel101,1,1,2,27,5,0,0,0,0,0
 stat,dline,lutzr101,1,1,5,27,0,0,0,0,0,0
 stat,dline,hudlw101,1,1,1,6,0,0,0,0,0,0
-stat,dline,karrb101,1,1,1,5,0,0,0,0,0,0
-stat,dline,buckg101,1,1,1,13,0,1,0,0,0,0
+stat,dline,karrb101,1,1,1,4,0,0,0,0,0,0
+stat,dline,buckg101,1,1,1,14,0,1,0,0,0,0
 stat,dline,millj109,1,1,1,3,0,0,0,0,0,0
 stat,pline,giarj101,0,1,2,-1,6,1,-1,-1,0,3,3,3,-1,0,0,0,0,0,0
 stat,pline,falkc102,0,2,7,-1,13,5,-1,-1,0,3,3,2,-1,0,0,0,0,0,0
-stat,pline,ballw101,0,3,18,-1,25,5,-1,-1,0,1,1,2,-1,0,0,0,0,0,0
+stat,pline,ballw101,0,3,18,-1,26,5,-1,-1,0,1,1,2,-1,0,0,0,0,0,0
 stat,pline,hudlw101,1,1,6,-1,14,2,-1,-1,0,5,5,6,-1,0,1,0,0,0,0
-stat,pline,karrb101,1,2,5,-1,9,3,-1,-1,1,4,4,1,-1,1,0,1,0,1,0
-stat,pline,buckg101,1,3,13,-1,21,8,-1,-1,1,2,2,1,-1,1,0,0,0,1,0
+stat,pline,karrb101,1,2,4,-1,9,3,-1,-1,1,4,4,1,-1,1,0,1,0,1,0
+stat,pline,buckg101,1,3,14,-1,21,8,-1,-1,1,2,2,1,-1,1,0,0,0,1,0
 stat,pline,millj109,1,4,3,-1,3,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 event,dpline,1,spurf101,sewej101,burng102
 event,dpline,0,robeg101,mcmam101
@@ -50379,20 +50402,20 @@ stat,dline,millb110,0,1,9,24,2,0,0,0,0,0
 stat,dline,mcmam101,0,1,4,24,3,1,0,0,0,0
 stat,dline,schaw101,0,1,2,24,1,0,0,0,0,0
 stat,dline,robeg101,0,1,5,24,1,1,0,0,0,0
-stat,dline,gerbw101,0,1,6,21,1,3,0,0,0,0
+stat,dline,gerbw101,0,1,6,21,1,3,0,1,0,0
 stat,dline,falkc102,0,1,1,3,0,1,0,0,0,0
-stat,dline,nevee101,0,1,1,19,0,4,0,1,0,0
+stat,dline,nevee101,0,1,1,19,0,4,0,0,0,0
 stat,dline,david102,0,1,1,2,0,0,0,0,0,0
 stat,dline,dursc101,0,1,8,3,1,0,0,0,0,0
 stat,dline,tobij101,1,1,9,27,1,0,0,0,0,0
-stat,dline,rignt101,1,1,6,27,6,6,0,3,0,0
+stat,dline,rignt101,1,1,6,27,6,6,0,4,0,0
 stat,dline,jacow101,1,1,8,27,3,0,0,0,0,0
 stat,dline,roses102,1,1,7,27,0,0,0,0,0,0
 stat,dline,regab101,1,1,4,27,1,3,0,3,0,0
-stat,dline,todtp101,1,1,3,27,11,0,0,3,0,0
+stat,dline,todtp101,1,1,3,27,11,0,0,4,0,0
 stat,dline,hanef101,1,1,5,27,0,1,0,0,0,0
 stat,dline,biscj101,1,1,2,27,5,0,0,0,0,0
-stat,dline,welzt101,1,1,1,27,0,2,0,0,0,0
+stat,dline,welzt101,1,1,1,27,0,2,0,1,0,0
 stat,pline,nevee101,0,1,19,-1,31,11,-1,-1,0,4,4,2,-1,1,0,0,0,2,0
 stat,pline,david102,0,2,2,-1,2,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,falkc102,0,3,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
@@ -50804,16 +50827,16 @@ stat,dline,robeg101,0,1,5,24,1,3,0,0,0,0
 stat,dline,gerbw101,0,1,6,24,0,1,0,0,0,0
 stat,dline,david102,0,1,1,24,0,3,0,0,0,0
 stat,dline,tobij101,1,1,9,27,0,0,0,0,0,0
-stat,dline,rignt101,1,1,6,27,5,4,0,0,0,0
+stat,dline,rignt101,1,1,6,27,5,4,0,2,0,0
 stat,dline,jacow101,1,1,8,27,0,1,0,0,0,0
 stat,dline,roses102,1,1,7,27,2,0,0,0,0,0
 stat,dline,regab101,1,1,4,27,4,5,0,1,0,0
 stat,dline,todtp101,1,1,3,27,10,0,0,2,0,0
 stat,dline,hanef101,1,1,5,27,2,1,1,0,0,0
 stat,dline,gasta101,1,1,2,27,4,0,0,0,0,0
-stat,dline,ruffr101,1,1,1,27,0,2,1,0,0,0
+stat,dline,ruffr101,1,1,1,27,0,2,1,1,0,0
 stat,pline,david102,0,1,24,-1,32,7,0,0,1,4,1,1,-1,3,0,0,0,3,0
-stat,pline,ruffr101,1,1,27,-1,37,5,1,0,0,2,2,6,-1,3,0,0,0,0,0
+stat,pline,ruffr101,1,1,27,-1,38,5,1,0,0,2,2,6,-1,3,0,0,0,0,0
 event,dpline,1,ruffr101,rignt101,todtp101
 event,dpline,1,regab101,rignt101,todtp101
 line,0,0,0,1,0,0,1,0,0,0
@@ -51102,7 +51125,7 @@ stat,dline,kammw101,0,1,5,27,2,5,0,1,0,0
 stat,dline,schar103,0,1,2,27,1,0,0,0,0,0
 stat,dline,faber101,0,1,1,27,0,3,0,0,0,0
 stat,dline,roses102,1,1,9,27,2,0,0,0,0,0
-stat,dline,rignt101,1,1,6,27,5,1,0,0,0,0
+stat,dline,rignt101,1,1,6,27,5,1,0,1,0,0
 stat,dline,jacow101,1,1,8,27,2,0,0,0,0,0
 stat,dline,shanw103,1,1,7,27,3,0,0,0,0,0
 stat,dline,regab101,1,1,4,27,0,2,0,1,0,0
@@ -51110,7 +51133,7 @@ stat,dline,todtp101,1,1,3,27,11,1,0,2,0,0
 stat,dline,hanef101,1,1,5,27,1,0,0,0,0,0
 stat,dline,gasta101,1,1,2,27,2,1,0,0,0,0
 stat,dline,zahnp101,1,1,1,24,0,5,0,0,0,0
-stat,dline,russj103,1,1,1,3,1,0,0,0,0,0
+stat,dline,russj103,1,1,1,3,1,0,0,1,0,0
 stat,pline,faber101,0,1,27,-1,32,7,1,0,0,1,1,0,-1,1,0,0,0,0,0
 stat,pline,zahnp101,1,1,24,-1,33,7,-1,-1,0,5,5,5,-1,1,0,0,0,4,0
 stat,pline,russj103,1,2,3,-1,3,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
@@ -51547,8 +51570,8 @@ stat,dline,stoka102,1,1,2,3,0,0,0,0,0,0
 stat,dline,harrs101,1,1,1,18,0,2,1,0,0,0
 stat,dline,russj103,1,1,1,9,0,1,0,0,0,0
 stat,pline,lyont102,0,1,27,-1,29,0,0,0,0,0,0,1,-1,2,0,0,0,1,0
-stat,pline,harrs101,1,1,18,-1,28,10,-1,-1,0,5,3,3,-1,1,0,1,0,2,0
-stat,pline,russj103,1,2,9,-1,14,3,-1,-1,0,1,1,1,-1,1,0,0,0,1,0
+stat,pline,harrs101,1,1,18,-1,29,10,-1,-1,0,5,3,3,-1,1,0,1,0,2,0
+stat,pline,russj103,1,2,9,-1,13,3,-1,-1,0,1,1,1,-1,1,0,0,0,1,0
 event,sbline,0,mostj101,,,-1
 event,sbline,0,hunnb101,,,-1
 event,csline,0,morer102,,,-1
@@ -52040,8 +52063,8 @@ stat,pline,welzt101,1,2,17,-1,26,4,-1,-1,0,5,5,6,-1,1,1,0,0,3,0
 stat,pline,russj103,1,3,3,-1,4,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,0,gehrc101,tavej101,bluel101
 event,dpline,0,bluel101,tavej101
-event,dpline,1,gasta101,hanef101
-event,dpline,1,hanef101,todtp101
+event,dpline,1,gasta101,rignt101
+event,dpline,1,hanef101,regab101,todtp101
 event,dpline,1,welzt101,rignt101,regab101,todtp101
 event,hpline,1,welzt101,fothb101
 line,0,2,1,1,0,0,0,0,5,0
@@ -52561,8 +52584,7 @@ stat,pline,lundd101,1,3,6,-1,9,3,-1,-1,1,2,2,2,-1,1,0,0,0,0,0
 stat,pline,macfd101,1,4,3,-1,6,2,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
 stat,pline,russj103,1,5,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,0,orouf101,gehrc101,bluel101
-event,dpline,0,tavej101,gehrc101,bluel101
-event,dpline,1,regab101,rignt101,todtp101
+event,dpline,0,gehrc101,bluel101
 event,dpline,1,macfd101,biscj101,todtp101
 event,sbline,0,bluel101,,,-1
 event,sbline,0,bluel101,,,-1
@@ -52570,7 +52592,7 @@ line,0,2,1,1,0,4,1,1,1,0
 line,1,0,0,0,0,0,0,1,3,0
 event,hrline,0,heilh101,lundd101,7,0,-1
 stat,tline,0,5,0,2,0
-stat,tline,1,9,0,2,0
+stat,tline,1,9,0,1,0
 id,BOS192608252
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -52675,7 +52697,7 @@ stat,pline,welzt101,1,3,9,-1,12,3,-1,-1,0,0,0,1,-1,0,0,0,0,1,0
 event,dpline,0,stonl101,tavej101,bluel101
 event,dpline,0,gehrc101,tavej101,bluel101
 event,dpline,0,orouf101,gehrc101,bluel101
-event,dpline,1,harrs101,regab101,todtp101
+event,dpline,1,russj103,herrm101,todtp101
 line,0,0,0,0,0,5,2,0,0,0
 line,1,4,0,0,0,0,1,0,1,0
 stat,tline,0,9,0,3,0
@@ -52759,14 +52781,14 @@ stat,dline,summh101,0,1,9,27,2,1,0,0,0,0
 stat,dline,sewel101,0,1,2,27,9,1,0,0,0,0
 stat,dline,lutzr101,0,1,5,27,2,1,0,0,0,0
 stat,dline,uhleg101,0,1,1,27,0,2,0,0,0,0
-stat,dline,gazem101,1,1,6,27,4,0,1,1,0,0
+stat,dline,gazem101,1,1,6,27,4,0,1,0,0,0
 stat,dline,combe101,1,1,8,27,3,0,1,0,0,0
 stat,dline,gehrl101,1,1,3,27,7,0,0,0,0,0
 stat,dline,ruthb101,1,1,9,27,3,0,0,0,0,0
 stat,dline,meusb101,1,1,7,27,1,0,0,0,0,0
 stat,dline,lazzt101,1,1,4,27,1,0,0,0,0,0
 stat,dline,dugaj101,1,1,5,27,1,5,1,0,0,0
-stat,dline,seveh101,1,1,2,27,7,2,0,1,0,0
+stat,dline,seveh101,1,1,2,27,7,2,0,0,0,0
 stat,dline,jones104,1,1,1,22,0,3,0,0,0,0
 stat,dline,thomm101,1,1,1,2,0,0,0,0,0,0
 stat,dline,braxg101,1,1,1,3,0,0,0,0,0,0
@@ -52858,9 +52880,9 @@ stat,phline,hausj101,10,1,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,dline,bennh102,0,1,7,-1,2,0,0,0,0,0
 stat,dline,dursc101,0,1,7,-1,1,0,0,0,0,0
 stat,dline,riceh101,0,1,8,32,4,0,0,0,0,0
-stat,dline,sislg101,0,1,3,32,13,1,0,0,0,0
+stat,dline,sislg101,0,1,3,32,13,1,0,1,0,0
 stat,dline,millb110,0,1,9,32,3,0,0,0,0,0
-stat,dline,mcmam101,0,1,4,32,2,2,1,0,0,0
+stat,dline,mcmam101,0,1,4,32,2,2,1,1,0,0
 stat,dline,schaw101,0,1,2,32,4,0,0,0,0,0
 stat,dline,robeg101,0,1,5,32,1,1,0,0,0,0
 stat,dline,gerbw101,0,1,6,32,1,5,0,0,0,0
@@ -53417,10 +53439,10 @@ stat,dline,gasta101,1,1,2,36,3,1,0,0,0,0
 stat,dline,heimf101,1,1,1,24,0,3,0,0,0,0
 stat,dline,wingt101,1,1,1,12,0,1,0,0,0,0
 stat,pline,millj109,0,1,0,-1,4,3,-1,-1,0,3,3,1,-1,0,0,0,0,0,0
-stat,pline,buckg101,0,2,18,-1,19,1,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
-stat,pline,hudlw101,0,3,6,-1,10,3,-1,-1,0,1,0,1,-1,0,0,1,0,0,0
-stat,pline,smits102,0,4,12,-1,15,3,-1,-1,0,0,0,1,-1,1,0,0,0,2,0
-stat,pline,heimf101,1,1,24,2,31,8,-1,-1,0,2,2,4,-1,1,0,0,0,0,0
+stat,pline,buckg101,0,2,18,-1,18,1,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
+stat,pline,hudlw101,0,3,6,-1,11,3,-1,-1,0,1,0,1,-1,0,0,1,0,1,0
+stat,pline,smits102,0,4,12,-1,16,3,-1,-1,0,0,0,1,-1,1,0,0,0,2,0
+stat,pline,heimf101,1,1,24,2,33,8,-1,-1,0,2,2,4,-1,1,0,0,0,2,0
 stat,pline,wingt101,1,2,12,-1,15,3,-1,-1,1,3,3,0,-1,0,0,0,0,1,0
 event,dpline,0,sewej101,spurf101,burng102
 event,dpline,0,smits102,sewej101,burng102
@@ -53719,12 +53741,12 @@ stat,bline,morrb101,1,9,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,crowg102,1,9,4,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,harrj103,-1,1,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,dline,mostj101,0,1,8,27,3,0,0,0,0,0
-stat,dline,kammw101,0,1,5,27,2,1,0,0,0,0
+stat,dline,kammw101,0,1,5,27,2,1,0,1,0,0
 stat,dline,barrb105,0,1,9,27,3,0,0,0,0,0
-stat,dline,sheee101,0,1,3,27,9,0,0,0,0,0
+stat,dline,sheee101,0,1,3,27,9,0,0,1,0,0
 stat,dline,falkb101,0,1,7,27,0,0,0,0,0,0
 stat,dline,hunnb101,0,1,6,27,1,3,0,0,0,0
-stat,dline,morer102,0,1,4,27,3,1,0,0,0,0
+stat,dline,morer102,0,1,4,27,3,1,0,1,0,0
 stat,dline,grabj101,0,1,2,-1,6,1,0,0,0,0
 stat,dline,schar103,0,1,2,-1,0,0,0,0,0,0
 stat,dline,conns101,0,1,1,26,0,2,0,0,0,0
@@ -54669,9 +54691,9 @@ stat,dline,bluel101,1,1,3,27,11,1,0,4,0,0
 stat,dline,manuh101,1,1,8,27,2,1,0,1,0,0
 stat,dline,fothb101,1,1,7,27,3,0,0,0,0,0
 stat,dline,winga101,1,1,9,27,2,0,0,0,0,0
-stat,dline,gehrc101,1,1,4,27,2,3,0,2,0,0
+stat,dline,gehrc101,1,1,4,27,2,3,0,3,0,0
 stat,dline,orouf101,1,1,5,27,4,4,0,2,0,0
-stat,dline,tavej101,1,1,6,27,2,1,0,2,0,0
+stat,dline,tavej101,1,1,6,27,2,1,0,1,0,0
 stat,dline,manic101,1,1,2,21,1,0,0,0,0,0
 stat,dline,woodl101,1,1,2,6,0,1,0,0,0,0
 stat,dline,gibss101,1,1,1,27,0,0,0,0,0,0
@@ -54681,7 +54703,7 @@ event,dpline,1,orouf101,gehrc101,bluel101
 event,dpline,1,bluel101,tavej101,bluel101
 event,dpline,1,manuh101,gehrc101
 event,dpline,1,gehrc101,bluel101
-event,dpline,0,hunnb101,morer102,sheee101
+event,dpline,0,kammw101,morer102,sheee101
 event,dpline,1,orouf101,bluel101
 event,sbline,0,falkb101,gibss101,,-1
 event,sbline,1,manuh101,lyont102,grabj101,-1
@@ -54878,7 +54900,7 @@ stat,dline,rices101,0,1,9,27,2,0,0,0,0,0
 stat,dline,goslg101,0,1,8,27,0,0,0,0,0,0
 stat,dline,myerb103,0,1,6,27,2,5,0,1,0,0
 stat,dline,judgj101,0,1,3,27,12,0,0,3,0,0
-stat,dline,harrb106,0,1,4,-1,5,2,0,1,0,0
+stat,dline,harrb106,0,1,4,-1,5,2,0,3,0,0
 stat,dline,stews101,0,1,4,-1,0,0,0,0,0,0
 stat,dline,ruelm101,0,1,2,27,1,1,0,0,0,0
 stat,dline,reevb101,0,1,5,27,1,2,0,0,0,0
@@ -54898,13 +54920,14 @@ stat,pline,russj103,1,1,24,-1,28,5,-1,-1,0,2,2,0,-1,1,0,0,0,2,0
 stat,pline,wilth101,1,2,3,-1,6,2,-1,-1,0,0,0,0,-1,1,1,0,0,0,0
 event,dpline,0,mcnee101,harrb106
 event,dpline,0,coves101,harrb106,judgj101
+event,dpline,0,harrb106,judgj101
 event,dpline,0,coves101,myerb103,judgj101
 event,sbline,1,tobij101,coves101,ruelm101,-1
 event,csline,0,ruelm101,,biscj101,-1
 event,hpline,1,wilth101,harrb106
 line,0,0,0,0,0,1,1,0,0,0
 line,1,0,0,0,0,0,0,0,0,0
-stat,tline,0,5,0,3,0
+stat,tline,0,5,0,4,0
 stat,tline,1,4,0,0,0
 id,CLE192608310
 version,3
@@ -55006,7 +55029,7 @@ stat,pline,vange101,0,1,17,-1,29,10,-1,-1,0,5,3,3,-1,2,0,0,0,1,0
 stat,pline,zacht101,0,2,17,-1,24,5,-1,-1,0,1,0,2,-1,1,0,0,0,1,0
 stat,pline,shauj101,1,1,9,-1,12,4,-1,-1,1,3,3,1,-1,0,0,0,0,0,0
 stat,pline,millj109,1,2,6,-1,12,4,-1,-1,0,2,1,1,-1,1,0,0,0,2,0
-stat,pline,hudlw101,1,3,21,-1,24,5,-1,-1,0,0,0,2,-1,3,0,0,0,0,0
+stat,pline,hudlw101,1,3,21,-1,25,5,-1,-1,0,0,0,2,-1,3,0,0,0,0,0
 event,dpline,0,mcmam101,gerbw101,sislg101
 event,dpline,0,gerbw101,mcmam101,sislg101
 event,dpline,1,sewej101,spurf101,burng102
@@ -55730,7 +55753,7 @@ stat,pline,quinj102,0,4,9,-1,11,3,-1,-1,0,0,0,0,-1,2,0,0,0,0,0
 stat,pline,willl103,0,5,3,-1,4,0,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 stat,pline,ruetd101,1,1,25,-1,35,6,-1,-1,0,4,4,4,-1,1,0,0,0,1,0
 stat,pline,shawb102,1,2,2,-1,3,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-event,dpline,0,hales101,poolj101
+event,dpline,0,dykej101,poolj101
 event,dpline,0,quinj102,poolj101
 event,sbline,1,lazzt101,,perkc101,-1
 event,sbline,1,lazzt101,,perkc101,-1
@@ -55834,13 +55857,12 @@ stat,pline,gastm101,0,1,17,-1,28,9,-1,-1,0,6,6,3,-1,0,0,1,0,1,0
 stat,pline,winge102,0,2,7,-1,11,5,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,welle101,1,1,9,-1,16,7,-1,-1,0,3,3,2,-1,1,0,0,0,0,0
 stat,pline,smitg102,1,2,18,-1,21,2,-1,-1,0,0,0,1,-1,0,1,0,0,0,0
-event,dpline,1,orouf101,gehrc101,orouf101
 event,sbline,1,manuh101,,hargp101,-1
 event,hpline,1,smitg102,schaw101
 line,0,2,1,0,0,0,0,0,0,0
 line,1,0,1,0,2,0,3,0,0
 stat,tline,0,7,0,0,0
-stat,tline,1,9,0,1,0
+stat,tline,1,9,0,0,0
 id,BOS192609031
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -56544,7 +56566,7 @@ stat,pline,romme101,1,1,21,-1,30,9,-1,-1,0,3,3,2,-1,1,0,0,0,2,0
 stat,pline,walbr101,1,2,3,-1,3,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 stat,pline,willl103,1,3,3,-1,4,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,1,hales101,dykej101,poolj101
-event,dpline,0,meusb101,gehrl101
+event,dpline,0,ruthb101,gehrl101
 event,dpline,1,dykej101,sigaf101,poolj101
 event,dpline,1,frenw101,poolj101,dykej101
 event,dpline,0,pennh101,bengb101,gehrl101
@@ -56747,7 +56769,7 @@ stat,pline,welle101,0,1,0,-1,4,3,-1,-1,0,4,2,0,-1,0,0,0,0,0,0
 stat,pline,daush101,0,2,35,-1,51,14,-1,-1,0,4,4,3,-1,2,0,0,0,2,0
 stat,pline,levsd101,1,1,2,-1,8,5,-1,-1,0,4,3,2,-1,0,0,0,0,1,0
 stat,pline,karrb101,1,2,4,-1,7,3,-1,-1,0,2,2,1,-1,0,0,0,0,0,0
-stat,pline,buckg101,1,3,30,-1,42,7,-1,-1,0,1,1,5,-1,4,0,0,0,4,0
+stat,pline,buckg101,1,3,30,-1,41,7,-1,-1,0,1,1,5,-1,4,0,0,0,4,0
 event,dpline,1,sewej101,spurf101,burng102
 event,dpline,1,spurf101,sewej101,burng102
 event,dpline,0,tavej101,bluel101
@@ -57149,12 +57171,13 @@ stat,pline,stonl101,0,1,24,-1,34,11,3,1,0,5,5,1,-1,7,0,0,0,4,0
 stat,pline,faber101,1,1,24,4,34,9,-1,-1,0,4,4,2,-1,1,0,0,0,0,0
 stat,pline,conns101,1,2,3,-1,3,1,-1,-1,0,0,0,0,-1,0,0,0,0,1,0
 event,dpline,0,orouf101,bluel101
+event,dpline,0,bassj102,bluel101
 event,sbline,1,schar103,stonl101,bassj102,-1
 event,csline,0,tavej101,,schar103,-1
 event,csline,1,morer102,stonl101,bassj102,-1
 line,0,0,0,0,0,0,1,0,0,3
 line,1,0,0,0,0,1,0,3,1
-stat,tline,0,6,0,1,0
+stat,tline,0,6,0,2,0
 stat,tline,1,5,0,0,0
 id,CHA192609062
 version,3
@@ -57364,8 +57387,8 @@ stat,dline,thomm101,1,1,1,2,0,1,0,1,0,0
 stat,pline,romme101,0,1,18,-1,23,4,-1,-1,0,2,2,3,-1,3,0,0,0,0,0
 stat,pline,grovl101,0,2,0,-1,1,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 stat,pline,ehmkh101,0,3,9,-1,10,1,-1,-1,0,0,0,1,-1,3,0,1,0,0,0
-stat,pline,ruetd101,1,1,22,-1,30,6,-1,-1,0,3,3,4,-1,5,1,0,0,2,0
-stat,pline,shawb102,1,2,3,-1,9,4,-1,-1,0,2,2,2,-1,0,0,0,0,1,0
+stat,pline,ruetd101,1,1,22,-1,31,6,-1,-1,0,3,3,4,-1,5,1,0,0,2,0
+stat,pline,shawb102,1,2,3,-1,8,4,-1,-1,0,2,2,2,-1,0,0,0,0,1,0
 stat,pline,braxg101,1,3,0,-1,0,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,thomm101,1,4,2,-1,1,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,0,hales101,poolj101,hales101
@@ -57688,12 +57711,13 @@ stat,pline,hudlw101,0,1,24,-1,30,5,1,0,1,3,1,2,-1,0,0,0,0,1,0
 stat,pline,winge102,1,1,27,-1,38,7,1,0,0,1,1,5,-1,2,1,0,0,2,0
 event,dpline,1,gerbw101
 event,dpline,0,spurf101,burng102
+event,dpline,1,mcmam101,gerbw101,sislg101
 event,hpline,1,winge102,uhleg101
 line,0,0,0,1,0,0,0,0,0,0
 line,1,0,0,0,0,0,0,1,2
 event,hrline,1,riceh101,hudlw101,8,1,-1
 stat,tline,0,10,0,1,0
-stat,tline,1,3,0,1,0
+stat,tline,1,3,0,2,0
 id,WS1192609060
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -58113,7 +58137,7 @@ stat,pline,uhleg101,0,1,18,-1,30,9,-1,-1,0,7,5,2,-1,5,1,0,0,1,0
 stat,pline,karrb101,0,2,6,-1,9,3,-1,-1,0,1,1,0,-1,1,0,0,0,0,0
 stat,pline,falkc102,1,1,27,-1,40,10,2,0,0,3,2,5,-1,1,0,0,0,0,0
 event,dpline,1,falkc102,sislg101
-event,dpline,1,mcmam101,gerbw101,sislg101
+event,dpline,1,schaw101,gerbw101,sislg101
 event,sbline,1,mcmam101,,,-1
 event,sbline,1,robeg101,,,-1
 event,csline,0,sewel101,falkc102,schaw101,-1
@@ -58821,9 +58845,9 @@ stat,dline,ballw101,0,1,1,30,0,2,0,0,0,0
 stat,dline,mostj101,1,1,8,30,2,0,0,0,0,0
 stat,dline,morer102,1,1,4,30,1,6,1,1,0,0
 stat,dline,purdp101,1,1,9,30,2,0,0,0,0,0
-stat,dline,clanb101,1,1,3,30,14,0,1,1,0,0
+stat,dline,clanb101,1,1,3,30,14,0,1,2,0,0
 stat,dline,falkb101,1,1,7,30,2,0,0,0,0,0
-stat,dline,kammw101,1,1,5,30,2,2,0,0,0,0
+stat,dline,kammw101,1,1,5,30,2,2,0,1,0,0
 stat,dline,mccuh101,1,1,2,30,4,1,0,1,0,0
 stat,dline,bergm103,1,1,6,30,3,3,0,2,0,0
 stat,dline,lyont102,1,1,1,30,0,3,0,0,0,0
@@ -59070,7 +59094,7 @@ stat,dline,sewel101,1,1,2,27,4,0,0,0,1,0
 stat,dline,lutzr101,1,1,5,27,4,2,0,0,0,0
 stat,dline,uhleg101,1,1,1,27,1,3,1,0,1,0
 stat,pline,johnw102,0,1,12,-1,21,9,-1,-1,1,5,5,1,-1,2,0,0,0,2,0
-stat,pline,thoml104,0,2,3,-1,9,2,-1,-1,0,2,2,4,-1,0,0,0,0,1,0
+stat,pline,thoml104,0,2,3,-1,8,2,-1,-1,0,2,2,4,-1,0,0,0,0,1,0
 stat,pline,marbf101,0,3,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,joned103,0,4,6,-1,10,3,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
 stat,pline,uhleg101,1,1,27,-1,39,4,1,0,0,1,0,7,-1,3,0,1,0,0,0
@@ -59290,6 +59314,7 @@ stat,pline,mcquh102,0,4,6,-1,7,1,-1,-1,0,0,0,1,-1,0,0,0,0,1,0
 stat,pline,shocu101,0,5,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,stonl101,1,1,27,-1,44,14,3,0,2,10,10,4,-1,4,0,2,0,1,0
 event,dpline,0,lazzt101,koenm101,gehrl101
+event,dpline,0,lazzt101,koenm101,gehrl101
 event,dpline,0,koenm101,lazzt101,gehrl101
 event,sbline,1,manuh101,,bengb101,-1
 event,csline,1,fothb101,,bengb101,-1
@@ -59298,7 +59323,7 @@ line,0,0,2,0,2,0,0,0,0,6
 line,1,0,2,1,5,0,0,0,0,0
 event,hrline,0,gehrl101,stonl101,4,1,0
 event,hrline,0,ruthb101,stonl101,9,2,-1
-stat,tline,0,7,0,2,0
+stat,tline,0,7,0,3,0
 stat,tline,1,3,0,0,0
 id,SLA192609110
 version,3
@@ -60415,9 +60440,9 @@ stat,phline,ruetd101,7,0,0,0,0,0,0,0,0,0,0,1,0,-1,0,0,0,-1,0
 stat,phline,pascb102,7,0,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,mcnup101,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,myatg101,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,dline,koenm101,0,1,6,27,8,8,0,4,0,0
+stat,dline,koenm101,0,1,6,27,8,8,0,3,0,0
 stat,dline,combe101,0,1,8,27,0,0,0,0,0,0
-stat,dline,gehrl101,0,1,3,27,10,1,0,0,0,0
+stat,dline,gehrl101,0,1,3,27,10,1,0,3,0,0
 stat,dline,ruthb101,0,1,9,27,1,0,0,0,0,0
 stat,dline,meusb101,0,1,7,27,1,0,0,0,0,0
 stat,dline,lazzt101,0,1,4,27,1,5,0,3,0,0
@@ -60439,19 +60464,18 @@ stat,dline,uhleg101,1,1,1,19,0,0,0,0,0,0
 stat,dline,hudlw101,1,1,1,8,0,2,0,0,0,0
 stat,pline,jones104,0,1,14,-1,23,9,-1,-1,0,4,4,3,-1,0,0,0,0,0,0
 stat,pline,shawb102,0,2,13,-1,14,2,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
-stat,pline,uhleg101,1,1,19,-1,34,8,-1,-1,0,5,5,7,-1,7,1,0,0,4,0
-stat,pline,hudlw101,1,2,8,-1,11,2,-1,-1,0,1,1,1,-1,1,0,0,0,2,0
+stat,pline,uhleg101,1,1,19,-1,35,8,-1,-1,0,5,5,7,-1,7,1,0,0,4,0
+stat,pline,hudlw101,1,2,8,-1,10,2,-1,-1,0,1,1,1,-1,1,0,0,0,2,0
 event,dpline,1,burng102
 event,dpline,0,lazzt101,koenm101,gehrl101
 event,dpline,0,lazzt101,koenm101,gehrl101
 event,dpline,0,lazzt101,koenm101,gehrl101
 event,dpline,1,jamic101,spurf101,burng102
-event,dpline,0,koenm101,gehrl101
 event,sbline,1,burng102,,,-1
 event,hpline,1,uhleg101,ruetd101
 line,0,1,0,0,0,0,0,4,1,0
 line,1,0,0,0,3,1,0,0,0,0
-stat,tline,0,12,0,4,0
+stat,tline,0,12,0,3,0
 stat,tline,1,6,0,2,0
 id,DET192609151
 version,3
@@ -60662,7 +60686,7 @@ stat,pline,welle101,1,1,11,-1,17,4,-1,-1,0,4,4,2,-1,0,0,0,0,0,0
 stat,pline,hollk101,1,2,6,-1,10,4,-1,-1,0,2,2,0,-1,1,0,0,0,0,0
 stat,pline,johna101,1,3,1,-1,2,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,smitg102,1,4,9,-1,13,4,-1,-1,0,3,3,0,-1,0,0,0,0,1,0
-event,dpline,0,myerb103,harrj103
+event,dpline,0,murrg101,harrj103
 event,sbline,0,mcnee101,,,-1
 event,sbline,0,blueo102,,,-1
 event,sbline,0,ruelm101,,,-1
@@ -60849,7 +60873,7 @@ stat,dline,summh101,1,1,9,27,1,0,0,0,0,0
 stat,dline,autrc102,1,1,2,27,3,1,0,0,0,0
 stat,dline,lutzr101,1,1,5,27,2,3,1,0,0,0
 stat,dline,levsd101,1,1,1,27,2,1,0,0,0,0
-stat,pline,ruetd101,0,1,25,-1,36,6,1,0,0,2,2,5,-1,1,0,0,0,2,0
+stat,pline,ruetd101,0,1,25,-1,36,6,1,0,0,2,2,5,-1,1,0,0,0,3,0
 stat,pline,levsd101,1,1,27,-1,35,2,1,0,0,1,0,5,-1,2,0,0,0,2,0
 line,0,0,0,0,0,0,1,0,0,0
 line,1,0,1,0,0,0,0,0,0,1
@@ -61177,7 +61201,7 @@ stat,pline,joned103,0,1,23,-1,32,5,-1,-1,0,3,3,6,-1,2,0,0,0,2,0
 stat,pline,marbf101,0,2,4,-1,7,2,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
 stat,pline,daush101,1,1,22,-1,35,14,-1,-1,0,5,5,2,-1,2,0,0,0,0,0
 stat,pline,johna101,1,2,5,-1,8,1,-1,-1,0,0,0,2,-1,2,0,0,0,1,0
-event,dpline,0,joned103,stews101,harrj103
+event,dpline,0,myerb103,stews101,harrj103
 event,csline,0,stews101,,bassj102,-1
 event,csline,1,orouf101,,tateb101,-1
 line,0,1,0,0,1,0,0,0,3,0
@@ -61893,7 +61917,7 @@ stat,dline,welzt101,0,1,1,20,0,4,0,0,0,0
 stat,dline,mostj101,1,1,8,27,2,0,0,0,0,0
 stat,dline,hunnb101,1,1,4,27,2,3,0,1,0,0
 stat,dline,barrb105,1,1,9,27,3,0,0,0,0,0
-stat,dline,sheee101,1,1,3,27,12,0,0,0,0,0
+stat,dline,sheee101,1,1,3,27,12,0,0,1,0,0
 stat,dline,falkb101,1,1,7,-1,0,0,0,0,0,0
 stat,dline,harrs102,1,1,7,-1,1,0,0,0,0,0
 stat,dline,kammw101,1,1,5,27,1,2,0,0,0,0
@@ -63087,7 +63111,7 @@ stat,dline,johna101,1,1,1,3,0,0,0,0,0,0
 stat,pline,romme101,0,1,27,-1,30,2,0,0,0,0,0,1,-1,2,0,0,0,0,0
 stat,pline,stonl101,1,1,24,-1,37,10,-1,-1,0,8,2,1,-1,1,0,1,0,0,0
 stat,pline,johna101,1,2,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-event,dpline,0,romme101,dykej101,poolj101
+event,dpline,0,romme101,gallc101,poolj101
 line,0,0,0,2,0,0,0,3,3,0
 line,1,0,0,0,0,0,0,0,0,0
 stat,tline,0,5,0,1,0
@@ -63981,12 +64005,12 @@ stat,bline,lutzr101,1,8,1,4,0,3,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,buckg101,1,9,1,4,1,0,0,0,0,1,0,0,0,0,-1,1,0,0,-1,0
 stat,phline,shanw103,8,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,herrm101,0,1,5,24,1,2,0,1,0,0
-stat,dline,rignt101,0,1,6,24,2,4,2,0,0,0
+stat,dline,rignt101,0,1,6,24,2,4,2,1,0,0
 stat,dline,tobij101,0,1,9,24,0,0,0,0,0,0
 stat,dline,jacow101,0,1,8,24,4,0,0,0,0,0
-stat,dline,regab101,0,1,4,24,0,3,0,0,0,0
+stat,dline,regab101,0,1,4,24,0,3,0,1,0,0
 stat,dline,bratf101,0,1,7,24,4,0,0,0,0,0
-stat,dline,todtp101,0,1,3,24,11,1,0,1,0,0
+stat,dline,todtp101,0,1,3,24,11,1,0,2,0,0
 stat,dline,biscj101,0,1,2,24,2,2,0,1,0,0
 stat,dline,heimf101,0,1,1,21,0,1,2,0,0,0
 stat,dline,zahnp101,0,1,1,3,0,0,0,0,0,0
@@ -64108,8 +64132,8 @@ stat,pline,walbr101,0,1,15,-1,22,8,-1,-1,0,1,0,1,-1,3,0,0,0,1,0
 stat,pline,patej101,0,2,12,-1,17,5,-1,-1,0,1,1,3,-1,0,0,0,0,0,0
 stat,pline,white102,1,1,21,-1,27,7,-1,-1,0,5,5,1,-1,2,0,0,0,1,0
 stat,pline,hollk101,1,2,6,-1,11,4,-1,-1,0,3,1,1,-1,0,0,0,0,1,0
-event,dpline,1,tavej101,gehrc101,warnj101
 event,dpline,0,hales101,dykej101,poolj101
+event,dpline,0,gallc101,dykej101,poolj101
 event,dpline,0,hales101,poolj101
 event,dpline,1,tavej101,gehrc101,bluel101
 event,sbline,0,gallc101,,manic101,-1
@@ -64117,8 +64141,8 @@ event,sbline,1,warnj101,,perkc101,-1
 event,csline,1,fothb101,,perkc101,-1
 line,0,0,0,0,0,0,2,3,1,2
 line,1,0,0,0,0,0,1,0,0,1
-stat,tline,0,3,0,2,0
-stat,tline,1,10,0,2,0
+stat,tline,0,3,0,3,0
+stat,tline,1,10,0,1,0
 id,SLA192609220
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -64395,7 +64419,7 @@ stat,dline,blueo102,0,1,5,24,1,2,0,0,0,0
 stat,dline,tateb101,0,1,2,24,4,1,0,0,0,1
 stat,dline,johnw102,0,1,1,24,2,2,0,0,0,0
 stat,dline,mostj101,1,1,8,27,4,0,0,0,0,0
-stat,dline,hunnb101,1,1,4,27,4,2,0,0,0,0
+stat,dline,hunnb101,1,1,4,27,4,2,0,1,0,0
 stat,dline,barrb105,1,1,9,27,3,0,0,0,0,0
 stat,dline,sheee101,1,1,3,27,5,0,1,1,0,0
 stat,dline,falkb101,1,1,7,27,6,0,0,0,0,0
@@ -65045,8 +65069,8 @@ stat,dline,padge101,1,1,5,6,1,0,0,0,0,0
 stat,dline,buckg101,1,1,1,21,0,2,0,0,0,0
 stat,dline,smits102,1,1,1,6,0,0,0,0,0,0
 stat,pline,walbr101,0,1,27,-1,34,7,2,0,0,0,0,3,-1,3,0,0,0,0,0
-stat,pline,buckg101,1,1,21,-1,26,4,-1,-1,0,2,2,3,-1,3,0,1,0,1,0
-stat,pline,smits102,1,2,6,-1,8,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
+stat,pline,buckg101,1,1,21,-1,27,4,-1,-1,0,2,2,3,-1,3,0,1,0,1,0
+stat,pline,smits102,1,2,6,-1,7,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 event,dpline,0,welcf101,poolj101
 event,dpline,0,poolj101,gallc101
 event,dpline,0,dykej101,poolj101
@@ -65356,18 +65380,16 @@ stat,pline,ruetd101,0,1,15,-1,21,7,-1,-1,0,2,2,1,-1,0,0,0,0,1,0
 stat,pline,shocu101,0,2,9,-1,18,8,-1,-1,0,4,2,0,-1,1,0,0,0,0,0
 stat,pline,falkc102,1,1,27,-1,35,10,0,0,0,1,1,3,-1,1,0,0,0,1,0
 event,dpline,1,hargp101,gerbw101
-event,dpline,1,sislg101
+event,dpline,1,bennh102,sislg101
 event,dpline,0,dugaj101,lazzt101,gehrl101
-event,dpline,1,gerbw101,mcmam101,gerbw101
-event,dpline,1,gerbw101,mcmam101,gerbw101
-event,dpline,1,gerbw101,mcmam101,gerbw101
+event,dpline,1,gerbw101,mcmam101,sislg101
 event,dpline,0,koenm101,gehrl101
 event,dpline,1,gerbw101,mcmam101
 event,csline,0,meusb101,falkc102,hargp101,-1
 line,0,0,0,0,0,0,0,0,0,1
 line,1,2,0,0,0,0,0,0,4
 stat,tline,0,7,0,2,0
-stat,tline,1,9,0,6,0
+stat,tline,1,9,0,4,0
 id,SLA192609262
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -65474,7 +65496,7 @@ stat,pline,jones104,0,2,9,-1,13,4,-1,-1,0,3,3,0,-1,0,0,0,0,0,0
 stat,pline,winge102,1,1,21,-1,27,9,-1,-1,1,2,2,0,-1,1,0,0,0,0,0
 stat,pline,sislg101,1,2,6,-1,7,0,-1,-1,0,0,0,2,-1,3,0,0,0,0,0
 event,dpline,1,robeg101,mcmam101,sislg101
-event,dpline,1,austj101,sislg101
+event,dpline,1,austj101,gerbw101,sislg101
 event,sbline,1,austj101,,skifb101,-1
 line,0,2,0,0,0,0,0,0,0,0
 line,1,0,0,2,1,0,0,0,3

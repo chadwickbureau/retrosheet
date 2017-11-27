@@ -977,7 +977,7 @@ play,3,1,ripkc001,,,4
 play,3,1,murre001,,,6
 play,4,0,cartj001,,,8/L
 play,4,0,thora001,,,S
-play,4,0,hallm001,,,3(1)3(B)/LDP
+play,4,0,hallm001,,,3(B)3(1)/LDP
 play,4,1,lynnf001,,,2/FL
 play,4,1,knigr001,,,D
 play,4,1,kennt001,,,S.2-H
@@ -5095,7 +5095,6 @@ info,wp,belle001
 info,lp,terrw001
 info,save,niedt001
 info,gwrbi,kennt001
-com,"Suspend=19870621,BAL11,4,9,48"
 start,whitl001,"Lou Whitaker",0,1,4
 start,madlb001,"Bill Madlock",0,2,3
 start,gibsk001,"Kirk Gibson",0,3,7
@@ -5116,6 +5115,7 @@ start,kennt001,"Terry Kennedy",1,7,2
 start,gonzr001,"Rene Gonzales",1,8,5
 start,burlr001,"Rick Burleson",1,9,4
 start,belle001,"Eric Bell",1,0,1
+com,"Suspend=19870621,BAL11,4,9,48"
 com,"ej,tanaf001,P,pales901,Balls and strikes (from bench)"
 com,"Frank Tanana ejected by HP umpire Steve Palermo from the"
 com,"bench sometime in game"
@@ -5228,7 +5228,8 @@ play,8,1,murre001,,,4(1)/FO.2-3
 play,8,1,sheel001,,,W.1-2
 play,8,1,younm002,,,W.3-H;2-3;1-2
 play,8,1,kennt001,,,7
-com,"$game suspended and resumed the next day"
+com,"suspended,19870621,BAL11,curfew"
+com,"$game suspended for curfew and resumed the next day"
 play,9,0,gibsk001,,,D
 play,9,0,trama001,,,43.2-3
 play,9,0,sherp001,,,W

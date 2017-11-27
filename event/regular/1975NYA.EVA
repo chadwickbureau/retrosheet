@@ -5996,7 +5996,6 @@ info,wp,martt001
 info,lp,burgt001
 info,save,
 info,gwrbi,
-com,"Suspend=19750719,MIN02,6,6,81"
 start,fordd001,"Dan Ford",0,1,8
 start,carer001,"Rod Carew",0,2,4
 start,brigj102,"John Briggs",0,3,3
@@ -6017,6 +6016,7 @@ start,pinil001,"Lou Piniella",1,7,9
 start,masoj101,"Jim Mason",1,8,6
 start,aloms101,"Sandy Alomar",1,9,4
 start,huntj101,"Jim Hunter",1,0,1
+com,"Suspend=19750719,MIN02,6,6,81"
 play,1,0,fordd001,??,,K
 play,1,0,carer001,??,,6/P
 play,1,0,brigj102,??,,W
@@ -6177,7 +6177,9 @@ com,"umpchange,14,umphome,frana901"
 com,"umpchange,14,ump1b,bremn901"
 com,"umpchange,14,ump2b,mckej901"
 com,"umpchange,14,ump3b,neudj901"
-com,"$Game suspended; resumed 7-19 in Minneapolis with new umpires"
+com,"suspended,19750719,MIN02,curfew"
+com,"$Game suspended for curfew, resumed 7-19 in Minneapolis"
+com,"with new umpires"
 play,14,1,whitr101,??,,D9
 play,14,1,munst101,??,,7
 play,14,1,chamc001,??,,IW

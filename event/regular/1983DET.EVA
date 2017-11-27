@@ -7272,7 +7272,6 @@ info,wp,morrj001
 info,lp,gural001
 info,save,
 info,gwrbi,cabee001
-com,"Suspend=19830730,DET04,1,10,48"
 start,wilsw001,"Willie Wilson",0,1,8
 start,washu001,"U L Washington",0,2,6
 start,bretg001,"George Brett",0,3,5
@@ -7293,6 +7292,7 @@ start,lemoc001,"Chet Lemon",1,7,8
 start,broot001,"Tom Brookens",1,8,5
 start,trama001,"Alan Trammell",1,9,6
 start,morrj001,"Jack Morris",1,0,1
+com,"Suspend=19830730,DET04,1,10,48"
 play,1,0,wilsw001,??,,6
 play,1,0,washu001,??,,K
 play,1,0,bretg001,??,,S8
@@ -7389,7 +7389,8 @@ play,8,1,leacr001,??,,S8
 play,8,1,hernl001,??,,8/L
 play,8,1,lagam001,??,,3/G.1-2
 play,8,1,castm001,??,,8
-com,"$Game suspended and resumed the next day"
+com,"suspended,19830730,DET04,curfew"
+com,"$Game suspended for curfew and resumed the next day"
 play,9,0,pryog001,??,,NP
 sub,gumpd001,"Dave Gumpert",1,0,1
 play,9,0,pryog001,??,,K

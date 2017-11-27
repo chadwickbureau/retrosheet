@@ -3481,7 +3481,6 @@ info,wp,mills101
 info,lp,shelr101
 info,save,
 info,gwrbi,
-com,"Suspend=19660605,,5,5,67"
 start,campb101,"Bert Campaneris",0,1,6
 start,nossj101,"Joe Nossek",0,2,8
 start,hersm101,"Mike Hershberger",0,3,9
@@ -3500,6 +3499,7 @@ start,blefc101,"Curt Blefary",1,6,7
 start,johnd105,"Dave Johnson",1,7,4
 start,etcha101,"Andy Etchebarren",1,8,2
 start,mcnad102,"Dave McNally",1,9,1
+com,"Suspend=19660605,,5,5,67"
 play,1,0,campb101,??,,K
 play,1,0,nossj101,??,,K/C
 play,1,0,hersm101,??,,K
@@ -3629,7 +3629,8 @@ play,11,1,johnd105,??,,53
 play,11,1,etcha101,??,,K
 play,12,0,stahl101,??,,S8
 play,12,0,bryab101,??,,64(1)/FO
-com,"$game suspended, resumed next day"
+com,"suspended,19660605,BAL11,curfew"
+com,"$game suspended for curfew, resumed next day"
 play,12,0,akerj102,??,,NP
 sub,fazie101,"Ernie Fazio",0,9,11
 play,12,0,fazie101,??,,NP
@@ -4287,7 +4288,6 @@ info,wp,brabg101
 info,lp,bosmd101
 info,save,watte101
 info,gwrbi,
-com,"Suspend=19660609,,5,4,36"
 start,valef101,"Fred Valentine",0,1,9
 start,saveb101,"Bob Saverine",0,2,5
 start,lockd101,"Don Lock",0,3,8
@@ -4306,6 +4306,7 @@ start,johnd105,"Dave Johnson",1,6,6
 start,adaij101,"Jerry Adair",1,7,4
 start,carrc104,"Cam Carreon",1,8,2
 start,barbs102,"Steve Barber",1,9,1
+com,"Suspend=19660609,,5,4,36"
 com,"ej,brine101,P,ashfe901,Call at HP"
 com,"Ed Brinkman ejected by HP umpire Emmett Ashford"
 com,"sometime in game"
@@ -4375,6 +4376,7 @@ sub,bosmd101,"Dick Bosman",0,9,1
 play,6,1,brabg101,??,,K
 play,6,1,snydr102,??,,13
 play,6,1,blefc101,??,,43
+com,"suspended,19660609,BAL11,curfew"
 com,"$game suspended at 12:07 AM and resumed the next day"
 play,7,0,lockd101,??,,K
 play,7,0,howaf102,??,,K

@@ -2392,7 +2392,6 @@ info,wp,rodre102
 info,lp,browj109
 info,save,colbj101
 info,gwrbi,
-com,"Suspend=19750515,,2,2,84"
 start,moned101,"Don Money",0,1,5
 start,sharb102,"Bill Sharp",0,2,8
 start,mitcb102,"Bobby Mitchell",0,3,7
@@ -2413,6 +2412,7 @@ start,hower001,"Roy Howell",1,7,5
 start,harrt001,"Toby Harrah",1,8,4
 start,sundj001,"Jim Sundberg",1,9,2
 start,wrigc102,"Clyde Wright",1,0,1
+com,"Suspend=19750515,,2,2,84"
 com,"1:13 rain delay before start of game"
 play,1,0,moned101,??,,13
 play,1,0,sharb102,??,,13
@@ -2551,7 +2551,8 @@ play,14,1,tovac101,??,,53
 play,14,1,smalr001,??,,K
 play,14,1,lovij102,??,,S8
 play,14,1,burrj001,??,,8
-com,"$the game was suspended here and resumed the next night"
+com,"suspended,19750515,ARL01,curfew"
+com,"$the game was suspended for curfew and resumed the next night"
 play,15,0,aaroh101,??,,NP
 sub,browj109,"Jackie Brown",1,0,1
 play,15,0,aaroh101,??,,W
