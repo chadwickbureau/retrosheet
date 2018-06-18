@@ -7911,7 +7911,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,90
-info,attendance,0
+info,attendance,3000
 info,wp,ruetd101
 info,lp,meadl101
 info,save,
@@ -23007,8 +23007,8 @@ stat,dline,ofarb101,1,1,2,27,5,0,0,0,0,0
 stat,dline,cheev101,1,1,1,27,0,2,0,0,0,0
 stat,pline,luqud101,0,1,9,-1,16,6,-1,-1,0,5,0,1,-1,3,0,0,1,0,0
 stat,pline,coucj101,0,2,9,-1,10,2,-1,-1,0,0,0,0,-1,2,0,0,0,0,0
-stat,pline,schnk101,0,3,0,-1,2,1,-1,-1,0,1,1,1,-1,0,0,1,0,1,0
-stat,pline,keckc101,0,4,6,-1,7,1,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
+stat,pline,schnk101,0,3,0,-1,2,1,-1,-1,0,1,1,1,-1,0,0,1,0,0,0
+stat,pline,keckc101,0,4,6,-1,7,1,-1,-1,0,1,1,1,-1,0,0,0,0,1,0
 stat,pline,cheev101,1,1,27,-1,42,11,-1,-1,0,4,3,3,-1,4,0,0,0,0,0
 event,sbline,1,grimr103,-1,-1,-1
 event,csline,1,terrz101,-1,-1,-1
@@ -29407,8 +29407,8 @@ stat,dline,parkf101,0,1,4,27,1,5,0,0,0,0
 stat,dline,willc103,0,1,8,27,2,0,0,0,0,0
 stat,dline,walkc101,0,1,9,27,3,0,0,0,0,0
 stat,dline,mokaj101,0,1,7,27,1,0,0,0,0,0
-stat,dline,smitj107,0,1,6,27,4,4,0,1,0,0
-stat,dline,leslr101,0,1,3,27,14,0,0,1,0,0
+stat,dline,smitj107,0,1,6,27,4,4,0,2,0,0
+stat,dline,leslr101,0,1,3,27,14,0,0,2,0,0
 stat,dline,henlb101,0,1,2,27,2,0,0,0,0,0
 stat,dline,hubbb101,0,1,1,27,0,2,0,0,0,0
 stat,dline,burng101,1,1,9,27,1,0,0,0,0,0
@@ -29429,7 +29429,8 @@ event,sbline,0,parkf101,-1,wingi101,-1
 line,0,0,0,0,0,1,0,0,0,0
 line,1,0,0,0,0,0,0,0,0,0
 event,dpline,0,smitj107,leslr101
-stat,tline,0,5,0,1,0
+event,dpline,0,smitj107,leslr101
+stat,tline,0,5,0,2,0
 stat,tline,1,6,0,0,0
 id,CIN192208190
 version,1
@@ -61193,7 +61194,7 @@ start,nortl101,"Lou North",1,9,1
 stat,bline,rappg101,0,1,1,5,3,3,1,0,0,1,0,0,0,0,-1,0,1,0,-1,0
 stat,bline,parkf101,0,2,1,5,2,1,0,0,0,0,0,0,0,0,-1,2,0,0,-1,0
 stat,bline,willc103,0,3,1,4,1,2,0,0,1,4,1,0,0,0,-1,1,0,0,-1,0
-stat,bline,walkc101,0,4,1,4,0,2,1,0,0,0,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,walkc101,0,4,1,4,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,lee-c101,0,5,1,5,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,fleta101,0,6,1,2,1,0,0,0,0,0,0,0,2,0,-1,0,0,1,-1,0
 stat,bline,leslr101,0,7,1,4,0,2,1,0,0,0,0,0,0,0,-1,2,0,0,-1,0
@@ -61239,7 +61240,7 @@ stat,dline,topos101,1,1,6,-1,0,1,0,1,0,0
 stat,dline,nortl101,1,1,1,18,0,0,0,0,0,0
 stat,dline,barfc101,1,1,1,9,0,0,0,0,0,0
 stat,pline,meadl101,0,1,27,-1,38,8,-1,-1,1,2,2,2,-1,1,1,0,0,0,0
-stat,pline,nortl101,1,1,18,-1,25,7,-1,-1,0,3,2,0,-1,6,1,1,0,2,0
+stat,pline,nortl101,1,1,18,-1,25,7,-1,-1,0,3,2,0,-1,6,1,1,0,1,0
 stat,pline,barfc101,1,2,9,-1,16,3,-1,-1,1,5,2,1,-1,1,2,0,0,1,0
 event,sbline,0,rappg101,-1,mccuh101,-1
 event,csline,0,fleta101,-1,mccuh101,-1
@@ -62012,8 +62013,8 @@ start,nixoa101,"Al Nixon",0,2,7
 start,cruiw101,"Walton Cruise",0,3,9
 start,boect101,"Tony Boeckel",0,4,5
 start,holkw101,"Walter Holke",0,5,3
-start,fordh101,"Hod Ford",0,6,6
-start,kopfl101,"Larry Kopf",0,7,4
+start,fordh101,"Hod Ford",0,6,4
+start,kopfl101,"Larry Kopf",0,7,6
 start,oneim102,"Mickey O'Neil",0,8,2
 start,millf102,"Frank Miller",0,9,1
 start,flacm101,"Max Flack",1,1,9
@@ -62058,8 +62059,8 @@ stat,dline,nixoa101,0,1,7,26,2,0,0,0,0,0
 stat,dline,cruiw101,0,1,9,26,6,0,0,0,0,0
 stat,dline,boect101,0,1,5,26,2,0,1,0,0,0
 stat,dline,holkw101,0,1,3,26,8,1,0,1,0,0
-stat,dline,fordh101,0,1,6,26,1,2,0,0,0,0
-stat,dline,kopfl101,0,1,4,26,1,4,0,1,0,0
+stat,dline,fordh101,0,1,4,26,1,2,0,0,0,0
+stat,dline,kopfl101,0,1,6,26,1,4,0,1,0,0
 stat,dline,oneim102,0,1,2,26,5,1,0,1,0,0
 stat,dline,millf102,0,1,1,26,0,0,0,0,0,0
 stat,dline,flacm101,1,1,9,27,1,0,0,0,0,0
@@ -62118,8 +62119,8 @@ start,nixoa101,"Al Nixon",0,2,7
 start,nichf101,"Fred Nicholson",0,3,9
 start,boect101,"Tony Boeckel",0,4,5
 start,holkw101,"Walter Holke",0,5,3
-start,fordh101,"Hod Ford",0,6,6
-start,kopfl101,"Larry Kopf",0,7,4
+start,fordh101,"Hod Ford",0,6,4
+start,kopfl101,"Larry Kopf",0,7,6
 start,gibsf101,"Frank Gibson",0,8,2
 start,marqr102,"Rube Marquard",0,9,1
 start,flacm101,"Max Flack",1,1,9
@@ -62168,8 +62169,8 @@ stat,dline,nichf101,0,1,9,28,1,0,0,0,0,0
 stat,dline,boect101,0,1,5,28,2,4,0,1,0,0
 stat,dline,holkw101,0,1,3,-1,5,2,0,1,0,0
 stat,dline,barbw101,0,1,3,-1,3,0,0,0,0,0
-stat,dline,fordh101,0,1,6,28,0,4,1,0,0,0
-stat,dline,kopfl101,0,1,4,28,5,1,0,1,0,0
+stat,dline,fordh101,0,1,4,28,0,4,1,0,0,0
+stat,dline,kopfl101,0,1,6,28,5,1,0,1,0,0
 stat,dline,gibsf101,0,1,2,28,7,1,0,1,0,0
 stat,dline,marqr102,0,1,1,24,1,2,0,0,0,0
 stat,dline,mcquh101,0,1,1,4,0,0,0,0,0,0
@@ -62235,8 +62236,8 @@ start,nixoa101,"Al Nixon",0,2,7
 start,cruiw101,"Walton Cruise",0,3,9
 start,boect101,"Tony Boeckel",0,4,5
 start,holkw101,"Walter Holke",0,5,3
-start,fordh101,"Hod Ford",0,6,6
-start,kopfl101,"Larry Kopf",0,7,4
+start,fordh101,"Hod Ford",0,6,4
+start,kopfl101,"Larry Kopf",0,7,6
 start,gibsf101,"Frank Gibson",0,8,2
 start,watsm103,"Mule Watson",0,9,1
 start,flacm101,"Max Flack",1,1,9
@@ -62280,8 +62281,8 @@ stat,dline,nixoa101,0,1,7,24,3,0,0,0,0,0
 stat,dline,cruiw101,0,1,9,24,3,0,0,0,0,0
 stat,dline,boect101,0,1,5,24,1,2,0,0,0,0
 stat,dline,holkw101,0,1,3,24,9,0,0,0,0,0
-stat,dline,fordh101,0,1,6,24,1,4,0,0,0,0
-stat,dline,kopfl101,0,1,4,24,0,5,1,0,0,0
+stat,dline,fordh101,0,1,4,24,1,4,0,0,0,0
+stat,dline,kopfl101,0,1,6,24,0,5,1,0,0,0
 stat,dline,gibsf101,0,1,2,24,4,0,0,0,0,0
 stat,dline,watsm103,0,1,1,24,0,1,0,0,0,0
 stat,dline,flacm101,1,1,9,27,0,0,0,0,0,0
@@ -62342,8 +62343,8 @@ start,nixoa101,"Al Nixon",0,2,7
 start,cruiw101,"Walton Cruise",0,3,9
 start,boect101,"Tony Boeckel",0,4,5
 start,holkw101,"Walter Holke",0,5,3
-start,fordh101,"Hod Ford",0,6,6
-start,kopfl101,"Larry Kopf",0,7,4
+start,fordh101,"Hod Ford",0,6,4
+start,kopfl101,"Larry Kopf",0,7,6
 start,gibsf101,"Frank Gibson",0,8,2
 start,mcquh101,"Hugh McQuillan",0,9,1
 start,flacm101,"Max Flack",1,1,9
@@ -62397,21 +62398,21 @@ stat,dline,nixoa101,0,1,7,24,1,0,0,0,0,0
 stat,dline,cruiw101,0,1,9,24,4,0,1,0,0,0
 stat,dline,boect101,0,1,5,24,0,1,0,0,0,0
 stat,dline,holkw101,0,1,3,24,10,1,0,1,0,0
-stat,dline,fordh101,0,1,6,24,4,5,1,1,0,0
-stat,dline,kopfl101,0,1,4,24,1,2,0,2,0,0
+stat,dline,fordh101,0,1,4,24,4,5,1,1,0,0
+stat,dline,kopfl101,0,1,6,24,1,2,0,2,0,0
 stat,dline,gibsf101,0,1,2,24,3,2,0,1,0,0
 stat,dline,mcquh101,0,1,1,3,0,1,0,0,0,0
-stat,dline,oescj101,0,1,1,5,0,1,0,0,0,0
+stat,dline,oescj101,0,1,1,4,0,1,0,0,0,0
 stat,dline,braxg101,0,1,1,0,0,0,0,0,0,0
-stat,dline,millf102,0,1,1,15,0,0,0,0,0,0
+stat,dline,millf102,0,1,1,16,0,0,0,0,0,0
 stat,dline,mcnat101,0,1,1,1,0,0,0,0,0,0
 stat,dline,flacm101,1,1,9,27,2,0,0,0,0,0
 stat,dline,smitj106,1,1,8,27,3,0,0,0,0,0
 stat,dline,hornr101,1,1,4,27,2,6,0,2,0,0
 stat,dline,muelh102,1,1,7,-1,2,0,1,0,0,0
 stat,dline,mannl101,1,1,7,-1,1,0,0,0,0,0
-stat,dline,fourj101,1,1,3,-1,3,0,0,2,0,0
-stat,dline,gaind101,1,1,3,-1,5,0,0,0,0,0
+stat,dline,fourj101,1,1,3,-1,3,0,0,1,0,0
+stat,dline,gaind101,1,1,3,-1,5,0,0,1,0,0
 stat,dline,stocm101,1,1,5,27,2,0,0,0,0,0
 stat,dline,mccuh101,1,1,2,-1,2,1,0,1,0,1
 stat,dline,ainse101,1,1,2,-1,0,0,0,0,0,0
@@ -62422,9 +62423,9 @@ stat,dline,nortl101,1,1,1,9,0,1,0,0,0,0
 stat,dline,pfefj101,1,1,1,12,0,3,0,0,0,0
 stat,dline,sherb101,1,1,1,3,0,0,0,0,0,0
 stat,pline,mcquh101,0,1,3,-1,4,1,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
-stat,pline,oescj101,0,2,5,-1,9,2,-1,-1,0,1,1,3,-1,0,0,0,1,0,0
+stat,pline,oescj101,0,2,4,-1,9,2,-1,-1,0,1,1,3,-1,0,0,0,1,0,0
 stat,pline,braxg101,0,3,0,-1,1,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
-stat,pline,millf102,0,4,15,-1,26,10,-1,-1,0,8,3,2,-1,1,0,0,0,0,0
+stat,pline,millf102,0,4,16,-1,26,10,-1,-1,0,8,3,2,-1,1,0,0,0,0,0
 stat,pline,mcnat101,0,5,1,-1,3,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,pertb101,1,1,3,-1,7,3,-1,-1,0,2,2,2,-1,0,0,0,0,0,0
 stat,pline,nortl101,1,2,9,-1,15,6,-1,-1,0,3,3,2,-1,2,0,0,0,0,0
@@ -62442,7 +62443,7 @@ line,0,1,1,0,3,0,2,1,0,0
 line,1,0,0,1,0,1,0,1,6
 event,dpline,1,lavad101,hornr101,fourj101
 event,dpline,1,mccuh101,lavad101
-event,dpline,1,lavad101,hornr101,fourj101
+event,dpline,1,lavad101,hornr101,gaind101
 event,dpline,0,gibsf101,kopfl101
 event,dpline,0,fordh101,kopfl101,holkw101
 stat,tline,0,11,0,2,0
