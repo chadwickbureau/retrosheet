@@ -2036,7 +2036,7 @@ info,site,PIT06
 info,date,1954/05/20
 info,number,0
 info,starttime,0:00PM
-info,daynight,day
+info,daynight,night
 info,usedh,false
 info,umphome,engeb902
 info,ump1b,stewb901
@@ -4675,7 +4675,7 @@ info,site,PIT06
 info,date,1954/07/02
 info,number,0
 info,starttime,0:00PM
-info,daynight,day
+info,daynight,night
 info,usedh,false
 info,umphome,warnl101
 info,ump1b,secof101
@@ -5815,8 +5815,10 @@ play,1,1,skinb101,??,,4
 play,1,1,wardp101,??,,7
 play,2,0,borkb101,??,,W
 play,2,0,greej102,??,,K+CS2(24)/DP
-play,2,0,baile101,??,,2/G/BINT
-com,"$Ed Bailey called for interference for running into his own batted ball"
+ladj,0,8
+play,2,0,mcmir101,??,,2
+com,"$McMillan batted out of turn, but made out, so Pirates"
+com,"made no comment"
 play,2,1,thomf103,??,,63
 play,2,1,gords101,??,,K/C
 play,2,1,atwet101,??,,S
@@ -5825,7 +5827,9 @@ play,2,1,coled101,??,,W
 play,2,1,halld101,??,,W.2-3;1-2
 play,2,1,thiej101,??,,W.3-H;2-3;1-2
 play,2,1,robec102,??,,7
-play,3,0,mcmir101,??,,3
+ladj,0,7
+play,3,0,baile101,??,,3
+ladj,0,9
 play,3,0,valec101,??,,K
 play,3,0,tempj101,??,,T
 play,3,0,harmc101,??,,D.3-H
@@ -5847,13 +5851,13 @@ play,5,0,mcmir101,??,,9
 play,5,0,valec101,??,,23/SH.1-2
 play,5,0,tempj101,??,,S.2-3
 play,5,0,harmc101,??,,163
+com,"$Line drive off pitcher's leg; he left the next inning"
 play,5,1,robec102,??,,53
 play,5,1,skinb101,??,,7
 play,5,1,wardp101,??,,9
 play,6,0,bellg103,??,,NP
 sub,law-v101,"Vern Law",1,9,1
-play,6,0,bellg103,??,,53#
-com,"to match daily/TSN, arbitrary 63 to 53"
+play,6,0,bellg103,??,,53
 play,6,0,klust101,??,,D
 play,6,0,borkb101,??,,9
 play,6,0,greej102,??,,S.2-3
@@ -6397,7 +6401,7 @@ info,site,PIT06
 info,date,1954/08/10
 info,number,0
 info,starttime,0:00PM
-info,daynight,day
+info,daynight,night
 info,usedh,false
 info,umphome,donaa901
 info,ump1b,conlj102

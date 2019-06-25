@@ -2004,7 +2004,7 @@ info,date,1942/05/05
 info,site,CIN07
 info,number,0
 info,starttime,0:00PM
-info,daynight,unknown
+info,daynight,day
 info,usedh,false
 info,scorer,"142"
 info,translator,"Greg Beston"
@@ -5403,7 +5403,7 @@ info,date,1942/07/10
 info,site,CIN07
 info,number,0
 info,starttime,0:00PM
-info,daynight,day
+info,daynight,night
 info,usedh,false
 info,translator,"Dick Cramer"
 info,inputter,"Dick Cramer"
@@ -7977,7 +7977,7 @@ info,date,1942/08/09
 info,site,CIN07
 info,number,2
 info,starttime,7:44PM
-info,daynight,night
+info,daynight,day
 info,usedh,false
 info,scorer,"524"
 info,translator,"DWV"
@@ -8067,7 +8067,8 @@ play,5,0,errid101,??,,NP
 sub,mccuc101,"Clyde McCullough",0,9,11
 play,5,0,mccuc101,??,,D8
 play,5,0,stril101,??,,K
-com,"$game called due to darkness"
+com,"Game called for darkness at 8:41 PM; by rule, lights"
+com,"could not be turned on after game started"
 data,er,bithh101,2
 data,er,errid101,0
 data,er,vandj101,1
