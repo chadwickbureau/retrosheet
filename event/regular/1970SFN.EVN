@@ -2560,10 +2560,14 @@ play,3,1,bondb101,??,,3/FL
 play,4,0,taylt101,??,,S7
 play,4,0,hisll101,??,,PO1(E3).1-2
 play,4,0,hisll101,??,,D7.2-H(UR)
+com,"umpchange,4,ump2b,(None)"
+com,"$2B umpire Burkhart left when hit in face by deflected throw"
 play,4,0,joser101,??,,8
 play,4,0,moned101,??,,E6
 play,4,0,parrs101,??,,8
 play,4,0,browb101,??,,7
+com,"umpchange,4,ump2b,burkk101"
+com,"$Umpire Burkhart returned to 2nd"
 play,4,1,huntr101,??,,S7
 play,4,1,maysw101,??,,E1/TH.1-3;B-2
 play,4,1,mccow101,??,,IW
@@ -4112,7 +4116,10 @@ play,1,0,joshv101,??,,K
 play,1,0,willm102,??,,13
 play,1,0,daviw102,??,,S9
 play,1,0,parkw101,??,,6(1)/FO
-play,1,1,bondb101,??,,K
+play,1,1,bondb101,??,,K/C
+com,"ej,bondb101,P,weyel901,Called third strike"
+com,"$Bonds ejected by HP umpire Davidson for arguing called"
+com,"third strike"
 play,1,1,huntr101,??,,3/FL
 play,1,1,maysw101,??,,HR/78
 play,1,1,hendk101,??,,2/FL
@@ -11130,6 +11137,8 @@ play,7,0,harrb107,??,,NP
 sub,maybj101,"John Mayberry",0,9,11
 play,7,0,maybj101,??,,K
 play,7,0,alouj101,??,,OA.3XH(21)#
+com,"ej,raded103,P,steld901,Call at HP"
+com,"$Rader ejected by HP umpire Stello for arguing he was safe"
 play,7,1,perrg101,??,,NP
 sub,lemad102,"Denny Lemaster",0,9,1
 play,7,1,perrg101,??,,NP

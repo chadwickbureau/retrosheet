@@ -4596,9 +4596,6 @@ start,brooh001,"Hubie Brooks",1,6,5
 start,fitzm001,"Mike Fitzgerald",1,7,2
 start,oquej001,"Jose Oquendo",1,8,6
 start,goodd001,"Dwight Gooden",1,9,1
-com,"ej,johnd105,M,palld901,Arguing HBP call"
-com,"Mets manager Davey Johnson ejected by HP umpire Dave Pallone"
-com,"sometime in game"
 play,1,0,raint001,,,7
 play,1,0,rosep001,,,53
 play,1,0,dawsa001,,,8
@@ -4663,12 +4660,17 @@ play,8,0,gullb001,,,K
 play,8,0,raint001,,,8
 play,8,0,rosep001,,,K
 com,"ej,rosep001,P,palld901,Balls and strikes"
-com,"Pete Rose ejected by HP umpire Dave Pallone"
+com,"$Rose ejected by HP umpire Pallone for arguing balls"
+com,"and strikes"
 play,8,1,backw001,,,NP
 sub,johnr002,"Ron Johnson",0,2,3
 play,8,1,backw001,,,S
 play,8,1,wilsm001,,,CS2(26)
 play,8,1,wilsm001,,,K
+com,"ej,johnd105,M,palld901,HBP non-call"
+com,"$Mets manager Johnson ejected by HP umpire Pallone for"
+com,"arguing that Wilson was hit by pitch; umpire ruled Wilson"
+com,"tried to bunt at ball so it was a strike"
 play,8,1,hernk001,,,8
 play,9,0,dawsa001,,,K23
 play,9,0,cartg001,,,S
@@ -7495,9 +7497,9 @@ play,1,1,wilsm001,,,9
 play,1,1,hernk001,,,W
 play,1,1,strad001,,,WP.1-2
 play,1,1,strad001,,,K23
-com,"ej,johnd105,M,tatat901,Checked swing"
-com,"Mets manager Davey Johnson ejected by 1B umpire Bruce Froemming"
-com,"arguing a checked swing call on Darryl Strawberry"
+com,"ej,johnd105,M,froeb901,Checked swing"
+com,"$Mets manager Johnson ejected by 3B umpire Froemming for"
+com,"arguing checked swing call to Strawberry"
 play,2,0,morek001,,,9
 play,2,0,davij001,,,K
 play,2,0,cey-r001,,,K

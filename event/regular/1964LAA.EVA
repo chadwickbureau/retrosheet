@@ -1188,6 +1188,12 @@ start,knoob101,"Bobby Knoop",1,7,4
 start,pierj102,"Jim Piersall",1,8,7
 start,latmb101,"Barry Latman",1,9,1
 play,1,0,zimmd101,??,,K/C
+com,"umpchange,1,umphome,papaj901"
+com,"umpchange,1,ump2b,(None)"
+com,"umpchange,1,ump3b,dimul901"
+com,"$HP umpire Umont took a foul ball to the mask and left,"
+com,"with 3B umpire Paparella going behind the plate and 2B"
+com,"DiMuro moving to 3rd"
 play,1,0,blasd101,??,,43
 play,1,0,valef101,??,,K/C
 play,1,1,peara102,??,,S8
@@ -1205,6 +1211,8 @@ play,2,1,pierj102,??,,E6.1-2;B-1
 play,2,1,latmb101,??,,9
 play,2,1,peara102,??,,8
 play,3,0,brine101,??,,43
+com,"$1B umpre Drummond leaves game for unknown reason and"
+com,"umpire DiMuro moves to 1st, leaving only 2 umpires"
 play,3,0,ostec103,??,,43
 play,3,0,zimmd101,??,,53
 play,3,1,morab101,??,,13
@@ -1214,6 +1222,10 @@ play,3,1,rodgb102,??,,S9.1-2
 play,3,1,thoml103,??,,S7.2-H;1-3;B-2
 play,3,1,knoob101,??,,9
 play,4,0,blasd101,??,,3/L
+com,"umpchange,4,ump1b,drumc901"
+com,"umpchange,4,ump2b,dimul901"
+com,"umpchange,4,ump3b,umonf901"
+com,"$Umpires Umont and Drummond return to the game"
 play,4,0,valef101,??,,43
 play,4,0,skowb101,??,,S7
 play,4,0,kingj101,??,,8
@@ -4320,9 +4332,6 @@ start,satrt101,"Tom Satriano",1,6,3
 start,koppj101,"Joe Koppe",1,7,6
 start,knoob101,"Bobby Knoop",1,8,4
 start,chand102,"Dean Chance",1,9,1
-com,"ej,berry101,M,mckib901,Call at 3B"
-com,"Yankees Manager Yogi Berra ejected by 3B umpire Bill McKinley"
-com,"sometime in game"
 play,1,0,kubet101,??,,7/F7D
 play,1,0,richb102,??,,K/C
 play,1,0,trest101,??,,K
@@ -4391,6 +4400,10 @@ play,9,1,kirke102,??,,36(1)/FO/BG
 play,9,1,satrt101,??,,SB2
 play,9,1,satrt101,??,,K
 play,9,1,koppj101,??,,S6.2-3
+com,"ej,berry101,M,mckib901,Call at 3B"
+com,"$Yankees manager Berra ejected by 3B umpire McKinley for"
+com,"arguing that Kirkpatrick was out at 3rd on Koppe's"
+com,"infield hit"
 play,9,1,knoob101,??,,DI.1-2
 play,9,1,knoob101,??,,IW
 play,9,1,chand102,??,,K
@@ -11479,7 +11492,9 @@ sub,carrc104,"Cam Carreon",0,8,2
 play,5,1,pierj102,??,,K/C
 play,5,1,kirke102,??,,3/G
 play,5,1,fregj101,??,,K
-play,6,0,hansr102,??,,K
+play,6,0,hansr102,??,,K/C
+com,"ej,hansr102,P,nappl901,Called strike 3"
+com,"$Hansen ejected by HP umpire Napp for arguing strike 3"
 play,6,0,wardp102,??,,43
 play,6,0,longj101,??,,9
 play,6,1,clinl101,??,,NP

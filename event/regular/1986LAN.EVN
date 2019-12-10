@@ -4985,7 +4985,7 @@ play,5,0,bellb001,,,53
 play,5,0,peret001,,,S7/L7S
 play,5,0,rowdw001,,,S8/L8S.1-2
 play,5,0,diazb001,,,7
-play,5,0,oestr001,,,5(2)/FO/G
+play,5,0,oestr001,,,5(2)/FO
 play,5,1,madlb001,,,31
 play,5,1,marsm001,,,S7/G56
 play,5,1,treva001,,,53/SH.1-2
@@ -5035,6 +5035,10 @@ play,9,1,duncm001,,,S8/L8S
 play,9,1,sax-s001,,,14/SH.1-2
 play,9,1,cabee001,,,I
 play,9,1,madlb001,,,54(1)/FO/G.2-H(NR);B-1
+com,"ej,franj001,P,wendh901,Call at HP (Bumped umpire)"
+com,"$Pitcher Franco ejected by HP umpire Wendelstedt"
+com,"for arguing Duncan was out on game-ending play; he"
+com,"bumped umpire during argument"
 data,er,welsc001,0
 data,er,franj001,1
 data,er,honer001,0
@@ -5210,9 +5214,6 @@ play,11,1,anded001,,,13/BG
 play,11,1,duncm001,,,S7/L7S.B-2(E7)
 play,11,1,sax-s001,,,I
 play,11,1,stubf001,,,S8/G6S.2-H;1-2
-com,"ej,franj001,P,wendh901,Call at HP, bumped umpire"
-com,"$Franco ejected by 3B umpire Wendelstedt for arguing call at home"
-com,"after game was over; he bumped umpire"
 data,er,gullb001,3
 data,er,robir001,0
 data,er,franj001,1
@@ -5831,9 +5832,6 @@ start,stubf001,"Franklin Stubbs",1,6,7
 start,willr001,"Reggie Williams",1,7,8
 start,shipc001,"Craig Shipley",1,8,6
 start,valef001,"Fernando Valenzuela",1,9,1
-com,"ej,lasot101,M,steld901,Balls and strikes"
-com,"Dodgers manager Tommy Lasorda ejected by HP umpire Dick Stello"
-com,"sometime in game"
 play,1,0,washc001,,,53
 play,1,0,moreo001,,,S7/L78S
 play,1,0,murpd001,,,E6/G.1-2;B-1
@@ -5949,6 +5947,9 @@ play,8,0,washc001,,,W.1-2
 play,8,0,moreo001,,,NP
 sub,sampb001,"Bill Sample",0,9,12
 play,8,0,moreo001,,,7
+com,"ej,lasot101,M,steld901,Balls and strikes"
+com,"$Dodgers manager Lasorda ejected by HP umpire Stello for"
+com,"arguing balls and strikes with Moreno at bat"
 play,8,0,murpd001,,,46(1)/FO/G
 play,8,1,amele001,,,NP
 sub,garbg001,"Gene Garber",0,9,1
@@ -11300,6 +11301,7 @@ play,7,1,valef001,,,NP
 sub,guerp001,"Pedro Guerrero",1,9,11
 play,7,1,guerp001,,,HR/7.2-H;1-H
 play,7,1,sax-s001,,,HP
+com,"$Both teams warned after Sax hit by pitch"
 play,7,1,anded001,,,6(B)3(1)/LDP
 play,8,0,davig001,,,NP
 sub,hamij001,"Jeff Hamilton",1,4,5
@@ -11324,6 +11326,10 @@ play,9,0,pankj001,,,S7/G56
 play,9,0,walkt001,,,WP.1-2
 play,9,0,walkt001,,,NP
 sub,howek001,"Ken Howell",1,9,1
+com,"ej,powed001,P,tatat901,Brushback pitch after warning"
+com,"ej,lasot101,M,tatat901,Automatic ejection after warning"
+com,"$Pitcher Powell and Dodgers manager Lasorda ejected by HP"
+com,"umpire Tata after brushback pitch to Walker"
 play,9,0,walkt001,,,31.2-3
 play,9,0,dorab001,,,43
 data,er,knepb001,5

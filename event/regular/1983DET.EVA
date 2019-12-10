@@ -1275,12 +1275,6 @@ start,lemoc001,"Chet Lemon",1,7,8
 start,cabee001,"Enos Cabell",1,8,3
 start,trama001,"Alan Trammell",1,9,6
 start,morrj001,"Jack Morris",1,0,1
-com,"ej,cleab801,C,merrd901,Balk non-call"
-com,"ej,mcnaj801,M,mckej901,Balk non-call"
-com,"Angels manager John McNamara ejected by HP umpire Jim McKean"
-com,"arguing that a Tigers' pitcher balked when throwing to 1B;"
-com,"Angels coach Bob Clear ejected by 1B umpire Durwood Merrill"
-com,"protesting McNamara's ejection; sometime in game"
 play,1,0,benij001,??,,9
 play,1,0,scond001,??,,31
 play,1,0,valee001,??,,8
@@ -1347,6 +1341,12 @@ sub,broot001,"Tom Brookens",1,2,5
 play,8,0,folit001,??,,S7
 play,8,0,boonb001,??,,NP
 sub,adamr001,"Ricky Adams",0,8,12
+com,"ej,cleab801,C,merrd901,Balk non-call"
+com,"ej,mcnaj801,M,mckej901,Protesting manager's ejection"
+com,"$Angels manager McNamara ejected by HP umpire McKean for"
+com,"arguing pitcher balked when throwing to 1B which hit runner"
+com,"in neck, forcing him to leave for pinch-runner; Angels coach"
+com,"Clear ejected by 1B umpire Merrill protesting McNamara's ejection"
 play,8,0,boonb001,??,,6
 play,8,0,benij001,??,,53.1-2
 play,8,0,scond001,??,,T8.2-H
@@ -1501,10 +1501,10 @@ play,7,1,whitl001,??,,43
 play,7,1,broot001,??,,6
 play,7,1,gibsk001,??,,W
 play,7,1,parrl001,??,,8
-com,"ej,willb104,C,barnl901,Balls and strikes"
-com,"Athletics coach Billy Williams ejected by HP umpire Larry Barnett"
-com,"sometime in eighth inning"
-play,8,0,hendr001,??,,K
+play,8,0,hendr001,??,,K/C
+com,"ej,willb104,C,barnl901,Called strike 3"
+com,"$Athletics coach Williams ejected by HP umpire Barnett"
+com,"for arguing called strike 3 to Henderson"
 play,8,0,loped001,??,,7
 play,8,0,almob001,??,,7
 play,8,1,hernl001,??,,9
@@ -3130,11 +3130,13 @@ play,8,0,castj001,??,,E5.1-2
 play,8,0,wardg001,??,,S8.2-H(UR);1-2
 play,8,0,hrbek001,??,,NP
 sub,lopea001,"Aurelio Lopez",1,0,1
+com,"ej,wockj001,P,voltv901,Balls and strikes"
+com,"$Catcher Wockenfuss ejected by HP umpire Voltaggio for"
+com,"arguing balls and strikes"
+play,8,0,hrbek001,??,,NP
+sub,parrl001,"Lance Parrish",1,5,2
 play,8,0,hrbek001,??,,9
 play,8,0,gaetg001,??,,K
-com,"ej,wockj001,P,voltv901,Balls and strikes"
-com,"John Wockenfuss ejected by HP umpire Vic Voltaggio"
-com,"sometime in eighth inning"
 play,8,1,broot001,??,,7/L
 play,8,1,gonzj101,??,,K
 play,8,1,trama001,??,,D7
@@ -3142,8 +3144,6 @@ play,8,1,cabee001,??,,NP
 sub,davir001,"Ron Davis",0,0,1
 play,8,1,cabee001,??,,W
 play,8,1,hernl001,??,,K
-play,9,0,bushr001,??,,NP
-sub,parrl001,"Lance Parrish",1,5,2
 play,9,0,bushr001,??,,NP
 sub,whitl001,"Lou Whitaker",1,9,4
 play,9,0,bushr001,??,,K/C
@@ -4582,7 +4582,10 @@ play,4,0,evand002,??,,HR.1-H
 play,4,0,ricej001,??,,S
 play,4,0,armat001,??,,54(1)3/GDP
 play,4,1,trama001,??,,9
-play,4,1,gibsk001,??,,HR
+play,4,1,gibsk001,??,,HR/9
+com,"$Estimated 540 feet, ball cleared Trumbull Avenue and"
+com,"landed in lumber yard; it was the 14th ball to be hit"
+com,"completely out of Tiger Stadium since 1938 remodeling"
 play,4,1,wilsg001,??,,63
 play,4,1,hernl001,??,,4/P
 play,5,0,boggw001,??,,S
@@ -4598,7 +4601,19 @@ play,6,0,remyj001,??,,S
 play,6,0,evand002,??,,64(1)/FO
 play,6,1,whitl001,??,,S
 play,6,1,trama001,??,,7
-play,6,1,gibsk001,??,,D.1XH(862);B-H(UR)(E2)
+play,6,1,gibsk001,??,,D.1XH(862);B-H(NR)(E2)(UR)
+com,"umpchange,6,umphome,fordd901"
+com,"umpchange,6,ump2b,(None)"
+com,"$HP umpire Barnett injured back when Gibson ran over"
+com,"him trying for inside the park homer; Whitaker was"
+com,"tagged out at home on same play, but Gibson was right"
+com,"behind him, Barnett was in the baseline and Gibson hit"
+com,"him and catcher who dropped ball for error as Gibson"
+com,"was called safe; Red Sox claimed catcher did not drop"
+com,"ball and loose ball seen on the ground came out of"
+com,"umpire's pocket; Barnett left field on stretcher; 2B"
+com,"umpire Ford went behind plate and game was finished"
+com,"with 3 umpires"
 play,6,1,wilsg001,??,,53
 play,7,0,ricej001,??,,NP
 sub,gumpd001,"Dave Gumpert",1,0,1
@@ -9591,9 +9606,6 @@ start,lemoc001,"Chet Lemon",1,7,8
 start,broot001,"Tom Brookens",1,8,4
 start,castm001,"Marty Castillo",1,9,5
 start,morrj001,"Jack Morris",1,0,1
-com,"ej,cox-b103,M,reedr901,Call at 1B"
-com,"Blue Jays manager Bobby Cox ejected by 1B umpire Rick Reed"
-com,"sometime in game"
 play,1,0,colld001,22,,K/C
 play,1,0,mullr001,??,,E3
 play,1,0,mosel001,32,,2/FL/P
@@ -9634,6 +9646,9 @@ play,5,0,colld001,??,,31
 play,5,0,mullr001,32,,W
 play,5,0,mosel001,??,,S8.1-2
 play,5,0,upshw001,22,,53
+com,"ej,cox-b103,M,reedr901,Call at 1B"
+com,"$Blue Jays manager Cox ejected by 1B umpire Reed for"
+com,"arguing that Upshaw was safe at 1st"
 play,5,1,broot001,21,,9
 play,5,1,castm001,32,,W
 play,5,1,gibsk001,??,,9

@@ -3208,6 +3208,12 @@ start,hends001,"Steve Henderson",1,7,7
 start,flynd001,"Doug Flynn",1,8,4
 start,swanc001,"Craig Swan",1,9,1
 play,1,0,blanl101,??,,63
+com,"umpchange,1,umphome,davis901"
+com,"umpchange,1,ump2b,(None)"
+com,"umpchange,1,ump3b,varge901"
+com,"$HP umpire Gregg left when hit on mask by foul; 3B"
+com,"umpire Davidson went behind the plate, 2B umpire"
+com,"moved to 3rd and game was finished with 3 umpires"
 play,1,0,ruizc101,??,,S7.B-2(E7)
 play,1,0,chamc001,??,,8
 play,1,0,mattg001,??,,K
@@ -9603,9 +9609,9 @@ play,3,1,younj001,??,,S9.1-3
 play,3,1,madde101,??,,S8.3-H;1-3
 play,3,1,mazzl001,??,,64(1)/FO/DP.3XH(425);B-2
 com,"ej,torrj101,M,colon901,Obstruction non-call"
-com,"Mets Manager Joe Torre claimed that his runner was obstructed during"
-com,"the rundown; he protested the game and was ejected by 3B umpire Nick"
-com,"Colosi"
+com,"$Mets manager Torre ejected by 3B umpire Colosi for arguing"
+com,"that Youngblood was obstructed during rundown; he protested"
+com,"the game"
 play,3,1,washc001,??,,S9.2XH(92)
 play,4,0,hernl001,??,,NP
 sub,younj001,"Joel Youngblood",1,1,4
@@ -12899,9 +12905,6 @@ start,brooh001,"Hubie Brooks",1,6,5
 start,treva001,"Alex Trevino",1,7,2
 start,almob001,"Bill Almon",1,8,6
 start,burrr001,"Ray Burris",1,9,1
-com,"ej,torrj101,M,froeb901,Call at 2B (Arguing that runner touched bag)"
-com,"Mets Manager Joe Torre ejected by 2B umpire Bruce Froemming"
-com,"sometime in game"
 play,1,0,moreo001,??,,S8
 play,1,0,folit001,??,,PO1(E1).1-2
 play,1,0,folit001,??,,13/SH.2-3
@@ -12961,8 +12964,15 @@ play,6,0,ott-e101,??,,9
 play,6,0,berrd001,??,,S7
 play,6,0,bibbj001,??,,NP
 sub,milnj101,"John Milner",0,9,11
-play,6,0,milnj101,??,,361.1-2
-play,6,0,moreo001,??,,S8.2-H(E6)(UR)
+play,6,0,milnj101,??,,361.1-H(E6/TH)(NR)(UR)
+com,"ej,torrj101,M,froeb901,Call at 2B"
+com,"$Mets manager Torre ejected by 2B umpire Froemming for"
+com,"arguing runner from 1st had been forced at 2nd but umpire ruled"
+com,"SS missed base; 1bman thought it was a double play and rolled"
+com,"ball to mound; SS ran in, picked up ball and had runner Berra"
+com,"in rundown but threw wildly into center field allowing run"
+com,"to score"
+play,6,0,moreo001,??,,S8
 play,6,0,folit001,??,,SB2
 play,6,0,folit001,??,,W
 play,6,0,parkd001,??,,NP

@@ -2183,7 +2183,7 @@ play,3,0,joycm001,22,CBBSS,K
 play,3,0,semim001,12,CSF*BS,K
 play,3,1,gonzm002,21,BBLX,S3/BG
 play,3,1,stasm001,00,X,3/P
-play,3,1,marij002,12,BCFN,C/E2.1-2
+play,3,1,marij002,12,BCFX,C/E2.1-2
 play,3,1,sprig001,00,B,WP.2-3;1-2
 play,3,1,sprig001,20,B.*BX,S7/L.3-H;2-3
 play,3,1,altuj001,01,FX,13/BG-/SH.3-H(UR);1-2
@@ -5064,7 +5064,7 @@ sub,romos001,"Sergio Romo",0,0,1
 play,9,1,gonzm002,30,.BBBB,W
 play,9,1,stasm001,12,SB1FX,S7/L.1-2
 play,9,1,kempt001,21,CBBX,34/BG/SH.2-3;1-2
-play,9,1,sprig001,11,*BSN,C/E2
+play,9,1,sprig001,11,*BSX,C/E2
 play,9,1,brega001,11,BFX,D8/L+.3-H;2-H;1-3
 data,er,stanr002,0
 data,er,ventj001,0
@@ -5778,7 +5778,7 @@ play,2,1,gurry001,11,BFX,D8/F
 play,2,1,reddj001,20,BBX,S9/L.2-3
 play,2,1,gonzm002,12,CFBS,K
 play,2,1,stasm001,32,B1SCF1*B*B>B,W.1-2
-play,2,1,kempt001,01,FN,C/E2.3-H(RBI);2-3;1-2
+play,2,1,kempt001,01,FX,C/E2.3-H(RBI);2-3;1-2
 play,2,1,sprig001,00,X,6/L
 play,2,1,brega001,30,BBBB,W.3-H;2-3;1-2
 play,2,1,altuj001,00,X,S8/L.3-H;2-H(UR);1-2
@@ -5797,9 +5797,10 @@ play,4,0,dozih001,02,SCS,K
 play,4,0,escoa003,22,CBBFFFX,13/G
 play,4,0,almoa001,32,BBCBFFB,W
 play,4,0,buted001,32,FBBCB>F>F>F>S,K
-play,4,1,brega001,12,FFFFBX,8/F
+play,4,1,brega001,12,FFFF,NP
 com,"$Astros challenged call that 4th pitch to Bregman was a foul,"
 com,"claiming it hit him; call was upheld - foul ball"
+play,4,1,brega001,12,FFFFBX,8/F
 play,4,1,altuj001,22,SBBCX,E5/G
 play,4,1,corrc001,01,CX,9/F
 play,4,1,gurry001,01,CX,D7/L.1-H(UR)(E7/TH);B-3
@@ -6244,7 +6245,7 @@ play,1,0,pillk001,02,CFX,S6/G+.2-H;1-3
 play,1,0,diaza003,00,X,S8/G.3-H;1-3
 play,1,0,maill001,10,BX,7/L+/SF.3-H
 play,1,0,travd001,32,B*BBCF>X,13/G-
-play,1,1,sprig001,22,CBCBDN,C/E2
+play,1,1,sprig001,22,CBCBX,C/E2
 play,1,1,brega001,12,CFBX,3/P
 play,1,1,altuj001,32,BCBBC>FB,W.1-2
 play,1,1,gurry001,12,*BCFFX,9/F
@@ -10557,7 +10558,7 @@ play,8,0,cowak001,22,BBFSFC,K
 play,8,1,kempt001,00,,NP
 sub,bedrc001,"Cam Bedrosian",0,0,1
 play,8,1,kempt001,21,.BCBX,S8/G
-play,8,1,sprig001,02,C11FN,C/E2.1-2
+play,8,1,sprig001,02,C11FX,C/E2.1-2
 play,8,1,altuj001,12,C*BC+2FC,K
 play,8,1,brega001,10,*BX,5/L+
 com,"Mound Visit"
@@ -10999,7 +11000,7 @@ play,2,0,keplm001,00,,NP
 sub,austt001,"Tyler Austin",0,6,12
 com,"$Miguel Sano left with an injured leg, hurt when he slid"
 com,"into second on wild pitch"
-play,2,0,keplm001,32,CS*BFF^B..BB,W
+play,2,0,keplm001,32,CS*BFFB..BB,W
 play,2,0,adrie001,00,X,6/P/IF
 play,2,0,gimec001,02,CSS,K
 play,2,1,kempt001,00,,NP

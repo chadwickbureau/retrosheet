@@ -7304,9 +7304,6 @@ start,diazb001,"Bo Diaz",1,6,2
 start,frant001,"Terry Francona",1,7,3
 start,concd001,"Dave Concepcion",1,8,4
 start,powet001,"Ted Power",1,9,1
-com,"ej,rosep001,M,mcshj901,Fair/foul call"
-com,"Reds manager Pete Rose ejected by HP umpire John McSherry"
-com,"sometime in game"
 play,1,0,candc001,,,7
 play,1,0,websm001,,,9
 play,1,0,raint001,,,S7
@@ -7375,8 +7372,11 @@ play,6,1,davie001,,,K/C
 play,7,0,candc001,,,NP
 sub,landb001,"Bill Landrum",1,9,1
 play,7,0,candc001,,,43
-play,7,0,websm001,,,D
-play,7,0,raint001,,,I
+play,7,0,websm001,,,DGR
+com,"ej,rosep101,M,mcshj901,Fair/foul call"
+com,"$Reds manager Rose ejected by HP umpire McSherry for"
+com,"arguing that Webster's double was foul"
+play,7,0,raint001,,,IW
 play,7,0,wallt001,,,D.2-H;1-H
 play,7,0,brooh001,,,T.2-H
 play,7,0,galaa001,,,K
@@ -12000,9 +12000,6 @@ start,esasn001,"Nick Esasky",1,6,3
 start,mcgrt002,"Terry McGriff",1,7,2
 start,larkb001,"Barry Larkin",1,8,6
 start,hoffg002,"Guy Hoffman",1,9,1
-com,"ej,bowal001,M,palld901,Balls and strikes"
-com,"Padres manager Larry Bowa ejected by 1B umpire Dave Pallone"
-com,"sometime in game"
 play,1,0,gwynt001,,,W
 play,1,0,macks001,,,CS2(26)
 play,1,0,macks001,,,K
@@ -12099,6 +12096,9 @@ play,8,0,martc001,,,NP
 sub,willf001,"Frank Williams",1,9,1
 play,8,0,martc001,,,6/L
 play,8,0,santb001,,,K
+com,"ej,bowal001,M,palld901,Check swing"
+com,"$Padres manager Bowa ejected by 1B umpire Pallone for"
+com,"arguing check swing strike 3 to Santiago"
 play,8,0,readr001,,,53
 play,8,1,bellb001,,,NP
 sub,bookg001,"Greg Booker",0,9,1
@@ -12359,19 +12359,16 @@ play,4,0,walld001,,,S8/G4M.2-H(UR)
 play,4,0,davig001,,,S7/L7S.1-3
 play,4,0,puhlt001,,,HR/9.3-H(UR);1-H(UR);B-H(UR)
 play,4,0,reynr002,,,K
-com,"ej,parkd001,P,kiblj901,Charging the mound"
-com,"$Dave Parker charged the mound after an inside pitch from Danny"
-com,"Darwin; Parker was ejected by HP umpire John Kibler"
 play,4,1,parkd001,,,NP
 sub,jonet001,"Tracy Jones",1,4,11
+com,"ej,parkd001,P,kiblj901,Charging the mound"
+com,"$Parker ejected by HP umpire John Kibler for charging"
+com,"mound after inside pitch"
 play,4,1,jonet001,,,S6.B-2(E6/TH1)
 play,4,1,bellb001,,,S8/L8S.2-H(UR)
 play,4,1,diazb001,,,8
 play,4,1,esasn001,,,9/L
 play,4,1,larkb001,,,9
-com,"ej,robir001,P,kiblj901,Throwing at batter"
-com,"Ron Robinson threw a pitch behind Danny Darwin and was ejected"
-com,"by HP umpire John Kibler"
 play,5,0,darwd001,,,NP
 sub,oneip001,"Paul O'Neill",1,3,9
 play,5,0,darwd001,,,NP
@@ -12379,6 +12376,9 @@ sub,jonet001,"Tracy Jones",1,4,8
 play,5,0,darwd001,,,NP
 sub,landb001,"Bill Landrum",1,9,1
 play,5,0,darwd001,,,K/C
+com,"ej,robir001,P,kiblj901,Throwing at batter"
+com,"$Reds Robinson ejected by HP umpire Kibler for threwing a"
+com,"pitch behind Darwin and was ejected"
 play,5,0,hatcb001,,,S4/G
 play,5,0,reync001,,,PO1(13)
 play,5,0,reync001,,,53

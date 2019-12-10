@@ -51,15 +51,15 @@ start,fiskc001,"Carlton Fisk",1,7,2
 start,brohj101,"Jack Brohamer",1,8,5
 start,evand002,"Dwight Evans",1,9,9
 start,ecked001,"Dennis Eckersley",1,0,1
-com,"ej,zimmd101,M,sprim901,Balls and strikes"
-com,"Red Sox Manager Don Zimmer ejected by HP umpire Marty Springstead"
-com,"sometime in game"
 play,1,0,whitl001,32,,W
 play,1,0,gibsk001,??,,4/L
 play,1,0,kemps001,??,,363.1-2
 play,1,0,hebnr001,??,,S9.2-H#
 play,1,0,thomj001,32,,W.1-2
 play,1,0,summc001,32,,W.2-3;1-2
+com,"ej,zimmd101,M,sprim901,Balls and strikes"
+com,"$Red Sox manager Zimmer ejected by HP umpire Springstead"
+com,"for arguing balls and strikes while Summers was at bat"
 play,1,0,parrl001,??,,5(2)/FO
 play,1,1,remyj001,??,,63
 play,1,1,burlr001,??,,63
@@ -708,6 +708,11 @@ play,1,1,ricej001,??,,64(1)/FO
 play,2,0,robed102,??,,K
 play,2,0,normn001,??,,43
 play,2,0,rivem001,??,,S9/L
+com,"umpchange,2,ump1b,bremn901"
+com,"umpchange,2,ump2b,(None)"
+com,"$1B umpire Brinkman left when hit in chin by errant"
+com,"pickoff throw; 2B umpire Bremigan moved to 1st and"
+com,"game was finished with 3 umpires"
 play,2,0,willb101,??,,SB2
 play,2,0,willb101,32,,9/F
 play,2,1,yastc101,??,,8/F
@@ -9081,9 +9086,6 @@ start,raded101,"Dave Rader",1,7,10
 start,evand002,"Dwight Evans",1,8,9
 start,hoffg001,"Glenn Hoffman",1,9,5
 start,renks101,"Steve Renko",1,0,1
-com,"ej,zimmd101,M,spenf901,Balls and strikes"
-com,"Red Sox Manager Don Zimmer ejected by HP umpire Fred Spenn"
-com,"sometime in game"
 play,1,0,carer001,??,,5/L
 com,"Debut game for Jim Dorsey"
 play,1,0,lansc001,??,,S9
@@ -9141,6 +9143,11 @@ play,6,0,gricb001,??,,D8
 play,6,0,millr001,??,,S8.2-H
 play,6,0,campb101,??,,S8.1-3
 play,6,0,skagd101,??,,64(1)3/GDP
+com,"ej,zimmd101,M,spenf901,Protecting pitcher"
+com,"$Red Sox manager Zimmer ejected by HP umpire Spenn"
+com,"for protecting pitcher after umpire charged mound"
+com,"after pitcher kept staring in complaint about balls"
+com,"and strikes"
 play,6,1,hoffg001,??,,53
 play,6,1,burlr001,??,,9
 play,6,1,stapd001,??,,63

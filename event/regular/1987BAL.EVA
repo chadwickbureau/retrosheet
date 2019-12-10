@@ -1186,10 +1186,11 @@ play,8,1,lynnf001,,,53
 play,8,1,gutij001,,,63
 play,9,0,dempr001,,,W
 play,9,0,hallm001,,,S.1-2
-com,"ej,corrp102,M,cousd901,Call at 1B"
-com,"Indians manager Pat Corrales ejected by 1B umpire Derryl Cousins"
 play,9,0,galld001,,,9/L
 play,9,0,franj002,,,43.2-3;1-2
+com,"ej,corrp102,M,cousd901,Call at 1B"
+com,"$Indians manager Corrales ejected by 1B umpire Cousins"
+com,"for arguing Franco was safe at 1st"
 play,9,0,tablp001,,,9/L
 data,er,schrk001,5
 data,er,joned001,1
@@ -3908,9 +3909,6 @@ start,kennt001,"Terry Kennedy",1,7,2
 start,sheel001,"Larry Sheets",1,8,7
 start,burlr001,"Rick Burleson",1,9,4
 start,ballj002,"Jeff Ballard",1,0,1
-com,"ej,mcnaj801,M,voltv901,Whether fly was caught"
-com,"Red Sox manager John McNamara ejected by 1B umpire Vic Voltaggio"
-com,"arguing whether a fly was caught sometime in game"
 play,1,0,burke001,,,53
 play,1,0,owens001,,,53
 play,1,0,barrm001,,,4
@@ -3919,6 +3917,10 @@ play,1,1,dwyej001,,,S
 play,1,1,ripkc001,,,S.1-2
 play,1,1,murre001,,,64(1)3/GDP
 play,2,0,ricej001,,,9
+com,"ej,mcnaj801,M,voltv901,Catch/non-catch (Reversal)"
+com,"$Red Sox manager McNamara ejected by 1B umpire Voltaggio"
+com,"when ball hit by Rice was reversed from inside the"
+com,"home run to out after Orioles appealed the initial call"
 play,2,0,bayld001,,,S
 play,2,0,evand002,,,D.1-3
 play,2,0,buckb001,,,3/G.3-H;2-3
@@ -4357,9 +4359,6 @@ start,kennt001,"Terry Kennedy",1,7,2
 start,younm002,"Mike Young",1,8,10
 start,burlr001,"Rick Burleson",1,9,4
 start,habyj001,"John Habyan",1,0,1
-com,"ej,ripkc801,M,barnl901,Balls and strikes"
-com,"Orioles manager Cal Ripken Sr ejected by HP umpire Larry Barnett"
-com,"sometime in game"
 play,1,0,fernt001,,,D
 play,1,0,mullr001,,,43.2-3
 play,1,0,barfj001,,,63.3-H
@@ -4444,6 +4443,9 @@ sub,barfj001,"Jesse Barfield",0,3,9
 play,8,1,ripkc001,,,NP
 sub,mosel001,"Lloyd Moseby",0,8,8
 play,8,1,ripkc001,,,53
+com,"ej,ripkc801,M,barnl901,Balls and strikes"
+com,"$Orioles manager Ripken ejected by HP umpire Barnett"
+com,"for arguing balls and strikes while Ripken was at bat"
 play,8,1,murre001,,,K
 play,8,1,sheel001,,,13
 play,9,0,fernt001,,,43
@@ -5075,10 +5077,10 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,night
 info,usedh,true
-info,umphome,pales901
-info,ump1b,morrd901
-info,ump2b,tscht901
-info,ump3b,phild901
+info,umphome,tscht901
+info,ump1b,phild901
+info,ump2b,pales901
+info,ump3b,morrd901
 info,scorer,"Reimer"
 info,inputter,"T Benner"
 info,howscored,unknown
@@ -5116,9 +5118,7 @@ start,gonzr001,"Rene Gonzales",1,8,5
 start,burlr001,"Rick Burleson",1,9,4
 start,belle001,"Eric Bell",1,0,1
 com,"Suspend=19870621,BAL11,4,9,48"
-com,"ej,tanaf001,P,pales901,Balls and strikes (from bench)"
-com,"Frank Tanana ejected by HP umpire Steve Palermo from the"
-com,"bench sometime in game"
+com,"$58 minute rain delay at start of game"
 play,1,0,whitl001,,,31
 play,1,0,madlb001,,,5/L
 play,1,0,gibsk001,,,W
@@ -5128,7 +5128,12 @@ play,1,0,lemoc001,,,5/L
 play,1,1,gerhk001,,,HR
 play,1,1,lynnf001,,,S
 play,1,1,ripkc001,,,E5.1-3;B-2
+com,"ej,tanaf001,P,tscht901,Balls and strikes (from bench)"
+com,"$Tigers Tanana, not in game, ejected by HP umpire Tschida"
+com,"from the bench for arguing balls and strikes while Ripken"
+com,"at bat"
 play,1,1,murre001,,,W
+com,"$1 hour, 25 minute rain delay"
 play,1,1,sheel001,,,46(1)/FO.3-H(UR);2-3
 play,1,1,younm002,,,K/C
 play,1,1,kennt001,,,S.3-H(UR);1-2
@@ -7123,9 +7128,6 @@ start,sheel001,"Larry Sheets",1,7,9
 start,gerhk001,"Ken Gerhart",1,8,8
 start,washr001,"Ron Washington",1,9,5
 start,schmd001,"Dave Schmidt",1,0,1
-com,"ej,mcrah001,C,reilm901,Balls and strikes"
-com,"Royals coach Hal McRae ejected by HP umpire Mike Reilly"
-com,"sometime in game"
 play,1,0,wilsw001,,,63
 play,1,0,seitk001,,,S
 play,1,0,bretg001,,,K
@@ -7134,6 +7136,9 @@ play,1,1,wigga001,,,7
 play,1,1,ripkb001,,,4
 play,1,1,ripkc001,,,W
 play,1,1,murre001,,,3/G
+com,"ej,mcrah001,C,reilm901,Balls and strikes"
+com,"$Royals coach McRae ejected by HP umpire Reilly at"
+com,"end of 1st inning for arguing balls and strikes"
 play,2,0,tartd001,,,63
 play,2,0,whitf001,,,S
 play,2,0,jackb001,,,S.1-2
@@ -7266,9 +7271,6 @@ start,sheel001,"Larry Sheets",1,7,9
 start,rayff001,"Floyd Rayford",1,8,2
 start,gerhk001,"Ken Gerhart",1,9,8
 start,dixok001,"Ken Dixon",1,0,1
-com,"ej,ripkc801,M,welkt901,Balls and strikes"
-com,"Orioles manager Cal Ripken Sr ejected by HP umpire Tim Welke"
-com,"sometime in game"
 play,1,0,smitl002,,,63
 play,1,0,pecob001,,,53
 play,1,0,bretg001,,,S
@@ -7311,6 +7313,9 @@ play,6,0,whitf001,,,8
 play,6,0,tartd001,,,W
 play,6,0,jackb001,,,SB2
 play,6,0,jackb001,,,3/L
+com,"ej,ripkc801,M,welkt901,Balls and strikes"
+com,"$Orioles manager Ripken ejected by HP umpire Welke"
+com,"for arguing balls and strikes during mound conference"
 play,6,0,salaa001,,,S.2-H
 play,6,0,owenl001,,,9
 play,6,1,rayff001,,,K
@@ -8520,6 +8525,9 @@ play,9,0,feldm001,,,7
 play,9,1,lacyl001,,,NP
 sub,dwyej001,"Jim Dwyer",1,8,11
 play,9,1,dwyej001,,,9
+com,"ej,dwyej001,P,hendt901,Balls and strikes"
+com,"$Dwyer ejected by HP umpire Hendry for arguing balls"
+com,"and strikes after he flied out"
 play,9,1,younm002,,,43
 play,9,1,wigga001,,,7/L
 data,er,nievj001,1

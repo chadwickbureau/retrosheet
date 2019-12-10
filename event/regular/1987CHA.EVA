@@ -5608,9 +5608,6 @@ start,hilld001,"Don Hill",1,7,4
 start,lyons001,"Steve Lyons",1,8,5
 start,willk001,"Ken Williams",1,9,8
 start,delej001,"Jose DeLeon",1,0,1
-com,"ej,fregj101,M,merrd901,Checked swing"
-com,"White Sox manager Jim Fregosi ejected by 1B umpire Durwood Merrill"
-com,"sometime in game"
 play,1,0,polol001,,,S8
 play,1,0,javis001,,,PB.1-2
 play,1,0,javis001,,,W
@@ -5720,6 +5717,9 @@ play,10,0,polol001,,,K
 play,10,0,davim002,,,S8
 play,10,0,cansj001,,,HP.1-2
 play,10,0,mcgwm001,,,HP.2-3;1-2
+com,"ej,fregj101,M,merrd901,HBP call"
+com,"$White Sox manager Fregosi ejected by 1B umpire Merrill"
+com,"for arguing HBP call on McGwire"
 play,10,0,lansc001,,,NP
 sub,winnj001,"Jim Winn",1,0,1
 play,10,0,lansc001,,,K
@@ -10642,9 +10642,6 @@ start,bostd001,"Daryl Boston",1,7,7
 start,willk001,"Ken Williams",1,8,8
 start,lyons001,"Steve Lyons",1,9,5
 start,delej001,"Jose DeLeon",1,0,1
-com,"ej,fregj101,M,cobld901,Fair/foul call on HR"
-com,"White Sox manager Jim Fregosi ejected by 1B umpire Drew Coble"
-com,"sometime in game"
 play,1,0,gladd001,,,HR/7
 play,1,0,gagng001,,,K
 play,1,0,bushr001,,,K+E2.B-1(E2/TH1)
@@ -10690,7 +10687,11 @@ play,5,1,hilld001,,,W
 play,5,1,bainh001,,,D8.2-H;1-H
 play,5,1,caldi001,,,NP
 sub,berej001,"Juan Berenguer",0,0,1
-play,5,1,caldi001,,,S7.2-H;B-2
+play,5,1,caldi001,,,S7.2-H;B-2(TH)
+com,"ej,fregj101,M,cobld901,Fair/foul call on HR (Reversal)"
+com,"$White Sox manager Fregosi ejected by 1B umpire Coble"
+com,"when apparent home run hit by Calderon was reverses"
+com,"to foul ball by Coble"
 play,5,1,walkg001,,,2/FL
 play,6,0,smalr001,,,W
 play,6,0,bayld001,,,S8.1-2

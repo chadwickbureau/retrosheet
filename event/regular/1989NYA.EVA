@@ -1470,9 +1470,6 @@ start,browb002,"Rob Brower",1,7,9
 start,espia001,"Alvaro Espinoza",1,8,6
 start,kellb002,"Roberto Kelly",1,9,8
 start,lapod001,"Dave LaPoint",1,0,1
-com,"ej,bevit801,C,garcr901,Fighting with Don Slaught"
-com,"White Sox coach Terry Bevington ejected by HP umpire Richie Garcia"
-com,"sometime in game"
 play,1,0,guilo001,12,BCFX,6/P56
 play,1,0,lyons001,21,BBCX,7/F78D
 play,1,0,bainh001,31,BBBCB,W
@@ -1555,6 +1552,10 @@ sub,schaj001,"Jeff Schaefer",0,7,5
 play,7,1,slaud001,12,..LLFFFBS,K23
 play,7,1,browb002,22,CSBBFFX,53/G56
 play,7,1,espia001,12,CSFBX,63/G56
+com,"ej,bevit801,C,garcr901,Fighting"
+com,"$White Sox coach Bevington ejected by HP umpire Garcia at"
+com,"end of inning for fighting with Slaught since he did not"
+com,"that Slaught tried to bunt with a big lead"
 play,8,0,karkr001,00,,NP
 sub,merum001,"Matt Merullo",0,9,11
 play,8,0,merum001,02,.SCX,S8/L8S
@@ -4157,13 +4158,14 @@ start,hallm001,"Mel Hall",1,7,9
 start,slaud001,"Don Slaught",1,8,2
 start,tollw001,"Wayne Tolleson",1,9,6
 start,hawka001,"Andy Hawkins",1,0,1
-com,"ej,hebnr001,C,garcr901,Balls and strikes"
-com,"Red Sox coach Richie Hebner ejected by HP umpire Richie Garcia"
-com,"sometime in game"
 play,1,0,reedj003,11,BCX,8/F78XD
 play,1,0,heepd001,11,CBX,S7/L7
 play,1,0,boggw001,31,BBBCX,9/L9D
-play,1,0,greem001,02,FFC,K
+play,1,0,greem001,02,FFC,K/C
+com,"ej,hebnr001,C,garcr901,Protesting fine on batter who threw bat"
+com,"$Red Sox coach Hebner ejected by 1B umpire Garcia for"
+com,"arguing fine against Greenwell who threw bat after"
+com,"being called out on strikes"
 play,1,1,hendr001,30,BBBB,W
 play,1,1,sax-s001,30,BBBB,W.1-2
 play,1,1,mattd001,01,CX,D9/L9L.2-H;1-H
@@ -4783,9 +4785,6 @@ start,tollw001,"Wayne Tolleson",1,7,5
 start,espia001,"Alvaro Espinoza",1,8,6
 start,kellb002,"Roberto Kelly",1,9,8
 start,eilad001,"Dave Eiland",1,0,1
-com,"ej,greed101,M,scotd901,Fair/foul call"
-com,"Yankees manager Dallas Green ejected by 3B umpire Dale Scott"
-com,"sometime in game"
 play,1,0,sosas001,12,SCBX,53/G5
 play,1,0,flets001,12,BCCC,K
 play,1,0,palmr001,31,BBBCX,S9/L9S
@@ -4849,6 +4848,9 @@ play,6,1,sax-s001,32,B.CSBFFBFFX,S9/L9LS.3-H;2-H
 play,6,1,mattd001,00,1B,SB2
 play,6,1,mattd001,30,1B.III,IW
 play,6,1,balbs001,02,SCFX,2/P2F
+com,"ej,greed101,M,scotd901,Fair/foul call"
+com,"$Yankees manager Green ejected by 3B umpire Scott for"
+com,"arguing that long drive by Balboni was fair for homer"
 play,7,0,kreuc001,32,CCBFBBFFX,53/G5S
 play,7,0,sosas001,00,X,9/F9D
 play,7,0,flets001,11,BCX,8/F89D
@@ -9021,9 +9023,6 @@ start,espia001,"Alvaro Espinoza",1,7,6
 start,tollw001,"Wayne Tolleson",1,8,5
 start,kellb002,"Roberto Kelly",1,9,8
 start,terrw001,"Walt Terrell",1,0,1
-com,"ej,morgj101,M,fordd901,Balls and strikes"
-com,"Red Sox manager Joe Morgan ejected by HP umpire Dale Ford"
-com,"sometime in game"
 play,1,0,boggw001,22,CBBFX,23/G23
 play,1,0,barrm001,32,BBCBCX,63/G6
 play,1,0,burke001,10,BX,9/F9
@@ -9123,6 +9122,9 @@ play,9,0,boggw001,22,CBCBFS,K
 play,9,0,barrm001,00,,NP
 sub,gossr001,"Rich Gossage",1,0,1
 play,9,0,barrm001,22,.BCBFFX,S9/L9S.2-3
+com,"ej,morgj101,M,fordd901,Balls and strikes"
+com,"$Red Sox manager Morgan ejected by HP umpire Ford for"
+com,"arguing balls and strikes while Barrett at bat"
 play,9,0,burke001,12,BSFC,K
 data,er,clemr001,5
 data,er,smitl001,0
@@ -11729,16 +11731,15 @@ play,6,0,deerr001,??,,K
 play,6,1,espia001,??,,43
 play,6,1,sax-s001,??,,63
 play,6,1,polol001,??,,HP
-com,"ej,knudm001,P,fordd901,Fighting"
+com,"ej,knudm001,P,fordd901,Intentional HBP"
 com,"ej,hallm001,P,fordd901,Fighting"
 com,"ej,polol001,P,fordd901,Fighting"
-com,"$two pitches after Luis Polonia tried to bunt his way on base in an 11-1"
-com,"game, Mark Knudson hit him on the back with the 0-2 pitch; Polonia"
-com,"charged the mound and tried to kick pitcher Mark Knudson;"
-com,"he missed and was wrestled to the ground by Knudson and catcher Charlie"
-com,"O'Brien; both benches cleared; Polonia and Knudson ejected by HP umpire"
-com,"Dale Ford; as Brewers manager Tom Trebelhorn argued with Ford, Mel Hall"
-com,"ran into the two and was ejected by Ford"
+com,"$Pitcher Knudson ejected by HP umpire Ford for intentionally"
+com,"hitting Polonia who charged mound and tried to kick pitcher"
+com,"but was wrestled to ground by pitcher and catcher O'Brien; both"
+com,"benches emptied into brawl; as Brewers manager Trebelhorn"
+com,"argued with Ford, Yankees Hall ran into them and was ejected"
+com,"by Ford"
 play,6,1,mattd001,??,,NP
 sub,balbs001,"Steve Balboni",1,2,12
 play,6,1,mattd001,??,,NP
@@ -11751,7 +11752,8 @@ play,7,0,meyej001,??,,HR/F7D
 play,7,0,obric001,??,,HP
 com,"ej,mmahk001,P,fordd901,Intentional HBP"
 com,"ej,dentb001,M,fordd901,Intentional HBP"
-com,"Kevin Mmahat and Yankees manager Bucky Dent ejected by HP umpire Dale Ford"
+com,"$Yankees Mmahat and manager Dent ejected by HP umpire Ford"
+com,"for intentionally hitting O'Brien"
 play,7,0,spieb001,??,,NP
 sub,jonej002,"Jimmy Jones",1,0,1
 play,7,0,spieb001,??,,8

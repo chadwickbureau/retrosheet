@@ -3877,9 +3877,6 @@ start,newmj001,"Jeff Newman",1,7,2
 start,barrm001,"Marty Barrett",1,8,4
 start,gutij001,"Jackie Gutierrez",1,9,6
 start,clemr001,"Roger Clemens",1,0,1
-com,"ej,harrt001,P,cobld901,Balls and strikes (from bench)"
-com,"Toby Harrah ejected by HP umpire Drew Coble"
-com,"sometime in game from the bench"
 play,1,0,randw001,,,3
 play,1,0,grifk001,,,S
 play,1,0,mattd001,,,S.1-3
@@ -3971,10 +3968,14 @@ sub,millr001,"Rick Miller",1,8,11
 play,8,1,millr001,,,W
 play,8,1,gutij001,31,,W.1-2
 com,"ej,berry101,M,cobld901,Balls and strikes"
-com,"Yankees manager Yogi Berra ejected by HP umpire Drew Coble"
+com,"$Yankees manager Berra ejected by HP umpire Drew Coble"
+com,"for arguing balls and strike"
 play,8,1,boggw001,,,NP
 sub,righd001,"Dave Righetti",0,0,1
 play,8,1,boggw001,,,53/SH.2-3;1-2
+com,"ej,harrt001,P,cobld901,Balls and strikes (from bench)"
+com,"$Yankees Harrah, not in game, ejected by HP umpire Coble"
+com,"for arguing balls and strikes"
 play,8,1,evand002,22,,HR/7.3-H;2-H
 play,8,1,ricej001,,,K
 play,8,1,armat001,,,W
@@ -7755,9 +7756,6 @@ start,gedmr001,"Rich Gedman",1,7,2
 start,barrm001,"Marty Barrett",1,8,4
 start,gutij001,"Jackie Gutierrez",1,9,6
 start,nippa001,"Al Nipper",1,0,1
-com,"ej,harpt101,C,sprim901,Balk non-call"
-com,"Red Sox coach Tommy Harper ejected by HP umpire Marty"
-com,"Springstead arguing for a balk sometime in game"
 play,1,0,sampb001,,,D
 play,1,0,wardg001,,,13
 play,1,0,bellb001,,,5
@@ -7807,6 +7805,9 @@ play,6,0,bellb001,,,5
 play,6,1,gedmr001,,,31
 play,6,1,barrm001,,,W
 play,6,1,gutij001,,,54(1)/FO
+com,"ej,harpt101,C,sprim901,Balk non-call"
+com,"$Red Sox coach Harper ejected by HP umpire Springstead"
+com,"arguing that Hough had balked"
 play,6,1,boggw001,,,SB2
 play,6,1,boggw001,,,W
 play,6,1,evand002,,,S.2-3;1-2
@@ -8716,9 +8717,6 @@ start,millr001,"Rick Miller",1,7,8
 start,barrm001,"Marty Barrett",1,8,4
 start,gutij001,"Jackie Gutierrez",1,9,6
 start,clemr001,"Roger Clemens",1,0,1
-com,"ej,houkr101,M,welkt901,Balls and strikes"
-com,"Red Sox manager Ralph Houk ejected by HP Umpire Tim"
-com,"Welke sometime in game"
 play,1,0,puckk001,,,43
 play,1,0,hatcm001,,,63
 play,1,0,hrbek001,,,K
@@ -8773,6 +8771,9 @@ play,7,0,puckk001,,,9
 play,7,0,hatcm001,,,S.2-H;1-2
 play,7,0,hrbek001,,,NP
 sub,craws001,"Steve Crawford",1,0,1
+com,"ej,houkr101,M,welkt901,Balls and strikes"
+com,"$Red Sox manager Houk ejected by HP Umpire Welke for"
+com,"arguing balls and strikes during pitcher change"
 play,7,0,hrbek001,,,7
 play,7,1,gedmr001,,,S
 play,7,1,millr001,,,W.1-2
@@ -9392,7 +9393,11 @@ play,8,0,gaetg001,,,S
 play,8,0,teuft001,,,NP
 sub,craws001,"Steve Crawford",1,0,1
 play,8,0,teuft001,,,53
-play,8,1,evand002,,,T
+play,8,1,evand002,,,T9
+com,"ej,gardb101,M,mckej901,Fan interference non-call"
+com,"$Twins manager Gardner ejected by 1B umpire McKean for"
+com,"arguing that ball hit by Evans had been touched by fan"
+com,"and should therefore be a double, not a triple"
 play,8,1,buckb001,,,NP
 sub,whitl003,"Len Whitehouse",0,0,1
 play,8,1,buckb001,,,S.3-H
