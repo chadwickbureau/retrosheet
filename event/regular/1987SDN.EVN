@@ -46,9 +46,6 @@ start,santb001,"Benito Santiago",1,6,2
 start,tempg001,"Garry Templeton",1,7,6
 start,flant001,"Tim Flannery",1,8,4
 start,hawka001,"Andy Hawkins",1,9,1
-com,"ej,bowal001,M,engeb901,Interference call"
-com,"Padres manager Larry Bowa ejected by 2B umpire Bob Engel"
-com,"sometime in game"
 play,1,0,clarw001,32,,D7/F7L
 play,1,0,davic001,00,,BK.2-3
 play,1,0,davic001,10,,63.3-H
@@ -120,7 +117,10 @@ sub,coraj001,"Joey Cora",1,9,11
 play,6,1,coraj001,,,NP
 sub,robij001,"Jeff Robinson",0,9,1
 play,6,1,coraj001,00,,3/P
-play,6,1,wynnm001,00,,36(1)1/GDP
+play,6,1,wynnm001,00,,36(1)1/GDP/RINT
+com,"ej,bowal001,M,engeb901,Interference call"
+com,"$Padres manager Bowa ejected by 2B umpire Engel for"
+com,"arguing interference call on Flannery to complete DP"
 play,7,0,leonj001,,,NP
 sub,gormt001,"Tom Gorman",1,9,1
 play,7,0,leonj001,22,,K
@@ -1951,9 +1951,6 @@ start,santb001,"Benito Santiago",1,6,2
 start,wynnm001,"Marvell Wynne",1,7,8
 start,tempg001,"Garry Templeton",1,8,6
 start,showe001,"Eric Show",1,9,1
-com,"ej,bowal001,M,demud901,Arguing WP was actually a foul ball"
-com,"Padres manager Parry Bowa ejected by HP umpire Dana DeMuth"
-com,"sometime in game"
 play,1,0,bondb001,21,,3/L
 play,1,0,vansa001,12,,K
 play,1,0,ray-j001,11,,43
@@ -2071,6 +2068,10 @@ play,9,1,krukj001,10,,S5/G6S.2-3
 play,9,1,santb001,02,,K
 play,9,1,salal001,21,,S7/F7S.3-H;1-2
 play,9,1,tempg001,22,,7
+com,"ej,bowal001,M,demud901,Arguing foul ball was actually WP"
+com,"$Padres manager Bowa ejected by HP umpire DeMuth for arguing"
+com,"that Templeton had missed a pitch that appeared to be a"
+com,"wild pitch, but umpire ruled he had ticked it for a foul"
 data,er,tayld002,4
 data,er,penah001,1
 data,er,walkb001,0

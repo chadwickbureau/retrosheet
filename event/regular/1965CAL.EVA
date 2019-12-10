@@ -936,7 +936,6 @@ info,umphome,salea901
 info,ump1b,papaj901
 info,ump2b,runge901
 info,ump3b,stewb902
-com,"Umps not marked... this is the only crew available... pos inferred"
 info,scorer,"Larry Claflin"
 info,translator,"D Lamoureaux"
 info,inputter,"D Lamoureaux"
@@ -1033,6 +1032,9 @@ play,7,1,chand102,??,,K
 play,7,1,cardj101,??,,2/FL
 play,8,0,thoml103,??,,S9
 play,8,0,mantf101,??,,CS2(24)
+com,"ej,schic101,P,runge901,Call at 2B"
+com,"$Red Sox infielder Schilling (not in game) ejected by 2B"
+com,"umpire Runge for arguing caught stealing call"
 play,8,0,mantf101,??,,S6
 play,8,0,brese101,??,,46(1)/FO
 play,8,0,ryanm101,??,,S.1-2
@@ -4451,7 +4453,6 @@ play,1,0,marir101,??,,D7.1-3;2-H
 play,1,0,mantm101,??,,K
 play,1,0,trest101,??,,63.3-H
 play,1,0,pepij101,??,,K
-com,"Bad call"
 play,1,1,cardj101,??,,63
 play,1,1,smitb104,??,,13
 play,1,1,fregj101,??,,W
@@ -4490,6 +4491,10 @@ play,5,0,downa101,??,,3/BP
 play,5,0,linzp101,??,,BK.1-2
 play,5,0,linzp101,??,,K
 play,5,0,richb102,??,,S8.2-H
+com,"ej,brung101,P,hurle901,Balk call"
+com,"ej,rignb101,M,hurle901,Balk call"
+com,"$Pitcher Brunet and Angels manager Rigney ejected by 1B"
+com,"Hurley for arguing balk call earlier in inning"
 play,5,0,marir101,??,,NP
 sub,gatea101,"Aubrey Gatewood",1,9,1
 play,5,0,marir101,??,,D7.1-H
@@ -6428,6 +6433,9 @@ start,newmf101,"Fred Newman",1,9,1
 play,1,0,howsd101,??,,63
 play,1,0,davav101,??,,S
 play,1,0,alvim101,??,,S.1X3(75)
+com,"ej,hemus101,C,runge901,Call at 3B"
+com,"$Indians coach Hemus ejected by 3B umpire Runge for"
+com,"arguing call that Davalillo was out at 3rd"
 play,1,0,colar101,??,,53
 play,1,1,cardj101,??,,4
 play,1,1,smitw102,??,,S
@@ -6572,6 +6580,9 @@ play,1,1,peara102,??,,13
 play,1,1,fregj101,??,,43
 play,2,0,colar101,??,,53
 play,2,0,wagnl101,??,,9
+com,"ej,hemus101,C,hallb901,Check swing"
+com,"$Indians coach Hemus ejected by HP umpire Haller for"
+com,"arguing check swing strike call on Wagner"
 play,2,0,whitf103,??,,S
 play,2,0,azcuj101,??,,S.1-2
 play,2,0,gonzp101,??,,8
@@ -6642,7 +6653,10 @@ play,9,0,alvim101,??,,53
 play,9,0,colar101,??,,W
 play,9,0,wagnl101,??,,NP
 sub,salmc101,"Chico Salmon",0,4,12
-play,9,0,wagnl101,??,,K
+play,9,0,wagnl101,??,,K/C
+com,"ej,wagnl101,P,hallb901Called strike 3"
+com,"$Wagner ejected by HP umpire Haller for arguing called"
+com,"strike 3 and kicking dirt on plate and umpire"
 play,9,0,whitf103,??,,13
 data,er,stanl101,2
 data,er,weavf101,0
@@ -6769,13 +6783,18 @@ play,8,0,mantf101,??,,63
 play,8,0,thoml103,??,,5/FL
 play,8,1,powev101,??,,7/FL
 play,8,1,fregj101,??,,HP
-com,"Morehead drew warning from Valentine"
+com,"$Morehead drew warning from Valentine"
 play,8,1,smitw102,??,,HR.1-H
 play,8,1,rodgb102,??,,NP
 sub,earla101,"Arnold Earley",0,9,1
 play,8,1,rodgb102,??,,HP
-com,"Rodgers charged mound; Earley and Rodgers ejected; Red Sox"
-com,"manager, Herman, played game under protest"
+com,"ej,earla101,P,valeb901,Fighting"
+com,"ej,rodgb102,P,valeb901,Fighting"
+com,"ej,paepj801,C,soarh901,Fighting"
+com,"$Rodgers and pitcher Earley ejected by HP umpire"
+com,"Valentine for fighting; Angels coach Paepke ejected by 2B umpire"
+com,"Soar; fight precipiated by Rodgers getting hit by pitch"
+com,"and then charging mound; Red Sox played game under protest"
 play,8,1,clinl101,??,,NP
 sub,satrt101,"Tom Satriano",1,5,12
 play,8,1,clinl101,??,,NP

@@ -4286,8 +4286,9 @@ play,3,1,abnes001,22,FBBSX,S7/G56
 play,3,1,alomr001,01,1L1X,36(1)/FO/G34
 play,4,0,davig001,01,FX,HR/F7D
 com,"ej,mckej801,M,mcshj901,Reversal of fair/foul call"
-com,"Padres manager Jack McKeon ejected by 3B umpire John McSherry"
-com,"arguing that the home run was foul"
+com,"$Padres manager McKeon ejected by 3B umpire McSherry"
+com,"arguing that home run was foul, but umpire reversed"
+com,"call to fair"
 play,4,0,puhlt001,00,X,9/F89
 play,4,0,camik001,02,SCX,7/F7
 play,4,0,grosg001,32,BBCBFX,8/F8
@@ -4349,12 +4350,13 @@ play,9,0,andel001,00,,NP
 sub,meadl001,"Louis Meadows",0,9,11
 play,9,0,meadl001,10,.BX,3/P
 play,9,0,young001,11,BC+2,PO2(26)
+com,"ej,hatcb001,P,hirsm901,Call at 2B"
+com,"$Astros Hatcher ejected by 2B umpire Hirschbeck for"
+com,"arguing pickoff at 2nd"
 play,9,1,salal001,00,,NP
 sub,smitd001,"Dave Smith",0,7,1
 play,9,1,salal001,00,.,NP
 sub,meadl001,"Louis Meadows",0,9,7
-com,"ej,hatcb001,P,hirsm901,Call at 2B"
-com,"Billy Hatcher ejected by 2B umpire Mark Hirschbeck"
 play,9,1,salal001,21,..BCBX,5/P56
 play,9,1,tempg001,01,CX,8/F8
 play,9,1,martc001,11,CBX,63/G6
@@ -8707,9 +8709,6 @@ start,tempg001,"Garry Templeton",1,6,6
 start,santb001,"Benito Santiago",1,7,2
 start,salal001,"Luis Salazar",1,8,5
 start,white001,"Ed Whitson",1,9,1
-com,"ej,johnd105,M,crawj901,Arguing failure to let 3B visit mound"
-com,"Mets manager Davey Johnson ejected by 1B umpire Jerry Crawford for"
-com,"not letting 3B Howard Johnson visit the mound sometime in game"
 play,1,0,jeffg001,22,BBCFFX,S9/L9
 play,1,0,samuj001,10,B1X,8/F8S
 play,1,0,johnh001,12,1FFB1S,K
@@ -8755,6 +8754,10 @@ play,6,1,white001,32,BFBBSX,D7/F7LD
 play,6,1,robeb002,10,BN,BK.2-3
 play,6,1,robeb002,11,BN.FX,HR/F7D.3-H
 play,6,1,alomr001,01,FX,HR/F7D
+com,"ej,johnd105,M,crawj901,Arguing failure to let 3B visit mound"
+com,"$Mets manager Johnson ejected by 1B umpire Crawford who"
+com,"did not let 3bman visit the mound; umpire ruled it would be"
+com,"be a 2nd visit this inning and require Mets to change pitchers"
 play,6,1,gwynt001,20,BBX,6/P56D
 play,6,1,clarj001,31,BBBFB,W
 play,6,1,jamec001,00,X,7(B)4(1)/DP/F78
@@ -12084,9 +12087,6 @@ start,aloms001,"Sandy Alomar",1,6,2
 start,paglm001,"Mike Pagliarulo",1,7,5
 start,abnes001,"Shawn Abner",1,8,8
 start,harrg002,"Greg Harris",1,9,1
-com,"ej,lillb101,C,monte901,Call at 1B"
-com,"Giants coach Bob Lillis ejected by 1B umpire Ed Montague"
-com,"sometime in game"
 play,1,0,sherp001,22,BBFFFX,5/P5F
 play,1,0,oberk001,21,BBFX,7/F7
 play,1,0,clarw001,32,FCBBBFX,31/G3
@@ -12132,6 +12132,9 @@ play,5,1,coraj001,32,BBFBCFB,W
 play,5,1,alomr001,02,1S1LFX,564(1)/FO/G5
 play,5,1,gwynt001,00,C,DI.1-2
 play,5,1,gwynt001,12,C.FBX,S6/G6M.2-H
+com,"ej,lillb101,C,monte901,Call at 1B"
+com,"$Giants coach Lillis ejected by 1B umpire Montague for"
+com,"arguing that Gwynn was out at 1st"
 play,5,1,clarj002,00,X,8/F8
 play,6,0,oberk001,21,BBFX,9/L9D
 play,6,0,clarw001,11,BFX,S7/F7S

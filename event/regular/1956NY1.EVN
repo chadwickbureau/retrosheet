@@ -2807,9 +2807,6 @@ start,sarnb101,"Bill Sarni",1,6,2
 start,spend101,"Daryl Spencer",1,7,4
 start,castf101,"Foster Castleman",1,8,5
 start,gomer101,"Ruben Gomez",1,9,1
-com,"ej,rignb101,M,gormt101,Balk call (Reversed)"
-com,"Giants Manager Bill Rigney ejected by HP umpire Tom Gorman"
-com,"sometime in game"
 play,1,0,tempj101,??,,9
 play,1,0,postw101,??,,K
 play,1,0,bellg103,??,,8
@@ -2863,6 +2860,9 @@ play,7,1,maysw101,??,,9
 play,7,1,whitb105,??,,43
 play,7,1,sarnb101,??,,S
 play,7,1,spend101,??,,K
+com,"ej,rignb101,M,gormt101,Balk call (Reversed)"
+com,"$Giants manager Rigney ejected by HP umpire Gorman for"
+com,"reversing balk call"
 play,8,0,dyckj101,??,,W
 play,8,0,mcmir101,??,,3/SH.1-2
 play,8,0,nuxhj101,??,,3/G.2-3
@@ -9376,9 +9376,11 @@ info,umphome,boggd901
 info,ump1b,craws901
 info,ump2b,balll901
 info,ump3b,gorea901
-info,scorer,"253"
-info,translator,"D Lamoureaux"
-info,inputter,"D Lamoureaux"
+info,scorer,"253,276"
+info,translator,"D Lamoureaux/Townsend"
+info,inputter,"D Lamoureaux/Townsend"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
 info,inputtime,2007/01/30 8:02PM
 info,howscored,unknown
 info,pitches,none
@@ -9413,10 +9415,11 @@ start,sarnb101,"Bill Sarni",1,7,2
 start,spend101,"Daryl Spencer",1,8,6
 start,gomer101,"Ruben Gomez",1,9,1
 play,1,0,hoakd101,??,,13
-play,1,0,bakeg101,??,,D7
+play,1,0,bakeg101,??,,D/78
 play,1,0,banke101,??,,W
-play,1,0,moryw101,??,,S7.1-2;2-H
-play,1,0,kingj101,??,,S8.2-H;1-H(E8)(NR)(UR)
+play,1,0,moryw101,??,,S7/78S.1-2;2-H
+play,1,0,kingj101,??,,S8.2-H;1-H(E8)(NR)(UR);B-3
+com,"Bounced past Mays"
 play,1,0,whisp101,??,,8
 play,1,0,landh101,??,,43
 play,1,1,mueld101,??,,43
@@ -9433,6 +9436,7 @@ play,3,0,banke101,??,,D8
 play,3,0,moryw101,??,,7
 play,3,0,kingj101,??,,43
 play,3,1,sarnb101,??,,HP
+com,"Hit on the left hand"
 play,3,1,spend101,??,,64(1)/FO
 play,3,1,gomer101,??,,3/FL
 play,3,1,mueld101,??,,64(1)/FO
@@ -9453,11 +9457,11 @@ play,5,0,banke101,??,,54(1)/FO
 play,5,0,moryw101,??,,K
 play,5,1,thomh103,??,,3/G
 play,5,1,whitb105,??,,8
-play,5,1,hofmb101,??,,63
+play,5,1,hofmb101,??,,2
 play,6,0,kingj101,??,,W
 play,6,0,whisp101,??,,53/SH.1-2
 play,6,0,landh101,??,,43.2-3
-play,6,0,kellf102,??,,7/L
+play,6,0,kellf102,??,,9/L
 play,6,1,spend101,??,,63
 play,6,1,littd102,??,,NP
 sub,castf101,"Foster Castleman",1,9,11
@@ -9470,20 +9474,22 @@ play,7,0,rushb101,??,,13
 play,7,0,hoakd101,??,,W
 play,7,0,bakeg101,??,,43.1-2
 play,7,0,banke101,??,,K
-play,7,1,maysw101,??,,8/L
-play,7,1,branj101,??,,S5
-play,7,1,thomh103,??,,HR/9.1-H
+play,7,1,maysw101,??,,8/L8
+com,"Whisenant: 1-handed shoestring catch"
+play,7,1,branj101,??,,S5/G
+play,7,1,thomh103,??,,HR/F9D.1-H
+com,"Off the front of the upper deck in RF"
 play,7,1,whitb105,??,,3/G
 play,7,1,hofmb101,??,,6
 play,8,0,moryw101,??,,K
 play,8,0,kingj101,??,,9
 play,8,0,whisp101,??,,S9
-play,8,0,landh101,??,,6(1)/FO
+play,8,0,landh101,??,,36(1)/FO
 play,8,1,spend101,??,,2/FL
 play,8,1,hearj102,??,,NP
 sub,rhodd101,"Dusty Rhodes",1,9,11
 play,8,1,rhodd101,??,,3/FL
-play,8,1,mueld101,??,,S4
+play,8,1,mueld101,??,,S4/G
 play,8,1,schor101,??,,43
 play,9,0,kellf102,??,,NP
 sub,wilhh101,"Hoyt Wilhelm",1,9,1
@@ -9491,7 +9497,7 @@ play,9,0,kellf102,??,,HR/7
 play,9,0,rushb101,??,,W
 play,9,0,hoakd101,??,,NP
 sub,mccaw102,"Windy McCall",1,9,1
-play,9,0,hoakd101,??,,36(1)/FO.B-2(E3)#
+play,9,0,hoakd101,??,,14(1)/FO.B-2(E3)
 play,9,0,bakeg101,??,,S8.2-3
 play,9,0,banke101,??,,IW.1-2
 play,9,0,moryw101,??,,K

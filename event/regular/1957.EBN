@@ -191,7 +191,7 @@ stat,bline,bolgj101,0,6,1,3,1,2,0,0,0,1,0,1,0,0,0,1,0,0,0,0
 stat,bline,wince101,0,7,1,4,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,neemc101,0,8,1,4,1,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0
 stat,bline,drotd101,0,9,1,4,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,clemr101,1,1,1,4,1,2,1,0,0,0,0,0,0,0,0,1,0,0,0,0
+stat,bline,clemr101,1,1,1,5,1,2,1,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,virdb101,1,2,1,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,groad101,1,3,1,4,0,0,0,0,0,1,0,0,0,0,0,1,0,0,0,0
 stat,bline,thomf103,1,4,1,4,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0
@@ -548,21 +548,15 @@ stat,bline,castf101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,phline,castf101,3,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,worta101,1,9,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 stat,dline,morgb102,0,1,4,26,6,2,1,3,0,0
-stat,dline,speab101,0,1,3,26,8,1,1,0,0,0
+stat,dline,speab101,0,1,3,26,8,1,1,2,0,0
 stat,dline,banke101,0,1,5,26,1,1,0,1,0,0
-com,"xCC4 per film Banks DP but not in dpline because not in TSN"
 stat,dline,moryw101,0,1,9,26,3,0,0,0,0,0
 stat,dline,tannc101,0,1,7,26,1,0,0,0,0,0
 stat,dline,walll101,0,1,8,26,5,0,0,0,0,0
 stat,dline,neemc101,0,1,2,26,1,0,1,0,0,0
 stat,dline,wisec101,0,1,6,26,1,3,0,2,0,0
-com,"xCC4: per TSN box 3 but film 2--I used 2 DPs for Wise"
 stat,dline,rushb101,0,1,1,18,0,2,0,0,0,0
-stat,dline,lownt101,0,1,1,8,0,2,0,0,0,0
-event,dpline,0,wisec101,morgb102,speab101
-event,dpline,0,wisec101,morgb102,speab101
-event,dpline,0,lownt101,wisec101,morgb102
-event,dpline,1,spend101,schor101,harrg101
+stat,dline,lownt101,0,1,1,8,0,2,0,1,0,0
 stat,dline,lockw101,1,1,7,27,4,0,0,0,0,0
 stat,dline,schor101,1,1,4,27,4,5,1,1,0,0
 stat,dline,maysw101,1,1,8,27,3,0,0,0,0,0
@@ -571,7 +565,6 @@ stat,dline,virgo101,1,1,5,6,1,0,0,0,0,0
 stat,dline,harrg101,1,1,3,27,8,1,0,1,0,0
 stat,dline,mueld101,1,1,9,27,2,0,0,0,0,0
 stat,dline,kattr101,1,1,2,27,3,1,0,0,0,0
-com,"xCC4: per film Katt had 1 A"
 stat,dline,spend101,1,1,6,27,1,2,1,1,0,0
 stat,dline,barcc101,1,1,1,9,0,0,0,0,0,0
 stat,dline,worta101,1,1,1,18,0,1,0,0,0,0
@@ -579,6 +572,10 @@ stat,pline,rushb101,0,1,18,0,22,3,0,0,1,3,0,1,0,0,0,0,0,0,0
 stat,pline,lownt101,0,2,8,0,10,1,0,0,0,1,0,2,0,0,0,0,0,0,0
 stat,pline,barcc101,1,1,9,0,15,6,0,0,0,3,3,0,0,0,0,0,0,0,0
 stat,pline,worta101,1,2,18,0,20,2,0,0,0,0,0,0,0,3,0,0,0,0,0
+event,dpline,0,wisec101,morgb102,speab101
+event,dpline,0,banke101,morgb102,speab101
+event,dpline,0,lownt101,wisec101,morgb102
+event,dpline,1,spend101,schor101,harrg101
 line,0,1,0,2,0,0,0,0,0,0
 line,1,0,0,0,0,0,3,0,0,1
 stat,tline,0,5,0,3,0
@@ -1106,35 +1103,29 @@ start,drabm101,"Moe Drabowsky",1,9,1
 stat,bline,mazeb101,0,1,1,6,1,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,virdb101,0,2,1,4,1,2,0,0,1,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,obrij101,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,prline,obrij101,7,0,0,0,0
 stat,bline,arrol101,0,2,3,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,klinr102,0,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,pendj101,0,2,5,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,phline,pendj101,11,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,swanr101,0,2,6,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,fondd101,0,3,1,6,0,3,1,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,thomf103,0,4,1,6,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,groad101,0,5,1,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,bakeg101,0,6,1,4,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-com,"CC4: TSN Baker 0 H 1 D!!"
 stat,bline,mejir101,0,7,1,5,0,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,foilh101,0,8,1,4,1,1,0,0,1,1,0,0,0,1,0,1,0,0,0,0
 stat,bline,trimj101,0,9,1,2,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,facer101,0,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,skinb101,0,9,3,2,1,1,0,0,1,1,0,0,0,0,0,1,0,0,0,0
-stat,phline,skinb101,7,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,smitp104,0,9,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,willb106,1,1,1,4,0,2,0,0,0,1,1,0,0,1,0,0,0,0,0,0
 stat,bline,morgb102,1,2,1,6,1,1,0,1,0,1,0,0,0,0,0,2,0,0,1,0
 stat,bline,tannc101,1,3,1,3,1,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0
 stat,bline,bolgj101,1,3,2,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
-stat,phline,bolgj101,9,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,banke101,1,4,1,4,1,1,0,0,1,2,0,0,0,1,0,1,1,0,1,0
 stat,bline,moryw101,1,5,1,4,0,0,0,0,0,0,0,0,0,1,1,2,0,0,0,0
 stat,bline,longd101,1,6,1,3,0,0,0,0,0,0,0,0,0,2,0,1,0,1,0,0
 stat,bline,fannj101,1,7,1,4,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,hilld102,1,7,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,prline,hilld102,8,1,0,0,0
 stat,bline,neemc101,1,7,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,littj104,1,8,1,2,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,speab101,1,8,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
@@ -1143,8 +1134,13 @@ stat,bline,kindj101,1,8,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 stat,bline,drabm101,1,9,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
 stat,bline,lownt101,1,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,walll101,1,9,3,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
-stat,phline,walll101,9,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,elstd101,1,9,4,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+stat,phline,pendj101,11,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+stat,phline,skinb101,7,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+stat,phline,bolgj101,9,1,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+stat,prline,obrij101,7,0,0,0,0
+stat,phline,walll101,9,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+stat,prline,hilld102,8,1,0,0,0
 stat,dline,mazeb101,0,1,4,33,5,5,0,2,0,0
 stat,dline,virdb101,0,1,8,18,1,0,0,0,0,0
 stat,dline,fondd101,0,1,3,33,10,1,0,2,0,0
@@ -1156,8 +1152,6 @@ stat,dline,mejir101,0,1,9,33,0,0,0,0,0,0
 stat,dline,foilh101,0,1,2,33,8,1,0,0,0,0
 stat,dline,skinb101,0,1,7,9,0,0,0,0,0,0
 stat,dline,smitp104,0,1,7,6,1,0,0,0,0,0
-event,dpline,0,bakeg101,mazeb101,fondd101
-event,dpline,0,bakeg101,mazeb101,fondd101
 stat,dline,trimj101,0,1,1,16,1,1,0,0,0,0
 stat,dline,facer101,0,1,1,2,0,0,0,0,0,0
 stat,dline,arrol101,0,1,1,7,0,0,0,0,0,0
@@ -1185,6 +1179,8 @@ stat,pline,swanr101,0,5,3,0,3,0,0,0,0,0,0,0,0,1,0,0,0,0,0
 stat,pline,drabm101,1,1,24,2,36,9,0,0,4,5,5,2,0,3,0,0,0,0,0
 stat,pline,lownt101,1,2,3,0,4,1,0,0,0,0,0,0,0,1,0,0,0,0,0
 stat,pline,elstd101,1,3,6,0,9,2,0,0,0,0,0,1,0,0,0,0,0,0,0
+event,dpline,0,bakeg101,mazeb101,fondd101
+event,dpline,0,bakeg101,mazeb101,fondd101
 line,0,1,0,0,0,1,0,1,0,2,0,0
 line,1,0,0,0,0,0,3,0,0,2,0,0
 stat,tline,0,11,5,2,0
@@ -1617,11 +1613,11 @@ stat,bline,grism101,1,2,3,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,antoj103,1,2,4,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,phline,antoj103,12,1,0,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,maysw101,1,3,1,6,1,2,0,0,1,2,0,0,0,0,0,0,0,1,0,0
-stat,bline,thomb105,1,4,1,3,2,2,0,0,1,1,0,0,0,2,0,0,0,0,1,0
+stat,bline,thomb105,1,4,1,3,2,2,0,0,1,1,0,0,0,2,0,0,0,0,0,0
 stat,bline,spend101,1,5,1,5,1,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,mueld101,1,6,1,5,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,brese101,1,7,1,4,0,1,0,0,0,1,0,1,0,0,0,1,0,0,0,0
-stat,bline,thomv101,1,8,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+stat,bline,thomv101,1,8,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 stat,bline,harrg101,1,8,2,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,phline,harrg101,7,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,gomer101,1,8,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

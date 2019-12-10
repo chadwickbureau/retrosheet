@@ -11655,9 +11655,9 @@ info,number,0
 info,starttime,7:23
 info,daynight,night
 info,usedh,false
-info,umphome,hohnb901
-info,ump1b,poncl901
-info,ump2b,davib902
+info,umphome,davib902
+info,ump1b,hohnb901
+info,ump2b,poncl901
 info,ump3b,bellw901
 info,pitches,pitches
 info,temp,55
@@ -11690,6 +11690,12 @@ start,clarj002,"Jerald Clark",1,6,9
 start,youne001,"Eric Young",1,7,7
 start,mejir001,"Roberto Mejia",1,8,4
 start,niedd001,"David Nied",1,9,1
+com,"umpchange,1,umphome,hohnb901"
+com,"umpchange,1,ump1b,poncl901"
+com,"umpchange,1,ump2b,(None)"
+com,"$HP umpire Davidson left when suffering lacerated ear from"
+com,"being hit by warmup pitch just before game started; 1B umpire"
+com,"went behind plate and 2B umpire Poncino moved to 1st"
 play,1,0,butlb001,21,..BBCX,7/L7M
 play,1,0,offej001,01,CX,7/F7M
 play,1,0,piazm001,32,CBSBBS,K
@@ -11699,6 +11705,9 @@ play,1,1,bostd001,22,SSBBX,43/G4.3-H
 play,1,1,galaa001,22,CBFBX,S7/L56D
 play,1,1,hayec001,31,BBCBB,W.1-2
 play,1,1,clarj002,00,X,46(1)/FO/G4
+com,"umpchange,2,ump2b,davib902"
+com,"$After receiving medical treatment, umpire Davidson returns"
+com,"to umpire at 2nd"
 play,2,0,karre001,22,CBBFC,K
 play,2,0,wallt001,31,BBBCX,S9/L9S
 play,2,0,snydc001,20,BBX,D/F89XDW.1-3

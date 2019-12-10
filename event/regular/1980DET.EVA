@@ -605,9 +605,11 @@ play,5,1,trama001,??,,W
 play,5,1,whitl001,01,,NP
 sub,rainc001,"Chuck Rainey",0,0,1
 com,"ej,ecked001,P,mckej901,Balls and strikes"
-com,"Dennis Eckersley ejected by HP umpire Jim McKean"
-play,5,1,whitl001,??,,SB2
-play,5,1,whitl001,??,,E5/SH.2-3
+com,"$Pitcher Eckersley ejected by HP umpire McKean when he threw"
+com,"strike 1 to Whitaker and yelled that it was the same pitch"
+com,"called ball 4 to Trammell"
+play,5,1,whitl001,??,,E5/SH.1-2
+play,5,1,gibsk001,??,,SB3
 play,5,1,gibsk001,??,,W.1-2
 play,5,1,kemps001,??,,W.3-H;2-3;1-2
 play,5,1,hebnr001,??,,S9.3-H(UR);2-H;1-3
@@ -3104,7 +3106,7 @@ start,lentj101,"Jim Lentine",1,7,7
 start,gibsk001,"Kirk Gibson",1,8,8
 start,broot001,"Tom Brookens",1,9,5
 start,wilcm001,"Milt Wilcox",1,0,1
-play,1,0,cruzj002,??,,2/G
+play,1,0,cruzj002,??,,2/G/BINT
 com,"$Julio Cruz ran into his own batted ball"
 play,1,0,simpj101,??,,63
 play,1,0,meyed001,??,,9
@@ -3149,9 +3151,8 @@ play,5,1,parrl001,??,,3
 play,5,1,cowea001,??,,S5.1-2
 play,5,1,wockj001,??,,HR/7.2-H;1-H
 com,"ej,johnd106,M,bremn901,Arguing fair/foul call on HR"
-com,"John Wockenfuss hit a fly ball down the LF line that was called"
-com,"fair; LF Dan Meyer and Mariners manager Darrell Johnson argued"
-com,"the ruling; Johnson ejected by 3B umpire Nick Bremigan"
+com,"$Mariners manager Johnson ejected by 3B umpire Bremigan for"
+com,"arguing the home run was foul"
 play,5,1,lentj101,??,,W
 play,5,1,gibsk001,??,,NP
 sub,dresr101,"Rob Dressler",0,0,1
@@ -4877,8 +4878,9 @@ play,8,0,hargm001,??,,46(1)/FO
 play,8,0,charj101,??,,NP
 sub,lopea001,"Aurelio Lopez",1,0,1
 play,8,0,charj101,??,,K/C
-com,"ej,charj101,P,kunkb101,Throwing tobacco at John Shulock"
-com,"Joe Charboneau ejected by 1B umpire Bill Kunkel"
+com,"ej,charj101,P,kunkb101,Throwing tobacco at umpire"
+com,"$Charboneau ejected by 1B umpire Kunkel for arguing called"
+com,"strike 3 by throwing wad of tobacco at HP umpire Shulock"
 play,8,1,stegd001,??,,W
 play,8,1,lentj101,??,,HP.1-2
 play,8,1,trama001,??,,9.2-3
@@ -7506,9 +7508,9 @@ play,5,1,peter001,??,,D9
 play,5,1,trama001,??,,53
 play,6,0,mcrah001,??,,7
 play,6,0,bretg001,??,,8
-com,"ej,bretg001,P,garcr901,Charging mound after knockdown"
-com,"$Milt Wilcox knocked down George Brett twice; Brett charged the"
-com,"mound and both benches emptied; Brett ejected by HP umpire Rich Garcia"
+com,"ej,bretg001,P,garcr901,Charging mound after fly out"
+com,"$Brett ejected by HP umpire Garcia for charging mound"
+com,"for knockdown on earlier pitch after flying out"
 play,6,0,portd001,??,,43
 play,6,1,kemps001,??,,NP
 sub,chald101,"Dave Chalk",0,3,5
@@ -12094,9 +12096,6 @@ start,cowea001,"Al Cowens",1,7,9
 start,papis101,"Stan Papi",1,8,5
 start,whitl001,"Lou Whitaker",1,9,4
 start,fidrm101,"Mark Fidrych",1,0,1
-com,"ej,browg101,C,kaisk901,Threw towel from bench"
-com,"Tigers Coach Gates Brown ejected by 1B umpire Ken Kaiser"
-com,"sometime in game"
 play,1,0,grifa001,??,,W
 play,1,0,iorgg001,??,,W.1-2
 play,1,0,mosel001,??,,K/C
@@ -12143,6 +12142,12 @@ play,4,0,wooda001,??,,163
 play,4,1,wockj001,??,,K/C
 play,4,1,cowea001,??,,K
 play,4,1,papis101,??,,143
+com,"ej,browg101,C,kaisk901,Threw towel from bench"
+com,"$Tigers coach Brown ejected by 1B umpire Kaiser at end"
+com,"of 4th inning; Tigers were upset because had apparently"
+com,"hit a clearn single earlier in his at bat, but Kaiser"
+com,"said he had called time to tell 1B coach Tracewski to"
+com,"stay in coach's box; threw towel from bench"
 play,5,0,bonnb001,??,,E3
 play,5,0,hodgp101,??,,13/SH.1-2
 play,5,0,white002,??,,W

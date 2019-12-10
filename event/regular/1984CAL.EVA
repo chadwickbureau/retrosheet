@@ -3433,9 +3433,6 @@ start,jackr002,"Ron Jackson",1,7,3
 start,gricb001,"Bobby Grich",1,8,4
 start,boonb001,"Bob Boone",1,9,2
 start,corbd001,"Doug Corbett",1,0,1
-com,"ej,folit001,P,garcr901,Call at 1B"
-com,"Tim Foli ejected by 1B umpire Richie Garcia from the"
-com,"bench sometime in game"
 play,1,0,randw001,,,63
 play,1,0,grifk001,,,43
 play,1,0,winfd001,,,S
@@ -3477,9 +3474,12 @@ play,4,1,gricb001,,,K
 play,4,1,boonb001,,,8
 play,5,0,randw001,,,53
 play,5,0,grifk001,,,43
+com,"ej,folit001,P,garcr901,Call at 1B"
+com,"$Yankees Foli, not in game, ejected by 1B umpire Garcia"
+com,"for arguing that Griffey wsa safe at 1st"
 play,5,0,winfd001,,,2/F
 play,5,1,benij001,,,S
-play,5,1,schod001,,,CS2(136)
+play,5,1,schod001,,,POCS2(136)
 play,5,1,schod001,,,7
 play,5,1,browm002,,,HR
 play,5,1,decid001,,,K
@@ -3502,6 +3502,11 @@ play,6,1,downb001,,,W
 play,6,1,jackr001,,,5/F
 play,6,1,jackr002,,,8
 play,6,1,gricb001,,,K
+com,"umpchange,7,umphome,reilm901"
+com,"umpchange,7,ump2b,(None)"
+com,"$HP umpire Denkinger left with heat exhaustion at"
+com,"start of 7th inning; 2B umpire Reilly went behind"
+com,"plate and game was finished with 3 umpires"
 play,7,0,randw001,,,W
 play,7,0,grifk001,,,5
 play,7,0,winfd001,,,46(1)3/GDP
@@ -5542,9 +5547,6 @@ start,gricb001,"Bobby Grich",1,7,4
 start,jackr002,"Ron Jackson",1,8,3
 start,boonb001,"Bob Boone",1,9,2
 start,romar001,"Ron Romanick",1,0,1
-com,"ej,howsd101,M,brinj901,Arguing whether fielder tagged 3B"
-com,"Royals manager Dick Howser ejected by 3B umpire Joe Brinkman"
-com,"sometime in game"
 play,1,0,wilsw001,,,8
 play,1,0,sherp001,,,S
 play,1,0,bretg001,,,SB2
@@ -5601,7 +5603,11 @@ play,7,0,slaud001,,,53
 play,7,0,bianb001,,,K
 play,7,0,washu001,,,8
 play,7,1,downb001,,,T
-play,7,1,jackr001,,,FC
+play,7,1,jackr001,,,FC6.3-3;B-1
+com,"ej,howsd101,M,brinj901,Call at 3B"
+com,"$Royals manager Howser ejected by 3B umpire Brinkman for"
+com,"arguing that Downing was out diving back to 3rd on"
+com,"fielder's choice"
 play,7,1,gricb001,,,SB2
 play,7,1,gricb001,,,63.3-H;2-3
 play,7,1,jackr002,,,4
@@ -10132,19 +10138,20 @@ play,5,0,moreo001,,,S
 play,5,0,ceror001,,,SB2
 play,5,0,ceror001,,,8(B)4(2)/DP
 play,5,0,meacb001,,,HP
-com,"Bobby Meacham hit on helmet with pitch"
+com,"$Bobby Meacham hit on helmet with pitch"
 play,5,0,folit001,,,4
-com,"ej,benij001,P,sprim901,Charging mound after pitch"
-com,"ej,scond001,P,sprim901,Continuing fight"
-com,"ej,fontr001,P,sprim901,Throwing at Juan Beniquez"
-com,"Ray Fontenot threw a pitch behind Juan Beniquez, who"
-com,"charged the mound; both benches cleared and a brawl ensued;"
-com,"Fontenot, Beniquez and Darryl Sconiers (not in the game)"
-com,"were ejected by HP umpire Marty Springstead"
 play,5,1,benij001,,,NP
 sub,howej001,"Jay Howell",0,0,1
 play,5,1,benij001,,,NP
 sub,pettg001,"Gary Pettis",1,1,11
+com,"ej,fontr001,P,sprim901,Throwing at batter"
+com,"ej,benij001,P,sprim901,Charging mound after pitch"
+com,"ej,scond001,P,sprim901,Continuing fight"
+com,"$Pitcher Fontenot and Orioles Beniquez ejected by HP umpire"
+com,"Springstead when pitch was behind batter who then charged"
+com,"mound; both benches cleared and a brawl ensued; "
+com,"Fontenot, Angels Sconiers (not in the game) ejected by"
+com,"Springstead for his role in brawl"
 play,5,1,pettg001,,,K
 play,5,1,gricb001,,,53
 play,5,1,lynnf001,,,7

@@ -4391,9 +4391,6 @@ start,iorgg001,"Garth Iorg",1,7,4
 start,upshw001,"Willie Upshaw",1,8,3
 start,moorc001,"Charlie Moore",1,9,2
 start,clanj001,"Jim Clancy",1,0,1
-com,"ej,willj107,M,hirsj901,Arguing batter out of baseline"
-com,"Blue Jays manager Jimy Williams ejected by HP umpire John Hirschbeck"
-com,"sometime in game"
 play,1,0,whitl001,,,HR/9
 play,1,0,madlb001,,,9
 play,1,0,gibsk001,,,S9
@@ -4456,7 +4453,11 @@ play,8,0,nokem001,,,43
 play,8,0,sherp001,,,53
 play,8,0,evand001,,,13
 play,8,1,moorc001,,,6
-play,8,1,fernt001,,,K
+play,8,1,fernt001,,,K/BINT
+com,"ej,willj107,M,hirsj901,Interference call"
+com,"$Blue Jays manager Williams ejected by HP umpire Hirschbeck"
+com,"when umpire ruled Fernandez interfered with ball while"
+com,"running to 1st after 3rd strike bouned away from catcher"
 play,8,1,mosel001,,,W
 play,8,1,barfj001,,,NP
 sub,kinge001,"Eric King",0,0,1
@@ -4924,6 +4925,10 @@ play,6,1,lee-m001,,,8
 play,7,0,pacij001,,,E5.B-1
 play,7,0,bragg001,,,E5/G.1-2;B-1
 play,7,0,schrb001,,,S8.2-H(UR);1-3;B-2(TH)
+com,"ej,willj107,M,garcr901,Call at 2B"
+com,"$Blue Jays manager Williams ejected by 2B umpire"
+com,"Garcia for arguing that Schroeder was out advancing"
+com,"to 2nd on throw to 3rd"
 play,7,0,gantj001,,,7/SF.3-H(UR)
 play,7,0,sveud001,,,63
 play,7,0,feldm001,,,7
@@ -5174,9 +5179,6 @@ start,upshw001,"Willie Upshaw",1,7,3
 start,moorc001,"Charlie Moore",1,8,2
 start,iorgg001,"Garth Iorg",1,9,4
 start,ceruj001,"John Cerutti",1,0,1
-com,"ej,willj107,M,johnm901,Called third strike"
-com,"Blue Jays manager Jimy Williams ejected by HP umpire Mark Johnson"
-com,"sometime in game"
 play,1,0,hendr001,,,8/L
 play,1,0,randw001,,,S9
 play,1,0,mattd001,,,7
@@ -5224,8 +5226,9 @@ play,5,0,winfd001,,,K
 play,5,0,wardg001,,,9/L
 play,5,1,fernt001,,,S1/G.B-1
 play,5,1,mosel001,,,7/L
-play,5,1,barfj001,,,SB2
-play,5,1,barfj001,,,OA.2-3(E1)
+play,5,1,barfj001,,,SB2.1-3(E1)
+com,"$Catcher made a weak throw which pitcher caught and then"
+com,"threw wildly to 2nd, allowing runner to take 3rd"
 play,5,1,barfj001,,,K/C
 play,5,1,bellg001,,,W
 play,5,1,fielc001,,,7
@@ -5246,6 +5249,9 @@ play,6,1,upshw001,,,HR/9
 play,6,1,moorc001,,,NP
 sub,white002,"Ernie Whitt",1,8,11
 play,6,1,white002,,,S9
+com,"ej,willj107,M,johnm901,Check swing strike"
+com,"$Blue Jays manager Williams ejected by 1B umpire Johnson"
+com,"for arguing check swing strike call to Whitt"
 play,6,1,iorgg001,,,NP
 sub,mullr001,"Rance Mulliniks",1,9,11
 play,6,1,mullr001,,,S9.1-2
@@ -5292,7 +5298,10 @@ play,8,0,paglm001,,,NP
 sub,lee-m001,"Manuel Lee",1,9,4
 play,8,0,paglm001,,,W
 play,8,0,tollw001,,,46(1)/FO/G.B-1
-play,8,0,hendr001,,,S1.1-2
+play,8,0,hendr001,,,S1/L1.1-2
+com,"$Henderson's single hit Musselman on inside of right knee;"
+com,"after rolling on the ground in great pain for several"
+com,"minutes, he was helped off the field"
 play,8,0,randw001,,,NP
 sub,henkt001,"Tom Henke",1,0,1
 play,8,0,randw001,,,K
@@ -8329,9 +8338,6 @@ start,iorgg001,"Garth Iorg",1,7,4
 start,upshw001,"Willie Upshaw",1,8,3
 start,moorc001,"Charlie Moore",1,9,2
 start,niekp001,"Phil Niekro",1,0,1
-com,"ej,fregj101,M,fordd901,Balls and strikes"
-com,"White Sox manager Jim Fregosi ejected by HP umpire Dale Ford"
-com,"sometime in game"
 play,1,0,guilo001,,,S7
 play,1,0,redug001,,,SB2.1-3(E2/TH2)
 play,1,0,redug001,,,53
@@ -8365,7 +8371,10 @@ play,4,1,barfj001,,,9/L
 play,4,1,bellg001,,,4
 play,5,0,manrf001,,,7
 play,5,0,guilo001,,,53
-play,5,0,redug001,,,K
+play,5,0,redug001,,,K/C
+com,"ej,fregj101,M,fordd901,Called strike 3"
+com,"$White Sox manager Fregosi ejected by HP umpire Ford for"
+com,"arguing called strike 3 to Redus"
 play,5,1,fielc001,,,8
 play,5,1,grubk001,,,6/L
 play,5,1,iorgg001,,,9
@@ -11477,9 +11486,6 @@ start,mullr001,"Rance Mulliniks",1,7,5
 start,upshw001,"Willie Upshaw",1,8,3
 start,leacr001,"Rick Leach",1,9,10
 start,key-j001,"Jimmy Key",1,0,1
-com,"ej,ripkc801,M,roe-r901,Balls and strikes"
-com,"Orioles manager Cal Ripken Sr ejected by HP umpire Rocky Roe"
-com,"sometime in game"
 play,1,0,stanp001,,,53
 play,1,0,washr001,,,3/G
 play,1,0,lacyl001,,,8
@@ -11503,6 +11509,9 @@ play,2,1,bellg001,,,W.2-3;1-2
 play,2,1,white002,,,3/G
 play,3,0,rayff001,,,43
 play,3,0,hartm001,,,K/C
+com,"ej,ripkc801,M,roe-r901,Called strike 3"
+com,"$Orioles manager Ripken ejected by HP umpire Roe for"
+com,"called strike 3 to Hart"
 play,3,0,stanp001,,,43
 play,3,1,barfj001,,,K
 play,3,1,mullr001,,,13
@@ -11937,9 +11946,9 @@ start,upshw001,"Willie Upshaw",1,7,3
 start,leacr001,"Rick Leach",1,8,10
 start,lee-m001,"Manuel Lee",1,9,6
 start,stied001,"Dave Stieb",1,0,1
-com,"ej,muffb101,C,,Unknown reason"
-com,"Tigers coach Billy Muffett ejected by unknown umpire"
-com,"sometime in game"
+com,"ej,muffb101,C,mcclt901,Balls and strikes"
+com,"$Tigers coach Billy Muffett ejected by HP umpire"
+com,"McClelland for arguing balls and strikes sometime in game"
 play,1,0,whitl001,,,31
 play,1,0,evand001,,,43
 play,1,0,gibsk001,,,D7

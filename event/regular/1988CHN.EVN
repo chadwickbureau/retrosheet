@@ -4026,9 +4026,6 @@ start,law-v001,"Vance Law",1,6,5
 start,davij001,"Jody Davis",1,7,2
 start,dunss001,"Shawon Dunston",1,8,6
 start,picoj001,"Jeff Pico",1,9,1
-com,"ej,zimmd101,M,westj901,Bench jockeying"
-com,"Cubs manager Don Zimmer ejected by HP umpire Joe West for bench jockeying"
-com,"sometime in game"
 play,1,0,bondb001,00,X,8
 play,1,0,lindj002,31,BCBBX,8
 play,1,0,vansa001,22,BBFSS,K
@@ -4059,6 +4056,9 @@ play,4,1,palmr001,10,BX,9
 play,4,1,dawsa001,32,CSBBFBX,53
 play,4,1,sandr001,00,X,S5/G56
 play,4,1,gracm001,21,BPF1C,SB2
+com,"ej,zimmd101,M,westj901,Balls and strikes"
+com,"$Cubs manager Zimmer ejected by HP umpire West for arguing"
+com,"balls and strikes while Grace wass at bat"
 play,4,1,gracm001,32,BPF1C.BFX,43
 play,5,0,bellr001,00,X,8
 play,5,0,drabd001,11,SBX,8
@@ -4356,6 +4356,11 @@ play,2,1,law-v001,01,CX,S9/L89.3-H;1-2
 play,2,1,davij001,20,PBX,8
 play,2,1,jackd002,01,CX,6(B)4(2)/LDP
 play,3,0,raint001,32,CFBBBFX,S8/L8
+com,"umpchange,3,umphome,darlg901"
+com,"umpchange,3,ump2b,(None)"
+com,"$HP umpire Froemming left when struck on chest by pitch;"
+com,"2B umpire Darling went behind plate and game finished"
+com,"with 3 umpires"
 play,3,0,candc001,11,CBX,6/L
 play,3,0,galaa001,30,BBBX,64(1)/FO
 play,3,0,brooh001,22,CBFFBFFFX,43
@@ -9542,13 +9547,14 @@ play,10,1,law-v001,00,X,46(1)/FO
 play,10,1,berrd002,00,X,S9/F9S.1-3
 play,10,1,dunss001,10,BB,BK.3-H(UR);1-2
 com,"ej,treva001,P,davig901,Balk call"
-com,"Shawon Dunston appeared to end the game with a fly ball to CF;"
+com,"$Astros Trevino, no longer in game, ejected by 1B umpire Davis"
+com,"for arguing balk call; Dunston appeared to end game with fly"
+com,"ball to CF, however 1B umpire Davis called a balk which"
 com,"however, 1B umpire Gerry Davis called a balk on Juan Agosto to"
-com,"nullify the play; Alex Trevino, who had been replaced in the"
-com,"ninth inning, was ejected from the bench by Davis; Trevino"
-com,"jumped onto the field and was restrained by Astros manager"
-com,"Hal Lanier; as Lanier left the field, he and coach Matt Galante"
-com,"got in a shouting match with a fan behind the Astros bench"
+com,"nullified the play; Trevino jumped onto field and was"
+com,"restrained by Astros manager Lanier; as Lanier left field, he"
+com,"and coach Matt Galante got in a shouting match with a fan behind"
+com,"the Astros dugout"
 play,10,1,dunss001,20,BB.X,63
 data,er,scotm001,3
 data,er,anduj001,2
@@ -9605,9 +9611,6 @@ start,law-v001,"Vance Law",1,6,5
 start,berrd002,"Damon Berryhill",1,7,2
 start,dunss001,"Shawon Dunston",1,8,6
 start,moyej001,"Jamie Moyer",1,9,1
-com,"ej,cottc101,C,tatat901,Failure to call balk"
-com,"Cubs coach Chuck Cottier ejected by 3B umpire Terry Tata"
-com,"for not calling a balk sometime in game"
 play,1,0,young001,00,X,S8/G6M
 play,1,0,ramir001,20,BBX,S7/G56.1-3
 play,1,0,hatcb001,10,BX,FC5/G5.1-2;B-1
@@ -9670,6 +9673,9 @@ play,7,0,ramir001,12,CSBFX,63
 play,7,0,hatcb001,10,BX,S4/G4M
 play,7,0,davig001,21,BSBX,63
 play,7,1,websm001,00,X,S9/L9S
+com,"ej,cottc101,C,tatat901,Balk non-call"
+com,"$Cubs coach Cottier ejected by 3B umpire Tata for not"
+com,"calling balk"
 play,7,1,sandr001,10,BB,SB2
 play,7,1,sandr001,30,BB.BB,W
 play,7,1,gracm001,10,BX,S9/L34.2-H;1-3

@@ -3444,7 +3444,8 @@ play,7,1,evand002,,,NP
 sub,schrk001,"Ken Schrom",0,0,1
 play,7,1,evand002,,,K/C
 com,"ej,evand002,P,koscg901,Called third strike"
-com,"Dwight Evans ejected by HP umpire Greg Kosc"
+com,"$Evans ejected by HP umpire Kosc for arguing"
+com,"called strike 3"
 play,8,0,thora001,,,NP
 sub,lyons001,"Steve Lyons",1,6,8
 play,8,0,thora001,,,NP
@@ -3456,7 +3457,10 @@ play,8,1,armat001,,,53
 play,8,1,sullm001,,,3
 play,8,1,quinr001,,,3/FL
 play,9,0,tablp001,,,K
-play,9,0,jacob001,,,K
+play,9,0,jacob001,,,K/C
+com,"ej,bondb101,C,koscg901,Called strike 3"
+com,"$Indians coach Bonds ejected by HP umpire Kosc for"
+com,"arguing called strike 3"
 play,9,0,allaa001,,,NP
 sub,bandc001,"Chris Bando",0,9,11
 play,9,0,bandc001,,,S
@@ -3515,9 +3519,6 @@ start,evand002,"Dwight Evans",1,7,9
 start,lyons001,"Steve Lyons",1,8,8
 start,quinr001,"Rey Quinones",1,9,6
 start,browm003,"Mike Brown",1,0,1
-com,"ej,corrp102,M,garcr901,Call at 2B"
-com,"Indians manager Pat Corrales ejected by 2B umpire RIchie Garcia"
-com,"sometime in game"
 play,1,0,butlb001,,,6
 play,1,0,franj002,,,43
 play,1,0,cartj001,,,S8
@@ -3561,6 +3562,9 @@ play,4,1,boggw001,,,S5
 play,4,1,buckb001,,,4
 play,5,0,butlb001,,,S8
 play,5,0,franj002,,,CS2(24)
+com,"ej,corrp102,M,garcr901,Call at 2B"
+com,"$Indians manager Corrales ejected by 2B umpire Garcia"
+com,"for arguing Butler was safe at 2nd"
 play,5,0,franj002,,,K
 play,5,0,cartj001,,,63
 play,5,1,ricej001,,,NP
@@ -6108,9 +6112,6 @@ start,armat001,"Tony Armas",1,7,8
 start,sullm001,"Marc Sullivan",1,8,2
 start,quinr001,"Rey Quinones",1,9,6
 start,seavt001,"Tom Seaver",1,0,1
-com,"ej,willd104,M,welkt901,Checked swing"
-com,"Mariners manager Dick Williams ejected by 1B umpire Tim Welke"
-com,"sometime in game"
 play,1,0,mosej001,,,7
 play,1,0,bradp001,,,K
 play,1,0,presj001,,,K
@@ -6118,6 +6119,12 @@ play,1,1,barrm001,,,S7/G5
 play,1,1,boggw001,,,SB2
 play,1,1,boggw001,,,43.2-3
 play,1,1,stapd001,,,K+E2.B-1
+com,"ej,willd104,M,welkt901,Call at 1B (Reversed)"
+com,"$Mariners manager Williams ejected by 1B umpire Welke"
+com,"for arguing reversal of call; Stapleton originally"
+com,"called out, then Red Sox manager McNamara argued,"
+com,"umpires conferred and reversed call to safe which"
+com,"caused Williams to argue and get ejected"
 play,1,1,ricej001,,,S8/L9S.3-H;1-3
 play,1,1,bayld001,,,54(1)3/GDP
 play,2,0,phelk001,,,S9/L34
@@ -6556,14 +6563,14 @@ start,armat001,"Tony Armas",1,7,8
 start,sullm001,"Marc Sullivan",1,8,2
 start,quinr001,"Rey Quinones",1,9,6
 start,sellj001,"Jeff Sellers",1,0,1
-com,"ej,mcnaj801,M,evanj901,Catch/no catch call"
-com,"Red Sox manager John McNamara ejected by 2B umpire Jim Evans"
-com,"arguing a changed call sometime in game"
 play,1,0,philt001,,,43
 play,1,0,lansc001,,,8
 play,1,0,cansj001,,,K
 play,1,1,barrm001,,,D7/L7L
 play,1,1,boggw001,,,9
+com,"ej,mcnaj801,M,evanj901,Catch/trap call (Reversed)"
+com,"$Red Sox manager McNamara ejected by 2B umpire Evans for"
+com,"arguing arguing that ball hit by Boggs was not caught"
 play,1,1,buckb001,,,7
 play,1,1,ricej001,,,5/L
 play,2,0,bochb001,,,W
@@ -6918,6 +6925,10 @@ start,quinr001,"Rey Quinones",1,8,6
 start,romik001,"Kevin Romine",1,9,8
 start,seavt001,"Tom Seaver",1,0,1
 play,1,0,joner002,,,S9/L9S
+com,"ej,candj001,P,kaisk901,Arguing balk from previous game"
+com,"$Angels Candelaria, not in game, ejected by 2B umpire"
+com,"Kaiser for arguing about balk called  by 3B umpire"
+com,"Brinkman in previous game"
 play,1,0,joynw001,,,6
 play,1,0,decid001,,,5(B)3(1)/LDP
 play,1,1,barrm001,,,3/G
