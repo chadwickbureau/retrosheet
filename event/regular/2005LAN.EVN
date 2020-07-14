@@ -4387,11 +4387,11 @@ play,7,1,sancd001,00,,NP
 sub,roblo001,"Oscar Robles",1,9,11
 play,7,1,roblo001,10,.BX,S8/G
 play,7,1,iztuc001,10,B>X,7/F
-play,7,1,perea001,32,SFBFFB*B>S,K+CS2(24)/DP
+play,7,1,perea001,32,SFBFFB*B>S,K+CS2(24)/DP/C
 com,"ej,perea001,P,fostm901,Called third strike"
 com,"ej,tracj101,M,fostm901,Called third strike"
-com,"Dodgers 2B Antonio Perez and Mgr Jim Tracy ejected by HP"
-com,"umpire Marty Foster"
+com,"$Perez and Dodgers manager Tracy ejected by HP umpire Foster"
+com,"for arguing called third strike"
 play,8,0,santv001,00,,NP
 sub,brazy001,"Yhency Brazoban",1,2,1
 play,8,0,santv001,00,,NP
@@ -6503,9 +6503,11 @@ play,3,0,ellij001,11,FBX,63/G
 play,3,0,schmj001,12,SCBC,K
 play,3,0,tuckm001,11,BFX,63/G
 play,3,1,repkj001,32,BCSBFFBFB,W
-play,3,1,pennb002,00,X,FC1/SH/BG.1-2;BX2(4)
+play,3,1,pennb002,00,X,FC1/SH/BG.1-2;BX1(4)
 com,"ej,pennb002,P,drakr901,Call at 1B (threw helmet)"
-com,"Dodgers pitcher Brad Penny ejected by HP umpire Rob Drake"
+com,"$Penny ejected by HP umpire Drake for arguing call that"
+com,"he had turned toward 2nd after overrunning 1st; he was"
+com,"ejected as he walked back to dugout"
 play,3,1,roblo001,01,.CX,3/G.2-3
 play,3,1,edwam001,32,CBSBBX,63/G
 play,4,0,vizqo001,00,,NP
@@ -6892,15 +6894,15 @@ play,9,1,roblo001,21,.CBBX,S8/L.1-2
 play,9,1,iztuc001,02,CFX,D9/G.2-H;1-3
 play,9,1,kentj001,30,IIII,IW
 play,9,1,philj003,32,BFFBFB>X,S9/G.3-H;2-3;1-2
-com,"ej,alouf101,M,dowda901,Fair/foul call (after game ended)"
-com,"ej,aloum001,P,dowda901,Fair/foul call (after game ended)"
-com,"ej,torry001,P,dowda901,Fair/foul call (after game ended)"
-com,"ej,cruzd001,P,dowda901,Fair/foul call (after game ended)"
-com,"$the foul ball was a check swing that was ruled no swing;"
-com,"Giants protested and after game-ending hit got even"
-com,"madder; manager Felipe Alou ejected after game by 1B"
-com,"umpire Adam Dowdy as well as Moises Alou, Yorvit Torrealba and"
-com,"Deivi Cruz"
+com,"ej,alouf101,M,dowda901,Check swing"
+com,"ej,aloum001,P,dowda901,Check swing"
+com,"ej,torry001,P,dowda901,Check swing"
+com,"ej,cruzd001,P,dowda901,Check swing"
+com,"$Giants manager Alou and players Alou, Torrealba and Cruz"
+com,"ejected by 1B umpire Dowdy for arguing check swing; pitch"
+com,"in question would have ended game with a win for the Giants,"
+com,"but Phillips remained at bat and singled to win game;"
+com,"ejections came after game ended"
 data,er,tomkb001,3
 data,er,chrij002,0
 data,er,munts001,0
@@ -9941,12 +9943,12 @@ play,7,0,ausmb001,01,FX,S9/F-
 play,7,0,clemr001,00,,NP
 sub,biggc001,"Craig Biggio",0,9,11
 play,7,0,biggc001,10,.BX,9/F
-com,"ej,biggc001,P,eddid901,non-HBP; did not move out of way"
-com,"ej,garnp001,M,eddid901,non-HBP on Biggio"
-com,"$First pitch hit Craig Biggio, but HP umpire Doug Eddings"
-com,"said Biggio did not try to avoid it and called him back"
-com,"after he flied out, Biggio started yelling and was ejected"
-com,"by Eddings; Manager Phil Garner came out to argue, also ejected"
+com,"ej,biggc001,P,eddid901,HBP non-call"
+com,"ej,garnp001,M,eddid901,HBP non-call"
+com,"$Biggio and Astros manager Garner ejected by HP umpire Eddings"
+com,"for arguing Biggio had been hit; Eddings ruled he did not try"
+com,"to avoid pitch; after flying out, Biggio yelled at Eddings and"
+com,"was ejected; Astros manager Garner argued and was also ejected"
 play,7,0,tavew001,00,..X,E6/G.1-3;B-2
 play,7,0,palmo001,12,CMBX,31/G
 play,7,1,philj003,00,,NP

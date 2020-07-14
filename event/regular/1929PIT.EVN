@@ -1462,7 +1462,6 @@ info,ump3b,mclae901
 info,howscored,park
 info,pitches,none
 info,temp,0
-com,"Sweltering"
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,wet
@@ -1566,7 +1565,7 @@ play,8,0,hornr101,??,,S8.2-H;1-3
 play,8,0,wilsh102,??,,8/SF.3-H
 com,"After Wilson's SF, Swetonic went to the bench to get"
 com,"treatment for a blister on a finger of his right hand"
-com,"that had broke open."
+com,"that had broken open"
 play,8,0,heatc101,??,,S8.1-3
 play,8,0,grimc101,??,,W.1-2
 play,8,0,grace101,??,,NP
@@ -1779,7 +1778,6 @@ info,ump3b,mclae901
 info,howscored,park
 info,pitches,none
 info,temp,0
-com,"Hot"
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,dry
@@ -1837,9 +1835,9 @@ play,4,0,cuylk101,??,,13
 play,4,1,wanep101,??,,7
 play,4,1,trayp101,??,,D7
 play,4,1,grang102,??,,C/E2
-com,"Grantham had flied out to Wilson, but Ump Hart ruled Schulte"
-com,"tipped his bat, so Grantham was awarded 1B.  Cub manager"
-com,"McCarthy kicked so vigorously that he was ejected by Hart."
+com,"ej,mccaj802,M,hartb901,Catcher's interference call"
+com,"$Cub manager McCarthy ejected by HP umpire Hart for"
+com,"arguing catcher's interference call that negated out"
 play,4,1,bricf101,??,,8
 play,4,1,sheee101,??,,8/F8XD
 play,5,0,hornr101,??,,S/78
@@ -2020,7 +2018,9 @@ sub,sothd101,"Denny Sothern",0,3,8
 play,6,1,hargc101,??,,5/P
 play,6,1,dawsj101,??,,S8
 play,6,1,bartd101,??,,36(1)/FO
-com,"Manager Bush ejected for disputing the play on Dawson"
+com,"ej,bushd102,M,morac102,Call at 2B"
+com,"$Pirate manager Bush ejected by 3B umpire Moran for arguing"
+com,"that Dawson was safe at 2nd"
 play,6,1,wanel101,??,,4(1)/FO
 play,7,0,hursd101,??,,2/P/FL
 play,7,0,whitp103,??,,8
@@ -2722,7 +2722,7 @@ play,1,1,bartd101,??,,W
 play,1,1,wanel101,??,,W.1-2
 play,1,1,wanep101,??,,W.2-3;1-2
 play,1,1,trayp101,??,,9/F9S
-play,1,1,grang102,??,,FC3.3-H(E3/TH2);2-H(NR)(UR);1-3;B-2
+play,1,1,grang102,??,,FC3.3-H(RBI);2-H(E3/TH2)(NR)(UR);1-3;B-2
 play,1,1,comoa101,??,,53
 play,1,1,sheee101,??,,W
 play,1,1,hargc101,??,,8/L
@@ -2853,8 +2853,7 @@ play,1,0,fredj101,??,,3/G
 play,1,0,gilbw101,??,,9
 play,1,0,hermb102,??,,43
 play,1,1,bartd101,??,,S7
-play,1,1,wanel101,??,,46(1)/FO#
-com,"325: 64/FO"
+play,1,1,wanel101,??,,46(1)/FO
 play,1,1,wanep101,??,,7
 play,1,1,trayp101,??,,S8.1-3
 play,1,1,grang102,??,,K
@@ -2931,15 +2930,15 @@ sub,vancd101,"Dazzy Vance",0,9,1
 play,8,1,hemsr101,??,,T8/8XD
 play,8,1,grimb101,??,,53
 play,8,1,bartd101,??,,HP
-com,"Hit on the left wrist; Dodgers argued heatedly for 5 minutes"
+com,"$Hit on the left wrist; Dodgers argued heatedly for 5 minutes"
 com,"that Bartell made no effort to elude the pitch."
 play,8,1,wanel101,??,,NP
 sub,adams101,"Sparky Adams",1,1,12
-play,8,1,wanel101,??,,FC1.3XH(15E2)(UR);1-3;B-2#
+play,8,1,wanel101,??,,FC1.3-H(E2/TH3)(NR);1-3;B-2#
 com,"Picinich threw wildly past 3B"
-play,8,1,wanep101,??,,7/F/SF.3-H(UR)#
+play,8,1,wanep101,??,,7/F/SF.3-H
 play,8,1,trayp101,??,,S4/G4M.2-3
-play,8,1,grang102,??,,HR/F9D.3-H(UR);1-H(UR);B-H(UR)#
+play,8,1,grang102,??,,HR/F9D.3-H;1-H
 com,"Into RF grandstand"
 play,8,1,comoa101,??,,53
 play,9,0,piciv101,??,,NP
@@ -2949,7 +2948,7 @@ play,9,0,bresr101,??,,S/7
 play,9,0,bancd101,??,,S/G6/BR.1X2(4)
 play,9,0,moore102,??,,13
 data,er,clarw101,4
-data,er,vancd101,0
+data,er,vancd101,5
 data,er,grimb101,2
 id,PIT192906100
 version,1
@@ -3073,14 +3072,10 @@ play,6,1,jonec101,??,,D7
 play,6,1,wanel101,??,,E5/G.2-3
 play,6,1,wanep101,??,,5/FL
 play,7,0,hermb102,??,,S9
-play,7,0,hendh101,??,,8(B)4(1)/DP/F8XD
-com,"Originally, Herman tagged up and made it to 2B on the"
-com,"apparent sacrifice fly to deep CF."
-com,"Pirates Mgr Bush claimed Herman left 1B early.  Ump"
-com,"McCormick, who called Herman safe at 2B, conferred with Ump"
-com,"Reardon who upheld Bush's claim and Herman was declared out."
-com,"The Pirates kicked on the decision and Ump Reardon ejected"
-com,"Dazzy Vance for talking too much."
+play,7,0,hendh101,??,,8(B)4(1)/DP/F8XD/AP
+com,"ej,vancd101,P,rearb901,Appeal play"
+com,"$Dodgers Vance ejected by HP umpire Reardon for arguing"
+com,"that Hendrick had not left 2nd too soon"
 play,7,0,piciv101,??,,K/C
 play,7,1,trayp101,??,,S8/78
 play,7,1,grang102,??,,S9.1-3
@@ -3749,10 +3744,8 @@ info,starttime,3:03PM
 info,daynight,day
 info,usedh,false
 info,scorer,"65,325"
-info,translator,"Ron Fisher"
-info,inputter,"Ron Fisher"
-info,translator,"Wayne Townsend"
-info,inputter,"Wayne Townsend"
+info,translator,"Ron Fisher/Townsend"
+info,inputter,"Ron Fisher/Townsend"
 info,inputtime,1989/07/28 12:03AM
 info,umphome,riglc901
 info,ump1b,mclae901
@@ -3935,7 +3928,7 @@ play,10,1,hemsr101,??,,S8
 play,10,1,swets101,??,,W.1-2
 play,10,1,bartd101,??,,9/L
 play,11,0,jackt101,??,,W
-play,11,0,hogas101,??,,14/BG/SH.1-2
+play,11,0,hogas101,??,,14/SH.1-2
 play,11,0,walkb101,??,,NP
 sub,ofarb101,"Bob O'Farrell",0,9,11
 play,11,0,ofarb101,??,,D7/7D.2-H
@@ -3967,7 +3960,9 @@ play,13,1,wanel101,??,,D8
 play,13,1,wanep101,??,,W
 play,13,1,trayp101,??,,64(1)/FO
 play,14,0,rouse101,??,,T8/78D
-com,"Pirates argued close decision at 3B on Roush"
+com,"ej,bushd102,M,hartb901,Call at 3B"
+com,"$Pirate manager Bush ejected by 3B umpire Hart for arguing"
+com,"that roush was out at 3rd"
 play,14,0,leacf101,??,,NP
 sub,frenl101,"Larry French",1,9,1
 play,14,0,leacf101,00,X,S8.3-H
@@ -6993,7 +6988,7 @@ play,8,1,wanep101,??,,5/P
 play,8,1,comoa101,??,,8
 play,8,1,bricf101,??,,S7
 play,8,1,hemsr101,??,,SB2
-play,8,1,hemsr101,??,,W
+play,8,1,hemsr101,??,,IW
 play,8,1,bartd101,??,,K
 play,9,0,whitp103,??,,5/FL
 play,9,0,hursd101,??,,W

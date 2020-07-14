@@ -1295,8 +1295,6 @@ sub,harrl001,"Lenny Harris",1,9,11
 play,6,1,harrl001,01,FX,43/G
 play,7,0,jimej001,00,,NP
 sub,plesd001,"Dan Plesac",1,9,1
-com,"ej,buttb801,C,monte901,Balls and strikes"
-com,"D-Backs coach Brian Butterfield ejected by HP umpire Ed Montague in seventh"
 play,7,0,jimej001,12,FBCS,K
 play,7,0,goodt001,00,X,S5/BG5
 play,7,0,lansm001,21,BBFC,SB2
@@ -1316,6 +1314,9 @@ play,7,1,colbg001,02,CFFX,8/F8S
 play,7,1,finls001,01,SB,PB.2-3
 play,7,1,finls001,11,SBX,HR/8.3-H
 play,7,1,lee-t002,22,CBBFS,K
+com,"ej,buttb801,C,monte901,Balls and strikes"
+com,"$D-Backs coach Butterfield ejected by HP umpire Montague for"
+com,"arguing strike 3 to Lee"
 play,8,0,shumt001,00,,NP
 sub,colbg001,"Greg Colbrunn",1,4,3
 play,8,0,shumt001,00,,NP
@@ -2202,8 +2203,6 @@ play,3,0,owene001,22,BCBFX,63/G
 play,3,1,lee-t002,00,X,3/G
 play,3,1,stink001,11,BFX,9/F9
 play,3,1,fox-a001,22,CBSBC,K/C
-com,"ej,smitd001,C,reedr901,Balls and strikes (from bench)"
-com,"Padres coach Dave Smith ejected by HP umpire Reed in fourth from bench"
 play,4,0,nevip001,10,BX,S8
 play,4,0,sprae001,10,BX,D7.1-3
 play,4,0,boonb002,00,X,HR/8.3-H;2-H
@@ -2215,6 +2214,9 @@ play,4,1,womat001,22,BBFFFX,S7.1-2
 play,4,1,bellj001,11,CBX,S8.2-3;1-2
 play,4,1,gonzl001,10,BX,4/P4
 play,4,1,durae001,31,BBFBB,W.3-H;2-3;1-2
+com,"ej,smitd001,C,reedr901,Balls and strikes (from bench)"
+com,"$Padres coach Smith ejected by HP umpire Reed in fourth for"
+com,"arguing balls and strikes from bench"
 play,4,1,finls001,22,SBBSX,8/SF.3-H;2-3
 play,4,1,lee-t002,00,X,8/F8
 play,5,0,marta001,00,X,3/G
@@ -3350,7 +3352,9 @@ play,8,1,womat001,00,,NP
 sub,willm005,"Mike Williams",0,9,1
 play,8,1,womat001,02,FCC,K/C
 play,8,1,bellj001,10,BX,S7/7S
-play,8,1,gonzl001,21,CBBX,3(B)6(1)/GDP
+play,8,1,gonzl001,21,CBBX,3/G/DP.1X2(36)
+com,"$Bell made it safely to 2nd, but went too far and was out"
+com,"returning to base, so not GDP"
 play,9,0,benjm001,00,,NP
 sub,mantm001,"Matt Mantei",1,9,1
 play,9,0,benjm001,22,CBBSX,8/F8

@@ -1107,9 +1107,6 @@ start,pasqd001,"Dan Pasqua",1,7,7
 start,karkr001,"Ron Karkovice",1,8,2
 start,guilo001,"Ozzie Guillen",1,9,6
 start,mccak001,"Kirk McCaskill",1,0,1
-com,"ej,garnp001,M,shulj901,Called third strike"
-com,"Brewers manager Phil Garner ejected by HP umpire John Shulock"
-com,"sometime in game"
 play,1,0,listp001,10,BX,6/L6
 play,1,0,spieb001,21,FBBX,3/G3
 play,1,0,hamid001,32,BBFFBX,S8/P78S.B-2(E8)
@@ -1219,7 +1216,10 @@ play,9,0,nilsd001,00,...,NP
 sub,palld001,"Donn Pall",1,0,1
 play,9,0,nilsd001,00,....,NP
 sub,diaza001,"Alex Diaz",0,9,11
-play,9,0,diaza001,12,.....CFFBC,K
+play,9,0,diaza001,12,.....CFFBC,K/C
+com,"ej,garnp001,M,shulj901,Called third strike"
+com,"$Brewers manager Garner ejected by HP umpire Shulock"
+com,"for arguing called third strike to Diaz"
 play,9,0,listp001,01,.CX,3/G3
 play,9,0,spieb001,11,BCX,S4/G4M
 play,9,0,hamid001,21,BFBX,8/F8RS
@@ -8963,9 +8963,6 @@ start,grebc001,"Craig Grebeck",1,7,5
 start,karkr001,"Ron Karkovice",1,8,2
 start,guilo001,"Ozzie Guillen",1,9,6
 start,berej002,"Jason Bere",1,0,1
-com,"ej,lamog101,M,cobld901,Balk call"
-com,"White Sox manager Gene Lamont ejected by HP umpire Drew Coble"
-com,"sometime in game"
 play,1,0,boggw001,32,BCCFBFBFFFFFX,S8/L6MD
 play,1,0,jamed001,22,CFBBX,E5/TH/G56.1-3;B-2
 play,1,0,mattd001,11,CBX,43/G34.3-H(UR);2-3
@@ -9003,6 +9000,9 @@ play,4,1,jackb001,21,CBBX,53/G5S.1-2
 play,4,1,sax-s001,01,CX,E1/TH/G13.2-3;B-1
 play,4,1,grebc001,22,1S1BFBX,S8/G6M.3-H(UR);1-2
 play,4,1,karkr001,00,,POCS3(154)
+com,"ej,lamog101,M,cobld901,Balk non-call"
+com,"$White Sox manager Lamont ejected by HP umpire Coble for"
+com,"arguing that Key had balked"
 play,4,1,karkr001,22,..BSCBX,53/G6S
 play,5,0,boggw001,32,BBCFBX,7/F7M
 play,5,0,jamed001,22,BBFFX,4/P4S
@@ -11798,9 +11798,6 @@ start,pasqd001,"Dan Pasqua",1,7,3
 start,karkr001,"Ron Karkovice",1,8,2
 start,grebc001,"Craig Grebeck",1,9,6
 start,mcdoj001,"Jack McDowell",1,0,1
-com,"ej,pinil001,M,reilm901,Interference non-call"
-com,"Mariners manager Lou Piniella ejected by 2B umpire"
-com,"Mike Reilly sometime in game"
 play,1,0,feldm001,11,BCX,13/BG34S
 play,1,0,boonb002,32,BBCFBS,K
 play,1,0,grifk002,12,CBCFFX,31/G3
@@ -11846,6 +11843,9 @@ play,6,0,magad001,02,CFC,K
 play,6,1,raint001,10,BX,S6/G56
 play,6,1,coraj001,00,X,S2/G23.1-2
 play,6,1,burke001,22,B>LSBX,E4/G4.2XH(42);1-2;B-1
+com,"ej,pinil001,M,reilm901,Interference non-call"
+com,"$Mariners manager Piniella ejected by 2B umpire Reilly for"
+com,"arguing that Cora had interfered with 2bman on ground ball"
 play,6,1,ventr001,11,..FBB,PB.2-3;1-2
 play,6,1,ventr001,31,FBB.BB,W
 play,6,1,bellg001,02,FFS,K

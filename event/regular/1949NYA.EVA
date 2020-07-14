@@ -812,9 +812,9 @@ info,umphome,passa901
 info,ump1b,mckib901
 info,ump2b,boyej901
 info,ump3b,romme101
-info,scorer,"115"
-info,translator,"Bob Kistler"
-info,inputter,"Greg Beston"
+info,scorer,"115,276"
+info,translator,"Bob Kistler/Townsend"
+info,inputter,"Greg Beston/Townsend"
 info,inputtime,1994/04/05 5:58PM
 info,howscored,unknown
 info,pitches,none
@@ -848,9 +848,9 @@ start,browb105,"Bobby Brown",1,6,5
 start,kryhd101,"Dick Kryhoski",1,7,3
 start,mapec101,"Cliff Mapes",1,8,7
 start,byrnt101,"Tommy Byrne",1,9,1
-play,1,0,dimad101,??,,FLE5#
 play,1,0,dimad101,??,,W
 play,1,0,peskj101,??,,W.1-2
+play,1,0,willt103,??,,FLE5#
 play,1,0,willt103,??,,K
 play,1,0,stepv101,??,,SB3
 com,"$Dom DiMaggio stole 3B when Tommy Byrne threw to 1B trying to"
@@ -870,7 +870,8 @@ play,2,1,kryhd101,??,,53
 play,2,1,mapec101,??,,43
 play,3,0,dobsj101,??,,W
 play,3,0,dimad101,??,,S.1-2
-play,3,0,peskj101,??,,4(B)6(2)/LDP
+play,3,0,peskj101,??,,4/LDP.2X2(46)
+com,"Coleman: leaping catch"
 play,3,0,willt103,??,,K
 play,3,1,byrnt101,??,,13
 play,3,1,colej106,??,,7
@@ -886,7 +887,7 @@ play,5,0,tebbb101,??,,8
 play,5,0,dobsj101,??,,K
 play,5,0,dimad101,??,,9
 play,5,1,browb105,??,,W
-play,5,1,kryhd101,??,,T9.1-H
+play,5,1,kryhd101,??,,T/89XD.1-H
 play,5,1,mapec101,??,,K
 play,5,1,byrnt101,??,,K
 play,5,1,colej106,??,,S7.3-H
@@ -894,7 +895,8 @@ play,5,1,rizzp101,??,,9
 play,6,0,peskj101,??,,13
 play,6,0,willt103,??,,W
 play,6,0,stepv101,??,,53.1-2
-play,6,0,doerb101,??,,7/7D
+play,6,0,doerb101,??,,7/F7DW
+com,"Mapes leaned into LF seats to take HR away"
 play,6,1,woodg101,??,,K
 play,6,1,henrt101,??,,8
 play,6,1,berry101,??,,63
@@ -908,18 +910,24 @@ play,7,0,dimad101,??,,NP
 sub,stril101,"Lou Stringer",0,9,12
 play,7,0,dimad101,??,,NP
 sub,pagej101,"Joe Page",1,9,1
-play,7,0,dimad101,??,,S7.3-H;2-H;1-3(E7);B-2
-play,7,0,peskj101,??,,9/DP.3XH(92)
+play,7,0,dimad101,00,,S7.3-H;2-H;1-3(E7);B-2
+com,"Mapes fumbled"
+play,7,0,peskj101,??,,9(B)2(3)/DP/F89S
+com,"$Henrich: running catch.  Big collision at home."
+com,"Berra was slightly spiked, but hung on, and was OK."
 play,7,1,browb105,??,,NP
 sub,hught102,"Tex Hughson",0,9,1
 play,7,1,browb105,??,,K
-play,7,1,kryhd101,??,,99#
-play,7,1,mapec101,??,,99#
-play,8,0,willt103,??,,S9
-play,8,0,stepv101,??,,6
-play,8,0,doerb101,??,,8.1-2
-play,8,0,meles101,??,,S7.2-H
-play,8,0,dropw101,??,,99#
+play,7,1,kryhd101,??,,7
+play,7,1,mapec101,??,,8
+play,8,0,willt103,00,,S9/G4
+com,"$Through the shift"
+play,8,0,stepv101,??,,6/P
+play,8,0,doerb101,??,,8/F78.1-2
+com,"$Woodling collided slightly with Mapes; heads-up running by"
+com,"Williams."
+play,8,0,meles101,??,,S7/G56.2-H
+play,8,0,dropw101,??,,8
 play,8,1,pagej101,??,,NP
 sub,johnb108,"Bill Johnson",1,9,11
 play,8,1,johnb108,??,,S
@@ -929,11 +937,12 @@ play,8,1,colej106,??,,8
 play,8,1,rizzp101,??,,16(1)3/GDP
 play,9,0,tebbb101,??,,NP
 sub,sheas101,"Spec Shea",1,9,1
-play,9,0,tebbb101,??,,99#
-play,9,0,hught102,??,,99#
-play,9,0,dimad101,??,,S4/P9S.BX2(46)#
-play,9,1,woodg101,??,,S7
-play,9,1,henrt101,??,,HR/9D.1-H
+play,9,0,tebbb101,??,,8
+play,9,0,hught102,??,,9
+play,9,0,dimad101,??,,S4/P9S.BX2(46)
+play,9,1,woodg101,00,,S7/G56
+play,9,1,henrt101,10,,HR/L9D.1-H
+com,"Deep into lower RF seats"
 data,er,dobsj101,2
 data,er,hught102,2
 data,er,byrnt101,2
@@ -955,8 +964,8 @@ info,ump1b,boyej901
 info,ump2b,romme101
 info,ump3b,passa901
 info,scorer,"276"
-info,translator,"David W. Smith"
-info,inputter,"David W. Smith"
+info,translator,"David W. Smith/Townsend"
+info,inputter,"David W. Smith/Townsend"
 info,inputtime,2012/08/12 5:43PM
 info,howscored,park
 info,pitches,none
@@ -990,16 +999,18 @@ start,johnb108,"Bill Johnson",1,6,5
 start,lindj101,"Johnny Lindell",1,7,7
 start,philj101,"Jack Phillips",1,8,3
 start,reyna102,"Allie Reynolds",1,9,1
-play,1,0,dimad101,??,,S/BG
-play,1,0,peskj101,??,,HR/9.1-H
+play,1,0,dimad101,??,,S3/G3S
+com,"Swinging bunt"
+play,1,0,peskj101,??,,HR/F9D.1-H
+com,"Into RF seats"
 play,1,0,willt103,??,,W
 play,1,0,stepv101,??,,99(1)/FO
 play,1,0,doerb101,??,,64(1)3/GDP
 play,1,1,colej106,??,,K
 play,1,1,rizzp101,??,,S
 play,1,1,baueh101,??,,64(1)3/GDP
-play,2,0,goodb101,??,,S
-play,2,0,meles101,??,,E3/SH.1-2
+play,2,0,goodb101,??,,S7/L
+play,2,0,meles101,??,,E3/BG/SH.1-2
 play,2,0,tebbb101,??,,54(1)3/GDP.2-3
 play,2,0,parnm101,??,,K
 play,2,1,henrt101,??,,W
@@ -1007,19 +1018,20 @@ play,2,1,berry101,??,,46(1)/FO
 play,2,1,johnb108,??,,99
 play,2,1,lindj101,??,,99(1)/FO
 play,3,0,dimad101,??,,S
-play,3,0,peskj101,??,,99.1-2
+play,3,0,peskj101,??,,99/G.1-2
 play,3,0,willt103,??,,S.2-H
-play,3,0,stepv101,??,,HR.1-H
-play,3,0,doerb101,??,,99/F
-play,3,0,goodb101,??,,99/F
-play,3,1,philj101,??,,S
+play,3,0,stepv101,??,,HR/F7D.1-H
+com,"Far into LF stands"
+play,3,0,doerb101,??,,99/G
+play,3,0,goodb101,??,,99
+play,3,1,philj101,??,,S8
 play,3,1,reyna102,??,,NP
 sub,witem101,"Mickey Witek",1,9,11
-play,3,1,witem101,??,,S.1-3
+play,3,1,witem101,??,,S9/9S.1-3
 play,3,1,colej106,??,,E5.3-H(RBI);1-2
-play,3,1,rizzp101,??,,99/F
-play,3,1,baueh101,??,,99/F
-play,3,1,henrt101,??,,99/G
+play,3,1,rizzp101,??,,99
+play,3,1,baueh101,??,,99
+play,3,1,henrt101,??,,3/G3L
 play,4,0,meles101,??,,NP
 sub,sheas101,"Spec Shea",1,9,1
 play,4,0,meles101,??,,K
@@ -1027,45 +1039,47 @@ play,4,0,tebbb101,??,,W
 play,4,0,parnm101,??,,SB2
 play,4,0,parnm101,??,,K
 play,4,0,dimad101,??,,K
-play,4,1,berry101,??,,99/F
+play,4,1,berry101,??,,99
 play,4,1,johnb108,??,,K
-play,4,1,lindj101,??,,99/F
+play,4,1,lindj101,??,,99
 play,5,0,peskj101,??,,W
-play,5,0,willt103,??,,99/F
-play,5,0,stepv101,??,,99/F
+play,5,0,willt103,??,,99
+play,5,0,stepv101,??,,99
 play,5,0,doerb101,??,,S.1-3
-play,5,0,goodb101,??,,S.3-H;1-3
+com,"Fluke single"
+play,5,0,goodb101,??,,S9.3-H;1-3
 play,5,0,meles101,??,,E5/G.3-H(NR)(UR);1-2
-play,5,0,tebbb101,??,,99/F
-play,5,1,philj101,??,,99/F
-play,5,1,sheas101,??,,99/F
-play,5,1,colej106,??,,99/F
+play,5,0,tebbb101,??,,99
+play,5,1,philj101,??,,99
+play,5,1,sheas101,??,,99
+play,5,1,colej106,??,,99
 play,6,0,parnm101,??,,S
 play,6,0,dimad101,??,,S.1-2
 play,6,0,peskj101,??,,S/BG.2-3;1-2
-play,6,0,willt103,??,,HR/9.3-H;2-H;1-H
-play,6,0,stepv101,??,,99/F
-play,6,0,doerb101,??,,99/F
-play,6,0,goodb101,??,,99/F
-play,6,1,rizzp101,??,,99/F
-play,6,1,baueh101,??,,99/F
+play,6,0,willt103,??,,HR/F9D.3-H;2-H;1-H
+com,"Long fly into RF lower deck"
+play,6,0,stepv101,??,,99
+play,6,0,doerb101,??,,99
+play,6,0,goodb101,??,,99
+play,6,1,rizzp101,??,,99
+play,6,1,baueh101,??,,99/G
 play,6,1,henrt101,??,,K
 play,7,0,meles101,??,,S
 play,7,0,tebbb101,??,,K+CS2(24)/DP
-play,7,0,parnm101,??,,99/F
-play,7,1,berry101,??,,99/F
+play,7,0,parnm101,??,,99
+play,7,1,berry101,??,,99
 play,7,1,johnb108,??,,W
 play,7,1,lindj101,??,,K
 play,7,1,philj101,??,,S.1-2
 play,7,1,sheas101,??,,S.2-H;1-2
-play,7,1,colej106,??,,99/F
-play,8,0,dimad101,??,,99/F
+play,7,1,colej106,??,,99
+play,8,0,dimad101,??,,99
 play,8,0,peskj101,??,,S
 play,8,0,willt103,??,,46(1)3/GDP
 play,8,1,rizzp101,??,,99/G
 play,8,1,baueh101,??,,99/G
 play,8,1,henrt101,??,,D
-play,8,1,berry101,??,,99/F
+play,8,1,berry101,??,,99
 com,"following plays negated"
 com,"play,9,0,stepv101,??,,99/G"
 com,"play,9,0,doerb101,??,,99/F"

@@ -3637,8 +3637,6 @@ play,2,1,delgc001,02,SFFX,D7
 play,2,1,fullb001,01,SH,HP
 play,2,1,batit001,22,BSFBS,K
 play,2,1,fletd001,00,X,46(1)3/GDP
-com,"ej,bevit801,C,carlm901,Balls and strikes"
-com,"Blue Jays coach Terry Bevington ejected by HP umpire Mark Carlson in third"
 play,3,0,sadld001,10,BX,S7
 play,3,0,offej001,01,FX,8/F8
 play,3,0,lewid001,10,BX,S9/9S.1-2
@@ -3656,6 +3654,9 @@ play,3,1,gonza001,12,CBFC,K/C
 play,3,1,bushh001,02,FSH,HP
 play,3,1,stews002,20,BBX,7/F7
 play,3,1,cruzj004,32,BSSBBC,K/C
+com,"ej,bevit801,C,carlm901,Called strike 3"
+com,"$Toronto coach Bevington ejected by HP umpire Carlson for"
+com,"arguing called strike 3"
 play,4,0,sadld001,11,CBX,53/G
 play,4,0,offej001,12,BCCFC,K/C
 play,4,0,alexm001,32,BSBSFBX,2/FL
@@ -7311,8 +7312,6 @@ start,fletd001,"Darrin Fletcher",1,7,2
 start,cruzj004,"Jose Cruz",1,8,8
 start,woodc001,"Chris Woodward",1,9,6
 start,hallr001,"Roy Halladay",1,0,1
-com,"ej,murre001,C,wintm901,Balk call"
-com,"Orioles coach Eddie Murray ejected by 1B umpire Mike Winters sometime in game"
 play,1,0,andeb001,02,FCX,43/G
 play,1,0,bordm001,00,X,43/G
 play,1,0,deshd001,32,CBBBFFX,HR/8
@@ -7407,6 +7406,9 @@ play,8,1,cruzj004,12,SSBX,3/G
 play,9,0,clarw001,31,BSBBX,HR/7
 play,9,0,johnc002,02,CFS,K
 play,9,0,bainh001,00,X,S
+com,"ej,murre001,C,wintm901,Balk non-call"
+com,"$Orioles coach Murray ejected by 1B umpire Winters for"
+com,"arguing that pitcher had balked"
 play,9,0,coffi001,20,BBX,46(1)/FO
 play,9,0,andeb001,11,CBX,8/F8
 play,9,1,woodc001,00,,NP
@@ -11335,11 +11337,12 @@ play,8,1,fletd001,11,BFX,8/F8
 play,8,1,cruzj004,32,BBCBSS,K
 play,8,1,moram001,10,BX,S8
 play,8,1,stews002,10,BX,3/P3
-com,"ej,martt002,P,timmt901,Bench jockeying"
-com,"Tino Martinez ejected by HP umpire Tim Timmons from bench"
 play,9,0,cansj001,00,,NP
 sub,kochb001,"Billy Koch",1,0,1
 play,9,0,cansj001,22,FBFBC,K/C
+com,"ej,martt002,P,timmt901,Bench jockeying"
+com,"$Yankees Martinez ejected by HP umpire Timmons from bench"
+com,"for arguing balls and strikes"
 play,9,0,posaj001,22,SBFBFS,K23
 play,9,0,bross001,00,X,D/78
 play,9,0,polol001,00,X,S/78.2-H

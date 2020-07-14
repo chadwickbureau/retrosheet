@@ -20,7 +20,6 @@ info,ump3b,ormsr901
 info,howscored,park
 info,pitches,none
 info,temp,0
-com,"Weather: icy wind"
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -883,9 +882,9 @@ sub,dugad101,"Dan Dugan",1,9,1
 play,7,0,jamic101,??,,S8.1-3;B-2(TH3)
 play,7,0,lindc104,??,,63/TP.3XH(325);2XH(5)
 com,"Hidden ball trick."
-com,"Kamm kept the ball concealed in his glove after running down"
-com,"Hodapp.  Jamieson had reached 3B, but when he strayed off"
-com,"that bag, Kamm tagged him out to complete a triple play."
+com,"$Kamm kept the ball concealed in his glove after running down"
+com,"Hodapp; Jamieson had reached 3B, but when he strayed off"
+com,"that bag, Kamm tagged him out to complete a triple play"
 play,7,1,hoffd102,??,,NP
 sub,hardm101,"Mel Harder",0,9,1
 play,7,1,hoffd102,??,,9/F
@@ -1035,7 +1034,7 @@ play,7,0,uhleg101,??,,53/SH.1-2
 play,7,0,johnr102,??,,7
 play,7,0,fothb101,??,,D9.2-H
 play,7,0,gehrc101,??,,43
-play,7,1,croub101,??,,K
+play,7,1,croub101,??,,2
 play,7,1,thomt103,??,,K
 play,7,1,metza101,??,,63
 play,8,0,heilh101,??,,W
@@ -1058,7 +1057,7 @@ play,9,1,watwj101,??,,63.2-2
 com,"Nice play on line smash and nipped him at 1B"
 play,9,1,cissb101,??,,5/FL
 play,9,1,croub101,??,,DI.2-3
-play,9,1,croub101,??,,2
+play,9,1,croub101,??,,K
 data,er,uhleg101,0
 data,er,thomt103,3
 id,CHA192905040
@@ -1391,10 +1390,8 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,scorer,"65,109"
-info,translator,"Ron Fisher"
-info,inputter,"Ron Fisher"
-info,translator,"Wayne Townsend"
-info,inputter,"Wayne Townsend"
+info,translator,"Ron Fisher/Townsend"
+info,inputter,"Ron Fisher/Townsend"
 info,inputtime,1993/06/01 8:58PM
 info,umphome,hildg101
 info,ump1b,guthb901
@@ -1845,7 +1842,7 @@ play,7,1,hoffd102,??,,9
 play,8,0,simma101,??,,S8
 play,8,0,hales101,??,,S8.1-2
 play,8,0,foxxj101,??,,14(1)/FO.2-3
-play,8,0,millb110,??,,E6/G.3-H(RBI);1-2
+play,8,0,millb110,??,,E6/G.3-H(NR)(UR);1-2
 com,"RBI/ER assumed"
 play,8,0,dykej101,??,,3/P
 play,8,0,shorb102,??,,K
@@ -1870,7 +1867,7 @@ play,9,1,reync102,??,,8
 data,er,quinj102,1
 data,er,yerkc101,1
 data,er,shorb102,1
-data,er,faber101,5
+data,er,faber101,4
 data,er,conns101,0
 id,CHA192905090
 version,1
@@ -2084,7 +2081,6 @@ start,kerrj102,"John Kerr",1,6,4
 start,cissb101,"Bill Cissell",1,7,6
 start,bergm103,"Moe Berg",1,8,2
 start,weilb101,"Bob Weiland",1,9,1
-com,"Time/Ump data from Pittsburgh Post-Gazette"
 play,1,0,myerb103,??,,W
 play,1,0,rices101,??,,46(1)/FO
 play,1,0,goslg101,??,,3/G.1-2
@@ -2317,12 +2313,153 @@ com,"play,8,0,jones104,??,,S8/8S"
 com,"play,8,0,rices101,??,,36(1)/FO"
 com,"play,8,0,judgj101,??,,T8.1-H"
 com,"play,8,0,goslg101,??,,3/FL"
-com,"Rain began to fall at this point and time was called.  The"
-com,"heavy rain flooded the field and caused the umpires to call"
-com,"the game with the score, 9-2."
+com,"Heavy rain flooded the field and fame called"
 data,er,jones104,2
 data,er,thomt103,6
 data,er,blant101,1
+id,CHA192905120
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,WS1
+info,hometeam,CHA
+info,date,1929/05/12
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"111 & 222"
+info,translator,"Cliff Blau"
+info,inputter,"Cliff Blau"
+info,inputtime,2020/03/20 3:49PM
+info,umphome,geish901
+info,ump1b,dinnb101
+info,ump2b,(none)
+info,ump3b,nalld901
+info,howscored,unknown
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,108
+info,attendance,0
+info,wp,faber101
+info,lp,burkb102
+info,save,
+info,gwrbi,
+start,rices101,"Sam Rice",0,1,9
+start,judgj101,"Joe Judge",0,2,3
+start,goslg101,"Goose Goslin",0,3,7
+start,wests101,"Sam West",0,4,8
+start,blueo102,"Ossie Bluege",0,5,5
+start,cronj101,"Joe Cronin",0,6,6
+start,hayej101,"Jackie Hayes",0,7,4
+start,tateb101,"Bennie Tate",0,8,2
+start,burkb102,"Bobby Burke",0,9,1
+start,mostj101,"Johnny Mostil",1,1,8
+start,metza101,"Alex Metzler",1,2,7
+start,kammw101,"Willie Kamm",1,3,5
+start,clanb101,"Bud Clancy",1,4,3
+start,hoffd102,"Dutch Hoffman",1,5,9
+start,hunnb101,"Bill Hunnefield",1,6,4
+start,cissb101,"Bill Cissell",1,7,6
+start,croub101,"Buck Crouse",1,8,2
+start,faber101,"Red Faber",1,9,1
+play,1,0,rices101,??,,K#
+play,1,0,judgj101,??,,99
+play,1,0,goslg101,??,,99
+play,1,1,mostj101,??,,99
+play,1,1,metza101,??,,W
+play,1,1,kammw101,??,,99
+play,1,1,clanb101,??,,99
+play,2,0,wests101,??,,99
+play,2,0,blueo102,??,,K#
+play,2,0,cronj101,??,,99
+play,2,1,hoffd102,??,,E6
+play,2,1,hunnb101,??,,99
+play,2,1,cissb101,??,,8/F
+play,2,1,croub101,??,,99
+play,3,0,hayej101,??,,99
+play,3,0,tateb101,??,,99
+play,3,0,burkb102,??,,99
+play,3,1,faber101,??,,99
+play,3,1,mostj101,??,,99
+play,3,1,metza101,??,,99
+play,4,0,rices101,??,,99
+play,4,0,judgj101,??,,99
+play,4,0,goslg101,??,,W
+play,4,0,wests101,??,,99
+play,4,1,kammw101,??,,D
+play,4,1,clanb101,??,,PO2(E2).2-3
+play,4,1,clanb101,??,,3/G
+play,4,1,hoffd102,??,,4/P
+play,4,1,hunnb101,??,,7/F
+play,5,0,blueo102,??,,E6/TH
+play,5,0,cronj101,??,,FC1/BG.1X2(1E6)
+play,5,0,hayej101,??,,S7.2-H(UR);1-2#
+play,5,0,tateb101,??,,PO1(99)#
+play,5,0,tateb101,??,,99
+play,5,0,burkb102,??,,99
+play,5,1,cissb101,??,,S
+play,5,1,croub101,??,,99
+play,5,1,faber101,??,,99
+play,5,1,mostj101,??,,W.1-2
+play,5,1,metza101,??,,99
+play,6,0,rices101,??,,99
+play,6,0,judgj101,??,,T/89
+play,6,0,goslg101,??,,FC6.3XH(62);B-2#
+play,6,0,wests101,??,,99
+play,6,1,kammw101,??,,D
+play,6,1,clanb101,??,,99/SH.2-3
+play,6,1,hoffd102,??,,2/P
+play,6,1,hunnb101,??,,8/F
+play,7,0,blueo102,??,,S
+play,7,0,cronj101,??,,2(B)2(1)/FL/DP/BP
+play,7,0,hayej101,??,,99
+play,7,1,cissb101,??,,99
+play,7,1,croub101,??,,S
+play,7,1,faber101,??,,99/SH.1-2
+play,7,1,mostj101,??,,S.2-3
+play,7,1,metza101,??,,43#
+play,8,0,tateb101,??,,D9
+play,8,0,burkb102,??,,99/SH.2-3
+play,8,0,rices101,??,,7/SF.3-H
+play,8,0,judgj101,??,,99
+play,8,1,kammw101,??,,S
+play,8,1,clanb101,??,,99/P
+play,8,1,hoffd102,??,,99/P
+play,8,1,hunnb101,??,,W.1-2
+play,8,1,cissb101,??,,NP
+sub,reync102,"Carl Reynolds",1,7,11
+play,8,1,reync102,??,,S.2-H;1-2#
+play,8,1,croub101,??,,NP
+sub,barrb105,"Bill Barrett",1,8,11
+play,8,1,barrb105,??,,9/F
+play,9,0,goslg101,??,,NP
+sub,bergm103,"Moe Berg",1,8,2
+play,9,0,goslg101,??,,NP
+sub,reync102,"Carl Reynolds",1,7,9
+play,9,0,goslg101,??,,NP
+sub,redfb101,"Buck Redfern",1,5,6
+play,9,0,goslg101,??,,99
+play,9,0,wests101,??,,99
+play,9,0,blueo102,??,,99
+play,9,1,faber101,??,,NP
+sub,autrc102,"Chick Autry",1,9,11
+play,9,1,autrc102,??,,D7
+play,9,1,mostj101,??,,NP
+sub,kerrj102,"John Kerr",1,9,12
+play,9,1,mostj101,??,,3/BP
+play,9,1,metza101,??,,S8/L.2-3;B-2(TH)
+play,9,1,kammw101,??,,NP
+sub,hadlb101,"Bump Hadley",0,9,1
+play,9,1,kammw101,??,,D8.3-H;2-H
+data,er,burkb102,3
+data,er,hadlb101,0
+data,er,faber101,1
 id,CHA192905130
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -2762,7 +2899,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"109,56"
+info,scorer,"109,56,277"
 info,translator,"Wayne Townsend"
 info,inputter,"Wayne Townsend"
 info,inputtime,2002/09/16 5:52PM
@@ -2924,39 +3061,38 @@ play,13,1,reync102,??,,8/L
 play,13,1,hoffd102,??,,7/L7DW
 com,"Johnson: great leaping 1-hand catch"
 play,13,1,cissb101,??,,4/P
-com,"Following events gleaned from Det Free Press & Chi Tribune:"
-play,14,0,gehrc101,??,,99#
+play,14,0,gehrc101,??,,99
 play,14,0,heilh101,??,,D
-play,14,0,alexd101,??,,99#
+play,14,0,alexd101,??,,99
 play,14,0,mcmam101,??,,S9/9S.2XH(92)
 play,14,1,croub101,??,,S
-play,14,1,lyont102,??,,13/SH.1-2#
+play,14,1,lyont102,??,,13/SH.1-2
 play,14,1,metza101,??,,NP
 sub,kerrj102,"John Kerr",1,8,12
-play,14,1,metza101,??,,FC1/TH2.BX2(16)#
+play,14,1,metza101,??,,FC1/TH2.BX2(16)
 play,14,1,hunnb101,??,,63
 play,15,0,phile102,??,,NP
 sub,bergm103,"Moe Berg",1,8,2
-play,15,0,phile102,??,,99#
-play,15,0,schuh105,??,,99#
-play,15,0,uhleg101,??,,99#
-play,15,1,kammw101,??,,99#
-play,15,1,clanb101,??,,99#
+play,15,0,phile102,??,,99
+play,15,0,schuh105,??,,99
+play,15,0,uhleg101,??,,99
+play,15,1,kammw101,??,,99
+play,15,1,clanb101,??,,99
 play,15,1,reync102,??,,S6/G56
-play,15,1,hoffd102,??,,CS2(24)#
+play,15,1,hoffd102,??,,CS2(24)
 play,16,0,johnr102,??,,S
-play,16,0,riceh101,??,,13/SH.1-2#
+play,16,0,riceh101,??,,13/SH.1-2
 play,16,0,gehrc101,??,,43.2-3
 play,16,0,heilh101,??,,43
 play,16,1,hoffd102,??,,5/L
 play,16,1,cissb101,??,,7/F
 play,16,1,bergm103,??,,5/P
-play,17,0,alexd101,??,,S6/G56.BX2(23)#
+play,17,0,alexd101,??,,S6/G56.BX2(23)
 com,"Wild throw backed up by Berg; Alexander overran 1B"
-play,17,0,mcmam101,??,,99#
-play,17,0,phile102,??,,99#
+play,17,0,mcmam101,??,,99
+play,17,0,phile102,??,,99
 play,17,1,lyont102,??,,S8
-play,17,1,metza101,??,,13/SH.1-2#
+play,17,1,metza101,??,,13/SH.1-2
 play,17,1,hunnb101,??,,7/F
 play,17,1,kammw101,??,,W
 play,17,1,clanb101,??,,7/F
@@ -2968,19 +3104,19 @@ play,18,0,johnr102,??,,2/FL
 play,18,1,reync102,??,,NP
 sub,richn101,"Nolen Richardson",0,8,6
 play,18,1,reync102,??,,K
-play,18,1,hoffd102,??,,99#
+play,18,1,hoffd102,??,,99
 play,18,1,cissb101,??,,S
 play,18,1,bergm103,??,,63
-play,19,0,riceh101,??,,99#
-play,19,0,gehrc101,??,,99#
-play,19,0,heilh101,??,,99#
-play,19,1,lyont102,??,,99#
-play,19,1,metza101,??,,99#
-play,19,1,hunnb101,??,,99#
+play,19,0,riceh101,??,,99
+play,19,0,gehrc101,??,,99
+play,19,0,heilh101,??,,99
+play,19,1,lyont102,??,,99
+play,19,1,metza101,??,,99
+play,19,1,hunnb101,??,,99
 play,20,0,alexd101,??,,S8
 play,20,0,mcmam101,??,,NP
 sub,harrb106,"Bucky Harris",0,5,12
-play,20,0,mcmam101,??,,13/SH.1-2#
+play,20,0,mcmam101,??,,13/SH.1-2
 play,20,0,phile102,??,,1/P
 play,20,0,richn101,??,,NP
 sub,hargp101,"Pinky Hargrave",0,8,11
@@ -3008,21 +3144,420 @@ play,21,0,johnr102,??,,NP
 sub,yde-e101,"Emil Yde",0,9,12
 play,21,0,johnr102,??,,S4/G4M.1-3;B-2(TH3)
 com,"Hunnefield dove and got a piece of it"
-play,21,0,riceh101,??,,FC4.3XH(42);2-3;B-2#
+play,21,0,riceh101,??,,FC4.3XH(42);2-3;B-2
 play,21,0,gehrc101,??,,8/F89D/SF.3-H
-play,21,0,heilh101,??,,99/P#
+play,21,0,heilh101,??,,99/P
 play,21,1,bergm103,??,,NP
 sub,stonl101,"Lil Stoner",0,9,1
 play,21,1,bergm103,??,,NP
 sub,watwj101,"Johnny Watwood",1,8,11
 play,21,1,watwj101,??,,S8/8S
-play,21,1,lyont102,??,,13/SH.1-2#
+play,21,1,lyont102,??,,13/SH.1-2
 play,21,1,metza101,??,,13.2-3
 com,"Slam knocked down by Stoner"
 play,21,1,hunnb101,??,,13
 data,er,uhleg101,5
 data,er,stonl101,0
 data,er,lyont102,6
+id,CHA192905251
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,DET
+info,hometeam,CHA
+info,date,1929/05/25
+info,site,CHI10
+info,number,1
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"56"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
+info,inputtime,2018/01/08 12:30PM
+info,umphome,mcgob901
+info,ump1b,connt901
+info,ump2b,(none)
+info,ump3b,vangr901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,113
+info,attendance,10000
+info,wp,sorrv101
+info,lp,thomt103
+info,save,
+info,gwrbi,
+start,johnr102,"Roy Johnson",0,1,7
+start,riceh101,"Harry Rice",0,2,8
+start,gehrc101,"Charlie Gehringer",0,3,4
+start,heilh101,"Harry Heilmann",0,4,9
+start,alexd101,"Dale Alexander",0,5,3
+start,mcmam101,"Marty McManus",0,6,5
+start,phile102,"Eddie Phillips",0,7,2
+start,schuh105,"Heinie Schuble",0,8,6
+start,sorrv101,"Vic Sorrell",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,redfb101,"Buck Redfern",1,2,4
+start,kammw101,"Willie Kamm",1,3,5
+start,clanb101,"Bud Clancy",1,4,3
+start,reync102,"Carl Reynolds",1,5,8
+start,watwj101,"Johnny Watwood",1,6,9
+start,cissb101,"Bill Cissell",1,7,6
+start,bergm103,"Moe Berg",1,8,2
+start,thomt103,"Tommy Thomas",1,9,1
+play,1,0,johnr102,??,,3/FL
+play,1,0,riceh101,??,,S6/G56
+play,1,0,gehrc101,??,,7/F
+play,1,0,heilh101,??,,3/P
+play,1,1,metza101,??,,8/F
+play,1,1,redfb101,??,,9/F
+play,1,1,kammw101,??,,W
+play,1,1,clanb101,??,,4/P
+play,2,0,alexd101,??,,W
+play,2,0,mcmam101,??,,13.1-2
+play,2,0,phile102,??,,8/F
+play,2,0,schuh105,??,,2/FL
+play,2,1,reync102,??,,8/F
+play,2,1,watwj101,??,,W
+play,2,1,cissb101,??,,3/FL
+play,2,1,bergm103,??,,SB2
+play,2,1,bergm103,??,,W
+play,2,1,thomt103,??,,K
+play,3,0,sorrv101,??,,S9
+play,3,0,johnr102,??,,D/89.1-H
+play,3,0,riceh101,??,,13.2-3
+com,"High bounder"
+play,3,0,gehrc101,??,,FC3/THH.3-H
+play,3,0,heilh101,??,,3/G.1-2
+play,3,0,alexd101,??,,63
+play,3,1,metza101,??,,S8.B-2(E8)
+com,"Rice fumbled"
+play,3,1,redfb101,??,,S/P5D.2-3
+play,3,1,kammw101,??,,S9.3-H;1-2
+play,3,1,clanb101,??,,99/SH.2-3;1-2
+play,3,1,reync102,??,,3/P
+play,3,1,watwj101,??,,W
+play,3,1,cissb101,??,,13
+play,4,0,mcmam101,??,,99
+play,4,0,phile102,??,,99
+play,4,0,schuh105,??,,99
+play,4,1,bergm103,??,,99
+play,4,1,thomt103,??,,99
+play,4,1,metza101,??,,99
+play,5,0,sorrv101,??,,99
+play,5,0,johnr102,??,,99
+play,5,0,riceh101,??,,99
+play,5,1,redfb101,??,,S
+play,5,1,kammw101,??,,7/F
+play,5,1,clanb101,??,,99(1)/FO
+play,5,1,reync102,??,,7/F
+play,6,0,gehrc101,??,,99
+play,6,0,heilh101,??,,99
+play,6,0,alexd101,??,,S8
+play,6,0,mcmam101,??,,CS2(26)
+play,6,1,watwj101,??,,3/P
+play,6,1,cissb101,??,,53
+play,6,1,bergm103,??,,W
+play,6,1,thomt103,??,,1/L
+play,7,0,mcmam101,??,UX,HR/F7D
+com,"Into LF pavilion"
+play,7,0,phile102,??,,99
+play,7,0,schuh105,??,,99
+play,7,0,sorrv101,??,,K
+play,7,1,metza101,??,,9/L
+play,7,1,redfb101,??,,3/L
+play,7,1,kammw101,??,,3/FL
+play,8,0,johnr102,??,,S4
+play,8,0,riceh101,??,,5/FL
+play,8,0,gehrc101,??,,S1/G.1-2
+com,"Off Thomas' glove"
+play,8,0,heilh101,??,,WP.2-3;1-2
+play,8,0,heilh101,??,,FC4.3XH(42);2-3
+play,8,0,alexd101,??,,SB2
+play,8,0,alexd101,??,,D8.3-H;2-H
+play,8,0,mcmam101,??,,W
+play,8,0,phile102,??,,99
+play,8,1,clanb101,??,,K
+play,8,1,reync102,??,,99
+play,8,1,watwj101,??,,D
+play,8,1,cissb101,??,,53
+play,9,0,schuh105,??,,S
+play,9,0,sorrv101,??,,99/BG/SH.1-2
+play,9,0,johnr102,??,,W
+play,9,0,riceh101,??,,8/F
+play,9,0,gehrc101,??,,6/L
+play,9,1,bergm103,??,,NP
+sub,hunnb101,"Bill Hunnefield",1,8,11
+play,9,1,hunnb101,30,,W
+play,9,1,thomt103,??,,NP
+sub,croub101,"Buck Crouse",1,9,11
+play,9,1,croub101,30,,W.1-2
+play,9,1,metza101,??,,99(1)/FO.2-3
+play,9,1,redfb101,??,,99(1)/FO.3-H
+play,9,1,kammw101,??,,99
+data,er,sorrv101,2
+data,er,thomt103,5
+id,CHA192905252
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,DET
+info,hometeam,CHA
+info,date,1929/05/25
+info,site,CHI10
+info,number,2
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"111,56,277"
+info,translator,"Rob Wood"
+info,inputter,"Rob Wood"
+info,inputtime,2020/03/17 11:27PM
+info,umphome,vangr901
+info,ump1b,connt901
+info,ump2b,(none)
+info,ump3b,mcgob901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,106
+info,attendance,15000
+info,wp,smitg102
+info,lp,dugad101
+info,save,
+info,gwrbi,
+start,johnr102,"Roy Johnson",0,1,7
+start,riceh101,"Harry Rice",0,2,8
+start,gehrc101,"Charlie Gehringer",0,3,4
+start,heilh101,"Harry Heilmann",0,4,9
+start,alexd101,"Dale Alexander",0,5,3
+start,mcmam101,"Marty McManus",0,6,5
+start,sheam102,"Merv Shea",0,7,2
+start,schuh105,"Heinie Schuble",0,8,6
+start,smitg102,"George Smith",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,redfb101,"Buck Redfern",1,2,4
+start,kammw101,"Willie Kamm",1,3,5
+start,clanb101,"Bud Clancy",1,4,3
+start,reync102,"Carl Reynolds",1,5,8
+start,watwj101,"Johnny Watwood",1,6,9
+start,cissb101,"Bill Cissell",1,7,6
+start,croub101,"Buck Crouse",1,8,2
+start,adkig101,"Grady Adkins",1,9,1
+play,1,0,johnr102,??,,D/89
+play,1,0,riceh101,??,,S/89.2-H
+play,1,0,gehrc101,??,,W.1-2
+play,1,0,heilh101,??,,S7.2-H;1-3
+play,1,0,alexd101,??,,NP
+sub,dugad101,"Dan Dugan",1,9,1
+play,1,0,alexd101,??,,FC3.3XH(325);1-2;B-1
+play,1,0,mcmam101,??,,8
+play,1,0,sheam102,??,,7/L
+play,1,1,metza101,??,,43
+play,1,1,redfb101,??,,63
+play,1,1,kammw101,??,,4/P
+play,2,0,schuh105,??,,5/FL
+play,2,0,smitg102,??,,S7
+play,2,0,johnr102,??,,64(1)/FO.B-1
+play,2,0,riceh101,??,,53
+play,2,1,clanb101,??,,E6/TH
+play,2,1,reync102,??,,W.1-2
+play,2,1,watwj101,??,,2/FL
+play,2,1,cissb101,??,,W.2-3;1-2
+play,2,1,croub101,??,,K
+play,2,1,dugad101,??,,D9.3-H(UR);2-H(UR);1-H(UR)
+play,2,1,metza101,??,,S7.2-3
+play,2,1,redfb101,??,,54(1)/FO
+play,3,0,gehrc101,??,,K
+play,3,0,heilh101,??,,9
+play,3,0,alexd101,??,,8
+play,3,1,kammw101,??,,7/7D
+play,3,1,clanb101,??,,S/78
+play,3,1,reync102,??,,5/FL
+play,3,1,watwj101,??,,9/L
+play,4,0,mcmam101,??,,K/C
+play,4,0,sheam102,??,,8
+play,4,0,schuh105,??,,63
+play,4,1,cissb101,??,,D/78
+play,4,1,croub101,??,,3/G.2-3
+play,4,1,dugad101,??,,43
+play,4,1,metza101,??,,63
+play,5,0,smitg102,??,,4/P
+play,5,0,johnr102,??,,D9
+play,5,0,riceh101,??,,PO2(E2).2-3
+play,5,0,riceh101,??,,7/SF.3-H(UR)
+play,5,0,gehrc101,??,,3/P/9
+play,5,1,redfb101,??,,7
+play,5,1,kammw101,??,,53
+play,5,1,clanb101,??,,43
+play,6,0,heilh101,??,,4/P
+play,6,0,alexd101,??,,8
+play,6,0,mcmam101,??,,8
+play,6,1,reync102,??,,53
+play,6,1,watwj101,??,,S/89
+play,6,1,cissb101,??,,K+PO1(23)/DP
+play,7,0,sheam102,??,,8
+play,7,0,schuh105,??,,S1/BP
+play,7,0,smitg102,??,,SB2
+play,7,0,smitg102,??,,4/P
+play,7,0,johnr102,??,,D7.2-H
+play,7,0,riceh101,??,,43
+play,7,1,croub101,??,,S4
+play,7,1,dugad101,??,,NP
+sub,kerrj102,"John Kerr",1,8,12
+play,7,1,dugad101,??,,3/SH.1-2
+play,7,1,metza101,??,,3/G.2-3
+play,7,1,redfb101,??,,53
+play,8,0,gehrc101,??,,NP
+sub,bergm103,"Moe Berg",1,8,2
+play,8,0,gehrc101,??,,D
+play,8,0,heilh101,??,,FC5.2X3(546);B-2
+play,8,0,alexd101,??,,53
+play,8,0,mcmam101,??,,K
+play,8,1,kammw101,??,,7
+play,8,1,clanb101,??,,6/P
+play,8,1,reync102,??,,S7
+play,8,1,watwj101,??,,7
+play,9,0,sheam102,??,,7
+play,9,0,schuh105,??,,7
+play,9,0,smitg102,??,,7
+play,9,1,cissb101,??,,53
+play,9,1,bergm103,??,,NP
+sub,hunnb101,"Bill Hunnefield",1,8,11
+play,9,1,hunnb101,??,,13
+play,9,1,dugad101,??,,NP
+sub,shira101,"Art Shires",1,9,11
+play,9,1,shira101,??,,5/FL
+data,er,smitg102,0
+data,er,adkig101,2
+data,er,dugad101,1
+id,CHA192905260
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,DET
+info,hometeam,CHA
+info,date,1929/05/26
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"56"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
+info,inputtime,2017/11/17 5:58PM
+info,umphome,mcgob901
+info,ump1b,vangr901
+info,ump2b,(none)
+info,ump3b,connt901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,75
+info,attendance,0
+info,wp,faber101
+info,lp,carro101
+info,save,
+info,gwrbi,
+start,stonj102,"John Stone",0,1,7
+start,riceh101,"Harry Rice",0,2,8
+start,gehrc101,"Charlie Gehringer",0,3,4
+start,heilh101,"Harry Heilmann",0,4,9
+start,alexd101,"Dale Alexander",0,5,3
+start,mcmam101,"Marty McManus",0,6,5
+start,phile102,"Eddie Phillips",0,7,2
+start,schuh105,"Heinie Schuble",0,8,6
+start,carro101,"Ownie Carroll",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,redfb101,"Buck Redfern",1,2,4
+start,kammw101,"Willie Kamm",1,3,5
+start,clanb101,"Bud Clancy",1,4,3
+start,taitd101,"Doug Taitt",1,5,9
+start,watwj101,"Johnny Watwood",1,6,8
+start,cissb101,"Bill Cissell",1,7,6
+start,autrc102,"Chick Autry",1,8,2
+start,faber101,"Red Faber",1,9,1
+play,1,0,stonj102,??,,99
+play,1,0,riceh101,??,,99
+play,1,0,gehrc101,??,,99
+play,1,1,metza101,??,,E6/G
+play,1,1,redfb101,??,,K+SB2.1-3(E3/TH2)
+play,1,1,kammw101,??,,W
+play,1,1,clanb101,??,,WP.3-H(UR);1-3
+play,1,1,clanb101,??,,9/F9DW/SF.3-H(UR)
+play,1,1,taitd101,??,,99
+play,2,0,heilh101,??,,99
+play,2,0,alexd101,??,,99
+play,2,0,mcmam101,??,,99
+play,2,1,watwj101,??,,S
+play,2,1,cissb101,??,,7/F7DW/SF.1-2
+com,"Stone: great catch while crashing into LF wall"
+play,2,1,autrc102,??,,FC1.2X3(15)
+play,2,1,faber101,??,,K
+play,3,0,phile102,??,,99
+play,3,0,schuh105,??,,99
+play,3,0,carro101,??,,99
+play,3,1,metza101,??,,99
+play,3,1,redfb101,??,,99
+play,3,1,kammw101,??,,99
+play,4,0,stonj102,??,,99
+play,4,0,riceh101,??,,99
+play,4,0,gehrc101,??,,S8/L
+play,4,0,heilh101,??,,99
+play,4,1,clanb101,??,,99
+play,4,1,taitd101,??,,99
+play,4,1,watwj101,??,,99
+play,5,0,alexd101,??,,99
+play,5,0,mcmam101,??,,99
+play,5,0,phile102,??,,HP
+play,5,0,schuh105,??,,K
+play,5,1,cissb101,??,,K
+play,5,1,autrc102,??,,63
+play,5,1,faber101,??,,K
+play,6,0,carro101,??,,99
+play,6,0,stonj102,??,,99
+play,6,0,riceh101,??,,99
+play,6,1,metza101,??,,S9.B-2(E9)
+com,"Heilmann fumbled"
+play,6,1,redfb101,??,,PO2(16)
+play,6,1,redfb101,??,,99
+play,6,1,kammw101,??,,99
+play,7,0,gehrc101,??,,9/F
+play,7,0,heilh101,??,,63
+play,7,0,alexd101,??,,63
+play,7,1,clanb101,??,,S9
+play,7,1,taitd101,??,,16(1)/FO
+play,7,1,watwj101,??,,S8.1-3;BX2(854)
+play,7,1,cissb101,??,,W
+play,7,1,autrc102,??,,7/F
+play,8,0,mcmam101,??,,53
+play,8,0,phile102,??,,63
+play,8,0,schuh105,??,,53
+play,8,1,faber101,??,,K
+play,8,1,metza101,??,,99
+play,8,1,redfb101,??,,99
+play,9,0,carro101,??,,NP
+sub,fothb101,"Bob Fothergill",0,9,11
+play,9,0,fothb101,??,,53
+play,9,0,stonj102,??,,63/G56
+com,"Close play"
+play,9,0,riceh101,??,,K/C
+data,er,carro101,0
+data,er,faber101,0
 id,CHA192905271
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -4634,10 +5169,8 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,scorer,"65,266"
-info,translator,"Ron Fisher"
-info,inputter,"Ron Fisher"
-info,translator,"Wayne Townsend"
-info,inputter,"Wayne Townsend"
+info,translator,"Ron Fisher/Townsend"
+info,inputter,"Ron Fisher/Townsend"
 info,inputtime,1993/08/11 2:13PM
 info,umphome,ormsr901
 info,ump1b,nalld901
@@ -5392,6 +5925,1347 @@ play,9,1,kerrj102,??,,43
 play,9,1,bergm103,??,,9/F9L
 data,er,zacht101,2
 data,er,faber101,4
+id,CHA192907132
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,NYA
+info,hometeam,CHA
+info,date,1929/07/13
+info,site,CHI10
+info,number,2
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"65,96,277"
+info,translator,"Ron Fisher/Townsend"
+info,inputter,"Ron Fisher/Townsend"
+info,inputtime,1993/08/13 12:54PM
+info,umphome,guthb901
+info,ump1b,morig101
+info,ump2b,(none)
+info,ump3b,hildg101
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,overcast
+info,timeofgame,183
+info,attendance,30000
+info,wp,moorw101
+info,lp,lyont102
+info,save,
+info,gwrbi,
+start,combe101,"Earle Combs",0,1,8
+start,robeg101,"Gene Robertson",0,2,5
+start,gehrl101,"Lou Gehrig",0,3,3
+start,ruthb101,"Babe Ruth",0,4,7
+start,lazzt101,"Tony Lazzeri",0,5,4
+start,meusb101,"Bob Meusel",0,6,9
+start,bengb101,"Benny Bengough",0,7,2
+start,durol101,"Leo Durocher",0,8,6
+start,hoytw101,"Waite Hoyt",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,watwj101,"Johnny Watwood",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,mckah101,"Hal McKain",1,9,1
+com,"Weather: gray skies and humid"
+play,1,0,combe101,??,,S7/L
+com,"Liner leaked through Metzler's hands"
+play,1,0,robeg101,??,,46(1)3/GDP
+play,1,0,gehrl101,??,,W
+play,1,0,ruthb101,??,,W.1-2
+play,1,0,lazzt101,??,,5/L
+play,1,1,metza101,??,,9
+play,1,1,cissb101,??,,63
+play,1,1,shira101,??,,7
+play,2,0,meusb101,??,,53/G5S
+com,"Slow roller"
+play,2,0,bengb101,??,,53
+play,2,0,durol101,??,,43
+play,2,1,reync102,??,,T8/F8XD
+com,"Over Combs"
+play,2,1,kammw101,??,,53.3-H
+com,"Slow high rap"
+play,2,1,watwj101,??,,31
+play,2,1,kerrj102,??,,9
+play,3,0,hoytw101,??,,NP
+sub,taitd101,"Doug Taitt",1,6,9
+play,3,0,hoytw101,??,,NP
+sub,reync102,"Carl Reynolds",1,4,8
+play,3,0,hoytw101,??,,S7
+play,3,0,combe101,??,,W.1-2
+play,3,0,robeg101,??,,W.2-3;1-2
+play,3,0,gehrl101,??,,12(3)/FO.2-3;1-2
+play,3,0,ruthb101,??,,46(1)3/GDP
+play,3,1,bergm103,??,,E6/G
+com,"Through Durocher"
+play,3,1,mckah101,??,,S8.1-2
+play,3,1,metza101,??,,15(2)/FO.1-2
+play,3,1,cissb101,??,,9
+play,3,1,shira101,??,,13
+play,4,0,lazzt101,??,,S
+play,4,0,meusb101,??,,S8/8S.1-2
+play,4,0,bengb101,??,,46(1)/FO.2-3
+play,4,0,durol101,??,,6/P
+play,4,0,hoytw101,??,,13
+com,"McKain knocked down drive"
+play,4,1,reync102,??,,7/F7D
+play,4,1,kammw101,??,,S8/8S
+play,4,1,taitd101,??,,36(1)/FO
+play,4,1,kerrj102,??,,64(1)/FO
+play,5,0,combe101,??,,S5/G
+com,"Hot grounder through Kamm"
+play,5,0,robeg101,??,,9/L
+play,5,0,gehrl101,??,,7
+play,5,0,ruthb101,??,,HR/F7LD.1-H
+com,"Into lower deck of LF pavilion near foul line"
+play,5,0,lazzt101,??,,53
+play,5,1,bergm103,??,,63
+play,5,1,mckah101,??,,7
+play,5,1,metza101,??,,8
+play,6,0,meusb101,??,,63
+play,6,0,bengb101,??,,7
+play,6,0,durol101,??,,53
+play,6,1,cissb101,??,,63
+play,6,1,shira101,??,,W
+play,6,1,reync102,??,,S7.1-3
+play,6,1,kammw101,??,,FC1/BG.3XH(1E2)(NR)(UR);1-3;B-2
+com,"$Shires slid football-style into Bengough who dropped ball;"
+com,"Yankees protested in vain"
+play,6,1,taitd101,??,,9/F/SF.3-H(UR)
+play,6,1,kerrj102,??,,6/P
+play,7,0,hoytw101,??,,99
+play,7,0,combe101,??,,7
+play,7,0,robeg101,??,,13
+play,7,1,bergm103,??,,13
+play,7,1,mckah101,??,,43
+play,7,1,metza101,??,,D7/7S
+com,"Slow fielding by Ruth"
+play,7,1,cissb101,??,,S9.2-H;B-2(THH)
+play,7,1,shira101,??,,S8.2-H
+play,7,1,reync102,??,,4/P
+play,8,0,gehrl101,??,,HP
+play,8,0,ruthb101,??,,W.1-2
+play,8,0,lazzt101,??,,W.2-3;1-2
+play,8,0,meusb101,??,,NP
+sub,lyont102,"Ted Lyons",1,9,1
+play,8,0,meusb101,??,,54(1)3/GDP.3-H(RBI);2-3
+play,8,0,bengb101,??,,NP
+sub,dickb101,"Bill Dickey",0,7,11
+play,8,0,dickb101,??,,7
+play,8,1,kammw101,??,,NP
+sub,dickb101,"Bill Dickey",0,7,2
+play,8,1,kammw101,??,,D7
+play,8,1,taitd101,??,,5/FL
+play,8,1,kerrj102,??,,8/SF.2-3
+com,"ej,durol101,P,hildg101,Call at 3B"
+com,"$SS Durocher ejected by 3B Hildebrand for arguing that Kamm"
+com,"was out at 3rd"
+play,8,1,bergm103,??,,NP
+sub,koenm101,"Mark Koenig",0,8,6
+play,8,1,bergm103,??,,8
+play,9,0,koenm101,??,,S
+play,9,0,hoytw101,??,,NP
+sub,dursc101,"Cedric Durst",0,9,11
+play,9,0,dursc101,??,,99(1)/FO
+play,9,0,combe101,??,,S.1-3
+play,9,0,robeg101,??,,S.3-H;1-3
+play,9,0,gehrl101,??,,99/G.3-H;1-2
+play,9,0,ruthb101,??,,K
+play,9,1,lyont102,??,,NP
+sub,welle101,"Ed Wells",0,9,1
+play,9,1,lyont102,??,,99
+play,9,1,metza101,??,,99
+play,9,1,cissb101,??,,99
+play,10,0,lazzt101,??,,99
+play,10,0,meusb101,??,,99
+play,10,0,dickb101,??,,99
+play,10,1,shira101,??,,S
+play,10,1,reync102,??,,99
+play,10,1,kammw101,??,,99
+play,10,1,taitd101,??,,99
+play,11,0,koenm101,??,,99
+play,11,0,welle101,??,,99
+play,11,0,combe101,??,,99
+play,11,1,kerrj102,??,,E5/TH1.B-2
+play,11,1,bergm103,??,,PO2(E2)/TH2.2-3
+play,11,1,bergm103,??,,8/F8S
+play,11,1,lyont102,??,,W
+play,11,1,metza101,??,,NP
+sub,hoffd102,"Dutch Hoffman",1,1,11
+play,11,1,hoffd102,??,,NP
+sub,moorw101,"Wilcy Moore",0,9,1
+play,11,1,hoffd102,??,,K
+play,11,1,cissb101,??,,13
+play,12,0,robeg101,??,,NP
+sub,hoffd102,"Dutch Hoffman",1,1,7
+play,12,0,robeg101,??,,99
+play,12,0,gehrl101,??,,K
+play,12,0,ruthb101,??,,99
+play,12,1,shira101,??,,99
+play,12,1,reync102,??,,99
+play,12,1,kammw101,??,,99
+play,13,0,lazzt101,??,,99
+play,13,0,meusb101,??,,99
+play,13,0,dickb101,??,,D
+play,13,0,koenm101,??,,99
+play,13,1,taitd101,??,,99
+play,13,1,kerrj102,??,,D
+play,13,1,bergm103,??,,CS3(25)
+play,13,1,bergm103,??,,K
+play,14,0,moorw101,??,,99
+play,14,0,combe101,??,,S
+play,14,0,robeg101,??,,99(1)/FO
+play,14,0,gehrl101,??,,D9/F9DW.1-H
+com,"Just missed HR"
+play,14,0,ruthb101,??,,W
+play,14,0,lazzt101,??,,99
+play,14,1,lyont102,??,,NP
+sub,clanb101,"Bud Clancy",1,9,11
+play,14,1,clanb101,??,,T/F89XDW
+play,14,1,hoffd102,??,,NP
+sub,hunnb101,"Bill Hunnefield",1,9,12
+play,14,1,hoffd102,??,,13
+play,14,1,cissb101,??,,K
+play,14,1,shira101,??,,13
+data,er,hoytw101,3
+data,er,welle101,0
+data,er,moorw101,0
+data,er,mckah101,3
+data,er,lyont102,3
+id,CHA192907140
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,WS1
+info,hometeam,CHA
+info,date,1929/07/14
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"111,222"
+info,translator,"Rob Wood"
+info,inputter,"Rob Wood"
+info,inputtime,2020/03/23 10:29PM
+info,umphome,owenb901
+info,ump1b,geish901
+info,ump2b,(none)
+info,ump3b,campb901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,104
+info,attendance,12000
+info,wp,braxg101
+info,lp,thomt103
+info,save,
+info,gwrbi,
+start,judgj101,"Joe Judge",0,1,3
+start,rices101,"Sam Rice",0,2,9
+start,goslg101,"Goose Goslin",0,3,7
+start,myerb103,"Buddy Myer",0,4,4
+start,tateb101,"Bennie Tate",0,5,2
+start,blueo102,"Ossie Bluege",0,6,5
+start,wests101,"Sam West",0,7,8
+start,cronj101,"Joe Cronin",0,8,6
+start,braxg101,"Garland Braxton",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,thomt103,"Tommy Thomas",1,9,1
+play,1,0,judgj101,??,,99
+play,1,0,rices101,??,,99
+play,1,0,goslg101,??,,99
+play,1,1,metza101,??,,99
+play,1,1,cissb101,??,,D
+play,1,1,shira101,??,,S7.2X3(75);B-2
+play,1,1,reync102,??,,8
+play,2,0,myerb103,??,,99
+play,2,0,tateb101,??,,99
+play,2,0,blueo102,??,,D
+play,2,0,wests101,??,,99
+play,2,1,kammw101,??,,W
+play,2,1,hoffd102,??,,D.1-H
+play,2,1,kerrj102,??,,FC6.2X3(65);B-1
+play,2,1,bergm103,??,,54(1)3/GDP
+play,3,0,cronj101,??,,S
+play,3,0,braxg101,??,,99/SH.1-2
+play,3,0,judgj101,??,,S9.2-H
+play,3,0,rices101,??,,99
+play,3,0,goslg101,??,,99
+play,3,1,thomt103,??,,S
+play,3,1,metza101,??,,99
+play,3,1,cissb101,??,,99
+play,3,1,shira101,??,,99
+play,4,0,myerb103,??,,99
+play,4,0,tateb101,??,,99
+play,4,0,blueo102,??,,99
+play,4,1,reync102,??,,99
+play,4,1,kammw101,??,,W
+play,4,1,hoffd102,??,,99
+play,4,1,kerrj102,??,,99
+play,5,0,wests101,??,,S7.BX2(74)
+play,5,0,cronj101,??,,E1
+play,5,0,braxg101,??,,14(1)3/GDP
+play,5,1,bergm103,??,,99
+play,5,1,thomt103,??,,99
+play,5,1,metza101,??,,99
+play,6,0,judgj101,??,,99
+play,6,0,rices101,??,,99
+play,6,0,goslg101,??,,S
+play,6,0,myerb103,??,,S.1-3
+play,6,0,tateb101,??,,99
+play,6,1,cissb101,??,,99
+play,6,1,shira101,??,,99
+play,6,1,reync102,??,,S
+play,6,1,kammw101,??,,99
+play,7,0,blueo102,??,,HR/7
+play,7,0,wests101,??,,99
+play,7,0,cronj101,??,,99
+play,7,0,braxg101,??,,99
+play,7,1,hoffd102,??,,D9
+play,7,1,kerrj102,??,,3/BP
+play,7,1,bergm103,??,,FC1.2X3(1545);B-2
+play,7,1,thomt103,??,,NP
+sub,hunnb101,"Bill Hunnefield",1,8,12
+play,7,1,thomt103,??,,43
+play,8,0,judgj101,??,,NP
+sub,autrc102,"Chick Autry",1,8,2
+play,8,0,judgj101,??,,3/G
+play,8,0,rices101,??,,DGR/7
+play,8,0,goslg101,??,,WP.2-3
+play,8,0,goslg101,??,,S9.3-H
+play,8,0,myerb103,??,,S9.1-3(E9);B-2
+play,8,0,tateb101,??,,S7.3-H;2-H
+play,8,0,blueo102,??,,46(1)/FO.B-1
+play,8,0,wests101,??,,S.1-2
+play,8,0,cronj101,??,,WP.2-3;1-2
+play,8,0,cronj101,??,,D8.3-H;2-H;B-3(E6)
+play,8,0,braxg101,??,,6/P
+play,8,1,metza101,??,,S6.B-2(E6/TH)
+play,8,1,cissb101,??,,99
+play,8,1,shira101,??,,99
+play,8,1,reync102,??,,99
+play,9,0,judgj101,??,,NP
+sub,dugad101,"Dan Dugan",1,9,1
+play,9,0,judgj101,??,,W
+play,9,0,rices101,??,,99
+play,9,0,goslg101,??,,99
+play,9,0,myerb103,??,,99
+play,9,1,kammw101,??,,99
+play,9,1,hoffd102,??,,99
+play,9,1,kerrj102,??,,99
+data,er,braxg101,1
+data,er,thomt103,7
+data,er,dugad101,0
+id,CHA192907150
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,WS1
+info,hometeam,CHA
+info,date,1929/07/15
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"277"
+info,translator,"Cliff Blau"
+info,inputter,"Cliff Blau"
+info,inputtime,2020/03/22 1:23PM
+info,umphome,geish901
+info,ump1b,campb901
+info,ump2b,(none)
+info,ump3b,owenb901
+info,howscored,unknown
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,0
+info,attendance,0
+info,wp,walse102
+info,lp,marbf101
+info,save,
+info,gwrbi,
+start,judgj101,"Joe Judge",0,1,3
+start,rices101,"Sam Rice",0,2,9
+start,goslg101,"Goose Goslin",0,3,7
+start,myerb103,"Buddy Myer",0,4,4
+start,tateb101,"Bennie Tate",0,5,2
+start,blueo102,"Ossie Bluege",0,6,5
+start,wests101,"Sam West",0,7,8
+start,cronj101,"Joe Cronin",0,8,6
+start,marbf101,"Firpo Marberry",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,walse102,"Ed Walsh",1,9,1
+play,1,0,judgj101,??,,W
+play,1,0,rices101,??,,7/F
+play,1,0,goslg101,??,,SB2
+play,1,0,goslg101,??,,2/FL
+play,1,0,myerb103,??,,43
+play,1,1,metza101,??,,43
+play,1,1,cissb101,??,,43
+play,1,1,shira101,??,,7/F
+play,2,0,tateb101,??,,S
+play,2,0,blueo102,??,,564(1)/FO
+play,2,0,wests101,??,,CS2(24)
+play,2,0,wests101,??,,W
+play,2,0,cronj101,??,,7/F
+play,2,1,reync102,??,,53
+play,2,1,kammw101,??,,7/F
+play,2,1,hoffd102,??,,S8
+play,2,1,kerrj102,??,,56(1)/FO
+play,3,0,marbf101,??,,63
+play,3,0,judgj101,??,,63
+play,3,0,rices101,??,,7/F
+play,3,1,bergm103,??,,S9
+play,3,1,walse102,??,,K
+play,3,1,metza101,??,,K
+play,3,1,cissb101,??,,9/FL
+play,4,0,goslg101,??,,8/L
+play,4,0,myerb103,??,,W
+play,4,0,tateb101,??,,13.1-2
+play,4,0,blueo102,??,,WP.2-3
+play,4,0,blueo102,??,,63
+play,4,1,shira101,??,,S/78
+play,4,1,reync102,??,,K
+play,4,1,kammw101,??,,9/F
+play,4,1,hoffd102,??,,CS2(26)
+play,5,0,wests101,??,,7/F
+play,5,0,cronj101,??,,4/P
+play,5,0,marbf101,??,,K
+play,5,1,hoffd102,??,,63
+play,5,1,kerrj102,??,,143
+play,5,1,bergm103,??,,S/3
+play,5,1,walse102,??,,3/G
+play,6,0,judgj101,??,,8/F
+play,6,0,rices101,??,,7/F
+play,6,0,goslg101,??,,S8
+play,6,0,myerb103,??,,46(1)/FO
+play,6,1,metza101,??,,7/F
+play,6,1,cissb101,??,,S9
+play,6,1,shira101,??,,S8.1-3(E8);B-2
+play,6,1,reync102,??,,K
+play,6,1,kammw101,??,,W
+play,6,1,hoffd102,??,,S8.3-H;2-H;1X3(815)
+play,7,0,tateb101,??,,S9
+play,7,0,blueo102,??,,7/L
+play,7,0,wests101,??,,9/F
+play,7,0,cronj101,??,,8/F
+play,7,1,kerrj102,??,,7/F
+play,7,1,bergm103,??,,4/L
+play,7,1,walse102,??,,8/F
+play,8,0,marbf101,??,,NP
+sub,barnr104,"Red Barnes",0,9,11
+play,8,0,barnr104,??,,6/P
+play,8,0,judgj101,??,,4/FL
+play,8,0,rices101,??,,S7
+play,8,0,goslg101,??,,S8.1-3
+play,8,0,myerb103,??,,S8.3-H;1-2#
+play,8,0,tateb101,??,,9/F
+play,8,1,metza101,??,,NP
+sub,liska101,"Ad Liska",0,9,1
+play,8,1,metza101,??,,W
+play,8,1,cissb101,??,,W.1-2
+play,8,1,shira101,??,,13/SH.2-3;1-2
+play,8,1,reync102,??,,WP.3-H;2-H
+play,8,1,reync102,??,,4/L
+play,8,1,kammw101,??,,13
+play,9,0,blueo102,??,,S7
+play,9,0,wests101,??,,S8.1-3
+play,9,0,cronj101,??,,36(1)3/GDP.3-H(RBI)
+play,9,0,liska101,??,,NP
+sub,bossh101,"Harley Boss",0,9,11
+play,9,0,bossh101,??,,6/L
+data,er,marbf101,2
+data,er,liska101,2
+data,er,walse102,2
+id,CHA192907160
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,WS1
+info,hometeam,CHA
+info,date,1929/07/16
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"111,222,277"
+info,translator,"Rob Wood"
+info,inputter,"Rob Wood"
+info,inputtime,2020/03/23 4:54PM
+info,umphome,campb901
+info,ump1b,owenb901
+info,ump2b,(none)
+info,ump3b,geish901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,119
+info,attendance,3000
+info,wp,thomt103
+info,lp,hadlb101
+info,save,
+info,gwrbi,
+start,judgj101,"Joe Judge",0,1,3
+start,rices101,"Sam Rice",0,2,9
+start,goslg101,"Goose Goslin",0,3,7
+start,myerb103,"Buddy Myer",0,4,4
+start,blueo102,"Ossie Bluege",0,5,5
+start,ruelm101,"Muddy Ruel",0,6,2
+start,wests101,"Sam West",0,7,8
+start,cronj101,"Joe Cronin",0,8,6
+start,thomm101,"Myles Thomas",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,weilb101,"Bob Weiland",1,9,1
+play,1,0,judgj101,??,,9
+play,1,0,rices101,??,,3/G
+play,1,0,goslg101,??,,8
+play,1,1,metza101,??,,W
+play,1,1,cissb101,??,,9
+play,1,1,shira101,??,,2/P
+play,1,1,reync102,??,,8
+play,2,0,myerb103,??,,4/P
+play,2,0,blueo102,??,,53
+play,2,0,ruelm101,??,,5/P
+play,2,1,kammw101,??,,K
+play,2,1,hoffd102,??,,53
+play,2,1,kerrj102,??,,13
+play,3,0,wests101,??,,43
+play,3,0,cronj101,??,,9
+play,3,0,thomm101,??,,6/P
+play,3,1,bergm103,??,,3/G
+play,3,1,weilb101,??,,K
+play,3,1,metza101,??,,31
+play,4,0,judgj101,??,,43
+play,4,0,rices101,??,,7
+play,4,0,goslg101,??,,2
+play,4,1,cissb101,??,,43
+play,4,1,shira101,??,,7/L
+play,4,1,reync102,??,,8/L
+play,5,0,myerb103,??,,W
+play,5,0,blueo102,??,,S7.1-3
+play,5,0,ruelm101,??,,4/P/9
+play,5,0,wests101,??,,K
+play,5,0,cronj101,??,,S9.3-H;1-3
+play,5,0,thomm101,??,,S8.3-H;1-2
+play,5,0,judgj101,??,,5(2)/FO
+play,5,1,kammw101,??,,W
+play,5,1,hoffd102,??,,S8.1-2
+play,5,1,kerrj102,??,,13/SH.2-3;1-2
+play,5,1,bergm103,??,,43.3-H;2-3
+play,5,1,weilb101,??,,NP
+sub,clanb101,"Bud Clancy",1,9,11
+play,5,1,clanb101,??,,63
+play,6,0,rices101,??,,NP
+sub,dugad101,"Dan Dugan",1,9,1
+play,6,0,rices101,??,,S8
+play,6,0,goslg101,??,,S8.1-3
+play,6,0,myerb103,??,,7/SF.3-H;1-2
+play,6,0,blueo102,??,,S/78.2-H
+play,6,0,ruelm101,??,,NP
+sub,mckah101,"Hal McKain",1,9,1
+play,6,0,ruelm101,??,,7/L
+play,6,0,wests101,??,,T/89.1-H
+play,6,0,cronj101,??,,9
+play,6,1,metza101,??,,8/L
+play,6,1,cissb101,??,,S9
+play,6,1,shira101,??,,64(1)3/GDP
+play,7,0,thomm101,??,,53
+play,7,0,judgj101,??,,63
+play,7,0,rices101,??,,S/46
+play,7,0,goslg101,??,,SB2
+play,7,0,goslg101,??,,31
+play,7,1,reync102,??,,T/78
+play,7,1,kammw101,??,,W
+play,7,1,hoffd102,??,,S8.3-H;1-3
+play,7,1,kerrj102,??,,NP
+sub,hunnb101,"Bill Hunnefield",1,7,11
+play,7,1,hunnb101,??,,7
+play,7,1,bergm103,??,,8/SF.3-H
+play,7,1,mckah101,??,,NP
+sub,taitd101,"Doug Taitt",1,9,11
+play,7,1,taitd101,??,,CS2(24)
+play,8,0,myerb103,??,,NP
+sub,adkig101,"Grady Adkins",1,9,1
+play,8,0,myerb103,??,,NP
+sub,hunnb101,"Bill Hunnefield",1,7,4
+play,8,0,myerb103,??,,8/L
+play,8,0,blueo102,??,,S7
+play,8,0,ruelm101,??,,CS2(24)
+play,8,0,ruelm101,??,,63
+play,8,1,adkig101,??,,W
+play,8,1,metza101,??,,T/89.1-H
+play,8,1,cissb101,??,,NP
+sub,hadlb101,"Bump Hadley",0,9,1
+play,8,1,cissb101,??,,S8.3-H
+play,8,1,shira101,??,,43/SH.1-2
+play,8,1,reync102,??,,8/SF.2-3
+play,8,1,kammw101,??,,7/L
+play,9,0,wests101,??,,W
+play,9,0,cronj101,??,,99/SH.1-2
+play,9,0,hadlb101,??,,W
+play,9,0,judgj101,20,,NP
+sub,thomt103,"Tommy Thomas",1,9,1
+play,9,0,judgj101,??,,5/P
+play,9,0,rices101,??,,8
+play,9,1,hoffd102,??,,99
+play,9,1,hunnb101,??,,99
+play,9,1,bergm103,??,,S
+play,9,1,thomt103,??,,99
+play,10,0,goslg101,??,,W
+play,10,0,myerb103,??,,46(1)3/GDP
+play,10,0,blueo102,??,,5/P
+play,10,1,metza101,??,,53
+play,10,1,cissb101,??,,S8.B-2(E8)
+play,10,1,shira101,??,,S7.2-H(E7)(NR)(UR)
+data,er,thomm101,5
+data,er,hadlb101,0
+data,er,weilb101,2
+data,er,dugad101,3
+data,er,mckah101,0
+data,er,adkig101,0
+data,er,thomt103,0
+id,CHA192907170
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,WS1
+info,hometeam,CHA
+info,date,1929/07/17
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,translator,"Dick Cramer"
+info,inputter,"Dick Cramer"
+info,inputtime,2020/03/23 11:00AM
+info,scorer,"277,111,222"
+info,umphome,owenb901
+info,ump1b,geish901
+info,ump2b,(none)
+info,ump3b,campb901
+info,howscored,unknown
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,108
+info,attendance,0
+info,wp,burkb102
+info,lp,lyont102
+info,save,
+info,gwrbi,
+start,judgj101,"Joe Judge",0,1,3
+start,rices101,"Sam Rice",0,2,9
+start,goslg101,"Goose Goslin",0,3,7
+start,myerb103,"Buddy Myer",0,4,4
+start,tateb101,"Bennie Tate",0,5,2
+start,blueo102,"Ossie Bluege",0,6,5
+start,wests101,"Sam West",0,7,8
+start,cronj101,"Joe Cronin",0,8,6
+start,burkb102,"Bobby Burke",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,lyont102,"Ted Lyons",1,9,1
+play,1,0,judgj101,??,,7/F
+play,1,0,rices101,??,,43
+play,1,0,goslg101,??,,5/FL
+play,1,1,metza101,??,,6/L
+play,1,1,cissb101,??,,9/L
+play,1,1,shira101,??,,6/P
+play,2,0,myerb103,??,,S8/G
+play,2,0,tateb101,??,,D/78.1-H
+play,2,0,blueo102,??,,S7.2-H
+play,2,0,wests101,??,,6/FL
+play,2,0,cronj101,??,,D7.1-H
+play,2,0,burkb102,??,,4(B)6(2)/LDP
+play,2,1,reync102,??,,5/L
+play,2,1,kammw101,??,,9/F
+play,2,1,hoffd102,??,,D7
+play,2,1,kerrj102,??,,W
+play,2,1,bergm103,??,,13
+play,3,0,judgj101,??,,8/L
+play,3,0,rices101,??,,8/L
+play,3,0,goslg101,??,,K
+play,3,1,lyont102,??,,K/C
+play,3,1,metza101,??,,7/F
+play,3,1,cissb101,??,,8/F
+play,4,0,myerb103,??,,D9/L
+play,4,0,tateb101,??,,53.2-2
+play,4,0,blueo102,??,,S8/L.2-H
+play,4,0,wests101,??,,5/P
+play,4,0,cronj101,??,,8/F
+play,4,1,shira101,??,,3/G
+play,4,1,reync102,??,,D7
+play,4,1,kammw101,??,,9/F
+play,4,1,hoffd102,??,,3/FL
+play,5,0,burkb102,??,,43
+play,5,0,judgj101,??,,S9
+play,5,0,rices101,??,,D9.1-3
+play,5,0,goslg101,??,,8/SF.3-H
+play,5,0,myerb103,??,,9/F
+play,5,1,kerrj102,??,,7/L
+play,5,1,bergm103,??,,63
+play,5,1,lyont102,??,,S8
+play,5,1,metza101,??,,4/L
+play,6,0,tateb101,??,,S7
+play,6,0,blueo102,??,,64(1)3/GDP
+play,6,0,wests101,??,,13
+play,6,1,cissb101,??,,W
+play,6,1,shira101,??,,2/FL
+play,6,1,reync102,??,,S7.1-2
+play,6,1,kammw101,??,,54(1)/FO.2-3
+com,"$Bluege twisted leg throwing and left game"
+play,6,1,hoffd102,??,,NP
+sub,myerb103,"Buddy Myer",0,4,5
+play,6,1,hoffd102,??,,NP
+sub,hayej101,"Jackie Hayes",0,6,4
+play,6,1,hoffd102,??,,2/FL
+play,7,0,cronj101,??,,E6/TH
+play,7,0,burkb102,??,,54/SH.1-2
+play,7,0,judgj101,??,,63.2-3
+play,7,0,rices101,??,,S7.3-H(UR)
+play,7,0,goslg101,??,,S8.1-3
+play,7,0,myerb103,??,,64(1)/FO
+play,7,1,kerrj102,??,,8/F
+play,7,1,bergm103,??,,7/F
+play,7,1,lyont102,??,,NP
+sub,hunnb101,"B Hunnefield",1,9,11
+play,7,1,hunnb101,??,,S8
+play,7,1,metza101,??,,3/P
+play,8,0,tateb101,??,,NP
+sub,mckah101,"Hal McKain",1,9,1
+play,8,0,tateb101,??,,E6/G
+play,8,0,hayej101,??,,63.1-2
+play,8,0,wests101,??,,3(B)6(2)/LDP
+play,8,1,cissb101,??,,9/F
+play,8,1,shira101,??,,S8
+play,8,1,reync102,??,,46(1)/FO
+play,8,1,kammw101,??,,W.1-2
+play,8,1,hoffd102,??,,S8.2-H;1-2
+play,8,1,kerrj102,??,,54(1)/FO
+play,9,0,cronj101,??,,W
+play,9,0,burkb102,??,,99/SH.1-2
+play,9,0,judgj101,??,,53/DP.2X3(36)
+play,9,1,bergm103,??,,99
+play,9,1,mckah101,??,,NP
+sub,sigaf101,"F Sigafoos",1,9,11
+play,9,1,sigaf101,??,,W
+play,9,1,metza101,??,,99/G.1-2
+play,9,1,cissb101,??,,S8.2-H
+play,9,1,shira101,??,,99
+data,er,burkb102,2
+data,er,lyont102,5
+data,er,mckah101,0
+id,CHA192907180
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,BOS
+info,hometeam,CHA
+info,date,1929/07/18
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,translator,"Dick Cramer"
+info,inputter,"Dick Cramer"
+info,inputtime,2020/03/24 11:00AM
+info,scorer,"277,111"
+info,umphome,geish901
+info,ump1b,campb901
+info,ump2b,(none)
+info,ump3b,owenb901
+info,howscored,unknown
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,135
+info,attendance,0
+info,wp,faber101
+info,lp,macfd101
+info,save,
+info,gwrbi,
+start,narlb101,"Bill Narleski",0,1,4
+start,scarr103,"Russ Scarritt",0,2,7
+start,rothj101,"Jack Rothrock",0,3,8
+start,barrb105,"Bill Barrett",0,4,9
+start,reevb101,"Bobby Reeves",0,5,5
+start,todtp101,"Phil Todt",0,6,3
+start,berrc103,"Charlie Berry",0,7,2
+start,rhynh101,"Hal Rhyne",0,8,6
+start,macfd101,"Danny MacFayden",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,faber101,"Red Faber",1,9,1
+play,1,0,narlb101,??,,W
+play,1,0,scarr103,??,,8/F
+play,1,0,rothj101,??,,K
+play,1,0,barrb105,??,,SB2
+play,1,0,barrb105,??,,43
+play,1,1,metza101,??,,7/L
+play,1,1,cissb101,??,,K
+play,1,1,shira101,??,,43
+play,2,0,reevb101,??,,63
+play,2,0,todtp101,??,,S
+play,2,0,berrc103,??,,S.1-3
+play,2,0,rhynh101,??,,9/F/DP.3XH(92)
+play,2,1,reync102,??,,W
+play,2,1,kammw101,??,,W.1-2
+play,2,1,hoffd102,??,,K/C
+play,2,1,kerrj102,??,,7/L
+play,2,1,bergm103,??,,7/F
+play,3,0,macfd101,??,,9/F
+play,3,0,narlb101,??,,W
+play,3,0,scarr103,??,,K
+play,3,0,rothj101,??,,SB2
+play,3,0,rothj101,??,,9/F
+play,3,1,faber101,??,,W
+play,3,1,metza101,??,,S.1-2
+play,3,1,cissb101,??,,64(1)3/GDP.2-3
+play,3,1,shira101,??,,S1/F.3-H;BX2(563)
+play,4,0,barrb105,??,,T7/L
+play,4,0,reevb101,??,,T8.3-H
+play,4,0,todtp101,??,,63
+play,4,0,berrc103,??,,5/F
+play,4,0,rhynh101,??,,43
+play,4,1,reync102,??,,53
+play,4,1,kammw101,??,,4/F
+play,4,1,hoffd102,??,,4/F
+play,5,0,macfd101,??,,63
+play,5,0,narlb101,??,,K/C
+play,5,0,scarr103,??,,43
+play,5,1,kerrj102,??,,5/L
+play,5,1,bergm103,??,,3/FL
+play,5,1,faber101,??,,13
+play,6,0,rothj101,??,,S3/G
+play,6,0,barrb105,??,,K/C
+play,6,0,reevb101,??,,8/F
+play,6,0,todtp101,??,,CS2(26)
+play,6,1,metza101,??,,T9
+play,6,1,cissb101,??,,7/F
+play,6,1,shira101,??,,W
+play,6,1,reync102,??,,K+CSH(262)/DP
+play,7,0,todtp101,??,,E1/TH
+play,7,0,berrc103,??,,13/SH.1-2
+play,7,0,rhynh101,??,,NP
+sub,bigee101,"E Bigelow",0,8,11
+play,7,0,bigee101,??,,K/C
+play,7,0,macfd101,??,,13
+play,7,1,kammw101,??,,NP
+sub,gerbw101,"Wallie Gerber",0,8,6
+play,7,1,kammw101,??,,63
+play,7,1,hoffd102,??,,S6/G
+play,7,1,kerrj102,??,,NP
+sub,clanb101,"Bud Clancy",1,7,11
+play,7,1,clanb101,??,,S7/G.1-3
+play,7,1,bergm103,??,,4(1)3/GDP
+play,8,0,narlb101,??,,NP
+sub,hunnb101,"B Hunnefield",1,7,4
+play,8,0,narlb101,??,,53
+play,8,0,scarr103,??,,6/L
+play,8,0,rothj101,??,,K/C
+play,8,1,faber101,??,,2/FL
+play,8,1,metza101,??,,HP
+play,8,1,cissb101,??,,46(1)/FO
+play,8,1,shira101,??,,E6/G.1-2
+play,8,1,reync102,??,,8/F
+play,9,0,barrb105,??,,13
+play,9,0,reevb101,??,,13
+play,9,0,todtp101,??,,43
+play,9,1,kammw101,??,,S7
+play,9,1,hoffd102,??,,K/C
+play,9,1,hunnb101,??,,8/F
+play,9,1,bergm103,??,,S7.1-2
+play,9,1,faber101,??,,K/C
+play,10,0,berrc103,??,,K
+play,10,0,gerbw101,??,,K
+play,10,0,macfd101,??,,13
+play,10,1,metza101,??,,S7/L
+play,10,1,cissb101,??,,34/SH.1-2
+play,10,1,shira101,??,,IW
+play,10,1,reync102,??,,S8/F.2-3;1-2
+play,10,1,kammw101,??,,W.3-H;2-3;1-2
+data,er,macfd101,2
+data,er,faber101,1
+id,CHA192907190
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,BOS
+info,hometeam,CHA
+info,date,1929/07/19
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"111,277"
+info,translator,"Rob Wood"
+info,inputter,"Rob Wood"
+info,inputtime,2020/03/24 6:38PM
+info,umphome,campb901
+info,ump1b,owenb901
+info,ump2b,(none)
+info,ump3b,geish901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,95
+info,attendance,0
+info,wp,thomt103
+info,lp,russj103
+info,save,
+info,gwrbi,
+start,narlb101,"Bill Narleski",0,1,4
+start,scarr103,"Russ Scarritt",0,2,7
+start,rothj101,"Jack Rothrock",0,3,8
+start,barrb105,"Bill Barrett",0,4,9
+start,reevb101,"Bobby Reeves",0,5,5
+start,todtp101,"Phil Todt",0,6,3
+start,berrc103,"Charlie Berry",0,7,2
+start,rhynh101,"Hal Rhyne",0,8,6
+start,russj103,"Jack Russell",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,thomt103,"Tommy Thomas",1,9,1
+play,1,0,narlb101,??,,7
+play,1,0,scarr103,??,,8/L
+play,1,0,rothj101,??,,43
+play,1,1,metza101,??,,S8
+play,1,1,cissb101,??,,13.1-2
+play,1,1,shira101,??,,7(B)64(2)/LDP
+play,2,0,barrb105,??,,S6
+play,2,0,reevb101,??,,13/SH.1-2
+play,2,0,todtp101,??,,5/FL
+play,2,0,berrc103,??,,53
+play,2,1,reync102,??,,3/FL
+play,2,1,kammw101,??,,63
+play,2,1,hoffd102,??,,63
+play,3,0,rhynh101,??,,9
+play,3,0,russj103,??,,S3
+play,3,0,narlb101,??,,1/P
+play,3,0,scarr103,??,,W.1-2
+play,3,0,rothj101,??,,S/BR.2X3(6);1-2
+play,3,1,kerrj102,??,,7/78D
+play,3,1,bergm103,??,,5/P
+play,3,1,thomt103,??,,S8
+play,3,1,metza101,??,,43
+play,4,0,barrb105,??,,2/FL
+play,4,0,reevb101,??,,K
+play,4,0,todtp101,??,,S9
+play,4,0,berrc103,??,,K
+play,4,1,cissb101,??,,1/P
+play,4,1,shira101,??,,43
+play,4,1,reync102,??,,S5.BX2(34)
+play,5,0,rhynh101,??,,5/FL
+play,5,0,russj103,??,,53
+play,5,0,narlb101,??,,2/FL
+play,5,1,kammw101,??,,S7
+play,5,1,hoffd102,??,,D9.1-3
+play,5,1,kerrj102,??,,53
+play,5,1,bergm103,??,,FC5.2X3(52);B-1
+com,"$Third baseman fielded grounder and threw home. Kamm"
+com,"returned to third base but Hoffman was also on the bag;"
+com,"catcher tagged both runners and Hoffman was declared out"
+play,5,1,thomt103,??,,9
+play,6,0,scarr103,??,,6/P
+play,6,0,rothj101,??,,W
+play,6,0,barrb105,??,,SB2.1X3(24)
+com,"$Catcher's throw to second base on Rothrock's stolen base"
+com,"went over shortstop's head but second baseman was backing up"
+com,"the play, caught the over-throw and tagged out Rothrock as"
+com,"he attempted to return to second base after starting for "
+com,"third base"
+play,6,0,barrb105,??,,E6/TH.B-2
+play,6,0,reevb101,??,,53
+play,6,1,metza101,??,,8
+play,6,1,cissb101,??,,E4.B-2
+play,6,1,shira101,??,,S8.2-3;B-2(E4/TH)
+play,6,1,reync102,??,,4/P
+play,6,1,kammw101,??,,D/78.3-H(UR);2-H(UR)
+play,6,1,hoffd102,??,,4/L
+play,7,0,todtp101,??,,E6/P.B-2
+play,7,0,berrc103,10,,NP
+sub,willk101,"Ken Williams",0,7,11
+play,7,0,willk101,??,,S9.2-3
+play,7,0,rhynh101,??,,NP
+sub,bigee101,"Elliot Bigelow",0,8,11
+play,7,0,bigee101,??,,46(1)3(B)/GDP.3-H(RBI)(UR)
+play,7,0,russj103,??,,53
+play,7,1,kerrj102,??,,NP
+sub,hevij102,"Johnnie Heving",0,7,2
+play,7,1,kerrj102,??,,NP
+sub,gerbw101,"Wally Gerber",0,8,6
+play,7,1,kerrj102,??,,6E3
+play,7,1,bergm103,??,,CS2(26)
+play,7,1,bergm103,??,,2/P
+play,7,1,thomt103,??,,43
+play,8,0,narlb101,??,,K
+play,8,0,scarr103,??,,43
+play,8,0,rothj101,??,,S8
+play,8,0,barrb105,??,,CS2(24)
+play,8,1,metza101,??,,13
+play,8,1,cissb101,??,,9
+play,8,1,shira101,??,,5/P
+play,9,0,barrb105,??,,5/P
+play,9,0,reevb101,??,,43
+play,9,0,todtp101,??,,3/G
+data,er,russj103,0
+data,er,thomt103,0
+id,CHA192907200
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,BOS
+info,hometeam,CHA
+info,date,1929/07/20
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"277"
+info,translator,"Tom Thress"
+info,inputter,"Tom Thress"
+info,inputtime,2020/03/26 12:35AM
+info,umphome,owenb901
+info,ump1b,geish901
+info,ump2b,(none)
+info,ump3b,campb901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,104
+info,attendance,0
+info,wp,walse102
+info,lp,gastm101
+info,save,
+info,gwrbi,
+start,narlb101,"Bill Narleski",0,1,4
+start,rothj101,"Jack Rothrock",0,2,8
+start,willk101,"Ken Williams",0,3,7
+start,barrb105,"Bill Barrett",0,4,9
+start,reevb101,"Bobby Reeves",0,5,5
+start,todtp101,"Phil Todt",0,6,3
+start,berrc103,"Charlie Berry",0,7,2
+start,rhynh101,"Hal Rhyne",0,8,6
+start,gastm101,"Milt Gaston",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,walse102,"Ed Walsh",1,9,1
+play,1,0,narlb101,??,,8/L
+play,1,0,rothj101,??,,S8
+play,1,0,willk101,??,,8
+play,1,0,barrb105,??,,CS2(24)
+play,1,1,metza101,??,,43
+play,1,1,cissb101,??,,S6/BG
+play,1,1,shira101,??,,WP.1-2
+play,1,1,shira101,??,,S6.2-2
+play,1,1,reync102,??,,8
+play,1,1,kammw101,??,,S8.2-H;1-3;B-2(TH)
+play,1,1,hoffd102,??,,S7.3-H;2-H;BX2(754)
+play,2,0,barrb105,??,,63
+play,2,0,reevb101,??,,HP
+play,2,0,todtp101,??,,W.1-2
+play,2,0,berrc103,??,,8
+play,2,0,rhynh101,??,,64(1)/FO
+play,2,1,kerrj102,??,,9/FL
+play,2,1,bergm103,??,,63
+play,2,1,walse102,??,,63
+play,3,0,gastm101,??,,53
+play,3,0,narlb101,??,,S8
+play,3,0,rothj101,??,,64(1)/FO
+play,3,0,willk101,??,,43
+play,3,1,metza101,??,,13
+play,3,1,cissb101,??,,5/FL
+play,3,1,shira101,??,,K
+play,4,0,barrb105,??,,E6
+play,4,0,reevb101,??,,S7.1-2
+play,4,0,todtp101,??,,S7.2-H(UR);1-3(E7/TH)
+play,4,0,berrc103,??,,5
+play,4,0,rhynh101,??,,9/L
+play,4,0,gastm101,??,,OA.3XH(2436352)
+play,4,1,reync102,??,,5/FL
+play,4,1,kammw101,??,,63
+play,4,1,hoffd102,??,,9
+play,5,0,gastm101,??,,S7
+play,5,0,narlb101,??,,4(1)3/GDP
+play,5,0,rothj101,??,,7
+play,5,1,kerrj102,??,,7
+play,5,1,bergm103,??,,8
+play,5,1,walse102,??,,3/G
+play,6,0,willk101,??,,S7
+play,6,0,barrb105,??,,8
+play,6,0,reevb101,??,,K+CS2(24)/DP
+play,6,1,metza101,??,,8
+play,6,1,cissb101,??,,4/L
+play,6,1,shira101,??,,43
+play,7,0,todtp101,??,,6
+play,7,0,berrc103,??,,63
+play,7,0,rhynh101,??,,63
+play,7,1,reync102,??,,7
+play,7,1,kammw101,??,,9
+play,7,1,hoffd102,??,,63
+play,8,0,gastm101,??,,K
+play,8,0,narlb101,??,,S7
+play,8,0,rothj101,??,,S8.1-3
+play,8,0,willk101,??,,S9.3-H;1-3
+play,8,0,barrb105,??,,NP
+sub,scarr103,"Russ Scarritt",0,4,11
+play,8,0,scarr103,??,,8/SF.3-H
+play,8,0,reevb101,??,,NP
+sub,bigee101,"Elliot Bigelow",0,5,11
+play,8,0,bigee101,??,,43
+play,8,1,kerrj102,??,,NP
+sub,barrb104,"Bob Barrett",0,5,5
+play,8,1,kerrj102,??,,NP
+sub,scarr103,"Russ Scarritt",0,4,9
+play,8,1,kerrj102,??,,63
+play,8,1,bergm103,??,,5/FL
+play,8,1,walse102,??,,9
+play,9,0,todtp101,??,,8/L
+play,9,0,berrc103,??,,63
+play,9,0,rhynh101,??,,W
+play,9,0,gastm101,??,,SB2
+play,9,0,gastm101,??,,43
+play,9,1,metza101,??,,W
+play,9,1,cissb101,??,,16(1)/FO/BG
+play,9,1,shira101,??,,S9.1-3
+play,9,1,reync102,??,,5/FL
+play,9,1,kammw101,??,,PO1(E1).3-H(UR);1-2
+com,"$Gaston stepped off and had a play on Shires, but"
+com,"dropped the ball for an error to end the game"
+data,er,gastm101,3
+data,er,walse102,2
+id,CHA192907210
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,BOS
+info,hometeam,CHA
+info,date,1929/07/21
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"269"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
+info,inputtime,2018/09/19 5:04PM
+info,umphome,geish901
+info,ump1b,campb901
+info,ump2b,(none)
+info,ump3b,owenb901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,113
+info,attendance,0
+info,wp,lyont102
+info,lp,ruffr101
+info,save,
+info,gwrbi,
+start,narlb101,"Bill Narleski",0,1,4
+start,rothj101,"Jack Rothrock",0,2,8
+start,willk101,"Ken Williams",0,3,7
+start,barrb105,"Bill Barrett",0,4,9
+start,reevb101,"Bobby Reeves",0,5,5
+start,todtp101,"Phil Todt",0,6,3
+start,hevij102,"Johnnie Heving",0,7,2
+start,rhynh101,"Hal Rhyne",0,8,6
+start,ruffr101,"Red Ruffing",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,shira101,"Art Shires",1,3,3
+start,reync102,"Carl Reynolds",1,4,9
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,lyont102,"Ted Lyons",1,9,1
+play,1,0,narlb101,??,,99
+play,1,0,rothj101,??,,99
+play,1,0,willk101,??,,K
+play,1,1,metza101,??,,W
+play,1,1,cissb101,??,,K
+play,1,1,shira101,??,,W.1-2
+play,1,1,reync102,??,,K
+play,1,1,kammw101,??,,W.2-3;1-2
+play,1,1,hoffd102,??,,K
+play,2,0,barrb105,??,,K
+play,2,0,reevb101,??,,99
+play,2,0,todtp101,??,,D
+play,2,0,hevij102,??,,99
+play,2,1,kerrj102,??,,99
+play,2,1,bergm103,??,,99
+play,2,1,lyont102,??,,K
+play,3,0,rhynh101,??,,99
+play,3,0,ruffr101,??,,S
+play,3,0,narlb101,??,,99
+play,3,0,rothj101,??,,99
+play,3,1,metza101,??,,S
+play,3,1,cissb101,??,,W.1-2
+play,3,1,shira101,??,,W.2-3;1-2
+play,3,1,reync102,??,,99
+play,3,1,kammw101,??,,99/SF.3-H
+play,3,1,hoffd102,??,,99
+play,4,0,willk101,??,,99
+play,4,0,barrb105,??,,99
+play,4,0,reevb101,??,,S
+play,4,0,todtp101,??,,CS2(26)
+play,4,1,kerrj102,??,,99
+play,4,1,bergm103,??,,99
+play,4,1,lyont102,??,,99
+play,5,0,todtp101,??,,99
+play,5,0,hevij102,??,,99
+play,5,0,rhynh101,??,,99
+play,5,1,metza101,??,,99
+play,5,1,cissb101,??,,99
+play,5,1,shira101,??,,5/FL
+play,6,0,ruffr101,??,,99
+play,6,0,narlb101,??,,99
+play,6,0,rothj101,??,,99
+play,6,1,reync102,??,,S
+play,6,1,kammw101,??,,SB2
+play,6,1,kammw101,??,,S/G.2-2
+com,"Infield hit"
+play,6,1,hoffd102,??,,E1/TH1/BG/SH.2-H(NR)(UR);1-3
+play,6,1,kerrj102,??,,7(B)2(3)/DP.1-2
+play,6,1,bergm103,??,,S9.2XH(92)
+play,7,0,willk101,??,,99
+play,7,0,barrb105,??,,99
+play,7,0,reevb101,??,,99
+play,7,1,lyont102,??,,S5/G
+play,7,1,metza101,??,,S9.1-3;B-2(TH3)
+play,7,1,cissb101,??,,S8/8S.3-H;2-H;B-2(THH)
+play,7,1,shira101,??,,W
+com,"Shires wrenched his left ankle while at bat"
+play,7,1,reync102,??,,NP
+sub,clanb101,"Bud Clancy",1,3,12
+play,7,1,reync102,??,,99/SH.2-3;1-2
+play,7,1,kammw101,??,,S/BG.3-H;2-3
+play,7,1,hoffd102,??,,W.1-2
+play,7,1,kerrj102,??,,8/SF.3-H
+play,7,1,bergm103,??,,S7.2-H;1-2
+play,7,1,lyont102,??,,NP
+sub,carre101,"Ed Carroll",0,9,1
+play,7,1,lyont102,??,,99
+play,8,0,todtp101,??,,NP
+sub,clanb101,"Bud Clancy",1,3,3
+play,8,0,todtp101,??,,99
+play,8,0,hevij102,??,,99
+play,8,0,rhynh101,??,,99
+play,8,1,metza101,??,,S9
+play,8,1,cissb101,??,,99
+play,8,1,clanb101,??,,W.1-2
+play,8,1,reync102,??,,HR/F7D.2-H;1-H
+com,"Into 1st row of LF stands"
+play,8,1,kammw101,??,,NP
+sub,liseh101,"Hod Lisenbee",0,9,1
+play,8,1,kammw101,??,,99
+play,8,1,hoffd102,??,,S
+play,8,1,kerrj102,??,,99
+play,9,0,liseh101,??,,NP
+sub,bigee101,"Elliot Bigelow",0,9,11
+play,9,0,bigee101,??,,99
+play,9,0,narlb101,??,,NP
+sub,scarr103,"Russ Scarritt",0,1,11
+play,9,0,scarr103,??,,S
+play,9,0,rothj101,??,,99
+play,9,0,willk101,??,,99
+data,er,ruffr101,6
+data,er,carre101,3
+data,er,liseh101,0
+data,er,lyont102,0
 id,CHA192908081
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -6024,6 +7898,134 @@ data,er,morre102,1
 data,er,walse102,5
 data,er,weilb101,3
 data,er,adkig101,0
+id,CHA192908110
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,BOS
+info,hometeam,CHA
+info,date,1929/08/11
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"269"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
+info,inputtime,2018/11/11 11:26AM
+info,umphome,guthb901
+info,ump1b,hildg101
+info,ump2b,(none)
+info,ump3b,ormsr901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,94
+info,attendance,3000
+info,wp,thomt103
+info,lp,ruffr101
+info,save,
+info,gwrbi,
+start,reevb101,"Bobby Reeves",0,1,5
+start,scarr103,"Russ Scarritt",0,2,7
+start,rothj101,"Jack Rothrock",0,3,8
+start,barrb105,"Bill Barrett",0,4,9
+start,regab101,"Bill Regan",0,5,4
+start,todtp101,"Phil Todt",0,6,3
+start,berrc103,"Charlie Berry",0,7,2
+start,rhynh101,"Hal Rhyne",0,8,6
+start,ruffr101,"Red Ruffing",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,reync102,"Carl Reynolds",1,3,8
+start,shira101,"Art Shires",1,4,3
+start,kammw101,"Willie Kamm",1,5,5
+start,taitd101,"Doug Taitt",1,6,9
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,thomt103,"Tommy Thomas",1,9,1
+play,1,0,reevb101,??,,99
+play,1,0,scarr103,??,,99
+play,1,0,rothj101,??,,99
+play,1,1,metza101,??,,99
+play,1,1,cissb101,??,,99
+play,1,1,reync102,??,,99
+play,2,0,barrb105,??,,99
+play,2,0,regab101,??,,99
+play,2,0,todtp101,??,,S9/L9S
+play,2,0,berrc103,??,,T/78D.1-H
+play,2,0,rhynh101,??,,9/F
+play,2,1,shira101,??,,99
+play,2,1,kammw101,??,,99
+play,2,1,taitd101,??,,99
+play,3,0,ruffr101,??,,99
+play,3,0,reevb101,??,,W
+play,3,0,scarr103,??,,CS2(24)
+play,3,0,scarr103,??,,K
+play,3,1,kerrj102,??,,99
+play,3,1,bergm103,??,,99
+play,3,1,thomt103,??,,99
+play,4,0,rothj101,??,,99
+play,4,0,barrb105,??,,99
+play,4,0,regab101,??,,K
+play,4,1,metza101,??,,K
+play,4,1,cissb101,??,,99
+play,4,1,reync102,??,,HP
+com,"$Hit on the hip"
+play,4,1,shira101,??,,T/78D.1-H
+play,4,1,kammw101,??,,W
+play,4,1,taitd101,??,,SB2
+play,4,1,taitd101,??,,D/89.3-H;2-H
+play,4,1,kerrj102,??,,K
+play,5,0,todtp101,??,,99
+play,5,0,berrc103,??,,99
+play,5,0,rhynh101,??,,99
+play,5,1,bergm103,??,,W
+play,5,1,thomt103,??,,K
+play,5,1,metza101,??,,99
+play,5,1,cissb101,??,,D.1-3
+play,5,1,reync102,??,,99
+play,6,0,ruffr101,??,,99
+play,6,0,reevb101,??,,W
+play,6,0,scarr103,??,,7/F
+play,6,0,rothj101,00,X,HR/F9D.1-H
+com,"High into RF stands"
+play,6,0,barrb105,??,,99
+play,6,1,shira101,??,,99
+play,6,1,kammw101,??,,99
+play,6,1,taitd101,??,,99
+play,7,0,regab101,??,,99
+play,7,0,todtp101,??,,99
+play,7,0,berrc103,??,,99
+play,7,1,kerrj102,??,,S/G46
+play,7,1,bergm103,??,,99/SH.1-2
+play,7,1,thomt103,??,,S9.2-H
+play,7,1,metza101,??,,S.1-2
+play,7,1,cissb101,??,,4/P
+play,7,1,reync102,??,,T/89.2-H;1-H
+play,7,1,shira101,??,,K/C
+play,8,0,rhynh101,??,,99
+play,8,0,ruffr101,??,,K
+play,8,0,reevb101,??,,W
+play,8,0,scarr103,??,,99
+play,8,1,kammw101,??,,99
+play,8,1,taitd101,??,,W
+play,8,1,kerrj102,??,,99
+play,8,1,bergm103,??,,K
+play,9,0,rothj101,??,,99
+play,9,0,barrb105,??,,S
+play,9,0,regab101,??,,S.1-2
+play,9,0,todtp101,??,,99/SH.2-3;1-2
+play,9,0,berrc103,??,,NP
+sub,bigee101,"Elliot Bigelow",0,7,11
+play,9,0,bigee101,??,,99
+data,er,ruffr101,6
+data,er,thomt103,3
 id,CHA192908120
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -6288,6 +8290,326 @@ play,9,1,kerrj102,??,,W.1-2
 play,9,1,bergm103,??,,99(1)/FO
 data,er,morre102,2
 data,er,weilb101,3
+data,er,adkig101,3
+id,CHA192908140
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,WS1
+info,hometeam,CHA
+info,date,1929/08/14
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,scorer,"109,222"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
+info,inputtime,2003/03/01 6:31PM
+info,umphome,guthb901
+info,ump1b,hildg101
+info,ump2b,(none)
+info,ump3b,ormsr901
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,120
+info,attendance,2000
+info,wp,thomm101
+info,lp,walse102
+info,save,
+info,gwrbi,
+start,judgj101,"Joe Judge",0,1,3
+start,rices101,"Sam Rice",0,2,9
+start,goslg101,"Goose Goslin",0,3,7
+start,tateb101,"Bennie Tate",0,4,2
+start,wests101,"Sam West",0,5,8
+start,goocc101,"Charlie Gooch",0,6,5
+start,cronj101,"Joe Cronin",0,7,6
+start,hayej101,"Jackie Hayes",0,8,4
+start,thomm101,"Myles Thomas",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,reync102,"Carl Reynolds",1,3,9
+start,shira101,"Art Shires",1,4,3
+start,kammw101,"Willie Kamm",1,5,5
+start,hoffd102,"Dutch Hoffman",1,6,8
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,walse102,"Ed Walsh",1,9,1
+play,1,0,judgj101,??,,E5/TH1.B-1
+play,1,0,rices101,??,,D7.1-3
+play,1,0,goslg101,??,,S8/8S.3-H(UR);2-3
+play,1,0,tateb101,??,,S6/G.3-3;1-2
+com,"Bounced off Cissell's chest and into LF"
+play,1,0,wests101,??,,S8/8S.3-H;2-H;1-2
+play,1,0,goocc101,??,,NP
+sub,mckah101,"Hal McKain",1,9,1
+play,1,0,goocc101,??,,15(2)/FO.1-2
+play,1,0,cronj101,??,,S7.2-H;1-3
+play,1,0,hayej101,??,,S8.3-H;1-3
+play,1,0,thomm101,??,,64(1)/FO.3-H;BX1(4E3)
+play,1,0,judgj101,??,,S/89.1-3
+play,1,0,rices101,??,,W.1-2
+play,1,0,goslg101,??,,W.3-H(UR);2-3;1-2
+play,1,0,tateb101,??,,54(1)/FO
+play,1,1,metza101,??,,S7
+play,1,1,cissb101,??,,9/L
+play,1,1,reync102,??,,9/L
+play,1,1,shira101,??,,8
+play,2,0,wests101,??,,S
+play,2,0,goocc101,??,,W.1-2
+play,2,0,cronj101,??,,9/SF.2-3
+play,2,0,hayej101,??,,FC3.3-3;1X3(3252);B-1
+com,"During run down, both West and Gooch were caught at 3B"
+play,2,0,thomm101,??,,6/P
+play,2,1,kammw101,??,,E6/TH1
+com,"High throw"
+play,2,1,hoffd102,??,,FLE3
+play,2,1,hoffd102,??,,46(1)/FO
+play,2,1,kerrj102,??,,W.1-2
+play,2,1,bergm103,??,,64(1)3/GDP
+play,3,0,judgj101,??,,3/L
+play,3,0,rices101,??,,53
+play,3,0,goslg101,??,,W
+play,3,0,tateb101,??,,46(1)/FO
+play,3,1,mckah101,??,,S
+play,3,1,metza101,??,,D.1-3
+play,3,1,cissb101,??,,8/SF.3-H
+play,3,1,reync102,??,,3/FL
+play,3,1,shira101,??,,W
+play,3,1,kammw101,??,,2/FL
+play,4,0,wests101,??,,6/P
+play,4,0,goocc101,??,,W
+play,4,0,cronj101,??,,HR/F7D.1-H
+com,"Into LF pavilion"
+play,4,0,hayej101,??,,8/L
+play,4,0,thomm101,??,,43
+play,4,1,hoffd102,??,,63
+play,4,1,kerrj102,??,,S5/G
+com,"Bounced off Gooch's shoulder"
+play,4,1,bergm103,??,,4/P
+play,4,1,mckah101,??,,W.1-2
+play,4,1,metza101,??,,5/FL
+play,5,0,judgj101,??,,NP
+sub,croub101,"Buck Crouse",1,8,2
+play,5,0,judgj101,??,,3/G
+play,5,0,rices101,??,,W
+play,5,0,goslg101,??,,T9/L.1-H
+com,"Reynolds misjudged it"
+play,5,0,tateb101,??,,43.3-H
+play,5,0,wests101,??,,S8
+play,5,0,goocc101,??,,D7.1-3
+play,5,0,cronj101,??,,K
+play,5,1,cissb101,??,,43
+play,5,1,reync102,??,,T/89
+play,5,1,shira101,??,,13
+play,5,1,kammw101,??,,7
+play,6,0,hayej101,??,,S9.B-2(E9)
+com,"Reynolds booted it around"
+play,6,0,thomm101,??,,63.2-3
+play,6,0,judgj101,??,,NP
+sub,bossh101,"Harley Boss",0,1,11
+play,6,0,bossh101,??,,9
+play,6,0,rices101,??,,6/P
+play,6,1,hoffd102,??,,NP
+sub,bossh101,"Harley Boss",0,1,3
+play,6,1,hoffd102,??,,99
+play,6,1,kerrj102,??,,99
+play,6,1,croub101,??,,99
+play,7,0,goslg101,??,,99
+play,7,0,tateb101,??,,99
+play,7,0,wests101,??,,99
+play,7,1,mckah101,??,,99
+play,7,1,metza101,??,,S
+play,7,1,cissb101,??,,E6.1-2
+play,7,1,reync102,??,,99(1)/FO.2-3
+play,7,1,shira101,??,,S.3-H(UR);1-2
+play,7,1,kammw101,??,,99
+play,8,0,goocc101,??,,K
+play,8,0,cronj101,??,,S
+play,8,0,hayej101,??,,99
+play,8,0,thomm101,??,,99
+play,8,1,hoffd102,??,,99
+play,8,1,kerrj102,??,,99
+play,8,1,croub101,??,,S
+play,8,1,mckah101,??,,W.1-2
+play,8,1,metza101,??,,99
+play,9,0,bossh101,??,,S
+play,9,0,rices101,??,,46(1)3/GDP
+play,9,0,goslg101,??,,99
+play,9,1,cissb101,??,,S
+play,9,1,reync102,??,,S.1-3
+play,9,1,shira101,??,,99.3-H;1-2
+play,9,1,kammw101,??,,99
+play,9,1,hoffd102,??,,99
+data,er,thomm101,2
+data,er,walse102,4
+data,er,mckah101,5
+id,CHA192908150
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,WS1
+info,hometeam,CHA
+info,date,1929/08/15
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,translator,"Dick Cramer"
+info,inputter,"Dick Cramer"
+info,inputtime,2020/03/25 11:00AM
+info,scorer,"111,222,101"
+info,umphome,hildg101
+info,ump1b,ormsr901
+info,ump2b,(none)
+info,ump3b,guthb901
+info,howscored,unknown
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,114
+info,attendance,0
+info,wp,marbf101
+info,lp,faber101
+info,save,braxg101
+info,gwrbi,
+start,judgj101,"Joe Judge",0,1,3
+start,rices101,"Sam Rice",0,2,9
+start,goslg101,"Goose Goslin",0,3,7
+start,tateb101,"Bennie Tate",0,4,2
+start,wests101,"Sam West",0,5,8
+start,goocc101,"Charlie Gooch",0,6,5
+start,cronj101,"Joe Cronin",0,7,6
+start,hayej101,"Jackie Hayes",0,8,4
+start,marbf101,"Firpo Marberry",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,cissb101,"Bill Cissell",1,2,6
+start,reync102,"Carl Reynolds",1,3,9
+start,shira101,"Art Shires",1,4,3
+start,hoffd102,"Dutch Hoffman",1,5,8
+start,kammw101,"Willie Kamm",1,6,5
+start,kerrj102,"John Kerr",1,7,4
+start,bergm103,"Moe Berg",1,8,2
+start,faber101,"Red Faber",1,9,1
+play,1,0,judgj101,??,,S8
+play,1,0,rices101,??,,8/L
+play,1,0,goslg101,??,,54(1)/FO
+play,1,0,tateb101,??,,8/F
+play,1,1,metza101,??,,W
+play,1,1,cissb101,??,,CS2(14)
+play,1,1,cissb101,??,,9/F
+com,"ej,cissb101,P,hildg101,Balls and strikes"
+com,"$Cissell ejected by HP umpire Hildebrand for arguing"
+com,"balls and strikes after he flied out"
+play,1,1,reync102,??,,K
+play,2,0,wests101,??,,NP
+sub,clanb101,"Bud Clancy",1,2,3
+play,2,0,wests101,??,,NP
+sub,shira101,"Art Shores",1,4,4
+play,2,0,wests101,??,,NP
+sub,kerrj102,"John Kerr",1,7,6
+play,2,0,wests101,??,,13
+play,2,0,goocc101,??,,K
+play,2,0,cronj101,??,,W
+play,2,0,hayej101,??,,43
+play,2,1,shira101,??,,9/L
+play,2,1,hoffd102,??,,99
+play,2,1,kammw101,??,,43
+play,3,0,marbf101,??,,5/L
+play,3,0,judgj101,??,,S9
+play,3,0,rices101,??,,CS2(24)
+play,3,0,rices101,??,,43
+play,3,1,kerrj102,??,,8/F
+play,3,1,bergm103,??,,9/F
+play,3,1,faber101,??,,6/P
+play,4,0,goslg101,??,,3/L
+play,4,0,tateb101,??,,T7
+play,4,0,wests101,??,,S9.3-H
+play,4,0,goocc101,??,,S7.1-3;BX2(74)
+play,4,0,cronj101,??,,W
+play,4,0,hayej101,??,,SB2.3-H(E3/TH)(UR)
+play,4,0,hayej101,??,,S.2-H(UR)
+play,4,0,marbf101,??,,64(1)/FO
+play,4,1,metza101,??,,7/F
+play,4,1,clanb101,??,,S8
+play,4,1,reync102,??,,7/F
+play,4,1,shira101,??,,S4.1-2
+play,4,1,hoffd102,??,,E6.2-3;1-2
+play,4,1,kammw101,??,,9/F
+play,5,0,judgj101,??,,S9
+play,5,0,rices101,??,,S3/BG.1-2
+play,5,0,goslg101,??,,5(B)4(2)/LDP
+play,5,0,tateb101,??,,64(1)/FO
+play,5,1,kerrj102,??,,S8
+play,5,1,bergm103,??,,S9.1-3
+play,5,1,faber101,??,,46(1)3/GDP.3-H(RBI)
+play,5,1,metza101,??,,3/G
+play,6,0,wests101,??,,23
+play,6,0,goocc101,??,,8/L
+play,6,0,cronj101,??,,63
+play,6,1,clanb101,??,,8/L
+play,6,1,reync102,??,,D7
+play,6,1,shira101,??,,FC.2-3;BX2(1626)
+play,6,1,hoffd102,??,,7/F
+play,7,0,hayej101,??,,S
+play,7,0,marbf101,??,,99/SH.1-2
+play,7,0,judgj101,??,,99
+play,7,0,rices101,??,,S.2-H
+play,7,0,goslg101,??,,HR.1-H
+play,7,0,tateb101,??,,99
+play,7,1,kammw101,??,,NP
+sub,braxg101,"Garland Braxton",0,9,1
+play,7,1,kammw101,??,,99
+play,7,1,kerrj102,??,,S
+play,7,1,bergm103,??,,S.1-2
+play,7,1,faber101,??,,NP
+sub,autrc102,"Chick Autrey",1,9,11
+play,7,1,autrc102,??,,E6.2-3;1-2
+play,7,1,metza101,??,,12(3)3/GDP.2-3;1-2
+play,8,0,wests101,??,,NP
+sub,adkig101,"G Adkins",1,9,1
+play,8,0,wests101,??,,99
+play,8,0,goocc101,??,,W
+play,8,0,cronj101,??,,CS2(99)
+play,8,0,cronj101,??,,D
+play,8,0,hayej101,??,,S.2-3
+play,8,0,braxg101,??,,D9.3-H;1-H
+play,8,0,judgj101,??,,99
+play,8,1,clanb101,??,,99
+play,8,1,reync102,??,,E6
+play,8,1,shira101,??,,99
+play,8,1,hoffd102,??,,99
+play,9,0,rices101,??,,S
+play,9,0,goslg101,??,,S.1-3
+play,9,0,tateb101,??,,99/SF.3-H
+play,9,0,wests101,??,,99(1)/FO
+play,9,0,goocc101,??,,SB2
+play,9,0,goocc101,??,,W
+play,9,0,cronj101,??,,W.2-3;1-2
+play,9,0,hayej101,??,,99
+play,9,1,kammw101,??,,W
+play,9,1,kerrj102,??,,D.1-H
+play,9,1,bergm103,??,,99
+play,9,1,adkig101,??,,NP
+sub,thomt103,"Tommy Thomas",1,9,11
+play,9,1,thomt103,??,,W
+play,9,1,metza101,??,,S.2-H;1-2
+play,9,1,clanb101,??,,S.2-H;1-2
+play,9,1,reync102,??,,36(1)3/GDP
+data,er,marbf101,1
+data,er,braxg101,3
+data,er,faber101,4
 data,er,adkig101,3
 id,CHA192908160
 version,1
@@ -6907,8 +9229,8 @@ start,bergm103,"Moe Berg",1,8,2
 start,faber101,"Red Faber",1,9,1
 com,"$It's Red Faber Day at Comiskey Park.  Before the game, the"
 com,"veteran ace spitball twirler was presented with a check for"
-com,"$2,700, a beautiful Majestic radio set, a diamond ring, the"
-com,"customary travelling bag, and several baskets of flowers."
+com,"2,700 dollars, a beautiful Majestic radio set, a diamond ring"
+com,"the customary travelling bag, and several baskets of flowers."
 play,1,0,byrds101,??,,63
 com,"Fine play"
 play,1,0,robeg101,??,,T9/89XDW
@@ -7271,7 +9593,6 @@ play,7,1,metza101,??,,9/L
 play,8,0,bishm102,??,,7
 play,8,0,haasm101,??,,E6/G
 play,8,0,cochm101,??,,FC3.1-3(E3/TH2);B-1
-com,"Shires fell in fielding the ball, then threw into LF"
 play,8,0,millb110,??,,T/89.3-H(UR);1-H(UR)
 play,8,0,foxxj101,??,,E5/G.3-H(NR)(UR)
 play,8,0,summh101,??,,5/P
@@ -7601,11 +9922,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"276,266"
+info,scorer,"276"
 info,translator,"Cliff Blau"
 info,inputter,"Cliff Blau"
-info,translator,"Wayne Townsend"
-info,inputter,"Wayne Townsend"
 info,inputtime,2017/03/20 3:49PM
 info,umphome,vangr901
 info,ump1b,morig101
@@ -7913,7 +10232,7 @@ play,1,1,metza101,??,,2/FL
 play,1,1,cissb101,??,,S5/G
 com,"High bounder"
 play,1,1,reync102,??,,W.1-2
-play,1,1,shira101,??,,PB.2-H(E2/TH2);1-3
+play,1,1,shira101,??,,PB.2-H(E2/TH2)(UR);1-3
 com,"Short passed ball"
 play,1,1,shira101,??,,W
 play,1,1,watwj101,??,,FC3/NDP.3XH(325);1XH(71)
@@ -8011,7 +10330,7 @@ play,9,1,cissb101,??,,43.1-2
 play,9,1,reync102,??,,DI.2-3
 play,9,1,reync102,??,,S8.3-H
 play,9,1,shira101,??,,3(B)3(1)/LDP
-data,er,ferrw101,4
+data,er,ferrw101,3
 data,er,mckah101,4
 data,er,adkig101,2
 data,er,byrnj102,0
@@ -8581,3 +10900,144 @@ play,9,0,alexd101,??,,43
 data,er,herra101,9
 data,er,sorrv101,1
 data,er,henrd101,5
+id,CHA192910050
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,DET
+info,hometeam,CHA
+info,date,1929/10/05
+info,site,CHI10
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,translator,"Dick Cramer"
+info,inputter,"Dick Cramer"
+info,inputtime,2020/03/29 11:00AM
+info,scorer,"111,56"
+info,umphome,vangr901
+info,ump1b,geish901
+info,ump2b,(none)
+info,ump3b,morig101
+info,howscored,unknown
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,103
+info,attendance,500
+info,wp,white102
+info,lp,byrnj102
+info,save,
+info,gwrbi,
+start,johnr102,"Roy Johnson",0,1,9
+start,riceh101,"Harry Rice",0,2,8
+start,gehrc101,"Charlie Gehringer",0,3,4
+start,alexd101,"Dale Alexander",0,4,3
+start,stonj102,"John Stone",0,5,7
+start,mcmam101,"Marty McManus",0,6,5
+start,akerb101,"Bill Akers",0,7,6
+start,haywr101,"Ray Hayworth",0,8,2
+start,white102,"Earl Whitehill",0,9,1
+start,metza101,"Alex Metzler",1,1,7
+start,clanb101,"Bud Clancy",1,2,3
+start,reync102,"Carl Reynolds",1,3,9
+start,hoffd102,"Dutch Hoffman",1,4,8
+start,kammw101,"Willie Kamm",1,5,5
+start,cissb101,"Bill Cissell",1,6,6
+start,kerrj102,"John Kerr",1,7,4
+start,autrc102,"Chick Autry",1,8,2
+start,byrnj102,"Jerry Byrne",1,9,1
+play,1,0,johnr102,??,,W
+play,1,0,riceh101,??,,99
+play,1,0,gehrc101,??,,D.1-H
+play,1,0,alexd101,??,,99
+play,1,0,stonj102,??,,W
+play,1,0,mcmam101,??,,S.2-3;1-2
+play,1,0,akerb101,??,,99
+play,1,1,metza101,??,,99
+play,1,1,clanb101,??,,S
+play,1,1,reync102,??,,99
+play,1,1,hoffd102,??,,99
+play,2,0,haywr101,??,,K
+play,2,0,white102,??,,99
+play,2,0,johnr102,??,,99
+play,2,1,kammw101,??,,99
+play,2,1,cissb101,??,,S
+play,2,1,kerrj102,??,,99
+play,2,1,autrc102,??,,99
+play,3,0,riceh101,??,,W
+play,3,0,gehrc101,??,,W.1-2
+play,3,0,alexd101,??,,99/SF.2-3
+play,3,0,stonj102,??,,S.3-H;1-2
+play,3,0,mcmam101,??,,54(1)3/GDP
+play,3,1,byrnj102,??,,99
+play,3,1,metza101,??,,T
+play,3,1,clanb101,??,,S.3-H
+play,3,1,reync102,??,,D.1-3
+play,3,1,hoffd102,??,,99/SF.3-H
+play,3,1,kammw101,??,,99
+play,4,0,akerb101,??,,W
+play,4,0,haywr101,??,,S.1-2
+play,4,0,white102,??,,99(2)/FO.1-2
+play,4,0,johnr102,??,,99/SF.2-3
+play,4,0,riceh101,??,,S.3-H;1-2
+play,4,0,gehrc101,??,,99
+play,4,1,cissb101,??,,99
+play,4,1,kerrj102,??,,99
+play,4,1,autrc102,??,,99
+play,5,0,alexd101,??,,S5/G
+play,5,0,stonj102,??,,99(1)/FO
+play,5,0,mcmam101,??,,D.1-3
+play,5,0,akerb101,??,,S9.3-H;2-3
+play,5,0,haywr101,??,,S.3-H;1-2
+play,5,0,white102,??,,NP
+sub,adkig101,"G Adkins",1,9,1
+play,5,0,white102,??,,99
+play,5,0,johnr102,??,,99
+play,5,1,adkig101,??,,K
+play,5,1,metza101,??,,99
+play,5,1,clanb101,??,,99
+play,6,0,riceh101,??,,99
+play,6,0,gehrc101,??,,99
+play,6,0,alexd101,??,,D
+play,6,0,stonj102,??,,W
+play,6,0,mcmam101,??,,K
+play,6,1,reync102,??,,S
+play,6,1,hoffd102,??,,SB2
+play,6,1,hoffd102,??,,99
+play,6,1,kammw101,??,,99
+play,6,1,cissb101,??,,99
+play,7,0,akerb101,??,,99
+play,7,0,haywr101,??,,S
+play,7,0,white102,??,,S.1-3
+play,7,0,johnr102,??,,99.3-H
+play,7,0,riceh101,??,,99
+play,7,1,kerrj102,??,,S
+play,7,1,autrc102,??,,99
+play,7,1,adkig101,??,,K
+play,7,1,metza101,??,,99
+play,8,0,gehrc101,??,,99
+play,8,0,alexd101,??,,99
+play,8,0,stonj102,??,,99
+play,8,1,clanb101,??,,99
+play,8,1,reync102,??,,99
+play,8,1,hoffd102,??,,D
+play,8,1,kammw101,??,,S.2-H
+play,8,1,cissb101,??,,99
+play,9,0,mcmam101,??,,S
+play,9,0,akerb101,??,,99
+play,9,0,haywr101,??,,S.1-2
+play,9,0,white102,??,,99
+play,9,0,johnr102,??,,99
+play,9,1,kerrj102,??,,99
+play,9,1,autrc102,??,,99
+play,9,1,adkig101,??,,NP
+sub,bergm103,"Moe Berg",1,9,11
+play,9,1,bergm103,??,,99
+data,er,white102,3
+data,er,byrnj102,5
+data,er,adkig101,1

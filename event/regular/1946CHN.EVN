@@ -493,7 +493,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,144
-info,attendance,11126
+info,attendance,10926
 info,wp,gregh102
 info,lp,flemb101
 info,save,
@@ -647,7 +647,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,151
+info,timeofgame,154
 info,attendance,6988
 info,wp,herra101
 info,lp,chipb101
@@ -1245,8 +1245,8 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,timeofgame,140
-info,attendance,0
+info,timeofgame,130
+info,attendance,45505
 info,sky,unknown
 info,wp,mulld101
 info,lp,passc101
@@ -1735,13 +1735,13 @@ info,umphome,stewb901
 info,ump1b,dunnt901
 info,ump2b,henlb101
 info,ump3b,mageg901
-info,scorer,"137,140,68,111"
-info,translator,"Jim Wohlenhaus"
-info,inputter,"David W. Smith"
+info,scorer,"137,140,68,111,276"
+info,translator,"Jim Wohlenhaus/Townsend"
+info,inputter,"David W. Smith/Townsend"
 info,inputtime,2015/01/22 7:15AM
 info,howscored,park
 info,pitches,none
-info,temp,0
+info,temp,43
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -1771,81 +1771,84 @@ start,lowrp101,"Peanuts Lowrey",1,6,7
 start,livim101,"Mickey Livingston",1,7,2
 start,jurgb101,"Billy Jurges",1,8,6
 start,passc101,"Claude Passeau",1,9,1
-play,1,0,handl101,??,,99
+com,"Weather: cold wind blowing in from Lake Michigan"
+play,1,0,handl101,??,,43
 play,1,0,gustf101,??,,K
-play,1,0,russj102,??,,99
+play,1,0,russj102,??,,4/P
 play,1,1,hacks101,??,,K
 play,1,1,stril101,??,,K
-play,1,1,waite101,??,,99
-play,2,0,colmf101,??,,K
-play,2,0,flete101,??,,S
+play,1,1,waite101,??,,5/FL
+play,2,0,colmf101,??,,4
+play,2,0,flete101,??,,S3
 play,2,0,ellib103,??,,PB.1-2
-play,2,0,ellib103,??,,K
-play,2,0,cox-b101,??,,K
+play,2,0,ellib103,??,,53
+play,2,0,cox-b101,??,,K23
 play,2,1,cavap101,??,,W
-play,2,1,pafka101,??,,99/P
-play,2,1,lowrp101,??,,S.1-2
-play,2,1,livim101,??,,S.2-H;1-3
-play,2,1,jurgb101,??,,3(B)3(1)/LDP
-play,3,0,salkb101,??,,99
-play,3,0,heink101,??,,99
-play,3,0,handl101,??,,S
-play,3,0,gustf101,??,,S.1-2
-play,3,0,russj102,??,,99
-play,3,1,passc101,??,,99
-play,3,1,hacks101,??,,99
-play,3,1,stril101,??,,99
-play,4,0,colmf101,??,,S
-play,4,0,flete101,??,,S.1-3
-play,4,0,ellib103,??,,8.3-H;1-3(E8/TH)
+play,2,1,pafka101,??,,4/P
+play,2,1,lowrp101,??,,S7.1-2
+play,2,1,livim101,??,,S8.2-H;1-3
+play,2,1,jurgb101,??,,3/LDP.1X1(3)
+play,3,0,salkb101,??,,8
+play,3,0,heink101,??,,53
+play,3,0,handl101,??,,S9
+play,3,0,gustf101,??,,S7.1-2
+play,3,0,russj102,??,,3
+play,3,1,passc101,??,,13
+play,3,1,hacks101,??,,6/P
+play,3,1,stril101,??,,S8
+play,3,1,waite101,??,,53
+play,4,0,colmf101,??,,S9
+play,4,0,flete101,??,,S9.1-3
+play,4,0,ellib103,??,,8/L.3-H;1-3(E8/THH)
 play,4,0,cox-b101,??,,13
 play,4,0,salkb101,??,,W
-play,4,0,heink101,??,,99/G
-play,4,1,waite101,??,,S
-play,4,1,cavap101,??,,46(1)3/GDP
-play,4,1,pafka101,??,,S
-play,4,1,lowrp101,??,,99
-play,5,0,handl101,??,,99
+play,4,0,heink101,??,,9
+play,4,1,cavap101,??,,63
+play,4,1,pafka101,??,,53
+play,4,1,lowrp101,??,,7
+play,5,0,handl101,??,,63
 play,5,0,gustf101,??,,W
-play,5,0,russj102,??,,99
-play,5,0,colmf101,??,,99
+play,5,0,russj102,??,,7
+play,5,0,colmf101,??,,3
 play,5,1,livim101,??,,W
-play,5,1,jurgb101,??,,99(1)/FO
+play,5,1,jurgb101,??,,16(1)/FO/BG
 play,5,1,passc101,??,,K
 play,5,1,hacks101,??,,W.1-2
 play,5,1,stril101,??,,S.2-H;1-2
-play,5,1,waite101,??,,D.2-H;1-3
-play,5,1,cavap101,??,,99
-play,6,0,flete101,??,,K
-play,6,0,ellib103,??,,99
-play,6,0,cox-b101,??,,99
-play,6,1,pafka101,??,,E4
-play,6,1,lowrp101,??,,99/SH.1-2
+play,5,1,waite101,??,,D9/F9S.2-H;1-3
+com,"Wind-aided double"
+play,5,1,cavap101,??,,3/P
+play,6,0,flete101,??,,9
+play,6,0,ellib103,??,,K
+play,6,0,cox-b101,??,,3/FL
+play,6,1,pafka101,??,,S8
+play,6,1,lowrp101,??,,53/SH.1-2
 play,6,1,livim101,??,,W
-play,6,1,jurgb101,??,,99
-play,6,1,passc101,??,,99
-play,7,0,salkb101,??,,99
+play,6,1,jurgb101,??,,8
+play,6,1,passc101,??,,46(1)/FO
+play,7,0,salkb101,??,,3
 play,7,0,heink101,??,,NP
 sub,giona101,"Al Gionfriddo",0,9,11
-play,7,0,giona101,??,,99
-play,7,0,handl101,??,,99
+play,7,0,giona101,??,,3
+play,7,0,handl101,??,,63
 play,7,1,hacks101,??,,NP
 sub,gerha101,"Al Gerheauser",0,9,1
-play,7,1,hacks101,??,,99
-play,7,1,stril101,??,,S
-play,7,1,waite101,??,,99
-play,7,1,cavap101,??,,99
-play,8,0,gustf101,??,,99
-play,8,0,russj102,??,,99
-play,8,0,colmf101,??,,99
-play,8,1,pafka101,??,,99
-play,8,1,lowrp101,??,,99
-play,8,1,livim101,??,,S
+play,7,1,hacks101,??,,E4
+play,7,1,stril101,??,,FC.1-2
+play,7,1,waite101,??,,PO2(16)
+play,7,1,waite101,??,,S7.1-2
+play,7,1,cavap101,??,,46(1)3/GDP
+play,8,0,gustf101,??,,8
+play,8,0,russj102,??,,8
+play,8,0,colmf101,??,,K
+play,8,1,pafka101,??,,8
+play,8,1,lowrp101,??,,13
+play,8,1,livim101,??,,S4
 play,8,1,jurgb101,??,,K
-play,9,0,flete101,??,,99
-play,9,0,ellib103,??,,99
-play,9,0,cox-b101,??,,S
-play,9,0,salkb101,??,,S.1-2
+play,9,0,flete101,??,,K
+play,9,0,ellib103,??,,13
+play,9,0,cox-b101,??,,S7/L
+play,9,0,salkb101,??,,S9.1-3
 play,9,0,gerha101,??,,NP
 sub,zak-f101,"Frankie Zak",0,8,12
 play,9,0,gerha101,??,,NP
@@ -4058,8 +4061,8 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,timeofgame,110
-info,attendance,0
+info,timeofgame,163
+info,attendance,7165
 info,sky,unknown
 info,wp,rippc101
 info,lp,meerr101
@@ -4245,7 +4248,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,timeofgame,119
-info,attendance,0
+info,attendance,7809
 info,sky,unknown
 info,wp,mulch101
 info,lp,wyseh101
@@ -6741,7 +6744,7 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,timeofgame,134
+info,timeofgame,139
 info,attendance,0
 info,sky,unknown
 info,wp,bithh101
@@ -7029,8 +7032,8 @@ info,ump1b,barrg901
 info,ump2b,(none)
 info,ump3b,conlj102
 info,scorer,"276"
-info,translator,"M. Pankin"
-info,inputter,"M. Pankin"
+info,translator,"M. Pankin/Townsend"
+info,inputter,"M. Pankin/Townsend"
 info,inputtime,2015/03/24 10:19PM
 info,howscored,park
 info,pitches,none
@@ -7089,7 +7092,6 @@ play,3,1,johnd101,??,,53
 play,4,0,nortr101,??,,3/P
 play,4,0,mccof101,??,,8
 play,4,0,ennid101,??,,S8.B-2(E8)
-com,"Not sure of Pafko error, may have been in 7th"
 play,4,0,taboj101,??,,9
 play,4,1,waite101,??,,13
 play,4,1,cavap101,??,,W
@@ -7104,10 +7106,10 @@ play,5,1,boroh101,??,,34/SH.1-2
 play,5,1,lowrp101,??,,7
 play,6,0,gilbc101,??,,8
 play,6,0,hughr101,??,,53
-play,6,0,nortr101,??,,99
-play,6,1,johnd101,??,,D7
-play,6,1,waite101,??,,S8.2-3;B-2(TH)
-play,6,1,cavap101,??,,S9.3-H;2-3
+play,6,0,nortr101,??,,7
+play,6,1,johnd101,??,,D7/7L
+play,6,1,waite101,??,,S8/L8S.2-3;B-2(THH)
+play,6,1,cavap101,??,,S9/G4.3-H;2-3
 play,6,1,pafka101,??,,9.3-H
 play,6,1,rickm101,??,,46(1)/FO
 play,6,1,mccuc101,??,,63
@@ -7124,15 +7126,16 @@ play,7,1,cavap101,??,,K
 play,8,0,verbe101,??,,S5
 play,8,0,juddo101,??,,6(1)3/GDP
 play,8,0,gilbc101,??,,S
-play,8,0,hughr101,??,,99
+play,8,0,hughr101,??,,53
 play,8,1,pafka101,??,,8
 play,8,1,rickm101,??,,13
 play,8,1,mccuc101,??,,S6
 play,8,1,jurgb101,??,,K
-play,9,0,nortr101,??,,99
-play,9,0,mccof101,??,,99
-play,9,0,ennid101,??,,D7
-play,9,0,taboj101,??,,99
+play,9,0,nortr101,??,,3
+play,9,0,mccof101,??,,53
+play,9,0,ennid101,??,,D7/F78D
+com,"Rickert dropped it after nearly colliding with Pafko"
+play,9,0,taboj101,??,,9
 data,er,juddo101,3
 data,er,boroh101,0
 id,CHN194607212
@@ -8260,6 +8263,155 @@ sub,waite101,"Eddie Waitkus",1,8,11
 play,9,1,waite101,??,,W.3-H;2-3;1-2
 data,er,bahre101,2
 data,er,schmj101,1
+id,CHN194608180
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,PIT
+info,hometeam,CHN
+info,site,CHI11
+info,date,1946/08/18
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,umphome,jordl901
+info,ump1b,rearb901
+info,ump2b,(none)
+info,ump3b,goetl901
+info,scorer,"276,137,140,68,111"
+info,translator,"Jim Wohlenhaus/Townsend"
+info,inputter,"David W. Smith/Townsend"
+info,inputtime,2015/04/25 3:17PM
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,128
+info,attendance,30965
+info,wp,ericp101
+info,lp,hallj105
+info,save,
+info,gwrbi,
+start,handl101,"Lee Handley",0,1,5
+start,flete101,"Elbie Fletcher",0,2,3
+start,workc101,"Chuck Workman",0,3,9
+start,kiner101,"Ralph Kiner",0,4,7
+start,russj102,"Jim Russell",0,5,8
+start,browj107,"Jimmy Brown",0,6,4
+start,cox-b101,"Billy Cox",0,7,6
+start,salkb101,"Bill Salkeld",0,8,2
+start,hallj105,"Jack Hallett",0,9,1
+start,ostrj102,"Johnny Ostrowski",1,1,5
+start,johnd101,"Don Johnson",1,2,4
+start,rickm101,"Marv Rickert",1,3,9
+start,cavap101,"Phil Cavarretta",1,4,3
+start,lowrp101,"Peanuts Lowrey",1,5,8
+start,dalld101,"Dom Dallessandro",1,6,7
+start,livim101,"Mickey Livingston",1,7,2
+start,sturb101,"Bobby Sturgeon",1,8,6
+start,ericp101,"Paul Erickson",1,9,1
+play,1,0,handl101,??,,8
+play,1,0,flete101,??,,8
+play,1,0,workc101,??,,9
+play,1,1,ostrj102,??,,W
+play,1,1,johnd101,??,,S7.1-2
+play,1,1,rickm101,??,,S7/7S.2-3;1-2
+play,1,1,cavap101,??,,S8/8S.3-H;2-3;1-2
+play,1,1,lowrp101,??,,7/F.3-H
+play,1,1,dalld101,??,,NP
+sub,gerha101,"Al Gerheauser",0,9,1
+play,1,1,dalld101,??,,S7.2-H;1-2
+play,1,1,livim101,??,,D8.2-H;1-H;B-3(E6/THH)
+play,1,1,sturb101,??,,63
+play,1,1,ericp101,??,,8
+play,2,0,kiner101,??,,W
+play,2,0,russj102,??,,36(1)/FO
+play,2,0,browj107,??,,36(1)/FO
+play,2,0,cox-b101,??,,K
+play,2,1,ostrj102,??,,9
+play,2,1,johnd101,??,,S9
+play,2,1,rickm101,??,,6(1)3/GDP
+play,3,0,salkb101,??,,W
+play,3,0,gerha101,??,,NP
+sub,vanrm101,"Maurice Van Robays",0,9,11
+play,3,0,vanrm101,??,,K
+play,3,0,handl101,??,,53/SH.1-2
+play,3,0,flete101,??,,6/P
+play,3,1,cavap101,??,,NP
+sub,gablk101,"Ken Gables",0,9,1
+play,3,1,cavap101,??,,43
+play,3,1,lowrp101,??,,53
+play,3,1,dalld101,??,,K
+play,4,0,workc101,??,,5/P
+play,4,0,kiner101,??,,4/P
+play,4,0,russj102,??,,9
+play,4,1,livim101,??,,43
+play,4,1,sturb101,??,,S5
+play,4,1,ericp101,??,,53/SH.1-2
+play,4,1,ostrj102,??,,K
+play,5,0,browj107,??,,163
+play,5,0,cox-b101,??,,63
+play,5,0,salkb101,??,,K
+play,5,1,johnd101,??,,3/P
+play,5,1,rickm101,??,,8
+play,5,1,cavap101,??,,9
+play,6,0,gablk101,32,,W
+play,6,0,handl101,??,,E3/G.1-2
+play,6,0,flete101,??,,9(B)6(1)/LDP/L9S.2-3
+com,"Rickert: running catch"
+com,"ej,flete101,P,jordl901,Balls and Strikes"
+com,"$Fletcher ejected from bench by HP umpire Jorda for"
+com,"continuing to complain about walk to Gables earlier"
+com,"in the inning; Gables had apparently walked, but Cubs"
+com,"protested there had only been three balls; Jorda"
+com,"agreed and brought Gables back to the plate where he"
+com,"then took ball 4 to complete the walk"
+play,6,0,workc101,??,,W
+play,6,0,kiner101,??,,4/L
+com,"Johnson: leaping catch"
+play,6,1,lowrp101,??,,NP
+sub,bakeb101,"Bill Baker",0,2,3
+play,6,1,lowrp101,??,,T/89D
+play,6,1,dalld101,??,,HR/F9D.3-H
+com,"Into RF seats"
+play,6,1,livim101,??,,HP
+play,6,1,sturb101,??,,S8.1-2
+play,6,1,ericp101,??,,7
+play,6,1,ostrj102,??,,K
+play,6,1,johnd101,??,,S7.2-H;1-2
+play,6,1,rickm101,??,,K
+play,7,0,russj102,??,,7/F7DW
+com,"Dallessandro: good catch against the wall"
+play,7,0,browj107,??,,W
+play,7,0,cox-b101,??,,S7/G5.1-2
+play,7,0,salkb101,??,,W.2-3;1-2
+play,7,0,gablk101,??,,NP
+sub,whitb101,"Burgess Whitehead",0,9,11
+play,7,0,whitb101,??,,64(1)3/GDP
+play,7,1,cavap101,??,,NP
+sub,gornh101,"Hank Gornicki",0,9,1
+play,7,1,cavap101,??,,W
+play,7,1,lowrp101,??,,4(1)3/GDP
+play,7,1,dalld101,??,,W
+play,7,1,livim101,??,,7
+play,8,0,handl101,??,,43
+play,8,0,bakeb101,??,,8
+play,8,0,workc101,??,,4/P
+play,8,1,sturb101,??,,7
+play,8,1,ericp101,??,,43
+play,8,1,ostrj102,??,,4/P
+play,9,0,kiner101,??,,63
+play,9,0,russj102,??,,43
+play,9,0,browj107,??,,63
+data,er,hallj105,4
+data,er,gerha101,1
+data,er,gablk101,3
+data,er,gornh101,0
+data,er,ericp101,0
 id,CHN194608201
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8996,9 +9148,9 @@ info,umphome,barrg901
 info,ump1b,conlj102
 info,ump2b,(none)
 info,ump3b,boggd901
-info,scorer,"68,111,104,99,98,103,395,96"
-info,translator,"Tom Thress"
-info,inputter,"David W. Smith"
+info,scorer,"276,68,111,104,99,98,103,395,96"
+info,translator,"Tom Thress/Townsend"
+info,inputter,"David W. Smith/Townsend"
 info,inputtime,2015/04/22 1:07PM
 info,howscored,park
 info,pitches,none
@@ -9007,7 +9159,7 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,116
 info,attendance,37038
 info,wp,boroh101
@@ -9032,85 +9184,88 @@ start,pafka101,"Andy Pafko",1,6,8
 start,livim101,"Mickey Livingston",1,7,2
 start,stril101,"Lou Stringer",1,8,4
 start,boroh101,"Hank Borowy",1,9,1
-play,1,0,blatb101,??,,99
-play,1,0,roseg101,??,,D
-play,1,0,marsw101,??,,99
-play,1,0,coopw102,??,,99
-play,1,1,ostrj102,??,,99
-play,1,1,sturb101,??,,99
-play,1,1,waite101,??,,S3
+play,1,0,blatb101,??,,2
+play,1,0,roseg101,??,,D6/P
+com,"Sturgeon lost it in the sun"
+play,1,0,marsw101,??,,7
+play,1,0,coopw102,??,,13
+play,1,1,ostrj102,??,,63
+play,1,1,sturb101,??,,9
+play,1,1,waite101,??,,S3/G
 play,1,1,cavap101,??,,D/78.1-H
-play,1,1,lowrp101,??,,99
-play,2,0,younb102,??,,99
+play,1,1,lowrp101,??,,9
+play,2,0,younb102,??,,9
 play,2,0,gords101,??,,S
 play,2,0,grahj101,??,,K
 play,2,0,kerrb101,??,,K
 play,2,1,pafka101,??,,S
-play,2,1,livim101,??,,99
-play,2,1,stril101,??,,E4/G.1-2
+play,2,1,livim101,??,,1
+play,2,1,stril101,??,,FC5.1X2(5E4)
 play,2,1,boroh101,??,,K
-play,2,1,ostrj102,??,,99
-play,3,0,kosld101,??,,S5
-play,3,0,blatb101,??,,HR/7.1-H
-play,3,0,roseg101,??,,99
-play,3,0,marsw101,??,,99
-play,3,0,coopw102,??,,99
+play,2,1,ostrj102,??,,7
+play,3,0,kosld101,??,,S5/G
+play,3,0,blatb101,??,,HR/F7D.1-H
+com,"Into LF bleachers"
+play,3,0,roseg101,??,,63
+play,3,0,marsw101,??,,9
+play,3,0,coopw102,??,,4
 play,3,1,sturb101,??,,S5/BG
-play,3,1,waite101,??,,99
+play,3,1,waite101,??,,8
 play,3,1,cavap101,??,,13.1-2
-play,3,1,lowrp101,??,,99
+play,3,1,lowrp101,??,,63
 play,4,0,younb102,??,,D
-play,4,0,gords101,??,,99
-play,4,0,grahj101,??,,99
-play,4,0,kerrb101,??,,99
-play,4,1,pafka101,??,,99
-play,4,1,livim101,??,,99
+play,4,0,gords101,??,,43.2-3
+play,4,0,grahj101,??,,2
+play,4,0,kerrb101,??,,4
+play,4,1,pafka101,??,,2
+play,4,1,livim101,??,,63
 play,4,1,stril101,??,,S
-play,4,1,boroh101,??,,99
+play,4,1,boroh101,??,,13
 play,5,0,kosld101,??,,K
-play,5,0,blatb101,??,,99
-play,5,0,roseg101,??,,99
+play,5,0,blatb101,??,,5
+play,5,0,roseg101,??,,43
 play,5,1,ostrj102,??,,D7
 play,5,1,sturb101,??,,43.2-3
-play,5,1,waite101,??,,9.3-H
-play,5,1,cavap101,??,,99
-play,6,0,marsw101,??,,99
-play,6,0,coopw102,??,,99
-play,6,0,younb102,??,,99
+play,5,1,waite101,??,,9/F.3-H
+play,5,1,cavap101,??,,13
+play,6,0,marsw101,??,,43
+play,6,0,coopw102,??,,63
+play,6,0,younb102,??,,3
 play,6,1,lowrp101,??,,S4/P.BX2(43)
 com,"$Lowrey got a single when Blattner lost his popup in the sun"
-com,"but rounded first too far and was out retreating"
+com,"but rounded first too far and was out retreating."
 play,6,1,pafka101,??,,S4
 play,6,1,livim101,??,,SB2
-play,6,1,livim101,??,,99
-play,6,1,stril101,??,,W
+com,"Pafko stole on pitchout; short throw was in the dirt"
+play,6,1,livim101,??,,6
+play,6,1,stril101,??,,IW
 play,6,1,boroh101,??,,13
-play,7,0,gords101,??,,99
-play,7,0,grahj101,??,,99
-play,7,0,kerrb101,??,,99
+play,7,0,gords101,??,,63
+play,7,0,grahj101,??,,3
+play,7,0,kerrb101,??,,8
 play,7,1,ostrj102,??,,W
 play,7,1,sturb101,??,,PB.1-2
-play,7,1,sturb101,??,,99
-play,7,1,waite101,??,,99
+play,7,1,sturb101,??,,63
+play,7,1,waite101,??,,8
 play,7,1,cavap101,??,,13
-play,8,0,kosld101,??,,99
-play,8,0,blatb101,??,,99
+play,8,0,kosld101,??,,2
+play,8,0,blatb101,??,,7
 play,8,0,roseg101,??,,S
 play,8,0,marsw101,??,,D9.1-3
 play,8,0,coopw102,??,,9
-play,8,1,lowrp101,??,,99
-play,8,1,pafka101,??,,99
+play,8,1,lowrp101,??,,3
+play,8,1,pafka101,??,,53
 play,8,1,livim101,??,,E5/G
-play,8,1,stril101,??,,99
-play,9,0,younb102,??,,99
-play,9,0,gords101,??,,99
-play,9,0,grahj101,??,,99
-play,9,1,boroh101,??,,T9
+play,8,1,stril101,??,,8
+play,9,0,younb102,??,,6
+play,9,0,gords101,??,,53
+play,9,0,grahj101,??,,3
+play,9,1,boroh101,??,,T9/L9D
 play,9,1,ostrj102,??,,IW
-play,9,1,sturb101,??,,S7.3XH(7E2)(NR)(UR);1-2
+play,9,1,sturb101,??,,S7/L7S.3XH(7E2)(NR)(UR);1-2
 com,"$Borowy held up on short hit, thinking it might be"
-com,"caught, then broke for him and was out easily except"
-com,"that Cooper dropped the ball"
+com,"caught, then broke for home and was out easily except"
+com,"that Cooper dropped the ball."
 data,er,kosld101,2
 data,er,boroh101,2
 id,CHN194608260

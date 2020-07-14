@@ -61,7 +61,7 @@ play,1,1,mcdog101,??,,K/C
 play,1,1,norei101,??,,4(1)3/GDP
 play,2,0,furic101,??,,HR/9D
 play,2,0,hodgg101,??,,43
-play,2,0,robij103,??,,T/78
+play,2,0,robij103,??,,T8/78
 play,2,0,zimmd101,??,,S8.3-H
 com,"over second"
 play,2,0,newcd101,??,,13/G1.1-2
@@ -366,6 +366,7 @@ com,"down the left field line"
 play,2,0,howae101,??,,53
 play,2,0,martb105,??,,K
 play,2,0,rizzp101,??,,S7.2XH(UR)(7E2);B-3
+com,"$Skowron knocked ball out of Campanella's glove"
 play,2,0,turlb101,??,,53
 play,2,1,hodgg101,??,,NP
 sub,cervb101,"Bob Cerv",0,1,8
@@ -373,12 +374,11 @@ play,2,1,hodgg101,??,,NP
 sub,mantm101,"Mickey Mantle",0,4,9
 play,2,1,hodgg101,??,,NP
 sub,howae101,"Elston Howard",0,6,7
-com,"outfield shuffled because of Mantle's sore thigh"
+com,"$outfield shuffled because of Mantle's sore thigh"
 play,2,1,hodgg101,??,,8
 play,2,1,robij103,??,,S8
 play,2,1,amors101,??,,HP.1-2
-play,2,1,podrj101,??,,S/BG5.2-3;1-2
-com,"down the third base line"
+play,2,1,podrj101,??,,S5/BG5S.2-3;1-2
 play,2,1,gillj102,??,,W.3-H;2-3;1-2
 play,2,1,reesp101,??,,NP
 sub,morgt101,"Tom Morgan",0,9,1
@@ -455,7 +455,7 @@ play,8,1,robij103,??,,3/FL
 play,9,0,skowb101,??,,S9
 play,9,0,howae101,??,,4/P34D
 play,9,0,martb105,??,,6/P
-play,9,0,rizzp101,??,,3/P
+play,9,0,rizzp101,??,,3/P34S
 data,er,turlb101,4
 data,er,morgt101,2
 data,er,kuckj101,0
@@ -568,7 +568,8 @@ play,5,1,gillj102,??,,W
 play,5,1,reesp101,??,,SB2
 play,5,1,reesp101,20,,NP
 sub,kuckj101,"Johnny Kucks",0,9,1
-play,5,1,reesp101,??,,S3/G.2-3
+play,5,1,reesp101,??,,S3/G34.2-3
+com,"$Kucks failed to cover first"
 play,5,1,snidd101,??,,HR/9D.3-H;1-H
 play,5,1,campr102,??,,D9
 play,5,1,furic101,??,,K
@@ -596,10 +597,9 @@ play,7,0,mantm101,??,,13/G1
 play,7,0,berry101,??,,7/L
 play,7,0,collj101,??,,43
 play,7,1,campr102,??,,S8
-play,7,1,furic101,??,,S/89XDW.1-3
-com,"off the right-center field wall"
-play,7,1,hodgg101,??,,S8.3-H;1-2
-com,"through the box"
+play,7,1,furic101,??,,S8/89XDW.1-3
+play,7,1,hodgg101,??,,S48/G4M.3-H;1-2
+com,"$Off Coleman's glove"
 play,7,1,robij103,??,,NP
 sub,morgt101,"Tom Morgan",0,9,1
 play,7,1,robij103,??,,8
@@ -683,32 +683,32 @@ start,hodgg101,"Gil Hodges",1,6,3
 start,robij103,"Jackie Robinson",1,7,5
 start,amors101,"Sandy Amoros",1,8,7
 start,crair101,"Roger Craig",1,9,1
-play,1,0,howae101,??,,K
-play,1,0,norei101,??,,6/P
-play,1,0,mcdog101,??,,E6/G.B-1
-play,1,0,berry101,??,,3/G
-play,1,1,gillj102,??,,3/G
-play,1,1,reesp101,??,,W
-play,1,1,snidd101,??,,46(1)/FO
-play,1,1,campr102,??,,K/C
-play,2,0,collj101,??,,W
-play,2,0,robie101,??,,W.1-2
-play,2,0,martb105,??,,13/G1.2-3;1-2
-play,2,0,rizzp101,??,,3/P
-play,2,0,grimb102,??,,53
-play,2,1,furic101,??,,5/L
-play,2,1,hodgg101,??,,S7
-play,2,1,robij103,??,,6/L
-play,2,1,amors101,??,,HR/9D.1-H
-play,2,1,crair101,??,,W
-play,2,1,gillj102,??,,S/89.1-3
-play,2,1,reesp101,??,,53
-play,3,0,howae101,??,,K
-play,3,0,norei101,??,,7/L
-play,3,0,mcdog101,??,,63
-play,3,1,snidd101,??,,HR/9D
-play,3,1,campr102,??,,8/L
-play,3,1,furic101,??,,K
+play,1,0,howae101,32,SBBSBS,K
+play,1,0,norei101,12,BSLX,6/P56D
+play,1,0,mcdog101,00,X,E6/G6M.B-1
+play,1,0,berry101,02,SSX,3/G
+play,1,1,gillj102,22,CBBSX,3/G3S
+play,1,1,reesp101,31,BBBCB,W
+play,1,1,snidd101,02,SCX,46(1)/FO
+play,1,1,campr102,32,BBBCCC,K/C
+play,2,0,collj101,32,BFBFBB,W
+play,2,0,robie101,32,BBSB>F>F>B,W.1-2
+play,2,0,martb105,01,F>X,13/G1.2-3;1-2
+play,2,0,rizzp101,00,X,3/FL
+play,2,0,grimb102,02,SFX,53
+play,2,1,furic101,22,BBSFX,5/L
+play,2,1,hodgg101,11,FBX,S7
+play,2,1,robij103,21,BFBX,6/L
+play,2,1,amors101,21,CBBX,HR/9D.1-H
+play,2,1,crair101,32,SMBBBB,W
+play,2,1,gillj102,02,CCX,S/89.1-3
+play,2,1,reesp101,11,CBX,53
+play,3,0,howae101,22,BCSBS,K
+play,3,0,norei101,21,BBCX,7/L
+play,3,0,mcdog101,11,BSX,63
+play,3,1,snidd101,12,CCBX,HR/9D
+play,3,1,campr102,10,BX,8/L
+play,3,1,furic101,22,SBCBS,K
 play,3,1,hodgg101,??,,K
 play,4,0,berry101,??,,S9/9DW
 com,"off the right field scoreboard"
@@ -730,25 +730,26 @@ play,5,0,norei101,??,,46(1)3/GDP
 play,5,0,mcdog101,??,,W
 play,5,0,berry101,??,,3/G
 play,5,1,reesp101,??,,8
-play,5,1,snidd101,??,,HR/89D
-play,5,1,campr102,??,,W
-play,5,1,furic101,??,,4(1)3/GDP
-play,6,0,collj101,??,,43
-play,6,0,robie101,??,,K
-play,6,0,martb105,??,,E5/TH1.B-1
-play,6,0,colej106,??,,9/L
-play,6,1,hodgg101,??,,S6/G
-play,6,1,robij103,??,,64(1)3/GDP
-play,6,1,amors101,??,,K23
-play,7,0,grimb102,??,,NP
+play,5,1,snidd101,32,SBSBBX,HR/89D
+play,5,1,campr102,30,BBBB,W
+play,5,1,furic101,02,CFX,4(1)3/GDP
+com,"$Campanella avoided tag but ran out of baseline"
+play,6,0,collj101,22,BFBCX,43
+play,6,0,robie101,32,BCBBCFS,K
+play,6,0,martb105,00,X,E5/TH1.B-1
+play,6,0,colej106,01,FX,9/L
+play,6,1,hodgg101,00,X,S6/G
+play,6,1,robij103,00,X,64(1)3/GDP
+play,6,1,amors101,12,BCSFS,K23
+play,7,0,grimb102,00,,NP
 sub,cervb101,"Bob Cerv",0,9,11
-play,7,0,cervb101,??,,HR/7D
-play,7,0,howae101,??,,W
-play,7,0,norei101,??,,NP
+play,7,0,cervb101,12,BCCX,HR/7D
+play,7,0,howae101,32,CBBBCB,W
+play,7,0,norei101,00,,NP
 sub,labic101,"Clem Labine",1,9,1
-play,7,0,norei101,??,,36(1)3/GDP
-play,7,0,mcdog101,??,,13/G1
-play,7,1,labic101,??,,NP
+play,7,0,norei101,21,BCBX,36(1)3/GDP
+play,7,0,mcdog101,11,CBX,13/G1
+play,7,1,labic101,00,,NP
 sub,turlb101,"Bob Turley",0,9,1
 play,7,1,labic101,??,,K
 play,7,1,gillj102,??,,W
@@ -769,8 +770,8 @@ play,8,1,furic101,??,,NP
 sub,baueh101,"Hank Bauer",0,6,9
 play,8,1,furic101,??,,S4
 com,"off Martin's glove"
-play,8,1,hodgg101,??,,14/SH.1-2
-play,8,1,robij103,??,,S7.2-H
+play,8,1,hodgg101,??,,14/SH/BG13.1-2
+play,8,1,robij103,??,,S8/G6M.2-H
 com,"past short"
 play,8,1,amors101,??,,K
 play,8,1,labic101,??,,K
@@ -846,7 +847,7 @@ play,1,1,martb105,??,,K+SB2
 play,1,1,mcdog101,??,,W
 play,1,1,berry101,??,,S8.2-H;1-3
 com,"over Spooner's head into center"
-play,1,1,baueh101,??,,S7.3-H;1-2
+play,1,1,baueh101,??,,S7/G.3-H;1-2
 play,1,1,skowb101,??,,HR/9D.2-H;1-H
 play,1,1,cervb101,??,,NP
 sub,meyer101,"Russ Meyer",0,9,1
@@ -868,14 +869,14 @@ play,3,1,berry101,??,,W
 play,3,1,baueh101,??,,S7.1-2
 play,3,1,skowb101,??,,8
 play,3,1,cervb101,??,,5(2)3/GDP
-play,4,0,reesp101,??,,S/G46
+play,4,0,reesp101,??,,S4/G4M
 com,"high bouncer behind second"
 play,4,0,snidd101,??,,NP
 sub,zimmd101,"Don Zimmer",0,3,11
 com,"Snider twisted his knee in the third"
 play,4,0,zimmd101,??,,K/C
 play,4,0,campr102,??,,W.1-2
-play,4,0,furic101,??,,S7.2-H;1-2
+play,4,0,furic101,??,,S7/G.2-H;1-2
 play,4,0,hodgg101,??,,64(1)/FO.2-3
 play,4,0,robij103,??,,64(1)/FO
 play,4,1,howae101,??,,NP
@@ -906,7 +907,7 @@ play,6,0,campr102,??,,K/C
 play,6,0,furic101,??,,63.1-2
 play,6,0,hodgg101,??,,53
 play,6,1,howae101,??,,K/C
-play,6,1,fordw101,??,,13/G1
+play,6,1,fordw101,??,,13/G25
 play,6,1,rizzp101,??,,63
 play,7,0,robij103,??,,8
 play,7,0,amors101,??,,S8
@@ -1019,9 +1020,10 @@ play,4,0,snidd101,??,,K
 play,4,0,campr102,??,,D7/7LD
 com,"into the left field corner"
 play,4,0,furic101,??,,63.2-3
-play,4,0,hodgg101,??,,S7.3-H
+play,4,0,hodgg101,??,,S7/L.3-H
 play,4,0,hoakd101,??,,53
 play,4,1,berry101,??,,D8/F8S
+com,"$Ball dropped between Gilliam and Snider"
 play,4,1,baueh101,??,,9
 play,4,1,skowb101,??,,43.2-3
 play,4,1,cervb101,??,,6/P6D
@@ -1031,9 +1033,10 @@ play,5,0,gillj102,??,,43
 play,5,1,howae101,??,,7/F7D
 play,5,1,byrnt101,??,,K/C
 play,5,1,rizzp101,??,,53
-play,6,0,reesp101,??,,S8
-play,6,0,snidd101,??,,1E3/SH.1-2;B-1
-play,6,0,campr102,??,,14/SH.2-3;1-2
+play,6,0,reesp101,??,,S8/G
+play,6,0,snidd101,??,,1E3/SH/BG1S.1-2;B-1
+com,"$Ball knocked out of Skowron's glove as tag applied"
+play,6,0,campr102,??,,14/SH/BG13.2-3;1-2
 play,6,0,furic101,??,,IW
 play,6,0,hodgg101,??,,NP
 sub,grimb102,"Bob Grim",1,9,1
@@ -1048,10 +1051,9 @@ sub,amors101,"Sandy Amoros",0,8,7
 play,6,1,martb105,??,,NP
 sub,gillj102,"Jim Gilliam",0,1,4
 play,6,1,martb105,??,,W
-play,6,1,mcdog101,??,,S/BG5.1-2
-com,"inside the third base line"
+play,6,1,mcdog101,??,,S1/BG25.1-2
 play,6,1,berry101,??,,7(B)63(1)/DP
-com,"fantastic catch by Amoros and an easy double play at first"
+com,"Fantastic catch by Amoros and an easy double play at first"
 play,6,1,baueh101,??,,63
 play,7,0,podrj101,??,,43
 play,7,0,gillj102,??,,S9
@@ -1068,9 +1070,9 @@ sub,turlb101,"Bob Turley",1,9,1
 play,8,0,snidd101,??,,K/C
 play,8,0,campr102,??,,7
 play,8,0,furic101,??,,8
-play,8,1,rizzp101,??,,S/78
+play,8,1,rizzp101,??,,S7/78
 play,8,1,martb105,??,,9
-play,8,1,mcdog101,??,,S7.1-3
+play,8,1,mcdog101,??,,S7/G5.1-3
 play,8,1,berry101,??,,9/F9S
 play,8,1,baueh101,??,,K
 play,9,0,hodgg101,??,,3/FL

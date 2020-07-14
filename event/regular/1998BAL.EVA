@@ -5987,9 +5987,6 @@ start,ripkc001,"Cal Ripken",1,7,5
 start,hoilc001,"Chris Hoiles",1,8,2
 start,bordm001,"Mike Bordick",1,9,6
 start,mussm001,"Mike Mussina",1,0,1
-com,"ej,valeb102,M,coope901,Balls and strikes (from bench)"
-com,"Mets manager Bobby Valentine ejected by HP umpire Eric Cooper"
-com,"sometime in game"
 play,1,0,alfoe001,11,CBX,3/G34
 play,1,0,baerc001,02,FSFS,K
 play,1,0,piazm001,12,CFBX,4/P4
@@ -6000,7 +5997,10 @@ play,1,1,bainh001,21,BFBX,4/L4
 play,1,1,palmr001,32,BBCFBX,4/F9S
 play,1,1,alomr001,22,BLFBX,S8/P8LS.1-3
 play,1,1,surhb001,21,BBCX,43/G4
-play,2,0,olerj001,02,CCC,K
+play,2,0,olerj001,02,CCC,K/C
+com,"ej,valeb102,M,coope901,Called third strike"
+com,"$Mets manager Valentine ejected by HP umpire Cooper for"
+com,"arguing called third strike on Olerud"
 play,2,0,gilkb001,01,CX,63/G6
 play,2,0,mcrab001,01,CX,HR/L9LD
 play,2,0,huskb001,20,BBX,HR/F7D
@@ -6438,9 +6438,6 @@ start,cartj001,"Joe Carter",1,7,9
 start,hoilc001,"Chris Hoiles",1,8,2
 start,bordm001,"Mike Bordick",1,9,6
 start,smitp001,"Pete Smith",1,0,1
-com,"ej,millr801,M,cedeg901,Balls and strikes"
-com,"Orioles manager Ray Miller ejected by HP umpire Gary Cederstrom"
-com,"sometime in game"
 play,1,0,dunwt001,22,BFBFX,6/P5D
 play,1,0,rente001,32,BBCBCFB,W
 play,1,0,kotsm001,30,BBBB,W.1-2
@@ -6490,6 +6487,10 @@ play,5,0,zeilt001,01,CX,S7/L7S
 play,5,0,floyc001,02,CCB,WP.1-2
 play,5,0,floyc001,12,CCB.X,D8/F78XD.2-H
 play,5,0,lee-d002,00,,SB3
+com,"ej,millr801,M,cedeg901,Balls and strikes"
+com,"$Orioles manager Miller ejected by HP umpire Cederstrom"
+com,"for arguing balls and strikes; he argued call at 3rd, then"
+com,"commented to Cederstrom as he left field and was ejected"
 play,5,0,lee-d002,02,.CFS,K
 play,5,0,jackr004,01,CC,CSH(2)
 play,5,1,hoilc001,02,CCX,9/F9LS
@@ -8509,17 +8510,17 @@ play,5,0,cataf001,12,CCFBS,K
 play,5,1,ripkc001,10,BX,63/G6
 play,5,1,hoilc001,11,CBX,53/G56
 play,5,1,bordm001,22,CBSBX,9/F9S
-com,"ej,bellb001,M,hirsj901,Balls and strikes"
-com,"ej,higgb001,P,garcr901,Throwing water after Buddy Bell ejection"
-com,"Tigers manager Buddy Bell ejected by HP umpire John Hirschbeck;"
-com,"Bobby Higginson ejected by 3B umpire Richie Garcia for throwing"
-com,"a water cup towards the field after Buddy Bell was ejected"
 play,6,0,alvag001,22,CBBSC,K
+com,"ej,bellb001,M,hirsj901,Balls and strikes"
+com,"ej,higgb001,P,garcr901,Throwing water cup after manager ejection"
+com,"$Tigers manager Bell ejected by HP umpire Hirschbeck for"
+com,"Arguing balls and strikes while Alvarez was at bat; Tigers"
+com,"Higginson ejected by 3B umpire Garcia for throwing water"
+com,"cup towards field after Bell ejected"
 play,6,0,bakop001,22,BFSBC,K
 play,6,0,cruzd001,02,FCFS,K
 play,6,1,alomr001,00,,NP
 sub,berrg001,"Geronimo Berroa",0,3,9
-com,"DWV: this sub moved up from davie001 at bat"
 play,6,1,alomr001,32,BBBCMX,S4/L34D
 play,6,1,andeb001,02,LCS,K
 play,6,1,davie001,22,CBCBFX,9/F9S.1-2
@@ -8545,9 +8546,10 @@ sub,bochd001,"Doug Bochtler",0,0,1
 play,7,1,davie001,02,CSC,K
 play,7,1,palmr001,22,BBCFC,K
 play,8,0,clart002,12,SBFS,K
+play,8,0,gonzl001,22,BCBC,NP
 com,"ej,gonzl001,P,hirsj901,Balls and strikes"
-com,"Luis Gonzalez ejected by HP umpire John Hirschbeck"
-com,"after the fourth pitch of his at bat"
+com,"$Gonzalez ejected by HP umpire Hirschbeck for arguing balls"
+com,"and strikes after fourth pitch of at bat"
 play,8,0,gonzl001,22,BCBC,NP
 sub,beamt001,"Trey Beamon",0,5,11
 play,8,0,beamt001,22,BCBC.X,7/F78S
@@ -10507,9 +10509,11 @@ play,9,1,clybd001,12,BFSX,63/G56
 play,9,1,andeb001,30,BBBB,W
 play,9,1,bordm001,00,X,S4/L4.1-2
 play,9,1,alomr001,12,LFBX,7/F7LDF
+play,9,1,surhb001,32,BFBBC,NP
 com,"ej,surhb001,P,coope901,Balls and strikes"
-com,"B.J. Surhoff ejected by HP umpire Eric Cooper"
-play,9,1,surhb001,00,,NP
+com,"$Surhoff ejected by HP umpire Cooper for arguing balls"
+com,"and strkes when 3-1 pitchh called strike"
+play,9,1,surhb001,32,BFBBC,NP
 sub,bainh001,"Harold Baines",1,2,11
 play,9,1,bainh001,32,BFBBCX,7/F7D
 data,er,parqj001,3
@@ -10854,9 +10858,6 @@ start,surhb001,"B.J. Surhoff",1,7,7
 start,hoilc001,"Chris Hoiles",1,8,2
 start,bordm001,"Mike Bordick",1,9,6
 start,mussm001,"Mike Mussina",1,0,1
-com,"ej,bowal001,C,reedr901,Balls and strikes"
-com,"Angels coach Larry Bowa ejected by HP umpire Rick Reed"
-com,"sometime in game"
 play,1,0,jeffg001,22,BCCBX,13/G13
 play,1,0,velar001,11,CBX,S8/L8LS
 play,1,0,edmoj001,12,FFFBFS,K
@@ -10864,6 +10865,9 @@ play,1,0,salmt001,32,BBFBFS,K
 play,1,1,alomr001,20,BBX,S8/F8RS
 play,1,1,andeb001,11,FBC,OA.1X2(26)
 play,1,1,andeb001,12,FBC.X,7/L7S
+com,"ej,bowal001,C,reedr901,Balls and strikes"
+com,"$Angels coach Bowa ejected by HP umpire Reed for arguing"
+com,"balls and strikes with Anderson at bat"
 play,1,1,davie001,32,BBSBSB,W
 play,1,1,palmr001,31,BCBBB,W.1-2
 play,1,1,pickc001,12,SBFS,K
@@ -11343,9 +11347,6 @@ start,websl001,"Lenny Webster",1,7,2
 start,greew001,"Willie Greene",1,8,9
 start,bordm001,"Mike Bordick",1,9,6
 start,fussc001,"Chris Fussell",1,0,1
-com,"ej,murre001,C,cedeg901,Balls and strikes"
-com,"Orioles coach Eddie Murray ejected by HP umpire Gary"
-com,"Cederstrom sometime in game"
 play,1,0,goodt001,22,BSFBFX,S8/L8RS
 com,"Debut game for Chris Fussell"
 play,1,0,mclem001,31,BCBBB,W.1-2
@@ -11425,6 +11426,9 @@ play,8,1,ripkc001,32,CBSBBB,W
 play,8,1,surhb001,00,,NP
 sub,kingg001,"Gene Kingsale",1,5,12
 play,8,1,surhb001,22,BCSFFBS,K
+com,"ej,murre001,C,cedeg901,Balls and strikes"
+com,"$Orioles coach Murray ejected by HP umpire Cederstrom for"
+com,"arguing balls and strikes"
 play,8,1,websl001,00,,NP
 sub,crabt001,"Tim Crabtree",0,0,1
 play,8,1,websl001,00,X,S4/G34.1-3

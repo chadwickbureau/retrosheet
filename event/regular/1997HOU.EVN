@@ -7510,7 +7510,9 @@ play,3,0,strad002,01,CX,D7/G5L.1-3
 play,3,0,bullj001,02,*SS*S,K
 play,3,0,santf001,00,H,HP
 play,3,0,lansm001,12,FFBFX,S4/G4M.3-H;2-3;1-2
-play,3,0,whitr001,11,SBX,12(3)/FO/G13/GDP.2X3(25)
+play,3,0,whitr001,11,SBX,12(3)/FO/G13/DP.2X3(25)
+com,"$Runner was initially safe at 3rd, but went past base, so"
+com,"play is DP and not GDP"
 play,3,1,hampm001,00,.X,S8/G6M
 play,3,1,biggc001,01,SX,S7/G56.1-2
 play,3,1,carrc001,11,CBX,14/SH/BG25.2-3;1-2
@@ -12388,13 +12390,6 @@ play,7,0,garcf001,01,CX,53/G5
 play,7,1,hidar001,22,BFBCS,K
 play,7,1,abreb001,02,FCX,8/F8RM
 play,7,1,rivel001,00,X,8/F8RM
-com,"ej,lamog101,M,wintm901,Balls and strikes"
-com,"ej,vuckp001,C,wintm901,Balls and strikes (from bench)"
-com,"Pirates coach Pete Vuckovich ejected by HP umpire Mike Winters"
-com,"sometime in eighth inning"
-com,"Pirates manager Gene Lamont ejected by HP umpire Mike Winters"
-com,"arguing Vuckovich's ejection"
-com,"sometime in eighth inning"
 play,8,0,smitm004,00,,NP
 sub,cabrj001,"Jose Cabrera",1,5,1
 play,8,0,smitm004,12,.FCFBFX,8/F8RM
@@ -12406,9 +12401,15 @@ play,8,0,allej001,32,BBCBFS,K
 play,8,1,cabrj001,00,,NP
 sub,sodoc001,"Clint Sodowsky",0,4,1
 play,8,1,cabrj001,32,.CBBCBX,9/F9M
+com,"ej,vuckp001,C,wintm901,Balls and strikes"
+com,"ej,lamog101,M,wintm901,Arguing coach's ejection"
+com,"$Pirates coach Vuckovich ejected by HP umpire Winters for"
+com,"arguing balls and strikes with Cabrera at bat; Pirates"
+com,"manager Lamont ejected by HP umpire Winters for arguing"
+com,"Vuckovich's ejection"
 play,8,1,johnr006,11,CBX,53/G5
 play,8,1,gutir001,21,SBBX,43/G4
-play,9,0,osikk001,12,..BFFFC,K
+play,9,0,osikk001,12,BFFFC,K
 play,9,0,colll001,32,CCBFBBX,43/G4M
 play,9,0,browe001,32,CBFBBB,W
 play,9,0,nunea001,11,1F11BX,3/G3

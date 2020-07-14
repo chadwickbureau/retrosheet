@@ -2073,6 +2073,7 @@ start,muelb001,"Bill Mueller",1,7,5
 start,mccad001,"David McCarty",1,8,3
 start,reesp001,"Pokey Reese",1,9,6
 start,lowed001,"Derek Lowe",1,0,1
+com,"$16 minute rain delay at start of game"
 play,1,0,berra001,01,CX,43/G
 play,1,0,beltc001,01,CX,8/F
 play,1,0,sweem002,00,X,S8/L
@@ -2140,11 +2141,12 @@ play,7,0,randj002,00,,NP
 sub,arrob001,"Bronson Arroyo",1,0,1
 play,7,0,randj002,32,.CBFBBC,K
 play,7,0,guiea001,22,BCBCFFX,9/F
-play,7,0,santb001,02,CSS,K
+play,7,0,santb001,02,CSC,K/C
+com,"ej,santb001,P,dimum901,Called third strike"
+com,"$Santiago ejected by HP umpire DiMuro for arguing"
+com,"called third strike"
 play,7,1,mccad001,00,,NP
 sub,stink001,"Kelly Stinnett",0,7,2
-com,"ej,santb001,P,dimum901,Balls and strikes"
-com,"Benito Santiago ejected by HP umpire Mike DiMuro"
 play,7,1,mccad001,20,..BBX,7/F
 play,7,1,reesp001,30,BBBB,W
 play,7,1,damoj001,12,CBSFF1B,WP.1-2
@@ -12664,9 +12666,10 @@ play,6,0,shefg001,00,X,S5/G
 play,6,0,matsh001,02,C1SX,46(1)/FO/G
 play,6,0,willb002,32,FBFBBB,W.1-2
 play,6,0,posaj001,10,BX,DGR/9/FINT.2-H;1-H
-com,"ej,frant001,M,culbf901,Fan interference"
-com,"$fan interference; Red Sox Manager Terry Francona ejected by HP"
-com,"umpire Fieldin Culbreth"
+com,"ej,frant001,M,culbf901,Fan interference (placement of runners)"
+com,"$Red Sox manager Francona ejected by HP Culbreth for arguing"
+com,"that Williams should not have been allowed to score on fan"
+com,"interference"
 play,6,0,olerj001,21,.BFBX,31/G
 play,6,1,muelb001,31,BBBCX,43/G
 play,6,1,damoj001,21,CBBX,63/G

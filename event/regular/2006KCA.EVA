@@ -1022,8 +1022,10 @@ play,6,1,germe001,12,CBSH,HP
 play,6,1,costs001,00,,NP
 sub,slocb001,"Brian Slocum",0,0,1
 com,"ej,guthj001,P,wolfj901,Intentional HBP"
-com,"ej,wedge001,M,westj901,Arguing ejection of Guthrie"
-com,"Indians pitcher Jeremy Guthrie & Mgr Eric Wedge ejected by HP umpire Jim Wolf"
+com,"ej,wedge001,M,westj901,Arguing ejection of player"
+com,"$Pitcher Guthrie ejected by HP umpire Wolf for"
+com,"intentional hit by pitch; Indians manager Wedge ejected"
+com,"by 1B umpire West for arguing Guthrie's ejection"
 play,6,1,costs001,00,...X,S9/L.1-3
 play,6,1,grudm001,10,1BB,PB.1-2
 play,6,1,grudm001,32,1BB.SSBFX,S8/F.3-H;2-3
@@ -5771,9 +5773,9 @@ play,7,0,castl001,00,,NP
 sub,wellt002,"Todd Wellemeyer",1,0,1
 play,7,0,castl001,12,.CCFBX,S8/L
 play,7,0,puntn001,21,BBS1>T,SB2
-com,"ej,bellb001,M,hallt901,Arguing for foul ball"
-com,"Royals Manager Buddy Bell ejected by 1B umpire Tom Hallion arguing that"
-com,"Nick Punto fouled the pitch when Luis Castillo stole 2B"
+com,"ej,bellb001,M,hallt901,Foul ball non-call"
+com,"$Royals manager Bell ejected by 1B umpire Hallion for arguing"
+com,"that Punto fouled the pitch when Castillo stole 2B"
 play,7,0,puntn001,22,BBS1>T..X,43/G.2-3
 play,7,0,mauej001,30,BBII,IW
 play,7,0,cuddm001,01,CB,WP.1-2
@@ -7796,7 +7798,7 @@ play,8,0,konep001,00,,NP
 sub,gobbj001,"Jimmy Gobble",1,0,1
 play,8,0,konep001,00,,NP
 sub,podss001,"Scott Podsednik",0,4,11
-com,"White Sox designated hitter Paul Konerko left the game due to an injured elbow"
+com,"$Konerko left the with an injured elbow"
 play,8,0,podss001,11,..FBX,S8/L
 play,8,0,credj001,02,CFX,1/LDP.1X1(13)
 play,8,0,cinta001,00,X,S5/BG.B-2(E5/TH)
@@ -7824,6 +7826,9 @@ play,9,1,germe001,22,BCBTFC,K
 play,9,1,philp001,02,CFFFS,K
 play,10,0,podss001,31,BBBCB,W
 play,10,0,credj001,00,N,BK.1-2
+com,"ej,bellb001,M,welkb901,Balk call"
+com,"$Royals manager Bell ejected by HP umpire Welke for"
+com,"arguing balk call"
 play,10,0,credj001,10,N.BX,S8/L.2-H
 play,10,0,cinta001,02,>F>FT,K
 play,10,0,aloms001,00,,NP
@@ -7833,8 +7838,6 @@ play,10,0,gloar001,02,1SFX,D7/G.1-H
 play,10,0,andeb003,21,FBBX,S7/L.2-H
 play,10,0,mackr001,00,,NP
 sub,nunel001,"Leo Nunez",1,0,1
-com,"ej,bellb001,M,welkb901,Balls and strikes"
-com,"Royals Manager Buddy Bell ejected by HP umpire Bill Welke"
 play,10,0,mackr001,00,..>X,9/F
 play,10,1,berra001,00,,NP
 sub,piera001,"A.J. Pierzynski",0,7,2

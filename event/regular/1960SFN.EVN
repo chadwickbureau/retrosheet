@@ -934,7 +934,7 @@ info,site,SFO02
 info,date,1960/04/20
 info,number,0
 info,starttime,0:00PM
-info,daynight,night
+info,daynight,day
 info,usedh,false
 info,umphome,lands901
 info,ump1b,pelec901
@@ -7101,13 +7101,16 @@ play,6,0,howaf102,30,BBBB,W
 play,6,0,hodgg101,00,X,64(1)/FO
 play,6,0,essec101,00,X,64(1)/FO
 play,6,1,schmb101,12,..CBSS,K
+com,"ej,parks101,P,craws901,Balls and strikes"
+com,"$Giants coach Parker ejected by HP umpire Shag Crawford"
+com,"ejected for arguing balls and strikes"
 play,6,1,mccom103,21,BCBX,S8/G
 play,6,1,brese101,00,X,64(1)/FO
-com,"ej,blasd101,P,craws901,Balls and strikes"
-com,"Don Blasingame ejected by HP umpire Shag Crawford"
-com,"during at bat"
 play,6,1,blasd101,31,BBBC,NP
 sub,amalj101,"Joey Amalfitano",1,2,11
+com,"ej,blasd101,P,craws901,Balls and strikes"
+com,"$Blasingame ejected by HP umpire Crawford for arguing"
+com,"balls and strikes after 4th pitch"
 play,6,1,amalj101,31,BBBC..B,W.1-2
 play,6,1,maysw101,10,BX,9
 play,7,0,shern102,00,,NP
@@ -7146,9 +7149,6 @@ play,8,1,brese101,22,CFBFBFFS,K
 play,8,1,amalj101,00,X,E6/G
 play,8,1,maysw101,00,X,T9/F.1-H(UR)
 play,8,1,phild102,00,X,43
-com,"ej,larkn101,P,craws901,Unknown reason"
-com,"Norm Larker ejected by HP umpire Shag Crawford"
-com,"sometime in ninth"
 play,9,0,gillj102,12,BCSFX,7
 play,9,0,davit103,11,FBX,7
 play,9,0,nealc101,00,X,S6.B-2(E6/TH)
@@ -9763,8 +9763,9 @@ start,mccom103,"Mike McCormick",1,9,1
 play,1,0,malkb101,??,,S8
 play,1,0,taylt101,??,,4
 play,1,0,gonzt101,??,,K/C
-com,"ej,gonzt101,P,lands901,Arguing strike 3"
-com,"$Gonzalez ejected by HP umpire Landes for arguing strike 3"
+com,"ej,gonzt101,P,lands901,Called third strike"
+com,"$Gonzalez ejected by HP umpire Landes for arguing called"
+com,"third strike"
 play,1,0,herrp101,??,,54(1)/FO
 play,1,1,blasd101,??,,NP
 sub,delgb101,"Bobby Del Greco",0,3,8
@@ -11151,7 +11152,7 @@ info,site,SFO02
 info,date,1960/10/01
 info,number,0
 info,starttime,0:00PM
-info,daynight,night
+info,daynight,day
 info,usedh,false
 info,umphome,dascf901
 info,ump1b,secof101

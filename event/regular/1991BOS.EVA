@@ -384,10 +384,11 @@ play,7,0,huffm001,31,BBBCB,W
 play,7,0,browj001,10,1B>X,43/G4M.1-2
 play,7,0,baerc001,31,BBCBB,W
 play,7,0,bellj002,22,FCBBX,S7/G5D.2-H;1-2
-play,7,0,aloms001,01,CX,D5/G5D.2-H;1-3
-com,"ej,morgj101,M,mcclt901,Fan interference non-call"
-com,"Red Sox manager Joe Morgan ejected by HP umpire Tim McClelland"
-com,"arguing a fan interference non-call"
+play,7,0,aloms001,01,CX,D5/G5D/FINT.2-H;1-3
+com,"ej,morgj101,M,mcclt901,Fan interference (Placement of runners)"
+com,"$Red Sox manager Morgan ejected by HP umpire McClelland for"
+com,"arguing placement of runners after fan interference; he said"
+com,"everyone should only get one base, not two"
 play,7,0,jacob001,00,,NP
 sub,heskj001,"Joe Hesketh",1,0,1
 play,7,0,jacob001,10,.BX,53/G56
@@ -9301,7 +9302,7 @@ info,fieldcond,unknown
 info,precip,none
 info,sky,cloudy
 info,timeofgame,164
-info,attendance,33000
+info,attendance,0
 info,wp,heskj001
 info,lp,swing001
 info,save,
@@ -11145,9 +11146,6 @@ start,lyons001,"Steve Lyons",1,7,8
 start,marzj001,"John Marzano",1,8,2
 start,rivel001,"Luis Rivera",1,9,6
 start,gardm002,"Mike Gardiner",1,0,1
-com,"ej,ripkc801,C,morrd901,Balls and strikes"
-com,"Orioles coach Cal Ripken Sr ejected by HP umpire"
-com,"Dan Morrison sometime in game"
 play,1,0,devem001,22,CBBCFFX,S7/L7M
 play,1,0,orsuj001,11,BC1X,7/F7LM
 play,1,0,ripkc001,00,X,64(1)3/GDP/G6M
@@ -11189,7 +11187,10 @@ play,5,0,martc003,10,BX,7/F7M
 play,5,0,gomel001,20,BBX,HR/L78D.1-H;B-H
 play,5,0,melvb001,00,X,31/G34S
 play,5,0,ripkb001,11,BCX,D7/F7D
-play,5,0,devem001,12,BFCFFC,K
+play,5,0,devem001,12,BFCFFC,K/C
+com,"ej,ripkc801,C,morrd901,Called third strike"
+com,"$Orioles coach Ripken ejected by HP umpire Morrison for"
+com,"arguing called third strike"
 play,5,1,clarj001,12,SFBX,HR/L8LXD.B-H
 play,5,1,planp001,01,CX,8/F8LS
 play,5,1,vaugm001,32,FBBBFS,K

@@ -2857,9 +2857,6 @@ play,3,1,aloms001,10,BX,D9/L9LM.1-3
 play,3,1,vizqo001,01,CX,3/G3/R2.3-H;2-3
 play,3,1,loftk001,10,BX,63/G6.3-H
 play,3,1,franj002,32,BBSFBFS,K
-com,"ej,hargm001,M,garcr901,Interference call"
-com,"Indians manager Mike Hargrove ejected by 1B umpire Richie Garcia"
-com,"sometime in fourth inning"
 play,4,0,vinaf001,12,BCSX,S9/L4D/R6
 play,4,0,wardt001,00,11X,S9/L9S/R4.1-2
 play,4,0,mathm001,01,2CX,54/SH/BG15.2-3;1-2
@@ -2872,7 +2869,11 @@ play,4,0,valej003,11,.FBX,7/F7LMF
 play,4,0,vaugg001,10,BX,4/P34D
 play,4,1,baerc001,12,CSB*S,K
 play,4,1,bellj002,32,BCBCBB,W
-play,4,1,murre001,00,X,6/L6/LDP.1X1(63)
+play,4,1,murre001,00,X,6/L6/LDP/RINT.1X1(63)
+com,"ej,hargm001,M,garcr901,Interference call"
+com,"$Indians manager Hargrove ejected by 1B umpire Garcia for"
+com,"arguing call that Belle interfered with throw while"
+com,"returning to 1st"
 play,5,0,nilsd001,31,..BFBBX,E4/G4/U9
 play,5,0,cirij001,12,CBFFX,S7/G56.1-2
 play,5,0,vinaf001,31,BBBCB,W.2-3;1-2
@@ -4145,13 +4146,14 @@ play,3,1,bellj002,00,X,8/SF/F8LD/R4.3-H;2-3
 play,3,1,ramim002,30,1BBBB,W.1-2
 play,3,1,murre001,31,BBCBB,W.3-H;2-3;1-2
 play,3,1,aloms001,11,CBX,13/G13
-com,"ej,hargm001,M,mccol901,Arguing HBP call"
-com,"Indians manager Mike Hargrove ejected by HP umpire Larry"
-com,"McCoy sometime in fourth inning"
 play,4,0,berrg001,11,SBX,53/G56
 play,4,0,planp001,12,CBCX,D9/L9LDW/R6
 play,4,0,youne002,21,CBBX,4/P4MS
 play,4,0,bordm001,32,BCBBCS,K
+play,4,1,thomj002,22,BFBF,NP
+com,"ej,hargm001,M,mccol901,HBP non-call"
+com,"$Indians manager Hargrove ejected by HP umpire McCoy for"
+com,"arguing that Thome was hit by pitch that was ruled a foul"
 play,4,1,thomj002,22,BFBF..C,K
 play,4,1,vizqo001,10,BX,53/G5S
 play,4,1,loftk001,32,BBC.BCX,HR/F89XD
@@ -6912,13 +6914,15 @@ play,8,1,thomj002,12,FCFBX,HR/F7D.1-H;B-H
 play,8,1,bellj002,00,,NP
 sub,nauld001,"Dan Naulty",0,0,1
 play,8,1,bellj002,22,.BBFCFFFFX,43/G4
-com,"ej,bellj002,P,hirsj901,Unknown reason"
-com,"Albert Belle ejected by HP umpire John Hirschbeck"
+com,"ej,bellj002,P,hirsj901,Balls and strikes"
+com,"$Belle ejected by HP umpire Hirschbeck for arguing balls"
+com,"and strikes after grounding out"
 play,9,0,holld001,00,.,NP
 sub,gileb002,"Brian Giles",1,4,7
+play,9,0,holld001,02,..CC.,NP
 com,"ej,holld001,P,hirsj901,Balls and strikes"
-com,"Dave Hollins ejected by HP umpire John Hirschbeck"
-com,"after called strike two"
+com,"$Hollins ejected by HP umpire Hirschbeck for arguing balls"
+com,"and strikes after called strike two"
 play,9,0,holld001,02,..CC.,NP
 sub,reboj001,"Jeff Reboulet",0,6,11
 play,9,0,reboj001,02,..CC..C,K/C

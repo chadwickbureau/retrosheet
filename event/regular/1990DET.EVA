@@ -1382,10 +1382,6 @@ start,sheel001,"Larry Sheets",1,7,7
 start,wardg001,"Gary Ward",1,8,9
 start,bergd001,"Dave Bergman",1,9,3
 start,petrd001,"Dan Petry",1,0,1
-com,"ej,robij002,P,,Fighting with Don Baylor"
-com,"ej,bayld001,C,,Fighting with Jeff Robinson"
-com,"Brewers coach Don Baylor and Jeff Robinson ejected"
-com,"by unknown umpire sometime in game"
 play,1,0,molip001,31,BBBCX,53/G5
 play,1,0,shefg001,00,X,53/G5
 play,1,0,younr001,11,BSX,53
@@ -1449,6 +1445,10 @@ play,7,0,diaze001,21,BBF>X,324/SH/BG23.3-H;2-3
 com,"$squeeze, throw home late, got Diaz at first"
 play,7,0,molip001,00,.X,FC5/G5.3XH(52);B-1
 play,7,0,shefg001,12,SB1SX,7/F7S
+com,"ej,robij002,P,,Fighting"
+com,"ej,bayld001,C,,Fighting"
+com,"$Brewers coach Baylor and Tigers Robinson, not in game, ejected"
+com,"by HP umpire Denkinger for fighting while Sheffield at bat"
 play,7,1,sheel001,00,,NP
 sub,feldm001,"Mike Felder",0,5,9
 play,7,1,sheel001,00,.,NP
@@ -3740,6 +3740,7 @@ info,fieldcond,dry
 info,precip,none
 info,sky,sunny
 info,timeofgame,175
+info,attendance,25924
 info,wp,perem001
 info,lp,morrj001
 info,save,thigb001
@@ -5155,9 +5156,12 @@ play,1,1,fielc001,20,BBX,9/SF/L9D.3-H
 play,1,1,sheel001,10,BX,5/P56D
 play,1,1,mosel001,22,BBCCX,3/G3
 play,2,0,parrl001,02,CFC,K
-com,"ej,nunee001,P,cedeg901,Refusing to return to dugout; not in ga"
-com,"Edwin Nunez ejected by HP umpire Gary Cederstrom for refusing to"
-com,"leave the field; he was not in the game"
+com,"ej,nunee001,P,brinj901,Refusing to return to bullpen"
+com,"$Tigers Nunez, not in game, ejected by 3B umpire Brinkman"
+com,"for refusing to leave the field; Nunez and other relievers"
+com,"were seated on benchs intended for the grounds crew because"
+com,"the bullpen dugout was so hot; after the ejection, the other"
+com,"pitchers returned to the bullpen"
 play,2,0,downb001,11,.BSH,HP
 play,2,0,howej002,12,CBFX,8/F8XD
 play,2,0,schod001,31,BBBCB,W.1-2
@@ -7570,10 +7574,10 @@ play,7,0,sosas001,22,BFCBC,K/C
 play,7,1,trama001,31,BBCBX,7/F7D
 play,7,1,fielc001,11,.BFX,63/G6MD
 play,7,1,wardg001,10,BX,53/G56
+play,8,0,ventr001,02,CC,NP
 com,"ej,torbj101,M,cobld901,Balls and strikes"
-com,"White Sox manager Jeff Torborg ejected by HP umpire Drew"
-com,"Coble after the first two pitches to Robin Ventura were"
-com,"called strikes"
+com,"$White Sox manager Torborg ejected by HP umpire Coble for"
+com,"arguing balls and strikes after 1st two pitches to Ventura"
 play,8,0,ventr001,12,CC.BX,43/G4
 play,8,0,caldi001,11,FBX,63/G6
 play,8,0,kittr001,02,SSFX,9/F9D
@@ -7879,11 +7883,12 @@ play,8,1,trama001,12,CFBX,D5/P7LS
 play,8,1,fielc001,00,X,D7/G5.2-H
 play,8,1,sheel001,12,BFFS,K
 play,8,1,mosel001,21,BFBX,6/P56D
-play,8,1,lemoc001,22,CBBCC,K
+play,8,1,lemoc001,22,CBBCC,K/C
+com,"ej,lemoc001,P,hirsj901,Called third strike"
+com,"$Lemon ejected by HP umpire Hirschbeck for arguing"
+com,"called third strike"
 play,9,0,bradp001,00,,NP
 sub,lusas001,"Scott Lusader",1,7,9
-com,"ej,lemoc001,P,hirsj901,Balls and strikes"
-com,"Chet Lemon ejected by HP umpire John Hirschbeck"
 play,9,0,bradp001,00,..,NP
 sub,hennm001,"Mike Henneman",1,0,1
 play,9,0,bradp001,01,...FX,9/F9LF

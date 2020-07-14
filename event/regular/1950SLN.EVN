@@ -142,8 +142,9 @@ info,umphome,dascf901
 info,ump1b,goetl901
 info,ump2b,(none)
 info,ump3b,jordl901
-info,scorer,"209"
-info,inputter,"D Lamoureaux"
+info,scorer,"209.208,137"
+info,translator,"D Lamoureaux/Way"
+info,inputter,"D Lamoureaux/Smith"
 info,inputtime,2008/06/12 4:56PM
 info,howscored,unknown
 info,pitches,none
@@ -177,19 +178,19 @@ start,nelsr103,"Rocky Nelson",1,6,3
 start,hemus101,"Solly Hemus",1,7,5
 start,mille104,"Eddie Miller",1,8,6
 start,pollh101,"Howie Pollet",1,9,1
-play,1,0,beart101,??,,HR
+play,1,0,beart101,??,,HR/9
 play,1,0,murtd101,??,,K
 play,1,0,kiner101,??,,8
 play,1,0,fernn101,??,,7
 play,1,1,walkh102,??,,13
-play,1,1,schor101,??,,K
+play,1,1,schor101,??,,K/C
 play,1,1,musis101,??,,W
-play,1,1,slaue101,??,,5/P
-play,2,0,westw102,??,,S
-play,2,0,philj101,??,,S.1-3
-play,2,0,rojes101,??,,E3.1-H(NR)(UR);3-H(RBI);B-3(TH)
-play,2,0,mccuc101,??,,7/F.3-H(UR)
-play,2,0,dickm101,??,,13
+play,1,1,slaue101,??,,5/FL
+play,2,0,westw102,??,,S7
+play,2,0,philj101,??,,S9.1-3
+play,2,0,rojes101,??,,E3.3-H(RBI);1-3;B-2(E4/TH)
+play,2,0,mccuc101,??,,7/FL.3-H(UR);2-3
+play,2,0,dickm101,??,,13.3-H(UR)
 play,2,0,beart101,??,,K
 play,2,1,garaj101,??,,2/P
 play,2,1,nelsr103,??,,W
@@ -205,26 +206,25 @@ play,3,0,murtd101,??,,D
 play,3,0,kiner101,??,,K
 play,3,0,fernn101,??,,41.2-3
 play,3,0,westw102,??,,K
-play,3,1,schor101,??,,61
-play,3,1,musis101,??,,HR
+play,3,1,schor101,??,,63
+play,3,1,musis101,??,,HR/9
 play,3,1,slaue101,??,,9
 play,3,1,garaj101,??,,9
-play,4,0,philj101,??,,HR
-play,4,0,rojes101,??,,D
+play,4,0,philj101,??,,HR/89
+play,4,0,rojes101,??,,D7
 play,4,0,mccuc101,??,,63.2-3
-play,4,0,dickm101,??,,S7.3-H;BX2(7E4)#
-play,4,0,beart101,??,,S.2-H(UR);B-3(E9)#
+play,4,0,dickm101,??,,S7.3-H
+play,4,0,beart101,??,,S.1-H(E9)(NR)(UR);B-3
 play,4,0,murtd101,??,,NP
 sub,pohot101,"Tom Poholsky",1,9,1
-play,4,0,murtd101,??,,8/F.3-H(UR)#
+play,4,0,murtd101,??,,8/F.3-H(UR)
 com,"Debut game for Tom Poholsky"
-play,4,0,kiner101,??,,99#
+play,4,0,kiner101,??,,99
 play,4,1,nelsr103,??,,9
 play,4,1,hemus101,??,,7
 play,4,1,mille104,??,,K
 play,5,0,fernn101,??,,8
-play,5,0,westw102,??,,S#
-play,5,0,philj101,??,,OA.1X2(99)#
+play,5,0,westw102,??,,S7.BX2(74)
 play,5,0,philj101,??,,8
 play,5,1,pohot101,??,,NP
 sub,kazae101,"Eddie Kazak",1,9,11
@@ -234,7 +234,7 @@ play,5,1,schor101,??,,8
 play,6,0,rojes101,??,,NP
 sub,boyec101,"Cloyd Boyer",1,9,1
 play,6,0,rojes101,??,,W
-play,6,0,mccuc101,??,,2/P#
+play,6,0,mccuc101,??,,2/P
 play,6,0,dickm101,??,,7
 play,6,0,beart101,??,,5/P
 com,"ej,kauft101,C,dascf901,Bench jockeying"
@@ -247,10 +247,10 @@ play,7,0,murtd101,??,,8
 play,7,0,kiner101,??,,2/P
 play,7,0,fernn101,??,,63
 play,7,1,nelsr103,??,,8
-play,7,1,hemus101,??,,K#
+play,7,1,hemus101,??,,K
 play,7,1,mille104,??,,6/P
-play,8,0,westw102,??,,31#
-play,8,0,philj101,??,,99#
+play,8,0,westw102,??,,3/G
+play,8,0,philj101,??,,99
 play,8,0,rojes101,??,,S
 play,8,0,mccuc101,??,,SB2
 play,8,0,mccuc101,??,,99
@@ -1666,7 +1666,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,164
-info,attendance,9852
+info,attendance,9632
 info,wp,mungr101
 info,lp,raffk101
 info,save,braza101
@@ -3160,6 +3160,150 @@ data,er,hansa101,2
 data,er,magls101,0
 data,er,higbk101,0
 data,er,mungr101,2
+id,SLN195006112
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,NY1
+info,hometeam,SLN
+info,site,STL07
+info,date,1950/06/11
+info,number,2
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,umphome,jordl901
+info,ump1b,goetl901
+info,ump2b,(none)
+info,ump3b,dascf901
+info,scorer,"102,208,104,96,276"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
+info,inputtime,2012/10/02 9:51PM
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,135
+info,attendance,33853
+info,wp,braza101
+info,lp,kramj101
+info,save,stalg103
+info,gwrbi,
+start,stane101,"Eddie Stanky",0,1,4
+start,lockw101,"Whitey Lockman",0,2,7
+start,irvim101,"Monte Irvin",0,3,9
+start,thomb105,"Bobby Thomson",0,4,8
+start,westw101,"Wes Westrum",0,5,2
+start,thomh103,"Hank Thompson",0,6,5
+start,darka101,"Al Dark",0,7,6
+start,gilbt101,"Tookie Gilbert",0,8,3
+start,kramj101,"Jack Kramer",0,9,1
+start,walkh102,"Harry Walker",1,1,8
+start,schor101,"Red Schoendienst",1,2,4
+start,musis101,"Stan Musial",1,3,3
+start,slaue101,"Enos Slaughter",1,4,9
+start,kazae101,"Eddie Kazak",1,5,5
+start,howeb101,"Bill Howerton",1,6,7
+start,mille104,"Eddie Miller",1,7,6
+start,riced101,"Del Rice",1,8,2
+start,braza101,"Al Brazle",1,9,1
+play,1,0,stane101,??,,W
+play,1,0,lockw101,??,,S.1-2
+play,1,0,irvim101,??,,W.2-3;1-2
+play,1,0,thomb105,??,,12(3)3/GDP.2-3;1-2
+play,1,0,westw101,??,,W
+play,1,0,thomh103,??,,2/FL
+play,1,1,walkh102,??,,S
+play,1,1,schor101,??,,9/F
+play,1,1,musis101,??,,K+CS2(26)/DP
+play,2,0,darka101,??,,S
+play,2,0,gilbt101,??,,13/SH.1-2
+play,2,0,kramj101,??,,63.2-3
+play,2,0,stane101,??,,HP
+play,2,0,lockw101,??,,8
+play,2,1,slaue101,??,,K
+play,2,1,kazae101,??,,53
+play,2,1,howeb101,??,,W
+play,2,1,mille104,??,,64(1)/FO
+play,3,0,irvim101,??,,K
+play,3,0,thomb105,??,,8
+play,3,0,westw101,??,,S8.B-3(E8)(E5)
+play,3,0,thomh103,??,,43
+play,3,1,riced101,??,,43
+play,3,1,braza101,??,,9/F
+play,3,1,walkh102,??,,43
+play,4,0,darka101,??,,63
+play,4,0,gilbt101,??,,K
+play,4,0,kramj101,??,,53
+play,4,1,schor101,??,,9/F
+play,4,1,musis101,??,,3/G
+play,4,1,slaue101,??,,W
+play,4,1,kazae101,??,,8/F
+play,5,0,stane101,??,,S
+play,5,0,lockw101,??,,4/P
+play,5,0,irvim101,??,,64(1)/FO
+play,5,0,thomb105,??,,4/P
+play,5,1,howeb101,??,,W
+play,5,1,mille104,??,,WP.1-2
+play,5,1,mille104,??,,D.2-H
+play,5,1,riced101,??,,D9/F9DW.2-H
+com,"Off RF screen"
+play,5,1,braza101,??,,FC1/BG.2X3(15);B-1
+play,5,1,walkh102,??,,8/F
+play,5,1,schor101,??,,S.1-2
+play,5,1,musis101,??,,T.2-H;1-H
+play,5,1,slaue101,??,,NP
+sub,kennm101,"Monte Kennedy",0,9,1
+play,5,1,slaue101,??,,S.3-H
+play,5,1,kazae101,??,,8/F
+play,6,0,westw101,??,,W
+play,6,0,thomh103,??,,6(1)3/GDP
+play,6,0,darka101,??,,63
+play,6,1,howeb101,??,,K
+play,6,1,mille104,??,,D
+play,6,1,riced101,??,,9/F
+play,6,1,braza101,??,,K
+play,7,0,gilbt101,??,,D
+play,7,0,kennm101,??,,NP
+sub,lohrj101,"Jack Lohrke",0,9,11
+play,7,0,lohrj101,??,,K
+play,7,0,stane101,??,,43.2-3
+play,7,0,lockw101,??,,S.3-H
+play,7,0,irvim101,??,,S.1-3
+play,7,0,thomb105,??,,S.3-H;1-2
+play,7,0,westw101,??,,NP
+sub,stalg103,"Gerry Staley",1,9,1
+play,7,0,westw101,??,,NP
+sub,weatr101,"Roy Weatherly",0,5,11
+play,7,0,weatr101,??,,31
+play,7,1,walkh102,??,,NP
+sub,calds101,"Sam Calderone",0,5,2
+play,7,1,walkh102,??,,NP
+sub,higbk101,"Kirby Higbe",0,9,1
+play,7,1,walkh102,??,,63
+play,7,1,schor101,??,,T
+play,7,1,musis101,??,,7/F
+play,7,1,slaue101,??,,7/F
+play,8,0,thomh103,??,,6/P
+play,8,0,darka101,??,,13
+play,8,0,gilbt101,??,,K23
+play,8,1,kazae101,??,,53
+play,8,1,howeb101,??,,8/F
+play,8,1,mille104,??,,D7/78.BX3(75)
+play,9,0,higbk101,??,,NP
+sub,jorgs101,"Spider Jorgensen",0,9,11
+play,9,0,jorgs101,??,,8/F
+play,9,0,stane101,??,,K
+play,9,0,lockw101,??,,7/F
+data,er,kramj101,5
+data,er,kennm101,0
+data,er,higbk101,0
+data,er,braza101,2
+data,er,stalg103,0
 id,SLN195007010
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -3323,8 +3467,8 @@ info,ump1b,donaa901
 info,ump2b,(none)
 info,ump3b,balll901
 info,scorer,"276"
-info,translator,"David W. Smith"
-info,inputter,"David W. Smith"
+info,translator,"David W. Smith/Townsend"
+info,inputter,"David W. Smith/Townsend"
 info,inputtime,2013/02/24 11:45AM
 info,howscored,park
 info,pitches,none
@@ -3359,7 +3503,7 @@ start,riced101,"Del Rice",1,8,2
 start,mungr101,"Red Munger",1,9,1
 play,1,0,rojes101,??,,K
 play,1,0,beart101,??,,K
-play,1,0,hoppj102,??,,99
+play,1,0,hoppj102,??,,13
 play,1,1,glavt101,??,,K
 play,1,1,schor101,??,,S
 play,1,1,musis101,??,,W.1-2
@@ -3369,7 +3513,7 @@ play,2,0,bellg103,??,,99
 play,2,0,murtd101,??,,S
 play,2,0,castp102,??,,7
 play,2,1,slaue101,??,,S
-play,2,1,marim101,??,,PO1(99)
+play,2,1,marim101,??,,CS2(24)
 play,2,1,marim101,??,,S
 play,2,1,nelsr103,??,,K
 play,2,1,riced101,??,,S.1-2
@@ -3398,7 +3542,7 @@ play,5,0,rojes101,??,,HP.1-2
 play,5,0,beart101,??,,BK.2-3;1-2
 play,5,0,beart101,??,,8
 play,5,0,hoppj102,??,,W
-play,5,0,kiner101,??,,54(1)/FO
+play,5,0,kiner101,??,,5(2)/FO
 play,5,1,glavt101,??,,W
 play,5,1,schor101,??,,99/SH.1-2
 play,5,1,musis101,??,,99
@@ -3410,7 +3554,7 @@ play,6,0,castp102,??,,7
 play,6,1,marim101,??,,9
 play,6,1,nelsr103,??,,99
 play,6,1,riced101,??,,S
-play,6,1,mungr101,??,,D7/7L.1-H
+play,6,1,mungr101,??,,D7/G5L.1-H
 play,6,1,glavt101,??,,D.2-H
 play,6,1,schor101,??,,99
 play,7,0,muelr101,??,,NP
@@ -3457,8 +3601,8 @@ play,8,1,marim101,??,,99
 play,8,1,nelsr103,??,,99
 play,8,1,riced101,??,,S
 play,8,1,braza101,??,,99
-play,9,0,fernn101,??,,8
-play,9,0,turne101,??,,99
+play,9,0,fernn101,??,,7
+play,9,0,turne101,??,,7
 play,9,0,philj101,??,,S
 play,9,0,westw102,??,,99(1)/FO
 data,er,werlb101,2

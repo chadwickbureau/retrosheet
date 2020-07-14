@@ -523,7 +523,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,121
-info,attendance,0
+info,attendance,5680
 info,wp,berrj102
 info,lp,dubim101
 info,save,
@@ -663,9 +663,9 @@ info,umphome,passa901
 info,ump1b,stewe901
 info,ump2b,(none)
 info,ump3b,mcgob901
-info,scorer,"253,266,71,163,274"
-info,translator,"Tom Thress"
-info,inputter,"David W. Smith"
+info,scorer,"253,266,71,163,274,276"
+info,translator,"Tom Thress/Townsend"
+info,inputter,"David W. Smith/Townsend"
 info,inputtime,2015/07/21 9:57PM
 info,howscored,park
 info,pitches,none
@@ -675,8 +675,8 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,152
-info,attendance,7846
+info,timeofgame,130
+info,attendance,2895
 info,wp,cecir101
 info,lp,blacd101
 info,save,
@@ -699,6 +699,7 @@ start,halli101,"Irv Hall",1,6,4
 start,busce101,"Ed Busch",1,7,6
 start,burnj101,"Joe Burns",1,8,5
 start,blacd101,"Don Black",1,9,1
+com,"Weather: chilly"
 play,1,0,newss101,??,,63
 play,1,0,steib101,??,,S4
 play,1,0,metkg101,??,,43.1-2
@@ -729,18 +730,20 @@ play,4,0,garbb102,??,,S9
 play,4,0,cecir101,??,,K/C
 play,4,1,peckh101,??,,K/C
 play,4,1,estab101,??,,D8.BX3(865)
-play,4,1,hayef101,??,,HR/7
+play,4,1,hayef101,??,,HR/L7D
+com,"Into lower LF stands"
 play,4,1,siebd102,??,,5/P
 play,5,0,newss101,??,,S8
-play,5,0,steib101,??,,8(B)43(1)/DP
+play,5,0,steib101,??,,8/DP.1X1(843)
 play,5,0,metkg101,??,,31
 play,5,1,halli101,??,,8
 play,5,1,busce101,??,,9/L
 play,5,1,burnj101,??,,43
-play,6,0,johnb102,??,,HR/7
-play,6,0,fox-p102,??,,D7
+play,6,0,johnb102,??,,HR/F7D
+com,"Into LF stands"
+play,6,0,fox-p102,??,,D7/F7DW
 play,6,0,tobij102,??,,43.2-3
-play,6,0,culbl101,??,,S1.3-H
+play,6,0,culbl101,??,,S1/L.3-H
 play,6,0,garbb102,??,,NP
 sub,knerl101,"Lou Knerr",1,9,1
 com,"$Line drive off Black's hand and he left game"
@@ -758,39 +761,40 @@ play,7,0,newss101,??,,NP
 sub,berrj102,"Joe Berry",1,9,1
 play,7,0,newss101,??,,W
 play,7,0,steib101,??,,S8.1-2
-play,7,0,metkg101,??,,D9.2-H;1-3
+play,7,0,metkg101,??,,D9/F.2-H;1-3
+com,"Peck misjudged it"
 play,7,0,johnb102,??,,IW
 play,7,0,fox-p102,??,,S7.3-H;2-H;1-2
 play,7,0,tobij102,??,,S.2-H;1-3
 play,7,0,culbl101,??,,NP
 sub,schec101,"Carl Scheib",1,9,1
 play,7,0,culbl101,??,,64(1)3/GDP.3-H
-play,7,0,garbb102,??,,99
-play,7,1,siebd102,??,,99
+play,7,0,garbb102,??,,63
+play,7,1,siebd102,??,,8
 play,7,1,halli101,??,,S
-play,7,1,busce101,??,,99
-play,7,1,burnj101,??,,99
-play,8,0,cecir101,??,,99
-play,8,0,newss101,??,,99
-play,8,0,steib101,??,,99
-play,8,1,schec101,??,,99
-play,8,1,metrc101,??,,99
-play,8,1,peckh101,??,,99
-play,9,0,metkg101,??,,99
-play,9,0,johnb102,??,,99
+play,7,1,busce101,??,,7
+play,7,1,burnj101,??,,4
+play,8,0,cecir101,??,,53
+play,8,0,newss101,??,,3
+play,8,0,steib101,??,,8
+play,8,1,schec101,??,,53
+play,8,1,metrc101,??,,5
+play,8,1,peckh101,??,,43
+play,9,0,metkg101,??,,8
+play,9,0,johnb102,??,,53
 play,9,0,fox-p102,??,,W
-play,9,0,tobij102,??,,99
+play,9,0,tobij102,??,,46(1)/FO
 play,9,1,estab101,??,,W
 play,9,1,hayef101,??,,W.1-2
 play,9,1,siebd102,??,,WP.2-3;1-2
 play,9,1,siebd102,??,,5/P
 play,9,1,halli101,??,,D9.3-H;2-H
-play,9,1,busce101,??,,53.2-3
-play,9,1,burnj101,??,,E4.3-H(NR)(UR)
-play,9,1,schec101,??,,BK.1-2
+play,9,1,busce101,??,,BK.2-3
+play,9,1,busce101,??,,53
+play,9,1,burnj101,??,,E4/G4M.3-H(NR)(UR)
 play,9,1,schec101,??,,NP
 sub,rosel101,"Larry Rosenthal",1,9,11
-play,9,1,rosel101,??,,W
+play,9,1,rosel101,??,,W.1-2
 play,9,1,metrc101,??,,43
 data,er,cecir101,3
 data,er,blacd101,3
@@ -1256,7 +1260,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,126
+info,timeofgame,124
 info,attendance,0
 info,wp,lee-t101
 info,lp,newsb101
@@ -1395,7 +1399,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,124
+info,timeofgame,110
 info,attendance,25241
 info,wp,chrir101
 info,lp,humpj101
@@ -2537,7 +2541,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,107
+info,timeofgame,135
 info,attendance,0
 info,wp,beveb101
 info,lp,newsb101
@@ -2690,7 +2694,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,151
+info,timeofgame,97
 info,attendance,0
 info,wp,newsb101
 info,lp,jakus101
@@ -2823,7 +2827,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,151
+info,timeofgame,112
 info,attendance,1800
 info,wp,florj101
 info,lp,shirt101
@@ -3122,8 +3126,8 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,113
-info,attendance,1322
+info,timeofgame,115
+info,attendance,1822
 info,wp,knerl101
 info,lp,westl101
 info,save,berrj102
@@ -4107,7 +4111,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,176
+info,timeofgame,116
 info,attendance,0
 info,wp,newhh101
 info,lp,gerks101
@@ -4244,7 +4248,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,176
+info,timeofgame,67
 info,attendance,20341
 info,wp,blacd101
 info,lp,benta101
@@ -5312,7 +5316,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,143
+info,timeofgame,127
 info,attendance,19267
 info,wp,berrj102
 info,lp,wolfr102
@@ -5582,8 +5586,8 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,116
-info,attendance,0
+info,timeofgame,96
+info,attendance,11077
 info,wp,heflr101
 info,lp,florj101
 info,save,
@@ -5721,7 +5725,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,115
-info,attendance,0
+info,attendance,6131
 info,wp,rybam101
 info,lp,knerl101
 info,save,
@@ -5866,7 +5870,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,115
+info,timeofgame,101
 info,attendance,0
 info,wp,newsb101
 info,lp,woodp102
@@ -5994,7 +5998,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,111
-info,attendance,0
+info,attendance,13605
 info,wp,gassc101
 info,lp,oneie102
 info,save,
@@ -6133,7 +6137,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,111
+info,timeofgame,119
 info,attendance,0
 info,wp,beveb101
 info,lp,bowlc101
@@ -6276,7 +6280,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,176
-info,attendance,0
+info,attendance,36021
 info,wp,holck101
 info,lp,florj101
 info,save,
@@ -6456,7 +6460,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,176
+info,timeofgame,142
 info,attendance,0
 info,wp,rossb102
 info,lp,blacd101
@@ -6618,7 +6622,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,191
-info,attendance,0
+info,attendance,10720
 info,wp,papif101
 info,lp,florj101
 info,save,johnj103
@@ -6812,7 +6816,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,191
+info,timeofgame,124
 info,attendance,0
 info,wp,berrj102
 info,lp,lee-t101
@@ -7387,7 +7391,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,100
-info,attendance,0
+info,attendance,3428
 info,wp,florj101
 info,lp,rossb102
 info,save,
@@ -7672,7 +7676,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,127
+info,timeofgame,75
 info,attendance,16755
 info,wp,fowld101
 info,lp,millo101
@@ -8636,7 +8640,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,102
-info,attendance,0
+info,attendance,3000
 info,wp,blacd101
 info,lp,smita104
 info,save,
@@ -8774,7 +8778,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,102
+info,timeofgame,114
 info,attendance,0
 info,wp,groms101
 info,lp,newsb101
@@ -8910,7 +8914,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,109
-info,attendance,0
+info,attendance,16656
 info,wp,knerl101
 info,lp,centp101
 info,save,berrj102
@@ -9069,7 +9073,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,109
+info,timeofgame,95
 info,attendance,7078
 info,wp,wolfr102
 info,lp,chrir101

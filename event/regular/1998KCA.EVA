@@ -2020,9 +2020,6 @@ start,youne002,"Ernie Young",1,7,9
 start,sweem002,"Mike Sweeney",1,8,2
 start,halts001,"Shane Halter",1,9,6
 start,hanec001,"Chris Haney",1,0,1
-com,"ej,muset101,M,onorb901,Appeal play"
-com,"Royals manager TOny Muser ejected by 3B umpire Brian O'Nora"
-com,"sometime in game arguing an appeal play"
 play,1,0,knobc001,32,CFBFFFBFBB,W
 play,1,0,jeted001,02,C1F1,CS2(136)
 play,1,0,jeted001,02,C1F1.X,HR/F7LD
@@ -2085,7 +2082,10 @@ play,6,1,youne002,00,X,6/L6
 play,6,1,sweem002,31,BCBBB,W
 play,6,1,halts001,22,BCF1FBX,S7/L7S.1-2
 play,6,1,damoj001,21,BFBX,S9/L89S.2-3;1-2
-play,6,1,offej001,11,CBX,9(B)25(3)/FDP/F9M
+play,6,1,offej001,11,CBX,9(B)25(3)/FDP/F9M/AP
+com,"ej,muset101,M,onorb901,Appeal play"
+com,"$Royals manager Muser ejected by 3B umpire O'Nora for"
+com,"arguing that Sweeney did not leave 3B too soon"
 play,7,0,jeted001,02,FFX,S8/L8LS
 play,7,0,oneip001,11,SB1,PO1(E1).1-3
 play,7,0,oneip001,11,SB1.X,8/SF/F8LD.3-H
@@ -4394,11 +4394,10 @@ play,7,0,salmt001,??,,K
 play,7,0,fielc001,??,,K
 play,7,0,nevip001,??,,HP
 com,"ej,pittj002,P,tscht901,Intentional HBP"
-com,"ej,nevip001,P,tscht901,Charging mound after HBP"
-com,"Phil Nevin charged the mound after being HBP for the"
-com,"second time in the game; both benches emptied and a"
-com,"scrum started; pitcher Jim Pittsley tackled Nevin,"
-com,"who was ejected by HP umpire Tim Tschida"
+com,"ej,nevip001,P,tscht901,Fighting"
+com,"$Nevin and pitcher Pittsley ejected by HP umpire Tschida"
+com,"for fighting after intentional HBP; benches emptied, both"
+com,"teams warned"
 play,7,0,andeg001,??,,NP
 sub,bevib001,"Brian Bevil",1,0,1
 play,7,0,andeg001,??,,NP
@@ -4422,10 +4421,10 @@ play,8,0,salmt001,??,,S5/L5.3-H;1-3
 play,8,0,fielc001,??,,S8/L89S.3-H;1-2
 play,8,0,walbm001,??,,9/F9LM
 play,8,1,palmd002,??,,HP
-com,"ej,collt801,M,tscht901,Intentional HBP"
-com,"ej,delur001,P,tscht901,Intentional HBP"
-com,"Rich DeLucia and Angels manager Terry Collins ejected"
-com,"by HP umpire Tim Tschida"
+com,"ej,collt801,M,tscht901,Automatic ejection for HBP after warning"
+com,"ej,delur001,P,tscht901,Automatic ejection for HBP after warning"
+com,"$Pitcher DeLucia and Angels manager Collins ejected"
+com,"by HP umpire Tschida automatcially for HBP after warning"
 play,8,1,conij001,??,,NP
 sub,harrp001,"Pep Harris",0,0,1
 play,8,1,conij001,??,,S7/L7LS.1-2
@@ -4446,26 +4445,25 @@ play,9,0,andeg001,??,,D7/L7LS
 play,9,0,baugj001,??,,8/F8RS
 play,9,0,disag001,??,,53/G5
 play,9,0,erstd001,??,,HP
-com,"ej,servs001,P,tscht901,Intentional HBP"
-com,"ej,muset101,M,tscht901,Intentional HBP"
-com,"Scott Service and Royals manager Tony Muser ejected"
-com,"by HP umpire Tim Tschida"
+com,"ej,servs001,P,tscht901,Automatic ejection for HBP after warning"
+com,"ej,muset101,M,tscht901,Automatic ejection for HBP after warning"
+com,"$Pitcher Service and Royals manager Muser ejected by HP umpire"
+com,"Tschida automatcially for HBP after warning"
 play,9,0,holld001,??,,NP
 sub,whism001,"Matt Whisenant",1,0,1
 play,9,0,holld001,??,,9/F9LM
 play,9,1,offej001,??,,HP
-com,"ej,holtm001,P,tscht901,Intentional HBP"
-com,"ej,maddj801,C,tscht901,Intentional HBP"
-com,"ej,bolif001,P,tscht901,Bench-clearing brawl"
-com,"ej,dauer001,C,tscht901,Bench-clearing brawl"
-com,"ej,martf001,P,tscht901,Bench-clearing brawl"
-com,"ej,quirj001,C,tscht901,Bench-clearing brawl"
-com,"$both benches emptied; Felix Martinez punched Frank Bolick:"
-com,"Jack McDowell (on the DL) punched Martinez; Gary DiSarcina,"
-com,"Ken Hill and Angel Mashore went after Martinez;"
-com,"Mike Holtz, coach (acting manager) Joe Madden, Frank Bolick,"
-com,"Royals coach Rich Dauer, Martinez and Royals coach Jamie"
-com,"Quirk ejected by HP umpire Tim Tschida"
+com,"ej,holtm001,P,tscht901,Automatic ejection for HBP after warning"
+com,"ej,maddj801,C,tscht901,Automatic ejection for HBP after warning"
+com,"ej,bolif001,P,tscht901,Fighting"
+com,"ej,dauer001,C,tscht901,Fighting"
+com,"ej,martf001,P,tscht901,Fighting"
+com,"ej,quirj001,C,tscht901,Fighting"
+com,"$Pitcher Holtz and Angels coach and acting manager Maddon"
+com,"ejected by HP umpire Tschida automatcially for HBP after"
+com,"warning; benches emptied and many fights; Angels Bolick,"
+com,"Royals coaches Dauer and and Quirk and Royals Martinez"
+com,"ejected by Tschida for fighting"
 play,9,1,kingj001,??,,NP
 sub,hases001,"Shigetoshi Hasegawa",0,0,1
 play,9,1,kingj001,??,,54(1)/FO/G5
@@ -4479,8 +4477,6 @@ play,9,1,dye-j001,??,,NP
 sub,shipc001,"Craig Shipley",0,2,5
 play,9,1,dye-j001,??,,K
 play,9,1,sweem002,??,,63/G6
-com,"$as the Angels left the field, the song 'You've Lost That"
-com,"Lovin Feeling' played on the P.A."
 data,er,washj001,0
 data,er,hanec001,5
 data,er,pittj002,0
@@ -6914,10 +6910,11 @@ play,7,0,bordp001,11,BFX,63/G6.2-3
 play,7,0,belld002,10,BX,HR/L7D.3-H
 play,7,0,loftk001,30,BBBB,W
 play,7,0,dunss001,11,BCX,4/P4MD
+play,7,1,suttl001,10,B,NP
 com,"ej,wrigj002,P,joycj901,Throwing at batter"
-com,"Jaret Wright ejected by HP umpire Jim Joyce for throwing at"
-com,"Larry Sutton"
-play,7,1,suttl001,00,,NP
+com,"$Pitcher Wright ejected by HP umpire Joyce for throwing at"
+com,"batter"
+play,7,1,suttl001,10,B,NP
 sub,plune001,"Eric Plunk",0,0,1
 play,7,1,suttl001,10,BX,13/G4MS
 play,7,1,conij001,12,BFCFFS,K
@@ -8853,9 +8850,6 @@ start,leius001,"Scott Leius",1,7,5
 start,fasas001,"Sal Fasano",1,8,2
 start,rivel001,"Luis Rivera",1,9,6
 start,ruscg001,"Glendon Rusch",1,0,1
-com,"ej,millr801,M,roe-r901,Arguing bunt hit batter out of box"
-com,"Orioles manager Ray Miller ejected by HP umpire ROcky Roe"
-com,"sometime in game"
 play,1,0,andeb001,12,FCBS,K
 play,1,0,hammj001,11,LBX,HR/F7D
 play,1,0,davie001,32,BCSBBFX,53/G5L
@@ -8885,6 +8879,9 @@ play,3,0,websl001,00,X,46(1)3/GDP/G4
 play,3,1,damoj001,32,CBCFBBX,8/F8LM
 play,3,1,morrh001,11,BCX,S7/L7S
 play,3,1,offej001,00,X,S2/BG25.1-2
+com,"ej,millr801,M,roe-r901,Interference non-call"
+com,"$Orioles manager Miller ejected by HP umpire Roe for arguing"
+com,"Offerman was out of box when he bunted"
 play,3,1,palmd002,10,BX,54(1)3/GDP/G5L
 play,4,0,reboj001,22,BCBFX,S9/G4
 play,4,0,bordm001,10,BX,7/F78M

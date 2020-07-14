@@ -2482,6 +2482,7 @@ play,5,1,blanl001,22,BC111BC1FX,9/L9M
 play,5,1,hendr001,00,X,4/P34D
 play,5,1,lansc001,11,1BCX,7/F78M
 play,6,0,kellp001,01,CH,HP
+com,"$Warning to both teams after HBP"
 play,6,0,jamed001,20,1B11B1>X,63/G6M.1-2
 play,6,0,mattd001,10,BX,6(B)4(2)/FDP/F5D
 play,6,1,cansj001,21,BSBX,HR/F7D.B-H
@@ -2492,7 +2493,7 @@ play,6,1,browj001,00,11X,53/BG25.1-2
 play,6,1,bordm001,00,>B,SB3
 play,6,1,bordm001,21,B.CBX,HR/F7D.3-H;B-H
 play,6,1,blanl001,30,BBBB,W
-play,6,1,hendr001,11,CB111,CS2(136)
+play,6,1,hendr001,11,CB111,POCS2(136)
 play,7,0,kellb002,22,FBSBC,K
 play,7,0,hallm001,12,CCFBX,E6/G6.B-1
 play,7,0,tartd001,12,FBFX,8/F78XD
@@ -2512,7 +2513,8 @@ sub,farrs001,"Steve Farr",0,0,1
 play,8,1,steit001,22,.BCSBX,6/P6M
 play,8,1,wilsw001,00,X,8/F8LS
 play,8,1,browj001,00,H,HP
-com,"ej,farrs001,P,cobld901,Intentional HBP"
+com,"ej,farrs001,P,cobld901,Automatic ejection for HBP after warning"
+com,"ej,showb801,M,cobld901,Automatic ejection for HBP after warning"
 com,"Steve Farr ejected by HP umpire Drew Coble"
 play,8,1,bordm001,00,,NP
 sub,johnj004,"Jeff Johnson",0,0,1
@@ -12361,9 +12363,6 @@ start,steit001,"Terry Steinbach",1,7,2
 start,bordm001,"Mike Bordick",1,8,4
 start,weisw001,"Walt Weiss",1,9,6
 start,moorm001,"Mike Moore",1,0,1
-com,"ej,gossr001,P,merrd901,Bench jockeying"
-com,"Rich Gossage ejected by HP umpire Durwood Merrill"
-com,"from the bench sometime in game"
 play,1,0,listp001,22,BBCFFC,K
 play,1,0,hamid001,01,CX,E1/TH/G13.B-3
 play,1,0,molip001,30,BBBB,W
@@ -12394,6 +12393,9 @@ play,3,0,molip001,00,C,CS2(24)
 play,3,0,molip001,32,C.BBSFBFB,W
 play,3,0,younr001,01,CX,8/F8RXD
 play,3,1,mcgwm001,12,FBFC,K
+com,"ej,gossr001,P,merrd901,Bench jockeying"
+com,"$Athletics Gossage ejected by HP umpire Merrill for"
+com,"arguing balls and strikes from the bench"
 play,3,1,lansc001,10,BX,6/L6
 play,3,1,steit001,01,CX,4/P4
 play,4,0,vaugg001,11,BSX,S/L56

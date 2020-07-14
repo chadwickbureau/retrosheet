@@ -3681,9 +3681,6 @@ start,castv001,"Vinny Castilla",1,6,5
 start,reedj001,"Jeff Reed",1,7,2
 start,weisw001,"Walt Weiss",1,8,6
 start,freem001,"Marvin Freeman",1,9,1
-com,"ej,schop001,P,quicj901,Arguing fair/foul HR call from bench"
-com,"Pete Schourek ejected by 3B umpire Jim Quick from bench"
-com,"sometime in game"
 play,1,0,larkb001,21,BFBX,9/F9D
 play,1,0,morrh001,12,BCFX,8/L8LD
 play,1,0,davie001,01,CX,63/G6
@@ -3762,6 +3759,9 @@ sub,ruffb001,"Bruce Ruffin",1,9,1
 play,9,0,anthe001,00,.,NP
 sub,saboc001,"Chris Sabo",0,6,11
 play,9,0,saboc001,22,..CS*BFFFBX,S8/L8RS/R4.3-H;2-H
+com,"ej,schop001,P,quicj901,Arguing Fair/foul call"
+com,"$Reds Schourek, not in game, ejected by 3B umpire Quick from"
+com,"bench for arguing ball hit by Sabo was home run but ruled foul"
 play,9,0,boonb002,10,1BX,S9/L34D/R4.1-2
 play,9,0,branj002,00,,NP
 sub,olivj001,"Joe Oliver",0,8,11
@@ -4328,7 +4328,9 @@ play,8,1,walkl001,00,..,NP
 sub,houst001,"Tyler Houston",0,4,3
 play,8,1,walkl001,00,...,NP
 sub,mcmig001,"Greg McMichael",0,6,1
-play,8,1,walkl001,00,....X,43/G4
+play,8,1,walkl001,00,....,NP
+sub,bellr001,"Rafael Belliard",0,7,6
+play,8,1,walkl001,00,.....X,43/G4
 play,8,1,galaa001,31,BSBBX,9/F9LMF
 play,8,1,castv001,00,X,8/F89XD
 play,9,0,dye-j001,00,,NP
@@ -4397,9 +4399,6 @@ start,castv001,"Vinny Castilla",1,6,5
 start,weisw001,"Walt Weiss",1,7,6
 start,owenj001,"Jayhawk Owens",1,8,2
 start,farmm001,"Mike Farmer",1,9,1
-com,"ej,cox-b103,M,darlg901,Balls and strikes"
-com,"Braves manager Bobby Cox ejected by HP umpire Gary Darling"
-com,"sometime in game"
 play,1,0,grism001,32,BBBCFS,K
 play,1,0,blauj001,00,X,S7/L7S
 play,1,0,jonec004,31,BBFB1B,W.1-2
@@ -4409,6 +4408,9 @@ play,1,0,lopej001,32,BFCFF*BBX,S8/G6M/R6.3-H;2-H
 play,1,0,dye-j001,02,FCFS,K
 play,1,1,youne001,11,BCX,S7/G56/R4
 play,1,1,burke001,31,BFB1B>B,W.1-2
+com,"ej,cox-b103,M,darlg901,Balls and strikes"
+com,"$Braves manager Cox ejected by HP umpire Darling for"
+com,"arguing balls and strikes after Burks walked"
 play,1,1,bichd001,00,X,HR/F7D.2-H;1-H
 play,1,1,walkl001,01,LX,S6/G6/R3
 play,1,1,galaa001,11,SBX,S8/L8RM/R5.1-2
@@ -9949,8 +9951,9 @@ play,12,1,batej001,31,B1B.BCB,W
 play,12,1,youne001,00,,NP
 sub,matht002,"T.J. Mathews",0,9,1
 play,12,1,youne001,12,.CCBFS,K
-com,"ej,youne001,P,herna901,Balls and strikes"
-com,"Eric Young ejetced by HP umpire Angel Hernandez"
+com,"ej,youne001,P,herna901,Called third strike"
+com,"$Young ejected by HP umpire Hernandez for arguing called"
+com,"third strike"
 play,12,1,burke001,12,SCBC,K
 play,13,0,lankr001,00,,NP
 sub,owenj001,"Jayhawk Owens",1,7,2
