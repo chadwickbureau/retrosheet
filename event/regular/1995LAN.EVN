@@ -456,10 +456,9 @@ sub,hollt001,"Todd Hollandsworth",1,9,7
 play,7,0,lopej001,10,...BX,53/G5
 play,7,0,lemkm001,22,FBFBX,9/F9LD
 play,7,0,kellm001,10,BX,S2/G2L.B-3(E2/TH)
-com,"ej,lasot101,M,fordw901,Claiming runner out of baseline"
+com,"ej,lasot101,M,fordw901,Interference non-call"
 com,"$Dodger manager Lasorda ejected by 1B umpire Wade Ford for"
-com,"arguing that Kelly was running inside the line when hit"
-com,"by catcher's throw"
+com,"arguing that Kelly was running inside baseline"
 play,7,0,grism001,12,..BFSX,S1/G25.3-H
 play,7,0,blauj001,21,1BC1BX,S7/L7LS.1-3
 play,7,0,jonec004,20,BBX,D9/G3.3-H;1-3
@@ -6119,9 +6118,6 @@ start,wallt001,"Tim Wallach",1,6,5
 start,ashlb001,"Billy Ashley",1,7,7
 start,hollt001,"Todd Hollandsworth",1,8,9
 start,valdi001,"Ismael Valdes",1,9,1
-com,"ej,cox-b103,M,rungp901,Balls and strikes"
-com,"Braves manager Bobby Cox ejected by HP umpire Paul Runge"
-com,"sometime in game"
 play,1,0,grism001,00,.UX,63
 play,1,0,blauj001,00,UX,63
 play,1,0,jonec004,00,UX,7/F7S
@@ -6162,6 +6158,9 @@ play,5,1,valdi001,00,X,63/G6
 play,5,1,fonvc001,30,BBBB,W
 play,5,1,offej001,10,111B1C,SB2
 play,5,1,offej001,32,111B1C.BCFFBB,W
+com,"ej,cox-b103,M,rungp901,Balls and strikes"
+com,"$Braves manager Cox ejected by HP umpire Runge for"
+com,"arguing balls and strikes while Offerman was at bat"
 play,5,1,piazm001,00,X,8/L89D
 play,6,0,grism001,22,BCSBX,7/L7M
 play,6,0,blauj001,22,CCBFBX,S6/F7S
@@ -7149,7 +7148,10 @@ play,8,1,offej001,00,X,S7/L6D.3-H
 play,8,1,piazm001,00,,NP
 sub,matht002,"T.J. Mathews",0,9,1
 play,8,1,piazm001,10,.BX,S16/G6MS.1-2
-play,8,1,karre001,12,CBCFC,K
+play,8,1,karre001,12,CBCFC,K/C
+com,"ej,karre001,P,quicj901,Called third strike"
+com,"$Karros ejected by HP umpire Quick for arguing called"
+com,"third strike"
 play,9,0,sweem001,00,,NP
 sub,guthm001,"Mark Guthrie",1,9,1
 play,9,0,sweem001,01,.CX,7/F78M
@@ -7160,12 +7162,12 @@ sub,henkt001,"Tom Henke",0,9,1
 play,9,1,mondr002,32,.BBBCCS,K
 com,"ej,mondr002,P,quicj901,Balls and strikes"
 com,"ej,lasot101,M,quicj901,Balls and strikes"
-com,"ej,karre001,P,quicj901,Balls and strikes (from bench)"
-com,"$Raul Mondesi, Eric Karros and Dodgers manager Tommy"
-com,"Lasorda ejected by HP umpire Jim Quick"
+com,"$Mondesi and Dodgers manager Lasorda ejected by HP umpire"
+com,"Quick for arguing balls and strikes"
 play,9,1,kellb002,00,......,NP
 com,"$Game forfeited to St. Louis as souvenir baseballs"
-com,"(giveaway at game) were thrown on the field three times"
+com,"(giveaway at game) were thrown on the field three times;"
+com,"all individual stats count"
 data,er,petkm001,1
 data,er,matht002,0
 data,er,henkt001,0

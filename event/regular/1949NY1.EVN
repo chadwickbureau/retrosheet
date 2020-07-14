@@ -4354,7 +4354,7 @@ info,umphome,robbs901
 info,ump1b,dascf901
 info,ump2b,pineb101
 info,ump3b,gorea901
-info,scorer,"115"
+info,scorer,"115,269"
 info,translator,"Bob Kistler"
 info,inputter,"Greg Beston"
 info,inputtime,1994/08/02 10:26AM
@@ -4390,57 +4390,58 @@ start,westw101,"Wes Westrum",1,6,2
 start,lohrj101,"Jack Lohrke",1,7,5
 start,kerrb101,"Buddy Kerr",1,8,6
 start,behrh101,"Hank Behrman",1,9,1
-play,1,0,stane101,??,,5
-play,1,0,flete101,??,,6
+play,1,0,stane101,??,,5/P
+play,1,0,flete101,??,,6/P
 play,1,0,darka101,??,,S7
-play,1,0,ellib103,??,,7/7D
+play,1,0,ellib103,??,,7/F7D
 play,1,1,hausg101,??,,43
-play,1,1,lockw101,??,,D7/7D
-play,1,1,thomb105,??,,7
+play,1,1,lockw101,??,,D7/7DW
+play,1,1,thomb105,??,,7/F
 play,1,1,mizej101,??,,W
 play,1,1,gords101,??,,WP.2-3;1-2
 play,1,1,gords101,??,,IW
 play,1,1,westw101,??,,K
 play,2,0,rickm101,??,,K/C
-play,2,0,holmt101,??,,8
-play,2,0,conac101,??,,7
+play,2,0,holmt101,??,,8/F8XD
+play,2,0,conac101,??,,7/F
 play,2,1,lohrj101,??,,K
-play,2,1,kerrb101,??,,7
+play,2,1,kerrb101,??,,7/F
 play,2,1,behrh101,??,,13
 play,3,0,livim101,??,,53
 play,3,0,voisb101,??,,13
 play,3,0,stane101,??,,W
-play,3,0,flete101,??,,5
+play,3,0,flete101,??,,5/P
 play,3,1,hausg101,??,,53
 play,3,1,lockw101,??,,W
 play,3,1,thomb105,??,,D9.1-3
 play,3,1,mizej101,??,,W
 play,3,1,gords101,??,,64(1)3/GDP
-play,4,0,darka101,??,,8
+play,4,0,darka101,??,,8/F8XD
 play,4,0,ellib103,??,,53
 play,4,0,rickm101,??,,S4/G
 play,4,0,holmt101,??,,SB2
 play,4,0,holmt101,??,,63
-play,4,1,westw101,??,,8
-play,4,1,lohrj101,??,,S8
+play,4,1,westw101,??,,8/F
+play,4,1,lohrj101,??,,S8/8S
 play,4,1,kerrb101,??,,HP.1-2
-play,4,1,behrh101,??,,15(2)/BG/FO.1-2
-play,4,1,hausg101,??,,7
+play,4,1,behrh101,??,,15(2)/FO/BG.1-2
+play,4,1,hausg101,??,,7/F
 play,5,0,conac101,??,,5/FL
 play,5,0,livim101,??,,63
 play,5,0,voisb101,??,,W
 play,5,0,stane101,??,,W.1-2
-play,5,0,flete101,??,,HR/9D.2-H;1-H
+play,5,0,flete101,??,,HR/F9D.2-H;1-H
+com,"Into upper RF stands"
 play,5,0,darka101,??,,53
 play,5,1,lockw101,??,,43
 play,5,1,thomb105,??,,63
 play,5,1,mizej101,??,,53
 play,6,0,ellib103,??,,63
 play,6,0,rickm101,??,,13
-play,6,0,holmt101,??,,7
-play,6,1,gords101,??,,7
+play,6,0,holmt101,??,,7/F
+play,6,1,gords101,??,,7/F
 play,6,1,westw101,??,,53
-play,6,1,lohrj101,??,,9
+play,6,1,lohrj101,??,,9/F
 play,7,0,conac101,??,,W
 play,7,0,livim101,??,,54(1)/FO
 play,7,0,voisb101,??,,K
@@ -4451,17 +4452,17 @@ play,7,1,behrh101,??,,NP
 sub,mueld101,"Don Mueller",1,9,11
 play,7,1,mueld101,??,,W
 play,7,1,hausg101,??,,K
-play,7,1,lockw101,??,,7
+play,7,1,lockw101,??,,7/F
 play,8,0,darka101,??,,NP
 sub,hansa101,"Andy Hansen",1,9,1
 play,8,0,darka101,??,,31/BG
-play,8,0,ellib103,??,,7
+play,8,0,ellib103,??,,7/F
 play,8,0,rickm101,??,,13
 play,8,1,thomb105,??,,W
-play,8,1,mizej101,??,,3
-play,8,1,gords101,??,,4
-play,8,1,westw101,??,,6
-play,9,0,holmt101,??,,6
+play,8,1,mizej101,??,,3/P
+play,8,1,gords101,??,,4/P
+play,8,1,westw101,??,,6/P
+play,9,0,holmt101,??,,6/P
 play,9,0,conac101,??,,S7
 play,9,0,livim101,??,,WP.1-2
 play,9,0,livim101,??,,2/FL
@@ -5352,6 +5353,167 @@ play,9,1,thomh103,??,,43
 data,er,chesb101,0
 data,er,hartc102,6
 data,er,jones103,3
+id,NY1194907170
+version,1
+info,visteam,SLN
+info,hometeam,NY1
+info,site,NYC14
+info,date,1949/07/17
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,umphome,conlj102
+info,ump1b,warnl101
+info,ump2b,(none)
+info,ump3b,stewb901
+info,scorer,"96,276"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
+info,inputtime,2014/03/16 10:50
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,wet
+info,precip,drizzle
+info,sky,overcast
+info,timeofgame,135
+info,attendance,22128
+info,wp,mungr101
+info,lp,kosld101
+info,save,
+info,gwrbi,
+start,dierc101,"Chuck Diering",0,1,8
+start,schor101,"Red Schoendienst",0,2,4
+start,musis101,"Stan Musial",0,3,9
+start,jonen101,"Nippy Jones",0,4,3
+start,slaue101,"Enos Slaughter",0,5,7
+start,kazae101,"Eddie Kazak",0,6,5
+start,marim101,"Marty Marion",0,7,6
+start,riced101,"Del Rice",0,8,2
+start,mungr101,"Red Munger",0,9,1
+start,thomh103,"Hank Thompson",1,1,4
+start,lockw101,"Whitey Lockman",1,2,7
+start,thomb105,"Bobby Thomson",1,3,8
+start,mizej101,"Johnny Mize",1,4,3
+start,marsw101,"Willard Marshall",1,5,9
+start,gords101,"Sid Gordon",1,6,5
+start,westw101,"Wes Westrum",1,7,2
+start,kerrb101,"Buddy Kerr",1,8,6
+start,kosld101,"Dave Koslo",1,9,1
+com,"It was raining slightly when the Giants took the field."
+com,"The outfield was slippery and soggy; infield dry but slow."
+play,1,0,dierc101,??,,S7
+play,1,0,schor101,??,,S.1-2
+play,1,0,musis101,??,,3/G.2-3;1-2
+com,"The rain stopped as Musial batted"
+play,1,0,jonen101,??,,4/L
+play,1,0,slaue101,??,,S/78S.3-H;2-H
+play,1,0,kazae101,??,,6
+play,1,1,thomh103,??,,D
+play,1,1,lockw101,??,,8
+play,1,1,thomb105,??,,7
+play,1,1,mizej101,??,,3
+play,2,0,marim101,??,,S8/L
+play,2,0,riced101,??,,7/F
+play,2,0,mungr101,02,,D/89.1-H
+play,2,0,dierc101,??,,T7/F78D.2-H
+play,2,0,schor101,??,,NP
+sub,higbk101,"Kirby Higbe",1,9,1
+play,2,0,schor101,??,,W
+play,2,0,musis101,??,,8/F8D.3-H
+play,2,0,jonen101,??,,53
+play,2,1,marsw101,??,,D
+play,2,1,gords101,??,,WP.2-3
+play,2,1,gords101,??,,W
+play,2,1,westw101,??,,9
+play,2,1,kerrb101,??,,K
+play,2,1,higbk101,??,,43
+play,3,0,slaue101,??,,S
+play,3,0,kazae101,??,,S.1-2
+play,3,0,marim101,??,,16(1)3/GDP.2-3
+play,3,0,riced101,??,,K
+play,3,1,thomh103,??,,8/F8XD
+play,3,1,lockw101,??,,S
+play,3,1,thomb105,??,,64(1)3/GDP
+play,4,0,mungr101,??,,K
+play,4,0,dierc101,??,,8
+play,4,0,schor101,??,,HR/F9LD
+com,"Into lower RF stands, 260' away"
+play,4,0,musis101,??,,3/G
+play,4,1,mizej101,??,,3/L
+play,4,1,marsw101,??,,D
+play,4,1,gords101,??,,8
+play,4,1,westw101,??,,W
+play,4,1,kerrb101,??,,9
+play,5,0,jonen101,??,,5
+play,5,0,slaue101,??,,9
+play,5,0,kazae101,??,,HR/F7D
+com,"Off LF scoreboard"
+play,5,0,marim101,??,,9
+play,5,1,higbk101,??,,NP
+sub,nelsr103,"Rocky Nelson",0,4,3
+play,5,1,higbk101,??,,6
+play,5,1,thomh103,??,,S
+play,5,1,lockw101,??,,36(1)/FO
+play,5,1,thomb105,??,,S.1-2
+play,5,1,mizej101,??,,WP.2-3;1-2
+play,5,1,mizej101,??,,3/FL
+play,6,0,riced101,??,,9
+play,6,0,mungr101,??,,4/FL
+play,6,0,dierc101,??,,53
+play,6,1,marsw101,??,,63
+play,6,1,gords101,??,,HR/F7LD
+com,"Short fly caught LF upper deck on its way down"
+play,6,1,westw101,??,,63
+play,6,1,kerrb101,??,,6
+play,7,0,schor101,??,,43
+play,7,0,musis101,??,,S
+play,7,0,nelsr103,??,,46(1)/FO
+play,7,0,slaue101,??,,PO1(E2).1-3
+play,7,0,slaue101,??,,K
+play,7,1,higbk101,??,,NP
+sub,haasb102,"Bert Haas",1,9,11
+play,7,1,haasb102,??,,7/F
+play,7,1,thomh103,??,,3/FL
+play,7,1,lockw101,??,,63
+play,8,0,kazae101,??,,NP
+sub,webbr101,"Red Webb",1,9,1
+play,8,0,kazae101,??,,W
+play,8,0,marim101,??,,CS2(24)
+play,8,0,marim101,??,,W
+play,8,0,riced101,??,,8
+play,8,0,mungr101,??,,S.1-2
+play,8,0,dierc101,??,,W.2-3;1-2
+play,8,0,schor101,??,,S9.3-H;2-H;1-H(TH2)(NR)
+com,"Diering kept running as RF Marshall threw to SS, not home"
+play,8,0,musis101,??,,7
+play,8,1,thomb105,??,,NP
+sub,kleil101,"Lou Klein",0,7,6
+play,8,1,thomb105,??,,7/F78
+play,8,1,mizej101,??,,9
+play,8,1,marsw101,??,,6
+play,9,0,nelsr103,??,,43
+play,9,0,slaue101,??,,13
+play,9,0,kazae101,??,,53
+play,9,1,gords101,??,,8
+play,9,1,westw101,??,,E6
+play,9,1,kerrb101,??,,NP
+sub,lafaj101,"Joe Lafata",1,8,11
+play,9,1,lafaj101,??,,46(1)/FO
+play,9,1,webbr101,??,,NP
+sub,mueld101,"Don Mueller",1,9,11
+play,9,1,mueld101,??,,S.1-2
+play,9,1,thomh103,??,,8/F8XD
+com,"This was the first game of a scheduled doubleheader, but the"
+com,"second game was called at 5:15pm due to rain and darkness,"
+com,"with the Cards up 2-0 in the 2nd inning."
+data,er,mungr101,1
+data,er,kosld101,5
+data,er,higbk101,2
+data,er,webbr101,3
 id,NY1194907180
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -5367,9 +5529,9 @@ info,umphome,warnl101
 info,ump1b,stewb901
 info,ump2b,(none)
 info,ump3b,conlj102
-info,scorer,"232"
-info,translator,"DWV"
-info,inputter,"DWV"
+info,scorer,"232,102"
+info,translator,"DWV/Townsend"
+info,inputter,"DWV/Townsend"
 info,inputtime,2013/06/10 10:01AM
 info,howscored,unknown
 info,pitches,none
@@ -5403,83 +5565,87 @@ start,irvim101,"Monte Irvin",1,6,5
 start,rignb101,"Bill Rigney",1,7,6
 start,muelr101,"Ray Mueller",1,8,2
 start,kennm101,"Monte Kennedy",1,9,1
-play,1,0,dierc101,??,,S6.B-2(E6/TH1)
-play,1,0,schor101,??,,S.2-3
-play,1,0,musis101,??,,7
-play,1,0,jonen101,??,,8.3-H(UR)
-play,1,0,slaue101,??,,W.1-2
+play,1,0,dierc101,??,,S6/G56.B-2(E6/TH1)
+play,1,0,schor101,??,,S8.2-3
+play,1,0,musis101,??,,13.1-2
+play,1,0,jonen101,??,,8/F8.3-H(UR)
+play,1,0,slaue101,??,,W
 play,1,0,kazae101,??,,2/P
-play,1,1,thomh103,??,,W
+play,1,1,thomh103,30,,W
 play,1,1,lockw101,??,,W.1-2
-play,1,1,thomb105,??,,64(1)3/GDP.2-3#
-play,1,1,mizej101,??,,8
-play,2,0,marim101,??,,2/G
-play,2,0,riced101,??,,S
+play,1,1,thomb105,??,,64(1)3/GDP.2-3
+play,1,1,mizej101,??,,8/F
+play,2,0,marim101,??,,31
+play,2,0,riced101,??,,S7
 play,2,0,braza101,??,,4(1)3/GDP
+com,"Thompson tagged Rice"
 play,2,1,gords101,??,,63
 play,2,1,irvim101,??,,W
-play,2,1,rignb101,??,,S.1-2
-play,2,1,muelr101,??,,36(1)/FO.2-3
+play,2,1,rignb101,??,,S9.1-2
+play,2,1,muelr101,??,,54(1)/FO.2-3
 play,2,1,kennm101,??,,43
-play,3,0,dierc101,??,,D
-play,3,0,schor101,??,,8
-play,3,0,musis101,??,,8
-play,3,0,jonen101,??,,8
+play,3,0,dierc101,??,,D9/9L
+play,3,0,schor101,??,,8/L
+play,3,0,musis101,??,,8/F.2-3
+play,3,0,jonen101,??,,8/F
 play,3,1,thomh103,??,,13
 play,3,1,lockw101,??,,43
 play,3,1,thomb105,??,,53
-play,4,0,slaue101,??,,E4#
-play,4,0,kazae101,??,,99.1-2
-play,4,0,marim101,??,,63
+play,4,0,slaue101,??,,S7
+play,4,0,kazae101,??,,54(1)/FO
+play,4,0,marim101,??,,63.1-2
 play,4,0,riced101,??,,IW
 play,4,0,braza101,??,,43
-play,4,1,mizej101,??,,3/P
+play,4,1,mizej101,??,,3/G
 play,4,1,gords101,??,,W
-play,4,1,irvim101,??,,D.1-3
+play,4,1,irvim101,??,,D7/7L.1-3
 play,4,1,rignb101,??,,IW
 play,4,1,muelr101,??,,4(1)3/GDP
 play,5,0,dierc101,??,,63
-play,5,0,schor101,??,,3/P
+play,5,0,schor101,??,,3/P/FL
 play,5,0,musis101,??,,K
-play,5,1,kennm101,??,,S
-play,5,1,thomh103,??,,99(1)/FO
-play,5,1,lockw101,??,,S.1-2
-play,5,1,thomb105,??,,5/P
-play,5,1,mizej101,??,,3/P
+play,5,1,kennm101,??,,S8
+play,5,1,thomh103,??,,46(1)/FO
+play,5,1,lockw101,??,,S/BG25.1-2
+play,5,1,thomb105,??,,5/P/FL
+play,5,1,mizej101,??,,3/G
 play,6,0,jonen101,??,,63
-play,6,0,slaue101,??,,S
-play,6,0,kazae101,??,,S.1-2
+play,6,0,slaue101,??,,S9
+play,6,0,kazae101,??,,S8.1-2
 play,6,0,marim101,??,,K
 play,6,0,riced101,??,,4/P
-play,6,1,gords101,??,,HR/7
-play,6,1,irvim101,??,,S
+play,6,1,gords101,??,,HR/F7D
+com,"Into upper LF stands"
+play,6,1,irvim101,??,,S7
 play,6,1,rignb101,??,,43.1-2
 play,6,1,muelr101,??,,IW
-play,6,1,kennm101,??,,3/G.2-3;1-2
+play,6,1,kennm101,??,,53.2-3;1-2
 play,6,1,thomh103,??,,W
-play,6,1,lockw101,??,,9
-play,7,0,braza101,??,,53
+play,6,1,lockw101,??,,9/F
+play,7,0,braza101,??,,63
 play,7,0,dierc101,??,,W
-play,7,0,schor101,??,,S.1-3
-play,7,0,musis101,??,,4(1)/FO.3-H
+play,7,0,schor101,??,,S9.1-3
+play,7,0,musis101,??,,46(1)/FO.3-H
 play,7,0,jonen101,??,,K
-play,7,1,thomb105,??,,HR/7
+play,7,1,thomb105,??,,HR/F7D
+com,"Into upper LF stands"
 play,7,1,mizej101,??,,43
 play,7,1,gords101,??,,W
 play,7,1,irvim101,??,,53.1-2
-play,7,1,rignb101,??,,S4.2-3
+play,7,1,rignb101,??,,S4/G.2-3
+com,"Close play on high topper; Cards protested to Ump Stewart"
 play,7,1,muelr101,??,,D7.3-H;1-H;B-3(THH)
 play,7,1,kennm101,??,,NP
 sub,stalg103,"Gerry Staley",0,9,1
-play,7,1,kennm101,??,,S6.3-H
-play,7,1,thomh103,??,,8
-play,8,0,slaue101,??,,S4
-play,8,0,kazae101,??,,T.1-H
-play,8,0,marim101,??,,2/P
-play,8,0,riced101,??,,7.3-H
+play,7,1,kennm101,??,,S6/G56.3-H
+play,7,1,thomh103,??,,8/F
+play,8,0,slaue101,??,,E4/G
+play,8,0,kazae101,??,,T7.1-H(UR)
+play,8,0,marim101,??,,2/P/FL
+play,8,0,riced101,??,,7/F7D.3-H(UR)
 play,8,0,stalg103,??,,NP
 sub,kleil101,"Lou Klein",0,9,11
-play,8,0,kleil101,??,,7
+play,8,0,kleil101,??,,7/F
 play,8,1,lockw101,??,,NP
 sub,wilkt101,"Ted Wilks",0,9,1
 play,8,1,lockw101,??,,DGR/9/FINT
@@ -5496,7 +5662,7 @@ play,9,0,musis101,??,,13#
 data,er,braza101,5
 data,er,stalg103,0
 data,er,wilkt101,1
-data,er,kennm101,3
+data,er,kennm101,1
 id,NY1194907190
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8227,7 +8393,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,138
-info,attendance,10598
+info,attendance,10596
 info,wp,kennm101
 info,lp,liveb101
 info,save,

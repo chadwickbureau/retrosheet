@@ -5856,9 +5856,6 @@ start,wilkr001,"Rick Wilkins",1,6,2
 start,dascd001,"Doug Dascenzo",1,7,8
 start,sancr001,"Rey Sanchez",1,8,6
 start,castf001,"Frank Castillo",1,9,1
-com,"ej,lefej101,M,bonig901,Balls and strikes"
-com,"Cubs manager Jim Lefebvre ejected by HP umpire"
-com,"Greg Bonin sometime in game"
 play,1,0,robeb002,12,CSBS,K
 play,1,0,martd002,12,BFCC,K
 play,1,0,oneip001,02,CFX,4/P4D
@@ -5906,7 +5903,10 @@ play,6,0,benaf001,00,X,9/P34D
 play,6,1,castf001,00,,NP
 sub,smitd003,"Dwight Smith",1,9,11
 play,6,1,smitd003,22,.BFBCX,13/G13
-play,6,1,vizcj001,12,SLBC,K
+play,6,1,vizcj001,12,SLBC,K/C
+com,"ej,lefej101,M,bonig901,Called third strike"
+com,"$Cubs manager Lefebvre ejected by HP umpire Bonin for"
+com,"arguing called third strike to Vizcaino"
 play,6,1,sandr001,10,BX,8/F8RD
 play,7,0,rijoj001,00,,NP
 sub,scanb001,"Bob Scanlan",1,9,1
@@ -6620,9 +6620,6 @@ start,wilkr001,"Rick Wilkins",1,6,2
 start,may-d001,"Derrick May",1,7,7
 start,dascd001,"Doug Dascenzo",1,8,8
 start,castf001,"Frank Castillo",1,9,1
-com,"ej,martj103,C,tatat901,Arguing failure to call balk"
-com,"Cubs coach Jose Martinez ejected by 1B umpire Terry Tata"
-com,"sometime in game"
 play,1,0,nixoo001,11,CBX,D7/G5D
 play,1,0,sandd001,20,BBX,E8/F78D.2-H(NR)(UR);B-H(E5/TH)(UR)
 play,1,0,pendt001,00,X,7/L7M
@@ -6723,6 +6720,9 @@ sub,treaj001,"Jeff Treadway",0,5,4
 play,8,1,dascd001,32,...FBBBCB,W
 play,8,1,kunkj001,00,X,2/P23F
 play,8,1,sancr001,11,1BC1X,9/F89D
+com,"ej,martj103,C,tatat901,Balk non-call"
+com,"$Cubs coach Martinez ejected by 1B umpire Tata for"
+com,"pitcher had balked"
 play,8,1,sandr001,12,FBF>B,SB2
 play,8,1,sandr001,32,FBFB.BFX,63/G6M
 play,9,0,huntb001,32,BSBBSFX,9/F89M
@@ -9245,18 +9245,17 @@ play,6,1,gracm001,31,CBBBX,HR/L89XD.B-H
 play,6,1,dawsa001,12,CFBX,HR/F78XD.B-H
 play,6,1,buecs001,00,H,HP
 com,"ej,branj001,P,darlg901,Intentional HBP"
-com,"Jeff Brantley ejected by HP umpire Gary Darling"
+com,"$Pitcher Brantley ejected by HP umpire Darling"
 play,6,1,may-d001,00,,NP
 sub,righd001,"Dave Righetti",0,9,1
 play,6,1,may-d001,32,..SBBBFFS,K
-com,"$HP umpire Gary Darling warned Frank Castillo not"
-com,"to throw at batters"
+com,"$HP umpire Darling warns teams about throwing at batters"
 play,7,0,thomr003,00,H,HP
-com,"ej,castf001,P,darlg901,Intentional HBP"
-com,"ej,lefej101,M,darlg901,Intentional HBP"
-com,"Frank Castillo and Cubs manager Jim Lefebvre ejected;"
-com,"both benches cleared"
-com,"by HP umpire Gary Darling"
+com,"ej,castf001,P,darlg901,Automatic ejection for HBP after warning"
+com,"ej,lefej101,M,darlg901,Automatic ejection for HBP after warning"
+com,"$Pitcher Castillo and Cubs manager Lefebvre ejected by HP"
+com,"umpire Gary Darling automatically for HBP after warning;"
+com,"benches cleared"
 play,7,0,manwk001,00,,NP
 sub,robij001,"Jeff Robinson",1,9,1
 play,7,0,manwk001,31,..CB1BBX,7/L7M

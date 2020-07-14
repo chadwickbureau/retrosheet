@@ -5999,14 +5999,14 @@ sub,bochd001,"Doug Bochtler",0,0,1
 play,7,1,staim001,00,.,NP
 sub,mashd001,"Damon Mashore",1,9,12
 play,7,1,staim001,22,..BFCBS,K
-com,"ej,clucb801,C,mcclt901,Balls and strikes"
-com,"Athletics coach Bob Cluck ejected by HP umpire Tim McClelland"
-com,"sometime in eighth inning"
 play,8,0,gwynt001,00,,NP
 sub,willg002,"George Williams",1,2,2
 play,8,0,gwynt001,00,.,NP
 sub,mashd001,"Damon Mashore",1,9,7
 play,8,0,gwynt001,21,..BBCX,S9/L9S
+com,"ej,clucb801,C,mcclt901,Balls and strikes"
+com,"$Athletics coach Cluck ejected by HP umpire McClelland for"
+com,"arguing balls and strikes after Gwynn's singe"
 play,8,0,camik001,31,BBBCB,W.1-2
 play,8,0,sweem001,11,.LBX,S5/BG5S.2-3;1-2
 play,8,0,vaugg001,00,,NP
@@ -7720,9 +7720,6 @@ start,spies001,"Scott Spiezio",1,7,4
 start,batit001,"Tony Batista",1,8,6
 start,maynb001,"Brent Mayne",1,9,2
 start,reyec001,"Carlos Reyes",1,0,1
-com,"ej,howea001,M,cobld901,Balls and strikes"
-com,"Athletics manager Art Howe ejected by HP umpire Drew Coble"
-com,"sometime in game"
 play,1,0,knobc001,00,X,7/L7D
 play,1,0,beckr002,32,FBBBFX,D9/L9D
 play,1,0,molip001,01,CX,4/L4
@@ -7800,7 +7797,10 @@ sub,taylb001,"Billy Taylor",1,0,1
 play,9,0,stahs001,32,...LBSBBS,K
 play,9,0,coomr001,22,FBFBFX,7/F7M
 play,9,0,lawtm002,32,BCBFBX,3/G3
-play,9,1,bellm002,12,CCBC,K
+play,9,1,bellm002,12,CCBC,K/C
+com,"ej,howea001,M,cobld901,Called third strike"
+com,"$Athletics manager Howe ejected by HP umpire Coble for"
+com,"arguing called third strike on Bellhorn"
 play,9,1,bross001,00,X,8/L8RXDW
 play,9,1,giamj001,22,BBCFS,K
 data,er,radkb001,0

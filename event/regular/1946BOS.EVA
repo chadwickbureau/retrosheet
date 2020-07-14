@@ -152,7 +152,7 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,timeofgame,131
+info,timeofgame,188
 info,attendance,0
 info,sky,unknown
 info,wp,dobsj101
@@ -665,7 +665,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,113
+info,timeofgame,115
 info,attendance,18877
 info,wp,dobsj101
 info,lp,newhh101
@@ -1260,9 +1260,9 @@ info,ump1b,grieb901
 info,ump2b,(none)
 info,ump3b,papaj901
 info,usedh,false
-info,scorer,"115"
-info,translator,"Bob Kistler"
-info,inputter,"D Lamoureaux"
+info,scorer,"115,276"
+info,translator,"Bob Kistler/Townsend"
+info,inputter,"D Lamoureaux/Townsend"
 info,inputtime,2002/10/28 7:16PM
 info,howscored,unknown
 info,pitches,none
@@ -1296,12 +1296,14 @@ start,dimad101,"Dom DiMaggio",1,6,8
 start,wagnh102,"Hal Wagner",1,7,2
 start,pelle101,"Eddie Pellagrini",1,8,5
 start,bagbj102,"Jim Bagby",1,9,1
-com,"$Bob Feller: 142 pitches; Jim Bagby: 120 pitches"
+com,"Weather: cold"
 play,1,0,caseg101,??,,K
-play,1,0,edwah101,??,,9
+play,1,0,edwah101,??,,9/L
+com,"Metkovich: glittering diving catch of sinking liner"
 play,1,0,seerp101,??,,W
-play,1,0,fleml101,??,,D9.1-H
+play,1,0,fleml101,??,,D9/9L.1-H
 play,1,0,keltk101,??,,63
+com,"Bagby: 20 pitches in the first inning"
 play,1,1,metkg101,??,,W
 play,1,1,peskj101,??,,S7.1-2
 play,1,1,willt103,??,,W.2-3;1-2
@@ -1312,17 +1314,17 @@ play,2,0,meyed101,??,,13.1-2
 play,2,0,conwj103,??,,43
 play,2,0,fellb101,??,,6/P
 play,2,1,dimad101,??,,W
-play,2,1,wagnh102,??,,S9.1-3
-play,2,1,pelle101,??,,1/P
+play,2,1,wagnh102,??,,S9/L89.1-3
+play,2,1,pelle101,??,,1/BP
 play,2,1,bagbj102,??,,K
 play,2,1,metkg101,??,,SB2
-play,2,1,metkg101,??,,W
-play,2,1,peskj101,??,,S9.1-3;2-H;3-H
+play,2,1,metkg101,32,,W
+play,2,1,peskj101,??,UX,S9/L.3-H;2-H;1-3
 play,2,1,willt103,??,,43
 play,3,0,caseg101,??,,S7
 play,3,0,edwah101,??,,7
 play,3,0,seerp101,??,,3/P/FL
-play,3,0,fleml101,??,,7
+play,3,0,fleml101,??,,7/F7D
 play,3,1,doerb101,??,,2/FL
 play,3,1,yorkr101,??,,K/C
 play,3,1,dimad101,??,,S8
@@ -1330,17 +1332,20 @@ play,3,1,wagnh102,??,,S8.1-3
 play,3,1,pelle101,??,,K
 play,4,0,keltk101,??,,6/P
 play,4,0,hayef101,??,,S/78
-play,4,0,meyed101,??,,53.1-2
+play,4,0,meyed101,??,,53/G25.1-2
+com,"Pellagrini: nice play"
 play,4,0,conwj103,??,,S8.2-H
 play,4,0,fellb101,??,,8
 play,4,1,bagbj102,??,,43
 play,4,1,metkg101,??,,7/L
-play,4,1,peskj101,??,,S7
-play,4,1,willt103,??,,D8.1-H
+com,"Case: good catch"
+play,4,1,peskj101,32,,S7/L
+play,4,1,willt103,??,,D8/F78D.1-H
+com,"Wind-aided flyball double; Edwards misjudged it"
 play,4,1,doerb101,??,,K
-play,5,0,caseg101,??,,8
-play,5,0,edwah101,??,,S9
-play,5,0,seerp101,??,,S/78D.BX2(84);1-3
+play,5,0,caseg101,??,,8/L8D
+play,5,0,edwah101,??,,S/89
+play,5,0,seerp101,??,,S8/L78XDW.1-3;BX2(84)
 play,5,0,fleml101,??,,43
 play,5,1,yorkr101,??,,S9
 play,5,1,dimad101,??,,K
@@ -1351,40 +1356,43 @@ play,6,0,keltk101,??,,53
 play,6,0,hayef101,??,,W
 play,6,0,meyed101,??,,WP.1-2
 play,6,0,meyed101,??,,S8.2-3
-play,6,0,conwj103,??,,6(B)3(1)/LDP
+play,6,0,conwj103,??,,6/LDP.1X1(63)
 play,6,1,metkg101,??,,7
 play,6,1,peskj101,??,,W
-play,6,1,willt103,??,,HR/9.1-H
+play,6,1,willt103,??,,HR/L89XD.1-H
+com,"Into the visitors' bullpen"
 play,6,1,doerb101,??,,K
 play,6,1,yorkr101,??,,9
 play,7,0,fellb101,??,,NP
 sub,woodg101,"Gene Woodling",0,9,11
 play,7,0,woodg101,??,,S7.B-2(E7)
-play,7,0,caseg101,??,,99
-play,7,0,edwah101,??,,99
-play,7,0,seerp101,??,,99
+play,7,0,caseg101,??,,8/L8D
+play,7,0,edwah101,??,,4/P
+play,7,0,seerp101,??,,5/FL
 play,7,1,dimad101,??,,NP
 sub,ferrt101,"Tom Ferrick",0,9,1
-play,7,1,dimad101,??,,S
-play,7,1,wagnh102,??,,99
-play,7,1,pelle101,??,,99
-play,7,1,bagbj102,??,,99
-play,8,0,fleml101,??,,99
-play,8,0,keltk101,??,,99
-play,8,0,hayef101,??,,99
+play,7,1,dimad101,??,,S7
+play,7,1,wagnh102,??,,8
+play,7,1,pelle101,??,,7
+play,7,1,bagbj102,??,,13
+play,8,0,fleml101,??,,43
+play,8,0,keltk101,??,,8/L8D
+play,8,0,hayef101,??,,4/P
 play,8,1,metkg101,??,,S8
-play,8,1,peskj101,??,,S3/BG.1-H(E1/TH)(NR)(UR);B-3
-play,8,1,willt103,??,,99
-play,8,1,doerb101,??,,99
-play,8,1,yorkr101,??,,K#
-play,9,0,meyed101,??,,D7/7D
+play,8,1,peskj101,??,,S1/BG.1-H(E1/TH1)(NR)(UR);B-3
+play,8,1,willt103,??,,2/FL
+play,8,1,doerb101,??,,13
+play,8,1,yorkr101,??,,K
+play,9,0,meyed101,??,,D7/F7DW
 play,9,0,conwj103,??,,43
 play,9,0,ferrt101,??,,NP
 sub,lemob101,"Bob Lemon",0,9,11
-play,9,0,lemob101,??,,S4.2-3
+play,9,0,lemob101,??,,S4/G.2-3
+com,"Doerr: good stop kept it in the infield"
 play,9,0,caseg101,??,,W.1-2
 play,9,0,edwah101,??,,2/FL
 play,9,0,seerp101,??,,64(1)/FO
+com,"$Bob Feller: 142 pitches (53 balls); Jim Bagby: 120 pitches"
 data,er,fellb101,5
 data,er,ferrt101,0
 data,er,bagbj102,2
@@ -1569,7 +1577,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,119
-info,attendance,24988
+info,attendance,25988
 info,wp,dobsj101
 info,lp,feres101
 info,save,
@@ -2572,7 +2580,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,108
-info,attendance,27631
+info,attendance,0
 info,wp,ferrd101
 info,lp,lee-t101
 info,save,
@@ -3090,8 +3098,8 @@ sub,wagnh102,"Hal Wagner",1,8,2
 play,7,0,gracj101,??,,NP
 sub,harrm101,"Mickey Harris",1,9,1
 play,7,0,gracj101,??,,K/C
-com,"ej,beraj101,P,rue-j901,Strike 3 call on teammate"
-com,"ej,hofmf101,C,rue-j901,Strike 3 call"
+com,"ej,beraj101,P,rue-j901,Called third on teammate"
+com,"ej,hofmf101,C,rue-j901,Called third strike"
 com,"$Berardino ejected by HP umpire Rue for arguing strike 3"
 com,"call on Grace; coach Hofman also ejected"
 play,7,0,stepv101,??,,S7
@@ -3649,6 +3657,7 @@ play,9,0,lakee101,??,,63
 data,er,hutcf101,7
 data,er,gorsj101,3
 data,er,ferrd101,6
+data,er,benta101,0
 id,BOS194606100
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -4431,9 +4440,9 @@ info,umphome,romme101
 info,ump1b,boyej901
 info,ump2b,(none)
 info,ump3b,grieb901
-info,scorer,"115,71,163,274,56,410"
-info,translator,"Jim Wohlenhaus"
-info,inputter,"David W. Smith"
+info,scorer,"115,71,163,274,56,410,276"
+info,translator,"Jim Wohlenhaus/Townsend"
+info,inputter,"David W. Smith/Townsend"
 info,inputtime,2015/02/27 8:15AM
 info,howscored,park
 info,pitches,none
@@ -4444,7 +4453,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,124
-info,attendance,27201
+info,attendance,26795
 info,wp,hught102
 info,lp,hutcf101
 info,save,
@@ -4467,90 +4476,98 @@ start,russr101,"Rip Russell",1,6,5
 start,culbl101,"Leon Culberson",1,7,9
 start,wagnh102,"Hal Wagner",1,8,2
 start,hught102,"Tex Hughson",1,9,1
-play,1,0,lakee101,??,,K
-play,1,0,kellg102,??,,6/P
-play,1,0,everh101,??,,1/L
-play,1,1,campp101,??,,K
-play,1,1,peskj101,??,,43
-play,1,1,dimad101,??,,S
-play,1,1,willt103,??,,S.1-3
-play,1,1,doerb101,??,,4/P
-play,2,0,waked101,??,,9
-play,2,0,mullp101,??,,8
-play,2,0,cullr101,??,,9
-play,2,1,russr101,??,,53
-play,2,1,culbl101,??,,43
-play,2,1,wagnh102,??,,7
-play,3,0,blooj101,??,,63
-play,3,0,tebbb101,??,,W
-play,3,0,hutcf101,??,,8
-play,3,0,lakee101,??,,S7.1-2
-play,3,0,kellg102,??,,3/FL
-play,3,1,hught102,??,,13
-play,3,1,campp101,??,,53
-play,3,1,peskj101,??,,S
-play,3,1,dimad101,??,,S9.1-3
-play,3,1,willt103,??,,D9.3-H;1-3
-play,3,1,doerb101,??,,K
-play,4,0,everh101,??,,53
-play,4,0,waked101,??,,9
-play,4,0,mullp101,??,,K
-com,"pbp account ends here, rest deduced"
-play,4,1,russr101,??,,K
-play,4,1,culbl101,??,,S
-play,4,1,wagnh102,??,,S9.1-3
-play,4,1,hught102,??,,S7.3-H;1-2
-play,4,1,campp101,??,,K
-play,4,1,peskj101,??,,99
-play,5,0,cullr101,??,,S
-play,5,0,blooj101,??,,64(1)3/GDP
-play,5,0,tebbb101,??,,S
-play,5,0,hutcf101,??,,S.1-2
-play,5,0,lakee101,??,,99
-play,5,1,dimad101,??,,W
-play,5,1,willt103,??,,36(1)3/GDP
-play,5,1,doerb101,??,,S
-play,5,1,russr101,??,,99
-play,6,0,kellg102,??,,S
-play,6,0,everh101,??,,S.1-2
-play,6,0,waked101,??,,99/SH.2-3;1-2
-play,6,0,mullp101,??,,8
-play,6,0,cullr101,??,,5/P
-play,6,1,culbl101,??,,S
-play,6,1,wagnh102,??,,W.1-2
-play,6,1,hught102,??,,15(2)6(1)/BG/GDP
-play,6,1,campp101,??,,99
-play,7,0,blooj101,??,,99
-play,7,0,tebbb101,??,,K
-play,7,0,hutcf101,??,,99
-play,7,1,peskj101,??,,D
-play,7,1,dimad101,??,,99/G.2-3
-play,7,1,willt103,??,,IW
-play,7,1,doerb101,??,,64(1)3/GDP
-play,8,0,lakee101,??,,S
-play,8,0,kellg102,??,,S.1-2
-play,8,0,everh101,??,,9/FL
+com,"27,201 total including 406 servicemen guests"
+play,1,0,lakee101,12,,K
+play,1,0,kellg102,00,,6/P
+play,1,0,everh101,01,,1/L
+play,1,1,campp101,12,,K
+play,1,1,peskj101,02,,43
+play,1,1,dimad101,21,,S
+play,1,1,willt103,01,,S.1-3
+play,1,1,doerb101,10,,4/P
+play,2,0,waked101,00,,9
+play,2,0,mullp101,00,,8
+play,2,0,cullr101,12,,9/F9D
+com,"Culberson: 1-handed catch"
+play,2,1,russr101,12,,53
+play,2,1,culbl101,01,,43
+play,2,1,wagnh102,11,,7
+play,3,0,blooj101,00,,63
+play,3,0,tebbb101,31,,W
+play,3,0,hutcf101,10,,8
+play,3,0,lakee101,00,,S7.1-2
+play,3,0,kellg102,00,,3/FL
+play,3,1,hught102,01,,13
+play,3,1,campp101,01,,53/BG
+play,3,1,peskj101,12,,S8
+play,3,1,dimad101,00,,S9/G34.1-3
+play,3,1,willt103,01,,D9/G3.3-H;1-3
+com,"Bounced over Cullenbine"
+play,3,1,doerb101,32,,K
+play,4,0,everh101,11,,53
+play,4,0,waked101,32,,9
+play,4,0,mullp101,22,,K
+play,4,1,russr101,12,,6/P
+play,4,1,culbl101,00,,S
+play,4,1,wagnh102,21,,S9.1-3
+play,4,1,hught102,11,,S/P6D.3-H;1-2
+com,"Blooper over the drawn-in infield"
+play,4,1,campp101,32,,64(1)/FO
+play,4,1,peskj101,00,,8
+play,5,0,cullr101,11,,S
+play,5,0,blooj101,02,,64(1)3/GDP
+play,5,0,tebbb101,10,,S
+play,5,0,hutcf101,00,,S.1-2
+play,5,0,lakee101,01,,9
+play,5,1,dimad101,30,,W
+play,5,1,willt103,12,,36(1)3/GDP
+play,5,1,doerb101,11,,S
+play,5,1,russr101,00,,2/P
+play,6,0,kellg102,01,,S/G
+play,6,0,everh101,02,,S.1-2
+play,6,0,waked101,10,,13/SH.2-3;1-2
+play,6,0,mullp101,22,,8/F8S
+play,6,0,cullr101,22,,5/P
+play,6,1,culbl101,00,,S
+play,6,1,wagnh102,32,,W.1-2
+play,6,1,hught102,01,,15(2)6(1)/BG/GDP
+play,6,1,campp101,22,,K
+play,7,0,blooj101,22,,8
+play,7,0,tebbb101,32,,K
+play,7,0,hutcf101,01,,43
+play,7,1,peskj101,01,,D7
+com,"Wakefield ran into LF grandstand and hurt his left wrist"
+play,7,1,dimad101,21,,63.2-3
+play,7,1,willt103,30,BBII,IW
+play,7,1,doerb101,00,,64(1)3/GDP
+play,8,0,lakee101,11,,S
+play,8,0,kellg102,11,,S.1-2
+play,8,0,everh101,00,,9/FL
+com,"Culberson: remarkable long-running catch"
 play,8,0,waked101,??,,NP
 sub,outlj101,"Jimmy Outlaw",0,4,11
-play,8,0,outlj101,??,,43.2-3;1-2
-play,8,0,mullp101,??,,9
+play,8,0,outlj101,01,,63/G6MS.2-3;1-2
+com,"Close play; Tigers argued loudly"
+play,8,0,mullp101,00,,9/F
 play,8,1,russr101,??,,NP
 sub,outlj101,"Jimmy Outlaw",0,4,7
-play,8,1,russr101,??,,99
-play,8,1,culbl101,??,,K
-play,8,1,wagnh102,??,,99
-play,9,0,cullr101,??,,W
+play,8,1,russr101,12,,K
+play,8,1,culbl101,12,,K
+play,8,1,wagnh102,11,,63
+play,9,0,cullr101,31,,W
 play,9,0,blooj101,??,,NP
 sub,webbs101,"Skeeter Webb",0,6,12
 play,9,0,blooj101,??,,NP
 sub,cramd102,"Doc Cramer",0,7,11
-play,9,0,cramd102,??,,46(1)/FO
-play,9,0,tebbb101,??,,S7.1-3
+play,9,0,cramd102,01,,46(1)/FO/G4M
+com,"Doerr: electric stop"
+play,9,0,tebbb101,32,,S7/L7DW.1-3
 play,9,0,hutcf101,??,,NP
 sub,lipoj101,"Johnny Lipon",0,8,12
-play,9,0,hutcf101,??,,7
-play,9,0,lakee101,??,,D.3-H;1-H
-play,9,0,kellg102,??,,99
+play,9,0,hutcf101,01,,7
+play,9,0,lakee101,01,,D8/F8XD.3-H;1-H
+com,"Over DiMaggio"
+play,9,0,kellg102,31,,53
 play,9,1,hught102,??,,NP
 sub,kellg102,"George Kell",0,2,3
 play,9,1,hught102,??,,NP
@@ -4563,16 +4580,17 @@ play,9,1,hught102,??,,NP
 sub,cramd102,"Doc Cramer",0,7,8
 play,9,1,hught102,??,,NP
 sub,swifb102,"Bob Swift",0,8,2
-play,9,1,hught102,??,,99
-play,9,1,campp101,??,,99
-play,9,1,peskj101,??,,99
-play,10,0,everh101,??,,99
-play,10,0,outlj101,??,,8
-play,10,0,mullp101,??,,99
-play,10,1,dimad101,??,,99/P
-play,10,1,willt103,??,,99/G
-play,10,1,doerb101,??,,S8
-play,10,1,russr101,??,,D7/78.1-H
+play,9,1,hught102,10,,2/FL
+play,9,1,campp101,00,,5/FL
+play,9,1,peskj101,11,,63
+play,10,0,everh101,11,,7
+play,10,0,outlj101,01,,8/F89D
+com,"DiMaggio: running catch"
+play,10,0,mullp101,32,,43
+play,10,1,dimad101,10,,6/P
+play,10,1,willt103,00,,3/G
+play,10,1,doerb101,11,,S8/L
+play,10,1,russr101,32,,D8/78D.1-H
 data,er,hutcf101,3
 data,er,hught102,2
 id,BOS194607120
@@ -5207,7 +5225,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,138
+info,timeofgame,130
 info,attendance,33142
 info,wp,fellb101
 info,lp,hught102
@@ -5349,7 +5367,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,105
-info,attendance,29234
+info,attendance,0
 info,wp,dobsj101
 info,lp,lopae101
 info,save,
@@ -5474,7 +5492,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,114
-info,attendance,0
+info,attendance,29234
 info,wp,ferrd101
 info,lp,grovo101
 info,save,
@@ -5739,8 +5757,8 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,115
-info,attendance,0
+info,timeofgame,125
+info,attendance,11222
 info,wp,zubeb101
 info,lp,haynj101
 info,save,
@@ -6464,7 +6482,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,118
-info,attendance,31689
+info,attendance,0
 info,wp,dobsj101
 info,lp,marcp101
 info,save,
@@ -7158,7 +7176,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,98
-info,attendance,29224
+info,attendance,0
 info,wp,bagbj102
 info,lp,shirt101
 info,save,
@@ -7282,7 +7300,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,132
-info,attendance,0
+info,attendance,29224
 info,wp,kinde101
 info,lp,harrm101
 info,save,ferrt101
@@ -7431,8 +7449,8 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,154
-info,attendance,0
+info,timeofgame,144
+info,attendance,18241
 info,wp,ferrd101
 info,lp,muncb101
 info,save,klinb101
@@ -7471,9 +7489,10 @@ play,1,1,dimad101,??,,D8.3-H;2-H
 play,1,1,higgm101,??,,S8.2-H
 play,1,1,wagnh102,??,,S.1-2
 play,1,1,ferrd101,??,,8
-com,"$The Browns argued hotly that York and DiMaggio had struck"
-com,"out before getting their hits; Johnny Lucadello was ejected"
-com,"from the bench by plate umpire Joe Paparella"
+com,"ej,lucaj102,P,papaj901,Balls and strikes"
+com,"$Browns Lucadello, not in game, ejected by HP umpire"
+com,"Paparella for arguing that DiMaggio had struck out"
+com,"Before doubling"
 play,2,0,stevc101,??,,43
 play,2,0,chrim102,??,,D7
 play,2,0,muncb101,??,,6/P
@@ -7601,8 +7620,8 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,121
-info,attendance,0
+info,timeofgame,142
+info,attendance,12198
 info,wp,calde101
 info,lp,browm103
 info,save,
@@ -7783,7 +7802,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,113
-info,attendance,31698
+info,attendance,0
 info,wp,browm103
 info,lp,calde101
 info,save,
@@ -8331,7 +8350,7 @@ info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
-info,timeofgame,148
+info,timeofgame,110
 info,attendance,20925
 info,wp,hught102
 info,lp,lemob101
@@ -8608,7 +8627,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,101
-info,attendance,16833
+info,attendance,0
 info,wp,hught102
 info,lp,knerl101
 info,save,

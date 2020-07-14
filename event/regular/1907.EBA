@@ -2991,13 +2991,13 @@ stat,dline,plane101,1,1,1,19,1,3,0,0,0,0
 stat,dline,dygej101,1,1,1,8,0,1,0,0,0,0
 stat,pline,smitc107,0,1,12,-1,-1,8,-1,-1,0,7,-1,3,-1,1,0,0,0,-1,-1
 stat,pline,graho101,0,2,12,-1,-1,3,-1,-1,0,1,-1,0,-1,4,0,0,0,-1,-1
-stat,pline,plane101,1,1,19,-1,-1,10,-1,-1,2,6,-1,3,-1,2,0,0,0,0,-1
-stat,pline,dygej101,1,2,8,-1,-1,2,-1,-1,0,1,-1,1,-1,2,1,0,0,0,-1
+stat,pline,plane101,1,1,19,-1,-1,10,-1,-1,1,6,-1,3,-1,2,0,0,0,0,-1
+stat,pline,dygej101,1,2,8,-1,-1,2,-1,-1,1,1,-1,1,-1,2,1,0,0,0,-1
 event,dpline,1,crosm101,murpd106,davih101
 line,0,0,0,1,0,0,1,4,1,0
 line,1,0,1,4,2,0,0,1,0
 event,hrline,0,altid101,plane101,7,1,-1
-event,hrline,0,graho101,plane101,8,0,-1
+event,hrline,0,graho101,dygej101,8,0,-1
 stat,tline,0,11,0,0,0
 stat,tline,1,6,0,1,0
 id,DET190704230
@@ -49060,8 +49060,8 @@ stat,dline,turnt105,0,1,6,28,2,5,1,1,0,0
 stat,dline,lajon101,0,1,4,28,1,2,0,1,0,0
 stat,dline,clarn101,0,1,2,-1,4,1,0,0,0,0
 stat,dline,bemih101,0,1,2,-1,0,0,0,0,0,0
-stat,dline,hincb101,0,1,7,-1,19,1,0,1,0,0
-stat,dline,hincb101,0,2,3,-1,0,0,0,0,0,0
+stat,dline,hincb101,0,1,7,-1,0,0,0,0,0,0
+stat,dline,hincb101,0,2,3,-1,19,1,0,1,0,0
 stat,dline,birmj101,0,1,8,28,0,0,0,0,0,0
 stat,dline,stovg101,0,1,3,-1,0,0,0,0,0,0
 stat,dline,bay-h101,0,1,7,-1,0,0,0,0,0,0

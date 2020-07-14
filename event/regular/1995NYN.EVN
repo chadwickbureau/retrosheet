@@ -394,9 +394,6 @@ start,brogr001,"Rico Brogna",1,6,3
 start,alfoe001,"Edgardo Alfonzo",1,7,4
 start,stink001,"Kelly Stinnett",1,8,2
 start,joneb003,"Bobby Jones",1,9,1
-com,"ej,torrj101,M,ballf901,Interference call"
-com,"Cardinals manager Joe Torre ejected by HP umpire Frank Ballina"
-com,"sometime in game"
 play,1,0,gilkb001,11,BSX,13/L15
 play,1,0,cromt001,22,BBCFX,63/G6
 play,1,0,lankr001,10,BX,S7/L7S
@@ -409,7 +406,9 @@ play,1,1,bonib001,02,CSX,9/F89XD
 play,2,0,mabrj001,10,BX,S8/G4M
 play,2,0,shead001,12,1BFCFX,E5/TH/G5.1-2;B-1
 play,2,0,oquej001,00,X,3/BINT/BG25.2-2;1-1
-com,"$Jose Oquendo called for interference"
+com,"ej,torrj101,M,ballf901,Interference call"
+com,"$Cardinals manager Torre ejected by HP umpire Ballina for"
+com,"arguing interference on Oquendo"
 play,2,0,urbat001,01,..M+2,PO2(26)
 play,2,0,urbat001,22,..M+2.BCBX,8/F78M
 play,2,1,everc001,00,X,8/F78XD
@@ -2901,7 +2900,7 @@ play,5,1,alfoe001,00,X,64(1)/FO/G6
 play,6,0,finls001,22,CBBCX,S7/L78S
 play,6,0,gwynt001,01,S>X,S8/G4M.1-3
 play,6,0,camik001,12,CBSC,K
-play,6,0,wille001,12,FFFFBX,43(B)6(1)/DP/G4.3-H
+play,6,0,wille001,12,FFFFBX,43(B)6(1)/GDP/G4.3-H(NR)
 play,6,1,brogr001,22,CBCBX,31/G34
 play,6,1,bonib001,11,BFX,5/P25F
 play,6,1,kentj001,02,FSFS,K
@@ -10054,9 +10053,6 @@ start,hundt001,"Todd Hundley",1,6,2
 start,alfoe001,"Edgardo Alfonzo",1,7,5
 start,thomr004,"Ryan Thompson",1,8,7
 start,isrij001,"Jason Isringhausen",1,9,1
-com,"ej,knigr001,C,davib902,Argued game should've been called"
-com,"Reds coach Ray Knight ejected by 2B umpire Bob Davidson"
-com,"sometime in game"
 play,1,0,howat001,11,BFX,S8/G6M
 play,1,0,larkb001,01,1C1C,SB2
 play,1,0,larkb001,22,1C1C.BBX,43/G4.2-3
@@ -10124,6 +10120,10 @@ play,6,1,everc001,31,BLBBB,W.1-2
 play,6,1,kentj001,12,LBLN,BK.2-3;1-2
 play,6,1,kentj001,12,LBLN.FB,WP.3-H;2-3
 com,"game called for rain"
+com,"ej,knigr001,C,davib902,Arguing for rain stoppage"
+com,"$Reds coach Knight ejected by 2B umpire Davidson for"
+com,"arguing game should have been called for rain; a few"
+com,"moments later it was"
 data,er,portm001,1
 data,er,pught001,1
 data,er,isrij001,1
@@ -10613,9 +10613,6 @@ start,hundt001,"Todd Hundley",1,6,2
 start,alfoe001,"Edgardo Alfonzo",1,7,5
 start,thomr004,"Ryan Thompson",1,8,7
 start,mlicd001,"Dave Mlicki",1,9,1
-com,"ej,greed101,M,pullf901,Illegal pitching change"
-com,"Mets manager Dallas Green ejected by 2B umpire Frank Pulli"
-com,"sometime in game"
 play,1,0,grism001,12,FSBX,53/G5
 play,1,0,lemkm001,00,X,63/G6M
 play,1,0,jonec004,32,CBBCBS,K
@@ -10725,9 +10722,13 @@ play,8,0,borbp001,00,,NP
 sub,bellr001,"Rafael Belliard",0,8,12
 play,8,0,borbp001,00,.,NP
 sub,kellm001,"Mike Kelly",0,9,11
-play,8,0,kellm001,22,..BB.CST,K
-play,8,0,devem001,00,,NP
+play,8,0,kellm001,20,..BB,NP
 sub,henrd002,"Doug Henry",1,1,1
+com,"ej,greed101,M,pullf901,Two trips to mound with same batter"
+com,"$Mets manager Green ejected by 2B umpire Pulli for making"
+com,"making 2nd trip to mound with Kelly at bat: pitching coach"
+com,"had visited at start of at bat"
+play,8,0,kellm001,22,..BB.CST,K
 play,8,0,devem001,00,.B,WP.3-H;2-3;1-2
 play,8,0,devem001,22,.B.CSBX,63/G6
 play,8,1,orsuj001,00,,NP

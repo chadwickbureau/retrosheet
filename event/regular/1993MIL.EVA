@@ -6766,14 +6766,6 @@ start,nilsd001,"Dave Nilsson",1,7,2
 start,bellj003,"Juan Bell",1,8,6
 start,spieb001,"Bill Spiers",1,9,4
 start,eldrc001,"Cal Eldred",1,0,1
-com,"ej,lamog101,M,morrd901,Arguing warning to his pitcher"
-com,"White Sox manager Gene Lamont ejected by HP umpire Dan"
-com,"Morrison after warning to his pitcher"
-com,"sometime in game"
-com,"ej,mansd801,C,clara901,After argument with Phil Garner"
-com,"White Sox coach Doug Mansolino ejected by 3B umpire Al"
-com,"Clark after arguing with Brewers manager Phil Garner"
-com,"sometime in game"
 play,1,0,raint001,11,FBX,T9/G3L
 play,1,0,coraj001,12,CFFBFX,31/G34S
 play,1,0,pasqd001,32,BCCBBC,K
@@ -6800,6 +6792,9 @@ play,3,1,younr001,00,X,S7/L7M.1-2
 play,3,1,vaugg001,00,X,E5/G56S.2-3;1-2;B-1
 play,3,1,reimk001,10,BX,6/P56D
 play,3,1,jahaj001,32,FFBBB.X,S7/L78M.3-H(UR);2-H(UR);1-3
+com,"ej,lamog101,M,morrd901,Arguing warning to his pitcher"
+com,"$White Sox manager Lamont ejected by HP umpire Morrison for"
+com,"arguing balls and strikes after single by Jaha"
 play,3,1,surhb001,22,FBCBB,CSH(262)
 play,4,0,pasqd001,21,BBFX,7/F7LD
 play,4,0,ventr001,21,BBFX,9/F9M
@@ -6841,6 +6836,10 @@ play,7,1,vaugg001,01,SX,7/F7LD
 play,7,1,reimk001,00,X,9/F9M
 play,7,1,jahaj001,01,CH,HP
 play,7,1,surhb001,21,B1BF>X,9/F9D
+play,8,0,coraj001,00,,NP
+com,"ej,mansd801,C,clara901,Trying to fight opposing manager"
+com,"$White Sox coach Mansolino ejected by 3B umpire Clark for"
+com,"trying to fight with Brewers manager Garner"
 play,8,0,coraj001,12,..CBCS,K
 play,8,0,pasqd001,32,BBSBFB,W
 play,8,0,grebc001,02,CCS,K
@@ -7970,9 +7969,6 @@ start,nilsd001,"Dave Nilsson",1,7,2
 start,jahaj001,"John Jaha",1,8,3
 start,spieb001,"Bill Spiers",1,9,4
 start,novor001,"Rafael Novoa",1,0,1
-com,"ej,hargm001,M,kaisk901,Balls and strikes"
-com,"Indians manager Mike Hargrove ejected by HP umpire Ken Kaiser"
-com,"sometime in game"
 play,1,0,loftk001,11,BCX,13/G1
 play,1,0,kirbw001,12,BCMS,K
 play,1,0,baerc001,10,BX,S6/G6M
@@ -7991,7 +7987,10 @@ play,2,1,younr001,22,CSBBS,K
 play,2,1,nilsd001,10,BX,63/G6
 play,2,1,jahaj001,31,BCBBB,W
 play,2,1,spieb001,11,CB1X,8/F8
-play,3,0,loftk001,22,BCCBC,K
+play,3,0,loftk001,22,BCCBC,K/C
+com,"ej,hargm001,M,kaisk901,Called third strike"
+com,"$Indians manager Hargrove ejected by HP umpire Kaiser for"
+com,"arguing called third strike"
 play,3,0,kirbw001,11,CB.X,63/G6
 play,3,0,baerc001,11,LBX,S1/BG15
 play,3,0,bellj002,11,BSX,7/L7D
@@ -9161,24 +9160,18 @@ com,"ej,folit001,C,phild901,Bench-clearing brawl"
 com,"ej,garnp001,M,phild901,Bench-clearing brawl"
 com,"ej,thond001,P,phild901,Bench-clearing brawl"
 com,"ej,mcgwm001,P,phild901,Bench-clearing brawl"
-com,"Dennis Eckersley, Athletics manager Tony LaRussa and Athletics"
-com,"coach Dave Duncan ejected by HP umpire Dale Scott arguing"
+com,"$Pitcher Eckersley, Athletics manager LaRussa and Athletics"
+com,"coach Duncan ejected by HP umpire Scott for arguing"
 com,"balls and strikes; LaRussa refused to leave the field"
-com,"and the umpires did little to get him off; Brewers manager"
-com,"Phil Garner came out to complain about the delay (it was"
-com,"after midnight) and LaRussa confronted Garner; both"
-com,"benches emptied and a brawl started when Troy Neel made a"
-com,"flying tackle of Dickie Thon; that tackle also knocked"
-com,"down Dave Nilsson; Athletics coach Tommie Reynolds and"
-com,"Brewers coach Tim Foli threw punches at each other;"
-com,"both managers and Mike Aldrete restrained B.J. Surhoff"
-com,"but Edwin Nunez felled Surhoff with a punch; that blow"
-com,"drew blood around Surhoff's mouth; the following people"
-com,"were ejected by 1B umpire (and crew chief) Dave Phillips:"
-com,"Neel, Nunez, Thon, Reynolds, Garner, Foli and"
-com,"Mark McGwire; the ejections forced some unusual"
-com,"substitutions: Rickey Bones (who was the Brewers starting"
-com,"pitcher in game 1) played RF"
+com,"and Brewers manager Garner complained about the delay;"
+com,"LaRussa confronted Garner; benches emptied and a brawl"
+com,"started when Athletics Neel tackled Brewers Thon, knocking"
+com,"down Brewers Nilsson as well; Athletics coach Reynolds and"
+com,"Brewers coach Foli fought with each other; the managers and"
+com,"Athletics Aldrete restrained Brewers Surhoff but Athletics"
+com,"Nunez felled Surhoff with a punch that drew blood; ejections"
+com,"by 1B umpire (crew chief): Athletics Neel, Reynolds and"
+com,"McGwire plus Brewers Nunez,Thon, Garner, and Foli"
 play,10,0,bordm001,00,...,NP
 sub,hamid001,"Darryl Hamilton",1,1,8
 play,10,0,bordm001,00,....,NP
@@ -11735,9 +11728,6 @@ start,jahaj001,"John Jaha",1,7,3
 start,bellj003,"Juan Bell",1,8,4
 start,valej003,"Jose Valentin",1,9,6
 start,miraa001,"Angel Miranda",1,0,1
-com,"ej,oatej101,M,meric901,Call at 2B"
-com,"Orioles manager Johnny Oates ejected by 2B umpire Chuck"
-com,"Meriwether sometime in game"
 play,1,0,andeb001,??,,K
 play,1,0,mclem001,??,,7/F
 play,1,0,devem001,??,,4/P
@@ -11794,6 +11784,9 @@ play,7,1,hamid001,??,,NP
 sub,poolj001,"Jim Poole",0,0,1
 play,7,1,hamid001,??,,S9
 play,7,1,seitk001,??,,8/F.1-2
+com,"ej,oatej101,M,meric901,Call at 2B"
+com,"$Orioles manager Oates ejected by 2B Chuck Meriwether"
+com,"for arguing that Hamilton was out at 2nd"
 play,7,1,surhb001,??,,POCS3(165)
 play,7,1,surhb001,??,,K/C
 play,8,0,hulet001,??,,43/G

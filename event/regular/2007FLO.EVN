@@ -667,7 +667,7 @@ info,windspeed,8
 info,fieldcond,wet
 info,precip,rain
 info,sky,cloudy
-info,timeofgame,243
+info,timeofgame,282
 info,attendance,10883
 info,wp,desse001
 info,lp,pintr001
@@ -770,13 +770,14 @@ play,7,1,ameza001,32,.CBBBFX,64(1)3/GDP
 play,8,0,estrj001,32,SBSBBX,6/P
 play,8,0,jenkg001,22,BCFBS,K
 play,8,0,hartc001,22,BCBFX,S7/G
-play,8,0,graft001,32,C1F*B>FF1BF1B>F>C,K
+play,8,0,graft001,32,C1F*B>FF1BF1B>F>C,K/C
+com,"ej,graft001,P,eddid901,Called third strike"
+com,"$Graffanino ejected by HP umpire Eddings for arguing"
+com,"called third strike"
 play,8,1,uggld001,00,,NP
 sub,wisem001,"Matt Wise",0,8,1
 play,8,1,uggld001,00,,NP
 sub,weekr001,"Rickie Weeks",0,9,4
-com,"ej,graft001,P,eddid901,Called third strike"
-com,"Brewers second baseman Tony Graffanino ejected by HP umpire Doug Eddings"
 play,8,1,uggld001,22,...FBFBX,8/F
 play,8,1,cabrm001,00,X,9/F
 play,8,1,jacom001,11,BFX,9/F
@@ -5258,12 +5259,12 @@ play,6,0,garkr001,11,.BCX,43/G.3-H(UR);2-3
 play,6,0,sizeg001,00,,NP
 sub,tankt001,"Taylor Tankersley",1,9,1
 play,6,0,sizeg001,02,.CFH,HP
-com,"ej,tankt001,P,knigb901,Intentional HBP"
-com,"ej,gonzf801,M,knigb901,Intentional HBP"
-com,"ej,boona001,P,knigb901,Arguing two ejections on intentional HB"
-com,"Marlins pitcher Taylor Tankersley, Mgr Fredi Gonzalez & first baseman"
-com,"Aaron Boone ejected by HP umpire Brian Knight; Boone argued after the"
-com,"other two ejections"
+com,"ej,tankt001,P,knigb901,Intentional HBP after warning"
+com,"ej,gonzf801,M,knigb901,Intentional HBP after warning"
+com,"ej,boona001,P,knigb901,Arguing ejections on intentional HBP"
+com,"$Pitcher Tankersley and Marlins manager Gonzalez and 1bman Boone"
+com,"ejected by HP umpire Knight for HBP after warning; Boone argued"
+com,"ejected for arguing after the other two ejections"
 play,6,0,delld001,00,,NP
 sub,woodj001,"Jason Wood",1,7,3
 play,6,0,delld001,00,,NP
@@ -5874,17 +5875,16 @@ play,4,0,santj003,12,CCBFFX,E3/TH/FO/G.2-H(NR);1-3;B-2
 play,4,0,bartj001,11,BCX,S8/G.3-H(UR);2-3
 play,4,0,cirij001,00,,NP
 sub,jacom001,"Mike Jacobs",1,6,3
-com,"Marlins first baseman Aaron Boone left the game due to a sore left knee"
+com,"$Boone left the game due to a sore left knee"
 play,4,0,cirij001,01,.S>B,SB2
 play,4,0,cirij001,22,.S>B.SFBX,FC6/G.3XH(65)
 play,4,0,mauej001,30,BBBB,W.2-3;1-2
-play,4,0,cuddm001,02,CFC,K
+play,4,0,cuddm001,02,CFC,K/C
 com,"ej,cuddm001,P,younl901,Called third strike"
-com,"ej,gardr001,M,younl901,Arguing Cuddyer ejection; threw hat"
-com,"Twins right fielder Michael Cuddyer ejected by HP umpire Larry Young;"
-com,"Twins Mgr Ron Gardenhire ran out of the dugout with his hat in one hand"
-com,"and his glasses in the other; he unintentionally threw his hat as he"
-com,"left the dugout and was ejected by Larry Young"
+com,"ej,gardr001,M,younl901,Arguing ejection of player"
+com,"$Cuddyer ejected by HP umpire Young for arguing called"
+com,"third strike; Twins manager Gardenhire also ejected by Young"
+com,"as heargued the ejection and unintentionally threw his hat"
 play,4,1,jacom001,00,,NP
 sub,fordl001,"Lew Ford",0,4,9
 play,4,1,jacom001,01,...SX,9/L
@@ -10487,11 +10487,12 @@ play,4,0,frank001,11,BFX,S6/G
 play,4,0,rodrg001,32,BBBCFF1X,64(1)3/GDP
 play,4,1,jacom001,11,CBX,5/P5F
 play,4,1,uggld001,00,X,9/F
-play,4,1,rossc001,22,BCFBC,K
-com,"ej,gonzf801,M,mcclt901,Arguing with umpire"
-com,"$Ross slammed his helmet down; 2B umpire Tim McClelland, the"
-com,"crew chief, came in and threatened Ross with a fine;"
-com,"Marlins Manager Fredi Gonzalez ejected by 2B umpire Tim McClelland"
+play,4,1,rossc001,22,BCFBC,K/C
+com,"ej,gonzf801,M,mcclt901,Arguing to protect player"
+com,"$Marlins manager Gonzalez ejected by 2B umpire McClelland when"
+com,"argued to protect Ross from ejection; Ross had slammed helmet"
+com,"on ground after striking out and was angry when told he was"
+com,"getting an equipment violation when he went to right field"
 play,5,0,lowrn001,22,.BCBCFFFX,7/F
 play,5,0,davir003,31,BBSBX,7/F
 play,5,0,ortmd001,21,BTBX,9/F
@@ -12514,7 +12515,8 @@ play,7,0,grees001,32,..CBBFFBX,63/G
 play,7,0,reyej001,12,LFBT,K
 play,7,0,milll002,01,CX,6/P
 com,"ej,milll002,P,joycj901,Balls and strikes"
-com,"Mets left fielder Lastings Milledge ejected by HP umpire Jim Joyce"
+com,"$Mets Milledge ejected by HP umpire Joyce for arguing"
+com,"balls and strikes at end of Mets 7th inning"
 play,7,1,cabrm001,00,,NP
 sub,motag001,"Guillermo Mota",0,2,1
 play,7,1,cabrm001,00,,NP

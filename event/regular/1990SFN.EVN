@@ -6878,9 +6878,6 @@ start,kennt001,"Terry Kennedy",1,6,2
 start,thomr003,"Rob Thompson",1,7,4
 start,uribj001,"Jose Uribe",1,8,6
 start,wilst002,"Trevor Wilson",1,9,1
-com,"ej,zimmd101,C,quicj901,Checked swing"
-com,"Cubs manager Don Zimmer ejected by 3B umpire Jim Quick"
-com,"arguing a checked swing call sometime in game"
 play,1,0,dascd001,01,CX,8/F8
 play,1,0,sandr001,00,X,E6/G6
 play,1,0,dunss001,22,BB1F1FFFS,K
@@ -6964,6 +6961,9 @@ sub,branj001,"Jeff Brantley",1,8,1
 play,8,0,giraj001,00,..,NP
 sub,wynnm001,"Marvell Wynne",0,8,11
 play,8,0,wynnm001,32,...FBBFBS,K
+com,"ej,zimmd101,C,quicj901,Check swing"
+com,"$Cubs manager Zimmer ejected by 3B umpire Quick for"
+com,"arguing check swing strike 3 on Wynne"
 play,8,0,picoj001,00,,NP
 sub,varsg001,"Gary Varsho",0,9,11
 play,8,0,varsg001,22,.BCBSFFS,K
@@ -11344,9 +11344,6 @@ start,bassk001,"Kevin Bass",1,6,9
 start,cartg001,"Gary Carter",1,7,2
 start,uribj001,"Jose Uribe",1,8,6
 start,burkj001,"John Burkett",1,9,1
-com,"ej,cox-b103,M,davib902,Balls and strikes"
-com,"Braves manager Bobby Cox ejected by HP umpire Bob Davidson"
-com,"sometime in game"
 play,1,0,smitl002,??,,43
 play,1,0,treaj001,??,,D9
 play,1,0,gantr001,??,,63
@@ -11388,6 +11385,9 @@ play,5,0,lemkm001,??,,31
 play,5,0,leibc001,??,,NP
 sub,white002,"Ernie Whitt",0,9,11
 play,5,0,white002,??,,K
+com,"ej,cox-b103,M,davib902,Balls and strikes"
+com,"$Braves manager Cox ejected by HP umpire Davidson for"
+com,"arguing balls and strikes while Whitt was at bat"
 play,5,1,butlb001,??,,NP
 sub,freem001,"Marvin Freeman",0,9,1
 play,5,1,butlb001,??,,7
@@ -11439,11 +11439,11 @@ sub,parrj001,"Jeff Parrett",0,9,1
 play,8,1,willm003,??,,PO1(E1).1-2
 play,8,1,willm003,??,,9.2-3
 play,8,1,bassk001,??,,WP.3-H(NR)
-com,"ej,bassk001,P,davib902,Claiming pitch hit him"
-com,"Kevin Bass ejected by HP umpire Bob Davidson"
-com,"for claiming that he was hit by the pitch"
-play,8,1,bassk001,??,,NP
+play,8,1,bassk001,12,,NP
 sub,littg001,"Greg Litton",1,6,11
+com,"ej,bassk001,P,davib902,Claiming pitch hit him"
+com,"$Kevin Bass ejected by HP umpire Davidson"
+com,"for claiming that he was hit by the pitch"
 play,8,1,littg001,??,,K
 play,8,1,cartg001,??,,S7
 play,8,1,uribj001,??,,64(1)/FO

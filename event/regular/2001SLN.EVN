@@ -3460,8 +3460,6 @@ play,1,0,ojeda001,10,BX,8/F8
 play,1,1,vinaf001,00,X,9/F9
 play,1,1,polap001,32,CFBBFBX,43/G
 play,1,1,edmoj001,32,CBBBFC,K/C
-com,"ej,acoso801,C,tscht901,Balls and strikes"
-com,"Cubs Coach Oscar Acosta ejected by HP umpire Tim Tschida in 2nd"
 play,2,0,woodk002,00,X,6/P6
 play,2,0,youne001,12,BFCX,31/G
 play,2,0,giraj001,11,CBX,8/F8D
@@ -3475,6 +3473,9 @@ play,2,1,lankr001,22,BSSBS,K
 play,2,1,mathm001,32,BSBSBFB,W.3-H;2-3;1-2
 play,2,1,benea001,12,BSSS,K
 play,2,1,vinaf001,22,BSFBX,T9.3-H;2-H;1-H
+com,"ej,acoso801,C,tscht901,Balls and strikes"
+com,"$Cubs coach Acosta ejected by HP umpire Tschida for arguing"
+com,"balls and strikes after Vina's triple"
 play,2,1,polap001,02,CFC,K/C
 play,3,0,coomr001,01,CX,5/L5
 play,3,0,sosas001,31,BSBBB,W
@@ -3627,17 +3628,16 @@ start,mathm001,"Mike Matheny",1,8,2
 start,morrm001,"Matt Morris",1,9,1
 play,1,0,whitd001,21,FBBX,43/G
 play,1,0,lorem001,00,X,4/P4
-com,"$Geoff Jenkins barely missed an upper-deck homer on the second pitch"
 play,1,0,jenkg001,02,FFH,HP
-com,"ej,burnj001,P,mckej901,Confrontation with LaRussa"
-com,"ej,bonib001,P,mckej901,Slapped Burnitz in face"
-com,"ej,larut101,M,mckej901,Confrontation with Burnitz"
-com,"$HP umpire Jim McKean warned Matt Morris; Cardinals Manager Tony LaRussa"
-com,"argued the warning; Burnitz walked toward the Cardinals' dugout and said"
-com,"something and players from both sides gathered at the right side of the"
-com,"plate; Bobby Bonilla hit Jeromy Burnitz with a right-slap and Burnitz was"
-com,"shoved by an umpire; Burnitz, Bonilla and LaRussa all ejected by McKean"
-com,"(all of this a follow-up to previous series)"
+com,"ej,burnj001,P,mckej901,Confrontation"
+com,"ej,bonib001,P,mckej901,Fighting"
+com,"ej,larut101,M,mckej901,Confrontation"
+com,"$Cardinals Bonilla, not in game, Cardinals manager LaRussa and Brewers"
+com,"Burnitz ejected by HP umpire McKean; Jenkins had just missed an"
+com,"upper-deck homer on the pitch before he was hit; Burnitz was on deck"
+com,"and walked toward the Cardinal dugout, causing players to come on the"
+com,"field; Bonilla slapped Burnitz on the face and Burnitz was shoved by"
+com,"an umpire; pitcher Morris was warned"
 play,1,0,burnj001,00,,NP
 sub,moutj001,"James Mouton",0,4,11
 play,1,0,moutj001,22,BFFFBFX,7/F7
@@ -8601,14 +8601,15 @@ play,5,0,surhb001,00,X,8/F8
 play,5,1,drewj001,00,X,53/G
 play,5,1,rente001,02,FSX,4/P4
 play,5,1,mathm001,10,BX,53/G
-com,"ej,cox-b103,M,wendh902,Balls and strikes"
-com,"Braves Manager Bobby Cox ejected by Wendelstedt in 6th"
 play,6,0,jonec004,01,CX,43/G
 play,6,0,camik001,32,BCBCBB,W
 play,6,0,martd002,21,BCBX,S8.1-2
 play,6,0,jonea002,00,X,6/FL
 play,6,0,sancr001,22,CBFFBX,S.2-3;1-2
 play,6,0,bakop001,12,CBSFX,7/L7
+com,"ej,cox-b103,M,wendh902,Balls and strikes"
+com,"$Braves manager Cox ejected by HP umpire Wendelstedt for"
+com,"arguing balls and strikes while Bako was at bat"
 play,6,1,kiled001,12,CBCFX,13/G
 play,6,1,vinaf001,10,BX,S8/8S
 play,6,1,polap001,12,FBFX,S7.1-H(E7);B-2
@@ -8702,11 +8703,13 @@ play,1,0,jonec004,11,FBX,7/F7D
 play,1,1,vinaf001,00,X,8/F8
 play,1,1,polap001,10,BX,6/L6
 play,1,1,pujoa001,11,BCX,9/F9S
-com,"ej,cox-b103,M,wolfj901,Balls and strikes"
-com,"Braves Manager Bobby Cox ejected by HP umpire Jim Wolf in 2nd"
 play,2,0,jonea002,12,BCCFX,S7
 play,2,0,lopej001,00,X,HR/9.1-H
 play,2,0,gilkb001,32,BBSCBS,K
+play,2,0,helmw001,02,CC,NP
+com,"ej,cox-b103,M,wolfj901,Balls and strikes"
+com,"$Braves manager Cox ejected by HP umpire Wolf for arguing"
+com,"balls and strikes while Helms was at bat"
 play,2,0,helmw001,12,CCBC,K/C
 play,2,0,martd002,11,CBX,S8/8S
 play,2,0,glavt001,00,X,13/G
@@ -8760,6 +8763,7 @@ play,7,1,pujoa001,21,SBBX,8/F8
 play,7,1,mcgwm001,22,FBFBF,NP
 sub,reeds001,"Steve Reed",0,6,1
 play,7,1,mcgwm001,22,FBFBFC,K/C
+com,"$Rain delay of 2:09 during McGwire's at bat"
 play,7,1,paquc001,00,,NP
 sub,edmoj001,"Jim Edmonds",1,5,11
 play,7,1,edmoj001,00,,NP
@@ -10425,8 +10429,11 @@ play,8,1,robik002,02,CSX,46(1)/FO.3-H(UR);2-3
 play,8,1,pujoa001,12,CBCX,S8/8S.3-H(UR);1-2
 play,8,1,edmoj001,00,B,WP.2-3;1-2
 play,8,1,edmoj001,12,BCFH,HP
-com,"ej,mesaj001,P,barkl901,Intentional HBP"
-com,"Jose Mesa ejected by HP umpire Lance Barksdale"
+com,"ej,mesaj001,P,barkl901,Intentional HBP after warning"
+com,"ej,bowal001,M,barkl901,Intentional HBP after warning"
+com,"$Pitcher Mesa and Phillies manager Bows ejected by HP umpire"
+com,"Barksdale for intentionally hitting batter after warning"
+com,"earlier in the at bat"
 play,8,1,mcgwm001,00,,NP
 sub,polic001,"Cliff Politte",0,9,1
 play,8,1,mcgwm001,21,BBSX,D7.3-H(UR);2-H(UR);1-3

@@ -4893,14 +4893,14 @@ sub,stanr001,"Rob Stanifer",1,9,1
 play,4,0,rogek001,00,.,NP
 sub,fielc001,"Cecil Fielder",0,9,11
 play,4,0,fielc001,31,..*BBBCX,54(1)3/GDP/G5
+com,"ej,zimmd101,C,bonig901,Balls and strikes"
+com,"$Yankees coach Zimmer ejected by HP umpire Bonin at end of"
+com,"visitor's 4th for arguing balls and strikes to Fiedler"
 play,4,1,stanr001,00,,NP
 sub,mendr001,"Ramiro Mendoza",0,9,1
 play,4,1,stanr001,32,.BSFBFBX,43/G4MS
 play,4,1,cangj001,32,BFCBBX,8/L78D
 play,4,1,rente001,32,CFBBBT,K
-com,"ej,zimmd101,C,bonig901,Balls and strikes"
-com,"Yankees coach Don Zimmer ejected by HP umpire Greg Bonin"
-com,"sometime in fifth inning"
 play,5,0,jeted001,32,BBSSBB,W
 play,5,0,boggw001,01,CX,S8/L89M/R6.1-3
 play,5,0,willb002,21,CBBX,3/G3L.3-H;1-2
@@ -5711,9 +5711,6 @@ play,7,1,shefg001,32,*BBCB.FB,W+WP.2-3
 play,7,1,aloum001,00,,NP
 sub,telfa001,"Anthony Telford",0,9,1
 play,7,1,aloum001,32,.BCBBCFFFFFS,K
-com,"ej,leylj801,M,bellw901,Check swing"
-com,"Marlins manager Jim Leyland ejected by 1B umpire Wally Bell"
-com,"sometime in eighth inning"
 play,8,0,guerv001,11,SBX,7/F78XD
 play,8,0,rodrh001,00,,NP
 sub,cookd001,"Dennis Cook",1,9,1
@@ -5724,6 +5721,9 @@ play,8,0,mcgur001,02,FCB,SB2/R6
 play,8,0,mcgur001,22,FCB.FFBC,K
 play,8,1,bonib001,30,BBBB,W
 play,8,1,conij001,12,1SCBS,K
+com,"ej,leylj801,M,bellw901,Check swing"
+com,"$Marlins manager Leyland ejected by 1B umpire Bell for"
+com,"arguing check swing strike 3 on Conine"
 play,8,1,johnc002,12,.CBCS,K
 play,8,1,cookd001,00,,NP
 sub,mcmib001,"Billy McMillon",1,9,11
@@ -8249,8 +8249,9 @@ sub,fox-c001,"Chad Fox",0,5,1
 play,8,1,aloum001,00,..,NP
 sub,bautd001,"Danny Bautista",0,9,7
 play,8,1,aloum001,22,...CBSBC,K/C
-com,"ej,aloum001,P,vanol901,Arguing strike 3"
-com,"$Alou ejected by HP umpire Vanover for arguing strike 3"
+com,"ej,aloum001,P,vanol901,Called third strike"
+com,"$Alou ejected by HP umpire Vanover for arguing called"
+com,"third strike"
 play,8,1,johnc002,00,X,5/L5
 play,8,1,counc001,31,BBBCB,W
 play,8,1,browk001,00,,NP
@@ -8376,9 +8377,6 @@ start,conij001,"Jeff Conine",1,6,3
 start,johnc002,"Charles Johnson",1,7,2
 start,abbok002,"Kurt Abbott",1,8,4
 start,leita001,"Al Leiter",1,9,1
-com,"ej,cox-b103,M,hallt901,Balls and strikes"
-com,"Braves manager Bobby Cox ejected by HP umpire Tom Hallion"
-com,"sometime in game"
 play,1,0,loftk001,32,BBCSBFB,W
 play,1,0,blauj001,32,BFBCB>X,63/G6.1-2
 play,1,0,jonec004,32,BBBCFB,W
@@ -8457,9 +8455,6 @@ play,8,1,aloum001,31,BSBBX,S7/G5/R5.2-H;1-2
 play,8,1,conij001,32,B*BBCF>F>B,W.2-3;1-2
 play,8,1,johnc002,32,BBCSBB,W.3-H;2-3;1-2
 play,8,1,abbok002,02,SCC,K
-com,"ej,leylj801,M,hallt901,Arguing dead-ball call"
-com,"Marlins manager Jim Leyland ejected by HP umpire Tom Hallion"
-com,"sometime in ninth inning"
 play,9,0,klesr001,00,,NP
 sub,cangj001,"John Cangelosi",1,3,7
 play,9,0,klesr001,00,.,NP
@@ -8467,6 +8462,11 @@ sub,aloum001,"Moises Alou",1,5,9
 play,9,0,klesr001,00,..,NP
 sub,cookd001,"Dennis Cook",1,9,1
 play,9,0,klesr001,32,...BCBFBFB,W
+play,9,0,lemkm001,01,L,NP
+com,"ej,leylj801,M,hallt901,Fair/foul call"
+com,"$Marlins manager Leyland ejected by HP umpire Hallion for"
+com,"arguing that Lemke's bunt was fair and an out"
+com,"sometime in ninth inning"
 play,9,0,lemkm001,22,L.LBBX,7/L7D/R6
 play,9,0,fox-c001,00,,NP
 sub,bautd001,"Danny Bautista",0,9,11
@@ -8565,6 +8565,9 @@ play,2,1,ferna001,00,X,54/SH/BG25.2-3;1-2
 play,2,1,whitd001,10,BX,S8/G6M/R4.3-H;2-H
 play,2,1,rente001,22,1BT>FBS,K
 play,2,1,eisej001,22,FFBB1B,SB2/R6
+com,"ej,cox-b103,M,hallt901,Check swing"
+com,"$Braves manager Cox ejected by HP umpire Hallion for arguing"
+com,"check swing ball call to Eisenreich"
 play,2,1,eisej001,32,FFBB1B.B,W
 play,2,1,bonib001,32,CC*BBB>X,S8/L4MD/R6.2-H;1-3
 play,2,1,dauld001,32,BCFBBB,W.1-2
@@ -12531,9 +12534,6 @@ start,aloum001,"Moises Alou",1,6,7
 start,zaung001,"Greg Zaun",1,7,2
 start,counc001,"Craig Counsell",1,8,4
 start,ojalk001,"Kirt Ojala",1,9,1
-com,"ej,valeb102,M,poncl901,Call at 1B"
-com,"Mets manager Bobby Valentine ejected by 1B umpire Larry Poncino"
-com,"sometime in game"
 play,1,0,mcrab001,32,LFFBBBFX,7/L7M
 play,1,0,alfoe001,01,CX,9/F9M
 play,1,0,gilkb001,30,BBBB,W
@@ -12576,6 +12576,9 @@ play,6,0,alfoe001,22,BSBCX,53/G5L
 play,6,0,gilkb001,31,CBBBB,W
 play,6,0,huskb001,10,*BX,36(1)/FO/G3S/R1
 play,6,0,ochoa001,32,1FBSBBX,63/G6M
+com,"ej,valeb102,M,poncl901,Call at 1B"
+com,"$Mets manager Valentine ejected by 1B umpire Poncino for"
+com,"arguing Ochoa was safe at 1st"
 play,6,1,whitd001,32,CFBBBB,W
 play,6,1,rente001,00,X,13/SH/BG13S.1-2
 play,6,1,shefg001,22,FBFFBX,7/F78S/R6

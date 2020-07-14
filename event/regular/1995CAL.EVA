@@ -2393,9 +2393,6 @@ start,owens001,"Spike Owen",1,7,5
 start,easld001,"Damion Easley",1,8,4
 start,disag001,"Gary DiSarcina",1,9,6
 start,finlc001,"Chuck Finley",1,0,1
-com,"ej,knoob101,C,younl901,Pickoff call"
-com,"Angels coach Bobby Knoop ejected by 2B umpire Larry Young"
-com,"sometime in game"
 play,1,0,rodrs001,12,CSBX,63/G6
 play,1,0,valej002,20,BBX,4/P4D
 play,1,0,vaugm001,30,BBBB,W
@@ -2405,6 +2402,9 @@ play,1,0,greem001,22,BSBFS,K
 play,1,1,philt001,32,CBBFBS,K
 play,1,1,edmoj001,31,CBBBB,W
 play,1,1,salmt001,11,FBX,74(1)/FO/L7S
+com,"ej,knoob101,C,younl901,Call at 2B"
+com,"$Angels coach Knoop ejected by 2B umpire Young for"
+com,"arguing call at 2nd"
 play,1,1,davic001,12,SBSX,S8/L4M.1-3
 play,1,1,snowj001,20,BBX,S9/L9S.3-H;1-2
 play,1,1,myerg001,32,BBBCF>F>F>X,S7/L5D.2-H;1-3
@@ -3713,16 +3713,16 @@ sub,hernr001,"Roberto Hernandez",0,0,1
 play,9,1,martc002,00,..,NP
 sub,andeg001,"Garret Anderson",1,8,11
 play,9,1,andeg001,02,...CSFFH,HP.3-H;2-3;1-2
+play,9,1,disag001,30,B....BB,NP
 com,"ej,bevit801,M,shulj901,Balls and strikes"
 com,"ej,thomf001,P,shulj901,Balls and strikes"
-com,"Frank Thomas and White Sox manager Terry Bevington ejected"
-com,"by HP umpire John Shulock after the first pitch to Gary DiSarcina"
-com,"was called a ball"
-play,9,1,disag001,10,B.,NP
+com,"$1bman Thomas and White Sox manager Bevington ejected by"
+com,"HP umpire Shulock after 2-0  pitch to DiSarcina called ball"
+play,9,1,disag001,30,B.BB,NP
 sub,durhr001,"Ray Durham",0,3,4
-play,9,1,disag001,10,B..,NP
+play,9,1,disag001,30,B..BB,NP
 sub,grebc001,"Craig Grebeck",0,2,5
-play,9,1,disag001,10,B...,NP
+play,9,1,disag001,30,B...BB,NP
 sub,ventr001,"Robin Ventura",0,5,3
 play,9,1,disag001,30,B....BBB,W.3-H;2-3;1-2
 play,9,1,hudlr001,01,CX,4/L34
@@ -4281,11 +4281,11 @@ play,3,1,fabrj001,32,FBSBBX,53/G5
 play,3,1,disag001,01,CX,23/G2
 play,3,1,philt001,00,.X,S8/G4M
 play,3,1,owens001,11,BSX,6/L6
-com,"ej,boonb001,M,cousd901,Phantom out call"
-com,"Royals manager Bob Boone ejected by HP umpire Derryl Cousins"
-com,"sometime in fourth inning"
 play,4,0,colev001,00,X,S8/G4M
 play,4,0,goodt001,10,BX,54(1)/FO/G5S
+com,"ej,boonb001,M,brinj901,Call at 2B"
+com,"$Royals manager Boone ejected by 2B umpire Brinkman"
+com,"for arguing that Coleman was safe at 2nd"
 play,4,0,joynw001,21,.11BBF1>B,SB2
 play,4,0,joynw001,31,.11BBF1>B.B,W
 play,4,0,gaetg001,11,BF2X,HR/F7LD.2-H;1-H
@@ -8155,13 +8155,14 @@ play,4,1,edmoj001,21,BFBX,4/P34D
 play,4,1,salmt001,11,CBH,HP
 play,4,1,davic001,21,B11FBX,HR/F8RXD.1-H
 play,4,1,snowj001,22,BFSBX,8/F8RM
-com,"ej,owens001,P,phild901,Bench jockeying"
-com,"Spike Owen ejected by 2B umpire Dave Phillips"
-com,"sometime in fifth inning"
 play,5,0,tinsl001,10,BX,S8/L4MD
 play,5,0,valej002,00,1X,8/F8RM
 play,5,0,vaugm001,00,X,8/F8RM
 play,5,0,cansj001,31,111FBB1BX,HR/F7D.1-H
+com,"ej,owens001,P,phild901,Bench jockeying"
+com,"$Red Sox Owen, not in game, ejected by 2B umpire Phillips"
+com,"for bench jockeying as umpires called both managers to"
+com,"plate to warn about retaliation"
 play,5,0,greem001,10,BX,S6/G56
 play,5,0,oleat001,12,FBSC,K
 play,5,1,andeg001,10,BX,S9/L89S

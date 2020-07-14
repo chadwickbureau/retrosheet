@@ -945,9 +945,6 @@ start,curtc001,"Chad Curtis",1,7,7
 start,bross001,"Scott Brosius",1,8,5
 start,giraj001,"Joe Girardi",1,9,2
 start,petta001,"Andy Pettitte",1,0,1
-com,"ej,randw001,C,scotd901,Balls and strikes"
-com,"Yankees coach Willie Randolph ejected by HP umpire Dale"
-com,"Scott sometime in game"
 play,1,0,stews002,11,BCX,S4/G4
 play,1,0,grees001,11,B1S1B,SB2
 play,1,0,grees001,22,B1S1B.FS,K
@@ -966,7 +963,10 @@ play,2,0,fletd001,00,X,7/L78M
 play,2,1,willb002,32,CBBBCB,W
 play,2,1,raint001,20,1BBX,D7/L7D.1-3
 play,2,1,curtc001,22,FBBFS,K
-play,2,1,bross001,32,BBCBCC,K
+play,2,1,bross001,32,BBCBCC,K/C
+com,"ej,randw001,C,scotd901,Called third strike"
+com,"$Yankees coach Randolph ejected by HP umpire Scott"
+com,"for arguing called third strike to Brosius"
 play,2,1,giraj001,01,SX,43/G4
 play,3,0,stews002,12,BCSX,63/G6
 play,3,0,grees001,02,SFC,K
@@ -1577,9 +1577,6 @@ start,curtc001,"Chad Curtis",1,7,7
 start,bross001,"Scott Brosius",1,8,5
 start,giraj001,"Joe Girardi",1,9,2
 start,welld001,"David Wells",1,0,1
-com,"ej,pendt001,P,kaisk901,Bench jockeying"
-com,"Terry Pendleton ejected by HP umpire Ken Kaiser"
-com,"sometime in game"
 play,1,0,damoj001,32,CBBBFX,43/G4S
 play,1,0,halts001,00,F,FLE3
 play,1,0,halts001,32,F.CBFFBBX,S7/L7S
@@ -1595,7 +1592,10 @@ play,2,0,kingj001,12,BFCX,5/P15S
 play,2,0,macks001,22,CBSFB1X,9/F9D
 play,2,0,dye-j001,12,BFFFC,K
 play,2,1,raint001,20,BBX,4/L34
-play,2,1,curtc001,12,CCBC,K
+play,2,1,curtc001,12,CCBC,K/C
+com,"ej,pendt001,P,kaisk901,Bench jockeying"
+com,"$Royals Pendleton, not in game, ejected by HP umpire Kaiser"
+com,"after Curtis called out on strikes"
 play,2,1,bross001,21,BBCX,9/P9LS
 play,3,0,fasas001,00,X,S4/L34D
 play,3,0,damoj001,22,FBBFFX,46(1)/FO/G4
@@ -4693,10 +4693,9 @@ play,7,0,lopej001,12,CBFX,46(1)/FO/G4
 play,7,1,knobc001,00,,NP
 sub,martd001,"Dennis Martinez",0,0,1
 play,7,1,knobc001,32,CCBBBFB,W
-com,"ej,cox-b103,M,garcr901,Interference non-call"
-com,"Braves manager Bobby Cox ejected by 2B umpire Richie Garcia"
-com,"when Derek Jeter bunted and was struck by the ball; the play"
-com,"Was called a foul ball not interference"
+com,"ej,cox-b103,M,reilm901,Interference non-call"
+com,"$Braves manager Cox ejected by 3B umpire Reilly for arguing"
+com,"Jeter ran into his bunt in fair territory; umpire ruled foul"
 play,7,1,jeted001,22,M1LB1B1FX,8/F78M
 play,7,1,oneip001,31,1BBF1BB,W.1-2
 play,7,1,martt002,32,CCBFFBBX,4/P4MD
@@ -5531,11 +5530,6 @@ start,curtc001,"Chad Curtis",1,7,8
 start,leder001,"Ricky Ledee",1,8,7
 start,bross001,"Scott Brosius",1,9,5
 start,herno001,"Orlando Hernandez",1,0,1
-com,"ej,millr801,M,kaisk901,Catch/trap call at 3B"
-com,"ej,perls101,C,fostm901,Catch/trap call at 3B"
-com,"Orioles coach Sam Perlozzo ejected by 3B umpire Marty"
-com,"Foster for arguing a catch/trap call; manager Ray Miller"
-com,"ejected by 1B umpire ken Kaiser"
 play,1,0,alomr001,32,BCBBFFX,D9/L9LS
 play,1,0,surhb001,31,BBBCB,W
 play,1,0,davie001,00,B,PB.2-3;1-2
@@ -5618,6 +5612,12 @@ play,9,0,andeb001,00,,NP
 sub,reboj001,"Jeff Reboulet",0,5,12
 play,9,0,andeb001,10,BX,S8/G4.1-2
 play,9,0,hoilc001,00,X,15(2)/FO/BG5S.1-2
+com,"ej,millr801,M,kaisk901,Catch/drop call at 3B"
+com,"ej,perls101,C,fostm901,Refusing consulation with other umpires"
+com,"$Orioles coach Sam Perlozzo ejected by 3B umpire Foster"
+com,"for arguing that 3bman dropped throw; Orioles manager"
+com,"Miller ejected by 1B umpire Kaiser who was crew cheif"
+com,"and refused to allow consulation with other umpires"
 play,9,0,beckr002,00,X,46(1)3/GDP/G4MS
 data,er,drabd001,4
 data,er,herno001,2
@@ -10503,9 +10503,6 @@ start,leder001,"Ricky Ledee",1,7,7
 start,bross001,"Scott Brosius",1,8,3
 start,giraj001,"Joe Girardi",1,9,2
 start,coned001,"David Cone",1,0,1
-com,"ej,mattg001,C,hirsj901,Bench jockeying"
-com,"Yankees coach Don Mattingly ejected by HP umpire"
-com,"John Hirschbeck sometime in game"
 play,1,0,stews002,11,CBX,HR/F89XD
 play,1,0,grees001,02,FFC,K
 play,1,0,cansj001,22,BBCSC,K
@@ -10543,7 +10540,10 @@ play,4,0,fletd001,10,BX,31/G34
 play,4,0,grebc001,12,CSBFFX,S8/L89S
 play,4,0,gonza001,12,CCBFX,S9/L9S.1-2
 play,4,0,stews002,32,CBSFBFBX,14(1)/FO/G13.2-3
-play,4,0,grees001,12,CBFC,K
+play,4,0,grees001,12,CBFC,K/C
+com,"ej,mattg001,C,hirsj901,Called third strike"
+com,"$Blue Jays coach MAtthews ejected by HP umpire Hirschbeck"
+com,"for arguing called third strike"
 play,4,1,leder001,22,BCCBFC,K
 play,4,1,bross001,22,CBBCS,K
 play,4,1,giraj001,11,CBX,43/G4

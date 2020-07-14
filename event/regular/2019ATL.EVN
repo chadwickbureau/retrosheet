@@ -3734,9 +3734,9 @@ info,number,0
 info,starttime,7:22PM
 info,daynight,night
 info,usedh,false
-info,umphome,wolfj901
-info,ump1b,iassd901
-info,ump2b,(None)
+info,umphome,gonzm901
+info,ump1b,wolfj901
+info,ump2b,iassd901
 info,ump3b,holbs901
 info,howscored,park
 info,pitches,pitches
@@ -3811,6 +3811,12 @@ play,4,1,acunr001,20,BBX,4/P
 play,4,1,swand001,11,BCX,7/F
 play,4,1,freef001,22,SBFBFS,K
 com,"On-field Delay"
+com,"umpchange,5,umphome.wolfj901"
+com,"umpchange,5,ump1b,iassd901"
+com,"umpchange,5,ump2b,(None)"
+com,"$HP umpire Gonzalez left with stomach flu; 1B umpire"
+com,"Wolf went behind plate and 2B umpire Iassogna moved to"
+com,"1B; game completed with 3 umpires"
 play,5,0,moliy001,02,STFX,S9/L
 play,5,0,fowld001,12,FBFC,K
 play,5,0,wongk001,31,BBBCB,W.1-2
@@ -12206,6 +12212,8 @@ play,6,1,rilea001,00,,NP
 sub,raint003,"Tanner Rainey",0,9,1
 play,6,1,rilea001,20,.BBX,3/P
 play,6,1,flowt001,11,SBH,HP
+com,"$Braves challenged call that Flowers was not hit by pitch;"
+com,"call overturned - hit by pitch"
 play,6,1,keucd001,00,,NP
 sub,joycm001,"Matt Joyce",1,9,11
 play,6,1,joycm001,31,.BCBBX,S4/G+.1-2
@@ -12534,12 +12542,10 @@ play,4,1,joycm001,10,*BX,D9/L.1-3
 play,4,1,swand001,12,SSBS,K
 play,4,1,flowt001,32,BCBBSS,K
 play,5,0,turnt001,32,FSBFBBFC,K
-com,"ej,turnt001,P,estam901,Called strike 3"
-com,"ej,martd001,M,estam901,Called strike 3"
-com,"$Turner ejected by HP umpire Estabrook for arguing;"
-com,"Washington manager Martinez came out quickly to argue"
-com,"and was also ejected by Estabrook"
-com,"called strike 3"
+com,"ej,turnt001,P,estam901,Called third strike"
+com,"ej,martd002,M,estam901,Called third strike"
+com,"$Turner and Nationals manager Martinez ejected by HP"
+com,"umpire Estabrook for arguing called third strike"
 play,5,0,eatoa002,20,BBX,3/G
 play,5,0,renda001,01,FX,9/F
 play,5,1,orter001,00,,NP

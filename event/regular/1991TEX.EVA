@@ -3382,8 +3382,8 @@ start,buecs001,"Steve Buechele",1,7,5
 start,diazm002,"Mario Diaz",1,8,6
 start,pettg001,"Gary Pettis",1,9,8
 start,browk001,"Kevin Brown",1,0,1
-com,"$both teams warned about throwing at batters before the"
-com,"game by 2B umpire and acting crew chief Drew Coble"
+com,"$Both teams warned about throwing at batters before the"
+com,"game acting crew chief Coble"
 play,1,0,reynh001,12,CBSS,K
 play,1,0,brilg001,01,CX,3/G3
 play,1,0,marte001,22,BCFBX,53/G56
@@ -3403,10 +3403,9 @@ play,2,1,downb001,21,CBBX,5(2)4(1)3/GTP/G5S
 play,3,0,powea001,10,BX,3/G3L
 play,3,0,vizqo001,11,BCX,63/G56
 play,3,0,valld001,10,BH,HP
-com,"ej,valld001,P,johnm901,Charging mound"
-com,"Dave Valle ejected by HP umpire Mark Johnson for trying"
-com,"to get to Rangers manager Bobby Valentine; both benches"
-com,"cleared"
+com,"ej,valld001,P,johnm901,Charging opposing manager after HBP"
+com,"$Valle ejected by HP umpire Johnson charging after Texas"
+com,"manager Valentine; both benches cleared"
 play,3,0,reynh001,00,,NP
 sub,brads001,"Scott Bradley",0,9,12
 play,3,0,reynh001,20,.BBX,8/F8RXD
@@ -3425,10 +3424,11 @@ play,4,0,powea001,02,FCFFX,FC5/G56S.2X3(5);B-1
 play,4,1,stanm002,21,BBCX,S9/F9S
 play,4,1,buecs001,00,X,13/SH/B13S.1-2
 play,4,1,diazm002,30,BBBB,W
+play,4,1,pettg001,31,SBBB,NP
 com,"ej,lefej101,M,johnm901,Balls and strikes"
-com,"Mariners manager Jim Lefebvre ejected by HP umpire"
-com,"Mark Johnson after the fourth pitch to Gary Pettis"
-com,"is called a ball"
+com,"$Mariners manager Lefebvre ejected by HP umpire Johnson"
+com,"for arguing balls and strikes after 4th pitch to Pettis"
+com,"was called a ball"
 play,4,1,pettg001,32,SBBBCFFB,W.2-3;1-2
 play,4,1,downb001,12,BCFS,K
 play,4,1,daugj001,12,CBFS,K
@@ -3457,9 +3457,6 @@ sub,barfj002,"John Barfield",1,0,1
 play,6,0,brilg001,22,.BSCBS,K
 play,6,0,marte001,11,BCX,64(1)/FO/G6.B-1
 play,6,1,pettg001,21,BBCX,7/F7D
-com,"ej,diazm002,P,johnm901,Arguing foul ball should be HBP"
-com,"Mario Diaz ejected by HP umpire Mark Johnson"
-com,"arguing a foul ball was HBP"
 play,6,1,downb001,32,CBSBBFFFB,W
 play,6,1,daugj001,20,BBX,S/L89D.1-3
 play,6,1,sierr001,31,CBBBX,S4/L4MD.3-H;1-2
@@ -3472,9 +3469,13 @@ sub,swanr001,"Russ Swan",0,0,1
 play,6,1,palmr001,22,..BCB>FF>B,SB3;SB2
 play,6,1,palmr001,32,..BCB>FFB.X,3/P3F
 play,6,1,buecs001,30,BIII,IW
-play,6,1,diazm002,00,,NP
+play,6,1,diazm002,32,.BBBCFX,NP
+com,"ej,diazm002,P,johnm901,HBP non-call"
+com,"$Diaz ejected by HP umpire Johnson for arguing that he"
+com,"was hit by pitch ruled a foul ball"
+play,6,1,diazm002,32,.BBBCF,NP
 sub,husoj001,"Jeff Huson",1,8,11
-play,6,1,husoj001,32,.BBBCCX,63/G6S
+play,6,1,husoj001,32,.BBBCFX,63/G6S
 play,7,0,davia002,00,,NP
 sub,daugj001,"Jack Daugherty",1,2,7
 play,7,0,davia002,00,,NP

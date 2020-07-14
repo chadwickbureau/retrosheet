@@ -2811,13 +2811,14 @@ play,4,1,andrs001,30,BBBB,W
 play,4,1,bufod001,22,CBBCX,6/P6
 play,4,1,giraj001,10,BX,8/F8S
 play,4,1,liebj001,21,CBBX,43/G
-com,"ej,loped001,M,meric901,Balls and strikes"
-com,"Brewers manager Davey Lopes ejected by HP umpire Chuck Meriwether in fifth"
 play,5,0,lorem001,01,LX,D9
 play,5,0,burnj001,01,FH,HP
 play,5,0,grism001,32,CBSBBX,S9.2-3;1-2
 play,5,0,barkk001,31,BFBBX,9/SF.3-H;2-3
 play,5,0,hernj001,12,SBCX,D9/9D.3-H;1-3
+com,"ej,loped001,M,meric901,Balls and strikes"
+com,"$Brewers manager Lopes ejected by HP umpire Meriwether for"
+com,"arguing balls and strikes while Hernandez was at bat"
 play,5,0,moutl001,32,BCBBSS,K
 play,5,0,blanh001,20,BBX,D7/7D.3-H;2-H
 play,5,0,brusj001,00,,NP
@@ -7896,8 +7897,6 @@ start,bufod001,"Damon Buford",1,6,8
 start,greew001,"Willie Greene",1,7,5
 start,reedj001,"Jeff Reed",1,8,2
 start,valdi001,"Ismael Valdes",1,9,1
-com,"ej,loped001,M,lampi901,Balls and strikes"
-com,"Brewers manager Davey Lopes ejected by HP umpire Ian Lamplugh sometime in game"
 play,1,0,bellr002,02,CFX,1/P1
 play,1,0,moutj001,11,BFX,4/P4
 play,1,0,jenkg001,32,CBBFFBFFFC,K/C
@@ -7974,6 +7973,9 @@ play,8,0,echea001,00,,NP
 sub,rains001,"Steve Rain",1,9,1
 play,8,0,echea001,12,FBSS,K
 play,8,0,hernj001,02,CFC,K/C
+com,"ej,loped001,M,lampi901,Called third strike"
+com,"$Brewers manager Lopes ejected by HP umpire Lamplugh for"
+com,"arguing called third strike"
 play,8,1,gutir001,00,,NP
 sub,echea001,"Angel Echevarria",0,6,3
 play,8,1,gutir001,00,,NP
@@ -9518,8 +9520,9 @@ play,3,0,rente001,02,CFX,S8.1-2
 play,3,0,mathm001,01,CX,S8/8S.2-H;1-3
 play,3,0,stepg001,20,BBX,34/SH.1-2
 play,3,0,vinaf001,02,CCC,K/C
-com,"ej,vinaf001,P,danlk901,Balls and strikes"
-com,"Fernando Vina ejected by HP umpire Kerwin Danley"
+com,"ej,vinaf001,P,danlk901,Called third strike"
+com,"$Vina ejected by HP umpire Danley for arguing"
+com,"called third strike"
 play,3,1,arnoj001,00,,NP
 sub,polap001,"Placido Polanco",0,1,4
 play,3,1,arnoj001,00,,NP
@@ -9562,8 +9565,6 @@ play,6,1,gracm001,21,FBBX,S8/8S
 play,6,1,whitr001,11,CBX,53/G.1-2
 play,6,1,reedj001,22,CCBFBX,9/F9S
 play,6,1,bufod001,32,BBCFBS,K
-com,"ej,bayld001,M,dimum901,Balls and strikes"
-com,"Cubs Manager Don Baylor ejected by HP umpire Mike Dimuro in seventh"
 play,7,0,lankr001,32,BFCFBBB,W
 play,7,0,rente001,00,,NP
 sub,farnk001,"Kyle Farnsworth",1,7,1
@@ -9573,6 +9574,9 @@ play,7,0,rente001,01,FX,D8/8D.1-H
 play,7,0,mathm001,00,B,WP.2-3
 play,7,0,mathm001,11,BFS,CSH(2)
 play,7,0,mathm001,22,BFSBS,K
+com,"ej,bayld001,M,dimum901,Balls and strikes"
+com,"$Cubs manager Baylor ejected by HP umpire Dimuro for arguing"
+com,"balls and strikes after Matthews struck out"
 play,7,0,stepg001,12,CBCS,K
 play,7,1,mattg002,02,CCFC,K/C
 play,7,1,greew001,01,CX,13/G
@@ -10244,8 +10248,6 @@ play,2,0,belta001,32,BBBCFX,9/F9
 play,2,1,gutir001,00,X,D7
 play,2,1,bufod001,10,BX,9/F9
 play,2,1,husoj001,12,CBFFFX,D7/7S.2-H
-com,"SS ADDS BADJS FOR WOOD 12/19/00"
-com,"GG corrects 2xBADJ for Wood from BADJ-R to BADJ-L 020601"
 badj,woodk002,L
 play,2,1,woodk002,02,SFFX,S.2-3
 play,2,1,youne001,12,CBFFX,D9.3-H;1-3
@@ -10275,14 +10277,15 @@ play,5,0,avenb001,10,BX,HR/7.1-H
 play,5,0,coraa001,32,FFBBFFBFX,4/P4
 play,5,0,valdi001,22,CBSBFC,K/C
 play,5,0,goodt001,22,BBCCFC,K/C
-com,"ej,johnd105,M,wegnm901,Arguing warning on Valdes"
-com,"Dodgers Manager Davey Johnson ejected by HP umpire Mark Wegner for"
-com,"arguing warning to Ismael Valdes after two pitches to Mark Grace"
+play,5,1,gracm001,20,BB,NP
+com,"ej,johnd105,M,wegnm901,Arguing warning to pitcher"
+com,"$Dodgers manager Johnson ejected by HP umpire Wegner for"
+com,"arguing warning to Valdes after two pitches to Grace"
 play,5,1,gracm001,31,BBBCH,HP
-com,"ej,tracj101,C,wegnm901,Intentional HBP"
-com,"ej,valdi001,P,wegnm901,Intentional HBP"
-com,"Ismael Valdes and coach (acting manager) Jim Tracy ejected by HP umpire"
-com,"Mark Wegner; coach Glenn Hoffman finished game as third manager of night"
+com,"ej,tracj101,C,wegnm901,Intentional HBP after warning"
+com,"ej,valdi001,P,wegnm901,Intentional HBP after warning"
+com,"$Pitcher Valdes and coach (acting manager) Tracy ejected by HP umpire"
+com,"Wegner for intentional HBP after warning"
 play,5,1,mattg002,00,,NP
 sub,perec001,"Carlos Perez",0,9,1
 play,5,1,mattg002,31,CBBBX,64(1)3/GDP

@@ -1233,8 +1233,6 @@ play,4,1,grees001,12,FFBX,7/F7
 play,4,1,donnc001,00,C,CS2(26)
 play,4,1,donnc001,01,CX,S9
 play,4,1,bocah001,22,BBCFX,63/G
-com,"ej,bochb002,M,dimum901,Fan interference call"
-com,"Padres Manager Bruce Bochy ejected by HP umpire Mike Dimuro in 5th"
 play,5,0,mendd001,22,CBBLX,43/G
 play,5,0,jarvk001,00,X,63/G
 play,5,0,hendr001,32,CBBFBFX,E1/G
@@ -1244,6 +1242,10 @@ play,5,1,penaa002,00,X,S7
 play,5,1,coraa001,12,BFFFX,S7/7S.1-2
 play,5,1,prokl001,01,LX,34/G.2-3;1-2
 play,5,1,goodt001,00,X,T9/9S.3-H;2-H
+com,"ej,bochb002,M,dimum901,Placement of runner after fan interference"
+com,"$Padres manager Bochy ejected by HP umpire Dimuro for arguing that"
+com,"Goodwin should have been held at 2nd after interference, but"
+com,"umpire ruled Goodwin would have made it to 3rd"
 play,5,1,grudm001,11,BCX,S/89.3-H
 play,5,1,shefg001,00,X,S7.1-3
 play,5,1,grees001,32,BBFFBX,7/SF.3-H
@@ -9558,7 +9560,8 @@ play,5,0,lawtm002,30,BBBB,W
 play,5,0,alfoe001,32,CBFFFBFFBB,W.2-3;1-2
 play,5,0,piazm001,01,CX,D7/7D.3-H;2-H;1XH(752)
 com,"ej,valeb102,M,marqa901,Call at HP"
-com,"Mets Manager Bobby Valentine ejected by HP umpire Alfonzo Marquez"
+com,"$Mets manager Valentine ejected by HP umpire Marquez for"
+com,"arguing that Alfonzo was safe at home"
 play,5,1,belta001,00,,NP
 sub,relad001,"Desi Relaford",0,4,5
 play,5,1,belta001,00,X,7/F7S
@@ -11790,10 +11793,12 @@ play,1,0,colbg001,32,BBCBFFFFFFS,K
 play,1,1,grism001,12,BFFFS,K
 play,1,1,grudm001,10,BX,D9/9S
 play,1,1,grees001,31,BBSBB,W
-play,1,1,shefg001,22,BBCFS,K/DP.2XH(21);1-2(PB)
-com,"ej,shefg001,P,buckc901,Call at HP"
-com,"Gary Sheffield ejected by HP umpire CB Bucknor"
-com,"arguing play at the plate"
+play,1,1,shefg001,22,BBCFS,K/NDP.2XH(21);1-2(PB)
+com,"ej,shefg001,P,buckc901,Non-call of foul"
+com,"$Sheffield ejected by HP umpire Bucknor for arguing that"
+com,"he had ticked the strike 3 pitch so it should have been a"
+com,"foul ball; catcher did not go after ball so runner tried"
+com,"to score while Sheffield argued and was out"
 play,2,0,sandr002,00,,NP
 sub,avenb001,"Bruce Aven",1,4,7
 play,2,0,sandr002,12,CSBFC,K/C

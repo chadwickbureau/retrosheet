@@ -2805,8 +2805,9 @@ sub,robew001,"Willis Roberts",0,0,1
 play,8,1,thomf001,10,.BX,S9/L
 play,8,1,ordom001,32,CFB*BB>X,8/F
 play,8,1,lee-c001,12,CFBX,96(1)/FO/G
-com,"ej,manuj101,M,relic901,Call at 1B"
-com,"White Sox Manager Jerry Manuel ejected by 1B umpire Charlie Reliford"
+com,"ej,manuj101,M,relic901,Call at 2B"
+com,"$White Sox manager Manuel ejected by 1B umpire Reliford"
+com,"for arguing that Thomas was safe at 2nd"
 play,8,1,konep001,12,.SSB11FFFS,K23
 play,9,0,gibbj002,00,,NP
 sub,kochb001,"Billy Koch",1,0,1
@@ -3144,9 +3145,6 @@ start,konep001,"Paul Konerko",1,7,3
 start,credj001,"Joe Crede",1,8,5
 start,aloms001,"Sandy Alomar",1,9,2
 start,wrigd001,"Dan Wright",1,0,1
-com,"ej,manuj101,M,herna901,Fair/foul call"
-com,"White Sox manager Jerry Manuel ejected sometime during the game"
-com,"by 3B umpire Angel Hernandez for arguing a fair/foul call"
 play,1,0,stews002,22,BBCFFX,3/G
 play,1,0,cataf001,32,CBFFBBX,HR/9/L
 play,1,0,wellv001,10,BX,8/F
@@ -3191,7 +3189,10 @@ play,5,0,delgc001,32,BBCCBX,5/P5F
 play,5,0,myerg001,01,CX,S8/L
 play,5,0,phelj001,12,FBFS,K
 play,5,1,credj001,11,BFX,D7/G
-play,5,1,aloms001,00,X,FC5/G.2X3(5)
+play,5,1,aloms001,00,X,FC5/G.2X3(5);B-1
+com,"ej,manuj101,M,herna901,Fair/foul call"
+com,"$White Sox manager Manuel ejected by 3B umpire Hernandez"
+com,"for arguing that Alomar's bunt was foul"
 play,5,1,jimed001,00,.X,9/F
 play,5,1,valej003,10,BX,43/G
 play,6,0,hinse001,10,BX,HR/9/L
@@ -10760,10 +10761,11 @@ play,9,0,lecrm001,10,BX,4/P
 play,9,0,koskc001,30,B*B*BB,W.1-2
 play,9,0,huntt001,00,,NP
 sub,gordt001,"Tom Gordon",1,0,1
-com,"ej,panij001,P,carlm901,Balls and strikes after removal"
-com,"White Sox Jose Paniagua ejected by HP umpire Mark Carlson;"
-com,"Paniagua made an obscene gesture as he left the field and was"
-com,"released by the White Sox next day"
+com,"ej,panij001,P,carlm901,Balls and strikes (Obscene gesture after removal)"
+com,"$Pitchere Paniagua ejected by HP umpire Carlson for arguing"
+com,"balls and strikes after he was removed from game; he made an"
+com,"obscene gesture as he left field and was released by the White"
+com,"Sox the following day"
 play,9,0,huntt001,32,.BB.SBSB,W.2-3;1-2
 play,9,0,piera001,12,CS*BFFFFFFX,7/SF.3-H
 play,9,0,mohrd001,00,,NP
