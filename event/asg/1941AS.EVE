@@ -14,15 +14,16 @@ info,ump1b,jordl901
 info,ump2b,grieb901
 info,ump3b,pineb101
 info,scorer,"Chi Daily News/AP/NY Times"
-info,translator,"Cashion/Vincent"
-info,inputter,"Cashion/Vincent"
+info,translator,"Cashion/Vincent/Townsend"
+info,inputter,"Cashion/Vincent/Townsend"
+info,inputter,"Wayne Townsend"
 info,inputtime,1997/08/30 2:43AM
 info,howscored,park
-info,pitches,count
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,fromcf
 info,windspeed,-1
-info,fieldcond,dry
+info,fieldcond,unknown
 info,precip,none
 info,sky,sunny
 info,timeofgame,143
@@ -49,55 +50,61 @@ start,cronj101,"Joe Cronin",1,6,6
 start,yorkr101,"Rudy York",1,7,3
 start,dickb101,"Bill Dickey",1,8,2
 start,fellb101,"Bob Feller",1,9,1
-com,"$Managers: Del Baker (AL Detroit), Bill McKechnie (NL Cincinnati)"
-play,1,0,hacks101,02,,K
-play,1,0,moort102,02,,6/F8S
-play,1,0,reisp101,02,,K
-play,1,1,doerb101,00,,4
-play,1,1,travc101,??,,8/F8S
-play,1,1,dimaj101,??,,5/P5F
-play,2,0,mizej101,10,,8/L8D
-play,2,0,nichb101,22,,K/C
-play,2,0,vauga101,00,,7/FL
-play,2,1,willt103,31,,W
-play,2,1,heatj101,01,,46(1)3/GDP
-play,2,1,cronj101,??,,9
-play,3,0,freyl101,22,,S9
-play,3,0,owenm101,11,,POCS2(136)
-play,3,0,owenm101,11,,7/F7LS
+com,"Pitch-by-pitch courtesy of Classic Baseball on the Radio"
+com,"Managers: Del Baker (AL Detroit), Bill McKechnie (NL Cincinnati)"
+play,1,0,hacks101,12,CCBS,K
+play,1,0,moort102,22,FBBCX,6/P6MD
+play,1,0,reisp101,12,BCLS,K
+play,1,1,doerb101,00,X,4/P
+play,1,1,travc101,22,BCBFFX,8/F78S
+com,"Reiser: running catch"
+play,1,1,dimaj101,01,CX,5/P5F/FL
+play,2,0,mizej101,10,BX,8/F8D
+com,"Wind switched toward RF"
+play,2,0,nichb101,22,FBCBC,K/C
+play,2,0,vauga101,00,X,7/F7L/FL
+com,"Williams: running catch"
+play,2,1,willt103,31,BBBCB,W
+play,2,1,heatj101,01,SX,46(1)3/GDP
+play,2,1,cronj101,02,CCX,9/F9
+play,3,0,freyl101,22,BSBFX,S9/G34
+play,3,0,owenm101,01,C1,POCS2(136)
+play,3,0,owenm101,01,C.X,7/F7LS
 play,3,0,wyatw101,00,,NP
 sub,ott-m101,"Mel Ott",0,9,11
-play,3,0,ott-m101,32,,K23
+play,3,0,ott-m101,32,BBCFBS,K23
 play,3,1,yorkr101,00,,NP
 sub,derrp101,"Paul Derringer",0,9,1
 play,3,1,yorkr101,00,,NP
 sub,lopea102,"Al Lopez",0,8,2
-play,3,1,yorkr101,00,,8/F8S
-play,3,1,dickb101,??,,43
+play,3,1,yorkr101,00,X,8/F8
+play,3,1,dickb101,10,BX,43
 play,3,1,fellb101,00,,NP
 sub,cullr101,"Roy Cullenbine",1,9,11
-play,3,1,cullr101,??,,13
+play,3,1,cullr101,02,CSX,13/G1
 play,4,0,hacks101,00,,NP
 sub,lee-t101,"Thornton Lee",1,9,1
-play,4,0,hacks101,31,,S/G6M
-play,4,0,moort102,??,,9
-play,4,0,reisp101,??,,3(B)6(1)/GDP
+play,4,0,hacks101,32,CBBBCX,S/G56
+play,4,0,moort102,01,FX,9/F9
+play,4,0,reisp101,00,X,3(B)6(1)/GDP
 play,4,1,doerb101,00,,NP
 sub,ellib103,"Bob Elliott",0,5,9
-play,4,1,doerb101,??,,43
-play,4,1,travc101,??,,D7/L78XD
-play,4,1,dimaj101,??,,8/F8XD.2-3
-play,4,1,willt103,??,,D9/F9DW.3-H
-com,"$Bob Elliott momentarily misjudged the ball, rushed in a few"
-com,"steps and caught his spikes in the turf"
-play,4,1,heatj101,??,,K/C
-play,5,0,mizej101,??,,3/G
-play,5,0,ellib103,??,,53
-play,5,0,vauga101,32,,S4
+play,4,1,doerb101,02,FFX,43/G4
+play,4,1,travc101,11,BFX,D7/L78XD
+play,4,1,dimaj101,20,BBX,8/F89XD.2-3
+com,"Reiser: running catch about 410' away"
+play,4,1,willt103,12,BCFX,D9/L9DW.3-H
+com,"Elliott momentarily misjudged the ball, rushed in a few"
+com,"steps and caught his spikes in the turf."
+play,4,1,heatj101,02,CSFC,K/C
+play,5,0,mizej101,,,3/G
+play,5,0,ellib103,01,FX,53
+com,"Travis: nice stop on his knees of sharp grounder"
+play,5,0,vauga101,32,BFBFBX,S4/G4MS
 play,5,0,freyl101,00,,NP
 sub,hermb101,"Billy Herman",0,7,11
-play,5,0,hermb101,02,,S8.1-2
-play,5,0,lopea102,??,,5(2)/FO
+play,5,0,hermb101,22,CBBSX,S8/L8.1-2
+play,5,0,lopea102,10,BX,5(2)/FO
 com,"umpchange,5,umphome,pineb101"
 com,"umpchange,5,ump1b,grieb901"
 com,"umpchange,5,ump2b,jordl901"
@@ -107,93 +114,101 @@ play,5,1,cronj101,00,,NP
 sub,waltb102,"Bucky Walters",0,9,1
 play,5,1,cronj101,00,,NP
 sub,hermb101,"Billy Herman",0,7,4
-play,5,1,cronj101,02,,K/C
-play,5,1,yorkr101,??,,S7/G
-play,5,1,dickb101,00,,S7/L5L.1-2
-play,5,1,lee-t101,??,,8/L78D.2-3
-play,5,1,doerb101,??,,K
+play,5,1,cronj101,12,SBFFFFC,K/C
+play,5,1,yorkr101,21,CBBX,S7/G56
+play,5,1,dickb101,00,X,S7/G5L.1-2
+play,5,1,lee-t101,02,FSFX,8/L78D.2-3
+com,"Reiser: running catch"
+play,5,1,doerb101,02,CFS,K
 play,6,0,waltb102,00,,NP
 sub,gordj101,"Joe Gordon",1,1,4
 play,6,0,waltb102,00,,NP
 sub,boudl101,"Lou Boudreau",1,6,6
-play,6,0,waltb102,??,,D7/L7L
-play,6,0,hacks101,??,,13/SH.2-3
-play,6,0,moort102,??,,7/F7D.3-H
-play,6,0,reisp101,??,,E9/F.B-2
-play,6,0,mizej101,??,,53
+play,6,0,waltb102,00,X,D7/L7L
+play,6,0,hacks101,00,X,13/BG25/SH.2-3
+play,6,0,moort102,00,X,7/F7D.3-H
+play,6,0,reisp101,00,X,E9/F.B-2
+play,6,0,mizej101,12,CSBX,53
 play,6,1,travc101,00,,NP
 sub,slaue101,"Enos Slaughter",0,5,9
-play,6,1,travc101,00,,4/L
-play,6,1,dimaj101,??,,W
-play,6,1,willt103,??,,8/F89
-play,6,1,heatj101,32,,W.1-2
-play,6,1,boudl101,??,,S8/8S.2-H(RBI);1-3;B-2(E8)
-play,6,1,yorkr101,??,,8/F8XD
+play,6,1,travc101,00,X,4/L
+play,6,1,dimaj101,31,BCBBB,W
+play,6,1,willt103,21,BFBX,8/F89
+play,6,1,heatj101,32,B*BS+1FB>B,W.1-2
+play,6,1,boudl101,20,BBX,S8/L8S.2-H(RBI);1-3;B-2(E8)
+com,"Reiser let it get by him"
+play,6,1,yorkr101,21,BBSX,8/F78XD
 play,7,0,slaue101,00,,NP
 sub,hudss101,"Sid Hudson",1,9,1
 play,7,0,slaue101,00,,NP
 sub,foxxj101,"Jimmie Foxx",1,7,3
 play,7,0,slaue101,00,,NP
 sub,dimad101,"Dom DiMaggio",1,5,9
-play,7,0,slaue101,00,,S7.B-2(E7)
-com,"$Ted Williams fumbled the ball then half fell"
-play,7,0,vauga101,??,,HR/9.2-H
-play,7,0,hermb101,??,,DGR/7L/FINT
-com,"$fan inteference"
-play,7,0,lopea102,??,,24/SH.2-3
+play,7,0,slaue101,00,X,S7.B-2(E7)
+com,"Williams fumbled the ball then stumbled"
+play,7,0,vauga101,10,BX,HR/F9D.2-H
+com,"Into upper RF stands"
+play,7,0,hermb101,00,X,DGR/G5L/FINT
+com,"Fan inteference"
+play,7,0,lopea102,00,X,24/SH.2-3
 play,7,0,waltb102,00,,NP
 sub,medwj101,"Joe Medwick",0,9,11
-play,7,0,medwj101,??,,63
-play,7,0,hacks101,??,,W
-play,7,0,moort102,02,,K
+play,7,0,medwj101,01,CX,63
+play,7,0,hacks101,32,BLBCBB,W
+play,7,0,moort102,12,SFBS,K
 play,7,1,dickb101,00,,NP
 sub,passc101,"Claude Passeau",0,9,1
 play,7,1,dickb101,00,,NP
 sub,dannh101,"Harry Danning",0,8,2
-play,7,1,dickb101,??,,5/L
+play,7,1,dickb101,22,CBCBF,5/L5L
+com,"Hack: spectacular leaping back-handed catch"
 play,7,1,hudss101,00,,NP
 sub,kellc101,"Charlie Keller",1,9,11
-play,7,1,kellc101,??,,K
-play,7,1,gordj101,00,,63
+play,7,1,kellc101,22,SCBFBS,K
+play,7,1,gordj101,22,SBBFX,63
 play,8,0,reisp101,00,,NP
 sub,smite105,"Eddie Smith",1,9,1
 play,8,0,reisp101,00,,NP
 sub,hayef101,"Frankie Hayes",1,8,2
-play,8,0,reisp101,??,,K/C
-play,8,0,mizej101,??,,D9/L9DW
-play,8,0,slaue101,??,,K/C
-play,8,0,vauga101,00,,HR/9.2-H
-com,"$350 feet into upper deck"
-play,8,0,hermb101,??,,3E1/G34
-com,"$Eddie Smith failed to touch 1b"
-play,8,0,dannh101,??,,4/P4D
+play,8,0,reisp101,02,FFFC,K/C
+play,8,0,mizej101,11,FBX,D9/L9DW
+play,8,0,slaue101,12,BCFC,K/C
+play,8,0,vauga101,10,BX,HR/F9D.2-H
+com,"Into upper RF stands (350')"
+play,8,0,hermb101,10,BX,3E1/G34
+com,"Smith failed to touch 1B"
+play,8,0,dannh101,21,CBBX,4/P34D
+com,"Gordon: over-the-shoulder catch"
 play,8,1,travc101,00,,NP
 sub,mccof101,"Frank McCormick",0,4,3
-play,8,1,travc101,??,,5/FL
-play,8,1,dimaj101,??,,D/78
-play,8,1,willt103,??,,K/C
-play,8,1,dimad101,??,,S8/89.2-H
-play,8,1,boudl101,??,,S8/8S.1-3(E8);B-2
-play,8,1,foxxj101,02,,K
-play,9,0,passc101,??,,9
-com,"$the first pitcher to bat in the game"
+play,8,1,travc101,11,BKX,5/P5F/FL
+play,8,1,dimaj101,02,CFX,D8/78D
+play,8,1,willt103,22,BBFFC,K/C
+play,8,1,dimad101,01,FX,S8/L89.2-H
+play,8,1,boudl101,11,BS+1X,S8/G46.1-3(E8);B-2
+com,"Reiser fumbled"
+play,8,1,foxxj101,02,SSS,K
+play,9,0,passc101,11,CBX,9/F9
 play,9,0,hacks101,00,,NP
 sub,lavac101,"Cookie Lavagetto",0,1,11
-play,9,0,lavac101,??,,31
-play,9,0,moort102,??,,3/FL
+play,9,0,lavac101,01,FX,31
+com,"Foxx: good stop"
+play,9,0,moort102,01,CX,3/P3F/FL
 play,9,1,hayef101,00,,NP
 sub,lavac101,"Cookie Lavagetto",0,1,5
 play,9,1,hayef101,00,,NP
 sub,mille104,"Eddie Miller",0,6,6
-play,9,1,hayef101,??,,4/P4MD
+play,9,1,hayef101,01,CX,4/P4MD
 play,9,1,smite105,00,,NP
 sub,keltk101,"Ken Keltner",1,9,11
-play,9,1,keltk101,??,,S6
-play,9,1,gordj101,??,,S9/89.1-2
-play,9,1,travc101,??,,W.2-3;1-2
-play,9,1,dimaj101,??,,64(1)/FO.3-H;2-3
-play,9,1,willt103,21,FBBX,HR/9.3-H;1-H
-com,"$off the facing of the roof of the stadium"
+play,9,1,keltk101,01,CX,S6/G
+com,"Bad hop off Miller's chest"
+play,9,1,gordj101,01,SX,S9/L89.1-2
+play,9,1,travc101,32,BFCBBB,W.2-3;1-2
+play,9,1,dimaj101,02,FSX,64(1)/FO.3-H;2-3
+com,"DiMaggio beat Herman's wide relay to 1B"
+play,9,1,willt103,21,BFBX,HR/F9D.3-H;1-H
+com,"Tremendous shot off the facing of the RF roof"
 data,er,wyatw101,0
 data,er,derrp101,1
 data,er,waltb102,1

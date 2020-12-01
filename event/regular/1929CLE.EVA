@@ -1554,20 +1554,20 @@ id,CLE192905080
 version,1
 info,visteam,BOS
 info,hometeam,CLE
-info,date,1929/05/08
 info,site,CLE06
+info,date,1929/05/08
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"71,39"
-info,translator,"Mark Pankin"
-info,inputter,"Mark Pankin"
-info,inputtime,2020/04/29 21:35
 info,umphome,mcgob901
 info,ump1b,vangr901
 info,ump2b,(none)
 info,ump3b,connt901
+info,scorer,"71,39,163,274"
+info,translator,"Mark Pankin"
+info,inputter,"Mark Pankin"
+info,inputtime,2020/11/04 22:12
 info,howscored,park
 info,pitches,none
 info,temp,0
@@ -1613,13 +1613,13 @@ play,2,0,narlb101,??,,56(1)3/GDP/BG
 play,2,0,berrc103,??,,99
 play,2,1,sewej101,??,,99
 play,2,1,falkb101,??,,S
-play,2,1,sewel101,??,,S9.1-3
-play,2,1,tavej101,??,,99(1)/FO
+play,2,1,sewel101,??,,S9.1-2
+play,2,1,tavej101,??,,99(1)/FO.2-3
 play,2,1,lindc104,??,,SBH
-com,"Falk holds third on FO, scores as Sox unsuccessfully try to run down"
-com,"Tavener between first and second. Falk is credited with steal of home"
+com,"$Falk scores as Sox unsuccessfully try to run down"
+com,"Tavener between first and second; Falk is credited with steal of home"
 play,2,1,lindc104,??,,99
-play,3,0,macfd101,??,,K
+play,3,0,macfd101,??,,99
 play,3,0,rothj101,??,,99
 play,3,0,reevb101,??,,K
 play,3,1,hudlw101,??,,99
@@ -1628,31 +1628,31 @@ play,3,1,fonsl101,??,,W
 play,3,1,avere101,??,,D9.2-H;1-H
 play,3,1,sewej101,??,,99
 play,3,1,falkb101,??,,99
-play,4,0,todtp101,??,,99
+play,4,0,todtp101,??,,43
 play,4,0,bigee101,??,,99
 play,4,0,taitd101,??,,99
 play,4,1,sewel101,??,,K
-play,4,1,tavej101,??,,99
-play,4,1,lindc104,??,,99
-play,5,0,gillg102,??,,S
+play,4,1,tavej101,??,,S
+play,4,1,lindc104,??,,64(1)3/GDP
+play,5,0,gillg102,??,,S8
 play,5,0,narlb101,??,,16(1)3/GDP
-play,5,0,berrc103,??,,99
+play,5,0,berrc103,??,,5/P
 play,5,1,hudlw101,??,,99
-play,5,1,jamic101,??,,S
+play,5,1,jamic101,??,,S7
+play,5,1,fonsl101,??,,CS2(26)
 play,5,1,fonsl101,??,,99
-play,5,1,avere101,??,,CS2(26)
-play,6,0,macfd101,??,,99
-play,6,0,rothj101,??,,S
+play,6,0,macfd101,??,,K
+play,6,0,rothj101,??,,S9
 play,6,0,reevb101,??,,1(B)3(1)/LDP
 play,6,1,avere101,??,,99
 play,6,1,sewej101,??,,99
 play,6,1,falkb101,??,,99
-play,7,0,todtp101,??,,99
+play,7,0,todtp101,??,,43
 play,7,0,bigee101,??,,99
 play,7,0,taitd101,??,,99
 play,7,1,sewel101,??,,99
-play,7,1,tavej101,??,,S
-play,7,1,lindc104,??,,64(1)3/GDP
+play,7,1,tavej101,??,,99
+play,7,1,lindc104,??,,99
 play,8,0,gillg102,??,,W
 play,8,0,narlb101,??,,D9.1-3
 play,8,0,berrc103,??,,NP
@@ -1668,15 +1668,15 @@ play,8,1,hudlw101,??,,NP
 sub,asbjc101,"Casper Asbjornson",0,8,2
 play,8,1,hudlw101,??,,NP
 sub,carre101,"Ed Carroll",0,9,1
-play,8,1,hudlw101,??,,99
-play,8,1,jamic101,??,,D
+play,8,1,hudlw101,??,,3/G
+play,8,1,jamic101,??,,D8
 play,8,1,fonsl101,??,,99
 play,8,1,avere101,??,,HP
 play,8,1,sewej101,??,,99
-play,9,0,todtp101,??,,99
-play,9,0,bigee101,??,,S
-play,9,0,taitd101,??,,99
-play,9,0,gillg102,??,,99
+play,9,0,todtp101,??,,43
+play,9,0,bigee101,??,,S6
+play,9,0,taitd101,??,,8
+play,9,0,gillg102,??,,99(1)/FO
 data,er,macfd101,3
 data,er,carre101,0
 data,er,hudlw101,1
@@ -2069,7 +2069,7 @@ play,4,1,morge102,??,,K
 play,5,0,bishm102,??,,E4/G
 play,5,0,haasm101,??,,7
 play,5,0,cochm101,??,,6(1)/FO.B-2(E6/TH)
-com,"Gardner threw it into Indians' dugout on DP attempt"
+com,"$Gardner threw it into Indians' dugout on DP attempt"
 play,5,0,simma101,??,,K
 play,5,1,sewel101,??,,4/F
 play,5,1,gardr102,??,,9
@@ -2114,29 +2114,30 @@ play,8,1,jamic101,??,,NP
 sub,burnj108,"Johnny Burnett",1,9,12
 play,8,1,jamic101,??,,S8.2-H;1-2
 play,8,1,fonsl101,??,,2/INT/BG.2-2;1-1#
-com,"$Fonseca clearly beat the throw from Cochrane but was called"
-com,"out by Ump Campbell for interfering with the play by running"
-com,"out of line.  The fans were incensed at Campbell not knowing"
-com,"about the interference ruling.  They were egged on by Mgr"
-com,"Peckinpaugh and Coach Shanks who ran in from the coaching"
-com,"lines.  Cleveland players surrounded Campbell and the park"
-com,"was in an uproar.  A hundred bottles were thrown from the RF"
-com,"stands; police were summoned to restore order."
+com,"ej,peckr101,M,campb901,Interference call"
+com,"$Cleveland manager Peckinpaugh ejected by 1B umpire Campbell"
+com,"for arguing when Fonseca called out by for interfering"
+com,"with the play by running out of base line when he had clearly"
+com,"beaten the play; fans were incensed but did not know about"
+com,"the interference ruling; fans were egged on by Cleveland"
+com,"Peckinpaugh" and coach Shanks; players surrounded Campbell and"
+com,"the park was in an uproar; a hundred bottles were thrown from"
+com,"the RF stands; police were summoned to restore order;"
+com,"Peckinpaugh was suspended for five days"
 play,8,1,avere101,??,,54(1)/FO
 com,"Hale: brilliant 1-handed stop"
 play,9,0,simma101,??,,NP
 sub,ferrw101,"Wes Ferrell",1,9,1
 com,"umpchange,9,ump3b,(None)"
 com,"$Game was delayed when more pop bottles descended"
-com,"on Ump Campbell.  Ump Ormsby was"
-com,"knocked unconscious when a bottle struck him on the head."
+com,"on 1B umpire Campbell; 3B umpire Ormsby was knocked"
+com,"unconscious when a bottle struck him on the head."
 com,"GM Billy Evans succeeded in quieting the crowd to some"
 com,"extent as Ormsby was helped from the field.  Players of both"
 com,"teams were helping the groundskeeper staff to clear the"
-com,"field of bottles.  A chorus of boos greeted Ump Campbell"
-com,"upon resumption of play."
-com,"Joe Boley and Coach Bill Gleason were also injured by"
-com,"thrown bottles."
+com,"field of bottles.  A chorus of boos greeted Campbell"
+com,"upon resumption of play; A's Boley and coach Gleason"
+com,"also injured by thrown bottles"
 play,9,0,simma101,??,,S8
 play,9,0,hales101,??,,13/BG/SH.1-2
 play,9,0,foxxj101,??,,K
@@ -7771,7 +7772,7 @@ play,5,0,gehrl101,??,,46(1)3/GDP
 com,"ej,gehrl101,P,vangr901,Call at 1B"
 com,"ej,huggm101,M,vangr901,Call at 1B"
 com,"$Gehrig and Yankee manager Huggins ejected by 1B umpire"
-com,"van Grafian for arguing that Gehrig was safe at 1st"
+com,"van Graflan for arguing that Gehrig was safe at 1st"
 play,5,1,fonsl101,??,,NP
 sub,pascb102,"Ben Paschal",0,1,9
 play,5,1,fonsl101,??,,NP

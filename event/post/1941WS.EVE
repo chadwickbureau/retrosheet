@@ -150,17 +150,17 @@ info,ump1b,grieb901
 info,ump2b,goetl901
 info,ump3b,mcgob901
 info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/06/25 6:20AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,winddir,tolf
+info,windspeed,1
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,151
 info,attendance,66248
 info,wp,wyatw101
@@ -185,87 +185,101 @@ start,dickb101,"Bill Dickey",1,6,2
 start,gordj101,"Joe Gordon",1,7,4
 start,rizzp101,"Phil Rizzuto",1,8,6
 start,chans101,"Spud Chandler",1,9,1
-play,1,0,walkd101,??,,K/C
-play,1,0,hermb101,??,,43
-play,1,0,reisp101,32,,K
-play,1,1,sturj101,??,,K/C
-play,1,1,rolfr101,??,,S4/BG
-play,1,1,henrt101,??,,W.1-2
-play,1,1,dimaj101,??,,64(1)3/GDP
-play,2,0,camid102,??,,8/F
-play,2,0,medwj101,??,,S/78
-play,2,0,lavac101,??,,46(1)3/GDP
-play,2,1,kellc101,??,,S8
-play,2,1,dickb101,??,,K/C
-play,2,1,gordj101,??,,W.1-2
-play,2,1,rizzp101,??,,43.2-3;1-2
-play,2,1,chans101,??,,S5/G.3-H;2XH(532)
-play,3,0,reesp101,??,,7
-play,3,0,owenm101,??,,43
-play,3,0,wyatw101,??,,63
-play,3,1,sturj101,??,,3/L
-play,3,1,rolfr101,??,,3/G
-play,3,1,henrt101,??,,D9/9DW
-play,3,1,dimaj101,??,,W
-play,3,1,kellc101,??,,S9.2-H;1-3
-play,3,1,dickb101,??,,43
-play,4,0,walkd101,??,,43
-play,4,0,hermb101,??,,53
-play,4,0,reisp101,??,,43
-play,4,1,gordj101,??,,S7
-play,4,1,rizzp101,??,,4/L
-play,4,1,chans101,??,,64(1)/FO
-play,4,1,sturj101,??,,S8/F.1X3(85)
-play,5,0,camid102,31,,W
-play,5,0,medwj101,??,,D7/7L.1-3
-play,5,0,lavac101,??,,W
-play,5,0,reesp101,??,,64(1)/FO.3-H;2-3
-play,5,0,owenm101,??,,S7.3-H;1-3
+com,"Pitch-by-pitch courtesy of Classic Baseball on the Radio"
+com,"Temperature: cool"
+play,1,0,walkd101,22,CCBFBC,K/C
+play,1,0,hermb101,21,BCBX,43
+play,1,0,reisp101,32,BCCBFBS,K
+play,1,1,sturj101,12,CFBS,K
+play,1,1,rolfr101,00,X,S4/BG
+play,1,1,henrt101,31,CBBBB,W.1-2
+play,1,1,dimaj101,00,X,64(1)3/GDP
+com,"Camilli dug out Herman's low throw"
+play,2,0,camid102,00,X,8/F8D
+play,2,0,medwj101,00,X,S8/L78D
+play,2,0,lavac101,20,B1BX,46(1)3/GDP
+play,2,1,kellc101,02,FCX,S8/L8S
+play,2,1,dickb101,02,CFC,K/C
+play,2,1,gordj101,31,B+1BBCB,W.1-2
+play,2,1,rizzp101,10,BX,43/G34.2-3;1-2
+play,2,1,chans101,02,SCX,S5/G-.3-H;2XH(532)
+com,"High bouncer off the plate"
+play,3,0,reesp101,22,CLBBX,7/F7
+play,3,0,owenm101,00,X,43/G4M
+play,3,0,wyatw101,10,BX,63
+play,3,1,sturj101,01,FX,3/L
+play,3,1,rolfr101,01,LX,3/G3L
+play,3,1,henrt101,00,X,D9/L9LDW
+play,3,1,dimaj101,31,SBBBB,W
+play,3,1,kellc101,00,X,S9/G34.2-H;1-3
+play,3,1,dickb101,12,FBFX,43
+play,4,0,walkd101,10,BX,43
+play,4,0,hermb101,21,BFBX,53
+play,4,0,reisp101,00,X,43/G4M
+com,"Gordon: great stop and leaping off-balance throw"
+play,4,1,gordj101,01,CX,S7/L
+play,4,1,rizzp101,12,FFBX,4/L34D-
+com,"Herman: great leaping 1-handed catch"
+play,4,1,chans101,00,X,64(1)/FO
+play,4,1,sturj101,02,CCX,S8/F8S.1X3(85)
+com,"Texas Leaguer"
+play,5,0,camid102,31,BCBBB,W
+play,5,0,medwj101,01,FX,D7/L7LD.1-3
+play,5,0,lavac101,30,BBBB,W
+play,5,0,reesp101,00,X,64(1)/FO.3-H;2-3
+play,5,0,owenm101,31,,S7/G56.3-H;1-3
+com,"Hit & run"
 play,5,0,wyatw101,??,,46(1)3/GDP
 play,5,1,rolfr101,??,,3/G
-play,5,1,henrt101,??,,8
-play,5,1,dimaj101,??,,9
-play,6,0,walkd101,??,,E4/TH1.B-1
-play,6,0,hermb101,??,,S7.1-3
+play,5,1,henrt101,11,BCX,8/F8
+play,5,1,dimaj101,11,CBX,9/F9L
+play,6,0,walkd101,01,CX,E4/TH1.B-1
+com,"Gordon backed up, stumbled, then pulled Sturm off the bag"
+com,"with his hurried throw."
+play,6,0,hermb101,10,B>X,S7/G56.1-3
 play,6,0,reisp101,??,,NP
 sub,murpj103,"Johnny Murphy",1,9,1
-play,6,0,reisp101,??,,K
-play,6,0,camid102,??,,S9.3-H(UR);1-3
-play,6,0,medwj101,??,,FC6.3XH(62);1-2;B-1
-play,6,0,lavac101,??,,8
-play,6,1,kellc101,??,,9
-play,6,1,dickb101,??,,9
-play,6,1,gordj101,??,,W
-play,6,1,rizzp101,??,,S7.1-2
-play,6,1,murpj103,??,,K
-play,7,0,reesp101,??,,6/P
-play,7,0,owenm101,??,,W
-play,7,0,wyatw101,??,,K+CS2(24)/C/DP
-play,7,1,sturj101,??,,K
-play,7,1,rolfr101,??,,63
-play,7,1,henrt101,??,,K
-play,8,0,walkd101,??,,43
-play,8,0,hermb101,??,,3/L
-play,8,0,reisp101,??,,5/FL
-play,8,1,dimaj101,??,,8
-play,8,1,kellc101,??,,13/G1
-play,8,1,dickb101,??,,E6/G.B-2(E6/TH1)
-play,8,1,gordj101,??,,IW
+play,6,0,reisp101,02,CSS,K
+play,6,0,camid102,11,BCX,S9/L.3-H(UR);1-3
+play,6,0,medwj101,10,BX,FC6.3XH(62);1-2;B-1
+play,6,0,lavac101,10,BX,8/L8
+play,6,1,kellc101,01,CX,9/F9
+play,6,1,dickb101,01,FX,9/F9S
+play,6,1,gordj101,31,SBBBB,W
+play,6,1,rizzp101,10,BX,S7/G56.1-2
+play,6,1,murpj103,12,CBSS,K
+play,7,0,reesp101,00,X,6/P6D
+play,7,0,owenm101,32,BCFBBB,W
+play,7,0,wyatw101,32,MBBBC>F>C,K+CS2(24)/DP/C
+play,7,1,sturj101,22,FBSBS,K
+play,7,1,rolfr101,01,CX,63
+play,7,1,henrt101,22,BFBFS,K
+play,8,0,walkd101,20,BBX,43/G4M
+play,8,0,hermb101,22,CBBFX,3/L
+play,8,0,reisp101,11,BCX,5/P5DF/FL
+play,8,1,dimaj101,00,X,8/F78XD
+play,8,1,kellc101,10,BX,13/G1
+com,"High bounder just behind the mound"
+play,8,1,dickb101,10,BX,E6/G.B-2(E6/TH1)
+com,"Reese threw over Camilli and into the stands"
+play,8,1,gordj101,30,IIII,IW
 play,8,1,rizzp101,??,,NP
 sub,bordf101,"Frenchy Bordagaray",1,6,12
-play,8,1,rizzp101,??,,64(1)/FO
+play,8,1,rizzp101,00,X,64(1)/FO
 play,9,0,camid102,??,,NP
 sub,rosab101,"Buddy Rosar",1,6,2
-play,9,0,camid102,??,,8
-play,9,0,medwj101,??,,8
-play,9,0,lavac101,??,,S7
-play,9,0,reesp101,??,,53
+play,9,0,camid102,01,CX,8/F78D
+com,"DiMaggio: runnning catch"
+play,9,0,medwj101,10,BX,8/F8S
+play,9,0,lavac101,00,X,S57/G
+com,"Off Rolfe's glove"
+play,9,0,reesp101,20,BB>X,53
 play,9,1,murpj103,??,,NP
 sub,selkg101,"George Selkirk",1,9,11
-play,9,1,selkg101,??,,S9
-play,9,1,sturj101,??,,26(1)/FO/BG
-play,9,1,rolfr101,??,,46(1)/FO
-play,9,1,henrt101,??,,9
+play,9,1,selkg101,00,X,S9/G34
+play,9,1,sturj101,01,LX,26(1)/FO/BG
+play,9,1,rolfr101,00,X,46(1)/FO
+play,9,1,henrt101,??,,9/F9D
 data,er,wyatw101,2
 data,er,chans101,2
 data,er,murpj103,0
@@ -284,18 +298,20 @@ info,umphome,grieb901
 info,ump1b,goetl901
 info,ump2b,mcgob901
 info,ump3b,pineb101
-info,scorer,"Cohen/Neft"
+info,scorer,"Cohen/Neft,96,104"
 info,translator,"John Booth"
 info,inputter,"John Booth"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
 info,inputtime,1994/06/25 6:31AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,count
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,sunny
 info,timeofgame,142
 info,attendance,33100
 info,wp,russm101
@@ -320,90 +336,102 @@ start,camid102,"Dolph Camilli",1,6,3
 start,walkd101,"Dixie Walker",1,7,9
 start,owenm101,"Mickey Owen",1,8,2
 start,fitzf101,"Freddie Fitzsimmons",1,9,1
-play,1,0,sturj101,??,,8
-play,1,0,rolfr101,??,,7
-play,1,0,henrt101,??,,5/P
-play,1,1,reesp101,??,,13/BG1
+com,"Weather: clear, hot, and humid"
+play,1,0,sturj101,22,,8/L8D
+play,1,0,rolfr101,11,,7/F7S
+play,1,0,henrt101,,UUX,5/P/FL
+play,1,1,reesp101,11,CBX,13/BG
 play,1,1,hermb101,32,,W
 play,1,1,reisp101,??,,16(1)/FO
-play,1,1,medwj101,??,,9
-play,2,0,dimaj101,??,,S7
+play,1,1,medwj101,02,,9/F9
+play,2,0,dimaj101,22,CCBBX,S7/G56
 play,2,0,kellc101,??,,3/G.1-2
 play,2,0,dickb101,??,,3/FL
-play,2,0,gordj101,??,,9
-play,2,1,lavac101,??,,W
-play,2,1,camid102,??,,6(1)3/GDP
+play,2,0,gordj101,??,,9/F89
+play,2,1,lavac101,31,,W
+play,2,1,camid102,32,,6(1)3/GDP
 play,2,1,walkd101,??,,53
 play,3,0,rizzp101,??,,13
-play,3,0,russm101,??,,7
+play,3,0,russm101,??,,7/F78
+com,"Medwick overran it, then made a leaping catch"
 play,3,0,sturj101,??,,43
-play,3,1,owenm101,??,,8
-play,3,1,fitzf101,??,,7
+com,"Fitzsimmons threw just 5 pitches in the 3rd"
+play,3,1,owenm101,??,,8/F
+play,3,1,fitzf101,??,,7/F
 play,3,1,reesp101,??,,63
-play,4,0,rolfr101,??,,S8
+play,4,0,rolfr101,01,CX,S8
 play,4,0,henrt101,??,,6(1)/FO
-play,4,0,dimaj101,??,,PO1(23)
-play,4,0,dimaj101,??,,3/P
+play,4,0,dimaj101,01,KP,PO1(23)
+play,4,0,dimaj101,??,,3/P34
 play,4,1,hermb101,??,,43
-com,"$Billy Herman hurt his side swinging"
-play,4,1,reisp101,??,,4/L
+com,"Herman aggravated a muscle pull on his left side sustained"
+com,"during batting practice."
+play,4,1,reisp101,??,,4/P
 play,4,1,medwj101,??,,S/G25
 play,4,1,lavac101,??,,4/L
+com,"Gordon: leaping stab"
 play,5,0,kellc101,??,,NP
 sub,coscp101,"Pete Coscarart",1,2,4
 play,5,0,kellc101,??,,43
-play,5,0,dickb101,??,,8/F8D
-play,5,0,gordj101,??,,T/78D
-play,5,0,rizzp101,??,,IW
-play,5,0,russm101,??,,SB2
-play,5,0,russm101,??,,K
+play,5,0,dickb101,??,,8/F8XD
+play,5,0,gordj101,20,BBX,T/78XDW
+play,5,0,rizzp101,30,,IW
+play,5,0,russm101,21,,SB2
+play,5,0,russm101,22,,K
 play,5,1,camid102,??,,K
 play,5,1,walkd101,??,,43
-play,5,1,owenm101,??,,8/F8D
-play,6,0,sturj101,??,,S8/F
-play,6,0,rolfr101,??,,SB2
-play,6,0,rolfr101,??,,2/FL/BP
-play,6,0,henrt101,??,,W
-play,6,0,dimaj101,??,,9
-play,6,0,kellc101,??,,3/G
-play,6,1,fitzf101,??,,63
-play,6,1,reesp101,??,,7
+play,5,1,owenm101,??,,8/F8XD
+com,"DiMaggio: running over-the-shoulder catch"
+play,6,0,sturj101,??,,S8/F8S
+play,6,0,rolfr101,00,,SB2
+play,6,0,rolfr101,??,,2/BP/FL
+play,6,0,henrt101,30,,W
+play,6,0,dimaj101,32,BBCBCX,9/F9S
+play,6,0,kellc101,21,BCBX,3/G3L
+play,6,1,fitzf101,??,,63/G56
+play,6,1,reesp101,??,,7/F
 play,6,1,coscp101,??,,153
+com,"Russo deflected it to Rolfe"
 play,7,0,dickb101,??,,43
-play,7,0,gordj101,??,,W
+play,7,0,gordj101,31,,W
 play,7,0,rizzp101,??,,43.1-2
-play,7,0,russm101,??,,16/L
-com,"$line drive off Freddie Fitzsimmons's leg to Pee Wee Reese;"
-com,"Fitzsimmons was helped from the field, finished for the year"
-play,7,1,reisp101,??,,D/89XDW
+play,7,0,russm101,21,,16/L
+com,"Liner caromed high in the air off Fitzsimmons's left leg"
+com,"to Reese.  He was helped from the field."
+play,7,1,reisp101,??,,D8/F89XDW
+com,"High off RCF screen, past the scoreboard"
 play,7,1,medwj101,??,,K23
-play,7,1,lavac101,??,,43.2-3
+play,7,1,lavac101,??,,43/G4M.2-3
 play,7,1,camid102,??,,K/C
 play,8,0,sturj101,??,,NP
 sub,caseh101,"Hugh Casey",1,9,1
-play,8,0,sturj101,??,,8
-play,8,0,rolfr101,??,,S9
-play,8,0,henrt101,??,,S/G.1-2
-play,8,0,dimaj101,??,,S8.2-H;1-3
-play,8,0,kellc101,??,,S8.3-H;1-3
+play,8,0,sturj101,??,,8/F78
+play,8,0,rolfr101,??,,S9/L89S
+play,8,0,henrt101,??,,S4/G34.1-2
+com,"Hit & run; Casey was slow covering 1B"
+play,8,0,dimaj101,32,,S8/G4.2-H;1-3
+com,"Through the vacated spot of Coscarart who was moving to 2B"
+com,"on the pitch."
+play,8,0,kellc101,21,,S8/F8S.3-H;1-3
 play,8,0,dickb101,??,,NP
 sub,frenl101,"Larry French",1,9,1
 play,8,0,dickb101,??,,6(1)3/GDP
-play,8,1,walkd101,??,,D9/L
+play,8,1,walkd101,??,,D9/L89S
+com,"Henrich missed diving catch"
 play,8,1,owenm101,??,,13
 play,8,1,frenl101,??,,NP
 sub,galaa101,"Augie Galan",1,9,11
-play,8,1,galaa101,??,,K
-play,8,1,reesp101,??,,S9.2-H
+play,8,1,galaa101,22,,K
+play,8,1,reesp101,??,,S9/L9L.2-H
 play,8,1,coscp101,??,,5/P
 play,9,0,gordj101,??,,NP
 sub,allej102,"Johnny Allen",1,9,1
-play,9,0,gordj101,??,,8
-play,9,0,rizzp101,??,,7/L
-play,9,0,russm101,??,,8/L
-play,9,1,reisp101,??,,K
-play,9,1,medwj101,??,,9/F9S
-play,9,1,lavac101,??,,43
+play,9,0,gordj101,??,,8/F
+play,9,0,rizzp101,??,,7/L7S
+play,9,0,russm101,32,,8/L8S
+play,9,1,reisp101,02,,K
+play,9,1,medwj101,22,,9/F9
+play,9,1,lavac101,10,,43
 data,er,russm101,1
 data,er,fitzf101,0
 data,er,caseh101,2
@@ -417,7 +445,7 @@ info,hometeam,BRO
 info,date,1941/10/05
 info,site,NYC15
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:00PM
 info,daynight,day
 info,usedh,false
 info,umphome,goetl901
@@ -425,17 +453,17 @@ info,ump1b,mcgob901
 info,ump2b,pineb101
 info,ump3b,grieb901
 info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/06/25 7:14AM
-info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,howscored,park
+info,pitches,pitches
+info,temp,86
+info,winddir,torf
+info,windspeed,5
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,sunny
 info,timeofgame,174
 info,attendance,33813
 info,wp,murpj103
@@ -460,107 +488,127 @@ start,medwj101,"Joe Medwick",1,6,7
 start,owenm101,"Mickey Owen",1,7,2
 start,coscp101,"Pete Coscarart",1,8,4
 start,higbk101,"Kirby Higbe",1,9,1
-play,1,0,sturj101,??,,63
-play,1,0,rolfr101,??,,S7
-play,1,0,henrt101,??,,7
-play,1,0,dimaj101,??,,W.1-2
-play,1,0,kellc101,??,,S3.2-H;1-3
-play,1,0,dickb101,??,,43
-play,1,1,reesp101,??,,2/FL
-play,1,1,walkd101,??,,13/BG
-play,1,1,reisp101,??,,K/C
-play,2,0,gordj101,??,,13/G1
-play,2,0,rizzp101,??,,8
-play,2,0,donaa101,??,,6/P
-play,2,1,camid102,??,,D/89XDW
-play,2,1,riggl101,??,,9/F9S
-play,2,1,medwj101,??,,53
+com,"Pitch-by-pitch courtesy of Classic Baseball on the Radio"
+play,1,0,sturj101,12,BCSX,63/G6M
+com,"Reese: good play"
+play,1,0,rolfr101,01,CX,S7/L
+play,1,0,henrt101,21,BBC>X,7/F
+play,1,0,dimaj101,31,BFBB1B,W.1-2
+play,1,0,kellc101,21,BBCX,S9/G34.2-H;1-3
+play,1,0,dickb101,21,SBBX,43
+play,1,1,reesp101,00,X,2/P23F/FL
+play,1,1,walkd101,11,BCX,13/BG25
+play,1,1,reisp101,32,CSFBBBS,K
+play,2,0,gordj101,32,BBBCFX,13/G1
+com,"Higbe knocked it down"
+play,2,0,rizzp101,21,BBCX,8/F8
+play,2,0,donaa101,11,BCX,6/P6D
+play,2,1,camid102,01,CX,D8/L89XDW
+com,"Close play at 2B"
+play,2,1,riggl101,21,BFBX,9/F9S
+play,2,1,medwj101,00,X,53
+com,"High throw caught by Sturm; Dodgers argued he missed 1B"
 play,2,1,owenm101,??,,W
-play,2,1,coscp101,??,,K
-play,3,0,sturj101,??,,9/L
-play,3,0,rolfr101,??,,S8
-play,3,0,henrt101,??,,9/F89D
-play,3,0,dimaj101,??,,64(1)/FO
-play,3,1,higbk101,??,,S8
-play,3,1,reesp101,??,,46(1)/FO
-play,3,1,walkd101,??,,7/L
-play,3,1,reisp101,??,,S4.1-3
-play,3,1,camid102,??,,3/G
-play,4,0,kellc101,??,,D/89
-play,4,0,dickb101,??,,W
-play,4,0,gordj101,??,,S7.2-3;1-2
-play,4,0,rizzp101,??,,52(3)/FO.2-3;1-2
-play,4,0,donaa101,02,,K
-play,4,0,sturj101,??,,S8.3-H;2-H;1-2
+play,2,1,coscp101,32,,K
+play,3,0,sturj101,11,FBX,9/L9DW
+com,"Walker: nice running catch"
+play,3,0,rolfr101,11,BCX,S8/L8S
+play,3,0,henrt101,32,BSBBC>F>X,9/F89XDW
+com,"Walker: good catch off the wall, 400' away"
+play,3,0,dimaj101,21,BBFX,64(1)/FO/G56
+play,3,1,higbk101,02,FFX,S/L78
+play,3,1,reesp101,11,BMX,46(1)/FO
+play,3,1,walkd101,??,,7/L7
+play,3,1,reisp101,10,BX,S49/G34.1-3
+com,"Off Gordon's glove"
+play,3,1,camid102,32,SB*BFBX,3/G3L
+play,4,0,kellc101,21,FBBX,D8/F89XDW
+play,4,0,dickb101,31,BBBCB,W
+play,4,0,gordj101,32,BBCSBX,S7/F78.2-3;1-2
+play,4,0,rizzp101,10,BX,52(3)/FO.2-3;1-2
+play,4,0,donaa101,02,CSS,K
+play,4,0,sturj101,10,BX,S8/L8S.3-H;2-H;1-2
 play,4,0,rolfr101,??,,NP
 sub,frenl101,"Larry French",1,9,1
-play,4,0,rolfr101,??,,OA.2X3(2536)
-play,4,1,riggl101,??,,4/P
-play,4,1,medwj101,??,,8/F78
-play,4,1,owenm101,??,,W
-play,4,1,coscp101,??,,W.1-2
+play,4,0,rolfr101,00,*B,OA.2X3(2356)
+com,"First pitch in the dirt; runners were caught off their bases"
+play,4,1,riggl101,21,CBBX,4/P
+play,4,1,medwj101,22,BSFBFX,8/F78
+play,4,1,owenm101,31,BBCBB,W
+play,4,1,coscp101,31,CBBBB,W.1-2
 play,4,1,frenl101,??,,NP
 sub,wasdj101,"Jimmy Wasdell",1,9,11
-play,4,1,wasdj101,??,,D7/7LD.2-H;1-H
-play,4,1,reesp101,??,,63
+play,4,1,wasdj101,12,S*BFX,D7/F7LD.2-H;1-H
+play,4,1,reesp101,22,KBBFX,63
 play,5,0,rolfr101,??,,NP
 sub,wasdj101,"Jimmy Wasdell",1,9,7
 play,5,0,rolfr101,??,,NP
 sub,allej102,"Johnny Allen",1,6,1
-play,5,0,rolfr101,??,,9
-play,5,0,henrt101,??,,HP
-play,5,0,dimaj101,??,,7/L
-play,5,0,kellc101,??,,S4.1-3
-play,5,0,dickb101,??,,W.1-2
+play,5,0,rolfr101,12,CBFX,9/F9S
+play,5,0,henrt101,20,BBH,HP
+com,"$Hit on the right arm"
+play,5,0,dimaj101,21,BBCX,7/L7
+play,5,0,kellc101,31,BBBCX,S49/G.1-3
+com,"Off Coscarart's glove"
+play,5,0,dickb101,31,BBCBB,W.1-2
 play,5,0,gordj101,??,,NP
 sub,caseh101,"Hugh Casey",1,6,1
-play,5,0,gordj101,??,,7
-play,5,1,walkd101,??,,D7
-play,5,1,reisp101,??,,HR.2-H
+play,5,0,gordj101,12,CBFFX,7/F7D
+play,5,1,walkd101,11,BCX,D7/F7L
+play,5,1,reisp101,00,X,HR/F89XD.2-H
+com,"Over the scoreboard"
 play,5,1,camid102,??,,NP
 sub,breum101,"Marv Breuer",0,9,1
-play,5,1,camid102,??,,9/L
-play,5,1,riggl101,??,,K
-play,5,1,caseh101,??,,S8
-play,5,1,owenm101,??,,8/L
-play,6,0,rizzp101,??,,3/FL
-play,6,0,breum101,??,,9
-play,6,0,sturj101,??,,S9
-play,6,0,rolfr101,??,,4/P
-play,6,1,coscp101,??,,53
-play,6,1,wasdj101,??,,13/G1
-play,6,1,reesp101,??,,4/P
-play,7,0,henrt101,??,,4/P
-play,7,0,dimaj101,??,,S5/G
-play,7,0,kellc101,??,,4/P
-play,7,0,dickb101,??,,13/G1
-play,7,1,walkd101,??,,S7
-play,7,1,reisp101,??,,46(1)3/GDP
-play,7,1,camid102,??,,S8/G46
-play,7,1,riggl101,??,,W.1-2
-play,7,1,caseh101,??,,K/C
-play,8,0,gordj101,??,,9
-play,8,0,rizzp101,??,,13/BG
+play,5,1,camid102,10,BX,9/L9
+play,5,1,riggl101,12,CBSS,K
+play,5,1,caseh101,21,BCBX,S8/F8S
+play,5,1,owenm101,32,BFFBFBX,8/L8D
+play,6,0,rizzp101,11,CBX,3/P3DF/FL
+play,6,0,breum101,00,X,9/F9
+play,6,0,sturj101,00,X,S9/L
+play,6,0,rolfr101,01,C1X,4/P
+play,6,1,coscp101,22,FBLBX,53
+play,6,1,wasdj101,00,X,13/G1
+com,"Breuer knocked it down"
+play,6,1,reesp101,22,BFSBX,4/P4D
+play,7,0,henrt101,31,BBBCX,4/P4
+play,7,0,dimaj101,22,CBBSX,S5/G5L-
+com,"Slow roller; Riggs waited for it to go foul"
+play,7,0,kellc101,10,BX,4/P34D
+play,7,0,dickb101,11,BFX,13/G1
+play,7,1,walkd101,01,CX,S7/L56D
+play,7,1,reisp101,01,LX,46(1)3/GDP
+play,7,1,camid102,00,X,S8/G46
+play,7,1,riggl101,31,BBFBB,W.1-2
+play,7,1,caseh101,12,CSBC,K/C
+play,8,0,gordj101,21,BSBX,9/F9S
+com,"Walker: running catch"
+play,8,0,rizzp101,11,BFX,13/BG1S
+com,"Camilli: backhanded catch of low throw in the dirt"
 play,8,0,breum101,??,,NP
 sub,selkg101,"George Selkirk",0,9,11
-play,8,0,selkg101,??,,63
+play,8,0,selkg101,10,BX,63/G4MS
+com,"Reese: great play"
 play,8,1,owenm101,??,,NP
 sub,murpj103,"Johnny Murphy",0,9,1
-play,8,1,owenm101,??,,43
-play,8,1,coscp101,??,,K
-play,8,1,wasdj101,??,,9
-play,9,0,sturj101,??,,43
-play,9,0,rolfr101,??,,13
-play,9,0,henrt101,??,,K.B-1(E2)
-play,9,0,dimaj101,??,,S7.1-2
-play,9,0,kellc101,??,,D9/9DW.2-H(UR);1-H(UR)
-play,9,0,dickb101,??,,W
-play,9,0,gordj101,??,,D7/7D.2-H(UR);1-H(UR)
-play,9,0,rizzp101,??,,W
-play,9,0,murpj103,??,,63
-play,9,1,reesp101,??,,2/FL
-play,9,1,walkd101,??,,63
-play,9,1,reisp101,??,,31
+play,8,1,owenm101,00,X,43/BG4S
+play,8,1,coscp101,12,CCFBC,K/C
+play,8,1,wasdj101,22,BBFFFX,9/F9
+play,9,0,sturj101,32,BCBCBX,43
+play,9,0,rolfr101,12,FFFBX,13/G1
+play,9,0,henrt101,32,BCCFBBS,K.B-1(E2)
+com,"Swinging strike three got by Owen"
+play,9,0,dimaj101,10,BX,S7/L.1-2
+play,9,0,kellc101,02,SSX,D9/F9DW.2-H(UR);1-H(UR)
+com,"Off the RF screen"
+play,9,0,dickb101,32,BFFBBB,W
+play,9,0,gordj101,02,FFX,D7/F7DW.2-H(UR);1-H(UR)
+com,"Over Wasdell"
+play,9,0,rizzp101,32,BCFBBI,IW
+play,9,0,murpj103,00,X,63
+play,9,1,reesp101,10,BX,2/P23F/FL
+play,9,1,walkd101,01,CX,63
+play,9,1,reisp101,21,CBBX,31/G34
 data,er,donaa101,4
 data,er,breum101,0
 data,er,murpj103,0
@@ -586,9 +634,11 @@ info,ump3b,goetl901
 info,scorer,"Cohen/Neft"
 info,translator,"John Booth"
 info,inputter,"John Booth"
+info,translator,"Wayne Townsend"
+info,inputter,"Wayne Townsend"
 info,inputtime,1994/06/25 7:21AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,count
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -619,57 +669,72 @@ start,reesp101,"Peewee Reese",1,6,6
 start,owenm101,"Mickey Owen",1,7,2
 start,coscp101,"Pete Coscarart",1,8,4
 start,wyatw101,"Whit Wyatt",1,9,1
-play,1,0,sturj101,??,,S8
+com,"Weather: intense heat"
+play,1,0,sturj101,21,CBBX,S8
 play,1,0,rolfr101,??,,64(1)/FO
-play,1,0,henrt101,??,,W.1-2
-play,1,0,dimaj101,??,,K+CS3(25)/DP
-play,1,1,walkd101,??,,7
-play,1,1,riggl101,??,,43
-play,1,1,reisp101,??,,T8/8XDW
+play,1,0,henrt101,32,,W.1-2
+play,1,0,dimaj101,32,,K+CS3(25)/DP
+play,1,1,walkd101,32,,7/F
+play,1,1,riggl101,12,,43
+play,1,1,reisp101,22,,T8/F8XDW
 play,1,1,camid102,??,,6/P
 play,2,0,kellc101,??,,W
-play,2,0,dickb101,??,,S8.1-3
-play,2,0,gordj101,??,,WP.3-H;1-2
-play,2,0,gordj101,??,,S9.2-H
+play,2,0,dickb101,??,,S8/G4M/TH3.1-3
+play,2,0,gordj101,??,UX,WP.3-H;1-2
+com,"Wild pitch over Owens' head"
+play,2,0,gordj101,??,,S9/G34.2-H
 play,2,0,rizzp101,??,,54(1)/FO
 play,2,0,bonht101,??,,K
 play,2,0,sturj101,??,,53/BG
 play,2,1,medwj101,??,,W
-play,2,1,reesp101,??,,8
-play,2,1,owenm101,??,,7
+play,2,1,reesp101,??,,8/F
+play,2,1,owenm101,32,,7/F
 play,2,1,coscp101,??,,13
-play,3,0,rolfr101,??,,W
-play,3,0,henrt101,??,,8
-play,3,0,dimaj101,??,,K
+play,3,0,rolfr101,31,,W
+play,3,0,henrt101,??,,8/F
+play,3,0,dimaj101,12,,K
 play,3,0,kellc101,??,,43
-play,3,1,wyatw101,??,,D7/7LD
-play,3,1,walkd101,??,,8
-play,3,1,riggl101,??,,S1.2-3
-play,3,1,reisp101,??,,9/F9D.3-H
-play,3,1,camid102,??,,K
+play,3,1,wyatw101,01,FX,D7/L7LD
+play,3,1,walkd101,??,,8/F
+play,3,1,riggl101,??,UX,S1/L1.2-3
+com,"Off Bonham's right ankle"
+play,3,1,reisp101,??,,9/F89XDW.3-H
+play,3,1,camid102,32,,K
 play,4,0,dickb101,??,,13/G1
-play,4,0,gordj101,??,,W
-play,4,0,rizzp101,??,,W.1-2
+play,4,0,gordj101,32,,W
+com,"Wyatt and Durocher argued vehemently over called 4th ball"
+play,4,0,rizzp101,31,,W.1-2
 play,4,0,bonht101,??,,K
+com,"McCarthy argued 2nd strike call"
 play,4,0,sturj101,??,,3/G
 play,4,1,medwj101,??,,8/L
 play,4,1,reesp101,??,,7/L
 play,4,1,owenm101,??,,5/FL
+com,"Bonham threw 7 pitches in the 4th"
 play,5,0,rolfr101,??,,31
-play,5,0,henrt101,??,,HR/9D
-play,5,0,dimaj101,??,,8/F8D
-play,5,0,kellc101,??,,K
-play,5,1,coscp101,??,,8
-play,5,1,wyatw101,??,,8
-play,5,1,walkd101,??,,W
+play,5,0,henrt101,00,,HR/F9LD
+com,"Over RF fence just inside foul pole"
+play,5,0,dimaj101,20,BBX,8/F8XD
+com,"First two pitches were near DiMaggio's head. After flying"
+com,"out, he jogged near the mound on his way back to the dugout,"
+com,"said something to Wyatt, and a near brawl ensued. Ump"
+com,"Goetz stepped between them as both dugouts emptied."
+play,5,0,kellc101,32,,K
+play,5,1,coscp101,??,,8/F
+play,5,1,wyatw101,??,,8/F
+play,5,1,walkd101,30,,W
 play,5,1,riggl101,??,,5/FL
 play,6,0,dickb101,??,,E6/G.B-1
 play,6,0,gordj101,??,,64(1)3/GDP
-play,6,0,rizzp101,??,,S7
+play,6,0,rizzp101,??,,S7/G56
 play,6,0,bonht101,??,,K
+com,"During the 6th, a bunting strung from the railing in upper"
+com,"LF caught fire and dropped onto the field in a flaming mass."
 play,6,1,reisp101,??,,43
-play,6,1,camid102,??,,7
+com,"Gordon: great play"
+play,6,1,camid102,??,,7/F
 play,6,1,medwj101,??,,63
+com,"Bonham threw 4 pitches in the 6th"
 play,7,0,sturj101,??,,43
 play,7,0,rolfr101,??,,6/P
 play,7,0,henrt101,??,,K/C
@@ -680,20 +745,21 @@ sub,galaa101,"Augie Galan",1,8,11
 play,7,1,galaa101,00,,3/FL
 play,8,0,dimaj101,??,,NP
 sub,hermb101,"Billy Herman",1,8,4
-play,8,0,dimaj101,??,,S8
+play,8,0,dimaj101,32,,S8/L8S
 play,8,0,kellc101,??,,46(1)3/GDP
 play,8,0,dickb101,??,,43
-play,8,1,wyatw101,??,,43
-play,8,1,walkd101,??,,S9
+play,8,1,wyatw101,??,,43/G4M
+play,8,1,walkd101,??,,S9/G34
 play,8,1,riggl101,??,,3/FL
-play,8,1,reisp101,??,,K
+play,8,1,reisp101,22,,K
 play,9,0,gordj101,??,,53
 play,9,0,rizzp101,??,,K
 play,9,0,bonht101,??,,K
 play,9,1,camid102,??,,6/L
-play,9,1,medwj101,??,,5/FL
+play,9,1,medwj101,??,,5/P5F/FL
 play,9,1,reesp101,??,,NP
 sub,wasdj101,"Jimmy Wasdell",1,6,11
-play,9,1,wasdj101,??,,8/F8D
+play,9,1,wasdj101,12,BCCX,8/F8XD
+com,"Caught near exit gate"
 data,er,bonht101,1
 data,er,wyatw101,3
