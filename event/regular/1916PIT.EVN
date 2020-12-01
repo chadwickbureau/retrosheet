@@ -58,11 +58,10 @@ play,1,1,carem101,??,,SB2.1-3(E2/TH)
 play,1,1,carem101,??,,W
 play,1,1,barne104,??,,SB2
 play,1,1,barne104,??,,OA.3XH(5)
-com,"$Quigley called Johnston out, claiming Callahan had touched"
-com,"him with his hand while coaching at third. After a long"
-com,"argument, the game was resumed. Callahan was banished from"
-com,"the bench'"
-com,"DWS: fielding credit not awarded in 1916, I inserted 5"
+com,"ej,calln101,M,quige901,Interference call"
+com,"$Pirates manager Callahan, coaching 3rd, ejected by HP"
+com,"umpire Quigley for arguing he did not interfere with"
+com,"Johnston by touching him"
 play,1,1,barne104,??,,W
 play,1,1,hincb101,??,,9/L.2-3
 play,1,1,wagnh101,??,,SB2
@@ -537,7 +536,9 @@ play,7,0,grift102,??,,S9.2-H;1-3
 play,7,0,herzb101,??,,54(1)/FO
 play,7,0,nealg101,??,,FC6.3XH(62);1-2
 play,7,0,loudb101,??,,K
-com,"O'Day ejected Williams from the game."
+com,"ej,willk101,P,odayh101,Bench jockeying"
+com,"$Williams, not in game, ejected by HP umpire O'Day"
+com,"for bench jockeying"
 play,7,1,mamaa101,??,,7
 play,7,1,johnd107,??,,W
 play,7,1,baird101,??,,CS2(24)
@@ -1151,8 +1152,12 @@ sub,costd101,"Dan Costello",1,8,11
 com,"$The Pirates began arguing when Rigler called a strike on the"
 com,"3-1 pitch to Costello."
 play,6,1,costd101,??,,9
-com,"Costello, Wagner, Mamaux, and manager Callahan were all"
-com,"ejected by Rigler for arguing."
+com,"ej,costd101,P,riglc901,Balls and strikes"
+com,"ej,wagnh101,P,riglc901,Balls and strikes"
+com,"ej,mamaa101,P,riglc901,Balls and strikes"
+com,"ej,calln101,M,riglc901,Balls and strikes"
+com,"$Pirates Costello, Wagner, Mamaux, and manager Callahan"
+com,"ejected by HP umpire Rigler for arguing balls and strikes"
 play,6,1,jacoe101,??,,NP
 sub,schuj101,"Joe Schultz",1,9,11
 play,6,1,schuj101,??,,3/G
@@ -2356,7 +2361,9 @@ play,9,0,cravg101,??,,3
 com,"Cooper threw 15 pitches."
 play,9,1,barne104,??,,63
 play,9,1,hincb101,??,,K/C
-com,"Hinchman was ejected by Rigler for arguing the call."
+com,"ej,hincb101,P,riglc901,Called third strike"
+com,"$Hinchman ejected by HP umpire Rigler for arguing called"
+com,"third strike"
 play,9,1,wagnh101,??,,8
 com,"Demaree threw 117 pitches, 86 for strikes."
 data,er,demaa101,1
@@ -2438,7 +2445,9 @@ play,3,0,wheaz101,??,,E3
 play,3,0,mowrm101,??,,46(1)/FO
 play,3,0,cutsg101,??,,7
 play,3,0,omaro101,??,,CS2(26)
-com,"Mowrey was ejected by Byron for arguing the call."
+com,"ej,mowrm101,P,byrol901,Call at 2B"
+com,"$Mowrey ejected by 1B umpire Byron for arguing he"
+com,"was safe at 2nd"
 play,3,1,gibsg101,??,,NP
 sub,getzg101,"Gus Getz",0,5,5
 play,3,1,gibsg101,??,,3/FL
@@ -5351,7 +5360,10 @@ play,3,1,farmj101,??,,S6
 play,3,1,baird101,??,,S8.1-3
 play,3,1,wilsa102,??,,S.3-H;1-2
 play,3,1,millf102,??,,E1/TH.2-3;1-2
-com,"Merkle was ejected by Byron for arguing the call at first"
+com,"ej,merkf101,P,byrol901,Interference non-call"
+com,"$1bman Merkle ejected by 1B umpire Byron for arguing"
+com,"Miller had interfered with his ability to catch the"
+com,"throw from the pitcher"
 play,3,1,carem101,??,,NP
 sub,kellg101,"George Kelly",0,6,3
 play,3,1,carem101,??,,6
@@ -6328,8 +6340,9 @@ play,7,0,daubj101,??,,K/C
 play,7,0,wheaz101,??,,W
 play,7,0,cutsg101,??,,SB2
 play,7,0,cutsg101,??,,43
-com,"Daubert was ejected by Eason for arguing his strikeout from"
-com,"earlier in the inning."
+com,"ej,daubj101,P,easom101,Called third strike"
+com,"$Daubert ejected by HP umpire Eason for arguing"
+com,"his strikeout from earlier in the inning"
 play,7,1,hincb101,??,,NP
 sub,olsoi101,"Ivy Olson",0,3,3
 play,7,1,hincb101,??,,K
@@ -7915,7 +7928,7 @@ play,3,1,schuf103,??,,9
 play,3,1,hincb101,??,,53.1-2
 play,3,1,johnd107,??,,163
 play,4,0,whitp102,??,,K
-com,"ej,morap101,PHI,ortha101,Balls and strikes"
+com,"ej,morap101,M,ortha101,Balls and strikes"
 com,"$Phillies manager Moran ejected by HP umpire Orth for"
 com,"arguing balls and strikes from bench"
 play,4,0,ludef101,??,,W
@@ -8261,15 +8274,17 @@ play,9,0,killb101,??,,SB3;SB2
 play,9,0,killb101,??,,63
 play,9,1,carem101,??,,S9
 play,9,1,schuf103,??,,K+SB2
+com,"ej,whitp102,P,ortha101,Call at 2B"
+com,"$Phillies Whitted ejected by HP umpire Orth for"
+com,"arguing Carey was out at 2nd"
+play,9,1,hincb101,??,,NP
+sub,coopc101,"Claude Cooper",0,5,7
 play,9,1,hincb101,??,,WP.2-H
 play,9,1,hincb101,??,,63
 play,9,1,johnd107,??,,9
-com,"Whitted was ejected by Orth."
 play,10,0,rixee101,??,,3
 play,10,0,paskd101,??,,W
 play,10,0,dugeo101,??,,14(1)3/GDP
-play,10,1,baird101,??,,NP
-sub,coopc101,"Claude Cooper",0,5,7
 play,10,1,baird101,??,,4
 play,10,1,mccaa103,??,,S9
 play,10,1,schmw102,??,,8.1-3(E8/TH)
@@ -8583,7 +8598,9 @@ play,6,1,hincb101,??,,K
 play,6,1,johnd107,??,,S9/9L
 play,6,1,baird101,??,,CS2(24)
 play,7,0,fleta101,??,,K/C
-com,"Fletcher was ejected by Byron for arguing the play."
+com,"ej,fleta101,P,byrol901,Called third strike"
+com,"$Fletcher ejected by HP umpire Byron for arguing"
+com,"called third strike"
 play,7,0,kaufb101,??,,8
 play,7,0,merkf101,??,,6
 play,7,1,baird101,??,,NP
@@ -9977,9 +9994,9 @@ play,9,0,rouse101,??,,43.1-2
 play,9,0,chash101,??,,PO2(E2).2-3
 play,9,0,chash101,??,,D7.3-H;BX3(765)
 play,9,0,grift102,??,,S4
-com,"Johnston tried the hidden ball trick, but Griffith was"
-com,"called safe. Johnston was then ejected by Harrison for"
-com,"arguing."
+com,"ej,johnd107,P,harrp901,Call at 1B"
+com,"$1bman Johnston ejected by 1B umpire Harrison for arguing"
+com,"Griffith was out on hidden ball trick"
 play,9,0,wingi101,??,,NP
 sub,schmw102,"Walter Schmidt",1,5,9
 play,9,0,wingi101,??,,NP
