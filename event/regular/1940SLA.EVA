@@ -467,9 +467,6 @@ start,clifh101,"Harlond Clift",1,6,5
 start,heffd101,"Don Heffner",1,7,4
 start,swifb102,"Bob Swift",1,8,2
 start,kennv101,"Vern Kennedy",1,9,1
-com,"ej,hofmf101,C,mcgob901,Refusing to return a foul ball"
-com,"Browns Coach Fred Hofmann ejected by HP umpire Bill McGowan"
-com,"sometime in game"
 play,1,0,boudl101,??,,13
 play,1,0,weatr101,??,,D7
 play,1,0,chapb102,??,,3/G.2-3
@@ -564,6 +561,9 @@ sub,dobsj101,"Joe Dobson",0,9,1
 play,9,1,radcr101,??,,7
 play,9,1,mcqug101,??,,8
 play,9,1,gallj103,??,,S7.1-3
+com,"ej,hofmf101,C,mcgob901,Refusing to return a foul ball"
+com,"$Browns coach Hofmann ejected by HP umpire McGowan"
+com,"Refusing to return a foul ball"
 play,9,1,judnw101,??,,NP
 sub,harss101,"Sam Harshany",1,5,11
 play,9,1,harss101,??,,NP
@@ -2905,6 +2905,8 @@ play,3,0,rolfr101,??,,W
 play,3,0,kellc101,??,,99(1)/FO.3-H
 play,3,0,dimaj101,??,,99
 com,"ej,powej106,P,morig101,Bench jockeying"
+com,"$Yankees Powell, not in game, ejected by HP umpire"
+com,"Moriarty for bench jockeying"
 play,3,1,kennv101,??,,W
 play,3,1,cullr101,??,,W.1-2
 play,3,1,radcr101,??,,D.2-H;1-3
@@ -2973,6 +2975,8 @@ play,8,1,judnw101,??,,W
 play,8,1,beraj101,??,,99
 play,8,1,heffd101,??,,99
 com,"ej,knicb101,P,morig101,Bench jockeying"
+com,"$Yankees Knickerbocker, not in game, ejected by HP"
+com,"umpire Moriarty for bench jockeying"
 play,9,0,crosf103,??,,HR/7
 play,9,0,rolfr101,??,,99
 play,9,0,kellc101,??,,W
@@ -3330,7 +3334,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"102,208,71,163,"
+info,scorer,"102,208,71,163,274"
 info,translator,"Jim Wohlenhaus"
 info,inputter,"David W. Smith"
 info,inputtime,2017/11/29 9:42AM
@@ -3439,7 +3443,9 @@ play,7,1,radcr101,??,,99
 play,7,1,mcqug101,??,,99
 play,8,0,desag101,??,,S
 play,8,0,hashh101,??,,99(1)/FO/BG
-com,"$Desautels ejected by 1b umpire Hubbard for throwing dirt"
+com,"ej,desag101,P,rue-j901,Call at 2B"
+com,"$Desautels ejected by 1B umpire Hubbard for arguing he"
+com,"was safe at 2nd"
 play,8,0,doerb101,??,,8
 play,8,0,cramd102,??,,99(1)/FO
 play,8,1,clifh101,??,,NP

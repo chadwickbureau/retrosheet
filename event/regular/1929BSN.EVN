@@ -887,8 +887,9 @@ play,7,1,harpg101,??,,S8
 play,7,1,belll101,??,,W.1-2
 play,7,1,muelh102,??,,W.2-3;1-2
 play,7,1,marar101,??,,8(B)2(3)/DP
-com,"Ast Mgr Evers was EJECTED by Ump Pfirman for protesting the"
-com,"decision at the plate."
+com,"ej,everj102,C,pfirc901,Call at HP"
+com,"$Boston coach Evers ejected by HP umpire Pfirman for"
+com,"arguing that Harper was safe at home"
 play,8,0,wanel101,??,,43
 play,8,0,wanep101,??,,43
 play,8,0,trayp101,??,,S8
@@ -1122,10 +1123,8 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,scorer,"115,102"
-info,translator,"Howard Johnson"
-info,inputter,"Howard Johnson"
-info,translator,"Wayne Townsend"
-info,inputter,"Wayne Townsend"
+info,translator,"Howard Johnson/Townsend"
+info,inputter,"Howard Johnson/Townsend"
 info,inputtime,2015/11/02 11:01PM
 info,umphome,hartb901
 info,ump1b,riglc901
@@ -1180,11 +1179,10 @@ play,1,0,sherb101,??,,WP.3-H;2-3;1-2
 play,1,0,sherb101,??,,E3/G.3-H;2-3
 play,1,0,doutt101,??,,46(1)3/GDP.3-H(RBI)(UR)
 play,1,0,higha101,??,,S9/F9S
-play,1,0,frisf101,??,,SB2.1-3(E2/TH)
+play,1,0,frisf101,??,,SB2
 com,"ej,marar101,P,stard901,Call at 2B"
-com,"$Shortstop Maranville ejected by 3B umpire Stark for arguing"
-com,"that High was out at 2nd"
-com,"and spiking the ball."
+com,"$SS Maranville ejected by 3B umpire Stark for arguing"
+com,"that High was out at 2nd and spiking the ball"
 play,1,0,frisf101,??,,NP
 sub,farrd101,"Doc Farrell",1,7,6
 play,1,0,frisf101,??,,W
@@ -1195,7 +1193,7 @@ play,1,1,sislg101,??,,43
 play,2,0,hafec101,??,,S7
 com,"$Umpire Stark halted the game to clear several Boston players"
 com,"who had been heckling him from the bench. Umpire Rigler then"
-com,"warned Braves' coach Evers to watch his language."
+com,"warned Braves' coach Evers to watch his language"
 play,2,0,holmw101,??,,K
 play,2,0,gelbc101,??,,E5/TH1.1-3
 com,"Wide throw pulled Bottomley off 1B"
@@ -1203,6 +1201,7 @@ play,2,0,smite106,??,,64(1)3/GDP
 play,2,1,harpg101,??,,3/P/FL
 play,2,1,belll101,??,,8/F
 play,2,1,muelh102,??,,K/C
+play,3,0,sherb101,??,,FLE2#
 play,3,0,sherb101,??,,S8
 play,3,0,doutt101,??,,14/SH.1-2
 play,3,0,higha101,??,,31.2-3
@@ -7570,10 +7569,8 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,scorer,"115,102"
-info,translator,"Howard Johnson"
-info,inputter,"Howard Johnson"
-info,translator,"Wayne Townsend"
-info,inputter,"Wayne Townsend"
+info,translator,"Howard Johnson/Townsend"
+info,inputter,"Howard Johnson/Townsend"
 info,inputtime,2015/11/09 11:51PM
 info,umphome,hartb901
 info,ump1b,jordl901
@@ -7677,16 +7674,18 @@ play,8,0,smite106,??,,WP.3-H;2-3
 play,8,0,smite106,??,,S7.3-H
 play,8,0,doutt101,??,,NP
 sub,holmw101,"Wattie Holm",0,9,12
-play,8,0,doutt101,??,,S/4.1-2
-com,"Past Maguire"
+play,8,0,doutt101,??,,S4.1-2
 play,8,0,higha101,??,,15(2)/FO/BG.1-2
+com,"ej,nealg101,C,rearb901,Call at 3B"
+com,"$St. Louis coach Neale ejected by 3B umpire Reardon for"
+com,"arguing Holm was safe at 3rd"
 play,8,0,frisf101,??,,S8.2-H;1-2
 play,8,0,bottj101,??,,NP
 sub,jonep101,"Percy Jones",1,9,1
 play,8,0,bottj101,??,,W.2-3;1-2
 play,8,0,roetw101,??,,52(3)/FO.2-H(E2/TH1)(NR)(UR);1-H(E3/THH)(NR)(UR);B-2
-com,"Frisch scored when Leggett threw wild to first trying to"
-com,"complete the DP. Bottomley also scored when Sisler retrieved"
+com,"Frisch scored when Leggett threw wildly to first trying to"
+com,"complete the DP; Bottomley also scored when Sisler retrieved"
 com,"the ball and threw wildly home."
 play,8,0,orsae101,??,,NP
 sub,hafec101,"Chick Hafey",0,6,11
@@ -7703,11 +7702,9 @@ play,9,0,gelbc101,??,,S/4
 com,"Past Maguire"
 play,9,0,holmw101,??,,13.1-2
 play,9,0,doutt101,??,,S14.2XH(4E2)(NR)(UR)#
-com,"Ball was deflected by Jones and fielded by Maguire. Gelbert"
-com,"scored all the way from second. Account doesn't say, but"
-com,"suggests the possibility of an error on Leggett which is"
-com,"consistent with the box score. Leggett was spiked on the"
-com,"play and couldn't continue."
+com,"$Ball was deflected by Jones and fielded by Maguire. Gelbert"
+com,"scored all the way from second; Leggett was spiked on the"
+com,"play and couldn't continue"
 play,9,0,higha101,??,,NP
 sub,cummj101,"Jack Cummings",1,8,2
 play,9,0,higha101,??,,SB2
@@ -10224,9 +10221,6 @@ start,harpg101,"George Harper",1,6,7
 start,maguf101,"Freddie Maguire",1,7,4
 start,spoha101,"Al Spohrer",1,8,2
 start,jonep101,"Percy Jones",1,9,1
-com,"ej,everj102,C,pfirc901,Balls and Strikes"
-com,"$Boston coach Evers ejected by HP umpire Pfirman"
-com,"sometime in game"
 play,1,0,holmw101,??,,99
 play,1,0,orsae101,??,,99
 play,1,0,frisf101,??,,99
@@ -10776,7 +10770,7 @@ play,9,0,odoul101,??,,W.1-2
 play,9,0,kleic101,??,,HR/9.2-H;1-H
 com,"ej,spoha101,P,pfirc901,Balls and Strikes"
 com,"ej,everj102,C,pfirc901,Balls and Strikes"
-com,"$Catcher Spohrer and Braves coach Evers ejected by HP"
+com,"$Catcher Spohrer and Braves coach Evers ejected by 1B"
 com,"umpire Pfirman for arguing balls and strikes"
 play,9,0,whitp103,??,,NP
 sub,gowdh101,"Hank Gowdy",1,8,2
