@@ -14,10 +14,11 @@ info,ump2b,evanj901
 info,ump3b,hendt901
 info,umplf,voltv901
 info,umprf,cousd901
-info,scorer,"Kopf/Markotich"
-info,inputter,"Vincent"
-info,howscored,unknown
-info,pitches,none
+info,scorer,"Kopf/Markotich,601"
+info,translator,"Vincent/Townsend"
+info,inputter,"Vincent/Townsend"
+info,howscored,tv
+info,pitches,pitches
 info,temp,57
 info,winddir,ltor
 info,windspeed,-1
@@ -50,102 +51,113 @@ start,iorgg001,"Garth Iorg",1,7,5
 start,white002,"Ernie Whitt",1,8,2
 start,fernt001,"Tony Fernandez",1,9,6
 start,stied001,"Dave Stieb",1,0,1
-play,1,0,smitl002,??,,7
-play,1,0,wilsw001,??,,13
-play,1,0,bretg001,??,,D8
-play,1,0,ortaj001,??,,5/FL/P
-play,1,1,garcd001,??,,63
-play,1,1,mosel001,??,,63
-play,1,1,bellg001,??,,D/78
-play,1,1,johnc001,??,,9
-play,2,0,sherp001,??,,43
-play,2,0,whitf001,??,,K
-play,2,0,balbs001,??,,3/FL/P
-play,2,1,barfj001,??,,S8
-play,2,1,upshw001,??,,HP.1-2
-play,2,1,iorgg001,??,,765(2)/FO.1-2
-com,"$Lonnie Smith dropped an easy fly but recovered to get force"
-play,2,1,white002,??,,S9/G.2-H;1-3
-play,2,1,fernt001,??,,S6/G.3-H;1-2
-play,2,1,garcd001,??,,S9.2-3;1-2
-play,2,1,mosel001,??,,5/FL/P
-play,2,1,bellg001,??,,63
-play,3,0,sundj001,??,,53
-play,3,0,bianb001,??,,K
-play,3,0,smitl002,??,,3/FL/P
-play,3,1,johnc001,??,,D/89
-play,3,1,barfj001,??,,W
-play,3,1,upshw001,??,,S8.2-3;1-2
-play,3,1,iorgg001,??,,NP
+com,"Rain fell intermittently throughout the game"
+play,1,0,smitl002,20,BBX,7/F78
+play,1,0,wilsw001,12,CSBX,13/G1
+com,"Stieb stabbed at the liner and knocked it down"
+play,1,0,bretg001,12,BSFX,D8/F8XDW
+play,1,0,ortaj001,12,FBSFFX,5/P5L
+play,1,1,garcd001,12,CBFX,63/G6
+play,1,1,mosel001,21,BFBX,63/G6
+play,1,1,bellg001,22,CBBSX,D8/F78S
+com,"Hustle double"
+play,1,1,johnc001,21,BBCX,9/F9
+play,2,0,sherp001,00,X,43/G34
+play,2,0,whitf001,02,CSS,K
+play,2,0,balbs001,01,SX,3/P3F/FL
+play,2,1,barfj001,10,BX,S8/L8
+play,2,1,upshw001,01,1S1H,HP.1-2
+com,"Hit on the right upper arm"
+play,2,1,iorgg001,00,X,765(2)/FO/F7.1-2
+com,"Smith dropped the easy fly but got the force"
+play,2,1,white002,11,*BSX,S9/G34/THH.2-H;1-3
+play,2,1,fernt001,12,1FBFX,S6/G56.3-H;1-2
+com,"No throw"
+play,2,1,garcd001,11,BSX,S9/G34.2-3;1-2
+play,2,1,mosel001,10,*BX,5/P5F/FL
+play,2,1,bellg001,00,X,63/G6
+play,3,0,sundj001,20,BBX,53/G5
+play,3,0,bianb001,32,BBCBCFS,K
+play,3,0,smitl002,00,X,3/P3F/FL
+play,3,1,johnc001,11,BSX,D9/L89
+play,3,1,barfj001,32,*BCFBBFFB,W
+play,3,1,upshw001,00,X,S8/L8/TH2.2-3;1-2
+com,"Wilson raced in, short-hopped it, and nearly got force at 2B"
+play,3,1,iorgg001,00,,NP
 sub,farrs001,"Steve Farr",0,0,1
-play,3,1,iorgg001,??,,NP
+play,3,1,iorgg001,00,,NP
 sub,mullr001,"Rance Mulliniks",1,7,11
-play,3,1,mullr001,??,,S8.3-H;2-3;1-2
-play,3,1,white002,??,,W.3-H;2-3;1-2
-play,3,1,fernt001,??,,9/SF.3-H
-play,3,1,garcd001,??,,3/P
-play,3,1,mosel001,??,,8
-play,4,0,wilsw001,??,,NP
+play,3,1,mullr001,10,BX,S8/L8S.3-H;2-3;1-2
+play,3,1,white002,31,BCB*BB,W.3-H;2-3;1-2
+play,3,1,fernt001,21,BBCX,9/L9/SF.3-H
+play,3,1,garcd001,02,FCX,3/P3
+play,3,1,mosel001,31,BBCBX,8/F78D
+play,4,0,wilsw001,00,,NP
 sub,mullr001,"Rance Mulliniks",1,7,5
-play,4,0,wilsw001,??,,3/G
-play,4,0,bretg001,??,,S9
-play,4,0,ortaj001,??,,K
-play,4,0,sherp001,??,,W.1-2
-play,4,0,whitf001,??,,5(2)/FO
-play,4,1,bellg001,??,,S/78
-play,4,1,johnc001,??,,63.1-H(E3/TH3)(NR)
-com,"$George Bell ran from 1B to 3B on the infield out"
-play,4,1,barfj001,??,,9
-play,4,1,upshw001,??,,8
-play,5,0,balbs001,??,,K
-play,5,0,sundj001,??,,K/C
-play,5,0,bianb001,??,,3/G
-play,5,1,mullr001,??,,NP
+play,4,0,wilsw001,00,X,3/G34
+play,4,0,bretg001,21,BCBX,S9/L89S
+play,4,0,ortaj001,32,BBBCFT,K
+play,4,0,sherp001,32,BBBCFB,W.1-2
+play,4,0,whitf001,01,CX,5(2)/FO/G5L
+com,"Mulliniks: good backhand stop and beat Brett to the bag"
+play,4,1,bellg001,11,BFX,S8/G6M
+play,4,1,johnc001,20,1BB1X,63/G56.1-H(E3/TH3)(NR)
+com,"Check swing grounder; Bell ran to 3B on the throw to 1B when"
+com,"he saw Brett out of position.  Balboni's hurried attempt to"
+com,"hit a moving target would've been close but sailed way over"
+com,"Brett."
+play,4,1,barfj001,22,BBCFX,9/F89XD
+play,4,1,upshw001,11,BCX,8/F8
+play,5,0,balbs001,22,BSSFBS,K
+play,5,0,sundj001,22,BBFFC,K/C
+play,5,0,bianb001,00,X,3/G34
+play,5,1,mullr001,00,,NP
 sub,gubim001,"Mark Gubicza",0,0,1
-play,5,1,mullr001,??,,9
-play,5,1,white002,??,,5/P
-play,5,1,fernt001,??,,63
-play,6,0,smitl002,??,,7
-play,6,0,wilsw001,??,,K
-play,6,0,bretg001,??,,K/C
-play,6,1,garcd001,??,,9
-play,6,1,mosel001,??,,63
-play,6,1,bellg001,??,,9/FL
-play,7,0,ortaj001,??,,43
-play,7,0,sherp001,??,,K/C
-play,7,0,whitf001,??,,7
-play,7,1,johnc001,??,,K
-play,7,1,barfj001,??,,W
-play,7,1,upshw001,??,,K+SB2
-play,7,1,mullr001,??,,6/P
-play,8,0,balbs001,??,,8
-play,8,0,sundj001,??,,8
-play,8,0,bianb001,??,,NP
+play,5,1,mullr001,02,CSX,9/F89XD
+play,5,1,white002,12,SFBX,5/P5L
+play,5,1,fernt001,10,BX,63/G6
+play,6,0,smitl002,10,BX,7/F78
+play,6,0,wilsw001,02,CCFS,K
+play,6,0,bretg001,22,BCBCC,K/C
+play,6,1,garcd001,10,BX,9/F9
+play,6,1,mosel001,01,CX,63/G6
+play,6,1,bellg001,20,BBX,9/F9LF/FL
+com,"Sheridan: good running catch"
+play,7,0,ortaj001,12,FFBX,43/G34
+play,7,0,sherp001,12,CBCC,K/C
+play,7,0,whitf001,00,X,7/L7
+play,7,1,johnc001,22,CBFBS,K
+play,7,1,barfj001,32,BBFBSB,W
+play,7,1,upshw001,32,BBF1FB>S,K+SB2
+play,7,1,mullr001,01,FX,6/P6M
+play,8,0,balbs001,32,BBBCCFFX,8/F8D
+play,8,0,sundj001,12,BSFX,8/F78S
+play,8,0,bianb001,00,,NP
 sub,iorgd001,"Dane Iorg",0,9,11
-play,8,0,iorgd001,??,,D7
-play,8,0,smitl002,??,,NP
+play,8,0,iorgd001,11,BFX,D7/L78D
+play,8,0,smitl002,00,,NP
 sub,conco001,"Onix Concepcion",0,9,12
-play,8,0,smitl002,??,,8
-play,8,1,white002,??,,NP
+play,8,0,smitl002,00,X,8/F8XD
+play,8,1,white002,00,,NP
 sub,conco001,"Onix Concepcion",0,9,6
-play,8,1,white002,??,,NP
+play,8,1,white002,00,,NP
 sub,jackd001,"Danny Jackson",0,0,1
-play,8,1,white002,??,,31
-play,8,1,fernt001,??,,S8/G
-play,8,1,garcd001,??,,S9.1-2
-play,8,1,mosel001,??,,NP
+play,8,1,white002,32,BFBBSFFX,31/G34
+play,8,1,fernt001,00,X,S8/G4M
+play,8,1,garcd001,00,X,S9/G34.1-2
+play,8,1,mosel001,00,,NP
 sub,lee-m001,"Manuel Lee",1,1,12
-play,8,1,mosel001,??,,K
-play,8,1,bellg001,??,,43
-play,9,0,wilsw001,??,,NP
+play,8,1,mosel001,02,CSS,K
+play,8,1,bellg001,10,BX,43/G4
+play,9,0,wilsw001,00,,NP
 sub,lee-m001,"Manuel Lee",1,1,4
-play,9,0,wilsw001,??,,NP
+play,9,0,wilsw001,00,,NP
 sub,henkt001,"Tom Henke",1,0,1
-play,9,0,wilsw001,??,,S8
-play,9,0,bretg001,??,,S8.1-3
-play,9,0,ortaj001,??,,9/FL
-play,9,0,sherp001,??,,36(1)/FO.3-H
-play,9,0,whitf001,??,,8/8D
+play,9,0,wilsw001,11,BSX,S8/L8S
+play,9,0,bretg001,00,X,S8/G4M.1-3
+play,9,0,ortaj001,10,BX,9/F9LSF/FL
+play,9,0,sherp001,22,SBSBX,36(1)/FO/G34.3-H
+play,9,0,whitf001,32,BBSS*B>F>X,8/F8XD
 data,er,leibc001,5
 data,er,farrs001,1
 data,er,gubim001,0

@@ -76,7 +76,7 @@ com,"Debut game for Boss Schmidt"
 play,3,0,oleac101,??,,3/SH.1-2
 com,"Debut game for Charley O'Leary"
 play,3,0,donob101,??,,K
-play,3,0,joned104,??,,S8.2-3
+play,3,0,joned104,??,,S6.2-3
 play,3,0,schag101,??,,63
 play,3,1,overo101,??,,K
 play,3,1,slagj102,??,,4/P
@@ -88,14 +88,15 @@ play,4,0,cougb101,??,,4(B)6(2)/LDP
 play,4,1,chanf101,??,,W
 play,4,1,steih101,??,,34/SH.1-2
 play,4,1,klinj101,??,,S7.2-H;BX2(724)
-play,4,1,everj102,??,,S/78
+play,4,1,everj102,??,,S8/78
 play,4,1,schuf103,??,,SB2
 play,4,1,schuf103,??,,K
 play,5,0,schmb102,??,,S7
 play,5,0,oleac101,??,,53.1-2
 play,5,0,donob101,??,,K
-play,5,0,joned104,??,,S/G.2-3
+play,5,0,joned104,??,,S4/G.2-3
 play,5,0,schag101,??,,SB2.3XH(25)
+com,"$Boss Schmidt picked off third on planned double-steal"
 play,5,1,tinkj101,??,,K
 play,5,1,overo101,??,,31
 play,5,1,slagj102,??,,S7
@@ -104,7 +105,8 @@ play,6,0,schag101,??,,S7
 play,6,0,craws101,??,,S7.1-2
 play,6,0,cobbt101,??,,6/P
 play,6,0,rossc101,??,,64(1)/FO.2-3
-play,6,0,cougb101,??,,PO3(2526)
+play,6,0,cougb101,??,,CSH(2526)
+com,"$Germany Schaefer tagged out in attempted double-steal"
 play,6,1,shecj101,??,,63
 play,6,1,chanf101,??,,K
 play,6,1,steih101,??,,S8
@@ -120,12 +122,10 @@ play,8,0,donob101,??,,13/G1
 play,8,0,joned104,??,,S4
 play,8,0,schag101,??,,SB2
 play,8,0,schag101,??,,E6/G.2-3;B-1
-com,"DWS: NY Times has Schaefer stealing 2nd.  They make it"
-com,"sound like DI, but that didn't exist until 1950.  For now"
-com,"I'll have him score on Crawford's hit (whatever THAT was)"
-play,8,0,craws101,??,,S9.3-H;1-H(UR);B-3(E2)
-play,8,0,cobbt101,??,,FC1.3X3(12E5);B-2
-play,8,0,rossc101,??,,8.3-H(UR)
+play,8,0,craws101,??,,SB2
+play,8,0,craws101,??,,S9.3-H;2-H(UR);B-3(E9/THH)
+play,8,0,cobbt101,??,,FC1.3-3(E2);B-2
+play,8,0,rossc101,??,,8.3-H(UR);2-3(THH)
 play,8,0,cougb101,??,,K
 play,8,1,overo101,??,,8
 play,8,1,slagj102,??,,7
@@ -143,9 +143,9 @@ play,9,1,tinkj101,??,,NP
 sub,howad102,"Del Howard",1,8,11
 play,9,1,howad102,??,,K+E2.3-H(UR)(NR);2-3;B-1
 com,"Debut game for Del Howard"
-play,9,1,overo101,??,,SB2
 play,9,1,overo101,??,,NP
 sub,morap101,"Pat Moran",1,9,11
+play,9,1,morap101,??,,SB2
 play,9,1,morap101,??,,CSH(2)
 play,10,0,schag101,??,,NP
 sub,reule101,"Ed Reulbach",1,9,1
@@ -158,10 +158,13 @@ com,"Debut game for Heinie Zimmerman"
 play,10,0,craws101,??,,K
 play,10,0,cobbt101,??,,3/G
 play,10,1,reule101,??,,43
-play,10,1,slagj102,??,,S8
-play,10,1,shecj101,??,,K+SB2
+play,10,1,slagj102,??,,S14
+play,10,1,shecj101,??,,SB2
+com,"$Stole on pickoff throw"
+play,10,1,shecj101,??,,K
 play,10,1,chanf101,??,,W
-play,10,1,steih101,??,,SB3;SB2
+play,10,1,steih101,??,,SB3
+play,10,1,steih101,??,,SB2
 play,10,1,steih101,??,,OA/BINT.3XH(2)
 com,"$Harry Steinfeldt called for interference as Jimmy Slagle"
 com,"tried to steal HP"
@@ -170,18 +173,18 @@ play,11,0,cougb101,??,,3/P
 play,11,0,schmb102,??,,E6/TH1.B-1
 play,11,0,oleac101,??,,9
 play,11,1,steih101,??,,4/P
-play,11,1,klinj101,??,,S7
-play,11,1,everj102,??,,S/BG.1-2
-play,11,1,schuf103,??,,S/BG.2-3;1-2
+play,11,1,klinj101,??,,S5
+play,11,1,everj102,??,,S5/BG.1-2
+play,11,1,schuf103,??,,S6/G.2-3;1-2
 play,11,1,zimmh101,??,,K
 play,11,1,reule101,??,,64(1)/FO
 play,12,0,donob101,??,,K
 play,12,0,joned104,??,,7
-play,12,0,schag101,??,,43
+play,12,0,schag101,??,,3/G
 play,12,1,slagj102,??,,63
 play,12,1,shecj101,??,,HP
 play,12,1,chanf101,??,,4(B)3(1)/LDP
-com,"game called for darkness"
+com,"$Game called for darkness"
 data,er,donob101,1
 data,er,overo101,1
 data,er,reule101,0
@@ -235,16 +238,18 @@ start,schuf103,"Frank Schulte",1,7,9
 start,tinkj101,"Joe Tinker",1,8,6
 start,pfiej101,"Jack Pfiester",1,9,1
 play,1,0,joned104,??,,S7
-play,1,0,schag101,??,,S8.1-2
+play,1,0,schag101,??,,S9.1-2
 play,1,0,craws101,??,,K
 play,1,0,cobbt101,??,,6(1)3/GDP
 play,1,1,slagj102,??,,W
 com,"Debut game for George Mullin"
 play,1,1,shecj101,??,,SB2.1-3(E2/TH2)
-com,"$the throw hit George Mullin on the head"
-play,1,1,shecj101,??,,K
-play,1,1,chanf101,??,,PO3(15)
-play,1,1,chanf101,??,,W
+com,"the throw hit George Mullin on the head"
+play,1,1,shecj101,??,,4/P
+play,1,1,chanf101,??,,OA.3X3(45)
+com,"$Hidden ball trick when 2bman held ball after catching popup"
+com,"and got runner off 3rd base"
+play,1,1,chanf101,??,,S4
 play,1,1,steih101,??,,SB2
 play,1,1,steih101,??,,K
 play,2,0,rossc101,??,,T7/G5
@@ -265,21 +270,23 @@ play,3,0,joned104,??,,E6/G.B-1
 play,3,0,schag101,??,,6(1)/FO
 play,3,0,craws101,??,,CS2(26)
 com,"ej,jennh101,M,odayh101,Call at 2B"
-com,"Tigers Manager Hughie Jennings ejected by 1B umpire Hank O'Day"
+com,"$Tigers manager Jennings ejected by 1B umpire O'Day"
+com,"for arguing that Schaefer was safe at 2nd"
 play,3,0,craws101,??,,2/FL
 play,3,1,chanf101,??,,W
 play,3,1,steih101,??,,HP.1-2
-play,3,1,klinj101,??,,8(B)4(2)/DP
-play,3,1,everj102,??,,S.1-3
+play,3,1,klinj101,??,,8/F/DP.2X2(84)
+play,3,1,everj102,??,,S9.1-3
 play,3,1,schuf103,??,,SB2
 play,3,1,schuf103,??,,K
 play,4,0,cobbt101,??,,S8
-play,4,0,rossc101,??,,S9.1-3;BX2(96)
+play,4,0,rossc101,??,,96(1)/FO
 play,4,0,cougb101,??,,8
 play,4,0,paynf101,??,,8/L
-play,4,1,tinkj101,??,,S8
-play,4,1,pfiej101,??,,53/SH.1-2
-play,4,1,slagj102,??,,S7.2-H
+play,4,1,tinkj101,??,,S1
+play,4,1,pfiej101,??,,54/SH.1-2
+play,4,1,slagj102,??,,SB3
+play,4,1,slagj102,??,,S6.3-H
 play,4,1,shecj101,??,,SB2
 play,4,1,shecj101,??,,D9.2-H
 play,4,1,chanf101,??,,CS3(25)
@@ -287,14 +294,15 @@ play,4,1,chanf101,??,,3/P
 play,5,0,oleac101,??,,S8
 play,5,0,mullg102,??,,7/7DW
 play,5,0,joned104,??,,5/P
-play,5,0,schag101,??,,2/BP
+play,5,0,schag101,??,,2/BG
+com,"$Batter thought ball was foul and did not run"
 play,5,1,steih101,??,,63
 play,5,1,klinj101,??,,63
 play,5,1,everj102,??,,13/G1
-play,6,0,craws101,??,,3/L
+play,6,0,craws101,??,,3/G
 play,6,0,cobbt101,??,,63
 play,6,0,rossc101,??,,S7
-play,6,0,cougb101,??,,64(1)/FO
+play,6,0,cougb101,??,,54(1)/FO
 play,6,1,schuf103,??,,63
 play,6,1,tinkj101,??,,63
 play,6,1,pfiej101,??,,31
@@ -306,7 +314,7 @@ play,7,1,slagj102,??,,S7
 play,7,1,shecj101,??,,13/SH.1-2
 play,7,1,chanf101,??,,63.2-3
 play,7,1,steih101,??,,63
-play,8,0,joned104,??,,S8
+play,8,0,joned104,??,,S4
 play,8,0,schag101,??,,63.1-2
 play,8,0,craws101,??,,9
 play,8,0,cobbt101,??,,HP
@@ -387,21 +395,21 @@ play,3,0,schmb102,??,,8
 play,3,0,oleac101,??,,63
 play,3,0,sieve101,??,,13/G1
 play,3,1,reule101,??,,8
-play,3,1,slagj102,??,,K
+play,3,1,slagj102,??,,K23
 play,3,1,shecj101,??,,D9
 play,3,1,chanf101,??,,6/P
 play,4,0,joned104,??,,7
-play,4,0,schag101,??,,S1
+play,4,0,schag101,??,,S6
 play,4,0,craws101,??,,53.1-2
 play,4,0,cobbt101,??,,13/G1
 play,4,1,steih101,??,,7
 play,4,1,klinj101,??,,S9
-play,4,1,everj102,??,,S9.1-2
-play,4,1,schuf103,??,,S8.2-H;1X3(856)
-play,4,1,tinkj101,??,,E7.1-H(UR)(NR);B-3
+play,4,1,everj102,??,,S9.1-3
+play,4,1,schuf103,??,,S8.3-H;1X3(8561);B-2
+play,4,1,tinkj101,??,,E7/F.2-H(UR)(NR);B-3
 play,4,1,reule101,??,,S9.3-H(UR)
 play,4,1,slagj102,??,,5/P
-play,5,0,rossc101,??,,S5
+play,5,0,rossc101,??,,S6
 play,5,0,cougb101,??,,W.1-2
 play,5,0,schmb102,??,,31.2-3;1-2
 play,5,0,oleac101,??,,6(B)6(2)/LDP
@@ -417,8 +425,8 @@ play,5,1,schuf103,??,,5/P
 play,6,0,kille101,??,,S8
 play,6,0,joned104,??,,W.1-2
 play,6,0,schag101,??,,54(1)3/GDP.2-3
-play,6,0,craws101,??,,S8.3-H
-play,6,0,cobbt101,??,,S.1-2
+play,6,0,craws101,??,,S4.3-H
+play,6,0,cobbt101,??,,S7.1-2
 play,6,0,rossc101,??,,8/F8D
 play,6,1,tinkj101,??,,6/P
 play,6,1,reule101,??,,2/FL
@@ -431,7 +439,7 @@ play,7,0,joned104,??,,63
 play,7,1,shecj101,??,,K
 play,7,1,chanf101,??,,7
 play,7,1,steih101,??,,W
-play,7,1,klinj101,??,,5/P
+play,7,1,klinj101,??,,5/FL
 play,8,0,schag101,??,,63
 play,8,0,craws101,??,,8/F8D
 play,8,0,cobbt101,??,,7
@@ -495,7 +503,7 @@ start,schmb102,"Boss Schmidt",1,7,2
 start,oleac101,"Charley O'Leary",1,8,6
 start,donob101,"Bill Donovan",1,9,1
 play,1,0,slagj102,??,,6/P
-play,1,0,shecj101,??,,S
+play,1,0,shecj101,??,,S8
 play,1,0,chanf101,??,,CS2(26)
 play,1,0,chanf101,??,,HP
 play,1,0,steih101,??,,SB2
@@ -516,23 +524,24 @@ play,3,0,slagj102,??,,63
 play,3,1,oleac101,??,,63
 play,3,1,donob101,??,,93
 play,3,1,joned104,??,,13/BG1
-play,4,0,shecj101,??,,9
+play,4,0,shecj101,??,,8
 play,4,0,chanf101,??,,63
 play,4,0,steih101,??,,S8
 play,4,0,klinj101,??,,7
 play,4,1,schag101,??,,7
 play,4,1,craws101,??,,5/FL
-play,4,1,cobbt101,??,,T7
+play,4,1,cobbt101,??,,T8
+com,"$Ground rule triple into overflow crowd"
 play,4,1,rossc101,??,,S7.3-H
-play,4,1,cougb101,??,,S.1-2
+play,4,1,cougb101,??,,S4.1-2
 play,4,1,schmb102,??,,W.2-3;1-2
 play,4,1,oleac101,??,,K
 play,5,0,everj102,??,,E6/TH1
 com,"15 minute rain delay"
 play,5,0,schuf103,??,,W.1-2
 play,5,0,tinkj101,??,,3/SH.2-3;1-2
-play,5,0,overo101,??,,S9.3-H(UR);2-H
-play,5,0,slagj102,??,,7
+play,5,0,overo101,??,,S8.3-H(UR);2-3
+play,5,0,slagj102,??,,7.3-H(UR)
 play,5,0,shecj101,??,,6(1)/FO
 play,5,1,donob101,??,,8
 play,5,1,joned104,??,,43
@@ -551,29 +560,30 @@ play,7,0,slagj102,??,,FC6.3-H(E6/THH)(UR);2-3;B-1
 play,7,0,shecj101,??,,S3/BG.3-H;1-2
 play,7,0,chanf101,??,,56(1)/FO.2-3
 play,7,0,steih101,??,,SBH(UR).1X2(243)
-com,"$This was steal of home by 1907 rules, not by modern rules"
+com,"$Slagle scored during rundown on Chance;"
+com,"this was steal of home by 1907 rules, not by modern rules"
 play,7,1,cougb101,??,,K
 play,7,1,schmb102,??,,9
 play,7,1,oleac101,??,,53
-play,8,0,steih101,??,,K
+play,8,0,steih101,??,,K23
 play,8,0,klinj101,??,,4/L
 play,8,0,everj102,??,,K
 play,8,1,donob101,??,,E6/G.B-1
-play,8,1,joned104,??,,13/SH.1-2
+play,8,1,joned104,??,,53/SH.1-2
 play,8,1,schag101,??,,K
 play,8,1,craws101,??,,K
 play,9,0,schuf103,??,,7
 play,9,0,tinkj101,??,,W
 play,9,0,overo101,??,,13/SH.1-2
-play,9,0,slagj102,??,,S8.2-H;B-2(THH)
+play,9,0,slagj102,??,,S7.2-H;B-2(THH)
 play,9,0,shecj101,??,,43
 play,9,1,cobbt101,??,,5/P
-play,9,1,rossc101,??,,E8.B-1
-play,9,1,cougb101,??,,S7.1-2
+play,9,1,rossc101,??,,S8/78
+play,9,1,cougb101,??,,S5.1-2
 play,9,1,schmb102,??,,K
 play,9,1,oleac101,??,,5/P
 data,er,overo101,1
-data,er,donob101,3
+data,er,donob101,2
 id,DET190710120
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -634,11 +644,11 @@ play,1,1,schag101,??,,8
 play,1,1,craws101,??,,3/G.1-2
 play,1,1,cobbt101,??,,43
 play,2,0,everj102,??,,5E3.B-1
-play,2,0,schuf103,??,,2/FL
+play,2,0,schuf103,??,,2/BP
 play,2,0,tinkj101,??,,S9.1-2
 play,2,0,browm102,??,,SB3;SB2
 play,2,0,browm102,??,,W
-play,2,0,slagj102,??,,46(1)/FO.3-H(UR);2-3
+play,2,0,slagj102,??,,43.3-H(UR);2-3;1-2
 play,2,0,shecj101,??,,9
 play,2,1,rossc101,??,,31
 play,2,1,cougb101,??,,S8
@@ -646,9 +656,9 @@ play,2,1,archj102,??,,46(1)/FO
 com,"Debut game for Jimmy Archer"
 play,2,1,oleac101,??,,13/G1
 play,3,0,howad102,??,,43
-play,3,0,steih101,??,,T/7D
-com,"$into the crowd in LF"
-play,3,0,klinj101,??,,FC5.3XH(52);B-1
+play,3,0,steih101,??,,T7/7D
+com,"$Ground rule triple into overflow crowd"
+play,3,0,klinj101,??,,FC6.3XH(62);B-1
 play,3,0,everj102,??,,43
 play,3,1,mullg102,??,,6/L
 play,3,1,joned104,??,,43
@@ -659,8 +669,7 @@ play,4,0,browm102,??,,6/P
 play,4,1,craws101,??,,DGR/9D
 play,4,1,cobbt101,??,,K
 play,4,1,rossc101,??,,S8.2-3
-play,4,1,cougb101,??,,SB2
-play,4,1,cougb101,??,,2/FL
+play,4,1,cougb101,??,,2/FL.1-2
 play,4,1,archj102,??,,7
 play,5,0,slagj102,??,,13/G1
 play,5,0,shecj101,??,,53
@@ -673,13 +682,13 @@ play,5,1,schag101,??,,SB2
 play,5,1,schag101,??,,63
 play,6,0,klinj101,??,,43
 play,6,0,everj102,??,,13/G1
-play,6,0,schuf103,??,,4/P
+play,6,0,schuf103,??,,43
 play,6,1,craws101,??,,43
 play,6,1,cobbt101,??,,S9.B-2(E9)
 play,6,1,rossc101,??,,CS3(25)
 play,6,1,rossc101,??,,8
 play,7,0,tinkj101,??,,9
-play,7,0,browm102,??,,6/P
+play,7,0,browm102,??,,6/L
 play,7,0,slagj102,??,,S8
 play,7,0,shecj101,??,,CS2(26)
 play,7,1,cougb101,??,,S9
@@ -689,21 +698,22 @@ play,7,1,oleac101,??,,63.2-3
 play,7,1,mullg102,??,,4/P
 play,8,0,shecj101,??,,43
 play,8,0,howad102,??,,4/L
-play,8,0,steih101,??,,53
+play,8,0,steih101,??,,63
 play,8,1,joned104,??,,43
-play,8,1,schag101,??,,K
+play,8,1,schag101,??,,K23
 play,8,1,craws101,??,,43
 play,9,0,klinj101,??,,63
 play,9,0,everj102,??,,43
 play,9,0,schuf103,??,,S9
-play,9,0,tinkj101,??,,W.1-2
+play,9,0,tinkj101,??,,SB2
+play,9,0,tinkj101,??,,W
 play,9,0,browm102,??,,E5/G.2-3;1-2;B-1
 play,9,0,slagj102,??,,K
 play,9,1,cobbt101,??,,K
 play,9,1,rossc101,??,,S9
 play,9,1,cougb101,??,,NP
 sub,paynf101,"Fred Payne",1,5,12
-play,9,1,cougb101,??,,4/P
+play,9,1,cougb101,??,,9/P
 play,9,1,archj102,??,,NP
 sub,schmb102,"Boss Schmidt",1,7,11
 play,9,1,schmb102,??,,6/P56D

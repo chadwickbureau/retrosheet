@@ -76,7 +76,7 @@ play,3,1,olivt102,12,F2FBFX,53/G56
 play,3,1,killh102,22,CBB2FX,S7/G.2-3
 play,3,1,hallj107,32,BBBSF1S,K
 play,3,1,mincd101,31,FBBBB,W.1-2
-play,3,1,batte101,12,B2CFX,S4/F9S.3-H(UR);2-H(UR);1-3
+play,3,1,batte101,12,B2CFX,S9/F9S.3-H(UR);2-H(UR);1-3
 play,3,1,quilf101,01,FX,S9/G.3-H(UR);1-2
 play,3,1,granj101,00,,NP
 sub,reedh102,"Howie Reed",0,9,1
@@ -115,7 +115,7 @@ play,6,1,valds101,00,111P,SB2
 play,6,1,valds101,21,111P.CBX,3/G3.2-3
 play,6,1,olivt102,12,FFFFBX,7/F7D
 play,7,0,parkw101,32,BCBBCB,W
-play,7,0,rosej101,12,CBCF,9/F89D
+play,7,0,rosej101,12,CBCFX,9/F89D
 play,7,0,brewj102,00,,NP
 sub,moonw101,"Wally Moon",0,9,11
 play,7,0,moonw101,10,BX,5/FL/P5DF
@@ -164,17 +164,17 @@ info,ump3b,stewb902
 info,umplf,varge901
 info,umprf,hurle901
 info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/29 2:16AM
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,56
 info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,windspeed,17
+info,fieldcond,wet
+info,precip,drizzle
+info,sky,overcast
 info,timeofgame,133
 info,attendance,48700
 info,wp,kaatj101
@@ -199,90 +199,104 @@ start,allib103,"Bob Allison",1,6,7
 start,mincd101,"Don Mincher",1,7,3
 start,quilf101,"Frank Quilici",1,8,4
 start,kaatj101,"Jim Kaat",1,9,1
-play,1,0,willm102,??,,9/F9S
-play,1,0,gillj102,??,,8
-play,1,0,daviw102,??,,31
-play,1,1,versz101,??,,9/F9S
-play,1,1,nossj101,??,,7/F7D
-play,1,1,olivt102,??,,13/G1
-play,2,0,johnl104,??,,K
-play,2,0,fairr101,??,,31
-play,2,0,lefej101,??,,43
-play,2,1,killh102,??,,7
-play,2,1,batte101,??,,K
-play,2,1,allib103,??,,K/C
-play,3,0,parkw101,??,,W
-play,3,0,rosej101,??,,7/L
-play,3,0,koufs101,??,,43.1-2
-play,3,0,willm102,??,,9
-play,3,1,mincd101,??,,K/C
-play,3,1,quilf101,??,,W
-play,3,1,kaatj101,??,,CS2(26)
-play,3,1,kaatj101,??,,K/C
-play,4,0,gillj102,??,,9
-play,4,0,daviw102,??,,31
-play,4,0,johnl104,??,,8/F8XDW
-play,4,1,versz101,??,,K
-play,4,1,nossj101,??,,S8/L
-play,4,1,olivt102,??,,K
-play,4,1,killh102,??,,S7.1-3(E7);B-2
-play,4,1,batte101,??,,3/FL
-play,5,0,fairr101,??,,S9
-play,5,0,lefej101,??,,7/L7L
-play,5,0,parkw101,??,,S3/G.1-2
-play,5,0,rosej101,??,,5/FL
-play,5,0,koufs101,??,,3/FL
-play,5,1,allib103,??,,K
-play,5,1,mincd101,??,,S/78
-play,5,1,quilf101,??,,4/P
-play,5,1,kaatj101,??,,K
-play,6,0,willm102,??,,S7/G
-play,6,0,gillj102,??,,53.1-2
-play,6,0,daviw102,??,,5/P1
-play,6,0,johnl104,??,,3/P
-play,6,1,versz101,??,,E5/G.B-2
-play,6,1,nossj101,??,,14/SH.2-3
-play,6,1,olivt102,??,,D7.3-H(UR)
-play,6,1,killh102,??,,S7.2-H
-play,6,1,batte101,??,,S7.1-2
-play,6,1,allib103,??,,K/C
-play,6,1,mincd101,??,,31
-play,7,0,fairr101,??,,S7
-play,7,0,lefej101,??,,S7.1-2
-play,7,0,parkw101,??,,24/SH.2-3;1-2
-play,7,0,rosej101,??,,S9.3-H;2-3;B-2(THH)
-play,7,0,koufs101,??,,NP
+com,"Pitch-by-pitch courtesy of Phenia Films/NBC/CBC."
+com,"$A tarpaulin covered the infield right up to the start of the"
+com,"game.  The outfield was wet despite use of a helicopter and"
+com,"flame-throwers to dry it out."
+com,"Stadium lights were on."
+play,1,0,willm102,01,CX,9/F9
+play,1,0,gillj102,10,BX,8/F8S
+play,1,0,daviw102,02,SSX,31/G34
+play,1,1,versz101,12,BCFX,9/F9S
+play,1,1,nossj101,00,X,7/F7D
+play,1,1,olivt102,00,X,13/G13
+play,2,0,johnl104,22,SFBFBFS,K
+play,2,0,fairr101,01,CX,31/G3L
+play,2,0,lefej101,01,SX,43/G4
+play,2,1,killh102,21,BCBX,7/F78
+play,2,1,batte101,02,CCS,K
+play,2,1,allib103,32,BCFBBC,K/C
+play,3,0,parkw101,32,SBCBBB,W
+play,3,0,rosej101,21,CB1BX,7/L7
+play,3,0,koufs101,22,BCFBX,43/G34.1-2
+play,3,0,willm102,00,X,9/F9
+play,3,1,mincd101,32,CBFBBC,K/C
+play,3,1,quilf101,32,SBFBBB,W
+play,3,1,kaatj101,11,CB>S,CS2(26)
+play,3,1,kaatj101,12,CB>S.C,K/C
+play,4,0,gillj102,21,BFBX,9/F9
+play,4,0,daviw102,01,CX,31/G3
+play,4,0,johnl104,02,CSX,8/F8XD
+play,4,1,versz101,12,FSFBS,K
+play,4,1,nossj101,22,BCFBX,S8/L78
+play,4,1,olivt102,12,S1SBS,K
+play,4,1,killh102,,B,S7/L56D.1-3(E7);B-2
+com,"Johnson bobbled it"
+play,4,1,batte101,10,BX,3/P3DF/FL
+play,5,0,fairr101,12,BCFX,S9/G34
+play,5,0,lefej101,10,BX,7/L7L
+com,"Allison: tremendous diving, backhanded catch"
+play,5,0,parkw101,01,CX,S3/G34.1-2
+com,"Off Mincher's glove"
+play,5,0,rosej101,22,BBCFX,5/P5F/FL
+com,"Killebrew leaned over the railing"
+play,5,0,koufs101,01,SX,3/P23F/FL
+play,5,1,allib103,22,FCBFFBS,K
+play,5,1,mincd101,32,SCBBBX,S7/L6D
+play,5,1,quilf101,01,FX,4/P4
+play,5,1,kaatj101,12,MBSS,K
+play,6,0,willm102,00,X,S7/G5
+com,"Chopped over Killebrew's outstretched glove"
+play,6,0,gillj102,01,C1>X,53/G56S.1-2
+play,6,0,daviw102,10,BX,5/P15
+play,6,0,johnl104,10,B>X,3/P34
+play,6,1,versz101,12,BFFX,E5/G5.B-2
+com,"Hard hit through Gilliam into LF where Johnson retrieved it"
+com,"in foul territory."
+play,6,1,nossj101,00,X,14/BG23/SH.2-3
+play,6,1,olivt102,22,BSSBX,D7/L7S.3-H(UR)
+play,6,1,killh102,00,X,S7/L56D.2-H
+play,6,1,batte101,00,X,S7/G56.1-2
+play,6,1,allib103,12,SF*BC,K/C
+play,6,1,mincd101,00,X,31/G34
+play,7,0,fairr101,22,CFBBX,S7/F7S
+play,7,0,lefej101,00,X,S7/L7.1-2
+play,7,0,parkw101,00,X,24/BG2R/SH.2-3;1-2
+play,7,0,rosej101,22,CFFBBX,S9/L9.3-H;2-3;B-2(THH)
+play,7,0,koufs101,00,,NP
 sub,drysd101,"Don Drysdale",0,9,11
-play,7,0,drysd101,??,,K
-play,7,0,willm102,??,,8/F8S
-play,7,1,quilf101,??,,NP
+play,7,0,drysd101,02,SSS,K
+play,7,0,willm102,10,BX,8/F8S
+play,7,1,quilf101,00,,NP
 sub,perrr101,"Ron Perranoski",0,9,1
-play,7,1,quilf101,??,,63
-play,7,1,kaatj101,??,,K
-play,7,1,versz101,??,,T9/9LD
-play,7,1,nossj101,??,,WP.3-H
-play,7,1,nossj101,??,,E5/TH1.B-2
-play,7,1,olivt102,??,,7
-play,8,0,gillj102,??,,8
-play,8,0,daviw102,??,,31
-play,8,0,johnl104,??,,43
-play,8,1,killh102,??,,W
-play,8,1,batte101,??,,2/FL/BP
-play,8,1,allib103,??,,D/89.1-3
-play,8,1,mincd101,??,,FC6.3XH(62);B-1
-play,8,1,quilf101,??,,BK.2-3;1-2
-play,8,1,quilf101,??,,IW
-play,8,1,kaatj101,??,,S8.3-H;2-H;1-2
-play,8,1,versz101,??,,NP
+play,7,1,quilf101,21,BFBX,63/G6
+play,7,1,kaatj101,22,BBCFS,K
+play,7,1,versz101,11,BCX,T9/L9LS
+play,7,1,nossj101,10,BB,WP.3-H
+play,7,1,nossj101,31,BB.BCX,E5/TH1/G5S.B-2
+play,7,1,olivt102,00,X,7/F7
+play,8,0,gillj102,22,CCFBBX,8/F78S
+play,8,0,daviw102,10,BX,31/G3
+play,8,0,johnl104,01,CX,43/G34
+play,8,1,killh102,31,BBFBB,W
+play,8,1,batte101,11,B1LX,2/BP2RF/FL
+play,8,1,allib103,12,CSFBFX,D8/89.1-3
+play,8,1,mincd101,02,CSX,FC6/G6MS.3XH(62);B-1
+com,"Killebrew was trapped and run down"
+play,8,1,quilf101,10,B.,BK.2-3;1-2
+play,8,1,quilf101,30,B.III,IW
+play,8,1,kaatj101,10,BX,S8/G4M.3-H;2-H;1-2
+play,8,1,versz101,00,,NP
 sub,millb106,"Bob Miller",0,9,1
-play,8,1,versz101,??,,8/F8S
-play,9,0,fairr101,??,,K
-play,9,0,lefej101,??,,S7
-play,9,0,parkw101,??,,HP.1-2
-play,9,0,rosej101,??,,3/G.2-3;1-2
-play,9,0,millb106,??,,NP
+play,8,1,versz101,10,BX,8/F8S
+com,"Davis: fine running catch"
+play,9,0,fairr101,12,BCCS,K
+play,9,0,lefej101,21,BBCX,S7/L56D
+play,9,0,parkw101,00,H,HP.1-2
+play,9,0,rosej101,01,FX,3/G3.2-3;1-2
+play,9,0,millb106,00,,NP
 sub,tracd101,"Dick Tracewski",0,9,11
-play,9,0,tracd101,??,,1/L
+play,9,0,tracd101,12,CSBX,1/L1
 data,er,koufs101,1
 data,er,perrr101,3
 data,er,millb106,0
@@ -305,17 +319,17 @@ info,ump3b,varge901
 info,umplf,hurle901
 info,umprf,venzt901
 info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/29 2:46AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,overcast
 info,timeofgame,126
 info,attendance,55934
 info,wp,ostec103
@@ -340,93 +354,104 @@ start,lefej101,"Jim Lefebvre",1,6,4
 start,parkw101,"Wes Parker",1,7,3
 start,rosej101,"John Roseboro",1,8,2
 start,ostec103,"Claude Osteen",1,9,1
-play,1,0,versz101,??,,DGR/7LD
-play,1,0,nossj101,??,,31.2-3
-play,1,0,olivt102,??,,43
-play,1,0,killh102,??,,W
-play,1,0,batte101,??,,CSH(2625)
-play,1,1,willm102,??,,53/BG
-play,1,1,gillj102,??,,D9/9L
-play,1,1,daviw102,??,,8
-play,1,1,fairr101,??,,7/F7D
-play,2,0,batte101,??,,63
-play,2,0,allib103,??,,23
-play,2,0,mincd101,??,,S8
-play,2,0,quilf101,??,,64(1)/FO
-play,2,1,johnl104,??,,D/78
-play,2,1,lefej101,??,,7/L
-play,2,1,parkw101,??,,8/F8D.2-3
-play,2,1,rosej101,??,,43
-play,3,0,pascc102,??,,13/G1
-play,3,0,versz101,??,,43
-play,3,0,nossj101,??,,43
-play,3,1,ostec103,??,,S7
-play,3,1,willm102,??,,64(1)/FO
-play,3,1,gillj102,??,,SB2
-play,3,1,gillj102,??,,63.2-3
-play,3,1,daviw102,??,,3/G
-play,4,0,olivt102,??,,K/C
-play,4,0,killh102,??,,63
-play,4,0,batte101,??,,63
-play,4,1,fairr101,??,,D7/7L
-play,4,1,johnl104,??,,13/SH.2-3
-play,4,1,lefej101,??,,S6/G.3-3
-play,4,1,parkw101,??,,W.1-2
-play,4,1,rosej101,??,,S9.3-H;2-H;1-2
-play,4,1,ostec103,??,,5/P
-play,4,1,willm102,??,,SB3;SB2
-play,4,1,willm102,??,,6/P
-play,5,0,allib103,??,,NP
+com,"Pitch-by-pitch courtesy of Phenia Films/NBC/CBC."
+com,"Stadium lights were on at the start of the game."
+play,1,0,versz101,00,X,DGR/L7LD
+play,1,0,nossj101,11,BSX,31/G34.2-3
+play,1,0,olivt102,11,CBX,43/G4MS
+play,1,0,killh102,31,BCBBB,W
+play,1,0,batte101,20,BBC,CSH(2625)
+com,"Attempted double steal"
+play,1,1,willm102,10,BX,53/BG25
+play,1,1,gillj102,32,BBBCCX,D9/G3L
+play,1,1,daviw102,11,BFX,8/L8D
+play,1,1,fairr101,22,CBBFX,7/F7D
+play,2,0,batte101,00,X,53/G5
+play,2,0,allib103,02,CFX,23/G2L
+play,2,0,mincd101,00,X,S8/G4M
+play,2,0,quilf101,12,BFCX,64(1)/FO/G6
+play,2,1,johnl104,11,LBX,D7/F78XDW
+play,2,1,lefej101,10,BX,7/F7
+play,2,1,parkw101,01,FX,8/F8D.2-3
+play,2,1,rosej101,10,BX,43/G34
+play,3,0,pascc102,01,FX,13/G1
+play,3,0,versz101,11,CBX,43/G4M
+play,3,0,nossj101,22,FCFFBBX,43/G4
+play,3,1,ostec103,01,CX,S7/G56
+play,3,1,willm102,00,X,64(1)/FO/G6
+play,3,1,gillj102,00,>C,SB2
+play,3,1,gillj102,12,>C.LBX,63/G6.2-3
+play,3,1,daviw102,11,SBX,3/G3
+play,4,0,olivt102,22,CSFFBBC,K/C
+play,4,0,killh102,31,SBBBX,63/G6
+play,4,0,batte101,00,X,63/G6
+play,4,1,fairr101,11,BSX,D7/G5L
+play,4,1,johnl104,00,X,13/BG23/SH.2-3
+play,4,1,lefej101,00,X,S6/G56.3-3
+com,"Versalles: great diving stop with infield in"
+play,4,1,parkw101,30,BBBB,W.1-2
+com,"On ball 4, Battey tried a pickoff to 3B"
+play,4,1,rosej101,10,BX,S9/G34/THH.3-H;2-H;1-2
+com,"Lefebvre injured his heel scoring on the play"
+play,4,1,ostec103,00,X,5/P56S
+play,4,1,willm102,00,>C,SB3;SB2
+play,4,1,willm102,12,>C.S*BX,6/P6MD
+play,5,0,allib103,00,,NP
 sub,tracd101,"Dick Tracewski",1,6,4
-com,"$Jim Lefebvre left with an injured heel"
-play,5,0,allib103,??,,K
-play,5,0,mincd101,??,,43
-play,5,0,quilf101,??,,3/P
-play,5,1,gillj102,??,,4/P
-play,5,1,daviw102,??,,S8
-play,5,1,fairr101,??,,43.1-2
-play,5,1,johnl104,??,,D/78.2-H
-play,5,1,tracd101,??,,63
-play,6,0,pascc102,??,,NP
+play,5,0,allib103,12,CFBS,K
+play,5,0,mincd101,21,BBCX,43/G4
+play,5,0,quilf101,00,X,3/P3
+play,5,1,gillj102,31,FBBBX,4/P3D
+play,5,1,daviw102,11,CBX,S8/L8
+play,5,1,fairr101,00,1>X,143/G4M.1-2
+com,"Off Pascual's glove"
+play,5,1,johnl104,01,F>X,D8/L78.2-H
+play,5,1,tracd101,20,BBX,63
+play,6,0,pascc102,00,,NP
 sub,rollr101,"Rich Rollins",0,9,11
-play,6,0,rollr101,??,,13/G1
-play,6,0,versz101,??,,S8
-play,6,0,nossj101,??,,S/89.1-3
-play,6,0,olivt102,??,,4(1)3/GDP
-play,6,1,parkw101,??,,NP
+play,6,0,rollr101,01,LX,13/G1
+play,6,0,versz101,11,CBX,S8/L78S
+play,6,0,nossj101,00,X,S9/L4D.1-3
+play,6,0,olivt102,00,X,4(1)3/GDP/G4M
+play,6,1,parkw101,00,,NP
 sub,merrj102,"Jim Merritt",0,9,1
-play,6,1,parkw101,??,,S8
-play,6,1,rosej101,??,,9
-play,6,1,ostec103,??,,14/SH.1-2
-play,6,1,willm102,??,,D/89.2-H
-play,6,1,gillj102,??,,PO2(14)
-play,7,0,killh102,??,,9
-play,7,0,batte101,??,,8
-play,7,0,allib103,??,,43
-play,7,1,gillj102,??,,7
-play,7,1,daviw102,??,,NP
+play,6,1,parkw101,21,BCBX,S8/L89
+play,6,1,rosej101,00,1X,9/F9S
+play,6,1,ostec103,02,C1LX,14/BG1S/SH.1-2
+play,6,1,willm102,00,X,D9/L89.2-H
+com,"Nossek just missed a diving catch; Oliva backed up the play"
+com,"nicely."
+play,6,1,gillj102,00,2,PO2(14)
+play,7,0,killh102,00,X,9/F9
+play,7,0,batte101,10,BX,8/F8D
+play,7,0,allib103,01,CX,43/G4M
+play,7,1,gillj102,21,CBBX,7/L7
+play,7,1,daviw102,11,,NP
 sub,zimmj101,"Jerry Zimmerman",0,5,2
-com,"$Earl Battey injured running into the dugout railing in an"
-com,"attempt to catch a foul pop by Willie Davis"
-play,7,1,daviw102,??,,9/FL
-play,7,1,fairr101,??,,8/L
-play,8,0,mincd101,??,,NP
+com,"$Battey injured his neck/jaw running into the dugout railing"
+com,"attempting to catch a foul pop."
+play,7,1,daviw102,22,BFBSX,9/F9LDF/FL
+com,"Oliva: fine catch"
+play,7,1,fairr101,21,SBBX,8/L78XD
+com,"Nossek: running catch"
+play,8,0,mincd101,00,,NP
 sub,kennj105,"John Kennedy",1,2,5
-play,8,0,mincd101,??,,31
-play,8,0,quilf101,??,,E5/G.B-1
-play,8,0,merrj102,??,,NP
+play,8,0,mincd101,32,BCSBFBFX,31/G3
+play,8,0,quilf101,32,CBCFBBX,E5/G5.B-1
+com,"Through Kennedy into LF"
+play,8,0,merrj102,00,,NP
 sub,valds101,"Sandy Valdespino",0,9,11
-play,8,0,valds101,??,,4/P
-play,8,0,versz101,??,,W.1-2
-play,8,0,nossj101,??,,6/P
-play,8,1,johnl104,??,,NP
+play,8,0,valds101,01,FX,4/P4
+play,8,0,versz101,30,BBBB,W.1-2
+play,8,0,nossj101,00,X,6/P56D
+play,8,1,johnl104,00,,NP
 sub,klipj101,"Johnny Klippstein",0,9,1
-play,8,1,johnl104,??,,W
-play,8,1,tracd101,??,,K+CS2(26)/DP
-play,8,1,parkw101,??,,6/P
-play,9,0,olivt102,??,,S8
-play,9,0,killh102,??,,8
-play,9,0,zimmj101,??,,6(1)3/GDP
+play,8,1,johnl104,32,SFFBBFBB,W
+play,8,1,tracd101,22,CPCB>F>S,K+CS2(26)/DP
+play,8,1,parkw101,00,X,6/P5D
+play,9,0,olivt102,11,BCX,S8/L8
+play,9,0,killh102,00,X,8/F78
+play,9,0,zimmj101,11,CBX,6(1)3/GDP/G6
 data,er,pascc102,3
 data,er,merrj102,1
 data,er,klipj101,0
@@ -449,17 +474,17 @@ info,ump3b,hurle901
 info,umplf,venzt901
 info,umprf,flahr901
 info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/29 2:56AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,cloudy
 info,timeofgame,135
 info,attendance,55920
 info,wp,drysd101
@@ -484,90 +509,109 @@ start,parkw101,"Wes Parker",1,6,3
 start,rosej101,"John Roseboro",1,7,2
 start,tracd101,"Dick Tracewski",1,8,4
 start,drysd101,"Don Drysdale",1,9,1
-play,1,0,versz101,??,,7
-play,1,0,valds101,??,,S7.BX2(74)
-play,1,0,olivt102,??,,5/FL
-play,1,1,willm102,??,,S3/G
-play,1,1,gillj102,??,,7
-play,1,1,daviw102,??,,SB2
-play,1,1,daviw102,??,,S/G23.2-3
-play,1,1,fairr101,??,,46(1)/FO.3-H
-play,1,1,johnl104,??,,4/P
-play,2,0,killh102,??,,W
-play,2,0,hallj107,??,,K/C
-play,2,0,mincd101,??,,K
-play,2,0,batte101,??,,K/C
-play,2,1,parkw101,??,,S/BG34S
-play,2,1,rosej101,??,,SB2
-play,2,1,rosej101,??,,WP.2-3
-play,2,1,rosej101,??,,E4/G.3-H(UR)(NR);B-1
-play,2,1,tracd101,??,,3/FL/BP
-play,2,1,drysd101,??,,K+CS2(26)/C/DP
-play,3,0,quilf101,??,,8
-play,3,0,granj101,??,,K/C
-play,3,0,versz101,??,,S8
-play,3,0,valds101,??,,8
-play,3,1,willm102,??,,S6/G
-play,3,1,gillj102,??,,CS2(24)
-play,3,1,gillj102,??,,5/FL
-play,3,1,daviw102,??,,3/G
-play,4,0,olivt102,??,,13/G1
-play,4,0,killh102,??,,HR/7D
-play,4,0,hallj107,??,,63
-play,4,0,mincd101,??,,53
-play,4,1,fairr101,??,,3/FL
-play,4,1,johnl104,??,,9
-play,4,1,parkw101,??,,HR/9D
-play,4,1,rosej101,??,,3/L
-play,5,0,batte101,??,,K/C
-play,5,0,quilf101,??,,43
-play,5,0,granj101,??,,43
-play,5,1,tracd101,??,,43
-play,5,1,drysd101,??,,K
-play,5,1,willm102,??,,63
-play,6,0,versz101,??,,63
-play,6,0,valds101,??,,K23
-play,6,0,olivt102,??,,HR/9D
-play,6,0,killh102,??,,K/C
-play,6,1,gillj102,??,,W
-play,6,1,daviw102,??,,S9.1-3;B-2(TH3)
-play,6,1,fairr101,??,,NP
+com,"Pitch-by-pitch courtesy of Phenia Films/NBC/CBC."
+com,"Stadium lights were on at the start of the game, but were"
+com,"turned off in the 3rd inning when the sun broke through."
+play,1,0,versz101,12,CCBFX,7/F7
+play,1,0,valds101,11,CBX,S7/L7L.BX2(74)
+com,"Valdespino and Mgr Mele argued the decision at 2B"
+play,1,0,olivt102,12,CFFBX,5/P5F/FL
+play,1,1,willm102,22,CFBBFFX,S3/G34S
+com,"Mincher's underhand throw eluded Grant; as Wills passed 1B"
+com,"he collided hard with Quilici."
+play,1,1,gillj102,10,1BX,7/F7
+play,1,1,daviw102,01,C>B,SB2
+play,1,1,daviw102,12,C>B.CX,S3/G3L.2-3
+com,"Grant was late covering 1B"
+play,1,1,fairr101,01,SX,46(1)/FO/G4.3-H
+com,"Davis' hard slide into 2B forced a weak, late throw to 1B by"
+com,"Versalles."
+play,1,1,johnl104,10,BX,4/P4D
+play,2,0,killh102,32,BSBSBB,W
+play,2,0,hallj107,12,BCSC,K/C
+play,2,0,mincd101,22,SBFBFS,K
+play,2,0,batte101,12,CBCC,K/C
+play,2,1,parkw101,00,X,S4/BG4S
+play,2,1,rosej101,01,L>B,SB2.1-3(WP)
+play,2,1,rosej101,11,L>B.X,E4/G4.3-H(NR)(UR);B-1
+com,"Infield in; through Quilici's legs into CF"
+play,2,1,tracd101,00,X,3/BP23F/FL
+play,2,1,drysd101,12,SF1B>C,K+CS2(26)/C/DP
+play,3,0,quilf101,10,BX,8/F78S
+play,3,0,granj101,02,CFC,K/C
+play,3,0,versz101,21,BBFX,S8/G6M
+play,3,0,valds101,10,B1X,8/F8
+play,3,1,willm102,00,X,S6/G56
+play,3,1,gillj102,20,B1B>S,CS2(24)
+play,3,1,gillj102,21,B1B>S.X,5/P5F/FL
+play,3,1,daviw102,00,X,3/G3L
+play,4,0,olivt102,22,FBBFX,13/G1
+play,4,0,killh102,02,SFX,HR/F78XD
+com,"Deep into LCF seats, over the 380' sign"
+play,4,0,hallj107,00,X,63/G6M
+play,4,0,mincd101,00,X,53/G5
+play,4,1,fairr101,20,BBX,3/P3F/FL
+play,4,1,johnl104,01,CX,9/F89S
+play,4,1,parkw101,00,X,HR/F9D
+com,"Into RF seats, over 370' sign"
+play,4,1,rosej101,10,BX,3/L34
+com,"Mincher: nice play"
+play,5,0,batte101,02,CCC,K/C
+play,5,0,quilf101,10,BX,43/G4
+play,5,0,granj101,02,SCX,43/G4
+play,5,1,tracd101,21,SBBX,43/G4M
+play,5,1,drysd101,32,CBCFBBS,K
+play,5,1,willm102,31,BBCBX,63/G6
+play,6,0,versz101,02,CFX,63/G6S
+com,"Wills: nice play"
+play,6,0,valds101,12,BCCS,K23
+play,6,0,olivt102,22,FBFBX,HR/F89XD
+com,"Into RCF seats, just left of 380' sign"
+play,6,0,killh102,12,CBFC,K/C
+play,6,1,gillj102,32,BFCBFFBB,W
+play,6,1,daviw102,21,FBBX,S9/G34.1-3;B-2(TH3)
+play,6,1,fairr101,00,,NP
 sub,worta101,"Al Worthington",0,9,1
-play,6,1,fairr101,??,,S8.3-H;2-H;B-2(THH)
-play,6,1,johnl104,??,,S1/BG.2-H(UR)(E1/TH1);BX2(464)
-play,6,1,parkw101,??,,K
-play,6,1,rosej101,??,,W
-play,6,1,tracd101,??,,8/F89S
-play,7,0,hallj107,??,,K
-play,7,0,mincd101,??,,K
-play,7,0,batte101,??,,9
-play,7,1,drysd101,??,,NP
+play,6,1,fairr101,01,FX,S8/G6M.3-H;2-H;B-2(THH)
+com,"Infield in"
+play,6,1,johnl104,31,BBBCX,S1/BG1S.2-H(NR)(UR)(E1/TH1);BX2(464)
+com,"Quilici was late covering 1B causing Worthington to"
+com,"hesitate before hastily throwing low."
+play,6,1,parkw101,22,SFBBS,K
+play,6,1,rosej101,31,BBCBB,W
+play,6,1,tracd101,31,BSBBX,8/F78S
+play,7,0,hallj107,02,FFT,K
+play,7,0,mincd101,32,BBBCFT,K
+play,7,0,batte101,10,BX,9/F89S
+play,7,1,drysd101,00,,NP
 sub,zimmj101,"Jerry Zimmerman",0,7,2
-play,7,1,drysd101,??,,K/C
-play,7,1,willm102,??,,6/P5D
-play,7,1,gillj102,??,,HP
-play,7,1,daviw102,??,,NP
+play,7,1,drysd101,12,BFCC,K/C
+play,7,1,willm102,32,CBBCBX,6/P5D
+play,7,1,gillj102,01,FH,HP
+play,7,1,daviw102,00,,NP
 sub,kennj105,"John Kennedy",1,2,12
-play,7,1,daviw102,??,,3/G
-play,8,0,quilf101,??,,NP
+play,7,1,daviw102,00,X,3/G3
+play,8,0,quilf101,00,,NP
 sub,kennj105,"John Kennedy",1,2,5
-play,8,0,quilf101,??,,6/P
-play,8,0,worta101,??,,NP
+play,8,0,quilf101,22,BBCSX,6/P6MD
+play,8,0,worta101,00,,NP
 sub,nossj101,"Joe Nossek",0,9,11
-play,8,0,nossj101,??,,S8
-play,8,0,versz101,??,,54(1)/FO
-play,8,0,valds101,??,,8/L
-play,8,1,fairr101,??,,NP
+play,8,0,nossj101,00,X,S8/L8
+play,8,0,versz101,00,11X,54(1)/FO/G5L
+com,"Kennedy: great backhanded stop"
+play,8,0,valds101,22,FBBFFFX,8/L8
+play,8,1,fairr101,00,,NP
 sub,pleib101,"Bill Pleis",0,9,1
-play,8,1,fairr101,??,,9
-play,8,1,johnl104,??,,HR/7D
-play,8,1,parkw101,??,,13/G1
-play,8,1,rosej101,??,,S/BG
-play,8,1,tracd101,??,,7/F7D
-play,9,0,olivt102,??,,43
-play,9,0,killh102,??,,W
-play,9,0,hallj107,??,,K/C
-play,9,0,mincd101,??,,K
+play,8,1,fairr101,10,BX,9/F9
+play,8,1,johnl104,02,CFX,HR/L7LD
+com,"Into LF seats near the foul pole"
+play,8,1,parkw101,10,BX,13/G1
+play,8,1,rosej101,00,X,S1/BG3S
+play,8,1,tracd101,02,CCX,7/F7
+play,9,0,olivt102,11,FBX,43/G34
+play,9,0,killh102,31,BFBBB,W
+play,9,0,hallj107,22,BCFBC,K/C
+play,9,0,mincd101,32,F*BBFB>S,K
 data,er,granj101,4
 data,er,worta101,0
 data,er,pleib101,1
@@ -590,17 +634,17 @@ info,ump3b,venzt901
 info,umplf,flahr901
 info,umprf,sudoe901
 info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/29 6:19AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,154
 info,attendance,55801
 info,wp,koufs101
@@ -625,92 +669,104 @@ start,parkw101,"Wes Parker",1,6,3
 start,tracd101,"Dick Tracewski",1,7,4
 start,rosej101,"John Roseboro",1,8,2
 start,koufs101,"Sandy Koufax",1,9,1
-play,1,0,versz101,??,,63
-play,1,0,nossj101,??,,63/G56D
-play,1,0,olivt102,??,,13/BG1
-play,1,1,willm102,??,,DGR/9D
-play,1,1,gillj102,??,,S/89.2-H
-play,1,1,daviw102,??,,5E4/SH.1-H(UR)(NR);B-3
-play,1,1,johnl104,??,,4/P
+com,"Pitch-by-pitch courtesy of Phenia Films/NBC/CBC"
+play,1,0,versz101,22,LBBFX,63/G6
+play,1,0,nossj101,12,CBCX,63/G56D
+com,"Wills: good play"
+play,1,0,olivt102,11,BSX,13/BG1S
+play,1,1,willm102,11,CBX,DGR/L9LD
+play,1,1,gillj102,32,BFBBFX,S9/L4D.2-H
+play,1,1,daviw102,00,X,5E4/BG25/SH.1-H(NR)(UR);B-3
+play,1,1,johnl104,22,BFBFX,4/P4S
 play,1,1,fairr101,??,,9/F9S
 play,1,1,parkw101,??,,13/G1
 play,2,0,killh102,??,,K
 play,2,0,batte101,??,,9
 play,2,0,allib103,??,,K
-play,2,1,tracd101,??,,S6/G
-play,2,1,rosej101,??,,FC1.1-2;B-1
-play,2,1,koufs101,??,,K
-play,2,1,willm102,??,,CS3(25).1-2
-play,2,1,willm102,??,,43
-play,3,0,mincd101,??,,8
-play,3,0,quilf101,??,,K
-play,3,0,kaatj101,??,,K/BF
-play,3,1,gillj102,??,,53
-play,3,1,daviw102,??,,S9
-play,3,1,johnl104,??,,SB2
-play,3,1,johnl104,??,,S8.2-H
-play,3,1,fairr101,??,,D/78.1-H
-play,3,1,parkw101,??,,NP
+play,2,1,tracd101,10,BX,S6/G56D
+play,2,1,rosej101,22,SCBFFBX,FC1/L1/TH2.1-2;B-1
+com,"Lined off Kaat's glove; he recovered but threw late to 2B"
+play,2,1,koufs101,12,2CLBS,K
+com,"Versalles literally straddled 2B before each pitch during this"
+com,"at-bat; he made a great stab of Kaat's wide pickoff throw."
+play,2,1,willm102,00,>B,CS3(25).1-2
+play,2,1,willm102,20,>B.BX,43/G4
+play,3,0,mincd101,02,SCX,8/F89S
+play,3,0,quilf101,12,SBCS,K
+play,3,0,kaatj101,02,SML,K/BP2F/FL
+play,3,1,gillj102,01,CX,53/G5L
+play,3,1,daviw102,00,X,S9/L89
+play,3,1,johnl104,00,>B,SB2
+play,3,1,johnl104,10,>B.X,S8/L6MD.2-H
+play,3,1,fairr101,11,C1BX,D8/78.1-H
+play,3,1,parkw101,00,,NP
 sub,boswd101,"Dave Boswell",0,9,1
-play,3,1,parkw101,??,,3/G.2-3
-play,3,1,tracd101,??,,W
-play,3,1,rosej101,??,,K
-play,4,0,versz101,??,,9
-play,4,0,nossj101,??,,63
-play,4,0,olivt102,??,,K/C
-play,4,1,koufs101,??,,K/C
-play,4,1,willm102,??,,S6/G
-play,4,1,gillj102,??,,SB2
-play,4,1,gillj102,??,,S/89.2-H
-play,4,1,daviw102,??,,46(1)/FO
-play,4,1,johnl104,??,,SB2
-play,4,1,johnl104,??,,43
-play,5,0,killh102,??,,S8/F8S
-play,5,0,batte101,??,,64(1)3/GDP
-play,5,0,allib103,??,,K
-play,5,1,fairr101,??,,S8
-play,5,1,parkw101,??,,7/F7D
-play,5,1,tracd101,??,,7/L
-play,5,1,rosej101,??,,W.1-2
-play,5,1,koufs101,??,,K/C
-play,6,0,mincd101,??,,K
-play,6,0,quilf101,??,,4/P
-play,6,0,boswd101,??,,NP
+play,3,1,parkw101,11,SBX,3/G3.2-3
+play,3,1,tracd101,31,BFBBB,W
+play,3,1,rosej101,22,S*BBFFS,K
+play,4,0,versz101,21,BCBX,9/F9S
+play,4,0,nossj101,02,SFX,63/G6
+play,4,0,olivt102,12,SCFFBC,K/C
+play,4,1,koufs101,02,SCC,K/C
+play,4,1,willm102,00,X,S6/G6S
+play,4,1,gillj102,00,111111>C,SB2
+play,4,1,gillj102,22,111111>CBFFBX,S8/L89.2-H
+play,4,1,daviw102,20,B1BX,46(1)/FO/G4
+play,4,1,johnl104,10,B>S,SB2
+com,"Davis: great jump, no throw"
+play,4,1,johnl104,11,B>S.X,43/G4
+play,5,0,killh102,12,SBSX,S8/F8S
+com,"Davis initially lost it in the sun, then missed diving a catch"
+play,5,0,batte101,00,X,64(1)3/GDP/G56
+play,5,0,allib103,22,LFBBS,K
+play,5,1,fairr101,32,CBBSBX,S8/L8
+play,5,1,parkw101,10,B>X,7/F7D
+play,5,1,tracd101,32,B+1FMBB>X,7/L7D
+play,5,1,rosej101,32,BSBSB1>F>B,W.1-2
+play,5,1,koufs101,32,BFBSB>C,K/C
+play,6,0,mincd101,32,CBBSBS,K
+play,6,0,quilf101,00,X,4/P4D
+play,6,0,boswd101,00,,NP
 sub,rollr101,"Rich Rollins",0,9,11
-play,6,0,rollr101,??,,7/F7D
-play,6,1,willm102,??,,NP
+play,6,0,rollr101,31,BBFBX,7/F7D
+play,6,1,willm102,00,,NP
 sub,perrj102,"Jim Perry",0,9,1
-play,6,1,willm102,??,,D/78
-play,6,1,gillj102,??,,6/P
-play,6,1,daviw102,??,,K
-play,6,1,johnl104,??,,9
-play,7,0,versz101,??,,NP
+play,6,1,willm102,22,BCCBX,D8/F89
+com,"Off Nossek's glove on the short hop allowing Wills to advance"
+play,6,1,gillj102,21,BCBX,6/P6MD
+play,6,1,daviw102,12,FSBS,K
+play,6,1,johnl104,02,CS>FX,9/F9
+play,7,0,versz101,00,,NP
 sub,kennj105,"John Kennedy",1,2,5
-play,7,0,versz101,??,,K
-play,7,0,nossj101,??,,S6/G
-play,7,0,olivt102,??,,K
-play,7,0,killh102,??,,7/L
-play,7,1,fairr101,??,,S6/G
-play,7,1,parkw101,??,,14/SH.1-2
-play,7,1,tracd101,??,,K/C
-play,7,1,rosej101,??,,IW
-play,7,1,koufs101,??,,S/78.2-H;1-2
-play,7,1,willm102,??,,S8.2-H;1-2
-play,7,1,kennj105,??,,7
-play,8,0,batte101,??,,63
-play,8,0,allib103,??,,W
-play,8,0,mincd101,??,,64(1)3/GDP
-play,8,1,daviw102,??,,S8
-play,8,1,johnl104,??,,8/F8D
-play,8,1,fairr101,??,,SB2
-play,8,1,fairr101,??,,8/F8D.2-3
-play,8,1,parkw101,??,,K/C
-play,9,0,quilf101,??,,S9/9L
-play,9,0,perrj102,??,,NP
+play,7,0,versz101,12,CBSS,K
+play,7,0,nossj101,10,BX,S6/G56
+play,7,0,olivt102,32,BBCBCFS,K
+play,7,0,killh102,21,BBFX,7/L7LD
+play,7,1,fairr101,31,BCBBX,S6/G56D
+play,7,1,parkw101,10,BX,14/BG23/SH.1-2
+play,7,1,tracd101,02,CCC,K/C
+play,7,1,rosej101,30,IIII,IW
+play,7,1,koufs101,01,SX,S8/L78.2-H;1-2
+play,7,1,willm102,22,FB>FBX,S8/G4M.2-H;1-2
+play,7,1,kennj105,12,CBFX,7/F7LS
+com,"Allison: good running catch"
+play,8,0,batte101,10,BX,63/G6
+play,8,0,allib103,31,BBBCB,W
+play,8,0,mincd101,01,FX,64(1)3/GDP/G6M
+com,"Wills: good stop and backhanded flip to Tracewski whose"
+com,"leaping throw to 1B was low but scooped by Parker."
+play,8,1,daviw102,00,X,S8/L6MD
+play,8,1,johnl104,12,FFBFFX,8/F8XDW
+play,8,1,fairr101,01,S>S,SB2
+com,"No throw"
+play,8,1,fairr101,32,S>S.BBBX,8/F8XDW.2-3
+play,8,1,parkw101,32,BBC+3FBFC,K/C
+play,9,0,quilf101,01,FX,S9/F9LS
+play,9,0,perrj102,00,,NP
 sub,valds101,"Sandy Valdespino",0,9,11
-play,9,0,valds101,??,,S9.1-2
-play,9,0,versz101,??,,K
-play,9,0,nossj101,??,,6(B)4(2)/LDP
+play,9,0,valds101,21,BBCX,S9/L34D.1-2
+play,9,0,versz101,02,FSS,K
+play,9,0,nossj101,32,BBBCSX,6/L6/DP.2X2(64)
 data,er,kaatj101,3
 data,er,boswd101,1
 data,er,perrj102,2
@@ -733,17 +789,17 @@ info,ump3b,flahr901
 info,umplf,sudoe901
 info,umprf,stewb902
 info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/29 6:27AM
 info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,pitches,pitches
+info,temp,54
+info,winddir,fromcf
+info,windspeed,5
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,136
 info,attendance,49578
 info,wp,granj101
@@ -768,83 +824,91 @@ start,allib103,"Bob Allison",1,6,7
 start,mincd101,"Don Mincher",1,7,3
 start,quilf101,"Frank Quilici",1,8,4
 start,granj101,"Jim Grant",1,9,1
-play,1,0,willm102,??,,3/G
-play,1,0,gillj102,??,,7/F7S
-play,1,0,daviw102,??,,8
-play,1,1,versz101,??,,S9
-play,1,1,nossj101,??,,16(1)3/GDP
-play,1,1,olivt102,??,,S7
-play,1,1,killh102,??,,54(1)/FO
-play,2,0,fairr101,??,,8/L
-play,2,0,johnl104,??,,3/FL
-play,2,0,parkw101,??,,43
-play,2,1,batte101,??,,T8/F8S
-com,"$Willie Davis missed a shoestring catch"
-play,2,1,allib103,??,,K
-play,2,1,mincd101,??,,W
-play,2,1,quilf101,??,,K/C
-play,2,1,granj101,??,,6/P
-play,3,0,rosej101,??,,E5/P.B-1
-play,3,0,tracd101,??,,K+CS2(26)/DP
-play,3,0,ostec103,??,,7/F7D
-play,3,1,versz101,??,,W
-play,3,1,nossj101,??,,63.1-2
-play,3,1,olivt102,??,,53.2-3
-play,3,1,killh102,??,,63
-play,4,0,willm102,??,,63
-play,4,0,gillj102,??,,4/P9LSF
-play,4,0,daviw102,??,,3/G
-play,4,1,batte101,??,,E4/G.B-1
-play,4,1,allib103,??,,HR/7D.1-H(UR)
-play,4,1,mincd101,??,,43
-play,4,1,quilf101,??,,W
-play,4,1,granj101,??,,53.1-2
-play,4,1,versz101,??,,6/P
-play,5,0,fairr101,??,,S8
-play,5,0,johnl104,??,,54(1)/FO
-play,5,0,parkw101,??,,43.1-2
-play,5,0,rosej101,??,,K/C
-play,5,1,nossj101,??,,3/FL
-play,5,1,olivt102,??,,63
-play,5,1,killh102,??,,43
-play,6,0,tracd101,??,,S7
-play,6,0,ostec103,??,,NP
+com,"Pitch-by-pitch courtesy of Phenia Films/NBC/CBC"
+play,1,0,willm102,02,FFX,3/G3S
+com,"Mincher tagged Wills"
+play,1,0,gillj102,01,FX,7/F78S
+play,1,0,daviw102,01,FX,8/F8
+play,1,1,versz101,00,X,S9/G4
+play,1,1,nossj101,11,C1BX,16(1)3/GDP/G1
+play,1,1,olivt102,32,BFFBBX,S7/G56
+play,1,1,killh102,21,BBCX,54(1)/FO/G5
+play,2,0,fairr101,10,BX,8/L8
+play,2,0,johnl104,12,BCCX,3/P23F/FL
+play,2,0,parkw101,10,BX,43/G4
+play,2,1,batte101,20,BBX,T7/F78S
+com,"$Willie Davis missed a shoestring catch and it got by Johnson"
+com,"as well; Wills muffed relay."
+play,2,1,allib103,22,SCBBS,K
+play,2,1,mincd101,32,BBSFBB,W
+play,2,1,quilf101,12,BLCFC,K/C
+play,2,1,granj101,12,FFBX,6/P56
+play,3,0,rosej101,00,X,E5/P5.B-1
+play,3,0,tracd101,32,BBBC1C1>C,K+CS2(26)/DP/C
+play,3,0,ostec103,02,FCX,7/F7D
+play,3,1,versz101,32,BBBCFB,W
+play,3,1,nossj101,10,P>X,63/G6.1-2
+play,3,1,olivt102,01,FX,53/G56S
+play,3,1,killh102,01,CX,63/G56
+play,4,0,willm102,11,CBX,63/G6
+play,4,0,gillj102,01,FX,4/P3DF
+play,4,0,daviw102,01,FX,3/G3L
+play,4,1,batte101,12,CSBFX,E4/G4M.B-1
+play,4,1,allib103,02,FSX,HR/F7D.1-H(UR)
+com,"Into LF bleachers"
+play,4,1,mincd101,11,BCX,43/G4
+play,4,1,quilf101,31,BBBCB,W
+play,4,1,granj101,00,1X,53/G56S.1-2
+play,4,1,versz101,00,X,6/P6M
+play,5,0,fairr101,01,FX,S8/G4M
+play,5,0,johnl104,00,X,54(1)/FO/G5
+play,5,0,parkw101,22,FBBCX,43/G4.1-2
+play,5,0,rosej101,32,BBSFBFC,K/C
+play,5,1,nossj101,12,FSBX,3/P3F/FL
+play,5,1,olivt102,12,FBFX,63/G6
+play,5,1,killh102,21,SBBX,43/G4
+play,6,0,tracd101,01,FX,S7/L56D
+play,6,0,ostec103,00,,NP
 sub,craww101,"Willie Crawford",0,9,11
-play,6,0,craww101,??,,K
-play,6,0,willm102,??,,S8.1-2
-play,6,0,gillj102,??,,6/P56D
-play,6,0,daviw102,??,,8
-play,6,1,batte101,??,,NP
+play,6,0,craww101,22,CCBBS,K
+play,6,0,willm102,02,FSX,S8/G6M.1-2
+play,6,0,gillj102,02,CCX,6/P6D
+play,6,0,daviw102,12,CBSX,8/F8
+play,6,1,batte101,00,,NP
 sub,reedh102,"Howie Reed",0,9,1
-play,6,1,batte101,??,,31
-play,6,1,allib103,??,,W
-play,6,1,mincd101,??,,K+SB2/C
-play,6,1,quilf101,??,,IW
-play,6,1,granj101,??,,HR/78D.2-H;1-H
-play,6,1,versz101,??,,K
-play,7,0,fairr101,??,,HR/89D
-play,7,0,johnl104,??,,K
-play,7,0,parkw101,??,,13/G1
-play,7,0,rosej101,??,,S7
-play,7,0,tracd101,??,,8
-play,7,1,nossj101,??,,K
-play,7,1,olivt102,??,,S/89
-play,7,1,killh102,??,,6/P7LSF
-play,7,1,batte101,??,,9
-play,8,0,reedh102,??,,NP
+play,6,1,batte101,11,CBX,31/G3L
+com,"Parker: diving backhanded stop"
+play,6,1,allib103,32,BBCCBB,W
+play,6,1,mincd101,32,BBCFFB>C,K+SB2/C
+play,6,1,quilf101,30,IIII,IW
+play,6,1,granj101,00,X,HR/F78XD.2-H;1-H
+com,"Into LCF bleachers"
+play,6,1,versz101,12,SSBS,K
+play,7,0,fairr101,12,SFBX,HR/F89XD
+com,"Over RCF fence, into bullpen"
+play,7,0,johnl104,22,FBBFFS,K
+play,7,0,parkw101,00,X,13/G15
+com,"Grant: leaping stop"
+play,7,0,rosej101,11,CBX,S7/L56D
+play,7,0,tracd101,22,KSBBX,8/F8
+play,7,1,nossj101,22,BBCCS,K
+play,7,1,olivt102,22,BBCCX,S9/L89
+play,7,1,killh102,10,BX,6/P5DF
+play,7,1,batte101,01,CX,9/F89
+play,8,0,reedh102,00,,NP
 sub,moonw101,"Wally Moon",0,9,11
-play,8,0,moonw101,??,,43
-play,8,0,willm102,??,,K/C
-play,8,0,gillj102,??,,63
-play,8,1,allib103,??,,NP
+play,8,0,moonw101,32,FBBCBFX,43/G34
+play,8,0,willm102,12,CFBC,K/C
+play,8,0,gillj102,01,CX,63/G6
+play,8,1,allib103,00,,NP
 sub,millb106,"Bob Miller",0,9,1
-play,8,1,allib103,??,,4/P4D
-play,8,1,mincd101,??,,43
-play,8,1,quilf101,??,,8
-play,9,0,daviw102,??,,5/FL
-play,9,0,fairr101,??,,63
-play,9,0,johnl104,??,,S7
-play,9,0,parkw101,??,,43
+play,8,1,allib103,10,BX,4/P4D
+play,8,1,mincd101,12,SCBX,43/G4M
+play,8,1,quilf101,10,BX,8/F8
+play,9,0,daviw102,01,CX,5/P25F/FL
+play,9,0,fairr101,12,SBCX,63/G6
+play,9,0,johnl104,12,FFFFBX,S7/L7S
+play,9,0,parkw101,02,FSX,43/G4
 data,er,ostec103,1
 data,er,reedh102,3
 data,er,millb106,0

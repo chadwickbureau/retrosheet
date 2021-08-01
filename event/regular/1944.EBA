@@ -16104,8 +16104,8 @@ stat,dline,peter101,1,1,4,27,6,7,0,3,0,0
 stat,dline,kennv101,1,1,1,13,0,0,0,0,0,0
 stat,dline,kliee101,1,1,1,14,0,0,0,0,0,0
 stat,pline,juddo101,0,1,15,-1,25,6,-1,-1,0,6,3,3,-1,0,0,0,0,0,0
-stat,pline,woodp102,0,2,6,-1,7,0,-1,-1,0,0,0,2,-1,0,0,0,0,0,0
-stat,pline,rybam101,0,3,3,-1,6,1,-1,-1,0,1,0,1,-1,0,0,0,0,1,0
+stat,pline,woodp102,0,2,6,-1,8,0,-1,-1,0,0,0,2,-1,0,0,0,0,1,0
+stat,pline,rybam101,0,3,3,-1,5,1,-1,-1,0,1,0,1,-1,0,0,0,0,0,0
 stat,pline,kennv101,1,1,13,-1,21,3,-1,-1,0,2,2,7,-1,1,0,0,0,0,0
 stat,pline,kliee101,1,2,14,-1,19,6,-1,-1,1,2,2,1,-1,0,0,0,0,0,0
 event,dpline,0,newss101,doerb101,cronj101
@@ -42844,16 +42844,16 @@ stat,dline,dickj102,1,1,7,27,1,1,0,0,0,0
 stat,dline,hodgr101,1,1,5,-1,1,5,0,1,0,0
 stat,dline,clarg102,1,1,5,-1,0,0,0,0,0,0
 stat,dline,curtg102,1,1,9,27,3,0,0,0,0,0
-stat,dline,trosh101,1,1,3,27,9,0,1,0,0,0
+stat,dline,trosh101,1,1,3,27,9,0,1,1,0,0
 stat,dline,michc101,1,1,6,27,2,1,2,0,0,0
-stat,dline,tresm101,1,1,2,27,6,2,0,1,0,0
+stat,dline,tresm101,1,1,2,27,6,2,0,0,0,0
 stat,dline,dietb101,1,1,1,1,0,0,0,0,0,0
 stat,dline,lopae101,1,1,1,26,0,3,0,0,0,0
 stat,pline,overs101,0,1,27,-1,36,7,2,0,0,3,3,1,-1,2,0,0,0,0,0
 stat,pline,dietb101,1,1,1,-1,7,4,-1,-1,0,5,3,1,-1,0,0,0,0,0,0
 stat,pline,lopae101,1,2,26,-1,38,15,-1,-1,0,5,2,0,-1,4,0,0,0,0,0
 event,dpline,0,hoovj101,mayoe101,orenj101
-event,dpline,1,hodgr101,tresm101
+event,dpline,1,hodgr101,trosh101
 line,0,5,0,2,0,0,0,0,0,3
 line,1,0,0,0,0,1,0,0,0,2
 stat,tline,0,8,0,1,0
@@ -57598,7 +57598,7 @@ info,save,
 info,gwrbi,
 start,halli101,"Irv Hall",0,1,4
 start,eppsh101,"Hal Epps",0,2,8
-start,metrc101,"Charlie Metro",0,3,7
+start,garrf101,"Ford Garrison",0,3,7
 start,rosel101,"Larry Rosenthal",0,4,9
 start,siebd102,"Dick Siebert",0,5,3
 start,busce101,"Ed Busch",0,6,6
@@ -57617,8 +57617,8 @@ start,carra101,"Alex Carrasquel",1,9,1
 stat,bline,halli101,0,1,1,3,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,burnj101,0,1,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,eppsh101,0,2,1,4,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,bline,metrc101,0,3,1,3,0,1,0,0,0,1,0,0,0,0,-1,1,0,0,0,0
-stat,bline,garrf101,0,3,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,garrf101,0,3,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,metrc101,0,3,2,3,0,1,0,0,0,1,0,0,0,0,-1,1,0,0,0,0
 stat,bline,rosel101,0,4,1,4,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,0,0
 stat,bline,siebd102,0,5,1,4,0,2,1,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,busce101,0,6,1,3,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,0,0
@@ -57638,16 +57638,16 @@ stat,bline,torrg101,1,7,1,3,0,1,0,0,0,1,0,0,0,1,-1,0,0,0,0,0
 stat,bline,guerm102,1,8,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,carra101,1,9,1,4,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,0,0
 stat,phline,mcghb101,-1,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,1,0
-stat,dline,halli101,0,1,4,-1,2,0,0,0,0,0
-stat,dline,burnj101,0,1,4,-1,0,3,0,0,0,0
+stat,dline,halli101,0,1,4,15,2,0,0,0,0,0
+stat,dline,burnj101,0,1,4,9,0,3,0,0,0,0
 stat,dline,eppsh101,0,1,8,24,0,1,0,0,0,0
-stat,dline,metrc101,0,1,7,-1,4,0,0,0,0,0
-stat,dline,garrf101,0,1,7,-1,0,0,0,0,0,0
+stat,dline,garrf101,0,1,7,3,0,0,0,0,0,0
+stat,dline,metrc101,0,1,7,21,4,0,0,0,0,0
 stat,dline,rosel101,0,1,9,24,0,0,0,0,0,0
 stat,dline,siebd102,0,1,3,24,8,0,0,1,0,0
 stat,dline,busce101,0,1,6,24,3,3,1,1,0,0
-stat,dline,hayef101,0,1,2,-1,0,0,0,0,0,0
-stat,dline,garbb102,0,1,2,-1,4,0,0,0,0,0
+stat,dline,hayef101,0,1,2,9,0,0,0,0,0,0
+stat,dline,garbb102,0,1,2,15,4,0,0,0,0,0
 stat,dline,kellg102,0,1,5,24,3,1,0,0,0,0
 stat,dline,blacd101,0,1,1,9,0,1,0,0,0,0
 stat,dline,hamll101,0,1,1,15,0,0,0,0,0,0

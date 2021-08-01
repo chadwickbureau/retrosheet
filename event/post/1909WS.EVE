@@ -77,7 +77,7 @@ play,2,1,wilsc102,??,,PO1(13)
 com,"Debut game for Chief Wilson"
 play,3,0,bushd102,??,,13/BG
 play,3,0,cobbt101,??,,63
-play,3,0,craws101,??,,S1
+play,3,0,craws101,??,,S14
 play,3,0,delaj103,??,,7
 play,3,1,wilsc102,??,,53
 play,3,1,gibsg101,??,,43
@@ -110,9 +110,9 @@ play,6,0,jonet103,??,,8/F8S
 play,6,1,wagnh101,??,,D7
 play,6,1,milld102,??,,PO2(E2).2-3
 play,6,1,milld102,??,,2/FL
-play,6,1,abstb101,??,,23.3-H(UR)
+play,6,1,abstb101,??,,23.3-H
 play,6,1,wilsc102,??,,S8
-play,6,1,gibsg101,??,,SB2
+play,6,1,gibsg101,??,,PB.1-2
 play,6,1,gibsg101,??,,7
 play,7,0,schmb102,??,,4/P
 play,7,0,mullg102,??,,63
@@ -135,7 +135,7 @@ sub,mcinm101,"Matty McIntyre",0,7,11
 play,9,0,mcinm101,??,,7
 play,9,0,schmb102,??,,8
 play,9,0,mullg102,??,,K
-data,er,mullg102,1
+data,er,mullg102,2
 data,er,adamb104,1
 id,PIT190910090
 version,1
@@ -188,16 +188,16 @@ start,abstb101,"Bill Abstein",1,6,3
 start,wilsc102,"Chief Wilson",1,7,9
 start,gibsg101,"George Gibson",1,8,2
 start,camnh101,"Howie Camnitz",1,9,1
-play,1,0,joned104,??,,S/BG
+play,1,0,joned104,??,,S6/BG
 com,"Debut game for Howie Camnitz"
 play,1,0,bushd102,??,,13/SH.1-2
 play,1,0,cobbt101,??,,CS3(25)
 play,1,0,cobbt101,??,,43
 play,1,1,byrnb101,??,,W
-play,1,1,leact101,??,,D7.1-H
+play,1,1,leact101,??,,D9.1-H
 play,1,1,clarf101,??,,13/SH.2-3
 play,1,1,wagnh101,??,,K
-play,1,1,milld102,??,,D9.3-H
+play,1,1,milld102,??,,DGR/9.3-H
 play,1,1,abstb101,??,,K/C
 play,2,0,craws101,??,,K/C
 play,2,0,delaj103,??,,63
@@ -214,7 +214,7 @@ play,3,0,joned104,??,,5E3/BG
 play,3,0,bushd102,??,,S7.1-2
 play,3,0,cobbt101,??,,W.2-3;1-2
 play,3,0,craws101,??,,7
-play,3,0,delaj103,??,,D8.3-H(UR);2-H;1-3
+play,3,0,delaj103,??,,S8.3-H(UR);2-H;1-3;B-2(TH3)
 play,3,0,morig101,??,,NP
 sub,willv101,"Vic Willis",1,9,1
 play,3,0,morig101,??,,SBH
@@ -226,9 +226,9 @@ play,3,1,leact101,??,,D7
 play,3,1,clarf101,??,,8
 play,3,1,wagnh101,??,,2/P
 play,3,1,milld102,??,,K
-play,4,0,donob101,??,,43
+play,4,0,donob101,??,,53
 play,4,0,joned104,??,,53
-play,4,0,bushd102,??,,K
+play,4,0,bushd102,??,,K/C
 play,4,1,abstb101,??,,S9
 play,4,1,wilsc102,??,,2/FL
 play,4,1,gibsg101,??,,7
@@ -250,7 +250,7 @@ play,6,1,wagnh101,??,,E1/TH1.B-1
 play,6,1,milld102,??,,63.1-2
 play,6,1,abstb101,??,,K/C
 play,6,1,wilsc102,??,,CS3(25)
-play,7,0,cobbt101,??,,S7
+play,7,0,cobbt101,??,,S8
 play,7,0,craws101,??,,43/DP.1X3(35)
 play,7,0,delaj103,??,,K
 play,7,1,wilsc102,??,,E4/G.B-1
@@ -288,6 +288,8 @@ info,umphome,olous901
 info,ump1b,johnj901
 info,ump2b,(none)
 info,ump3b,(none)
+info,umplf,(none)
+info,umprf,klemb901
 info,scorer,"Cohen/Neft"
 info,translator,"John Booth"
 info,inputter,"John Booth"
@@ -324,14 +326,14 @@ start,morig101,"George Moriarty",1,6,5
 start,jonet103,"Tom Jones",1,7,3
 start,schmb102,"Boss Schmidt",1,8,2
 start,summe101,"Ed Summers",1,9,1
-play,1,0,byrnb101,??,,S/BG
+play,1,0,byrnb101,??,,S5/BG
 play,1,0,leact101,??,,S8.1-3
-play,1,0,clarf101,??,,FC1.3XH(156);1-3;B-2
-play,1,0,wagnh101,??,,E6.3-H(UR)(RBI);2-3;B-1
-play,1,0,milld102,??,,SB2.3-H(UR)(E2/TH2);1-3
+play,1,0,clarf101,??,,FC1.3XH(1526);1-3;B-2
+play,1,0,wagnh101,??,,E6.3-H(RBI);2-H(NR);B-1
+play,1,0,milld102,??,,SB2.1-3(E2/TH2)
 play,1,0,milld102,??,,WP.3-H(UR)
 play,1,0,milld102,??,,W
-play,1,0,abstb101,??,,S8.1-H(UR)(E8/TH3);B-3
+play,1,0,abstb101,??,,S8.1-H(E8/TH3);B-3
 play,1,0,wilsc102,??,,NP
 sub,wille103,"Ed Willett",1,9,1
 play,1,0,wilsc102,??,,S7.3-H(UR)
@@ -347,7 +349,7 @@ play,2,0,byrnb101,??,,53
 play,2,0,leact101,??,,HP
 play,2,0,clarf101,??,,HP.1-2
 play,2,0,wagnh101,??,,64(1)/FO.2-3
-play,2,0,milld102,??,,CSH(245E1).3-H(UR);1-2
+play,2,0,milld102,??,,CSH(245E1).3-H(UR);1-3
 play,2,0,milld102,??,,4/P
 play,2,1,delaj103,??,,D7
 play,2,1,morig101,??,,K
@@ -362,13 +364,13 @@ play,3,1,bushd102,??,,53
 play,4,0,maddn101,??,,13/G1
 play,4,0,byrnb101,??,,63
 play,4,0,leact101,??,,8/F8D
-com,"$Sam Crawford caught the ball in the overflow crowd"
+com,"Sam Crawford caught the ball in the overflow crowd"
 play,4,1,cobbt101,??,,13/G1
 play,4,1,craws101,??,,7/F7D
 play,4,1,delaj103,??,,S7
 play,4,1,morig101,??,,64(1)/FO
 play,5,0,clarf101,??,,E6/G.B-1
-play,5,0,wagnh101,??,,S7.1-2
+play,5,0,wagnh101,??,,S3.1-2
 play,5,0,milld102,??,,1/FL
 play,5,0,abstb101,??,,8.2-3
 play,5,0,wilsc102,??,,SB2
@@ -394,7 +396,7 @@ play,7,1,schmb102,??,,5/FL
 play,7,1,wille103,??,,NP
 sub,mcinm101,"Matty McIntyre",1,9,11
 play,7,1,mcinm101,??,,K
-play,7,1,joned104,??,,S/BG.2-3;1-2
+play,7,1,joned104,??,,S5/BG.2-3;1-2
 play,7,1,bushd102,??,,S7/L.3-H(UR);2-H(UR);1-2
 play,7,1,cobbt101,??,,S8.2-H(UR);1-2
 play,7,1,craws101,??,,3/P
@@ -426,7 +428,7 @@ play,9,1,cobbt101,??,,DGR/9D.2-H(UR);1-3
 play,9,1,craws101,??,,63.3-H(UR)
 play,9,1,delaj103,??,,7/L
 data,er,maddn101,1
-data,er,summe101,0
+data,er,summe101,3
 data,er,wille103,0
 data,er,workr101,2
 id,DET190910120
@@ -484,37 +486,37 @@ start,stano101,"Oscar Stanage",1,8,2
 start,mullg102,"George Mullin",1,9,1
 com,"$first use of 4 umpires in a World Series game (as a result of"
 com,"dispute over foul ball in game 2)"
-play,1,0,byrnb101,??,,43
-com,"ej,donob101,P,klemb901,Refusing to end conference with coach"
-com,"Bill Donovan ejected by HP umpire Bill Klem"
-com,"sometime in game"
+play,1,0,byrnb101,??,,143
 play,1,0,leact101,??,,63
 play,1,0,clarf101,??,,43
 play,1,1,joned104,??,,8
 com,"Debut game for Lefty Leifield"
 play,1,1,bushd102,??,,13/G1
 play,1,1,cobbt101,??,,HP
-play,1,1,craws101,??,,CS2(26E3)
+play,1,1,craws101,??,,PO1(26E3).1-2
 play,1,1,craws101,??,,8
 play,2,0,wagnh101,??,,W
+com,"ej,donob101,P,klemb901,Bench jockeying"
+com,"$Tigers Bill Donovan, not in game, ejected by HP umpire Klem for"
+com,"bench jockeying"
 play,2,0,milld102,??,,K
-play,2,0,abstb101,??,,S5.1-2
+play,2,0,abstb101,??,,S4.1-2
 play,2,0,wilsc102,??,,15(2)/FO.1-2
 play,2,0,gibsg101,??,,13/G1
 play,2,1,delaj103,??,,HP
 play,2,1,morig101,??,,S7/F7S.1-3
 play,2,1,jonet103,??,,FC1.3XH(12);1-3;B-2
-play,2,1,stano101,??,,S/89.3-H;2-H
+play,2,1,stano101,??,,S9/89.3-H;2-H
 com,"Debut game for Oscar Stanage"
-play,2,1,mullg102,??,,6(1)/FO.B-2(E6/TH1)
+play,2,1,mullg102,??,,64(1)/FO.B-2(E4/TH1)
 play,2,1,joned104,??,,13/G1
 play,3,0,leifl101,??,,K/C
-play,3,0,byrnb101,??,,D7/7L
+play,3,0,byrnb101,??,,DGR/7L
 play,3,0,leact101,??,,W
 play,3,0,clarf101,??,,K+SB3;SB2
 play,3,0,wagnh101,??,,K/C
 play,3,1,bushd102,??,,7/L
-play,3,1,cobbt101,??,,13/BG
+play,3,1,cobbt101,??,,23/BG
 play,3,1,craws101,??,,S8
 play,3,1,delaj103,??,,E3/G.1-2;B-1
 play,3,1,morig101,??,,64(1)/FO
@@ -526,18 +528,18 @@ play,4,1,jonet103,??,,S5/BG
 play,4,1,stano101,??,,6(1)3/GDP
 play,4,1,mullg102,??,,W
 play,4,1,joned104,??,,S7.1-2
-play,4,1,bushd102,??,,D7.2-H;1-3
-play,4,1,cobbt101,??,,D7.3-H;2-H
+play,4,1,bushd102,??,,DGR/7D.2-H;1-3
+play,4,1,cobbt101,??,,DGR/7D.3-H;2-H
 play,4,1,craws101,??,,13/G1
 play,5,0,leifl101,??,,NP
 sub,oconp102,"Paddy O'Connor",0,9,11
 play,5,0,oconp102,??,,K
 com,"Debut game for Paddy O'Connor"
 play,5,0,byrnb101,??,,K23
-play,5,0,leact101,??,,3/G
+play,5,0,leact101,??,,43
 play,5,1,delaj103,??,,NP
 sub,phild101,"Deacon Phillippe",0,9,1
-play,5,1,delaj103,??,,2/P
+play,5,1,delaj103,??,,2/FL
 play,5,1,morig101,??,,8
 play,5,1,jonet103,??,,53
 play,6,0,clarf101,??,,K
@@ -545,13 +547,13 @@ play,6,0,wagnh101,??,,3/L
 com,"$Honus Wagner hit by a pitch but was not allowed to take 1B"
 com,"because he tried to get hit"
 play,6,0,milld102,??,,K
-play,6,1,stano101,??,,43
+play,6,1,stano101,??,,63
 play,6,1,mullg102,??,,E4.B-1
-play,6,1,joned104,??,,64(1)/FO
+play,6,1,joned104,??,,46(1)/FO
 play,6,1,bushd102,??,,CS2(24)
 play,7,0,abstb101,??,,8
 play,7,0,wilsc102,??,,13/G1
-play,7,0,gibsg101,??,,S7
+play,7,0,gibsg101,??,,S9
 play,7,0,phild101,??,,K
 play,7,1,bushd102,??,,13/BG
 play,7,1,cobbt101,??,,23/BG
@@ -560,7 +562,7 @@ play,7,1,delaj103,??,,13/G1
 play,8,0,byrnb101,??,,8/F8S
 play,8,0,leact101,??,,4/P
 play,8,0,clarf101,??,,9
-play,8,1,morig101,??,,S1
+play,8,1,morig101,??,,S16
 play,8,1,jonet103,??,,E1/SH.1-2;B-1
 play,8,1,stano101,??,,23/SH.2-3;1-2
 play,8,1,mullg102,??,,K
@@ -635,17 +637,17 @@ play,1,0,delaj103,??,,K/C
 play,1,0,morig101,??,,SB2
 play,1,0,morig101,??,,3/P
 play,1,1,byrnb101,??,,S7
-play,1,1,leact101,??,,S/BG.1-2
+play,1,1,leact101,??,,S2/BG.1-2
 play,1,1,clarf101,??,,23/SH.2-3;1-2
-play,1,1,wagnh101,??,,W
+play,1,1,wagnh101,??,,IW
 play,1,1,milld102,??,,K
 play,1,1,abstb101,??,,W.3-H;2-3;1-2
 play,1,1,wilsc102,??,,K
 play,2,0,jonet103,??,,9
 play,2,0,stano101,??,,K
 play,2,0,summe101,??,,K
-play,2,1,gibsg101,??,,S7
-play,2,1,adamb104,??,,13/SH.1-2
+play,2,1,gibsg101,??,,S6
+play,2,1,adamb104,??,,14/SH.1-2
 play,2,1,byrnb101,??,,43.2-3
 play,2,1,leact101,??,,WP.3-H
 play,2,1,leact101,??,,8
@@ -668,16 +670,16 @@ play,5,0,stano101,??,,K
 play,5,0,summe101,??,,K
 play,5,0,joned104,??,,7
 play,5,1,leact101,??,,7
-play,5,1,clarf101,??,,S/G
+play,5,1,clarf101,??,,S3/G
 play,5,1,wagnh101,??,,SB2
 play,5,1,wagnh101,??,,63.2-3
 play,5,1,milld102,??,,53
 play,6,0,bushd102,??,,K
 play,6,0,cobbt101,??,,S7
-play,6,0,craws101,??,,D/78.1-H
+play,6,0,craws101,??,,D8/78.1-H
 play,6,0,delaj103,??,,E6/TH1.2-H(UR)(NR);B-2
 play,6,0,morig101,??,,7
-play,6,0,jonet103,??,,3/P
+play,6,0,jonet103,??,,3/FL
 play,6,1,abstb101,??,,6/P
 play,6,1,wilsc102,??,,3/G
 play,6,1,gibsg101,??,,63
@@ -697,21 +699,21 @@ play,7,1,wagnh101,??,,HP
 play,7,1,milld102,??,,7
 play,7,1,abstb101,??,,SB2
 play,7,1,abstb101,??,,SB3.2-H(UR)(E2/TH3)
-play,7,1,abstb101,??,,K
+play,7,1,abstb101,??,,K/C
 play,8,0,bushd102,??,,8/L
 play,8,0,cobbt101,??,,13/G1
 play,8,0,craws101,??,,HR/8D
 play,8,0,delaj103,??,,53
 play,8,1,wilsc102,??,,D7
+com,"$Davy Jones lost the ball in the sun"
 play,8,1,gibsg101,??,,S9.2-H
 play,8,1,adamb104,??,,NP
 sub,wille103,"Ed Willett",0,9,1
-play,8,1,adamb104,??,,3/P
-play,8,1,byrnb101,??,,SB2
-play,8,1,byrnb101,??,,K
+play,8,1,adamb104,??,,3/BP
+play,8,1,byrnb101,??,,K+SB2
 play,8,1,leact101,??,,CS3(25)
-play,9,0,morig101,??,,5/P
-play,9,0,jonet103,??,,E6/G.B-1
+play,9,0,morig101,??,,5/FL
+play,9,0,jonet103,??,,E6/P.B-1
 play,9,0,schmb102,??,,SB2
 play,9,0,schmb102,??,,63
 play,9,0,wille103,??,,NP
@@ -773,7 +775,7 @@ start,morig101,"George Moriarty",1,6,5
 start,jonet103,"Tom Jones",1,7,3
 start,schmb102,"Boss Schmidt",1,8,2
 start,mullg102,"George Mullin",1,9,1
-play,1,0,byrnb101,??,,S5
+play,1,0,byrnb101,??,,S7
 play,1,0,leact101,??,,S9.1-3
 play,1,0,clarf101,??,,S9.3-H;1-3;B-2(TH3)
 play,1,0,wagnh101,??,,D7.3-H;2-H
@@ -807,7 +809,7 @@ play,4,0,gibsg101,??,,53
 play,4,0,willv101,??,,43
 play,4,1,craws101,??,,W
 play,4,1,delaj103,??,,S8/89.1-3
-play,4,1,morig101,??,,S9.3-H;1X3(96);B-2(TH3)
+play,4,1,morig101,??,,S9.3-H;1X3(95);B-2(TH3)
 play,4,1,jonet103,??,,S7.2-H(RBI);B-2(E7)
 play,4,1,schmb102,??,,W
 play,4,1,mullg102,??,,7/F7S
@@ -834,7 +836,7 @@ play,6,1,bushd102,??,,W
 play,6,1,cobbt101,??,,DGR/9D.2-H;1-3
 play,6,1,craws101,??,,8
 play,7,0,wilsc102,??,,9
-play,7,0,gibsg101,??,,S/G
+play,7,0,gibsg101,??,,S8
 play,7,0,camnh101,??,,NP
 sub,hyath101,"Ham Hyatt",0,9,11
 play,7,0,hyath101,??,,43.1-2
@@ -854,7 +856,7 @@ play,8,1,joned104,??,,53.2-3
 play,8,1,bushd102,??,,3/BP
 play,9,0,milld102,??,,S9
 play,9,0,abstb101,??,,S8.1-2
-play,9,0,wilsc102,??,,E3/SH.2-H(UR)(NR);1-3;B-1
+play,9,0,wilsc102,??,,2E3/SH.2-H(UR)(NR);1-3;B-1
 com,"$Chief Wilson collided with Tom Jones, who dropped the ball;"
 com,"Jones carried off on a stretcher"
 play,9,0,gibsg101,??,,NP
@@ -939,7 +941,7 @@ play,1,1,joned104,??,,NP
 sub,hyath101,"Ham Hyatt",0,1,8
 play,1,1,joned104,??,,5/FL
 play,1,1,bushd102,??,,HP
-play,1,1,cobbt101,??,,9
+play,1,1,cobbt101,??,,7
 play,1,1,craws101,??,,CS2(24)
 play,2,0,abstb101,??,,W
 play,2,0,wilsc102,??,,SB2
@@ -952,23 +954,28 @@ play,2,0,clarf101,??,,W.3-H;2-3;1-2
 play,2,0,wagnh101,??,,9
 play,2,1,craws101,??,,3/G
 play,2,1,delaj103,??,,W
-play,2,1,morig101,??,,D9.1-3
+play,2,1,morig101,??,,DGR/9.1-3
 play,2,1,jonet103,??,,NP
 sub,oleac101,"Charley O'Leary",1,6,12
-com,"$George Moriarty left with unknown injury"
+com,"$Moriarty left due to leg injury suffered in first inning"
+com,"collision at third base with Byrne" ]
 play,2,1,jonet103,??,,6/P
-play,2,1,schmb102,??,,23
+play,2,1,schmb102,??,,13
 play,3,0,milld102,??,,NP
 sub,oleac101,"Charley O'Leary",1,6,5
 play,3,0,milld102,??,,S8
-play,3,0,abstb101,??,,D7.1-3
+play,3,0,abstb101,??,,DGR/7.1-3
+com,"$Ball rolled into overflowd crowd down the left field line"
 play,3,0,wilsc102,??,,FC6/DP.3XH(62);2X3(24)
+com,"$Miller was trapped between third and home and tagged out by"
+com,"catcher; Abstein was then thrown out when he tried to return"
+com,"to 2nd"
 play,3,0,gibsg101,??,,64(1)/FO
 play,3,1,donob101,??,,NP
 sub,mullg102,"George Mullin",1,9,11
 play,3,1,mullg102,??,,9
 play,3,1,joned104,??,,S1/BG1
-play,3,1,bushd102,??,,23/SH.1-2
+play,3,1,bushd102,??,,13/SH.1-2
 play,3,1,cobbt101,??,,13/G1
 play,4,0,adamb104,??,,NP
 sub,mullg102,"George Mullin",1,9,1
@@ -976,15 +983,15 @@ play,4,0,adamb104,??,,7
 play,4,0,hyath101,??,,W
 play,4,0,leact101,??,,S7.1-2
 play,4,0,clarf101,??,,13/SH.2-3;1-2
-play,4,0,wagnh101,??,,W
+play,4,0,wagnh101,??,,IW
 play,4,0,milld102,??,,S9.3-H;2-H;1-3
 play,4,0,abstb101,??,,SB2
-play,4,0,abstb101,??,,K
+play,4,0,abstb101,??,,K/C
 play,4,1,craws101,??,,53
 play,4,1,delaj103,??,,S9
 play,4,1,oleac101,??,,6/P
 play,4,1,jonet103,??,,S9.1-2
-play,4,1,schmb102,??,,65(2)/FO
+play,4,1,schmb102,??,,5(2)/FO
 play,5,0,wilsc102,??,,8
 play,5,0,gibsg101,??,,63
 play,5,0,adamb104,??,,43
@@ -992,7 +999,7 @@ play,5,1,mullg102,??,,53
 play,5,1,joned104,??,,K
 play,5,1,bushd102,??,,63
 play,6,0,hyath101,??,,43
-play,6,0,leact101,??,,D7
+play,6,0,leact101,??,,DGR/7
 play,6,0,clarf101,??,,W
 play,6,0,wagnh101,??,,T7/7LD.2-H;1-H;B-H(UR)(E7/TH3)
 play,6,0,milld102,??,,8
@@ -1001,12 +1008,12 @@ play,6,1,cobbt101,??,,13/G1
 play,6,1,craws101,??,,7
 play,6,1,delaj103,??,,5/FL
 play,7,0,wilsc102,??,,7
-play,7,0,gibsg101,??,,D7
+play,7,0,gibsg101,??,,D8
 play,7,0,adamb104,??,,563.2-3
 play,7,0,hyath101,??,,43
 play,7,1,oleac101,??,,2/FL
 play,7,1,jonet103,??,,63
-play,7,1,schmb102,??,,D7
+play,7,1,schmb102,??,,DGR/7D
 play,7,1,mullg102,??,,7
 play,8,0,leact101,??,,13/G1
 play,8,0,clarf101,??,,W
@@ -1015,14 +1022,14 @@ play,8,0,wagnh101,??,,8
 play,8,0,milld102,??,,E8/F8D.2-H(UR)(NR);B-2
 play,8,0,abstb101,??,,7
 play,8,1,joned104,??,,4/P
-play,8,1,bushd102,??,,6/P
+play,8,1,bushd102,??,,6/FL
 play,8,1,cobbt101,??,,7
 play,9,0,wilsc102,??,,5/P
 play,9,0,gibsg101,??,,E6/G.B-1
 play,9,0,adamb104,??,,3/SH.1-2
 play,9,0,hyath101,??,,2/FL
 play,9,1,craws101,??,,63
-play,9,1,delaj103,??,,D
+play,9,1,delaj103,??,,D7/7D
 play,9,1,oleac101,??,,5/FL
 play,9,1,jonet103,??,,7
 data,er,adamb104,0

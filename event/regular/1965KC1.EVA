@@ -477,7 +477,7 @@ info,site,KAN05
 info,date,1965/04/17
 info,number,0
 info,starttime,6:01PM
-info,daynight,day
+info,daynight,night
 info,usedh,false
 info,umphome,valeb901
 info,ump1b,mckib901
@@ -4191,8 +4191,8 @@ play,2,1,landj103,??,,D.1-H;2-H
 play,2,1,harrk101,??,,FC.2X2(54)
 play,3,0,azcuj101,??,,7
 play,3,0,hedlm101,??,,NP
-sub,lupla101,"Al Luplow",0,9,11
-play,3,0,lupla101,??,,K
+sub,donod101,"Dick Donovan",0,9,11
+play,3,0,donod101,??,,K
 play,3,0,howsd101,??,,53
 play,3,1,chare101,??,,NP
 sub,donod101,"Dick Donovan",0,9,1
@@ -4212,7 +4212,9 @@ play,5,0,alvim101,??,,HR
 play,5,0,davav101,??,,S
 play,5,0,whitf103,??,,S.1-3
 play,5,0,azcuj101,??,,FC.3XH(52);1-3;B-2
-play,5,0,donod101,??,,K
+play,5,0,donod101,??,,NP
+sub,lupla101,"Al Luplow",0,9,11
+play,5,0,lupla101,??,,K
 play,5,0,howsd101,??,,3
 play,5,1,landj103,??,,NP
 sub,mcmad102,"Don McMahon",0,9,1
@@ -9016,9 +9018,7 @@ play,4,0,hansr102,??,,S
 play,4,0,berrk101,??,,54(1)3/GDP
 play,4,0,johnt001,??,,K
 play,4,1,greed102,??,,S
-play,4,1,lachr101,??,,56(1)/FO/BG#
-com,"DWS: bunt assumed"
-com,"DWS: Moore shows SB for Lachemann; no one else does"
+play,4,1,lachr101,??,,56(1)/FO/BG
 play,4,1,reynt101,??,,53.1-2
 play,4,1,akerj102,??,,NP
 sub,locks101,"Skip Lockwood",1,9,11
@@ -9088,7 +9088,6 @@ play,9,0,burgs101,??,,E4.1-2;2-3;3-H(RBI)
 play,9,0,bufod101,??,,NP
 sub,nichd101,"Dave Nicholson",0,1,12
 play,9,0,bufod101,??,,75(2)/FO.1-2;3-H(UR)#
-com,"DWS: 75 is pretty hard to take, but both show it"
 play,9,0,robif102,??,,NP
 sub,dickj101,"Jim Dickson",1,9,1
 play,9,0,robif102,??,,3
@@ -9098,27 +9097,22 @@ play,9,1,greed102,??,,NP
 sub,mccrt102,"Tommy McCraw",0,4,3
 play,9,1,greed102,??,,HP
 play,9,1,bryab101,??,,WP.1-2
-play,9,1,bryab101,??,,K
+play,9,1,bryab101,??,,K+DI.2-3
 play,9,1,reynt101,??,,NP
 sub,rosas101,"Santiago Rosario",1,8,11
 play,9,1,rosas101,??,,HP
 play,9,1,dickj101,??,,NP
 sub,blanj101,"Johnny Blanchard",1,9,11
-play,9,1,blanj101,??,,41.2-H;1-2#
-com,"DWS: Moore says play was 43.  Likely score from 2nd"
-com,"DWS: TSN says this WP goes to Howard; I don't see how"
-com,"Moved it to Howard... one sheet has Campy scoring on WP"
-play,9,1,campb101,??,,S.2-H
-play,9,1,hersm101,??,,SB2
+play,9,1,blanj101,??,,41.3-H;1-2
+play,9,1,campb101,??,,DI.2-3
+play,9,1,campb101,??,,S.3-H
 play,9,1,hersm101,20,,NP
 sub,wilhh101,"Hoyt Wilhelm",0,6,1
-com,"Walk charged to Fisher... made the count 2-0"
-play,9,1,hersm101,??,,PB.2-3
-play,9,1,hersm101,??,,W
+play,9,1,hersm101,??,,SB2
+play,9,1,hersm101,??,,W+PB.2-3
 play,9,1,landj103,??,,NP
 sub,howab101,"Bruce Howard",0,6,1
-play,9,1,landj103,??,,WP.3-H(UR);1-2#
-com,"Moved from above"
+play,9,1,landj103,??,,WP.3-H(UR);1-2
 play,9,1,landj103,??,,6
 play,10,0,mccrt102,??,,NP
 sub,hersm101,"Mike Hershberger",1,2,7

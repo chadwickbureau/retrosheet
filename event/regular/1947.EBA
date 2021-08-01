@@ -9335,14 +9335,14 @@ stat,phline,cramd102,-1,0,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,0,0
 stat,phline,poolr101,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,phline,richd103,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,dline,lakee101,0,1,6,42,3,4,0,2,0,0
-stat,dline,kellg102,0,1,5,42,2,4,0,2,0,0
+stat,dline,kellg102,0,1,5,42,2,4,0,1,0,0
 stat,dline,cullr101,0,1,3,42,9,1,1,1,0,0
 stat,dline,waked101,0,1,7,42,4,0,0,0,0,0
 stat,dline,mullp101,0,1,9,42,2,1,0,0,0,0
 stat,dline,everh101,0,1,8,42,3,0,0,0,0,0
-stat,dline,mayoe101,0,1,4,42,9,4,0,1,0,0
-stat,dline,tebbb101,0,1,2,-1,6,1,0,1,0,0
-stat,dline,swifb102,0,1,2,-1,0,0,0,0,0,0
+stat,dline,mayoe101,0,1,4,42,9,4,0,2,0,0
+stat,dline,tebbb101,0,1,2,39,6,1,0,1,0,0
+stat,dline,swifb102,0,1,2,3,0,0,0,0,0,0
 stat,dline,troud101,0,1,1,40,4,7,1,2,0,0
 stat,dline,benta101,0,1,1,2,0,0,0,0,0,0
 stat,dline,joose101,1,1,6,42,4,4,1,2,0,0
@@ -9363,7 +9363,7 @@ stat,pline,florj101,1,1,24,-1,27,1,-1,-1,1,2,2,5,-1,2,0,0,0,0,0
 stat,pline,chrir101,1,2,9,-1,13,2,-1,-1,0,0,0,2,-1,4,0,0,0,0,0
 stat,pline,fowld101,1,3,9,-1,15,4,-1,-1,0,2,2,3,-1,0,0,0,0,0,0
 event,dpline,0,troud101,kellg102
-event,dpline,0,lakee101,kellg102,tebbb101,troud101
+event,dpline,0,lakee101,mayoe101,tebbb101,troud101
 event,dpline,0,lakee101,mayoe101,cullr101
 event,dpline,1,joose101,handg101,fainf101
 event,dpline,1,fainf101,joose101,handg101

@@ -5211,10 +5211,10 @@ play,3,1,washc001,,,WP.2-3
 play,3,1,washc001,,,W
 play,3,1,easlm001,,,PB.3-H(UR);1-2
 play,3,1,easlm001,,,43
-com,"ej,barrm001,P,phild901,Bench jockeying"
-com,"Marty Barrett ejected by HP umpire Dave Phillips from the bench"
-com,"sometime in the top of the fourth inning"
 play,4,0,boggw001,,,63
+com,"ej,barrm001,P,phild901,Bench jockeying"
+com,"$Red Sox Barrett ejected by HP umpire Phillips from"
+com,"the bench sometime in the top of the fourth inning"
 play,4,0,ricej001,,,8
 play,4,0,bayld001,,,S7
 play,4,0,evand002,,,D8.1-3
@@ -5905,8 +5905,9 @@ info,umphome,hendt901
 info,ump1b,kaisk901
 info,ump2b,cousd901
 info,ump3b,johnm901
-info,scorer,"Don Yeager"
-info,inputter,"Bob Levittan"
+info,scorer,"Don Yeager,601"
+info,translator,"Bob Levittan/Townsend"
+info,inputter,"Bob Levittan/Townsend"
 info,howscored,unknown
 info,pitches,none
 info,temp,0
@@ -5947,14 +5948,14 @@ play,1,0,sierr001,,,WP.1-3(E2/TH2)
 play,1,0,sierr001,,,8/SF.3-H
 play,1,0,incap001,,,S8
 play,1,0,obrip001,,,CS2(136)
-play,1,1,hendr001,,,4/L
+play,1,1,hendr001,,,4/P
 play,1,1,randw001,,,S7
 play,1,1,mattd001,,,7
 play,1,1,winfd001,,,W.1-2
 play,1,1,washc001,,,S8.2-H;1-3
 play,1,1,easlm001,,,43
 play,2,0,obrip001,,,63
-play,2,0,parrl002,,,E3.B-1
+play,2,0,parrl002,,,E3/P.B-1
 play,2,0,stanm002,,,9
 play,2,0,buecs001,,,8
 play,2,1,paglm001,,,6
@@ -5979,13 +5980,13 @@ play,4,1,paglm001,,,6
 play,4,1,ceror001,,,K/C
 play,4,1,tollw001,,,43
 play,5,0,browb002,,,W
-play,5,0,browj001,,,53(B)/SH/G.1-2
+play,5,0,browj001,,,53/BG/SH.1-2
 play,5,0,flets001,,,7
 play,5,0,sierr001,,,SB3
 play,5,0,sierr001,,,W
 play,5,0,incap001,,,D9.3-H;1-3
 play,5,0,obrip001,,,K
-play,5,1,hendr001,,,8
+play,5,1,hendr001,,,8/F8XD
 play,5,1,randw001,,,S8
 play,5,1,mattd001,,,S9.1-3
 play,5,1,winfd001,,,8/SF.3-H
@@ -6005,39 +6006,44 @@ play,6,0,browb002,,,9
 play,6,1,ceror001,,,NP
 sub,russj001,"Jeff Russell",0,0,1
 play,6,1,ceror001,,,W
-play,6,1,tollw001,,,K
-play,6,1,hendr001,,,S7.1-2
-play,6,1,randw001,,,8
-play,6,1,mattd001,,,NP
+play,6,1,tollw001,12,BSLL,K/BP25/FL
+play,6,1,hendr001,12,CBCFX,S7/L6D.1-2
+play,6,1,randw001,02,SFFX,8/F8
+play,6,1,mattd001,00,,NP
 sub,willm002,"Mitch Williams",0,0,1
-play,6,1,mattd001,,,6/L
-play,7,0,browj001,,,K/C
-play,7,0,flets001,,,S7
-play,7,0,sierr001,,,NP
+play,6,1,mattd001,12,2CFFFBX,6/L6
+com,"Fletcher: leaping catch"
+play,7,0,browj001,22,SBBCFFC,K/C
+play,7,0,flets001,21,BBCX,S7/L78S
+play,7,0,sierr001,00,,NP
 sub,clemp001,"Pat Clements",1,0,1
-play,7,0,sierr001,,,K
-play,7,0,incap001,,,43
-play,7,1,winfd001,,,53
-play,7,1,washc001,,,K
-play,7,1,wardg001,,,S9
-play,7,1,paglm001,,,K
-play,8,0,obrip001,,,S7
-play,8,0,parrl002,,,43.1-2
-play,8,0,stanm002,,,4(B)4(2)/LDP
-play,8,1,ceror001,,,3/G
-play,8,1,tollw001,,,W
-play,8,1,hendr001,,,W.1-2
-play,8,1,randw001,,,NP
+play,7,0,sierr001,12,1C1BFFS,K
+play,7,0,incap001,22,1BFF1BX,43/G4
+com,"Stadium lights were on here"
+play,7,1,winfd001,11,BCX,53/G5
+play,7,1,washc001,22,SBSBS,K
+play,7,1,wardg001,00,X,S9/L34D
+play,7,1,paglm001,22,1SFB1BS,K
+play,8,0,obrip001,02,CFX,S7/G56
+play,8,0,parrl002,00,X,43/G34S.1-2
+play,8,0,stanm002,11,BCX,4/L4M/LDP.2X2(4)
+play,8,1,ceror001,12,CFFFFBX,3/G3L
+com,"Check swing"
+play,8,1,tollw001,32,CBSBBB,W
+play,8,1,hendr001,30,B1BBB,W.1-2
+play,8,1,randw001,00,,NP
 sub,mohod001,"Dale Mohorcic",0,0,1
-play,8,1,randw001,,,S7.2-H;1-2
-play,8,1,mattd001,,,9(B)6(2)/DP/F
-play,9,0,buecs001,,,W
-play,9,0,browb002,,,NP
+play,8,1,randw001,01,CX,S67/G56.2-H;1-2
+com,"Off the diving Fletcher's glove into short LF"
+play,8,1,mattd001,11,CBX,9/L9/LDP.2X2(96)
+play,9,0,buecs001,32,BCCBFBB,W
+play,9,0,browb002,00,,NP
 sub,righd001,"Dave Righetti",1,0,1
-play,9,0,browb002,,,W.1-2
-play,9,0,browj001,,,6(1)/FO/G.2-3;B-1
-play,9,0,flets001,,,S7.3-H;1-2
-play,9,0,sierr001,,,64(1)3/GDP
+play,9,0,browb002,32,CBBSBFB,W.1-2
+play,9,0,browj001,00,X,6(1)/FO/G6M.2-3;B-1
+com,"Tolleson missed 2B with his foot then dove to tag Brower"
+play,9,0,flets001,00,X,S7/G56.3-H;1-2
+play,9,0,sierr001,01,FX,64(1)3/GDP/G6
 data,er,harrg001,3
 data,er,kilgp001,0
 data,er,russj001,0

@@ -362,9 +362,10 @@ info,ump1b,brocf901
 info,ump2b,weyel901
 info,ump3b,rennd901
 info,scorer,"Mattan"
-info,inputter,"Berman"
+info,translator,"Berman/Townsend"
+info,inputter,"Berman/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -395,91 +396,100 @@ start,knigr001,"Ray Knight",1,6,5
 start,lyonb002,"Barry Lyons",1,7,2
 start,santr001,"Rafael Santana",1,8,6
 start,goodd001,"Dwight Gooden",1,9,1
-play,1,0,redug001,,,D
-play,1,0,thomm001,,,K/C
-play,1,0,hayev001,,,K
-play,1,0,schmm001,,,S.2-3
-play,1,0,wilsg001,,,S.3-H;1-2
-play,1,0,dauld001,,,K
-play,1,1,mitck001,,,9
-play,1,1,teuft001,,,53
-play,1,1,hernk001,,,8
-play,2,0,agual001,,,53
-play,2,0,jelts001,,,K
-play,2,0,rawls001,,,K
-play,2,1,cartg001,,,43
-play,2,1,strad001,,,K/C
-play,2,1,knigr001,,,43
-play,3,0,redug001,,,8
-play,3,0,thomm001,,,13
-play,3,0,hayev001,,,K/C
-play,3,1,lyonb002,,,4/P
+play,1,0,redug001,,,D9/G3L
+play,1,0,thomm001,32,,K
+play,1,0,hayev001,12,KBSS,K
+play,1,0,schmm001,11,CBX,S1/G5S.2-3
+play,1,0,wilsg001,12,CSFBFX,S4/G4MD.3-H;1-2
+com,"Teufel: diving stop on the grass"
+play,1,0,dauld001,12,CBFT,K
+play,1,1,mitck001,00,X,9/F9
+play,1,1,teuft001,10,BX,53/G5
+play,1,1,hernk001,21,BCBX,8/F78
+play,2,0,agual001,11,BCX,53/G15
+play,2,0,jelts001,12,BSFS,K
+play,2,0,rawls001,12,SFBS,K
+play,2,1,cartg001,11,BFX,43/G4M
+play,2,1,strad001,02,FFC,K/C
+play,2,1,knigr001,21,BBCX,43/G4M
+play,3,0,redug001,32,BBBCFFX,8/F8D
+play,3,0,thomm001,11,BFX,13/G1S
+play,3,0,hayev001,02,CCC,K/C
+play,3,1,lyonb002,00,X,4/P4D
 com,"Debut game for Barry Lyons"
-play,3,1,santr001,,,53
-play,3,1,goodd001,,,9
-play,4,0,schmm001,,,53
-play,4,0,wilsg001,,,63
-play,4,0,dauld001,,,6/P
-play,4,1,mitck001,,,13
-play,4,1,teuft001,,,63
-play,4,1,hernk001,,,43
-play,5,0,agual001,,,7
-play,5,0,jelts001,,,53
-play,5,0,rawls001,,,9
-play,5,1,cartg001,,,W
-play,5,1,strad001,,,7
-play,5,1,knigr001,,,S.1-3
-play,5,1,lyonb002,,,13.3-H;1-2
-play,5,1,santr001,,,FC5/F.2X3(5)
-play,6,0,redug001,,,7
-play,6,0,thomm001,,,E4/G.B-1
-play,6,0,hayev001,,,SB2.1-3(E2/TH2)
-play,6,0,hayev001,,,S.3-H(UR)
-play,6,0,schmm001,,,SB2
-play,6,0,schmm001,,,63
-play,6,0,wilsg001,,,K
-play,6,1,goodd001,,,S
-play,6,1,mitck001,,,D.1-H
-play,6,1,teuft001,,,8
-play,6,1,hernk001,,,9
-play,6,1,cartg001,,,63
-play,7,0,dauld001,,,3/FL
-play,7,0,agual001,,,D
-play,7,0,jelts001,,,W
-play,7,0,rawls001,,,13/SH.2-3;1-2
-play,7,0,redug001,,,K/C
-play,7,1,strad001,,,2/FL
-play,7,1,knigr001,,,S
-play,7,1,lyonb002,,,K/C
-play,7,1,santr001,,,8
-play,8,0,thomm001,,,S
-play,8,0,hayev001,,,2/FL
-play,8,0,schmm001,,,3
-play,8,0,wilsg001,,,SB2
-play,8,0,wilsg001,,,8
-play,8,1,goodd001,,,6/P
-play,8,1,mitck001,,,S
-play,8,1,teuft001,,,8
-play,8,1,hernk001,,,S.1-2
-play,8,1,cartg001,,,NP
+play,3,1,santr001,00,X,53/BG56S
+com,"Schmidt: charging bare-handed pickup"
+play,3,1,goodd001,10,BX,8/F8D
+play,4,0,schmm001,21,BBCX,53/G5
+play,4,0,wilsg001,01,CX,63/G6
+play,4,0,dauld001,22,FCBBX,6/P6M
+play,4,1,mitck001,00,X,13/G13
+play,4,1,teuft001,01,CX,63/G6
+com,"Jeltz: short-hop stop"
+play,4,1,hernk001,11,CBX,43/G4
+play,5,0,agual001,01,FX,7/L7
+play,5,0,jelts001,10,BX,53/G56S
+com,"Knight: diving stop"
+play,5,0,rawls001,00,X,9/F9D
+play,5,1,cartg001,31,BCBBB,W
+play,5,1,strad001,00,X,7/F7LS
+com,"Redus: running catch"
+play,5,1,knigr001,32,FFBFBB>F>F1>X,S7/G56.1-3
+play,5,1,lyonb002,22,SBSBFX,13/G1.3-H;1-2
+com,"Rawley knocked it down; Carter beat Hayes' high throw"
+play,5,1,santr001,10,BX,FC5/G56.2X3(5)
+com,"Schmidt tagged Knight"
+play,6,0,redug001,10,BX,7/F7
+play,6,0,thomm001,00,X,E4/G4.B-1
+com,"Teufel bobbled it"
+play,6,0,hayev001,11,F1B>C,SB2.1-3(E2/TH2)
+play,6,0,hayev001,12,F1B>C.X,S9/L89S.3-H(UR)
+play,6,0,schmm001,12,11CBS1>B,SB2
+play,6,0,schmm001,32,11CBS1>B.BX,63/G56
+play,6,0,wilsg001,22,BCBS+2S,K
+play,6,1,goodd001,22,FBFBX,S7/G56
+play,6,1,mitck001,11,CBX,D8/L78XD.1-H
+play,6,1,teuft001,01,CX,8/F8
+play,6,1,hernk001,11,BFX,9/F9
+play,6,1,cartg001,22,CBCFBX,63/G6M
+play,7,0,dauld001,22,FBSBX,3/P3F/FL
+play,7,0,agual001,32,BCBFBX,D7/L5D
+play,7,0,jelts001,31,BBBCB,W
+play,7,0,rawls001,00,X,13/BG25/SH.2-3;1-2
+play,7,0,redug001,02,CSFC,K/C
+play,7,1,strad001,02,TFX,2/P2F/FL
+play,7,1,knigr001,22,SBSBFX,S9/L9S
+play,7,1,lyonb002,02,FFC,K/C
+play,7,1,santr001,00,X,8/F78
+play,8,0,thomm001,21,BFBX,S8/G6M
+play,8,0,hayev001,01,CX,2/P2F/FL
+play,8,0,schmm001,21,11B1BCX,5/P5F/FL
+play,8,0,wilsg001,02,1FF>B,SB2
+play,8,0,wilsg001,32,1FF>B.BFBX,8/F8S
+com,"Mitchell: running catch"
+play,8,1,goodd001,01,FX,6/P6
+play,8,1,mitck001,20,BBX,S9/G34
+play,8,1,teuft001,02,SFX,8/F78D
+play,8,1,hernk001,11,BCX,S8/G4M.1-2
+play,8,1,cartg001,00,,NP
 sub,bedrs001,"Steve Bedrosian",0,9,1
-play,8,1,cartg001,,,S.2-H;1-3
-play,8,1,strad001,,,W.1-2
-play,8,1,knigr001,,,4/L
-play,9,0,dauld001,,,NP
+play,8,1,cartg001,32,BBBCS>X,S8/L89S.2-H;1-3
+play,8,1,strad001,30,BBBB,W.1-2
+play,8,1,knigr001,32,BCBBC>X,4/L4
+play,9,0,dauld001,00,,NP
 sub,mitck001,"Kevin Mitchell",1,1,7
-play,9,0,dauld001,,,NP
+play,9,0,dauld001,00,,NP
 sub,cartg001,"Gary Carter",1,4,2
-play,9,0,dauld001,,,NP
+play,9,0,dauld001,00,,NP
 sub,dyksl001,"Lenny Dykstra",1,7,8
-play,9,0,dauld001,,,3/G
-play,9,0,agual001,,,NP
+play,9,0,dauld001,11,BCX,3/G3
+play,9,0,agual001,00,,NP
 sub,grosg001,"Greg Gross",0,7,11
-play,9,0,grosg001,,,W
-play,9,0,jelts001,,,K
-play,9,0,bedrs001,,,NP
+play,9,0,grosg001,32,BCTBBB,W
+play,9,0,jelts001,12,CFBS,K
+play,9,0,bedrs001,00,,NP
 sub,lefej001,"Joe Lefebvre",0,9,11
-play,9,0,lefej001,,,K/C
+play,9,0,lefej001,12,BCSC,K/C
 data,er,rawls001,3
 data,er,bedrs001,0
 data,er,goodd001,1
@@ -643,13 +653,14 @@ info,ump1b,davig901
 info,ump2b,harvd901
 info,ump3b,steld901
 info,scorer,"Mattan"
-info,inputter,"Berman"
+info,translator,"Berman/Townsend"
+info,inputter,"Berman/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
+info,fieldcond,soaked
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,175
@@ -676,114 +687,128 @@ start,fostg001,"George Foster",1,6,7
 start,knigr001,"Ray Knight",1,7,5
 start,santr001,"Rafael Santana",1,8,6
 start,aguir001,"Rick Aguilera",1,9,1
-play,1,0,reynr001,,,D
-play,1,0,orsuj001,,,9
-play,1,0,ray-j001,,,S.2-H
-play,1,0,breas001,,,7
-play,1,0,browm002,,,K/C
-play,1,1,mitck001,,,S
-play,1,1,teuft001,,,S.1-3
-play,1,1,hernk001,,,6/L
-play,1,1,cartg001,,,W.1-2
-play,1,1,strad001,,,K
-play,1,1,fostg001,,,54(1)/FO
-play,2,0,penat001,,,K
-play,2,0,morrj002,,,HR
-play,2,0,khals001,,,K
-play,2,0,mcwil001,,,5/L
-play,2,1,knigr001,,,13
-play,2,1,santr001,,,K
-play,2,1,aguir001,,,K23
-play,3,0,reynr001,,,43
-play,3,0,orsuj001,,,K/C
-play,3,0,ray-j001,,,S
-play,3,0,breas001,,,D.1XH(92)
-play,3,1,mitck001,,,3/FL
-play,3,1,teuft001,,,3/FL
-play,3,1,hernk001,,,HP
-play,3,1,cartg001,,,HR.1-H
-play,3,1,strad001,,,43
-play,4,0,browm002,,,53
-play,4,0,penat001,,,3/L
-play,4,0,morrj002,,,13
-play,4,1,fostg001,,,S
-play,4,1,knigr001,,,9
-play,4,1,santr001,,,K
-play,4,1,aguir001,,,6(1)/FO/F
-play,5,0,khals001,,,K
-play,5,0,mcwil001,,,43
-play,5,0,reynr001,,,D
-play,5,0,orsuj001,,,5/FL
-play,5,1,mitck001,,,8
-play,5,1,teuft001,,,63
-play,5,1,hernk001,,,W
-play,5,1,cartg001,,,K/C
-play,6,0,ray-j001,,,S
-play,6,0,breas001,,,K
-play,6,0,browm002,,,HR.1-H
-play,6,0,penat001,,,D
-play,6,0,morrj002,,,6/P
-play,6,0,khals001,,,63
-play,6,1,strad001,,,K
-play,6,1,fostg001,,,E4/G.B-1
-play,6,1,knigr001,,,64(1)3/GDP
-play,7,0,mcwil001,,,NP
+play,1,0,reynr001,12,BFCX,D7/F9LD
+play,1,0,orsuj001,11,CBX,9/F89S
+play,1,0,ray-j001,22,CFBFBX,S18/L1.2-H
+com,"Liner grazed Aguilera's glove as he ducked out of the way"
+play,1,0,breas001,22,1FBB1SFX,7/F7
+play,1,0,browm002,12,1BFSF1C,K/C
+play,1,1,mitck001,10,BX,S9/G34
+play,1,1,teuft001,22,CB1BFX,S9/L9S.1-3
+play,1,1,hernk001,11,CBX,6/L6
+play,1,1,cartg001,30,BBBB,W.1-2
+play,1,1,strad001,22,BCSFFBS,K
+play,1,1,fostg001,10,BX,54(1)/FO/G5
+play,2,0,penat001,12,BSFFS,K
+play,2,0,morrj002,21,SBBX,HR/F7D
+com,"Way over LF fence at the 358' sign"
+play,2,0,khals001,22,BBFCS,K
+play,2,0,mcwil001,01,CX,5/L5
+play,2,1,knigr001,12,BCFX,13/G1
+play,2,1,santr001,22,CBBFFS,K
+play,2,1,aguir001,02,CC*S,K23
+play,3,0,reynr001,01,FX,43/G4
+play,3,0,orsuj001,22,BSBFFC,K/C
+play,3,0,ray-j001,01,FX,S46/G4
+com,"Hard short-hop off Teufel's glove"
+play,3,0,breas001,32,CBBB>F>X,D9/L3D.1XH(92)
+com,"Carter blocked the plate"
+play,3,1,mitck001,00,X,3/P3F/FL
+play,3,1,teuft001,32,BBFFBX,3/P3DF/FL
+play,3,1,hernk001,00,H,HP
+com,"Hit on the back shoulder as he turned away"
+play,3,1,cartg001,22,CS1*BFBX,HR/F78XD.1-H
+com,"Over LCF fence to the right of the 371' sign"
+play,3,1,strad001,12,BFCX,43/G4
+play,4,0,browm002,12,BFFX,53/G5
+play,4,0,penat001,01,SX,3/L3
+play,4,0,morrj002,01,SX,13/G1
+com,"Caromed off Aguilera's foot to Hernandez"
+play,4,1,fostg001,20,BBX,S9/L34D
+play,4,1,knigr001,02,FCX,9/F9D
+play,4,1,santr001,12,CB1S*S,K
+play,4,1,aguir001,21,BBSX,6(1)/FO/G6M
+play,5,0,khals001,22,CBCBT,K
+play,5,0,mcwil001,22,BSSBX,43/G4
+play,5,0,reynr001,21,BBSX,D8/F78XD
+play,5,0,orsuj001,22,BSBSX,5/P5F/FL
+play,5,1,mitck001,22,CBFBX,8/F8
+play,5,1,teuft001,02,LFX,63/G6
+play,5,1,hernk001,31,BBBCB,W
+play,5,1,cartg001,02,CCC,K/C
+play,6,0,ray-j001,01,CX,S8/G6M
+play,6,0,breas001,12,BFCS,K
+play,6,0,browm002,00,X,HR/F78XD.1-H
+com,"Over the 396' sign in LCF"
+play,6,0,penat001,21,BBSX,D7/F78S
+play,6,0,morrj002,21,BFBX,6/P6
+play,6,0,khals001,01,SX,63/G6
+play,6,1,strad001,12,CCBS,K
+play,6,1,fostg001,11,BCX,E4/G4.B-1
+com,"Ray fumbled it"
+play,6,1,knigr001,12,CBCFX,64(1)3/GDP/G6M
+com,"Khalifa: diving stop"
+play,7,0,mcwil001,00,,NP
 sub,niemr001,"Randy Niemann",1,9,1
-play,7,0,mcwil001,,,K/C
-play,7,0,reynr001,,,13
-play,7,0,orsuj001,,,43
-play,7,1,santr001,,,7
-play,7,1,niemr001,,,NP
+play,7,0,mcwil001,32,MLBFBBC,K/C
+play,7,0,reynr001,01,CX,13/G1
+play,7,0,orsuj001,00,X,43/G4
+play,7,1,santr001,11,BFX,7/F7L
+play,7,1,niemr001,00,,NP
 sub,backw001,"Wally Backman",1,9,11
-play,7,1,backw001,,,S
-play,7,1,mitck001,,,14(1)/FO/G.B-1
-play,7,1,teuft001,,,D.1-3
-play,7,1,hernk001,,,43
-play,8,0,ray-j001,,,NP
+play,7,1,backw001,00,X,S7/L6D
+play,7,1,mitck001,00,X,14(1)/FO/G1.B-1
+com,"Niemann's short-hop throw to Ray thwarted DP attempt"
+play,7,1,teuft001,20,BBX,D7/L7LD.1-3
+play,7,1,hernk001,109,BX,43/G4
+play,8,0,ray-j001,00,,NP
 sub,leact001,"Terry Leach",1,9,1
-play,8,0,ray-j001,,,43
-play,8,0,breas001,,,8
-play,8,0,browm002,,,W
-play,8,0,penat001,,,W.1-2
-play,8,0,morrj002,,,K
-play,8,1,cartg001,,,NP
+play,8,0,ray-j001,12,BCCFFX,43/G4
+play,8,0,breas001,20,BBX,8/L8
+play,8,0,browm002,31,BFBBB,W
+play,8,0,penat001,30,BBBB,W.1-2
+play,8,0,morrj002,02,FCS,K
+play,8,1,cartg001,00,,NP
 sub,guanc001,"Cecilio Guante",0,7,1
-play,8,1,cartg001,,,NP
+play,8,1,cartg001,00,,NP
 sub,almob001,"Bill Almon",0,9,5
-play,8,1,cartg001,,,43
-play,8,1,strad001,,,K
-play,8,1,fostg001,,,W
-play,8,1,knigr001,,,HR.1-H
-play,8,1,santr001,,,63
-play,9,0,khals001,,,NP
+play,8,1,cartg001,22,CFBFBX,43/G4
+com,"Check swing"
+play,8,1,strad001,12,BFSFS,K
+play,8,1,fostg001,32,BBFSBB,W
+play,8,1,knigr001,20,BBX,HR/F7D.1-H
+com,"Over LF fence to the left of the 358' sign"
+play,8,1,santr001,12,BFFX,63/G6
+play,9,0,khals001,00,,NP
 sub,mazzl001,"Lee Mazzilli",0,8,11
-play,9,0,mazzl001,,,NP
+play,9,0,mazzl001,00,,NP
 sub,mitck001,"Kevin Mitchell",1,1,5
-play,9,0,mazzl001,,,NP
+play,9,0,mazzl001,00,,NP
 sub,mcdor001,"Roger McDowell",1,7,1
-play,9,0,mazzl001,,,NP
+play,9,0,mazzl001,00,,NP
 sub,dyksl001,"Lenny Dykstra",1,9,8
-play,9,0,mazzl001,,,W
-play,9,0,almob001,,,13/SH.1-2
-play,9,0,reynr001,,,43.2-3
-play,9,0,orsuj001,,,S.3-H
-play,9,0,ray-j001,,,SB2
-play,9,0,ray-j001,,,K
-play,9,1,dyksl001,,,NP
+play,9,0,mazzl001,30,BBBB,W
+play,9,0,almob001,00,X,13/BG1S/SH.1-2
+play,9,0,reynr001,10,BX,43/G4M.2-3
+play,9,0,orsuj001,00,X,S1/BG25/TH1.3-H
+com,"Late throw to 1B"
+play,9,0,ray-j001,00,>M,SB2
+play,9,0,ray-j001,12,>M.F2BFS,K
+play,9,1,dyksl001,00,,NP
 sub,clemp001,"Pat Clements",0,7,1
-play,9,1,dyksl001,,,NP
+play,9,1,dyksl001,00,,NP
 sub,bellr001,"Rafael Belliard",0,8,6
-play,9,1,dyksl001,,,S
-play,9,1,mitck001,,,34/SH.1-2
-play,9,1,teuft001,,,D.2-H
-play,9,1,hernk001,,,W
-play,9,1,cartg001,,,NP
+play,9,1,dyksl001,12,CSFBX,S9/L9
+play,9,1,mitck001,11,1B1LX,34/BG34S/SH.1-2
+play,9,1,teuft001,01,CX,D7/L7L.2-H
+play,9,1,hernk001,30,BBBB,W
+play,9,1,cartg001,00,,NP
 sub,reynr001,"R.J. Reynolds",0,1,8
-play,9,1,cartg001,,,NP
+play,9,1,cartg001,00,,NP
 sub,winnj001,"Jim Winn",0,2,1
-play,9,1,cartg001,,,NP
+play,9,1,cartg001,00,,NP
 sub,kemps001,"Steve Kemp",0,7,7
-play,9,1,cartg001,,,S.2-H;1-2
+play,9,1,cartg001,10,BX,S7/L7L.2-H;1-2
 data,er,mcwil001,2
 data,er,guanc001,2
 data,er,clemp001,2
@@ -959,14 +984,15 @@ info,ump1b,willc901
 info,ump2b,wendh901
 info,ump3b,tatat901
 info,scorer,"Mueller"
-info,inputter,"Berman"
+info,translator,"Berman/Townsend"
+info,inputter,"Berman/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,64
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
+info,fieldcond,wet
+info,precip,drizzle
 info,sky,unknown
 info,timeofgame,156
 info,attendance,41722
@@ -992,81 +1018,90 @@ start,fostg001,"George Foster",1,6,7
 start,knigr001,"Ray Knight",1,7,5
 start,santr001,"Rafael Santana",1,8,6
 start,goodd001,"Dwight Gooden",1,9,1
-play,1,0,dorab001,,,7
-play,1,0,reync001,,,K
-play,1,0,cruzj001,,,K
-play,1,1,mitck001,,,13
-play,1,1,teuft001,,,K
-play,1,1,hernk001,,,7
-play,2,0,davig001,,,53
-play,2,0,walld001,,,43
-play,2,0,ashba001,,,3/G
-play,2,1,cartg001,,,63
-play,2,1,strad001,,,43
-play,2,1,fostg001,,,63
-play,3,0,bassk001,,,8
-play,3,0,puhlt001,,,K/C
-play,3,0,knepb001,,,63
-play,3,1,knigr001,,,8
-play,3,1,santr001,,,K
-play,3,1,goodd001,,,1/L
-play,4,0,dorab001,,,31
-play,4,0,reync001,,,31
-play,4,0,cruzj001,,,8
-play,4,1,mitck001,,,53
-play,4,1,teuft001,,,53
-play,4,1,hernk001,,,D
-play,4,1,cartg001,,,8
-play,5,0,davig001,,,S
-play,5,0,walld001,,,8
-play,5,0,ashba001,,,K
-play,5,0,bassk001,,,W.1-2
-play,5,0,puhlt001,,,7
-play,5,1,strad001,,,K
-play,5,1,fostg001,,,HR
-play,5,1,knigr001,,,D
-play,5,1,santr001,,,53
-play,5,1,goodd001,,,7
-play,6,0,knepb001,,,8
-play,6,0,dorab001,,,63
-play,6,0,reync001,,,4/L
-play,6,1,mitck001,,,13
-play,6,1,teuft001,,,D
-play,6,1,hernk001,,,W
-play,6,1,cartg001,,,8
-play,6,1,strad001,,,K
-play,7,0,cruzj001,,,31
-play,7,0,davig001,,,K
-play,7,0,walld001,,,43
-play,7,1,fostg001,,,W
-play,7,1,knigr001,,,K
-play,7,1,santr001,,,E5.1-3;B-2
-play,7,1,goodd001,,,T.3-H;2-H(UR)
-play,7,1,mitck001,,,NP
+com,"$Start of game delayed 45 minutes by rain."
+com,"It drizzled intermittently throughout the game."
+play,1,0,dorab001,31,BFBBX,7/F7S
+play,1,0,reync001,22,SBFBS,K
+play,1,0,cruzj001,12,STFBS,K
+play,1,1,mitck001,00,X,13/G1
+play,1,1,teuft001,12,BCFS,K
+play,1,1,hernk001,31,BBBCX,7/F7
+play,2,0,davig001,10,BX,53/G5
+play,2,0,walld001,00,X,43/G4
+play,2,0,ashba001,00,X,3/G3L
+play,2,1,cartg001,21,CBBX,63/G6
+play,2,1,strad001,20,BBX,43/G4
+play,2,1,fostg001,11,SBX,63/G56
+play,3,0,bassk001,00,X,8/F8XD
+play,3,0,puhlt001,32,BCCFBBFC,K/C
+play,3,0,knepb001,01,FX,63/G6
+play,3,1,knigr001,22,BFBFX,8/F8
+play,3,1,santr001,02,FFS,K
+play,3,1,goodd001,11,SBX,1/P1S
+play,4,0,dorab001,21,BFBX,31/G3L
+play,4,0,reync001,12,BFFX,31/G3
+play,4,0,cruzj001,32,CBBCFBX,8/F89S
+play,4,1,mitck001,01,CX,53/G5
+play,4,1,teuft001,20,BBX,53/G56
+com,"Walling: diving stop"
+play,4,1,hernk001,12,CBFX,D8/L89D
+play,4,1,cartg001,10,BX,8/F8
+play,5,0,davig001,12,CSBX,S4/G6M
+play,5,0,walld001,00,X,8/F89XD
+play,5,0,ashba001,02,CS*S,K
+play,5,0,bassk001,32,BBFBSB,W.1-2
+play,5,0,puhlt001,12,CBCFX,7/F78
+play,5,1,strad001,22,CBBCFS,K
+play,5,1,fostg001,01,CX,HR/F7D
+com,"Over LF fence deep into the bullpen"
+play,5,1,knigr001,00,X,D7/G5L
+play,5,1,santr001,11,BCX,53/G56
+play,5,1,goodd001,10,BX,7/F78XDW
+play,6,0,knepb001,12,VSFFX,8/F8D
+play,6,0,dorab001,22,BBFSX,63/G6
+play,6,0,reync001,11,SBX,4/L4
+play,6,1,mitck001,10,BX,13/G1
+com,"Knepper knocked down low line drive"
+play,6,1,teuft001,20,BBX,D9/F9LD
+play,6,1,hernk001,32,CTFBFFFBFBFB,W
+play,6,1,cartg001,32,BBBCFX,8/L8XD
+play,6,1,strad001,32,BBBCF>S,K
+play,7,0,cruzj001,00,X,31/G34
+play,7,0,davig001,12,CSFBT,K
+play,7,0,walld001,10,BX,43/G34
+play,7,1,fostg001,32,BFBSBB,W
+play,7,1,knigr001,12,SBFFS,K
+play,7,1,santr001,01,CX,E5/TH1/G5S.1-3;B-2
+com,"Wallings' low throw 1-hopped past Davis; Puhl recovered"
+play,7,1,goodd001,32,PBSBTFX,T9/F9D.3-H;2-H(UR)
+com,"Over Puhl"
+play,7,1,mitck001,00,,NP
 sub,kerfc001,"Charlie Kerfeld",0,9,1
-play,7,1,mitck001,,,S.3-H
-play,7,1,teuft001,,,NP
+play,7,1,mitck001,12,BC*SX,S8/G4M.3-H
+com,"Grounder through the drawn-in infield"
+play,7,1,teuft001,00,,NP
 sub,dyksl001,"Lenny Dykstra",1,1,12
-play,7,1,teuft001,,,46(1)/FO
-play,7,1,hernk001,,,W.1-2
-play,7,1,cartg001,,,K
-play,8,0,ashba001,,,NP
+play,7,1,teuft001,21,BBS1>X,46(1)/FO/G4M
+com,"High relay to 1B pulled Davis off the bag"
+play,7,1,hernk001,30,BBBB,W.1-2
+play,7,1,cartg001,22,CBFBS,K
+play,8,0,ashba001,00,,NP
 sub,dyksl001,"Lenny Dykstra",1,1,8
-play,8,0,ashba001,,,K/C
-play,8,0,bassk001,,,K
-play,8,0,puhlt001,,,8
-play,8,1,strad001,,,NP
+play,8,0,ashba001,22,BSFBC,K/C
+play,8,0,bassk001,32,CFBFBFBS,K
+play,8,0,puhlt001,32,BSBFBFX,8/F8D
+play,8,1,strad001,00,,NP
 sub,maddm001,"Mike Madden",0,6,1
-play,8,1,strad001,,,NP
+play,8,1,strad001,00,,NP
 sub,bailm001,"Mark Bailey",0,9,2
-play,8,1,strad001,,,K
-play,8,1,fostg001,,,K
-play,8,1,knigr001,,,53
-play,9,0,bailm001,,,W
-play,9,0,dorab001,,,36(1)/FO/G.B-1
-play,9,0,reync001,,,S.1-2
-play,9,0,cruzj001,,,E4.2-3;1-2;B-1
-play,9,0,davig001,,,12(3)3/GDP
+play,8,1,strad001,12,SBCS,K
+play,8,1,fostg001,22,FBBFS,K
+play,8,1,knigr001,10,BX,53/G5
+play,9,0,bailm001,32,CBCBBB,W
+play,9,0,dorab001,01,SX,36(1)/FO/G3.B-1
+play,9,0,reync001,02,SFFX,S9/G34.1-2
+play,9,0,cruzj001,12,BSFX,E4/P34D.2-3;1-2;B-1
+play,9,0,davig001,10,BX,12(3)3/GDP/G1
 data,er,knepb001,3
 data,er,kerfc001,0
 data,er,maddm001,0
@@ -1362,10 +1397,11 @@ info,umphome,demud901
 info,ump1b,crawj901
 info,ump2b,bonig901
 info,ump3b,wendh901
-info,scorer,"Mattan"
-info,inputter,"Berman"
+info,scorer,"Mattan,601"
+info,translator,"Berman/Townsend"
+info,inputter,"Berman/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -1396,90 +1432,90 @@ start,fostg001,"George Foster",1,6,7
 start,knigr001,"Ray Knight",1,7,5
 start,teuft001,"Tim Teufel",1,8,4
 start,darlr001,"Ron Darling",1,9,1
-play,1,0,milne001,,,8
-play,1,0,rosep001,,,W
-play,1,0,venam001,,,64(1)/FO
-play,1,0,parkd001,,,W.1-2
-play,1,0,concd001,,,9
-play,1,1,wilsm001,,,3/G
-play,1,1,mitck001,,,7
-play,1,1,hernk001,,,S
-play,1,1,cartg001,,,43
-play,2,0,bellb001,,,53
-play,2,0,diazb001,,,K
-play,2,0,oestr001,,,13
-play,2,1,strad001,,,8
-play,2,1,fostg001,,,8
-play,2,1,knigr001,,,D
-play,2,1,teuft001,,,I
-play,2,1,darlr001,,,9
-play,3,0,browt001,,,K/C
-play,3,0,milne001,,,43
-play,3,0,rosep001,,,8
-play,3,1,wilsm001,,,T
-play,3,1,mitck001,,,K
-play,3,1,hernk001,,,7
-play,3,1,cartg001,,,K/C
-play,4,0,venam001,,,31
-play,4,0,parkd001,,,53
-play,4,0,concd001,,,8
-play,4,1,strad001,,,K
-play,4,1,fostg001,,,HR
-play,4,1,knigr001,,,7
-play,4,1,teuft001,,,W
-play,4,1,darlr001,,,43
-play,5,0,bellb001,,,S
-play,5,0,diazb001,,,16(1)3/GDP
-play,5,0,oestr001,,,K
-play,5,1,wilsm001,,,13
-play,5,1,mitck001,,,D
-play,5,1,hernk001,,,S.2-H
-play,5,1,cartg001,,,7
-play,5,1,strad001,,,7
-play,6,0,browt001,,,7
-play,6,0,milne001,,,43
-play,6,0,rosep001,,,7
-play,6,1,fostg001,,,2/FL
-play,6,1,knigr001,,,9
-play,6,1,teuft001,,,9
-play,7,0,venam001,,,S1.B-2(E1/TH1)
-play,7,0,parkd001,,,9.2-3
-play,7,0,concd001,,,63.3-H(UR)
-play,7,0,bellb001,,,S
-play,7,0,diazb001,,,64(1)/FO/G
-play,7,1,darlr001,,,K
-play,7,1,wilsm001,,,K/C
-play,7,1,mitck001,,,63
-play,8,0,oestr001,,,43
-play,8,0,browt001,,,NP
+play,1,0,milne001,02,CFX,8/F8D
+play,1,0,rosep001,32,BBBCFB,W
+play,1,0,venam001,12,CSBFX,64(1)/FO/G6
+play,1,0,parkd001,31,11BBC1B>B,W.1-2
+play,1,0,concd001,10,BX,9/L9
+play,1,1,wilsm001,21,BBCX,3/G34
+play,1,1,mitck001,22,CFBFBX,7/L7D
+play,1,1,hernk001,32,BBCFFFBX,S8/G4M
+play,1,1,cartg001,32,BFBSFB>X,43/G4
+play,2,0,bellb001,20,BBX,53/G5L
+play,2,0,diazb001,12,FCBS,K
+play,2,0,oestr001,22,BSFBFX,13/G1
+play,2,1,strad001,21,BCBX,8/F8D
+play,2,1,fostg001,11,FBX,8/F78XDW
+play,2,1,knigr001,21,BBCX,D7/L7DW
+play,2,1,teuft001,30,*BIII,IW
+play,2,1,darlr001,00,X,9/F9D
+play,3,0,browt001,02,FSC,K/C
+play,3,0,milne001,10,BX,43/G4
+play,3,0,rosep001,12,CFBX,8/L8
+play,3,1,wilsm001,00,X,T9/L9LS
+play,3,1,mitck001,22,FBFBS,K
+play,3,1,hernk001,00,X,7/L7
+play,3,1,cartg001,02,CSC,K/C
+play,4,0,venam001,00,X,31/G34
+play,4,0,parkd001,22,BBSFFFX,53/G56
+play,4,0,concd001,10,BX,8/F89D
+play,4,1,strad001,12,FSBS,K
+play,4,1,fostg001,00,X,HR/F78XD
+play,4,1,knigr001,32,BCBFBX,7/F7LD
+play,4,1,teuft001,32,BFSBB*B,W
+play,4,1,darlr001,11,BCX,43/G34
+play,5,0,bellb001,00,X,S8/L78
+play,5,0,diazb001,11,FBX,16(1)3/GDP/G1
+play,5,0,oestr001,22,LFBBS,K
+play,5,1,wilsm001,22,BSBFFX,13/G1S
+play,5,1,mitck001,30,BBBX,D8/F8XD
+play,5,1,hernk001,01,CX,S9/G34.2-H
+play,5,1,cartg001,00,X,7/F7S
+play,5,1,strad001,21,BBFX,7/F7
+play,6,0,browt001,02,CFX,7/F7S
+play,6,0,milne001,11,CBX,43/G4
+play,6,0,rosep001,00,X,7/F7
+play,6,1,fostg001,10,BX,2/P2F/FL
+play,6,1,knigr001,12,BFFFX,9/F9D
+play,6,1,teuft001,12,BCFFFX,9/F9D
+play,7,0,venam001,00,X,S1/BG23.B-2(E1/TH1)
+play,7,0,parkd001,11,*BFX,9/F9D.2-3
+play,7,0,concd001,31,BSBBX,63/G6.3-H(UR)
+play,7,0,bellb001,01,SX,S8/G46
+play,7,0,diazb001,21,BB1CX,64(1)/FO/G6
+play,7,1,darlr001,22,BFCBS,K
+play,7,1,wilsm001,22,BBFFC,K/C
+play,7,1,mitck001,00,X,63/G6
+play,8,0,oestr001,02,CFFX,43/G4
+play,8,0,browt001,??,,NP
 sub,danik001,"Kal Daniels",0,9,11
 play,8,0,danik001,,,K/C
 play,8,0,milne001,,,W
-play,8,0,rosep001,,,43
-play,8,1,hernk001,,,NP
+play,8,0,rosep001,,,43/G4
+play,8,1,hernk001,??,,NP
 sub,pricj001,"Joe Price",0,9,1
-play,8,1,hernk001,,,S
-play,8,1,cartg001,,,HR.1-H
-play,8,1,strad001,,,K
+play,8,1,hernk001,00,X,S8
+play,8,1,cartg001,00,X,HR/F7D.1-H
+play,8,1,strad001,32,,K
 play,8,1,fostg001,,,E6/G.B-1
 play,8,1,knigr001,,,6/P
-play,8,1,teuft001,,,S.1-2
-play,8,1,darlr001,,,NP
+play,8,1,teuft001,,,S7.1-2
+play,8,1,darlr001,??,,NP
 sub,dyksl001,"Lenny Dykstra",1,6,12
-play,8,1,darlr001,,,NP
+play,8,1,darlr001,??,,NP
 sub,johnh001,"Howard Johnson",1,9,11
 play,8,1,johnh001,,,W.2-3;1-2
-play,8,1,wilsm001,,,NP
+play,8,1,wilsm001,??,,NP
 sub,robir001,"Ron Robinson",0,9,1
-play,8,1,wilsm001,,,W.3-H(UR);2-3;1-2
+play,8,1,wilsm001,30,BBBB,W.3-H(UR);2-3;1-2
 play,8,1,mitck001,,,K/C
-play,9,0,venam001,,,NP
+play,9,0,venam001,??,,NP
 sub,jonet001,"Tracy Jones",0,3,11
-play,9,0,jonet001,,,NP
+play,9,0,jonet001,??,,NP
 sub,wilsm001,"Mookie Wilson",1,1,7
-play,9,0,jonet001,,,NP
+play,9,0,jonet001,??,,NP
 sub,dyksl001,"Lenny Dykstra",1,6,8
-play,9,0,jonet001,,,NP
+play,9,0,jonet001,??,,NP
 sub,orosj001,"Jesse Orosco",1,9,1
 play,9,0,jonet001,,,W
 play,9,0,parkd001,,,K
@@ -1655,13 +1691,14 @@ info,umphome,kiblj901
 info,ump1b,froeb901
 info,ump2b,marsr901
 info,ump3b,davib902
-info,scorer,"Debbas"
-info,inputter,"Berman"
+info,scorer,"Debbas,601"
+info,translator,"Berman/Townsend"
+info,inputter,"Berman/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,pitches,pitches
+info,temp,50
+info,winddir,fromrf
+info,windspeed,5
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -1689,94 +1726,104 @@ start,fostg001,"George Foster",1,6,7
 start,knigr001,"Ray Knight",1,7,5
 start,teuft001,"Tim Teufel",1,8,4
 start,ferns001,"Sid Fernandez",1,9,1
-play,1,0,sampb001,,,9
-play,1,0,ramir001,,,K
-play,1,0,murpd001,,,K
-play,1,1,dyksl001,,,E4/G.B-1
-play,1,1,johnh001,,,S.1X3(75);B-2(TH3)
-play,1,1,hernk001,,,63.2-3
-play,1,1,strad001,,,K
-play,2,0,hornb001,,,S
-play,2,0,harpt001,,,W.1-2
-play,2,0,thoma001,,,4/P
-play,2,0,virgo001,,,8
-play,2,0,hubbg001,,,K
-play,2,1,cartg001,,,8
-play,2,1,fostg001,,,W
-play,2,1,knigr001,,,9
-play,2,1,teuft001,,,S.1-2
-play,2,1,ferns001,,,13
-play,3,0,mahlr001,,,K
-play,3,0,sampb001,,,S.B-2(E7)
-play,3,0,ramir001,,,K
-play,3,0,murpd001,,,K
-play,3,1,dyksl001,,,S
-play,3,1,johnh001,,,K
-play,3,1,hernk001,,,CS2(26)
-play,3,1,hernk001,,,9
-play,4,0,hornb001,,,8
-play,4,0,harpt001,,,53
-play,4,0,thoma001,,,S
-play,4,0,virgo001,,,8
-play,4,1,strad001,,,S
-play,4,1,cartg001,,,14(1)/FO/G.B-1
-play,4,1,fostg001,,,54(1)3/GDP
-play,5,0,hubbg001,,,8
-play,5,0,mahlr001,,,K
-play,5,0,sampb001,,,K/C
-play,5,1,knigr001,,,63
-play,5,1,teuft001,,,43
-play,5,1,ferns001,,,K
-play,6,0,ramir001,,,8
-play,6,0,murpd001,,,D
-play,6,0,hornb001,,,53
-play,6,0,harpt001,,,K/C
-play,6,1,dyksl001,,,K
-play,6,1,johnh001,,,S
-play,6,1,hernk001,,,W.1-2
-play,6,1,strad001,,,64(1)/FO/G.2-3;B-1
-play,6,1,cartg001,,,6/P
-play,7,0,thoma001,,,63
-play,7,0,virgo001,,,K
-play,7,0,hubbg001,,,8
-play,7,1,fostg001,,,9
-play,7,1,knigr001,,,S
-play,7,1,teuft001,,,S.1-3
-play,7,1,ferns001,,,NP
+play,1,0,sampb001,21,BBFX,9/F89S
+play,1,0,ramir001,22,BSBSS,K
+play,1,0,murpd001,22,BCBFS,K
+play,1,1,dyksl001,32,BBBCCX,E4/G4.B-1
+play,1,1,johnh001,11,BCX,S7/G56.1X3(75);B-2(TH3)
+play,1,1,hernk001,11,CBX,63/G6.2-3
+play,1,1,strad001,12,BFCS,K
+play,2,0,hornb001,00,X,S9/L4D
+play,2,0,harpt001,30,BBBB,W.1-2
+play,2,0,thoma001,31,BBLBX,4/P4MD
+play,2,0,virgo001,22,CBFBFX,8/F78
+play,2,0,hubbg001,12,CSBS,K
+play,2,1,cartg001,00,X,8/F89D
+play,2,1,fostg001,32,BBBCFB,W
+play,2,1,knigr001,01,CX,9/F9S
+play,2,1,teuft001,01,CX,S7/G56.1-2
+play,2,1,ferns001,01,FX,13/G13
+play,3,0,mahlr001,22,BBCSS,K
+play,3,0,sampb001,12,SCBFX,S7/L7.B-2(E7)
+com,"Foster fumbled the short hop then stumbled retrieving it"
+play,3,0,ramir001,22,BBFFFFS,K
+play,3,0,murpd001,12,SFBS,K
+play,3,1,dyksl001,32,CBBBCX,S9/G34
+play,3,1,johnh001,22,L1PB11>F1S,K
+play,3,1,hernk001,01,C1>B,CS2(26)
+com,"Thomas: scoop tag"
+play,3,1,hernk001,31,C1>B.BBX,9/F9D
+play,4,0,hornb001,12,BFCFX,8/F8
+play,4,0,harpt001,01,CX,53/G56
+play,4,0,thoma001,00,X,S9/G34
+play,4,0,virgo001,01,1FX,8/L8D
+play,4,1,strad001,11,BFX,S57/G5
+com,"Tough hop off Ramirez' glove"
+play,4,1,cartg001,21,111B>FB1X,14(1)/FO/G1.B-1
+com,"Hubbard's wide relay to 1B forced Horner off the bag"
+play,4,1,fostg001,10,BX,54(1)3/GDP/G5
+play,5,0,hubbg001,21,SBBX,8/F8D
+play,5,0,mahlr001,02,SFS,K
+play,5,0,sampb001,12,BSFC,K/C
+play,5,1,knigr001,11,CBX,63/G56
+com,"Horner: backhanded scoop of Thomas' low throw"
+play,5,1,teuft001,32,CBBBCX,43/G4
+play,5,1,ferns001,02,FCS,K
+play,6,0,ramir001,00,X,8/F8
+play,6,0,murpd001,00,X,D8/F8XDW
+play,6,0,hornb001,20,BBX,53/G5
+play,6,0,harpt001,12,BSFFC,K/C
+play,6,1,dyksl001,12,BCFS,K
+play,6,1,johnh001,10,BX,S9/G34
+play,6,1,hernk001,31,B1BBC11B,W.1-2
+play,6,1,strad001,12,CCBX,64(1)/FO/G6.2-3;B-1
+com,"Strawberry beat Hubbard's relay"
+play,6,1,cartg001,10,BX,6/P6D
+play,7,0,thoma001,21,SBBX,63/G6
+play,7,0,virgo001,12,BFFS,K
+play,7,0,hubbg001,00,X,9/L9D
+play,7,1,fostg001,12,SFBX,9/F89S
+com,"Sample: diving catch"
+play,7,1,knigr001,11,FBX,S7/G56
+play,7,1,teuft001,12,BCCFFFX,S9/G34/TH3.1-3
+com,"Braves argued close play at 3B"
+play,7,1,ferns001,00,,NP
 sub,wilsm001,"Mookie Wilson",1,9,11
-play,7,1,wilsm001,,,W.1-2
-play,7,1,dyksl001,,,NP
-sub,mitck001,"Kevin Mitchell",1,1,11
-play,7,1,mitck001,,,NP
+play,7,1,wilsm001,32,BFBSFFFBB,W.1-2
+play,7,1,dyksl001,00,,NP
 sub,assep001,"Paul Assenmacher",0,9,1
-play,7,1,mitck001,,,52(3)/FO/G.2-3;1-2;B-1
-play,7,1,johnh001,,,K/C
-play,8,0,assep001,,,NP
+play,7,1,dyksl001,00,,NP
+sub,mitck001,"Kevin Mitchell",1,1,11
+play,7,1,mitck001,01,CX,52(3)/FO/G5S.2-3;1-2;B-1
+play,7,1,johnh001,22,CFBFBFC,K/C
+play,8,0,assep001,00,,NP
 sub,mcdor001,"Roger McDowell",1,1,1
-play,8,0,assep001,,,NP
+play,8,0,assep001,00,,NP
 sub,wilsm001,"Mookie Wilson",1,9,8
-play,8,0,assep001,,,W
-play,8,0,sampb001,,,64(1)/FO/G.B-1
-play,8,0,ramir001,,,4(1)/FO/G.B-1
-play,8,0,murpd001,,,SB2
-play,8,0,murpd001,,,W
-play,8,0,hornb001,,,K
-play,8,1,hernk001,,,W
-play,8,1,strad001,,,5/P
-play,8,1,cartg001,,,K/C
-play,8,1,fostg001,,,1/L
-play,9,0,harpt001,,,NP
+play,8,0,assep001,31,BBCBB,W
+play,8,0,sampb001,22,BLBLX,64(1)/FO/G56.B-1
+com,"Johnson: good play"
+play,8,0,ramir001,11,11B11>FX,4(1)/FO/G4.B-1
+com,"Teufel tagged Sample then threw past Hernandez"
+play,8,0,murpd001,11,FB>B,SB2
+play,8,0,murpd001,32,FB>B.FBB,W
+play,8,0,hornb001,22,FBSFFBS,K
+play,8,1,hernk001,31,CBBBB,W
+play,8,1,strad001,01,C1X,5/BP15
+play,8,1,cartg001,32,B1CB1BF1C,K/C
+play,8,1,fostg001,11,S*B1X,1/L1
+play,9,0,harpt001,00,,NP
 sub,washc001,"Claudell Washington",0,5,11
-play,9,0,washc001,,,K
-play,9,0,thoma001,,,K
-play,9,0,virgo001,,,W
-play,9,0,hubbg001,,,9
-play,9,1,knigr001,,,NP
+play,9,0,washc001,12,BFCFFFS,K
+play,9,0,thoma001,12,CBSS,K
+play,9,0,virgo001,32,BFFBBB,W
+play,9,0,hubbg001,01,LX,9/F9
+play,9,1,knigr001,00,,NP
 sub,sampb001,"Bill Sample",0,1,7
-play,9,1,knigr001,,,NP
+play,9,1,knigr001,00,,NP
 sub,washc001,"Claudell Washington",0,5,9
-play,9,1,knigr001,,,D
-play,9,1,teuft001,,,S.2-H
+play,9,1,knigr001,10,BX,D7/L7LS
+play,9,1,teuft001,22,FBBFX,S8/G6M.2-H
 data,er,mahlr001,0
 data,er,assep001,1
 data,er,ferns001,0
@@ -1952,9 +1999,10 @@ info,ump1b,westj901
 info,ump2b,willb901
 info,ump3b,ripps901
 info,scorer,"C. Corica"
-info,inputter,"Mark Loomis"
+info,translator,"Mark Loomis/Townsend"
+info,inputter,"Mark Loomis/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -1985,88 +2033,101 @@ start,fostg001,"George Foster",1,6,7
 start,knigr001,"Ray Knight",1,7,5
 start,santr001,"Rafael Santana",1,8,6
 start,darlr001,"Ron Darling",1,9,1
-play,1,0,sax-s001,,,63
-play,1,0,landk001,,,HR/7
-play,1,0,madlb001,,,8/F
-play,1,0,marsm001,,,K
-play,1,1,dyksl001,,,43
-play,1,1,backw001,,,3/G
-play,1,1,hernk001,,,K/C
-play,2,0,sciom001,,,63
-play,2,0,brocg001,,,W
-play,2,0,stubf001,,,K/C
-play,2,0,duncm001,,,S7/L7S.1-2
-play,2,0,welcb001,,,63
-play,2,1,cartg001,,,K
-play,2,1,heepd001,,,6/F
-play,2,1,fostg001,,,K
-play,3,0,sax-s001,,,K
-play,3,0,landk001,,,K/C
-play,3,0,madlb001,,,K/C
-play,3,1,knigr001,,,K
-play,3,1,santr001,,,K
-play,3,1,darlr001,,,4/F
-play,4,0,marsm001,,,63
-play,4,0,sciom001,,,53
-play,4,0,brocg001,,,43
-play,4,1,dyksl001,,,S4/BG4S
-play,4,1,backw001,,,46(1)/FO
-play,4,1,hernk001,,,S9/F9S.1-3(E9)
-play,4,1,cartg001,,,9/SF.3-H(UR)
-play,4,1,heepd001,,,3/G
-play,5,0,stubf001,,,K/C
-play,5,0,duncm001,,,K
-play,5,0,welcb001,,,K/C
-play,5,1,fostg001,,,K/C
-play,5,1,knigr001,,,K
-play,5,1,santr001,,,HP
-play,5,1,darlr001,,,K
-play,6,0,sax-s001,,,53
-play,6,0,landk001,,,K
-play,6,0,madlb001,,,63
-play,6,1,dyksl001,,,S8/G4M
-play,6,1,backw001,,,D9/F9L.1-H
-play,6,1,hernk001,,,S6/L1.2-3
-play,6,1,cartg001,,,S8/F78S.3-H;1-2
-play,6,1,heepd001,,,S7/L7S.2-3;1-2
-play,6,1,fostg001,,,NP
+play,1,0,sax-s001,11,CBX,63/G6
+play,1,0,landk001,00,X,HR/L7D
+com,"Over RF fence"
+play,1,0,madlb001,22,SBFFBX,8/F8XD
+play,1,0,marsm001,22,FBSBS,K
+play,1,1,dyksl001,11,BCX,43/F4
+play,1,1,backw001,10,BX,31/G34
+play,1,1,hernk001,22,BCFBC,K/C
+play,2,0,sciom001,12,CSBX,63/G6M
+play,2,0,brocg001,31,BSBBB,W
+play,2,0,stubf001,02,SSC,K/C
+play,2,0,duncm001,00,X,S7/L7S.1-2
+play,2,0,welcb001,32,MBCBFB>X,63/G6
+play,2,1,cartg001,22,CCFFBBS,K
+play,2,1,heepd001,12,BFFX,6/P6D
+play,2,1,fostg001,12,BFSFFS,K
+play,3,0,sax-s001,02,CFFS,K
+play,3,0,landk001,12,CBCC,K/C
+play,3,0,madlb001,22,BBSCC,K/C
+play,3,1,knigr001,02,CCFC,K
+play,3,1,santr001,32,BCFBBS,K
+play,3,1,darlr001,02,FSX,4/P4
+play,4,0,marsm001,01,SX,63/G6
+play,4,0,sciom001,01,CX,53/G5
+play,4,0,brocg001,02,FSX,43/G4
+play,4,1,dyksl001,11,BFX,S4/BP4S
+play,4,1,backw001,00,11X,46(1)/FO/G4
+play,4,1,hernk001,22,B1SF1FB11X,S9/L34D.1-3(E9)
+com,"Marshall fumbled"
+play,4,1,cartg001,02,CFX,9/F9D/SF.3-H(UR)
+play,4,1,heepd001,20,BBX,3/G3
+play,5,0,stubf001,32,BFFBBC,K/C
+play,5,0,duncm001,02,CSS,K
+play,5,0,welcb001,32,FBFBBC,K/C
+play,5,1,fostg001,12,SBSC,K/C
+play,5,1,knigr001,12,BFCFFS,K
+play,5,1,santr001,11,BSH,HP
+com,"Hit on the right elbow"
+play,5,1,darlr001,02,CMC,K/C
+play,6,0,sax-s001,00,X,53/G5S
+play,6,0,landk001,22,CSBBFFS,K
+play,6,0,madlb001,22,BSSBX,63/G6
+play,6,1,dyksl001,02,CCX,S8/G6M
+play,6,1,backw001,00,1X,D9/L9LS.1-H
+play,6,1,hernk001,00,X,S6/G46.2-3
+com,"Grounder bounded high off the pitching rubber to Duncan"
+com,"behind 2B; no throw."
+play,6,1,cartg001,02,MFX,S8/F78S.3-H;1-2
+play,6,1,heepd001,01,CX,S7/L7.2-3;1-2
+play,6,1,fostg001,00,,NP
 sub,niedt001,"Tom Niedenfuer",0,9,1
-play,6,1,fostg001,,,HR/L7L.3-H;2-H;1-H
-play,6,1,knigr001,,,HP
-play,6,1,santr001,,,S9/L9S.1-2
-play,6,1,darlr001,,,E1/SH.2-3;1-2
-play,6,1,dyksl001,,,NP
+play,6,1,fostg001,01,SX,HR/L7LD.3-H;2-H;1-H
+com,"Over LF fence"
+play,6,1,knigr001,00,H,HP
+com,"Knight was hit on the left elbow, charged the mound, and was"
+com,"tackled by Niedenfuer; both benches and bullpens emptied."
+com,"No ejections, only warnings."
+com,"Mgr Lasorda argued vehemently with HP Ump."
+play,6,1,santr001,22,BBFSX,S9/G34.1-2
+play,6,1,darlr001,00,X,E1/BG25/SH.2-3;1-2
+com,"Niedenfuer first bobbled it, then made a low throw in the"
+com,"dirt to 1B that Sax couldn't scoop."
+play,6,1,dyksl001,00,,NP
 sub,vande001,"Ed Vande Berg",0,9,1
-play,6,1,dyksl001,,,8/F
-play,6,1,backw001,,,4(B)3(1)/LDP
-play,7,0,marsm001,,,S8/L8S
-play,7,0,sciom001,,,64(1)/FO/G.B-1
-play,7,0,brocg001,,,S9/G34.1-2
-play,7,0,stubf001,,,K/C
-play,7,0,duncm001,,,63
-play,7,1,hernk001,,,NP
+play,6,1,dyksl001,00,X,8/L8
+play,6,1,backw001,32,BC*BSBFFX,4/L4/LDP.1X1(43)
+play,7,0,marsm001,31,BSBBX,S8/G4M
+play,7,0,sciom001,01,SX,64(1)/FO/G4.B-1
+play,7,0,brocg001,00,X,S9/G34.1-2
+play,7,0,stubf001,22,SCBF*BC,K/C
+play,7,0,duncm001,12,BSSX,63/G6
+play,7,1,hernk001,00,,NP
 sub,penaa001,"Alejandro Pena",0,6,1
-play,7,1,hernk001,,,NP
+play,7,1,hernk001,00,,NP
 sub,matul001,"Len Matuszek",0,9,3
-play,7,1,hernk001,,,HR/9
-play,7,1,cartg001,,,7/F
-play,7,1,heepd001,,,D9/L9L
-play,7,1,fostg001,,,43.2-3
-play,7,1,knigr001,,,W
-play,7,1,santr001,,,K
-play,8,0,matul001,,,31
-play,8,0,sax-s001,,,9/F
-play,8,0,landk001,,,W
-play,8,0,madlb001,,,64(1)/FO/G
-play,8,1,darlr001,,,8/F
-play,8,1,dyksl001,,,43
-play,8,1,backw001,,,3/G
-play,9,0,marsm001,,,K/C
-play,9,0,sciom001,,,D9/L9L
-play,9,0,penaa001,,,NP
+play,7,1,hernk001,21,CBBX,HR/F9D
+com,"Over RF fence"
+play,7,1,cartg001,21,FBBX,7/F7D
+play,7,1,heepd001,21,CBBX,D9/L9LS
+play,7,1,fostg001,02,CSFX,43/G4.2-3
+play,7,1,knigr001,31,FBB*BB,W
+play,7,1,santr001,12,SFB*S,K23
+play,8,0,matul001,11,CBX,31/G3L
+play,8,0,sax-s001,32,FSBBBFX,9/F9
+play,8,0,landk001,31,BBBCB,W
+play,8,0,madlb001,00,X,64(1)/FO/G6
+play,8,1,darlr001,11,CBX,8/F8
+play,8,1,dyksl001,02,SCFX,43/G4
+play,8,1,backw001,22,FBBFX,3/G3
+play,9,0,marsm001,02,CSC,K/C
+play,9,0,sciom001,12,CBCX,D9/L3D
+play,9,0,penaa001,00,,NP
 sub,cedec001,"Cesar Cedeno",0,6,11
-play,9,0,cedec001,,,K/C
-play,9,0,stubf001,,,43
+play,9,0,cedec001,02,CSC,K/C
+play,9,0,stubf001,11,CBX,43/G4
 data,er,welcb001,5
 data,er,niedt001,1
 data,er,vande001,0
@@ -7493,8 +7554,9 @@ info,umphome,palld901
 info,ump1b,engeb901
 info,ump2b,darlg901
 info,ump3b,ripps901
-info,scorer,"M. Podrazik"
-info,inputter,"M. Podrazik"
+info,scorer,"M. Podrazik,601"
+info,translator,"M. Podrazik/Townsend"
+info,inputter,"M. Podrazik/Townsend"
 info,howscored,unknown
 info,pitches,none
 info,temp,0
@@ -7534,7 +7596,8 @@ play,1,0,mattg001,,,W
 play,1,0,morek001,,,SB3
 play,1,0,morek001,,,W.1-2
 play,1,0,davij001,,,K
-play,1,0,cey-r001,,,D.3-H;2-H;1-H
+play,1,0,cey-r001,,,D7/F7D.3-H;2-H;1-H
+com,"Over Heep who misjudged it"
 play,1,0,trilm001,,,K
 play,1,1,dyksl001,,,K/C
 play,1,1,backw001,,,K
@@ -7543,13 +7606,15 @@ play,2,0,dunss001,,,K
 play,2,0,ecked001,,,K
 play,2,0,dernb001,,,D
 play,2,0,sandr001,,,K
-play,2,1,cartg001,,,D
+play,2,1,cartg001,,,D9
 play,2,1,strad001,,,K
-play,2,1,heepd001,,,S.2-3
+play,2,1,heepd001,,,S/G.2-3
+com,"Infield hit"
 play,2,1,knigr001,,,K
-play,2,1,johnh001,,,D.3-H;1-3
+play,2,1,johnh001,,,D9/9L.3-H;1-3
 play,2,1,ferns001,,,3/G
-play,3,0,mattg001,,,HR
+play,3,0,mattg001,10,BX,HR/F8XD
+com,"Over CF fence (measured at 410')"
 play,3,0,morek001,,,S
 play,3,0,davij001,,,K
 play,3,0,cey-r001,,,K
@@ -7577,10 +7642,10 @@ sub,wilsm001,"Mookie Wilson",1,9,11
 play,5,1,wilsm001,,,43
 play,5,1,dyksl001,,,3/G
 play,5,1,backw001,,,3/G
+com,"1-hour 57-minute rain delay"
 play,6,0,trilm001,,,NP
 sub,siskd001,"Doug Sisk",1,9,1
 play,6,0,trilm001,,,53
-com,"2:00 rain delay"
 play,6,0,dunss001,,,K
 play,6,0,ecked001,,,NP
 sub,frant001,"Terry Francona",0,9,11
@@ -7611,35 +7676,44 @@ sub,myerr001,"Randy Myers",1,9,1
 play,8,0,morek001,,,S
 play,8,0,davij001,,,9
 play,8,0,cey-r001,,,W.1-2
-play,8,0,trilm001,,,7
-play,8,0,dunss001,,,K
-play,8,1,backw001,,,S
-play,8,1,hernk001,,,W.1-2
-play,8,1,cartg001,,,S.2-3;1-2
-play,8,1,strad001,,,9/SF.3-H;2-3
-play,8,1,mitck001,,,NP
+com,"Light rain falling"
+play,8,0,trilm001,32,,7/F7D
+com,"Trillo fouled off five 3-2 pitches in a row before flying out"
+play,8,0,dunss001,32,FBBFB>S,K
+play,8,1,backw001,10,BX,S4/G4M
+play,8,1,hernk001,32,BTBSBFFB,W.1-2
+play,8,1,cartg001,02,CFFX,S3/G34.2-3;1-2
+com,"Slow roller; Durham ranged far but slipped as he threw to 1B,"
+com,"causing a high throw. DiPino was on the bag as the ball"
+com,"arrived in time, but he could not hold it.  Ruled a hit."
+play,8,1,strad001,12,BSCX,9/L9D/SF.3-H;2-3
+com,"Moreland: one-handed running catch"
+play,8,1,mitck001,00,,NP
 sub,durhl001,"Leon Durham",0,6,3
-play,8,1,mitck001,,,NP
+play,8,1,mitck001,00,,NP
 sub,smitl001,"Lee Smith",0,7,1
-play,8,1,mitck001,,,NP
+play,8,1,mitck001,00,,NP
 sub,speic001,"Chris Speier",0,9,5
-play,8,1,mitck001,,,K/C
-play,8,1,knigr001,,,E6/G.3-H(NR)(UR);1-2;B-1
-play,8,1,johnh001,,,K
-play,9,0,speic001,,,K
-play,9,0,dernb001,,,E6.B-1
-play,9,0,sandr001,,,4(1)/FO/G.B-1
-play,9,0,martd002,,,NP
+play,8,1,mitck001,02,FSC,K/C
+play,8,1,knigr001,20,BBX,E6/G6/TH2.3-H(NR)(UR);1-2;B-1
+com,"Hard short-hop off Dunston's left arm"
+play,8,1,johnh001,22,BBFFFS,K
+play,9,0,speic001,22,BBCFS,K
+play,9,0,dernb001,01,CX,E6/TH1.B-1
+com,"Johnson: wide throw past Hernandez' left"
+play,9,0,sandr001,00,X,4(1)/FO/G4M.B-1
+com,"Sandberg beat Backman's relay to 1B"
+play,9,0,martd002,00,,NP
 sub,mumpj001,"Jerry Mumphrey",0,3,11
-play,9,0,mumpj001,,,W.1-2
-play,9,0,morek001,,,7
-play,9,1,myerr001,,,NP
+play,9,0,mumpj001,31,BBFB1>B,W.1-2
+play,9,0,morek001,22,CBFBX,7/F7
+play,9,1,myerr001,00,,NP
 sub,teuft001,"Tim Teufel",1,9,11
-play,9,1,teuft001,,,NP
+play,9,1,teuft001,00,,NP
 sub,mumpj001,"Jerry Mumphrey",0,3,7
-play,9,1,teuft001,,,6
-play,9,1,dyksl001,,,K
-play,9,1,backw001,,,43
+play,9,1,teuft001,00,X,6/P6
+play,9,1,dyksl001,22,CBCBS,K
+play,9,1,backw001,10,BX,43/G4M
 data,er,ecked001,1
 data,er,dipif001,1
 data,er,smitl001,0
@@ -11473,16 +11547,17 @@ info,umphome,rennd901
 info,ump1b,weyel901
 info,ump2b,monte901
 info,ump3b,brocf901
-info,scorer,"James Smith"
-info,inputter,"Jeff Yaguda"
+info,scorer,"James Smith,601"
+info,translator,"Jeff Yaguda/Townsend"
+info,inputter,"Jeff Yaguda/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,fromcf
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,cloudy
 info,timeofgame,154
 info,attendance,42631
 info,wp,freem001
@@ -11507,101 +11582,113 @@ start,heepd001,"Danny Heep",1,6,7
 start,johnh001,"Howard Johnson",1,7,5
 start,santr001,"Rafael Santana",1,8,6
 start,mitcj001,"John Mitchell",1,9,1
-play,1,0,thomm001,,,W
-play,1,0,samuj001,,,64(1)/FO/G.B-1
-play,1,0,hayev001,,,46(1)3/GDP
-play,1,1,dyksl001,,,W
-play,1,1,backw001,,,SB2
-play,1,1,backw001,,,K
-play,1,1,magad001,,,63
-play,1,1,cartg001,,,K
-play,2,0,schmm001,,,S7
-play,2,0,roenr001,,,WP.1-2
-play,2,0,roenr001,,,9
-play,2,0,redug001,,,W
-play,2,0,russj002,,,54(1)3/GDP
-play,2,1,strad001,,,T9
-play,2,1,heepd001,,,PB.3-H
-play,2,1,heepd001,,,K
-play,2,1,johnh001,,,53
-play,2,1,santr001,,,53
-play,3,0,jelts001,,,43
-play,3,0,freem001,,,43
-play,3,0,thomm001,,,63
-play,3,1,mitcj001,,,K
-play,3,1,dyksl001,,,43
-play,3,1,backw001,,,7
-play,4,0,samuj001,,,D7/78
-play,4,0,hayev001,,,43.2-3
-play,4,0,schmm001,,,S7.3-H
-play,4,0,roenr001,,,7
-play,4,0,redug001,,,HR/7.1-H
-play,4,0,russj002,,,D7
-play,4,0,jelts001,,,S9.2-H
-play,4,0,freem001,,,46(1)/FO/G
-play,4,1,magad001,,,W
-play,4,1,cartg001,,,8
-play,4,1,strad001,,,36(1)/FO/G.B-1
-play,4,1,heepd001,,,7
-play,5,0,thomm001,,,S7
-play,5,0,samuj001,,,CS2(26)
-play,5,0,samuj001,,,53
-play,5,0,hayev001,,,2
-play,5,1,johnh001,,,K
-play,5,1,santr001,,,3
-play,5,1,mitcj001,,,NP
+play,1,0,thomm001,32,FSBBBB,W
+play,1,0,samuj001,01,1C1X,64(1)/FO/G6.B-1
+com,"Hernandez scooped Backman's low relay in the dirt"
+play,1,0,hayev001,00,X,46(1)3/GDP/G4
+play,1,1,dyksl001,30,BBBB,W
+play,1,1,backw001,00,>B,SB2
+com,"Thompson backed up Russell's high throw into CF"
+play,1,1,backw001,12,>B.FLS,K
+play,1,1,magad001,10,BX,63/G56
+com,"Jeltz: backhanded stop"
+play,1,1,cartg001,22,BCBSS,K
+play,2,0,schmm001,11,SBX,S7/L7S
+play,2,0,roenr001,01,FB,WP.1-2
+play,2,0,roenr001,11,FB.X,9/F9
+play,2,0,redug001,32,BCBBCFB,W
+play,2,0,russj002,00,X,54(1)3/GDP/G5
+play,2,1,strad001,22,BFFBX,T9/G3L
+play,2,1,heepd001,12,CCBFB,PB.3-H
+play,2,1,heepd001,22,CCBFB.S,K
+play,2,1,johnh001,10,BX,8/F8D
+play,2,1,santr001,00,X,53/G5
+play,3,0,jelts001,00,X,43/G4
+play,3,0,freem001,00,X,43/G4
+play,3,0,thomm001,11,CBX,63/G6
+play,3,1,mitcj001,12,BCCC,K/C
+play,3,1,dyksl001,12,FCBX,43/G4M
+play,3,1,backw001,21,CBBX,7/F7
+play,4,0,samuj001,11,CBX,D7/G6
+com,"The diving Santana was playing toward the hole"
+play,4,0,hayev001,11,CBX,43/G4.2-3
+play,4,0,schmm001,10,*BX,S7/L7S.3-H
+play,4,0,roenr001,12,*B+1FCX,7/F7L
+play,4,0,redug001,20,BBX,HR/F7D.1-H
+play,4,0,russj002,12,BFCX,D7/L7L
+play,4,0,jelts001,01,CX,S9/G34.2-H
+play,4,0,freem001,12,BCSFFX,46(1)/FO/G4
+play,4,1,magad001,31,BBCBB,W
+play,4,1,cartg001,10,BX,8/F78
+play,4,1,strad001,10,*BX,36(1)/FO/G3S.B-1
+play,4,1,heepd001,02,1C1FX,7/F78S
+play,5,0,thomm001,32,CBBFBX,S7/L7S
+play,5,0,samuj001,00,1>P,CS2(26)
+play,5,0,samuj001,22,1>P.BSFX,53/G5
+play,5,0,hayev001,10,BX,2/P2F/FL
+play,5,1,johnh001,32,BBCBFFS,K
+play,5,1,santr001,10,BX,3/P34S
+play,5,1,mitcj001,00,,NP
 sub,mazzl001,"Lee Mazzilli",1,9,11
-play,5,1,mazzl001,,,W
-play,5,1,dyksl001,,,SB2
-play,5,1,dyksl001,,,63
-play,6,0,schmm001,,,NP
+play,5,1,mazzl001,31,BBBCB,W
+play,5,1,dyksl001,31,BBFB>C,SB2
+play,5,1,dyksl001,32,BBFB>C.X,63/G6
+play,6,0,schmm001,00,,NP
 sub,siskd001,"Doug Sisk",1,9,1
-play,6,0,schmm001,,,7/L
-play,6,0,roenr001,,,3/G
-play,6,0,redug001,,,8/L
-play,6,1,backw001,,,43
-play,6,1,magad001,,,W
-play,6,1,cartg001,,,7
-play,6,1,strad001,,,4/L
-play,7,0,russj002,,,63
-play,7,0,jelts001,,,43
-play,7,0,freem001,,,K
-play,7,1,heepd001,,,K/C
-play,7,1,johnh001,,,W
-play,7,1,santr001,,,6(B)3(1)/GDP
-play,8,0,thomm001,,,NP
+play,6,0,schmm001,10,BX,7/L7S
+play,6,0,roenr001,12,CBFX,3/G3
+play,6,0,redug001,31,BCBBX,8/L8S
+play,6,1,backw001,21,BBCX,43/G4
+play,6,1,magad001,31,BBBCB,W
+play,6,1,cartg001,10,B1X,7/F7
+play,6,1,strad001,10,BX,4/L4
+com,"Samuel: diving backhanded catch"
+play,7,0,russj002,00,X,63/G6
+play,7,0,jelts001,21,BBCX,43/G4
+play,7,0,freem001,12,BCSFFS,K
+play,7,1,heepd001,22,BBFFC,K/C
+play,7,1,johnh001,30,BBBB,W
+play,7,1,santr001,01,CX,6(1)3/GDP/G6M
+play,8,0,thomm001,00,,NP
 sub,myerr001,"Randy Myers",1,6,1
-play,8,0,thomm001,,,NP
+play,8,0,thomm001,00,,NP
 sub,wilsm001,"Mookie Wilson",1,9,7
-play,8,0,thomm001,,,W
-play,8,0,samuj001,,,S7.1-3;B-2(TH3)
-play,8,0,hayev001,,,6
-play,8,0,schmm001,,,I
-play,8,0,roenr001,,,3
-play,8,0,redug001,,,W.3-H;2-3;1-2
-play,8,0,russj002,,,S9.3-H;2-H;1-3
-play,8,0,jelts001,,,K
-play,8,1,wilsm001,,,NP
+play,8,0,thomm001,30,BBBB,W
+play,8,0,samuj001,01,CX,S7/G5.1-3;B-2(TH3)
+com,"Through Johnson"
+play,8,0,hayev001,12,BFCX,6/P56
+play,8,0,schmm001,30,IIII,IW
+play,8,0,roenr001,02,CFX,3/P3D
+play,8,0,redug001,32,BCBBT>B,W.3-H;2-3;1-2
+play,8,0,russj002,00,X,S9/G3.3-H;2-H;1-3
+com,"Bad hop past Magadan"
+play,8,0,jelts001,22,BFSBT,K
+play,8,1,wilsm001,00,,NP
 sub,tekuk001,"Kent Tekulve",0,7,1
-play,8,1,wilsm001,,,NP
+play,8,1,wilsm001,00,,NP
 sub,reynr002,"Ronn Reynolds",0,9,2
-play,8,1,wilsm001,,,7
-play,8,1,dyksl001,,,6/F
-play,8,1,backw001,,,S1
-play,8,1,magad001,,,13
-play,9,0,reynr002,,,NP
+play,8,1,wilsm001,10,BX,7/F7LS
+play,8,1,dyksl001,01,CX,6/P5DF/FL
+com,"Jeltz: running catch near the stands"
+play,8,1,backw001,32,BBBCFFFX,S4/G34D
+com,"Samuel: good range; his whirling off-balance throw was in"
+com,"time but a little wide.  It went off Hayes' glove as he"
+com,"reached for it backhanded."
+play,8,1,magad001,11,BCX,13/G1
+play,9,0,reynr002,00,,NP
 sub,niemr001,"Randy Niemann",1,6,1
-play,9,0,reynr002,,,53
-play,9,0,thomm001,,,K
-play,9,0,samuj001,,,S7
-play,9,0,hayev001,,,W.1-2
-play,9,0,schmm001,,,54(1)/FO/G
-play,9,1,cartg001,,,S8
-play,9,1,strad001,,,K
-play,9,1,niemr001,,,NP
+play,9,0,reynr002,00,X,53/G56
+com,"Johnson: diving stop"
+play,9,0,thomm001,32,BCSBBS,K
+play,9,0,samuj001,10,BX,S7/L7
+play,9,0,hayev001,32,BCBCBB,W.1-2
+play,9,0,schmm001,10,BX,54(1)/FO/G56
+play,9,1,cartg001,00,X,S8/L78
+play,9,1,strad001,22,BBFFS,K
+play,9,1,niemr001,00,,NP
 sub,jeffs001,"Stan Jefferson",1,6,11
-play,9,1,jeffs001,,,K/C
-play,9,1,johnh001,,,9/L
+play,9,1,jeffs001,32,CFBBFFFFBC,K/C
+play,9,1,johnh001,11,BSX,9/L9
 data,er,freem001,1
 data,er,tekuk001,0
 data,er,mitcj001,4

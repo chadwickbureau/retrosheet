@@ -313,16 +313,17 @@ info,umphome,garcr901
 info,ump1b,koscg901
 info,ump2b,reedr901
 info,ump3b,mcclt901
-info,scorer,"Sanford Gruenfeld"
-info,inputter,"Gary Gillette"
+info,scorer,"Sanford Gruenfeld,601"
+info,scorer,"Sanford Gruenfeld/Townsend"
+info,inputter,"Gary Gillette/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,winddir,fromcf
+info,windspeed,10
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,156
 info,attendance,4220
 info,wp,ruhlv001
@@ -349,94 +350,106 @@ start,jacob001,"Brook Jacoby",1,7,5
 start,willj001,"Jerry Willard",1,8,2
 start,bernt001,"Tony Bernazard",1,9,4
 start,ruhlv001,"Vern Ruhle",1,0,1
-play,1,0,younm002,,,K
-play,1,0,grosw001,,,S
-play,1,0,ripkc001,,,8
-play,1,0,murre001,,,S.1-3
-play,1,0,lynnf001,,,9
-play,1,1,butlb001,,,S.B-3(E1)
-play,1,1,franj002,,,S.3-H
-play,1,1,hallm001,,,54(1)3/GDP
-play,1,1,tablp001,,,S
-play,1,1,vukog001,,,7
-play,2,0,lowej001,,,4
-play,2,0,sheel001,,,3/G
-play,2,0,dauer001,,,163(B)/G
-play,2,1,hargm001,,,43
-play,2,1,jacob001,,,8
-play,2,1,willj001,,,3/G
-play,3,0,dempr001,,,K
-play,3,0,younm002,,,43
-play,3,0,grosw001,,,K
-play,3,1,bernt001,,,K
-play,3,1,butlb001,,,T
-play,3,1,franj002,,,E9/SF.3-H;B-2
-play,3,1,hallm001,,,43.2-3
-play,3,1,tablp001,,,53
-play,4,0,ripkc001,,,W
-play,4,0,murre001,,,3/G.1-2
-play,4,0,lynnf001,,,8
-play,4,0,lowej001,,,31
-play,4,1,vukog001,,,43
-play,4,1,hargm001,,,31
-play,4,1,jacob001,,,S
-play,4,1,willj001,,,46(1)/FO/G
-play,5,0,sheel001,,,K
-play,5,0,dauer001,,,63
-play,5,0,dempr001,,,K
-play,5,1,bernt001,,,W
-play,5,1,butlb001,,,S.1-2
-play,5,1,franj002,,,W.2-3;1-2
-play,5,1,hallm001,,,8/SF.3-H;2-3
-play,5,1,tablp001,,,54(1)3/GDP
-play,6,0,younm002,,,K
-play,6,0,grosw001,,,S
-play,6,0,ripkc001,,,53.1-2
-play,6,0,murre001,,,9/FL
-play,6,1,vukog001,,,S
-play,6,1,hargm001,,,NP
+play,1,0,younm002,22,BBCCC,K/C
+play,1,0,grosw001,21,BBFX,S9/F89S
+com,"Check swing looper"
+play,1,0,ripkc001,01,CX,8/F8XD
+play,1,0,murre001,20,BB1X,S8/L4MD.1-3
+play,1,0,lynnf001,00,X,9/F9
+play,1,1,butlb001,00,X,S1/BG23.B-3(E1/TH1)
+play,1,1,franj002,00,X,S6/G4M.3-H
+play,1,1,hallm001,00,X,54(1)3/GDP/G5
+play,1,1,tablp001,32,BCBBCFX,S9/L9S
+play,1,1,vukog001,01,SX,7/F7D
+play,2,0,lowej001,20,BBX,4/L4
+play,2,0,sheel001,00,X,3/G3
+play,2,0,dauer001,31,CBBBX,163/G1
+com,"Martinez deflected it"
+play,2,1,hargm001,12,BCFX,43/G4
+play,2,1,jacob001,10,BX,8/F8D
+play,2,1,willj001,12,FFBX,3/G34
+play,3,0,dempr001,22,BCBCFS,K
+play,3,0,younm002,00,X,43/G4
+play,3,0,grosw001,12,FBFS,K
+play,3,1,bernt001,22,BBSFFS,K
+play,3,1,butlb001,11,FBX,T8/L8XD
+play,3,1,franj002,21,BBFX,E9/F89/SF.3-H;B-2
+play,3,1,hallm001,01,CX,43/G4.2-3
+play,3,1,tablp001,31,CBBBX,53/G5
+play,4,0,ripkc001,32,BCFBFBB,W
+play,4,0,murre001,11,BFX,3/G34S.1-2
+play,4,0,lynnf001,00,X,8/F78
+play,4,0,lowej001,01,FX,31/G34
+play,4,1,vukog001,32,BCCBBX,43/G4
+play,4,1,hargm001,20,BBX,31/G34
+play,4,1,jacob001,10,BX,S8/L4MD
+play,4,1,willj001,21,FBBX,46(1)/FO/G4
+com,"Dauer: diving backhanded stop"
+play,5,0,sheel001,12,BFFS,K
+play,5,0,dauer001,20,BBX,63/G6
+play,5,0,dempr001,12,BCFS,K
+play,5,1,bernt001,30,BBBB,W
+play,5,1,butlb001,01,C11>X,S7/G5.1-2
+com,"Slapped past Gross who was playing in, wary of a bunt"
+play,5,1,franj002,30,BBBB,W.2-3;1-2
+play,5,1,hallm001,00,X,8/F8D/SF.3-H;2-3
+play,5,1,tablp001,10,BX,54(1)3/GDP/G5S
+play,6,0,younm002,22,CSFBBS,K
+play,6,0,grosw001,10,BX,S8/L8S
+play,6,0,ripkc001,32,BSBFFB>X,53/G5.1-2
+play,6,0,murre001,10,BX,9/F9LDF/FL
+play,6,1,vukog001,00,X,S8/L4M
+play,6,1,hargm001,00,,NP
 sub,martt001,"Tippy Martinez",0,0,1
-play,6,1,hargm001,,,34/SH.1-2
-play,6,1,jacob001,,,I
-play,6,1,willj001,,,16(1)3/GDP
-play,7,0,lynnf001,,,NP
-sub,fiscm001,"Mike Fischlin",1,9,4
-play,7,0,lynnf001,,,K
-play,7,0,lowej001,,,S
-play,7,0,sheel001,,,S.1-2
-play,7,0,dauer001,,,NP
+play,6,1,hargm001,01,CX,34/BG34S/SH.1-2
+play,6,1,jacob001,31,CBBBI,IW
+play,6,1,willj001,31,CBBBX,16(1)3/GDP/G1
+play,7,0,lynnf001,00,,NP
+sub,fiscm001,"Mike Fischlin",1,9/F9,4
+play,7,0,lynnf001,22,BBCSFS,K
+play,7,0,lowej001,00,X,S9/L9
+play,7,0,sheel001,10,BX,S9/G34.1-2
+play,7,0,dauer001,00,,NP
 sub,waddt001,"Tom Waddell",1,0,1
-play,7,0,dauer001,,,NP
+play,7,0,dauer001,00,,NP
 sub,dwyej001,"Jim Dwyer",0,8,11
-play,7,0,dwyej001,,,5/FL
-play,7,0,dempr001,,,7
-play,7,1,fiscm001,,,NP
+play,7,0,dwyej001,01,CX,5/P25F/FL
+play,7,0,dempr001,22,BCSBFX,7/F7S
+play,7,1,fiscm001,00,,NP
 sub,sakal001,"Lenn Sakata",0,8,4
-play,7,1,fiscm001,,,W
-play,7,1,butlb001,,,2E3/SH.1-H(NR)(UR);B-3
-play,7,1,franj002,,,9/SF.3-H(UR)
-play,7,1,hallm001,,,K
-play,7,1,tablp001,,,S
-play,7,1,vukog001,,,K
-play,8,0,younm002,,,5
-play,8,0,grosw001,,,S
-play,8,0,ripkc001,,,HR.1-H
-play,8,0,murre001,,,43
-play,8,0,lynnf001,,,S
-play,8,0,lowej001,,,3/G
-play,8,1,hargm001,,,NP
+play,7,1,fiscm001,31,FBBBB,W
+play,7,1,butlb001,00,X,2E3/TH1/BG2L/SH.1-H(NR)(UR);B-3
+com,"Murray, who had charged up the line, was in the way of"
+com,"Dempsey's throw to 1B so he instinctively caught it.  His"
+com,"throw to 1B almost hit Butler and got away from Sakata."
+play,7,1,franj002,10,BX,9/F89D/SF.3-H(UR)
+play,7,1,hallm001,12,FBCC,K/C
+play,7,1,tablp001,11,CBX,S7/G56
+play,7,1,vukog001,22,CCBBS,K
+play,8,0,younm002,00,X,5/P15
+play,8,0,grosw001,02,CFX,S9/G34
+play,8,0,ripkc001,21,BFBX,HR/F7D.1-H
+com,"Over LF fence"
+play,8,0,murre001,00,X,43/G34
+play,8,0,lynnf001,01,FX,S8/L89
+play,8,0,lowej001,01,CX,3/G3
+com,"Hargrove: nice play"
+play,8,1,hargm001,00,,NP
 sub,sneln001,"Nat Snell",0,0,1
-play,8,1,hargm001,,,S
-play,8,1,jacob001,,,S.1-2
-play,8,1,willj001,,,3/G.2-3;1-2
-play,8,1,fiscm001,,,13/SH.3-H;2-3
-play,8,1,butlb001,,,13
-play,9,0,sheel001,,,HR
-play,9,0,sakal001,,,5/FL
-play,9,0,dempr001,,,NP
+play,8,1,hargm001,10,BX,S14/G1
+com,"Off Snell's glove"
+play,8,1,jacob001,01,FX,S7/G56.1-2
+play,8,1,willj001,12,FBFX,3/G3S.2-3;1-2
+play,8,1,fiscm001,00,>X,13/BG3S/SH.3-H;2-3
+play,8,1,butlb001,11,BCX,13/G1
+play,9,0,sheel001,31,BFBBX,HR/F9D
+play,9,0,sakal001,11,BSX,5/P25F/FL
+play,9,0,dempr001,00,,NP
 sub,nolaj001,"Joe Nolan",0,9,11
-play,9,0,nolaj001,,,8
-play,9,0,younm002,,,4
+play,9,0,nolaj001,21,CBBX,8/F78S
+com,"Butler had to make a last-second dive for it after he and"
+com,"Hall crossed signals."
+play,9,0,younm002,10,BX,4/P4
 data,er,martd001,3
 data,er,martt001,0
 data,er,sneln001,1
@@ -4560,9 +4573,10 @@ start,willj001,"Jerry Willard",1,8,2
 start,bernt001,"Tony Bernazard",1,9,4
 start,blylb001,"Bert Blyleven",1,0,1
 play,1,0,colld001,,,S
-play,1,0,lansc001,,,K+SB2.1X3(2E6)
+play,1,0,lansc001,,,K+SB2.1-3(E6)
 com,"ej,lansc001,P,cobld901,Balls and strikes"
-com,"Carney Lansford ejected by HP umpire Drew Coble"
+com,"$Lansford ejected by HP umpire Coble for"
+com,"arguing balls and strikes"
 play,1,0,bochb001,,,4/L
 play,1,0,kingd001,,,E6/G.3-H(NR)(UR)
 play,1,0,davim002,,,46(1)/FO

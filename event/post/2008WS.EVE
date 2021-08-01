@@ -50,14 +50,12 @@ start,bartj001,"Jason Bartlett",1,9,6
 start,kazms001,"Scott Kazmir",1,0,1
 play,1,0,rollj001,01,CX,9/F
 play,1,0,wertj001,32,BBBCCB,W
-com,"$infield shifted for Chase Utley and Ryan Howard"
 play,1,0,utlec001,22,LSFB*BX,HR/9/F.1-H
-com,"$Chase Utley homers in his first World Series at bat"
+com,"Utley homers in his first World Series at bat"
 play,1,0,howar001,01,SX,43/G
-play,1,0,burrp001,02,CFC,K
+play,1,0,burrp001,02,CFC,K/C
 play,1,1,iwama001,32,BBCSBX,S3/G
 play,1,1,uptob001,11,BFX,46(1)3/GDP
-com,"$infield shifted for Carlos Pena"
 play,1,1,penac001,01,FX,63/G4M
 play,2,0,victs001,21,BBCX,S4/G
 play,2,0,felip001,31,BBBC1B,W.1-2
@@ -76,7 +74,7 @@ play,3,1,zobrb001,21,CBBX,S7/G
 play,3,1,bartj001,31,BBFBB,W.1-2
 play,3,1,iwama001,12,CBTX,S9/L.2-3;1-2
 play,3,1,uptob001,21,BSBX,54(1)3/GDP
-play,4,0,victs001,01,CX,S9/F-
+play,4,0,victs001,01,CX,S9/F
 play,4,0,felip001,12,BFC1FX,S8/L.1-2
 play,4,0,costc001,02,LC>X,3/G.2-3;1-2
 play,4,0,ruizc001,11,CBX,63/G.3-H
@@ -88,21 +86,21 @@ play,4,1,aybaw001,02,CLFX,8/F
 play,5,0,wertj001,02,CSX,8/L
 play,5,0,utlec001,12,CCBX,6/P4
 play,5,0,howar001,32,BBBSSFFFB,W
-play,5,0,burrp001,32,CBFFFBB>X,1E3/G-.1-2
+play,5,0,burrp001,32,CBFFFBB>X,1E3/G.1-2
 play,5,0,victs001,00,X,46(1)/FO/G
 play,5,1,navad001,12,FBFFFS,K
 play,5,1,zobrb001,32,CBBBCX,53/G
 play,5,1,bartj001,32,BBCCBB,W
 play,5,1,iwama001,21,B1BC>B,SB2
 play,5,1,iwama001,32,B1BC>B.CFFX,D7/L.2-H
-play,5,1,uptob001,12,FBFX,3/P3F
+play,5,1,uptob001,12,FBFX,3/P3F/FL
 play,6,0,felip001,01,CX,S9/L
 play,6,0,costc001,22,FSBBFX,4/P
 play,6,0,ruizc001,10,BX,7/F
 play,6,0,rollj001,21,FBBX,8/L
 play,6,1,penac001,00,X,E3/G
 play,6,1,longe001,00,1,POCS2(136)
-play,6,1,longe001,22,1.BBFCC,K
+play,6,1,longe001,22,1.BBFCC,K/C
 play,6,1,crawc002,10,BX,43/G
 play,7,0,wertj001,00,,NP
 sub,howej003,"J.P. Howell",1,0,1
@@ -123,11 +121,11 @@ play,7,1,aybaw001,12,.CCBX,6/P
 play,7,1,navad001,22,BFFBS,K
 play,7,1,zobrb001,01,CX,13/G
 play,8,0,felip001,11,BCX,9/F
-play,8,0,costc001,01,FX,13/G-
+play,8,0,costc001,01,FX,13/G
 play,8,0,ruizc001,02,CCX,9/L
 play,8,1,bartj001,00,,NP
 sub,madsr001,"Ryan Madson",0,0,1
-play,8,1,bartj001,21,.BCBX,3/P3F
+play,8,1,bartj001,21,.BCBX,3/P3F/FL
 play,8,1,iwama001,32,BFCFBBFX,9/F
 play,8,1,uptob001,22,FSBBFS,K
 play,9,0,rollj001,02,CCS,K
@@ -135,7 +133,7 @@ play,9,0,wertj001,32,BSFBBX,DGR/9/L
 play,9,0,utlec001,30,IIII,IW
 play,9,0,howar001,00,,NP
 sub,millt002,"Trever Miller",1,0,1
-play,9,0,howar001,12,.SBCC,K
+play,9,0,howar001,12,.SBCC,K/C
 play,9,0,brune001,00,,NP
 sub,wheed001,"Dan Wheeler",1,0,1
 play,9,0,brune001,02,.CFF>B,SB3;SB2
@@ -144,7 +142,7 @@ play,9,1,penac001,00,,NP
 sub,lidgb001,"Brad Lidge",0,0,1
 play,9,1,penac001,02,.FCS,K
 play,9,1,longe001,12,CFBS,K
-play,9,1,crawc002,32,BFSBBFFX,5/P5F
+play,9,1,crawc002,32,BFSBBFFX,5/P5F/FL
 data,er,hamec001,2
 data,er,madsr001,0
 data,er,lidgb001,0
@@ -211,65 +209,65 @@ play,1,1,uptob001,02,FLX,S9/G.1-3(E9);B-2
 play,1,1,penac001,31,BBBCX,63/G.3-H;2-3
 play,1,1,longe001,11,BCX,63/G.3-H(UR)
 play,1,1,crawc002,00,X,3/G
-play,2,0,howar001,12,FSBX,D8/F+
+play,2,0,howar001,12,FSBX,D8/F
 play,2,0,burrp001,32,CBSBFBB,W
-play,2,0,victs001,00,X,5/P5F
+play,2,0,victs001,00,X,5/P5F/FL
 play,2,0,dobbg001,02,CCB,WP.2-3;1-2
-play,2,0,dobbg001,12,CCB.C,K
-play,2,0,felip001,21,BSBX,8/L+
+play,2,0,dobbg001,12,CCB.C,K/C
+play,2,0,felip001,21,BSBX,8/L
 play,2,1,floyc001,00,X,6!3/G
 play,2,1,navad001,10,BX,S8/G
 play,2,1,baldr001,32,C1BBCBB,W.1-2
-play,2,1,bartj001,00,X,S5/G-.2-3;1-2
+play,2,1,bartj001,00,X,S5/G.2-3;1-2
 play,2,1,iwama001,12,SS*BX,6/P
 play,2,1,uptob001,00,X,S9/L.3-H;2XH(9!2!);1-2
-play,3,0,ruizc001,10,BX,D7/G+
+play,3,0,ruizc001,10,BX,D7/G
 play,3,0,rollj001,12,BCFFX,4!3/G.2-3
 play,3,0,wertj001,22,SBBFS,K
 play,3,0,utlec001,10,BX,43/G
 play,3,1,penac001,00,X,6/P
 play,3,1,longe001,12,CBCX,4/P
 play,3,1,crawc002,00,X,7/F
-play,4,0,howar001,01,FX,S9/G+
-play,4,0,burrp001,11,BFX,53/G-.1-2
+play,4,0,howar001,01,FX,S9/G
+play,4,0,burrp001,11,BFX,53/G.1-2
 play,4,0,victs001,01,CX,S34/G.2-3
 play,4,0,dobbg001,12,S1SB1S,K
 play,4,0,felip001,10,BX,53/G
-play,4,1,floyc001,00,X,S7/L-
+play,4,1,floyc001,00,X,S7/L
 play,4,1,navad001,01,CX,S8/G.1-2
 play,4,1,baldr001,11,C2BX,54(1)/FO/G.2-3
 play,4,1,bartj001,01,1>LX,13/SH/BG.3-H;1-2
 play,4,1,iwama001,12,CBFX,43/G
 play,5,0,ruizc001,32,CBSBBB,W
 play,5,0,rollj001,00,X,36(1)/FO/G
-play,5,0,wertj001,12,CS*BX,S8/G+.1-2
+play,5,0,wertj001,12,CS*BX,S8/G.1-2
 play,5,0,utlec001,11,BSX,9!/FDP.1X1(93)
 play,5,1,uptob001,10,BX,7/L
 play,5,1,penac001,30,BBBB,W
 play,5,1,longe001,11,C1B+1,PO1(E2).1-2
 play,5,1,longe001,12,C1B+1.SS,K
 play,5,1,crawc002,11,CBX,43/G
-play,6,0,howar001,32,BBCSFFBX,43/G+
+play,6,0,howar001,32,BBCSFFBX,43/G
 play,6,0,burrp001,22,CBBSFFFFS,K
 play,6,0,victs001,11,BFX,S9/G
-play,6,0,dobbg001,12,FF*BX,S8/F-.1-3
+play,6,0,dobbg001,12,FF*BX,S8/F.1-3
 play,6,0,felip001,00,,NP
 sub,wheed001,"Dan Wheeler",1,0,1
 play,6,0,felip001,11,.C1BX,54(1)/FO/G
 play,6,1,floyc001,01,CX,43/G
-play,6,1,navad001,01,CX,5/P5F
+play,6,1,navad001,01,CX,5/P5F/FL
 play,6,1,baldr001,12,TBCS,K
 play,7,0,ruizc001,32,CBCBFFFFBB,W
 play,7,0,rollj001,32,BBCFB>S,K+SB2
-play,7,0,wertj001,12,CCFBFFC,K
+play,7,0,wertj001,12,CCFBFFC,K/C
 play,7,0,utlec001,00,,NP
 sub,pricd001,"David Price",1,0,1
 play,7,0,utlec001,30,.BBBB,W
-play,7,0,howar001,22,CFBBC,K
+play,7,0,howar001,22,CFBBC,K/C
 play,7,1,bartj001,11,CBX,S8/L
 play,7,1,iwama001,10,B1X,7/F
 play,7,1,uptob001,32,FBBCB>F>F1>F>X,64(1)3/GDP
-play,8,0,burrp001,22,CFBBX,5/P5F
+play,8,0,burrp001,22,CFBBX,5/P5F/FL
 play,8,0,victs001,32,BBBCCX,53/G
 play,8,0,dobbg001,00,,NP
 sub,brune001,"Eric Bruntlett",0,7,11
@@ -277,12 +275,12 @@ play,8,0,brune001,00,.X,HR/7/F
 play,8,0,felip001,01,SX,63/G
 play,8,1,penac001,00,,NP
 sub,romej001,"J.C. Romero",0,0,1
-play,8,1,penac001,12,..BCCC,K
+play,8,1,penac001,12,..BCCC,K/C
 play,8,1,longe001,12,CBFX,4/P
 play,8,1,crawc002,00,X,9/F
-play,9,0,ruizc001,32,CCBFFBBX,D7/G+
+play,9,0,ruizc001,32,CCBFFBBX,D7/G
 play,9,0,rollj001,32,CBBSBX,6/P
-play,9,0,wertj001,00,X,E5/G+.2-H(NR)(UR)
+play,9,0,wertj001,00,X,E5/G.2-H(NR)(UR)
 play,9,0,utlec001,02,CFS,K
 play,9,0,howar001,00,X,43/G
 data,er,myerb001,3
@@ -349,54 +347,54 @@ play,1,1,utlec001,01,CB,WP.2-3;1-2
 play,1,1,utlec001,31,CB.*BBX,3/G.3-H;2-3
 play,1,1,howar001,22,BBFFS,K
 play,1,1,burrp001,00,X,8/F
-play,2,0,crawc002,11,BCX,D7/F-
+play,2,0,crawc002,11,BCX,D7/F
 play,2,0,navad001,10,BX,4/P
 play,2,0,grosg002,00,>C,SB3
 play,2,0,grosg002,21,>C.BBX,8/SF/F.3-H
 play,2,0,bartj001,21,CBBX,8/F
-play,2,1,victs001,22,BBCSX,3/G+
+play,2,1,victs001,22,BBCSX,3/G
 play,2,1,felip001,01,CX,63/G
 play,2,1,ruizc001,10,BX,HR/7/F
 play,2,1,moyej001,12,CBSS,K
 play,3,0,garzm001,11,BCX,53/G
 play,3,0,iwama001,02,CCX,9/F
-play,3,0,uptob001,12,BSCC,K
-play,3,1,rollj001,00,X,S9/G+
+play,3,0,uptob001,12,BSCC,K/C
+play,3,1,rollj001,00,X,S9/G
 play,3,1,wertj001,21,BF*B>C,CS2(24)
-play,3,1,wertj001,22,BF*B>C.FX,S9/L-
+play,3,1,wertj001,22,BF*B>C.FX,S9/L
 play,3,1,utlec001,11,CBX,8/F
 play,3,1,howar001,21,SBB+1X,63/G
 play,4,0,penac001,22,BFBFFFX,9/F
 play,4,0,longe001,22,FSBBS,K
 play,4,0,crawc002,31,CBBBX,7/F
 play,4,1,burrp001,32,CBBBFFFFS,K
-play,4,1,victs001,32,CBBBFC,K
+play,4,1,victs001,32,CBBBFC,K/C
 play,4,1,felip001,02,FFFS,K23
 play,5,0,navad001,22,BCBCFX,S6/G
 play,5,0,grosg002,12,FFBF1X,7/F
 play,5,0,bartj001,00,1X,6/P
 play,5,0,garzm001,01,SX,46(1)/FO/G
 play,5,1,ruizc001,32,CBBBCB,W
-play,5,1,moyej001,00,X,2/BP2F
+play,5,1,moyej001,00,X,2/BP2F/FL
 play,5,1,rollj001,22,BBFFX,4/L
 play,5,1,wertj001,12,CBCFX,9/F
 play,6,0,iwama001,22,BCSBS,K
 play,6,0,uptob001,21,FBBX,S7/L
-play,6,0,penac001,12,111CBCC,K
+play,6,0,penac001,12,111CBCC,K/C
 play,6,0,longe001,00,1,SB2
 play,6,0,longe001,00,1.X,7/F
 play,6,1,utlec001,21,BFBX,HR/9/F
 play,6,1,howar001,22,SBSBFX,HR/9/F
-play,6,1,burrp001,22,FBBCC,K
+play,6,1,burrp001,22,FBBCC,K/C
 play,6,1,victs001,01,FX,3/P
 play,6,1,felip001,02,FCFS,K
 play,7,0,crawc002,00,,NP
 sub,brune001,"Eric Bruntlett",1,5,7
 play,7,0,crawc002,00,.X,S1/BG23
-com,"$pitcher Jamie Moyer scooped the ball with his glove and flipped it to"
+com,"Moyer scooped the ball with his glove and flipped it to"
 com,"1B, where Ryan Howard caught it with his bare hand"
 play,7,0,navad001,12,CBCF1FX,D7/L.1-3
-play,7,0,grosg002,11,FBX,3/G+.3-H;2-3
+play,7,0,grosg002,11,FBX,3/G.3-H;2-3
 play,7,0,bartj001,00,,NP
 sub,durbc001,"Chad Durbin",1,9,1
 play,7,0,bartj001,00,.X,63/G.3-H
@@ -429,7 +427,7 @@ sub,howej003,"J.P. Howell",0,9,1
 play,8,1,utlec001,21,.11BCB1>B,SB2
 play,8,1,utlec001,32,.11BCB1>B.FS,K
 play,8,1,howar001,01,F2,PO2(16)
-play,8,1,howar001,22,F2.SFBBC,K
+play,8,1,howar001,22,F2.SFBBC,K/C
 play,9,0,navad001,02,CFS,K
 play,9,0,grosg002,21,BBCX,43/G
 play,9,0,bartj001,32,BFFBBFX,63/G
@@ -445,9 +443,9 @@ com,"at second base"
 play,9,1,felip001,00,,NP
 sub,dobbg001,"Greg Dobbs",1,7,11
 play,9,1,dobbg001,30,.IIII,IW.1-2
-play,9,1,ruizc001,22,BFSFBX,S5/G-.3-H;2-3;1-2
-com,"$the grounder rolled about 60 feet down the 3B line; Evan Longoria's throw was too"
-com,"high to catch and too late to get Eric Bruntlett"
+play,9,1,ruizc001,22,BFSFBX,S5/G.3-H;2-3;1-2
+com,"$the grounder rolled about 60 feet down the 3B line;"
+com,"Longoria's throw was too high to catch and too late"
 data,er,garzm001,4
 data,er,bradc001,0
 data,er,howej003,1
@@ -506,8 +504,8 @@ start,felip001,"Pedro Feliz",1,7,5
 start,ruizc001,"Carlos Ruiz",1,8,2
 start,blanj001,"Joe Blanton",1,9,1
 play,1,0,iwama001,32,BCFBBFFX,7/F
-play,1,0,uptob001,12,FBFC,K
-play,1,0,penac001,00,X,2/P2F
+play,1,0,uptob001,12,FBFC,K/C
+play,1,0,penac001,00,X,2/P2F/FL
 play,1,1,rollj001,31,BBCBX,D9/G
 play,1,1,wertj001,31,*BBBCX,9/F.2-3
 play,1,1,utlec001,30,BBBB,W
@@ -533,7 +531,7 @@ play,3,1,burrp001,32,BSBBCX,6/P
 play,3,1,victs001,12,CBFX,6/P
 play,3,1,felip001,11,SBX,S7/G.3-H(UR);1-2
 play,3,1,ruizc001,22,BBCFX,S4/G.2-3;1-2
-play,3,1,blanj001,01,CX,3/P3F
+play,3,1,blanj001,01,CX,3/P3F/FL
 play,4,0,penac001,22,BCBCS,K
 play,4,0,longe001,10,BX,63/G
 play,4,0,crawc002,12,BFCX,HR/89/F
@@ -542,29 +540,28 @@ play,4,1,rollj001,12,BFSX,E4/G
 play,4,1,wertj001,30,11B*BBB,W.1-2
 play,4,1,utlec001,02,CFS,K
 play,4,1,howar001,21,BCB+2X,HR/F7L.2-H(UR);1-H
-play,4,1,burrp001,11,CBX,2/P2F
+play,4,1,burrp001,11,CBX,2/P2F/FL
 play,4,1,victs001,01,FX,5/P
 play,5,0,zobrb001,22,BBSCX,8/F
 play,5,0,bartj001,11,BFX,153/G
 play,5,0,sonna001,00,,NP
 sub,hinse001,"Eric Hinske",0,9,11
 play,5,0,hinse001,21,.BBCX,HR/8/F
-play,5,0,iwama001,11,CBX,13/G-
+play,5,0,iwama001,11,CBX,13/G
 play,5,1,felip001,00,,NP
 sub,jacke001,"Edwin Jackson",0,9,1
-play,5,1,felip001,00,.X,2/P2F
+play,5,1,felip001,00,.X,2/P2F/FL
 play,5,1,ruizc001,21,BBCX,53/G
 play,5,1,blanj001,21,BCBX,HR/7/F
-com,"$Joe Blanton is the 15th pitcher to hit a homer in the World Series, the last"
-com,"being Ken Holtzman in 1974"
+com,"$Blanton is 15th pitcher to homer in the World Series"
 play,5,1,rollj001,12,CBCX,43/G
 play,6,0,uptob001,22,BBCCX,9/F
 play,6,0,penac001,32,BFSBBFFB,W
-play,6,0,longe001,12,SF*BC,K
+play,6,0,longe001,12,SF*BC,K/C
 play,6,0,crawc002,01,SH,HP.1-2
 play,6,0,navad001,22,*BCBCS,K
 play,6,1,wertj001,22,BCCBX,D7/L
-play,6,1,utlec001,22,C*BSFBFFC,K
+play,6,1,utlec001,22,C*BSFBFFC,K/C
 play,6,1,howar001,30,IIII,IW
 play,6,1,burrp001,01,CX,64(1)3/GDP
 play,7,0,zobrb001,00,,NP
@@ -603,9 +600,9 @@ play,8,1,brune001,11,CBX,63/G
 play,8,1,victs001,00,X,8/F
 play,9,0,navad001,00,,NP
 sub,romej001,"J.C. Romero",1,9,1
-play,9,0,navad001,32,.BFFBBX,E1/TH/G-
+play,9,0,navad001,32,.BFFBBX,E1/TH/G
 play,9,0,zobrb001,10,BX,46(1)/FO/G
-play,9,0,bartj001,22,BSFBC,K
+play,9,0,bartj001,22,BSFBC,K/C
 play,9,0,millt002,00,,NP
 sub,baldr001,"Rocco Baldelli",0,9,11
 play,9,0,baldr001,22,.BCCBFT,K
@@ -648,7 +645,6 @@ info,attendance,45940
 info,wp,romej001
 info,lp,howej003
 info,save,lidgb001
-com,"Suspend=20081029,,2,2,33"
 start,iwama001,"Akinori Iwamura",0,1,4
 start,crawc002,"Carl Crawford",0,2,7
 start,uptob001,"B.J. Upton",0,3,8
@@ -667,6 +663,7 @@ start,victs001,"Shane Victorino",1,6,8
 start,felip001,"Pedro Feliz",1,7,5
 start,ruizc001,"Carlos Ruiz",1,8,2
 start,hamec001,"Cole Hamels",1,9,1
+com,"Suspend=20081029,,2,2,33"
 play,1,0,iwama001,12,CBCX,7/F
 play,1,0,crawc002,00,X,63/G
 play,1,0,uptob001,01,CX,63/G
@@ -694,7 +691,7 @@ play,3,1,howar001,02,CCS,K
 play,3,1,burrp001,11,BCX,9/F
 play,3,1,victs001,02,FCS,K
 play,4,0,uptob001,11,CBX,63/G
-play,4,0,penac001,11,FBX,D9/F+
+play,4,0,penac001,11,FBX,D9/F
 play,4,0,longe001,10,BX,S8/G.2-H
 play,4,0,navad001,31,BBBCX,64(1)3/GDP
 play,4,1,felip001,02,FFFS,K
@@ -704,7 +701,7 @@ play,4,1,rollj001,32,BCBCB>F>F>B,W.1-2
 play,4,1,wertj001,32,BTBFFF*B>F>F>B,W.2-3;1-2
 play,4,1,utlec001,32,SB*BBC>X,43/G
 play,5,0,baldr001,20,BBX,E6/P
-com,"$Jimmy Rollins fought with the rain and gusting wind trying to catch the ball"
+com,"$Rollins fought with the rain and gusting wind trying to make catch"
 play,5,0,bartj001,02,CSX,4!(1)3/GDP
 play,5,0,kazms001,02,SFS,K
 play,5,1,howar001,30,BBBB,W
@@ -714,13 +711,14 @@ sub,balfg001,"Grant Balfour",0,9,1
 play,5,1,victs001,01,.LX,7/F
 play,5,1,felip001,02,FFFX,3/P
 play,5,1,ruizc001,02,CFX,3/P
-play,6,0,iwama001,22,BFBFC,K
+play,6,0,iwama001,22,BFBFC,K/C
 play,6,0,crawc002,10,BX,3/G
 play,6,0,uptob001,22,CBBCX,S6/G
 play,6,0,penac001,00,1111>C,SB2
 play,6,0,penac001,22,1111>C.B*BFX,S7/L.2-H
 play,6,0,longe001,10,BS,PB.1-2
 play,6,0,longe001,11,BS.X,8/F
+com,"suspended,20081029,PHI13,rain"
 com,"$game suspended due to heavy rain and winds at 10:39 PM; resumed"
 com,"at 8:40 on 10/29; the first suspension in World Series history;"
 com,"temperature at the time of the resumption was 44 but it was dry"
@@ -737,15 +735,15 @@ play,6,1,howar001,00,1,SB2
 play,6,1,howar001,00,1.X,5/P
 play,7,0,navad001,00,,NP
 sub,madsr001,"Ryan Madson",1,9,1
-play,7,0,navad001,12,.CFBC,K
+play,7,0,navad001,12,.CFBC,K/C
 play,7,0,baldr001,00,X,HR/7/F
-play,7,0,bartj001,01,CX,S7/G+
+play,7,0,bartj001,01,CX,S7/G
 play,7,0,howej003,01,M1X,14/SH/BG.1-2
 play,7,0,iwama001,00,,NP
 sub,romej001,"J.C. Romero",1,9,1
 play,7,0,iwama001,01,.CX,S4/G4M.2XH(42)
 com,"$Chase Utley pump-faked to 1B and then threw to HP"
-play,7,1,burrp001,11,CBX,D9/F+
+play,7,1,burrp001,11,CBX,D9/F
 play,7,1,victs001,00,,NP
 sub,brune001,"Eric Bruntlett",1,5,12
 play,7,1,victs001,00,,NP
@@ -764,14 +762,14 @@ sub,pricd001,"David Price",0,4,1
 play,8,1,rollj001,00,,NP
 sub,aybaw001,"Willy Aybar",0,9,3
 play,8,1,rollj001,20,..BBX,7/F
-play,8,1,wertj001,22,BCBFC,K
+play,8,1,wertj001,22,BCBFC,K/C
 play,8,1,utlec001,32,BBBCSB,W
 play,8,1,howar001,21,CBB>B,SB2
 play,8,1,howar001,32,CBB>B.FS,K
 play,9,0,longe001,00,,NP
 sub,lidgb001,"Brad Lidge",1,9,1
 play,9,0,longe001,22,.CFBBFX,4/P
-play,9,0,navad001,02,CSX,S9/F-
+play,9,0,navad001,02,CSX,S9/F
 play,9,0,baldr001,00,,NP
 sub,peref001,"Fernando Perez",0,6,12
 play,9,0,baldr001,00,,NP

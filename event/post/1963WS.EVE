@@ -15,18 +15,18 @@ info,ump2b,nappl901
 info,ump3b,craws901
 info,umplf,venzt901
 info,umprf,ricej901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,602"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/30 7:42AM
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,71
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,sunny
 info,timeofgame,129
 info,attendance,69000
 info,wp,koufs101
@@ -51,93 +51,99 @@ start,howae101,"Elston Howard",1,6,2
 start,pepij101,"Joe Pepitone",1,7,3
 start,boyec102,"Clete Boyer",1,8,5
 start,fordw101,"Whitey Ford",1,9,1
-play,1,0,willm102,??,,K/C
-play,1,0,gillj102,??,,63
-play,1,0,daviw102,??,,K
-play,1,1,kubet101,12,SCBS,K
-play,1,1,richb102,02,SSS,K
-play,1,1,trest101,22,,K/C
-play,2,0,davit103,??,,63
-play,2,0,howaf102,??,,D8/L8XDW
-play,2,0,skowb101,??,,S8/G6M.2-H
-play,2,0,tracd101,??,,S8/L6MD.1-2
-play,2,0,rosej101,??,,HR/9D.2-H;1-H
-play,2,0,koufs101,??,,9
-play,2,0,willm102,??,,K/C
-play,2,1,mantm101,12,,K/C
-play,2,1,marir101,22,,K
-play,2,1,howae101,??,,2/FL
-play,3,0,gillj102,??,,S8
-play,3,0,daviw102,??,,46(1)/FO
-play,3,0,davit103,??,,S9.1-3
-play,3,0,howaf102,??,,2/FL
-play,3,0,skowb101,??,,S8.3-H;1-3
-play,3,0,tracd101,??,,54(1)/FO
-play,3,1,pepij101,??,,K
-play,3,1,boyec102,??,,143
-play,3,1,fordw101,??,,5/FL
-play,4,0,rosej101,??,,K
-play,4,0,koufs101,??,,53
-play,4,0,willm102,??,,1/L1
-play,4,1,kubet101,??,,K
-play,4,1,richb102,??,,K
-play,4,1,trest101,??,,K/C
-play,5,0,gillj102,??,,W
-play,5,0,daviw102,??,,14/SH.1-2
-play,5,0,davit103,??,,S4/G.2-3
-play,5,0,howaf102,??,,13/G1.1-2
-play,5,0,skowb101,??,,IW
-play,5,0,tracd101,??,,5(2)/FO
-play,5,1,mantm101,??,,K
-play,5,1,marir101,??,,2/FL
-play,5,1,howae101,??,,S9
-play,5,1,pepij101,??,,S9.1-2
-play,5,1,boyec102,??,,S4/L4M.2-3;1-2
+com,"Pitch-by-pitch courtesy of Classic Baseball on the Radio"
+play,1,0,willm102,12,FBFC,K/C
+play,1,0,gillj102,01,FX,63
+play,1,0,daviw102,02,SCS,K
+play,1,1,kubet101,12,CFBS,K
+play,1,1,richb102,02,SFS,K
+play,1,1,trest101,22,BBCFC,K/C
+play,2,0,davit103,10,BX,63
+play,2,0,howaf102,11,BCX,D8/L8XD
+com,"$Tremendous blast way over Mantle, landing a foot short of"
+com,"the CF fence on the fly, 450' away."
+play,2,0,skowb101,10,BX,S8/G6M.2-H
+play,2,0,tracd101,11,BCX,S8/L6MD.1-2
+play,2,0,rosej101,01,SX,HR/F9LD.2-H;1-H
+com,"Into RF stands near foul pole"
+play,2,0,koufs101,02,CSFX,9/F9
+play,2,0,willm102,02,CCC,K/C
+play,2,1,mantm101,12,SBFC,K/C
+play,2,1,marir101,22,BFFBS,K
+play,2,1,howae101,00,X,2/P/FL
+play,3,0,gillj102,21,BFBX,S8/89
+play,3,0,daviw102,01,MX,46(1)/FO
+play,3,0,davit103,01,FX,S9/L.1-3
+play,3,0,howaf102,01,FX,2/P/FL
+play,3,0,skowb101,00,X,S8/L78.3-H;1-3
+play,3,0,tracd101,10,BX,54(1)/FO
+play,3,1,pepij101,22,BFBCS,K
+play,3,1,boyec102,01,SX,143
+play,3,1,fordw101,00,X,5/P5L
+play,4,0,rosej101,12,CBCS,K
+play,4,0,koufs101,12,CBFFFFX,53
+play,4,0,willm102,20,BBX,1/L1
+play,4,1,kubet101,12,BSCS,K
+play,4,1,richb102,12,BSFS,K
+play,4,1,trest101,12,SBSC,K/C
+play,5,0,gillj102,30,BBBB,W
+play,5,0,daviw102,11,M1BX,14/SH.1-2
+play,5,0,davit103,01,CX,S14/G.2-3
+play,5,0,howaf102,10,BX,13/G1.1-2
+play,5,0,skowb101,30,IIII,IW
+play,5,0,tracd101,21,BBCX,5(2)/FO
+play,5,1,mantm101,22,FSFBBS,K
+play,5,1,marir101,22,BSBFX,2/P/FL
+play,5,1,howae101,00,X,S9/L
+play,5,1,pepij101,22,CBFBX,S9/L.1-2
+play,5,1,boyec102,00,X,S46/L4M.2-3;1-2
 play,5,1,fordw101,??,,NP
 sub,lopeh101,"Hector Lopez",1,9,11
-play,5,1,lopeh101,??,,K
+play,5,1,lopeh101,22,SBFBS,K
 play,6,0,rosej101,??,,NP
 sub,wills102,"Stan Williams",1,9,1
-play,6,0,rosej101,??,,43
-play,6,0,koufs101,??,,8
-play,6,0,willm102,??,,63
-play,6,1,kubet101,??,,53
-play,6,1,richb102,??,,W
-play,6,1,trest101,??,,W.1-2
-play,6,1,mantm101,??,,4/P
-play,6,1,marir101,??,,6/P
-play,7,0,gillj102,??,,K
-play,7,0,daviw102,??,,K
-play,7,0,davit103,??,,S9
-play,7,0,howaf102,??,,SB2
-play,7,0,howaf102,??,,K
+play,6,0,rosej101,20,BBX,43
+play,6,0,koufs101,00,X,8/F8
+play,6,0,willm102,11,BFX,63
+play,6,1,kubet101,02,CFX,53
+play,6,1,richb102,32,BBBCCB,W
+play,6,1,trest101,30,BBBB,W.1-2
+play,6,1,mantm101,22,FBBFX,4/P34D
+play,6,1,marir101,11,CBX,6/P6MD
+play,7,0,gillj102,22,BFBCC,K/C
+play,7,0,daviw102,22,FFBFBFS,K
+com,"$Stadium lights were turned on during Pepitone's AB"
+play,7,0,davit103,21,SBBX,S9/L-
+play,7,0,howaf102,11,SPQ,SB2
+play,7,0,howaf102,22,SPQFBS,K
 play,7,1,howae101,??,,NP
 sub,fairr101,"Ron Fairly",0,5,9
-play,7,1,howae101,??,,K
-play,7,1,pepij101,??,,2/FL
-play,7,1,boyec102,??,,6/P
-play,8,0,skowb101,??,,K
-play,8,0,tracd101,??,,63
-play,8,0,rosej101,??,,K
+play,7,1,howae101,12,SSBS,K
+play,7,1,pepij101,11,CBX,2/P/FL
+play,7,1,boyec102,00,X,6/P6D
+play,8,0,skowb101,22,CBSBT,K
+play,8,0,tracd101,00,X,63
+play,8,0,rosej101,12,CBFS,K
 play,8,1,wills102,??,,NP
 sub,linzp101,"Phil Linz",1,9,11
-play,8,1,linzp101,??,,K
-play,8,1,kubet101,??,,S6/G56
-play,8,1,richb102,??,,K
-play,8,1,trest101,??,,HR/7D.1-H
-play,8,1,mantm101,??,,W
-play,8,1,marir101,??,,43
+play,8,1,linzp101,22,BBCSFS,K
+play,8,1,kubet101,02,FFX,S6/G56
+play,8,1,richb102,02,SSS,K
+play,8,1,trest101,00,X,HR/F7D.1-H
+com,"Into LF stands"
+play,8,1,mantm101,31,FBBBB,W
+play,8,1,marir101,11,BSX,43
 play,9,0,koufs101,??,,NP
 sub,hamis101,"Steve Hamilton",1,9,1
-play,9,0,koufs101,??,,K
-play,9,0,willm102,??,,9
-play,9,0,gillj102,??,,63
+play,9,0,koufs101,12,SBCS,K
+play,9,0,willm102,22,FFBBX,9/F9L
+play,9,0,gillj102,11,CBX,63
 play,9,1,howae101,00,X,4/L4
-play,9,1,pepij101,22,,S9/G34
-play,9,1,boyec102,??,,8
+play,9,1,pepij101,22,BFBSFX,S9/G34
+play,9,1,boyec102,01,SX,8/F8XD
 play,9,1,hamis101,??,,NP
 sub,brigh101,"Harry Bright",1,9,11
-play,9,1,brigh101,22,,K
+play,9,1,brigh101,22,SBBSFS,K
 data,er,koufs101,2
 data,er,fordw101,5
 data,er,wills102,0
@@ -159,18 +165,18 @@ info,ump2b,craws901
 info,ump3b,papaj901
 info,umplf,venzt901
 info,umprf,ricej901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,602"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/30 7:51AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,133
 info,attendance,66455
 info,wp,podrj101
@@ -195,96 +201,103 @@ start,howae101,"Elston Howard",1,6,2
 start,pepij101,"Joe Pepitone",1,7,3
 start,boyec102,"Clete Boyer",1,8,5
 start,downa101,"Al Downing",1,9,1
-play,1,0,willm102,??,,S8
-play,1,0,gillj102,??,,SB2
-play,1,0,gillj102,??,,S9.2-3;B-2(THH)
-play,1,0,daviw102,??,,D9/L9D.3-H;2-H
-play,1,0,davit103,??,,9
-play,1,0,howaf102,??,,63.2-3
-play,1,0,skowb101,??,,K
-play,1,1,kubet101,??,,8/L
-play,1,1,richb102,??,,43
-play,1,1,trest101,??,,S7
-play,1,1,mantm101,??,,9/F89D
-play,2,0,tracd101,??,,K
-play,2,0,rosej101,??,,K/C
-play,2,0,podrj101,??,,S8
-play,2,0,willm102,??,,13/G1
-play,2,1,marir101,??,,13/G1
-play,2,1,howae101,??,,S4
-play,2,1,pepij101,??,,W.1-2
-play,2,1,boyec102,??,,K
-play,2,1,downa101,??,,K
-play,3,0,gillj102,??,,53
-play,3,0,daviw102,??,,K/C
-play,3,0,davit103,??,,T9/9LD
-com,"$Roger Maris injured his left knee and elbow against the railing"
+play,1,0,willm102,32,BCBCBFX,S8/G4M
+play,1,0,gillj102,01,C>1,SB2
+com,"$Wills was picked off 1B but Pepitone's throw to Richardson"
+com,"was little wide"
+play,1,0,gillj102,31,C>1BB2BX,S9/G34.2-3;B-2(THH)
+play,1,0,daviw102,00,X,D9/L9D.3-H;2-H
+com,"Maris took a step in, misjudged it, slipped, then fell"
+com,"as he turned to chase after it."
+play,1,0,davit103,10,BX,9/F9LS
+play,1,0,howaf102,11,BSX,63.2-3
+play,1,0,skowb101,12,CFBS,K
+play,1,1,kubet101,12,MBCX,8/L8
+play,1,1,richb102,00,X,43/G4
+play,1,1,trest101,00,X,S7/G56
+play,1,1,mantm101,10,BX,9/F89D
+play,2,0,tracd101,02,FFS,K
+play,2,0,rosej101,02,SMC,K/C
+play,2,0,podrj101,11,BCX,S8/L8
+play,2,0,willm102,02,CCFX,13/G1
+play,2,1,marir101,00,X,13/G1
+play,2,1,howae101,21,BCBX,S4/G4M
+play,2,1,pepij101,32,FFBBBB,W.1-2
+play,2,1,boyec102,22,BSF*BS,K
+play,2,1,downa101,32,BBCBC>F>S,K
+play,3,0,gillj102,10,BX,53/G+
+play,3,0,daviw102,22,CSBBC,K/C
+play,3,0,davit103,02,CSFX,T9/F9L
+com,"$Maris injured left elbow and knee against the railing"
+com,"down the RF line."
 play,3,0,howaf102,??,,NP
 sub,lopeh101,"Hector Lopez",1,5,9
-play,3,0,howaf102,??,,K
-play,3,1,kubet101,??,,7/L78
-play,3,1,richb102,??,,6/P
-play,3,1,trest101,??,,8
-play,4,0,skowb101,??,,HR/9D
-play,4,0,tracd101,??,,W
-play,4,0,rosej101,??,,46(1)3/GDP
-play,4,0,podrj101,??,,6/P
-play,4,1,mantm101,??,,63
-play,4,1,lopeh101,??,,13/G1
-play,4,1,howae101,??,,9
-play,5,0,willm102,??,,S/BG3
-play,5,0,gillj102,??,,64(1)3/GDP
-play,5,0,daviw102,??,,K/C
-play,5,1,pepij101,??,,3/G
-play,5,1,boyec102,??,,K
+play,3,0,howaf102,22,BCBSFS,K
+play,3,1,kubet101,00,X,7/L78
+play,3,1,richb102,00,X,6/P6
+play,3,1,trest101,21,BBCX,8/F78
+play,4,0,skowb101,??,X,HR/L9LD
+play,4,0,tracd101,30,BBBB,W
+play,4,0,rosej101,12,MFBX,46(1)3/GDP
+play,4,0,podrj101,32,BBBCSX,6/P56D
+play,4,1,mantm101,01,CX,63
+play,4,1,lopeh101,01,CX,13/G1
+play,4,1,howae101,00,X,9/F9
+play,5,0,willm102,00,X,S3/BG3S
+play,5,0,gillj102,02,L1CX,64(1)3/GDP
+play,5,0,daviw102,32,FLFBBFBC,K/C
+play,5,1,pepij101,22,BBCFX,3/G3L
+play,5,1,boyec102,12,BCCS,K
 play,5,1,downa101,??,,NP
 sub,brigh101,"Harry Bright",1,9,11
-play,5,1,brigh101,??,,K/C
+play,5,1,brigh101,22,CBFBC,K/C
 play,6,0,davit103,??,,NP
 sub,terrr101,"Ralph Terry",1,9,1
-play,6,0,davit103,??,,53
-play,6,0,howaf102,??,,3/G
-play,6,0,skowb101,??,,S9
-play,6,0,tracd101,??,,53
-play,6,1,kubet101,??,,63
-play,6,1,richb102,??,,63
-play,6,1,trest101,??,,S7
-play,6,1,mantm101,??,,PO1(E1).1-2
-play,6,1,mantm101,??,,8/F78D
-play,7,0,rosej101,??,,9/L9DW
-play,7,0,podrj101,??,,43
-play,7,0,willm102,??,,43
-play,7,1,lopeh101,??,,DGR/9D
-play,7,1,howae101,??,,7/F78
-play,7,1,pepij101,??,,7
-play,7,1,boyec102,??,,7/L
-play,8,0,gillj102,??,,31
-play,8,0,daviw102,??,,D9/9DW
-play,8,0,davit103,??,,T8/78.2-H
+com,"$Stadium lights were turned on to start the 6th"
+play,6,0,davit103,11,SBX,53/G56
+play,6,0,howaf102,01,CX,3/G
+play,6,0,skowb101,22,FBBCX,S9/G34
+play,6,0,tracd101,12,BSFX,53/G56
+play,6,1,kubet101,12,CBSX,63
+play,6,1,richb102,11,CBX,63
+play,6,1,trest101,00,X,S7/L7S
+play,6,1,mantm101,00,1,PO1(E1).1-2
+play,6,1,mantm101,21,1BBCX,8/F78D
+play,7,0,rosej101,12,FBSX,9/L9D
+play,7,0,podrj101,11,CBX,43
+play,7,0,willm102,00,X,43
+play,7,1,lopeh101,00,X,DGR/L9L
+play,7,1,howae101,11,BFX,7/F78
+play,7,1,pepij101,00,X,7/F7S
+com,"$Rain began falling as Pepitone came to bat"
+play,7,1,boyec102,00,X,7/L7
+play,8,0,gillj102,00,X,31/G34
+play,8,0,daviw102,00,X,D9/L9D
+play,8,0,davit103,11,BSX,T8/F78XD.2-H
 play,8,0,howaf102,??,,NP
 sub,fairr101,"Ron Fairly",0,5,11
-play,8,0,fairr101,??,,IW
-play,8,0,skowb101,??,,14(1)3/GDP
+play,8,0,fairr101,30,IIII,IW
+play,8,0,skowb101,11,BFX,14(1)3/GDP
 play,8,1,terrr101,??,,NP
 sub,fairr101,"Ron Fairly",0,5,9
 play,8,1,terrr101,??,,NP
 sub,linzp101,"Phil Linz",1,9,11
-play,8,1,linzp101,??,,5/L
-play,8,1,kubet101,??,,7
-play,8,1,richb102,??,,S6/G
-play,8,1,trest101,??,,53
+play,8,1,linzp101,02,CCFX,5/L5L
+play,8,1,kubet101,02,CCFX,7/F7
+play,8,1,richb102,00,X,S6/G56
+play,8,1,trest101,32,FBB*BFX,53
 play,9,0,tracd101,??,,NP
 sub,renih101,"Hal Reniff",1,9,1
-play,9,0,tracd101,??,,63
-play,9,0,rosej101,??,,4/L
-play,9,0,podrj101,??,,3/P
-play,9,1,mantm101,??,,7/F7D
-play,9,1,lopeh101,??,,DGR/7D
+play,9,0,tracd101,12,CBFX,63
+play,9,0,rosej101,00,X,4/L
+play,9,0,podrj101,00,X,3/P3L
+play,9,1,mantm101,20,BBX,7/F7D
+play,9,1,lopeh101,32,FBBFBX,DGR/L7L
 play,9,1,howae101,??,,NP
 sub,perrr101,"Ron Perranoski",0,9,1
-play,9,1,howae101,??,,S9.2-H
-play,9,1,pepij101,??,,36(1)/FO
-play,9,1,boyec102,??,,K
+play,9,1,howae101,22,BCBFX,S/L89S.2-H
+play,9,1,pepij101,01,SX,36(1)/FO/G3
+play,9,1,boyec102,12,CBFS,K
 data,er,podrj101,1
 data,er,perrr101,0
 data,er,downa101,3
@@ -307,18 +320,18 @@ info,ump2b,papaj901
 info,ump3b,gormt101
 info,umplf,ricej901
 info,umprf,venzt901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,602"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/30 7:58AM
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,74
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,125
 info,attendance,55912
 info,wp,drysd101
@@ -343,78 +356,79 @@ start,skowb101,"Bill Skowron",1,6,3
 start,rosej101,"John Roseboro",1,7,2
 start,tracd101,"Dick Tracewski",1,8,4
 start,drysd101,"Don Drysdale",1,9,1
-play,1,0,kubet101,??,,31
-play,1,0,richb102,??,,3/FL
-play,1,0,trest101,??,,K
-play,1,1,willm102,??,,13/BG1
-play,1,1,gillj102,??,,W
-play,1,1,daviw102,??,,9/L
-play,1,1,davit103,??,,WP.1-2
-play,1,1,davit103,??,,S.2-H
-play,1,1,fairr101,??,,2/FL
-play,2,0,mantm101,??,,S/BG
-play,2,0,pepij101,??,,HP.1-2
-play,2,0,howae101,??,,K
-play,2,0,blanj101,??,,43.2-3;1-2
-play,2,0,boyec102,??,,IW
-play,2,0,boutj101,??,,K
-play,2,1,skowb101,??,,S7
-play,2,1,rosej101,??,,WP.1-2
-play,2,1,rosej101,??,,43.2-3
-play,2,1,tracd101,??,,K/C
-play,2,1,drysd101,??,,W
-play,2,1,willm102,??,,7
-play,3,0,kubet101,??,,E6.B-1
-play,3,0,richb102,??,,PO1(136)
-play,3,0,richb102,??,,3/P
-play,3,0,trest101,??,,3/G
-play,3,1,gillj102,??,,13/G1
-play,3,1,daviw102,??,,1/L
-play,3,1,davit103,??,,K
-play,4,0,mantm101,??,,K/C
-play,4,0,pepij101,??,,4/P
-play,4,0,howae101,??,,K/C
-play,4,1,fairr101,??,,W
-play,4,1,skowb101,??,,54(1)/FO
-play,4,1,rosej101,??,,7
-play,4,1,tracd101,??,,8
-play,5,0,blanj101,??,,63
-play,5,0,boyec102,??,,63
-play,5,0,boutj101,??,,K
-play,5,1,drysd101,??,,W
-play,5,1,willm102,??,,2/BP2
-play,5,1,gillj102,??,,36(1)3/GDP
-play,6,0,kubet101,??,,S9
-play,6,0,richb102,??,,14/SH.1-2
-play,6,0,trest101,??,,43.2-3
-play,6,0,mantm101,??,,K/C
-play,6,1,daviw102,??,,K
-play,6,1,davit103,??,,63
-play,6,1,fairr101,??,,W
-play,6,1,skowb101,??,,K
-play,7,0,pepij101,??,,43
-play,7,0,howae101,??,,13/G1
-play,7,0,blanj101,??,,9
-play,7,1,rosej101,??,,S/78
-play,7,1,tracd101,??,,S7.1-3;B-2(TH3)
-play,7,1,drysd101,??,,43/DP.2X3(36)
-com,"$Dick Tracewski ran to 3B but John Roseboro was there"
-play,7,1,willm102,??,,43
-play,8,0,boyec102,??,,K/C
+com,"Pitch-by-pitch courtesy of Classic Baseball on the Radio"
+play,1,0,kubet101,22,BBCSFFFFFX,31
+play,1,0,richb102,02,FFX,3/P3DF/FL
+play,1,0,trest101,22,CSBBS,K
+play,1,1,willm102,00,X,13/BG1
+play,1,1,gillj102,32,BBCFBB,W
+play,1,1,daviw102,20,B+1BX,9/L9
+play,1,1,davit103,12,BF>FFB,WP.1-2
+play,1,1,davit103,22,BF>FFBX,S49/G4M+.2-H
+play,1,1,fairr101,00,X,2/P2F/FL
+play,2,0,mantm101,01,CX,S6/BG56
+play,2,0,pepij101,02,F1SH,HP.1-2
+play,2,0,howae101,02,SLS,K
+play,2,0,blanj101,10,BX,43.2-3;1-2
+play,2,0,boyec102,30,IIII,IW
+play,2,0,boutj101,02,SSS,K
+play,2,1,skowb101,01,SX,S7/L7S
+play,2,1,rosej101,02,FSF1B,WP.1-2
+play,2,1,rosej101,12,FSF1BFX,43.2-3
+play,2,1,tracd101,02,FFC,K/C
+play,2,1,drysd101,32,BFBFBB,W
+play,2,1,willm102,10,BX,7/F7S
+play,3,0,kubet101,02,CFX,E6/G6.B-1
+play,3,0,richb102,10,B1,PO1(136)
+play,3,0,richb102,32,B1FFBBX,3/P3
+play,3,0,trest101,10,BX,3/G
+play,3,1,gillj102,12,BCFFX,13/G1
+play,3,1,daviw102,10,BX,1/L
+play,3,1,davit103,22,BCBCS,K
+play,4,0,mantm101,02,SCC,K/C
+play,4,0,pepij101,10,BX,4/P4D
+play,4,0,howae101,02,CCC,K/C
+play,4,1,fairr101,30,BBBB,W
+play,4,1,skowb101,22,PFBF1X,54(1)/FO
+play,4,1,rosej101,12,C1BSX,7/F78
+play,4,1,tracd101,10,BX,8/F8
+play,5,0,blanj101,11,CBX,63/G4M
+play,5,0,boyec102,21,MBBX,63
+play,5,0,boutj101,12,BCSS,K
+play,5,1,drysd101,31,BSBBB,W
+play,5,1,willm102,01,SX,2/BP2
+play,5,1,gillj102,20,BBX,36(1)3/GDP
+play,6,0,kubet101,00,X,S9/F9L
+play,6,0,richb102,11,PLX,14/BG23/SH.1-2
+play,6,0,trest101,00,X,43.2-3
+play,6,0,mantm101,12,SFBC,K/C
+play,6,1,daviw102,32,BBFFBS,K
+play,6,1,davit103,01,FX,63
+play,6,1,fairr101,30,BBBB,W
+play,6,1,skowb101,32,F*BBFB>F>S,K
+play,7,0,pepij101,22,BBFFX,43
+play,7,0,howae101,12,FFBX,13/G1
+play,7,0,blanj101,12,CBSX,9/F9S
+play,7,1,rosej101,20,BBX,S/F78S
+play,7,1,tracd101,10,BX,S7/G56.1-3;B-2(TH3)
+play,7,1,drysd101,12,CFBX,43/DP.2X3(36)
+com,"$Tracewski ran to 3B but Roseboro was there"
+play,7,1,willm102,00,X,43
+play,8,0,boyec102,02,FCC,K/C
 play,8,0,boutj101,??,,NP
 sub,berry101,"Yogi Berra",0,9,11
-play,8,0,berry101,??,,9/L
-play,8,0,kubet101,??,,S7
-play,8,0,richb102,??,,4(1)/FO
+play,8,0,berry101,32,FBBBFFFFX,9/L9
+play,8,0,kubet101,02,CFX,S9/L
+play,8,0,richb102,00,X,4(1)/FO
 play,8,1,gillj102,??,,NP
 sub,renih101,"Hal Reniff",0,9,1
-play,8,1,gillj102,??,,W
-play,8,1,daviw102,??,,3/SH.1-2
-play,8,1,davit103,??,,CS3(25)
-play,8,1,davit103,??,,K
-play,9,0,trest101,??,,K
-play,9,0,mantm101,??,,3/G
-play,9,0,pepij101,??,,9/F9D
+play,8,1,gillj102,30,BBBB,W
+play,8,1,daviw102,00,X,3/BG3S/SH.1-2
+play,8,1,davit103,10,BS,CS3(25)
+play,8,1,davit103,12,BSSS,K
+play,9,0,trest101,02,SFS,K
+play,9,0,mantm101,00,X,3/G
+play,9,0,pepij101,10,BX,9/F9DW
 data,er,boutj101,1
 data,er,renih101,0
 data,er,drysd101,0
@@ -436,17 +450,17 @@ info,ump3b,nappl901
 info,umplf,ricej901
 info,umprf,venzt901
 info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth/Townsend"
+info,inputter,"John Booth/Townsend"
 info,inputtime,1994/05/30 8:04AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,110
 info,attendance,55912
 info,wp,koufs101
@@ -471,73 +485,75 @@ start,skowb101,"Bill Skowron",1,6,3
 start,rosej101,"John Roseboro",1,7,2
 start,tracd101,"Dick Tracewski",1,8,4
 start,koufs101,"Sandy Koufax",1,9,1
-play,1,0,kubet101,??,,K
-play,1,0,richb102,??,,2/FL
-play,1,0,trest101,??,,K
-play,1,1,willm102,??,,W
-play,1,1,gillj102,??,,2(B)3(1)/BP/DP
-play,1,1,daviw102,??,,K
-play,2,0,mantm101,??,,9
-play,2,0,howae101,??,,8
-play,2,0,lopeh101,??,,8/F78D
-play,2,1,davit103,??,,9/L
-play,2,1,howaf102,??,,S/89
-play,2,1,skowb101,??,,64(1)3/GDP
-play,3,0,pepij101,??,,K
-play,3,0,boyec102,??,,K
-play,3,0,fordw101,??,,31
-play,3,1,rosej101,??,,31
-play,3,1,tracd101,??,,63
-play,3,1,koufs101,??,,3/G
-play,4,0,kubet101,??,,13/G1
-play,4,0,richb102,??,,D8/F8S
+com,"Pitch-by-pitch courtesy of Classic Baseball on the Radio"
+play,1,0,kubet101,12,BFFFS,K
+play,1,0,richb102,32,BBCSBFX,2/P/FL
+play,1,0,trest101,12,CBSS,K
+play,1,1,willm102,32,BBCFBB,W
+play,1,1,gillj102,00,X,2/BP2/DP.1X1(23)
+play,1,1,daviw102,32,BFBSFFFFBFS,K
+play,2,0,mantm101,32,SBCBBX,9/F89D
+play,2,0,howae101,12,FFBX,8/F8S
+play,2,0,lopeh101,12,BFFX,8/F78D
+play,2,1,davit103,21,BBCX,9/L9
+play,2,1,howaf102,30,BBBX,S9/L89
+play,2,1,skowb101,02,FSX,64(1)3/GDP
+play,3,0,pepij101,12,CBFS,K
+play,3,0,boyec102,02,SSS,K
+play,3,0,fordw101,02,FFX,31/G34
+play,3,1,rosej101,10,BX,31
+play,3,1,tracd101,01,LX,63
+play,3,1,koufs101,22,BBSFX,3/G
+play,4,0,kubet101,11,FBX,13/G1
+play,4,0,richb102,01,SX,D8/F8S
 com,"$Willie Davis lost the ball in the sun"
-play,4,0,trest101,??,,2/FL
-play,4,0,mantm101,??,,63
-play,4,1,willm102,??,,K/C
-play,4,1,gillj102,??,,53
-play,4,1,daviw102,??,,2/FL
-play,5,0,howae101,??,,S8
-play,5,0,lopeh101,??,,9
-play,5,0,pepij101,??,,K
-play,5,0,boyec102,??,,64(1)/FO
-play,5,1,davit103,??,,43
-play,5,1,howaf102,??,,HR/7D
-play,5,1,skowb101,??,,8/L
-play,5,1,rosej101,??,,K
-play,6,0,fordw101,??,,2/FL
-play,6,0,kubet101,??,,13/G1
-play,6,0,richb102,??,,63
-play,6,1,tracd101,??,,8/F8D
-play,6,1,koufs101,??,,K/C
-play,6,1,willm102,??,,43
-play,7,0,trest101,??,,3/FL
-play,7,0,mantm101,??,,HR/78D
-play,7,0,howae101,??,,S/89
-play,7,0,lopeh101,??,,3/FL
-play,7,0,pepij101,??,,3/G
-play,7,1,gillj102,??,,5E3/TH1.B-3
-com,"$Joe Pepitone lost the throw, which hit him and bounced to stands"
-play,7,1,daviw102,??,,8/SF/F8D.3-H(UR)
-play,7,1,davit103,??,,43
-play,7,1,howaf102,??,,31
+play,4,0,trest101,02,SFX,2/P2F/FL
+play,4,0,mantm101,10,*BX,63
+play,4,1,willm102,02,CSC,K/C
+play,4,1,gillj102,00,X,53/G56
+play,4,1,daviw102,00,X,2/P2F/FL
+play,5,0,howae101,11,BSX,S8/G46
+play,5,0,lopeh101,21,BBFX,9/F9S
+play,5,0,pepij101,12,BF11FS,K
+play,5,0,boyec102,02,SSX,64(1)/FO/G56
+play,5,1,davit103,31,BSBBX,43
+play,5,1,howaf102,00,X,HR/F7LD
+play,5,1,skowb101,21,FBBX,8/L8
+play,5,1,rosej101,32,BBCBSS,K
+play,6,0,fordw101,01,KX,2/P2F/FL
+play,6,0,kubet101,12,BFFFX,13/G1
+play,6,0,richb102,12,FBCFX,63
+play,6,1,tracd101,21,CBBX,8/L8D
+play,6,1,koufs101,12,BSSC,K/C
+play,6,1,willm102,00,X,43
+play,7,0,trest101,21,BCBX,3/P3F/FL
+play,7,0,mantm101,00,X,HR/F78XD
+play,7,0,howae101,12,BFSX,S8/L89
+play,7,0,lopeh101,00,X,3/P23F/FL
+play,7,0,pepij101,00,X,3/G
+play,7,1,gillj102,11,CBX,5E3/TH1.B-3
+com,"$Leaping stop by Boyer.  Pepitone lost sight of the perfect"
+com,"throw, which hit him and bounced to stands"
+play,7,1,daviw102,00,X,8/F89D/SF.3-H(UR)
+play,7,1,davit103,31,BCBBX,43/G4M
+play,7,1,howaf102,32,BBCBSX,31/G34
 play,8,0,boyec102,??,,NP
 sub,fairr101,"Ron Fairly",1,5,9
-play,8,0,boyec102,??,,K
+play,8,0,boyec102,22,CCBFFBS,K
 play,8,0,fordw101,??,,NP
 sub,linzp101,"Phil Linz",0,9,11
-play,8,0,linzp101,??,,S7
-play,8,0,kubet101,??,,4(1)3/GDP
+play,8,0,linzp101,22,BSSBX,S7/L56D
+play,8,0,kubet101,01,FX,4(1)3/GDP
 play,8,1,skowb101,??,,NP
 sub,renih101,"Hal Reniff",0,9,1
-play,8,1,skowb101,??,,7
-play,8,1,rosej101,??,,31
-play,8,1,tracd101,??,,8/L
-play,9,0,richb102,??,,S8
-play,9,0,trest101,??,,K/C
-play,9,0,mantm101,02,FSC,K/C
-play,9,0,howae101,??,,FC6.1X2(6E4);B-1
-play,9,0,lopeh101,00,X,63
+play,8,1,skowb101,10,BX,7/F7D
+play,8,1,rosej101,00,X,31/G34
+play,8,1,tracd101,20,BBX,8/L8
+play,9,0,richb102,21,BSBX,S8/F89S
+play,9,0,trest101,22,BSLBC,K/C
+play,9,0,mantm101,02,F1SC,K/C
+play,9,0,howae101,00,X,FC6/G56.1X2(6E4);B-1
+play,9,0,lopeh101,00,X,63/G6S
 data,er,fordw101,1
 data,er,renih101,0
 data,er,koufs101,1

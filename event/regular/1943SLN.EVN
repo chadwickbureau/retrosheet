@@ -906,7 +906,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"115"
+info,scorer,"115,210"
 info,translator,"Bob Kistler"
 info,inputter,"Greg Beston"
 info,umphome,mageg901
@@ -2497,6 +2497,7 @@ start,browj107,"Jimmy Brown",1,7,5
 start,marim101,"Marty Marion",1,8,6
 start,krish101,"Howie Krist",1,9,1
 com,"Protest=X"
+com,"Suspend=19430729,,0,1,45"
 play,1,0,murtd101,??,,63
 play,1,0,nortr101,??,,K
 play,1,0,adamb101,??,,53
@@ -2553,12 +2554,12 @@ play,8,0,krauj101,??,,2/FL
 play,8,0,murtd101,??,,13
 play,8,0,nortr101,??,,S9
 play,8,0,adamb101,??,,9/9D
+com,"suspended,19430729,STL07,rain"
 com,"umpchange,8,umphp,stewb901"
 com,"umpchange,8,ump1b,dunnt901"
-com,"$Game was called for rain, but Phillies protested that Cardinals"
-com,"did not properly cover field; Protest upheld and game completed"
-com,"on July 29; only lineup change was that Kurowski replaced Brown"
-com,"who was now in Army"
+com,"$Game called for rain, but Phillies protested that Cardinals"
+com,"did not properly cover field; Protest upheld and game became"
+com,"a suspension, completed on July 29"
 play,8,1,krish101,??,,K
 play,8,1,kleil101,??,,D/89
 play,8,1,walkh102,??,,W
@@ -2823,9 +2824,9 @@ info,umphome,pineb101
 info,ump1b,searz901
 info,ump2b,(none)
 info,ump3b,(none)
-info,scorer,"137,140,102,208,128"
-info,translator,"Tom Thress"
-info,inputter,"David W. Smith"
+info,scorer,"137,140,102,208,128,276"
+info,translator,"Tom Thress/RWood"
+info,inputter,"David W. Smith/RWood"
 info,inputtime,2016/10/30 9:02PM
 info,howscored,park
 info,pitches,none
@@ -2859,32 +2860,32 @@ start,garmd101,"Debs Garms",1,6,7
 start,kurow101,"Whitey Kurowski",1,7,5
 start,marim101,"Marty Marion",1,8,6
 start,lanim101,"Max Lanier",1,9,1
-play,1,0,gustf101,??,,S
+play,1,0,gustf101,??,,S4
 play,1,0,russj102,??,,K
 play,1,0,obrit103,??,,K
-play,1,0,ellib103,??,,99
-play,1,1,kleil101,??,,K
-play,1,1,walkh102,??,,S
-play,1,1,musis101,??,,99
-play,1,1,sandr102,??,,99
+play,1,0,ellib103,??,,63
+play,1,1,kleil101,??,,6
+play,1,1,walkh102,??,,S8
+play,1,1,musis101,??,,5
+play,1,1,sandr102,??,,8
 play,2,0,flete101,??,,K
 play,2,0,lopea102,??,,W
 play,2,0,dimav101,??,,K
-play,2,0,gearh101,??,,99
-play,2,1,odeak101,??,,99
+play,2,0,gearh101,??,,8
+play,2,1,odeak101,??,,3
 play,2,1,garmd101,??,,S9
 play,2,1,kurow101,??,,5/FL
 play,2,1,marim101,??,,S7.1-3;B-2(TH)
 play,2,1,lanim101,??,,S8.3-H;2-H;B-2(E8/TH)
 com,"$DiMaggio's throw hit Marion and bounded past Lopez"
-play,2,1,kleil101,??,,99
+play,2,1,kleil101,??,,K
 play,3,0,gornh101,??,,K
 play,3,0,gustf101,??,,W
 play,3,0,russj102,??,,K
-play,3,0,obrit103,??,,99
-play,3,1,walkh102,??,,99
-play,3,1,musis101,??,,99
-play,3,1,sandr102,??,,99
+play,3,0,obrit103,??,,43
+play,3,1,walkh102,??,,9
+play,3,1,musis101,??,,3
+play,3,1,sandr102,??,,43
 play,4,0,ellib103,??,,S6
 play,4,0,flete101,??,,6(1)3/GDP
 play,4,0,lopea102,??,,S8
@@ -2904,40 +2905,39 @@ sub,shumh101,"Harry Shuman",0,9,1
 play,4,1,lanim101,??,,63.2-3
 play,4,1,kleil101,??,,D8.3-H;BX3(865)
 play,5,0,gustf101,??,,E5
-play,5,0,russj102,??,,99
+play,5,0,russj102,??,,54(1)/FO
 play,5,0,obrit103,??,,K
-play,5,0,ellib103,??,,99
-play,5,1,walkh102,??,,99
-play,5,1,musis101,??,,99
-play,5,1,sandr102,??,,99
+play,5,0,ellib103,??,,9
+play,5,1,walkh102,??,,43
+play,5,1,musis101,??,,43
+play,5,1,sandr102,??,,3
 play,6,0,flete101,??,,W
 play,6,0,lopea102,??,,64(1)3/GDP
-play,6,0,dimav101,??,,99
-play,6,1,odeak101,??,,99
-play,6,1,garmd101,??,,99
+play,6,0,dimav101,??,,7
+play,6,1,odeak101,??,,9
+play,6,1,garmd101,??,,43
 play,6,1,kurow101,??,,K
-play,7,0,gearh101,??,,99
+play,7,0,gearh101,??,,2/P
 play,7,0,shumh101,??,,K
-play,7,0,gustf101,??,,S
-play,7,0,russj102,??,,99
+play,7,0,gustf101,??,,S8
+play,7,0,russj102,??,,9
 play,7,1,marim101,??,,E6/TH.B-2
-com,"pbp accpunt ends here, rest deduced"
-play,7,1,lanim101,??,,99/SH.2-3
+play,7,1,lanim101,??,,14/SH.2-3
 play,7,1,kleil101,??,,8(B)2(3)/DP
-play,8,0,obrit103,??,,99
+play,8,0,obrit103,??,,13
 play,8,0,ellib103,??,,W
-play,8,0,flete101,??,,99
-play,8,0,lopea102,??,,99
-play,8,1,walkh102,??,,99
-play,8,1,musis101,??,,99
+play,8,0,flete101,??,,4
+play,8,0,lopea102,??,,64(1)/FO
+play,8,1,walkh102,??,,3
+play,8,1,musis101,??,,53
 play,8,1,sandr102,??,,K
-play,9,0,dimav101,??,,S
+play,9,0,dimav101,??,,S7
 play,9,0,gearh101,??,,W.1-2
 play,9,0,shumh101,??,,NP
 sub,colmf101,"Frank Colman",0,9,11
 play,9,0,colmf101,??,,K
 play,9,0,gustf101,??,,54(1)/FO.2-3
-play,9,0,russj102,??,,99(1)/FO
+play,9,0,russj102,??,,64(1)/FO
 data,er,gornh101,2
 data,er,rescx101,3
 data,er,shumh101,0
@@ -4775,6 +4775,260 @@ play,9,0,ruckj101,??,,K
 data,er,wittj101,5
 data,er,meltc101,0
 data,er,coopm101,2
+id,SLN194307230
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,NY1
+info,hometeam,SLN
+info,site,STL07
+info,date,1943/07/23
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,umphome,goetl901
+info,ump1b,balll901
+info,ump2b,(none)
+info,ump3b,rearb901
+info,scorer,"128,102,208,104,99,98,103,96"
+info,translator,"Tom Thress"
+info,inputter,"David W. Smith"
+info,inputtime,2016/11/20 8:29AM
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,120
+info,attendance,1557
+info,wp,gumbh101
+info,lp,chask101
+info,save,krish101
+info,gwrbi,
+start,bartd101,"Dick Bartell",0,1,5
+start,witem101,"Mickey Witek",0,2,4
+start,ruckj101,"Johnny Rucker",0,3,8
+start,ott-m101,"Mel Ott",0,4,9
+start,lombe101,"Ernie Lombardi",0,5,2
+start,medwj101,"Joe Medwick",0,6,7
+start,jurgb101,"Billy Jurges",0,7,6
+start,orenj101,"Joe Orengo",0,8,3
+start,chask101,"Ken Chase",0,9,1
+start,kleil101,"Lou Klein",1,1,6
+start,walkh102,"Harry Walker",1,2,8
+start,musis101,"Stan Musial",1,3,9
+start,coopw102,"Walker Cooper",1,4,2
+start,kurow101,"Whitey Kurowski",1,5,5
+start,demaf102,"Frank Demaree",1,6,7
+start,sandr102,"Ray Sanders",1,7,3
+start,fallg101,"George Fallon",1,8,4
+start,gumbh101,"Harry Gumbert",1,9,1
+play,1,0,bartd101,??,,7
+play,1,0,witem101,??,,43
+play,1,0,ruckj101,??,,6/P
+play,1,1,kleil101,??,,S9
+play,1,1,walkh102,??,,54/SH.1-2
+play,1,1,musis101,??,,FC1.2-3;B-1
+play,1,1,coopw102,??,,54(1)3/GDP
+play,2,0,ott-m101,??,,8
+play,2,0,lombe101,??,,8
+play,2,0,medwj101,??,,K
+play,2,1,kurow101,??,,3/P
+play,2,1,demaf102,??,,S7
+play,2,1,sandr102,??,,S8.1-3
+play,2,1,fallg101,??,,7.3-H
+play,2,1,gumbh101,??,,W.1-2
+play,2,1,kleil101,??,,7/L
+play,3,0,jurgb101,??,,S9
+play,3,0,orenj101,??,,54(1)/FO
+play,3,0,chask101,??,,K
+play,3,0,bartd101,??,,D8/89.1-3
+play,3,0,witem101,??,,63
+play,3,1,walkh102,??,,S5
+play,3,1,musis101,??,,FLE2
+play,3,1,musis101,??,,S8.1-2
+play,3,1,coopw102,??,,W.2-3;1-2
+play,3,1,kurow101,??,,7(B)2(3)/DP
+play,3,1,demaf102,??,,W.2-3;1-2
+play,3,1,sandr102,??,,2/FL
+play,4,0,ruckj101,??,,43
+play,4,0,ott-m101,??,,3/G
+play,4,0,lombe101,??,,3/FL
+play,4,1,fallg101,??,,S5
+play,4,1,gumbh101,??,,26(1)/FO/BG
+play,4,1,kleil101,??,,53.1-2
+play,4,1,walkh102,??,,63
+play,5,0,medwj101,??,,13
+play,5,0,jurgb101,??,,3/G
+play,5,0,orenj101,??,,63
+play,5,1,musis101,??,,63
+play,5,1,coopw102,??,,7
+play,5,1,kurow101,??,,8
+com,"pbp account ends here, rest deduced"
+play,6,0,chask101,??,,S
+play,6,0,bartd101,??,,54(1)/FO
+play,6,0,witem101,??,,43.1-2
+play,6,0,ruckj101,??,,8
+play,6,1,demaf102,??,,43
+play,6,1,sandr102,??,,43
+play,6,1,fallg101,??,,9
+play,7,0,ott-m101,??,,NP
+sub,hoppj102,"Johnny Hopp",1,6,7
+play,7,0,ott-m101,??,,NP
+sub,krish101,"Howie Krist",1,9,1
+play,7,0,ott-m101,??,,S
+play,7,0,lombe101,??,,8
+play,7,0,medwj101,??,,9(B)3(1)/DP
+play,7,1,krish101,??,,K
+play,7,1,kleil101,??,,W
+play,7,1,walkh102,??,,9
+play,7,1,musis101,??,,K
+play,8,0,jurgb101,??,,9
+play,8,0,orenj101,??,,K
+play,8,0,chask101,??,,NP
+sub,maynb101,"Buster Maynard",0,9,11
+play,8,0,maynb101,??,,FLE2
+play,8,0,maynb101,??,,8
+play,8,1,coopw102,??,,NP
+sub,maynb101,"Buster Maynard",0,9,8
+play,8,1,coopw102,??,,NP
+sub,adama101,"Ace Adams",0,3,1
+play,8,1,coopw102,??,,7
+play,8,1,kurow101,??,,9
+play,8,1,hoppj102,??,,K
+play,9,0,bartd101,??,,S
+play,9,0,witem101,??,,34/SH.1-2
+play,9,0,adama101,??,,NP
+sub,gords101,"Sid Gordon",0,3,11
+play,9,0,gords101,??,,63.2-3
+play,9,0,ott-m101,??,,K
+data,er,chask101,1
+data,er,adama101,0
+data,er,gumbh101,0
+data,er,krish101,0
+id,SLN194307240
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,BSN
+info,hometeam,SLN
+info,site,STL07
+info,date,1943/07/24
+info,number,0
+info,starttime,0:00PM
+info,daynight,night
+info,usedh,false
+info,umphome,jordl901
+info,ump1b,barrg901
+info,ump2b,(none)
+info,ump3b,conlj102
+info,scorer,"102,208,71,163,274,276"
+info,translator,"Stew Thornley/RWood"
+info,inputter,"David W. Smith/RWood"
+info,inputtime,2016/12/07 1:57PM
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,119
+info,attendance,10932
+info,wp,lanim101
+info,lp,salvm101
+info,save,
+info,gwrbi,
+start,holmt101,"Tommy Holmes",0,1,8
+start,ryanc102,"Connie Ryan",0,2,5
+start,workc101,"Chuck Workman",0,3,3
+start,burnj101,"Joe Burns",0,4,9
+start,rossc103,"Chet Ross",0,5,7
+start,masip101,"Phil Masi",0,6,2
+start,wietw101,"Whitey Wietelmann",0,7,6
+start,joose101,"Eddie Joost",0,8,4
+start,salvm101,"Manny Salvo",0,9,1
+start,kleil101,"Lou Klein",1,1,6
+start,walkh102,"Harry Walker",1,2,8
+start,musis101,"Stan Musial",1,3,9
+start,coopw102,"Walker Cooper",1,4,2
+start,kurow101,"Whitey Kurowski",1,5,5
+start,hoppj102,"Johnny Hopp",1,6,7
+start,sandr102,"Ray Sanders",1,7,3
+start,fallg101,"George Fallon",1,8,4
+start,lanim101,"Max Lanier",1,9,1
+play,1,0,holmt101,??,,53
+play,1,0,ryanc102,??,,K
+play,1,0,workc101,??,,6
+play,1,1,kleil101,??,,53
+play,1,1,walkh102,??,,W
+play,1,1,musis101,??,,3(B)3(1)/LDP
+play,2,0,burnj101,??,,D7
+play,2,0,rossc103,??,,K/C
+play,2,0,masip101,??,,S4.2-3
+play,2,0,wietw101,??,,K
+play,2,0,joose101,??,,43
+play,2,1,coopw102,??,,7
+play,2,1,kurow101,??,,K
+play,2,1,hoppj102,??,,S
+play,2,1,sandr102,??,,S.1-2
+play,2,1,fallg101,??,,8
+play,3,0,salvm101,??,,43
+play,3,0,holmt101,??,,3
+play,3,0,ryanc102,??,,63
+play,3,1,lanim101,??,,53
+play,3,1,kleil101,??,,53
+play,3,1,walkh102,??,,W
+play,3,1,musis101,??,,D9/L.1-3
+play,3,1,coopw102,??,,IW
+play,3,1,kurow101,??,,64(1)/FO
+play,4,0,workc101,??,,43
+play,4,0,burnj101,??,,K
+play,4,0,rossc103,??,,9
+play,4,1,hoppj102,??,,S9
+play,4,1,sandr102,??,,53.1-2
+play,4,1,fallg101,??,,63.2-3
+play,4,1,lanim101,??,,S8.3-H
+play,4,1,kleil101,??,,9
+play,5,0,masip101,??,,9
+play,5,0,wietw101,??,,43
+play,5,0,joose101,??,,31
+play,5,1,walkh102,??,,S8
+play,5,1,musis101,??,,T8/78.1-H
+play,5,1,coopw102,??,,4/P
+play,5,1,kurow101,??,,FC6.3XH(62);B-1
+play,5,1,hoppj102,??,,PO1(23)
+play,6,0,salvm101,??,,9
+play,6,0,holmt101,??,,K
+play,6,0,ryanc102,??,,3
+play,6,1,hoppj102,??,,31
+play,6,1,sandr102,??,,6
+play,6,1,fallg101,??,,63
+play,7,0,workc101,??,,9
+play,7,0,burnj101,??,,S8
+play,7,0,rossc103,??,,K
+play,7,0,masip101,??,,9/FL
+play,7,1,lanim101,??,,S7
+play,7,1,kleil101,??,,7
+play,7,1,walkh102,??,,S9.1-2
+play,7,1,musis101,??,,8
+play,7,1,coopw102,??,,S7.2-H;1-2
+play,7,1,kurow101,??,,53
+play,8,0,wietw101,??,,43
+play,8,0,joose101,??,,63
+play,8,0,salvm101,??,,9
+play,8,1,hoppj102,??,,43
+play,8,1,sandr102,??,,43
+play,8,1,fallg101,??,,53
+play,9,0,holmt101,??,,43
+play,9,0,ryanc102,??,,63
+play,9,0,workc101,??,,S
+play,9,0,burnj101,??,,K
+data,er,salvm101,3
+data,er,lanim101,0
 id,SLN194307260
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -4922,140 +5176,6 @@ play,9,0,polah101,??,,99
 data,er,javea101,3
 data,er,macfd101,1
 data,er,coopm101,2
-id,SLN194307230
-version,1
-info,inputprogvers,"version 7RS(19) of 07/07/92"
-info,visteam,NY1
-info,hometeam,SLN
-info,site,STL07
-info,date,1943/07/23
-info,number,0
-info,starttime,0:00PM
-info,daynight,day
-info,usedh,false
-info,umphome,goetl901
-info,ump1b,balll901
-info,ump2b,(none)
-info,ump3b,rearb901
-info,scorer,"128,102,208,104,99,98,103,96"
-info,translator,"Tom Thress"
-info,inputter,"David W. Smith"
-info,inputtime,2016/11/20 8:29AM
-info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,120
-info,attendance,1557
-info,wp,gumbh101
-info,lp,chask101
-info,save,krish101
-info,gwrbi,
-start,bartd101,"Dick Bartell",0,1,5
-start,witem101,"Mickey Witek",0,2,4
-start,ruckj101,"Johnny Rucker",0,3,8
-start,ott-m101,"Mel Ott",0,4,9
-start,lombe101,"Ernie Lombardi",0,5,2
-start,medwj101,"Joe Medwick",0,6,7
-start,jurgb101,"Billy Jurges",0,7,6
-start,orenj101,"Joe Orengo",0,8,3
-start,chask101,"Ken Chase",0,9,1
-start,kleil101,"Lou Klein",1,1,6
-start,walkh102,"Harry Walker",1,2,8
-start,musis101,"Stan Musial",1,3,9
-start,coopw102,"Walker Cooper",1,4,2
-start,kurow101,"Whitey Kurowski",1,5,5
-start,demaf102,"Frank Demaree",1,6,7
-start,sandr102,"Ray Sanders",1,7,3
-start,fallg101,"George Fallon",1,8,4
-start,gumbh101,"Harry Gumbert",1,9,1
-play,1,0,bartd101,??,,7
-play,1,0,witem101,??,,43
-play,1,0,ruckj101,??,,6/P
-play,1,1,kleil101,??,,S9
-play,1,1,walkh102,??,,54/SH.1-2
-play,1,1,musis101,??,,FC1.2-3;B-1
-play,1,1,coopw102,??,,54(1)3/GDP
-play,2,0,ott-m101,??,,8
-play,2,0,lombe101,??,,8
-play,2,0,medwj101,??,,K
-play,2,1,kurow101,??,,3/P
-play,2,1,demaf102,??,,S7
-play,2,1,sandr102,??,,S8.1-3
-play,2,1,fallg101,??,,7.3-H
-play,2,1,gumbh101,??,,W.1-2
-play,2,1,kleil101,??,,7/L
-play,3,0,jurgb101,??,,S9
-play,3,0,orenj101,??,,54(1)/FO
-play,3,0,chask101,??,,K
-play,3,0,bartd101,??,,D8/89.1-3
-play,3,0,witem101,??,,63
-play,3,1,walkh102,??,,S5
-play,3,1,musis101,??,,FLE2
-play,3,1,musis101,??,,S8.1-2
-play,3,1,coopw102,??,,W.2-3;1-2
-play,3,1,kurow101,??,,7(B)2(3)/DP
-play,3,1,demaf102,??,,W.2-3;1-2
-play,3,1,sandr102,??,,2/FL
-play,4,0,ruckj101,??,,43
-play,4,0,ott-m101,??,,3/G
-play,4,0,lombe101,??,,3/FL
-play,4,1,fallg101,??,,S5
-play,4,1,gumbh101,??,,26(1)/FO/BG
-play,4,1,kleil101,??,,53.1-2
-play,4,1,walkh102,??,,63
-play,5,0,medwj101,??,,13
-play,5,0,jurgb101,??,,3/G
-play,5,0,orenj101,??,,63
-play,5,1,musis101,??,,63
-play,5,1,coopw102,??,,7
-play,5,1,kurow101,??,,8
-com,"pbp account ends here, rest deduced"
-play,6,0,chask101,??,,S
-play,6,0,bartd101,??,,54(1)/FO
-play,6,0,witem101,??,,43.1-2
-play,6,0,ruckj101,??,,8
-play,6,1,demaf102,??,,43
-play,6,1,sandr102,??,,43
-play,6,1,fallg101,??,,9
-play,7,0,ott-m101,??,,NP
-sub,hoppj102,"Johnny Hopp",1,6,7
-play,7,0,ott-m101,??,,NP
-sub,krish101,"Howie Krist",1,9,1
-play,7,0,ott-m101,??,,S
-play,7,0,lombe101,??,,8
-play,7,0,medwj101,??,,9(B)3(1)/DP
-play,7,1,krish101,??,,K
-play,7,1,kleil101,??,,W
-play,7,1,walkh102,??,,9
-play,7,1,musis101,??,,K
-play,8,0,jurgb101,??,,9
-play,8,0,orenj101,??,,K
-play,8,0,chask101,??,,NP
-sub,maynb101,"Buster Maynard",0,9,11
-play,8,0,maynb101,??,,FLE2
-play,8,0,maynb101,??,,8
-play,8,1,coopw102,??,,NP
-sub,maynb101,"Buster Maynard",0,9,8
-play,8,1,coopw102,??,,NP
-sub,adama101,"Ace Adams",0,3,1
-play,8,1,coopw102,??,,7
-play,8,1,kurow101,??,,9
-play,8,1,hoppj102,??,,K
-play,9,0,bartd101,??,,S
-play,9,0,witem101,??,,34/SH.1-2
-play,9,0,adama101,??,,NP
-sub,gords101,"Sid Gordon",0,3,11
-play,9,0,gords101,??,,63.2-3
-play,9,0,ott-m101,??,,K
-data,er,chask101,1
-data,er,adama101,0
-data,er,gumbh101,0
-data,er,krish101,0
 id,SLN194307271
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -5643,6 +5763,148 @@ data,er,mattd101,2
 data,er,karla101,1
 data,er,krauj101,2
 data,er,mungr101,3
+id,SLN194307300
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,PHI
+info,hometeam,SLN
+info,site,STL07
+info,date,1943/07/30
+info,number,0
+info,starttime,0:00PM
+info,daynight,night
+info,usedh,false
+info,umphome,dunnt901
+info,ump1b,stewb901
+info,ump2b,(none)
+info,ump3b,(none)
+info,scorer,"102,208,266,119,276"
+info,translator,"John Gabcik/RWood"
+info,inputter,"David W. Smith/RWood"
+info,inputtime,2016/12/04 5:54PM
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,149
+info,attendance,7606
+info,wp,gerha101
+info,lp,coopm101
+info,save,
+info,gwrbi,
+start,murtd101,"Danny Murtaugh",0,1,4
+start,adamb101,"Buster Adams",0,2,8
+start,dahlb101,"Babe Dahlgren",0,3,3
+start,nortr101,"Ron Northey",0,4,9
+start,moord101,"Dee Moore",0,5,7
+start,finlb102,"Bob Finley",0,6,2
+start,brewc101,"Charlie Brewster",0,7,6
+start,may-p101,"Pinky May",0,8,5
+start,gerha101,"Al Gerheauser",0,9,1
+start,kleil101,"Lou Klein",1,1,4
+start,walkh102,"Harry Walker",1,2,8
+start,musis101,"Stan Musial",1,3,9
+start,coopw102,"Walker Cooper",1,4,2
+start,kurow101,"Whitey Kurowski",1,5,5
+start,litwd101,"Danny Litwhiler",1,6,7
+start,sandr102,"Ray Sanders",1,7,3
+start,marim101,"Marty Marion",1,8,6
+start,coopm101,"Mort Cooper",1,9,1
+play,1,0,murtd101,??,,D8
+play,1,0,adamb101,??,,WP.2-3
+play,1,0,adamb101,??,,K
+play,1,0,dahlb101,??,,K
+play,1,0,nortr101,??,,S.3-H
+play,1,0,moord101,??,,K
+play,1,1,kleil101,??,,K
+play,1,1,walkh102,??,,43
+play,1,1,musis101,??,,43
+play,2,0,finlb102,??,,13
+play,2,0,brewc101,??,,K
+play,2,0,may-p101,??,,9
+play,2,1,coopw102,??,,53
+play,2,1,kurow101,??,,3
+play,2,1,litwd101,??,,S
+play,2,1,sandr102,??,,HR.1-H
+play,2,1,marim101,??,,S
+play,2,1,coopm101,??,,13
+play,3,0,gerha101,??,,13
+play,3,0,murtd101,??,,S
+play,3,0,adamb101,??,,64(1)3/GDP
+play,3,1,kleil101,??,,W
+play,3,1,walkh102,??,,53/SH.1-2
+play,3,1,musis101,??,,43.2-2
+play,3,1,coopw102,??,,4/P
+play,4,0,dahlb101,??,,W
+play,4,0,nortr101,??,,E4/G.1-2
+play,4,0,moord101,??,,5
+play,4,0,finlb102,??,,S.2-H(UR);1-3
+play,4,0,brewc101,??,,64(1)3/GDP
+play,4,1,kurow101,??,,5/FL
+play,4,1,litwd101,??,,K
+play,4,1,sandr102,??,,W
+play,4,1,marim101,??,,K
+play,5,0,may-p101,??,,S
+play,5,0,gerha101,??,,36(1)/FO
+play,5,0,murtd101,??,,16(1)/FO
+play,5,0,adamb101,??,,7
+play,5,1,coopm101,??,,63
+play,5,1,kleil101,??,,63
+play,5,1,walkh102,??,,43
+play,6,0,dahlb101,??,,9
+play,6,0,nortr101,??,,5
+play,6,0,moord101,??,,5/L
+play,6,1,musis101,??,,K
+play,6,1,coopw102,??,,8
+play,6,1,kurow101,??,,K
+play,7,0,finlb102,??,,53
+play,7,0,brewc101,??,,8
+play,7,0,may-p101,??,,K
+play,7,1,litwd101,??,,63
+play,7,1,sandr102,??,,9
+play,7,1,marim101,??,,9
+play,8,0,gerha101,??,,13
+play,8,0,murtd101,??,,W
+play,8,0,adamb101,??,,S/BG.1-2
+play,8,0,dahlb101,??,,2/FL
+play,8,0,nortr101,??,,K
+play,8,1,coopm101,??,,9
+play,8,1,kleil101,??,,D9
+play,8,1,walkh102,??,,5/L
+play,8,1,musis101,??,,9
+play,9,0,moord101,??,,7
+play,9,0,finlb102,??,,63
+play,9,0,brewc101,??,,K
+play,9,1,coopw102,??,,S
+play,9,1,kurow101,??,,3(B)/BP/DP.1X1(34)
+play,9,1,litwd101,??,,4/FL
+play,10,0,may-p101,??,,8
+play,10,0,gerha101,??,,43
+play,10,0,murtd101,??,,63
+play,10,1,sandr102,??,,S
+play,10,1,marim101,??,,16(1)/FO
+play,10,1,coopm101,??,,46(1)/FO
+play,10,1,kleil101,??,,9
+play,11,0,adamb101,??,,S3
+play,11,0,dahlb101,??,,7
+play,11,0,nortr101,??,,S9.1-3
+play,11,0,moord101,??,,14(1)/FO
+play,11,0,finlb102,??,,NP
+sub,wasdj101,"Jimmy Wasdell",0,6,11
+play,11,0,wasdj101,??,,S7.3-H;1-2
+play,11,0,brewc101,??,,64(1)/FO
+play,11,1,walkh102,??,,NP
+sub,livim101,"Mickey Livingston",0,6,2
+play,11,1,walkh102,??,,S
+play,11,1,musis101,??,,53/SH.1-2
+play,11,1,coopw102,??,,9
+play,11,1,kurow101,??,,7
+data,er,gerha101,2
+data,er,coopm101,2
 id,SLN194307310
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8259,12 +8521,14 @@ play,6,0,schuh101,??,,2/FL
 play,6,0,gillc102,??,,W
 play,6,0,owenm101,??,,9
 play,6,1,walkh102,??,,5
-com,"ej,walkd101,P,stewb901,Balls and strikes"
-com,"Dixie Walker ejected by HP umpire Bill Stewart"
 play,6,1,musis101,??,,S
 play,6,1,coopw102,??,,S.1-2
 play,6,1,kurow101,??,,FLE3
 play,6,1,kurow101,??,,W.2-3;1-2
+com,"ej,walkd101,P,stewb901,Check swing"
+com,"$Dodgers Dixie Walker, not in game, ejected by HP umpire"
+com,"Stewart for arguing that Kurowski had not checked his"
+com,"swing on 2-2 pitch"
 play,6,1,sandr102,??,,6
 play,6,1,hoppj102,??,,6/L
 play,7,0,campa101,??,,63
