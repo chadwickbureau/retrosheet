@@ -1038,8 +1038,13 @@ play,6,0,witem101,??,,43
 play,6,0,orenj101,??,,W
 play,6,0,mancg101,??,,S7.1X3(75)
 com,"ej,ott-m101,M,stewb901,Call at 3B"
-com,"Giants Manager Mel Ott ejected by HP umpire Bill Stewart"
+com,"$Giants manager Ott ejected by HP umpire Stewart"
+com,"for arguing Orengo was safe at 3rd"
 play,6,0,adama101,??,,53
+play,6,1,fuchc101,??,,NP
+sub,barnb102,"Babe Barna",0,4,7
+play,6,1,fuchc101,??,,NP
+sub,maynb101,"Buster Maynard",0,3,9
 play,6,1,fuchc101,??,,K
 play,6,1,murtd101,??,,S8
 play,6,1,nortr101,??,,43.1-2
@@ -1051,22 +1056,16 @@ play,7,1,wasdj101,??,,63
 play,7,1,dahlb101,??,,S9
 play,7,1,nayle101,??,,54(1)/FO
 play,7,1,may-p101,??,,CS2(26)
-play,8,0,ott-m101,??,,W
-play,8,0,gords101,??,,NP
-sub,mungv101,"Van Mungo",0,4,12
+play,8,0,barnb102,??,,W
 play,8,0,gords101,??,,9
 play,8,0,witem101,??,,W.1-2
 play,8,0,orenj101,??,,14(1)3/GDP
-play,8,1,may-p101,??,,NP
-sub,barnb102,"Babe Barna",0,4,7
-play,8,1,may-p101,??,,NP
-sub,maynb101,"Buster Maynard",0,3,9
 play,8,1,may-p101,??,,63
 play,8,1,paddt101,??,,5/L
 play,8,1,fuchc101,??,,2/FL
 play,9,0,mancg101,??,,S6
 play,9,0,adama101,??,,NP
-sub,feldh101,"Harry Feldman",0,8,12
+sub,mungv101,"Van Mungo",0,8,12
 play,9,0,adama101,??,,NP
 sub,lombe101,"Ernie Lombardi",0,9,11
 play,9,0,lombe101,??,,64(1)3/GDP
@@ -2194,9 +2193,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,night
 info,usedh,false
-info,scorer,"253"
-info,translator,"D Lamoureaux"
-info,inputter,"D Lamoureaux"
+info,scorer,"253,101"
+info,translator,"D Lamoureaux/RWood"
+info,inputter,"D Lamoureaux/RWood"
 info,inputtime,2007/06/09 5:45AM
 info,umphome,mageg901
 info,ump1b,dunnt901
@@ -2234,70 +2233,73 @@ start,nayle101,"Earl Naylor",1,6,8
 start,may-p101,"Pinky May",1,7,5
 start,livim101,"Mickey Livingston",1,8,2
 start,rowes101,"Schoolboy Rowe",1,9,1
-play,1,0,russj102,??,,6
-play,1,0,wyroj101,??,,4
-play,1,0,flete101,??,,4
+play,1,0,russj102,??,,6/P
+play,1,0,wyroj101,??,,4/P
+play,1,0,flete101,??,,9
 play,1,1,murtd101,??,,9
 play,1,1,busbp101,??,,63
 play,1,1,litwd101,??,,S9
-play,1,1,wasdj101,??,,S9.1-2
-play,1,1,dahlb101,??,,S9.1-2;2-H
-play,1,1,nayle101,??,,S7.1-2;2-H
+play,1,1,wasdj101,??,,S9.1-3
+play,1,1,dahlb101,??,,S9.3-H;1-3
+play,1,1,nayle101,??,,S7.3-H;1-2
 play,1,1,may-p101,??,,5/FL
-play,2,0,dimav101,??,,6
+play,2,0,dimav101,??,,6/P
 play,2,0,ellib103,??,,9
-play,2,0,barrj106,??,,S7
-play,2,0,coscp101,??,,8
+play,2,0,barrj106,??,,S8
+play,2,0,coscp101,??,,8/L
 play,2,1,livim101,??,,8
 play,2,1,rowes101,??,,8
-play,2,1,murtd101,??,,9
-play,3,0,lopea102,??,,99
-play,3,0,klinb101,??,,63
+play,2,1,murtd101,??,,7/L
+play,3,0,lopea102,??,,13
+play,3,0,klinb101,??,,53
 play,3,0,russj102,??,,3/G
 play,3,1,busbp101,??,,S8
 play,3,1,litwd101,??,,54(1)3/GDP
-play,3,1,wasdj101,??,,5
-play,4,0,wyroj101,??,,S3
+play,3,1,wasdj101,??,,5/P
+play,4,0,wyroj101,??,,S3/BG
 play,4,0,flete101,??,,46(1)/FO
 play,4,0,dimav101,??,,K
 play,4,0,ellib103,??,,9
 play,4,1,dahlb101,??,,8
 play,4,1,nayle101,??,,9
-play,4,1,may-p101,??,,8
-play,5,0,barrj106,??,,E3
+play,4,1,may-p101,??,,8/L
+com,"$Wyrostek injured making diving catch of liner"
+play,5,0,barrj106,??,,E3/G
 play,5,0,coscp101,??,,14(1)3/GDP
 play,5,0,lopea102,??,,8
-play,5,1,livim101,??,,NP
-sub,gustf101,"Frankie Gustine",0,3,3
 play,5,1,livim101,??,,NP
 sub,russj102,"Jim Russell",0,1,8
 play,5,1,livim101,??,,NP
 sub,obrit103,"Tommy O'Brien",0,2,7
+play,5,1,livim101,??,,NP
+sub,gustf101,"Frankie Gustine",0,3,3
 play,5,1,livim101,??,,W
-play,5,1,rowes101,??,,S3.1-2
-play,5,1,murtd101,??,,S7.1-2;2-H
-play,5,1,busbp101,??,,S8.1-3;2-H
-play,5,1,litwd101,??,,WP.3-H;1-3
+com,"$1B Fletcher injured running into grandstand chasing foul ball hit"
+com,"by Livingston and was carried off field on a stretcher"
+play,5,1,rowes101,??,,S3/BG.1-2
+play,5,1,murtd101,??,,S7.2-H;1-3
+play,5,1,busbp101,??,,S8.3-H;1-2
 play,5,1,litwd101,??,,NP
 sub,shumh101,"Harry Shuman",0,9,1
+play,5,1,litwd101,??,,WP.2-3;1-2
 play,5,1,litwd101,??,,K23
-play,5,1,wasdj101,??,,W
-play,5,1,dahlb101,??,,S6.1-3(E3);3-H
+play,5,1,wasdj101,??,,IW
+play,5,1,dahlb101,??,,S6.3-H;2-H(E3/TH)(NR)(UR);1-2
 play,5,1,nayle101,??,,54(1)3/GDP
-play,6,0,shumh101,??,,99
+play,6,0,shumh101,??,,43
 play,6,0,russj102,??,,K/C
 play,6,0,obrit103,??,,7
 play,6,1,may-p101,??,,K
-play,6,1,livim101,??,,S5
+play,6,1,livim101,??,,S5/BG
 play,6,1,rowes101,??,,S7.1-2
-play,6,1,murtd101,??,,E3.1-2;2-3
-play,6,1,busbp101,??,,S8.1-2;2-3;3-H
-play,6,1,litwd101,??,,E6.2-H(E3)(NR)(UR);3-H(NR)(UR);1X2(46)
-play,6,1,wasdj101,??,,8
+play,6,1,murtd101,??,,E3/G.2-H(E3/TH2)(NR);1-2;B-1
+play,6,1,busbp101,??,,S7.2-H(UR);1-2
+play,6,1,litwd101,??,,46(1)/FO.2-H(E6/TH)(NR)(UR);B-2
+play,6,1,wasdj101,??,,7
 play,7,0,gustf101,??,,63
 play,7,0,dimav101,??,,63
 play,7,0,ellib103,??,,63
-play,7,1,dahlb101,??,,4
+play,7,1,dahlb101,??,,4/P
 play,7,1,nayle101,??,,S9
 play,7,1,may-p101,??,,7
 play,7,1,livim101,??,,63
@@ -2307,17 +2309,17 @@ play,8,0,lopea102,??,,63
 play,8,1,rowes101,??,,S8
 play,8,1,murtd101,??,,64(1)/FO
 play,8,1,busbp101,??,,64(1)/FO
-play,8,1,litwd101,??,,D8.1-H;BX3(85)
+play,8,1,litwd101,??,,D7.1-H;BX3(745)
 play,9,0,shumh101,??,,NP
 sub,colmf101,"Frank Colman",0,9,11
-play,9,0,colmf101,??,,S7
+play,9,0,colmf101,??,,S8
 play,9,0,russj102,??,,NP
 sub,sewer101,"Rip Sewell",0,9,12
 play,9,0,russj102,??,,7
 play,9,0,obrit103,??,,K/C
 play,9,0,gustf101,??,,S9.1-2
 play,9,0,dimav101,??,,9
-data,er,klinb101,6
+data,er,klinb101,5
 data,er,shumh101,2
 data,er,rowes101,0
 id,PHI194305231
@@ -7377,9 +7379,9 @@ info,umphome,barrg901
 info,ump1b,conlj102
 info,ump2b,(none)
 info,ump3b,(none)
-info,scorer,"68,111,266,119"
-info,translator,"Bill McMahon"
-info,inputter,"David W. Smith"
+info,scorer,"68,111,266,119,276"
+info,translator,"Bill McMahon/RWood"
+info,inputter,"David W. Smith/RWood"
 info,inputtime,2017/01/21 9:10AM
 info,howscored,park
 info,pitches,none
@@ -7414,72 +7416,72 @@ start,stewg101,"Glen Stewart",1,7,6
 start,may-p101,"Pinky May",1,8,5
 start,rowes101,"Schoolboy Rowe",1,9,1
 play,1,0,hacks101,??,,K
-play,1,0,stane101,??,,99
-play,1,0,cavap101,??,,99
+play,1,0,stane101,??,,13
+play,1,0,cavap101,??,,43
 play,1,1,murtd101,??,,W
 play,1,1,dahlb101,??,,S.1-2
-play,1,1,wasdj101,??,,99/SH.2-3;1-2
-play,1,1,nortr101,??,,7.3-H;2-3(E7/TH)
+play,1,1,wasdj101,??,,14/SH.2-3;1-2
+play,1,1,nortr101,??,,7.3-H;2-3(E7/THH)
 play,1,1,tripc101,??,,K
-play,2,0,nichb101,??,,99
-play,2,0,goodi101,??,,99
+play,2,0,nichb101,??,,3/G
+play,2,0,goodi101,??,,3/G
 play,2,0,lowrp101,??,,D
 play,2,0,mccuc101,??,,K
-play,2,1,moord101,??,,99
-play,2,1,stewg101,??,,99
-play,2,1,may-p101,??,,S
-play,2,1,rowes101,??,,K
-play,3,0,merul101,??,,99
+play,2,1,moord101,??,,9
+play,2,1,stewg101,??,,K
+play,2,1,may-p101,??,,D
+play,2,1,rowes101,??,,9
+play,3,0,merul101,??,,9
 play,3,0,ericp101,??,,K
-play,3,0,hacks101,??,,99
+play,3,0,hacks101,??,,8
 play,3,1,murtd101,??,,W
-play,3,1,dahlb101,??,,99/SH.1-2
+play,3,1,dahlb101,??,,54/SH.1-2
 play,3,1,wasdj101,??,,43.2-3
 play,3,1,nortr101,??,,W
 play,3,1,tripc101,??,,S8.3-H;1-2
 play,3,1,moord101,??,,S6.2-3;1-2
 play,3,1,stewg101,??,,W.3-H;2-3;1-2
-play,3,1,may-p101,??,,D7.3-H;2XH(71262);1-3
+play,3,1,may-p101,??,,S7.3-H;2XH(71262);1-3
 com,"$Moore missed third base, went back to tag and was run down"
-play,4,0,stane101,??,,99
-play,4,0,cavap101,??,,99
-play,4,0,nichb101,??,,99
+play,4,0,stane101,??,,6
+play,4,0,cavap101,??,,3
+play,4,0,nichb101,??,,8
 play,4,1,rowes101,??,,NP
 sub,warnl101,"Lon Warneke",0,9,1
 play,4,1,rowes101,??,,W
-play,4,1,murtd101,??,,99/SH.1-2
+play,4,1,murtd101,??,,13/SH.1-2
 play,4,1,dahlb101,??,,K
 play,4,1,wasdj101,??,,5/P
-play,5,0,goodi101,??,,99
-play,5,0,lowrp101,??,,99
-play,5,0,mccuc101,??,,99
-play,5,1,nortr101,??,,99
-play,5,1,tripc101,??,,W
-play,5,1,moord101,??,,16(1)3/GDP
+play,5,0,goodi101,??,,7
+play,5,0,lowrp101,??,,53
+play,5,0,mccuc101,??,,63
+play,5,1,nortr101,??,,3/G
+play,5,1,tripc101,??,,53
+play,5,1,moord101,??,,43
 play,6,0,merul101,??,,S7
 play,6,0,warnl101,??,,E4.1-2
 play,6,0,hacks101,??,,36(1)/FO.2-3
-play,6,0,stane101,??,,S.3-H;1-2
+play,6,0,stane101,??,,S.3-H(UR);1-2
 play,6,0,cavap101,??,,9/L
-play,6,0,nichb101,??,,D7.2-H;1-H
+play,6,0,nichb101,??,,D7.2-H(UR);1-H(UR)
 play,6,0,goodi101,??,,E3/G.2-3
-play,6,0,lowrp101,??,,99
-play,6,1,stewg101,??,,K
-play,6,1,may-p101,??,,99
-play,6,1,rowes101,??,,99
-play,7,0,mccuc101,??,,99
-play,7,0,merul101,??,,99
-play,7,0,warnl101,??,,99
+play,6,0,lowrp101,??,,43
+play,6,1,stewg101,??,,8
+play,6,1,may-p101,??,,8
+play,6,1,rowes101,??,,K
+play,7,0,mccuc101,??,,4
+play,7,0,merul101,??,,63
+play,7,0,warnl101,??,,8
 play,7,1,murtd101,??,,K
-play,7,1,dahlb101,??,,99
-play,7,1,wasdj101,??,,99
-play,8,0,hacks101,??,,99
-play,8,0,stane101,??,,99
-play,8,0,cavap101,??,,99
-play,8,1,nortr101,??,,99
-play,8,1,tripc101,??,,99
-play,8,1,moord101,??,,99
-play,9,0,nichb101,??,,99
+play,7,1,dahlb101,??,,8
+play,7,1,wasdj101,??,,9
+play,8,0,hacks101,??,,43
+play,8,0,stane101,??,,9
+play,8,0,cavap101,??,,7
+play,8,1,nortr101,??,,43
+play,8,1,tripc101,??,,W
+play,8,1,moord101,??,,16(1)3/GDP
+play,9,0,nichb101,??,,4
 play,9,0,goodi101,??,,S
 play,9,0,lowrp101,??,,SB2
 play,9,0,lowrp101,??,,8
@@ -7493,7 +7495,7 @@ sub,novil101,"Lou Novikoff",0,8,11
 play,9,0,novil101,??,,5(2)/FO
 data,er,ericp101,4
 data,er,warnl101,0
-data,er,rowes101,3
+data,er,rowes101,0
 id,PHI194308181
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -9260,10 +9262,10 @@ info,umphome,rearb901
 info,ump1b,goetl901
 info,ump2b,(none)
 info,ump3b,balll901
-info,translator,"Dick Cramer"
-info,inputter,"Dick Cramer"
+info,translator,"Dick Cramer/RWood"
+info,inputter,"Dick Cramer/RWood"
 info,inputtime,2017/01/17 3:15PM
-info,scorer,"266,119,71,163"
+info,scorer,"266,119,71,163,276"
 info,howscored,unknown
 info,pitches,none
 info,temp,0
@@ -9297,93 +9299,92 @@ start,stewg101,"Glen Stewart",1,7,6
 start,may-p101,"Pinky May",1,8,5
 start,gerha101,"Al Gerheauser",1,9,1
 play,1,0,holmt101,??,,FLE4
-play,1,0,holmt101,??,,W
+play,1,0,holmt101,??,,8
 play,1,0,ryanc102,??,,K
-play,1,0,workc101,??,,99
-play,1,0,niemb102,??,,99
-play,1,1,hamrr101,??,,S
-play,1,1,dahlb101,??,,6(1)3/GDP
-play,1,1,tripc101,??,,E6
-play,1,1,nortr101,??,,PO1(E1).1-2
-play,1,1,nortr101,??,,99
-play,2,0,masip101,??,,S
-play,2,0,farrk101,??,,FC/SH.1-2
+play,1,0,workc101,??,,S
+play,1,0,niemb102,??,,43
+play,1,1,hamrr101,??,,S1/BG.B-2(E1/TH)
+play,1,1,dahlb101,??,,9
+play,1,1,tripc101,??,,3/G.2-3
+play,1,1,nortr101,??,,2/P
+play,2,0,masip101,??,,S7
+play,2,0,farrk101,??,,FC1/SH.1-2;B-1
 play,2,0,wietw101,??,,SB3;SB2
 play,2,0,wietw101,??,,K
 play,2,0,joose101,??,,63.3-H
 play,2,0,javea101,??,,K
 play,2,1,wasdj101,??,,S
-play,2,1,finlb102,??,,99(1)/FO
-play,2,1,stewg101,??,,99/G.1-2
+play,2,1,finlb102,??,,43.1-2
+play,2,1,stewg101,??,,7
 play,2,1,may-p101,??,,W
-play,2,1,gerha101,??,,S.2XH(92);1-2
-play,3,0,holmt101,??,,99
-play,3,0,ryanc102,??,,K
-play,3,0,workc101,??,,S
+play,2,1,gerha101,??,,S9.2XH(92);1-2
+play,3,0,holmt101,??,,W
+play,3,0,ryanc102,??,,7
+play,3,0,workc101,??,,46(1)/FO
 play,3,0,niemb102,??,,SB2
 play,3,0,niemb102,??,,S.2-3
 play,3,0,masip101,??,,CSH(262)
-play,3,1,hamrr101,??,,99
-play,3,1,dahlb101,??,,99
+play,3,1,hamrr101,??,,8
+play,3,1,dahlb101,??,,4
 play,3,1,tripc101,??,,S
 play,3,1,nortr101,??,,S.1-2
 play,3,1,wasdj101,??,,W.2-3;1-2
 play,3,1,finlb102,??,,8/F
-play,4,0,masip101,??,,99
+play,4,0,masip101,??,,6
 play,4,0,farrk101,??,,S
-play,4,0,wietw101,??,,S.1X3(95)
+play,4,0,wietw101,??,,S9.1X3(95)
 play,4,0,joose101,??,,K
 play,4,1,stewg101,??,,K
-play,4,1,may-p101,??,,99
-play,4,1,gerha101,??,,99
-play,5,0,javea101,??,,K
-play,5,0,holmt101,??,,99
-play,5,0,ryanc102,??,,99
-play,5,1,hamrr101,??,,99
-play,5,1,dahlb101,??,,99
+play,4,1,may-p101,??,,9
+play,4,1,gerha101,??,,63
+play,5,0,javea101,??,,8
+play,5,0,holmt101,??,,13
+play,5,0,ryanc102,??,,K
+play,5,1,hamrr101,??,,9
+play,5,1,dahlb101,??,,53
 play,5,1,tripc101,??,,K
-play,6,0,workc101,??,,3/G
-play,6,0,niemb102,??,,3/G
+play,6,0,workc101,??,,31
+play,6,0,niemb102,??,,31
 play,6,0,masip101,??,,S
-play,6,0,farrk101,??,,99
-play,6,1,nortr101,??,,99
+play,6,0,farrk101,??,,5
+play,6,1,nortr101,??,,5
 play,6,1,wasdj101,??,,E3
-play,6,1,finlb102,??,,S.1-2
-play,6,1,stewg101,??,,99
-play,6,1,may-p101,??,,S8/L.2-H(UR);1-2
+play,6,1,finlb102,??,,S7.1-2
+play,6,1,stewg101,??,,6/P
+play,6,1,may-p101,??,,S8/L.2-H(UR);1-3
 play,6,1,gerha101,??,,K
-play,7,0,wietw101,??,,99
+play,7,0,wietw101,??,,4
 play,7,0,joose101,??,,W
-play,7,0,javea101,??,,PO1(99)
-play,7,0,javea101,??,,99
+play,7,0,javea101,??,,OA.1X2(24)
+play,7,0,javea101,??,,K
 play,7,1,hamrr101,??,,S
-play,7,1,dahlb101,??,,99
-play,7,1,tripc101,??,,K
-play,7,1,nortr101,??,,99
-play,8,0,holmt101,??,,99
+play,7,1,dahlb101,??,,6(1)3/GDP
+play,7,1,tripc101,??,,6
+play,8,0,holmt101,??,,43
 play,8,0,ryanc102,??,,D
-play,8,0,workc101,??,,99/P
-play,8,0,niemb102,??,,99/P
-play,8,1,wasdj101,??,,99
-play,8,1,finlb102,??,,99
-play,8,1,stewg101,??,,99
-play,9,0,masip101,??,,99
+play,8,0,workc101,??,,4/P
+play,8,0,niemb102,??,,3/P
+play,8,1,nortr101,??,,9
+play,8,1,wasdj101,??,,9
+play,8,1,finlb102,??,,7
+play,9,0,masip101,??,,63
 play,9,0,farrk101,??,,S
-play,9,0,wietw101,??,,99
-play,9,0,joose101,??,,99
-play,9,1,may-p101,??,,99
-play,9,1,gerha101,??,,99
-play,9,1,hamrr101,??,,99
-play,10,0,javea101,??,,99
+play,9,0,wietw101,??,,4
+play,9,0,joose101,??,,8
+play,9,1,stewg101,??,,7
+play,9,1,may-p101,??,,E6
+play,9,1,gerha101,??,,8
+play,9,1,hamrr101,??,,4
+play,10,0,javea101,??,,43
 play,10,0,holmt101,??,,S
-play,10,0,ryanc102,??,,99
+play,10,0,ryanc102,??,,7
 play,10,0,workc101,??,,S.1-2
 play,10,0,niemb102,??,,T9.2-H;1-H
-play,10,0,masip101,??,,99
+play,10,0,masip101,??,,4
 play,10,1,dahlb101,??,,W
-play,10,1,tripc101,??,,99
-play,10,1,nortr101,??,,99
-play,10,1,wasdj101,??,,T.1-H
+play,10,1,tripc101,??,,K
+play,10,1,nortr101,??,,8
+play,10,1,wasdj101,??,,T9.1-H
 play,10,1,finlb102,??,,NP
 sub,rowes101,"Schoolboy Rowe",1,6,11
 play,10,1,rowes101,??,,K

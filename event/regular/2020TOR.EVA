@@ -269,6 +269,7 @@ play,2,1,jansd001,32,CBFBFBB,W
 play,2,1,drurb001,11,CBX,9/L9D
 com,"umpchange,3,ump3b,westj901"
 com,"umpchange,3,ump2b,sches901"
+com,"$Umpire West returns"
 play,3,0,turnt001,11,..FBX,4/P34D
 play,3,0,eatoa002,01,CX,S8/G4M+
 play,3,0,casts001,00,1X,S8/L89.1-2
@@ -1048,6 +1049,7 @@ start,tellr001,"Rowdy Tellez",1,7,10
 start,mcgur002,"Reese McGuire",1,8,2
 start,drurb001,"Brandon Drury",1,9,5
 start,andec001,"Chase Anderson",1,0,1
+com,"Suspend=20200816,,1,0,21"
 play,1,0,meada001,11,CBX,7/F7D
 play,1,0,loweb001,02,TSX,6/P8S
 play,1,0,diazy001,31,BBBCX,S9/L9D+
@@ -1082,7 +1084,12 @@ play,4,0,kierk001,00,X,13/L4S
 play,4,0,margm001,11,BCX,S5/BG5S
 play,4,0,zunim001,12,SB1S>F>B,SB2.1-3(E2/TH)
 play,4,0,zunim001,22,SB1S>F>B.S,K
-com,"Umpire Brennan Miller moving to HP."
+com,"suspended,20200816,BUF05,weather"
+com,"umpchange,4,umphome,millb903"
+com,"umpchange,4,ump2b,riggj901"
+com,"$Game suspended at this point after one hour 45"
+com,"minutes of torrential rain, completed next day"
+com,"with same umpires"
 play,4,1,guerv002,00,..,NP
 sub,beekj001,"Jalen Beeks",0,0,1
 play,4,1,guerv002,11,...BSX,53/G5
@@ -1099,8 +1106,8 @@ play,5,0,meada001,12,..BCSS,K
 play,5,0,loweb001,32,CBCBFFBC,K
 play,5,0,diazy001,21,SBBX,S9/L3D
 play,5,0,choij001,10,BX,D9/L9LD.1-H(E4)(NR)(UR);B-3
-com,"$Rays challenged call  Choi's fly was a double; call"
-com,"upheld - double, not home run"
+com,"$Rays challenged call that Choi's fly was a double;"
+com,"call upheld - double, not home run"
 play,5,0,brosm001,31,BF*BB*B,W
 play,5,0,adamw002,12,CSBX,63/G6S
 play,5,1,biggc002,02,CCS,K
@@ -1280,8 +1287,7 @@ play,4,0,adamw002,12,FFBS,K
 com,"ej,shoem001,P,carav901,Balls and strikes"
 com,"ej,montc001,M,carav901,Balls and strikes"
 com,"$Shoemaker and Blue Jays manager Montoyo ejected by HP umpire"
-com,"Vic Carapazza for arguing balls and strikes"
-com,"Blue Jays by HP umpire Vic Carapazza."
+com,"Carapazza for arguing balls and strikes"
 play,4,1,guerv002,11,..BCX,HR/L78XD
 play,4,1,jansd001,31,CBBBB,W
 com,"Mound Visit."
@@ -4066,10 +4072,12 @@ play,2,0,voitl001,22,FBBSX,9/F9
 play,2,0,torrg001,32,BCBSBFF*B,W
 play,2,0,hicka001,32,CFB*BB>B,W.1-2
 com,"$Foul ball hit by Hicks on 2nd pitch hit HP umpire"
-com,"Fairchild on mask and he left game at end of inning"
+com,"Fairchild on mask and he left game at end of inning,"
+com,"2B umpire went behind plate and game was finished"
+com,"with three umpires"
 play,2,0,urshg001,00,X,S8/G4M.2-H;1-2
 play,2,0,sancg002,01,FX,64(1)3/GDP/G6
-com,"umphcange,2,umphome,nauep901"
+com,"umpchange,2,umphome,nauep901"
 com,"umpchange,2,ump2b,(None)"
 play,2,1,gurrl001,12,..SFBS,K
 play,2,1,gricr001,11,BSX,5/L5
@@ -4099,7 +4107,7 @@ play,4,0,torrg001,20,.BBX,8/L78D+
 play,4,0,hicka001,22,BCFBX,43/G4D
 play,4,0,urshg001,12,BSCX,63/G6S
 play,4,1,kirka001,21,BBCX,D7/L7LS
-play,4,1,davij007,22,BFBSF,C/E2.B-1
+play,4,1,davij007,22,BFBSFX,C/E2.B-1
 play,4,1,biggc002,32,BBBCFB,W.2-3;1-2
 play,4,1,bichb001,02,CCX,S9/L89.3-H;2-3;1-2
 play,4,1,hernt002,01,CX,S5/G5.3-H(UR);2-3;1-2
@@ -4453,7 +4461,7 @@ play,6,0,hicka001,00,.X,9/F89XD+
 play,6,0,urshg001,01,CX,43/G4S
 play,6,0,sancg002,32,BBCCBFX,31/G4
 play,6,1,bichb001,11,SBX,S16/L1S
-play,6,1,hernt002,10,BF,C/E2.1-2;B-1
+play,6,1,hernt002,11,BFX,C/E2.1-2;B-1
 play,6,1,gricr001,30,BBBB,W.2-3;1-2
 play,6,1,guerv002,32,SBSBBX,5(2)/FO/G56S.3-H;1-2;B-1
 play,6,1,gurrl001,21,BBCX,S7/G6.2-H(UR);1-3;B-2

@@ -6302,9 +6302,9 @@ info,number,0
 info,starttime,7:05PM
 info,daynight,night
 info,usedh,true
-info,umphome,coope901
-info,ump1b,hollm901
-info,ump2b,hohnb901
+info,umphome,hohnb901
+info,ump1b,coope901
+info,ump2b,hollm901
 info,ump3b,timmt901
 info,howscored,park
 info,pitches,pitches
@@ -6359,9 +6359,9 @@ play,2,1,rival001,11,BCX,43/G
 com,"umpchange,3,umphome,coope901"
 com,"umpchange,3,ump1b,hollm901"
 com,"umpchange,3,ump2b,hohnb901"
-com,"$HP umpire Bill Hohn was struck on the mask by a foul ball in the"
-com,"second inning; he moved to 2B after the inning, Eric Cooper moved"
-com,"from 1B to HP and Matt Hollowell moved from 2B to 1B"
+com,"$HP umpire Hohn was struck on mask by foul ball in second"
+com,"inning; he moved to 2B after the inning, 1B umpire"
+com,"Cooper moved to HP and 2B umpire Hollowell moved to 1B"
 play,3,0,philb001,22,BSSBX,13/G
 play,3,0,crisc001,21,CBBX,13/G
 play,3,0,lawtm002,32,CBSBFBFFFB,W
@@ -6388,7 +6388,7 @@ play,5,1,fordl001,01,CX,53/G
 play,5,1,print001,01,CX,13/BG
 play,5,1,rival001,00,X,S1/BG.B-2(E1/TH)
 play,5,1,kielb001,00,H,HP
-com,"both teams warned by HP umpire Eric Cooper"
+com,"$oth teams warned by HP umpire Cooper"
 play,5,1,guzmc001,00,X,4/P
 play,6,0,geruj001,32,BBBCFX,43/G
 play,6,0,blakc001,11,BCX,53/G
@@ -6404,7 +6404,8 @@ play,7,0,lawtm002,02,FFX,31/G.2-3
 play,7,0,bradm001,00,H,HP
 com,"ej,rogek001,P,coope901,Intentional HBP"
 com,"ej,gardr001,M,coope901,Intentional HBP"
-com,"Kenny Rogers and Manager Ron Gardenhire ejected by HP umpire Eric Cooper"
+com,"$Pitchery Rogers and Twins manager Gardenhire ejected by"
+com,"HP umpire Cooper for HBP after warning"
 play,7,0,spens001,00,,NP
 sub,balfg001,"Grant Balfour",1,0,1
 play,7,0,spens001,02,...CFC,K

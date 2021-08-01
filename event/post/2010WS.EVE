@@ -48,24 +48,18 @@ start,rente001,"Edgar Renteria",1,8,6
 start,linct001,"Tim Lincecum",1,9,1
 play,1,0,andre001,11,CBX,S7/L
 play,1,0,younm003,32,1BSFF1B*B>B,W.1-2
-play,1,0,hamij003,22,S*BBCX,3/G-.2-3;1-2
+play,1,0,hamij003,22,S*BBCX,3/G.2-3;1-2
 play,1,0,guerv001,01,FX,S13/G.3-H;2-3
-com,"$the ball caromed off Tim Lincecum's left leg"
-play,1,0,cruzn002,12,CBFX,FC1/G15-.1-2
-com,"$pitcher Tim Lincecum fielded the ball between the mound and the 3B line; he ran Michael Young"
-com,"back to 3B but never threw the ball to Juan Uribe, who was standing ready to catch and tag Young"
+play,1,0,cruzn002,12,CBFX,FC1/G15.1-2
+com,"$Lincecum fielded ball between mound and 3B line; he ran Young"
+com,"back to 3B did not throw ball to 3bman"
 play,1,0,kinsi001,00,X,5(2)3/GDP
-play,1,1,torra001,22,CBBFFC,K
-play,1,1,sancf001,00,X,D9/L-
+play,1,1,torra001,22,CBBFFC,K/C
+play,1,1,sancf001,00,X,D9/L
 play,1,1,poseb001,32,BFB2FBX,4/P/DP.2X2(46)
-com,"$2B Ian Kinsler ran a long way into RF to catch the popup; Freddy Sanchez ran towards"
-com,"3B and then slipped trying to get back to 2B"
 play,2,0,molib001,01,CX,S9/L
-com,"$Bengie Molina becomes the second player after Lonnie Smith in 1985 to play in the"
-com,"World Series against a team for which he played in the same season"
 play,2,0,morem001,02,CSS,K
 play,2,0,lee-c003,11,LBX,D8/L78.1-3
-com,"$Cliff Lee faked a bunt attempt and then took a choppy swing to hit the ball into left-center"
 play,2,0,andre001,20,B*BX,8/SF/F.3-H;2-3(THH)
 play,2,0,younm003,22,FSBBX,8/F
 play,2,1,burrp001,02,CCS,K23
@@ -76,26 +70,26 @@ play,3,0,hamij003,10,BX,7/F
 play,3,0,guerv001,31,BBCBX,8/L
 play,3,0,cruzn002,00,X,9/F
 play,3,1,rente001,22,SCBFBX,E5/G
-play,3,1,linct001,21,BCBX,2/BP/2F
+play,3,1,linct001,21,BCBX,2/BP/2F/FL
 play,3,1,torra001,02,1SFH,HP.1-2
 play,3,1,sancf001,12,CBSFX,D7/L.2-H(UR);1-3
 play,3,1,poseb001,01,CX,S7/L.3-H;2-3
-play,3,1,burrp001,22,BBSSC,K
-play,3,1,rossc001,32,BFBBF>F>C,K
+play,3,1,burrp001,22,BBSSC,K/C
+play,3,1,rossc001,32,BFBBF>F>C,K/C
 play,4,0,kinsi001,12,BCSX,63/G
 play,4,0,molib001,01,CX,63/G
 play,4,0,morem001,02,SSFX,D9/L
 play,4,0,lee-c003,02,SSX,63/G
 play,4,1,huffa001,01,CX,6/P
 play,4,1,uribj002,22,FBSFFFBFFT,K
-play,4,1,rente001,11,CBX,3/P3F
+play,4,1,rente001,11,CBX,3/P3F/FL
 play,5,0,andre001,01,CX,6/P
 play,5,0,younm003,20,BBX,53/G
 play,5,0,hamij003,21,FBBX,13/G
 play,5,1,linct001,22,CFBBX,63/G
 play,5,1,torra001,00,X,D7/L
 play,5,1,sancf001,21,BFBX,D8/F.2-H
-play,5,1,poseb001,12,CBCC,K
+play,5,1,poseb001,12,CBCC,K/C
 play,5,1,burrp001,32,BBFSBFB,W
 play,5,1,rossc001,12,BSSX,S8/G.2-H;1-2
 play,5,1,huffa001,12,FFBX,S8/G.2-H;1-2
@@ -103,14 +97,13 @@ play,5,1,uribj002,00,,NP
 sub,odayd001,"Darren O'Day",0,9,1
 play,5,1,uribj002,20,.BBX,HR/78/F.2-H;1-H
 play,5,1,rente001,12,CBSH,HP
-play,5,1,linct001,01,SX,E6/G-.1-2
+play,5,1,linct001,01,SX,E6/G.1-2
 play,5,1,torra001,12,CFBT,K
 play,6,0,guerv001,02,CSS,K
 play,6,0,cruzn002,22,BCBFS,K
 play,6,0,kinsi001,32,CBCBFBFFFB,W
 play,6,0,molib001,01,CX,D7/L.1-H
 play,6,0,morem001,11,BCX,S15/L.2-3
-com,"$for the second time in the game, the ball caromed off Tim Lincecum's leg"
 play,6,0,odayd001,00,,NP
 sub,murpd005,"David Murphy",0,9,11
 play,6,0,murpd005,01,.SX,S9/G.3-H;1-2
@@ -120,7 +113,7 @@ play,6,0,andre001,22,.BBCSS,K
 play,6,1,sancf001,00,,NP
 sub,ogana001,"Alexi Ogando",0,9,1
 play,6,1,sancf001,32,.CBFBBX,9/L
-play,6,1,poseb001,12,CCBC,K
+play,6,1,poseb001,12,CCBC,K/C
 play,6,1,burrp001,12,SBCS,K
 play,7,0,younm003,00,,NP
 sub,schin001,"Nate Schierholtz",1,4,9
@@ -129,7 +122,7 @@ sub,rossc001,"Cody Ross",1,5,7
 play,7,0,younm003,12,..CFBX,63/G
 play,7,0,hamij003,21,SBBX,8/L
 play,7,0,guerv001,01,FX,E3/G
-play,7,0,cruzn002,21,BBCX,4/L-
+play,7,0,cruzn002,21,BBCX,4/L
 play,7,1,rossc001,22,BCSBFS,K
 play,7,1,huffa001,01,CX,S9/L
 play,7,1,uribj002,01,F>T,CS2(24)
@@ -137,6 +130,8 @@ play,7,1,uribj002,02,F>T.S,K
 play,8,0,kinsi001,00,,NP
 sub,romos001,"Sergio Romo",1,9,1
 play,8,0,kinsi001,12,.CCBX,S4/G.BX2(3)
+com,"$Kinsler inexplicably rounded first base on infield single"
+com,"and was tagged out by Huff"
 play,8,0,molib001,02,CFS,K
 play,8,0,morem001,00,,NP
 sub,lopej002,"Javier Lopez",1,9,1
@@ -151,7 +146,7 @@ play,8,1,rente001,22,..FCBBFX,S9/L.B-3(E9)
 play,8,1,lopej002,00,,NP
 sub,ishit001,"Travis Ishikawa",1,9,11
 play,8,1,ishit001,31,.FBB*BX,D7/L.3-H
-play,8,1,torra001,02,FFX,5/P5F
+play,8,1,torra001,02,FFX,5/P5F/FL
 play,8,1,sancf001,02,CFX,S9/G.2-H;B-2(E9)
 play,8,1,poseb001,32,BBS*BFX,63/G
 play,8,1,schin001,00,,NP
@@ -238,14 +233,14 @@ start,rente001,"Edgar Renteria",1,8,6
 start,cainm001,"Matt Cain",1,9,1
 play,1,0,andre001,21,BCBX,8/F
 play,1,0,younm003,10,BX,6/P
-play,1,0,hamij003,12,CBFX,5/P5F
+play,1,0,hamij003,12,CBFX,5/P5F/FL
 play,1,1,torra001,21,CBBX,63/G
 play,1,1,sancf001,22,BBCCX,43/G
 play,1,1,poseb001,12,CSBFFX,9/F
 play,2,0,cruzn002,12,BSSFS,K
 play,2,0,kinsi001,01,CX,9/F
 play,2,0,murpd005,11,CBX,43/G
-play,2,1,burrp001,12,FBCC,K
+play,2,1,burrp001,12,FBCC,K/C
 play,2,1,rossc001,31,BCBBX,D7/L
 play,2,1,huffa001,21,BBCX,43/G.2-3
 play,2,1,uribj002,21,C*BBX,8/F
@@ -259,7 +254,7 @@ play,3,1,torra001,00,X,9/F
 play,3,1,sancf001,20,BBX,64(1)/FO/G
 play,4,0,younm003,22,CCBBX,63/G
 play,4,0,hamij003,00,X,8/F
-play,4,0,cruzn002,12,FSBFC,K
+play,4,0,cruzn002,12,FSBFC,K/C
 play,4,1,poseb001,22,CBBSS,K23
 play,4,1,burrp001,32,CBFBBB,W
 play,4,1,rossc001,00,X,8/F
@@ -277,7 +272,7 @@ play,6,0,andre001,22,BCCBX,63/G
 play,6,0,younm003,22,FSBBX,S7/L
 play,6,0,hamij003,11,*BCX,S9/L.1-2
 play,6,0,cruzn002,00,B,WP.2-3;1-2
-play,6,0,cruzn002,11,B.CX,3/P3F
+play,6,0,cruzn002,11,B.CX,3/P3F/FL
 play,6,0,kinsi001,11,BSX,9/F
 play,6,1,sancf001,12,SSFBFX,8/F
 play,6,1,poseb001,22,CBSBS,K
@@ -294,7 +289,7 @@ play,7,1,huffa001,00,,NP
 sub,olivd001,"Darren Oliver",0,9,1
 com,"Rangers pitcher C.J. Wilson left with a blister on the middle finger of his left hand"
 play,7,1,huffa001,01,.CX,3/G.1-2
-play,7,1,uribj002,10,BX,S9/F-.2-H;B-2(THH)
+play,7,1,uribj002,10,BX,S9/F.2-H;B-2(THH)
 play,7,1,rente001,02,FSS,K
 play,7,1,cainm001,12,CTBS,K
 play,8,0,olivd001,00,,NP
@@ -310,7 +305,7 @@ play,8,1,torra001,00,,NP
 sub,odayd001,"Darren O'Day",0,9,1
 play,8,1,torra001,32,.BFBCBFFFS,K
 play,8,1,sancf001,02,CTS,K
-play,8,1,poseb001,21,BFBX,S4/L-
+play,8,1,poseb001,21,BFBX,S4/L
 play,8,1,schin001,00,,NP
 sub,holld003,"Derek Holland",0,9,1
 play,8,1,schin001,30,..BBBB,W.1-2
@@ -337,7 +332,7 @@ play,9,0,murpd005,32,BCBSBFFB,W
 play,9,0,tream001,00,,NP
 sub,franj004,"Jeff Francoeur",0,7,11
 play,9,0,franj004,00,.>C,DI.1-2
-play,9,0,franj004,11,.>C.BX,9/F9LF
+play,9,0,franj004,11,.>C.BX,9/F9LF/FL
 data,er,wilsc004,2
 data,er,olivd001,0
 data,er,odayd001,1
@@ -397,8 +392,6 @@ start,franj004,"Jeff Francoeur",1,7,9
 start,molib001,"Bengie Molina",1,8,2
 start,morem001,"Mitch Moreland",1,9,3
 start,lewic001,"Colby Lewis",1,0,1
-com,"$the first World Series game played in Arlington, TX;"
-com,"ceremonial pitch by Rangers president Nolan Ryan (68 MPH at 63 years old)"
 play,1,0,torra001,12,CFBX,31/G
 play,1,0,sancf001,12,CBSX,S9/L
 play,1,0,huffa001,10,BX,9/F
@@ -409,16 +402,16 @@ play,1,1,younm003,20,BBX,S7/L
 play,1,1,hamij003,00,X,5/P
 play,1,1,guerv001,10,BX,7/L
 play,2,0,rossc001,32,CBCFBBFB,W
-play,2,0,uribj002,20,BBX,4/P3F
+play,2,0,uribj002,20,BBX,4/P3F/FL
 play,2,0,sandp001,02,C1F1X,46(1)3/GDP
-play,2,1,cruzn002,00,X,D8/L+
+play,2,1,cruzn002,00,X,D8/L
 play,2,1,kinsi001,01,CX,63/G.2-3
 play,2,1,franj004,00,X,53/G
 play,2,1,molib001,31,BSBBB,W
 play,2,1,morem001,22,BBFCFFFFX,HR/9/L.3-H;1-H
 play,2,1,andre001,31,BBBCX,53/G
-play,3,0,rente001,22,CBBCC,K
-play,3,0,torra001,21,BCBX,5/P5F
+play,3,0,rente001,22,CBBCC,K/C
+play,3,0,torra001,21,BCBX,5/P5F/FL
 play,3,0,sancf001,00,X,8/F
 play,3,1,younm003,11,CBX,S7/L
 play,3,1,hamij003,12,F11*BCFX,43/G.1-2
@@ -428,8 +421,8 @@ play,4,0,huffa001,12,CBCX,63/G
 play,4,0,poseb001,00,X,S7/L
 play,4,0,burrp001,02,CCS,K
 play,4,0,rossc001,00,X,8/F
-play,4,1,kinsi001,02,CFC,K
-play,4,1,franj004,02,FFC,K
+play,4,1,kinsi001,02,CFC,K/C
+play,4,1,franj004,02,FFC,K/C
 play,4,1,molib001,30,BBBB,W
 play,4,1,morem001,00,X,5/P
 play,5,0,uribj002,12,CTBFX,8/F
@@ -445,9 +438,9 @@ play,5,1,cruzn002,22,.S1BSB>B,CS2(24)
 play,6,0,torra001,02,>CCFX,63/G
 play,6,0,sancf001,11,FBX,53/G
 play,6,0,huffa001,01,CX,D9/L
-play,6,0,poseb001,12,BFCC,K
+play,6,0,poseb001,12,BFCC,K/C
 play,6,1,cruzn002,01,SX,7/F
-play,6,1,kinsi001,12,CBFFFX,S7/F-
+play,6,1,kinsi001,12,CBFFFX,S7/F
 play,6,1,franj004,30,*B1BB>C,SB2
 play,6,1,franj004,31,*B1BB>C.B,W
 play,6,1,molib001,02,2FCX,64(1)3/GDP
@@ -547,23 +540,22 @@ play,2,0,rossc001,30,BBBB,W
 play,2,0,uribj002,21,BCBX,8/F
 play,2,0,ishit001,12,BCC1X,46(1)/FO/G
 play,2,0,rente001,32,FBFF>FF1B1B>X,S9/L.1-3
-com,"$Travis Ishikawa scraped his chin on his head-first dive into 3B"
-play,2,0,schin001,01,CX,8/L-
-play,2,1,guerv001,22,CBTFBFC,K
+play,2,0,schin001,01,CX,8/L
+play,2,1,guerv001,22,CBTFBFC,K/C
 play,2,1,cruzn002,12,CFBX,8/F
 play,2,1,kinsi001,32,CBCBBB,W
-play,2,1,franj004,32,1BCBF1B>X,4/L+
+play,2,1,franj004,32,1BCBF1B>X,4/L
 play,3,0,torra001,22,BFCFBFFX,D9/G
 play,3,0,sancf001,12,LCFFFFF*BX,53/G
 play,3,0,huffa001,00,X,HR/9/F.2-H
-play,3,0,poseb001,12,CBCC,K
-play,3,0,rossc001,22,CBBFFX,9/F-
+play,3,0,poseb001,12,CBCC,K/C
+play,3,0,rossc001,22,CBBFFX,9/F
 play,3,1,molib001,01,CX,63/G
 play,3,1,morem001,02,CFT,K
 play,3,1,andre001,02,CFX,63/G
 play,4,0,uribj002,00,X,7/F
 play,4,0,ishit001,10,BX,43/G
-play,4,0,rente001,11,CBX,S57/L+
+play,4,0,rente001,11,CBX,S57/L
 play,4,0,schin001,22,SB1S1*B1>X,7/F
 play,4,1,younm003,22,CBBFX,S4/G
 play,4,1,hamij003,00,X,14(1)/FO/L
@@ -571,7 +563,7 @@ play,4,1,guerv001,12,BFFS,K
 play,4,1,cruzn002,00,>B,CS2(24)
 play,5,0,torra001,00,,NP
 sub,ogana001,"Alexi Ogando",1,0,1
-play,5,0,torra001,10,.BX,7/F-
+play,5,0,torra001,10,.BX,7/F
 play,5,0,sancf001,20,BBX,8/F
 play,5,0,huffa001,22,BCFBS,K
 play,5,1,cruzn002,11,SBX,6/P
@@ -581,35 +573,35 @@ play,6,0,poseb001,01,CX,53/G
 play,6,0,rossc001,22,BCBSS,K
 play,6,0,uribj002,11,FB,NP
 sub,olivd001,"Darren Oliver",1,0,1
-com,"Rangers pitcher Alexi Ogando left the game due to a left oblique strain"
+com,"Ogando left the game due to a left oblique strain"
 com,"after second pitch to Uribe"
-play,6,0,uribj002,12,FB.SX,2/P2F
+play,6,0,uribj002,12,FB.SX,2/P2F/FL
 play,6,1,molib001,02,.CFX,53/G
 play,6,1,morem001,32,BBFSBX,S9/L
 play,6,1,andre001,02,CCX,46(1)3/GDP
 play,7,0,ishit001,02,FCFS,K
 play,7,0,rente001,12,CFBX,S7/G
-play,7,0,schin001,12,F1S11BC,K
+play,7,0,schin001,12,F1S11BC,K/C
 play,7,0,torra001,01,C>X,D8/L.1-H
 play,7,0,sancf001,01,CX,13/G
 play,7,1,younm003,02,CCFS,K
 play,7,1,hamij003,20,BBX,E5/G
 play,7,1,guerv001,32,F*BFF*BBS,K
 play,7,1,cruzn002,11,1CBX,S8/G.1-2
-play,7,1,kinsi001,01,CX,7/L-
+play,7,1,kinsi001,01,CX,7/L
 play,8,0,huffa001,01,CX,3/G
 play,8,0,poseb001,00,,NP
 sub,odayd001,"Darren O'Day",1,0,1
 play,8,0,poseb001,22,.CBFFBFX,HR/8/F
-play,8,0,rossc001,22,CBCBFX,3/P3F
-play,8,0,uribj002,32,BSBSBX,3/P3F
+play,8,0,rossc001,22,CBCBFX,3/P3F/FL
+play,8,0,uribj002,32,BSBSBX,3/P3F/FL
 play,8,1,franj004,21,CBBX,7/F
 play,8,1,molib001,21,BCBX,7/L
-play,8,1,morem001,32,CBFBBC,K
+play,8,1,morem001,32,CBFBBC,K/C
 play,9,0,ishit001,00,,NP
 sub,holld003,"Derek Holland",1,0,1
 play,9,0,ishit001,32,.BBCCBFB,W
-play,9,0,rente001,02,CSC,K
+play,9,0,rente001,02,CSC,K/C
 play,9,0,schin001,12,BCTX,8/F
 play,9,0,torra001,22,BBFFFX,54(1)/FO/G
 play,9,1,andre001,00,,NP
@@ -690,7 +682,7 @@ play,2,1,kinsi001,12,CBFX,53/G
 play,3,0,rente001,00,X,4/P
 play,3,0,rowaa001,11,BFX,7/L
 play,3,0,torra001,00,X,S8/G
-play,3,0,sancf001,20,1BBX,1/L+
+play,3,0,sancf001,20,1BBX,1/L
 play,3,1,murpd005,02,CCS,K
 play,3,1,molib001,02,CSS,K
 play,3,1,morem001,31,FBBBB,W
@@ -702,15 +694,15 @@ play,4,1,younm003,32,BSBBFX,S8/G
 play,4,1,hamij003,12,BFFFFFS,K
 play,4,1,guerv001,00,X,64(1)/FO/G
 play,4,1,cruzn002,22,*BBCSS,K
-play,5,0,huffa001,02,CCX,4E3/G-
+play,5,0,huffa001,02,CCX,4E3/G
 play,5,0,burrp001,02,CSFT,K
 play,5,0,rente001,22,CBF1BX,64(1)3/GDP
 play,5,1,kinsi001,01,CX,43/G
 play,5,1,murpd005,02,CFS,K
 play,5,1,molib001,02,STX,13/G
-play,6,0,rowaa001,02,FCC,K
+play,6,0,rowaa001,02,FCC,K/C
 play,6,0,torra001,31,BBBCX,63/G
-play,6,0,sancf001,02,CCX,S9/F-
+play,6,0,sancf001,02,CCX,S9/F
 play,6,0,poseb001,00,X,9/F
 play,6,1,morem001,11,BFX,S8/G
 play,6,1,andre001,00,>X,8/F
@@ -729,19 +721,19 @@ play,7,1,murpd005,22,B*B+1SFS,K
 play,7,1,molib001,22,*BCFBS,K
 play,8,0,torra001,00,,NP
 sub,felin001,"Neftali Feliz",1,0,1
-play,8,0,torra001,01,.CX,2/P2F
+play,8,0,torra001,01,.CX,2/P2F/FL
 play,8,0,sancf001,00,X,7/L
-play,8,0,poseb001,22,FFBBX,S6/G-
+play,8,0,poseb001,22,FFBBX,S6/G
 play,8,0,rossc001,11,BSX,54(1)/FO/G
 play,8,1,morem001,02,SSS,K
-play,8,1,andre001,01,CX,13/G-
+play,8,1,andre001,01,CX,13/G
 play,8,1,younm003,21,FBBX,53/G
 play,9,0,uribj002,02,FCS,K
 play,9,0,huffa001,12,FSBX,43/G
 play,9,0,burrp001,22,SSBBS,K
 play,9,1,hamij003,00,,NP
 sub,wilsb001,"Brian Wilson",0,0,1
-play,9,1,hamij003,02,.FCFC,K
+play,9,1,hamij003,02,.FCFC,K/C
 play,9,1,guerv001,00,X,63/G
 play,9,1,cruzn002,32,CBSBBS,K
 data,er,linct001,1

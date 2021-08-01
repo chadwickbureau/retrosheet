@@ -56,10 +56,10 @@ play,1,0,hayev001,,,D9/L9L.2-H(UR);1-H(UR)
 play,1,0,dauld001,,,W
 play,1,0,jelts001,,,S4/G4S.2-3;1-2
 play,1,0,carls001,,,9
-play,1,1,davie001,,,53
-play,1,1,bellb001,,,4
-play,1,1,parkd001,,,D8/L89
-play,1,1,esasn001,,,63
+play,1,1,davie001,00,X,53
+play,1,1,bellb001,00,X,4/P4D
+play,1,1,parkd001,00,X,D8/L89
+play,1,1,esasn001,01,FX,63
 play,2,0,redug001,,,3/G
 play,2,0,thomm001,,,63
 play,2,0,samuj001,,,7
@@ -67,7 +67,7 @@ play,2,1,jonet001,,,8
 com,"Debut game for Tracy Jones"
 play,2,1,concd001,,,S8/G4M
 play,2,1,diazb001,,,S7/G56.1-2
-play,2,1,oestr001,,,S9/F9S.2-H;1-2
+play,2,1,oestr001,,,S9/F89S.2-H;1-2
 play,2,1,sotom001,,,56(1)/FO/BG.2-3;B-1
 play,2,1,davie001,,,HR/F9D.3-H;1-H
 play,2,1,bellb001,,,S7/F78
@@ -1298,9 +1298,10 @@ info,ump1b,rennd901
 info,ump2b,steld901
 info,ump3b,brocf901
 info,scorer,"J. Drucker"
-info,inputter,"M. Pankin"
+info,translator,"M. Pankin/Townsend"
+info,inputter,"M. Pankin/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -1331,125 +1332,137 @@ start,bellb001,"Buddy Bell",1,6,5
 start,butes001,"Sal Butera",1,7,2
 start,oestr001,"Ron Oester",1,8,4
 start,gullb001,"Bill Gullickson",1,9,1
-play,1,0,dyksl001,,,W
-play,1,0,backw001,,,S9/G34.1-3
-play,1,0,hernk001,,,SB2
-play,1,0,hernk001,,,DGR/F7D.3-H;2-H
-play,1,0,cartg001,,,7
-play,1,0,strad001,,,I
-play,1,0,fostg001,,,K/C
-play,1,0,knigr001,,,S7/G56.2-H;1-2
-play,1,0,johnh001,,,K
-play,1,1,davie001,,,9
-play,1,1,concd001,,,W
-play,1,1,parkd001,,,S9/F89S.1-2
-play,1,1,peret001,,,W.2-3;1-2
-play,1,1,esasn001,,,W.3-H;2-3;1-2
-play,1,1,bellb001,,,K
-play,1,1,butes001,,,S8/L8S.3-H;2XH(82);1-2
-play,2,0,ferns001,,,8
-play,2,0,dyksl001,,,43
-play,2,0,backw001,,,8
-play,2,1,oestr001,,,D7/G3
-play,2,1,gullb001,,,FC1/SH.2-3
-play,2,1,davie001,,,K
-play,2,1,concd001,,,64(1)3/GDP
-play,3,0,hernk001,,,43
-play,3,0,cartg001,,,W
-play,3,0,strad001,,,S9/G34.1-3
-play,3,0,fostg001,,,S9/F9S.3-H;1-3
-play,3,0,knigr001,,,4(B)23(1)/SF/FDP.3-H
+play,1,0,dyksl001,31,LBBBB,W
+play,1,0,backw001,00,X,S9/G34.1-3
+play,1,0,hernk001,02,CF>B,SB2
+play,1,0,hernk001,12,CF>B.,DGR/F7L.3-H;2-H
+com,"Bounced into stands in foul territory"
+play,1,0,cartg001,01,CX,7/F7
+play,1,0,strad001,30,IIII,IW
+play,1,0,fostg001,12,BCFC,K/C
+play,1,0,knigr001,10,BX,S7/G56/THH.2-H;1-2
+play,1,0,johnh001,32,BSFB*B>F>S,K
+play,1,1,davie001,10,BX,9/F9D
+play,1,1,concd001,31,CBBBB,W
+play,1,1,parkd001,12,SBSFX,S8/F89S.1-2
+play,1,1,peret001,32,BSBBF>F>F>F>B,W.2-3;1-2
+play,1,1,esasn001,32,BFBBFB,W.3-H;2-3;1-2
+play,1,1,bellb001,12,CSBS,K
+play,1,1,butes001,20,BBX,S8/L8S.3-H;2XH(82);1-2
+play,2,0,ferns001,02,FFX,8/F8D
+play,2,0,dyksl001,01,FX,43/G4
+play,2,0,backw001,01,CX,8/F8
+play,2,1,oestr001,00,X,D7/G5L
+play,2,1,gullb001,02,CLX,FC1/BG1S/SH/TH3.2-3
+play,2,1,davie001,32,*BFCBBS,K
+play,2,1,concd001,02,CFFFX,64(1)3/GDP/G6
+play,3,0,hernk001,12,CFBFX,43/G4
+play,3,0,cartg001,32,BBSCBB,W
+play,3,0,strad001,01,SX,S49/G34.1-3
+com,"Off the diving Oester's glove to Parker"
+play,3,0,fostg001,01,>F>X,S9/L34D.3-H;1-3
+play,3,0,knigr001,01,FX,4/P89S/SF/DP.3-H(RBI);1X1(23)
+com,"Oester: over-the-shoulder running backhanded catch"
 com,"$run scored before third out"
-play,3,1,parkd001,,,K
-play,3,1,peret001,,,W
-play,3,1,esasn001,,,FLE3
-play,3,1,esasn001,,,9
-play,3,1,bellb001,,,4
-play,4,0,johnh001,,,7
-play,4,0,ferns001,,,K
-play,4,0,dyksl001,,,7
-play,4,1,butes001,,,K/C
-play,4,1,oestr001,,,K
-play,4,1,gullb001,,,S4/G4S
-play,4,1,davie001,,,K
-play,5,0,backw001,,,43
-play,5,0,hernk001,,,9
-play,5,0,cartg001,,,8
-play,5,1,concd001,,,W
-play,5,1,parkd001,,,3/G.1-2
-play,5,1,peret001,,,43.2-3
-play,5,1,esasn001,,,13
-play,6,0,strad001,,,31
-play,6,0,fostg001,,,E5.B-1
-play,6,0,knigr001,,,43.1-2
-play,6,0,johnh001,,,I
-play,6,0,ferns001,,,K
-play,6,1,bellb001,,,W
-play,6,1,butes001,,,S8/G4M.1-2
-play,6,1,oestr001,,,64(1)/FO/G.2-3;B-1
-play,6,1,gullb001,,,NP
+play,3,1,parkd001,02,SFT,K
+play,3,1,peret001,32,BBCTBB,W
+play,3,1,esasn001,22,SCBFBF,FLE3
+play,3,1,esasn001,22,SCBFBF.FX,9/F89D
+play,3,1,bellb001,11,SBX,4/P4D
+play,4,0,johnh001,11,CBX,7/F7S
+play,4,0,ferns001,12,BCCFS,K
+play,4,0,dyksl001,00,X,7/F7
+play,4,1,butes001,02,FFC,K/C
+play,4,1,oestr001,12,CSBS,K
+play,4,1,gullb001,00,X,S4/G4MD
+play,4,1,davie001,12,BCSS,K
+play,5,0,backw001,00,X,43/G4
+play,5,0,hernk001,00,X,9/L9
+com,"Parker: sliding catch"
+play,5,0,cartg001,12,CBSX,8/F78
+play,5,1,concd001,32,BBCBFB,W
+play,5,1,parkd001,32,B1BBCS>F11>X,3/G3.1-2
+play,5,1,peret001,21,BFBX,43/G4.2-3
+com,"Backman: diving stop to his left"
+play,5,1,esasn001,12,CF*BX,13/G1
+com,"Fernandez knocked down line drive at his head"
+play,6,0,strad001,00,X,31/G3
+play,6,0,fostg001,01,SX,E5/TH1/G5.B-1
+com,"Perez couldn't handle throw that bounced on the turf"
+play,6,0,knigr001,10,B>X,43/G6M.1-2
+com,"Oester: tough play"
+play,6,0,johnh001,30,IIII,IW
+play,6,0,ferns001,12,SBSS,K
+play,6,1,bellb001,32,BBCBFB,W
+play,6,1,butes001,01,SX,S8/G4M.1-2
+play,6,1,oestr001,21,BBCX,64(1)/FO/G6.2-3;B-1
+play,6,1,gullb001,00,,NP
 sub,jonet001,"Tracy Jones",1,9,11
-play,6,1,jonet001,,,NP
-sub,danik001,"Kal Daniels",1,9,11
-play,6,1,danik001,,,NP
+play,6,1,jonet001,00,,NP
 sub,mcdor001,"Roger McDowell",0,9,1
-play,6,1,danik001,,,K
-play,6,1,davie001,,,K/C
-play,7,0,dyksl001,,,NP
+play,6,1,jonet001,00,,NP
+sub,danik001,"Kal Daniels",1,9,11
+play,6,1,danik001,32,BSBCBS,K
+play,6,1,davie001,22,*BBTFC,K/C
+play,7,0,dyksl001,00,,NP
 sub,pricj001,"Joe Price",1,9,1
-play,7,0,dyksl001,,,9
-play,7,0,backw001,,,63
-play,7,0,hernk001,,,7
-play,7,1,concd001,,,63
-play,7,1,parkd001,,,3/G
-play,7,1,peret001,,,63
-play,8,0,cartg001,,,NP
+play,7,0,dyksl001,22,BCCBFX,9/F89
+play,7,0,backw001,00,X,63/G56
+play,7,0,hernk001,21,CBBX,7/F78S
+play,7,1,concd001,21,BBCX,63/G6
+play,7,1,parkd001,10,BX,3/G3
+play,7,1,peret001,10,BX,63/G6
+play,8,0,cartg001,00,,NP
 sub,franj001,"Johnny Franco",1,4,1
-play,8,0,cartg001,,,NP
+play,8,0,cartg001,00,,NP
 sub,esasn001,"Nick Esasky",1,5,3
-play,8,0,cartg001,,,NP
+play,8,0,cartg001,00,,NP
 sub,venam001,"Max Venable",1,9,7
-play,8,0,cartg001,,,E1.B-2
-play,8,0,strad001,,,W
-play,8,0,fostg001,,,K
-play,8,0,knigr001,,,8
-play,8,0,johnh001,,,D7/G3.2-H(UR);1-3
-play,8,0,mcdor001,,,S7/G56.3-H(UR);2-H(UR);B-3(E7/TH)
-play,8,0,dyksl001,,,3/G
-play,8,1,esasn001,,,W
-play,8,1,bellb001,,,14(1)/FO
-play,8,1,butes001,,,NP
+play,8,0,cartg001,32,CBBFBX,E1/TH1/G25.B-2
+com,"Franco: low, hurried throw in the dirt past Esasky, retrieved"
+com,"by Oester in foul territory."
+play,8,0,strad001,32,BBCCBFB,W
+play,8,0,fostg001,22,S*SBBS,K
+play,8,0,knigr001,22,BCFBX,8/F78S
+play,8,0,johnh001,11,CBX,D7/G5L.2-H(UR);1-3
+play,8,0,mcdor001,02,FFX,S7/L56D.3-H(UR);2-H(UR);B-3(E7/THH)
+com,"Venable's bounding throw home hit the sliding Johnson"
+play,8,0,dyksl001,10,BX,3/G3
+play,8,1,esasn001,32,BSBBSFFB,W
+play,8,1,bellb001,12,BCCX,14(1)/FO/G15
+play,8,1,butes001,00,,NP
 sub,milne001,"Eddie Milner",1,7,11
-play,8,1,milne001,,,S7/L7S.1-H(E7)(NR);B-2
-play,8,1,oestr001,,,S1/BG13.2-3
-play,8,1,venam001,,,D9/F9D.3-H;1-3
-play,8,1,davie001,,,S9/F9S.3-H;2-H
-play,8,1,concd001,,,SB2
-play,8,1,concd001,,,S7/G56.2-3
-play,8,1,parkd001,,,NP
+play,8,1,milne001,01,CX,S7/L7S.1-H(E7)(NR);B-2
+com,"Skipped past Foster to the wall"
+play,8,1,oestr001,00,X,S1/BG3S.2-3
+play,8,1,venam001,00,X,D9/L9LD.3-H;1-3
+play,8,1,davie001,02,FCX,S9/F9LS/TH2.3-H;2-H
+play,8,1,concd001,00,11>B,SB2
+play,8,1,concd001,20,11>B.BX,S7/G56.2-3
+play,8,1,parkd001,00,,NP
 sub,orosj001,"Jesse Orosco",0,9,1
-play,8,1,parkd001,,,SB2
-play,8,1,parkd001,,,K
-play,8,1,franj001,,,NP
+play,8,1,parkd001,22,BSS>F*BF>B,SB2
+play,8,1,parkd001,32,BSS>F*BF>B.C,K/C
+play,8,1,franj001,00,,NP
 sub,diazb001,"Bo Diaz",1,4,11
-play,8,1,diazb001,,,WP.3-H;2-3
-play,8,1,diazb001,,,W
-play,8,1,esasn001,,,6
-play,9,0,backw001,,,NP
+play,8,1,diazb001,21,BCBB,WP.3-H;2-3
+play,8,1,diazb001,31,BCB.BB,W
+play,8,1,esasn001,10,BX,6/P6MD
+play,9,0,backw001,00,,NP
 sub,concd001,"Dave Concepcion",1,2,3
-play,9,0,backw001,,,NP
+play,9,0,backw001,00,,NP
 sub,diazb001,"Bo Diaz",1,4,2
-play,9,0,backw001,,,NP
+play,9,0,backw001,00,,NP
 sub,powet001,"Ted Power",1,5,1
-play,9,0,backw001,,,NP
+play,9,0,backw001,00,,NP
 sub,stilk001,"Kurt Stillwell",1,7,6
-play,9,0,backw001,,,S6/F6S
-play,9,0,hernk001,,,CS2(26)
-play,9,0,hernk001,,,W
-play,9,0,cartg001,,,64(1)3/GDP
-play,9,1,bellb001,,,7
-play,9,1,stilk001,,,K
-play,9,1,oestr001,,,63
+play,9,0,backw001,11,BCX,S6/G56
+play,9,0,hernk001,21,>FBB1>B,CS2(26)
+play,9,0,hernk001,31,>FBB1>B.B,W
+play,9,0,cartg001,12,BCFX,64(1)3/GDP/G6M
+play,9,1,bellb001,22,CFBBX,7/F7
+play,9,1,stilk001,22,CFBBS,K
+play,9,1,oestr001,00,X,63/G6
 data,er,ferns001,2
 data,er,mcdor001,5
 data,er,orosj001,0
@@ -6186,8 +6199,9 @@ info,umphome,grege901
 info,ump1b,davig901
 info,ump2b,harvd901
 info,ump3b,demud901
-info,scorer,"M. Marrero"
-info,inputter,"M. Pankin"
+info,scorer,"M. Marrero,601"
+info,translator,"M. Pankin/Townsend"
+info,inputter,"M. Pankin/Townsend"
 info,howscored,unknown
 info,pitches,none
 info,temp,0
@@ -6234,15 +6248,16 @@ play,2,0,knigr001,,,4
 play,2,0,santr001,,,46(1)/FO
 play,2,0,aguir001,,,7
 play,2,1,bellb001,,,63
-play,2,1,rowdw001,,,D7/G3
+play,2,1,rowdw001,,,D7/G5L
 play,2,1,butes001,,,3
 play,2,1,oestr001,,,T9/L9L.2-H
 play,2,1,sotom001,,,K
 play,3,0,dyksl001,,,7
 play,3,0,backw001,,,43
 play,3,0,hernk001,,,W
-play,3,0,strad001,,,D9/L3.1-3
-play,3,0,cartg001,,,S7/L56.3-H;2-H
+play,3,0,strad001,,,D39/L3L.1-3
+com,"Off the top of Rose's glove"
+play,3,0,cartg001,,,S7/G56.3-H;2-H
 play,3,0,heepd001,,,K/C
 play,3,1,danik001,,,HP
 play,3,1,rosep001,,,7
@@ -6256,23 +6271,23 @@ play,4,1,bellb001,,,S7/F78
 play,4,1,rowdw001,,,K
 play,4,1,butes001,,,K
 play,4,1,oestr001,,,K
-play,5,0,backw001,,,S8/G1
+play,5,0,backw001,,,S8/G46
 play,5,0,hernk001,,,S8/L8S.1-3
-play,5,0,strad001,,,NP
+play,5,0,strad001,??,,NP
 sub,murpr001,"Rob Murphy",1,9,1
-play,5,0,strad001,,,E7/SF.3-H;1-2;B-1
+play,5,0,strad001,,,E7/F7D/SF.3-H;1-2;B-1
 play,5,0,cartg001,,,54(1)3/GDP.2-3
-play,5,0,heepd001,,,NP
+play,5,0,heepd001,??,,NP
 sub,mitck001,"Kevin Mitchell",0,6,11
 play,5,0,mitck001,,,7
-play,5,1,murpr001,,,NP
+play,5,1,murpr001,??,,NP
 sub,milne001,"Eddie Milner",1,9,11
-play,5,1,milne001,,,NP
+play,5,1,milne001,??,,NP
 sub,mitck001,"Kevin Mitchell",0,6,7
 play,5,1,milne001,,,7
 play,5,1,danik001,,,K
 play,5,1,rosep001,,,43
-play,6,0,knigr001,,,NP
+play,6,0,knigr001,??,,NP
 sub,willc001,"Carl Willis",1,9,1
 play,6,0,knigr001,,,W
 play,6,0,santr001,,,S7/G56.1-2
@@ -6288,41 +6303,43 @@ play,6,1,rowdw001,,,9
 play,7,0,cartg001,,,53
 play,7,0,mitck001,,,S8/L78
 play,7,0,knigr001,,,4/FL
-play,7,0,santr001,,,W.1-2
-play,7,0,aguir001,,,8
-play,7,1,butes001,,,K
-play,7,1,oestr001,,,K
-play,7,1,willc001,,,NP
+play,7,0,santr001,31,1*BBBCB,W.1-2
+play,7,0,aguir001,12,CSBFFFX,8/F8D
+play,7,1,butes001,22,FBBSS,K
+play,7,1,oestr001,22,SBBFT,K
+play,7,1,willc001,00,,NP
 sub,stilk001,"Kurt Stillwell",1,9,11
-play,7,1,stilk001,,,S8/L8S
-play,7,1,danik001,,,43
-play,8,0,dyksl001,,,NP
+play,7,1,stilk001,20,BBX,S8/L8S
+play,7,1,danik001,32,CBFF*BFFB>X,43/G4
+play,8,0,dyksl001,00,,NP
 sub,powet001,"Ted Power",1,9,1
-play,8,0,dyksl001,,,3/G
-play,8,0,backw001,,,43
-play,8,0,hernk001,,,4
-play,8,1,rosep001,,,63
-play,8,1,parkd001,,,K
-play,8,1,davie001,,,D7/L7D
-play,8,1,bellb001,,,S5.2-H(E5/TH)(NR)(UR)
-play,8,1,rowdw001,,,53
-play,9,0,strad001,,,31
-play,9,0,cartg001,,,53
-play,9,0,mitck001,,,53
-play,9,1,butes001,,,NP
+play,8,0,dyksl001,10,BX,3/G3
+play,8,0,backw001,10,BX,43/G4M
+play,8,0,hernk001,32,BCCBFFBFX,4/L4
+play,8,1,rosep001,11,BFX,63/G56
+play,8,1,parkd001,02,SSS,K
+play,8,1,davie001,02,FFX,DGR/L7D
+com,"Over Mitchell, then bounced over LF wall"
+play,8,1,bellb001,01,CX,S5/G56.2-H(E5/TH1)(NR)(UR)
+com,"Knight: diving stop, wide throw past Hernandez"
+play,8,1,rowdw001,32,BFBBS>X,53/G5
+play,9,0,strad001,01,FX,31/G34
+play,9,0,cartg001,21,FBBX,53/G5
+play,9,0,mitck001,00,X,53/G56S
+play,9,1,butes001,00,,NP
 sub,venam001,"Max Venable",1,7,11
-play,9,1,venam001,,,NP
+play,9,1,venam001,00,,NP
 sub,orosj001,"Jesse Orosco",0,6,1
-play,9,1,venam001,,,NP
+play,9,1,venam001,00,,NP
 sub,wilsm001,"Mookie Wilson",0,9,7
-play,9,1,venam001,,,W
-play,9,1,oestr001,,,9
-play,9,1,powet001,,,NP
+play,9,1,venam001,30,BBBB,W
+play,9,1,oestr001,00,X,9/F9LD
+play,9,1,powet001,00,,NP
 sub,esasn001,"Nick Esasky",1,9,11
-play,9,1,esasn001,,,5/FL
-play,9,1,danik001,,,NP
+play,9,1,esasn001,22,SBBFX,5/P5F/FL
+play,9,1,danik001,00,,NP
 sub,peret001,"Tony Perez",1,1,11
-play,9,1,peret001,,,9
+play,9,1,peret001,12,CCBX,9/F89
 data,er,aguir001,1
 data,er,orosj001,0
 data,er,sotom001,3
@@ -6522,20 +6539,18 @@ play,10,1,rosep001,,,S8/L8S
 play,10,1,milne001,,,NP
 sub,davie001,"Eric Davis",1,4,12
 play,10,1,milne001,,,SB2
-play,10,1,milne001,,,SB3
+play,10,1,milne001,,,NP
+sub,browt001,"Tom Browning",1,4,12
+play,10,1,milne001,,,K+SB3
 com,"ej,davie001,P,grege901,Brawl after collision at 3B"
 com,"ej,sotom001,P,grege901,Brawl after collision at 3B"
 com,"ej,knigr001,P,grege901,Brawl after collision at 3B"
 com,"ej,mitck001,P,grege901,Brawl after collision at 3B"
-com,"$Eric Davis slid hard into 3B and Ray Knight objected by yelling at"
-com,"Davis; Davis shoved Knight who punched Davis; both benches cleared"
-com,"and a 15-minute brawl ensued; Davis, Knight, Mario Soto and Kevin"
-com,"Mitchell ejected by 3B umpire Eric Gregg; catcher Gary Carter was"
-com,"forced to play 3B; Mets manager Dave Johnson protested the game"
-com,"because of what he called the disparity in ejections"
-play,10,1,milne001,,,NP
-sub,browt001,"Tom Browning",1,4,12
-play,10,1,milne001,,,K
+com,"$Davis, 3bman Knight, RFer Mitchell and Reds Soto, not in"
+com,"game, ejected by 3B umpire Gregg for brawl after Davis"
+com,"slid hard into 3rd on steal; Mets manager Johnson"
+com,"protested game because of what he called the disparity"
+com,"in ejections"
 play,10,1,rowdw001,,,NP
 sub,cartg001,"Gary Carter",0,4,5
 play,10,1,rowdw001,,,NP
@@ -6558,8 +6573,8 @@ play,11,1,venam001,,,NP
 sub,orosj001,"Jesse Orosco",0,6,1
 play,11,1,venam001,,,NP
 sub,mcdor001,"Roger McDowell",0,7,9
-com,"$Jesse Orosco was given eight warm-up pitches; Reds"
-com,"manager Pete Rose protested the game because the rule"
+com,"$Orosco was given eight warm-up pitches; Reds"
+com,"manager Rose protested the game because the rule"
 com,"stated that a pitcher had eight warm-ups when entering"
 com,"the game; Rose said that Orosco was already in the game"
 com,"in RF; after the game, Rose withdrew his protest"

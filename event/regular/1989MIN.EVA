@@ -5580,8 +5580,10 @@ play,8,0,bragg001,22,..BSCBS,K
 play,8,0,surhb001,10,BX,9/F9
 play,8,0,feldm001,32,BBBCCFX,S4/G4
 play,8,0,gantj001,10,B+1P,BK.1-2
-com,"ej,trebt801,M,brinj901,Balk"
-com,"Brewers manager Tom Trebelhorn ejected by 1B umpire Joe Brinkman"
+com,"ej,trebt801,M,brinj901,Balk (Overriding walk)"
+com,"$Brewers manager Trebelhorn ejected by 1B umpire Brinkman"
+com,"for arguing ruling that Gantner was not awarded first base"
+com,"on a pitch that was called ball four, negating balk"
 play,8,0,gantj001,21,B+1P..SX,8/F8
 play,8,1,newma001,22,CCBBX,53/G5
 play,8,1,gladd001,12,CBCX,8/F8
@@ -7034,15 +7036,17 @@ play,6,1,bushr001,12,CSBX,S9/G34
 play,6,1,larkg001,32,1FB1BBFB,W.1-2
 play,6,1,dwyej001,00,,NP
 sub,pricj001,"Joe Price",0,0,1
-com,"ej,dwyej001,P,koscg901,Called strike on bunt attempt"
-com,"Jim Dwyer ejected by HP umpire Greg Kosc when the first pitch was called"
-com,"a strike; Dwyer was restrained by Twins manager Tom Kelly"
 play,6,1,dwyej001,01,.C,NP
 sub,castc001,"Carmen Castillo",1,7,11
-com,"$Red Sox manager Joe Morgan replaced Joe Price, who had thrown"
-com,"one pitch, with Carmelo Castillo; the umpires ordered Price"
-com,"to remain in the game because he had to finish the plate"
-com,"appearance of the batter (Jim Dwyer) or his substitute"
+com,"ej,dwyej001,P,koscg901,Called strike on bunt attempt"
+com,"$Dwyer ejected by HP umpire Kosc when the first pitch was"
+com,"called a strike; Dwyer was restrained by Twins manager Kelly;"
+com,"Castillo replaced Dwyer to complete his at bat;"
+com,"Red Sox manager Morgan went to mound and replaced Price"
+com,"with Smithson who was just about to pitch to Castillo"
+com,"when umpires realized that Price had to pitch to at least"
+com,"one batter, so Price was ordered back into game; Red Sox"
+com,"played game under protest"
 play,6,1,castc001,22,.C.BSBC,K
 play,6,1,harpb001,00,,NP
 sub,smitm002,"Mike Smithson",0,0,1

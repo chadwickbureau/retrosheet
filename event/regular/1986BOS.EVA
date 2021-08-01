@@ -1268,14 +1268,15 @@ info,ump1b,welkt901
 info,ump2b,phild901
 info,ump3b,mccol901
 info,scorer,"D. Orr"
-info,inputter,"D. Pinto"
+info,translator,"D. Pinto/Townsend"
+info,inputter,"D. Pinto/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
+info,pitches,pitches
+info,temp,56
+info,winddir,fromcf
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
+info,precip,none
 info,sky,unknown
 info,timeofgame,159
 info,attendance,13414
@@ -1303,86 +1304,90 @@ start,barrm001,"Marty Barrett",1,7,4
 start,lyons001,"Steve Lyons",1,8,8
 start,hoffg001,"Glenn Hoffman",1,9,6
 start,clemr001,"Roger Clemens",1,0,1
-play,1,0,owens001,,,K
-play,1,0,bradp001,,,K
-play,1,0,phelk001,,,K
-play,1,1,evand002,,,K
-play,1,1,boggw001,,,63
-play,1,1,buckb001,,,8
-play,2,0,thomg001,,,7/L
-play,2,0,presj001,,,K
-play,2,0,caldi001,,,K/C
-play,2,1,ricej001,,,9
-play,2,1,bayld001,,,S/5
-play,2,1,gedmr001,,,43.1-2
-play,2,1,barrm001,,,8
-play,3,0,tartd001,,,43
-play,3,0,hendd001,,,K/C
-play,3,0,yeags001,,,8
-play,3,1,lyons001,,,8
-play,3,1,hoffg001,,,K
-play,3,1,evand002,,,S/8
-play,3,1,boggw001,,,7
-play,4,0,owens001,,,S/9
-play,4,0,bradp001,,,K
-play,4,0,phelk001,,,K
-play,4,0,thomg001,,,FLE3
-play,4,0,thomg001,,,K/C
-play,4,1,buckb001,,,63
-play,4,1,ricej001,,,S/78
-play,4,1,bayld001,,,K+CS2(24)/DP
-play,5,0,presj001,,,K/C
-play,5,0,caldi001,,,K/C
-play,5,0,tartd001,,,K/C
-play,5,1,gedmr001,,,S/9L.BX2(96)
-play,5,1,barrm001,,,W
-play,5,1,lyons001,,,8
-play,5,1,hoffg001,,,54(1)/FO/G
-play,6,0,hendd001,,,K
-play,6,0,yeags001,,,K/C
-play,6,0,owens001,,,8
-play,6,1,evand002,,,E4.B-1
-play,6,1,boggw001,,,CS2(24)
-play,6,1,boggw001,,,W
-play,6,1,buckb001,,,D/78.1-3
-play,6,1,ricej001,,,63
-play,6,1,bayld001,,,K
-play,7,0,bradp001,,,K
-play,7,0,phelk001,,,K
-play,7,0,thomg001,,,HR/8
-play,7,0,presj001,,,31
-play,7,1,gedmr001,,,5/F
-play,7,1,barrm001,,,63
-play,7,1,lyons001,,,S/7
-play,7,1,hoffg001,,,W.1-2
-play,7,1,evand002,,,NP
+play,1,0,owens001,32,CBBSFBFFS,K
+play,1,0,bradp001,32,BBCBSS,K
+play,1,0,phelk001,32,BBBCCS,K
+play,1,1,evand002,02,CFS,K
+play,1,1,boggw001,10,BX,63/G6
+play,1,1,buckb001,10,BX,8/L8D
+play,2,0,thomg001,10,BX,7/L7D
+play,2,0,presj001,02,CCS,K
+play,2,0,caldi001,02,SSC,K/C
+play,2,1,ricej001,00,X,9/F9
+play,2,1,bayld001,32,TBBSBX,S5/G5S
+play,2,1,gedmr001,11,BC1X,43/G4.1-2
+play,2,1,barrm001,12,BCFFFX,8/F78XD
+play,3,0,tartd001,32,BBBFSX,43/G4
+play,3,0,hendd001,02,CFC,K/C
+play,3,0,yeags001,32,SBBSBFX,8/F8
+play,3,1,lyons001,32,BBBCCX,8/F8D
+play,3,1,hoffg001,12,CTBS,K
+play,3,1,evand002,01,CX,S8/G6M
+play,3,1,boggw001,32,C1B1B1B1F>X,7/F7LD
+play,4,0,owens001,02,TCX,S9/L34D
+play,4,0,bradp001,22,11S1LB11PS,K
+play,4,0,phelk001,22,11SBB1C1S,K
+play,4,0,thomg001,32,SFBB1B>F,FLE3/P3F
+play,4,0,thomg001,32,SFBB1B>F.>C,K/C
+play,4,1,buckb001,02,FSFFX,63/G6
+play,4,1,ricej001,01,CX,S8/L78
+play,4,1,bayld001,32,CBFB1FFB1>S,K+CS2(24)/DP
+play,5,0,presj001,22,BCSFBC,K/C
+play,5,0,caldi001,02,SFC,K/C
+play,5,0,tartd001,22,SSBBC,K/C
+play,5,1,gedmr001,20,BBX,S9/L3D.BX2(96)
+play,5,1,barrm001,31,BBCBB,W
+play,5,1,lyons001,21,1B1BF1X,8/F78XD
+play,5,1,hoffg001,22,FFBB1FX,54(1)/FO/G56
+play,6,0,hendd001,22,CBBSS,K
+play,6,0,yeags001,22,SCBBC,K/C
+play,6,0,owens001,11,BCX,8/F8XD
+play,6,1,evand002,00,X,E4/G4.B-1
+com,"Hard short-hop off Tartabull's glove"
+play,6,1,boggw001,11,CB1>B,CS2(24)
+play,6,1,boggw001,32,BCB1>B.CB,W
+play,6,1,buckb001,12,B1C1FX,D8/L7DW.1-3
+com,"Over the leaping Bradley's glove; Henderson backed up the play"
+play,6,1,ricej001,00,X,63/G6
+play,6,1,bayld001,02,FFS,K
+play,7,0,bradp001,12,FCBS,K
+play,7,0,phelk001,22,SFBFBT,K
+play,7,0,thomg001,12,SBSX,HR/F8XD
+com,"Over CF wall"
+play,7,0,presj001,02,KSX,31/G34
+play,7,1,gedmr001,00,X,5/P25F/FL
+play,7,1,barrm001,02,CFX,63/G6
+play,7,1,lyons001,10,BX,S7/G56
+play,7,1,hoffg001,30,B11BBB,W.1-2
+play,7,1,evand002,00,,NP
 sub,romee001,"Ed Romero",1,9,12
-play,7,1,evand002,,,HR/78.2-H;1-H
-play,7,1,boggw001,,,7
-play,8,0,caldi001,,,NP
+play,7,1,evand002,10,BX,HR/F8XD.2-H;1-H
+com,"Over CF wall a few feet to the right of the yellow vertical line"
+play,7,1,boggw001,12,CBCX,7/F7D
+play,8,0,caldi001,00,,NP
 sub,romee001,"Ed Romero",1,9,6
-play,8,0,caldi001,,,K
-play,8,0,tartd001,,,S/89
-play,8,0,hendd001,,,K
-play,8,0,yeags001,,,NP
+play,8,0,caldi001,02,SFS,K
+play,8,0,tartd001,11,BFX,S8/L89
+play,8,0,hendd001,22,SSFBBS,K
+play,8,0,yeags001,00,,NP
 sub,cowea001,"Al Cowens",0,9,11
-play,8,0,cowea001,,,8
-play,8,1,buckb001,,,NP
+play,8,0,cowea001,11,BCX,8/F8D
+play,8,1,buckb001,00,,NP
 sub,kearb001,"Bob Kearney",0,9,2
-play,8,1,buckb001,,,S/9
-play,8,1,ricej001,,,63.1-2
-play,8,1,bayld001,,,W
-play,8,1,gedmr001,,,NP
+play,8,1,buckb001,11,CBX,S9/L9
+play,8,1,ricej001,10,*B>X,63/G6S.1-2
+play,8,1,bayld001,32,FBFBFFB*B,W
+play,8,1,gedmr001,00,,NP
 sub,younm001,"Matt Young",0,0,1
-play,8,1,gedmr001,,,8
-play,8,1,barrm001,,,NP
+play,8,1,gedmr001,10,BX,8/F89S
+play,8,1,barrm001,00,,NP
 sub,bestk001,"Karl Best",0,0,1
-play,8,1,barrm001,,,K
-play,9,0,owens001,,,NP
+play,8,1,barrm001,12,CBFT,K
+play,9,0,owens001,00,,NP
 sub,stapd001,"Dave Stapleton",1,5,3
-play,9,0,owens001,,,K
-play,9,0,bradp001,,,K/C
-play,9,0,phelk001,,,63
+play,9,0,owens001,12,CBFFS,K
+play,9,0,bradp001,22,BBCCC,K/C
+play,9,0,phelk001,21,BBCX,63/G6
 data,er,moorm001,3
 data,er,younm001,0
 data,er,bestk001,0
@@ -4375,16 +4380,17 @@ info,umphome,morrd901
 info,ump1b,mckej901
 info,ump2b,clara901
 info,ump3b,shulj901
-info,scorer,"M. Bowman"
-info,inputter,"D. Pinto"
+info,scorer,"M. Bowman,601"
+info,translator,"D. Pinto/Townsend"
+info,inputter,"D. Pinto/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,pitches,pitches
+info,temp,65
+info,winddir,fromcf
+info,windspeed,12
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,181
 info,attendance,35707
 info,wp,clemr001
@@ -4411,90 +4417,101 @@ start,armat001,"Tony Armas",1,7,8
 start,gedmr001,"Rich Gedman",1,8,2
 start,quinr001,"Rey Quinones",1,9,6
 start,clemr001,"Roger Clemens",1,0,1
-play,1,0,omalt001,,,K/C
-play,1,0,benij001,,,K
-play,1,0,dwyej001,,,9
-play,1,1,barrm001,,,K
-play,1,1,romee001,,,S4/G4S
-play,1,1,buckb001,,,S9/G34.1-3
-play,1,1,ricej001,,,4/FL
-play,1,1,bayld001,,,K+WP.3-H;1-2;B-1
-play,1,1,evand002,,,HR/F7D.2-H;1-H
-play,1,1,armat001,,,K/C
-play,2,0,murre001,,,43
-play,2,0,ripkc001,,,63
-play,2,0,sheel001,,,13
-play,2,1,gedmr001,,,K
-play,2,1,quinr001,,,8
-play,2,1,barrm001,,,9
-play,3,0,younm002,,,8
-play,3,0,bonij001,,,S9/G34
-play,3,0,dempr001,,,K
-play,3,0,omalt001,,,53
-play,3,1,romee001,,,9
-play,3,1,buckb001,,,9
-play,3,1,ricej001,,,9
-play,4,0,benij001,,,W
-play,4,0,dwyej001,,,S9/L9L.1-3
-play,4,0,murre001,,,6/L
-play,4,0,ripkc001,,,S7/G56.3-H;1-2
-play,4,0,sheel001,,,S9/L34.2-3;1-2
-play,4,0,younm002,,,K/C
-play,4,0,bonij001,,,4(1)/FO
-play,4,1,bayld001,,,W
-play,4,1,evand002,,,K
-play,4,1,armat001,,,W+WP.1-3
-play,4,1,gedmr001,,,7/SF.3-H;1-2
-play,4,1,quinr001,,,8
-play,5,0,dempr001,,,4
-play,5,0,omalt001,,,43
-play,5,0,benij001,,,4
-play,5,1,barrm001,,,3
-play,5,1,romee001,,,6
-play,5,1,buckb001,,,7
-play,6,0,dwyej001,,,8
-play,6,0,murre001,,,E6.B-1
-play,6,0,ripkc001,,,WP.1-2
-play,6,0,ripkc001,,,3/FL
-play,6,0,sheel001,,,K
-play,6,1,ricej001,,,8
-play,6,1,bayld001,,,2/FL
-play,6,1,evand002,,,S7/G56
-play,6,1,armat001,,,K
-play,7,0,younm002,,,31
-play,7,0,bonij001,,,S6/G4M
-play,7,0,dempr001,,,K
-play,7,0,omalt001,,,W.1-2
-play,7,0,benij001,,,S8/L78.2-H;1-2
-play,7,0,dwyej001,,,4
-play,7,1,gedmr001,,,W
-play,7,1,quinr001,,,14/SH.1-2
-play,7,1,barrm001,,,7
-play,7,1,romee001,,,53
-play,8,0,murre001,,,NP
+play,1,0,omalt001,22,BCFBFC,K/C
+play,1,0,benij001,02,SFS,K
+play,1,0,dwyej001,00,X,9/F9
+play,1,1,barrm001,02,CFS,K
+play,1,1,romee001,01,CX,S4/G4MS
+play,1,1,buckb001,22,B111B1CTFFX,S9/G34.1-3
+play,1,1,ricej001,10,BX,4/P3DF/FL
+play,1,1,bayld001,12,CFBFS,K+WP.3-H;1-2;B-1
+play,1,1,evand002,12,FCBFFX,HR/F7D.2-H;1-H
+com,"Over LF wall"
+play,1,1,armat001,22,SBBSS,K
+play,2,0,murre001,12,BSCX,43/G4
+play,2,0,ripkc001,22,CBBFX,63/G6
+play,2,0,sheel001,12,SBSX,13/G25
+com,"Good play by Clemens; Buckner dove and scooped the low throw"
+play,2,1,gedmr001,22,FBFFBS,K
+play,2,1,quinr001,02,CFX,8/F78D
+play,2,1,barrm001,02,CFX,9/F9S
+play,3,0,younm002,00,X,8/F78D
+play,3,0,bonij001,10,BX,S9/G34
+play,3,0,dempr001,12,CCFB1S,K
+play,3,0,omalt001,10,BX,53/G56
+play,3,1,romee001,21,BBFX,9/F9
+play,3,1,buckb001,12,BFFFX,9/F9DW
+play,3,1,ricej001,11,SBX,9/F89
+play,4,0,benij001,32,FFBFBBB,W
+play,4,0,dwyej001,12,C1BFX,S9/L9LS.1-3
+play,4,0,murre001,22,SFBFBX,6/L6
+play,4,0,ripkc001,11,BTX,S7/G56.3-H;1-2
+play,4,0,sheel001,01,FX,S9/L34.2-3;1-2
+play,4,0,younm002,02,CFC,K/C
+play,4,0,bonij001,21,CBBX,4(1)/FO/G4M
+play,4,1,bayld001,32,BBFBFB,W
+play,4,1,evand002,02,CCS,K
+play,4,1,armat001,32,BSCFBFB>B,W+WP.1-3
+play,4,1,gedmr001,10,BX,7/F7/SF.3-H;1-2(THH)
+play,4,1,quinr001,01,SX,8/F8S
+com,"Beniquez: runnning catch"
+play,5,0,dempr001,22,FCBBX,4/P3D
+play,5,0,omalt001,12,CFBX,43/G4
+play,5,0,benij001,00,X,4/P4
+play,5,1,barrm001,10,BX,3/P3L
+play,5,1,romee001,10,BX,6/P56
+play,5,1,buckb001,21,BBSX,7/F7D
+play,6,0,dwyej001,22,BBFFX,8/F78D
+play,6,0,murre001,32,SBBBFFX,E6/TH1/G6.B-1
+com,"High throw; Buckner couldn't hold it"
+play,6,0,ripkc001,21,BF1BB,WP.1-2
+play,6,0,ripkc001,32,BF1BB.FX,3/P3F/FL
+play,6,0,sheel001,02,CSS,K
+play,6,1,ricej001,11,SBX,8/F8
+play,6,1,bayld001,21,BSBX,2/P2F/FL
+play,6,1,evand002,32,BCBFBX,S7/G56
+com,"The first pitch was wild, high over Evans' head to the"
+com,"backstop.  Evans had some heated words at Dixon who was"
+com,"warned by the umpires."
+play,6,1,armat001,22,CCBB>FS,K
+play,7,0,younm002,11,CBX,31/G3
+play,7,0,bonij001,12,CSFBFX,S6/G6M
+play,7,0,dempr001,22,BTBFS,K
+play,7,0,omalt001,32,CCBB>FFBF>FFB,W.1-2
+play,7,0,benij001,12,*SSBX,S8/L8.2-H;1-2
+play,7,0,dwyej001,10,BX,4/P4D
+play,7,1,gedmr001,31,BBFBB,W
+play,7,1,quinr001,00,X,14/B23/SH.1-2
+play,7,1,barrm001,01,CX,7/F78S
+play,7,1,romee001,01,CX,53/G56
+com,"O'Malley: diving stop"
+play,8,0,murre001,00,,NP
 sub,lyons001,"Steve Lyons",1,7,8
-play,8,0,murre001,,,W
-play,8,0,ripkc001,,,9
-play,8,0,sheel001,,,31.1-2
-play,8,0,younm002,,,31
-play,8,1,buckb001,,,D7/F7S
-play,8,1,ricej001,,,8.2-3
-play,8,1,bayld001,,,NP
-sub,sneln001,"Nat Snell",0,0,1
-play,8,1,bayld001,,,HP
-play,8,1,evand002,,,S8/F8S.3-H;1-3
-play,8,1,lyons001,,,NP
+play,8,0,murre001,32,FFBBBFB,W
+play,8,0,ripkc001,12,BCCX,9/F9S
+play,8,0,sheel001,12,SCBX,31/G3.1-2
+play,8,0,younm002,10,BX,31/G34
+com,"Good play by Buckner and Clemens"
+play,8,1,buckb001,12,CSFBX,D7/F78S
+com,"Diving try by Young but it popped out of his glove"
+play,8,1,ricej001,00,X,8/F8XD.2-3
+play,8,1,bayld001,01,F,NP
+sub,sneln001,"Nate Snell",0,0,1
+play,8,1,bayld001,01,F.H,HP
+com,"Hit on the leg"
+play,8,1,evand002,22,BFBFX,S8/F8S.3-H;1-3
+play,8,1,lyons001,00,,NP
 sub,haveb001,"Brad Havens",0,0,1
-play,8,1,lyons001,,,8/SF.3-H
-play,8,1,gedmr001,,,SB2
-play,8,1,gedmr001,,,53
-play,9,0,bonij001,,,NP
+play,8,1,lyons001,02,FCX,8/L8D/SF.3-H
+play,8,1,gedmr001,00,>B,SB2
+play,8,1,gedmr001,10,>B.X,53/G5
+play,9,0,bonij001,00,,NP
 sub,stanb001,"Bob Stanley",1,0,1
-play,9,0,bonij001,,,63
-play,9,0,dempr001,,,NP
+play,9,0,bonij001,22,CBFBX,63/G6
+play,9,0,dempr001,00,,NP
 sub,parda001,"Al Pardo",0,9,11
-play,9,0,parda001,,,63
-play,9,0,omalt001,,,31
+play,9,0,parda001,00,X,63/G6
+play,9,0,omalt001,11,BFX,31/G3L
 data,er,dixok001,6
 data,er,sneln001,1
 data,er,haveb001,0
@@ -6220,16 +6237,17 @@ info,umphome,evanj901
 info,ump1b,hendt901
 info,ump2b,cousd901
 info,ump3b,scotd901
-info,scorer,"S. Nelson"
-info,inputter,"D. Pinto"
+info,scorer,"S. Nelson,601"
+info,translator,"D. Pinto/Townsend"
+info,inputter,"D. Pinto/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,torf
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,night
 info,timeofgame,200
 info,attendance,27347
 info,wp,stewd001
@@ -6256,104 +6274,115 @@ start,armat001,"Tony Armas",1,7,8
 start,gedmr001,"Rich Gedman",1,8,2
 start,quinr001,"Rey Quinones",1,9,6
 start,clemr001,"Roger Clemens",1,0,1
-play,1,0,philt001,,,8
-play,1,0,lansc001,,,K/C
-play,1,0,cansj001,,,K
-play,1,1,barrm001,,,53
-play,1,1,boggw001,,,8
-play,1,1,buckb001,,,3/G
-play,2,0,kingd001,,,K
-play,2,0,bochb001,,,S8/L8
-play,2,0,davim002,,,63(1)/FO
-play,2,0,murpd002,,,D7/F7D.1-H
-play,2,0,grifa001,,,D8/L78.2-H
-play,2,0,willj001,,,43
-play,2,1,ricej001,,,S4/G1
-play,2,1,bayld001,,,FC4/G.1X2(46);B-1
-play,2,1,evand002,,,7
-play,2,1,armat001,,,K
-play,3,0,philt001,,,S8/G4M
-play,3,0,lansc001,,,SB2.1-3(E2/TH2)
-play,3,0,lansc001,,,63.3-H(UR)
-play,3,0,cansj001,,,3
-play,3,0,kingd001,,,K
-play,3,1,gedmr001,,,8
-play,3,1,quinr001,,,S8/G1
-play,3,1,barrm001,,,S9/L9.1-3
-play,3,1,boggw001,,,WP.3-H;1-2
-play,3,1,boggw001,,,8
-play,3,1,buckb001,,,8/L
-play,4,0,bochb001,,,43
-play,4,0,davim002,,,K
-play,4,0,murpd002,,,7
-play,4,1,ricej001,,,W
-play,4,1,bayld001,,,S7/L7.1-2
-play,4,1,evand002,,,7
-play,4,1,armat001,,,K
-play,4,1,gedmr001,,,3/G
-play,5,0,grifa001,,,E7/F.B-2
-play,5,0,willj001,,,CS3(25)
-play,5,0,willj001,,,3/G
-play,5,0,philt001,,,43
-play,5,1,quinr001,,,43
-play,5,1,barrm001,,,D7/L78
-play,5,1,boggw001,,,43.2-3
-play,5,1,buckb001,,,K
-play,6,0,lansc001,,,S6/G6
-play,6,0,cansj001,,,HR/78.1-H
-play,6,0,kingd001,,,HR/7
-play,6,0,bochb001,,,NP
+com,"Weather: hot & muggy"
+play,1,0,philt001,31,BBBCX,8/F8XD
+play,1,0,lansc001,32,CFFBBFBS,K
+play,1,0,cansj001,22,BFCBS,K
+play,1,1,barrm001,00,X,53/G5
+play,1,1,boggw001,32,CBSBFBX,8/F78
+play,1,1,buckb001,01,CX,3/G3
+play,2,0,kingd001,22,BCSBS,K
+play,2,0,bochb001,21,BBCX,S8/L8S
+play,2,0,davim002,10,BX,64(1)/FO/G56
+play,2,0,murpd002,10,1B11X,D7/F7DW.1-H
+play,2,0,grifa001,12,BSFFFFFFFX,D8/L78.2-H
+play,2,0,willj001,12,FFBX,43/G4
+play,2,1,ricej001,20,BBX,S14/G1
+com,"Deflected by Stewart to the left of 2B; Phillips made a fine"
+com,"backhanded play but his off-balance throw was wide of 1B."
+play,2,1,bayld001,00,X,46(1)/FO/G4
+com,"Phillips knocked down the short-hop, thwarting DP attempt"
+play,2,1,evand002,20,BBX,7/F7
+play,2,1,armat001,22,FCBBS,K
+play,3,0,philt001,22,BSFBFX,S8/G4M
+play,3,0,lansc001,00,>S,SB2.1-3(E2/TH2)
+play,3,0,lansc001,12,>S.BSX,63/G6.3-H(UR)
+play,3,0,cansj001,12,CBSFX,3/P1S
+play,3,0,kingd001,02,FSS,K
+play,3,1,gedmr001,20,BBX,8/F78XD
+play,3,1,quinr001,02,CCX,S8/G6M
+play,3,1,barrm001,10,BX,S9/L89S.1-3
+play,3,1,boggw001,01,CB,WP.3-H;1-2
+play,3,1,boggw001,12,CB.FX,8/F78S
+play,3,1,buckb001,02,CFFX,8/L78
+play,4,0,bochb001,22,BCBSX,43/G4
+play,4,0,davim002,22,CBBFS,K
+play,4,0,murpd002,00,X,7/F7D
+play,4,1,ricej001,32,BBBCFB,W
+play,4,1,bayld001,12,BSFFX,S7/L7S.1-2
+play,4,1,evand002,11,CBX,7/F7L
+play,4,1,armat001,12,FFBS,K
+play,4,1,gedmr001,00,X,3/G3
+play,5,0,grifa001,01,FX,E7/F7D.B-2
+play,5,0,willj001,01,C>M,CS3(25)
+play,5,0,willj001,12,C>M.BX,3/G3
+play,5,0,philt001,12,BCCX,43/G4
+play,5,1,quinr001,32,CSBBBX,43/G4
+play,5,1,barrm001,21,BCBX,D7/L78D
+play,5,1,boggw001,21,CBBX,43/G34.2-3
+com,"Phillips: diving stop"
+play,5,1,buckb001,02,CFS,K
+play,6,0,lansc001,22,CSBFBX,S6/G56
+play,6,0,cansj001,00,X,HR/F78XD.1-H
+com,"Into LCF screen"
+play,6,0,kingd001,01,CX,HR/F7D
+com,"Over LF screen"
+play,6,0,bochb001,00,,NP
 sub,lollt001,"Tim Lollar",1,0,1
-play,6,0,bochb001,,,W
-play,6,0,davim002,,,S7/F7S.1-2
-play,6,0,murpd002,,,43.2-3;1-2
-play,6,0,grifa001,,,5(B)5(3)/LDP
-play,6,1,ricej001,,,S8/G4M
-play,6,1,bayld001,,,41.1-2
-play,6,1,evand002,,,HR/7.2-H
-play,6,1,armat001,,,8
-play,6,1,gedmr001,,,9
-play,7,0,willj001,,,S7/G34
-play,7,0,philt001,,,34/SH.1-2
-play,7,0,lansc001,,,NP
+play,6,0,bochb001,31,BBCBB,W
+play,6,0,davim002,10,BX,S7/F7LS.1-2
+play,6,0,murpd002,01,FX,43/G4.2-3;1-2
+play,6,0,grifa001,12,BSSFX,5/L56/LDP.3X3(5)
+play,6,1,ricej001,00,X,S8/G6M
+play,6,1,bayld001,20,BBX,4/P8S.1-2
+com,"Phillips: over-the-shoulder catch"
+play,6,1,evand002,32,BBCF*BX,HR/L7D.2-H
+com,"Into LF screen"
+play,6,1,armat001,01,FX,8/F8D
+play,6,1,gedmr001,00,X,9/F9S
+play,7,0,willj001,00,X,S9/G34
+play,7,0,philt001,01,LX,34/BG34S/SH.1-2
+play,7,0,lansc001,00,,NP
 sub,browm003,"Mike Brown",1,0,1
-play,7,0,lansc001,,,63
-play,7,0,cansj001,,,S7/L7.2XH(72)
-play,7,1,quinr001,,,S7/L7
-play,7,1,barrm001,,,W.1-2
-play,7,1,boggw001,,,NP
+play,7,0,lansc001,22,CBFFBX,63/G6
+play,7,0,cansj001,01,CX,S7/L7S.2XH(72)
+play,7,1,quinr001,02,CSX,S7/L7S
+play,7,1,barrm001,31,BCB*B*B,W.1-2
+play,7,1,boggw001,00,,NP
 sub,vonod001,"Dave Von Ohlen",0,0,1
-play,7,1,boggw001,,,S8/F78.2-H;1-2
-play,7,1,buckb001,,,25(2)4(1)/BG/GDP.B-1
-play,7,1,ricej001,,,NP
+play,7,1,boggw001,11,CBX,S8/F7DW.2-H;1-2
+com,"Over Canseco"
+play,7,1,buckb001,01,MX,25(2)4(B)/GDP/BG2L.1-2
+play,7,1,ricej001,00,,NP
 sub,baird001,"Doug Bair",0,0,1
-play,7,1,ricej001,,,63
-play,8,0,kingd001,,,W
-play,8,0,bochb001,,,46(1)3/GDP
-play,8,0,davim002,,,S9/L9
-play,8,0,murpd002,,,NP
+play,7,1,ricej001,12,FBFX,63/G6
+play,8,0,kingd001,31,BBBSB,W
+play,8,0,bochb001,00,X,46(1)3/GDP/G4
+play,8,0,davim002,32,BBBCCFX,S9/L34D
+play,8,0,murpd002,00,,NP
 sub,sambj001,"Joe Sambito",1,0,1
-play,8,0,murpd002,,,K
-play,8,1,bayld001,,,NP
+play,8,0,murpd002,12,1B1SS11>S,K
+play,8,1,bayld001,00,,NP
 sub,javis001,"Stan Javier",0,7,8
-play,8,1,bayld001,,,3
-play,8,1,evand002,,,3/FL
-play,8,1,armat001,,,K
-play,9,0,grifa001,,,S8/F8S
-play,9,0,willj001,,,16(1)/FO/BG
-play,9,0,philt001,,,E3/SH.1-2;B-1
+play,8,1,bayld001,11,BCX,3/P3L
+play,8,1,evand002,11,FBX,3/P3DF/FL
+play,8,1,armat001,12,SSBFS,K
+play,9,0,grifa001,00,X,S8/F8S
+play,9,0,willj001,01,1L1X,16(1)/FO/BG1S
+play,9,0,philt001,21,BBSX,5E3/BG5S/SH.1-2;B-1
 com,"ej,mcnaj801,M,hendt901,Call at 1B"
-com,"Red Sox manager John McNamara ejected by 1B umpire Ted Hendry"
-play,9,0,lansc001,,,NP
+com,"Red Sox manager McNamara ejected by 1B umpire Hendry who"
+com,"ruled Buckner's foot came off the bag."
+play,9,0,lansc001,00,,NP
 sub,craws001,"Steve Crawford",1,0,1
-play,9,0,lansc001,,,9
-play,9,0,cansj001,,,S7/G4M.2-3;1-2
-play,9,0,kingd001,,,K
-play,9,1,gedmr001,,,K
-play,9,1,quinr001,,,NP
+play,9,0,lansc001,00,X,9/F89
+play,9,0,cansj001,20,BBX,S7/G56.2-3;1-2
+play,9,0,kingd001,02,SSFS,K
+play,9,1,gedmr001,02,CCT,K
+play,9,1,quinr001,00,,NP
 sub,stenm001,"Mike Stenhouse",1,9,11
-play,9,1,stenm001,,,8
-play,9,1,barrm001,,,53
+play,9,1,stenm001,22,BBFFX,8/F8
+play,9,1,barrm001,02,CFX,53/G5
 data,er,stewd001,4
 data,er,vonod001,0
 data,er,baird001,0
@@ -7755,10 +7784,11 @@ info,umphome,barnl901
 info,ump1b,bremn901
 info,ump2b,roe-r901
 info,ump3b,hirsj901
-info,scorer,"Don Zminda"
-info,inputter,"Don Zminda"
+info,scorer,"Don Zminda,601"
+info,translator,"Don Zminda/Townsend"
+info,inputter,"Don Zminda/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -7791,78 +7821,90 @@ start,armat001,"Tony Armas",1,7,8
 start,gedmr001,"Rich Gedman",1,8,2
 start,quinr001,"Rey Quinones",1,9,6
 start,clemr001,"Roger Clemens",1,0,1
-play,1,0,cangj001,,,53
-play,1,0,bostd001,,,S8
-play,1,0,bainh001,,,SB2
-play,1,0,bainh001,,,K
-play,1,0,hairj001,,,7
-play,1,1,barrm001,,,K+PB.B-1
-play,1,1,boggw001,,,8
-play,1,1,buckb001,,,W.1-2
-play,1,1,ricej001,,,K
-play,1,1,bayld001,,,HP.2-3;1-2
-play,1,1,evand002,,,64(1)/FO/G
-play,2,0,hulet001,,,43
-play,2,0,mormr001,,,S9
-play,2,0,fiskc001,,,K/C
-play,2,0,guilo001,,,K
-play,2,1,armat001,,,S7
-play,2,1,gedmr001,,,9
-play,2,1,quinr001,,,54(1)/FO
-play,2,1,barrm001,,,64(1)/FO
-play,3,0,cruzj002,,,63
-play,3,0,cangj001,,,S7
-play,3,0,bostd001,,,CS2(26)
-play,3,0,bostd001,,,5
-play,3,1,boggw001,,,S8.B-2(E8)
-play,3,1,buckb001,,,8
-play,3,1,ricej001,,,8
-play,3,1,bayld001,,,K
-play,4,0,bainh001,,,S7
-play,4,0,hairj001,,,K
-play,4,0,hulet001,,,K
-play,4,0,mormr001,,,63
-play,4,1,evand002,,,7
-play,4,1,armat001,,,K
-play,4,1,gedmr001,,,5
-play,5,0,fiskc001,,,13
-play,5,0,guilo001,,,7/L
-play,5,0,cruzj002,,,8
-play,5,1,quinr001,,,6
-play,5,1,barrm001,,,5
-play,5,1,boggw001,,,K
-play,6,0,cangj001,,,2/FL
-play,6,0,bostd001,,,8/L
-play,6,0,bainh001,,,K/C
-play,6,1,buckb001,,,31
-play,6,1,ricej001,,,8
-play,6,1,bayld001,,,K
-play,7,0,hairj001,,,3/G
-play,7,0,hulet001,,,9
-play,7,0,mormr001,,,9
-play,7,1,evand002,,,53
-play,7,1,armat001,,,W
-play,7,1,gedmr001,,,46(1)/FO
-play,7,1,quinr001,,,8
-play,8,0,fiskc001,,,E5.B-1
-play,8,0,guilo001,,,E1/SH.1-3;B-2
-play,8,0,cruzj002,,,8/SF.3-H(UR)
-play,8,0,cangj001,,,3/G.2-3
-play,8,0,bostd001,,,8
-play,8,1,barrm001,,,NP
+play,1,0,cangj001,11,BCX,53/G56S
+play,1,0,bostd001,11,SBX,S8/L8
+play,1,0,bainh001,00,>S,SB2
+com,"No throw"
+play,1,0,bainh001,32,>S.SFBBBS,K
+play,1,0,hairj001,00,X,7/F7LS
+play,1,1,barrm001,12,CCBS,K+PB.B-1
+play,1,1,boggw001,12,C1BCX,8/F78
+play,1,1,buckb001,30,BBBB,W.1-2
+play,1,1,ricej001,12,SBSS,K
+play,1,1,bayld001,22,BFBCFH,HP.2-3;1-2
+play,1,1,evand002,21,BCBX,64(1)/FO/G6
+play,2,0,hulet001,02,CCX,43/G34
+play,2,0,mormr001,12,BCCX,S9/L9S
+play,2,0,fiskc001,22,BBC1F11C,K/C
+play,2,0,guilo001,22,1BFSFB11S,K
+play,2,1,armat001,10,BX,S7/G56
+play,2,1,gedmr001,21,BCBX,9/F9D
+play,2,1,quinr001,12,CCBFFX,54(1)/FO/G56
+play,2,1,barrm001,02,11F>FFX,64(1)/FO/G56
+play,3,0,cruzj002,22,FBCBX,63/G56
+play,3,0,cangj001,10,BX,S8/F78S
+play,3,0,bostd001,00,11>B,CS2(26)
+play,3,0,bostd001,22,11>.BBSTFFX,5/P56
+play,3,1,boggw001,32,CBBBFX,S8/G6M.B-2(E8)
+com,"Through Boston's legs"
+play,3,1,buckb001,01,CX,8/F8D
+play,3,1,ricej001,01,CX,8/F78XD
+play,3,1,bayld001,12,BSSS,K
+play,4,0,bainh001,10,BX,S7/F78
+play,4,0,hairj001,02,CCS,K
+play,4,0,hulet001,22,B1SBCS,K
+play,4,0,mormr001,32,BCSFBB>X,63/G6M
+play,4,1,evand002,32,CSBBBX,7/F7S
+play,4,1,armat001,12,CBSFS,K
+play,4,1,gedmr001,20,BBX,5/P5D
+play,5,0,fiskc001,12,SFFBX,13/G15
+com,"Clemens: leaping stop"
+play,5,0,guilo001,00,X,7/L7L
+play,5,0,cruzj002,21,BFBX,8/F8
+play,5,1,quinr001,01,CX,6/P5D
+com,"Guillen: sliding catch"
+play,5,1,barrm001,02,CFFX,5/P56S
+play,5,1,boggw001,32,CBBFFFBS,K
+play,6,0,cangj001,02,CCX,2/P2F/FL
+play,6,0,bostd001,11,CBX,8/L8
+play,6,0,bainh001,32,BBFSFBC,K/C
+play,6,1,buckb001,20,BBX,31/G34
+com,"Check swing"
+play,6,1,ricej001,11,FBX,8/F78XD
+play,6,1,bayld001,02,SSS,K
+play,7,0,hairj001,11,BCX,3/G3L
+play,7,0,hulet001,11,CBX,9/F9S
+play,7,0,mormr001,22,BFCFBX,9/L9D
+play,7,1,evand002,31,BCBBX,53/G5
+com,"Wide throw; Morman came off the bag to tag Evans"
+play,7,1,armat001,32,BFBBFB,W
+play,7,1,gedmr001,22,BBFFFX,46(1)/FO/G4
+play,7,1,quinr001,21,BFBX,8/F8D
+play,8,0,fiskc001,12,BSFX,E5/G5L.B-1
+com,"Off Boggs' chest then had trouble picking it up; no throw"
+play,8,0,guilo001,00,X,E1/TH1/BG23/SH.1-3;B-2
+com,"Clemens' high throw landed in the stands"
+play,8,0,cruzj002,02,FFX,8/F8D/SF.3-H(UR)
+play,8,0,cangj001,01,CX,3/G3S.2-3
+com,"Buckner tagged Cangelosi"
+play,8,0,bostd001,00,X,8/F8S
+play,8,1,barrm001,00,,NP
 sub,jameb001,"Bob James",0,0,1
-play,8,1,barrm001,,,3/G
-play,8,1,boggw001,,,63
-play,8,1,buckb001,,,5
-play,9,0,bainh001,,,43
-play,9,0,hairj001,,,9/9D
-play,9,0,hulet001,,,8
-play,9,1,ricej001,,,K/C
-play,9,1,bayld001,,,NP
+play,8,1,barrm001,22,BBCFX,3/G3
+play,8,1,boggw001,20,BBX,63/G6M
+play,8,1,buckb001,00,X,5/P4MS
+play,9,0,bainh001,11,BCX,43/G4
+play,9,0,hairj001,12,BTCX,9/L89D
+com,"Evans: running catch"
+play,9,0,hulet001,11,BCX,8/F8
+play,9,1,ricej001,12,SBFC,K/C
+play,9,1,bayld001,12,BSF,NP
 sub,schmd001,"Dave Schmidt",0,0,1
-play,9,1,bayld001,,,7/L
-play,9,1,evand002,,,S8
-play,9,1,armat001,,,6
+com,"James hurt his right arm while pitching to Baylor"
+play,9,1,bayld001,32,BSF.FBBX,7/L7LS
+com,"Cangelosi: running catch"
+play,9,1,evand002,32,CFBBBX,S8/L6MD
+play,9,1,armat001,32,BFSBB>X,6/P4MS
 data,er,delej001,0
 data,er,jameb001,0
 data,er,schmd001,0

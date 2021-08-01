@@ -6124,16 +6124,17 @@ info,umphome,mccol901
 info,ump1b,voltv901
 info,ump2b,welkt901
 info,ump3b,johnm901
-info,scorer,"Marc Bowman"
-info,inputter,"Dan Feinstein"
+info,scorer,"Marc Bowman,601"
+info,translator,"Dan Feinstein/Townsend"
+info,inputter,"Dan Feinstein/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
+info,pitches,pitches
+info,temp,90
+info,winddir,rtol
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,night
 info,timeofgame,163
 info,attendance,23418
 info,wp,jackd001
@@ -6160,90 +6161,100 @@ start,quirj001,"Jamie Quirk",1,7,2
 start,pryog001,"Greg Pryor",1,8,5
 start,salaa001,"Angel Salazar",1,9,6
 start,jackd001,"Danny Jackson",1,0,1
-play,1,0,younm002,,,E3/G.B-1
-play,1,0,lacyl001,,,S7/G56.1-2
-play,1,0,lynnf001,,,64(1)3/GDP.2-3
-play,1,0,ripkc001,,,43
-play,1,1,wilsw001,,,53
-play,1,1,smitl002,,,HP
-play,1,1,kingm001,,,S9/L9S.1-2
-play,1,1,ortaj001,,,K
-play,1,1,whitf001,,,S7/F7S.2-H;1-2
-play,1,1,balbs001,,,K
-play,2,0,benij001,,,W
-play,2,0,rayff001,,,64(1)3/GDP
-play,2,0,shelj001,,,43
-play,2,1,quirj001,,,8
-play,2,1,pryog001,,,163
-play,2,1,salaa001,,,7
-play,3,0,dempr001,,,7/L
-play,3,0,bonij001,,,53
-play,3,0,younm002,,,T9/L9D
-play,3,0,lacyl001,,,53
-play,3,1,wilsw001,,,3/G
-play,3,1,smitl002,,,HR/F7D
-play,3,1,kingm001,,,8
-play,3,1,ortaj001,,,7/7LDW
-play,4,0,lynnf001,,,7/L
-play,4,0,ripkc001,,,HP
-play,4,0,benij001,,,9
-play,4,0,rayff001,,,K/C
-play,4,1,whitf001,,,53
-play,4,1,balbs001,,,5/FL
-play,4,1,quirj001,,,43
-play,5,0,shelj001,,,63
-play,5,0,dempr001,,,W
-play,5,0,bonij001,,,53.1-2
-play,5,0,younm002,,,K
-play,5,1,pryog001,,,K
-play,5,1,salaa001,,,K
-play,5,1,wilsw001,,,7
-play,6,0,lacyl001,,,63
-play,6,0,lynnf001,,,41(B)/G
-play,6,0,ripkc001,,,K
-play,6,1,smitl002,,,S8/L78
-play,6,1,kingm001,,,S8/G4M.1-3
-play,6,1,ortaj001,,,NP
+play,1,0,younm002,01,CX,E3/G3.B-1
+com,"Off Balboni's glove to Kingery in RF"
+play,1,0,lacyl001,10,BX,S7/G56.1-2
+play,1,0,lynnf001,31,BBCBX,64(1)3/GDP/G6.2-3
+play,1,0,ripkc001,12,BCFX,43/G34
+play,1,1,wilsw001,11,BSX,53/G56S
+play,1,1,smitl002,11,FBH,HP
+com,"Hit on the left hand"
+play,1,1,kingm001,10,1B11X,S9/L9S.1-2
+play,1,1,ortaj001,12,CBFFFFF*S,K
+play,1,1,whitf001,32,FBF*BFFFFB>F>F>X,S7/L56D.2-H;1-2
+play,1,1,balbs001,12,FSBFS,K
+play,2,0,benij001,32,FCFBBBB,W
+play,2,0,rayff001,22,BFBFX,54(1)3/GDP/G5
+play,2,0,shelj001,01,CX,43/G4D
+play,2,1,quirj001,11,BCX,8/F8
+play,2,1,pryog001,12,BFCX,163/G1
+com,"Off Bordi's glove"
+play,2,1,salaa001,00,X,7/L7
+play,3,0,dempr001,10,BX,7/L7LD
+com,"Smith: running catch"
+play,3,0,bonij001,02,CCX,53/G5
+play,3,0,younm002,21,BFBX,T9/L9D
+com,"Over Kingery who misjudged it"
+play,3,0,lacyl001,12,CBCX,53/G5
+play,3,1,wilsw001,12,SBFFFFX,3/G3
+play,3,1,smitl002,00,X,HR/F7D
+com,"Over LF fence to the left of the 385' sign"
+play,3,1,kingm001,12,SSFBX,8/L8D
+play,3,1,ortaj001,00,X,7/7LDW
+com,"Shelby: leaping catch"
+play,4,0,lynnf001,02,FFX,7/L7
+com,"Smith: sliding catch"
+play,4,0,ripkc001,21,BBFH,HP
+com,"Hit on the left shin"
+play,4,0,benij001,11,C*BX,9/F9
+play,4,0,rayff001,32,BBBCFC,K/C
+play,4,1,whitf001,22,FBBFFFX,53/G5
+play,4,1,balbs001,11,SBX,5/P5DF/FL
+play,4,1,quirj001,01,SX,43/G4M
+play,5,0,shelj001,21,BBCX,63/G6
+play,5,0,dempr001,32,CBFBBB,W
+play,5,0,bonij001,11,CB>X,53/G5.1-2
+play,5,0,younm002,22,BCSBFS,K
+play,5,1,pryog001,12,CFFBS,K
+play,5,1,salaa001,12,BSCS,K
+play,5,1,wilsw001,10,BX,7/F7
+play,6,0,lacyl001,10,BX,63/G6
+play,6,0,lynnf001,22,BCCBX,41(B)/G34D
+play,6,0,ripkc001,12,BFSS,K
+play,6,1,smitl002,11,KBX,S9/L89S
+play,6,1,kingm001,02,11C1F1X,S8/G6M.1-3
+play,6,1,ortaj001,00,,NP
 sub,martt001,"Tippy Martinez",0,0,1
-play,6,1,ortaj001,,,NP
+play,6,1,ortaj001,00,,NP
 sub,mcrah001,"Hal McRae",1,4,11
-play,6,1,mcrah001,,,4
-play,6,1,whitf001,,,W.1-2
-play,6,1,balbs001,,,W.3-H;2-3;1-2
-play,6,1,quirj001,,,NP
+play,6,1,mcrah001,20,B1BX,4/P4
+play,6,1,whitf001,32,SCBB*B>F11B,W.1-2
+play,6,1,balbs001,32,BBFFFBFFB,W.3-H;2-3;1-2
+play,6,1,quirj001,00,,NP
 sub,bretg001,"George Brett",1,7,11
-play,6,1,bretg001,,,K
-play,6,1,pryog001,,,NP
-sub,sneln001,"Nat Snell",0,0,1
-play,6,1,pryog001,,,53
-play,7,0,benij001,,,NP
+play,6,1,bretg001,22,BCBSS,K
+play,6,1,pryog001,00,,NP
+sub,sneln001,"Nate Snell",0,0,1
+play,6,1,pryog001,32,LBBSBX,53/G5
+play,7,0,benij001,00,,NP
 sub,sundj001,"Jim Sundberg",1,7,2
-play,7,0,benij001,,,S8/L78
-play,7,0,rayff001,,,W.1-2
-play,7,0,shelj001,,,NP
+play,7,0,benij001,12,FFBX,S8/L8S
+play,7,0,rayff001,30,BB11BB,W.1-2
+play,7,0,shelj001,00,,NP
 sub,blacb001,"Buddy Black",1,0,1
-play,7,0,shelj001,,,K
-play,7,0,dempr001,,,7
-play,7,0,bonij001,,,NP
+play,7,0,shelj001,22,BFBFS,K
+play,7,0,dempr001,00,X,7/F7
+play,7,0,bonij001,00,,NP
 sub,murre001,"Eddie Murray",0,9,11
-play,7,0,murre001,,,64(1)/FO/G
-play,7,1,salaa001,,,NP
+play,7,0,murre001,12,CFBFX,64(1)/FO/G6
+play,7,1,salaa001,00,,NP
 sub,wigga001,"Al Wiggins",0,9,4
-play,7,1,salaa001,,,63
-play,7,1,wilsw001,,,S8/G4M
-play,7,1,smitl002,,,CS2(26)
-play,7,1,smitl002,,,3/G
-play,8,0,younm002,,,NP
+play,7,1,salaa001,02,FFX,63/G6M
+play,7,1,wilsw001,00,X,S8/G6M
+play,7,1,smitl002,11,1S1*B>S,CS2(26)
+play,7,1,smitl002,12,1S1*B>S.FX,3/G3
+play,8,0,younm002,00,,NP
 sub,jonel001,"Lynn Jones",1,2,7
-play,8,0,younm002,,,8
-play,8,0,lacyl001,,,53
-play,8,0,lynnf001,,,K
-play,8,1,kingm001,,,13
-play,8,1,mcrah001,,,S9/F9S
-play,8,1,whitf001,,,64(1)3/GDP
-play,9,0,ripkc001,,,13
-play,9,0,benij001,,,9
-play,9,0,rayff001,,,53
+play,8,0,younm002,21,BCBX,8/F8D
+play,8,0,lacyl001,11,BFX,53/G56
+play,8,0,lynnf001,22,BBSFS,K
+play,8,1,kingm001,02,CFFX,13/G3S
+play,8,1,mcrah001,00,X,S8/L8
+play,8,1,whitf001,22,CFBBX,54(1)3/GDP/G5
+play,9,0,ripkc001,22,CBFBX,13/G1
+com,"Black knocked it down with his bare hand"
+play,9,0,benij001,00,X,9/F9
+play,9,0,rayff001,01,FX,53/G5L
 data,er,bordr001,3
 data,er,martt001,0
 data,er,sneln001,0

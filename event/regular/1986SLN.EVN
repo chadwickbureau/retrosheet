@@ -1071,15 +1071,16 @@ info,ump1b,rennd901
 info,ump2b,monte901
 info,ump3b,brocf901
 info,scorer,"B. MacInnes"
-info,inputter,"K. McKusick"
+info,translator,"K. McKusick/Townsend"
+info,inputter,"K. McKusick/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,88
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,165
 info,attendance,44769
 info,wp,ferns001
@@ -1104,95 +1105,108 @@ start,heatm001,"Mike Heath",1,6,2
 start,pendt001,"Terry Pendleton",1,7,5
 start,smito001,"Ozzie Smith",1,8,6
 start,cox-d001,"Danny Cox",1,9,1
-play,1,0,dyksl001,,,HR/9
-play,1,0,backw001,,,5/L
-play,1,0,hernk001,,,S8
-play,1,0,strad001,,,S9.1-2
-play,1,0,cartg001,,,D8.2-H;1-3
-play,1,0,heepd001,,,S9.3-H;2-H
-play,1,0,knigr001,,,64(1)3/GDP
-play,1,1,colev001,,,W
-play,1,1,mcgew001,,,SB2
-play,1,1,mcgew001,,,13
-play,1,1,herrt001,,,S8.2-3
-play,1,1,clarj001,,,54(1)/FO/G.3-H;B-1
-play,1,1,landt001,,,8
-play,2,0,johnh001,,,S7
-play,2,0,ferns001,,,24/SH.1-2
-play,2,0,dyksl001,,,43.2-3
-play,2,0,backw001,,,43
-play,2,1,heatm001,,,K
-play,2,1,pendt001,,,8
-play,2,1,smito001,,,K
-play,3,0,hernk001,,,FLE2
-play,3,0,hernk001,,,S9
-play,3,0,strad001,,,3(B)6(1)/GDP
-play,3,0,cartg001,,,53
-play,3,1,cox-d001,,,NP
+play,1,0,dyksl001,21,LBBX,HR/F9D
+com,"Over RF wall at the 383' sign"
+play,1,0,backw001,32,FLBBBX,5/L5
+com,"Pendleton: leaping catch"
+play,1,0,hernk001,11,BCX,S8/G6M
+play,1,0,strad001,22,FSBBX,S9/G34.1-2
+play,1,0,cartg001,32,C*BFFBFBX,D8/F78XD.2-H;1-3
+play,1,0,heepd001,20,*BBX,S9/L9.3-H;2-H
+play,1,0,knigr001,01,FX,64(1)3/GDP/G6
+play,1,1,colev001,30,BBBB,W
+play,1,1,mcgew001,00,11>C,SB2
+play,1,1,mcgew001,11,11>C.BX,13/G1
+play,1,1,herrt001,01,CX,S8/L8S.2-3
+play,1,1,clarj001,00,X,54(1)/FO/G5L.3-H;B-1
+com,"Knight: diving backhanded stop"
+play,1,1,landt001,11,BCX,8/F8D
+play,2,0,johnh001,20,BBX,S7/L7S
+play,2,0,ferns001,00,X,24/BG2/SH.1-2
+play,2,0,dyksl001,31,CBBBX,43/G4.2-3
+play,2,0,backw001,02,FFX,43/G34
+play,2,1,heatm001,02,CSS,K
+play,2,1,pendt001,01,FX,8/L8
+play,2,1,smito001,12,FBCS,K
+play,3,0,hernk001,21,BFBF,FLE2/P2F
+com,"Heath had trouble with the sun"
+play,3,0,hernk001,22,BFBF.X,S49/L4D
+com,"Off Heath's glove to Landrum in short RF"
+play,3,0,strad001,32,FBBCBX,3(B)6(1)/GDP/G3L
+play,3,0,cartg001,11,FBX,53/G56
+com,"Pendleton: diving stop"
+play,3,1,cox-d001,00,,NP
 sub,lawlt001,"Tom Lawless",1,9,11
-play,3,1,lawlt001,,,K
-play,3,1,colev001,,,K
-play,3,1,mcgew001,,,K
-play,4,0,heepd001,,,NP
+play,3,1,lawlt001,02,CCFS,K
+play,3,1,colev001,12,CBSS,K
+play,3,1,mcgew001,02,CSS,K
+play,4,0,heepd001,00,,NP
 sub,conrt001,"Tim Conroy",1,9,1
-play,4,0,heepd001,,,8
-play,4,0,knigr001,,,K
-play,4,0,johnh001,,,2/FL
-play,4,1,herrt001,,,8
-play,4,1,clarj001,,,K
-play,4,1,landt001,,,6
-play,5,0,ferns001,,,K
-play,5,0,dyksl001,,,8
-play,5,0,backw001,,,7
-play,5,1,heatm001,,,4
-play,5,1,pendt001,,,9
-play,5,1,smito001,,,W
-play,5,1,conrt001,,,SB2
-play,5,1,conrt001,,,43
-play,6,0,hernk001,,,8
-play,6,0,strad001,,,7
-play,6,0,cartg001,,,53
-play,6,1,colev001,,,K
-play,6,1,mcgew001,,,K
-play,6,1,herrt001,,,5
-play,7,0,heepd001,,,31
-play,7,0,knigr001,,,13
-play,7,0,johnh001,,,6
-play,7,1,clarj001,,,K
-play,7,1,landt001,,,9
-play,7,1,heatm001,,,4
-play,8,0,ferns001,,,K
-play,8,0,dyksl001,,,W
-play,8,0,backw001,,,SB2
-play,8,0,backw001,,,K
-play,8,0,hernk001,,,W
-play,8,0,strad001,,,7
-play,8,1,pendt001,,,NP
+play,4,0,heepd001,32,BBBCFX,8/F8XD
+play,4,0,knigr001,02,CSFS,K
+play,4,0,johnh001,11,BSX,2/P2F/FL
+play,4,1,herrt001,11,CBX,8/F89
+play,4,1,clarj001,32,BBFCBS,K
+play,4,1,landt001,22,BFBFFX,6/P4
+com,"Johnson collided with Backman"
+play,5,0,ferns001,32,BFFBFBC,K/C
+play,5,0,dyksl001,22,BBCCX,8/F89D
+play,5,0,backw001,00,X,7/F7
+play,5,1,heatm001,12,BCCX,4/P34
+play,5,1,pendt001,20,BBX,9/F9
+play,5,1,smito001,31,BFBBB,W
+play,5,1,conrt001,10,B>C,SB2
+com,"No throw"
+play,5,1,conrt001,11,B>C.X,43/G4
+play,6,0,hernk001,21,BCBX,8/F8
+play,6,0,strad001,00,X,7/F7LD
+play,6,0,cartg001,31,CBBBX,53/G56
+play,6,1,colev001,32,BSBSBC,K/C
+play,6,1,mcgew001,02,FSS,K
+play,6,1,herrt001,22,FCBBFX,5/P1
+play,7,0,heepd001,00,X,31/G34
+play,7,0,knigr001,00,X,13/G1S
+play,7,0,johnh001,11,CBX,6/P6MD
+play,7,1,clarj001,12,CBSFC,K/C
+play,7,1,landt001,01,CX,9/F9D
+play,7,1,heatm001,00,X,4/P4D
+play,8,0,ferns001,02,FCT,K
+play,8,0,dyksl001,30,BBBB,W
+play,8,0,backw001,02,>FL11>C,K+SB2/C
+play,8,0,hernk001,31,BBBCB,W
+play,8,0,strad001,21,FBBX,7/F7LDW
+play,8,1,pendt001,00,,NP
 sub,santr001,"Rafael Santana",0,8,6
-play,8,1,pendt001,,,9
-play,8,1,smito001,,,E6.B-1
-play,8,1,conrt001,,,NP
+play,8,1,pendt001,10,BX,9/F89
+play,8,1,smito001,21,CBBX,E6/G56.B-1
+com,"Santana fumbled it"
+play,8,1,conrt001,00,,NP
 sub,whitj001,"Jerry White",1,9,11
-play,8,1,whitj001,,,54(1)/FO/G.B-1
-play,8,1,colev001,,,K
-play,9,0,cartg001,,,NP
+play,8,1,whitj001,32,BF1S111BF11BX,54(1)/FO/G5.B-1
+com,"Smith was caught in a run-down on the 2nd pickoff throw but"
+com,"made it back to 1B."
+com,"Smith's take-out slide prevented Backman's relay to 1B."
+play,8,1,colev001,32,CBBBFS,K
+play,9,0,cartg001,00,,NP
 sub,daylk001,"Ken Dayley",1,9,1
-play,9,0,cartg001,,,43
-play,9,0,heepd001,,,S8
-play,9,0,knigr001,,,4
-play,9,0,santr001,,,53
-play,9,1,mcgew001,,,S8
-play,9,1,herrt001,,,NP
+play,9,0,cartg001,22,FFBBX,43/G4M
+play,9,0,heepd001,00,X,S8/G6M
+play,9,0,knigr001,11,*BSX,4/P3
+play,9,0,santr001,20,BB+1X,53/G5
+play,9,1,mcgew001,01,FX,S8/G4M
+play,9,1,herrt001,00,,NP
 sub,mcdor001,"Roger McDowell",0,9,1
-play,9,1,herrt001,,,D7.1-H
-play,9,1,clarj001,,,S7.2-H
-play,9,1,landt001,,,NP
+play,9,1,herrt001,01,CX,D7/L5D.1-H
+play,9,1,clarj001,20,BBX,S7/L7DW.2-H
+com,"Missed HR by 2'"
+play,9,1,landt001,00,,NP
 sub,oquej001,"Jose Oquendo",1,4,12
-play,9,1,landt001,,,S3/BG.1-2
-play,9,1,heatm001,,,15(2)/FO/G.1-2;B-1
-play,9,1,pendt001,,,NP
+play,9,1,landt001,12,LBLX,S3/BG34S.1-2
+play,9,1,heatm001,10,B2X,15(2)/FO/BG25.1-2;B-1
+play,9,1,pendt001,00,,NP
 sub,orosj001,"Jesse Orosco",0,9,1
-play,9,1,pendt001,,,46(1)3/GDP
+play,9,1,pendt001,00,X,46(1)3/GDP/G4M
+com,"Backman: diving stop"
 data,er,ferns001,2
 data,er,mcdor001,1
 data,er,orosj001,0

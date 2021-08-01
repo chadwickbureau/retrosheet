@@ -2616,11 +2616,12 @@ info,umphome,hirsj901
 info,ump1b,sprim901
 info,ump2b,mckej901
 info,ump3b,merrd901
-info,scorer,"Bretz"
-info,inputter,"Meyerhoff"
+info,scorer,"Bretz,601"
+info,translator,"Meyerhoff/Townsend"
+info,inputter,"Meyerhoff/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,oscorer,munse701
+info,pitches,pitches
+info,scorer,munse701
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -2653,103 +2654,120 @@ start,gricb001,"Bobby Grich",1,7,5
 start,narrj001,"Jerry Narron",1,8,2
 start,schod001,"Dick Schofield",1,9,6
 start,johnt001,"Tommy John",1,0,1
-play,1,0,hendr001,,,K
-play,1,0,mattd001,,,S
-play,1,0,winfd001,,,S.1-2
-play,1,0,bayld001,,,54(1)3/GDP
-play,1,1,pettg001,,,S
-play,1,1,carer001,,,SB2
-play,1,1,carer001,,,W
-play,1,1,joner002,,,K
-play,1,1,jackr001,,,3/G.2-3;1-2
-play,1,1,downb001,,,8
-play,2,0,grifk001,,,W
-play,2,0,wyneb001,,,8
-play,2,0,randw001,,,K
-play,2,0,berrd001,,,S.1-2
-play,2,0,meacb001,,,HP.2-3;1-2
-play,2,0,hendr001,,,S.3-H;2-H;1-2
-play,2,0,mattd001,,,PB.2-3;1-2
-play,2,0,mattd001,,,143(B)/G
-play,2,1,wilfr001,,,E5.B-2
-play,2,1,gricb001,,,53
-play,2,1,narrj001,,,8.2-3
-play,2,1,schod001,,,W
-play,2,1,pettg001,,,K
-play,3,0,winfd001,,,43
-play,3,0,bayld001,,,6/L
-play,3,0,grifk001,,,8
-play,3,1,carer001,,,8
-play,3,1,joner002,,,8
-play,3,1,jackr001,,,W
-play,3,1,downb001,,,54(1)/FO/G
-play,4,0,wyneb001,,,5
-play,4,0,randw001,,,8
-play,4,0,berrd001,,,4
-play,4,1,wilfr001,,,S
-play,4,1,gricb001,,,K
-play,4,1,narrj001,,,S.1-3
-play,4,1,schod001,,,S.3-H;1-2
-play,4,1,pettg001,,,K
-play,4,1,carer001,,,W.2-3;1-2
-play,4,1,joner002,,,3/G
-play,5,0,meacb001,,,53
-play,5,0,hendr001,,,K
-play,5,0,mattd001,,,43
-play,5,1,jackr001,,,43
-play,5,1,downb001,,,W
-play,5,1,wilfr001,,,K
-play,5,1,gricb001,,,6
-play,6,0,winfd001,,,8
-play,6,0,bayld001,,,63
-play,6,0,grifk001,,,S
-play,6,0,wyneb001,,,7
-play,6,1,narrj001,,,3/G
-play,6,1,schod001,,,K
-play,6,1,pettg001,,,S
-play,6,1,carer001,,,PO1(13)
-play,7,0,randw001,,,S
-play,7,0,berrd001,,,14/SH.1-2
-play,7,0,meacb001,,,D.2-H
-play,7,0,hendr001,,,NP
+play,1,0,hendr001,32,BCBFBS,K
+play,1,0,mattd001,11,CBX,S8/L8
+play,1,0,winfd001,10,BX,S7/G56.1-2
+play,1,0,bayld001,00,X,54(1)3/GDP/G5L
+play,1,1,pettg001,21,BCBX,S8/G4M
+play,1,1,carer001,00,>C,SB2
+play,1,1,carer001,32,>CBBBFB,W
+play,1,1,joner002,12,CSBS,K
+play,1,1,jackr001,01,CX,3/G3L.2-3;1-2
+play,1,1,downb001,00,X,8/F8D
+play,2,0,grifk001,30,BBBB,W
+play,2,0,wyneb001,22,1C1LBFF1BF1X,8/F8D
+play,2,0,randw001,12,C1B1CS,K
+play,2,0,berrd001,22,BCBFX,S7/G56.1-2
+play,2,0,meacb001,11,BFH,HP.2-3;1-2
+com,"Hit on the back foot"
+play,2,0,hendr001,10,BX,S8/G6M.3-H;2-H;1-2
+play,2,0,mattd001,10,*BB,PB.2-3;1-2
+play,2,0,mattd001,21,*BB.CX,143(B)/G13
+com,"Deflected off John's glove"
+play,2,1,wilfr001,22,CBSBFX,E5/P5.B-2
+com,"The 2-2 foul was dropped by Meacham after Berra lost it in"
+com,"the sun.  On the next pitch, Berra again struggled with the"
+com,"sun and dropped it."
+play,2,1,gricb001,02,CSX,53/G56
+play,2,1,narrj001,22,CBBFX,8/F89XD.2-3
+play,2,1,schod001,32,CCBBBB,W
+play,2,1,pettg001,02,1CCS,K
+play,3,0,winfd001,11,BCX,43/G4
+play,3,0,bayld001,01,CX,6/L6
+play,3,0,grifk001,01,CX,8/F78S
+play,3,1,carer001,00,X,8/F8
+play,3,1,joner002,32,BFBCFBFFX,8/F89D
+play,3,1,jackr001,30,BBBB,W
+play,3,1,downb001,22,CB11BFX,54(1)/FO/G5
+play,4,0,wyneb001,12,BCFX,5/P5D
+play,4,0,randw001,22,BCBFX,8/F8XD
+play,4,0,berrd001,20,BBX,4/P4MD
+play,4,1,wilfr001,10,BX,S9/G34
+play,4,1,gricb001,12,CCFBS,K
+com,"PO1 attempt by Wynegar after 3rd strike"
+play,4,1,narrj001,00,X,S8/F78S.1-3
+play,4,1,schod001,00,X,S8/F8S.3-H;1-2
+play,4,1,pettg001,12,SC*BS,K
+play,4,1,carer001,32,BFBFUB>B,W.2-3;1-2
+com,"The 2-2 'unknown' pitch was actually ball 3 but HP Umpire"
+com,"Hirschbeck insisted the pitch was ball 2."
+play,4,1,joner002,01,SX,3/G3
+play,5,0,meacb001,12,CFBX,53/G56
+play,5,0,hendr001,12,BCFC,K/C
+play,5,0,mattd001,02,CFX,43/G4
+play,5,1,jackr001,20,BBX,43/G4
+com,"Jackson hustled down the line and made it a close play when"
+com,"Randolph bobbled the routine grounder."
+play,5,1,downb001,32,CSBBBB,W
+play,5,1,wilfr001,12,B1CCS,K
+play,5,1,gricb001,22,FB1FB1X,6/P5D
+play,6,0,winfd001,11,CBX,8/F8XDW
+com,"Pettis hurt his right groin muscle while backpedaling and/or"
+com,"bumping into the wall."
+play,6,0,bayld001,01,FX,63/G6
+play,6,0,grifk001,10,BX,S9/G34
+play,6,0,wyneb001,20,BBX,7/F7D
+play,6,1,narrj001,01,CX,3/G3
+play,6,1,schod001,12,CBFFC,K/C
+play,6,1,pettg001,12,CBCX,S7/L56D
+com,"Pettis limped down to 1B; the ensuing six pickoff attempts"
+com,"didn't help his injury."
+play,6,1,carer001,11,1111C1B1,PO1(13)
+play,7,0,randw001,01,CX,S7/G56
+play,7,0,berrd001,11,LBX,14/BG23/SH.1-2
+play,7,0,meacb001,32,BFBBSX,D7/L6D.2-H
+com,"Meacham stretched it into a double"
+play,7,0,hendr001,00,,NP
 sub,corbd001,"Doug Corbett",1,0,1
-play,7,0,hendr001,,,W
-play,7,0,mattd001,,,9.2-3
-play,7,0,winfd001,,,SB2
-play,7,0,winfd001,,,3/FL
-play,7,1,carer001,,,43
-play,7,1,joner002,,,S
-play,7,1,jackr001,,,NP
+play,7,0,hendr001,32,*BCBBFB,W
+play,7,0,mattd001,22,BCBFFX,9/F9D.2-3
+play,7,0,winfd001,00,>B,SB2
+com,"No throw"
+play,7,0,winfd001,10,>B.X,3/P3F/FL
+play,7,1,carer001,21,BBCX,43/G4M
+play,7,1,joner002,00,X,S9/L34D
+play,7,1,jackr001,00,,NP
 sub,fishb001,"Brian Fisher",0,0,1
-play,7,1,jackr001,,,16(1)3/GDP
-play,8,0,bayld001,,,S
-play,8,0,grifk001,,,8
-play,8,0,wyneb001,,,S.1-3
-play,8,0,randw001,,,D.3-H;1-H;B-3(THH)
-play,8,0,berrd001,,,NP
+play,7,1,jackr001,31,*B1FBBX,16(1)3/GDP/G1
+play,8,0,bayld001,11,CBX,S7/L7
+play,8,0,grifk001,00,X,8/F8XD
+com,"Pettis limped after it"
+play,8,0,wyneb001,10,B1X,S9/G34.1-3
+play,8,0,randw001,10,PX,D9/L9LS.3-H;1-H;B-3(THH)
+play,8,0,berrd001,00,,NP
 sub,clemp001,"Pat Clements",1,0,1
-play,8,0,berrd001,,,NP
+play,8,0,berrd001,00,,NP
 sub,paglm001,"Mike Pagliarulo",0,8,11
-play,8,0,paglm001,,,13/SH.3-H
-play,8,0,meacb001,,,W
-play,8,0,hendr001,,,NP
+play,8,0,paglm001,31,PCBB>X,13/BG1S/SH.3-H
+play,8,0,meacb001,30,BBBB,W
+play,8,0,hendr001,00,,NP
 sub,clibs001,"Stew Cliburn",1,0,1
-play,8,0,hendr001,,,S.1-3
-play,8,0,mattd001,,,SB2
-play,8,0,mattd001,,,53
-play,8,1,downb001,,,NP
+play,8,0,hendr001,00,>X,S9/L34D.1-3
+play,8,0,mattd001,00,1>B,SB2
+play,8,0,mattd001,21,1>B.BFX,53/G5
+play,8,1,downb001,00,,NP
 sub,paglm001,"Mike Pagliarulo",0,8,5
-play,8,1,downb001,,,K
-play,8,1,wilfr001,,,8
-play,8,1,gricb001,,,63
-play,9,0,winfd001,,,NP
+play,8,1,downb001,12,BCFS,K
+play,8,1,wilfr001,10,BX,8/F89
+play,8,1,gricb001,00,X,63/G6
+play,9,0,winfd001,00,,NP
 sub,benij001,"Juan Beniquez",1,1,8
-play,9,0,winfd001,,,6
-play,9,0,bayld001,,,13
-play,9,0,grifk001,,,8
-play,9,1,narrj001,,,8
-play,9,1,schod001,,,4
-play,9,1,benij001,,,8
+play,9,0,winfd001,10,BX,6/P6D
+play,9,0,bayld001,11,BSX,13/G1
+play,9,0,grifk001,11,BSX,8/F8D
+play,9,1,narrj001,21,FBBX,8/F89
+play,9,1,schod001,10,BX,4/P3D
+play,9,1,benij001,00,X,8/F8S
 data,er,cowlj001,1
 data,er,fishb001,0
 data,er,johnt001,3
@@ -5458,9 +5476,10 @@ play,7,1,carer001,,,S
 play,7,1,benij001,,,D.1-H
 com,"ej,vukog001,P,sprim901,Runner placement on interference (Kicked resin bag)"
 com,"$Indians Vukovich ejected by HP umpire Springstead arguing"
-com,"decision that the runner from 1st was allowed to score since"
-com,"he claimed there was fan interference and com,kicked the"
-com,"resin bag during the argument"
+com,"decision that runner from 1st was allowed to score on fan"
+com,"interference down right field line; Vukovich argued with 3B"
+com,"umpire McKean who made the call and then was ejected by"
+com,"Springstead when he kicked the resin bag"
 play,7,1,scond001,,,NP
 sub,nixoo001,"Otis Nixon",0,7,7
 play,7,1,scond001,,,NP
@@ -9878,9 +9897,9 @@ play,1,0,murre001,,,WP.1-2
 play,1,0,murre001,,,I
 play,1,0,younm002,,,W.2-3;1-2
 play,1,0,sheel001,,,K
-com,"ej,decid001,P,barnl901,Balls and strikes (from bench)"
-com,"$Orioles DeCinces, not in game, ejected by HP umpire Barnett"
-com,"from bench for arguing balls and strikes"
+com,"ej,decid001,P,barnl901,Check swing (from bench)"
+com,"$Angel DeCinces, not in game, ejected by HP umpire Barnett"
+com,"from bench for arguing check swing"
 play,1,1,downb001,,,8
 play,1,1,schod001,,,S/4
 play,1,1,benij001,,,46(1)3/GDP

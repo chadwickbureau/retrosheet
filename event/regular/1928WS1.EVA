@@ -440,7 +440,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,130
-info,attendance,0
+info,attendance,20000
 info,wp,pennh101
 info,lp,liseh101
 info,save,
@@ -593,7 +593,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,137
-info,attendance,0
+info,attendance,5000
 info,wp,pipgg101
 info,lp,gastm101
 info,save,moorw101
@@ -1074,7 +1074,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,121
-info,attendance,0
+info,attendance,10000
 info,wp,browl101
 info,lp,blaeg101
 info,save,
@@ -1571,7 +1571,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,105
-info,attendance,0
+info,attendance,2000
 info,wp,stewl101
 info,lp,jones104
 info,save,
@@ -4021,9 +4021,9 @@ info,number,1
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"336"
-info,translator,"Comly"
-info,inputter,"Comly"
+info,scorer,"336,408a"
+info,translator,"Comly/RWood"
+info,inputter,"Comly/RWood"
 info,inputtime,2011/10/27 5:48PM
 info,umphome,mcgob901
 info,ump1b,connt901
@@ -4083,57 +4083,55 @@ play,3,0,cochm101,??,,S7
 play,3,0,quinj102,??,,K
 play,3,0,dykej101,??,,46(1)/FO.B-2(E6/TH1)#
 play,3,0,cobbt101,??,,31
-play,3,1,harrb106,??,,6
+play,3,1,harrb106,??,,6/P
 play,3,1,barnr104,??,,T7
-play,3,1,goslg101,??,,4
-play,3,1,reevb101,??,,3
+play,3,1,goslg101,??,,4/P
+play,3,1,reevb101,??,,3/L
 play,4,0,hales101,??,,53
 play,4,0,simma101,??,,K
 play,4,0,foxxj101,??,,K
-play,4,1,judgj101,??,,99#
-play,4,1,blueo102,??,,2/P
+play,4,1,judgj101,??,,2
+play,4,1,blueo102,??,,2/FL
 play,4,1,ruelm101,??,,53
 play,5,0,millb110,??,,D7
-play,5,0,bolej101,??,,7/SF/DP.2XH(7842)
-com,"$Goose Goslin fell making catch"
+play,5,0,bolej101,??,,7/78/SF/DP.2XH(7842)
+com,"$Goslin fell making catch and Barnes took ball out of his glove"
+com,"and threw to Harris who threw out Miller trying to score from second"
 play,5,0,cochm101,??,,3/G
 play,5,1,braxg101,??,,53
-play,5,1,rices101,??,,S8
+play,5,1,rices101,??,,S6
 play,5,1,harrb106,??,,6/LDP.1X1(63)
 play,6,0,quinj102,??,,K
 play,6,0,dykej101,??,,53
-play,6,0,cobbt101,??,,2/P
+play,6,0,cobbt101,??,,3/P
 play,6,1,barnr104,??,,63
 play,6,1,goslg101,??,,S8
-play,6,1,reevb101,??,,SB2.1-3(E2/TH2)#
-com,"need E2; guessing here"
 play,6,1,reevb101,??,,K
+play,6,1,judgj101,??,,SB2.1-3(E2/TH2)
 play,6,1,judgj101,??,,W
+play,6,1,blueo102,??,,SB2
 play,6,1,blueo102,??,,9
 play,7,0,hales101,??,,8
 play,7,0,simma101,??,,43
-play,7,0,foxxj101,??,,T8
+play,7,0,foxxj101,??,,T8/78D
 play,7,0,millb110,??,,S7.3-H
-play,7,0,bolej101,??,,SB2#
+play,7,0,bolej101,??,,SB2
 play,7,0,bolej101,??,,13
 play,7,1,ruelm101,??,,53
-play,7,1,braxg101,??,,13
+play,7,1,braxg101,??,,13/BG
 play,7,1,rices101,??,,S9
-play,7,1,harrb106,??,,SB2#
-com,"need SB; guessing here"
+play,7,1,harrb106,??,,SB2
 play,7,1,harrb106,??,,9
 play,8,0,cochm101,??,,K
 play,8,0,quinj102,??,,K
 play,8,0,dykej101,??,,S8
 play,8,0,cobbt101,??,,D9.1-H
 play,8,0,hales101,??,,53
-play,8,1,barnr104,??,,T8
+play,8,1,barnr104,??,,T7
 play,8,1,goslg101,??,,8/SF.3-H
 play,8,1,reevb101,??,,63
 play,8,1,judgj101,??,,S9
-play,8,1,blueo102,??,,SB2#
-com,"need SB; guess here"
-play,8,1,blueo102,??,,4/P#
+play,8,1,blueo102,??,,4/P
 play,9,0,simma101,??,,63
 play,9,0,foxxj101,??,,63
 play,9,0,millb110,??,,63
@@ -4141,7 +4139,8 @@ play,9,1,ruelm101,??,,7
 play,9,1,braxg101,??,,13
 play,9,1,rices101,??,,S7
 play,9,1,harrb106,??,,S8.1-3
-play,9,1,barnr104,??,,S1.3-H;1-2
+play,9,1,barnr104,??,,DI.1-2
+play,9,1,barnr104,??,,S1.3-H;2-3
 data,er,quinj102,3
 data,er,braxg101,2
 id,WS1192806252
@@ -6506,7 +6505,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,139
-info,attendance,0
+info,attendance,2000
 info,wp,crowg102
 info,lp,hadlb101
 info,save,
@@ -7201,7 +7200,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,104
-info,attendance,0
+info,attendance,4000
 info,wp,braxg101
 info,lp,grays102
 info,save,
@@ -8746,7 +8745,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,95
-info,attendance,0
+info,attendance,8000
 info,wp,jones104
 info,lp,hoytw101
 info,save,

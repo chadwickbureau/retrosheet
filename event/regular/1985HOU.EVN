@@ -1358,16 +1358,17 @@ info,umphome,grege901
 info,ump1b,harvd901
 info,ump2b,pullf901
 info,ump3b,westj901
-info,scorer,"Stephenson"
-info,inputter,"WS Larkin"
+info,scorer,"Stephenson,601"
+info,translator,"WS Larkin,Townsend"
+info,inputter,"WS Larkin,Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,dome
 info,timeofgame,165
 info,attendance,9336
 info,wp,smitz001
@@ -1394,115 +1395,118 @@ start,reync001,"Craig Reynolds",1,8,6
 start,niekj001,"Joe Niekro",1,9,1
 play,1,0,washc001,,,W
 play,1,0,ramir001,,,SB2
-play,1,0,ramir001,,,53
+play,1,0,ramir001,,,53/G5
 play,1,0,kommb001,,,K
 play,1,0,murpd001,,,K
 play,1,1,dorab001,,,W
 play,1,1,bassk001,,,K
 play,1,1,walld001,,,CS2(2E6)
-play,1,1,walld001,,,63.2-3
+play,1,1,walld001,,,63/G6.2-3
 play,1,1,cruzj001,,,K
 play,2,0,hornb001,,,K
 play,2,0,chamc001,,,S
-play,2,0,oberk001,,,9
+play,2,0,oberk001,,,9/F9
 play,2,0,beneb001,,,4
 play,2,1,mumpj001,,,K
-play,2,1,garnp001,,,8
+play,2,1,garnp001,,,8/F8
 play,2,1,ashba001,,,K
-play,3,0,barkl001,,,9
+play,3,0,barkl001,,,9/F9
 play,3,0,washc001,,,S
 play,3,0,ramir001,,,SB2
 play,3,0,ramir001,,,PB.2-3
 play,3,0,ramir001,,,K
-play,3,0,kommb001,,,6
-play,3,1,reync001,,,8
-play,3,1,niekj001,,,K
-play,3,1,dorab001,,,W
-play,3,1,bassk001,,,8
-play,4,0,murpd001,,,S
-play,4,0,hornb001,,,E6/G.1-2;B-1
-play,4,0,chamc001,,,46(1)3/GDP.2-3
-play,4,0,oberk001,,,8
-play,4,1,walld001,,,D
-play,4,1,cruzj001,,,5/FL
-play,4,1,mumpj001,,,S.2-H
-play,4,1,garnp001,,,5(B)3(1)/DP
-play,5,0,beneb001,,,6
-play,5,0,barkl001,,,K
-play,5,0,washc001,,,43
-play,5,1,ashba001,,,8
-play,5,1,reync001,,,9
-play,5,1,niekj001,,,K
-play,6,0,ramir001,,,S
-play,6,0,kommb001,,,8
-play,6,0,murpd001,,,53.1-2
-play,6,0,hornb001,,,5/FL
-play,6,1,dorab001,,,D
-play,6,1,bassk001,,,6
-play,6,1,walld001,,,31.2-3
-play,6,1,cruzj001,,,63
-play,7,0,chamc001,,,43
-play,7,0,oberk001,,,W
-play,7,0,beneb001,,,16(1)3/GDP
-play,7,1,mumpj001,,,63
-play,7,1,garnp001,,,53
-play,7,1,ashba001,,,3/G
-play,8,0,barkl001,,,NP
+play,3,0,kommb001,,,6/P5D
+play,3,1,reync001,21,CBBX,8/F8D
+play,3,1,niekj001,22,CCBBFS,K
+play,3,1,dorab001,32,CCBBFBB,W
+play,3,1,bassk001,00,X,8/F8XD
+play,4,0,murpd001,21,SBBX,S8/G6M
+play,4,0,hornb001,10,1B1X,E6/G56.1-2;B-1
+play,4,0,chamc001,32,BBBCFX,46(1)3/GDP/G4.2-3
+play,4,0,oberk001,01,SX,8/F8XD
+play,4,1,walld001,00,X,D78/F78XD
+com,"Off Komminsk's glove on the run"
+play,4,1,cruzj001,22,FBFBX,5/P5F/FL
+play,4,1,mumpj001,01,FX,S7/G56.2-H
+play,4,1,garnp001,01,FX,5/L5/LDP.1X1(53)
+play,5,0,beneb001,10,BX,6/P56
+play,5,0,barkl001,12,FFBS,K
+play,5,0,washc001,21,CBBX,43/G4
+play,5,1,ashba001,11,SBX,8/F8D
+play,5,1,reync001,31,BFBBX,9/F9DW
+play,5,1,niekj001,32,FFBBBS,K
+play,6,0,ramir001,01,FX,S9/L89S
+play,6,0,kommb001,00,X,8/L8D
+play,6,0,murpd001,10,B>X,53/G5.1-2
+play,6,0,hornb001,11,F*BX,5/P5F/FL
+play,6,1,dorab001,11,CBX,D7/F7S
+com,"When the ball took a high AstroTurf bounce, Doran took 2B"
+play,6,1,bassk001,11,BSX,6/P6
+play,6,1,walld001,21,CBBX,31/G34.2-3
+com,"Nice play by Chambliss and Barker"
+play,6,1,cruzj001,11,CBX,63/G6
+play,7,0,chamc001,32,BCBFBX,43/G4
+play,7,0,oberk001,30,BBBB,W
+play,7,0,beneb001,11,FPX,16(1)3/GDP/G1
+play,7,1,mumpj001,00,X,63/G6
+play,7,1,garnp001,32,BBFFBFX,53/G5
+play,7,1,ashba001,00,X,3/G3
+play,8,0,barkl001,00,,NP
 sub,perrg001,"Gerald Perry",0,9,11
-play,8,0,perrg001,,,63
-play,8,0,washc001,,,S
-play,8,0,ramir001,,,SB2
-play,8,0,ramir001,,,S.2-H
-play,8,0,kommb001,,,43.1-2
-play,8,0,murpd001,,,IW
-play,8,0,hornb001,,,WP.2-3;1-2
-play,8,0,hornb001,,,W
-play,8,0,chamc001,,,NP
+play,8,0,perrg001,22,BCFBFX,63/G6
+play,8,0,washc001,21,CBBX,S7/G56
+play,8,0,ramir001,21,P1C1B>S,SB2
+play,8,0,ramir001,22,P1C1B>SX,S8/L8S.2-H
+play,8,0,kommb001,12,BCSX,43/G34.1-2
+play,8,0,murpd001,30,IIII,IW
+play,8,0,hornb001,00,B,WP.2-3;1-2
+play,8,0,hornb001,31,B.S*BBB,W
+play,8,0,chamc001,00,,NP
 sub,smitd001,"Dave Smith",1,7,1
-play,8,0,chamc001,,,NP
+play,8,0,chamc001,00,,NP
 sub,bailm001,"Mark Bailey",1,9,2
-play,8,0,chamc001,,,K
-play,8,1,reync001,,,NP
+play,8,0,chamc001,22,*BFBSFS,K
+play,8,1,reync001,00,,NP
 sub,thond001,"Dickie Thon",1,8,11
-play,8,1,thond001,,,NP
+play,8,1,thond001,00,,NP
 sub,smitz001,"Zane Smith",0,5,1
-play,8,1,thond001,,,NP
+play,8,1,thond001,00,,NP
 sub,oberk001,"Ken Oberkfell",0,7,5
-play,8,1,thond001,,,NP
+play,8,1,thond001,00,,NP
 sub,hubbg001,"Glenn Hubbard",0,9,4
-play,8,1,thond001,,,K
-play,8,1,bailm001,,,63
-play,8,1,dorab001,,,9
-play,9,0,oberk001,,,NP
+play,8,1,thond001,22,BSSBC,K/C
+play,8,1,bailm001,22,CBFBX,63/G6
+play,8,1,dorab001,10,BX,9/F9S
+play,9,0,oberk001,00,,NP
 sub,thond001,"Dickie Thon",1,8,6
-play,9,0,oberk001,,,9
-play,9,0,beneb001,,,8
-play,9,0,hubbg001,,,8
-play,9,1,bassk001,,,63
-play,9,1,walld001,,,NP
+play,9,0,oberk001,11,FBX,9/F9
+play,9,0,beneb001,,,8/F8
+play,9,0,hubbg001,,,8/F8
+play,9,1,bassk001,,,63/G6
+play,9,1,walld001,00,,NP
 sub,cabee001,"Enos Cabell",1,3,11
-play,9,1,cabee001,,,7
-play,9,1,cruzj001,,,43
-play,10,0,washc001,,,NP
+play,9,1,cabee001,,,7/F7
+play,9,1,cruzj001,,,43/G4
+play,10,0,washc001,00,,NP
 sub,cabee001,"Enos Cabell",1,3,3
 play,10,0,washc001,,,S
 play,10,0,ramir001,,,36(1)/FO
 play,10,0,kommb001,,,64(1)/FO
 play,10,0,murpd001,,,S.1-H(E6/TH);B-3
-play,10,0,smitz001,,,NP
+play,10,0,smitz001,00,,NP
 sub,harpt001,"Terry Harper",0,5,11
 play,10,0,harpt001,,,S.3-H(UR)
-play,10,0,chamc001,,,NP
+play,10,0,chamc001,00,,NP
 sub,dipif001,"Frank DiPino",1,3,1
-play,10,0,chamc001,,,NP
+play,10,0,chamc001,00,,NP
 sub,spilh001,"Harry Spilman",1,7,3
-play,10,0,chamc001,,,7
-play,10,1,mumpj001,,,NP
+play,10,0,chamc001,,,7/F7
+play,10,1,mumpj001,00,,NP
 sub,suttb001,"Bruce Sutter",0,5,1
-play,10,1,mumpj001,,,43
+play,10,1,mumpj001,,,43/G4
 play,10,1,garnp001,,,HR
-play,10,1,spilh001,,,43
-play,10,1,thond001,,,3/FL
+play,10,1,spilh001,,,43/G4
+play,10,1,thond001,,,3/P3F/FL
 data,er,barkl001,1
 data,er,smitz001,0
 data,er,suttb001,1

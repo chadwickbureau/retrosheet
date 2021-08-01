@@ -12,8 +12,8 @@ info,umphome,garcr901
 info,ump1b,koscg901
 info,ump2b,reedr901
 info,ump3b,fordd901
-info,scorer,"Bob Levittan"
-info,inputter,"Bob Levittan"
+info,scorer,"Bob Levittan/Townsend"
+info,inputter,"Bob Levittan/Townsend"
 info,howscored,unknown
 info,pitches,none
 info,temp,0
@@ -21,7 +21,7 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,146
 info,attendance,55602
 info,wp,guidr001
@@ -48,9 +48,11 @@ start,berrd001,"Dale Berra",1,7,5
 start,wyneb001,"Butch Wynegar",1,8,2
 start,meacb001,"Bob Meacham",1,9,6
 start,guidr001,"Ron Guidry",1,0,1
-play,1,0,smitl002,,,5/L
+play,1,0,smitl002,,UX,5/L
+com,"Berra: leaping stab"
 play,1,0,wilsw001,,,63
 play,1,0,bretg001,,,K
+com,"Guidry threw 8 pitches in the 1st"
 play,1,1,hendr001,,,53
 play,1,1,randw001,,,63
 play,1,1,mattd001,,,3/L
@@ -61,8 +63,8 @@ play,2,1,winfd001,,,W
 play,2,1,roeng001,,,K
 play,2,1,cotth001,,,9
 play,2,1,berrd001,,,S8.1-2
-play,2,1,wyneb001,,,HR/7.2-H;1-H
-play,2,1,meacb001,,,S/G6
+play,2,1,wyneb001,,,HR/F7LD.2-H;1-H
+play,2,1,meacb001,,,S6/G
 play,2,1,hendr001,,,SB2
 play,2,1,hendr001,,,K
 play,3,0,motld001,,,D9/L
@@ -74,28 +76,31 @@ play,3,1,mattd001,,,63
 play,3,1,winfd001,,,23
 play,4,0,wilsw001,,,K
 play,4,0,bretg001,,,W
-play,4,0,mcrah001,,,HR.1-H
+play,4,0,mcrah001,,,HR/F9D.1-H
+com,"Into RF stands (1st row) to the right of the 353' sign"
 play,4,0,whitf001,,,K
 play,4,0,balbs001,,,8
 play,4,1,roeng001,,,43
 play,4,1,cotth001,,,S9/L
-play,4,1,berrd001,,,E5.1-2;B-1
+play,4,1,berrd001,,,E5/G.1-2;B-1
 play,4,1,wyneb001,,,64(1)3/GDP
 play,5,0,motld001,,,K
 play,5,0,sundj001,,,3/G
 play,5,0,salaa001,,,K
-play,5,1,meacb001,,,S7/L
-play,5,1,hendr001,,,9
+play,5,1,meacb001,,,S8/L
+play,5,1,hendr001,,,9/F
 play,5,1,randw001,,,SB2
-play,5,1,randw001,,,S7.2-H
+play,5,1,randw001,,,S7/F7S.2-H
 play,5,1,mattd001,,,5/FL
-play,5,1,winfd001,,,7
+play,5,1,winfd001,,,7/L
 play,6,0,smitl002,,,NP
 sub,scurr001,"Rod Scurry",1,0,1
+com,"Guidry left game with a strained right calf muscle"
 play,6,0,smitl002,,,K
 play,6,0,wilsw001,,,9
 play,6,0,bretg001,,,31
-play,6,1,roeng001,,,8
+play,6,1,roeng001,,,8/F8S
+com,"Wilson: tumbling catch"
 play,6,1,cotth001,,,13
 play,6,1,berrd001,,,K/C
 play,7,0,mcrah001,,,S9/L
@@ -106,7 +111,7 @@ play,7,0,sundj001,,,K/C
 play,7,1,wyneb001,,,7
 play,7,1,meacb001,,,7
 play,7,1,hendr001,,,W
-play,7,1,randw001,,,CS2(134)
+play,7,1,randw001,,,POCS2(134)
 play,8,0,salaa001,,,NP
 sub,jonel001,"Lynn Jones",0,9,11
 play,8,0,jonel001,,,NP
@@ -115,27 +120,30 @@ play,8,0,jonel001,,,13
 play,8,0,smitl002,,,HP
 play,8,0,wilsw001,,,NP
 sub,righd001,"Dave Righetti",1,0,1
-play,8,0,wilsw001,,,FC6/G.1X2(64);B-1
-play,8,0,bretg001,,,W.1-2
-play,8,0,mcrah001,,,5(2)/FO/G
-play,8,1,randw001,,,NP
+play,8,0,wilsw001,12,CFBX,64(1)/FO/G6.B-1
+com,"Smith collided with Randolph and both were slow to get up"
+play,8,0,bretg001,31,SBB*BB,W.1-2
+play,8,0,mcrah001,12,CSBX,5(2)/FO/G5
+play,8,1,randw001,00,,NP
 sub,quisd001,"Dan Quisenberry",0,0,1
-play,8,1,randw001,,,NP
+play,8,1,randw001,00,,NP
 sub,bianb001,"Buddy Biancalana",0,9,6
 play,8,1,randw001,,,S/G4
 play,8,1,mattd001,,,S9.1-2
-play,8,1,winfd001,,,1(B)4(2)/DP/P
+play,8,1,winfd001,00,X,1/BP56S/DP.2X2(14)
 play,8,1,roeng001,,,NP
 sub,easlm001,"Mike Easler",1,5,11
-play,8,1,easlm001,,,8
-play,9,0,whitf001,,,S7/L
-play,9,0,balbs001,,,6/L
-play,9,0,motld001,,,E6.1-2;B-1
-play,9,0,sundj001,,,S8.2-3;1-2
-play,9,0,bianb001,,,NP
+play,8,1,easlm001,,,8/F8S
+com,"Wilson: running shoestring catch"
+play,9,0,whitf001,11,CBX,S7/L6D
+play,9,0,balbs001,32,BCSBBX,6/L6
+play,9,0,motld001,12,SBCX,E6/G6.1-2;B-1
+com,"Meacham bobbled it twice"
+play,9,0,sundj001,32,FBFBBX,S8/L4MD.2-3;1-2
+play,9,0,bianb001,00,,NP
 sub,pryog001,"Greg Pryor",0,9,11
-play,9,0,pryog001,,,K
-play,9,0,smitl002,,,K
+play,9,0,pryog001,12,BFSFFS,K
+play,9,0,smitl002,22,BFFBS,K
 data,er,blacb001,4
 data,er,quisd001,0
 data,er,guidr001,2
@@ -815,15 +823,16 @@ start,paglm001,"Mike Pagliarulo",1,7,5
 start,wyneb001,"Butch Wynegar",1,8,2
 start,meacb001,"Bob Meacham",1,9,6
 start,guidr001,"Ron Guidry",1,0,1
-play,1,0,feldm001,,,13/BG
-play,1,0,readr001,,,63
-play,1,0,molip001,,,63
-play,1,1,hendr001,,,43
-play,1,1,randw001,,,K
-play,1,1,mattd001,,,S9
-play,1,1,winfd001,,,64(1)/FO/G
-play,2,0,younr001,,,S9
-play,2,0,housp001,,,S9.1-2
+play,1,0,feldm001,11,BFX,13/BG1S
+play,1,0,readr001,10,BX,63/G6
+play,1,0,molip001,11,FBX,63/G6
+play,1,1,hendr001,00,X,43/G4M
+com,"Ready: diving backhanded stop"
+play,1,1,randw001,12,CBCS,K
+play,1,1,mattd001,21,BBCX,S9/G34
+play,1,1,winfd001,31,BBCBX,64(1)/FO/G6
+play,2,0,younr001,10,BX,S9/L9S
+play,2,0,housp001,00,X,S9/L9S.1-2
 play,2,0,deerr001,,,K
 play,2,0,robib001,,,CS2(26).2-3
 play,2,0,robib001,,,S9.3-H
@@ -838,8 +847,8 @@ play,3,0,readr001,,,13
 play,3,1,meacb001,,,W
 play,3,1,hendr001,,,WP.1-2
 play,3,1,hendr001,,,W
-play,3,1,randw001,,,D9.2-H;1-3
-play,3,1,mattd001,,,S9.3-H;2-H
+play,3,1,randw001,,,D/89.2-H;1-3
+play,3,1,mattd001,,,S9/L9DW.3-H;2-H
 play,3,1,winfd001,,,6(1)3/GDP
 play,3,1,easlm001,,,K
 play,4,0,molip001,,,S9
@@ -1045,9 +1054,10 @@ info,ump1b,tscht901
 info,ump2b,merrd901
 info,ump3b,hendt901
 info,scorer,"F. Fincken"
-info,inputter,"Bob Levittan"
+info,translator,"Bob Levittan/Townsend"
+info,inputter,"Bob Levittan/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -1080,125 +1090,131 @@ start,paglm001,"Mike Pagliarulo",1,7,5
 start,randw001,"Willie Randolph",1,8,4
 start,meacb001,"Bob Meacham",1,9,6
 start,niekj001,"Joe Niekro",1,0,1
-play,1,0,butlb001,,,E5.B-1
-play,1,0,franj002,,,46(1)3/GDP
-play,1,0,hallm001,,,43
-play,1,1,hendr001,,,K+WP.B-1
-play,1,1,grifk001,,,4
-play,1,1,mattd001,,,SB2
-play,1,1,mattd001,,,43.2-3
-play,1,1,hassr001,,,W
-play,1,1,winfd001,,,W.1-2
-play,1,1,easlm001,,,43
-play,2,0,thora001,,,D8
-play,2,0,jacob001,,,K
-play,2,0,tablp001,,,S/G5.2-3
-play,2,0,cartj001,,,K
-play,2,0,bernt001,,,PB.3-H(UR);1-2
-play,2,0,bernt001,,,4/L
-play,2,1,paglm001,,,W
-play,2,1,randw001,,,9
-play,2,1,meacb001,,,16(1)3/GDP
-play,3,0,allaa001,,,53
-play,3,0,butlb001,,,5
-play,3,0,franj002,,,W
-play,3,0,hallm001,,,W.1-2
-play,3,0,thora001,,,WP.2-3
-play,3,0,thora001,,,K
-play,3,1,hendr001,,,8
-play,3,1,grifk001,,,3/G
-play,3,1,mattd001,,,7
-play,4,0,jacob001,,,K
-play,4,0,tablp001,,,8
-play,4,0,cartj001,,,53
-play,4,1,hassr001,,,W
-play,4,1,winfd001,,,64(1)3/GDP
-play,4,1,easlm001,,,K+PB.B-1
-play,4,1,paglm001,,,S9.1-3
-play,4,1,randw001,,,PB.3-H(UR)
-play,4,1,randw001,,,W.1-2
-play,4,1,meacb001,,,S7.2-H(UR);1-2
-play,4,1,hendr001,,,6
-play,5,0,bernt001,,,S7
-play,5,0,allaa001,,,PB.1-2
-play,5,0,allaa001,,,53
-play,5,0,butlb001,,,WP.2-3
-play,5,0,butlb001,,,W
-play,5,0,franj002,,,SB2
-play,5,0,franj002,,,K
-play,5,0,hallm001,,,E1.3-H(NR)(UR);2-H(UR);B-1
-play,5,0,thora001,,,W.1-2
-play,5,0,jacob001,,,W.2-3;1-2
-play,5,0,tablp001,,,7
-play,5,1,grifk001,,,63
-play,5,1,mattd001,,,8
-play,5,1,hassr001,,,8
-play,6,0,cartj001,,,W
-play,6,0,bernt001,,,S.1-2
-play,6,0,allaa001,,,15(2)/FO/BG.1-2
-play,6,0,butlb001,,,46(1)3/GDP
-play,6,1,winfd001,,,W
-play,6,1,easlm001,,,PO1(E1).1-2
-play,6,1,easlm001,,,43.2-3
-play,6,1,paglm001,,,W
-play,6,1,randw001,,,W.1-2
-play,6,1,meacb001,,,NP
+play,1,0,butlb001,22,CBFBX,E5/G5.B-1
+com,"Pagliarulo fumbled, then threw late"
+play,1,0,franj002,12,11F1P1SX,46(1)3/GDP/G4
+play,1,0,hallm001,32,CFBBBX,43/G4
+play,1,1,hendr001,02,CFS,K+WP.B-1
+play,1,1,grifk001,11,111111B1C111X,4/P4MD
+play,1,1,mattd001,10,111B11>C,SB2
+play,1,1,mattd001,11,111B11>C.X,43/G4.2-3
+play,1,1,hassr001,30,BBBB,W
+play,1,1,winfd001,31,*BB*BCB,W.1-2
+play,1,1,easlm001,11,CBX,43/G34
+play,2,0,thora001,10,BX,D8/L8XD
+com,"Off Henderson's glove"
+play,2,0,jacob001,12,FS*BS,K
+play,2,0,tablp001,22,BBCFX,S6/G6MS.2-3
+play,2,0,cartj001,02,CFS,K
+play,2,0,bernt001,00,B,PB.3-H(UR);1-2
+play,2,0,bernt001,31,B.BSBX,4/L4
+com,"Randolph: diving backhanded catch"
+play,2,1,paglm001,32,CBBFBB,W
+play,2,1,randw001,11,SBX,9/F9
+play,2,1,meacb001,01,C1X,16(1)3/GDP/G1
+play,3,0,allaa001,22,BBCFX,53/G5
+play,3,0,butlb001,10,BX,5/P6S
+play,3,0,franj002,31,CBBB*B,W
+play,3,0,hallm001,31,>FB1BBB,W+WP.1-3;B-1
+play,3,0,thora001,12,CBF>S,K
+play,3,1,hendr001,22,BBCCX,8/F8D
+play,3,1,grifk001,12,BCFX,3/G3L
+play,3,1,mattd001,01,CX,7/F7L
+play,4,0,jacob001,02,CSS,K
+play,4,0,tablp001,11,BFX,8/F78XD
+play,4,0,cartj001,12,SSBX,53/G5
+play,4,1,hassr001,30,BBBB,W
+play,4,1,winfd001,21,CBBX,64(1)3/GDP/G6
+play,4,1,easlm001,22,CBSFFBC,K+PB/C.B-1
+play,4,1,paglm001,10,BX,S9/L9S.1-3
+play,4,1,randw001,31,CBBBB,W+PB.3-H(NR)(UR);1-2;B-1
+play,4,1,meacb001,32,BBBCC>X,S7/G56.2-H(UR);1-2
+play,4,1,hendr001,20,BBX,6/P6D
+play,5,0,bernt001,10,BX,S7/L7S
+play,5,0,allaa001,02,LCB,PB.1-2
+play,5,0,allaa001,12,LCB.X,53/G5
+play,5,0,butlb001,21,B2*BCB,WP.2-3
+play,5,0,butlb001,32,B2*BC.BCFFB,W
+com,"Rain began to fall"
+play,5,0,franj002,12,FFB>S,K+SB2
+com,"No throw"
+play,5,0,hallm001,00,X,3E1/G34.3-H(NR)(UR);2-H(NR)(UR)
+com,"$Niekro dropped the throw; Randolph retrieved it and threw"
+com,"home late."
+play,5,0,thora001,30,BBBB,W.1-2
+play,5,0,jacob001,32,BFBFFB>B,W.2-3;1-2
+play,5,0,tablp001,00,X,7/F7
+play,5,1,grifk001,12,CBFX,63/G6
+play,5,1,mattd001,10,BX,8/F8XDW
+com,"Butler's leaping catch prevented HR"
+play,5,1,hassr001,11,BCX,8/L8
+play,6,0,cartj001,32,BFBFBB,W
+play,6,0,bernt001,12,B1>F11>FX,S8/G6M.1-2
+play,6,0,allaa001,02,CLX,15(2)/FO/BG1S.1-2
+play,6,0,butlb001,00,X,46(1)3/GDP/G4
+play,6,1,winfd001,32,BBCFBB,W
+play,6,1,easlm001,21,BFP1,PO1(E1).1-2
+play,6,1,easlm001,32,BFP1.F*BX,43/G34D.2-3
+play,6,1,paglm001,30,*B*BBB,W
+play,6,1,randw001,30,BBB,NP
 sub,kernj001,"Jim Kern",0,0,1
-play,6,1,meacb001,,,S9.3-H;2-H;1-3;BX2(936)
-play,6,1,hendr001,,,43
-play,7,0,franj002,,,NP
+play,6,1,randw001,30,BBB.B,W.1-2
+play,6,1,meacb001,32,BBCBCX,S9/G34.3-H;2-H;1-3;BX2(936)
+play,6,1,hendr001,22,BCCBX,43/G4
+play,7,0,franj002,00,,NP
 sub,fishb001,"Brian Fisher",1,0,1
-play,7,0,franj002,,,9
-play,7,0,hallm001,,,7
-play,7,0,thora001,,,S8
-play,7,0,jacob001,,,9
-play,7,1,grifk001,,,9
-play,7,1,mattd001,,,31
-play,7,1,hassr001,,,D7
-play,7,1,winfd001,,,W
-play,7,1,easlm001,,,3/G
-play,8,0,tablp001,,,S7
-play,8,0,cartj001,,,NP
+play,7,0,franj002,10,BX,9/F9D
+play,7,0,hallm001,20,BBX,7/F7
+play,7,0,thora001,00,X,S8/G6M
+play,7,0,jacob001,21,BFBX,9/F9
+play,7,1,grifk001,01,CX,9/F9
+play,7,1,mattd001,20,BBX,31/G3
+play,7,1,hassr001,32,BBFSBX,D56/G5L
+com,"Off the diving Pagliarulo's glove; Franco retrieved it down"
+com,"the line."
+play,7,1,winfd001,32,CBBFBFB,W
+play,7,1,easlm001,02,FFFX,3/G3L
+play,8,0,tablp001,01,FX,S7/G56
+play,8,0,cartj001,00,,NP
 sub,nixoo001,"Otis Nixon",0,6,12
-play,8,0,cartj001,,,SB2
-play,8,0,cartj001,,,K/C
-play,8,0,bernt001,,,W
-play,8,0,allaa001,,,NP
-sub,righd001,"Dave Righetti",1,0,1
+play,8,0,cartj001,02,111FFF>C,K+SB2/C
+play,8,0,bernt001,31,BBBCB,W
 play,8,0,allaa001,,,NP
 sub,rohnd001,"Dan Rohn",0,9,11
+play,8,0,rohnd001,00,,NP
+sub,righd001,"Dave Righetti",1,0,1
 play,8,0,rohnd001,,,NP
 sub,castc001,"Carmelo Castillo",0,9,11
-play,8,0,castc001,,,K
-play,8,0,butlb001,,,W.2-3;1-2
-play,8,0,franj002,,,43
-play,8,1,paglm001,,,NP
+play,8,0,castc001,02,CSFS,K
+play,8,0,butlb001,32,BFBCFFB>B,W.2-3;1-2
+play,8,0,franj002,01,CX,43/G4
+play,8,1,paglm001,00,,NP
 sub,hallm001,"Mel Hall",0,3,9
-play,8,1,paglm001,,,NP
+play,8,1,paglm001,00,,NP
 sub,nixoo001,"Otis Nixon",0,6,7
-play,8,1,paglm001,,,NP
+play,8,1,paglm001,00,,NP
 sub,cartj001,"Joe Carter",0,7,3
-play,8,1,paglm001,,,NP
+play,8,1,paglm001,00,,NP
 sub,bandc001,"Chris Bando",0,9,2
-play,8,1,paglm001,,,8
-play,8,1,randw001,,,W
-play,8,1,meacb001,,,W.1-2
-play,8,1,hendr001,,,NP
+play,8,1,paglm001,31,SBBBX,8/F89D
+play,8,1,randw001,31,BFBBB,W
+play,8,1,meacb001,31,CP1B,NP
 sub,bails001,"Scott Bailes",0,0,1
-play,8,1,hendr001,,,D9.2-H;1-3
-play,8,1,grifk001,,,S8.3-H;2-H
-play,8,1,mattd001,,,FC3/G.1X2(36);B-1
-play,8,1,hassr001,,,S7.1-2
-play,8,1,winfd001,,,NP
+play,8,1,meacb001,32,CP1B.BC>B,W.1-2
+play,8,1,hendr001,00,X,D9/F9L.2-H;1-3
+play,8,1,grifk001,00,X,S8/L6D.3-H;2-H
+play,8,1,mattd001,01,FX,36(1)/FO/G34.B-1
+play,8,1,hassr001,22,CBSBX,S7/L7S.1-2
+play,8,1,winfd001,00,,NP
 sub,yettr001,"Rich Yett",0,0,1
-play,8,1,winfd001,,,S/G1.2-3;1-2
-play,8,1,easlm001,,,D9.3-H;2-H;1-H;BX3(95)
-play,9,0,hallm001,,,NP
+play,8,1,winfd001,32,CBS*BB>X,S6/G6MS.2-3;1-2
+play,8,1,easlm001,22,BS*BFX,D8/F89XDW.3-H;2-H;1-H;BX3(9435)
+play,9,0,hallm001,00,,NP
 sub,wille001,"Eddie Williams",0,3,11
-play,9,0,wille001,,,8
-play,9,0,thora001,,,S7
-play,9,0,jacob001,,,8
-play,9,0,nixoo001,,,8
+play,9,0,wille001,10,BX,8/F8
+play,9,0,thora001,10,BX,S7/L56D
+play,9,0,jacob001,22,BFSBFX,8/F8XD
+play,9,0,nixoo001,31,FBBBX,8/F8D
 data,er,candt001,2
 data,er,kernj001,2
 data,er,bails001,3

@@ -4167,6 +4167,7 @@ start,hodgg101,"Gil Hodges",1,6,3
 start,campr102,"Roy Campanella",1,7,2
 start,reesp101,"Peewee Reese",1,8,6
 start,branr103,"Ralph Branca",1,9,1
+com,"Suspend=19500801,,12,19,43"
 play,1,0,rojes101,32,BCBCBFB,W
 play,1,0,beart101,31,CBBBB,W.1-2
 play,1,0,kiner101,21,BBCX,S7/L.2-3;1-2
@@ -4292,10 +4293,9 @@ play,8,1,furic101,10,BX,S8/G
 com,"umpchange,8,umphome,warnl101"
 com,"umpchange,8,ump1b,balll901"
 com,"umpchange,8,ump3b,barla901"
+com,"suspended,19440801,NYC15,curfew"
 com,"$game called at 11:59 for curfew and completed 8/1 with"
-com,"new umpires; during the interval from game suspension to"
-com,"resumption, Dale Coogan and Earl Turner had left the"
-com,"Pirates, so defensive subs needed"
+com,"new umpires"
 play,8,1,hodgg101,00,,NP
 sub,mccuc101,"Clyde McCullough",0,8,2
 play,8,1,hodgg101,00,,NP
@@ -4462,8 +4462,8 @@ play,7,1,robij103,32,.BFBFBB,W
 play,7,1,furic101,11,FBX,7/F.3-H
 play,7,1,hodgg101,22,BSFFBX,7
 com,"ej,shubg101,P,stewb901,Bench jockeying"
-com,"George Shuba ejected by HP umpire Bill Stewart"
-com,"sometime in eighth"
+com,"$Dodgers Shuba, not in game, ejected by HP umpire Stewart"
+com,"for bench jockeying sometime in eighth"
 play,8,0,rojes101,32,BCBSBX,S8/G
 play,8,0,beart101,22,MSBBFFFFFX,HR/9.1-H
 play,8,0,kiner101,00,,NP
@@ -8472,7 +8472,7 @@ play,5,1,reesp101,??,,6/FL
 play,5,1,hermg101,??,,46(1)3/GDP
 play,6,0,darka101,??,,S8/G
 play,6,0,irvim101,??,,S5.1-2
-play,6,0,westw101,??,,FC?/SH.2-3;1-2;B-1
+play,6,0,westw101,??,,FC/SH.2-3;1-2;B-1
 play,6,0,mueld101,??,,46(1)3/GDP.3-H;2-3
 play,6,0,thomh103,??,,4
 play,6,1,robij103,??,,7
@@ -10234,7 +10234,8 @@ play,3,1,furic101,00,X,S8.2-H;B-3(E8)
 play,3,1,hodgg101,00,.X,6
 play,4,0,stane101,22,FCBBC,K
 com,"ej,durol101,M,goetl901,Balls and strikes"
-com,"Giants Manager Leo Durocher ejected by HP umpire Larry Goetz"
+com,"$Giants manager Durocher ejected by HP umpire Goetz for"
+com,"arguing balls and strikes"
 play,4,0,lockw101,01,.CX,23
 play,4,0,darka101,12,FBFFFX,6
 play,4,1,campr102,00,X,5/FL

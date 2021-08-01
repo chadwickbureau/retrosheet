@@ -954,16 +954,17 @@ info,umphome,brocf901
 info,ump1b,weyel901
 info,ump2b,rennd901
 info,ump3b,monte901
-info,scorer,"Sklansky"
-info,inputter,"M. Podrazik"
+info,scorer,"Sklansky,601"
+info,translator,"M. Podrazik,Townsend"
+info,inputter,"M. Podrazik,Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,night
 info,timeofgame,137
 info,attendance,6329
 info,wp,mcwil001
@@ -992,12 +993,12 @@ play,1,0,dernb001,,,S
 play,1,0,sandr001,,,54(1)/FO/G.B-1
 play,1,0,mattg001,,,S.1-2
 play,1,0,morek001,,,6/L
-play,1,0,cey-r001,,,7
+play,1,0,cey-r001,,,7/F
 play,1,1,ray-j001,,,63
 play,1,1,orsuj001,,,13
 play,1,1,madlb001,,,43
 play,2,0,durhl001,,,6/L
-play,2,0,lakes001,,,8
+play,2,0,lakes001,,,8/F
 play,2,0,dunss001,,,E4.B-1
 play,2,0,ruthd001,,,53
 play,2,1,thomj001,,,3/L
@@ -1026,60 +1027,61 @@ play,5,1,penat001,,,D
 play,5,1,kemps001,,,4
 play,5,1,almob001,,,W
 play,5,1,mcwil001,,,34/SH.2-3;1-2
-play,5,1,ray-j001,,,I
-play,5,1,orsuj001,,,9
-play,6,0,mattg001,,,13
-play,6,0,morek001,,,63
-play,6,0,cey-r001,,,43
-play,6,1,madlb001,,,53
-play,6,1,thomj001,,,W
-play,6,1,hendg001,,,S.1-2
-play,6,1,penat001,,,NP
+play,5,1,ray-j001,,,IW
+play,5,1,orsuj001,,,9/F9
+play,6,0,mattg001,22,BBCFX,13/G1
+play,6,0,morek001,11,CBX,63/G6
+play,6,0,cey-r001,22,BCFBX,43/G4
+play,6,1,madlb001,31,CBBBX,53/G56
+play,6,1,thomj001,32,CBBFBFB,W
+play,6,1,hendg001,02,CFX,S9/G34.1-2
+play,6,1,penat001,00,,NP
 sub,frazg001,"George Frazier",0,9,1
-play,6,1,penat001,,,S.2-3;1-2
-play,6,1,kemps001,,,S.3-H;2-H;1-3
-play,6,1,almob001,,,NP
+play,6,1,penat001,00,X,S7/L7.2-3;1-2
+play,6,1,kemps001,10,BX,S9/L9S.3-H;2-H;1-3
+play,6,1,almob001,00,,NP
 sub,frobd001,"Doug Frobel",1,7,12
-play,6,1,almob001,,,34/SH.3-H;1-2
-play,6,1,mcwil001,,,43
-play,7,0,durhl001,,,NP
+play,6,1,almob001,00,X,14/BG23/SH.3-H;1-2
+com,"Pena held up until Frazier turned to throw to 1B"
+play,6,1,mcwil001,11,BCX,43/G4S
+play,7,0,durhl001,00,,NP
 sub,frobd001,"Doug Frobel",1,7,7
-play,7,0,durhl001,,,63
-play,7,0,lakes001,,,8
-play,7,0,dunss001,,,63
-play,7,1,ray-j001,,,9
-play,7,1,orsuj001,,,S
-play,7,1,madlb001,,,D.1-H
-play,7,1,thomj001,,,NP
+play,7,0,durhl001,21,BBCX,63/G6
+play,7,0,lakes001,00,X,8/F8XD
+play,7,0,dunss001,01,SX,63/G56
+play,7,1,ray-j001,02,CFX,9/F89S
+play,7,1,orsuj001,02,CFX,S9/L9
+play,7,1,madlb001,00,>X,D7/G5L.1-H
+play,7,1,thomj001,00,,NP
 sub,fontr001,"Ray Fontenot",0,8,1
-play,7,1,thomj001,,,NP
+play,7,1,thomj001,00,,NP
 sub,speic001,"Chris Speier",0,9,6
-play,7,1,thomj001,,,PB.2-3
-play,7,1,thomj001,,,W
-play,7,1,hendg001,,,14(1)3/GDP
-play,8,0,speic001,,,D
-play,8,0,dernb001,,,S.2-2
-play,8,0,sandr001,,,9
-play,8,0,mattg001,,,D.2-H;1-3
-play,8,0,morek001,,,NP
+play,7,1,thomj001,00,B,PB.2-3
+play,7,1,thomj001,30,B.BB*B,W
+play,7,1,hendg001,31,BCBBX,14(1)3/GDP/G1
+play,8,0,speic001,01,CX,D7/L5D
+play,8,0,dernb001,12,CL*BX,S5/G.2-2
+play,8,0,sandr001,21,BBFX,9/F9S
+play,8,0,mattg001,32,BFBFBX,DGR/F89XD.2-H;1-3
+play,8,0,morek001,00,,NP
 sub,robid001,"Don Robinson",1,3,1
-play,8,0,morek001,,,NP
+play,8,0,morek001,00,,NP
 sub,morrj002,"Jim Morrison",1,9,5
-play,8,0,morek001,,,53
-play,8,0,cey-r001,,,WP.3-H;2-3
-play,8,0,cey-r001,,,3
-play,8,1,penat001,,,9
-play,8,1,frobd001,,,43
-play,8,1,almob001,,,63
-play,9,0,durhl001,,,NP
+play,8,0,morek001,00,X,53/G5L
+play,8,0,cey-r001,02,CSB,WP.3-H;2-3
+play,8,0,cey-r001,12,CSB.X,3/P3L
+play,8,1,penat001,12,FBCFX,9/F9L
+play,8,1,frobd001,00,X,43/G4
+play,8,1,almob001,00,X,63/G6
+play,9,0,durhl001,00,,NP
 sub,candj001,"John Candelaria",1,3,1
-play,9,0,durhl001,,,K
-play,9,0,lakes001,,,NP
+play,9,0,durhl001,22,BBCCS,K
+play,9,0,lakes001,00,,NP
 sub,dayeb001,"Brian Dayett",0,7,11
-play,9,0,dayeb001,,,8
-play,9,0,fontr001,,,NP
+play,9,0,dayeb001,21,BFBX,8/F78S
+play,9,0,fontr001,00,,NP
 sub,loped001,"Davey Lopes",0,8,11
-play,9,0,loped001,,,5
+play,9,0,loped001,31,BBBCX,5/P56S
 data,er,ruthd001,3
 data,er,frazg001,2
 data,er,fontr001,0
@@ -8651,16 +8653,17 @@ info,umphome,ripps901
 info,ump1b,rennd901
 info,ump2b,brocf901
 info,ump3b,monte901
-info,scorer,"Webb"
-info,inputter,"Berman"
+info,scorer,"Webb,601"
+info,translator,"Berman/Townsend"
+info,inputter,"Berman/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,77
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,night
 info,timeofgame,150
 info,attendance,10200
 info,wp,ferns001
@@ -8685,101 +8688,107 @@ start,penat001,"Tony Pena",1,6,2
 start,khals001,"Sam Khalifa",1,7,6
 start,wynnm001,"Marvell Wynne",1,8,8
 start,tunnl001,"Lee Tunnell",1,9,1
-play,1,0,dyksl001,,,63
-play,1,0,backw001,,,43
-play,1,0,hernk001,,,43
-play,1,1,almob001,,,K
-play,1,1,ray-j001,,,4/P
-play,1,1,madlb001,,,HR
-play,1,1,browm002,,,8
-play,2,0,cartg001,,,3/G
-play,2,0,strad001,,,43
-play,2,0,fostg001,,,K
-play,2,1,morrj002,,,2/FL
-play,2,1,penat001,,,63
-play,2,1,khals001,,,8
-play,3,0,knigr001,,,8
-play,3,0,santr001,,,63
-play,3,0,ferns001,,,S
-play,3,0,dyksl001,,,W.1-2
-play,3,0,backw001,,,S8.2XH(82);1-2
-play,3,1,wynnm001,,,4/P
-play,3,1,tunnl001,,,K
-play,3,1,almob001,,,53
-play,4,0,hernk001,,,3/G
-play,4,0,cartg001,,,63
-play,4,0,strad001,,,S
-play,4,0,fostg001,,,POCS2(13)
-play,4,1,ray-j001,,,S
-play,4,1,madlb001,,,SB2
-play,4,1,madlb001,,,W
-play,4,1,browm002,,,K+PB.2-3
-play,4,1,morrj002,,,4(1)3/GDP
-play,5,0,fostg001,,,6/L
-play,5,0,knigr001,,,3/G
-play,5,0,santr001,,,E5.B-1
-play,5,0,ferns001,,,53
-play,5,1,penat001,,,K
-play,5,1,khals001,,,K
-play,5,1,wynnm001,,,K
-play,6,0,dyksl001,,,K
-play,6,0,backw001,,,43
-play,6,0,hernk001,,,7
-play,6,1,tunnl001,,,W
-play,6,1,almob001,,,NP
-play,6,1,almob001,,,14/SH.1-2
-play,6,1,ray-j001,,,S.2-H
-play,6,1,madlb001,,,K
-play,6,1,browm002,,,SB2
-play,6,1,browm002,,,53
-play,7,0,cartg001,,,NP
+play,1,0,dyksl001,11,BCX,63/G6
+play,1,0,backw001,10,BX,43/G4
+play,1,0,hernk001,20,BBX,43/G4
+play,1,1,almob001,22,FBBCC,K/C
+play,1,1,ray-j001,32,BSBBFFX,4/P4
+play,1,1,madlb001,11,CBX,HR/F7D
+com,"Over LF fence, nearly into lower stands"
+play,1,1,browm002,11,BCX,8/L78
+play,2,0,cartg001,00,X,3/G3
+play,2,0,strad001,21,CBBX,43/G4
+play,2,0,fostg001,02,SSC,K/C
+play,2,1,morrj002,22,FBFBFFX,2/P23F/FL
+play,2,1,penat001,22,BCCBX,63/G6M
+play,2,1,khals001,11,CBX,8/F89D
+play,3,0,knigr001,01,CX,8/F8S
+play,3,0,santr001,00,X,63/G6
+play,3,0,ferns001,11,BCX,S9/L9S
+play,3,0,dyksl001,31,BBBCB,W.1-2
+play,3,0,backw001,10,BX,S8/G6M.2XH(82);1-2
+com,"Fernandez did not slide; out by 10'"
+play,3,1,wynnm001,31,BBSBX,4/P4D
+play,3,1,tunnl001,02,LSC,K/C
+play,3,1,almob001,22,CBBFX,53/G6S
+play,4,0,hernk001,20,BBX,3/G3L
+play,4,0,cartg001,20,BBX,63/G6
+play,4,0,strad001,32,BBFBSX,S9/L56D
+play,4,0,fostg001,00,1,POCS2(13)
+play,4,1,ray-j001,10,BX,S3/G34S
+com,"Check swing, high hopper"
+play,4,1,madlb001,21,B1BF>B,SB2
+play,4,1,madlb001,31,B1BF>B.B,W
+play,4,1,browm002,12,FLBS,K+PB.2-3
+play,4,1,morrj002,02,CCX,4(1)3/GDP/G4M
+play,5,0,fostg001,01,SX,6/L6
+play,5,0,knigr001,01,CX,3/G3
+play,5,0,santr001,32,BBCBFX,E5/G5L.B-1
+play,5,0,ferns001,00,X,53/G5
+play,5,1,penat001,12,BSSS,K
+play,5,1,khals001,02,FFC,K/C
+play,5,1,wynnm001,22,BSBSS,K
+play,6,0,dyksl001,02,CC*S,K
+play,6,0,backw001,10,BX,43/G4
+play,6,0,hernk001,21,BBFX,7/F78
+play,6,1,tunnl001,30,BBBB,W
+play,6,1,almob001,00,X,14/BG1S/SH.1-2
+play,6,1,ray-j001,10,BX,S7/L7.2-H
+play,6,1,madlb001,22,B1B11CCF1S,K
+play,6,1,browm002,11,CB>1,SB2
+com,"Stole on PO1 attempt"
+play,6,1,browm002,11,CB>1.X,53/G56
+play,7,0,cartg001,00,,NP
 sub,orsuj001,"Joe Orsulak",1,1,7
-play,7,0,cartg001,,,S
-play,7,0,strad001,,,HR.1-H
-play,7,0,fostg001,,,63
-play,7,0,knigr001,,,6/P
-play,7,0,santr001,,,S
-play,7,0,ferns001,,,S.1-2
-play,7,0,dyksl001,,,NP
-sub,pacit001,"Tom Paciorek",0,1,11
-play,7,0,pacit001,,,NP
+play,7,0,cartg001,00,X,S7/G56
+play,7,0,strad001,00,X,HR/F8XD.1-H
+com,"Over CF fence at 400' mark; landed 10 rows deep into stands"
+play,7,0,fostg001,01,CX,63/G6
+play,7,0,knigr001,00,X,6/P6
+play,7,0,santr001,11,BCX,S8/G6M
+play,7,0,ferns001,02,SFX,S9/L9S.1-2
+play,7,0,dyksl001,00,,NP
 sub,scurr001,"Rod Scurry",1,9,1
-play,7,0,pacit001,,,T.2-H;1-H
-play,7,0,backw001,,,8
-play,7,1,morrj002,,,NP
+play,7,0,dyksl001,00,,NP
+sub,pacit001,"Tom Paciorek",0,1,11
+play,7,0,pacit001,31,BBBCX,T8/F89XD.2-H;1-H
+play,7,0,backw001,20,BBX,8/F8D
+play,7,1,morrj002,00,,NP
 sub,pacit001,"Tom Paciorek",0,1,9
-play,7,1,morrj002,,,NP
+play,7,1,morrj002,00,,NP
 sub,strad001,"Darryl Strawberry",0,5,8
-play,7,1,morrj002,,,1/L
-play,7,1,penat001,,,W
-play,7,1,khals001,,,K
-play,7,1,wynnm001,,,6/P
-play,8,0,hernk001,,,S
-play,8,0,cartg001,,,2/FL
-play,8,0,strad001,,,K
-play,8,0,fostg001,,,9
-play,8,1,scurr001,,,NP
+play,7,1,morrj002,12,BFFX,1/L1
+play,7,1,penat001,30,BBBB,W
+play,7,1,khals001,02,CCS,K
+play,7,1,wynnm001,10,BX,6/P5D
+play,8,0,hernk001,22,BBFSFX,S7/L7S
+play,8,0,cartg001,01,FX,2/P2F/FL
+play,8,0,strad001,02,SFFC,K/C
+play,8,0,fostg001,00,X,9/F9
+play,8,1,scurr001,00,,NP
 sub,mazzl001,"Lee Mazzilli",1,9,11
-play,8,1,mazzl001,,,K
-play,8,1,orsuj001,,,NP
+play,8,1,mazzl001,22,CBBSC,K/C
+play,8,1,orsuj001,00,,NP
 sub,gonzd001,"Denny Gonzalez",1,1,11
-play,8,1,gonzd001,,,K
-play,8,1,ray-j001,,,K
-play,9,0,knigr001,,,NP
+play,8,1,gonzd001,32,FBBBFS,K
+play,8,1,ray-j001,32,BCBBCS,K
+play,9,0,knigr001,00,,NP
 sub,guanc001,"Cecilio Guante",1,1,1
-play,9,0,knigr001,,,NP
+play,9,0,knigr001,00,,NP
 sub,mazzl001,"Lee Mazzilli",1,9,7
-play,9,0,knigr001,,,5/P
-play,9,0,santr001,,,K
-play,9,0,ferns001,,,T
-play,9,0,pacit001,,,5/L
-play,9,1,madlb001,,,W
-play,9,1,browm002,,,9
-play,9,1,morrj002,,,S.1-2
-play,9,1,penat001,,,NP
+play,9,0,knigr001,00,X,5/P56S
+play,9,0,santr001,22,SSBFBS,K
+play,9,0,ferns001,01,FX,T87/F78XDW
+com,"Caromed off LCF wall and then off Wynne"
+play,9,0,pacit001,11,CBX,5/L5
+play,9,1,madlb001,31,BFBBB,W
+play,9,1,browm002,00,X,9/F89D
+play,9,1,morrj002,00,X,S7/G5.1-2
+com,"Past Knight who was guarding the line"
+play,9,1,penat001,00,,NP
 sub,mcdor001,"Roger McDowell",0,9,1
-play,9,1,penat001,,,S.2-H;1-2
-play,9,1,khals001,,,K
+play,9,1,penat001,21,BBCX,S8/G6M.2-H;1-2
+play,9,1,khals001,12,BSCC,K/C
 play,9,1,wynnm001,,,43
 data,er,ferns001,3
 data,er,mcdor001,0

@@ -7299,10 +7299,11 @@ info,umphome,rungp901
 info,ump1b,palld901
 info,ump2b,engeb901
 info,ump3b,hallt901
-info,scorer,"D. Bretz"
-info,inputter,"M. Podrazik"
+info,scorer,"D. Bretz,601"
+info,translator,"M. Podrazik/Townsend"
+info,inputter,"M. Podrazik/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -7333,108 +7334,118 @@ start,willr001,"Reggie Williams",1,6,8
 start,duncm001,"Mariano Duncan",1,7,6
 start,fimpj001,"Jack Fimple",1,8,2
 start,herso001,"Orel Hershiser",1,9,1
-play,1,0,loped001,,,63
-play,1,0,mumpj001,,,63
-play,1,0,sandr001,,,53
-play,1,1,sax-s001,,,S
-play,1,1,russb001,,,S.1-3
-play,1,1,landk001,,,D.3-H;1-H
-play,1,1,cabee001,,,E5.B-1
-play,1,1,hamij001,,,8.2-3
-play,1,1,willr001,,,S.3-H;1-3
-play,1,1,duncm001,,,7/SF.3-H(UR)
-play,1,1,fimpj001,,,W.1-2
-play,1,1,herso001,,,NP
+play,1,0,loped001,21,BCBX,63/G6M
+com,"Duncan: good range; Cabell scooped low throw in the dirt"
+play,1,0,mumpj001,01,CX,63/G6
+play,1,0,sandr001,12,BCSX,53/G5
+play,1,1,sax-s001,10,BX,S7/L56D
+play,1,1,russb001,00,1>X,S9/L4D.1-3
+play,1,1,landk001,11,BCX,D7/L7L.3-H;1-H
+play,1,1,cabee001,10,BX,E5/TH1/G56.B-1
+com,"Lopes: low throw; Durham couldn't scoop it"
+play,1,1,hamij001,22,BBCSX,8/F8XD.2-3
+play,1,1,willr001,00,X,S9/F89S.3-H;1-3
+play,1,1,duncm001,10,1BX,7/F7/SF.3-H(UR)
+play,1,1,fimpj001,30,1BPBB,W.1-2
+play,1,1,herso001,00,,NP
 sub,gumpd001,"Dave Gumpert",0,9,1
-play,1,1,herso001,,,S.2-H(UR);1-2
-play,1,1,sax-s001,,,K
-play,2,0,morek001,,,63
-play,2,0,durhl001,,,K
-play,2,0,davij001,,,13
-play,2,1,russb001,,,3/G
-play,2,1,landk001,,,63
-play,2,1,cabee001,,,5/L
-play,3,0,mattg001,,,8
-play,3,0,dunss001,,,K
-play,3,0,gumpd001,,,NP
+play,1,1,herso001,11,BFX,S4/G4M.2-H(UR);1-2
+com,"Sandberg knocked it down; Williams never stopped running"
+play,1,1,sax-s001,12,CBFFFFS,K
+play,2,0,morek001,32,BFCBBX,63/G6
+play,2,0,durhl001,02,CCS,K
+play,2,0,davij001,22,BBSCX,13/G1
+play,2,1,russb001,11,BCX,3/G3
+play,2,1,landk001,32,BBBCCX,63/G6M
+play,2,1,cabee001,21,BSBX,5/L5
+com,"Lopes: lunging stab"
+play,3,0,mattg001,00,X,8/F8
+play,3,0,dunss001,22,BBFCF*S,K
+play,3,0,gumpd001,00,,NP
 sub,martd002,"Dave Martinez",0,9,11
-play,3,0,martd002,,,53
-play,3,1,hamij001,,,NP
+play,3,0,martd002,01,FX,53/G5
+play,3,1,hamij001,00,,NP
 sub,frazg001,"George Frazier",0,9,1
-play,3,1,hamij001,,,53
-play,3,1,willr001,,,S
-play,3,1,duncm001,,,3/G.1-2
-play,3,1,fimpj001,,,SB3
-play,3,1,fimpj001,,,W
-play,3,1,herso001,,,13/BG
-play,4,0,loped001,,,S
-play,4,0,mumpj001,,,S.1-3
-play,4,0,sandr001,,,S.3-H;1-2
-play,4,0,morek001,,,3/FL
-play,4,0,durhl001,,,S.2-H;1-3
-play,4,0,davij001,,,46(1)3/GDP
-play,4,1,sax-s001,,,W
-play,4,1,russb001,,,D.1-H
-play,4,1,landk001,,,3/G.2-3
-play,4,1,cabee001,,,9/SF.3-H
-play,4,1,hamij001,,,6/L
-play,5,0,mattg001,,,53
-play,5,0,dunss001,,,S
-play,5,0,frazg001,,,K/BF
-play,5,0,loped001,,,PB.1-3
-play,5,0,loped001,,,63
-play,5,1,willr001,,,NP
+play,3,1,hamij001,11,BSX,53/G5
+play,3,1,willr001,21,CBBX,S5/G5
+com,"Lopes knocked it down; no throw"
+play,3,1,duncm001,00,X,3/G3L.1-2
+com,"Durham: leaping stop"
+play,3,1,fimpj001,31,*BBBC>B,W+SB3
+play,3,1,herso001,00,X,13/BG25
+play,4,0,loped001,12,BCCX,S8/G4M
+play,4,0,mumpj001,11,FB>X,S9/G34.1-3
+play,4,0,sandr001,22,BBF1S1X,S8/L8S.3-H;1-2
+play,4,0,morek001,11,BCX,3/P3DF/FL
+play,4,0,durhl001,00,X,S9/G34/TH2.2-H;1-3
+play,4,0,davij001,11,BCX,46(1)3/GDP/G4
+play,4,1,sax-s001,31,BBBCB,W
+play,4,1,russb001,01,111C1X,D7/G5L.1-H
+play,4,1,landk001,10,BX,3/G3.2-3
+play,4,1,cabee001,01,CX,9/F9/SF.3-H
+play,4,1,hamij001,00,X,6/L6
+play,5,0,mattg001,31,BBFBX,53/G5
+play,5,0,dunss001,01,CX,S56/G5
+com,"Hot grounder off Hamilton's arm to Duncan; no throw"
+play,5,0,frazg001,22,1MBBMC,K/C
+play,5,0,loped001,11,BSB,PB.1-3
+play,5,0,loped001,21,BSB.X,63/G6
+com,"Cabell caught Duncan's wide throw and swipe-tagged Lopes"
+play,5,1,willr001,00,,NP
 sub,speic001,"Chris Speier",0,1,5
-play,5,1,willr001,,,D
-play,5,1,duncm001,,,7.2-3
-play,5,1,fimpj001,,,8/SF.3-H
-play,5,1,herso001,,,63
-play,6,0,mumpj001,,,K
-play,6,0,sandr001,,,K
-play,6,0,morek001,,,W
-play,6,0,durhl001,,,9/L
-play,6,1,sax-s001,,,E6/G.B-1
-play,6,1,russb001,,,9
-play,6,1,landk001,,,46(1)3/GDP
-play,7,0,davij001,,,K
-play,7,0,mattg001,,,HR
-play,7,0,dunss001,,,S
-play,7,0,frazg001,,,NP
+play,5,1,willr001,00,X,D7/G5L
+play,5,1,duncm001,20,BBX,7/F7D.2-3
+com,"Matthews: running catch"
+play,5,1,fimpj001,11,BCX,8/F8D/SF.3-H
+play,5,1,herso001,22,CBCBX,63/G6
+play,6,0,mumpj001,12,CSBT,K
+play,6,0,sandr001,22,CBCBS,K
+play,6,0,morek001,32,BSCBBB,W
+play,6,0,durhl001,00,X,9/L9
+play,6,1,sax-s001,22,BCSBFX,E6/G6.B-1
+play,6,1,russb001,10,BX,9/F9S
+play,6,1,landk001,00,X,46(1)3/GDP/G4
+play,7,0,davij001,32,BBFFBS,K
+play,7,0,mattg001,00,X,HR/F7D
+com,"Into 8th row of LF stands, over 370' sign"
+play,7,0,dunss001,00,X,S7/G56
+play,7,0,frazg001,00,,NP
 sub,frant001,"Terry Francona",0,9,11
-play,7,0,frant001,,,23.1-2
-play,7,0,speic001,,,S.2-H
-play,7,0,mumpj001,,,NP
+play,7,0,frant001,32,BBBCFFX,23/G2R.1-2
+play,7,0,speic001,32,BCBSBFX,S8/G4M.2-H
+play,7,0,mumpj001,00,,NP
 sub,diazc001,"Carlos Diaz",1,9,1
-play,7,0,mumpj001,,,7
-play,7,1,cabee001,,,NP
+play,7,0,mumpj001,10,BX,7/F7
+play,7,1,cabee001,00,,NP
 sub,hoffg002,"Guy Hoffman",0,9,1
-play,7,1,cabee001,,,D
-play,7,1,hamij001,,,S.2-H
-play,7,1,willr001,,,3/SH.1-2
-play,7,1,duncm001,,,K/C
-play,7,1,fimpj001,,,I
-play,7,1,diazc001,,,NP
+play,7,1,cabee001,10,BX,D7/L7LS
+play,7,1,hamij001,01,CX,S8/G4M.2-H
+play,7,1,willr001,00,X,3/BG3S/SH.1-2
+com,"Durham tagged Williams"
+play,7,1,duncm001,02,SCC,K/C
+play,7,1,fimpj001,30,IIII,IW
+play,7,1,diazc001,00,,NP
 sub,treva001,"Alex Trevino",1,9,11
-play,7,1,treva001,,,D.2-H;1-H
-play,7,1,sax-s001,,,63
-play,8,0,sandr001,,,NP
+play,7,1,treva001,32,BBFBF>X,D7/L78D.2-H;1-H
+play,7,1,sax-s001,12,BCCX,63/G6M
+play,8,0,sandr001,00,,NP
 sub,matul001,"Len Matuszek",1,4,3
-play,8,0,sandr001,,,NP
+play,8,0,sandr001,00,,NP
 sub,niedt001,"Tom Niedenfuer",1,9,1
-play,8,0,sandr001,,,8
-play,8,0,morek001,,,S
-play,8,0,durhl001,,,6
-play,8,0,davij001,,,9
-play,8,1,russb001,,,NP
+play,8,0,sandr001,21,BBCX,8/F8XD
+play,8,0,morek001,00,X,S8/L6MD
+play,8,0,durhl001,31,BBBCX,6/P6D
+play,8,0,davij001,21,FBBX,9/F9S
+play,8,1,russb001,00,,NP
 sub,lakes001,"Steve Lake",0,6,2
-play,8,1,russb001,,,4/L
-play,8,1,landk001,,,K
+play,8,1,russb001,12,SFBX,4/L4
+play,8,1,landk001,02,SFFS,K
 play,8,1,matul001,,,8
-play,9,0,mattg001,,,NP
+play,9,0,mattg001,??,,NP
 sub,bryar001,"Ralph Bryant",1,2,9
 play,9,0,mattg001,,,K
 play,9,0,dunss001,,,K
-play,9,0,hoffg002,,,NP
+play,9,0,hoffg002,??,,NP
 sub,boslt001,"Thad Bosley",0,9,11
 play,9,0,boslt001,,,9
 data,er,moyej001,3

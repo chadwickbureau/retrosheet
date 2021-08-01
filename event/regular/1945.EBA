@@ -19241,7 +19241,7 @@ stat,phline,metrc101,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,dline,stirs101,0,1,4,24,4,2,0,1,0,0
 stat,dline,methb101,0,1,9,24,5,0,0,0,0,0
 stat,dline,marth101,0,1,7,24,0,0,0,0,0,0
-stat,dline,etten101,0,1,3,24,6,0,0,0,0,0
+stat,dline,etten101,0,1,3,24,6,0,0,1,0,0
 stat,dline,grimo101,0,1,5,24,1,4,0,1,0,0
 stat,dline,stait101,0,1,8,24,3,0,1,0,0,0
 stat,dline,crosf103,0,1,6,24,1,2,0,0,0,0
@@ -19249,33 +19249,34 @@ stat,dline,garbm101,0,1,2,24,4,1,0,0,0,0
 stat,dline,boroh101,0,1,1,20,0,0,0,0,0,0
 stat,dline,turnj102,0,1,1,4,0,1,0,0,0,0
 stat,dline,kellg102,1,1,5,27,2,2,0,0,0,0
-stat,dline,peckh101,1,1,9,27,2,1,0,0,0,0
+stat,dline,peckh101,1,1,9,27,2,1,0,1,0,0
 stat,dline,siebd102,1,1,3,27,9,1,0,2,0,0
 stat,dline,estab101,1,1,8,27,2,0,0,0,0,0
 stat,dline,rosab101,1,1,2,27,3,0,0,0,0,0
-stat,dline,halli101,1,1,4,27,2,5,1,2,0,0
+stat,dline,halli101,1,1,4,27,2,5,1,3,0,0
 stat,dline,rosel101,1,1,7,27,3,0,0,0,0,0
 stat,dline,wilkb101,1,1,6,6,0,2,1,1,0,0
 stat,dline,berrj102,1,1,1,15,1,1,0,0,0,0
 stat,dline,florj101,1,1,1,4,0,0,0,0,0,0
 stat,dline,chrir101,1,1,1,2,0,0,0,0,0,0
 stat,dline,knerl101,1,1,1,6,0,0,0,0,0,0
-stat,dline,busce101,1,1,6,21,3,2,0,1,0,0
+stat,dline,busce101,1,1,6,21,3,2,0,2,0,0
 stat,pline,boroh101,0,1,20,-1,31,9,-1,-1,0,4,4,4,-1,0,0,0,0,0,0
 stat,pline,turnj102,0,2,4,-1,5,1,-1,-1,0,0,0,0,-1,2,0,0,0,1,0
 stat,pline,knerl101,1,1,6,-1,12,5,-1,-1,0,3,0,1,-1,1,0,0,0,0,0
 stat,pline,berrj102,1,2,15,-1,21,3,-1,-1,0,0,0,3,-1,1,0,0,0,0,0
 stat,pline,florj101,1,3,4,-1,6,1,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 stat,pline,chrir101,1,4,2,-1,1,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-event,dpline,0,grimo101,stirs101
+event,dpline,0,grimo101,stirs101,etten101
 event,dpline,1,wilkb101,halli101,siebd102
+event,dpline,1,peckh101,halli101,busce101
 event,dpline,1,halli101,busce101,siebd102
 event,sbline,0,stirs101,,rosab101,-1
 event,csline,1,peckh101,,garbm101,-1
 line,0,0,3,0,0,0,0,0,0,0
 line,1,0,2,0,0,0,0,2,0
 stat,tline,0,10,0,1,0
-stat,tline,1,8,0,2,0
+stat,tline,1,8,0,3,0
 id,SLA194506150
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -20913,7 +20914,7 @@ start,johnb102,"Bob Johnson",1,4,7
 start,lazoj101,"Johnny Lazor",1,5,9
 start,buchj101,"Jim Bucher",1,6,5
 start,culbl101,"Leon Culberson",1,7,8
-start,waltf101,"Fred Walters",1,8,2
+start,garbb102,"Bob Garbark",1,8,2
 start,hausc101,"Clem Hausmann",1,9,1
 stat,bline,crosf103,0,1,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,methb101,0,2,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,1,0
@@ -20935,8 +20936,8 @@ stat,bline,johnb102,1,4,1,2,0,1,0,0,0,0,0,0,0,2,-1,0,0,1,0,0
 stat,bline,lazoj101,1,5,1,4,0,2,0,0,0,1,0,0,0,0,-1,0,0,0,0,0
 stat,bline,buchj101,1,6,1,3,0,0,0,0,0,0,0,0,0,1,-1,0,1,0,0,0
 stat,bline,culbl101,1,7,1,3,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
-stat,bline,waltf101,1,8,1,3,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,0,0
-stat,bline,garbb102,1,8,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,garbb102,1,8,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,waltf101,1,8,2,3,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,0,0
 stat,bline,hausc101,1,9,1,3,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,phline,buzaj101,-1,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,phline,savad101,-1,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
@@ -20958,8 +20959,8 @@ stat,dline,johnb102,1,1,7,27,1,0,0,0,0,0
 stat,dline,lazoj101,1,1,9,27,0,0,0,0,0,0
 stat,dline,buchj101,1,1,5,27,2,2,0,0,0,0
 stat,dline,culbl101,1,1,8,27,5,0,0,0,0,0
-stat,dline,waltf101,1,1,2,-1,1,1,0,0,0,0
 stat,dline,garbb102,1,1,2,-1,1,0,0,0,0,0
+stat,dline,waltf101,1,1,2,-1,1,1,0,0,0,0
 stat,dline,hausc101,1,1,1,27,2,1,0,0,0,0
 stat,pline,boroh101,0,1,21,-1,29,6,-1,-1,0,1,1,4,-1,1,0,0,0,0,0
 stat,pline,turnj102,0,2,3,-1,4,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
@@ -21806,7 +21807,7 @@ info,usedh,false
 info,umphome,weafh901
 info,ump1b,hubbc901
 info,ump2b,(none)
-info,ump3b,pipgg901
+info,ump3b,stewe901
 info,scorer,TSN Box
 info,howscored,unknown
 info,pitches,none
@@ -49912,7 +49913,7 @@ stat,bline,curtg102,1,4,1,4,0,3,0,1,0,1,0,0,0,1,-1,1,0,0,0,0
 stat,bline,bakef103,1,5,1,3,1,1,0,0,0,0,0,0,0,2,-1,0,0,0,0,0
 stat,bline,hocko101,1,6,1,5,0,1,0,0,0,0,0,0,0,0,-1,2,0,0,0,0
 stat,bline,reynd102,1,7,1,4,0,0,0,0,0,0,0,0,0,0,-1,1,1,0,1,0
-stat,bline,tresm101,1,8,1,3,0,1,0,0,0,0,0,0,0,1,-1,0,0,0,0,0
+stat,bline,tresm101,1,8,1,2,0,1,0,0,0,0,0,0,0,2,-1,0,0,0,0,0
 stat,bline,dietb101,1,9,1,2,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,0,0
 stat,bline,johnj103,1,9,2,1,0,0,0,0,0,0,0,0,0,1,-1,1,0,0,0,0
 stat,dline,cihoa101,0,1,6,27,3,3,0,1,0,0
@@ -49936,7 +49937,7 @@ stat,dline,reynd102,1,1,6,27,2,4,1,1,0,0
 stat,dline,tresm101,1,1,2,27,10,0,0,0,0,0
 stat,dline,dietb101,1,1,1,15,0,0,0,0,0,0
 stat,dline,johnj103,1,1,1,12,0,0,0,0,0,0
-stat,pline,fellb101,0,1,27,-1,42,8,0,1,0,2,2,6,-1,6,0,1,0,0,0
+stat,pline,fellb101,0,1,27,-1,42,8,0,1,0,2,2,7,-1,6,0,1,0,0,0
 stat,pline,dietb101,1,1,15,-1,23,8,-1,-1,2,6,6,1,-1,4,0,0,0,0,0
 stat,pline,johnj103,1,2,12,-1,21,4,-1,-1,0,2,1,3,-1,4,0,0,0,0,0
 event,dpline,0,cihoa101,meyed101,roccm101

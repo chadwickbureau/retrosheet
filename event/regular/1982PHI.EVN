@@ -8464,7 +8464,7 @@ start,virgo001,"Ozzie Virgil",1,6,2
 start,agual001,"Luis Aguayo",1,7,4
 start,dejei001,"Ivan DeJesus",1,8,6
 start,farme101,"Ed Farmer",1,9,1
-com,"Suspend=19820810,PHI12,9,6,47"
+com,"Suspend=19820810,PHI12,9,6,44"
 play,1,0,moreo001,??,,S7
 play,1,0,ray-j001,??,,7
 play,1,0,madlb001,??,,S7.1-2
@@ -11804,6 +11804,7 @@ play,3,0,cartg001,??,,6/L
 play,3,0,wallt001,??,,7
 play,3,1,franj002,??,,63
 play,3,1,ballj001,??,,HP
+com,"$HP umpire Gregg issued warning to both teams"
 play,3,1,maddg001,??,,8
 play,3,1,rosep001,??,,5
 play,4,0,cromw101,??,,43
@@ -11813,10 +11814,10 @@ play,4,1,mattg001,??,,53
 play,4,1,schmm001,??,,9/FL
 play,4,1,virgo001,??,,K
 play,5,0,sands001,??,,HP
-com,"ej,ballj001,P,grege901,Intentional HBP"
-com,"ej,corrp102,M,grege901,Intentional HBP"
-com,"Jay Baller and Phillies manager Pat Corrales ejected"
-com,"by HP umpire Eric Gregg"
+com,"ej,ballj001,P,grege901,Automatic ejection after warning"
+com,"ej,corrp102,M,grege901,Automatic ejection after warning"
+com,"$Pitcher Baller and Phillies manager Corrales ejected"
+com,"by HP umpire Gregg automatically after earlier warning"
 play,5,0,raint001,??,,NP
 sub,bahns101,"Stan Bahnsen",1,9,1
 play,5,0,raint001,??,,54(1)/FO
@@ -11858,9 +11859,9 @@ play,7,1,maddg001,??,,8
 play,8,0,raint001,??,,W
 play,8,0,dawsa001,??,,SB2
 play,8,0,dawsa001,??,,53
-com,"ej,farme101,P,palld901,Checked swing"
-com,"Ed Farmer ejected by 1B umpire Dave Pallone arguing a"
-com,"checked swing call"
+com,"ej,farme101,P,palld901,Check swing"
+com,"$Pitcher Farmer ejected by 1B umpire Pallone for arguing"
+com,"check swing call"
 play,8,0,oliva001,??,,NP
 sub,altap001,"Porfi Altamirano",1,9,1
 play,8,0,oliva001,??,,K
