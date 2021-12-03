@@ -52,7 +52,9 @@ play,1,0,bagwj001,22,FCBBX,53/G
 play,1,0,berkl001,22,BBFFC,K
 play,1,0,kentj001,00,X,4/P
 play,1,1,womat001,01,CX,7/L
-play,1,1,walkl001,32,CCBBFBX,T8/L
+play,1,1,walkl001,32,CCBBFBX,T8/L9
+com,"$Line drive misplayed by RF Berkman (he may have lost it in"
+com,"the lights); retrieved by CF Beltran in deep RF"
 play,1,1,pujoa001,20,BBX,HR/89/L.3-H
 play,1,1,roles001,21,BCBX,63/G
 play,1,1,edmoj001,22,FBFBFX,S9/L
@@ -211,7 +213,7 @@ start,rente001,"Edgar Renteria",1,6,6
 start,sandr002,"Reggie Sanders",1,7,7
 start,mathm001,"Mike Matheny",1,8,2
 start,morrm001,"Matt Morris",1,9,1
-com,"30 minute rain delay before start of game"
+com,"$Start of game delayed 30 minutes by rain"
 play,1,0,biggc001,00,X,7/F
 play,1,0,beltc001,01,CX,HR/9/F+
 play,1,0,bagwj001,12,CFBFS,K
@@ -221,9 +223,6 @@ play,1,1,walkl001,11,1BC1,PO1(E1).1-2
 play,1,1,walkl001,32,1BC1.BSBFS,K
 play,1,1,pujoa001,22,CBFBFX,5/L
 play,1,1,roles001,21,C*BBX,8/F
-com,"umpchange,2,umplf,(None)"
-com,"$LF umpire Rapuano left game because of dizziness;"
-com,"he was treated at the stadium"
 play,2,0,kentj001,01,SX,D7/G
 play,2,0,ensbm001,02,CFS,K
 play,2,0,vizcj001,01,TX,6/P
@@ -232,6 +231,8 @@ play,2,0,munrp001,00,S,WP.2-3
 play,2,0,munrp001,31,S.BBBB,W.1-2
 play,2,0,biggc001,10,BX,46(1)/FO/G
 play,2,1,edmoj001,00,X,8/F
+com,"umpchange,2,umplf,(None)"
+com,"$LF umpire Rapuano left game due to dizziness"
 play,2,1,rente001,32,BBCFBX,63/G-
 play,2,1,sandr002,01,CX,43/G
 play,3,0,beltc001,32,BCBBCB,W
@@ -861,7 +862,7 @@ play,3,1,mathm001,32,BFP*BFFS,K
 play,3,1,morrm001,02,CFC,K
 play,4,0,lambm001,00,,NP
 sub,lunah001,"Hector Luna",1,1,4
-com,"$Tony Womack left with back spasms"
+com,"Tony Womack left with back spasms"
 play,4,0,lambm001,22,.BCBSFX,HR/9/F
 play,4,0,vizcj001,02,FFX,5/P
 play,4,0,ausmb001,00,X,S8/L
@@ -1030,7 +1031,7 @@ start,womat001,"Tony Womack",1,7,4
 start,mathm001,"Mike Matheny",1,8,2
 start,suppj001,"Jeff Suppan",1,9,1
 play,1,0,biggc001,12,CBFX,HR/7/F
-com,"$the first lead-off homer in a game 7 of any post-season series"
+com,"the first lead-off homer in a game 7 of any post-season series"
 play,1,0,beltc001,12,CBSX,4/P
 play,1,0,bagwj001,12,BSSX,7/F
 play,1,0,berkl001,22,SBBCS,K

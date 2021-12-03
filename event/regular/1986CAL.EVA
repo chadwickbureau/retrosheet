@@ -4138,16 +4138,16 @@ info,ump1b,fordd901
 info,ump2b,(none)
 info,ump3b,koscg901
 info,scorer,"Dennis Bretz"
-info,inputter,"Dennis Bretz"
+info,translator,"Dennis Bretz/Townsend"
+info,inputter,"Dennis Bretz/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,oscorer,munse701
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,188
 info,attendance,40005
 info,wp,corbd001
@@ -4175,91 +4175,94 @@ start,boonb001,"Bob Boone",1,8,2
 start,pettg001,"Gary Pettis",1,9,8
 start,suttd001,"Don Sutton",1,0,1
 play,1,0,wilsw001,,,8
-play,1,0,smitl002,,,D
+play,1,0,smitl002,,,D7
 play,1,0,law-r001,,,43.2-3
-play,1,0,bretg001,,,S.3-H
+play,1,0,bretg001,,,S8.3-H
 play,1,0,ortaj001,,,5/FL
 play,1,1,joner002,,,S
-play,1,1,joynw001,,,HR.1-H
+play,1,1,joynw001,,,HR/F9D.1-H
 play,1,1,downb001,,,K
 play,1,1,jackr001,,,W
 play,1,1,decid001,,,K
-play,1,1,wilfr001,,,S.1-H(E8)(UR)(NR);B-3
+play,1,1,wilfr001,,,S89/L8S.1-H(E8)(NR)(UR);B-3
 play,1,1,schod001,,,K
 play,2,0,whitf001,,,7
 play,2,0,balbs001,,,K/C
-play,2,0,quirj001,,,K
-play,2,1,boonb001,,,E6/G.B-1
-play,2,1,pettg001,,,46(1)3/GDP
-play,2,1,joner002,,,HR
-play,2,1,joynw001,,,K
-play,3,0,bianb001,,,HR
-play,3,0,wilsw001,,,6
-play,3,0,smitl002,,,HR
-play,3,0,law-r001,,,D
-play,3,0,bretg001,,,I
-play,3,0,ortaj001,,,S.2-H;1-3
-play,3,0,whitf001,,,54(1)3/GDP
-play,3,1,downb001,,,53
-play,3,1,jackr001,,,D
-play,3,1,decid001,,,8/L
-play,3,1,wilfr001,,,K
-play,4,0,balbs001,,,D
-play,4,0,quirj001,,,13
-play,4,0,bianb001,,,K
-play,4,0,wilsw001,,,2/FL
-play,4,1,schod001,,,K
-play,4,1,boonb001,,,K
-play,4,1,pettg001,,,13
-play,5,0,smitl002,,,8
-play,5,0,law-r001,,,W
-play,5,0,bretg001,,,K
-play,5,0,ortaj001,,,K
-play,5,1,joner002,,,K
-play,5,1,joynw001,,,D
-play,5,1,downb001,,,W
-play,5,1,jackr001,,,S.2-H;1-2
-play,5,1,decid001,,,K
-play,5,1,wilfr001,,,K/C
-play,6,0,whitf001,,,K
-play,6,0,balbs001,,,7
-play,6,0,quirj001,,,4
-play,6,1,schod001,,,8
-play,6,1,boonb001,,,7
-play,6,1,pettg001,,,43
-play,7,0,bianb001,,,43
-play,7,0,wilsw001,,,W
-play,7,0,smitl002,,,HP.1-2
-play,7,0,law-r001,20,,NP
+play,2,0,quirj001,12,KBSS,K
+play,2,1,boonb001,12,FFFFBX,E6/G56.B-1
+play,2,1,pettg001,00,X,46(1)3/GDP/G4M
+play,2,1,joner002,10,BX,HR/F7D
+play,2,1,joynw001,22,CBFBS,K
+play,3,0,bianb001,10,BX,HR/F9D
+play,3,0,wilsw001,12,BCFX,6/P6
+play,3,0,smitl002,10,BX,HR/F7D
+play,3,0,law-r001,20,BBX,D7/L7L
+play,3,0,bretg001,30,BBBI,IW
+play,3,0,ortaj001,22,CBBCX,S9/L9S/TH3.2-H;1-3
+play,3,0,whitf001,00,X,54(1)3/GDP/G5
+play,3,1,downb001,12,CFBX,53/G56
+play,3,1,jackr001,22,SBSBX,D9/G3L
+play,3,1,decid001,00,X,8/L78
+play,3,1,wilfr001,22,BBCFS,K
+play,4,0,balbs001,32,FFBBBFX,D7/G5L
+play,4,0,quirj001,02,CFX,13/G1
+play,4,0,bianb001,22,BCCFBS,K
+play,4,0,wilsw001,11,CBX,2/P2F/FL
+play,4,1,schod001,22,CSBBS,K
+play,4,1,boonb001,12,BFCS,K
+play,4,1,pettg001,02,SCX,13/G1
+play,5,0,smitl002,00,X,8/F8D
+play,5,0,law-r001,32,BBBCFFFB,W
+play,5,0,bretg001,22,SB1>FB1*S,K
+play,5,0,ortaj001,22,CP1C1B1>S,K
+play,5,1,joner002,12,SBSS,K
+play,5,1,joynw001,12,CFBFX,D8/L89
+play,5,1,downb001,31,BBBCB,W
+play,5,1,jackr001,30,BBBX,S8/L89.2-H;1-2
+play,5,1,decid001,12,CFBS,K
+play,5,1,wilfr001,32,BCBFFB>C,K/C
+play,6,0,whitf001,02,LCS,K
+play,6,0,balbs001,00,X,7/F7S
+play,6,0,quirj001,11,BFX,4/P34D
+play,6,1,schod001,12,BFTX,8/F78XD
+play,6,1,boonb001,32,FBBBCFX,7/F7LS
+play,6,1,pettg001,10,BX,43/G4
+play,7,0,bianb001,10,BX,43/G4
+play,7,0,wilsw001,31,BBBCB,W
+play,7,0,smitl002,10,PH,HP.1-2
+com,"$Hit on the left elbow"
+play,7,0,law-r001,20,*BB,NP
 sub,forst001,"Terry Forster",1,0,1
-play,7,0,law-r001,,,S.2-H;1-3
-play,7,0,bretg001,,,FC3/G.3XH(32);1-2;B-1
-play,7,0,ortaj001,,,13
-play,7,1,joner002,,,HP
+play,7,0,law-r001,22,*BB.CCX,S9/L9S.2-H;1-3
+play,7,0,bretg001,02,CFX,FC3/G3S.3XH(32);1-2;B-1
+play,7,0,ortaj001,21,BBCX,13/G1
+play,7,1,joner002,12,BCFH,HP
 com,"ej,howsd101,M,garcr901,Arguing HBP call"
-com,"Royals manager Dick Howser ejected by HP umpire Richie Garcia"
-play,7,1,joynw001,,,NP
+com,"$Royals manager Howser ejected by HP umpire Garcia for"
+com,"arguing hit by pitch call which Garcia called after"
+com,"inspecting ball and concluding ball hit batter's foot"
+play,7,1,joynw001,00,,NP
 sub,blacb001,"Buddy Black",0,0,1
-play,7,1,joynw001,,,PO1(13)
-play,7,1,joynw001,,,43
-play,7,1,downb001,,,W
-play,7,1,jackr001,,,7
-play,8,0,whitf001,,,NP
+play,7,1,joynw001,00,1,PO1(13)
+play,7,1,joynw001,22,CBFBFX,43/G34
+play,7,1,downb001,31,SBBBB,W
+play,7,1,jackr001,21,BBCX,7/F7
+play,8,0,whitf001,00,,NP
 sub,corbd001,"Doug Corbett",1,0,1
-play,8,0,whitf001,,,3
-play,8,0,balbs001,,,5
-play,8,0,quirj001,,,K
-play,8,1,decid001,,,HR
-play,8,1,wilfr001,,,NP
+play,8,0,whitf001,11,BFX,3/P34
+play,8,0,balbs001,00,X,5/P5
+play,8,0,quirj001,12,CBFFFS,K
+play,8,1,decid001,00,X,HR/F78XD
+play,8,1,wilfr001,00,,NP
 sub,gricb001,"Bobby Grich",1,6,11
-play,8,1,gricb001,,,E5/G.B-1
-play,8,1,schod001,,,16(1)/FO/BG.B-2(E6/TH1)
-play,8,1,boonb001,,,43
-play,8,1,pettg001,,,W
-play,8,1,joner002,,,NP
-sub,coned001,"David Cone",0,0,1
+play,8,1,gricb001,01,SX,E5/G5.B-1
+play,8,1,schod001,10,11B1X,16(1)/FO/BG23.B-2(E6/TH1)
+play,8,1,boonb001,00,X,43/G4
+play,8,1,pettg001,32,CBFBBB,W
 play,8,1,joner002,,,NP
 sub,hendg001,"George Hendrick",1,1,11
+play,8,1,hendg001,,,NP
+sub,coned001,"David Cone",0,0,1
 play,8,1,hendg001,,,K
 play,9,0,bianb001,,,NP
 sub,mcrah001,"Hal McRae",0,9,11
@@ -4267,9 +4270,9 @@ play,9,0,mcrah001,,,NP
 sub,hendg001,"George Hendrick",1,1,9
 play,9,0,mcrah001,,,NP
 sub,gricb001,"Bobby Grich",1,6,4
-play,9,0,mcrah001,,,53
-play,9,0,wilsw001,,,8
-play,9,0,smitl002,,,53
+play,9,0,mcrah001,,,53/G5S
+play,9,0,wilsw001,12,BFSX,8/F8
+play,9,0,smitl002,10,BX,53/G56
 data,er,leond001,4
 data,er,blacb001,1
 data,er,coned001,0
@@ -7136,16 +7139,16 @@ info,ump1b,younl901
 info,ump2b,reilm901
 info,ump3b,cobld901
 info,scorer,"Diana Barnum"
-info,inputter,"Dennis Bretz"
+info,translator,"Dennis Bretz, Wayne Townsend"
+info,inputter,"Dennis Bretz, Wayne Townsend"
 info,howscored,unknown
-info,pitches,none
-info,oscorer,munse701
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,175
 info,attendance,61559
 info,wp,suttd001
@@ -7172,90 +7175,116 @@ start,boonb001,"Bob Boone",1,7,2
 start,schod001,"Dick Schofield",1,8,6
 start,pettg001,"Gary Pettis",1,9,8
 start,suttd001,"Don Sutton",1,0,1
-play,1,0,barrm001,,,3
-play,1,0,boggw001,,,31
-play,1,0,buckb001,,,D9
-play,1,0,ricej001,,,8/L
-play,1,1,joner002,,,D9
-play,1,1,joynw001,,,9
-play,1,1,decid001,,,53
-play,1,1,jackr001,,,W
-play,1,1,downb001,,,54(1)/FO/G
-play,2,0,bayld001,,,K
-play,2,0,evand002,,,S7
-play,2,0,armat001,,,7
-play,2,0,gedmr001,,,5/FL
-play,2,1,gricb001,,,3
-play,2,1,boonb001,,,63
-play,2,1,schod001,,,K+WP.B-1
-play,2,1,pettg001,,,SB2
-play,2,1,pettg001,,,W
-play,2,1,joner002,,,K
-play,3,0,quinr001,,,53
-play,3,0,barrm001,,,S8
-play,3,0,boggw001,,,8
-play,3,0,buckb001,,,D9.1-3
-play,3,0,ricej001,,,53
-play,3,1,joynw001,,,S9.BX2(94)
-play,3,1,decid001,,,63
-play,3,1,jackr001,,,W
-play,3,1,downb001,,,54(1)/FO/G
-play,4,0,bayld001,,,K/C
+play,1,0,barrm001,01,CX,3/P34S
+play,1,0,boggw001,22,BCBCX,31/G34
+play,1,0,buckb001,22,BCFBFX,D9/G3L
+play,1,0,ricej001,32,SBFFFBBFX,8/F8XD
+play,1,1,joner002,12,BSCFX,D9/G3L
+play,1,1,joynw001,11,FBX,9/F89
+play,1,1,decid001,00,X,53/G5
+play,1,1,jackr001,30,BBBB,W
+play,1,1,downb001,12,BCTX,54(1)/FO/G5
+play,2,0,bayld001,22,FBSFBFS,K
+play,2,0,evand002,31,BCBBX,S7/L7
+play,2,0,armat001,11,BF1X,7/F7D
+play,2,0,gedmr001,10,P+1X,5/P5DF/FL
+play,2,1,gricb001,22,BBCSX,3/P3L
+play,2,1,boonb001,00,X,63/G6
+play,2,1,schod001,22,BSFBS,K+WP.B-1
+play,2,1,pettg001,01,11C1>B,SB2
+play,2,1,pettg001,32,11C1>B.CBBFB,W
+com,"With a 2-2 count to Pettis, Sox Mgr McNamara came out to"
+com,"argue with 1B Ump Young about something."
+play,2,1,joner002,32,BBSSB>F>S,K
+com,"McNamara continued to argue with Ump Young between innings"
+play,3,0,quinr001,10,BX,53/G5
+play,3,0,barrm001,11,BFX,S8/L8S
+play,3,0,boggw001,02,CFX,8/F78
+play,3,0,buckb001,12,1BCFX,D9/G3L.1-3
+play,3,0,ricej001,32,*SSBBFBX,53/G56
+play,3,1,joynw001,02,CFX,S9/F9LS.BX2(96)
+com,"Joyner argued the call at 2B"
+play,3,1,decid001,01,CX,63/G6
+play,3,1,jackr001,30,BBBB,W
+play,3,1,downb001,22,BCSBF1X,54(1)/FO/G5
+play,4,0,bayld001,22,BFSBC,K/C
+com,"Baylor was unhappy with the called strike, said a few words"
+com,"to Ump McClelland, and walked to the dugout."
+play,4,0,evand002,12,CSBC,K/C
+com,"Baylor continued shouting from the dugout"
+play,4,0,armat001,11,BFX,S7/G56
+com,"Don Baylor and Red Sox manager John McNamara ejected by HP"
+com,"umpire Tim McClelland following Armas' hit."
 com,"ej,bayld001,P,mcclt901,Balls and strikes"
 com,"ej,mcnaj801,M,mcclt901,Balls and strikes"
-com,"Don Baylor and Red Sox manager John McNamara ejected by HP"
-com,"umpire Tim McClelland"
-play,4,0,evand002,,,K/C
-play,4,0,armat001,,,S7
-play,4,0,gedmr001,,,63
-play,4,1,gricb001,,,HR/8
-play,4,1,boonb001,,,S9
-play,4,1,schod001,,,S9.1-3;BX2(94)
-play,4,1,pettg001,,,DGR/9.3-H
-play,4,1,joner002,,,K+CS3(25)/DP
-play,5,0,quinr001,,,D8.BX3(845)
-play,5,0,barrm001,,,9
-play,5,0,boggw001,,,7
-play,5,1,joynw001,,,W
-play,5,1,decid001,,,14(B)/SH/G.1-2
-play,5,1,jackr001,,,W
-play,5,1,downb001,,,54(1)3/GDP
-play,6,0,buckb001,,,3/FL
-play,6,0,ricej001,,,S8/8D
-play,6,0,bayld001,,,NP
+play,4,0,gedmr001,10,BX,63/G6
+com,"Between innings, acting Mgr Lachemann had words with"
+com,"Ump McClelland.  Angels Mgr Mauch announced the Angels"
+com,"were playing under protest because Lachemann would not"
+com,"immediately name a replacement at DH for Baylor."
+com,"(According to Rule 6.10, no substitute need be named"
+com,"until the DH's next time at bat.)"
+play,4,1,gricb001,11,CBX,HR/F8XD
+com,"Over CF fence just to the left of the CF camera"
+play,4,1,boonb001,00,X,S9/L34D
+play,4,1,schod001,10,B>X,S9/L3D.1-3;BX2(94)
+play,4,1,pettg001,32,CFBFBBFX,DGR/F89XD.3-H
+com,"One-hopped on the warning track and over LCF fence, just"
+com,"out of Evans' reach."
+play,4,1,joner002,22,*B>F*BS>S,K+CS3(25)/DP
+play,5,0,quinr001,12,CBFFFX,D8/F8XD.BX3(845)
+com,"Off Pettis' glove who tried an over-the-shoulder running"
+com,"catch on the warning track."
+com,"Mgr Lachmann argued the call at 3B."
+play,5,0,barrm001,12,CCBX,9/F9
+play,5,0,boggw001,10,BX,7/F7D
+play,5,1,joynw001,31,FBBBB,W
+play,5,1,decid001,11,LB1X,14(B)/BG1S/SH.1-2
+play,5,1,jackr001,31,BBSBB,W
+play,5,1,downb001,21,BB+2CX,54(1)3/GDP/G5
+play,6,0,buckb001,32,CFBBBX,3/P3F/FL
+com,"Joyner leaned into the stands to make the catch"
+play,6,0,ricej001,01,CX,S8/G6M
+play,6,0,bayld001,00,,NP
 sub,greem001,"Mike Greenwell",0,5,11
-play,6,0,greem001,,,5
-play,6,0,evand002,,,5/L
-play,6,1,gricb001,,,4
-play,6,1,boonb001,,,D7
-play,6,1,schod001,,,53
-play,6,1,pettg001,,,S7.2XH(72)
-play,7,0,armat001,,,S8
-play,7,0,gedmr001,,,NP
+play,6,0,greem001,10,BX,5/P5
+play,6,0,evand002,11,FBX,5/L5
+play,6,1,gricb001,31,BFBBX,4/P3D
+play,6,1,boonb001,12,BCCX,D7/L7L
+play,6,1,schod001,22,BFCBX,53/G5
+play,6,1,pettg001,11,FB2X,S7/L56D.2XH(72)
+com,"Boone did not slide"
+play,7,0,armat001,01,FX,S8/G6M
+play,7,0,gedmr001,00,,NP
 sub,lucag001,"Gary Lucas",1,0,1
-play,7,0,gedmr001,,,K
-play,7,0,quinr001,,,K
-play,7,0,barrm001,,,46(1)/FO/G
-play,7,1,joner002,,,NP
+play,7,0,gedmr001,12,BCCS,K
+play,7,0,quinr001,02,F1FS,K
+play,7,0,barrm001,22,CBBFX,46(1)/FO/G4
+play,7,1,joner002,00,,NP
 sub,stews001,"Sammy Stewart",0,0,1
-play,7,1,joner002,,,K/C
-play,7,1,joynw001,,,43
-play,7,1,decid001,,,W
-play,7,1,jackr001,,,K/C
-play,8,0,boggw001,,,W
-play,8,0,buckb001,,,7/L
-play,8,0,ricej001,,,NP
+play,7,1,joner002,32,CBBCFBC,K/C
+play,7,1,joynw001,10,BX,43/G4
+com,"Barrett knocked it down but recovered (TV replay showed Joyner"
+com,"was safe)."
+play,7,1,decid001,31,BBBCB,W
+play,7,1,jackr001,22,BBSCC,K/C
+play,8,0,boggw001,32,BCCBBFFFB,W
+play,8,0,buckb001,02,CSX,7/F7
+play,8,0,ricej001,00,,NP
 sub,moord001,"Donnie Moore",1,0,1
-play,8,0,ricej001,,,S7.1-2
-play,8,0,greem001,,,OA.2X3(235);1-2
-play,8,0,greem001,,,7
-play,8,1,downb001,,,T7
-play,8,1,gricb001,,,K/C
-play,8,1,boonb001,,,9/SF.3-H
-play,8,1,schod001,,,9
-play,9,0,evand002,,,63
-play,9,0,armat001,,,K
-play,9,0,gedmr001,,,K
+play,8,0,ricej001,10,B1X,S7/G56.1-2
+play,8,0,greem001,10,BB,OA.2X3(235);1-2
+com,"Runmers tried to advance on a short passed ball"
+play,8,0,greem001,20,BB.X,7/F7L
+com,"Downing: running catch"
+play,8,1,downb001,00,X,T7/F7LD
+com,"Big bounce over Rice to the wall"
+play,8,1,gricb001,22,CBCBC,K/C
+play,8,1,boonb001,02,CFX,9/L89/SF.3-H
+play,8,1,schod001,22,BFCBX,9/F9
+play,9,0,evand002,22,FBSFBX,63/G6
+play,9,0,armat001,02,SCFS,K
+play,9,0,gedmr001,02,CSS,K
 data,er,seavt001,2
 data,er,stews001,1
 data,er,suttd001,0

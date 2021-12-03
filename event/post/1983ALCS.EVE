@@ -79,14 +79,14 @@ play,3,1,bumba001,21,CB1BX,8/8D
 play,4,0,kittr001,22,BFSBC,K/C
 play,4,0,bainh001,21,CBBX,43
 play,4,0,law-v001,00,X,6/L
-com,"42 minute rain delay"
+com,"$42 minute rain delay"
 play,4,1,fordd001,02,CFX,43
 play,4,1,ripkc001,02,SCS,K
 play,4,1,murre001,22,BFFBFX,31
 play,5,0,flets001,10,BX,53
 play,5,0,cruzj002,01,SX,53
 play,5,0,law-r001,11,CBX,S9
-play,5,0,fiskc001,20,B1BX,53
+play,5,0,fiskc001,20,B1BX,54(1)/FO
 play,5,1,lowej001,11,BCX,9
 play,5,1,singk001,00,X,D/89
 play,5,1,dauer001,01,SX,13
@@ -123,11 +123,11 @@ play,8,0,bainh001,00,X,FC3.3XH(325);1-2;B-1
 play,8,0,law-v001,02,SCFB,WP.2-3;1-2
 play,8,0,law-v001,22,SCFB.BS,K
 play,8,1,singk001,00,X,8
-play,8,1,dauer001,11,CBX,9
+play,8,1,dauer001,11,CBX,8
 play,8,1,cruzt001,20,BBX,2/FL
 play,9,0,flets001,32,BCCFBBB,W
 play,9,0,cruzj002,31,F1BBBB,W.1-2
-play,9,0,law-r001,01,LX,15(2)/FO.1-2
+play,9,0,law-r001,01,LX,15(2)/BG/FO.1-2
 play,9,0,fiskc001,10,BX,43.2-3;1-2
 play,9,0,pacit001,21,BSBX,53
 play,9,1,dempr001,00,,NP
@@ -351,6 +351,7 @@ play,1,0,murre001,20,BBX,HR/89.2-H;1-H
 play,1,0,lowej001,31,BBCBB,W
 play,1,0,singk001,12,CBFFFX,64(1)3/GDP
 play,1,1,law-r001,11,BCX,S9
+play,1,1,fiskc001,01,C1F,FLE2
 play,1,1,fiskc001,02,C1FFX,5/FL
 play,1,1,pacit001,10,BX,9
 play,1,1,luzig001,22,CSB1BS,K
@@ -376,7 +377,7 @@ play,4,0,dauer001,10,BX,63.1-2
 play,4,0,cruzt001,21,FBBX,23.2-3
 play,4,0,dempr001,00,X,8
 play,4,1,kittr001,32,BBCFBX,HP
-com,"$Ron Kittle injured"
+com,"Ron Kittle injured"
 play,4,1,bainh001,11,FBX,46(1)3/GDP
 play,4,1,law-v001,21,BBFX,9
 play,5,0,bumba001,01,CX,3/G
@@ -417,11 +418,11 @@ sub,rodra101,"Aurelio Rodriguez",1,7,5
 play,8,0,murre001,31,BBBCB,W
 play,8,0,lowej001,31,CBBBC,SB2
 play,8,0,lowej001,32,CBBBC.C,K
-play,8,0,singk001,30,IIII,I
-play,8,0,dauer001,00,,NP
-sub,palmj001,"Jim Palmer",0,6,12
+play,8,0,singk001,30,IIII,IW
 play,8,0,dauer001,22,SFBBFX,8.2-3
 play,8,0,cruzt001,00,X,S7.3-H;1-2
+play,8,0,dempr001,00,,NP
+sub,palmj001,"Jim Palmer",0,6,12
 play,8,0,dempr001,22,CBCFBFX,8
 play,8,1,cruzj002,12,CCBS,K
 play,8,1,law-r001,11,CBX,31
@@ -437,13 +438,13 @@ play,9,0,landt001,00,1X,9
 play,9,0,ripkc001,21,1BC1B11X,D/89.1-3
 play,9,0,murre001,30,IIII,IW
 play,9,0,lowej001,00,,NP
-sub,lampd001,"Dennis Lamp",1,0,1
-play,9,0,lowej001,00,,NP
 sub,roeng001,"Gary Roenicke",0,5,11
+play,9,0,roeng001,00,,NP
+sub,lampd001,"Dennis Lamp",1,0,1
 play,9,0,roeng001,31,BBBCB,W.3-H;2-3;1-2
 play,9,0,palmj001,00,,NP
 sub,nolaj001,"Joe Nolan",0,6,11
-play,9,0,nolaj001,01,CX,E7/SF.3-H(RBI);2-H(NR)(UR);1-3;B-1
+play,9,0,nolaj001,01,CX,E7/SF.3-H(RBI);2-H(NR)(UR);1-3;B-2
 play,9,0,dauer001,00,X,9/SF.3-H(UR)
 play,9,0,cruzt001,32,CSBBBS,K
 play,9,1,pacit001,00,,NP
@@ -517,8 +518,8 @@ start,law-v001,"Vance Law",1,7,5
 start,dybzj001,"Jerry Dybzinski",1,8,6
 start,cruzj002,"Julio Cruz",1,9,4
 start,burnb001,"Britt Burns",1,0,1
-play,1,0,shelj001,22,BCBFX,S4
-play,1,0,landt001,21,111C11BBX,16(1)/FO
+play,1,0,shelj001,22,BCBFX,S5
+play,1,0,landt001,21,111C11BBX,16(1)/BG/FO
 play,1,0,ripkc001,12,1BCSX,6(1)3/GDP
 play,1,1,law-r001,21,BBCX,43
 play,1,1,fiskc001,12,CBFX,S4
@@ -579,7 +580,7 @@ sub,squim001,"Mike Squires",1,6,12
 play,7,1,law-v001,10,1B1>X,S7.1-2
 play,7,1,dybzj001,31,BBBMX,25(2)/FO/BG.1-2
 play,7,1,cruzj002,31,BBCBX,S7.2XH(7542);1-2
-com,"$Vance Law stopped at 3B Jerry but Dybzinski tried to go first"
+com,"$Vance Law stopped at 3B but Jerry Dybzinski tried to go first"
 com,"to third; Law broke for home as Todd Cruz threw to Rich Dauer"
 play,7,1,law-r001,22,CSBBN,BK.2-3;1-2
 play,7,1,law-r001,22,CSBBN.X,7

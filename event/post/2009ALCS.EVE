@@ -54,10 +54,12 @@ play,1,0,huntt001,02,CFX,S7/G
 play,1,0,guerv001,01,SX,9/L
 play,1,1,jeted001,32,CBBCBFFX,S9/G
 play,1,1,damoj001,21,BBS1X,S7/F-.1-3;B-2(E7/TH2)
-com,"$the throw by Juan Rivera was not near any player between the mound and second base"
+com,"the throw by Juan Rivera was not near any player between the mound and second base"
 play,1,1,teixm001,30,B*BBX,7/F-
 play,1,1,rodra001,11,CBX,8/SF/F.3-H
 play,1,1,matsh001,11,CBX,S6/P.2-H(UR)
+com,"$Angels shortstop and third baseman each thought the"
+com,"other would catch popup and it fell untouched"
 play,1,1,posaj001,01,CX,9/F
 play,2,0,rivej001,21,CBBX,63/G
 play,2,0,morak001,12,BFFS,K
@@ -351,7 +353,9 @@ sub,hairj002,"Jerry Hairston",1,5,11
 play,13,1,hairj002,11,.CBX,S8/L
 play,13,1,gardb001,00,X,34/SH/BG.1-2
 play,13,1,canor001,30,IIII,IW
-play,13,1,cabrm002,00,X,E4/TH2/FO/G.2-H(UR)(NR);1-2
+play,13,1,cabrm002,00,X,FC4/G4.1-2(E4/TH2);2-H(UR)(NR);B-1
+com,"$Itzuris's errant throw to second base went into left"
+com,"field allowing winning run to score"
 data,er,saunj001,2
 data,er,jepsk001,0
 data,er,olivd001,0
@@ -478,7 +482,8 @@ play,7,0,rodra001,31,.BBBCX,54(1)/FO/G+
 play,7,1,morak001,32,BCBFBX,7/L
 play,7,1,kendh001,00,,NP
 sub,chamj002,"Joba Chamberlain",0,0,1
-play,7,1,kendh001,00,.X,T8/L
+play,7,1,kendh001,00,.X,T8/F9DW
+com,"$Over RF Swisher's outstretched glove off wall; retrieved by CF Cabrera"
 play,7,1,napom001,00,,NP
 sub,iztum001,"Maicer Izturis",1,8,11
 play,7,1,iztum001,10,.BX,9/SF/F.3-H
@@ -645,7 +650,9 @@ play,4,0,swisn001,32,C*BCB*B*B,W.1-2
 play,4,0,cabrm002,12,CF*BFFX,S7/G.3-H;2-H;1-2
 play,4,0,jeted001,30,B2BBB,W.2-3;1-2
 play,4,0,damoj001,01,FX,8/FDP/AP.3X3(835)
-com,"$Nick Swisher called out on appeal at 3B"
+com,"$Nick Swisher called out on appeal for leaving 3B too"
+com,"early on Johnny Damon's apparent sac fly (replays"
+com,"showed that Swisher did not leave early)"
 play,4,1,huntt001,12,BCSS,K
 play,4,1,guerv001,11,CBX,53/G
 play,4,1,rivej001,10,BX,53/G
@@ -657,12 +664,15 @@ play,5,0,posaj001,31,BBBCB,W
 play,5,0,matsh001,00,,NP
 sub,olivd001,"Darren Oliver",1,0,1
 play,5,0,matsh001,12,.BFC>C,K+SB2
-play,5,0,canor001,01,SX,D8/F.2-3
+play,5,0,canor001,01,SX,D8/F8XDW.2-3
+com,"$Line drive off center field wall on which runner from 2nd"
+com,"Jorge Posada only advanced to 3rd since he tagged up in case"
+com,"ball was caught"
 play,5,0,swisn001,11,BCX,FC1/G.3XH(12);2-3
 com,"$Jorge Posada ran toward the plate on the come-backer to Darren Oliver;"
 com,"catcher Mike Napoli chased Posada back to 3B, where Robinson Cano was standing"
 com,"near but off the bag; Napoli tagged Cano and then Posada, who had run to and"
-com,"past the bag; both should have been out since neither was standing on the base"
+com,"past the bag"
 play,5,0,cabrm002,10,1BX,54(1)/FO/G
 play,5,1,kendh001,21,BCBX,43/G
 play,5,1,morak001,11,CBX,HR/78/F
