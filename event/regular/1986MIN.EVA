@@ -3998,7 +3998,7 @@ info,hometeam,MIN
 info,site,MIN03
 info,date,1986/06/10
 info,number,0
-info,starttime,0:00PM
+info,starttime,7:36PM
 info,daynight,night
 info,usedh,true
 info,umphome,shulj901
@@ -4006,15 +4006,16 @@ info,ump1b,morrd901
 info,ump2b,mckej901
 info,ump3b,clara901
 info,scorer,"Evanoff-Jensen"
-info,inputter,"Peters"
+info,translator,"Peters/Townsend"
+info,inputter,"Peters/Townsend"
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,71
 info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,windspeed,0
+info,fieldcond,dry
+info,precip,none
+info,sky,dome
 info,timeofgame,228
 info,attendance,12084
 info,wp,russj001
@@ -4041,141 +4042,157 @@ start,lombs001,"Steve Lombardozzi",1,7,4
 start,beanb001,"Billy Beane",1,8,7
 start,gagng001,"Greg Gagne",1,9,6
 start,smitm002,"Mike Smithson",1,0,1
-play,1,0,wilkc001,,,S8
-play,1,0,wardg001,,,SB2
-play,1,0,wardg001,,,53.2-3
-play,1,0,obrip001,,,W
-com,"$Pete Incaviglia injured during at bat"
-play,1,0,incap001,,,NP
+play,1,0,wilkc001,32,SBFBBFFX,S8/G4M
+play,1,0,wardg001,22,1C11SB11B>B,SB2
+com,"No throw; Laudner dropped the pitch"
+play,1,0,wardg001,32,1C11SB11B>B.X,53/G56.2-3
+com,"Wilkerson avoided Gaetti's tag"
+play,1,0,obrip001,31,BBBSB,W
+play,1,0,incap001,11,BS,NP
 sub,mcdoo001,"Oddibe McDowell",0,4,11
-play,1,0,mcdoo001,,,46(1)3/GDP
-play,1,1,puckk001,,,63
-play,1,1,hatcm001,,,63
-play,1,1,hrbek001,,,3/G
-play,2,0,sierr001,,,W
-play,2,0,wrigg001,,,S8/G.1-2
-play,2,0,pacit001,,,HP.2-3;1-2
-play,2,0,harrt001,,,6/L
-play,2,0,petrg001,,,E4.3-H;2-3;1-2;B-1
-play,2,0,wilkc001,,,K
-play,2,0,wardg001,,,S8.3-H(UR);2-H(UR);1-3
-play,2,0,obrip001,,,S9.3-H(UR);1-H(UR)
-play,2,0,mcdoo001,,,NP
+com,"Incaviglia re-injured a finger on his left hand swinging at"
+com,"the 2nd pitch."
+play,1,0,mcdoo001,12,BS.F1X,46(1)3/GDP/G4
+play,1,1,puckk001,21,BBCX,63/G6
+play,1,1,hatcm001,12,CBFFFX,63/G6
+play,1,1,hrbek001,20,BBX,3/G3
+play,2,0,sierr001,32,BBBSFFB,W
+play,2,0,wrigg001,10,1B1X,S4/G4M.1-2
+com,"Lombardozzi knocked it down but no play anywhere"
+play,2,0,pacit001,11,FB>H,HP.2-3;1-2
+play,2,0,harrt001,12,BCFX,6/L6
+play,2,0,petrg001,32,BBFCBX,E4/G34.3-H(RBI);2-3;1-2;B-1
+com,"High chop; Hrbek's proximity may have distracted Lombardozzi"
+play,2,0,wilkc001,02,C3FS,K
+play,2,0,wardg001,22,FCBBX,S8/L4MD/TH3.3-H(UR);2-H(UR);1-3
+play,2,0,obrip001,22,B1FBSX,S9/F89XDW.3-H(UR);1-H(UR)
+play,2,0,mcdoo001,00,,NP
 sub,butcj001,"John Butcher",1,0,1
-play,2,0,mcdoo001,,,7
-play,2,1,brunt001,,,8
-play,2,1,gaetg001,,,D8
-play,2,1,laudt001,,,K/C
-play,2,1,lombs001,,,S7.2-H
-play,2,1,beanb001,,,13
-play,3,0,sierr001,,,43
-play,3,0,wrigg001,,,K
-play,3,0,pacit001,,,8
-play,3,1,gagng001,,,7
-play,3,1,puckk001,,,D9
-play,3,1,hatcm001,,,S9/G34.2-3
-play,3,1,hrbek001,,,S9.3-H;1-2
-play,3,1,brunt001,,,8
-play,3,1,gaetg001,,,DGR/7.2-H;1-3
-play,3,1,laudt001,,,S8.3-H;2-H
-play,3,1,lombs001,,,NP
+play,2,0,mcdoo001,00,X,7/F78
+play,2,1,brunt001,11,BCX,8/F8D
+play,2,1,gaetg001,22,BBSFX,D7/L78D
+play,2,1,laudt001,02,FFC,K/C
+play,2,1,lombs001,12,BCCFX,S7/L7.2-H
+play,2,1,beanb001,02,FSX,13/G1
+play,3,0,sierr001,10,BX,43/G4
+play,3,0,wrigg001,02,CFT,K
+play,3,0,pacit001,12,CSBX,8/F78
+play,3,1,gagng001,10,BX,7/F7D
+play,3,1,puckk001,10,BX,D9/F9DW
+play,3,1,hatcm001,12,FBFX,S9/G34.2-3
+play,3,1,hrbek001,21,BFBX,S9/G34.3-H;1-2
+play,3,1,brunt001,00,X,8/F89S
+play,3,1,gaetg001,10,BX,DGR/L7D.2-H;1-3
+com,"Bounced off the top of LF plexiglass and then over"
+play,3,1,laudt001,30,BBBX,S8/G6M.3-H;2-H
+play,3,1,lombs001,00,,NP
 sub,wrigr001,"Ricky Wright",0,0,1
-play,3,1,lombs001,,,W.1-2
-play,3,1,beanb001,,,S6/G6S.2-3;1-2
-play,3,1,gagng001,,,54(1)/FO/G
-play,4,0,harrt001,,,63
-play,4,0,petrg001,,,S9
-play,4,0,wilkc001,,,46(1)/FO/G.B-1
-play,4,0,wardg001,,,54(1)/FO/G
-play,4,1,puckk001,,,43
-play,4,1,hatcm001,,,63
-play,4,1,hrbek001,,,S8/G
-play,4,1,brunt001,,,43
-play,5,0,obrip001,,,7/FL
-play,5,0,mcdoo001,,,43
-play,5,0,sierr001,,,43
-play,5,1,gaetg001,,,53
-play,5,1,laudt001,,,S8
-play,5,1,lombs001,,,S7.1-2
-play,5,1,beanb001,,,K
-play,5,1,gagng001,,,K
-play,6,0,wrigg001,,,D7
-play,6,0,pacit001,,,S7/G56.2-3
-play,6,0,harrt001,,,D8/F89.3-H;1-3
-play,6,0,petrg001,,,DGR/9.3-H;2-H
-play,6,0,wilkc001,,,NP
+play,3,1,lombs001,31,BBFBB,W.1-2
+play,3,1,beanb001,00,X,S6/G6M/TH2.2-3;1-2
+com,"Slowly hit; Lombardozzi beat throw to 2B"
+play,3,1,gagng001,22,CFBFFFB>X,54(1)/FO/G56
+play,4,0,harrt001,02,CFX,63/G6M
+play,4,0,petrg001,32,FFBFBBX,S9/G34
+play,4,0,wilkc001,01,LX,46(1)/FO/G4.B-1
+play,4,0,wardg001,12,B>FF1X,54(1)/FO/G5
+play,4,1,puckk001,10,BX,43/G4M
+play,4,1,hatcm001,11,BFX,63/G6
+play,4,1,hrbek001,10,BX,S8/G4M
+play,4,1,brunt001,01,CX,43/G4M
+play,5,0,obrip001,21,BBFX,7/F7LF/FL
+com,"Bean: long running catch"
+play,5,0,mcdoo001,32,BFSBBX,43/G4
+play,5,0,sierr001,22,CBFBX,43/G4
+play,5,1,gaetg001,31,BBFBX,53/G5
+play,5,1,laudt001,12,BFFX,S8/L78S
+play,5,1,lombs001,10,BX,S7/F78S.1-2
+play,5,1,beanb001,12,SBCS,K
+play,5,1,gagng001,22,SBBFS,K
+play,6,0,wrigg001,00,X,D7/L7S
+com,"High bounce made Bean back up; Wright stretched it"
+play,6,0,pacit001,10,BX,S7/G56.2-3
+play,6,0,harrt001,00,X,D9/F89XD.3-H;1-3
+play,6,0,petrg001,00,X,DGR/L9L.3-H;2-H
+com,"Bounced over low fence in foul territory"
+play,6,0,wilkc001,00,,NP
 sub,davir001,"Ron Davis",1,0,1
-play,6,0,wilkc001,,,3/G.2-3
-play,6,0,wardg001,,,3(B)5(3)/FL/DP
-play,6,1,puckk001,,,S8/G
-play,6,1,hatcm001,,,W.1-2
-play,6,1,hrbek001,,,S8.2-H;1-3
-play,6,1,brunt001,,,NP
+play,6,0,wilkc001,02,MMX,3/G3.2-3
+play,6,0,wardg001,11,BS>X,3/BP23F/FL/DP.3X3(35)
+com,"Suicide bunt attempt"
+play,6,1,puckk001,00,X,S8/G4M
+play,6,1,hatcm001,32,CBFBBB,W.1-2
+play,6,1,hrbek001,01,SX,S8/G4M.2-H;1-3
+play,6,1,brunt001,00,,NP
 sub,mohod001,"Dale Mohorcic",0,0,1
-play,6,1,brunt001,,,64(1)/FO/G.3-H;B-1
-play,6,1,gaetg001,,,D7/F7L.1-3
-play,6,1,laudt001,,,NP
+play,6,1,brunt001,,,64(1)/FO/G56.3-H;B-1
+play,6,1,gaetg001,00,X,D7/L5D.1-3
+play,6,1,laudt001,00,,NP
 sub,bushr001,"Randy Bush",1,6,11
-play,6,1,bushr001,,,S9.3-H;2-3
-play,6,1,lombs001,,,6
-play,6,1,beanb001,,,NP
+play,6,1,bushr001,00,X,S9/L9S.3-H;2-3
+play,6,1,lombs001,32,BBCBCFFFF1>F>F1>X,6/P6D
+play,6,1,beanb001,00,,NP
 sub,smalr001,"Roy Smalley",1,8,11
-play,6,1,smalr001,,,S9.3-H;1-3
-play,6,1,gagng001,,,NP
+play,6,1,smalr001,22,BBCF>F>X,S9/L9S.3-H;1-3
+play,6,1,gagng001,00,,NP
 sub,russj001,"Jeff Russell",0,0,1
-play,6,1,gagng001,,,K
-play,7,0,obrip001,,,NP
+play,6,1,gagng001,12,CBCFS,K
+play,7,0,obrip001,00,,NP
 sub,bushr001,"Randy Bush",1,6,7
-play,7,0,obrip001,,,NP
+play,7,0,obrip001,00,,NP
 sub,reedj001,"Jeff Reed",1,8,2
-play,7,0,obrip001,,,HR/7
-play,7,0,mcdoo001,,,K/C
-play,7,0,sierr001,,,D7/F7L.B-3(E7)
-play,7,0,wrigg001,,,W
-play,7,0,pacit001,,,NP
+play,7,0,obrip001,21,CBBX,HR/F7D
+com,"Into LF bleachers"
+play,7,0,mcdoo001,12,CCBFC,K/C
+play,7,0,sierr001,01,CX,D7/L7L.B-3(E7)
+com,"Bush fumbled the carom off the LF fence"
+play,7,0,wrigg001,32,BSBBSB,W
+play,7,0,pacit001,00,,NP
 sub,pastf001,"Frank Pastore",1,0,1
-play,7,0,pacit001,,,E6.3-H;1-2;B-1
-play,7,0,harrt001,,,S9/G34.2-H(UR);1-3;B-2
-play,7,0,petrg001,,,8/DP.3XH(82)
-play,7,1,puckk001,,,NP
+play,7,0,pacit001,22,*B1FCBX,E6/G6.3-H(RBI);1-2;B-1
+com,"Off Gagne's glove"
+play,7,0,harrt001,00,X,S7/G56.2-H(UR);1-3(THH);B-2(THH)
+play,7,0,petrg001,20,BBX,8(B)2(3)/DP/F78
+play,7,1,puckk001,00,,NP
 sub,buecs001,"Steve Buechele",0,7,5
-play,7,1,puckk001,,,9
-play,7,1,hatcm001,,,8
-play,7,1,hrbek001,,,W
-play,7,1,brunt001,,,6
-play,8,0,wilkc001,,,7/FL
-play,8,0,wardg001,,,53
-play,8,0,obrip001,,,S8
-play,8,0,mcdoo001,,,WP.1-2
-play,8,0,mcdoo001,,,W
-play,8,0,sierr001,,,NP
+play,7,1,puckk001,21,CBBX,9/F9D
+play,7,1,hatcm001,10,BX,8/F8
+play,7,1,hrbek001,32,CBCFBFFBFB,W
+play,7,1,brunt001,12,CBCX,6/P6D
+play,8,0,wilkc001,00,X,7/F7LF/FL
+play,8,0,wardg001,10,BX,53/G5L
+play,8,0,obrip001,12,BCFX,S8/L8S
+play,8,0,mcdoo001,02,SCB,WP.1-2
+play,8,0,mcdoo001,32,SCB.*BFBB,W
+play,8,0,sierr001,00,,NP
 sub,flets001,"Scott Fletcher",0,4,12
-play,8,0,sierr001,,,K
-play,8,1,gaetg001,,,43
-play,8,1,bushr001,,,D7/F7L
-play,8,1,lombs001,,,3/G.2-3
-play,8,1,reedj001,,,S7/G56.3-H
-play,8,1,gagng001,,,NP
+play,8,0,sierr001,12,CSBS,K
+play,8,1,gaetg001,12,FCBFX,43/G4M
+play,8,1,bushr001,22,FBFBX,D7/L7L
+play,8,1,lombs001,01,CX,3/G3.2-3
+play,8,1,reedj001,12,FCBFX,S7/G56.3-H
+play,8,1,gagng001,00,,NP
 sub,harrg001,"Greg Harris",0,0,1
-play,8,1,gagng001,,,NP
+play,8,1,gagng001,00,,NP
 sub,davia001,"Andre David",1,9,11
-play,8,1,davia001,,,7
-play,9,0,wrigg001,,,NP
+play,8,1,davia001,12,CFFBX,7/F78
+play,9,0,wrigg001,00,,NP
 sub,washr001,"Ron Washington",1,9,6
-play,9,0,wrigg001,,,7
-play,9,0,buecs001,,,S9
-play,9,0,harrt001,,,S1.1-2
-play,9,0,petrg001,,,D7/F7L.2-H;1-H
-play,9,0,wilkc001,,,S3.2-3
-play,9,0,wardg001,,,NP
+play,9,0,wrigg001,21,BCBX,7/F7
+play,9,0,buecs001,00,X,S9/L9S
+play,9,0,harrt001,00,X,S1/G13.1-2
+com,"High chopper"
+play,9,0,petrg001,00,X,D7/L5D.2-H;1-H
+play,9,0,wilkc001,12,BCSX,S3/G34.2-3
+com,"Hrbek: diving stop; late underhanded throw to Pastore"
+play,9,0,wardg001,00,,NP
 sub,jackr003,"Roy Lee Jackson",1,0,1
-play,9,0,wardg001,,,8/SF.3-H
-play,9,0,obrip001,,,8
-play,9,1,puckk001,,,7/L
-play,9,1,hatcm001,,,S8
-play,9,1,hrbek001,,,S7.1-3
-play,9,1,brunt001,,,3
-play,9,1,gaetg001,,,K
+play,9,0,wardg001,00,X,8/F8XD/SF.3-H
+play,9,0,obrip001,20,BBX,8/F89D
+play,9,1,puckk001,00,X,7/L7
+play,9,1,hatcm001,02,CFX,S8/G4M
+play,9,1,hrbek001,31,BBFBX,S7/F78S.1-3
+play,9,1,brunt001,01,CX,3/P3
+play,9,1,gaetg001,12,BCFFS,K
 data,er,mahlm001,5
 data,er,wrigr001,3
 data,er,mohod001,1

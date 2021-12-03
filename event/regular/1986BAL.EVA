@@ -4088,9 +4088,10 @@ info,ump1b,pales901
 info,ump2b,brinj901
 info,ump3b,coont901
 info,scorer,"T Benner"
-info,inputter,"T Benner"
+info,translator,"T Benner/Townsend"
+info,inputter,"T Benner/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -4123,102 +4124,103 @@ start,rayff001,"Floyd Rayford",1,7,5
 start,shelj001,"John Shelby",1,8,8
 start,dempr001,"Rick Dempsey",1,9,2
 start,mcgrs001,"Scott McGregor",1,0,1
-play,1,0,hendr001,,,S
-play,1,0,randw001,,,SB2
-play,1,0,randw001,,,SB3
-play,1,0,randw001,,,W
-play,1,0,mattd001,,,16(1)3/GDP.3-3
-play,1,0,winfd001,,,HR.3-H
-play,1,0,easlm001,,,7
-play,1,1,bonij001,,,K
-play,1,1,lacyl001,,,W
-play,1,1,benij001,,,S.1-2
-play,1,1,murre001,,,S.2-H;1-2
-play,1,1,ripkc001,,,S.2-3;1-2
-play,1,1,younm002,,,8/SF.3-H;2-3
-play,1,1,rayff001,,,2/FL
-play,2,0,roeng001,,,43
-play,2,0,wyneb001,,,S
-play,2,0,paglm001,,,W.1-2
-play,2,0,fiscm001,,,53.2-3;1-2
-play,2,0,hendr001,,,W
-play,2,0,randw001,,,9
-play,2,1,shelj001,,,1/BP
-play,2,1,dempr001,,,S
-play,2,1,bonij001,,,46(1)3/GDP
-play,3,0,mattd001,,,3
-play,3,0,winfd001,,,W
-play,3,0,easlm001,,,K
-play,3,0,roeng001,,,S.1-3;B-2(TH3)
-play,3,0,wyneb001,,,7
-play,3,1,lacyl001,,,8
-play,3,1,benij001,,,9
-play,3,1,murre001,,,S
-play,3,1,ripkc001,,,5/FL
-play,4,0,paglm001,,,K
-play,4,0,fiscm001,,,7
-play,4,0,hendr001,,,4
-play,4,1,younm002,,,W
-play,4,1,rayff001,,,S.1-2
-play,4,1,shelj001,,,15(2)/FO/BG.1-2
-play,4,1,dempr001,,,5/FL
-play,4,1,bonij001,,,9
-play,5,0,randw001,,,8
-play,5,0,mattd001,,,3/G
-play,5,0,winfd001,,,8
-play,5,1,lacyl001,,,8
-play,5,1,benij001,,,8/L
-play,5,1,murre001,,,K
-play,6,0,easlm001,,,8
-play,6,0,roeng001,,,6
-play,6,0,wyneb001,,,63
-play,6,1,ripkc001,,,S
-play,6,1,younm002,,,K
-play,6,1,rayff001,,,8
-play,6,1,shelj001,,,8
-play,7,0,paglm001,,,K
-play,7,0,fiscm001,,,8
-play,7,0,hendr001,,,HR
-play,7,0,randw001,,,W
-play,7,0,mattd001,,,S.1-3
-play,7,0,winfd001,,,NP
-sub,sneln001,"Nat Snell",1,0,1
-play,7,0,winfd001,,,5
-play,7,1,dempr001,,,5/FL
-play,7,1,bonij001,,,43
-play,7,1,lacyl001,,,43
-play,8,0,easlm001,,,HR
-play,8,0,roeng001,,,NP
-sub,martt001,"Tippy Martinez",1,0,1
-play,8,0,roeng001,,,NP
+play,1,0,hendr001,02,SFX,S7/G56
+play,1,0,randw001,21,LBB>B,SB2
+play,1,0,randw001,31,LBB>B.>B,W+SB3
+play,1,0,mattd001,00,1X,16(1)3/GDP/G1.3-3
+play,1,0,winfd001,11,C*BX,HR/F78XD.3-H
+play,1,0,easlm001,12,SSBX,7/F7D
+play,1,1,bonij001,02,CCS,K
+play,1,1,lacyl001,31,BBFBB,W
+play,1,1,benij001,10,BX,S7/G56.1-2
+play,1,1,murre001,22,CB*BFFX,S8/L4MD.2-H;1-2
+play,1,1,ripkc001,10,BX,S7/L7.2-3;1-2
+play,1,1,younm002,32,BFBBCX,8/F8XD/SF.3-H;2-3
+play,1,1,rayff001,20,BBX,2/P2F/FL
+play,2,0,roeng001,10,BX,43/G4
+play,2,0,wyneb001,11,BFX,S8/L89S
+play,2,0,paglm001,32,FFBB1B1FB,W.1-2
+play,2,0,fiscm001,32,BBCFBF>X,53/G5S.2-3;1-2
+play,2,0,hendr001,32,*BCBBCB,W
+play,2,0,randw001,22,BBCFFX,9/F9
+play,2,1,shelj001,01,CX,1/BP1S
+play,2,1,dempr001,00,X,S7/L7L
+play,2,1,bonij001,22,FFBBX,46(1)3/GDP/G4M
+play,3,0,mattd001,12,BCFX,3/P34S
+play,3,0,winfd001,31,BBCB*B,W
+play,3,0,easlm001,22,B1BS11FF1FS,K
+play,3,0,roeng001,02,1CCX,S7/L7.1-3;B-2(TH3)
+play,3,0,wyneb001,01,CX,7/F7
+play,3,1,lacyl001,12,BCCX,8/F8D
+play,3,1,benij001,11,BFX,9/F9D
+play,3,1,murre001,12,BCCX,S7/G56
+play,3,1,ripkc001,21,CBBX,5/P25F/FL
+play,4,0,paglm001,32,BBBCFS,K
+play,4,0,fiscm001,21,BFBX,7/F7
+play,4,0,hendr001,02,CFX,4/P4D
+play,4,1,younm002,32,BFBFBB,W
+play,4,1,rayff001,00,X,S7/G56.1-2
+play,4,1,shelj001,10,BX,15(2)/FO/BG1S.1-2
+play,4,1,dempr001,20,BBX,5/P25F/FL
+play,4,1,bonij001,10,BX,9/F89
+play,5,0,randw001,01,CX,8/F89XD
+play,5,0,mattd001,11,BFX,3/G3L
+play,5,0,winfd001,12,CBFX,8/F8D
+play,5,1,lacyl001,22,BCFBX,8/F8S
+play,5,1,benij001,00,X,8/L8D
+play,5,1,murre001,32,BBBCSFS,K
+play,6,0,easlm001,22,BBFFX,8/F8D
+play,6,0,roeng001,22,CFBBX,6/P5D
+play,6,0,wyneb001,12,CBSX,63/G4M
+play,6,1,ripkc001,12,BCCX,S9/G34
+play,6,1,younm002,02,CFS,K
+play,6,1,rayff001,21,BBSX,8/F78
+play,6,1,shelj001,00,X,8/F78
+play,7,0,paglm001,22,CBSBT,K
+play,7,0,fiscm001,22,BBCFX,8/F78
+play,7,0,hendr001,01,CX,HR/F7LD
+com,"Hit the LF foul pole screen"
+play,7,0,randw001,31,BBCBB,W
+play,7,0,mattd001,31,BCBB>X,S8/L8S.1-3
+play,7,0,winfd001,00,,NP
+sub,sneln001,"Nate Snell",1,0,1
+play,7,0,winfd001,32,SSBBB>X,5/P56S
+play,7,1,dempr001,22,CBFBX,5/P25F/FL
+play,7,1,bonij001,21,BFBX,43/G4
+play,7,1,lacyl001,32,BFBBFX,43/G34
+play,8,0,easlm001,21,BBFX,HR/F78XD
+play,8,0,roeng001,00,,NP
 sub,grifk001,"Ken Griffey",0,6,11
-play,8,0,grifk001,,,K/C
-play,8,0,wyneb001,,,S
-play,8,0,paglm001,,,PO1(13)
-play,8,0,paglm001,,,D
-play,8,0,fiscm001,,,W
-play,8,0,hendr001,,,53
-play,8,1,benij001,,,NP
+play,8,0,grifk001,00,,NP
+sub,martt001,"Tippy Martinez",1,0,1
+play,8,0,grifk001,12,CBFFC,K/C
+play,8,0,wyneb001,00,X,S7/L7LS
+play,8,0,paglm001,21,BSB1,PO1(13)
+play,8,0,paglm001,32,BSB1.BCX,DGR/G3L
+com,"A fan reached down and picked it up"
+play,8,0,fiscm001,31,B*BBCB,W
+play,8,0,hendr001,01,FX,53/G56S
+play,8,1,benij001,00,,NP
 sub,fishb001,"Brian Fisher",0,0,1
-play,8,1,benij001,,,NP
+play,8,1,benij001,00,,NP
 sub,grifk001,"Ken Griffey",0,6,7
-play,8,1,benij001,,,2/FL
-play,8,1,murre001,,,W
-play,8,1,ripkc001,,,8
-play,8,1,younm002,,,4
-play,9,0,randw001,,,8
-play,9,0,mattd001,,,S
-play,9,0,winfd001,,,46(1)/FO/G.B-1
-play,9,0,easlm001,,,CS2(26)
-play,9,1,rayff001,,,NP
-sub,righd001,"Dave Righetti",0,0,1
-play,9,1,rayff001,,,NP
+play,8,1,benij001,12,BSFX,2/P2F/FL
+play,8,1,murre001,30,BBBB,W
+play,8,1,ripkc001,02,C1S1X,8/F78D
+play,8,1,younm002,00,1X,4/P34D
+play,9,0,randw001,01,CX,8/F8XD
+play,9,0,mattd001,22,CBBFX,S8/L4MD
+play,9,0,winfd001,10,*B1X,46(1)/FO/G6M.B-1
+play,9,0,easlm001,10,B11>B,CS2(26)
+play,9,1,rayff001,00,,NP
 sub,dwyej001,"Jim Dwyer",1,7,11
-play,9,1,dwyej001,,,NP
+play,9,1,dwyej001,00,,NP
+sub,righd001,"Dave Righetti",0,0,1
+play,9,1,dwyej001,00,,NP
 sub,wigga001,"Al Wiggins",1,7,11
-play,9,1,wigga001,,,63
-play,9,1,shelj001,,,7
-play,9,1,dempr001,,,K/C
+play,9,1,wigga001,21,BBCX,63/G6
+play,9,1,shelj001,11,FBX,7/F7D
+play,9,1,dempr001,22,BCBSC,K/C
 data,er,rasmd001,2
 data,er,fishb001,0
 data,er,righd001,0

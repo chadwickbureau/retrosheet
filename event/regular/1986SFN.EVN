@@ -6107,15 +6107,16 @@ info,ump1b,hallt901
 info,ump2b,rungp901
 info,ump3b,palld901
 info,scorer,"Doug Ranney"
-info,inputter,"Tim Hedquist"
+info,translator,"Tim Hedquist/Townsend"
+info,inputter,"Tim Hedquist/Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,torf
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,142
 info,attendance,18971
 info,wp,lacom001
@@ -6140,85 +6141,93 @@ start,spilh001,"Harry Spilman",1,6,3
 start,melvb001,"Bob Melvin",1,7,2
 start,uribj001,"Jose Uribe",1,8,6
 start,lacom001,"Mike LaCoss",1,9,1
-play,1,0,colev001,,,W
-play,1,0,smito001,,,SB2
-play,1,0,smito001,,,S.2-3
-play,1,0,mcgew001,,,S.3-H;1-2
-play,1,0,hurdc001,,,K
-play,1,0,fordc001,,,FC4/G.2-3;1X2(46);B-1
-play,1,0,herrt001,,,CS2(26)
-play,1,1,kutcr001,,,HR
-play,1,1,thomr003,,,63
-play,1,1,younj001,,,S
-play,1,1,davic001,,,64(1)3/GDP
-play,2,0,herrt001,,,S
-play,2,0,lavam001,,,CS2(26)
-play,2,0,lavam001,,,S
-play,2,0,pendt001,,,6/P
-play,2,0,burrr001,,,FC4/G.1X2(46);B-1
-play,2,1,browc002,,,53
-play,2,1,spilh001,,,3/G
-play,2,1,melvb001,,,D
-play,2,1,uribj001,,,9
-play,3,0,colev001,,,D
-play,3,0,smito001,,,43.2-3
-play,3,0,mcgew001,,,63
-play,3,0,hurdc001,,,41(B)/G
-play,3,1,lacom001,,,K
-play,3,1,kutcr001,,,63
-play,3,1,thomr003,,,13
-play,4,0,fordc001,,,8
-play,4,0,herrt001,,,5/L
-play,4,0,lavam001,,,53
-play,4,1,younj001,,,S
-play,4,1,davic001,,,S.1-2
-play,4,1,browc002,,,HP.2-3;1-2
-play,4,1,spilh001,,,D.3-H;2-H;1-3
-play,4,1,melvb001,,,K
-play,4,1,uribj001,,,I
-play,4,1,lacom001,,,FC1/G.3XH(12);2-3;1-2;B-1
-play,4,1,kutcr001,,,S.3-H;2-H;1-2
-play,4,1,thomr003,,,S.2-H;1-3;B-2
-play,4,1,younj001,,,NP
+play,1,0,colev001,32,CFBBBB,W
+play,1,0,smito001,10,B11>B,SB2
+play,1,0,smito001,20,B11>B.X,S5/BG25.2-3
+play,1,0,mcgew001,00,X,S9/G34.3-H;1-2
+play,1,0,hurdc001,12,CBSC,K/C
+play,1,0,fordc001,12,FFFBX,46(1)/FO/G4.2-3;B-1
+play,1,0,herrt001,10,1P>C,CS2(26)
+play,1,1,kutcr001,11,BFX,HR/F7D
+play,1,1,thomr003,12,BSCFX,63/G56
+com,"Smith: backhanded stop deep in the hole"
+play,1,1,younj001,21,BSBX,S7/L7
+play,1,1,davic001,01,SX,64(1)3/GDP/G6
+play,2,0,herrt001,02,FFX,S7/F7S
+play,2,0,lavam001,10,B1>B,CS2(26)
+play,2,0,lavam001,21,B1>B.CX,S8/G4M
+play,2,0,pendt001,01,CX,6/P6M
+play,2,0,burrr001,32,FBFFBB>X,46(1)/FO/G4.B-1
+play,2,1,browc002,00,X,53/G5
+play,2,1,spilh001,01,CX,3/G3
+play,2,1,melvb001,00,X,D7/L7S
+play,2,1,uribj001,10,BX,9/L9
+play,3,0,colev001,22,BBCSX,D7/L5D
+play,3,0,smito001,31,CB*BBX,43/G4.2-3
+play,3,0,mcgew001,02,FTX,63/G56S
+com,"Infield in"
+play,3,0,hurdc001,00,X,41(B)/G34
+play,3,1,lacom001,12,CCBS,K
+play,3,1,kutcr001,22,TBBCX,63/G6
+play,3,1,thomr003,00,X,13/BG25
+play,4,0,fordc001,10,BX,8/F89D
+play,4,0,herrt001,12,BFFX,5/L56
+com,"Brown: diving catch"
+play,4,0,lavam001,11,BCX,53/G56
+com,"Brown: lunging stop"
+play,4,1,younj001,00,X,S9/F9S
+play,4,1,davic001,00,X,S8/L6MD.1-2
+play,4,1,browc002,12,SBF2FH,HP.2-3;1-2
+com,"$Hit on the upper left arm"
+play,4,1,spilh001,10,*BX,D9/G3L.3-H;2-H;1-3
+play,4,1,melvb001,02,SFS,K
+play,4,1,uribj001,30,IIII,IW
+play,4,1,lacom001,02,FSFFX,12(3)/FO/BG1S.2-3;1-2;B-1
+play,4,1,kutcr001,32,TC*B*BB>F>F>X,S7/L7LS.3-H;2-H;1-2
+play,4,1,thomr003,02,CFX,S7/F78S.2-H;1-3;B-2
+play,4,1,younj001,00,,NP
 sub,hortr001,"Ricky Horton",0,9,1
-play,4,1,younj001,,,9
-play,5,0,pendt001,,,8
-play,5,0,hortr001,,,53
-play,5,0,colev001,,,63
-play,5,1,davic001,,,3/FL
-play,5,1,browc002,,,D
-play,5,1,spilh001,,,NP
+play,4,1,younj001,00,X,9/F9
+play,5,0,pendt001,20,BBX,8/L8D
+play,5,0,hortr001,01,CX,53/G56S
+play,5,0,colev001,22,BMCFBX,63/G6
+play,5,1,davic001,00,X,3/P3F/FL
+play,5,1,browc002,10,BX,D8/F8XD
+com,"McGee seemed to lose it in the sun/wind as he went back to"
+com,"the track and it went off his glove."
+play,5,1,spilh001,00,,NP
 sub,brenb001,"Bob Brenly",1,6,11
-play,5,1,brenb001,,,K
-play,5,1,melvb001,,,5/L
-play,6,0,smito001,,,NP
+play,5,1,brenb001,12,BCFS,K
+play,5,1,melvb001,12,FCBFX,5/L5
+play,6,0,smito001,00,,NP
 sub,brenb001,"Bob Brenly",1,6,3
-play,6,0,smito001,,,7
-play,6,0,mcgew001,,,E4.B-1
-play,6,0,hurdc001,,,K
-play,6,0,fordc001,,,4/P
-play,6,1,uribj001,,,53
-play,6,1,lacom001,,,53
-play,6,1,kutcr001,,,63
-play,7,0,herrt001,,,13
-play,7,0,lavam001,,,43
-play,7,0,pendt001,,,K
-play,7,1,thomr003,,,7
-play,7,1,younj001,,,53
-play,7,1,davic001,,,7
-play,8,0,hortr001,,,NP
+play,6,0,smito001,12,CCBFX,7/F78
+play,6,0,mcgew001,22,BCFBFX,E4/G4M.B-1
+com,"Off Thompson's glove"
+play,6,0,hurdc001,22,BFSBFC,K/C
+play,6,0,fordc001,12,CCB1FX,4/P4
+play,6,1,uribj001,00,X,53/G5
+play,6,1,lacom001,32,CCBBBX,53/G5
+play,6,1,kutcr001,12,CBSX,63/G6
+play,7,0,herrt001,12,SBTX,13/G1
+play,7,0,lavam001,31,BBBCX,43/G34
+play,7,0,pendt001,22,BBCFS,K
+play,7,1,thomr003,31,FBBBX,7/F7
+play,7,1,younj001,32,CFBBBX,53/G5
+play,7,1,davic001,00,X,7/F7
+play,8,0,hortr001,00,,NP
 sub,vansa001,"Andy Van Slyke",0,9,11
-play,8,0,vansa001,,,43
-play,8,0,colev001,,,63
-play,8,0,smito001,,,3/G
-play,8,1,browc002,,,NP
+play,8,0,vansa001,00,X,43/G4
+play,8,0,colev001,01,CX,63/G6
+play,8,0,smito001,31,BBBCX,3/G3
+play,8,1,browc002,00,,NP
 sub,perrp001,"Pat Perry",0,9,1
-play,8,1,browc002,,,K
-play,8,1,brenb001,,,63
-play,8,1,melvb001,,,43
-play,9,0,mcgew001,,,8
-play,9,0,hurdc001,,,8
-play,9,0,fordc001,,,7
+play,8,1,browc002,12,BSFFFS,K
+play,8,1,brenb001,21,BFBX,63/G56
+play,8,1,melvb001,01,CX,43/G4
+play,9,0,mcgew001,32,FBFBFBFX,8/L8
+play,9,0,hurdc001,00,X,8/F78
+play,9,0,fordc001,22,CCBBX,7/F7LS
 data,er,burrr001,6
 data,er,hortr001,0
 data,er,perrp001,0
@@ -9630,15 +9639,16 @@ info,ump1b,kiblj901
 info,ump2b,davib902
 info,ump3b,marsr901
 info,scorer,"Bernie Esser"
-info,inputter,"Jana McBride"
+info,inputter,"Jana McBride, Wayne Townsend"
+info,translator,"Jana McBride, Wayne Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,night
 info,timeofgame,198
 info,attendance,30679
 info,wp,goodd001
@@ -9663,20 +9673,20 @@ start,maldc001,"Candy Maldonado",1,6,7
 start,brenb001,"Bob Brenly",1,7,2
 start,uribj001,"Jose Uribe",1,8,6
 start,bluev001,"Vida Blue",1,9,1
-play,1,0,wilsm001,,,W
-play,1,0,teuft001,,,CS2(24)
-play,1,0,teuft001,,,S8/G4M
-play,1,0,hernk001,,,S8/L8S.1-2
-play,1,0,mitck001,,,K/C
-play,1,0,strad001,,,W.2-3;1-2
-play,1,0,knigr001,,,4(1)/FO
-play,1,1,gladd001,,,S9/L9S
-play,1,1,thomr003,,,SB2
-play,1,1,thomr003,,,W
-play,1,1,davic001,,,S7/G56.2XH(72);1-3
-play,1,1,clarw001,,,K
-play,1,1,browc002,,,8
-play,2,0,heare001,,,53
+play,1,0,wilsm001,32,BCBSBFB,W
+play,1,0,teuft001,10,B>B,CS2(24)
+play,1,0,teuft001,22,B>B.CCX,S8/G6M
+play,1,0,hernk001,12,C1CFB11X,S8/L6MD.1-2
+play,1,0,mitck001,02,CSC,K/C
+play,1,0,strad001,32,*BCSBFB>B,W.2-3;1-2
+play,1,0,knigr001,01,CX,4(1)/FO/G4M
+play,1,1,gladd001,32,CCBBBX,S9/L34D
+play,1,1,thomr003,10,P>B,SB2
+play,1,1,thomr003,30,P>B.BB,W
+play,1,1,davic001,00,X,S7/G56.2XH(72);1-3(THH)
+play,1,1,clarw001,22,C11BB>FS,K
+play,1,1,browc002,12,FFBFFFX,8/F89D
+play,2,0,heare001,10,BX,53/G5
 play,2,0,santr001,,,7
 play,2,0,goodd001,,,3/FL
 play,2,1,maldc001,,,6
@@ -9688,49 +9698,57 @@ play,3,0,wilsm001,,,8
 play,3,0,teuft001,,,W
 play,3,0,hernk001,,,4
 play,3,0,mitck001,,,K
-play,3,1,thomr003,,,S8/L8S
-play,3,1,davic001,,,S6/G6.1-2
-play,3,1,clarw001,,,FC/SH.2-3;1-2
-play,3,1,browc002,,,65(2)/FO/G.3-H;1-2;B-1
-play,3,1,maldc001,,,W.2-3;1-2
-play,3,1,brenb001,,,9
-play,3,1,uribj001,,,13
-play,4,0,strad001,,,HR
-play,4,0,knigr001,,,S8/L8S
-play,4,0,heare001,,,9
-play,4,0,santr001,,,S8/G4M.1-2
-play,4,0,goodd001,,,14/SH.2-3;1-2
-play,4,0,wilsm001,,,S9/G34.3-H;2-H;BX2(936)
+play,3,1,thomr003,10,BX,S8/L8S
+play,3,1,davic001,11,B>F>X,S6/G6M.1-2
+com,"High chop; Hernandez scooped Santana's low throw to 1B"
+play,3,1,clarw001,01,FX,FC2/BG2L/SH/TH3.2-3;1-2
+play,3,1,browc002,01,FX,65(2)/FO/G56.3-H;1-2;B-1
+play,3,1,maldc001,30,BBBB,W.2-3;1-2
+play,3,1,brenb001,01,2FX,9/F9
+play,3,1,uribj001,10,BX,13/G1
+com,"Gooden: jumping stop of high chop"
+play,4,0,strad001,21,FBBX,HR/L9D
+com,"Into lower RF stands"
+play,4,0,knigr001,01,SX,S8/L8S
+play,4,0,heare001,22,111F1CBBX,9/F9D
+play,4,0,santr001,01,C1X,S8/G6M.1-2
+play,4,0,goodd001,00,X,14/BG1S/SH.2-3;1-2
+play,4,0,wilsm001,11,BFX,S9/G34.3-H;2-H;BX2(936)
 play,4,1,bluev001,,,K/C
 play,4,1,gladd001,,,8
 play,4,1,thomr003,,,W
 play,4,1,davic001,,,BK.1-2
 play,4,1,davic001,,,K/C
-play,5,0,teuft001,,,4
-play,5,0,hernk001,,,W
-play,5,0,mitck001,,,9
-play,5,0,strad001,,,S8/L8S.1-3
-play,5,0,knigr001,,,S9/G34.3-H;1-3
-play,5,0,heare001,,,NP
+play,5,0,teuft001,02,CFX,4/P6MD
+play,5,0,hernk001,31,BBBCB,W
+play,5,0,mitck001,11,11BF11X,9/F9S
+play,5,0,strad001,10,BX,S8/L8.1-3
+play,5,0,knigr001,02,S11F1FX,S9/G3.3-H;1-3
+com,"Under Clark's glove"
+play,5,0,heare001,00,,NP
 sub,mintg001,"Greg Minton",1,9,1
-play,5,0,heare001,,,63
-play,5,1,clarw001,,,6
-play,5,1,browc002,,,9
-play,5,1,maldc001,,,63
-play,6,0,santr001,,,HP
-play,6,0,goodd001,,,3/SH.1-2
-play,6,0,wilsm001,,,13
-play,6,0,teuft001,,,E6.2-H(NR)(UR);B-2
-play,6,0,hernk001,,,I
-play,6,0,mitck001,,,W.2-3;1-2
-play,6,0,strad001,,,31
-play,6,1,brenb001,,,D7/L7L
-play,6,1,uribj001,,,63.2-3
-play,6,1,mintg001,,,NP
+play,5,0,heare001,00,X,63/G6
+play,5,1,clarw001,,,6/P6
+play,5,1,browc002,,,9/F9
+play,5,1,maldc001,,,63/G6
+play,6,0,santr001,00,H,HP
+com,"Hit on the left elbow"
+play,6,0,goodd001,01,MX,3/BG23/SH.1-2
+com,"Clark tagged Gooden"
+play,6,0,wilsm001,20,BBX,13/G1
+play,6,0,teuft001,22,FBSBX,E6/TH1.2-H(NR)(UR);B-2
+com,"Uribe: distracted by runner; low throw one-hopped past Clark"
+play,6,0,hernk001,30,IIII,IW
+play,6,0,mitck001,32,FCFBFBBB,W.2-3;1-2
+play,6,0,strad001,11,CBX,31/G34
+play,6,1,brenb001,00,X,D7/L7LD
+play,6,1,uribj001,21,BBCX,63/G6M.2-3
+play,6,1,mintg001,00,,NP
 sub,aldrm001,"Mike Aldrete",1,9,11
-play,6,1,aldrm001,,,WP.3-H
-play,6,1,aldrm001,,,43
-play,6,1,gladd001,,,K/C
+play,6,1,aldrm001,12,CBFB,WP.3-H
+com,"Very high pitch off Hearn's glove"
+play,6,1,aldrm001,22,CBFB.X,43/G4
+play,6,1,gladd001,22,BFCBC,K/C
 play,7,0,knigr001,,,NP
 sub,berej001,"Juan Berenguer",1,9,1
 play,7,0,knigr001,,,W
@@ -9743,7 +9761,7 @@ play,7,1,browc002,,,63
 play,8,0,goodd001,,,3/FL
 play,8,0,wilsm001,,,8
 play,8,0,teuft001,,,D9/F89D
-play,8,0,hernk001,,,I
+play,8,0,hernk001,,,IW
 play,8,0,mitck001,,,K/C
 play,8,1,maldc001,,,K/C
 play,8,1,brenb001,,,K
@@ -9751,18 +9769,19 @@ play,8,1,uribj001,,,2/FL
 play,9,0,strad001,,,K
 play,9,0,knigr001,,,9
 play,9,0,heare001,,,8
-play,9,1,berej001,,,NP
+play,9,1,berej001,00,,NP
 sub,spilh001,"Harry Spilman",1,9,11
-play,9,1,spilh001,,,S9/G34
-play,9,1,gladd001,,,K
-play,9,1,thomr003,,,8
-play,9,1,davic001,,,S7/F7S.1-2
-play,9,1,clarw001,,,S8/G4M.2-H;1-3
-play,9,1,browc002,,,NP
+play,9,1,spilh001,12,BCSX,S49/G34
+com,"Off the diving Teufel's glove"
+play,9,1,gladd001,32,BBBCCS,K
+play,9,1,thomr003,21,CB*BX,8/F78S
+play,9,1,davic001,02,CFFX,S7/F78S.1-2
+play,9,1,clarw001,00,X,S8/G4M.2-H;1-3
+play,9,1,browc002,00,,NP
 sub,mcdor001,"Roger McDowell",0,2,1
-play,9,1,browc002,,,NP
+play,9,1,browc002,00,,NP
 sub,backw001,"Wally Backman",0,9,4
-play,9,1,browc002,,,8
+play,9,1,browc002,22,CBFBFX,8/F89D
 data,er,goodd001,3
 data,er,mcdor001,0
 data,er,bluev001,4

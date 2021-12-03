@@ -328,7 +328,7 @@ play,1,0,carer001,00,X,S8
 play,1,0,jackr001,12,BFCS,K
 play,1,0,lynnf001,20,BBB,SB2
 play,1,0,lynnf001,30,BBB.B,W
-play,1,0,bayld001,22,CSBBX,63
+play,1,0,bayld001,22,CSBBX,163
 play,1,1,molip001,10,BX,7
 play,1,1,younr001,00,X,3/P
 play,1,1,coopc001,12,CBSC,K/C
@@ -353,7 +353,7 @@ play,4,1,coopc001,32,BBFBF1>FX,D9.1-H
 play,4,1,simmt001,00,X,S8.2-3
 play,4,1,thomg001,21,FBBX,8/SF.3-H
 play,4,1,oglib001,??,,S9.1-3
-play,4,1,moned101,??,,7/SF.3-H
+play,4,1,moned101,??,,7/SF.3-H;1-2(THH)
 play,4,1,moorc001,00,,NP
 sub,wittm001,"Mike Witt",0,0,1
 play,4,1,moorc001,22,BFBSS,K
@@ -386,9 +386,11 @@ play,7,1,younr001,32,BBBCFB,W
 play,7,1,coopc001,00,,NP
 sub,hassa001,"Andy Hassler",0,0,1
 play,7,1,coopc001,22,BCCBS,K
-play,8,0,boonb001,00,X,HR/7/FINT
-com,"$a fan took the ball away from Ben Oglivie but ruled a home run;"
-com,"LF umpire Larry Barnett said call was wrong the next day"
+play,8,0,boonb001,00,X,HR/7
+com,"$A fan reached over the railing and caught the ball as LF Oglivie was"
+com,"getting into position to catch it. LF umpire Larry Barnett ruled it a"
+com,"home run (after seeing the replay after the game Barnett said that he"
+com,"should have called Boone out on fan interference)."
 play,8,0,downb001,00,X,8
 play,8,0,carer001,01,CX,S5
 play,8,0,jackr001,12,CSBS,K
@@ -465,10 +467,11 @@ start,broum001,"Mark Brouhard",1,7,7
 start,moorc001,"Charlie Moore",1,8,9
 start,gantj001,"Jim Gantner",1,9,4
 start,haasm001,"Moose Haas",1,0,1
+com,"$Start of game delayed 1:44 by rain"
 play,1,0,downb001,12,BSSX,4/P
 play,1,0,carer001,32,BBCFBFB,W
 play,1,0,jackr001,12,F1B1FS,K
-play,1,0,lynnf001,22,11BB11C11FP,CS2(1263)
+play,1,0,lynnf001,22,11BB11C11FP,CS2(263)
 play,1,1,molip001,32,BBBCCFB,W
 play,1,1,younr001,10,BX,43(B)635(1)/GDP
 play,1,1,coopc001,11,BFX,6/P
@@ -480,7 +483,7 @@ play,2,1,thomg001,12,BFFS,K
 play,2,1,moned101,12,CFFBB,WP.1-2
 play,2,1,moned101,32,CFFBB.BB,W
 play,2,1,broum001,21,BFBX,S8/G46.2-H;1-H(E8/TH3)(UR);B-H(E5/THH)(UR)
-play,2,1,moorc001,00,X,53
+play,2,1,moorc001,00,X,53/BG
 play,2,1,gantj001,01,FX,43
 play,3,0,gricb001,20,BBX,9/FL
 play,3,0,folit001,21,BBCX,6/P
@@ -511,18 +514,22 @@ play,5,0,decid001,02,CFX,E3
 play,5,0,gricb001,30,BBBB,W.1-2
 play,5,0,folit001,22,FFBBS,K
 play,5,0,boonb001,22,CBBFS,K
+com,"$12 minute rain delay"
 play,5,1,simmt001,32,,43
 play,5,1,thomg001,32,,W
 play,5,1,moned101,01,FB,CS2(24)
 play,5,1,moned101,32,BB.BFCX,53
 play,6,0,downb001,32,CBBFBFB,W
+com,"$19 minute rain delay with 2-1 count on Carew"
 play,6,0,carer001,22,FBBCFFX,8
 play,6,0,jackr001,00,X,36(1)/FO.B-2(E6/TH1)
 play,6,0,lynnf001,00,X,D9.2-H(UR)
 play,6,0,bayld001,22,BFBFX,9
-play,6,1,broum001,31,BBSBX,D7
+play,6,1,broum001,31,BBSBX,D5/FINT
+com,"$hot smash off of DeCinces caromed over to grandstand"
+com,"where it was touched by a fan"
 play,6,1,moorc001,01,CX,34/SH.2-3
-play,6,1,gantj001,12,CFFBFFX,S7.3-H
+play,6,1,gantj001,12,CFFBFFX,S9.3-H
 play,6,1,molip001,11,1C1BX,8
 play,6,1,younr001,10,B1X,3/P
 play,7,0,decid001,11,FBX,4/P
@@ -646,7 +653,8 @@ play,3,1,coopc001,22,>F>FB1BS,K
 play,4,0,decid001,21,BFBX,D7
 play,4,0,gricb001,01,SX,E3/SH.2-3
 play,4,0,folit001,22,BBCFX,3/FL
-play,4,0,boonb001,10,BX,S3.3-H;1-2
+play,4,0,boonb001,10,BX,S3/BG.3-H;1-2
+com,"$suicide squeeze"
 play,4,0,downb001,02,CFFX,54(1)3/GDP
 play,4,1,simmt001,00,X,3/G
 play,4,1,oglib001,01,CX,HR/9
@@ -671,8 +679,6 @@ sub,sancl001,"Luis Sanchez",0,0,1
 play,6,1,simmt001,31,BFBBX,7
 play,6,1,oglib001,22,FSBFFBFS,K
 play,6,1,thomg001,11,SBX,53
-play,7,0,downb001,00,,NP
-sub,edwam102,"Marshall Edwards",1,6,8
 play,7,0,downb001,00,X,13
 play,7,0,carer001,31,BBBCB,W
 play,7,0,jackr001,00,,NP
@@ -681,12 +687,14 @@ play,7,0,jackr001,00,X,46(1)3/GDP
 play,7,1,moned101,22,BFBFX,3/P
 play,7,1,moorc001,10,BX,S4
 play,7,1,gantj001,00,11X,S8.1-2
-play,7,1,molip001,11,FBX,7/FL
+play,7,1,molip001,11,FBX,2/FL
 play,7,1,younr001,32,CBBFFFBB,W.2-3;1-2
 play,7,1,coopc001,11,FBX,S7.3-H;2-H;1-2
 play,7,1,simmt001,00,,NP
 sub,hassa001,"Andy Hassler",0,0,1
 play,7,1,simmt001,12,FSFBFS,K
+play,8,0,lynnf001,00,,NP
+sub,edwam102,"Marshall Edwards",1,6,8
 play,8,0,lynnf001,12,CBSX,7
 play,8,0,bayld001,22,SBFFBFX,8
 play,8,0,decid001,00,X,S9

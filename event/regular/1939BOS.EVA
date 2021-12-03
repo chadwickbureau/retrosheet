@@ -9,9 +9,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"115"
-info,translator,"Bob Kistler"
-info,inputter,"D Lamoureaux"
+info,scorer,"115,480"
+info,translator,"Bob Kistler, Wayne Townsend"
+info,inputter,"D Lamoureaux, Wayne Townsend"
 info,inputtime,2004/07/06 6:43PM
 info,umphome,summb901
 info,ump1b,basis901
@@ -19,12 +19,12 @@ info,ump2b,(none)
 info,ump3b,ormsr901
 info,howscored,unknown
 info,pitches,none
-info,temp,0
+info,temp,64
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,111
 info,attendance,15000
 info,wp,bagbj102
@@ -49,16 +49,17 @@ start,willt103,"Ted Williams",1,6,9
 start,doerb101,"Bobby Doerr",1,7,4
 start,desag101,"Gene Desautels",1,8,2
 start,bagbj102,"Jim Bagby",1,9,1
-play,1,0,gantj101,??,,9/9D
+play,1,0,gantj101,??,,9/L9D
+com,"Williams: good catch"
 play,1,0,mosew101,??,,8
 play,1,0,miled101,??,,13/BG
-play,1,1,cramd102,??,,E5/TH.B-2
-play,1,1,vosmj101,??,,8
-play,1,1,foxxj101,??,,D8.2-H(UR)
-com,"$Miles failed to make a shoestring catch."
+play,1,1,cramd102,??,,E5/TH1.B-2
+play,1,1,vosmj101,??,,8/L
+play,1,1,foxxj101,??,,D8/L8S.2-H(UR)
+com,"$Miles missed a shoestring catch"
 play,1,1,cronj101,??,,6/L
 play,1,1,taboj101,??,,63
-play,2,0,hayef101,??,,43
+play,2,0,hayef101,??,,143
 play,2,0,johnb102,??,,K
 play,2,0,nageb101,??,,K
 play,2,1,willt103,??,,8
@@ -68,74 +69,77 @@ play,2,1,bagbj102,??,,43
 play,3,0,etten101,??,,8
 play,3,0,newss101,??,,S8
 play,3,0,parmr101,??,,K
-play,3,0,gantj101,??,,8
+play,3,0,gantj101,??,,8/L
 play,3,1,cramd102,??,,8
 play,3,1,vosmj101,??,,8
 play,3,1,foxxj101,??,,W
 play,3,1,cronj101,??,,WP.1-2
-play,3,1,cronj101,??,,S8.2-H
+play,3,1,cronj101,??,,S8/89.2-H
 play,3,1,taboj101,??,,64(1)/FO
-play,4,0,mosew101,??,,S8
+play,4,0,mosew101,??,,S4/F8S
+com,"Texas Leaguer off Doerr's glove"
 play,4,0,miled101,??,,3/P/FL
-play,4,0,hayef101,??,,HR/7.1-H
-play,4,0,johnb102,??,,S7/7DW
-com,"Off the wall."
+play,4,0,hayef101,22,,HR/F7D.1-H
+com,"Far over LF screen"
+play,4,0,johnb102,??,,S7/L7DW
 play,4,0,nageb101,??,,64(1)3/GDP
 play,4,1,willt103,??,,43
 play,4,1,doerb101,??,,23
 play,4,1,desag101,??,,3/P/FL
-play,5,0,etten101,??,,99
-play,5,0,newss101,??,,99
+play,5,0,etten101,??,,3/G
+play,5,0,newss101,??,,63
 play,5,0,parmr101,??,,K
-play,5,1,bagbj102,??,,S
-play,5,1,cramd102,??,,99
-play,5,1,vosmj101,??,,99
-play,5,1,foxxj101,??,,W.1-2
-play,5,1,cronj101,??,,99
-play,6,0,gantj101,??,,99
-play,6,0,mosew101,??,,99
+play,5,1,bagbj102,??,,S7
+play,5,1,cramd102,??,,43.1-2
+play,5,1,vosmj101,??,,13.2-3
+play,5,1,foxxj101,??,,W
+play,5,1,cronj101,??,,6
+play,6,0,gantj101,??,,9
+play,6,0,mosew101,??,,13
 play,6,0,miled101,??,,K
 play,6,1,taboj101,??,,W
 play,6,1,willt103,??,,K
 play,6,1,doerb101,??,,W.1-2
-play,6,1,desag101,??,,99(1)/FO.2-3
+play,6,1,desag101,??,,64(1)/FO.2-3
 play,6,1,bagbj102,??,,HP.1-2
-play,6,1,cramd102,??,,D/78.1-H;2-H;3-H
-play,6,1,vosmj101,??,,99
-play,7,0,hayef101,??,,8/L
-play,7,0,johnb102,??,,99
-play,7,0,nageb101,??,,99
+com,"Hit on the left elbow"
+play,6,1,cramd102,10,,D8/78.3-H;2-H;1-H
+play,6,1,vosmj101,??,,13
+play,7,0,hayef101,??,,8/L8XD
+com,"Cramer: great catch"
+play,7,0,johnb102,??,,8
+play,7,0,nageb101,??,,63
 play,7,1,foxxj101,??,,NP
 sub,smite105,"Eddie Smith",0,9,1
-play,7,1,foxxj101,??,,99/G
-play,7,1,cronj101,??,,D7/7D
-com,"Off the wall."
+play,7,1,foxxj101,??,,63
+play,7,1,cronj101,??,,D7/F7DW
+com,"Just missed a home run"
 play,7,1,taboj101,??,,K
 play,7,1,willt103,??,,S8.2-H
-play,7,1,doerb101,??,,S.1-3
-play,7,1,desag101,??,,BK.1-2;3-H
-play,7,1,desag101,??,,99
+play,7,1,doerb101,??,,S8.1-3
+play,7,1,desag101,??,,BK.3-H;1-2
+play,7,1,desag101,??,,63
 play,8,0,etten101,??,,W
-play,8,0,newss101,??,,99
+play,8,0,newss101,??,,7
 play,8,0,smite105,??,,NP
 sub,finnl101,"Lou Finney",0,9,11
-play,8,0,finnl101,??,,99
+play,8,0,finnl101,??,,9
 play,8,0,gantj101,??,,S8.1-2
-play,8,0,mosew101,??,,8
+play,8,0,mosew101,??,,8/F8XD
+com,"Cramer: great catch"
 play,8,1,bagbj102,??,,NP
 sub,pottn102,"Nels Potter",0,9,1
-play,8,1,bagbj102,??,,99
+play,8,1,bagbj102,??,,63
 play,8,1,cramd102,??,,E7/F.B-2
-com,"Johnson dropped the fly ball."
-play,8,1,vosmj101,??,,S7/7D.2-H(UR)
-com,"Off the wall."
+play,8,1,vosmj101,??,,S7/7DW.2-H(UR)
 play,8,1,foxxj101,??,,W.1-2
 play,8,1,cronj101,??,,W.2-3;1-2
-play,8,1,taboj101,??,,64(1)/FO.2-3;3-H(UR)
+play,8,1,taboj101,??,,64(1)/FO.3-H(UR);2-3
 play,8,1,willt103,??,,K
-play,9,0,miled101,??,,8
-play,9,0,hayef101,??,,99
-play,9,0,johnb102,??,,99
+play,9,0,miled101,??,,8/F8XD
+com,"Cramer: great catch"
+play,9,0,hayef101,??,,53
+play,9,0,johnb102,??,,43
 data,er,parmr101,4
 data,er,smite105,2
 data,er,pottn102,0
@@ -151,9 +155,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"115,135"
-info,translator,"115,135"
-info,inputter,"Comly"
+info,scorer,"115,135,480"
+info,translator,"Comly,Wayne Townsend"
+info,inputter,"Comly, Wayne Townsend"
 info,inputtime,2013/09/01 12:54AM
 info,umphome,basis901
 info,ump1b,ormsr901
@@ -166,7 +170,7 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,120
 info,attendance,10300
 info,wp,richw101
@@ -191,34 +195,39 @@ start,willt103,"Ted Williams",1,6,9
 start,doerb101,"Bobby Doerr",1,7,4
 start,peacj101,"Johnny Peacock",1,8,2
 start,richw101,"Woody Rich",1,9,1
-play,1,0,gantj101,??,,S/78
+play,1,0,gantj101,??,,S8/78
 play,1,0,mosew101,??,,8/F
 play,1,0,miled101,??,,6/P
 play,1,0,bruce101,??,,CS2(26)
-play,1,1,cramd102,??,,D/78D
-play,1,1,vosmj101,??,,63
-play,1,1,foxxj101,??,,23
+play,1,1,cramd102,??,,D8/F78XDW
+play,1,1,vosmj101,??,,63/G56.2-2
+com,"Newsome: great play"
+play,1,1,foxxj101,??,,23.2-2
 com,"$Brucker lost Foxx pop in sun but recovered ball"
 play,1,1,cronj101,??,,W
 play,1,1,taboj101,??,,64(1)/FO
-play,2,0,bruce101,??,,9/F
+play,2,0,bruce101,??,,13
 play,2,0,johnb102,??,,W
 play,2,0,nageb101,??,,13.1-2
+com,"Rich knocked down hard smash"
 play,2,0,etten101,??,,D9.2-H
-play,2,0,newss101,??,,8/F
-play,2,1,willt103,??,,D/78D
+play,2,0,newss101,??,,8/F8S
+com,"Cramer: running catch"
+play,2,1,willt103,??,,D8/F78XDW
+com,"High off LCF wall close to the flag pole"
 play,2,1,doerb101,??,,3/G.2-3
 play,2,1,peacj101,??,,S8.3-H
 play,2,1,richw101,??,,PB.1-2
 play,2,1,richw101,??,,S7.2-3
-play,2,1,cramd102,??,,8/SF.3-H(UR)
+play,2,1,cramd102,??,,8/F/SF.3-H(UR)
 play,2,1,vosmj101,??,,9/F
 play,3,0,rossb102,??,,43
+com,"Doerr: great stop"
 play,3,0,gantj101,??,,W
 play,3,0,mosew101,??,,S7.1-3;BX2(74)
 play,3,0,miled101,??,,13
-play,3,1,foxxj101,??,,9/9D/F
-play,3,1,cronj101,??,,4/P
+play,3,1,foxxj101,??,,9/F89XDW
+play,3,1,cronj101,??,,4/P/FL
 play,3,1,taboj101,??,,53
 play,4,0,bruce101,??,,13
 play,4,0,johnb102,??,,9/F
@@ -227,18 +236,18 @@ play,4,1,willt103,??,,7/F
 play,4,1,doerb101,??,,8/F
 play,4,1,peacj101,??,,S8
 play,4,1,richw101,??,,13
-play,5,0,etten101,??,,99
-play,5,0,newss101,??,,S
-play,5,0,rossb102,??,,99/SH.1-2
-play,5,0,gantj101,??,,D.2-H
-play,5,0,mosew101,??,,99
+play,5,0,etten101,??,,43
+play,5,0,newss101,??,,S9
+play,5,0,rossb102,??,,14/SH.1-2
+play,5,0,gantj101,??,,D9.2-H
+play,5,0,mosew101,??,,7/L
 play,5,1,cramd102,??,,43
-play,5,1,vosmj101,??,,E5#
-play,5,1,foxxj101,??,,S9.1-3
+play,5,1,vosmj101,??,,E6/TH1
+play,5,1,foxxj101,??,,S7/7DW.1-3
 play,5,1,cronj101,??,,W.1-2
-play,5,1,taboj101,??,,7/SF.3-H(UR)
-play,5,1,willt103,??,,S7.2-H(UR);1-3#
-play,5,1,doerb101,??,,E6.3-H(NR)(UR);1-2#
+play,5,1,taboj101,??,,8/SF.3-H(UR)
+play,5,1,willt103,??,,S/78.2-H(UR);1-3
+play,5,1,doerb101,??,,E5/TH.3-H(NR)(UR);1-2
 play,5,1,peacj101,??,,8
 play,6,0,miled101,??,,43
 play,6,0,bruce101,??,,43
@@ -247,12 +256,12 @@ play,6,1,richw101,??,,NP
 sub,hayef101,"Frankie Hayes",0,4,2
 play,6,1,richw101,??,,NP
 sub,nelsl101,"Lynn Nelson",0,9,1
-play,6,1,richw101,??,,S
-play,6,1,cramd102,??,,S.1-3#
-play,6,1,vosmj101,??,,3
+play,6,1,richw101,??,,S8
+play,6,1,cramd102,??,,S9.1-3
+play,6,1,vosmj101,??,,3/FL
 play,6,1,foxxj101,??,,14(1)3/GDP
 play,7,0,nageb101,??,,W
-play,7,0,etten101,??,,2
+play,7,0,etten101,??,,2/FL
 play,7,0,newss101,??,,NP
 sub,finnl101,"Lou Finney",0,8,11
 play,7,0,finnl101,??,,5
@@ -262,12 +271,12 @@ sub,amblw101,"Wayne Ambler",0,8,6
 play,7,1,cronj101,??,,W
 play,7,1,taboj101,??,,16(1)3/GDP
 play,7,1,willt103,??,,3
-play,8,0,gantj101,??,,S7#
-play,8,0,mosew101,??,,99(1)/FO
+play,8,0,gantj101,??,,S8
+play,8,0,mosew101,??,,46(1)/FO
 play,8,0,miled101,??,,7
 play,8,0,hayef101,??,,8
-play,8,1,doerb101,??,,D9
-play,8,1,peacj101,??,,99/SH.2-3
+play,8,1,doerb101,??,,D7
+play,8,1,peacj101,??,,34/SH.2-3
 play,8,1,richw101,??,,K
 play,8,1,cramd102,??,,43
 play,9,0,johnb102,??,,NP
@@ -824,9 +833,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"115"
-info,translator,"Bob Kistler"
-info,inputter,"D Lamoureaux"
+info,scorer,"115,276"
+info,translator,"Bob Kistler, Wayne Townsend"
+info,inputter,"D Lamoureaux, Wayne Townsend"
 info,inputtime,2004/07/07 4:33AM
 info,umphome,geish901
 info,ump1b,kolll901
@@ -873,63 +882,61 @@ play,1,1,vosmj101,??,,9
 play,2,0,appll101,??,,K/C
 play,2,0,steih102,??,,63
 play,2,0,rosel101,??,,7
-play,2,1,cronj101,??,,D/78D
-com,"Off the wall"
-play,2,1,willt103,??,,D7/7D.2-H
-com,"Off the wall."
+play,2,1,cronj101,??,,D/F78XDW
+play,2,1,willt103,??,,D7/F7DW.2-H
 play,2,1,taboj101,??,,3/P
-play,2,1,doerb101,??,,HR/7.2-H
-com,"Into the screen."
+play,2,1,doerb101,??,,HR/F7D.2-H
+com,"Into LF screen"
 play,2,1,peacj101,??,,63
 play,2,1,richw101,??,,7
 play,3,0,bejmo101,??,,D7
 play,3,0,tresm101,??,,E5/TH1.2-H(NR)(UR);B-2
-com,"Tabor's throw to first went into the stands."
+com,"Tabor's throw to first went into the stands"
 play,3,0,rignj101,??,,43.2-3
 play,3,0,owenm102,??,,43.3-H(UR)
 play,3,0,kuhej101,??,,W
 play,3,0,walkg101,??,,S7.1-2
-play,3,0,appll101,??,,S9.1-3;2-H(UR)
+play,3,0,appll101,??,,S9/G3L.2-H(UR);1-3
 play,3,0,steih102,??,,46(1)/FO
 play,3,1,cramd102,??,,W
-play,3,1,finnl101,??,,D9.1-3
-play,3,1,vosmj101,??,,S7.2-H;3-H
+play,3,1,finnl101,??,,D9/L.1-3
+com,"Past Steinbacher"
+play,3,1,vosmj101,??,,S7.3-H;2-H
 play,3,1,cronj101,??,,S7.1-2
 play,3,1,willt103,??,,NP
 sub,frasv101,"Vic Frasier",0,9,1
 play,3,1,willt103,??,,W.2-3;1-2
-play,3,1,taboj101,??,,S.1-2;2-H;3-H
+play,3,1,taboj101,??,,S.3-H;2-H;1-2
 play,3,1,doerb101,??,,W.2-3;1-2
 play,3,1,peacj101,??,,W.3-H;2-3;1-2
-play,3,1,richw101,??,,52(3)/FO.1-2;2-3
-play,3,1,cramd102,??,,99
-play,3,1,finnl101,??,,99
-play,4,0,rosel101,??,,99
-play,4,0,bejmo101,??,,K
-play,4,0,tresm101,??,,99
+play,3,1,richw101,??,,52(3)/FO.2-3;1-2
+play,3,1,cramd102,??,,46(1)3/GDP
+play,4,0,rosel101,??,,43
+play,4,0,bejmo101,??,,7
+play,4,0,tresm101,??,,K
+play,4,1,finnl101,??,,8
 play,4,1,vosmj101,??,,S
-play,4,1,cronj101,??,,46(1)3/GDP
-play,4,1,willt103,??,,99
+play,4,1,cronj101,??,,7
+play,4,1,willt103,??,,3
 play,5,0,frasv101,??,,K
-play,5,0,owenm102,??,,99
+play,5,0,owenm102,??,,7
 play,5,0,kuhej101,??,,K
-play,5,1,taboj101,??,,99/P
+play,5,1,taboj101,??,,3/P
 play,5,1,doerb101,??,,S
-play,5,1,peacj101,??,,WP.1-2
-play,5,1,peacj101,??,,W
-play,5,1,richw101,??,,S7.1-2;2-3
-play,5,1,cramd102,??,,S7.1-3;2-H;3-H
-play,5,1,finnl101,??,,D7.1-3;3-H
-play,5,1,vosmj101,??,,S8.2-H;3-H
-play,5,1,cronj101,??,,D7/7DW.1-3
-com,"Off the wall."
-play,5,1,willt103,??,,99/P
-play,5,1,taboj101,??,,S8.2-H;3-H
+play,5,1,peacj101,??,,W.1-2
+play,5,1,richw101,??,,S7.2-3;1-2
+play,5,1,cramd102,??,,S7.3-H;2-H;1-3
+play,5,1,finnl101,??,,D7.3-H;1-3
+play,5,1,vosmj101,??,,S8.3-H;2-H
+play,5,1,cronj101,??,,D7/F7DW.1-3
+play,5,1,willt103,??,,6/P
+play,5,1,taboj101,??,,S8.3-H;2-H
+play,5,1,doerb101,??,,WP.1-2
 play,5,1,doerb101,??,,8
-play,6,0,walkg101,??,,99
+play,6,0,walkg101,??,,8
 play,6,0,appll101,??,,W
-play,6,0,steih102,??,,99
-play,6,0,rosel101,??,,99
+play,6,0,steih102,??,,3
+play,6,0,rosel101,??,,9
 play,6,1,peacj101,??,,NP
 sub,hayej101,"Jackie Hayes",0,4,4
 play,6,1,peacj101,??,,NP
@@ -937,37 +944,40 @@ sub,bejmo101,"Ollie Bejma",0,7,6
 play,6,1,peacj101,??,,NP
 sub,herra101,"Art Herring",0,9,1
 play,6,1,peacj101,??,,S
-play,6,1,richw101,??,,99
-play,6,1,cramd102,??,,7/L
-play,6,1,finnl101,??,,99
-play,7,0,bejmo101,??,,99
+play,6,1,richw101,??,,16(1)/FO
+play,6,1,cramd102,??,,7/L7DW
+com,"Walker: 1-handed catch"
+play,6,1,finnl101,??,,9
+play,7,0,bejmo101,??,,63
 play,7,0,tresm101,??,,S
-play,7,0,herra101,??,,99
-play,7,0,owenm102,??,,99
-play,7,1,vosmj101,??,,99
+play,7,0,herra101,??,,2
+play,7,0,owenm102,??,,7
+play,7,1,vosmj101,??,,6
 play,7,1,cronj101,??,,W
 play,7,1,willt103,??,,S8.1-3
-play,7,1,taboj101,??,,S.1-2;3-H
-play,7,1,doerb101,??,,99
-play,7,1,peacj101,??,,99
+play,7,1,taboj101,??,,S.3-H;1-2
+play,7,1,doerb101,??,,5(2)/FO.1-2
+play,7,1,peacj101,??,,46(1)/FO
 play,8,0,kuhej101,??,,D9
 play,8,0,walkg101,??,,HP
+com,"Hit on the right hand"
 play,8,0,hayej101,??,,64(1)3/GDP.2-3
-play,8,0,steih102,??,,S1.3-H
+play,8,0,steih102,??,,S/G46.3-H
 com,"$Steinbacher's drive struck the pitching rubber and bounded"
 com,"high in the air."
-play,8,0,rosel101,??,,99
-play,8,1,richw101,??,,99
+play,8,0,rosel101,??,,9
+play,8,1,richw101,??,,5
 play,8,1,cramd102,??,,HP
-play,8,1,finnl101,??,,S.1-3
-play,8,1,vosmj101,??,,WP.1-3;3-H
-play,8,1,vosmj101,??,,43.3-H
-play,8,1,cronj101,??,,99
-play,9,0,bejmo101,??,,99
-play,9,0,tresm101,??,,K
+play,8,1,finnl101,??,,S9/G3.1-3;B-2(TH3)
+com,"Over Kuhel"
+play,8,1,vosmj101,??,,WP.3-H;2-3
+play,8,1,vosmj101,??,,63.3-H
+play,8,1,cronj101,??,,53
+play,9,0,bejmo101,??,,K
+play,9,0,tresm101,??,,63
 play,9,0,herra101,??,,NP
 sub,radcr101,"Rip Radcliff",0,9,11
-play,9,0,radcr101,??,,99
+play,9,0,radcr101,??,,8
 data,er,rignj101,7
 data,er,frasv101,8
 data,er,herra101,3
@@ -5590,9 +5600,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"115"
-info,translator,"Bob Kistler"
-info,inputter,"D Lamoureaux"
+info,scorer,"115,271"
+info,translator,"Bob Kistler, Wayne Townsend"
+info,inputter,"D Lamoureaux, Wayne Townsend"
 info,inputtime,2004/07/13 4:57PM
 info,umphome,mcgob901
 info,ump1b,rue-j901
@@ -5630,136 +5640,131 @@ start,vosmj101,"Joe Vosmik",1,6,7
 start,taboj101,"Jim Tabor",1,7,5
 start,peacj101,"Johnny Peacock",1,8,2
 start,richw101,"Woody Rich",1,9,1
+com,"6,500 boys were present as guests of the Red Sox"
 play,1,0,hayej101,??,,W
 play,1,0,kuhej101,??,,S9.1-3
 play,1,0,kreem101,??,,3/P
 play,1,0,rosel101,??,,W.1-2
-play,1,0,walkg101,??,,S7.1-2;2-H;3-H
-play,1,0,appll101,??,,S8.1-3;2-H
+play,1,0,walkg101,??,,S7.3-H;2-H;1-2
+play,1,0,appll101,??,,S8.2-H;1-3
+play,1,0,mcnae101,??,,SB2
 play,1,0,mcnae101,??,,K
-play,1,0,tresm101,??,,W.1-2
+play,1,0,tresm101,??,,W
 play,1,0,rignj101,??,,53
 play,1,1,doerb101,??,,7/L
 play,1,1,finnl101,??,,7
 play,1,1,foxxj101,??,,HR/7
 play,1,1,willt103,??,,W
-play,1,1,cronj101,??,,D7/7D.1-3
-com,"Off the wall."
+play,1,1,cronj101,??,,D7/7DW.1-3
 play,1,1,vosmj101,??,,7
 play,2,0,hayej101,??,,63
 play,2,0,kuhej101,??,,D7/7L
-com,"Down the line."
 play,2,0,kreem101,??,,2/FL
 play,2,0,rosel101,??,,31
-play,2,1,taboj101,??,,D/78D
-com,"Off the wall."
+play,2,1,taboj101,??,,D/78XDW
 play,2,1,peacj101,??,,8
 play,2,1,richw101,??,,63.2-3
 play,2,1,doerb101,??,,S8.3-H
 play,2,1,finnl101,??,,CS2(26)
-play,3,0,walkg101,??,,99
+play,3,0,walkg101,??,,13
 play,3,0,appll101,??,,S
-play,3,0,mcnae101,??,,CS2(99)#
-play,3,0,mcnae101,??,,99
-play,3,1,finnl101,??,,99/G
-play,3,1,foxxj101,??,,43
-play,3,1,willt103,??,,T8/8D
-com,"$Off the wall."
-com,"Kreevich crashed into the wall in a futile attempt to catch"
-com,"William's drive and was injured."
+play,3,0,mcnae101,??,,CS2(24)
+play,3,0,mcnae101,??,,4/FL
+play,3,1,finnl101,??,,6
+play,3,1,foxxj101,??,,53
+play,3,1,willt103,??,,T9/L89XDW
+com,"Kreevich crashed into the concrete RCF wall and injured his"
+com,"hip.  He was helped off the field."
 play,3,1,cronj101,??,,NP
 sub,radcr101,"Rip Radcliff",0,3,9
 play,3,1,cronj101,??,,NP
 sub,rosel101,"Larry Rosenthal",0,4,8
 play,3,1,cronj101,00,,S7.3-H
-com,"First pitch."
-play,3,1,vosmj101,??,,99
-play,4,0,tresm101,??,,99
-play,4,0,rignj101,??,,99
+play,3,1,vosmj101,??,,8
+play,4,0,tresm101,??,,53
+play,4,0,rignj101,??,,4/FL
 play,4,0,hayej101,??,,K
 play,4,1,taboj101,??,,D
-play,4,1,peacj101,??,,99/SH.2-3
+play,4,1,peacj101,??,,53/SH.2-3
 play,4,1,richw101,??,,K
-play,4,1,doerb101,??,,99
+play,4,1,doerb101,??,,43
 play,5,0,kuhej101,??,,W
 play,5,0,radcr101,??,,S9.1-3
-play,5,0,rosel101,??,,99(1)/FO.3-H
+play,5,0,rosel101,??,,46(1)/FO.3-H
 play,5,0,walkg101,??,,7
-play,5,0,appll101,??,,S.1-2
-play,5,0,mcnae101,??,,D7/7D.1XH(752);2-H
-com,"Off the wall."
+play,5,0,appll101,??,,S7.1-2
+play,5,0,mcnae101,??,,D7/7DW.2-H;1XH(752)
 play,5,1,finnl101,??,,NP
 sub,marcj101,"Johnny Marcum",0,9,1
-play,5,1,finnl101,??,,99
+play,5,1,finnl101,??,,3/G
 play,5,1,foxxj101,??,,W
 play,5,1,willt103,??,,S9.1-3
-play,5,1,cronj101,??,,99/SF.3-H
-play,5,1,vosmj101,??,,99
+play,5,1,cronj101,??,,7/SF.3-H
+play,5,1,vosmj101,??,,8
 play,6,0,tresm101,??,,S6
 play,6,0,marcj101,??,,S8.1-3
 play,6,0,hayej101,??,,9/SF.3-H
-play,6,0,kuhej101,??,,9
-play,6,0,radcr101,??,,9/FL
-play,6,1,taboj101,??,,S7/7D
-com,"Off the wall."
+com,"Williams: running catch"
+play,6,0,kuhej101,??,,9/FL
+com,"Williams: running catch"
+play,6,0,radcr101,??,,9
+com,"Williams: running catch"
+play,6,1,taboj101,??,,S7/7DW
 play,6,1,peacj101,??,,S1.1-2
 play,6,1,richw101,??,,NP
 sub,grovl101,"Lefty Grove",1,9,11
-play,6,1,grovl101,??,,2/BG/INT.2-2;1-1
-com,"$Grove bunted and was hit by his own batted ball."
-play,6,1,doerb101,??,,S7.1-3;2-H
-play,6,1,finnl101,??,,S9.1-3;3-H
+play,6,1,grovl101,??,,2/BG/BINT.2-2;1-1
+com,"$Grove bunted and was hit by his own batted ball"
+play,6,1,doerb101,??,,S7.2-H;1-3
+play,6,1,finnl101,??,,S9/G3L.3-H;1-3
 play,6,1,foxxj101,??,,W.1-2
-play,6,1,willt103,??,,WP.1-2;2-3;3-H
+play,6,1,willt103,??,,WP.3-H;2-3;1-2
 play,6,1,willt103,??,,IW
 play,6,1,cronj101,??,,NP
 sub,browc103,"Clint Brown",0,9,1
 play,6,1,cronj101,??,,K
-play,6,1,vosmj101,??,,8/8D
+play,6,1,vosmj101,??,,8/F8XD
 play,7,0,rosel101,??,,NP
 sub,galed101,"Denny Galehouse",1,9,1
-play,7,0,rosel101,??,,99
-play,7,0,walkg101,??,,99
-play,7,0,appll101,??,,99
-play,7,1,taboj101,??,,99
-play,7,1,peacj101,??,,99
-play,7,1,galed101,??,,99
-play,8,0,mcnae101,??,,D7/7D
-com,"Off the wall."
+play,7,0,rosel101,??,,8
+play,7,0,walkg101,??,,63
+play,7,0,appll101,??,,13
+play,7,1,taboj101,??,,13
+play,7,1,peacj101,??,,63
+play,7,1,galed101,??,,43
+play,8,0,mcnae101,??,,D7/7DW
 play,8,0,tresm101,??,,NP
 sub,steih102,"Hank Steinbacher",0,8,11
 play,8,0,steih102,??,,D7/7L.2-H
-com,"Down the line."
 play,8,0,browc103,??,,NP
 sub,dicke101,"Emerson Dickman",1,9,1
-play,8,0,browc103,??,,99/SH.2-3
+play,8,0,browc103,??,,14/SH.2-3
 play,8,0,hayej101,??,,43.3-H
 play,8,0,kuhej101,??,,K
 play,8,1,doerb101,??,,NP
 sub,schln101,"Norm Schlueter",0,8,2
-play,8,1,doerb101,??,,99
-play,8,1,finnl101,??,,99
+play,8,1,doerb101,??,,5
+play,8,1,finnl101,??,,7
 play,8,1,foxxj101,??,,W
 play,8,1,willt103,??,,K/C
-play,9,0,radcr101,??,,E3
-play,9,0,rosel101,??,,99/SH.1-2
+play,9,0,radcr101,??,,1E3
+play,9,0,rosel101,??,,14/SH.1-2
 play,9,0,walkg101,??,,IW
-play,9,0,appll101,??,,S.1-3;2-H
-play,9,0,mcnae101,??,,SB2
-play,9,0,mcnae101,??,,99/SF.3-H
-play,9,0,schln101,??,,S.2-3
+play,9,0,appll101,??,,S.2-H(UR);1-3
+play,9,0,mcnae101,??,,8/SF.3-H(UR)
+play,9,0,schln101,??,,S.1-3
 play,9,0,browc103,??,,SB2
-play,9,0,browc103,??,,S.2-H;3-H
-play,9,0,hayej101,??,,99
-play,9,1,cronj101,??,,99
-play,9,1,vosmj101,??,,99
-play,9,1,taboj101,??,,99
+play,9,0,browc103,??,,S.3-H(UR);2-H(UR)
+play,9,0,hayej101,??,,13
+play,9,1,cronj101,??,,43
+play,9,1,vosmj101,??,,9
+play,9,1,taboj101,??,,7
 data,er,rignj101,3
 data,er,marcj101,4
 data,er,browc103,0
 data,er,richw101,6
 data,er,galed101,2
-data,er,dicke101,4
+data,er,dicke101,0
 id,BOS193907280
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -6236,9 +6241,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"115"
-info,translator,"Bob Kistler"
-info,inputter,"D Lamoureaux"
+info,scorer,"115,39"
+info,translator,"Bob Kistler, Wayne Townsend"
+info,inputter,"D Lamoureaux, Wayne Townsend"
 info,inputtime,2004/07/13 5:37PM
 info,umphome,hubbc901
 info,ump1b,kolll901
@@ -6276,102 +6281,97 @@ start,vosmj101,"Joe Vosmik",1,6,7
 start,taboj101,"Jim Tabor",1,7,5
 start,desag101,"Gene Desautels",1,8,2
 start,grovl101,"Lefty Grove",1,9,1
+com,"8,000 boys also attended as guests of the Red Sox"
 play,1,0,webbs101,??,,53
-play,1,0,campb102,??,,7
+play,1,0,campb102,??,,7/F
 play,1,0,chapb102,??,,S8
-play,1,0,haleo101,??,,S6.1-2
-play,1,0,soltm101,??,,S9.1-2;2-H
+play,1,0,haleo101,??,,S6/G.1-2
+com,"Off Cronin's glove"
+play,1,0,soltm101,??,,S9.2-H;1-3
 play,1,0,keltk101,??,,3/P
-play,1,1,doerb101,??,,HR/7
+play,1,1,doerb101,11,,HR/F7D
+com,"Over LF wall"
 play,1,1,finnl101,??,,43
 play,1,1,foxxj101,??,,K
-play,1,1,willt103,??,,9
+play,1,1,willt103,??,,9/F
 play,2,0,grimo101,??,,63
 play,2,0,hemsr101,??,,53
 play,2,0,fellb101,??,,K
-play,2,1,cronj101,??,,8
-play,2,1,vosmj101,??,,9
+play,2,1,cronj101,??,,8/F
+play,2,1,vosmj101,??,,9/F
 play,2,1,taboj101,??,,W
 play,2,1,desag101,??,,CS2(26)
 play,3,0,webbs101,??,,K
-play,3,0,campb102,??,,13
+play,3,0,campb102,??,,13/BG
 play,3,0,chapb102,??,,W
 play,3,0,haleo101,??,,4/P
-play,3,1,desag101,??,,9
+play,3,1,desag101,??,,9/F
 play,3,1,grovl101,??,,K/C
 play,3,1,doerb101,??,,K
 play,4,0,soltm101,??,,W
 play,4,0,keltk101,??,,SB2
-play,4,0,keltk101,??,,D7/7D.2-H
+play,4,0,keltk101,??,,D7/F7DW.2-H
 play,4,0,grimo101,??,,34/SH.2-3
 play,4,0,hemsr101,??,,S9.3-H
 play,4,0,fellb101,??,,3(B)6(1)/GDP
 play,4,1,finnl101,??,,K
-play,4,1,foxxj101,??,,99
-play,4,1,willt103,??,,99
-play,5,0,webbs101,??,,99
+play,4,1,foxxj101,??,,13
+play,4,1,willt103,??,,3/G
+play,5,0,webbs101,??,,53
 play,5,0,campb102,??,,K/C
-com,"ej,campb102,P,hubbc901,Balls and strikes"
-com,"$Campbell was ejected by Umpire Hubbard for arguing."
-play,5,0,chapb102,??,,99
-play,5,1,cronj101,??,,NP
-sub,weatr101,"Roy Weatherly",0,2,9
-play,5,1,cronj101,??,,9
-play,5,1,vosmj101,??,,D8
+play,5,0,chapb102,??,,4/P
+play,5,1,cronj101,??,,9/F
+play,5,1,vosmj101,??,,D8/F8XDW
 play,5,1,taboj101,??,,K/C
 play,5,1,desag101,??,,W
-play,5,1,grovl101,??,,WP.1-2;2-3
+play,5,1,grovl101,??,,WP.2-3;1-2
 play,5,1,grovl101,??,,W
-com,"ej,eiseh101,P,hubbc901,Balls and strikes"
-com,"ej,vitto101,M,hubbc901,Balls and strikes"
-com,"$The Indians argued about Grove's walk and Indians manager"
-com,"Vitt and Eisenstat were ejected by Hubbard from the "
-com,"Cleveland dugout."
-play,5,1,doerb101,00,,HR/7.3-H;2-H;1-H
-com,"First pitch."
+play,5,1,doerb101,00,,HR/F7D.3-H;2-H;1-H
+com,"Into LF screen"
 play,5,1,finnl101,??,,K
-play,6,0,haleo101,??,,99
-play,6,0,soltm101,??,,99
-play,6,0,keltk101,??,,99
-play,6,1,foxxj101,00,,T8/8D
+com,"ej,vitto101,M,hubbc901,Balls and strikes"
+com,"ej,campb102,P,hubbc901,Balls and strikes"
+com,"ej,eiseh101,P,hubbc901,Balls and strikes"
+play,6,0,haleo101,??,,9/F
+play,6,0,soltm101,??,,9/F
+play,6,0,keltk101,??,,63/G
+play,6,1,foxxj101,??,,NP
+sub,weatr101,"Roy Weatherly",0,2,9
+play,6,1,foxxj101,00,,T8/F8XDW
 play,6,1,willt103,??,,43.3-H
-play,6,1,cronj101,??,,S
-play,6,1,vosmj101,??,,K.1-2(E2/TH)
-play,6,1,taboj101,??,,K
+play,6,1,cronj101,??,,S7
+play,6,1,vosmj101,??,,K/C.1-2(E2/TH2)
+play,6,1,taboj101,??,,K/C
 play,7,0,grimo101,??,,K
 play,7,0,hemsr101,??,,K
 play,7,0,fellb101,??,,NP
 sub,heatj101,"Jeff Heath",0,9,11
-play,7,0,heatj101,??,,T8/8D
-com,"Off the wall."
-play,7,0,webbs101,??,,8
+play,7,0,heatj101,??,,T8/F8XDW
+play,7,0,webbs101,??,,8/F
 play,7,1,desag101,??,,NP
 sub,dobsj101,"Joe Dobson",0,9,1
 play,7,1,desag101,??,,W
-play,7,1,grovl101,??,,99/SH.1-2
-play,7,1,doerb101,??,,99
+play,7,1,grovl101,??,,24/SH.1-2
+play,7,1,doerb101,??,,53
 play,7,1,finnl101,??,,W
-play,7,1,foxxj101,??,,99
-play,8,0,weatr101,??,,53
-play,8,0,chapb102,??,,99
-play,8,0,haleo101,??,,E6#
-play,8,0,soltm101,??,,99
+play,7,1,foxxj101,??,,63
+play,8,0,weatr101,??,,43
+play,8,0,chapb102,??,,8
+play,8,0,haleo101,??,,E6
+play,8,0,soltm101,??,,3
 play,8,1,willt103,??,,W
 play,8,1,cronj101,??,,K+SB2
 com,"ej,haleo101,P,romme101,Call at 2B"
-com,"$Hale was ejected by Umpire Rommel for arguing the call at"
-com,"second."
 play,8,1,vosmj101,??,,NP
 sub,sewel101,"Luke Sewell",0,4,3
 play,8,1,vosmj101,??,,NP
 sub,grimo101,"Oscar Grimes",0,7,4
-play,8,1,vosmj101,??,,99.2-3
+play,8,1,vosmj101,??,,63.2-3
 play,8,1,taboj101,??,,S7.3-H
 play,8,1,desag101,??,,S.1-2
-play,8,1,grovl101,??,,99
+play,8,1,grovl101,??,,13
 play,9,0,keltk101,??,,HR/7
-play,9,0,grimo101,??,,D7/7D
-com,"Off the wall."
+play,9,0,grimo101,??,,D7/7DW
 play,9,0,hemsr101,??,,8
 play,9,0,dobsj101,??,,NP
 sub,allej102,"Johnny Allen",0,9,11
@@ -8545,14 +8545,14 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"115"
-info,translator,"Bob Kistler"
-info,inputter,"D Lamoureaux"
-info,inputtime,2004/07/15 3:28PM
 info,umphome,mcgob901
 info,ump1b,grieb901
 info,ump2b,(none)
 info,ump3b,quinj901
+info,scorer,"115,276"
+info,translator,"Bob Kistler, Wayne Townsend"
+info,inputter,"D Lamoureaux, Wayne Townsend"
+info,inputtime,2004/07/15 3:28PM
 info,howscored,unknown
 info,pitches,none
 info,temp,0
@@ -8602,14 +8602,14 @@ play,2,1,caret102,??,,16(1)3/GDP
 play,3,0,tebbb101,??,,5/P/FL
 play,3,0,hutcf101,??,,7
 play,3,0,mccob101,??,,8/L
-com,"Sensational catch by Cramer."
+com,"Cramer: Sensational catch"
 play,3,1,desag101,??,,63
-play,3,1,grovl101,??,,S7
-play,3,1,finnl101,??,,D/89.1-3
+play,3,1,grovl101,??,,S7/L
+play,3,1,finnl101,??,,D/89D.1-3
 play,3,1,cramd102,??,,9
 play,3,1,willt103,??,,IW
 play,3,1,taboj101,??,,K
-play,4,0,fox-p102,??,,S9
+play,4,0,fox-p102,??,,S4
 play,4,0,gehrc101,??,,SB2
 play,4,0,gehrc101,??,,43.2-3
 play,4,0,greeh102,??,,6/P
@@ -8621,45 +8621,44 @@ play,4,1,desag101,??,,CS2(24361)
 play,5,0,bellb102,??,,63
 play,5,0,kresr101,??,,8
 play,5,0,tebbb101,??,,53
-play,5,1,desag101,??,,D9/9L
-com,"Down the line."
-play,5,1,grovl101,??,,PO2(E2).2-3
+play,5,1,desag101,??,,D7/7L
+play,5,1,grovl101,00,M,PO2(E2).2-3
 play,5,1,grovl101,??,,W
-play,5,1,finnl101,??,,9/SF.3-H
+play,5,1,finnl101,??,,8/SF.3-H
 play,5,1,cramd102,??,,S7.1-2
 play,5,1,willt103,??,,5/P/FL
 play,5,1,taboj101,??,,3/P
-play,6,0,hutcf101,??,,99
+play,6,0,hutcf101,??,,6
 play,6,0,mccob101,??,,K
 play,6,0,fox-p102,??,,6/L
-play,6,1,vosmj101,??,,S
-play,6,1,doerb101,??,,99
-play,6,1,caret102,??,,99
-play,6,1,desag101,??,,99
-play,7,0,gehrc101,??,,99
+com,"Carey: great catch"
+play,6,1,vosmj101,??,,S8
+play,6,1,doerb101,??,,8
+play,6,1,caret102,??,,3
+play,6,1,desag101,??,,6
+play,7,0,gehrc101,??,,3
 play,7,0,greeh102,??,,K
-play,7,0,higgm101,??,,99
+play,7,0,higgm101,??,,43
 play,7,1,grovl101,??,,W
-play,7,1,finnl101,??,,99(1)/FO
-play,7,1,cramd102,??,,CS2(99)
-play,7,1,cramd102,??,,99
+play,7,1,finnl101,??,,54(1)/FO
+play,7,1,cramd102,??,,CS2(24)
+play,7,1,cramd102,??,,7
 play,8,0,bellb102,??,,K
-play,8,0,kresr101,??,,99
+play,8,0,kresr101,??,,43
 play,8,0,tebbb101,??,,E6
 play,8,0,hutcf101,??,,NP
 sub,parsd101,"Dixie Parsons",0,9,11
 play,8,0,parsd101,??,,K
 play,8,1,willt103,??,,NP
 sub,thomb102,"Bud Thomas",0,9,1
-play,8,1,willt103,??,,99
-play,8,1,taboj101,??,,99
-play,8,1,vosmj101,??,,99
+play,8,1,willt103,??,,31
+play,8,1,taboj101,??,,53
+play,8,1,vosmj101,??,,5
 play,9,0,mccob101,??,,S9
 play,9,0,fox-p102,??,,S7.1-2
-play,9,0,gehrc101,??,,99/SH.1-2;2-3
+play,9,0,gehrc101,??,,54/SH.2-3;1-2
 play,9,0,greeh102,??,,K
 play,9,0,higgm101,00,,43
-com,"First pitch."
 data,er,hutcf101,1
 data,er,thomb102,0
 data,er,grovl101,0
@@ -8674,9 +8673,9 @@ info,number,0
 info,starttime,3:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"235"
-info,translator,"D Lamoureaux"
-info,inputter,"D Lamoureaux"
+info,scorer,"235,71"
+info,translator,"D Lamoureaux, Wayne Townsend"
+info,inputter,"D Lamoureaux, Wayne Townsend"
 info,inputtime,2008/01/18 9:05PM
 info,umphome,grieb901
 info,ump1b,quinj901
@@ -8714,55 +8713,61 @@ start,doerb101,"Bobby Doerr",1,6,4
 start,caret102,"Tom Carey",1,7,6
 start,desag101,"Gene Desautels",1,8,2
 start,aukee101,"Elden Auker",1,9,1
-play,1,0,boudl101,??,,T
+play,1,0,boudl101,??,,T/89D
 play,1,0,weatr101,??,,13
 play,1,0,chapb102,??,,FC5.3XH(525)
 play,1,0,haleo101,??,,54(1)/FO
 play,1,1,finnl101,??,,63
 play,1,1,cramd102,??,,K
-play,1,1,willt103,??,,S
+play,1,1,willt103,??,,S8
 play,1,1,taboj101,??,,13
 play,2,0,campb102,??,,W
-play,2,0,keltk101,??,,8/F.1-2(E8)
-play,2,0,grimo101,??,,S.2-3
+play,2,0,keltk101,??,,8/F.1-2(E8/TH1)
+com,"Cramer: nice running catch"
+play,2,0,grimo101,??,,S6.2-3
 play,2,0,pytlf101,??,,64(1)/FO.3-H(UR)
 play,2,0,allej102,??,,13
 play,2,1,vosmj101,??,,43
 play,2,1,doerb101,??,,7
 play,2,1,caret102,??,,43
-play,3,0,boudl101,??,,S
-play,3,0,weatr101,??,,D.1-3
+play,3,0,boudl101,??,,S9
+play,3,0,weatr101,??,,D7/F7S.1-3
 play,3,0,chapb102,??,,53
-play,3,0,haleo101,??,,S.2-H;3-H
+com,"Tabor: sensational diving stop"
+play,3,0,haleo101,??,,S/78S.3-H;2-H
 play,3,0,campb102,??,,SB2
-play,3,0,campb102,??,,T.2-H
-play,3,0,keltk101,??,,S.3-H
+play,3,0,campb102,??,,T9/9L.2-H
+com,"Past Williams"
+play,3,0,keltk101,??,,S9.3-H
 play,3,0,grimo101,??,,NP
 sub,dicke101,"Emerson Dickman",1,9,1
-play,3,0,grimo101,??,,S.1-2
-play,3,0,pytlf101,??,,S.1-2;2-H
-play,3,0,allej102,??,,16(2)3(1)/GDP/BG
+play,3,0,grimo101,??,,S5/G5L.1-2
+play,3,0,pytlf101,??,,S9.2-H;1-2
+play,3,0,allej102,??,,16(2)3(1)/BGDP
 play,3,1,desag101,??,,63
 play,3,1,dicke101,??,,63
-play,3,1,finnl101,??,,S
+play,3,1,finnl101,??,,S7
 play,3,1,cramd102,??,,64(1)/FO
 play,4,0,boudl101,??,,D
 play,4,0,weatr101,??,,S.2-3
 play,4,0,chapb102,??,,FLE3
 play,4,0,chapb102,??,,6
 play,4,0,haleo101,??,,54(1)3/GDP
-play,4,1,willt103,??,,NP
-sub,milna101,"Al Milnar",0,3,7
-play,4,1,willt103,??,,NP
-sub,weatr101,"Roy Weatherly",0,2,8
 play,4,1,willt103,??,,43
 play,4,1,taboj101,??,,9
 play,4,1,vosmj101,??,,63
-play,5,0,campb102,??,,D
+play,5,0,campb102,??,,D8
 play,5,0,keltk101,??,,53
 play,5,0,grimo101,??,,7
 play,5,0,pytlf101,??,,S.2-H
 play,5,0,allej102,??,,9
+play,5,1,doerb101,??,,NP
+sub,milna101,"Al Milnar",0,3,7
+play,5,1,doerb101,??,,NP
+sub,weatr101,"Roy Weatherly",0,2,8
+com,"ej,chapb102,P,grieb901,Unknown reason"
+com,"$Indians Chapman ejected by HP umpire Grieve in 5th"
+com,"for unknown reason"
 play,5,1,doerb101,??,,K
 play,5,1,caret102,??,,63
 play,5,1,desag101,??,,S
@@ -8772,8 +8777,8 @@ play,6,0,weatr101,??,,8
 play,6,0,milna101,??,,43
 play,6,1,finnl101,??,,S
 play,6,1,cramd102,??,,D.1-3
-play,6,1,willt103,??,,S.2-H;3-H
-play,6,1,taboj101,??,,K
+play,6,1,willt103,??,,S8.3-H;2-H
+play,6,1,taboj101,??,,K/C
 play,6,1,vosmj101,??,,D.1-H
 play,6,1,doerb101,??,,D.2-H
 play,6,1,caret102,??,,NP
@@ -8784,16 +8789,16 @@ play,6,1,desag101,??,,8
 play,7,0,haleo101,??,,2/FL
 play,7,0,campb102,??,,S
 play,7,0,keltk101,??,,7/L
-play,7,0,grimo101,??,,T.1-H
+play,7,0,grimo101,??,,T/89D.1-H
 play,7,0,pytlf101,??,,W
 play,7,0,dobsj101,??,,13
 play,7,1,dicke101,??,,NP
 sub,bagbj102,"Jim Bagby",1,9,11
-play,7,1,bagbj102,??,,E6
+play,7,1,bagbj102,??,,E6/G
 play,7,1,finnl101,??,,W.1-2
 play,7,1,cramd102,??,,NP
 sub,eiseh101,"Harry Eisenstat",0,9,1
-play,7,1,cramd102,??,,S.1-3;2-H(UR)
+play,7,1,cramd102,??,,S.2-H(UR);1-3
 play,7,1,willt103,??,,7/SF.3-H
 play,7,1,taboj101,??,,63.1-2
 play,7,1,vosmj101,??,,8
@@ -8810,7 +8815,8 @@ play,9,0,campb102,??,,S.1X2(4)
 play,9,0,keltk101,??,,8
 play,9,0,grimo101,??,,S.1-2
 play,9,0,pytlf101,??,,64(1)/FO
-play,9,1,bagbj102,??,,7/L
+play,9,1,bagbj102,??,,7/L7DW
+com,"Milnar: spectacular 1-handed stab"
 play,9,1,finnl101,??,,63
 play,9,1,cramd102,??,,43
 data,er,allej102,5

@@ -135,7 +135,7 @@ play,8,1,martt002,31,.BBFBB,W.2-3;1-2
 play,8,1,buhnj001,00,,NP
 sub,plune001,"Eric Plunk",0,0,1
 play,8,1,buhnj001,12,.SBCS,K
-play,8,1,blowm001,01,FX,FC6/G56.1X2(64)
+play,8,1,blowm001,01,FX,64(1)/G56/FO
 play,9,0,baerc001,22,CBBSS,K
 play,9,0,bellj002,12,BCCS,K
 play,9,0,murre001,01,FX,63/G6
@@ -229,7 +229,7 @@ play,4,1,martt002,02,CFS,K
 play,4,1,buhnj001,12,CFBX,6!3/G56D!
 play,4,1,blowm001,02,SSC,K
 play,5,0,ramim002,00,X,S8/L78S
-play,5,0,sorrp001,02,CSX,FC3/G3S.1X2(36)
+play,5,0,sorrp001,02,CSX,36(1)/G3S/FO
 play,5,0,aloms001,12,B1FFX,9/F9LS
 play,5,0,loftk001,10,BX,S8/G4M.1-2
 play,5,0,vizqo001,30,BBBB,W.2-3;1-2
@@ -379,7 +379,7 @@ play,4,0,sojol001,00,X,43/G4
 play,4,1,loftk001,10,BX,T7/F7D
 play,4,1,vizqo001,10,BX,8/SF/F8LD.3-H
 play,4,1,baerc001,21,BBFX,S8/L6MD
-play,4,1,bellj002,01,CX,FC5/G5.1X2(54)
+play,4,1,bellj002,01,CX,54(1)/G5/FO
 play,4,1,murre001,00,X,4/P4D
 play,5,0,wilsd001,12,CFBS,K
 play,5,0,colev001,01,CX,13/G13+
@@ -424,7 +424,7 @@ play,9,0,buhnj001,10,BX,1/L13/LDP.1X1(13)
 play,9,1,bellj002,00,,NP
 sub,charn001,"Norm Charlton",0,0,1
 play,9,1,bellj002,02,.CFH,HP
-play,9,1,murre001,12,BFFX,FC6/G6.1X2(64)
+play,9,1,murre001,12,BFFX,64(1)/G6/FO
 play,9,1,ramim002,32,SBBB1FB,W.1-2
 play,9,1,perrh001,00,,NP
 sub,amarr002,"Ruben Amaro",1,5,12
@@ -439,7 +439,7 @@ play,10,0,sojol001,21,BFBX,S7/L56+
 play,10,0,wilsd001,00,,NP
 sub,strad002,"Doug Strange",0,9,11
 play,10,0,strad002,02,.STX,9/F9LM
-play,10,0,colev001,11,BSX,FC4/G4M.1X2(4)
+play,10,0,colev001,11,BSX,4(1)/G4M/FO
 play,10,1,thomj002,00,,NP
 sub,widgc001,"Chris Widger",0,1,2
 play,10,1,thomj002,00,.,NP
@@ -551,14 +551,14 @@ play,3,0,marte001,01,S2C,SB3;SB2
 play,3,0,marte001,12,S2C.BX,43/G4
 play,3,1,baerc001,12,CFBX,S5/G5S-
 play,3,1,murre001,00,X,5/P5DF
-com,"$drizzle began and later turned to rain"
+com,"drizzle began"
 play,3,1,thomj002,32,.BCB1BF>X,HR/L7D.1-H
 play,3,1,ramim002,21,SBBX,S7/L56
 play,3,1,sorrp001,00,,NP
 sub,wellb002,"Bob Wells",0,0,1
 play,3,1,sorrp001,21,.BCBX,7/F7D+
 play,3,1,penat001,01,S1X,13/BG15S+
-com,"$rain stopped"
+com,"drizzle stopped"
 play,4,0,martt002,00,.X,S8/G4M
 play,4,0,buhnj001,22,FFBBX,D7/L7LM.1-3
 play,4,0,blowm001,22,CSBF*BC,K
@@ -581,7 +581,7 @@ play,5,1,penat001,01,SX,53/G56!
 play,6,0,marte001,12,CCBX,8/L8LD
 play,6,0,martt002,12,BCFX,7/F7D-
 play,6,0,buhnj001,00,X,S8/L78M
-play,6,0,blowm001,12,CCFBFX,FC5/G5.1X2(54)
+play,6,0,blowm001,12,CCFBFX,54(1)/G5/FO
 play,6,1,kirbw001,11,BFX,S7/G56
 play,6,1,loftk001,31,BB>F11BX,8/L8RD+
 play,6,1,vizqo001,00,,NP
@@ -684,7 +684,7 @@ start,ramim002,"Manny Ramirez",1,7,9
 start,sorrp001,"Paul Sorrento",1,8,3
 start,aloms001,"Sandy Alomar Jr.",1,9,2
 start,herso001,"Orel Hershiser",1,0,1
-com,"$wind chill in 20s"
+com,"$Wind chill in 20s"
 play,1,0,coraj001,12,...BCFX,43/G4
 play,1,0,marte001,32,BCBFBX,8/L78M
 play,1,0,grifk002,32,BSBBSB,W
@@ -695,7 +695,7 @@ play,1,1,baerc001,11,BC1X,S7/L78M.1-2
 play,1,1,bellj002,12,CCFBS,K+SB3
 play,1,1,murre001,10,BX,S9/L89S.3-H(UR);1-2
 play,1,1,thomj002,31,CBBBB,W.2-3;1-2
-play,1,1,ramim002,02,SCX,FC5/G56.1X2(54)
+play,1,1,ramim002,02,SCX,54(1)/G56/FO
 play,2,0,martt002,21,BCBX,7/L7LM
 play,2,0,strad002,12,CBFS,K
 play,2,0,diaza001,21,BFBX,D7/L7D
@@ -748,7 +748,7 @@ play,7,0,wilsd001,00,.,NP
 sub,tavaj001,"Julian Tavarez",1,0,1
 play,7,0,wilsd001,11,..BCX,E3/G34
 play,7,0,coraj001,00,X,FC3/G3S+.1-2(E3/TH)
-play,7,0,marte001,20,BBX,FC5/G56S.2-3;1X2(54)
+play,7,0,marte001,20,BBX,54(1)/G56S/FO.2-3
 play,7,0,grifk002,00,,NP
 sub,assep001,"Paul Assenmacher",1,0,1
 play,7,0,grifk002,12,.BSCS,K
@@ -773,6 +773,7 @@ play,8,0,diaza001,10,B1B,SB2
 play,8,0,diaza001,31,B1B.BCB,W
 play,8,0,sojol001,32,BFFFFFBB>X,6/L6M+/LDP.1X1(6)
 com,"$Alex Diaz had passed 2B when Omar Vizquel tagged him"
+com,"to complete double-play"
 play,8,1,perrh001,00,,NP
 sub,blowm001,"Mike Blowers",0,6,5
 play,8,1,perrh001,32,.FFBFBBFFS,K
@@ -854,11 +855,11 @@ play,1,0,loftk001,12,CSBFC,K
 play,1,0,vizqo001,21,BCBX,53/G5L!
 play,1,0,baerc001,22,BSBFX,S7/G56
 play,1,0,bellj002,01,CX,S9/G34.1-2
-play,1,0,murre001,00,X,FC6/G6.1X2(64)
+play,1,0,murre001,00,X,64(1)/G6/FO
 play,1,1,colev001,00,X,43/G4
 play,1,1,coraj001,02,CCX,23/G23-
 play,1,1,grifk002,30,BBBB,W
-play,1,1,marte001,02,CSX,FC5/G56.1X2(54)
+play,1,1,marte001,02,CSX,54(1)/G56/FO
 play,2,0,ramim002,22,BFBFFFX,9/F89S
 play,2,0,perrh001,12,BFFFS,K
 play,2,0,espia001,12,BSFFFS,K
@@ -878,7 +879,7 @@ play,4,0,murre001,12,SFFBFX,8/F8LM+
 play,4,0,ramim002,00,X,53/G5
 play,4,1,grifk002,01,CX,8/F8LS
 play,4,1,marte001,10,BX,S8/L8LS
-play,4,1,martt002,22,C1FBBX,FC4/G4.1X2(46)
+play,4,1,martt002,22,C1FBBX,46(1)/G4/FO
 play,4,1,buhnj001,10,BX,4/P4D
 play,5,0,perrh001,11,BCX,4/L4+!
 play,5,0,espia001,00,X,E4/TH/G34D.B-2
@@ -906,7 +907,7 @@ play,7,1,buhnj001,11,CBX,7/F7LM
 play,7,1,blowm001,22,BTBFFX,13/G13S-
 play,7,1,sojol001,02,CCC,K
 com,"ej,sojol001,P,cobld901,Called third strike"
-com,"Luis Sojo ejected by HP umpire Drew Coble"
+com,"$Luis Sojo ejected by HP umpire Drew Coble"
 play,8,0,penat001,00,.,NP
 sub,fermf001,"Felix Fermin",1,8,6
 play,8,0,penat001,00,..X,D9/L89XD

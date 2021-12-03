@@ -14,17 +14,17 @@ info,ump2b,rungp901
 info,ump3b,reedr901
 info,umplf,grege901
 info,umprf,mcclt901
-info,scorer,"TSN Guide"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"TSN Guide,601"
+info,translator,"DWV/Townsend"
+info,inputter,"DWV/Townsend"
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,windspeed,0
+info,fieldcond,dry
+info,precip,none
+info,sky,dome
 info,timeofgame,148
 info,attendance,45774
 info,wp,clemr001
@@ -51,146 +51,157 @@ start,smito001,"Ozzie Smith",1,8,6
 start,goodd001,"Dwight Gooden",1,9,1
 com,"$Managers: Dick Howser (AL Kansas City), Whitey Herzog (NL St. Louis);"
 com,"MVP: Roger Clemens (Boston)"
-play,1,0,puckk001,00,X,S8/G46
-play,1,0,hendr001,00,X,46(1)/FO
-play,1,0,boggw001,??,,BK.1-2
+play,1,0,puckk001,00,X,S8/G6M
+play,1,0,hendr001,00,X,46(1)/FO/G4M
+play,1,0,boggw001,11,11BF.,BK.1-2
 com,"$Dwight Gooden slipped while trying a pickoff at 1B"
-play,1,0,boggw001,??,,7/F7LD
-play,1,0,parrl001,??,,6
-play,1,1,gwynt001,??,,7/L78
-play,1,1,sandr001,??,,K/C
-play,1,1,hernk001,??,,31
-play,2,0,joynw001,??,,6/P7S
-play,2,0,ripkc001,??,,63
-play,2,0,winfd001,??,,D9/L9LDW
-play,2,0,whitl001,02,KKX,HR/9.2-H
-play,2,0,clemr001,??,,K/C
-play,2,1,cartg001,??,,8
-play,2,1,strad001,??,,K
-play,2,1,schmm001,??,,8
-play,3,0,puckk001,??,,9
-play,3,0,hendr001,??,,K
-play,3,0,boggw001,??,,E4/G
-play,3,0,parrl001,??,,8
-play,3,1,murpd001,??,,63/G56D
-play,3,1,smito001,??,,43
-play,3,1,goodd001,??,,NP
+play,1,0,boggw001,32,11BF.BC>FF2BX,7/F7LD
+play,1,0,parrl001,11,CBX,6/P6MS
+play,1,1,gwynt001,22,BCBSX,7/L78
+play,1,1,sandr001,02,CFC,K/C
+play,1,1,hernk001,02,CSFFX,31/G34
+play,2,0,joynw001,32,BCBFBX,6/P6D
+play,2,0,ripkc001,12,BCFFX,63/G6
+play,2,0,winfd001,12,BFFX,D9/L9LD
+com,"Short-hopped RF wall"
+play,2,0,whitl001,02,FFX,HR/F9D.2-H
+com,"Into RF stands above the scoreboard"
+play,2,0,clemr001,12,FBCC,K/C
+play,2,1,cartg001,01,FX,8/F89S
+play,2,1,strad001,12,CFBS,K
+play,2,1,schmm001,01,SX,8/F8XD
+play,3,0,puckk001,32,KFBFBBX,9/L9S
+play,3,0,hendr001,12,CBFS,K
+play,3,0,boggw001,31,BBCBX,E4/G4M
+com,"Sandberg knocked it down but threw late"
+play,3,0,parrl001,00,X,8/F8D
+play,3,1,murpd001,00,X,63/G56
+com,"Ripken: backhanded stop"
+play,3,1,smito001,10,BX,43/G4M
+play,3,1,goodd001,00,,NP
 sub,bassk001,"Kevin Bass",1,9,11
-play,3,1,bassk001,??,,43
-play,4,0,joynw001,??,,NP
+play,3,1,bassk001,00,X,43/G4
+play,4,0,joynw001,00,,NP
 sub,valef001,"Fernando Valenzuela",1,9,1
-play,4,0,joynw001,??,,NP
+play,4,0,joynw001,00,,NP
 sub,mattd001,"Don Mattingly",0,5,11
-play,4,0,mattd001,??,,K
-play,4,0,ripkc001,??,,K/C
-play,4,0,winfd001,??,,NP
+play,4,0,mattd001,22,CBBFS,K
+play,4,0,ripkc001,32,CBBSBC,K/C
+play,4,0,winfd001,00,,NP
 sub,barfj001,"Jesse Barfield",0,7,11
-play,4,0,barfj001,??,,K/C
-play,4,1,gwynt001,??,,NP
+play,4,0,barfj001,12,CBFC,K/C
+play,4,1,gwynt001,00,,NP
 sub,mattd001,"Don Mattingly",0,5,3
-play,4,1,gwynt001,??,,NP
+play,4,1,gwynt001,00,,NP
 sub,barfj001,"Jesse Barfield",0,7,9
-play,4,1,gwynt001,??,,NP
+play,4,1,gwynt001,00,,NP
 sub,higut001,"Teddy Higuera",0,9,1
-play,4,1,gwynt001,??,,K/C
-play,4,1,sandr001,??,,7/F7S
-play,4,1,hernk001,??,,8
-play,5,0,whitl001,??,,K/C
-play,5,0,higut001,??,,K
+play,4,1,gwynt001,32,BFBFBC,K/C
+play,4,1,sandr001,11,CBX,7/F78S
+play,4,1,hernk001,00,X,8/F8XD
+play,5,0,whitl001,12,CBSC,K/C
+play,5,0,higut001,02,FFS,K
 com,"$Fernando Valenzuela struck out 5 consecutive batters"
 com,"tying Carl Hubbell's record"
-play,5,0,puckk001,??,,63
-play,5,1,cartg001,??,,53
-play,5,1,strad001,??,,S9/L
-play,5,1,schmm001,??,,W.1-2
-play,5,1,murpd001,??,,8
-play,5,1,smito001,??,,NP
+play,5,0,puckk001,00,X,63/G6
+play,5,1,cartg001,11,BCX,53/G5
+play,5,1,strad001,10,BX,S9/L9
+play,5,1,schmm001,31,BSBBB,W.1-2
+play,5,1,murpd001,01,CX,8/F78D
+play,5,1,smito001,00,,NP
 sub,brooh001,"Hubie Brooks",1,8,11
-play,5,1,brooh001,??,,43
-play,6,0,hendr001,??,,NP
+play,5,1,brooh001,22,BCFBX,43/G4
+play,6,0,hendr001,00,,NP
 sub,brooh001,"Hubie Brooks",1,8,6
-play,6,0,hendr001,??,,NP
+play,6,0,hendr001,00,,NP
 sub,parkd001,"Dave Parker",1,5,9
-play,6,0,hendr001,??,,NP
+play,6,0,hendr001,00,,NP
 sub,browc002,"Chris Brown",1,6,5
-play,6,0,hendr001,??,,6/P5D
-play,6,0,boggw001,??,,S8/P8S
-play,6,0,parrl001,??,,8
-play,6,0,mattd001,??,,43
-play,6,1,valef001,??,,NP
+play,6,0,hendr001,22,BFCBX,6/P5D
+play,6,0,boggw001,01,CX,S8/L6D
+play,6,0,parrl001,10,BX,8/F8
+play,6,0,mattd001,12,FB*SX,43/G4
+play,6,1,valef001,00,,NP
 sub,mosel001,"Lloyd Moseby",0,2,7
-play,6,1,valef001,??,,NP
+play,6,1,valef001,00,,NP
 sub,raint001,"Tim Raines",1,9,11
-play,6,1,raint001,??,,8
-play,6,1,gwynt001,??,,3/G
-play,6,1,sandr001,??,,K
-play,7,0,ripkc001,??,,NP
+play,6,1,raint001,01,FX,8/F8
+play,6,1,gwynt001,12,FFBX,3/G3L
+play,6,1,sandr001,12,BFSFS,K
+play,7,0,ripkc001,00,,NP
 sub,raint001,"Tim Raines",1,9,7
-play,7,0,ripkc001,??,,NP
+play,7,0,ripkc001,00,,NP
 sub,scotm001,"Mike Scott",1,2,1
-play,7,0,ripkc001,??,,NP
+play,7,0,ripkc001,00,,NP
 sub,sax-s001,"Steve Sax",1,1,4
-play,7,0,ripkc001,??,,NP
+play,7,0,ripkc001,00,,NP
 sub,davic001,"Chili Davis",1,7,8
-play,7,0,ripkc001,??,,K
-play,7,0,barfj001,??,,K
-play,7,0,whitl001,??,,NP
+play,7,0,ripkc001,12,FBSS,K
+play,7,0,barfj001,12,BSCS,K
+play,7,0,whitl001,00,,NP
 sub,whitf001,"Frank White",0,8,11
-play,7,0,whitf001,02,KKX,HR/78
-play,7,0,higut001,??,,NP
+play,7,0,whitf001,02,CTX,HR/F78XD
+com,"Over LCF wall"
+play,7,0,higut001,00,,NP
 sub,bainh001,"Harold Baines",0,9,11
-play,7,0,bainh001,??,,43
-play,7,1,hernk001,??,,NP
+play,7,0,bainh001,01,FX,43/G34
+play,7,1,hernk001,00,,NP
 sub,whitf001,"Frank White",0,8,4
-play,7,1,hernk001,??,,NP
+play,7,1,hernk001,00,,NP
 sub,hougc001,"Charlie Hough",0,9,1
-play,7,1,hernk001,??,,9
-play,7,1,cartg001,??,,9
-play,7,1,parkd001,??,,3/G
-play,8,0,puckk001,??,,NP
+play,7,1,hernk001,01,CX,9/F9S
+play,7,1,cartg001,21,BBFX,9/F9
+play,7,1,parkd001,01,FX,3/G3
+play,8,0,puckk001,00,,NP
 sub,ferns001,"Sid Fernandez",1,2,1
-play,8,0,puckk001,??,,NP
+play,8,0,puckk001,00,,NP
 sub,davij001,"Jody Davis",1,4,2
-play,8,0,puckk001,??,,W
-play,8,0,mosel001,??,,W.1-2
-play,8,0,boggw001,??,,NP
+play,8,0,puckk001,32,BFSBBB,W
+play,8,0,mosel001,30,BBBB,W.1-2
+play,8,0,boggw001,00,,NP
 sub,jacob001,"Brook Jacoby",0,3,11
-play,8,0,jacob001,??,,K
-play,8,0,parrl001,??,,NP
+play,8,0,jacob001,02,LFS,K
+play,8,0,parrl001,00,,NP
 sub,ricej001,"Jim Rice",0,4,11
-play,8,0,ricej001,??,,K+SB3;SB2
-play,8,0,mattd001,??,,K
-play,8,1,browc002,??,,NP
+play,8,0,ricej001,12,CBS>S,K+SB3;SB2
+com,"Davis' throw to 3B was low and got past Brown"
+play,8,0,mattd001,22,BFFBS,K
+play,8,1,browc002,00,,NP
 sub,jacob001,"Brook Jacoby",0,3,5
-play,8,1,browc002,??,,NP
+play,8,1,browc002,00,,NP
 sub,gedmr001,"Rich Gedman",0,4,2
-play,8,1,browc002,??,,D/78XDW
-play,8,1,davic001,??,,K23+WP.2-3
-play,8,1,brooh001,??,,K+PB.3-H(NR);B-1
-play,8,1,raint001,??,,BK.1-2
-play,8,1,raint001,??,,K
-play,8,1,sax-s001,??,,S/L78.2-H(UR)
-play,8,1,ferns001,??,,NP
+play,8,1,browc002,11,FBX,D7/F7D
+com,"Over Moseby and short-hopped LF wall"
+play,8,1,davic001,12,BFFS,K23+WP.2-3
+com,"Off-balance low throw by Gedman scooped by Mattingly"
+play,8,1,brooh001,02,CFFFS,K+PB.3-H(NR);B-1
+com,"Gedman's throw to Hough at home was late"
+play,8,1,raint001,02,CF11>F,BK.1-2
+com,"Hough did not come to a full stop from the stretch"
+play,8,1,raint001,32,CF11>F.BBBS,K
+play,8,1,sax-s001,22,BBCFX,S7/L7S.2-H(UR)
+play,8,1,ferns001,00,,NP
 sub,righd001,"Dave Righetti",0,9,1
-play,8,1,ferns001,??,,NP
+play,8,1,ferns001,00,,NP
 sub,davig001,"Glenn Davis",1,2,11
-play,8,1,davig001,??,,SB2
-play,8,1,davig001,??,,5/FL
-play,9,0,ripkc001,??,,NP
+play,8,1,davig001,00,11>B,SB2
+play,8,1,davig001,21,11>B.FBX,5/P5F/FL
+play,9,0,ripkc001,00,,NP
 sub,krukm001,"Mike Krukow",1,2,1
-play,9,0,ripkc001,??,,13
-play,9,0,barfj001,??,,5
-play,9,0,whitf001,??,,7
-play,9,1,hernk001,??,,NP
+play,9,0,ripkc001,20,BBX,13/G1
+play,9,0,barfj001,20,BBX,5/P5L
+play,9,0,whitf001,01,SX,7/F7S
+play,9,1,hernk001,00,,NP
 sub,fernt001,"Tony Fernandez",0,6,6
-play,9,1,hernk001,??,,53/G5D
-play,9,1,davij001,??,,S8/L
-play,9,1,parkd001,??,,NP
+play,9,1,hernk001,00,X,53/G5L
+play,9,1,davij001,10,BX,S8/L8S
+play,9,1,parkd001,00,,NP
 sub,penat001,"Tony Pena",1,4,12
-play,9,1,parkd001,??,,S9/G34.1-3
-play,9,1,browc002,??,,NP
+play,9,1,parkd001,01,FX,S9/G34.1-3
+play,9,1,browc002,00,,NP
 sub,aased001,"Don Aase",0,9,1
-play,9,1,browc002,??,,4(1)3/GDP
+play,9,1,browc002,10,BX,4(1)3/GDP/G4M
+com,"Check swing"
 data,er,clemr001,0
 data,er,higut001,0
 data,er,hougc001,1

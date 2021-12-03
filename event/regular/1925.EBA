@@ -728,7 +728,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,122
-info,attendance,12000
+info,attendance,0
 info,wp,grays102
 info,lp,fullc102
 info,save,
@@ -1475,7 +1475,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,85
-info,attendance,4000
+info,attendance,0
 info,wp,quinj102
 info,lp,walbr101
 info,save,
@@ -2553,7 +2553,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,102
-info,attendance,5000
+info,attendance,0
 info,wp,jones104
 info,lp,fuhro102
 info,save,
@@ -2657,7 +2657,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,115
-info,attendance,10000
+info,attendance,0
 info,wp,mogrg101
 info,lp,grovl101
 info,save,
@@ -2870,7 +2870,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,141
-info,attendance,11000
+info,attendance,0
 info,wp,walbr101
 info,lp,wingt101
 info,save,
@@ -3307,7 +3307,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,126
-info,attendance,6500
+info,attendance,0
 info,wp,grays102
 info,lp,kallr101
 info,save,
@@ -3734,7 +3734,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,115
-info,attendance,3000
+info,attendance,0
 info,wp,romme101
 info,lp,fullc102
 info,save,
@@ -3813,8 +3813,8 @@ event,dpline,1,wambb101,todtp101
 event,dpline,1,fullc102,rogeb102,todtp101
 event,sbline,0,simma101,,piciv101,-1
 event,sbline,1,protd101,,cochm101,-1
-event,hpline,1,,hales101
-event,hpline,1,,cochm101
+event,hpline,1,ferga101,hales101
+event,hpline,1,fullc102,cochm101
 line,0,2,0,4,0,0,0,0,0,1
 line,1,0,0,4,2,0,0,0,0,0
 event,hrline,0,hales101,ferga101,1,1,-1
@@ -4475,6 +4475,7 @@ info,wp,smits102
 info,lp,thurs101
 info,save,
 info,gwrbi,
+com,"Forfeit=V"
 start,jamic101,"Charlie Jamieson",0,1,7
 start,spurf101,"Freddy Spurgeon",0,2,5
 start,speat101,"Tris Speaker",0,3,8
@@ -4571,7 +4572,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,128
-info,attendance,36000
+info,attendance,38000
 info,wp,bushj102
 info,lp,collr104
 info,save,
@@ -4677,7 +4678,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,117
-info,attendance,25000
+info,attendance,0
 info,wp,jones104
 info,lp,ruetd101
 info,save,
@@ -4776,7 +4777,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,94
-info,attendance,6000
+info,attendance,0
 info,wp,marbf101
 info,lp,wingt101
 info,save,
@@ -4803,8 +4804,8 @@ stat,bline,leibn101,0,1,1,4,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,harrb106,0,2,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,rices101,0,3,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,goslg101,0,4,1,4,1,3,0,0,1,1,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,shirm101,0,5,1,3,0,1,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
-stat,bline,judgj101,0,5,2,0,1,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,shirm101,0,5,1,3,0,1,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
+stat,bline,judgj101,0,5,2,0,1,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,blueo102,0,6,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,peckr101,0,7,1,4,0,1,1,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,ruelm101,0,8,1,3,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
@@ -4838,9 +4839,9 @@ stat,dline,flagi101,1,1,8,27,4,0,0,0,0,0
 stat,dline,protd101,1,1,5,27,0,1,1,0,0,0
 stat,dline,booni101,1,1,9,27,2,0,0,0,0,0
 stat,dline,vacht101,1,1,7,27,0,0,0,0,0,0
-stat,dline,todtp101,1,1,3,27,11,2,0,2,0,0
+stat,dline,todtp101,1,1,3,27,11,2,0,3,0,0
 stat,dline,wambb101,1,1,4,27,4,4,0,2,0,0
-stat,dline,grost101,1,1,6,27,2,5,0,2,0,0
+stat,dline,grost101,1,1,6,27,2,5,0,3,0,0
 stat,dline,piciv101,1,1,2,27,3,0,0,0,0,0
 stat,dline,wingt101,1,1,1,27,0,3,1,0,0,0
 stat,pline,mogrg101,0,1,21,-1,26,3,-1,-1,0,1,1,1,-1,1,1,0,0,0,0
@@ -4848,12 +4849,13 @@ stat,pline,marbf101,0,2,6,-1,8,1,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 stat,pline,wingt101,1,1,27,-1,35,9,1,0,1,2,2,2,-1,1,0,0,0,1,0
 event,dpline,1,grost101,wambb101,todtp101
 event,dpline,1,grost101,wambb101,todtp101
+event,dpline,1,todtp101,grost101,todtp101
 event,hpline,0,mogrg101,vacht101
 line,0,0,0,0,0,0,0,0,0,2
 line,1,0,0,0,0,0,1,0,0,0
 event,hrline,0,goslg101,wingt101,9,0,-1
 stat,tline,0,6,0,0,0
-stat,tline,1,6,0,2,0
+stat,tline,1,6,0,3,0
 id,CHA192504270
 version,3
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -5223,7 +5225,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,91
-info,attendance,5000
+info,attendance,0
 info,wp,johnw102
 info,lp,ferga101
 info,save,
@@ -6453,7 +6455,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,130
-info,attendance,15000
+info,attendance,0
 info,wp,harrs101
 info,lp,coves101
 info,save,
@@ -6560,7 +6562,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,90
-info,attendance,30000
+info,attendance,0
 info,wp,winge102
 info,lp,robec101
 info,save,
@@ -6661,7 +6663,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,145
-info,attendance,15000
+info,attendance,0
 info,wp,
 info,lp,
 info,save,
@@ -6872,7 +6874,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,95
-info,attendance,20000
+info,attendance,0
 info,wp,ruetd101
 info,lp,fullc102
 info,save,
@@ -7645,7 +7647,7 @@ stat,pline,kallr101,0,1,21,-1,30,8,-1,-1,0,4,4,2,-1,2,0,0,0,0,0
 stat,pline,ferga101,0,2,6,-1,8,1,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
 stat,pline,mogrg101,1,1,4,-1,10,4,-1,-1,0,6,5,2,-1,1,0,1,0,1,0
 stat,pline,gregv101,1,2,5,-1,7,1,-1,-1,0,0,0,2,-1,1,0,0,0,0,0
-stat,pline,kellh101,1,3,6,-1,9,4,-1,-1,0,3,3,1,-1,1,0,1,0,0,0
+stat,pline,kellh101,1,3,6,-1,10,4,-1,-1,0,3,3,1,-1,1,0,1,0,0,0
 stat,pline,ogdec101,1,4,6,-1,7,2,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,marbf101,1,5,6,-1,6,0,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
 event,dpline,1,blueo102,harrb106
@@ -7683,7 +7685,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,136
-info,attendance,4000
+info,attendance,0
 info,wp,romme101
 info,lp,jones104
 info,save,
@@ -9202,7 +9204,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,133
-info,attendance,25000
+info,attendance,25
 info,wp,stonl101
 info,lp,kallr101
 info,save,
@@ -9313,7 +9315,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,130
-info,attendance,18000
+info,attendance,0
 info,wp,pennh101
 info,lp,winge102
 info,save,
@@ -10276,7 +10278,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,96
-info,attendance,6000
+info,attendance,0
 info,wp,robec101
 info,lp,hoytw101
 info,save,
@@ -11115,7 +11117,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,133
-info,attendance,10000
+info,attendance,0
 info,wp,jones104
 info,lp,cvenm101
 info,save,hoytw101
@@ -11382,7 +11384,7 @@ stat,bline,hales101,0,9,3,1,1,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,grovl101,0,9,4,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,tavej101,1,1,1,4,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,neunj101,1,1,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,burkl101,1,1,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,woodl101,1,1,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,orouf101,1,2,1,5,1,2,0,0,1,1,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,cobbt101,1,3,1,3,2,3,0,0,0,0,0,0,0,2,-1,0,0,0,-1,0
 stat,bline,manuh101,1,4,1,2,1,0,0,0,0,1,1,0,0,0,-1,1,0,0,-1,0
@@ -11391,7 +11393,7 @@ stat,bline,heilh101,1,5,1,5,0,0,0,0,0,0,0,0,0,0,-1,2,0,0,-1,0
 stat,bline,bluel101,1,6,1,4,1,0,0,0,0,1,0,0,0,1,-1,2,0,0,-1,0
 stat,bline,joneb103,1,7,1,3,1,1,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,bassj102,1,8,1,3,0,1,1,0,0,3,0,0,0,1,-1,0,0,0,-1,0
-stat,bline,woodl101,1,8,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,burkl101,1,8,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,leond102,1,9,1,3,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,stonl101,1,9,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,daush101,1,9,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
@@ -11400,6 +11402,7 @@ stat,bline,welle101,1,9,5,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,hales101,6,0,1,1,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,neunj101,8,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,hanef101,8,1,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
+stat,prline,burkl101,8,1,0,0,0
 stat,dline,bishm102,0,1,4,27,1,2,2,0,0,0
 stat,dline,dykej101,0,1,5,27,2,1,0,0,0,0
 stat,dline,welcf101,0,1,9,27,0,0,0,0,0,0
@@ -12112,7 +12115,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,111
-info,attendance,18000
+info,attendance,18
 info,wp,collr104
 info,lp,hoytw101
 info,save,
@@ -12783,7 +12786,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,106
-info,attendance,15000
+info,attendance,0
 info,wp,lyont102
 info,lp,romme101
 info,save,
@@ -13238,7 +13241,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,140
-info,attendance,5000
+info,attendance,0
 info,wp,robec101
 info,lp,wingt101
 info,save,conns101
@@ -13285,7 +13288,7 @@ stat,bline,kammw101,1,7,1,3,2,2,1,0,0,3,0,0,0,2,-1,0,0,0,-1,0
 stat,bline,grabj101,1,8,1,3,1,1,0,0,0,3,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,schar103,1,8,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,robec101,1,9,1,2,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,mackf101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,mackf101,1,9,2,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
 stat,bline,conns101,1,9,3,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,flagi101,7,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,hevij102,9,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
@@ -13351,7 +13354,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,149
-info,attendance,7000
+info,attendance,0
 info,wp,buckg101
 info,lp,hoytw101
 info,save,
@@ -13748,8 +13751,8 @@ stat,bline,schar103,1,8,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,harrs102,1,8,4,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,mackf101,1,8,5,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,faber101,1,9,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,cvenm101,1,9,2,2,2,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
-stat,bline,blant101,1,9,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,cvenm101,1,9,2,1,2,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
+stat,bline,blant101,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,mangl101,1,9,4,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,croub101,1,9,5,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,vacht101,7,0,0,1,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
@@ -14437,7 +14440,7 @@ stat,bline,kellh101,0,9,5,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,hanef101,1,1,1,3,1,0,0,0,0,0,1,0,1,1,-1,1,0,0,-1,0
 stat,bline,orouf101,1,2,1,3,1,0,0,0,0,0,1,0,0,1,-1,0,0,0,-1,0
 stat,bline,fothb101,1,3,1,2,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,winga101,1,3,2,3,3,3,1,1,0,3,0,0,0,0,-1,0,1,0,-1,0
+stat,bline,winga101,1,3,2,3,3,3,1,1,0,2,0,0,0,0,-1,0,1,0,-1,0
 stat,bline,cobbt101,1,4,1,4,3,2,1,1,0,4,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,heilh101,1,5,1,4,2,3,1,0,0,4,0,0,0,1,-1,1,0,1,-1,0
 stat,bline,bluel101,1,6,1,4,2,1,0,0,0,0,1,0,0,0,-1,0,1,0,-1,0
@@ -14623,7 +14626,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,116
-info,attendance,13000
+info,attendance,9
 info,wp,daush101
 info,lp,russa101
 info,save,
@@ -15345,7 +15348,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,120
-info,attendance,13000
+info,attendance,0
 info,wp,coves101
 info,lp,grovl101
 info,save,
@@ -15576,7 +15579,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,122
-info,attendance,6000
+info,attendance,0
 info,wp,ferga101
 info,lp,ruffr101
 info,save,hoytw101
@@ -16908,7 +16911,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,108
-info,attendance,5000
+info,attendance,0
 info,wp,mogrg101
 info,lp,zahnp101
 info,save,
@@ -17711,6 +17714,7 @@ stat,bline,harrj103,1,3,1,3,0,1,0,1,0,1,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,mcnee101,1,3,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,marbf101,1,3,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,russa101,1,3,4,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,ruetd101,1,3,5,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,goslg101,1,4,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,judgj101,1,5,1,3,0,1,0,0,0,1,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,blueo102,1,6,1,3,0,0,0,0,0,0,0,0,1,0,-1,0,1,0,-1,0
@@ -17719,6 +17723,7 @@ stat,bline,ruelm101,1,8,1,4,2,2,0,0,0,0,0,0,0,0,-1,0,1,0,-1,0
 stat,bline,zacht101,1,9,1,0,0,0,0,0,0,0,1,0,0,1,-1,0,0,0,-1,0
 stat,bline,leibn101,1,9,2,1,1,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,prline,mcnee101,7,1,0,0,0
+stat,phline,ruetd101,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,flagi101,0,1,8,27,5,0,0,0,0,0
 stat,dline,wambb101,0,1,4,27,2,3,1,1,0,0
 stat,dline,booni101,0,1,9,27,0,0,0,0,0,0
@@ -17892,7 +17897,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,121
-info,attendance,15000
+info,attendance,0
 info,wp,winge102
 info,lp,thurs101
 info,save,
@@ -17963,9 +17968,9 @@ stat,dline,robec101,1,1,1,6,0,1,1,0,0,0
 stat,dline,thurs101,1,1,1,0,0,0,0,0,0,0
 stat,dline,blant101,1,1,1,21,0,1,0,0,0,0
 stat,pline,winge102,0,1,27,-1,45,19,5,3,0,11,10,1,-1,0,0,0,0,1,0
-stat,pline,robec101,1,1,6,-1,18,10,-1,-1,1,7,4,1,-1,0,0,0,0,3,0
+stat,pline,robec101,1,1,6,-1,18,10,-1,-1,1,7,4,1,-1,0,0,0,0,2,0
 stat,pline,thurs101,1,2,0,-1,4,4,-1,-1,1,4,4,0,-1,0,0,0,0,0,0
-stat,pline,blant101,1,3,21,-1,30,9,-1,-1,2,4,4,0,-1,4,0,0,0,2,0
+stat,pline,blant101,1,3,21,-1,30,9,-1,-1,2,4,4,0,-1,4,0,0,0,3,0
 event,dpline,0,gerbw101,robeg101
 event,sbline,1,davii102,winge102,dixol101,-1
 line,0,4,0,7,0,1,0,2,0,1
@@ -18424,7 +18429,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,115
-info,attendance,3000
+info,attendance,0
 info,wp,vange101
 info,lp,karrb101
 info,save,
@@ -19089,7 +19094,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,120
-info,attendance,6000
+info,attendance,0
 info,wp,ferga101
 info,lp,russa101
 info,save,
@@ -19530,7 +19535,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,180
-info,attendance,10000
+info,attendance,0
 info,wp,jones104
 info,lp,zacht101
 info,save,
@@ -19664,7 +19669,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,118
-info,attendance,3000
+info,attendance,0
 info,wp,harrs101
 info,lp,quinj102
 info,save,
@@ -19897,7 +19902,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,120
-info,attendance,10000
+info,attendance,0
 info,wp,ruetd101
 info,lp,pennh101
 info,save,
@@ -20015,7 +20020,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,125
-info,attendance,2000
+info,attendance,0
 info,wp,ruffr101
 info,lp,karrb101
 info,save,
@@ -20225,7 +20230,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,155
-info,attendance,15000
+info,attendance,0
 info,wp,grovl101
 info,lp,doylj105
 info,save,baums101
@@ -21332,7 +21337,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,140
-info,attendance,10000
+info,attendance,0
 info,wp,hollk101
 info,lp,romme101
 info,save,
@@ -21662,7 +21667,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,132
-info,attendance,3500
+info,attendance,0
 info,wp,winge102
 info,lp,ruffr101
 info,save,
@@ -21706,14 +21711,14 @@ stat,bline,connb102,1,7,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,hevij102,1,8,1,4,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,ruffr101,1,9,1,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,franr101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,lucej101,1,9,3,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,wingt101,1,9,4,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,lucej101,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,wingt101,1,9,4,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,piciv101,-1,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,dline,robeg101,0,1,5,27,1,3,0,2,0,0
+stat,dline,robeg101,0,1,5,27,1,3,0,3,0,0
 stat,dline,riceh101,0,1,9,27,3,0,0,0,0,0
-stat,dline,sislg101,0,1,3,27,7,1,0,2,0,0
+stat,dline,sislg101,0,1,3,27,7,1,0,3,0,0
 stat,dline,willk101,0,1,7,27,4,0,0,0,0,0
-stat,dline,mcmam101,0,1,4,27,4,3,1,2,0,0
+stat,dline,mcmam101,0,1,4,27,4,3,1,3,0,0
 stat,dline,jacow101,0,1,8,27,5,0,1,0,0,0
 stat,dline,dixol101,0,1,2,27,1,0,0,0,0,0
 stat,dline,lamob101,0,1,6,27,2,2,0,0,0,0
@@ -21738,11 +21743,12 @@ stat,pline,lucej101,1,3,6,-1,11,1,-1,-1,0,3,1,4,-1,0,0,0,0,1,0
 stat,pline,wingt101,1,4,4,-1,7,2,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
 event,dpline,0,robeg101,mcmam101,sislg101
 event,dpline,0,robeg101,mcmam101,sislg101
+event,dpline,0,robeg101,mcmam101,sislg101
 event,dpline,1,lee-d101,wambb101,todtp101
 line,0,3,0,0,6,0,2,0,3,1
 line,1,2,0,0,0,4,0,1,1,0
 event,hrline,0,jacow101,ruffr101,4,0,-1
-stat,tline,0,8,0,2,0
+stat,tline,0,8,0,3,0
 stat,tline,1,9,0,1,0
 id,NYA192506100
 version,3
@@ -22239,7 +22245,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,100
-info,attendance,7000
+info,attendance,0
 info,wp,millj109
 info,lp,pennh101
 info,save,
@@ -22454,7 +22460,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,146
-info,attendance,12000
+info,attendance,0
 info,wp,white102
 info,lp,johnw102
 info,save,
@@ -22978,7 +22984,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,118
-info,attendance,2000
+info,attendance,0
 info,wp,gastm101
 info,lp,zahnp101
 info,save,
@@ -23285,7 +23291,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,122
-info,attendance,12000
+info,attendance,0
 info,wp,ruetd101
 info,lp,hollk101
 info,save,
@@ -23539,7 +23545,7 @@ stat,bline,bengb101,1,8,1,2,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,schaw101,1,8,2,2,0,2,1,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,jones104,1,9,1,3,0,0,0,0,0,0,1,0,0,0,-1,1,0,0,-1,0
 stat,phline,manuh101,6,0,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
-stat,dline,hanef101,0,1,5,24,3,4,0,2,0,0
+stat,dline,hanef101,0,1,5,24,3,4,0,1,0,0
 stat,dline,orouf101,0,1,4,24,1,1,0,1,0,0
 stat,dline,winga101,0,1,7,24,5,0,0,0,0,0
 stat,dline,cobbt101,0,1,8,24,2,0,0,0,0,0
@@ -23562,14 +23568,13 @@ stat,dline,jones104,1,1,1,27,1,1,0,0,0,0
 stat,pline,leond102,0,1,15,-1,24,6,-1,-1,1,4,4,5,-1,1,0,0,0,1,0
 stat,pline,doylj105,0,2,9,-1,19,6,-1,-1,0,4,4,4,-1,1,0,0,0,2,0
 stat,pline,jones104,1,1,27,-1,34,5,0,1,0,3,3,3,-1,5,0,0,0,0,0
-event,dpline,0,hanef101,bassj102
-event,dpline,0,hanef101,orouf101
+event,dpline,0,hanef101,bassj102,hanef101,orouf101
 event,dpline,1,warda101,wannp101,gehrl101
 event,csline,1,meusb101,,bassj102,-1
 line,0,0,0,0,0,0,3,0,0,0
 line,1,1,0,1,0,2,1,2,1
 event,hrline,1,ruthb101,leond102,3,0,-1
-stat,tline,0,4,0,2,0
+stat,tline,0,4,0,1,0
 stat,tline,1,11,0,1,0
 id,WS1192506140
 version,3
@@ -23807,7 +23812,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,180
-info,attendance,8000
+info,attendance,0
 info,wp,glast101
 info,lp,uhleg101
 info,save,walbr101
@@ -24045,7 +24050,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,143
-info,attendance,10000
+info,attendance,0
 info,wp,white102
 info,lp,pennh101
 info,save,
@@ -24580,7 +24585,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,140
-info,attendance,6000
+info,attendance,0
 info,wp,daush101
 info,lp,shawb102
 info,save,
@@ -25090,7 +25095,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,145
-info,attendance,6000
+info,attendance,0
 info,wp,welle101
 info,lp,shocu101
 info,save,
@@ -25273,8 +25278,8 @@ event,dpline,1,scote101,harrb106,judgj101
 event,dpline,1,ruelm101,blueo102
 event,csline,0,robeg101,,ruelm101,-1
 event,csline,1,rices101,david102,regot101,-1
-event,hpline,1,,willk101
-event,hpline,1,,regot101
+event,hpline,1,ruetd101,willk101
+event,hpline,1,marbf101,regot101
 line,0,3,0,1,0,0,5,0,0,0
 line,1,0,2,0,0,0,2,0,2,0
 event,hrline,0,lamob101,marbf101,6,3,2
@@ -25306,7 +25311,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,135
-info,attendance,4000
+info,attendance,0
 info,wp,leond102
 info,lp,ehmkh101
 info,save,
@@ -26440,7 +26445,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,111
-info,attendance,3500
+info,attendance,0
 info,wp,white102
 info,lp,rossb103
 info,save,
@@ -26547,7 +26552,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,127
-info,attendance,6000
+info,attendance,0
 info,wp,lyont102
 info,lp,shawb102
 info,save,
@@ -27189,7 +27194,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,148
-info,attendance,7000
+info,attendance,0
 info,wp,jones104
 info,lp,ogdec101
 info,save,
@@ -27621,7 +27626,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,106
-info,attendance,2000
+info,attendance,0
 info,wp,coves101
 info,lp,pennh101
 info,save,
@@ -28073,7 +28078,7 @@ stat,bline,schaw101,0,6,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,warda101,0,7,1,4,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,wannp101,0,8,1,2,1,2,0,0,0,0,1,0,0,1,-1,0,0,0,-1,0
 stat,bline,hoytw101,0,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,ferga101,0,9,2,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,ferga101,0,9,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,pippw101,0,9,3,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,jones104,0,9,4,1,1,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,flagi101,1,1,1,5,2,1,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0
@@ -28354,7 +28359,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,111
-info,attendance,20000
+info,attendance,0
 info,wp,robec101
 info,lp,edwaj102
 info,save,
@@ -28768,7 +28773,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,146
-info,attendance,36000
+info,attendance,0
 info,wp,david102
 info,lp,carro101
 info,save,
@@ -28846,7 +28851,7 @@ event,dpline,0,mcmam101,lamob101,sislg101
 event,dpline,0,david102,lamob101,sislg101
 event,dpline,1,heilh101,bassj102
 event,dpline,1,burkl101,tavej101,bluel101
-event,dpline,1,tavej101,orouf101,bluel101
+event,dpline,1,orouf101,tavej101,bluel101
 event,dpline,1,tavej101,orouf101,bluel101
 event,sbline,0,tobij101,,bassj102,-1
 event,sbline,0,lamob101,,bassj102,-1
@@ -29119,7 +29124,7 @@ stat,bline,orouf101,0,2,1,4,1,1,1,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,fothb101,0,3,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,winga101,0,3,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,cobbt101,0,4,1,5,2,4,3,0,0,1,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,heilh101,0,5,1,4,1,3,1,0,0,1,0,0,0,0,-1,1,0,0,-1,0
+stat,bline,heilh101,0,5,1,5,1,3,1,0,0,1,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,bluel101,0,6,1,4,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,tavej101,0,7,1,4,0,1,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,bassj102,0,8,1,2,0,1,0,0,0,0,0,0,0,2,-1,0,0,0,-1,0
@@ -29500,7 +29505,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,97
-info,attendance,3000
+info,attendance,0
 info,wp,jones104
 info,lp,ehmkh101
 info,save,
@@ -30478,7 +30483,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,115
-info,attendance,6000
+info,attendance,0
 info,wp,ruetd101
 info,lp,quinj102
 info,save,russa101
@@ -30911,7 +30916,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,96
-info,attendance,2500
+info,attendance,0
 info,wp,coves101
 info,lp,zahnp101
 info,save,
@@ -30963,7 +30968,7 @@ stat,dline,harrj103,0,1,3,27,12,0,0,4,0,0
 stat,dline,blueo102,0,1,5,27,1,3,1,0,0,0
 stat,dline,peckr101,0,1,6,27,5,6,0,3,0,0
 stat,dline,ruelm101,0,1,2,27,0,0,0,0,0,0
-stat,dline,coves101,0,1,1,27,0,3,0,1,0,0
+stat,dline,coves101,0,1,1,27,0,3,0,2,0,0
 stat,dline,flagi101,1,1,8,27,1,0,0,0,0,0
 stat,dline,protd101,1,1,5,27,2,3,0,0,0,0
 stat,dline,booni101,1,1,9,27,0,0,0,0,0,0
@@ -30978,7 +30983,7 @@ stat,pline,coves101,0,1,27,-1,33,4,1,0,0,0,0,5,-1,0,0,0,0,0,0
 stat,pline,zahnp101,1,1,24,-1,43,19,-1,-1,2,10,10,3,-1,4,0,0,0,1,0
 stat,pline,rossb103,1,2,3,-1,6,2,-1,-1,1,1,1,1,-1,2,0,0,0,0,0
 event,dpline,0,peckr101,harrb106,harrj103
-event,dpline,0,peckr101,harrj103
+event,dpline,0,coves101,peckr101,harrj103
 event,dpline,0,peckr101,harrb106,harrj103
 event,dpline,0,coves101,harrb106,harrj103
 event,dpline,1,lee-d101,rogeb102,todtp101
@@ -32016,8 +32021,8 @@ stat,pline,gastm101,1,2,13,-1,15,3,-1,-1,0,0,0,1,-1,2,1,0,0,0,0
 stat,pline,falkc102,1,3,6,-1,10,2,-1,-1,0,1,1,2,-1,1,0,0,0,0,0
 event,dpline,1,willk101,mcmam101,sislg101
 event,csline,0,hanef101,,,-1
-event,hpline,1,,orouf101
-event,hpline,1,,manuh101
+event,hpline,1,giarj101,orouf101
+event,hpline,1,gastm101,manuh101
 line,0,2,0,4,0,0,0,0,1,0
 line,1,1,0,0,0,0,0,0,0,0
 stat,tline,0,9,0,0,0
@@ -32400,7 +32405,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,127
-info,attendance,25000
+info,attendance,0
 info,wp,zacht101
 info,lp,jones104
 info,save,
@@ -33486,7 +33491,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,127
-info,attendance,20000
+info,attendance,0
 info,wp,stonl101
 info,lp,ruffr101
 info,save,
@@ -33957,7 +33962,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,88
-info,attendance,10000
+info,attendance,0
 info,wp,leond102
 info,lp,zahnp101
 info,save,
@@ -34267,7 +34272,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,114
-info,attendance,10000
+info,attendance,0
 info,wp,hollk101
 info,lp,wingt101
 info,save,doylj105
@@ -35336,7 +35341,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,118
-info,attendance,20000
+info,attendance,0
 info,wp,marbf101
 info,lp,david102
 info,save,
@@ -35859,7 +35864,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,102
-info,attendance,4000
+info,attendance,0
 info,wp,blant101
 info,lp,shocu101
 info,save,
@@ -36374,7 +36379,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,111
-info,attendance,15000
+info,attendance,0
 info,wp,romme101
 info,lp,robec101
 info,save,
@@ -36697,7 +36702,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,109
-info,attendance,10000
+info,attendance,0
 info,wp,collr104
 info,lp,ruetd101
 info,save,
@@ -37005,7 +37010,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,142
-info,attendance,4000
+info,attendance,0
 info,wp,shauj101
 info,lp,jones104
 info,save,
@@ -37432,7 +37437,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,110
-info,attendance,5000
+info,attendance,0
 info,wp,hoytw101
 info,lp,smits102
 info,save,
@@ -38281,7 +38286,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,141
-info,attendance,28000
+info,attendance,30
 info,wp,leond102
 info,lp,jones104
 info,save,doylj105
@@ -38372,8 +38377,8 @@ stat,pline,doylj105,1,3,11,-1,18,4,-1,-1,0,4,4,3,-1,1,0,0,0,1,0
 event,dpline,0,johne102,merkf101
 event,sbline,0,merkf101,,,-1
 event,sbline,1,manuh101,,,-1
-event,hpline,0,,orouf101
-event,hpline,0,,bassj102
+event,hpline,0,shawb102,orouf101
+event,hpline,0,johnh101,bassj102
 line,0,1,0,0,2,1,4,1,0,3
 line,1,4,3,1,4,0,5,0,1
 event,hrline,1,heilh101,shawb102,8,0,-1
@@ -39174,8 +39179,8 @@ stat,bline,todtp101,0,5,1,3,1,1,1,0,0,2,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,wambb101,0,6,1,4,0,1,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,lee-d101,0,7,1,3,0,1,1,0,0,0,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,biscj101,0,8,1,4,0,0,0,0,0,1,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,rossb103,0,9,1,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,fuhro102,0,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,rossb103,0,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,fuhro102,0,9,2,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,vacht101,0,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,mostj101,1,1,1,2,1,0,0,0,0,1,1,0,0,1,-1,0,1,0,-1,0
 stat,bline,davii102,1,2,1,4,1,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
@@ -40485,8 +40490,8 @@ stat,dline,bassj102,1,1,2,27,5,0,0,0,0,0
 stat,dline,stonl101,1,1,1,12,0,1,0,0,0,0
 stat,dline,doylj105,1,1,1,9,0,0,0,0,0,0
 stat,dline,hollk101,1,1,1,6,0,0,0,0,0,0
-stat,pline,faber101,0,1,1,-1,5,5,-1,-1,0,3,3,0,-1,0,0,0,0,0,0
-stat,pline,thurs101,0,2,26,-1,32,5,-1,-1,0,3,2,1,-1,0,0,0,0,0,0
+stat,pline,faber101,0,1,1,-1,6,5,-1,-1,0,3,3,0,-1,0,0,0,0,0,0
+stat,pline,thurs101,0,2,26,-1,31,5,-1,-1,0,3,2,1,-1,0,0,0,0,0,0
 stat,pline,stonl101,1,1,12,-1,23,10,-1,-1,0,7,7,2,-1,1,0,0,0,0,0
 stat,pline,doylj105,1,2,9,-1,13,5,-1,-1,0,1,1,0,-1,1,0,0,0,0,0
 stat,pline,hollk101,1,3,6,-1,8,2,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
@@ -40689,8 +40694,8 @@ stat,dline,goslg101,0,1,7,33,1,0,0,0,0,0
 stat,dline,judgj101,0,1,3,33,11,2,0,3,0,0
 stat,dline,blueo102,0,1,5,33,2,3,0,2,0,0
 stat,dline,peckr101,0,1,6,33,4,5,1,3,0,0
-stat,dline,seveh101,0,1,2,18,3,0,0,1,0,0
-stat,dline,ruelm101,0,1,2,15,3,1,0,0,0,0
+stat,dline,seveh101,0,1,2,18,3,0,0,0,0,0
+stat,dline,ruelm101,0,1,2,15,3,1,0,1,0,0
 stat,dline,ruetd101,0,1,1,30,0,5,0,0,0,0
 stat,dline,marbf101,0,1,1,3,0,0,0,0,0,0
 stat,dline,combe101,1,1,8,-1,1,0,0,0,0,0
@@ -40710,7 +40715,7 @@ stat,pline,marbf101,0,2,3,-1,5,1,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
 stat,pline,jones104,1,1,33,-1,48,13,1,0,1,4,4,3,-1,3,0,0,0,3,0
 event,dpline,0,harrb106,peckr101,judgj101
 event,dpline,0,blueo102,judgj101,peckr101
-event,dpline,0,seveh101,blueo102
+event,dpline,0,ruelm101,blueo102
 event,dpline,0,peckr101,harrb106,judgj101
 event,csline,0,peckr101,jones104,bengb101,-1
 event,csline,1,dugaj101,,,-1
@@ -41177,7 +41182,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,95
-info,attendance,16000
+info,attendance,0
 info,wp,daush101
 info,lp,romme101
 info,save,
@@ -41832,7 +41837,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,130
-info,attendance,4500
+info,attendance,0
 info,wp,johnw102
 info,lp,faber101
 info,save,
@@ -42666,7 +42671,7 @@ start,perkc101,"Cy Perkins",1,8,2
 start,quinj102,"Jack Quinn",1,9,1
 stat,bline,mostj101,0,1,1,7,1,1,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,davii102,0,2,1,7,0,1,0,0,0,1,1,0,0,0,-1,1,1,0,-1,0
-stat,bline,colle101,0,3,1,7,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,colle101,0,3,1,7,0,1,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
 stat,bline,sheee101,0,4,1,6,1,4,0,0,0,1,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,falkb101,0,5,1,6,0,1,1,0,0,1,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,barrb105,0,5,2,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
@@ -42719,7 +42724,7 @@ stat,dline,walbr101,1,1,1,24,0,4,0,0,0,0
 stat,pline,lyont102,0,1,43,-1,58,13,-1,-1,1,3,3,3,-1,2,0,0,0,0,0
 stat,pline,conns101,0,2,2,-1,1,0,-1,-1,0,0,0,0,-1,1,0,0,0,0,0
 stat,pline,quinj102,1,1,21,-1,33,11,-1,-1,0,3,3,1,-1,1,1,0,0,0,0
-stat,pline,walbr101,1,2,24,-1,33,7,-1,-1,0,2,2,4,-1,4,0,0,0,1,0
+stat,pline,walbr101,1,2,24,-1,33,7,-1,-1,0,2,2,4,-1,4,0,0,0,2,0
 event,dpline,1,quinj102,poolj101,perkc101
 event,dpline,0,kammw101,colle101,sheee101
 event,dpline,0,schar103,kammw101
@@ -42756,7 +42761,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,120
-info,attendance,13000
+info,attendance,0
 info,wp,ruetd101
 info,lp,stonl101
 info,save,
@@ -43166,7 +43171,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,112
-info,attendance,4000
+info,attendance,0
 info,wp,jones104
 info,lp,buckg101
 info,save,
@@ -43585,7 +43590,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,112
-info,attendance,5000
+info,attendance,0
 info,wp,shocu101
 info,lp,karrb101
 info,save,
@@ -43976,7 +43981,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,107
-info,attendance,12000
+info,attendance,0
 info,wp,hoytw101
 info,lp,welle101
 info,save,
@@ -44731,7 +44736,8 @@ start,cochm101,"Mickey Cochrane",1,8,2
 start,quinj102,"Jack Quinn",1,9,1
 stat,bline,jamic101,0,1,1,5,1,2,0,0,0,3,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,mcnup101,0,2,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,lee-c101,0,2,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,sewel101,0,2,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,lee-c101,0,2,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,speat101,0,3,1,5,2,2,1,0,1,1,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,sewej101,0,4,1,5,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,burng102,0,5,1,4,2,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
@@ -44753,6 +44759,7 @@ stat,bline,quinj102,1,9,1,3,0,1,0,0,0,1,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,heimf101,1,9,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,berrc103,1,9,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,prline,frenw101,9,1,1,0,0
+stat,prline,sewel101,1,0,0,0,0
 stat,phline,berrc103,9,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,jamic101,0,1,7,27,4,0,0,0,0,0
 stat,dline,mcnup101,0,1,9,-1,1,0,1,0,0,0
@@ -44905,7 +44912,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,115
-info,attendance,10000
+info,attendance,0
 info,wp,giarj101
 info,lp,coves101
 info,save,
@@ -44975,8 +44982,8 @@ stat,dline,coves101,1,1,1,15,0,1,0,0,0,0
 stat,dline,gregv101,1,1,1,9,0,1,0,0,0,0
 stat,dline,russa101,1,1,1,3,0,0,0,0,0,0
 stat,pline,giarj101,0,1,27,-1,34,4,1,0,0,0,0,6,-1,4,0,0,0,0,0
-stat,pline,coves101,1,1,15,-1,24,4,-1,-1,1,3,3,1,-1,3,0,0,0,0,0
-stat,pline,gregv101,1,2,9,-1,9,4,-1,-1,0,0,0,2,-1,2,0,0,0,0,0
+stat,pline,coves101,1,1,15,-1,20,4,-1,-1,1,3,3,1,-1,3,0,0,0,0,0
+stat,pline,gregv101,1,2,9,-1,13,4,-1,-1,0,0,0,2,-1,2,0,0,0,0,0
 stat,pline,russa101,1,3,3,-1,4,0,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 event,dpline,0,lamob101,mcmam101,sislg101
 event,dpline,0,lamob101,mcmam101,sislg101
@@ -45529,7 +45536,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,100
-info,attendance,7500
+info,attendance,0
 info,wp,zacht101
 info,lp,gastm101
 info,save,
@@ -45857,7 +45864,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,134
-info,attendance,3000
+info,attendance,0
 info,wp,welle101
 info,lp,fuhro102
 info,save,
@@ -46195,7 +46202,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,101
-info,attendance,3000
+info,attendance,0
 info,wp,ruffr101
 info,lp,collr104
 info,save,
@@ -46260,8 +46267,8 @@ stat,dline,rogeb102,1,1,4,27,2,4,0,1,0,0
 stat,dline,lee-d101,1,1,6,27,1,1,0,1,0,0
 stat,dline,piciv101,1,1,2,27,3,2,0,0,0,0
 stat,dline,ruffr101,1,1,1,27,2,3,0,1,0,0
-stat,pline,collr104,0,1,21,-1,28,4,-1,-1,0,1,1,2,-1,1,1,0,0,1,0
-stat,pline,welle101,0,2,3,-1,4,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
+stat,pline,collr104,0,1,21,-1,29,4,-1,-1,0,1,1,2,-1,1,1,0,0,1,0
+stat,pline,welle101,0,2,3,-1,3,0,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 stat,pline,ruffr101,1,1,27,-1,32,7,3,0,0,0,0,3,-1,2,0,0,0,0,0
 event,dpline,1,ruffr101,todtp101
 event,dpline,1,lee-d101,rogeb102,todtp101
@@ -46612,7 +46619,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,110
-info,attendance,3000
+info,attendance,0
 info,wp,rossb103
 info,lp,doylj105
 info,save,ehmkh101
@@ -47188,8 +47195,8 @@ stat,bline,ruelm101,1,8,1,2,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,ruetd101,1,8,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,seveh101,1,8,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,johnw102,1,9,1,2,1,2,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,gregv101,1,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,marbf101,1,9,3,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,gregv101,1,9,2,1,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,marbf101,1,9,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,ruetd101,8,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,summh101,0,1,7,26,0,0,0,0,0,0
 stat,dline,mcnup101,0,1,9,-1,3,0,0,0,0,0
@@ -50459,7 +50466,7 @@ stat,pline,daush101,1,1,12,-1,20,6,-1,-1,1,5,4,1,-1,1,0,0,0,0,0
 stat,pline,carro101,1,2,8,-1,16,3,-1,-1,0,6,5,7,-1,0,0,1,0,1,0
 stat,pline,doylj105,1,3,7,-1,19,10,-1,-1,2,9,9,2,-1,0,0,0,0,0,0
 event,dpline,1,tavej101,bluel101
-event,dpline,1,bassj102,tavej101,bluel101
+event,dpline,1,tavej101,bassj102,bluel101
 line,0,1,2,0,2,0,3,3,4,5
 line,1,0,0,0,2,0,3,0,0,0
 event,hrline,0,johnw102,daush101,2,1,-1
@@ -50492,7 +50499,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,118
-info,attendance,6000
+info,attendance,0
 info,wp,wingt101
 info,lp,winge102
 info,save,
@@ -50710,7 +50717,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,125
-info,attendance,10000
+info,attendance,0
 info,wp,speeb101
 info,lp,pennh101
 info,save,
@@ -50824,7 +50831,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,125
-info,attendance,25000
+info,attendance,0
 info,wp,ferga101
 info,lp,hollk101
 info,save,marbf101
@@ -50941,7 +50948,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,96
-info,attendance,7500
+info,attendance,0
 info,wp,giarj101
 info,lp,ehmkh101
 info,save,
@@ -51136,7 +51143,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,90
-info,attendance,4000
+info,attendance,0
 info,wp,millj109
 info,lp,hoytw101
 info,save,
@@ -51307,8 +51314,8 @@ stat,dline,veacb101,0,1,7,-1,2,0,0,0,0,0
 stat,dline,mcnee101,0,1,8,-1,0,0,0,0,0,0
 stat,dline,mcnee101,0,2,3,-1,3,0,0,0,0,0
 stat,dline,mcnee101,0,3,8,-1,0,0,0,0,0,0
-stat,dline,goslg101,0,1,8,-1,0,0,0,0,0,0
-stat,dline,goslg101,0,2,7,-1,3,0,1,0,0,0
+stat,dline,goslg101,0,1,8,-1,0,0,1,0,0,0
+stat,dline,goslg101,0,2,7,-1,3,0,0,0,0,0
 stat,dline,harrj103,0,1,3,-1,4,0,1,0,0,0
 stat,dline,leibn101,0,1,8,-1,0,0,0,0,0,0
 stat,dline,leibn101,0,2,5,-1,1,1,0,1,0,0
@@ -51370,7 +51377,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,85
-info,attendance,8000
+info,attendance,0
 info,wp,vange101
 info,lp,ruffr101
 info,save,
@@ -51473,7 +51480,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,117
-info,attendance,7000
+info,attendance,0
 info,wp,jones104
 info,lp,thurs101
 info,save,
@@ -51697,7 +51704,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,114
-info,attendance,10000
+info,attendance,0
 info,wp,stonl101
 info,lp,zahnp101
 info,save,
@@ -51775,8 +51782,8 @@ stat,dline,burkl101,1,1,4,27,3,4,0,0,0,0
 stat,dline,bassj102,1,1,2,27,5,0,0,0,0,0
 stat,dline,stonl101,1,1,1,27,0,0,0,0,0,0
 stat,pline,zahnp101,0,1,1,-1,7,5,-1,-1,0,6,5,0,-1,1,0,0,0,0,0
-stat,pline,fuhro102,0,2,17,-1,26,7,-1,-1,1,5,5,3,-1,0,1,0,0,1,0
-stat,pline,neubh101,0,3,6,-1,11,2,-1,-1,0,3,2,5,-1,0,0,0,0,1,0
+stat,pline,fuhro102,0,2,17,-1,27,7,-1,-1,1,5,5,3,-1,0,1,0,0,1,0
+stat,pline,neubh101,0,3,6,-1,10,2,-1,-1,0,3,2,5,-1,0,0,0,0,1,0
 stat,pline,stonl101,1,1,27,-1,36,7,3,1,0,4,4,2,-1,3,0,0,0,0,0
 event,dpline,0,protd101,todtp101
 event,dpline,0,flagi101,rothj101,stoka102
@@ -51814,7 +51821,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,111
-info,attendance,7500
+info,attendance,0
 info,wp,gastm101
 info,lp,zacht101
 info,save,
@@ -51883,14 +51890,14 @@ stat,dline,sislg101,1,1,3,27,10,1,0,1,0,0
 stat,dline,jacow101,1,1,8,27,5,0,0,0,0,0
 stat,dline,mcmam101,1,1,4,27,0,5,0,2,0,0
 stat,dline,evanj101,1,1,7,27,1,0,0,0,0,0
-stat,dline,hargp101,1,1,2,27,4,2,0,0,0,0
+stat,dline,hargp101,1,1,2,27,4,2,0,1,0,0
 stat,dline,robeg101,1,1,5,27,1,3,1,1,0,0
 stat,dline,gastm101,1,1,1,27,0,0,0,0,0,0
 stat,pline,zacht101,0,1,9,-1,16,7,-1,-1,0,6,6,2,-1,1,0,0,0,1,0
 stat,pline,russa101,0,2,9,-1,13,2,-1,-1,0,2,2,1,-1,0,0,0,0,0,0
 stat,pline,gregv101,0,3,6,-1,6,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,gastm101,1,1,27,-1,37,5,1,0,0,2,0,6,-1,4,0,0,0,0,0
-event,dpline,1,robeg101,mcmam101,robeg101
+event,dpline,1,robeg101,hargp101,mcmam101,robeg101
 event,dpline,0,peckr101,harrb106,harrj103
 event,dpline,1,mcmam101,lamob101,sislg101
 event,sbline,0,rices101,gastm101,hargp101,-1
@@ -52126,7 +52133,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,115
-info,attendance,5000
+info,attendance,0
 info,wp,white102
 info,lp,wingt101
 info,save,
@@ -52223,7 +52230,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,152
-info,attendance,8000
+info,attendance,0
 info,wp,david102
 info,lp,ruetd101
 info,save,vange101
@@ -52460,7 +52467,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,118
-info,attendance,2500
+info,attendance,0
 info,wp,daush101
 info,lp,ruffr101
 info,save,
@@ -52563,7 +52570,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,105
-info,attendance,8000
+info,attendance,0
 info,wp,bushj102
 info,lp,johnw102
 info,save,
@@ -53478,7 +53485,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,130
-info,attendance,33000
+info,attendance,0
 info,wp,marbf101
 info,lp,conns101
 info,save,ballw101
@@ -54120,7 +54127,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,102
-info,attendance,5000
+info,attendance,0
 info,wp,pennh101
 info,lp,zahnp101
 info,save,
@@ -54462,7 +54469,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,101
-info,attendance,6500
+info,attendance,0
 info,wp,blant101
 info,lp,bushj102
 info,save,
@@ -54566,7 +54573,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,106
-info,attendance,15000
+info,attendance,0
 info,wp,ferga101
 info,lp,ruffr101
 info,save,
@@ -54633,9 +54640,9 @@ stat,dline,blueo102,1,1,5,27,2,1,0,0,0,0
 stat,dline,peckr101,1,1,6,27,1,4,0,0,0,0
 stat,dline,ruelm101,1,1,2,27,4,0,0,0,0,0
 stat,dline,ferga101,1,1,1,27,0,0,0,0,0,0
-stat,pline,ruffr101,0,1,14,-1,22,5,-1,-1,0,6,6,4,-1,3,0,0,0,2,0
+stat,pline,ruffr101,0,1,14,-1,22,5,-1,-1,0,6,6,4,-1,3,0,0,0,3,0
 stat,pline,fuhro102,0,2,4,-1,5,1,-1,-1,0,1,1,0,-1,0,0,0,0,1,0
-stat,pline,rossb103,0,3,6,-1,10,3,-1,-1,0,2,2,2,-1,0,0,0,0,1,0
+stat,pline,rossb103,0,3,6,-1,10,3,-1,-1,0,2,2,2,-1,0,0,0,0,0,0
 stat,pline,ferga101,1,1,27,-1,39,7,3,0,0,3,3,5,-1,2,1,0,0,0,0
 event,dpline,1,rices101,harrj103
 event,dpline,0,lee-d101,rogeb102,todtp101
@@ -55015,15 +55022,15 @@ start,seveh101,"Hank Severeid",1,8,2
 start,ruetd101,"Dutch Ruether",1,9,1
 stat,bline,willd105,0,1,1,5,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,flagi101,0,2,1,4,1,1,1,0,0,0,0,0,0,1,-1,0,0,0,-1,0
-stat,bline,carlr101,0,3,1,4,1,1,0,0,0,0,0,0,0,1,-1,2,0,0,-1,0
-stat,bline,todtp101,0,4,1,4,1,2,0,2,0,2,0,0,0,1,-1,0,0,0,-1,0
+stat,bline,carlr101,0,3,1,5,1,1,0,0,0,0,0,0,0,1,-1,2,0,0,-1,0
+stat,bline,todtp101,0,4,1,3,1,2,0,2,0,2,1,0,0,1,-1,0,0,0,-1,0
 stat,bline,protd101,0,5,1,3,0,1,1,0,0,1,0,0,0,2,-1,0,0,0,-1,0
 stat,bline,rogeb102,0,6,1,3,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,vacht101,0,6,2,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
+stat,bline,booni101,0,6,2,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,wambb101,0,6,3,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,booni101,0,6,4,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
+stat,bline,vacht101,0,6,4,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,lee-d101,0,7,1,3,2,1,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
-stat,bline,biscj101,0,8,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
+stat,bline,biscj101,0,8,1,3,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,wingt101,0,9,1,3,1,1,0,0,1,2,1,0,0,0,-1,0,0,0,-1,0
 stat,bline,mcnee101,1,1,1,3,3,2,0,0,0,0,0,0,0,2,-1,0,0,0,-1,0
 stat,bline,harrb106,1,2,1,4,2,3,1,0,0,3,0,0,0,0,-1,0,0,0,-1,0
@@ -55062,8 +55069,8 @@ stat,dline,ruelm101,1,1,2,-1,2,1,0,0,0,0
 stat,dline,ruetd101,1,1,1,12,0,1,0,1,0,0
 stat,dline,ballw101,1,1,1,15,0,2,1,0,0,0
 stat,pline,wingt101,0,1,24,-1,37,10,3,1,0,7,5,4,-1,0,0,0,0,2,0
-stat,pline,ruetd101,1,1,12,-1,21,5,-1,-1,1,4,4,3,-1,2,0,0,0,1,0
-stat,pline,ballw101,1,2,15,-1,21,4,-1,-1,0,2,1,3,-1,4,0,0,0,0,0
+stat,pline,ruetd101,1,1,12,-1,20,5,-1,-1,1,4,4,3,-1,2,0,0,0,0,0
+stat,pline,ballw101,1,2,15,-1,22,4,-1,-1,0,2,1,3,-1,4,0,0,0,2,0
 event,dpline,1,ruetd101,harrb106
 event,dpline,0,protd101,rogeb102,todtp101
 line,0,2,2,0,0,0,0,1,1,0
@@ -55096,7 +55103,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,153
-info,attendance,20000
+info,attendance,0
 info,wp,shocu101
 info,lp,grays102
 info,save,pennh101
@@ -55260,12 +55267,12 @@ stat,bline,tobij101,1,9,2,1,1,1,0,0,1,2,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,winge102,1,9,3,2,1,1,1,0,0,2,0,0,0,0,-1,1,0,0,-1,0
 stat,phline,tobij101,-1,1,1,1,1,0,0,1,2,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,mostj101,0,1,8,24,1,0,0,0,0,0
-stat,dline,kanej102,0,1,6,24,2,4,0,0,0,0
+stat,dline,kanej102,0,1,6,24,2,4,0,1,0,0
 stat,dline,hooph101,0,1,9,24,0,0,0,0,0,0
 stat,dline,sheee101,0,1,3,24,10,1,0,1,0,0
 stat,dline,falkb101,0,1,7,24,2,0,0,0,0,0
 stat,dline,barrb105,0,1,4,24,2,4,0,1,0,0
-stat,dline,kammw101,0,1,5,24,1,4,0,1,0,0
+stat,dline,kammw101,0,1,5,24,1,4,0,0,0,0
 stat,dline,schar103,0,1,2,-1,3,1,0,0,0,0
 stat,dline,croub101,0,1,2,-1,3,0,0,0,0,0
 stat,dline,faber101,0,1,1,18,0,0,0,0,0,0
@@ -55287,7 +55294,7 @@ stat,pline,conns101,0,2,0,-1,2,2,-1,-1,0,2,2,0,-1,0,0,0,0,0,0
 stat,pline,lyont102,0,3,6,-1,14,3,-1,-1,0,4,4,5,-1,2,0,0,0,0,0
 stat,pline,gastm101,1,1,18,-1,29,3,-1,-1,0,4,0,6,-1,2,0,0,0,0,0
 stat,pline,winge102,1,2,9,-1,12,2,-1,-1,0,0,0,1,-1,2,0,0,0,0,0
-event,dpline,0,barrb105,kammw101,sheee101
+event,dpline,0,barrb105,kanej102,sheee101
 event,sbline,1,bennh102,,,-1
 line,0,0,0,0,0,0,4,0,0,0
 line,1,0,0,0,0,0,3,2,4
@@ -55397,8 +55404,8 @@ stat,dline,zacht101,1,1,1,16,1,2,0,0,0,0
 stat,dline,russa101,1,1,1,5,0,0,0,0,0,0
 stat,dline,ballw101,1,1,1,6,0,0,0,0,0,0
 stat,pline,zahnp101,0,1,27,-1,40,8,1,1,1,3,3,6,-1,1,1,0,0,1,0
-stat,pline,zacht101,1,1,16,-1,28,12,-1,-1,0,4,4,0,-1,2,0,0,0,2,0
-stat,pline,russa101,1,2,5,-1,9,2,-1,-1,0,1,0,2,-1,2,0,0,0,0,0
+stat,pline,zacht101,1,1,16,-1,28,12,-1,-1,0,4,4,0,-1,2,0,0,0,1,0
+stat,pline,russa101,1,2,5,-1,9,2,-1,-1,0,1,0,2,-1,2,0,0,0,1,0
 stat,pline,ballw101,1,3,6,-1,8,1,-1,-1,0,0,0,1,-1,1,0,0,0,0,0
 event,dpline,0,lee-d101,rogeb102,todtp101
 event,sbline,1,mcnee101,zahnp101,,-1
@@ -55433,7 +55440,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,88
-info,attendance,4500
+info,attendance,
 info,wp,ehmkh101
 info,lp,jones104
 info,save,
@@ -55750,7 +55757,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,137
-info,attendance,7500
+info,attendance,0
 info,wp,doylj105
 info,lp,danfd101
 info,save,
@@ -55936,16 +55943,16 @@ stat,dline,winga101,1,1,7,33,4,0,0,0,0,0
 stat,dline,manuh101,1,1,8,33,2,0,0,0,0,0
 stat,dline,heilh101,1,1,9,33,2,0,0,0,0,0
 stat,dline,bluel101,1,1,3,33,12,0,0,2,0,0
-stat,dline,tavej101,1,1,6,-1,2,2,0,1,0,0
-stat,dline,rignt101,1,1,6,-1,0,0,0,0,0,0
+stat,dline,tavej101,1,1,6,-1,2,2,0,0,0,0
+stat,dline,rignt101,1,1,6,-1,0,0,0,1,0,0
 stat,dline,bassj102,1,1,2,33,6,2,0,0,0,0
 stat,dline,white102,1,1,1,21,1,2,0,1,0,0
 stat,dline,doylj105,1,1,1,12,0,1,0,0,0,0
 stat,pline,david102,0,1,33,-1,49,10,4,0,0,3,3,5,-1,1,0,0,0,4,0
-stat,pline,white102,1,1,21,-1,28,7,-1,-1,0,2,2,1,-1,4,0,0,0,1,0
-stat,pline,doylj105,1,2,12,-1,16,5,-1,-1,0,2,2,1,-1,2,0,0,0,1,0
+stat,pline,white102,1,1,21,-1,27,7,-1,-1,0,2,2,1,-1,4,0,0,0,1,0
+stat,pline,doylj105,1,2,12,-1,17,5,-1,-1,0,2,2,1,-1,2,0,0,0,1,0
 event,dpline,1,white102,bluel101
-event,dpline,1,tavej101,bluel101
+event,dpline,1,rignt101,bluel101
 event,sbline,0,evanj101,,bassj102,-1
 event,sbline,0,evanj101,,bassj102,-1
 event,sbline,0,hargp101,,bassj102,-1
@@ -56526,7 +56533,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,135
-info,attendance,5000
+info,attendance,0
 info,wp,stonl101
 info,lp,giarj101
 info,save,
@@ -57065,7 +57072,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,121
-info,attendance,12000
+info,attendance,0
 info,wp,winge102
 info,lp,blant101
 info,save,
@@ -57243,8 +57250,8 @@ event,dpline,1,hanef101,burkl101,bluel101
 event,dpline,0,sewej101,lutzr101,burng102
 event,dpline,1,bluel101
 event,dpline,0,jamic101,lutzr101
-event,hpline,0,,burkl101
-event,hpline,0,,fothb101
+event,hpline,0,millj109,burkl101
+event,hpline,0,speeb101,fothb101
 line,0,0,0,1,0,0,0,0,0,0
 line,1,2,3,0,0,0,0,1,0
 event,hrline,1,daush101,millj109,2,0,2
@@ -58425,7 +58432,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,130
-info,attendance,5000
+info,attendance,0
 info,wp,harrs101
 info,lp,johnh101
 info,save,grays102
@@ -58571,7 +58578,7 @@ stat,bline,peckr101,1,7,1,3,2,2,0,0,0,1,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,scote101,1,7,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,ruelm101,1,8,1,3,3,3,0,1,0,4,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,seveh101,1,8,2,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,coves101,1,9,1,4,0,1,0,0,0,0,1,0,0,0,-1,1,0,0,-1,0
+stat,bline,coves101,1,9,1,3,0,1,0,0,0,0,1,0,0,0,-1,1,0,0,-1,0
 stat,phline,booni101,-1,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,dline,roses102,0,1,7,24,0,0,0,0,0,0
 stat,dline,flagi101,0,1,8,24,2,0,0,0,0,0
@@ -58676,7 +58683,7 @@ stat,bline,falkb101,1,5,1,1,1,0,0,0,0,0,0,0,0,4,-1,0,0,0,-1,0
 stat,bline,barrb105,1,6,1,4,1,1,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,kammw101,1,7,1,4,0,1,0,0,0,1,0,0,0,1,-1,1,0,0,-1,0
 stat,bline,schar103,1,8,1,4,0,3,1,0,0,1,0,0,0,1,-1,0,0,0,-1,0
-stat,bline,kerrd101,1,9,1,3,0,0,0,0,0,1,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,kerrd101,1,9,1,2,0,0,0,0,0,1,1,0,0,0,-1,0,0,0,-1,0
 stat,bline,blant101,1,9,2,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,bushj102,8,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,bennh102,0,1,7,26,2,0,0,0,0,0
@@ -58701,7 +58708,7 @@ stat,dline,schar103,1,1,2,27,5,0,0,1,0,0
 stat,dline,kerrd101,1,1,1,24,0,0,0,0,0,0
 stat,dline,blant101,1,1,1,3,0,1,0,0,0,0
 stat,pline,david102,0,1,21,-1,32,6,-1,-1,0,3,1,7,-1,0,0,0,0,0,0
-stat,pline,vange101,0,2,5,-1,12,3,-1,-1,0,1,0,1,-1,2,0,0,0,1,0
+stat,pline,vange101,0,2,5,-1,11,3,-1,-1,0,1,0,1,-1,2,0,0,0,1,0
 stat,pline,kerrd101,1,1,24,-1,31,8,-1,-1,0,3,3,0,-1,0,0,0,0,0,0
 stat,pline,blant101,1,2,3,-1,4,0,-1,-1,0,0,0,1,-1,0,0,0,0,1,0
 event,dpline,1,kanej102,sheee101,schar103
@@ -58736,7 +58743,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,150
-info,attendance,9000
+info,attendance,0
 info,wp,uhleg101
 info,lp,welle101
 info,save,shauj101
@@ -59783,7 +59790,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,125
-info,attendance,10000
+info,attendance,0
 info,wp,blant101
 info,lp,walbr101
 info,save,
@@ -60090,7 +60097,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,83
-info,attendance,2000
+info,attendance,0
 info,wp,johnh101
 info,lp,smits102
 info,save,
@@ -60372,12 +60379,12 @@ stat,dline,johnw102,1,1,1,19,0,2,0,0,0,0
 stat,dline,ballw101,1,1,1,4,0,0,0,0,0,0
 stat,dline,russa101,1,1,1,1,0,0,0,0,0,0
 stat,dline,marbf101,1,1,1,3,0,0,0,0,0,0
-stat,pline,hollk101,0,1,18,-1,31,8,-1,-1,1,5,2,2,-1,2,0,0,0,2,0
-stat,pline,welle101,0,2,9,-1,15,4,-1,-1,0,4,3,3,-1,3,0,0,0,0,0
-stat,pline,johnw102,1,1,19,-1,34,7,-1,-1,0,6,4,5,-1,5,0,0,0,3,0
-stat,pline,ballw101,1,2,4,-1,9,7,-1,-1,0,5,4,2,-1,0,0,0,0,0,0
-stat,pline,russa101,1,3,1,-1,3,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
-stat,pline,marbf101,1,4,3,-1,5,1,-1,-1,0,1,1,1,-1,0,0,0,0,1,0
+stat,pline,hollk101,0,1,18,-1,29,8,-1,-1,1,5,2,2,-1,2,0,0,0,2,0
+stat,pline,welle101,0,2,9,-1,17,4,-1,-1,0,4,3,3,-1,3,0,0,0,0,0
+stat,pline,johnw102,1,1,19,-1,33,7,-1,-1,0,6,4,5,-1,5,0,0,0,2,0
+stat,pline,ballw101,1,2,4,-1,10,7,-1,-1,0,5,4,2,-1,0,0,0,0,0,0
+stat,pline,russa101,1,3,1,-1,2,1,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
+stat,pline,marbf101,1,4,3,-1,5,1,-1,-1,0,1,1,1,-1,0,0,0,0,2,0
 event,dpline,1,harrj103,blueo102
 event,sbline,0,bluel101,,ruelm101,-1
 event,sbline,1,harrb106,,bassj102,-1
@@ -60453,7 +60460,7 @@ stat,bline,goslg101,1,3,1,2,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,harrj103,1,4,1,2,1,1,0,1,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,jeant101,1,5,1,2,0,1,0,0,0,1,0,0,0,1,-1,0,1,0,-1,0
 stat,bline,blueo102,1,6,1,2,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
-stat,bline,peckr101,1,7,1,1,0,1,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,peckr101,1,7,1,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,ruelm101,1,8,1,2,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,coves101,1,9,1,2,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,phline,manuh101,-1,0,0,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
@@ -60477,7 +60484,7 @@ stat,dline,blueo102,1,1,5,18,1,0,0,0,0,0
 stat,dline,peckr101,1,1,6,18,2,2,0,1,0,0
 stat,dline,ruelm101,1,1,2,18,4,0,0,0,0,0
 stat,dline,coves101,1,1,1,18,0,0,0,0,0,0
-stat,pline,white102,0,1,15,-1,23,4,0,1,0,1,1,4,-1,2,0,0,0,1,0
+stat,pline,white102,0,1,15,-1,22,4,0,1,0,1,1,4,-1,2,0,0,0,0,0
 stat,pline,coves101,1,1,18,-1,26,5,0,0,0,0,0,3,-1,3,0,0,0,0,0
 event,dpline,1,harrb106,peckr101
 event,sbline,0,heilh101,coves101,ruelm101,-1
@@ -60621,7 +60628,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,105
-info,attendance,4000
+info,attendance,0
 info,wp,hoytw101
 info,lp,giarj101
 info,save,
@@ -61461,7 +61468,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,134
-info,attendance,20000
+info,attendance,0
 info,wp,daush101
 info,lp,grays102
 info,save,
@@ -61974,7 +61981,7 @@ stat,pline,edwaj102,0,1,6,-1,12,3,-1,-1,0,2,2,3,-1,2,0,0,0,0,0
 stat,pline,conns101,0,2,15,-1,21,6,-1,-1,0,3,2,1,-1,4,0,0,0,1,0
 stat,pline,blant101,0,3,7,-1,10,4,-1,-1,0,1,1,0,-1,0,0,0,0,1,0
 stat,pline,johnw102,1,1,21,-1,30,6,-1,-1,0,2,2,3,-1,2,1,0,0,0,0
-stat,pline,marbf101,1,2,3,-1,6,2,-1,-1,0,3,2,2,-1,0,0,0,0,0,0
+stat,pline,marbf101,1,2,3,-1,7,2,-1,-1,0,3,2,2,-1,0,0,0,0,1,0
 stat,pline,zacht101,1,3,6,-1,7,1,-1,-1,0,0,0,1,-1,0,0,0,0,0,0
 event,dpline,0,croub101,davii102
 event,dpline,1,ruelm101,peckr101
@@ -62121,7 +62128,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,130
-info,attendance,0
+info,attendance,
 info,wp,white102
 info,lp,wingt101
 info,save,
@@ -62225,7 +62232,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,123
-info,attendance,3500
+info,attendance,
 info,wp,carro101
 info,lp,zahnp101
 info,save,
@@ -62295,8 +62302,8 @@ stat,dline,stoka102,1,1,2,27,2,2,0,0,0,0
 stat,dline,zahnp101,1,1,1,24,1,2,0,0,0,0
 stat,dline,fuhro102,1,1,1,3,0,0,0,0,0,0
 stat,pline,carro101,0,1,27,-1,39,9,0,1,0,2,2,5,-1,4,0,0,0,0,0
-stat,pline,zahnp101,1,1,24,-1,39,9,-1,-1,0,5,4,5,-1,1,0,2,0,2,0
-stat,pline,fuhro102,1,2,3,-1,4,2,-1,-1,1,2,2,0,-1,0,0,0,0,0,0
+stat,pline,zahnp101,1,1,24,-1,38,9,-1,-1,0,5,4,5,-1,1,0,2,0,2,0
+stat,pline,fuhro102,1,2,3,-1,5,2,-1,-1,1,2,2,0,-1,0,0,0,0,0,0
 event,dpline,0,tavej101,orouf101,bluel101
 event,dpline,0,hanef101,orouf101,bluel101
 event,sbline,0,orouf101,,stoka102,-1
@@ -63911,7 +63918,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,92
-info,attendance,10000
+info,attendance,0
 info,wp,david102
 info,lp,zacht101
 info,save,
@@ -63947,8 +63954,8 @@ stat,bline,rices101,1,1,1,4,2,4,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,adams102,1,2,1,1,1,0,0,0,0,1,2,0,0,1,-1,0,0,0,-1,0
 stat,bline,goslg101,1,3,1,4,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,judgj101,1,4,1,3,0,1,0,0,0,0,0,0,0,1,-1,0,0,1,-1,0
-stat,bline,harrj103,1,5,1,2,0,0,0,0,0,0,1,0,0,1,-1,1,0,0,-1,0
-stat,bline,blueo102,1,6,1,3,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,-1,0
+stat,bline,harrj103,1,5,1,2,0,0,0,0,0,0,0,0,0,1,-1,1,0,0,-1,0
+stat,bline,blueo102,1,6,1,3,0,0,0,0,0,1,1,0,0,1,-1,0,0,0,-1,0
 stat,bline,scote101,1,7,1,3,0,1,0,1,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,seveh101,1,8,1,3,0,0,0,0,0,0,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,zacht101,1,9,1,2,0,0,0,0,0,0,1,0,0,0,-1,1,0,0,-1,0
@@ -64512,7 +64519,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,105
-info,attendance,5000
+info,attendance,0
 info,wp,vange101
 info,lp,thoml104
 info,save,
@@ -64859,8 +64866,8 @@ stat,bline,mcmam101,0,5,1,3,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,bennh102,0,6,1,3,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,dixol101,0,7,1,3,0,1,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,robeg101,0,8,1,3,0,1,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,gastm101,0,9,1,0,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
-stat,bline,winge102,0,9,2,1,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,gastm101,0,9,1,0,0,0,0,0,0,0,1,0,0,0,-1,0,0,0,-1,0
+stat,bline,winge102,0,9,2,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,hargp101,0,9,3,1,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,rices101,1,1,1,5,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,adams102,1,2,1,5,1,1,1,0,0,0,0,0,0,0,-1,0,0,0,-1,0
@@ -65028,7 +65035,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,105
-info,attendance,12000
+info,attendance,0
 info,wp,shieb101
 info,lp,doylj105
 info,save,
@@ -66029,9 +66036,9 @@ stat,phline,croub101,7,1,1,0,1,0,0,0,2,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,summh101,0,1,9,24,2,0,0,0,0,0
 stat,dline,lee-c101,0,1,8,24,2,0,0,0,0,0
 stat,dline,sewel101,0,1,7,24,3,0,0,0,0,0
-stat,dline,sewej101,0,1,6,24,1,3,0,1,0,0
-stat,dline,knodr101,0,1,3,24,7,0,0,1,0,0
-stat,dline,spurf101,0,1,4,24,3,4,0,1,0,0
+stat,dline,sewej101,0,1,6,24,1,3,0,2,0,0
+stat,dline,knodr101,0,1,3,24,7,0,0,2,0,0
+stat,dline,spurf101,0,1,4,24,3,4,0,2,0,0
 stat,dline,hodaj101,0,1,5,-1,1,0,0,0,0,0
 stat,dline,lutzr101,0,1,5,-1,0,1,0,0,0,0
 stat,dline,myatg101,0,1,2,24,4,1,1,0,0,0
@@ -66059,13 +66066,14 @@ stat,pline,faber101,1,1,15,-1,26,9,-1,-1,0,3,3,2,-1,2,0,0,0,1,0
 stat,pline,kerrd101,1,2,6,-1,13,5,-1,-1,0,3,3,2,-1,1,0,0,0,0,0
 stat,pline,conns101,1,3,6,-1,10,3,-1,-1,0,2,1,1,-1,1,0,1,0,0,0
 event,dpline,0,sewej101,spurf101,knodr101
+event,dpline,0,sewej101,spurf101,knodr101
 event,dpline,1,mostj101
 event,sbline,1,mostj101,,myatg101,-1
 event,sbline,1,barrb105,,myatg101,-1
 event,sbline,1,falkb101,,myatg101,-1
 line,0,1,1,1,0,0,0,3,2,0
 line,1,1,0,2,0,1,0,3,3
-stat,tline,0,14,0,1,0
+stat,tline,0,14,0,2,0
 stat,tline,1,7,0,1,0
 id,SLA192510041
 version,3
@@ -66192,7 +66200,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,102
-info,attendance,12000
+info,attendance,0
 info,wp,stonl101
 info,lp,staue101
 info,save,cobbt101
@@ -66282,7 +66290,7 @@ event,csline,0,gehrc101,,dixol101,-1
 event,csline,0,cobbt101,,dixol101,-1
 event,csline,0,heilh101,,dixol101,-1
 line,0,2,0,4,3,2,0,0,0
-line,1,1,2,1,1,0,0,0,1
+line,1,1,2,1,1,0,0,1,0
 event,hrline,0,heilh101,falkc102,4,2,-1
 stat,tline,0,5,0,1,0
 stat,tline,1,7,0,1,0

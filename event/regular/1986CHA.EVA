@@ -7618,9 +7618,10 @@ info,ump1b,koscg901
 info,ump2b,garcr901
 info,ump3b,reedr901
 info,scorer,"Don Zminda"
-info,inputter,"Dewan"
+info,translator,"Dewan, Wayne Townsend"
+info,inputter,"Dewan, Wayne Townsend"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -7653,96 +7654,121 @@ start,hulet001,"Tim Hulett",1,7,5
 start,guilo001,"Ozzie Guillen",1,8,6
 start,cruzj002,"Julio Cruz",1,9,4
 start,delej001,"Jose DeLeon",1,0,1
-play,1,0,romee001,,,D7
-play,1,0,boggw001,,,WP.2-3
-play,1,0,boggw001,,,7/FL
-play,1,0,buckb001,,,43.3-H
-play,1,0,ricej001,,,4/L
-play,1,1,cangj001,,,13
-play,1,1,lyons001,,,3/G
-play,1,1,bainh001,,,13
-play,2,0,bayld001,,,W
-play,2,0,evand002,,,K
-play,2,0,armat001,,,4
-play,2,0,gedmr001,,,9
-play,2,1,walkg001,,,S7
-play,2,1,hassr001,,,64(1)3/GDP
-play,2,1,fiskc001,,,5/FL
-play,3,0,stapd001,,,5/FL
-play,3,0,romee001,,,8
-play,3,0,boggw001,,,63
-play,3,1,hulet001,,,S8
-play,3,1,guilo001,,,36(1)/FO
-play,3,1,cruzj002,,,CS2(26)
-play,3,1,cruzj002,,,W
-play,3,1,cangj001,,,S/BG.1-2
-play,3,1,lyons001,,,K
-play,4,0,buckb001,,,K
-play,4,0,ricej001,,,6/L
-play,4,0,bayld001,,,HR/7
-play,4,0,evand002,,,2/FL
-play,4,1,bainh001,,,S8
-play,4,1,walkg001,,,S8.1-2
-play,4,1,hassr001,,,46(1)3/GDP.2-3
-play,4,1,fiskc001,,,8/L
-play,5,0,armat001,,,53
-play,5,0,gedmr001,,,S9
-play,5,0,stapd001,,,K
-play,5,0,romee001,,,64(1)/FO
-play,5,1,hulet001,,,S8
-play,5,1,guilo001,,,S4.1-2
-play,5,1,cruzj002,,,S/BG.2-3;1-2
-play,5,1,cangj001,,,46(1)/FO.3-H;2-3
-play,5,1,lyons001,,,SB2
-play,5,1,lyons001,,,8/SF.3-H;2-3
-play,5,1,bainh001,,,E1.3-H(NR)(UR);B-1
+play,1,0,romee001,02,CSX,D7/L7LD
+play,1,0,boggw001,12,CBFB,WP.2-3
+com,"High off Fisk's glove"
+play,1,0,boggw001,22,CBFB.X,7/F7LF/FL
+com,"Lyons caught it against the stands"
+play,1,0,buckb001,10,BX,43/G4.3-H
+play,1,0,ricej001,01,CX,4/L4
+com,"Check swing"
+play,1,1,cangj001,10,BX,13/G13
+play,1,1,lyons001,00,X,3/G3
+play,1,1,bainh001,21,BFBX,13/G1
+com,"Clemens: leaping stop"
+play,2,0,bayld001,32,BBBCCB,W
+play,2,0,evand002,22,CB1BCS,K
+play,2,0,armat001,21,FBBX,4/P4
+play,2,0,gedmr001,21,BBFX,9/F89D
+play,2,1,walkg001,10,BX,S7/F7S
+play,2,1,hassr001,10,BX,64(1)3/GDP/G6
+play,2,1,fiskc001,31,BBBFX,5/P5L
+play,3,0,stapd001,10,BX,5/P5F/FL
+play,3,0,romee001,00,X,8/F78S
+com,"Cangelosi: running catch"
+play,3,0,boggw001,11,CBX,63/G6
+play,3,1,hulet001,32,BBSFFBFFFFFX,S8/G6M
+play,3,1,guilo001,12,BF1>FFX,36(1)/FO/G34
+com,"Clemens nearly collided with Buckner on the return throw to"
+com,"1B from Romero."
+play,3,1,cruzj002,10,1B1>P,CS2(26)
+play,3,1,cruzj002,32,1B1>P.CBCFB,W
+play,3,1,cangj001,00,1X,S4/BG34S.1-2
+play,3,1,lyons001,32,CSBBB>S,K
+play,4,0,buckb001,02,SSS,K
+play,4,0,ricej001,11,BSX,6/L6
+play,4,0,bayld001,10,BX,HR/F7D
+com,"Off the facade and into lower LF stands"
+play,4,0,evand002,32,BBFSBX,2/P2F/FL
+play,4,1,bainh001,00,X,S8/F8S
+play,4,1,walkg001,00,X,S8/L8.1-2
+com,"Armas trapped it and tumbled after a hard run"
+play,4,1,hassr001,20,BBX,46(1)3/GDP/G4.2-3
+play,4,1,fiskc001,00,X,8/F89D
+play,5,0,armat001,11,BFX,53/G5L
+play,5,0,gedmr001,00,X,S9/L89
+play,5,0,stapd001,22,BCBCS,K
+play,5,0,romee001,21,BCBX,64(1)/FO/G6
+play,5,1,hulet001,32,CBBFFBFX,S8/F8S
+play,5,1,guilo001,12,CFBFX,S4/G34.1-2
+com,"Stapleton: diving stop but no throw"
+play,5,1,cruzj002,00,X,S1/BG25.2-3;1-2
+com,"Clemens: off his glove then kicked it into foul territory"
+play,5,1,cangj001,00,X,46(1)/FO/G4.3-H;2-3
+play,5,1,lyons001,01,1C1>S,SB2
+play,5,1,lyons001,22,1C1>S.BFBX,8/F8/SF/THH.3-H;2-3
+play,5,1,bainh001,21,BCBX,3E1/G34.3-H(NR)(UR);B-1
+com,"Ump Kosc claimed Clemens missed the bag.  Clemens got right"
+com,"in Kosc's face and bumped into him, causing immediate"
+com,"ejection.  The argument continued for several minutes.  At"
+com,"one point, Clemens had to be physically restrained by both"
+com,"Rice and Baylor.  TV replays were inconclusive, but Kosc was"
+com,"not in the best position to see if the outside of Clemens'"
+com,"shoe touched the side of the bag or not. Hurst and Nipper"
+com,"were also ejected from the dugout for protesting."
+com,""
 com,"ej,clemr001,P,koscg901,Call at 1B (Bumped umpire)"
 com,"ej,hursb001,P,garcr901,Bench jockeying"
 com,"ej,nippa001,P,garcr901,Bench jockeying"
-com,"Roger Clemens ejected by 1B umpire Greg Kosc when he bumped"
-com,"the umpire protesting the call at 1B; Bruce Hurst and Al"
-com,"Nipper ejected by 2B umpire Richie Garcia from the bench"
-com,"protesting Clemens ejection"
-play,5,1,walkg001,,,NP
+play,5,1,walkg001,00,,NP
 sub,stews001,"Sammy Stewart",0,0,1
-play,5,1,walkg001,,,7
-play,6,0,boggw001,,,W
-play,6,0,buckb001,,,7
-play,6,0,ricej001,,,2/FL
-play,6,0,bayld001,,,K
-play,6,1,hassr001,,,W
-play,6,1,fiskc001,,,9
-play,6,1,hulet001,,,HR/7.1-H
-play,6,1,guilo001,,,S7
-play,6,1,cruzj002,,,3/G.1-2
-play,6,1,cangj001,,,43
-play,7,0,evand002,,,NP
+play,5,1,walkg001,21,FBBX,7/F7
+play,6,0,boggw001,32,CBBFBB,W
+play,6,0,buckb001,02,CFX,7/F7
+play,6,0,ricej001,20,BBX,2/P23F/FL
+play,6,0,bayld001,02,CSFS,K
+play,6,1,hassr001,31,BBBCB,W
+play,6,1,fiskc001,02,CTX,9/F9
+play,6,1,hulet001,01,CX,HR/F7D.1-H
+com,"Off the upper facade and into lower LF stands"
+play,6,1,guilo001,32,BBCBFX,S7/F7S
+play,6,1,cruzj002,21,1B1B>F>X,3/G3.1-2
+play,6,1,cangj001,00,X,43/G4S
+com,"Check swing"
+play,7,0,evand002,00,,NP
 sub,schmd001,"Dave Schmidt",1,0,1
-play,7,0,evand002,,,6/L
-play,7,0,armat001,,,13
-play,7,0,gedmr001,,,HP
-play,7,0,stapd001,,,53
-play,7,1,lyons001,,,NP
+play,7,0,evand002,12,BSSX,6/P6
+play,7,0,armat001,00,X,13/G13
+com,"Check swing"
+play,7,0,gedmr001,01,FH,HP
+com,"Hit on the right hip"
+play,7,0,stapd001,32,BFBBCX,53/G5
+play,7,1,lyons001,00,,NP
 sub,lollt001,"Tim Lollar",0,0,1
-play,7,1,lyons001,,,8
-play,7,1,bainh001,,,8
-play,7,1,walkg001,,,S8
-play,7,1,hassr001,,,3/G
-play,8,0,romee001,,,9
-play,8,0,boggw001,,,S7
-play,8,0,buckb001,,,46(1)3/GDP
-play,8,1,fiskc001,,,NP
+play,7,1,lyons001,01,LX,8/F78XD
+play,7,1,bainh001,01,SX,8/F8XDW
+play,7,1,walkg001,10,BX,S8/F8S
+play,7,1,hassr001,00,X,3/G3S
+play,8,0,romee001,10,BX,9/L89
+play,8,0,boggw001,11,CBX,S7/G56
+play,8,0,buckb001,11,BCX,46(1)3/GDP/G4
+play,8,1,fiskc001,00,,NP
 sub,stanb001,"Bob Stanley",0,0,1
-play,8,1,fiskc001,,,4
-play,8,1,hulet001,,,S7
-play,8,1,guilo001,,,9
-play,8,1,cruzj002,,,W.1-2
-play,8,1,cangj001,,,S8.2-H;1-H(E8)(UR);B-2
-play,8,1,lyons001,,,W
-play,8,1,bainh001,,,8
-play,9,0,ricej001,,,63
-play,9,0,bayld001,,,S7
-play,9,0,evand002,,,54(1)3/GDP
+play,8,1,fiskc001,22,CBCBFFX,4/L4
+com,"Stapleton: shoetop catch"
+play,8,1,hulet001,11,CBX,S7/L56D
+play,8,1,guilo001,22,FB1CB>FX,9/F9
+play,8,1,cruzj002,32,CCBBB>B,W.1-2
+play,8,1,cangj001,12,CCBX,S8/G46.2-H;1-H(E8/TH3)(NR)(UR);B-2
+com,"Armas' accurate, one-hop throw was in time but hit the"
+com,"sliding Cruz and skipped past Boggs into the CHA dugout."
+play,8,1,lyons001,32,BBSFBB,W
+play,8,1,bainh001,02,CFX,8/F8XDW
+com,"Armas: running, leaping catch near the wall"
+play,9,0,ricej001,00,X,63/G6
+play,9,0,bayld001,11,BFX,S6/G56D
+com,"Off Guillen's glove"
+play,9,0,evand002,02,CSX,54(1)3/GDP/G5L
 data,er,clemr001,2
 data,er,stews001,2
 data,er,lollt001,0
