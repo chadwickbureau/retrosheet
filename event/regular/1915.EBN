@@ -4740,11 +4740,11 @@ stat,dline,goodw101,0,1,9,27,2,0,0,0,0,0
 stat,dline,fisht103,0,1,6,27,5,1,0,0,0,0
 stat,dline,schuf103,0,1,7,27,1,0,0,0,0,0
 stat,dline,zimmh101,0,1,4,27,2,4,0,0,0,0
-stat,dline,saiev101,0,1,3,27,9,0,0,0,0,0
+stat,dline,saiev101,0,1,3,27,9,0,0,1,0,0
 stat,dline,willc103,0,1,8,27,4,2,0,0,0,0
 stat,dline,bresr102,0,1,2,27,2,2,0,0,0,0
 stat,dline,phela101,0,1,5,27,1,0,0,0,0,0
-stat,dline,zabez101,0,1,1,27,1,5,0,0,0,0
+stat,dline,zabez101,0,1,1,27,1,5,0,1,0,0
 stat,dline,leact101,1,1,8,27,0,0,1,0,0,0
 stat,dline,herzb101,1,1,6,27,1,6,1,0,0,0
 stat,dline,killr101,1,1,7,27,1,1,0,0,0,0
@@ -4758,10 +4758,11 @@ stat,dline,daleg101,1,1,1,3,0,1,0,0,0,0
 stat,pline,zabez101,0,1,27,-1,32,4,0,2,0,0,0,6,-1,1,0,0,0,0,0
 stat,pline,amesr101,1,1,24,-1,37,11,-1,-1,1,6,4,2,-1,1,0,0,0,2,0
 stat,pline,daleg101,1,2,3,-1,4,2,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
+event,dpline,0,zabez101,saiev101
 line,0,1,0,1,0,0,0,1,3,0
 line,1,0,0,0,0,0,0,0,0,0
 event,hrline,0,willc103,amesr101,8,2,-1
-stat,tline,0,8,0,0,0
+stat,tline,0,8,0,1,0
 stat,tline,1,5,0,0,0
 id,NY1191504270
 version,3

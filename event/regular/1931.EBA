@@ -28400,15 +28400,15 @@ stat,phline,grabj101,11,1,1,0,1,0,0,0,1,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,combe101,0,1,8,31,3,0,0,0,0,0
 stat,dline,reesj101,0,1,4,31,4,1,0,1,0,0
 stat,dline,ruthb101,0,1,7,31,0,0,0,0,0,0
-stat,dline,gehrl101,0,1,3,31,7,0,0,0,0,0
+stat,dline,gehrl101,0,1,3,31,7,0,0,1,0,0
 stat,dline,chapb102,0,1,9,31,4,0,0,0,0,0
 stat,dline,laryl101,0,1,6,31,4,1,2,1,0,0
 stat,dline,sewej101,0,1,5,21,2,0,0,0,0,0
 stat,dline,lazzt101,0,1,5,10,0,0,0,0,0,0
-stat,dline,jorga101,0,1,2,21,6,3,0,0,0,0
+stat,dline,jorga101,0,1,2,21,6,3,0,1,0,0
 stat,dline,ruffr101,0,1,1,10,0,4,0,0,0,0
 stat,dline,pipgg101,0,1,1,9,0,0,1,0,0,0
-stat,dline,johnh101,0,1,1,12,0,2,0,0,0,0
+stat,dline,johnh101,0,1,1,12,0,2,0,1,0,0
 stat,dline,dickb101,0,1,2,10,1,0,0,0,0,0
 stat,dline,johnr102,1,1,8,33,2,0,0,0,0,0
 stat,dline,doljf101,1,1,9,33,0,0,0,0,0,0
@@ -28424,6 +28424,7 @@ stat,pline,johnh101,0,2,12,-1,16,2,-1,-1,0,1,1,5,-1,1,0,0,0,0,0
 stat,pline,ruffr101,0,3,10,-1,19,6,-1,-1,0,3,3,4,-1,1,0,0,0,2,0
 stat,pline,sorrv101,1,1,33,-1,52,12,2,1,1,7,5,7,-1,3,0,0,0,1,0
 event,dpline,0,laryl101,reesj101
+event,dpline,0,johnh101,jorga101,gehrl101
 event,sbline,0,gehrl101,sorrv101,haywr101,-1
 event,sbline,0,chapb102,sorrv101,haywr101,-1
 event,sbline,1,johnr102,,,-1
@@ -28431,7 +28432,7 @@ event,csline,0,chapb102,sorrv101,haywr101,-1
 line,0,0,0,3,0,0,1,0,0,1,0,2
 line,1,2,0,2,1,0,0,0,0,0,0,3
 event,hrline,0,gehrl101,sorrv101,9,0,-1
-stat,tline,0,12,0,1,0
+stat,tline,0,12,0,2,0
 stat,tline,1,15,0,0,0
 id,SLA193106300
 version,3
@@ -47319,7 +47320,7 @@ stat,pline,thomt103,1,1,27,-1,36,6,1,1,0,2,1,1,-1,3,0,0,0,0,0
 event,sbline,1,kerrj102,,berrc103,-1
 event,hpline,0,mclaj101,kerrj102
 line,0,0,2,0,0,0,0,0,0,0
-line,1,0,3,4,0,0,0,2,0
+line,1,0,3,4,0,0,0,0,2
 stat,tline,0,7,0,0,0
 stat,tline,1,8,0,0,0
 id,CHA193108162

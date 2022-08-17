@@ -1231,6 +1231,9 @@ play,8,0,boyek101,??,,7
 play,8,0,jamec102,??,,S8
 play,8,0,whitb105,??,,43
 play,8,1,alleg101,??,,31
+com,"ej,murtd101,M,donaa901,Call at 1B"
+com,"$Pirates manager Murtaugh ejected by 1B umpire"
+com,"Donatelli for arguing Alley was safe at 1st"
 play,8,1,virdb101,??,,31
 play,8,1,clemr101,??,,63
 play,9,0,lewij102,??,,W
@@ -5497,7 +5500,7 @@ play,1,0,bollf101,??,,99#
 play,1,0,spahw101,??,,K
 play,1,1,bailb103,??,,S
 play,1,1,motam101,??,,D9.1-H(E9)(NR);B-3
-play,1,1,clemr101,??,,99/SF.3-H
+play,1,1,clemr101,??,,9/SF.3-H
 play,1,1,clend101,??,,99#
 play,1,1,paglj101,??,,W
 play,1,1,starw101,??,,99#
@@ -7478,7 +7481,7 @@ sub,davej101,"Jim Davenport",0,3,11
 play,6,0,davej101,??,,63
 play,6,0,maysw101,??,,W
 play,6,0,hartj102,??,,8
-play,6,0,alouj101,??,,99#
+play,6,0,alouj101,??,,3/P
 com,"missing play in PIT196408010"
 play,6,1,gibbj102,??,,NP
 sub,davej101,"Jim Davenport",0,3,6
@@ -11376,9 +11379,9 @@ info,umphome,gormt101
 info,ump1b,smitv101
 info,ump2b,pelec901
 info,ump3b,willb901
-info,scorer,"285"
-info,translator,"Comly"
-info,inputter,"Comly"
+info,scorer,"285,276"
+info,translator,"Comly, Wayne Townsend"
+info,inputter,"Comly, Wayne Townsend"
 info,inputtime,2010/05/02 1:30PM
 info,howscored,unknown
 info,pitches,none
@@ -11414,21 +11417,21 @@ start,mcfao101,"Orlando McFarlane",1,8,2
 start,law-v101,"Vern Law",1,9,1
 play,1,0,alouf101,??,,S
 play,1,0,mayel101,??,,D.1-3
-play,1,0,aaroh101,??,,99#
+play,1,0,aaroh101,??,,99/G
 play,1,0,mathe101,??,,IW
-play,1,0,torrj101,??,,99(1)/FO.3-H;2-3#
-play,1,0,cartr101,??,,D.3-H;1-H
-play,1,0,menkd101,??,,OA.2X3(99)#
+play,1,0,torrj101,??,,99(1)/FO.3-H;2-3
+play,1,0,cartr101,??,,D/89.3-H;1-H
+play,1,0,menkd101,??,,OA.2X3(99)
 play,1,1,schod101,??,,S
-play,1,1,virdb101,??,,99(1)/FO#
-play,1,1,clemr101,??,,99(1)/FO#
+play,1,1,virdb101,??,,99(1)/FO
+play,1,1,clemr101,??,,99(1)/FO
 play,1,1,starw101,??,,S.1-2
 play,1,1,clend101,??,,99(1)/FO
 play,2,0,menkd101,??,,D
-play,2,0,aloms101,??,,99#
-play,2,0,clont101,??,,9/FDP.2X2(94)#
+play,2,0,aloms101,??,,9/LDP.2X2(94)
+play,2,0,clont101,??,,99/G
 play,2,1,bailb103,??,,S
-play,2,1,mazeb101,??,,99(1)/FO#
+play,2,1,mazeb101,??,,99(1)/FO
 play,2,1,mcfao101,??,,K
 play,2,1,law-v101,??,,S.1-2
 play,2,1,schod101,??,,T.2-H;1-H
@@ -11436,19 +11439,21 @@ play,2,1,virdb101,??,,W
 play,2,1,clemr101,??,,S.3-H;1-3
 play,2,1,starw101,??,,NP
 sub,hoefb101,"Billy Hoeft",0,9,1
-play,2,1,starw101,??,,HR/IPHR.3-H;1-H
-play,2,1,clend101,??,,99#
+play,2,1,starw101,32,,HR8/L8XDW/IPHR.3-H;1-H
+com,"440' shot off CF wall; Maye had trouble running it down"
+play,2,1,clend101,??,,99/G
 play,3,0,alouf101,??,,S
-play,3,0,mayel101,??,,64(1)3/GDP#
+play,3,0,mayel101,??,,64(1)3/GDP
 play,3,0,aaroh101,??,,D
-play,3,0,mathe101,??,,99#
-play,3,1,bailb103,??,,99#
-play,3,1,mazeb101,??,,99#
+play,3,0,mathe101,??,,99/G
+play,3,1,bailb103,??,,99/F
+play,3,1,mazeb101,??,,99/F
 play,3,1,mcfao101,??,,S
-play,3,1,law-v101,??,,99#
-play,4,0,torrj101,??,,HR
+play,3,1,law-v101,??,,99/F
+play,4,0,torrj101,??,,HR/F7D
+com,"Over LF wall"
 play,4,0,cartr101,??,,S
-play,4,0,menkd101,??,,99#
+play,4,0,menkd101,??,,99/F
 play,4,0,aloms101,??,,NP
 sub,kliml101,"Lou Klimchock",0,8,11
 play,4,0,kliml101,??,,S.1-2
@@ -11465,51 +11470,52 @@ play,4,1,schod101,??,,NP
 sub,carrc103,"Clay Carroll",0,9,1
 play,4,1,schod101,??,,NP
 sub,menkd101,"Denis Menke",0,7,6
-play,4,1,schod101,??,,99#
-play,4,1,virdb101,??,,99#
+play,4,1,schod101,??,,99
+play,4,1,virdb101,??,,99
 play,4,1,clemr101,??,,K
-play,5,0,alouf101,??,,99#
+play,5,0,alouf101,??,,99
 play,5,0,mayel101,??,,K
-play,5,0,aaroh101,??,,99#
-play,5,1,starw101,??,,99#
-play,5,1,clend101,??,,99#
+play,5,0,aaroh101,??,,99
+play,5,1,starw101,??,,99
+play,5,1,clend101,??,,99
 play,5,1,bailb103,??,,K
-play,6,0,mathe101,??,,99#
+play,6,0,mathe101,??,,99
 play,6,0,torrj101,??,,S
 play,6,0,cartr101,??,,S.1-2
 play,6,0,menkd101,??,,5(2)3/GDP
 play,6,1,mazeb101,??,,K
 play,6,1,mcfao101,??,,S
-play,6,1,gibbj102,??,,99(1)/FO#
+play,6,1,gibbj102,??,,99(1)/FO
 play,6,1,schod101,??,,K
-play,7,0,kliml101,??,,99#
+play,7,0,kliml101,??,,99
 play,7,0,carrc103,??,,NP
 sub,bollf101,"Frank Bolling",0,9,11
-play,7,0,bollf101,??,,99#
-play,7,0,alouf101,??,,99#
+play,7,0,bollf101,??,,99
+play,7,0,alouf101,??,,99
 play,7,1,virdb101,??,,NP
 sub,bollf101,"Frank Bolling",0,9,4
 play,7,1,virdb101,??,,NP
 sub,laryf101,"Frank Lary",0,8,1
-play,7,1,virdb101,??,,99#
+play,7,1,virdb101,??,,99
 play,7,1,clemr101,??,,K
-play,7,1,starw101,??,,99#
+play,7,1,starw101,??,,99
 play,8,0,mayel101,??,,NP
 sub,wissd101,"Dave Wissman",1,4,7
-play,8,0,mayel101,??,,99#
+play,8,0,mayel101,??,,99
 play,8,0,aaroh101,??,,S
-play,8,0,mathe101,??,,99#
+play,8,0,mathe101,??,,99
 play,8,0,torrj101,??,,K
 play,8,1,clend101,??,,S
-play,8,1,bailb103,??,,99#
-play,8,1,mazeb101,??,,S.1-H(E8)(NR)(UR);B-2
-play,8,1,mcfao101,??,,99#
-play,8,1,gibbj102,??,,99#
+play,8,1,bailb103,??,,99
+play,8,1,mazeb101,??,,S8.1-H(E8)(NR)(UR);B-2
+com,"Maye fumbled"
+play,8,1,mcfao101,??,,99
+play,8,1,gibbj102,??,,99
 play,9,0,cartr101,??,,S
 play,9,0,menkd101,??,,64(1)3/GDP
 play,9,0,laryf101,??,,NP
 sub,delam101,"Mike de la Hoz",0,8,11
-play,9,0,delam101,??,,99#
+play,9,0,delam101,??,,99
 data,er,clont101,5
 data,er,hoefb101,1
 data,er,carrc103,0

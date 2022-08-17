@@ -1455,10 +1455,10 @@ play,8,1,pippw101,??,,IW
 play,8,1,warda101,??,,64(1)/FO.3-H;2-3
 play,8,1,scote101,??,,CSH(25)/RINT
 com,"ej,huggm101,M,dinnb101,Interference call"
-com,"$Cy Perkins' throw struck Bob Meusel on the back;"
-com,"Umpire Pants Rowland ruled interference on Meusel;"
-com,"Yankees manager Miller Huggins ejected by 3B umpire"
-com,"Bill Dinneen"
+com,"$on an attempted double-steal, catcher Perkins faked a throw"
+com,"to second and trapped Meusel off third; during the rundown"
+com,"a throw by Perkins hit Meusel's shoulder and he was called"
+com,"for interference; Yankees manager Huggins ejected by 3B umpire Dinneen"
 play,9,0,romme101,??,,NP
 sub,strua102,"Amos Strunk",0,9,11
 play,9,0,strua102,??,,2/FL
@@ -2988,7 +2988,7 @@ play,3,0,bassj102,??,,W
 com,"ej,johne102,P,hildg101,Bench jockeying"
 com,"ej,oleac101,C,hildg101,Bench jockeying"
 com,"$Yankees coach O'Leary and player Johnson, not in game, ejected"
-com,"by HP umpire Hildlebrand for bench jockeying"
+com,"by HP umpire Hildebrand for bench jockeying"
 play,3,0,collr104,??,,99
 play,3,0,hanef101,??,,99
 play,3,1,dugaj101,??,,K
@@ -3016,7 +3016,7 @@ play,5,0,rignt101,??,,K
 play,5,0,bluel101,??,,99
 play,5,0,bassj102,??,,99
 play,5,1,dugaj101,??,,99
-play,5,1,ruthb101,??,,99
+play,5,1,ruthb101,??,,63
 play,5,1,meusb101,??,,S8
 play,5,1,pippw101,??,,S9.1-3
 play,5,1,mcnam101,??,,63
@@ -3090,8 +3090,8 @@ play,9,0,heilh101,??,,S9.1-3
 play,9,0,pratd101,??,,SB2
 play,9,0,pratd101,??,,K
 play,9,1,dugaj101,??,,K
-play,9,1,ruthb101,??,,D
-play,9,1,meusb101,??,,99.2-3
+play,9,1,ruthb101,??,,D9
+play,9,1,meusb101,??,,7.2-3
 play,9,1,pippw101,??,,99
 data,er,collr104,3
 data,er,pillh101,0
@@ -8424,7 +8424,7 @@ play,1,0,mostj101,??,,K
 play,1,0,colle101,??,,99/F
 play,1,1,wittw101,??,,99/G
 play,1,1,dugaj101,??,,99/G
-play,1,1,ruthb101,??,,99/G
+play,1,1,ruthb101,??,,43
 play,2,0,sheee101,??,,99
 play,2,0,falkb101,??,,K
 play,2,0,elshr101,??,,S7
@@ -8445,7 +8445,7 @@ play,4,0,colle101,??,,S
 play,4,0,sheee101,??,,13.1-3
 play,4,0,falkb101,??,,OA.3XH(12)
 play,4,1,dugaj101,??,,99
-play,4,1,ruthb101,??,,99
+play,4,1,ruthb101,??,,7
 play,4,1,meusb101,??,,99
 play,5,0,falkb101,??,,T
 play,5,0,elshr101,??,,K
@@ -8461,7 +8461,7 @@ play,6,0,mostj101,??,,99
 play,6,1,pennh101,??,,3/L
 play,6,1,wittw101,??,,D7
 play,6,1,dugaj101,??,,T78.2-H
-play,6,1,ruthb101,??,,FC3.3-H
+play,6,1,ruthb101,??,,FC3/THH.3-H;B-1
 play,6,1,meusb101,??,,PO1(E1).1-3
 play,6,1,meusb101,??,,99/FL
 play,6,1,pippw101,??,,43
@@ -10052,16 +10052,17 @@ sub,bushj102,"Joe Bush",1,9,1
 play,8,0,peckr101,??,,99
 play,8,0,mogrg101,??,,K
 play,8,0,leibn101,??,,99
-play,8,1,wittw101,??,,NP
-sub,millr101,"R Miller",0,2,4
 play,8,1,wittw101,??,,23
 play,8,1,dugaj101,??,,S7
 play,8,1,ruthb101,??,,W.1-2
+com,"ej,mogrg101,P,holmd102,Balls and strikes"
+com,"ej,harrb106,M,holmd102,Balls and strikes"
+com,"$Pitcher Mogridge and Senators player-manager Harris"
+com,"ejected by HP umpire Holmes after walk to Ruth"
 play,8,1,pippw101,??,,NP
 sub,marbf101,"Firpo Marberry",0,9,1
-com,"ej,mogrg101,P,holmd102,Balls and strikes"
-com,"$Pitcher Mogridge ejected by HP umpire Holmes after"
-com,"walk to Ruth"
+play,8,1,pippw101,??,,NP
+sub,millr101,"R Miller",0,2,4
 play,8,1,pippw101,??,,6/P
 play,8,1,schaw101,??,,W.2-3;1-2
 play,8,1,meusb101,??,,W.3-H;2-3;1-2
@@ -10226,6 +10227,160 @@ sub,oneis101,"Steve O'Neill",0,9,11
 play,9,0,oneis101,??,,64(1)/FO
 data,er,fullc102,3
 data,er,pennh101,0
+id,NYA192409012
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,BOS
+info,hometeam,NYA
+info,site,NYC16
+info,date,1924/09/01
+info,number,2
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,umphome,morig101
+info,ump1b,holmd102
+info,ump2b,(none)
+info,ump3b,nalld901
+info,scorer,"71,96,163"
+info,translator,"Jim Herdman"
+info,inputter,"Jim Herdman"
+info,inputtime,2021/10/03 7:59PM
+info,howscored,unknown
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,130
+info,attendance,40000
+info,wp,shawb102
+info,lp,pierb103
+info,save,
+info,gwrbi,
+start,flagi101,"Ira Flagstead",0,1,8
+start,wambb101,"Bill Wambsganss",0,2,4
+start,booni101,"Ike Boone",0,3,9
+start,harrj103,"Joe Harris",0,4,3
+start,veacb101,"Bobby Veach",0,5,7
+start,clard101,"Danny Clark",0,6,5
+start,ezzeh101,"Homer Ezzell",0,7,6
+start,oneis101,"Steve O'Neill",0,8,2
+start,pierb103,"Bill Piercy",0,9,1
+start,wittw101,"Whitey Witt",1,1,8
+start,dugaj101,"Joe Dugan",1,2,5
+start,ruthb101,"Babe Ruth",1,3,9
+start,pippw101,"Wally Pipp",1,4,3
+start,hofmf101,"Fred Hofmann",1,5,2
+start,meusb101,"Bob Meusel",1,6,7
+start,warda101,"Aaron Ward",1,7,4
+start,scote101,"Everett Scott",1,8,6
+start,shawb102,"Bob Shawkey",1,9,1
+play,1,0,flagi101,??,,99
+play,1,0,wambb101,??,,S
+play,1,0,booni101,??,,CS2(24)
+play,1,0,booni101,??,,99
+play,1,1,wittw101,??,,W
+play,1,1,dugaj101,??,,99
+play,1,1,ruthb101,??,,W.1-2
+play,1,1,pippw101,??,,99
+play,1,1,hofmf101,??,,S.2-3;1-2
+play,1,1,meusb101,??,,99
+play,2,0,harrj103,??,,99
+play,2,0,veacb101,??,,W
+play,2,0,clard101,??,,2(B)6(1)/FL/DP
+play,2,1,warda101,??,,W
+play,2,1,scote101,??,,PO1(99)#
+play,2,1,scote101,??,,99
+play,2,1,shawb102,??,,99
+play,3,0,ezzeh101,??,,K
+play,3,0,oneis101,??,,W
+play,3,0,pierb103,??,,K
+play,3,0,flagi101,??,,FC.1-2;B-1#
+play,3,0,wambb101,??,,99
+play,3,1,wittw101,??,,W
+play,3,1,dugaj101,??,,S9.1-3
+play,3,1,ruthb101,??,,S9.3-H;1-3
+play,3,1,pippw101,??,,64(1)3/GDP.3-H(RBI)
+play,3,1,hofmf101,??,,E7/F.B-1
+play,3,1,meusb101,??,,S.1-3
+play,3,1,warda101,??,,CS2(24)
+play,4,0,booni101,??,,W
+play,4,0,harrj103,??,,99
+play,4,0,veacb101,??,,S.1-2
+play,4,0,clard101,??,,99
+play,4,0,ezzeh101,??,,99
+play,4,1,warda101,??,,99
+play,4,1,scote101,??,,99
+play,4,1,shawb102,??,,HR/8
+play,4,1,wittw101,??,,99
+play,5,0,oneis101,??,,99
+play,5,0,pierb103,??,,K
+play,5,0,flagi101,??,,99
+play,5,1,dugaj101,??,,99
+play,5,1,ruthb101,??,,99
+play,5,1,pippw101,??,,99
+play,6,0,wambb101,??,,S
+play,6,0,booni101,??,,S8.1-3
+play,6,0,harrj103,??,,FC5.3XH(52);1-2
+play,6,0,veacb101,??,,9/F
+play,6,0,clard101,??,,PO2(E1).2-H(E9)(UR);1-2
+com,"$Shawkey threw wild to second and Ruth fumbled over-throw"
+play,6,0,clard101,??,,99
+play,6,1,hofmf101,??,,99
+play,6,1,meusb101,??,,99
+play,6,1,warda101,??,,99
+play,7,0,ezzeh101,??,,S
+play,7,0,oneis101,??,,99
+play,7,0,pierb103,??,,SB2
+play,7,0,pierb103,??,,99
+play,7,0,flagi101,??,,E6.2-3;B-1
+play,7,0,wambb101,??,,99
+play,7,1,scote101,??,,T.B-H(E6)(NR)
+com,"Ezzell fumbled the relay."
+play,7,1,shawb102,??,,S7/G
+play,7,1,wittw101,??,,S/BG.1-2
+play,7,1,dugaj101,??,,S/G.2-3;1-2
+play,7,1,ruthb101,??,,D7/F7D.3-H;2-H;1-3
+play,7,1,pippw101,??,,NP
+sub,wintc101,"Clarence Winters",0,9,1
+play,7,1,pippw101,??,,S.3-H;2-H
+play,7,1,hofmf101,??,,53.1-2
+play,7,1,meusb101,??,,S/G.2-3
+play,7,1,warda101,??,,FC5.3XH(52);1-2
+play,7,1,scote101,??,,W.2-3;1-2
+play,7,1,shawb102,??,,S.3-H;2-H;1-2
+play,7,1,wittw101,??,,S.2-H;1-2
+play,7,1,dugaj101,??,,NP
+sub,gehrl101,"Lou Gehrig",1,2,11
+play,7,1,gehrl101,??,,NP
+sub,workh102,"Hoge Workman",0,9,1
+play,7,1,gehrl101,??,,W.2-3;1-2
+play,7,1,ruthb101,??,,7/F7D
+play,8,0,booni101,??,,NP
+sub,mcnam101,"Mike McNally",1,2,5
+play,8,0,booni101,??,,NP
+sub,johne102,"Ernie Johnson",1,7,4
+play,8,0,booni101,??,,99
+play,8,0,harrj103,??,,99
+play,8,0,veacb101,??,,99
+play,8,1,pippw101,??,,HR
+play,8,1,hofmf101,??,,99
+play,8,1,meusb101,??,,W
+play,8,1,johne102,??,,S.1-2
+play,8,1,scote101,??,,8(B)3(1)/DP
+play,9,0,clard101,??,,S9.B-2(E9)
+play,9,0,ezzeh101,??,,99
+play,9,0,oneis101,??,,D.2-H;BX3(99)#
+play,9,0,workh102,??,,NP
+sub,willd105,"Denny Williams",0,9,11
+play,9,0,willd105,??,,99
+data,er,pierb103,8
+data,er,wintc101,3
+data,er,workh102,1
+data,er,shawb102,1
 id,NYA192409021
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"

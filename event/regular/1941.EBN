@@ -25114,13 +25114,13 @@ start,stril101,"Lou Stringer",1,8,4
 start,olsev101,"Vern Olsen",1,9,1
 stat,bline,wietw101,0,1,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,mille104,0,1,2,1,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,0,0
-stat,bline,coonj101,0,2,1,5,0,2,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
+stat,bline,coonj101,0,2,1,5,0,2,0,0,0,0,0,0,0,1,-1,0,0,0,0,0
 stat,bline,gremb101,0,3,1,3,0,0,0,0,0,1,0,0,0,1,-1,0,0,0,1,0
 stat,bline,hassb101,0,3,2,1,1,1,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,rossc103,0,4,1,5,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,1,0
 stat,bline,wanep101,0,5,1,3,3,2,1,0,0,1,0,0,0,2,-1,0,0,0,0,0
 stat,bline,sists101,0,6,1,5,1,3,2,0,0,1,0,0,0,0,-1,0,0,0,0,0
-stat,bline,roweb101,0,7,1,4,0,4,0,0,0,2,0,0,0,1,-1,0,0,0,0,0
+stat,bline,roweb101,0,7,1,4,0,4,0,0,0,2,0,0,0,0,-1,1,0,0,0,0
 stat,bline,berrr101,0,8,1,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,bline,masip101,0,8,2,2,0,0,0,0,0,1,0,0,0,0,-1,0,0,0,0,0
 stat,bline,westm102,0,8,3,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
@@ -53154,7 +53154,7 @@ stat,dline,mccuc101,0,1,2,24,5,0,0,0,0,0
 stat,dline,stril101,0,1,4,24,2,1,0,0,0,0
 stat,dline,eavev101,0,1,1,21,0,1,0,0,0,0
 stat,dline,raffk101,0,1,1,3,0,0,0,0,0,0
-stat,dline,roweb101,1,1,4,27,2,2,0,1,0,0
+stat,dline,roweb101,1,1,4,27,2,2,0,0,0,0
 stat,dline,sists101,1,1,5,27,3,3,0,0,0,0
 stat,dline,hassb101,1,1,3,27,10,0,0,1,0,0
 stat,dline,wanep101,1,1,9,27,0,0,0,0,0,0
@@ -53166,7 +53166,7 @@ stat,dline,earlt101,1,1,1,27,0,0,0,0,0,0
 stat,pline,eavev101,0,1,21,-1,28,4,-1,-1,1,2,1,1,-1,5,1,0,0,0,0
 stat,pline,raffk101,0,2,3,-1,3,0,-1,-1,0,0,0,0,-1,0,0,0,0,0,0
 stat,pline,earlt101,1,1,27,-1,31,2,0,0,1,1,1,2,-1,4,0,0,0,1,0
-event,dpline,1,roweb101,hassb101
+event,dpline,1,hassb101
 event,sbline,1,roweb101,,mccuc101,-1
 event,sbline,1,moorg104,,mccuc101,-1
 event,hpline,0,eavev101,westm102

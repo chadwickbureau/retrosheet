@@ -10,8 +10,8 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,scorer,"73"
-info,translator,"Ron Fisher"
-info,inputter,"Ron Fisher"
+info,translator,"Ron Fisher/Smith"
+info,inputter,"Ron Fisher/Smith"
 info,inputtime,1996/08/22 10:11PM
 info,umphome,mccob104
 info,ump1b,hartb901
@@ -157,7 +157,9 @@ play,10,1,betth101,??,,NP
 sub,tonef101,"Fred Toney",0,9,1
 play,10,1,betth101,??,,S
 play,10,1,stenc101,??,,99
-play,10,1,rawlj101,??,,6(1)3/DP#
+play,10,1,rawlj101,??,,99
+play,10,1,willc103,??,,FLE9#
+play,10,1,willc103,??,,99
 play,11,0,burng101,??,,S
 play,11,0,bancd101,??,,W.1-2
 play,11,0,frisf101,??,,64(1)/FO.2-3
@@ -166,12 +168,10 @@ play,11,0,kellg101,??,,HR8/IPHR.1-H
 play,11,0,browe102,??,,S
 play,11,0,rappg101,??,,PO1(E1).1-2#
 play,11,0,rappg101,??,,99
-play,11,1,willc103,??,,FLE9#
-play,11,1,willc103,??,,99
 play,11,1,meusi101,??,,D
 play,11,1,wrigr102,??,,S.2-3
-play,11,1,parkf101,??,,99.3-H
-play,11,1,milld102,??,,99
+play,11,1,parkf101,??,,6(1)3/GDP.3-H(RBI)
+play,11,1,milld102,??,,8
 data,er,dougp101,4
 data,er,barnj102,0
 data,er,tonef101,1
@@ -402,7 +402,7 @@ play,2,1,meadl101,??,,S5/BG.2-3;1-2
 play,2,1,stenc101,??,,12(3)3/GDP.2-3;1-2
 play,2,1,rawlj101,??,,S8.3-H;2-H(E1)(UR);B-2
 play,2,1,willc103,??,,6/8
-play,3,0,burng101,??,,99#
+play,3,0,burng101,??,,2
 play,3,0,bancd101,??,,63
 play,3,0,frisf101,??,,7/FL
 play,3,1,meusi101,??,,S1
@@ -563,7 +563,7 @@ play,5,1,ringj101,??,,43
 play,5,1,stenc101,??,,43
 play,6,0,grift102,??,,W
 play,6,0,wheaz101,??,,9/DP.1X2(94)
-play,6,0,konee101,??,,99#
+play,6,0,konee101,??,,53
 play,6,1,rawlj101,??,,S7
 play,6,1,willc103,??,,16(1)/FO
 play,6,1,meusi101,??,,14(1)/FO
@@ -1326,7 +1326,7 @@ play,8,0,scotj101,??,,S7.2-H
 play,8,0,power101,??,,8
 play,8,1,wrigr102,??,,W
 play,8,1,millr101,??,,D.1-3
-play,8,1,lee-c101,??,,99/F
+play,8,1,lee-c101,??,,9/F
 play,8,1,brugf101,??,,IW
 play,8,1,meadl101,??,,HR/7.3-H;2-H;1-H
 com,"$Bounce HR"
@@ -2104,7 +2104,7 @@ start,willc103,"Cy Williams",1,6,8
 start,milld102,"Dots Miller",1,7,3
 start,wheam101,"Mack Wheat",1,8,2
 start,smitg104,"George Smith",1,9,1
-play,1,0,bigbc101,??,,S8.BX2(99)#
+play,1,0,bigbc101,??,,S8.BX2(8436)
 play,1,0,carem101,??,,S7
 play,1,0,marar101,??,,64(1)3/GDP
 play,1,1,nealg101,??,,63
@@ -2249,9 +2249,9 @@ start,milld102,"Dots Miller",1,7,3
 start,petej102,"John Peters",1,8,2
 start,causr101,"Red Causey",1,9,1
 play,1,0,bigbc101,??,,43
-play,1,0,carem101,??,,D/89
+play,1,0,carem101,??,,D8/89
 play,1,0,marar101,??,,13.2-3
-play,1,0,cutsg101,??,,4
+play,1,0,cutsg101,??,,4/P
 play,1,1,lebob101,??,,53
 play,1,1,rawlj101,??,,63
 play,1,1,meusi101,??,,9
@@ -2277,12 +2277,12 @@ play,4,1,wrigr102,??,,43
 play,4,1,parkf101,??,,S8
 play,4,1,willc103,??,,S9.1-2
 play,4,1,milld102,??,,9/L
-play,4,1,petej102,??,,S7.2-H;1X3(74)#
+play,4,1,petej102,??,,S7.2-H;1X3(754)
 com,"DWS: fielding credit invented"
 play,5,0,whitp102,??,,43
 play,5,0,tierc101,??,,2/FL
 play,5,0,grimc101,??,,13
-play,5,1,causr101,??,,6
+play,5,1,causr101,??,,6/P
 play,5,1,lebob101,??,,K
 play,5,1,rawlj101,??,,63
 play,6,0,schmw102,??,,S7
@@ -2299,7 +2299,7 @@ play,7,0,tierc101,??,,6(1)/FO
 play,7,1,willc103,??,,13/BG
 play,7,1,milld102,??,,S9
 play,7,1,petej102,??,,K
-play,7,1,causr101,??,,S/78.1-3
+play,7,1,causr101,??,,S8/78.1-3
 play,7,1,lebob101,??,,6(1)/FO
 play,8,0,grimc101,31,,NP
 sub,ringj101,"Jimmy Ring",1,9,1
@@ -2311,7 +2311,7 @@ sub,barnc102,"Clyde Barnhart",0,9,11
 play,8,0,barnc102,??,,3/FL
 play,8,1,rawlj101,??,,NP
 sub,zinnj101,"Jimmy Zinn",0,9,1
-play,8,1,rawlj101,??,,4
+play,8,1,rawlj101,??,,4/P
 play,8,1,meusi101,??,,7
 play,8,1,wrigr102,??,,63
 play,9,0,bigbc101,??,,3/P
@@ -2929,11 +2929,11 @@ play,8,1,wrigr102,??,,43
 play,9,0,hornr101,??,,S
 play,9,0,shotb101,??,,S.1-3
 play,9,0,mchea101,??,,D.3-H;1-3
-play,9,0,lavad101,??,,99/SH.3-H;2-3
-play,9,0,dillp101,??,,99
+play,9,0,lavad101,??,,8/SF.3-H;2-3
+play,9,0,dillp101,??,,9
 play,9,0,rivit101,??,,NP
 sub,mannl101,"Les Mann",0,9,11
-play,9,0,mannl101,??,,99
+play,9,0,mannl101,??,,43
 data,er,doakb101,4
 data,er,rivit101,0
 data,er,ringj101,3
@@ -3206,20 +3206,20 @@ play,8,0,wingi101,??,,S
 play,8,0,luqud101,??,,NP
 sub,hargb101,"Bubbles Hargrave",0,9,11
 play,8,0,hargb101,??,,64(1)3/GDP#
-play,8,0,bohns101,??,,99
+play,8,0,bohns101,??,,8
 play,8,1,lebob101,??,,NP
 sub,napib101,"Buddy Napier",0,9,1
 play,8,1,lebob101,??,,E6#
 play,8,1,meusi101,??,,4(B)3(1)/DP#
 play,8,1,wrigr102,??,,S
 play,8,1,millr101,??,,S.1-2#
-play,8,1,willc103,??,,99
-play,9,0,daubj101,??,,S
-play,9,0,rouse101,??,,99
-play,9,0,duncp101,??,,D.1-3
+play,8,1,willc103,??,,43
+play,9,0,daubj101,??,,S8
+play,9,0,rouse101,??,,8
+play,9,0,duncp101,??,,D7.1-3
 play,9,0,kopfl101,??,,HP
-play,9,0,fonsl101,??,,99.3-H
-play,9,0,see-c101,??,,99
+play,9,0,fonsl101,??,,43.3-H;2-3;1-2
+play,9,0,see-c101,??,,63
 data,er,luqud101,3
 data,er,napib101,0
 data,er,meadl101,2
@@ -4105,7 +4105,7 @@ play,6,0,snydf101,??,,99
 play,6,1,wrigr102,??,,NP
 sub,kingl103,"Lee King",0,6,8
 play,6,1,wrigr102,??,,S7
-play,6,1,lee-c101,??,,S.1X3(99)
+play,6,1,lee-c101,??,,S8.1X3(864)
 play,6,1,millr101,??,,8
 play,6,1,parkf101,??,,S7.1-2
 play,6,1,petej102,??,,S8.2-H;1-3;BX2(864)
@@ -4720,16 +4720,16 @@ play,8,0,grift102,??,,99
 play,8,1,lebob101,??,,K
 play,8,1,parkf101,??,,K
 play,8,1,wrigr102,??,,99
-play,9,0,wheaz101,??,,99
-play,9,0,schmr101,??,,D
-play,9,0,myerh102,??,,D.2-H
-play,9,0,janvh101,??,,99
-play,9,0,millo103,??,,S.2-H
+play,9,0,wheaz101,??,,2/FL
+play,9,0,schmr101,??,,D7
+play,9,0,myerh102,??,,D7.2-H
+play,9,0,janvh101,??,,63.2-3
+play,9,0,millo103,??,,S.3-H
 play,9,0,grimb101,??,,99
-play,9,1,meusi101,??,,S
-play,9,1,lee-c101,??,,S.1-2#
-play,9,1,willc103,??,,54(1)3/GDP.2-3
-play,9,1,millr101,??,,99
+play,9,1,meusi101,??,,S7
+play,9,1,lee-c101,??,,S5.1-2
+play,9,1,willc103,??,,9
+play,9,1,millr101,??,,46(1)3/GDP
 data,er,grimb101,3
 data,er,hubbb101,5
 id,PHI192107041
@@ -4740,7 +4740,7 @@ info,hometeam,PHI
 info,date,1921/07/04
 info,site,PHI09
 info,number,1
-info,starttime,0:00PM
+info,starttime,0:00AM
 info,daynight,day
 info,usedh,false
 info,scorer,"450"
@@ -5131,9 +5131,9 @@ play,7,1,lee-c101,??,,K/C
 play,7,1,willc103,??,,4
 play,7,1,millr101,??,,2/FL
 com,"pbp account ends here, rest deduced"
-play,8,0,holkw101,??,,99
+play,8,0,holkw101,??,,7
 play,8,0,fordh101,??,,S
-play,8,0,oneim102,??,,CS2(99)#
+play,8,0,oneim102,??,,CS2(26)
 play,8,0,oneim102,??,,S
 play,8,0,watsm103,??,,K
 play,8,1,brugf101,??,,S7
@@ -5143,7 +5143,7 @@ sub,lebob101,"Bevo LeBourveau",1,1,11
 play,8,1,lebob101,??,,D.2-H;1-3
 play,8,1,parkf101,??,,NP
 sub,kingl103,"Lee King",1,2,11
-play,8,1,kingl103,??,,99/SF.3-H
+play,8,1,kingl103,??,,8/SF.3-H
 play,8,1,wrigr102,??,,T.2-H
 play,8,1,meusi101,??,,NP
 sub,mcquh101,"Hugh McQuillan",0,9,1
@@ -5163,7 +5163,7 @@ play,9,0,soutb101,??,,W.1-2
 play,9,0,nichf101,??,,NP
 sub,hubbb101,"Bill Hubbell",1,9,1
 play,9,0,nichf101,??,,S.2XH(812);1-3
-play,9,0,boect101,??,,99(1)/FO
+play,9,0,boect101,??,,46(1)/FO
 data,er,watsm103,6
 data,er,causr101,1
 data,er,baums101,4
@@ -5599,21 +5599,21 @@ play,7,1,wrigr102,??,,7/SF.3-H
 play,7,1,meusi101,??,,6(1)3/GDP
 com,"pbp account ends here, rest deduced"
 play,8,0,smitj106,??,,99
-play,8,0,fourj101,??,,E6#
+play,8,0,fourj101,??,,99
 play,8,0,hornr101,??,,K
-play,8,0,mchea101,??,,99
-play,8,1,konee101,??,,99
+play,8,1,konee101,??,,7/F
 play,8,1,willc103,??,,D
-play,8,1,millr101,??,,99
+play,8,1,millr101,??,,6/P
 play,8,1,brugf101,??,,W
 play,8,1,ringj101,??,,S.2-H;1-2#
 play,8,1,rappg101,??,,D.2-H;1-3
 play,8,1,smitj107,??,,D.3-H;2-H
 play,8,1,wrigr102,??,,E3.2-3#
-play,8,1,meusi101,??,,99
-play,9,0,lavad101,??,,99
+play,8,1,meusi101,??,,3/FL
+play,9,0,mchea101,??,,99
+play,9,0,lavad101,??,,E6
 play,9,0,clemv101,??,,99
-play,9,0,stocm101,??,,S
+play,9,0,stocm101,??,,S.1-2
 play,9,0,pfefj101,??,,NP
 sub,schuj101,"Joe Schultz",0,9,11
 play,9,0,schuj101,??,,99
@@ -6019,7 +6019,7 @@ play,4,1,willc103,??,,SB3.2-H(E2/TH)(UR)
 play,4,1,willc103,??,,K
 play,5,0,schmw102,??,,NP
 sub,lee-c101,"Cliff Lee",1,8,2
-play,5,0,schmw102,??,,6
+play,5,0,schmw102,??,,6/P
 play,5,0,coopw101,??,,3E1
 play,5,0,bigbc101,??,,143.1-2
 play,5,0,marar101,??,,D9.2-H(UR)
@@ -6046,7 +6046,7 @@ play,7,0,robed103,??,,8
 play,7,1,willc103,??,,S
 play,7,1,millr101,??,,D/89.1XH(92)#
 com,"RGF: fielding credit invented"
-play,7,1,lee-c101,??,,6
+play,7,1,lee-c101,??,,6/P
 play,7,1,sedgd101,??,,5/L
 play,8,0,cutsg101,??,,NP
 sub,monrj101,"John Monroe",1,2,4
@@ -6054,7 +6054,7 @@ play,8,0,cutsg101,??,,S8
 play,8,0,barnc102,??,,8
 play,8,0,rohwr101,??,,36(1)/FO
 play,8,0,grimc101,??,,9
-play,8,1,rappg101,??,,4
+play,8,1,rappg101,??,,4/P
 play,8,1,monrj101,??,,S/BG
 play,8,1,kingl103,??,,D9.1-H
 play,8,1,meusi101,??,,8/L
@@ -6066,7 +6066,7 @@ play,9,0,bigbc101,??,,S4.1-3(E4/TH);B-2
 play,9,0,marar101,??,,FC4.3XH(42);2-3
 play,9,0,robed103,??,,CS2(26)
 play,9,1,millr101,??,,D7
-play,9,1,lee-c101,??,,4
+play,9,1,lee-c101,??,,4/P
 play,9,1,sedgd101,??,,NP
 sub,petej102,"John Peters",1,9,11
 play,9,1,petej102,??,,S6.2-3
@@ -6142,7 +6142,7 @@ play,2,1,konee101,??,,8/8D
 play,2,1,willc103,??,,7/L
 play,3,0,schmw102,??,,43
 play,3,0,carlh101,??,,D7
-play,3,0,bigbc101,??,,D/78.2-3
+play,3,0,bigbc101,??,,D7/78.2-3
 play,3,0,marar101,??,,63.3-H;2-3
 play,3,0,robed103,??,,S8.3-H
 play,3,0,cutsg101,??,,43
@@ -6152,7 +6152,7 @@ play,3,1,ringj101,??,,7
 play,4,0,barnc102,??,,S8
 play,4,0,whitp102,??,,S9.1-3
 play,4,0,grimc101,??,,4(1)4(B)/DP.3-H
-play,4,0,schmw102,??,,99
+play,4,0,schmw102,??,,53
 play,4,1,rappg101,??,,W
 play,4,1,monrj101,??,,4(1)/FO
 play,4,1,wrigr102,??,,46(1)3/GDP
@@ -6174,7 +6174,7 @@ play,7,0,whitp102,??,,W
 play,7,0,grimc101,??,,54(1)/FO
 play,7,0,schmw102,??,,K
 play,7,0,carlh101,??,,54(1)/FO
-play,7,1,wrigr102,??,,6
+play,7,1,wrigr102,??,,6/P
 play,7,1,meusi101,??,,43
 play,7,1,konee101,??,,D8
 play,7,1,willc103,??,,W
@@ -6184,7 +6184,7 @@ play,8,0,bigbc101,??,,7
 play,8,0,marar101,??,,8/89
 play,8,0,robed103,??,,3/FL
 play,8,1,ringj101,??,,K
-play,8,1,rappg101,??,,S
+play,8,1,rappg101,??,,S6
 play,8,1,monrj101,??,,8
 play,8,1,wrigr102,??,,53
 play,9,0,cutsg101,??,,63
@@ -6276,7 +6276,7 @@ play,1,1,konee101,??,,43
 play,2,0,duncp101,??,,S7
 play,2,0,wingi101,??,,S9.1-2
 play,2,0,crans102,??,,25(2)/FO/BG.1-2
-play,2,0,rixee101,??,,6E4.2-3;1-2
+play,2,0,rixee101,??,,FC6.1X2(6E4);2-3;B-1
 play,2,0,nealg101,??,,42(3)/FO.2-3;1-2
 play,2,0,bohns101,??,,S4.3-H(UR);2-3;1-2
 play,2,0,grohh101,??,,S9.3-H(UR);2-H(UR);1-3
@@ -6331,6 +6331,12 @@ play,8,0,daubj101,??,,23/SH.1-2
 play,8,0,duncp101,??,,S7.2-H(UR);BX2(75436)
 play,8,0,wingi101,??,,2/G
 play,8,1,rappg101,??,,S
+com,"ej,rappg101,P,morac102,Balls and strikes"
+com,"$Rapp ejected by HP umpire Moran for arguing balls"
+com,"and strikes. The ejection occurred while the pitcher"
+com,"was delivering a pitch on which Rapp singled. The"
+com,"single was allowed to stand and Rapp was removed for"
+com,"a pinch-runner after he reached 1st base."
 play,8,1,smitj107,??,,NP
 sub,richl103,"Lance Richbourg",1,1,12
 play,8,1,smitj107,??,,4/P
@@ -7715,7 +7721,7 @@ play,2,0,marar101,??,,7
 play,2,1,walkc101,??,,7
 play,2,1,konee101,??,,3/P
 play,2,1,kingl103,??,,K
-play,3,0,bigbc101,??,,4
+play,3,0,bigbc101,??,,4/P
 play,3,0,robed103,??,,63
 play,3,0,barnc102,??,,S8
 play,3,0,tierc101,??,,8/8D
@@ -7732,13 +7738,13 @@ play,4,1,lee-c101,??,,D/89
 play,4,1,walkc101,??,,3/G
 play,5,0,marar101,??,,9
 play,5,0,bigbc101,??,,D9
-play,5,0,robed103,??,,6
+play,5,0,robed103,??,,6/P
 play,5,0,barnc102,??,,S7.2-H
 play,5,0,tierc101,??,,64(1)/FO
 play,5,1,konee101,??,,W
 play,5,1,kingl103,??,,D9.1-3
-play,5,1,parkf101,??,,4
-play,5,1,henlb101,??,,S/89.3-H;2-H;B-2(E9)
+play,5,1,parkf101,??,,4/P
+play,5,1,henlb101,??,,S9/89.3-H;2-H;B-2(E9)
 play,5,1,smitg104,??,,3(B)36(2)/LDP
 play,6,0,whitp102,??,,63
 play,6,0,grimc101,??,,S7
@@ -7761,7 +7767,7 @@ play,7,1,monrj101,??,,NP
 sub,lebob101,"Bevo LeBourveau",1,9,12
 play,7,1,monrj101,??,,NP
 sub,brugf101,"Frank Bruggy",1,1,11
-play,7,1,brugf101,??,,3
+play,7,1,brugf101,??,,3/P
 play,7,1,milld102,??,,W.2-3;1-2
 play,7,1,lee-c101,??,,8
 play,8,0,robed103,??,,NP
@@ -7853,7 +7859,7 @@ play,2,0,adamb104,??,,E4.1-2
 play,2,0,marar101,??,,64(1)/FO
 play,2,1,walkc101,??,,S4
 play,2,1,konee101,??,,S8.1-2
-play,2,1,kingl103,??,,S.2-3;1-2
+play,2,1,kingl103,??,,S3.2-3;1-2
 play,2,1,parkf101,??,,D8.3-H;2-H;1-3
 play,2,1,petej102,??,,S7.3-H;2-3
 play,2,1,sedgd101,??,,SB2
@@ -7866,7 +7872,7 @@ play,3,0,barnc102,??,,HP.1-2
 play,3,0,tierc101,??,,7
 play,3,0,whitp102,??,,S9.2-H;1-3
 play,3,0,grimc101,??,,S1.3-H;1-3
-play,3,0,schmw102,??,,6
+play,3,0,schmw102,??,,6/P
 play,3,1,lebob101,??,,NP
 sub,zinnj101,"Jimmy Zinn",0,9,1
 play,3,1,lebob101,??,,8
@@ -7934,7 +7940,7 @@ play,9,1,lebob101,??,,S7
 play,9,1,wrigr102,??,,2/FL
 play,9,1,konee101,??,,64(1)/FO
 play,9,1,kingl103,??,,7
-play,10,0,grimc101,??,,S
+play,10,0,grimc101,??,,S6
 play,10,0,schmw102,??,,13/SH.1-2
 play,10,0,zinnj101,??,,FC5.2X3(5)
 play,10,0,marar101,??,,9/L
@@ -7942,7 +7948,7 @@ play,10,1,parkf101,??,,63
 play,10,1,petej102,??,,53
 play,10,1,smitg104,??,,D/89
 play,10,1,monrj101,??,,S8.2XH(82)
-play,11,0,bigbc101,??,,T/89
+play,11,0,bigbc101,??,,T9/89
 play,11,0,robed103,??,,9/SF.3-H
 play,11,0,barnc102,??,,63
 play,11,0,tierc101,??,,HR/7
@@ -8037,7 +8043,7 @@ play,3,1,kingl103,??,,8
 play,4,0,whitp102,??,,K/C
 play,4,0,grimc101,??,,3/G
 play,4,0,brott101,??,,7
-play,4,1,konee101,??,,6
+play,4,1,konee101,??,,6/P
 play,4,1,willc103,??,,31
 play,4,1,parkf101,??,,3/FL
 play,5,0,hamie101,??,,7
@@ -8047,7 +8053,7 @@ play,5,1,henlb101,??,,S7
 play,5,1,ringj101,??,,K
 play,5,1,monrj101,??,,36(1)/FO
 play,5,1,rappg101,??,,8
-play,6,0,robed103,??,,D/89
+play,6,0,robed103,??,,D8/89
 play,6,0,barnc102,??,,D9.2-H
 play,6,0,tierc101,??,,53
 play,6,0,whitp102,??,,W
@@ -8055,7 +8061,7 @@ play,6,0,grimc101,??,,31.2-3;1-2
 play,6,0,brott101,??,,1/L
 play,6,1,lee-c101,??,,43
 play,6,1,kingl103,??,,D7
-play,6,1,konee101,??,,6
+play,6,1,konee101,??,,6/P
 play,6,1,willc103,??,,9
 play,7,0,hamie101,??,,63
 play,7,0,marar101,??,,13
@@ -8171,7 +8177,7 @@ play,2,1,willc103,??,,9
 play,2,1,parkf101,??,,8
 play,2,1,petej102,??,,53
 play,3,0,glazw101,??,,K
-play,3,0,marar101,??,,D/78
+play,3,0,marar101,??,,D7/78
 play,3,0,bigbc101,??,,43.2-3
 play,3,0,robed103,??,,K
 play,3,1,wintj101,??,,D/78
@@ -8179,7 +8185,7 @@ play,3,1,monrj101,??,,13/SH.2-3
 play,3,1,rappg101,??,,8/L/SF.3-H
 play,3,1,lebob101,??,,2/FL
 play,4,0,barnc102,??,,S9
-play,4,0,tierc101,??,,S/78.1-3
+play,4,0,tierc101,??,,S7/78.1-3
 play,4,0,whitp102,??,,8/SF.3-H
 play,4,0,grimc101,??,,64(1)3/GDP
 play,4,1,kingl103,??,,K
@@ -8187,19 +8193,19 @@ play,4,1,konee101,??,,7/7D
 play,4,1,willc103,??,,HR/9
 play,4,1,parkf101,??,,2/FL
 play,5,0,schmw102,??,,S7
-play,5,0,glazw101,??,,34/SH.1-2#
+play,5,0,glazw101,??,,13/SH.1-2
 com,"RGF: fielding credit invented"
 play,5,0,marar101,??,,13.2-3
 play,5,0,bigbc101,??,,D9.3-H
 play,5,0,robed103,??,,43
 play,5,1,petej102,??,,53
 play,5,1,wintj101,??,,K
-play,5,1,monrj101,??,,D/89
+play,5,1,monrj101,??,,D9/89
 play,5,1,rappg101,??,,K
 play,6,0,barnc102,??,,4/L
 play,6,0,tierc101,??,,53
 play,6,0,whitp102,??,,13
-play,6,1,lebob101,??,,S/89
+play,6,1,lebob101,??,,S8/89
 play,6,1,kingl103,??,,5/P
 play,6,1,konee101,??,,PO1(16)
 play,6,1,konee101,??,,S8
@@ -9314,7 +9320,7 @@ com,"pbp account ends here, rest deduced"
 play,9,0,duncp101,??,,NP
 sub,smitg104,"George Smith",1,9,1
 play,9,0,duncp101,??,,S
-play,9,0,wingi101,??,,99
+play,9,0,wingi101,??,,56(1)/FO/BG
 play,9,0,kopfl101,??,,E6.1-2
 play,9,0,marqr102,??,,6(B)3(1)/DP#
 play,9,1,lee-c101,??,,S
@@ -10081,7 +10087,7 @@ info,hometeam,PHI
 info,date,1921/09/03
 info,site,PHI09
 info,number,1
-info,starttime,0:00PM
+info,starttime,0:00
 info,daynight,day
 info,usedh,false
 info,scorer,"450"
@@ -10647,7 +10653,7 @@ play,8,1,konee101,??,,HR/7.2-H
 play,8,1,kingl103,??,,7
 play,8,1,parkf101,??,,7
 play,9,0,stenc101,??,,8/78
-play,9,0,kellg101,??,,99
+play,9,0,kellg101,??,,K
 play,9,0,meusi101,??,,31
 play,9,1,brugf101,??,,43
 play,9,1,sedgd101,??,,NP

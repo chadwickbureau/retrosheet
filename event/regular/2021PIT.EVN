@@ -393,7 +393,7 @@ play,1,1,newmk001,12,CBCS,K
 play,2,0,pedej001,21,BBFX,43/G34D
 play,2,0,baezj001,20,BBX,HR/F8XD
 play,2,0,heywj001,22,BFFFBS,K
-play,2,0,sogae001,12,CBTX,8/F2
+play,2,0,sogae001,12,CBTX,8/F
 play,2,1,polag001,02,SFX,S16/G6M
 play,2,1,stalj001,22,CFBBX,S7/L7+.1-2
 play,2,1,fowld002,01,CX,D7/L78D.2-H;1-3
@@ -417,9 +417,10 @@ play,3,1,fowld002,10,BH,HP.2-3;1-2
 play,3,1,brubj001,01,CX,46(1)/FO/G4MS-.3-H;2-3;B-1
 play,3,1,fraza001,22,FFBFBX,7/F7L
 play,4,0,bryak001,00,H,HP
-com,"ej,borzm801,C,gibsg901,Hit by pitch"
-com,"$Cubs coach Mike Borzello ejected by HP umpire Gibson for"
-com,"arguing about two Cubs being hit by pitch"
+com,"ej,borzm801,C,gibsg901,Arguing umpire warning"
+com,"$Cubs coach Borzello ejected by HP umpire Gibson for"
+com,"arguing warning given to both teams after two Cubs"
+com,"were hit by pitches"
 play,4,0,pedej001,00,.X,S9/L9.1-3
 play,4,0,baezj001,22,BBS*S*S,K
 play,4,0,heywj001,21,BTBX,6/P6D
@@ -1645,7 +1646,7 @@ sub,evanp001,"Phillip Evans",1,9,11
 play,9,1,evanp001,02,.SSFC,K/C
 com,"ej,evanp001,P,hoyej901,Called third strike"
 com,"$Evans ejected by HP umpire Hoye for arguing"
-com,"Called third strike"
+com,"called third strike"
 play,9,1,fraza001,02,.FFFX,54(1)/FO/G56.B-1
 play,9,1,gonze004,02,SSX,63/G6
 data,er,gantj002,1
@@ -3009,7 +3010,7 @@ play,8,0,wadel001,12,.CBFFX,S9/G4
 play,8,0,slata001,32,1CBB*BF>B,W.1-2
 play,8,0,ruf-d001,10,B,NP
 com,"ej,sheld801,M,rippm901,Balls and strikes"
-com,"$Pirates manager ejected by HP umpire Ripperger for"
+com,"$Pirates manager Shelton ejected by HP umpire Ripperger for"
 com,"arguing that first pitch to Ruf was a strike"
 play,8,0,ruf-d001,22,B.*BCSS,K
 play,8,1,gameb001,00,,NP
@@ -7727,9 +7728,13 @@ play,1,1,perem005,00,S,SB2
 play,1,1,perem005,32,S.BFBBB,W
 play,1,1,newmk001,01,CX,S1/G2.3-H;2-H(E1)(NR);1-H(NR)(UR);B-2
 com,"ej,rojal801,M,riggj901,Fair/foul call"
-com,"$Mets manager Rojas ejected by HP umpire Riggs for arguing"
-com,"that Newman's dribbler was foul; no Met attempted to"
-com,"make a play, allowing all 3 runners to score"
+com,"$Mets manager Rojas ejected by HP umpire Riggs for"
+com,"arguing that Newman's dribbler was foul. Pitcher"
+com,"Walker swatted the ball away when he thought it was"
+com,"foul, the ball rolling toward the Pirates dugout."
+com,"When the Mets learned that it was ruled a fair ball,"
+com,"they argued with the umpire rather than retrieve the"
+com,"ball, allowing all three runners to score."
 play,1,1,brubj001,31,.BBCBB,W
 play,1,1,fraza001,00,,NP
 sub,smitd009,"Drew Smith",0,9,1

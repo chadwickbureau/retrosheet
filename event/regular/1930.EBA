@@ -58485,11 +58485,11 @@ stat,prline,hassj101,-1,1,1,0,0
 stat,dline,rices101,0,1,9,36,1,0,1,0,0,0
 stat,dline,wests101,0,1,8,36,1,1,0,0,0,0
 stat,dline,manuh101,0,1,7,36,4,0,0,0,0,0
-stat,dline,cronj101,0,1,6,36,2,6,0,0,0,0
-stat,dline,judgj101,0,1,3,36,14,2,0,1,0,0
+stat,dline,cronj101,0,1,6,36,2,6,0,1,0,0
+stat,dline,judgj101,0,1,3,36,14,2,0,2,0,0
 stat,dline,blueo102,0,1,5,36,2,2,0,0,0,0
 stat,dline,ruelm101,0,1,2,36,6,2,0,1,0,0
-stat,dline,hayej101,0,1,4,36,5,3,0,0,0,0
+stat,dline,hayej101,0,1,4,36,5,3,0,1,0,0
 stat,dline,hadlb101,0,1,1,27,0,0,1,0,0,0
 stat,dline,marbf101,0,1,1,3,0,1,0,0,0,0
 stat,dline,burkb102,0,1,1,6,1,0,0,0,0,0
@@ -58509,6 +58509,7 @@ stat,pline,burkb102,0,3,6,-1,9,1,-1,-1,0,1,1,2,-1,0,1,0,0,0,0
 stat,pline,collr104,1,1,27,-1,40,8,-1,-1,0,3,0,4,-1,2,0,0,0,1,0
 stat,pline,kimsc101,1,2,9,-1,16,7,-1,-1,0,5,5,3,-1,1,0,0,0,0,0
 event,dpline,0,judgj101,ruelm101,judgj101
+event,dpline,0,hayej101,cronj101,judgj101
 event,dpline,1,melis101,orouf101,bluel101
 event,sbline,1,goslg101,,ruelm101,-1
 event,csline,0,judgj101,,ferrr101,-1
@@ -58517,7 +58518,7 @@ event,csline,1,kresr101,,ruelm101,-1
 event,hpline,0,burkb102,mcnee101
 line,0,0,0,0,0,2,1,0,0,0,0,0,5
 line,1,1,0,0,0,1,0,0,0,1,0,0,1
-stat,tline,0,12,0,1,0
+stat,tline,0,12,0,2,0
 stat,tline,1,10,0,1,0
 id,CHA193009100
 version,3

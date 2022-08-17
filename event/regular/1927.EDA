@@ -349,7 +349,7 @@ ladj,0,6
 play,2,0,riceh101,??,,4/P
 ladj,0,5
 play,2,0,schuf101,??,,W
-com,"Schulte and Rice batted out of order, not noticed."
+com,"$Schulte and Rice batted out of order, not noticed."
 ladj,0,7
 play,2,0,gerbw101,??,,S6.1-3(E6/TH)
 play,2,0,schaw101,??,,SBH(UR);SB2
@@ -363,8 +363,8 @@ play,3,0,orouf101,??,,99
 play,3,0,melis101,??,,D
 play,3,0,sislg101,??,,S.2-3;B-2(TH)#
 play,3,0,millb110,??,,S8.3-H;2-H
-com,"Rice hit in Schulte's turn, hit double, Schulte called out."
-play,3,0,schuf101,??,,99
+play,3,0,schuf101,??,,99/BOOT
+com,"$Rice batted in Schulte's turn, hit double, Schulte called out."
 play,3,0,riceh101,??,,CS2(24)#
 play,3,1,gibss101,??,,K
 play,3,1,tavej101,??,,S
@@ -925,6 +925,7 @@ play,7,0,braxg101,??,,NP
 sub,culln102,"Nick Cullop",0,9,11
 play,7,0,culln102,??,,NP
 sub,woodl101,"Larry Woodall",1,8,2
+com,"ej,bassj102,P,nalld901,Balls and strikes"
 com,"$Catcher Bassler ejected by HP umpire Nallin for arguing"
 com,"ball call"
 play,7,0,culln102,??,,K
@@ -944,6 +945,7 @@ play,8,0,speat101,??,,NP
 sub,rubla101,"Art Ruble",1,4,7
 play,8,0,speat101,??,,E1/TH/BG.B-2
 play,8,0,goslg101,??,,99/SH.2-3
+com,"ej,onslj101,C,dinnb101,Call at 1B"
 com,"$Senators coach Onslow ejected by 1B umpire Dinneen for arguing"
 com,"Goslin was safe at 1st"
 play,8,0,judgj101,??,,8/F
@@ -1636,8 +1638,8 @@ play,2,0,tavej101,??,,S9.2-3
 play,2,0,bassj102,??,,SBH(UR);SB2
 play,2,0,bassj102,??,,W
 play,2,0,stonl101,??,,K
-com,"$O'Rouke is spiked, has injured thumb, tagging out Bassler"
 play,2,0,warnj101,??,,S8.2-H(UR);1X3(85)
+com,"$O'Rourke injured thumb when spiked tagging out Bassler"
 play,2,1,riceh101,??,,99
 play,2,1,schaw101,??,,99
 play,2,1,melis101,??,,99
@@ -1954,7 +1956,7 @@ play,2,1,woodl101,??,,99
 play,3,0,rices101,??,,99
 play,3,0,harrb106,??,,D
 play,3,0,speat101,??,,1/G/DP.2X3(165)
-com,"$Nothing about DP in stories; deducing Collins fields grounder, tags"
+com,"Nothing about DP in stories; deducing Collins fields grounder, tags"
 com,"tags batter and Harris is trapped between second and third"
 play,3,1,collr104,??,,K
 play,3,1,warnj101,??,,99
@@ -1996,7 +1998,7 @@ play,6,1,heilh101,??,,S8.3-H;1-3
 play,6,1,neunj101,20,,NP
 sub,marbf101,"Firpo Marberry",0,9,1
 play,6,1,neunj101,??,,W.1-2
-com,"Marberry comes in with 2-0 count and finishes the walk"
+com,"$Marberry comes in with 2-0 count and finishes the walk"
 play,6,1,tavej101,??,,S8/L.3-H;2-3;1-2
 play,6,1,woodl101,??,,99/P
 play,6,1,collr104,??,,NP
@@ -2055,6 +2057,7 @@ version,4
 info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,WS1
 info,hometeam,DET
+info,site,DET04
 info,date,1927/07/13
 info,number,1
 info,starttime,0:00PM
@@ -2214,6 +2217,7 @@ version,4
 info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,WS1
 info,hometeam,DET
+info,site,DET04
 info,date,1927/07/13
 info,number,2
 info,starttime,4:45PM
@@ -3232,7 +3236,7 @@ play,7,0,white102,??,,99
 play,7,0,warnj101,??,,99
 play,7,1,dixol101,??,,NP
 sub,rubla101,"Art Ruble",0,6,8
-com,"$Ruble may have come in at a different time; Wingo had should have"
+com,"Ruble may have come in at a different time; Wingo had should have"
 com,"caught Sisler's double--fell in front of him--in the sixth"
 play,7,1,dixol101,??,,K
 play,7,1,melis101,??,,99
@@ -3581,7 +3585,7 @@ play,8,1,hayej101,??,,99
 play,8,1,liseh101,??,,K
 play,9,0,bluel101,??,,99
 play,9,0,gehrc101,??,,99
-com,"$Boxes and official records show Gehringer as the last batter of the game"
+com,"Boxes and official records show Gehringer as the last batter of the game"
 com,"That is impossible since Wingo ended the 8th, which is in the boxes and"
 com,"a newspaper story; an extra AB for McManus is deduced to be the last out"
 play,9,0,mcmam101,??,,99
@@ -3593,6 +3597,7 @@ version,4
 info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,DET
 info,hometeam,WS1
+info,site,WAS09
 info,date,1927/09/15
 info,number,0
 info,starttime,0:00PM
@@ -4630,6 +4635,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,umphome,mcgob901
 info,ump1b,hildg101
 info,ump2b,(none)
 info,ump3b,(none)
@@ -4945,7 +4951,7 @@ start,hartg102,"Grover Hartley",1,6,2
 start,shanw103,"Wally Shaner",1,7,8
 start,rollr103,"Red Rollings",1,8,5
 start,wilth101,"Hal Wiltse",1,9,1
-com,"$Buddy Myer was hit on elbow during batting practice"
+com,"Buddy Myer was hit on elbow during batting practice"
 com,"and was a late scratch"
 play,1,0,warnj101,??,,7
 play,1,0,neunj101,??,,W
@@ -5030,7 +5036,7 @@ play,9,0,rubla101,??,,NP
 sub,mcmam101,"Marty McManus",0,5,11
 play,9,0,mcmam101,??,,S6.1-2
 play,9,0,gehrc101,??,,HR/89.2-H;1-H
-com,"$Ball bounced into stands; was a homer in those days"
+com,"$Bounce HR"
 play,9,0,tavej101,??,,S9
 play,9,0,woodl101,??,,D9.1-H
 play,9,0,carro101,??,,NP
@@ -5985,7 +5991,7 @@ info,visteam,SLA
 info,hometeam,BOS
 info,site,BOS07
 info,date,1927/09/13
-info,number,1
+info,number,2
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
@@ -6181,8 +6187,8 @@ play,1,1,carlc101,??,,99
 play,2,0,tavej101,??,,99
 play,2,0,woodl101,??,,99
 play,2,0,hollk101,??,,S/G
-play,2,0,bluel101,??,,T.1-3;BX3(99)
-com,"Blue missed 3b on an IPHR"
+play,2,0,bluel101,??,,T/AP.1X3(99)
+com,"$Holloway apparently scored but called out for missing 3rd"
 play,2,1,tobij101,??,,99
 play,2,1,todtp101,??,,99
 play,2,1,hartg102,??,,99
@@ -6272,6 +6278,7 @@ version,4
 info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,WS1
 info,hometeam,BOS
+info,site,BOS07
 info,date,1927/09/26
 info,number,2
 info,starttime,0:00PM
