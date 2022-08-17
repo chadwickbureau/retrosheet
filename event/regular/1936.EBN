@@ -885,7 +885,7 @@ info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,PIT
 info,hometeam,CIN
 info,site,CIN07
-info,date,1936/04/16
+info,date,	1936/04/16
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -13239,10 +13239,10 @@ stat,phline,lucar102,8,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,0,0
 stat,dline,jensw102,0,1,7,27,0,0,0,0,0,0
 stat,dline,wanel101,0,1,8,27,1,0,0,0,0,0
 stat,dline,wanep101,0,1,9,27,1,0,0,0,0,0
-stat,dline,vauga101,0,1,6,27,2,1,0,1,0,0
-stat,dline,suhrg101,0,1,3,27,7,0,0,1,0,0
+stat,dline,vauga101,0,1,6,27,2,1,0,0,0,0
+stat,dline,suhrg101,0,1,3,27,7,0,0,0,0,0
 stat,dline,brubb101,0,1,5,27,1,1,0,0,0,0
-stat,dline,younp101,0,1,4,27,4,2,1,1,0,0
+stat,dline,younp101,0,1,4,27,4,2,1,0,0,0
 stat,dline,todda101,0,1,2,27,11,2,0,0,0,0
 stat,dline,blanc101,0,1,1,21,0,1,0,0,0,0
 stat,dline,birkr101,0,1,1,6,0,0,0,0,0,0
@@ -13262,7 +13262,6 @@ stat,pline,birkr101,0,2,6,-1,6,0,-1,-1,0,0,0,0,-1,3,0,0,0,0,0
 stat,pline,johns101,1,1,24,3,32,7,-1,-1,0,3,3,1,-1,3,0,0,0,0,0
 stat,pline,jorgo101,1,2,2,-1,4,3,-1,-1,0,3,3,0,-1,1,0,0,0,0,0
 stat,pline,moore101,1,3,1,-1,3,1,-1,-1,1,1,1,0,-1,1,0,0,0,0,0
-event,dpline,0,vauga101,younp101,suhrg101
 event,hpline,0,blanc101,gomec101
 line,0,0,0,0,0,1,0,0,0,6
 line,1,2,0,0,0,0,0,2,0,0
@@ -34742,17 +34741,17 @@ stat,dline,coscj101,0,1,5,29,0,4,0,0,0,0
 stat,dline,lopea102,0,1,2,29,1,0,0,0,0,0
 stat,dline,cantb102,0,1,1,29,1,5,0,0,0,0
 stat,dline,hacks101,1,1,5,30,3,2,0,0,0,0
-stat,dline,hermb101,1,1,4,30,2,4,0,1,0,0
+stat,dline,hermb101,1,1,4,30,2,4,0,0,0,0
 stat,dline,galaa101,1,1,8,30,4,0,0,0,0,0
 stat,dline,odeak101,1,1,2,30,6,1,0,0,0,0
 stat,dline,demaf102,1,1,9,30,1,0,0,0,0,0
 stat,dline,stait101,1,1,7,30,1,0,0,0,0,0
 stat,dline,cavap101,1,1,3,30,8,0,0,1,0,0
-stat,dline,jurgb101,1,1,6,30,3,3,3,0,0,0
+stat,dline,jurgb101,1,1,6,30,3,3,3,1,0,0
 stat,dline,warnl101,1,1,1,30,2,1,0,0,0,0
 stat,pline,cantb102,0,1,29,-1,38,7,1,0,0,1,1,2,-1,1,0,0,0,3,0
 stat,pline,warnl101,1,1,30,-1,40,4,0,0,0,0,0,4,-1,6,0,0,0,1,0
-event,dpline,1,hermb101,cavap101
+event,dpline,1,jurgb101,cavap101
 event,sbline,0,moorg104,warnl101,odeak101,-1
 event,sbline,0,cantb102,warnl101,odeak101,-1
 line,0,0,0,0,0,0,0,0,0,0,0

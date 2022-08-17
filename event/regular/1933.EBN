@@ -4715,10 +4715,10 @@ stat,dline,dugag101,0,1,3,24,8,0,0,1,0,0
 stat,dline,warnj101,0,1,5,24,0,0,0,0,0,0
 stat,dline,pearf101,0,1,1,24,0,4,1,1,0,0
 stat,dline,urbab101,1,1,6,27,0,3,0,0,0,0
-stat,dline,jordb101,1,1,3,27,19,0,1,1,0,0
+stat,dline,jordb101,1,1,3,27,19,0,1,0,0,0
 stat,dline,wortr102,1,1,9,27,1,0,0,0,0,0
 stat,dline,bergw101,1,1,8,27,1,0,0,0,0,0
-stat,dline,hogas101,1,1,2,27,4,0,0,0,0,0
+stat,dline,hogas101,1,1,2,27,4,0,0,1,0,0
 stat,dline,gysed101,1,1,5,27,0,8,0,1,0,0
 stat,dline,moorr103,1,1,7,27,0,0,0,0,0,0
 stat,dline,marar101,1,1,4,27,2,5,0,1,0,0
@@ -4726,7 +4726,7 @@ stat,dline,betth101,1,1,1,27,0,3,0,0,0,0
 stat,pline,pearf101,0,1,24,-1,35,8,0,0,2,6,3,1,-1,1,0,0,0,2,0
 stat,pline,betth101,1,1,27,-1,41,11,5,0,0,3,3,3,-1,0,0,0,0,2,0
 event,dpline,0,pearf101,bartd101,dugag101
-event,dpline,1,gysed101,marar101,jordb101
+event,dpline,1,gysed101,marar101,hogas101
 line,0,0,0,0,0,2,0,0,1,0
 line,1,0,0,1,1,0,0,0,4
 event,hrline,1,bergw101,pearf101,4,0,-1

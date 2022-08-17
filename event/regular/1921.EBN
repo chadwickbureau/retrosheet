@@ -2037,7 +2037,7 @@ stat,dline,hainj101,0,1,1,14,0,2,1,0,0,0
 stat,dline,nortl101,0,1,1,7,0,1,0,0,0,0
 stat,dline,goodm102,0,1,1,3,0,0,0,0,0,0
 stat,dline,johnj107,1,1,5,27,1,1,0,1,0,0
-stat,dline,olsoi101,1,1,6,27,6,6,1,2,0,0
+stat,dline,olsoi101,1,1,6,27,6,6,1,1,0,0
 stat,dline,grift102,1,1,9,27,1,0,0,0,0,0
 stat,dline,wheaz101,1,1,7,27,1,2,0,1,0,0
 stat,dline,myerh102,1,1,8,27,1,0,0,0,0,0
@@ -2052,14 +2052,13 @@ stat,pline,grimb101,1,1,27,-1,44,18,-1,-1,1,7,2,1,-1,3,0,1,0,2,0
 event,sbline,1,konee101,,dillp101,-1
 event,csline,0,hornr101,grimb101,kruee101,-1
 event,hpline,0,hainj101,grimb101
-event,dpline,1,grimb101,johnj107,olsoi101
-event,dpline,1,kildp101,olsoi101,wheaz101,olsoi101
+event,dpline,1,grimb101,johnj107,olsoi101,wheaz101,olsoi101,kildp101
 line,0,1,1,1,0,0,1,0,1,2
 line,1,0,0,1,0,4,2,2,0
 event,hrline,1,kruee101,nortl101,7,1,0
 event,hrline,0,mchea101,grimb101,8,0,0
 stat,tline,0,10,0,0,0
-stat,tline,1,9,0,2,0
+stat,tline,1,9,0,1,0
 id,BRO192105180
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -36268,12 +36267,12 @@ stat,bline,millr101,1,7,1,4,0,0,0,0,0,0,0,0,0,0,-1,1,0,0,-1,0
 stat,bline,brugf101,1,8,1,3,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,hubbb101,1,9,1,3,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,olsoi101,0,1,4,27,0,2,0,1,0,0
-stat,dline,johnj107,0,1,5,27,4,2,0,2,0,0
+stat,dline,johnj107,0,1,5,27,4,2,0,1,0,0
 stat,dline,grift102,0,1,9,27,2,1,0,0,0,0
 stat,dline,wheaz101,0,1,7,27,0,0,0,0,0,0
 stat,dline,schmr101,0,1,3,27,10,0,0,2,0,0
 stat,dline,myerh102,0,1,8,27,1,0,0,0,0,0
-stat,dline,janvh101,0,1,6,27,0,0,0,0,0,0
+stat,dline,janvh101,0,1,6,27,0,0,0,1,0,0
 stat,dline,millo103,0,1,2,27,10,2,0,0,0,0
 stat,dline,grimb101,0,1,1,27,0,2,0,0,0,0
 stat,dline,lebob101,1,1,7,27,1,0,0,0,0,0
@@ -36290,7 +36289,7 @@ stat,pline,hubbb101,1,1,27,-1,36,8,-1,-1,1,5,5,0,-1,4,0,0,1,0,0
 event,csline,1,willc103,grimb101,millo103,-1
 event,dpline,1,meusi101,lee-c101,parkf101
 event,dpline,0,johnj107,schmr101
-event,dpline,0,johnj107,olsoi101,schmr101
+event,dpline,0,olsoi101,janvh101,schmr101
 line,0,0,0,0,0,2,1,0,0,2
 line,1,2,0,1,0,0,0,0,0,0
 event,hrline,0,johnj107,hubbb101,6,0,-1
@@ -41261,7 +41260,7 @@ start,grimc101,"Charlie Grimm",1,6,3
 start,mokaj101,"Johnny Mokan",1,7,7
 start,schmw102,"Walter Schmidt",1,8,2
 start,glazw101,"Whitey Glazner",1,9,1
-com,"Suspend=19210630,,3,2,45"
+com,"Suspend=19210630,,3,3,47"
 stat,bline,bohns101,0,1,1,3,2,1,0,0,1,1,0,0,0,1,-1,0,0,0,-1,0
 stat,bline,daubj101,0,2,1,4,0,1,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,bline,rouse101,0,3,1,3,1,2,0,1,0,1,0,0,0,1,-1,0,0,1,-1,0

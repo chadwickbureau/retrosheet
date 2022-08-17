@@ -1399,9 +1399,9 @@ info,umphome,passa901
 info,ump1b,papaj901
 info,ump2b,robbs901
 info,ump3b,hurle901
-info,scorer,"210,96"
-info,translator,"Comly"
-info,inputter,"Comly"
+info,scorer,"210,96,611"
+info,translator,"Comly/Smith"
+info,inputter,"Comly/Smith"
 info,inputtime,2008/06/09 1:48PM
 info,howscored,unknown
 info,pitches,none
@@ -1435,31 +1435,32 @@ start,michc101,"Cass Michaels",1,6,5
 start,courc101,"Clint Courtney",1,7,2
 start,goldg101,"Gordon Goldsberry",1,8,3
 start,pilld101,"Duane Pillette",1,9,1
-play,1,0,baueh101,??,,99#
-play,1,0,rizzp101,??,,99#
-play,1,0,norei101,??,,99#
+play,1,0,baueh101,??,,63
+play,1,0,rizzp101,??,,7
+play,1,0,norei101,??,,9
 play,1,1,younb101,??,,S
 play,1,1,marim101,??,,7
 play,1,1,rivej101,??,,2/P
 play,1,1,niemb101,??,,43
-play,2,0,berry101,??,,99#
+play,2,0,berry101,??,,5
 play,2,0,mizej101,??,,D
-play,2,0,woodg101,??,,99#
-play,2,0,mcdog101,??,,K#
+play,2,0,woodg101,??,,6
+play,2,0,mcdog101,??,,K
 play,2,1,dyckj101,??,,S
-play,2,1,michc101,??,,S.1-2#
-play,2,1,courc101,??,,S8.2-H;1X3(85)#
+play,2,1,michc101,??,,S.1-2
+play,2,1,courc101,??,,S8.2-H;1X2(864)
+com,"$Michaels rounded 2nd too far"
 play,2,1,goldg101,??,,16(1)3/GDP
 play,3,0,martb105,??,,8
 play,3,0,lopae101,??,,7
-play,3,0,baueh101,??,,99#
+play,3,0,baueh101,??,,8
 play,3,1,pilld101,??,,K
 play,3,1,younb101,??,,K
 play,3,1,marim101,??,,8
 play,4,0,rizzp101,??,,W
 play,4,0,norei101,??,,8
 play,4,0,berry101,??,,46(1)3/GDP
-play,4,1,rivej101,??,,5#
+play,4,1,rivej101,??,,5
 play,4,1,niemb101,??,,HR
 play,4,1,dyckj101,??,,K
 play,4,1,michc101,??,,63
@@ -1471,19 +1472,19 @@ play,5,1,courc101,??,,2
 play,5,1,goldg101,??,,31
 play,5,1,pilld101,??,,5
 play,6,0,lopae101,??,,31
-play,6,0,baueh101,??,,53#
+play,6,0,baueh101,??,,7/L
 play,6,0,rizzp101,??,,7
 play,6,1,younb101,??,,S
 play,6,1,marim101,??,,14/SH.1-2
 play,6,1,rivej101,??,,8
-play,6,1,niemb101,??,,S7.2-H;BX2(76)#
+play,6,1,niemb101,??,,S7.2-H;BX2(754)
 play,7,0,norei101,??,,K
 play,7,0,berry101,??,,D
 play,7,0,mizej101,??,,S.2-H
 play,7,0,woodg101,??,,NP
 sub,bridj101,"Jim Brideweser",0,5,12
 play,7,0,woodg101,??,,T.1-H
-play,7,0,mcdog101,??,,FC.3-3#
+play,7,0,mcdog101,??,,FC.3-3;B-1
 play,7,0,martb105,??,,13.1-2
 play,7,0,lopae101,??,,9
 play,7,1,dyckj101,??,,NP
@@ -1492,7 +1493,6 @@ play,7,1,dyckj101,??,,NP
 sub,norei101,"Irv Noren",0,3,3
 play,7,1,dyckj101,??,,K
 play,7,1,michc101,??,,63
-com,"DIFF: officials have Mantle ph"
 play,7,1,courc101,??,,7
 play,8,0,baueh101,??,,63
 play,8,0,rizzp101,??,,D
@@ -1511,7 +1511,7 @@ play,8,1,younb101,??,,53
 play,9,0,woodg101,??,,NP
 sub,arfth101,"Hank Arft",1,8,3
 play,9,0,woodg101,??,,S
-play,9,0,mcdog101,??,,99(1)/FO
+play,9,0,mcdog101,??,,16(1)/FO
 play,9,0,martb105,??,,46(1)3/GDP
 play,9,1,marim101,??,,D
 play,9,1,rivej101,??,,NP
@@ -3492,18 +3492,18 @@ info,umphome,summb901
 info,ump1b,grieb901
 info,ump2b,(none)
 info,ump3b,stevj901
-info,scorer,"276,102,208,266,119"
-info,translator,"David W. Smith"
-info,inputter,"David W. Smith"
+info,scorer,"276,102,208,266,119,611"
+info,translator,"David W. Smith, Wayne Townsend"
+info,inputter,"David W. Smith, Wayne Townsend"
 info,inputtime,2011/10/02 4:56PM
 info,howscored,unknown
 info,pitches,none
-info,temp,0
+info,temp,104
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,sunny
 info,timeofgame,147
 info,attendance,0
 info,wp,garvn102
@@ -3527,101 +3527,102 @@ start,mossl101,"Les Moss",1,6,2
 start,marsf101,"Fred Marsh",1,7,5
 start,marim101,"Marty Marion",1,8,6
 start,garvn102,"Ned Garver",1,9,1
-play,1,0,joose101,??,,HR/7
-play,1,0,fainf101,??,,99
-play,1,0,phild102,??,,S
-play,1,0,thomk101,??,,99
+play,1,0,joose101,21,,HR/F7D
+com,"Into LF bleachers"
+play,1,0,fainf101,??,,13
+play,1,0,phild102,??,,S8
+play,1,0,thomk101,??,,2
 play,1,0,valoe101,??,,W.1-2
 play,1,0,hitcb101,??,,E5/G.2XH(6);1-2
-com,"$Fred Marsh fumbled the grounder, which was retrieved by Marty Marion;"
-com,"Dave Philley rounded 3B too far"
-play,1,1,younb101,??,,99
+com,"Marion retrieved fumble and tagged Philley who overran 3B"
+play,1,1,younb101,??,,7
 play,1,1,rivej101,??,,K
-play,1,1,delsj101,??,,D
+play,1,1,delsj101,??,,D7
 play,1,1,niemb101,??,,W
-play,1,1,kryhd101,??,,99
-play,2,0,kells102,??,,99
-play,2,0,tiptj101,??,,99
+play,1,1,kryhd101,??,,31
+play,2,0,kells102,??,,63
+play,2,0,tiptj101,??,,53
 play,2,0,hoopb101,??,,K
-play,2,1,mossl101,??,,D
-play,2,1,marsf101,??,,FC.2-3;B-1
-play,2,1,marim101,??,,FC.3XH(99);1-2;B-1
-play,2,1,garvn102,??,,99
-play,2,1,younb101,??,,S.2-H(UR);1-2
-play,2,1,rivej101,??,,99
-play,3,0,joose101,??,,99
-play,3,0,fainf101,??,,99
+play,2,1,mossl101,??,,D7
+play,2,1,marsf101,??,,FC5.2-3(E5/TH2);B-1
+play,2,1,marim101,??,,FC6.3XH(62);1-2;B-1
+play,2,1,garvn102,??,,7
+play,2,1,younb101,??,,S8.2-H(UR);1-2
+play,2,1,rivej101,??,,4
+play,3,0,joose101,??,,8
+play,3,0,fainf101,??,,7
 play,3,0,phild102,??,,W
-play,3,0,thomk101,??,,SB2.1-3(E2/TH)
-play,3,0,thomk101,??,,99
-play,3,1,delsj101,??,,99
-play,3,1,niemb101,??,,S
-play,3,1,kryhd101,??,,99
-play,3,1,mossl101,??,,99
+play,3,0,thomk101,??,,SB2.1-3(E2/TH2)
+play,3,0,thomk101,??,,8
+play,3,1,delsj101,??,,43
+play,3,1,niemb101,??,,S8
+play,3,1,kryhd101,??,,2
+play,3,1,mossl101,??,,7
 play,4,0,valoe101,??,,W
-play,4,0,hitcb101,??,,S.1-2
-play,4,0,kells102,??,,99
-play,4,0,tiptj101,??,,99
+play,4,0,hitcb101,??,,S8.1-2
+play,4,0,kells102,??,,9.2-3
+play,4,0,tiptj101,??,,9
 play,4,0,hoopb101,??,,K
-play,4,1,marsf101,??,,99
-play,4,1,marim101,??,,99
-play,4,1,garvn102,??,,E6
+play,4,1,marsf101,??,,13
+play,4,1,marim101,??,,3
+play,4,1,garvn102,??,,E6/G
 play,4,1,younb101,??,,W.1-2
-play,4,1,rivej101,??,,S.2-H(UR);1-2
-play,4,1,delsj101,??,,D.2-H(UR);1-H(UR)
-play,4,1,niemb101,??,,99
-play,5,0,joose101,??,,99
+play,4,1,rivej101,??,,S8.2-H(UR);1-2
+play,4,1,delsj101,??,,D8.2-H(UR);1-H(UR)
+play,4,1,niemb101,??,,63
+play,5,0,joose101,??,,8
 play,5,0,fainf101,??,,W
 play,5,0,phild102,??,,54(1)3/GDP
-play,5,1,kryhd101,??,,HR/9
+play,5,1,kryhd101,??,,HR/F9D
+com,"Off the RF light standard"
 play,5,1,mossl101,??,,W
-play,5,1,marsf101,??,,99/SH.1-2
-play,5,1,marim101,??,,S.2-H(E5);BX2(99)
-play,5,1,garvn102,??,,S
-play,5,1,younb101,??,,99
-play,6,0,thomk101,??,,D
-play,6,0,valoe101,??,,99
-play,6,0,hitcb101,??,,S.2-H
+play,5,1,marsf101,??,,13/SH.1-2
+play,5,1,marim101,??,,S8.2-H;BX2(854)
+play,5,1,garvn102,??,,S7
+play,5,1,younb101,??,,13
+play,6,0,thomk101,??,,D8
+play,6,0,valoe101,??,,3
+play,6,0,hitcb101,??,,S8.2-H
 play,6,0,kells102,??,,54(1)3/GDP
 play,6,1,rivej101,??,,NP
 sub,wrige101,"Ed Wright",0,9,1
-play,6,1,rivej101,??,,S
-play,6,1,delsj101,??,,13/NDP.1X3(345)
-com,"$Rivera rounded 2nd too far and was trapped; not recorded"
-com,"as double play"
-play,6,1,niemb101,??,,S
-play,6,1,kryhd101,??,,99
-play,7,0,tiptj101,??,,99
-play,7,0,wrige101,??,,99
-play,7,0,joose101,??,,99
-play,7,1,mossl101,??,,99
-play,7,1,marsf101,??,,S
+play,6,1,rivej101,??,,S9
+play,6,1,delsj101,??,,13/NDP.1X3(365)
+com,"Rivera overran 2B and was trapped; no DP"
+play,6,1,niemb101,??,,S9
+play,6,1,kryhd101,??,,9
+play,7,0,tiptj101,??,,7
+play,7,0,wrige101,??,,2
+play,7,0,joose101,??,,53
+play,7,1,mossl101,??,,8
+play,7,1,marsf101,??,,S8
 play,7,1,marim101,??,,54(1)3/GDP
-play,8,0,fainf101,??,,99
-play,8,0,phild102,??,,99
-play,8,0,thomk101,??,,S
-play,8,0,valoe101,??,,S.1-2
-play,8,0,hitcb101,??,,99
-play,8,1,garvn102,??,,99
-play,8,1,younb101,??,,99
-play,8,1,rivej101,??,,T
-play,8,1,delsj101,??,,99
+play,8,0,fainf101,??,,63
+play,8,0,phild102,??,,9
+play,8,0,thomk101,??,,S7
+play,8,0,valoe101,??,,S8.1-2
+play,8,0,hitcb101,??,,63
+play,8,1,garvn102,??,,9
+play,8,1,younb101,??,,6
+play,8,1,rivej101,??,,T9
+play,8,1,delsj101,??,,43
 play,9,0,kells102,??,,NP
 sub,robes102,"Sherry Robertson",0,7,11
 play,9,0,robes102,??,,K
 play,9,0,tiptj101,??,,NP
 sub,clara102,"Allie Clark",0,8,11
-play,9,0,clara102,??,,HR
+play,9,0,clara102,??,,HR/F7D
+com,"Into LF bleachers"
 play,9,0,wrige101,??,,NP
 sub,zerng101,"Gus Zernial",0,9,11
-play,9,0,zerng101,??,,S
+play,9,0,zerng101,??,,S7
 play,9,0,joose101,??,,NP
 sub,astrj101,"Joe Astroth",0,9,12
-play,9,0,joose101,??,,NP
+play,9,0,joose101,20,,NP
 sub,paigs101,"Satchel Paige",1,9,1
 play,9,0,joose101,??,,K
 play,9,0,fainf101,??,,W.1-2
-play,9,0,phild102,??,,99/F
+play,9,0,phild102,??,,7/F
 data,er,hoopb101,2
 data,er,wrige101,0
 data,er,garvn102,3
@@ -3699,7 +3700,7 @@ play,3,0,everh101,??,,W.1-2
 play,3,0,kellg102,??,,S.2-H;1-2#
 play,3,0,vollc101,??,,7/F
 play,3,0,stepv101,??,,64(1)3/GDP
-play,3,1,marim101,??,,99#
+play,3,1,marim101,??,,2
 play,3,1,pilld101,??,,2/FL
 play,3,1,younb101,??,,43
 play,4,0,gernd101,??,,E5/G.B-1
@@ -5080,7 +5081,6 @@ play,1,0,fainf101,??,,99#
 play,1,0,phild102,??,,S
 play,1,0,thomk101,??,,S.1-2
 play,1,0,clara102,??,,99#
-play,1,1,younb101,??,,FLE5#
 play,1,1,younb101,??,,99#
 play,1,1,zaria101,??,,W
 play,1,1,niemb101,??,,64(1)3/GDP
@@ -5092,13 +5092,13 @@ play,2,1,mossl101,??,,99#
 play,2,1,kryhd101,??,,99#
 play,2,1,dyckj101,??,,W
 play,2,1,rivej101,??,,S.1-3#
-play,2,1,demaj101,??,,CSH(99)#
+play,2,1,demaj101,??,,CSH(242)
 play,3,0,joose101,??,,99#
 play,3,0,fainf101,??,,S
 play,3,0,phild102,??,,99#
 play,3,0,thomk101,??,,99#
 play,3,1,demaj101,??,,D
-play,3,1,cainb101,??,,OA.2X3(99)#
+play,3,1,cainb101,??,,PO2(26)
 play,3,1,cainb101,??,,99#
 play,3,1,younb101,??,,S
 play,3,1,zaria101,??,,K
@@ -5111,7 +5111,7 @@ play,4,1,kryhd101,??,,99#
 play,5,0,astrj101,??,,99#
 play,5,0,shanb102,??,,W
 play,5,0,joose101,??,,K+CS2(24)/DP#
-play,5,1,dyckj101,??,,HR
+play,5,1,dyckj101,??,,HR/7
 play,5,1,rivej101,??,,99#
 play,5,1,demaj101,??,,K
 play,5,1,cainb101,??,,99#
@@ -5120,14 +5120,14 @@ play,6,0,phild102,??,,64(1)3/GDP
 play,6,0,thomk101,??,,99#
 play,6,1,younb101,??,,99#
 play,6,1,zaria101,??,,K
-play,6,1,niemb101,??,,HR
+play,6,1,niemb101,??,,HR/7
 play,6,1,mossl101,??,,99#
 play,7,0,clara102,??,,NP
 sub,delsj101,"Jim Delsing",1,2,7
 play,7,0,clara102,??,,99#
-play,7,0,hitcb101,??,,S
-play,7,0,sudep101,??,,99#
-play,7,0,astrj101,??,,HR.1-H
+play,7,0,hitcb101,??,,S8
+play,7,0,sudep101,??,,4/P
+play,7,0,astrj101,??,,HR/7.1-H
 play,7,0,shanb102,??,,99#
 play,7,1,kryhd101,??,,99#
 play,7,1,dyckj101,??,,99#
@@ -5150,14 +5150,14 @@ play,9,0,valoe101,??,,99/FL#
 play,9,0,astrj101,??,,K
 play,9,1,niemb101,??,,NP
 sub,kells102,"Skeeter Kell",0,7,4
-play,9,1,niemb101,??,,S
+play,9,1,niemb101,??,,S8
 play,9,1,mossl101,??,,NP
 sub,garvn102,"Ned Garver",1,3,12
 play,9,1,mossl101,??,,54(1)3/GDP
 play,9,1,kryhd101,??,,NP
 sub,michc101,"Cass Michaels",1,5,11
-play,9,1,michc101,??,,S/1#
-play,9,1,dyckj101,??,,99#
+play,9,1,michc101,??,,S5.B-2(E5/TH)
+play,9,1,dyckj101,??,,2/FL
 data,er,shanb102,2
 data,er,cainb101,3
 data,er,paigs101,0
@@ -7304,7 +7304,7 @@ play,9,0,avilb101,??,,14/SH.1-2
 play,9,0,dobyl101,??,,NP
 sub,harre101,"Earl Harrist",1,9,1
 play,9,0,dobyl101,??,,IW
-play,9,0,rosea101,??,,99(1)/FO.2-3#
+play,9,0,rosea101,??,,14(1)/FO.2-3
 play,9,0,boonr101,??,,NP
 sub,eastl101,"Luke Easter",0,5,11
 play,9,0,eastl101,??,,E6/P/8S.3-H(NR)(UR);1-H(NR)(UR)

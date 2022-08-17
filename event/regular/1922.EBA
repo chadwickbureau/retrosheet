@@ -24036,11 +24036,11 @@ stat,phline,bakef102,9,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,phline,schaw101,8,0,1,0,0,0,0,0,0,0,0,0,0,-1,0,0,0,-1,0
 stat,dline,mille102,0,1,8,-1,1,0,0,0,0,0
 stat,dline,wittw101,0,1,8,-1,2,0,0,0,0,0
-stat,dline,mcnam101,0,1,4,24,3,5,1,0,0,0
+stat,dline,mcnam101,0,1,4,24,3,5,1,1,0,0
 stat,dline,ruthb101,0,1,7,24,1,0,0,0,0,0
 stat,dline,meusb101,0,1,9,24,2,0,0,0,0,0
 stat,dline,pippw101,0,1,3,24,9,1,0,2,0,0
-stat,dline,warda101,0,1,5,24,1,1,0,1,0,0
+stat,dline,warda101,0,1,5,24,1,1,0,0,0,0
 stat,dline,scote101,0,1,6,24,3,4,0,2,0,0
 stat,dline,hofmf101,0,1,2,24,2,0,0,0,0,0
 stat,dline,bushj102,0,1,1,8,0,1,0,0,0,0
@@ -24062,7 +24062,7 @@ stat,pline,jones104,0,3,3,-1,5,2,-1,-1,0,1,1,1,-1,0,0,0,0,0,0
 stat,pline,oldhr101,1,1,4,-1,10,5,-1,-1,0,5,5,0,-1,0,1,0,0,1,0
 stat,pline,ehmkh101,1,2,23,-1,33,7,-1,-1,0,3,2,3,-1,4,0,0,0,1,0
 event,dpline,0,scote101,pippw101
-event,dpline,0,scote101,warda101,pippw101
+event,dpline,0,scote101,mcnam101,pippw101
 event,sbline,0,meusb101,,bassj102,-1
 event,sbline,0,warda101,,bassj102,-1
 event,sbline,0,warda101,,bassj102,-1
