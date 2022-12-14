@@ -8,10 +8,10 @@ info,number,0
 info,starttime,5:30PM
 info,daynight,night
 info,innings,9
-info,usedh,false
+info,usedh,true
 info,umphome,hallt901
 info,ump1b,buckc901
-info,ump2b,guccc90
+info,ump2b,guccc901
 info,ump3b,barrl901
 info,umplf,rackd901
 info,umprf,hamaa901
@@ -52,7 +52,7 @@ start,realj001,"J. T. Realmuto",1,7,2
 start,reynb001,"Bryan Reynolds",1,8,8
 start,fraza001,"Adam Frazier",1,9,4
 start,schem001,"Max Scherzer",1,0,1
-com,"$Ohtani started the game as pitcher, but was allowed"
+com,"$Ohtani started the game as pitcher but was allowed"
 com,"to remain as DH"
 play,1,0,ohtas001,01,FX,43
 play,1,0,guerv002,21,FBBX,43
@@ -209,6 +209,7 @@ play,9,1,taylc001,01,SB,OA.1X2(24)
 play,9,1,taylc001,22,SB.SBFF*S,K
 play,9,1,albio001,32,BFBFBX,D9/F9LD
 play,9,1,turnt001,00,X,43
+data,er,ohtas001,0
 data,er,lynnl001,0
 data,er,gibsk002,0
 data,er,eovan001,0

@@ -12375,18 +12375,18 @@ info,umphome,harvd901
 info,ump1b,olsea901
 info,ump2b,colon901
 info,ump3b,crawj901
-info,scorer,"LA,Hou,Hunter"
-info,translator,"Clem Comly"
-info,inputter,"Clem Comly"
+info,scorer,"LA,Hou,Hunter,ABC"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"Clem Comly, Wayne Townsend"
 info,inputtime,1995/05/12 1:12AM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,213
 info,attendance,52339
 info,wp,howes001
@@ -12411,131 +12411,141 @@ start,guerp001,"Pedro Guerrero",1,6,8
 start,fergj101,"Joe Ferguson",1,7,2
 start,thomd001,"Derrell Thomas",1,8,6
 start,hootb001,"Burt Hooton",1,9,1
-play,1,0,puhlt001,??,,W
-play,1,0,cabee001,??,,SB2
-play,1,0,cabee001,??,,K
-play,1,0,morgj001,??,,K
-play,1,0,cruzj001,??,,9
-play,1,1,loped001,??,,8
-play,1,1,mondr001,??,,K
-play,1,1,baked002,??,,63
-play,2,0,cedec001,??,,S5/BG
-play,2,0,howea001,??,,SB2
-play,2,0,howea001,??,,E1/SH.2-3;B-1
-play,2,0,ashba001,??,,S8.3-H;1-3
-play,2,0,reync001,??,,S9.3-H(UR);1-2
-play,2,0,ruhlv001,??,,NP
+play,1,0,puhlt001,30,BBBB,W
+play,1,0,cabee001,00,>C,SB2
+play,1,0,cabee001,02,>C.LS,K
+play,1,0,morgj001,12,BCCS,K
+play,1,0,cruzj001,22,FBFBX,9/F89D
+play,1,1,loped001,10,BX,8/F8
+play,1,1,mondr001,12,CBCS,K
+play,1,1,baked002,11,BFX,63/G6
+play,2,0,cedec001,01,FX,S5/BG5S
+play,2,0,howea001,00,111>B,SB2
+play,2,0,howea001,11,111>B.FX,E1/B25/SH.2-3;B-1
+play,2,0,ashba001,00,X,S8/L78/TH3.3-H;1-3
+play,2,0,reync001,22,BFBFX,S9/L9.3-H(UR);1-2
+play,2,0,ruhlv001,00,,NP
 sub,castr001,"Robert Castillo",1,9,1
-play,2,0,ruhlv001,??,,15(2)/FO.1-2
-play,2,0,puhlt001,??,,W.2-3;1-2
-play,2,0,cabee001,??,,K
-play,2,0,morgj001,??,,2/FL
-play,2,1,garvs001,??,,S5/BG
-play,2,1,cey-r001,??,,9
-play,2,1,guerp001,??,,9
-play,2,1,fergj101,??,,9
-play,3,0,cruzj001,??,,K
-play,3,0,cedec001,??,,7
-play,3,0,howea001,??,,13
-play,3,1,thomd001,??,,S8
-play,3,1,castr001,??,,NP
+play,2,0,ruhlv001,00,X,15(2)/FO/BG25.1-2
+play,2,0,puhlt001,32,SBFBB>B,W.2-3;1-2
+play,2,0,cabee001,12,CBFFFS,K
+play,2,0,morgj001,21,SB*BX,2/P2F/FL
+play,2,1,garvs001,11,SBX,S5/BG5S
+play,2,1,cey-r001,12,1B11SC1F1X,9/F9
+play,2,1,guerp001,01,1SX,9/F9S
+play,2,1,fergj101,21,111B1SB11X,9/L9L
+play,3,0,cruzj001,22,BCCBS,K
+play,3,0,cedec001,20,BBX,7/F7DW
+play,3,0,howea001,02,CSX,13/G1
+play,3,1,thomd001,22,CBBSX,S7/F7S
+play,3,1,castr001,20,11B*B,NP
 sub,anduj001,"Joaquin Andujar",0,9,1
-play,3,1,castr001,??,,CS2(24)#
-play,3,1,castr001,??,,K
-play,3,1,loped001,??,,W
-play,3,1,mondr001,??,,64(1)/FO
-play,4,0,ashba001,??,,S9
-play,4,0,reync001,??,,53/SH.1-2
-play,4,0,anduj001,??,,K
-play,4,0,puhlt001,??,,D8.2-H
-play,4,0,cabee001,??,,K
-play,4,1,baked002,??,,S7
-play,4,1,garvs001,??,,3/P
-play,4,1,cey-r001,??,,K
-play,4,1,guerp001,??,,K
-play,5,0,morgj001,??,,43
-play,5,0,cruzj001,??,,8
-play,5,0,cedec001,??,,9
-play,5,1,fergj101,??,,63
-play,5,1,thomd001,??,,S7
-play,5,1,castr001,??,,NP
+com,"Ruhle had ripped open a two-stitch wound on the tip of the"
+com,"index finger of his pitching hand, suffered when he snagged"
+com,"the finger on a protruding nail in the Astros' dugout the"
+com,"night before as he reached for a towel."
+play,3,1,castr001,22,11B*B.1C1L111L,K/BG/FL
+play,3,1,loped001,20,BB>B,CS2(24)
+com,"Thomas' head-first slide beat the throw but Morgan blocked"
+com,"the bag with his knee."
+play,3,1,loped001,31,BB>B.CB,W
+play,3,1,mondr001,12,BF1>FX,64(1)/FO/G6
+play,4,0,ashba001,01,FX,S8/L4D
+play,4,0,reync001,11,FBX,53/BG5S/SH.1-2
+play,4,0,anduj001,02,SFS,K
+play,4,0,puhlt001,11,CBX,D8/F78D.2-H
+play,4,0,cabee001,22,SBFBFS,K
+play,4,1,baked002,31,BCBBX,S7/L7S
+play,4,1,garvs001,20,BBX,3/P3L
+play,4,1,cey-r001,12,BCSS,K
+play,4,1,guerp001,02,CSS,K
+play,5,0,morgj001,01,CX,43/G4
+play,5,0,cruzj001,22,SFBBFX,8/F78S
+play,5,0,cedec001,12,BCSX,9/F9
+play,5,1,fergj101,21,BSBX,63/G6
+play,5,1,thomd001,01,CX,S7/L5D
+play,5,1,castr001,00,,NP
 sub,thomg101,"Gary Thomasson",1,9,11
-play,5,1,thomg101,??,,S9.1-2
-play,5,1,loped001,??,,S8.2-H;1-2
-play,5,1,mondr001,??,,NP
+play,5,1,thomg101,10,1BX,S9/L9S.1-2
+play,5,1,loped001,01,FX,S8/L8.2-H;1-2
+play,5,1,mondr001,00,,NP
 sub,sambj001,"Joe Sambito",0,9,1
-play,5,1,mondr001,??,,NP
+play,5,1,mondr001,00,,NP
 sub,hatcm001,"Mickey Hatcher",1,2,11
-play,5,1,hatcm001,??,,64(1)3/GDP
-play,6,0,howea001,??,,NP
+play,5,1,hatcm001,00,X,64(1)3/GDP/G6
+play,6,0,howea001,00,,NP
 sub,hatcm001,"Mickey Hatcher",1,2,9
-play,6,0,howea001,??,,NP
+play,6,0,howea001,00,,NP
 sub,valef001,"Fernando Valenzuela",1,9,1
-play,6,0,howea001,??,,8
-play,6,0,ashba001,??,,K/C
-play,6,0,reync001,??,,3/G
-play,6,1,baked002,??,,9
-play,6,1,garvs001,??,,K
-play,6,1,cey-r001,??,,7
-play,7,0,sambj001,??,,5/FL
-play,7,0,puhlt001,??,,W
-play,7,0,cabee001,??,,SB2#
-play,7,0,cabee001,??,,9
-play,7,0,morgj001,??,,8
-play,7,1,guerp001,??,,NP
+play,6,0,howea001,21,BBFX,8/F78XD
+play,6,0,ashba001,12,CSBC,K/C
+play,6,0,reync001,00,X,3/G3
+play,6,1,baked002,31,BBCBX,9/F9
+play,6,1,garvs001,32,BFBFFBS,K
+play,6,1,cey-r001,31,BBBCX,7/F7
+play,7,0,sambj001,22,BBSFFX,5/P25F/FL
+play,7,0,puhlt001,32,BFFFBFFFBB,W
+play,7,0,cabee001,22,C1FBB>Y,9/F9
+play,7,0,morgj001,11,SB1,SB2
+com,"Valenzuela had him picked off but Puhl beat Garvey's throw"
+play,7,0,morgj001,12,SB1.CX,8/F89S
+play,7,1,guerp001,00,,NP
 sub,landr001,"Rafael Landestoy",0,3,4
-play,7,1,guerp001,??,,S9
-play,7,1,fergj101,??,,S7.1-2
-play,7,1,thomd001,??,,54/SH.2-3;1-2
-play,7,1,valef001,??,,NP
+play,7,1,guerp001,11,CBX,S49/L4D
+play,7,1,fergj101,32,BSB11S11BX,S7/L7.1-2
+play,7,1,thomd001,11,BLX,54/BG5S/SH.2-3;1-2
+play,7,1,valef001,00,,NP
 sub,motam101,"Manny Mota",1,9,11
-play,7,1,motam101,??,,S9.3-H;2-3;B-2(TH)
-play,7,1,loped001,??,,NP
+play,7,1,motam101,22,FBFBX,S9/L9S.3-H;2-3;B-2(THH)
+play,7,1,loped001,00,,NP
 sub,lacof001,"Frank LaCorte",0,9,1
-play,7,1,loped001,??,,NP
+play,7,1,loped001,00,,NP
 sub,weisg101,"Gary Weiss",1,9,12
-play,7,1,loped001,??,,NP
+play,7,1,loped001,00,,NP
 sub,law-r001,"Rudy Law",1,7,12
-play,7,1,loped001,??,,53
-play,7,1,hatcm001,??,,NP
+play,7,1,loped001,00,X,53/G5S
+play,7,1,hatcm001,00,,NP
 sub,johnj002,"Jay Johnstone",1,2,11
-play,7,1,johnj002,??,,W
-play,7,1,baked002,??,,2/FL
-play,8,0,cruzj001,??,,NP
+play,7,1,johnj002,31,BCBBB,W
+play,7,1,baked002,01,CX,2/P2F/FL
+play,8,0,cruzj001,00,,NP
 sub,howes001,"Steve Howe",1,9,1
-play,8,0,cruzj001,??,,NP
+play,8,0,cruzj001,00,,NP
 sub,yeags001,"Steve Yeager",1,7,2
-play,8,0,cruzj001,??,,NP
+play,8,0,cruzj001,00,,NP
 sub,johnj002,"Jay Johnstone",1,2,9
-play,8,0,cruzj001,??,,2/FL
-play,8,0,cedec001,??,,S9
-play,8,0,howea001,??,,K/C
-play,8,0,ashba001,??,,8
-play,8,1,garvs001,??,,NP
+play,8,0,cruzj001,01,FX,2/P2F/FL
+play,8,0,cedec001,02,FFX,S9/F89
+play,8,0,howea001,02,>FFC,K/C
+play,8,0,ashba001,01,F>X,8/F89
+play,8,1,garvs001,00,,NP
 sub,bergd001,"Dave Bergman",0,6,3
-play,8,1,garvs001,??,,E5.B-1
-play,8,1,cey-r001,??,,HR/7.1-H(UR)
-play,8,1,guerp001,??,,5/P
-play,8,1,yeags001,??,,S7
-play,8,1,thomd001,??,,K
-play,8,1,howes001,??,,64(1)/FO
-play,9,0,reync001,??,,NP
+play,8,1,garvs001,31,BSBBX,E5/G5.B-1
+play,8,1,cey-r001,32,MPLBFB>F>F>F>X,HR/F78XD.1-H(UR)
+com,"Into LCF bleachers at the 385' mark"
+play,8,1,guerp001,10,BX,5/P6S
+play,8,1,yeags001,12,CSBX,S7/L7S
+play,8,1,thomd001,22,FBBSFFS,K
+play,8,1,howes001,12,CCBX,64(1)/FO/G6
+play,9,0,reync001,00,,NP
 sub,friap101,"Pepe Frias",1,6,6
-play,9,0,reync001,??,,NP
+play,9,0,reync001,00,,NP
 sub,thomd001,"Derrell Thomas",1,8,8
-play,9,0,reync001,??,,NP
+play,9,0,reync001,00,,NP
 sub,leonj001,"Jeff Leonard",0,8,11
-play,9,0,leonj001,??,,9/FL
-play,9,0,lacof001,??,,NP
+play,9,0,leonj001,02,SFX,9/F9LF/FL
+com,"Johnstone: tumbling catch in the stands"
+play,9,0,lacof001,00,,NP
 sub,woodg001,"Gary Woods",0,9,11
-play,9,0,woodg001,??,,S9
-play,9,0,puhlt001,??,,46(1)/FO
-play,9,0,cabee001,??,,S7.1-3
-play,9,0,landr001,??,,NP
+play,9,0,woodg001,00,X,S9/L89
+com,"Johnstone just missed diving catch"
+play,9,0,puhlt001,00,X,46(1)/FO/G4
+play,9,0,cabee001,01,SX,S7/L78.1-3
+play,9,0,landr001,00,,NP
 sub,suttd001,"Don Sutton",1,9,1
-play,9,0,landr001,??,,NP
+play,9,0,landr001,00,,NP
 sub,walld001,"Dennis Walling",0,3,11
-play,9,0,walld001,??,,43
+play,9,0,walld001,01,C1X,43/G4
 data,er,ruhlv001,0
 data,er,anduj001,1
 data,er,sambj001,1
@@ -12560,18 +12570,18 @@ info,umphome,harvd901
 info,ump1b,colon901
 info,ump2b,rungp901
 info,ump3b,dalej901
-info,scorer,"LA, Hunter"
-info,translator,"Clem Comly"
-info,inputter,"Clem Comly"
+info,scorer,"LA, Hunter, ABC"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"Clem Comly, Wayne Townsend"
 info,inputtime,1995/05/12 1:33AM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,190
 info,attendance,51127
 info,wp,niekj001
@@ -12596,117 +12606,128 @@ start,fergj101,"Joe Ferguson",1,6,2
 start,hatcm001,"Mickey Hatcher",1,7,5
 start,thomd001,"Derrell Thomas",1,8,6
 start,goltd101,"Dave Goltz",1,9,1
-com,"$Playoff to decide NL West title"
-play,1,0,puhlt001,??,,E4.B-1
-play,1,0,cabee001,??,,S8.1-3
-play,1,0,morgj001,??,,SB2
-play,1,0,morgj001,??,,K
-play,1,0,cruzj001,??,,FC5.3XH(5E2)(NR)(UR);2-3;B-1
-play,1,0,cedec001,??,,43.3-H(UR);1-2
-play,1,0,howea001,??,,S5.2-3
-play,1,0,ashba001,??,,7
-play,1,1,loped001,??,,53
-play,1,1,johnj002,??,,43
-play,1,1,baked002,??,,K
-play,2,0,reync001,??,,S8
-play,2,0,niekj001,??,,24/SH.1-2
-play,2,0,puhlt001,??,,3/G.2-3
-play,2,0,cabee001,??,,K
-play,2,1,garvs001,??,,4/P
-play,2,1,mondr001,??,,8/L
-play,2,1,fergj101,??,,43
-play,3,0,morgj001,??,,9
-play,3,0,cruzj001,??,,S7
-play,3,0,cedec001,??,,CS2(26)
-play,3,0,cedec001,??,,S8
-play,3,0,howea001,??,,SB2
-play,3,0,howea001,??,,HR/7.2-H
-play,3,0,ashba001,??,,S8
-play,3,0,reync001,??,,D8.1XH(842)
-play,3,1,hatcm001,??,,S7
-play,3,1,thomd001,??,,S8.1-3
-play,3,1,goltd101,??,,NP
+com,"Playoff to decide NL West title"
+play,1,0,puhlt001,11,CBX,E4/G4.B-1
+play,1,0,cabee001,21,11P>F11P11X,S8/L4D.1-3
+play,1,0,morgj001,32,B1BSF1B1>F>S,K+SB2
+play,1,0,cruzj001,12,BCCX,FC5/G5.3XH(5E2)(NR)(UR);2-3;B-1
+com,"Puhl's slide dislodged the ball from Ferguson's glove"
+play,1,0,cedec001,00,1X,43/G4.3-H(UR);1-2
+play,1,0,howea001,10,BX,S5/G5L.2-3
+com,"Hatcher: diving backhanded stop"
+play,1,0,ashba001,20,BB1X,7/F7S
+play,1,1,loped001,10,BX,53/G56S
+play,1,1,johnj002,11,CBX,43/G4
+play,1,1,baked002,12,CFBFS,K
+play,2,0,reync001,00,X,S8/L6D
+play,2,0,niekj001,11,B1LX,24/BG1S/SH.1-2
+play,2,0,puhlt001,10,BX,3/G3.2-3
+play,2,0,cabee001,02,FFS,K
+play,2,1,garvs001,21,BBFX,4/P34
+play,2,1,mondr001,12,BFFX,9/L9
+play,2,1,fergj101,22,BBSCX,43/G4M
+play,3,0,morgj001,11,CBX,9/F89
+play,3,0,cruzj001,21,BBFX,S7/G56
+play,3,0,cedec001,00,11>P,CS2(26)
+play,3,0,cedec001,10,11>P.X,S8/G4M
+play,3,0,howea001,01,F1>C,SB2
+play,3,0,howea001,32,F1>C.BBFBFX,HR/F78XD.2-H
+com,"Into LCF bleachers to the right of the 385' mark"
+play,3,0,ashba001,00,X,S8/L8
+play,3,0,reync001,00,11X,D8/F89D.1XH(842)
+play,3,1,hatcm001,10,BX,S7/G56
+play,3,1,thomd001,10,BX,S8/L89.1-3
+play,3,1,goltd101,00,,NP
 sub,law-r001,"Rudy Law",1,9,11
-play,3,1,law-r001,??,,7
-play,3,1,loped001,??,,7
-play,3,1,johnj002,??,,5/FL
-play,4,0,niekj001,??,,NP
+play,3,1,law-r001,00,X,7/F7
+play,3,1,loped001,00,1X,7/F7
+play,3,1,johnj002,12,CBFX,5/P25F/FL
+play,4,0,niekj001,00,,NP
 sub,sutcr001,"Rick Sutcliffe",1,9,1
-play,4,0,niekj001,??,,53
-play,4,0,puhlt001,??,,S5/BG
-play,4,0,cabee001,??,,SB2
-play,4,0,cabee001,??,,SB3
-play,4,0,cabee001,??,,W
-play,4,0,morgj001,??,,W.1-2
-play,4,0,cruzj001,??,,NP
+play,4,0,niekj001,22,BBCFX,53/G5
+play,4,0,puhlt001,00,X,S5/BG5S
+play,4,0,cabee001,10,111P11>P,SB2
+play,4,0,cabee001,31,111P11>P.BT>B,W+SB3
+play,4,0,morgj001,32,*BB1BSFB,W.1-2
+play,4,0,cruzj001,00,,NP
 sub,beckj001,"Joe Beckwith",1,9,1
-play,4,0,cruzj001,??,,8/SF.3-H
-play,4,0,cedec001,??,,W.2-3;1-2
-play,4,0,howea001,??,,S5.3-H;2-H;1-3
-play,4,0,ashba001,??,,NP
+play,4,0,cruzj001,10,BX,8/F78D/SF.3-H
+com,"Monday: diving catch"
+play,4,0,cedec001,32,CBB+2BF>B,W.2-3;1-2
+play,4,0,howea001,00,X,S8/G6M.3-H;2-H;1-3
+play,4,0,ashba001,00,,NP
 sub,castr001,"Robert Castillo",1,9,1
-play,4,0,ashba001,??,,W.1-2
-play,4,0,reync001,??,,K23
-play,4,1,baked002,??,,NP
+play,4,0,ashba001,32,BSBFBB,W.1-2
+play,4,0,reync001,02,SS*S,K23
+play,4,1,baked002,00,,NP
 sub,landr001,"Rafael Landestoy",0,3,4
-play,4,1,baked002,??,,S8.B-2(E5)
-play,4,1,garvs001,??,,K23
-play,4,1,mondr001,??,,S8.2-H(UR)
-play,4,1,fergj101,??,,K/C
-play,4,1,hatcm001,??,,8
-play,5,0,niekj001,??,,K
-play,5,0,puhlt001,??,,43
-play,5,0,cabee001,??,,D9
-play,5,0,landr001,??,,5/L
-play,5,1,thomd001,??,,W
-play,5,1,castr001,??,,NP
+play,4,1,baked002,12,BCFX,S5/G5.B-2(E5/TH1)
+com,"Time was called when fans started throwing objects on the"
+com,"field, particularly at Cruz in LF."
+play,4,1,garvs001,02,LSS,K23
+play,4,1,mondr001,00,X,S8/G4M.2-H(UR)
+com,"The umpires ordered the Astros off the field due to fans"
+com,"again throwing things on the field (and at Cruz).  A PA"
+com,"announcement warned the crowd that if it continued, the"
+com,"umpires could forfeit the game to the Astros.  After a few"
+com,"minutes, Houston returned to the field."
+play,4,1,fergj101,22,BFBFC,K/C
+play,4,1,hatcm001,21,BBCX,8/F8
+play,5,0,niekj001,12,FFBC,K/C
+play,5,0,puhlt001,11,CBX,43/G4
+play,5,0,cabee001,12,SBFFX,D9/G3L
+play,5,0,landr001,02,FSX,5/P5S
+play,5,1,thomd001,31,BBBCB,W
+play,5,1,castr001,00,,NP
 sub,davav101,"Vic Davalillo",1,9,11
-play,5,1,davav101,??,,4(1)/FO
-play,5,1,loped001,??,,8
-play,5,1,johnj002,??,,K
-play,6,0,cruzj001,??,,NP
+play,5,1,davav101,01,CX,4(1)/FO/G4
+com,"Thomas upended Landestoy as the latter went to tag him on"
+com,"the line, thwarting a potential DP."
+play,5,1,loped001,00,X,8/F8
+play,5,1,johnj002,02,FSFF*S,K
+play,6,0,cruzj001,,,NP
 sub,valef001,"Fernando Valenzuela",1,9,1
-play,6,0,cruzj001,??,,K
-play,6,0,cedec001,??,,8
-play,6,0,howea001,??,,5/L
-play,6,1,baked002,??,,7
-play,6,1,garvs001,??,,8
-play,6,1,mondr001,??,,W
-play,6,1,fergj101,??,,S4.1-2
-play,6,1,hatcm001,??,,K+PB.2-3;1-2;B-1
-play,6,1,thomd001,??,,8
-play,7,0,ashba001,??,,7
-play,7,0,reync001,??,,S8
-play,7,0,niekj001,??,,14/SH.1-2
-play,7,0,puhlt001,??,,8
-play,7,1,valef001,??,,NP
+play,6,0,cruzj001,,,K
+play,6,0,cedec001,,,8
+play,6,0,howea001,,,5/L
+play,6,1,baked002,,,7
+play,6,1,garvs001,,,8
+play,6,1,mondr001,,,W
+play,6,1,fergj101,,,S4.1-2
+play,6,1,hatcm001,,,K+PB.2-3;1-2;B-1
+play,6,1,thomd001,,,8
+play,7,0,ashba001,,,7
+play,7,0,reync001,,,S8
+play,7,0,niekj001,,,14/SH.1-2
+play,7,0,puhlt001,,,8
+play,7,1,valef001,00,,NP
 sub,percj001,"Jack Perconte",1,9,11
-play,7,1,percj001,??,,53
-play,7,1,loped001,??,,13
-play,7,1,johnj002,??,,13
-play,8,0,cabee001,??,,NP
+play,7,1,percj001,11,CBX,53/G5S
+play,7,1,loped001,11,CBX,13/G15
+play,7,1,johnj002,01,CX,13/G13
+play,8,0,cabee001,00,,NP
 sub,howes001,"Steve Howe",1,1,1
-play,8,0,cabee001,??,,NP
+play,8,0,cabee001,00,,NP
 sub,percj001,"Jack Perconte",1,9,4
-play,8,0,cabee001,??,,53
-play,8,0,landr001,??,,43
-play,8,0,cruzj001,??,,5/FL
-play,8,1,baked002,??,,NP
+play,8,0,cabee001,21,BFBX,53/G56
+play,8,0,landr001,12,CFBX,43/G4
+play,8,0,cruzj001,22,CCBBX,5/P5F/FL
+play,8,1,baked002,00,,NP
 sub,bergd001,"Dave Bergman",0,2,3
-play,8,1,baked002,??,,NP
+play,8,1,baked002,00,,NP
 sub,howea001,"Art Howe",0,6,5
-play,8,1,baked002,??,,K
-play,8,1,garvs001,??,,63
-play,8,1,mondr001,??,,2/FL
-play,9,0,cedec001,??,,9
-play,9,0,howea001,??,,7
-play,9,0,ashba001,??,,7
-play,9,1,fergj101,??,,5/FL
-play,9,1,hatcm001,??,,NP
+play,8,1,baked002,02,CFS,K
+play,8,1,garvs001,00,X,63/G56
+play,8,1,mondr001,12,SBFX,2/P2F/FL
+play,9,0,cedec001,00,X,9/F9D
+play,9,0,howea001,00,X,7/F7D
+play,9,0,ashba001,00,X,7/L7
+play,9,1,fergj101,21,BBCX,5/P25F/FL
+play,9,1,hatcm001,00,,NP
 sub,thomg101,"Gary Thomasson",1,7,11
-play,9,1,thomg101,??,,43
-play,9,1,thomd001,??,,S7
-play,9,1,percj001,??,,3/G
+play,9,1,thomg101,11,BCX,43/G4
+play,9,1,thomd001,11,CBX,S7/F7S
+play,9,1,percj001,11,BCX,3/G34
 data,er,niekj001,0
 data,er,goltd101,2
 data,er,sutcr001,3

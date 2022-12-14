@@ -870,18 +870,18 @@ info,umphome,colon901
 info,ump1b,brocf901
 info,ump2b,harvd901
 info,ump3b,olsea901
-info,scorer,"Expos, Pirates"
-info,translator,"Clem Comly"
-info,inputter,"Clem Comly"
+info,scorer,"Expos, Pirates TV Network"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"Clem Comly, Wayne Townsend"
 info,inputtime,1995/07/11 5:05PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,windspeed,0
+info,fieldcond,dry
+info,precip,none
+info,sky,night
 info,timeofgame,189
 info,attendance,8498
 info,wp,soloe101
@@ -906,114 +906,127 @@ start,madlb001,"Bill Madlock",1,6,5
 start,ott-e101,"Ed Ott",1,7,2
 start,garnp001,"Phil Garner",1,8,4
 start,blylb001,"Bert Blyleven",1,9,1
-play,1,0,leflr101,??,,W
-play,1,0,bernt001,??,,S7.1-3
-play,1,0,dawsa001,??,,46(1)3/GDP.3-H(NR)
-play,1,0,valee001,??,,63
-play,1,1,moreo001,??,,S8
-play,1,1,folit001,??,,SB2
-play,1,1,folit001,??,,E6.2-3;B-1
-play,1,1,parkd001,??,,HR/9.3-H;1-H(UR)
-play,1,1,starw101,??,,K/C
-play,1,1,easlm001,??,,43
-play,1,1,madlb001,??,,E6.B-1
-play,1,1,ott-e101,??,,NP
+play,1,0,leflr101,32,BBCBCB,W
+play,1,0,bernt001,00,1>X,S7/L7S.1-3
+play,1,0,dawsa001,31,B1BFBX,46(1)3/GDP/G4.3-H(NR)
+play,1,0,valee001,11,BCX,63/G6
+play,1,1,moreo001,01,FX,S8/G4M
+play,1,1,folit001,20,11B11P1>B,SB2
+com,"No throw; Carter dropped it"
+play,1,1,folit001,31,11B11P1>BCX,E6/G6S.2-3;B-1
+com,"High chopper"
+play,1,1,parkd001,22,BFCFBX,HR/F89XD.3-H;1-H(UR)
+com,"Over 375' sign in RCF"
+play,1,1,starw101,02,CTC,K/C
+play,1,1,easlm001,32,CBSBBX,43/G4
+play,1,1,madlb001,12,CFBX,E6/G.B-1
+com,"Speier strained his back fielding the grounder"
+play,1,1,ott-e101,00,,NP
 sub,almob001,"Bill Almon",0,8,6
-play,1,1,ott-e101,??,,3/G
-play,2,0,parrl002,??,,8
-play,2,0,cartg001,??,,3/FL
-play,2,0,cromw101,??,,7
-play,2,1,garnp001,??,,63
-play,2,1,blylb001,??,,K
-play,2,1,moreo001,??,,63
-play,3,0,almob001,??,,8
-play,3,0,roges001,??,,W
-play,3,0,leflr101,??,,D8.1-3
-play,3,0,bernt001,??,,63
-play,3,0,dawsa001,??,,4/P
-play,3,1,folit001,??,,S8
-play,3,1,parkd001,??,,3/G.1-2
-play,3,1,starw101,??,,SB3#
-play,3,1,starw101,??,,K/C
-play,3,1,easlm001,??,,S6.3-H
-play,3,1,madlb001,??,,9
-play,4,0,valee001,??,,43
-play,4,0,parrl002,??,,K
-play,4,0,cartg001,??,,53
-play,4,1,ott-e101,??,,S8
-play,4,1,garnp001,??,,2/FL
-play,4,1,blylb001,??,,24/SH.1-2
-play,4,1,moreo001,??,,7
-play,5,0,cromw101,??,,HR/7
-play,5,0,almob001,??,,4/P
-play,5,0,roges001,??,,K
-play,5,0,leflr101,??,,W
-play,5,0,bernt001,??,,CS2(26)
-play,5,1,folit001,??,,W
-play,5,1,parkd001,??,,S9.1-2
-play,5,1,starw101,??,,6/L
-play,5,1,easlm001,??,,46(1)/FO.2-3
-play,5,1,madlb001,??,,8
-play,6,0,bernt001,??,,NP
+play,1,1,ott-e101,22,BBCC1X,3/G34
+com,"Cromartie: diving stop"
+play,2,0,parrl002,22,BFCBX,8/F78
+play,2,0,cartg001,02,CFX,3/P3F/FL
+play,2,0,cromw101,10,BX,7/F7
+play,2,1,garnp001,00,X,63/G6S
+play,2,1,blylb001,02,CSS,K
+play,2,1,moreo001,21,BBTX,63/G6
+com,"Cromartie scooped low throw in the dirt"
+play,3,0,almob001,12,CCBFX,8/L8
+play,3,0,roges001,32,CBFBBB,W
+play,3,0,leflr101,12,FCBX,D8/L78XD.1-3
+play,3,0,bernt001,12,CBS2X,63/G56
+play,3,0,dawsa001,10,BX,4/P3D
+com,"Garner: diving catch"
+play,3,1,folit001,01,CX,S4/G6M
+play,3,1,parkd001,00,X,3/G3S.1-2
+play,3,1,starw101,21,FB*B>,SB3
+com,"Delayed steal while Rogers was going into his stretch"
+play,3,1,starw101,22,FB*B>.FC,K/C
+play,3,1,easlm001,22,*SSBBX,S68/G6.3-H
+play,3,1,madlb001,00,X,9/F9
+play,4,0,valee001,00,X,43/G4
+play,4,0,parrl002,02,CFFFS,K
+play,4,0,cartg001,12,FBFX,53/G5
+play,4,1,ott-e101,10,BX,S8/G4M
+play,4,1,garnp001,22,CP+1*B>FF1FFX,2/P2F/FL
+play,4,1,blylb001,02,LMX,24/BG2L/SH.1-2
+play,4,1,moreo001,21,BCBX,7/F7
+play,5,0,cromw101,00,X,HR/F78XD
+com,"Over 375' sign in LCF"
+play,5,0,almob001,10,BX,4/P4
+play,5,0,roges001,12,CSBS,K
+play,5,0,leflr101,32,BCBSBB,W
+play,5,0,bernt001,00,1>B,CS2(26)
+play,5,1,folit001,,,W
+play,5,1,parkd001,,,S9.1-2
+play,5,1,starw101,,,6/L
+play,5,1,easlm001,,,46(1)/FO.2-3
+play,5,1,madlb001,,,8
+play,6,0,bernt001,,,NP
 sub,robib101,"Bill Robinson",1,5,7
-play,6,0,bernt001,??,,S6.B-2(E6)
-play,6,0,dawsa001,??,,9
-play,6,0,valee001,??,,S7.2-3
-play,6,0,parrl002,??,,53.3-H;1-2
-play,6,0,cartg001,??,,S8.2-H
-play,6,0,cromw101,??,,W.1-2
-play,6,0,almob001,??,,NP
+play,6,0,bernt001,,,S6/G.B-2(E6/TH1)
+play,6,0,dawsa001,,,9
+play,6,0,valee001,,,S7.2-3
+play,6,0,parrl002,,,53.3-H;1-2
+play,6,0,cartg001,,,S8.2-H
+play,6,0,cromw101,,,W.1-2
+play,6,0,almob001,,,NP
 sub,romoe101,"Enrique Romo",1,9,1
-play,6,0,almob001,??,,8
-play,6,1,ott-e101,??,,8
-play,6,1,garnp001,??,,S8
-play,6,1,romoe101,??,,NP
+play,6,0,almob001,,,8
+play,6,1,ott-e101,,,8
+play,6,1,garnp001,,,S8
+play,6,1,romoe101,,,NP
 sub,milnj101,"John Milner",1,9,11
-play,6,1,milnj101,??,,S8.1-2
-play,6,1,moreo001,??,,46(1)3/GDP
-play,7,0,roges001,??,,NP
+play,6,1,milnj101,,,S8.1-2
+play,6,1,moreo001,,,46(1)3/GDP
+play,7,0,roges001,,,NP
 sub,tekuk001,"Kent Tekulve",1,9,1
-play,7,0,roges001,??,,K/C
-play,7,0,leflr101,??,,S9
-play,7,0,bernt001,??,,SB2
-play,7,0,bernt001,??,,W
-play,7,0,dawsa001,??,,K
-play,7,0,valee001,??,,K
-play,7,1,folit001,??,,K
-play,7,1,parkd001,??,,4
-play,7,1,starw101,??,,S9
-play,7,1,robib101,??,,6/L
-play,8,0,parrl002,??,,63
-play,8,0,cartg001,??,,K
-play,8,0,cromw101,??,,63
-play,8,1,madlb001,??,,53
-play,8,1,ott-e101,??,,4/P
-play,8,1,garnp001,??,,W
-play,8,1,tekuk001,??,,NP
+play,7,0,roges001,,,K/C
+play,7,0,leflr101,,,S9
+play,7,0,bernt001,,,SB2
+play,7,0,bernt001,,,W
+play,7,0,dawsa001,12,,K
+play,7,0,valee001,12,SFBS,K
+play,7,1,folit001,12,FBTS,K
+play,7,1,parkd001,22,FCBBFX,4/P4D
+play,7,1,starw101,11,BCX,S9/L9LDW
+play,7,1,robib101,12,FFFBX,6/L6D
+com,"Almond: running catch of soft liner"
+play,8,0,parrl002,22,FFBFBX,63/G6
+com,"Foli: diving stop"
+play,8,0,cartg001,12,BCFS,K
+play,8,0,cromw101,21,BBCX,63/G6
+play,8,1,madlb001,00,X,53/G5L
+play,8,1,ott-e101,00,X,4/P4
+play,8,1,garnp001,32,CBBFBB,W
+play,8,1,tekuk001,00,,NP
 sub,lacyl001,"Leon Lacy",1,9,11
-play,8,1,lacyl001,??,,43
-play,9,0,almob001,??,,NP
+play,8,1,lacyl001,10,1*B1X,43/G34D
+play,9,0,almob001,00,,NP
 sub,soloe101,"Eddie Solomon",1,9,1
-play,9,0,almob001,??,,9
-play,9,0,roges001,??,,K
-play,9,0,leflr101,??,,W
-play,9,0,bernt001,??,,SB2
-play,9,0,bernt001,??,,6/L
-play,9,1,moreo001,??,,K
-play,9,1,folit001,??,,63
-play,9,1,parkd001,??,,6/P
-play,10,0,dawsa001,??,,W
-play,10,0,valee001,??,,PO1(1E3).1-2
-play,10,0,valee001,??,,9
-play,10,0,parrl002,??,,43
-play,10,0,cartg001,??,,31
-play,10,1,starw101,??,,NP
+play,9,0,almob001,12,SSBX,9/F9
+play,9,0,roges001,12,CBFS,K
+play,9,0,leflr101,32,BBBCSFB,W
+play,9,0,bernt001,20,1B1B1>B,SB2
+play,9,0,bernt001,32,1B1B1>B.CSFX,6/L6
+play,9,1,moreo001,32,CFBBBT,K
+play,9,1,folit001,00,X,63/G6
+play,9,1,parkd001,22,SBBFFFX,6/P56
+play,10,0,dawsa001,32,BSBFBFFB,W
+play,10,0,valee001,11,CB1X,9/F9/TH1.1-2(E3)
+com,"Parker's 1-hop throw to 1B got away from Stargell"
+play,10,0,parrl002,00,X,43/G4.2-3
+play,10,0,cartg001,32,C*BBBCFX,31/G34
+play,10,1,starw101,00,,NP
 sub,sosae101,"Elias Sosa",0,9,1
-play,10,1,starw101,??,,S9
-play,10,1,robib101,??,,NP
+play,10,1,starw101,02,SSX,S9/G4+
+play,10,1,robib101,00,,NP
 sub,alexm101,"Matt Alexander",1,4,12
-play,10,1,robib101,??,,K
-play,10,1,madlb001,??,,D7.1-H
+play,10,1,robib101,12,LPLL,K/BP/FL
+play,10,1,madlb001,00,11X,D7/G5L.1-H
+com,"LeFlore tried to backhand it but it rolled under his glove"
+com,"to the wall."
 data,er,roges001,3
 data,er,sosae101,1
 data,er,blylb001,4
@@ -1833,12 +1846,12 @@ info,umphome,fiels901
 info,ump1b,wendh901
 info,ump2b,pullf901
 info,ump3b,rennd901
-info,scorer,"LAN"
-info,translator,"Clem Comly"
-info,inputter,"David W. Smith"
+info,scorer,"LAN, Pirates TV"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"David W. Smith, Wayne Townsend"
 info,inputtime,1996/10/15 2:50PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -1869,92 +1882,100 @@ start,madlb001,"Bill Madlock",1,6,5
 start,ott-e101,"Ed Ott",1,7,2
 start,garnp001,"Phil Garner",1,8,4
 start,candj001,"John Candelaria",1,9,1
-play,1,0,loped001,??,,E4
-play,1,0,law-r001,??,,K
-play,1,0,smitr101,??,,6/L
-play,1,0,garvs001,??,,46(1)/FO
-play,1,1,moreo001,??,,S8
-play,1,1,folit001,??,,BK.1-2
-play,1,1,folit001,??,,S9.2-3
-play,1,1,parkd001,??,,4/P
-play,1,1,starw101,??,,S9.3-H;1-3
-play,1,1,easlm001,??,,W.1-2
-play,1,1,madlb001,??,,9(B)2(3)/DP
-play,2,0,baked002,??,,9
-play,2,0,cey-r001,??,,S8
-play,2,0,russb001,??,,8
-play,2,0,yeags001,??,,S6.1-2
-play,2,0,suttd001,??,,13
-play,2,1,ott-e101,??,,5/P
-play,2,1,garnp001,??,,53
-play,2,1,candj001,??,,43
-play,3,0,loped001,??,,13
-play,3,0,law-r001,??,,S9
-play,3,0,smitr101,??,,64(1)3/GDP
-play,3,1,moreo001,??,,3/G
-play,3,1,folit001,??,,S7
-play,3,1,parkd001,??,,S7.1-2
-play,3,1,starw101,??,,8(B)4(2)/DP
-play,4,0,garvs001,??,,53
-play,4,0,baked002,??,,9
-play,4,0,cey-r001,??,,53
-play,4,1,easlm001,??,,43
-play,4,1,madlb001,??,,8
-play,4,1,ott-e101,??,,S8
-play,4,1,garnp001,??,,W.1-2
-play,4,1,candj001,??,,7
-play,5,0,russb001,??,,63
-play,5,0,yeags001,??,,W
-play,5,0,suttd001,??,,64(1)3/GDP
-play,5,1,moreo001,??,,2/FL
-play,5,1,folit001,??,,63
-play,5,1,parkd001,??,,43
-play,6,0,loped001,??,,S7
-play,6,0,law-r001,??,,54(1)/FO
-play,6,0,smitr101,??,,BK.1-2
-play,6,0,smitr101,??,,W
-play,6,0,garvs001,??,,S8.2-H;1-3
-play,6,0,baked002,??,,54(1)3/GDP
-play,6,1,starw101,??,,9
-play,6,1,easlm001,??,,8
-play,6,1,madlb001,??,,8
-play,7,0,cey-r001,??,,9
-play,7,0,russb001,??,,63
-play,7,0,yeags001,??,,9
-play,7,1,ott-e101,??,,43
-play,7,1,garnp001,??,,6/P
-play,7,1,candj001,??,,53
-play,8,0,suttd001,??,,NP
+com,"Total attendance: 13,500"
+play,1,0,loped001,22,CBBFX,E4/G4M
+play,1,0,law-r001,22,BCFBS,K
+play,1,0,smitr101,00,X,6/L6
+play,1,0,garvs001,11,CBX,46(1)/FO/G4M
+play,1,1,moreo001,00,X,S8/G4
+play,1,1,folit001,00,N,BK.1-2
+play,1,1,folit001,01,.CX,S9/L4D.2-3
+play,1,1,parkd001,00,X,4/P4D
+play,1,1,starw101,00,X,S9/L9S.3-H;1-3
+play,1,1,easlm001,32,BFBSFBB,W.1-2
+play,1,1,madlb001,01,TX,9(B)2(3)/DP/F89S
+play,2,0,baked002,20,BBX,9/F9
+play,2,0,cey-r001,01,CX,S8/L8
+play,2,0,russb001,00,X,8/F89S
+play,2,0,yeags001,00,X,S6/G56.1-2
+com,"Foli: diving stop"
+play,2,0,suttd001,12,BTCFX,13/G1
+play,2,1,ott-e101,11,CBX,5/P15
+play,2,1,garnp001,11,BCX,53/G5
+play,2,1,candj001,02,FSX,43/G4
+play,3,0,loped001,20,BBX,13/G1
+play,3,0,law-r001,00,X,S9/L34D
+play,3,0,smitr101,00,X,64(1)3/GDP/G6
+play,3,1,moreo001,10,BX,3/BG3S
+play,3,1,folit001,10,BX,S7/G56
+play,3,1,parkd001,02,FFX,S7/L56D.1-2
+play,3,1,starw101,31,BBFBX,8/F8S/DP.2X2(84)
+play,4,0,garvs001,22,FBBFFX,53/G5
+play,4,0,baked002,11,BCX,9/F9D
+play,4,0,cey-r001,31,BBFBX,53/G56
+play,4,1,easlm001,01,CX,43/G4
+play,4,1,madlb001,11,FBX,8/F8XD
+play,4,1,ott-e101,00,X,S18/G1
+play,4,1,garnp001,32,BFB+1CB>B,W.1-2
+play,4,1,candj001,10,BX,7/L78
+play,5,0,russb001,01,CX,63/G4MS
+com,"Foli: charging barehanded stop; Stargell scooped low throw in"
+com,"the dirt."
+play,5,0,yeags001,32,BFBFBB,W
+play,5,0,suttd001,02,LCX,64(1)3/GDP/G6
+play,5,1,moreo001,10,BX,2/P2F/FL
+play,5,1,folit001,22,CSBBX,63/G56D
+com,"Garvey: backhanded scoop of low/wide throw in the dirt"
+play,5,1,parkd001,10,BX,43/G4
+play,6,0,loped001,00,X,S7/L7S
+play,6,0,law-r001,12,LCB1X,54(1)/FO/G56S
+play,6,0,smitr101,11,B1F.,BK.1-2
+play,6,0,smitr101,32,B1F.FBFBB,W
+play,6,0,garvs001,01,CX,S48/G4M/TH3.2-H;1-3
+play,6,0,baked002,10,BX,54(1)3/GDP/G56
+com,"Madlock: fine stop"
+play,6,1,starw101,01,CX,9/F89
+com,"Smith: running backhanded catch"
+play,6,1,easlm001,20,BBX,8/F8XDW
+play,6,1,madlb001,00,X,8/F8D
+play,7,0,cey-r001,00,X,9/F9
+play,7,0,russb001,21,,63/G6
+play,7,0,yeags001,02,FFX,9/F9
+play,7,1,ott-e101,11,BFX,43/G4
+play,7,1,garnp001,,,6/P6MD
+play,7,1,candj001,01,FX,53/G5
+play,8,0,suttd001,00,,NP
 sub,hatcm001,"Mickey Hatcher",0,9,11
-play,8,0,hatcm001,??,,S8
-play,8,0,loped001,??,,34/SH.1-2
-play,8,0,law-r001,??,,63
-play,8,0,smitr101,??,,K
-play,8,1,moreo001,??,,NP
+play,8,0,hatcm001,00,X,S8/L6MD
+play,8,0,loped001,10,BX,34/BG3S/SH.1-2
+play,8,0,law-r001,22,CBBSX,63/G6.2-3
+play,8,0,smitr101,22,BFFBS,K
+play,8,1,moreo001,00,,NP
 sub,howes001,"Steve Howe",0,9,1
-play,8,1,moreo001,??,,13
-play,8,1,folit001,??,,D8
-play,8,1,parkd001,??,,NP
+play,8,1,moreo001,21,CBBX,13/G34S
+play,8,1,folit001,32,BBBCCX,D7/F78
+play,8,1,parkd001,00,,NP
 sub,alexm101,"Matt Alexander",1,2,12
-play,8,1,parkd001,??,,43.2-3
-play,8,1,starw101,??,,K
-play,9,0,garvs001,??,,NP
+play,8,1,parkd001,12,FCBX,43/G4.2-3
+play,8,1,starw101,02,FFS,K
+play,9,0,garvs001,00,,NP
 sub,tekuk001,"Kent Tekulve",1,2,1
-play,9,0,garvs001,??,,NP
+play,9,0,garvs001,00,,NP
 sub,robib101,"Bill Robinson",1,5,7
-play,9,0,garvs001,??,,NP
+play,9,0,garvs001,00,,NP
 sub,berrd001,"Dale Berra",1,9,6
-play,9,0,garvs001,??,,13
-play,9,0,baked002,??,,S7
-play,9,0,cey-r001,??,,54(1)3/GDP
-play,9,1,robib101,??,,S8
-play,9,1,madlb001,??,,S8.1-3
-play,9,1,ott-e101,??,,NP
+play,9,0,garvs001,22,BBSFX,13/G1
+play,9,0,baked002,22,BFFBX,S7/F7
+play,9,0,cey-r001,10,BX,54(1)3/GDP/G56
+play,9,1,robib101,02,FSFFFFFX,S18/G1
+play,9,1,madlb001,00,>X,S8/G4M.1-3
+play,9,1,ott-e101,00,,NP
 sub,lacyl001,"Leon Lacy",1,7,11
-play,9,1,lacyl001,??,,IW.1-2
-play,9,1,garnp001,??,,NP
+play,9,1,lacyl001,30,IIII,IW.1-2
+play,9,1,garnp001,00,,NP
 sub,beckj001,"Joe Beckwith",0,9,1
-play,9,1,garnp001,??,,S7.3-H;2-3;1-2
+play,9,1,garnp001,11,FBX,S7/G6.3-H;2-3;1-2
+com,"Bounced over the drawn-in Russell"
 data,er,suttd001,1
 data,er,howes001,1
 data,er,beckj001,0
@@ -4556,8 +4577,8 @@ info,ump1b,fiels901
 info,ump2b,wendh901
 info,ump3b,grege901
 info,scorer,"CIN"
-info,translator,"Clem Comly"
-info,inputter,"David W. Smith"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"David W. Smith, Wayne Townsend"
 info,inputtime,1996/07/02 11:23AM
 info,howscored,park
 info,pitches,none
@@ -4591,22 +4612,25 @@ start,garnp001,"Phil Garner",1,6,4
 start,ott-e101,"Ed Ott",1,7,2
 start,berrd001,"Dale Berra",1,8,5
 start,blylb001,"Bert Blyleven",1,9,1
-play,1,0,colld001,??,,K
-play,1,0,concd001,??,,63
-play,1,0,grifk001,??,,K
+play,1,0,colld001,22,FBCBS,K
+play,1,0,concd001,11,BCX,63/G6
+play,1,0,grifk001,22,FFBBS,K
 play,1,1,moreo001,??,,8/L
 play,1,1,folit001,??,,5/P
 play,1,1,parkd001,??,,S8
-play,1,1,starw101,??,,7/FL
-play,2,0,fostg001,??,,43
-play,2,0,dried001,??,,D8/89
-play,2,0,bencj101,??,,K
-play,2,0,knigr001,??,,D9.2-H
-play,2,0,kennj101,??,,63
-play,2,1,easlm001,??,,E4
+play,1,1,starw101,??,,7/F7LF/FL
+com,"Foster: running backhanded catch"
+play,2,0,fostg001,22,BFBSF,43/G4M
+play,2,0,dried001,20,BBX,DGR/F89XD
+com,"Bounced over RCF fence"
+play,2,0,bencj101,32,CBFBFBS,K
+play,2,0,knigr001,10,BX,D9/L9LS.2-H
+play,2,0,kennj101,10,BX,63/G6
+play,2,1,easlm001,??,,E4/G4
 play,2,1,garnp001,??,,W.1-2
 play,2,1,ott-e101,??,,S9.2-H(UR);1-3
 play,2,1,berrd001,??,,S9.3-H;1-3(E9);B-2
+com,"Griffey bobbled it"
 play,2,1,blylb001,??,,K
 play,2,1,moreo001,??,,IW
 play,2,1,folit001,??,,7/SF.3-H(UR)
@@ -4626,12 +4650,13 @@ play,4,0,bencj101,??,,43.1-2
 play,4,0,knigr001,??,,43
 play,4,1,berrd001,??,,S9
 play,4,1,blylb001,??,,K
-play,4,1,moreo001,??,,D9.1-3
+play,4,1,moreo001,??,,D9/F9DW.1-3
 play,4,1,folit001,??,,D7.3-H;2-H
 play,4,1,parkd001,??,,NP
 sub,tomld001,"Dave Tomlin",0,9,1
 play,4,1,parkd001,??,,63.2-3
-play,4,1,starw101,??,,7/L
+play,4,1,starw101,??,,7/L7LD
+com,"Foster: running catch"
 play,5,0,kennj101,??,,13
 play,5,0,tomld001,??,,NP
 sub,cruzh101,"Heity Cruz",0,9,11
@@ -4647,7 +4672,7 @@ sub,robib101,"Bill Robinson",1,5,7
 play,6,0,concd001,??,,K
 play,6,0,grifk001,??,,8
 play,6,0,fostg001,??,,S7
-play,6,0,dried001,??,,36(1)/FO
+play,6,0,dried001,21,BCBX,36(1)/FO/G3
 play,6,1,berrd001,??,,K
 play,6,1,blylb001,??,,31
 play,6,1,moreo001,??,,K
@@ -4664,15 +4689,16 @@ play,7,1,folit001,??,,53
 play,7,1,parkd001,??,,S8
 play,7,1,starw101,??,,4/P
 play,7,1,robib101,??,,54(1)/FO
-play,8,0,concd001,??,,S4
-play,8,0,grifk001,??,,S8.1-2
-play,8,0,fostg001,??,,K
-play,8,0,dried001,??,,S9.2-H;1-2
-play,8,0,bencj101,??,,NP
+play,8,0,concd001,??,,S4/G4S
+play,8,0,grifk001,21,BBSX,S8/F8S.1-2
+play,8,0,fostg001,02,CCS,K
+play,8,0,dried001,22,CC*BBX,S9/G34.2-H;1-2
+play,8,0,bencj101,00,,NP
 sub,tekuk001,"Kent Tekulve",1,9,1
-play,8,0,bencj101,??,,S7.2-H;1-2
-play,8,0,knigr001,??,,E1.2-3;1-2
-play,8,0,kennj101,??,,1/L
+play,8,0,bencj101,00,X,S7/F7S.2-H;1-2
+com,"Check swing"
+play,8,0,knigr001,??,,FC1/G1.2-3;1-2(E1/TH2);B-1
+play,8,0,kennj101,??,,1/L1
 play,8,0,baird001,??,,NP
 sub,geroc101,"Cesar Geronimo",0,9,11
 play,8,0,geroc101,??,,NP
@@ -4686,9 +4712,9 @@ play,8,1,garnp001,??,,43
 play,8,1,ott-e101,??,,43
 play,8,1,berrd001,??,,D9
 play,8,1,jackg101,??,,K
-play,9,0,colld001,??,,63
-play,9,0,concd001,??,,63
-play,9,0,grifk001,??,,7
+play,9,0,colld001,00,X,63/G6
+play,9,0,concd001,02,CSFFX,63/G6
+play,9,0,grifk001,21,BCBX,7/F7
 data,er,pastf001,3
 data,er,tomld001,0
 data,er,sotom001,0

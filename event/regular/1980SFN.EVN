@@ -4372,19 +4372,19 @@ info,daynight,night
 info,usedh,false
 info,umphome,quicj901
 info,ump1b,dalej901
-info,ump2b,engeb901
-info,ump3b,rungp901
-info,scorer,"SF"
-info,translator,"Comly"
-info,inputter,"Comly/DS"
+info,ump2b,(none)
+info,ump3b,engeb901
+info,scorer,"SF, KTTV-11, Classic MLB1"
+info,translator,"Comly, Wayne Townsend"
+info,inputter,"Comly/DS, Wayne Townsend"
 info,inputtime,1995/02/25 11:36AM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
+info,fieldcond,dry
+info,precip,none
 info,sky,night
 info,timeofgame,133
 info,attendance,20285
@@ -4410,94 +4410,105 @@ start,straj101,"Joe Strain",1,6,4
 start,lemaj001,"Johnnie LeMaster",1,7,6
 start,sadem101,"Mike Sadek",1,8,2
 start,bluev001,"Vida Blue",1,9,1
-play,1,0,loped001,??,,S7
-play,1,0,law-r001,??,,SB2.1-3(E2/TH2)
-play,1,0,law-r001,??,,S4.3-H(UR)
-play,1,0,smitr101,??,,POCS2(136)
-play,1,0,smitr101,??,,K
-play,1,0,garvs001,??,,3/FL
-play,1,1,nortb101,??,,43
-play,1,1,evand001,??,,7
-play,1,1,clarj001,??,,E6
-play,1,1,murrr101,??,,64(1)/FO
-play,2,0,baked002,??,,9
-play,2,0,cey-r001,??,,D7
-play,2,0,russb001,??,,7
-play,2,0,yeags001,??,,IW
-play,2,0,reusj001,??,,3/G
-play,2,1,hernl001,??,,43
-play,2,1,straj101,??,,63
-play,2,1,lemaj001,??,,53
-play,3,0,loped001,??,,T8
-play,3,0,law-r001,??,,43.3-H
-play,3,0,smitr101,??,,53
-play,3,0,garvs001,??,,63
-play,3,1,sadem101,??,,K/C
-play,3,1,bluev001,??,,7
-play,3,1,nortb101,??,,63
-play,4,0,baked002,??,,63
-play,4,0,cey-r001,??,,K
-play,4,0,russb001,??,,S7
-play,4,0,yeags001,??,,64(1)/FO
-play,4,1,evand001,??,,5/FL
-play,4,1,clarj001,??,,13
-play,4,1,murrr101,??,,13
-play,5,0,reusj001,??,,K
-play,5,0,loped001,??,,K
-play,5,0,law-r001,??,,D9
-play,5,0,smitr101,??,,S8.2-H
-play,5,0,garvs001,??,,S7.1-2
-play,5,0,baked002,??,,HR/7.2-H;1-H
-play,5,0,cey-r001,??,,D7.B-3(E7)
-play,5,0,russb001,??,,NP
+com,"Umpire Paul Runge (rungp901) was absent"
+com,"Weather: hot"
+com,"Total attendance (including guests): 21,108"
+play,1,0,loped001,12,SBCX,S7/G56
+play,1,0,law-r001,21,1111BBF1>C,SB2.1-3(E2/TH2)
+play,1,0,law-r001,22,1111BBF1>C.FX,S14/L1.3-H(UR)
+com,"Off Blue's glove"
+play,1,0,smitr101,11,BS1>1,POCS2(136)
+play,1,0,smitr101,32,BS1>1.BSBFS,K
+play,1,0,garvs001,22,FSBBX,3/P23F/FL
+play,1,1,nortb101,32,BBBCCX,43/G4
+play,1,1,evand001,10,BX,7/F7
+play,1,1,clarj001,32,BFFBBX,E6/TH1/G56
+com,"Russell: low throw; Garvey knocked it down"
+play,1,1,murrr101,12,BSFX,64(1)/FO/G6
+com,"Clark suffered a strained right knee sliding into 2B"
+play,2,0,baked002,00,X,9/F9
+play,2,0,cey-r001,32,FBFBFBX,D7/L7L
+play,2,0,russb001,01,CX,8/F78
+play,2,0,yeags001,30,IIII,IW
+play,2,0,reusj001,11,BSX,3/G3L
+play,2,1,hernl001,11,BCX,43/G4
+play,2,1,straj101,11,BFX,63/G6
+play,2,1,lemaj001,02,FFX,53/G5
+play,3,0,loped001,10,BX,T8/F89XD
+play,3,0,law-r001,10,BX,43/G4.3-H
+play,3,0,smitr101,22,CFBBX,53/G5
+play,3,0,garvs001,31,CBBBX,63/G6
+play,3,1,sadem101,12,SBSC,K/C
+play,3,1,bluev001,12,FBSX,7/F7
+play,3,1,nortb101,31,BBBCX,63/G6
+play,4,0,baked002,11,BCX,63/G6
+play,4,0,cey-r001,02,FFS,K
+play,4,0,russb001,31,BBCBX,S7/L7
+play,4,0,yeags001,10,11BX,64(1)/FO/G6
+play,4,1,evand001,22,SBFBX,5/P25F/FL
+play,4,1,clarj001,01,CX,13/G1
+play,4,1,murrr101,00,X,31/G34S
+play,5,0,reusj001,12,FBFFFS,K
+play,5,0,loped001,12,CCBF*S,K
+play,5,0,law-r001,01,LX,D8/F89
+play,5,0,smitr101,00,X,S8/G6.2-H
+play,5,0,garvs001,01,F11X,S7/L7.1-2
+play,5,0,baked002,21,BBSX,HR/F7D.2-H;1-H
+com,"Over LF fence, short of the stands"
+play,5,0,cey-r001,11,BFX,D57/G5L.B-3(E7/TH2)
+play,5,0,russb001,00,,NP
 sub,grift101,"Tom Griffin",1,9,1
-play,5,0,russb001,??,,S8.3-H
-play,5,0,yeags001,??,,S8.1-3
-play,5,0,reusj001,??,,5/FL
-play,5,1,hernl001,??,,63
-play,5,1,straj101,??,,8
-play,5,1,lemaj001,??,,9
-play,6,0,loped001,??,,NP
+play,5,0,russb001,11,BCX,S8/F8S.3-H
+play,5,0,yeags001,01,CX,S8/G6M.1-3
+play,5,0,reusj001,00,X,5/P25F/FL
+play,5,1,hernl001,10,BX,63/G6S
+play,5,1,straj101,22,CFFBBFFX,8/F8S
+play,5,1,lemaj001,11,FBX,9/F9
+play,6,0,loped001,00,,NP
 sub,wohlj001,"Jim Wohlford",1,3,9
-play,6,0,loped001,??,,8
-play,6,0,law-r001,??,,43
-play,6,0,smitr101,??,,63
-play,6,1,sadem101,??,,NP
+play,6,0,loped001,21,CBBX,8/L78
+play,6,0,law-r001,32,BBCCBX,43/G4
+play,6,0,smitr101,00,X,43/G4M
+play,6,1,sadem101,00,,NP
 sub,guerp001,"Pedro Guerrero",0,3,9
-play,6,1,sadem101,??,,K
-play,6,1,grift101,??,,NP
+play,6,1,sadem101,22,BBCSS,K
+play,6,1,grift101,00,,NP
 sub,whitt001,"Terry Whitfield",1,9,11
-play,6,1,whitt001,??,,63
-play,6,1,nortb101,??,,7
-play,7,0,garvs001,??,,NP
+play,6,1,whitt001,22,BSFFBFFX,63/G6
+com,"The 4th pitch to Whitfield was foul by inches past 3B bag"
+play,6,1,nortb101,22,SFFBBX,7/L7D
+play,7,0,garvs001,00,,NP
 sub,laveg001,"Gary Lavelle",1,9,1
-play,7,0,garvs001,??,,HR/7
-play,7,0,baked002,??,,9
-play,7,0,cey-r001,??,,53
-play,7,0,russb001,??,,S1
-play,7,0,yeags001,??,,D7.1-3
-play,7,0,reusj001,??,,43
-play,7,1,evand001,??,,5
-play,7,1,wohlj001,??,,9
-play,7,1,murrr101,??,,63
-play,8,0,loped001,??,,S5
-play,8,0,law-r001,??,,S8.1-2
-play,8,0,guerp001,??,,8
-play,8,0,garvs001,??,,36(1)/FO.2-3
-play,8,0,baked002,??,,3/FL
-play,8,1,hernl001,??,,53
-play,8,1,straj101,??,,63
-play,8,1,lemaj001,??,,63
-play,9,0,cey-r001,??,,9
-play,9,0,russb001,??,,8
-play,9,0,yeags001,??,,53
-play,9,1,sadem101,??,,NP
+play,7,0,garvs001,11,BFX,HR/L7D
+com,"Into LF stands"
+play,7,0,baked002,22,BBCCX,9/F9L
+play,7,0,cey-r001,01,CX,53/G5L
+play,7,0,russb001,11,CBX,S1/G34S
+play,7,0,yeags001,01,FX,D7/L78.1-3
+play,7,0,reusj001,01,FX,43/G4
+play,7,1,evand001,02,FSX,5/P5F/FL
+play,7,1,wohlj001,12,FFBX,9/F9
+play,7,1,murrr101,11,CBX,63/G56
+play,8,0,loped001,21,BBCX,S56/G56
+com,"Off Evans' glove"
+play,8,0,law-r001,10,BX,S8/F4MD.1-2
+play,8,0,guerp001,31,CBBBX,8/F8
+play,8,0,garvs001,10,BX,36(1)/FO/G34.2-3
+play,8,0,baked002,00,X,3/P3F/FL
+play,8,1,hernl001,11,BFX,53/G56S
+com,"Cey: diving stop"
+play,8,1,straj101,11,BCX,63/G6
+play,8,1,lemaj001,00,X,63/G56
+play,9,0,cey-r001,00,X,9/F9
+play,9,0,russb001,22,BFFBX,8/F8
+play,9,0,yeags001,00,X,53/G5
+play,9,1,sadem101,00,,NP
 sub,thomd001,"Derrell Thomas",0,3,9
-play,9,1,sadem101,??,,53
-play,9,1,laveg001,??,,NP
+play,9,1,sadem101,12,FBFX,53/G56
+play,9,1,laveg001,00,,NP
 sub,stenr101,"Rennie Stennett",1,9,11
-play,9,1,stenr101,??,,63
-play,9,1,nortb101,??,,13
+play,9,1,stenr101,12,BFFX,63/G6
+play,9,1,nortb101,10,BX,13/G1S
 data,er,reusj001,0
 data,er,bluev001,6
 data,er,grift101,0
@@ -6700,9 +6711,9 @@ info,umphome,willc901
 info,ump1b,pryop901
 info,ump2b,mcshj901
 info,ump3b,westj901
-info,scorer,"SFN, SLN"
-info,translator,"Clem Comly"
-info,inputter,"David W. Smith"
+info,scorer,"SFN, SLN, USA Network"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"David W. Smith, Wayne Townsend"
 info,inputtime,1996/10/29 2:24PM
 info,howscored,park
 info,pitches,none
@@ -6746,7 +6757,7 @@ play,1,1,hernl001,??,,HR/9.2-H;1-H
 play,1,1,evand001,??,,S8
 play,1,1,stenr101,??,,9
 play,1,1,lemaj001,??,,6(1)/FO
-play,2,0,simmt001,??,,D8
+play,2,0,simmt001,??,,D/F78S
 play,2,0,hendg001,??,,S7.2-H
 play,2,0,iorgd001,??,,W.1-2
 play,2,0,reitk101,??,,S7.2-H;1-2
@@ -6788,69 +6799,72 @@ play,5,1,evand001,??,,W.2-3;1-2
 play,5,1,stenr101,??,,8
 play,6,0,hendg001,??,,S8
 play,6,0,iorgd001,??,,W.1-2
-play,6,0,reitk101,??,,5(B)4(2)/LDP
+play,6,0,reitk101,??,,5/LDP.2X2(54)
 play,6,0,philm101,??,,7
 play,6,1,lemaj001,??,,W
 play,6,1,sadem101,??,,34/SH.1-2
 play,6,1,harga001,??,,NP
 sub,straj101,"Joe Strain",1,9,11
-play,6,1,straj101,??,,S9.2XH(92)
-play,6,1,nortb101,??,,W.1-2
+play,6,1,straj101,??,,S9/F89S.2XH(92);B-2(THH)
+play,6,1,nortb101,??,,W
 play,6,1,pettj101,??,,NP
 sub,ottej101,"Jim Otten",0,9,1
-play,6,1,pettj101,??,,S8.2XH(82);1-2
-play,7,0,ottej101,??,,NP
+play,6,1,pettj101,21,C*BBX,S8/L8S.2XH(82);1-2
+com,"Strain injured his shoulder sliding head-first into Simmons"
+com,"blocking the plate."
+play,7,0,ottej101,00,,NP
 sub,laveg001,"Gary Lavelle",1,9,1
-play,7,0,ottej101,??,,NP
+play,7,0,ottej101,00,,NP
 sub,smitk101,"Keith Smith",0,9,11
-play,7,0,smitk101,??,,S8
-play,7,0,scott001,??,,34/SH.1-2
-play,7,0,oberk001,??,,6/P
-play,7,0,durhl001,??,,53
-play,7,1,clarj001,??,,NP
+play,7,0,smitk101,21,BFBX,S8/L8
+play,7,0,scott001,11,1LBX,34/BG34S/SH.1-2
+play,7,0,oberk001,21,BBCX,6/P6
+play,7,0,durhl001,10,BX,53/G5
+com,"Temperature was now around 55 degrees"
+play,7,1,clarj001,00,,NP
 sub,urrej101,"John Urrea",0,9,1
-play,7,1,clarj001,??,,S6
-play,7,1,hernl001,??,,7
-play,7,1,evand001,??,,D7.1-3
-play,7,1,stenr101,??,,D7.3-H;2-H
-play,7,1,lemaj001,??,,K
-play,7,1,sadem101,??,,IW
-play,7,1,laveg001,??,,K
-play,8,0,simmt001,??,,S8
-play,8,0,hendg001,??,,D8.1-3
-play,8,0,iorgd001,??,,NP
+play,7,1,clarj001,00,X,S6/G56
+play,7,1,hernl001,12,BSFX,7/F7
+play,7,1,evand001,01,CX,D7/G5L.1-3
+play,7,1,stenr101,22,BFBFX,D7/G5L.3-H;2-H
+play,7,1,lemaj001,12,SLBFS,K
+play,7,1,sadem101,30,IIII,IW
+play,7,1,laveg001,02,FSS,K
+play,8,0,simmt001,00,X,S8/G6M
+play,8,0,hendg001,01,CX,D9/F89XD.1-3
+play,8,0,iorgd001,00,,NP
 sub,landt001,"Tito Landrum",0,6,11
-play,8,0,landt001,??,,NP
+play,8,0,landt001,00,,NP
 sub,mintg001,"Greg Minton",1,9,1
-play,8,0,landt001,??,,NP
+play,8,0,landt001,00,,NP
 sub,kennt001,"Terry Kennedy",0,6,11
-play,8,0,kennt001,??,,K
-play,8,0,reitk101,??,,63.3-H;2-3
-play,8,0,philm101,??,,31
-play,8,1,nortb101,??,,NP
+play,8,0,kennt001,02,FSS,K
+play,8,0,reitk101,02,FFFX,63/G6MS.3-H;2-3
+play,8,0,philm101,31,BFBBX,31/G34
+play,8,1,nortb101,00,,NP
 sub,kennt001,"Terry Kennedy",0,6,7
-play,8,1,nortb101,??,,W
-play,8,1,pettj101,??,,3E4/SH.1-3;B-2
-play,8,1,clarj001,??,,IW
-play,8,1,hernl001,??,,S9.3-H(UR);2-3;1-2
-play,8,1,evand001,??,,NP
+play,8,1,nortb101,31,BBBCB,W
+play,8,1,pettj101,00,1X,3E4/BG23/TH1/SH.1-3;B-2
+play,8,1,clarj001,30,IIII,IW
+play,8,1,hernl001,00,X,S9/L9L.3-H(UR);2-3;1-2
+play,8,1,evand001,00,,NP
 sub,kaatj101,"Jim Kaat",0,9,1
-play,8,1,evand001,??,,32(3)3/GDP.2-3;1-2
-play,8,1,stenr101,??,,NP
+play,8,1,evand001,01,FX,32(3)3/GDP/G34S.2-3;1-2
+play,8,1,stenr101,00,,NP
 sub,littj102,"John Littlefield",0,8,1
-play,8,1,stenr101,??,,NP
+play,8,1,stenr101,00,,NP
 sub,ramsm001,"Mike Ramsey",0,9,6
-play,8,1,stenr101,??,,IW
-play,8,1,lemaj001,??,,5/L
-play,9,0,ramsm001,??,,NP
+play,8,1,stenr101,30,IIII,IW
+play,8,1,lemaj001,01,FX,5/L5
+play,9,0,ramsm001,00,,NP
 sub,hernk001,"Keith Hernandez",0,9,11
-play,9,0,hernk001,??,,7
-play,9,0,scott001,??,,6/L
-play,9,0,oberk001,??,,E5
-play,9,0,durhl001,??,,NP
+play,9,0,hernk001,22,BFFFBX,7/L7
+play,9,0,scott001,10,BX,6/L6
+play,9,0,oberk001,11,CBX,E5/G56S
+play,9,0,durhl001,00,,NP
 sub,holla001,"Al Holland",1,9,1
-play,9,0,durhl001,??,,BK.1-2
-play,9,0,durhl001,??,,K
+play,9,0,durhl001,12,BFFN,BK.1-2
+play,9,0,durhl001,12,BFFN.S,K
 data,er,sykeb101,3
 data,er,ottej101,0
 data,er,urrej101,2
@@ -7042,18 +7056,18 @@ info,umphome,mcshj901
 info,ump1b,westj901
 info,ump2b,willc901
 info,ump3b,pryop901
-info,scorer,"SF"
-info,translator,"Clem Comly"
-info,inputter,"Clem Comly"
+info,scorer,"SF, NBC"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"Clem Comly, Wayne Townsend"
 info,inputtime,1995/03/27 4:49PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,tolf
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,178
 info,attendance,10392
 info,wp,grift101
@@ -7078,112 +7092,121 @@ start,iviem101,"Mike Ivie",1,6,3
 start,stenr101,"Rennie Stennett",1,7,4
 start,sadem101,"Mike Sadek",1,8,2
 start,bluev001,"Vida Blue",1,9,1
-play,1,0,dejei001,??,,9
-play,1,0,dills101,??,,K
-play,1,0,buckb001,??,,3/FL
-play,1,1,nortb101,??,,13
-play,1,1,pettj101,??,,S8
-play,1,1,clarj001,??,,HR.1-H
-play,1,1,evand001,??,,43
-play,1,1,hernl001,??,,53
-play,2,0,johnc001,??,,6
-play,2,0,martj001,??,,S7
-play,2,0,randl101,??,,BK.1-2
-play,2,0,randl101,??,,W
-play,2,0,figuj101,??,,16(1)/FO.2-3
-play,2,0,blact101,??,,6/L
-play,2,1,iviem101,??,,D9
-play,2,1,stenr101,??,,53
-play,2,1,sadem101,??,,4
-play,2,1,bluev001,??,,K
-play,3,0,lampd001,??,,S7
-play,3,0,dejei001,??,,K
-play,3,0,dills101,??,,HR.1-H
-play,3,0,buckb001,??,,S8
-play,3,0,johnc001,??,,S7.1-2
-play,3,0,martj001,??,,W.2-3;1-2
-play,3,0,randl101,??,,W.3-H;2-3;1-2
-play,3,0,figuj101,??,,6/L
-play,3,0,blact101,??,,9
-play,3,1,nortb101,??,,K/C
-play,3,1,pettj101,??,,S8
-play,3,1,clarj001,??,,W.1-2
-play,3,1,evand001,??,,8
-play,3,1,hernl001,??,,W.2-3;1-2
-play,3,1,iviem101,??,,4
-play,4,0,lampd001,??,,8
-play,4,0,dejei001,??,,K
-play,4,0,dills101,??,,8
-play,4,1,stenr101,??,,4
-play,4,1,sadem101,??,,S8
-play,4,1,bluev001,??,,14/SH.1-2
-play,4,1,nortb101,??,,7
-play,5,0,buckb001,??,,D9
-play,5,0,johnc001,??,,3
-play,5,0,martj001,??,,IW
-play,5,0,randl101,??,,3/FL
-play,5,0,figuj101,??,,43
-play,5,1,pettj101,??,,63
-play,5,1,clarj001,??,,7
-play,5,1,evand001,??,,W
-play,5,1,hernl001,??,,8
-play,6,0,blact101,??,,NP
+com,"Total attendance: 11,505"
+play,1,0,dejei001,12,BCFFX,9/F9L
+play,1,0,dills101,32,BFBCBS,K
+play,1,0,buckb001,22,BBFFX,3/P3F/FL
+play,1,1,nortb101,00,X,13/G23
+play,1,1,pettj101,21,CBBX,S8/G6M
+play,1,1,clarj001,10,1BX,HR/F7D.1-H
+com,"Into LF bleachers"
+play,1,1,evand001,22,CBBCFX,43/G4
+play,1,1,hernl001,00,X,53/G5S
+com,"Johnson scooped hurried low throw in the dirt"
+play,2,0,johnc001,10,BX,6/P6
+play,2,0,martj001,21,BBSX,S9/F89
+play,2,0,randl101,32,BCB1FBN,BK.1-2
+play,2,0,randl101,32,BCB1FBN.B,W
+play,2,0,figuj101,21,BCBX,16(1)/FO/G1.2-3
+com,"Blue: leaping stop"
+play,2,0,blact101,00,X,4/L4
+com,"Stennett: leaping catch"
+play,2,1,iviem101,11,CBX,D9/L9L
+play,2,1,stenr101,00,X,53/G56S
+play,2,1,sadem101,00,X,4/P4
+play,2,1,bluev001,02,SF*S,K23
+play,3,0,lampd001,02,FFX,S7/L56D
+play,3,0,dejei001,22,SFBBT,K
+play,3,0,dills101,01,FX,HR/F7D.1-H
+com,"Over LF fence, short of the bleachers"
+play,3,0,buckb001,00,X,S8/L4MD
+play,3,0,johnc001,21,CBBX,S7/G56.1-2
+play,3,0,martj001,31,BBCBB,W.2-3;1-2
+play,3,0,randl101,30,BBBB,W.3-H;2-3;1-2
+play,3,0,figuj101,01,CX,6/L6M
+com,"Pettini: diving catch"
+play,3,0,blact101,21,*BBCX,9/F89S
+play,3,1,nortb101,12,BCFC,K/C
+play,3,1,pettj101,00,X,S8/G4M
+play,3,1,clarj001,30,BBBB,W.1-2
+play,3,1,evand001,00,X,8/F8S
+play,3,1,hernl001,32,CS*B*BFBB,W.2-3;1-2
+play,3,1,iviem101,00,X,2/P23F/FL
+play,4,0,lampd001,,,8/F8
+play,4,0,dejei001,22,CFFFFBFFBFS,K
+play,4,0,dills101,00,X,8/F89
+play,4,1,stenr101,22,BCFBFX,4/P4MD
+play,4,1,sadem101,22,SBFBX,S7/F78S
+play,4,1,bluev001,12,LLBX,14/BG1S/SH.1-2
+play,4,1,nortb101,31,BBCBX,7/F7
+play,5,0,buckb001,32,BCBFBFX,D9/F9LDW
+play,5,0,johnc001,31,BBCBX,3/P34
+play,5,0,martj001,30,IIII,IW
+play,5,0,randl101,10,BX,3/P3DF/FL
+play,5,0,figuj101,10,BX,43/G4
+play,5,1,pettj101,21,BCBX,63/G6
+play,5,1,clarj001,21,BFBX,7/F7D
+play,5,1,evand001,31,BBCBB,W
+play,5,1,hernl001,01,SX,8/F8D
+play,6,0,blact101,00,,NP
 sub,laveg001,"Gary Lavelle",1,9,1
-play,6,0,blact101,??,,9
-play,6,0,lampd001,??,,W
-play,6,0,dejei001,??,,W.1-2
-play,6,0,dills101,??,,T8.2-H;1-H
-play,6,0,buckb001,??,,4
-play,6,0,johnc001,??,,W
-play,6,0,martj001,??,,NP
+play,6,0,blact101,01,CX,9/F89S
+play,6,0,lampd001,30,BBBB,W
+play,6,0,dejei001,32,BKBFBB,W.1-2
+play,6,0,dills101,10,BX,T8/F78XD.2-H;1-H
+play,6,0,buckb001,01,FX,6/P6M
+play,6,0,johnc001,32,CBFBFBB,W
+play,6,0,martj001,00,,NP
 sub,grift101,"Tom Griffin",1,5,1
-play,6,0,martj001,??,,NP
+play,6,0,martj001,00,,NP
 sub,whitt001,"Terry Whitfield",1,9,7
-play,6,0,martj001,??,,W.1-2
-play,6,0,randl101,??,,43
-play,6,1,iviem101,??,,7
-play,6,1,stenr101,??,,K
-play,6,1,sadem101,??,,S8
-play,6,1,whitt001,??,,D8.1-3
-play,6,1,nortb101,??,,S8.3-H;2-H
-play,6,1,pettj101,??,,NP
+play,6,0,martj001,32,BFBFB>FB,W.1-2
+play,6,0,randl101,00,X,13/G34S
+play,6,1,iviem101,00,X,7/L7
+play,6,1,stenr101,12,CSBS,K
+play,6,1,sadem101,12,CBFFFX,S8/L78S
+play,6,1,whitt001,01,CX,DGR/F89XD.1-3
+com,"Bounced over RCF fence"
+play,6,1,nortb101,10,BX,S8/G6M.3-H;2-H
+play,6,1,pettj101,00,,NP
 sub,tidrd001,"Dick Tidrow",0,9,1
-play,6,1,pettj101,??,,S5.1-2
-play,6,1,clarj001,??,,8
-play,7,0,figuj101,??,,31
-play,7,0,blact101,??,,D9
-play,7,0,tidrd001,??,,8
-play,7,0,dejei001,??,,K
-play,7,1,evand001,??,,8
-play,7,1,grift101,??,,NP
+play,6,1,pettj101,01,1CX,S5/BG5S.1-2
+play,6,1,clarj001,30,BBBX,8/F78XD
+play,7,0,figuj101,01,CX,31/G34
+com,"Ivie: diving stop"
+play,7,0,blact101,12,BCSX,D9/L9LS
+play,7,0,tidrd001,00,X,8/L8
+play,7,0,dejei001,22,BBCTS,K
+play,7,1,evand001,11,CBX,8/F78
+play,7,1,grift101,00,,NP
 sub,metzr101,"Roger Metzger",1,5,11
-play,7,1,metzr101,??,,W
-play,7,1,iviem101,??,,S9.1-3
-play,7,1,stenr101,??,,S9.3-H;1-2
-play,7,1,sadem101,??,,3
-play,7,1,whitt001,??,,S9.2-H;1-3;B-2(TH)
-play,7,1,nortb101,??,,IW
-play,7,1,pettj101,??,,D7.3-H;2-H;1-3
-play,7,1,clarj001,??,,8
-play,8,0,dills101,??,,NP
+play,7,1,metzr101,32,CBBCBB,W
+play,7,1,iviem101,22,BFFBX,S9/G34.1-3
+play,7,1,stenr101,10,BX,S9/G34.3-H;1-2
+play,7,1,sadem101,00,X,3/P3
+play,7,1,whitt001,01,FX,S9/G34.2-H;1-3;B-2(THH)
+play,7,1,nortb101,30,IIII,IW
+play,7,1,pettj101,01,CX,D57/G56.3-H;2-H;1-3
+play,7,1,clarj001,32,BBFBCFFX,8/F78D
+play,8,0,dills101,00,,NP
 sub,mintg001,"Greg Minton",1,5,1
-play,8,0,dills101,??,,5
-play,8,0,buckb001,??,,53
-play,8,0,johnc001,??,,63
-play,8,1,evand001,??,,NP
+play,8,0,dills101,01,SX,5/P5
+play,8,0,buckb001,10,BX,63/G6
+play,8,0,johnc001,22,BBSSX,63/G56
+play,8,1,evand001,00,,NP
 sub,hernw001,"Willie Hernandez",0,9,1
-play,8,1,evand001,??,,31
-play,8,1,mintg001,??,,K/C
-play,8,1,iviem101,??,,W
-play,8,1,stenr101,??,,K
-play,9,0,martj001,??,,3/FL
-play,9,0,randl101,??,,43
-play,9,0,figuj101,??,,S4
-play,9,0,blact101,??,,W.1-2
-play,9,0,hernw001,??,,WP.2-3;1-2
-play,9,0,hernw001,??,,NP
+play,8,1,evand001,,,31/G3
+play,8,1,mintg001,,,K/C
+play,8,1,iviem101,32,SBBFBB,W
+play,8,1,stenr101,12,BFFFFS,K
+play,9,0,martj001,21,BFBX,3/P3F/FL
+play,9,0,randl101,21,BBCX,43/G4
+play,9,0,figuj101,00,X,S4/G4M
+play,9,0,blact101,31,BFBBB,W.1-2
+play,9,0,hernw001,00,,NP
 sub,biitl101,"Larry Biittner",0,9,11
-play,9,0,biitl101,??,,31
+play,9,0,biitl101,01,CB,WP.2-3;1-2
+play,9,0,biitl101,11,CB.X,31/G34S
 data,er,lampd001,4
 data,er,tidrd001,4
 data,er,hernw001,0
@@ -11872,12 +11895,12 @@ info,umphome,quicj901
 info,ump1b,dalej901
 info,ump2b,rungp901
 info,ump3b,engeb901
-info,scorer,"SF, Hunter"
-info,translator,"Clem Comly"
-info,inputter,"Clem Comly"
+info,scorer,"SF, Hunter, USA Network"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"Clem Comly, Wayne Townsend"
 info,inputtime,1995/05/09 9:46PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -11908,106 +11931,109 @@ start,murrr101,"Rich Murray",1,6,3
 start,sulag101,"Guy Sularz",1,7,4
 start,sadem101,"Mike Sadek",1,8,2
 start,bluev001,"Vida Blue",1,9,1
-play,1,0,thomd001,??,,K23
-play,1,0,friap101,??,,9
-play,1,0,baked002,??,,S9
-play,1,0,garvs001,??,,HR/9.1-H
-play,1,0,guerp001,??,,K
-play,1,1,venam001,??,,43
-play,1,1,pettj101,??,,63
-play,1,1,clarj001,??,,W
-play,1,1,evand001,??,,S7.1-2
-play,1,1,whitt001,??,,7/L
-play,2,0,fergj101,??,,4
-play,2,0,hatcm001,??,,W
-play,2,0,johnj002,??,,5/FL
-play,2,0,goltd101,??,,K
-play,2,1,murrr101,??,,53
-play,2,1,sulag101,??,,S9
-play,2,1,sadem101,??,,54(1)3/GDP
-play,3,0,thomd001,??,,53
-play,3,0,friap101,??,,E3.B-1
-play,3,0,baked002,??,,64(1)/FO
-play,3,0,garvs001,??,,3/FL
-play,3,1,bluev001,??,,K
-play,3,1,venam001,??,,K/C
-play,3,1,pettj101,??,,53
-play,4,0,guerp001,??,,9
-play,4,0,fergj101,??,,63
-play,4,0,hatcm001,??,,9
-play,4,1,clarj001,??,,53
-play,4,1,evand001,??,,43
-play,4,1,whitt001,??,,9
-play,5,0,johnj002,??,,K
-play,5,0,goltd101,??,,31
-play,5,0,thomd001,??,,9
-play,5,1,murrr101,??,,S8
-play,5,1,sulag101,??,,S8.1-2
-play,5,1,sadem101,??,,34/SH.2-3;1-2
-play,5,1,bluev001,??,,9/SF.3-H;2-3
-play,5,1,venam001,??,,K
-play,6,0,friap101,??,,43
-play,6,0,baked002,??,,S8
-play,6,0,garvs001,??,,CS2(2E6)
-play,6,0,garvs001,??,,IW
-play,6,0,guerp001,??,,54(1)/FO.2-3
-play,6,0,fergj101,??,,64(1)/FO
-play,6,1,pettj101,??,,K
-play,6,1,clarj001,??,,S8
-play,6,1,evand001,??,,64(1)3/GDP
-play,7,0,hatcm001,??,,23
-play,7,0,johnj002,??,,K/C
-play,7,0,goltd101,??,,W
-play,7,0,thomd001,??,,13
-play,7,1,whitt001,??,,43
-play,7,1,murrr101,??,,K
-play,7,1,sulag101,??,,8/L
-play,8,0,friap101,??,,D9
-play,8,0,baked002,??,,43.2-3
-play,8,0,garvs001,??,,NP
+play,1,0,thomd001,,,K23
+play,1,0,friap101,,,9
+play,1,0,baked002,,,S9
+play,1,0,garvs001,,,HR/9.1-H
+play,1,0,guerp001,,,K
+play,1,1,venam001,,,43
+play,1,1,pettj101,,,63
+play,1,1,clarj001,,,W
+play,1,1,evand001,,,S6/G56.1-2
+play,1,1,whitt001,,,7/L
+play,2,0,fergj101,,,4
+play,2,0,hatcm001,,,W
+play,2,0,johnj002,,,5/FL
+play,2,0,goltd101,,,K
+play,2,1,murrr101,,,53
+play,2,1,sulag101,,,S9
+play,2,1,sadem101,,,54(1)3/GDP
+play,3,0,thomd001,,,53
+play,3,0,friap101,,,E3.B-1
+play,3,0,baked002,,,64(1)/FO
+play,3,0,garvs001,,,3/FL
+play,3,1,bluev001,,,K
+play,3,1,venam001,,,K/C
+play,3,1,pettj101,,,53
+play,4,0,guerp001,,,9
+play,4,0,fergj101,,,63
+play,4,0,hatcm001,,,9
+play,4,1,clarj001,,,53
+play,4,1,evand001,,,43/G4
+play,4,1,whitt001,22,SFFBFBX,9/F89
+play,5,0,johnj002,12,CBSFS,K
+play,5,0,goltd101,22,BSBFFX,31/G3
+play,5,0,thomd001,11,BSX,9/F9S
+play,5,1,murrr101,21,BBFX,S8/G6M
+play,5,1,sulag101,12,CF1111FB1X,S7/F78S.1-2
+play,5,1,sadem101,01,CX,34/BG23/SH.2-3;1-2
+play,5,1,bluev001,21,BCBX,9/F9D/SF/TH3.3-H;2-3
+play,5,1,venam001,22,CBBCFS,K
+play,6,0,friap101,00,X,43/G4
+play,6,0,baked002,32,CBBBFX,S8/F8S
+play,6,0,garvs001,,1>P,CS2(2E6)
+com,"Baker was trapped but Pettini's throw to 1B hit Baker"
+play,6,0,garvs001,30,1>P.III,IW
+play,6,0,guerp001,10,BX,54(1)/FO/G5.2-3
+play,6,0,fergj101,00,X,64(1)/FO/G6
+play,6,1,pettj101,22,BCFBC,K/C
+play,6,1,clarj001,02,SCX,S8/G6M
+play,6,1,evand001,10,1B1X,64(1)3/GDP/G6
+play,7,0,hatcm001,00,X,23/G23
+com,"Sadek: good play"
+play,7,0,johnj002,22,BFCBC,K/C
+play,7,0,goltd101,32,FBSFFBBB,W
+play,7,0,thomd001,00,X,13/G15
+play,7,1,whitt001,11,CBX,43/G4M
+play,7,1,murrr101,02,CCS,K
+play,7,1,sulag101,00,X,8/L8
+play,8,0,friap101,21,BFBX,D8/L89
+play,8,0,baked002,21,BCBX,43/G4.2-3
+play,8,0,garvs001,00,,NP
 sub,mintg001,"Greg Minton",1,9,1
-play,8,0,garvs001,??,,53
-play,8,0,guerp001,??,,K
-play,8,1,sadem101,??,,NP
+play,8,0,garvs001,10,BX,53/G5S
+play,8,0,guerp001,02,FC*S,K
+play,8,1,sadem101,00,,NP
 sub,nortb101,"Bill North",1,8,11
-play,8,1,nortb101,??,,7
-play,8,1,mintg001,??,,NP
+play,8,1,nortb101,10,BX,7/F7L
+play,8,1,mintg001,00,,NP
 sub,may-m001,"Milt May",1,9,11
-play,8,1,may-m001,??,,S8
-play,8,1,venam001,??,,S4.1-2
-play,8,1,pettj101,??,,NP
+play,8,1,may-m001,11,CBX,S8/G4M
+play,8,1,venam001,10,BX,S4/G34.1-2
+play,8,1,pettj101,00,,NP
 sub,wohlj001,"Jim Wohlford",1,2,11
-play,8,1,wohlj001,??,,7
-play,8,1,clarj001,??,,NP
+play,8,1,wohlj001,11,BSX,7/F7
+play,8,1,clarj001,11,BS,NP
 sub,castr001,"Robert Castillo",0,9,1
-com,"$Dave Goltz left with unknown injury"
-play,8,1,clarj001,??,,W.2-3;1-2
-play,8,1,evand001,??,,NP
+com,"Goltz left with a cramp in his left leg"
+play,8,1,clarj001,31,BS.BBB,W.2-3;1-2
+play,8,1,evand001,00,,NP
 sub,howes001,"Steve Howe",0,9,1
-play,8,1,evand001,??,,S9.3-H;2-H;1-2
-play,8,1,whitt001,??,,NP
+play,8,1,evand001,10,BX,S9/F89S.3-H;2-H;1-3
+play,8,1,whitt001,00,,NP
 sub,hernl001,"Larry Herndon",1,5,11
-play,8,1,hernl001,??,,K
-play,9,0,fergj101,??,,NP
+play,8,1,hernl001,02,CSS,K
+play,9,0,fergj101,00,,NP
 sub,may-m001,"Milt May",1,9,2
-play,9,0,fergj101,??,,NP
+play,9,0,fergj101,00,,NP
 sub,nortb101,"Bill North",1,8,8
-play,9,0,fergj101,??,,NP
+play,9,0,fergj101,00,,NP
 sub,wohlj001,"Jim Wohlford",1,2,7
-play,9,0,fergj101,??,,NP
+play,9,0,fergj101,00,,NP
 sub,lemaj001,"Johnnie LeMaster",1,1,6
-play,9,0,fergj101,??,,NP
+play,9,0,fergj101,00,,NP
 sub,holla001,"Al Holland",1,5,1
-play,9,0,fergj101,??,,8
-play,9,0,hatcm001,??,,43
-play,9,0,johnj002,??,,NP
+play,9,0,fergj101,00,X,8/F89XD
+play,9,0,hatcm001,12,FBFX,43/G4
+com,"Sularz charged it and got it on the short hop"
+play,9,0,johnj002,00,,NP
 sub,motam101,"Manny Mota",0,8,11
-play,9,0,motam101,??,,S9
-play,9,0,howes001,??,,NP
+play,9,0,motam101,11,BFX,S9/G34
+play,9,0,howes001,00,,NP
 sub,weisg101,"Gary Weiss",0,8,12
-play,9,0,howes001,??,,NP
+play,9,0,howes001,00,,NP
 sub,yeags001,"Steve Yeager",0,9,11
-play,9,0,yeags001,??,,K
+play,9,0,yeags001,02,SSS,K
 data,er,goltd101,3
 data,er,castr001,0
 data,er,howes001,0

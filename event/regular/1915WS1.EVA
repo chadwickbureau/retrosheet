@@ -465,6 +465,7 @@ play,1,0,boonl101,??,,W
 play,1,0,sweej102,??,,S7.2-H;1-H(E5/TH)(NR)(UR);B-3
 play,1,0,caldr101,??,,NP
 sub,gallb103,"Bert Gallia",1,9,1
+presadj,gallb103,3
 play,1,0,caldr101,??,,E4.3-H(NR)(UR)
 play,1,0,maisf101,??,,8/F
 play,1,1,moeld101,??,,K
@@ -923,6 +924,7 @@ sub,mortg101,"Guy Morton",0,9,1
 play,3,1,milac101,??,,8/F
 play,3,1,willr104,??,,43.2-3
 play,3,1,morgr101,??,,W
+presadj,mortg101,3
 play,3,1,henrj101,??,,SBH;SB2
 play,3,1,henrj101,??,,7/F
 play,4,0,smite104,??,,2/FL
@@ -988,8 +990,8 @@ sub,ainse101,"Eddie Ainsmith",1,9,11
 play,9,1,ainse101,??,,K
 play,9,1,shanh101,??,,63
 play,9,1,foste103,??,,8/F
-data,er,walkr102,4
-data,er,mortg101,0
+data,er,walkr102,3
+data,er,mortg101,1
 data,er,harso101,0
 data,er,jones104,0
 data,er,johnw102,2
@@ -1115,6 +1117,7 @@ play,7,1,milac101,??,,S1.2-3;1-2
 play,7,1,gandc101,??,,NP
 sub,jones104,"Sam Jones",0,9,1
 play,7,1,gandc101,??,,42(3)/FO.2-3;1-2
+presadj,jones104,3
 play,7,1,morgr101,??,,9/SF.3-H(UR)
 play,7,1,henrj101,??,,13
 play,8,0,jones104,??,,NP
@@ -2573,11 +2576,14 @@ play,8,1,shanh101,??,,E4/G.2-3;1-2
 play,8,1,gandc101,??,,W.3-H;2-3;1-2
 play,8,1,acosm101,??,,NP
 sub,faber101,"Red Faber",0,9,1
+presadj,faber101,3
 play,8,1,acosm101,??,,S8.3-H;2-3;1-2
 play,8,1,ainse101,??,,NP
 sub,willr104,"Rip Williams",1,7,11
-play,8,1,willr104,??,,63.3-H(UR);2-3;1-2
+presadj,faber101,3
+play,8,1,willr104,??,,63.3-H;2-3;1-2
 play,8,1,mcbrg101,??,,K
+presadj,faber101,3
 play,8,1,johnw102,??,,S7.3-H(UR);2-H(UR)
 play,8,1,moeld101,??,,S9.1-3
 play,8,1,foste103,??,,S7.3-H(UR);1-2
@@ -2592,8 +2598,8 @@ play,9,0,murpe102,??,,3/P
 play,9,0,weavb101,??,,S8
 play,9,0,colle101,??,,K
 data,er,benzj101,2
-data,er,wolfm101,2
-data,er,faber101,0
+data,er,wolfm101,1
+data,er,faber101,2
 data,er,johnw102,3
 id,WS1191508062
 version,1
@@ -3673,7 +3679,9 @@ sub,gallb103,"Bert Gallia",1,9,1
 play,9,0,creeb101,??,,K/C
 play,9,0,peckr101,??,,NP
 sub,caldr101,"Ray Caldwell",0,2,11
+presadj,gallb103,3
 play,9,0,caldr101,??,,S8.3-H;2-3;1-2
+presadj,gallb103,3
 play,9,0,baump101,??,,5(2)/FO.3-H;1-2
 play,9,0,pippw101,??,,W.2-3;1-2
 play,9,0,mille102,??,,13
@@ -3692,11 +3700,11 @@ play,9,1,acosm101,??,,NP
 sub,moeld101,"Danny Moeller",1,7,12
 play,9,1,acosm101,??,,NP
 sub,willr104,"Rip Williams",1,1,11
-play,9,1,willr104,??,,S9.3-H;1-2
+play,9,1,willr104,??,,S9.3-H(UR);1-2
 data,er,browb103,3
-data,er,mogrg101,1
-data,er,boehj101,3
-data,er,gallb103,0
+data,er,mogrg101,0
+data,er,boehj101,1
+data,er,gallb103,2
 id,WS1191509210
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -3822,6 +3830,7 @@ play,8,1,shanh101,??,,S8
 play,8,1,willr104,??,,34/SH.1-2
 play,8,1,mcbrg101,??,,NP
 sub,russr102,"Reb Russell",0,9,1
+presadj,russr102,2
 play,8,1,mcbrg101,??,,D/78.2-H
 play,8,1,johnw102,??,,T/F89D.2-H
 play,8,1,judgj101,??,,S7.3-H
@@ -3832,8 +3841,8 @@ play,9,0,fourj101,??,,43
 play,9,0,jackj101,??,,7/L
 play,9,0,colls101,??,,E6
 play,9,0,johnp101,??,,64(1)/FO
-data,er,faber101,4
-data,er,russr102,2
+data,er,faber101,3
+data,er,russr102,3
 data,er,johnw102,1
 id,WS1191509220
 version,1
