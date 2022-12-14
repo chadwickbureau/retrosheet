@@ -1701,13 +1701,13 @@ info,ump1b,ricej901
 info,ump2b,stevj901
 info,ump3b,schwh901
 info,scorer,"Yankees"
-info,translator,"Ron Rakowski"
-info,inputter,"Ron Rakowski"
+info,translator,"Ron Rakowski, Wayne Townsend"
+info,inputter,"Ron Rakowski, Wayne Townsend"
 info,inputtime,1995/10/31 8:25AM
 info,howscored,park
-info,pitches,none
-info,temp,72
-info,winddir,unknown
+info,pitches,pitches
+info,temp,80
+info,winddir,torf
 info,windspeed,-1
 info,fieldcond,dry
 info,precip,none
@@ -1736,103 +1736,112 @@ start,avere102,"Earl Averill",1,6,2
 start,leekg101,"Gene Leek",1,7,5
 start,bricf102,"Fritz Brickell",1,8,6
 start,klinr102,"Ron Kline",1,9,1
-play,1,0,kubet101,??,,31
-play,1,0,lopeh101,??,,63
-play,1,0,marir101,??,,7
-play,1,1,peara102,??,,W
-play,1,1,asprk101,??,,OA.1X2(24)
-play,1,1,asprk101,??,,63
-play,1,1,wagnl101,??,,K/C
-play,2,0,mantm101,??,,K
-play,2,0,skowb101,??,,K
-play,2,0,blanj101,??,,43
-play,2,1,klust101,??,,W
-play,2,1,cervb101,??,,W.1-2
-play,2,1,avere102,??,,53.2-3;1-2
-play,2,1,leekg101,??,,K/C
-play,2,1,bricf102,??,,53
-play,3,0,boyec102,??,,S9
-play,3,0,richb102,??,,8
-play,3,0,turlb101,??,,3/P
-play,3,0,kubet101,??,,41
-play,3,1,klinr102,??,,K
-play,3,1,peara102,??,,HR/9D
-play,3,1,asprk101,??,,W
-play,3,1,wagnl101,??,,8
-play,3,1,klust101,??,,S9.1-3
-play,3,1,cervb101,??,,53
-play,4,0,lopeh101,??,,13
-play,4,0,marir101,??,,S8
-play,4,0,mantm101,??,,3/G.1-2
-play,4,0,skowb101,??,,43
-play,4,1,avere102,??,,K
-play,4,1,leekg101,??,,4/P
-play,4,1,bricf102,??,,13
-play,5,0,blanj101,??,,4/P
-play,5,0,boyec102,??,,S9
-play,5,0,richb102,??,,6(1)/FO.B-2(E6/TH)
-play,5,0,turlb101,??,,K
-play,5,1,klinr102,??,,K/C
-play,5,1,peara102,??,,W
-play,5,1,asprk101,??,,7
-play,5,1,wagnl101,??,,HR/89XD.1-H
-play,5,1,klust101,??,,9
-play,6,0,kubet101,??,,53
-play,6,0,lopeh101,??,,63
-play,6,0,marir101,??,,S8
-play,6,0,mantm101,??,,K/C
-play,6,1,cervb101,??,,53
-play,6,1,avere102,??,,7
-play,6,1,leekg101,??,,S7
-play,6,1,bricf102,??,,K
-play,7,0,skowb101,??,,K
-play,7,0,blanj101,??,,HR/9D
-play,7,0,boyec102,??,,63
-play,7,0,richb102,??,,S7
-play,7,0,turlb101,??,,NP
+play,1,0,kubet101,11,BCX,31/G34
+play,1,0,lopeh101,12,CFBFFX,63/G6
+play,1,0,marir101,10,BX,7/L7D
+play,1,1,peara102,30,BBBB,W
+play,1,1,asprk101,10,B*B,OA.1X2(24)
+com,"Short wild pitch"
+play,1,1,asprk101,21,B*B.CX,63/G6
+play,1,1,wagnl101,12,CBCC,K/C
+play,2,0,mantm101,32,BBBCCS,K
+play,2,0,skowb101,32,BSCBBS,K
+play,2,0,blanj101,11,CBX,43/G4M
+play,2,1,klust101,32,BFCBFBB,W
+play,2,1,cervb101,30,BBBB,W.1-2
+play,2,1,avere102,32,BBFBSX,53/G5+.2-3;1-2
+com,"Boyer knocked it down"
+play,2,1,leekg101,02,CCFC,K/C
+play,2,1,bricf102,10,BX,53/G56
+play,3,0,boyec102,32,BSBSBX,S9/P4D
+com,"Check swing"
+play,3,0,richb102,10,B>X,8/L8
+play,3,0,turlb101,01,L1X,3/BP23
+play,3,0,kubet101,00,X,41/G34
+play,3,1,klinr102,32,BBBCCS,K23
+play,3,1,peara102,31,BFBBX,HR/F9D
+com,"Cleared RF screen and the second fence, into the street"
+play,3,1,asprk101,31,BBBCB,W
+play,3,1,wagnl101,21,BBSX,8/L8D
+play,3,1,klust101,31,BCBBX,S9/G34.1-3
+play,3,1,cervb101,00,X,53/G5
+play,4,0,lopeh101,12,CFBX,13/G1
+play,4,0,marir101,12,CFBX,S8/G4M
+play,4,0,mantm101,32,FBFBB>X,3/G3.1-2
+play,4,0,skowb101,00,X,43/G4
+play,4,1,avere102,22,BCBCS,K
+play,4,1,leekg101,20,BBX,4/P4M
+play,4,1,bricf102,22,BSBCX,13/G1
+play,5,0,blanj101,11,SBX,4/P4MD
+play,5,0,boyec102,02,SSX,S9/F9S
+play,5,0,richb102,00,X,6(1)/FO/G6M.B-2(E6/TH1)
+play,5,0,turlb101,12,BSSFS,K
+play,5,1,klinr102,32,SBBBCFC,K/C
+play,5,1,peara102,31,BBCBB,W
+play,5,1,asprk101,22,BFB1>FX,7/L7L
+play,5,1,wagnl101,01,SX,HR/F89XD.1-H
+com,"Over RCF fence and out into the street"
+play,5,1,klust101,10,BX,9/L9DW
+play,6,0,kubet101,02,CLX,53/G5
+play,6,0,lopeh101,02,SSX,63/G6
+play,6,0,marir101,11,FBX,S8/F89S
+play,6,0,mantm101,12,FCBFC,K/C
+play,6,1,cervb101,00,X,53/G5
+play,6,1,avere102,11,BFX,7/L78D
+play,6,1,leekg101,10,BX,S7/L7
+play,6,1,bricf102,22,BCBSS,K
+play,7,0,skowb101,22,SSBBS,K
+play,7,0,blanj101,00,X,HR/F9LD
+com,"Over RF fence near the foul pole"
+play,7,0,boyec102,10,BX,63/G6S
+com,"Check swing"
+play,7,0,richb102,12,LBFX,S7/G56
+play,7,0,turlb101,00,,NP
 sub,berry101,"Yogi Berra",0,9,11
-play,7,0,berry101,??,,HR/89XD.1-H
-play,7,0,kubet101,??,,13
-play,7,1,klinr102,??,,NP
+play,7,0,berry101,00,X,HR/F89XD.1-H
+com,"Over RCF fence"
+play,7,0,kubet101,12,CBFX,13/G1
+play,7,1,klinr102,00,,NP
 sub,coatj101,"Jim Coates",0,9,1
-play,7,1,klinr102,??,,NP
+play,7,1,klinr102,00,,NP
 sub,bilks101,"Steve Bilko",1,9,11
-play,7,1,bilks101,??,,W
-play,7,1,peara102,??,,NP
+play,7,1,bilks101,32,BCBBCB,W
+play,7,1,peara102,00,,NP
 sub,sadoe101,"Ed Sadowski",1,9,12
-play,7,1,peara102,??,,W.1-2
-play,7,1,asprk101,??,,15(2)/FO.1-2;B-1
-play,7,1,wagnl101,??,,D7.2-H;1-3
-play,7,1,klust101,??,,NP
+play,7,1,peara102,31,BFBBB,W.1-2
+play,7,1,asprk101,10,BX,15(2)/FO/BG25.1-2;B-1
+play,7,1,wagnl101,10,BX,D7/G5L.2-H;1-3
+play,7,1,klust101,00,,NP
 sub,arrol101,"Luis Arroyo",0,9,1
-play,7,1,klust101,??,,IW
-play,7,1,cervb101,??,,64(1)3/GDP
-play,8,0,lopeh101,??,,NP
+play,7,1,klust101,30,IIII,IW
+play,7,1,cervb101,12,BSSX,64(1)3/GDP/G6
+play,8,0,lopeh101,00,,NP
 sub,garvn102,"Ned Garver",1,9,1
-play,8,0,lopeh101,??,,NP
+play,8,0,lopeh101,00,,NP
 sub,huntk102,"Ken Hunt",1,5,9
-play,8,0,lopeh101,??,,NP
+play,8,0,lopeh101,00,,NP
 sub,wagnl101,"Leon Wagner",1,3,7
-play,8,0,lopeh101,??,,D8
-play,8,0,marir101,??,,W
-play,8,0,mantm101,??,,NP
+play,8,0,lopeh101,11,BFX,D8/F8XDW
+play,8,0,marir101,31,S2BBBB,W
+play,8,0,mantm101,00,,NP
 sub,bowst101,"Ted Bowsfield",1,9,1
-play,8,0,mantm101,??,,PB.2-3;1-2
-play,8,0,mantm101,??,,K
-play,8,0,skowb101,??,,NP
+play,8,0,mantm101,21,BCBS,PB.2-3;1-2
+play,8,0,mantm101,22,BCBS.S,K
+play,8,0,skowb101,00,,NP
 sub,clevt101,"Tex Clevenger",1,9,1
-play,8,0,skowb101,??,,K
-play,8,0,blanj101,??,,IW
-play,8,0,boyec102,??,,64(1)/FO
-play,8,1,avere102,??,,63
-play,8,1,leekg101,??,,HR/8XD
-play,8,1,bricf102,??,,63
-play,8,1,clevt101,??,,K
-play,9,0,richb102,??,,3/FL
-play,9,0,arrol101,??,,NP
+play,8,0,skowb101,12,FBFS,K
+play,8,0,blanj101,30,IIII,IW
+play,8,0,boyec102,22,CBBSX,64(1)/FO/G6
+play,8,1,avere102,00,X,63/G6
+play,8,1,leekg101,10,BX,HR/F89XD
+com,"Into RCF bleachers"
+play,8,1,bricf102,00,X,63/G6M
+play,8,1,clevt101,12,BSSS,K
+play,9,0,richb102,01,CX,3/P3F/FL
+play,9,0,arrol101,00,,NP
 sub,gondj101,"Jesse Gonder",0,9,11
-play,9,0,gondj101,??,,43
-play,9,0,kubet101,??,,K
+play,9,0,gondj101,01,CX,43/G4
+play,9,0,kubet101,02,CFFS,K
 data,er,turlb101,3
 data,er,coatj101,1
 data,er,arrol101,1

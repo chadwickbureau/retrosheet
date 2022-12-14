@@ -6,7 +6,7 @@ info,hometeam,NY1
 info,date,1922/10/04
 info,site,NYC14
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:05PM
 info,daynight,day
 info,usedh,false
 info,umphome,klemb901
@@ -14,17 +14,17 @@ info,ump1b,hildg101
 info,ump2b,mccob104
 info,ump3b,owenb901
 info,scorer,"Cohen/Neft, 238"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/01 2:09PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,128
 info,attendance,36514
 info,wp,ryanr101
@@ -49,81 +49,95 @@ start,kellg101,"George Kelly",1,6,3
 start,stenc101,"Casey Stengel",1,7,8
 start,snydf101,"Frank Snyder",1,8,2
 start,nehfa101,"Art Nehf",1,9,1
-play,1,0,wittw101,??,,8
-play,1,0,dugaj101,??,,53
-play,1,0,ruthb101,??,,K
-play,1,1,bancd101,??,,43
-play,1,1,grohh101,??,,S7
-play,1,1,frisf101,??,,S7.1-2
-play,1,1,meusi101,??,,PB.2-3;1-2
-play,1,1,meusi101,??,,2/FL
-play,1,1,younr101,??,,3/P
-play,2,0,pippw101,??,,3/G
-play,2,0,meusb101,??,,K
-play,2,0,schaw101,??,,S7
-play,2,0,warda101,??,,53
-play,2,1,kellg101,02,,K
-play,2,1,stenc101,??,,43
-play,2,1,snydf101,??,,53
-play,3,0,scote101,??,,5/P
-play,3,0,bushj102,??,,6/F7S
-play,3,0,wittw101,??,,43
-play,3,1,nehfa101,??,,3/G
-play,3,1,bancd101,??,,43
-play,3,1,grohh101,??,,T7/7DW
-play,3,1,frisf101,??,,4/P
-play,4,0,dugaj101,??,,S8/78
-play,4,0,ruthb101,??,,46(1)/FO
-play,4,0,pippw101,32,,K+CS2(26)/DP
-play,4,1,meusi101,??,,63
-play,4,1,younr101,??,,K
-play,4,1,kellg101,??,,S7
-play,4,1,stenc101,??,,4/P
-play,5,0,meusb101,??,,S6
-play,5,0,schaw101,??,,13/SH.1-2
-play,5,0,warda101,??,,W
-play,5,0,scote101,??,,9(B)4(2)/LDP
-play,5,1,snydf101,??,,63
-play,5,1,nehfa101,??,,4/P
-play,5,1,bancd101,??,,63
-play,6,0,bushj102,??,,63
-play,6,0,wittw101,??,,T7/7L
-play,6,0,dugaj101,??,,FC6.3XH(6252);B-2
-play,6,0,ruthb101,??,,S9/89.2-H;B-2(E9)
-play,6,0,pippw101,??,,3/G
-play,6,1,grohh101,??,,W
-play,6,1,frisf101,??,,2/FL
-play,6,1,meusi101,??,,CS2(24)
-play,6,1,meusi101,??,,K
-play,7,0,meusb101,??,,S7
-play,7,0,schaw101,??,,E1/TH2/SH.1-3(E9);B-2
-play,7,0,warda101,??,,8/SF.3-H(UR)
-play,7,0,scote101,??,,8
-play,7,0,bushj102,??,,FC5.2X3(5)
-play,7,1,younr101,??,,9
-play,7,1,kellg101,??,,S1/G2
-play,7,1,stenc101,??,,S7.1-2
-play,7,1,snydf101,??,,S6.2-3;1-2
-play,7,1,nehfa101,??,,NP
+play,1,0,wittw101,12,BCFX,8/L8
+play,1,0,dugaj101,01,CX,53/G56
+play,1,0,ruthb101,12,SSBS,K
+play,1,1,bancd101,11,CBX,43/G4M
+play,1,1,grohh101,22,BCBFX,S7/F7S
+play,1,1,frisf101,01,FX,S7/F7S.1-2
+play,1,1,meusi101,02,SFB,PB.2-3;1-2
+play,1,1,meusi101,12,SFB.X,2/P2F/FL
+play,1,1,younr101,22,BLSBX,3/P
+play,2,0,pippw101,11,CBX,3/G
+play,2,0,meusb101,12,CSBS,K
+play,2,0,schaw101,22,CBBCX,S7/L
+play,2,0,warda101,11,CBX,53
+play,2,1,kellg101,02,SSC,K/C
+play,2,1,stenc101,21,BCBX,43
+play,2,1,snydf101,00,X,53
+com,"Dugan: great stop"
+play,3,0,scote101,01,CX,5/P
+play,3,0,bushj102,10,BX,6/P78S
+com,"Bancroft: brilliant running over-the-shoulder catch"
+play,3,0,wittw101,22,BCBCX,43
+play,3,1,nehfa101,12,SFBX,3/G3
+play,3,1,bancd101,21,BBCX,43/G4S
+play,3,1,grohh101,11,CBX,T7/78D
+play,3,1,frisf101,01,FX,4/P4MD
+play,4,0,dugaj101,22,SBCBX,S8/G6M
+play,4,0,ruthb101,00,X,46(1)/FO
+play,4,0,pippw101,32,BCCBFB>S,K+CS2(26)/DP
+play,4,1,meusi101,01,CX,63
+play,4,1,younr101,32,BBCFBC,K/C
+play,4,1,kellg101,00,X,S7/G56
+play,4,1,stenc101,00,X,4/P
+play,5,0,meusb101,11,BCX,S6/G56
+play,5,0,schaw101,00,X,13/SH.1-2
+play,5,0,warda101,31,BFBBB,W
+play,5,0,scote101,11,BCX,9/L89S/LDP.2X2(94)
+com,"Youngs: sliding catch; he was playing shallow"
+play,5,1,snydf101,01,CX,63
+com,"Pipp: leaping catch of high throw"
+play,5,1,nehfa101,12,CSBFX,4/P34D
+play,5,1,bancd101,22,FCFBFBX,63
+play,6,0,bushj102,22,CBBFFX,63/G56
+play,6,0,wittw101,01,FX,T7/F7LD
+play,6,0,dugaj101,22,CBCBX,FC6.3XH(6252);B-2
+play,6,0,ruthb101,12,CSBX,S9/F89.2-H;B-2(E9)
+com,"Youngs fumbled"
+play,6,0,pippw101,01,FX,3/G
+play,6,1,grohh101,32,BSFFBBB,W
+play,6,1,frisf101,00,X,2/P25F/FL
+play,6,1,meusi101,31,BCBB>S,CS2(24)
+play,6,1,meusi101,32,BCBB>S.S,K
+play,7,0,meusb101,11,BCX,S7/L7
+play,7,0,schaw101,00,X,FC1/SH.1-3(E1/TH2);B-2(E9)
+play,7,0,warda101,00,X,8/F8D/SF.3-H(UR)
+play,7,0,scote101,32,FBCBBX,8/F78D
+com,"Stengel: nice running catch"
+play,7,0,bushj102,10,BX,FC5.2X3(5)
+play,7,1,younr101,12,CFBX,9/F9
+play,7,1,kellg101,10,BX,S1/G5S
+com,"Bush slipped while fielding it and twisted his ankle"
+play,7,1,stenc101,21,BBCX,S7/G56.1-2
+play,7,1,snydf101,10,BX,S6/G6M.2-3;1-2
+play,7,1,nehfa101,00,,NP
 sub,smite106,"Earl Smith",1,9,11
-play,7,1,smite106,??,,64(1)3/GDP
-play,8,0,wittw101,??,,NP
+play,7,1,smite106,32,BFBBFFFX,64(1)3/GDP
+com,"Pipp scooped low relay throw"
+play,8,0,wittw101,00,,NP
 sub,ryanr101,"Rosy Ryan",1,9,1
-play,8,0,wittw101,??,,K
-play,8,0,dugaj101,??,,8
-play,8,0,ruthb101,??,,K/C
-play,8,1,bancd101,??,,S9
-play,8,1,grohh101,??,,S9.1-2
-play,8,1,frisf101,??,,S7.2-3;1-2
-play,8,1,meusi101,??,,S8.3-H;2-H;1-3
-play,8,1,younr101,??,,NP
+play,8,0,wittw101,22,BBCFS,K
+play,8,0,dugaj101,11,BCX,8/F
+play,8,0,ruthb101,22,BBCCC,K/C
+play,8,1,bancd101,22,CBBCX,S9/F89S
+play,8,1,grohh101,00,X,S9.1-2
+play,8,1,frisf101,10,BX,S7.2-3;1-2
+play,8,1,meusi101,00,X,S8/8S.3-H;2-H;1-3
+play,8,1,younr101,00,,NP
 sub,hoytw101,"Waite Hoyt",0,9,1
-play,8,1,younr101,??,,8/SF.3-H
-play,8,1,kellg101,??,,K
-play,8,1,stenc101,??,,K
-play,9,0,pippw101,??,,S8
-play,9,0,meusb101,??,,4(B)3(1)/LDP
-play,9,0,schaw101,??,,43
+play,8,1,younr101,31,BFBBX,8/F78D/SF.3-H
+com,"Witt: nice running catch"
+play,8,1,kellg101,12,BCCS,K
+play,8,1,stenc101,32,BBBCFC,K/C
+play,9,0,pippw101,02,CFFX,S8/78
+play,9,0,meusb101,11,BSX,4/LDP.1X1(43)
+play,9,0,schaw101,22,CFBBFX,43
+com,"Pitch counts according to the Associated Press:"
+com,"   Bush: 107 (35 balls)"
+com,"   Hoyt:  15 ( 7 balls)"
+com,"   Nehf:  91 (31 balls)"
+com,"   Ryan:  26 ( 8 balls)"
 data,er,bushj102,3
 data,er,hoytw101,0
 data,er,nehfa101,1
@@ -136,7 +150,7 @@ info,hometeam,NYA
 info,date,1922/10/05
 info,site,NYC14
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:02PM
 info,daynight,day
 info,usedh,false
 info,umphome,hildg101
@@ -144,17 +158,17 @@ info,ump1b,mccob104
 info,ump2b,owenb901
 info,ump3b,klemb901
 info,scorer,"Cohen/Neft,238"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/01 2:17PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,160
 info,attendance,37020
 info,wp,
@@ -179,97 +193,113 @@ start,schaw101,"Wally Schang",1,6,2
 start,warda101,"Aaron Ward",1,7,4
 start,scote101,"Everett Scott",1,8,6
 start,shawb102,"Bob Shawkey",1,9,1
-play,1,0,bancd101,12,CBFFFX,43
-play,1,0,grohh101,??,,S8
+com,"Weather: hot"
+play,1,0,bancd101,12,CBFFFX,43/G34
+play,1,0,grohh101,22,CFBBX,S8/G6M
 play,1,0,frisf101,02,FFX,S7/F7S.1-2
-play,1,0,meusi101,??,,HR/7D.2-H;1-H
-play,1,0,younr101,??,,8
-play,1,0,kellg101,??,,2/FL
-play,1,1,wittw101,??,,53
-play,1,1,dugaj101,??,,E6/TH1.B-2
-play,1,1,ruthb101,??,,3/G.2-3
-play,1,1,pippw101,??,,S9/G.3-H(UR)
-play,1,1,meusb101,??,,9
-play,2,0,stenc101,??,,S6/G
-play,2,0,snydf101,??,,S9/G.1-2
-play,2,0,barnj102,??,,NP
+play,1,0,meusi101,12,FSBX,HR/F7D.2-H;1-H
+com,"Into LF stands"
+play,1,0,younr101,22,FBBSX,8/F
+play,1,0,kellg101,00,X,2/FL
+play,1,1,wittw101,22,BFLBFX,53/G5L
+com,"Groh: nice play; off-balance throw"
+play,1,1,dugaj101,21,FBBX,E6/TH1.B-2
+play,1,1,ruthb101,00,X,3/G.2-3
+play,1,1,pippw101,10,BX,S3/G.3-H(UR)
+com,"Bad bound off Kelly's glove"
+play,1,1,meusb101,22,BBCCX,9/F
+play,2,0,stenc101,22,BBCFX,S6/G6S
+play,2,0,snydf101,10,BX,S9/G3.1-2
+com,"Bounded over Pipp."
+com,"Stengel sustained a charley horse and was limping."
+play,2,0,barnj102,00,,NP
 sub,cunnb102,"Bill Cunningham",0,7,12
-com,"$Casey Stengel left with injured leg"
-play,2,0,barnj102,??,,64(1)3/GDP.2-3
-play,2,0,bancd101,??,,9/F9D
-play,2,1,schaw101,??,,NP
+play,2,0,barnj102,22,BBLLX,64(1)3/GDP.2-3
+play,2,0,bancd101,12,SFBX,9/F9DW
+play,2,1,schaw101,00,,NP
 sub,cunnb102,"Bill Cunningham",0,7,8
-play,2,1,schaw101,??,,43
-play,2,1,warda101,??,,53
-play,2,1,scote101,??,,43
-play,3,0,grohh101,??,,W
-play,3,0,frisf101,??,,9
-play,3,0,meusi101,??,,9
-play,3,0,younr101,??,,W.1-2
-play,3,0,kellg101,??,,K
-play,3,1,shawb102,??,,53
-play,3,1,wittw101,??,,5/FL
-play,3,1,dugaj101,??,,D7
-play,3,1,ruthb101,??,,W
-play,3,1,pippw101,??,,13/G1
-play,4,0,cunnb102,??,,K
-play,4,0,snydf101,??,,5/FL
-play,4,0,barnj102,??,,K
-play,4,1,meusb101,??,,2/FL
-play,4,1,schaw101,??,,K23
-play,4,1,warda101,??,,HR/7D
-play,4,1,scote101,??,,4/P
-play,5,0,bancd101,??,,3/L
-play,5,0,grohh101,??,,63
-play,5,0,frisf101,??,,S3/BG
-play,5,0,meusi101,??,,SB2.1-2(WP)
-play,5,0,meusi101,??,,WP.2-3
-play,5,0,meusi101,??,,63
-play,5,1,shawb102,??,,8
-play,5,1,wittw101,??,,13/G1
-play,5,1,dugaj101,??,,S7
-play,5,1,ruthb101,??,,43
-play,6,0,younr101,??,,S6
-play,6,0,kellg101,??,,14(1)/FO
-play,6,0,cunnb102,??,,9
-play,6,0,snydf101,??,,9
-play,6,1,pippw101,??,,2/FL
-play,6,1,meusb101,??,,W
-play,6,1,schaw101,??,,43.1-2
-play,6,1,warda101,??,,K/C
-play,7,0,barnj102,??,,43
-play,7,0,bancd101,??,,3/G
-play,7,0,grohh101,??,,4/P
-play,7,1,scote101,??,,3/G
-play,7,1,shawb102,??,,K/C
-play,7,1,wittw101,??,,K
-play,8,0,frisf101,??,,5/FL
-play,8,0,meusi101,??,,3/FL
-play,8,0,younr101,??,,7
-play,8,1,dugaj101,??,,13/BG
-play,8,1,ruthb101,??,,D7/7DW
-play,8,1,pippw101,??,,8/F8D.2-3
-play,8,1,meusb101,??,,D8/78.3-H
-play,8,1,schaw101,??,,3/G
-play,9,0,kellg101,??,,5/P
-play,9,0,cunnb102,??,,NP
+play,2,1,schaw101,11,CBX,43/G4
+play,2,1,warda101,00,X,53/G5
+play,2,1,scote101,32,BBCBFX,43/G4M
+com,"Frisch: spectacular diving stop & throw"
+play,3,0,grohh101,32,CBCBBFFB,W
+play,3,0,frisf101,10,BX,9/F
+play,3,0,meusi101,12,CFBX,9/F9
+play,3,0,younr101,32,BBFFBB,W.1-2
+play,3,0,kellg101,12,FSBS,K
+play,3,1,shawb102,32,BCSBBFFFFX,53/G5
+play,3,1,wittw101,22,BCCBX,5/FL
+play,3,1,dugaj101,20,BBX,D7/G5L
+play,3,1,ruthb101,31,BBCBB,W
+play,3,1,pippw101,00,X,13
+play,4,0,cunnb102,22,BBCFS,K
+play,4,0,snydf101,01,CX,5/FL
+play,4,0,barnj102,12,CCBS,K
+play,4,1,meusb101,12,SCBX,2/P23F/FL
+play,4,1,schaw101,22,BCBCFS,K23
+play,4,1,warda101,10,BX,HR/F7LD
+com,"Over the Lifebuoy sign in LF and on out of the park."
+com,"A tremendous drive that cleared the outer LF fence and dropped on the elevated tracks."
+play,4,1,scote101,11,FBX,4/P8S
+com,"Frisch: running over-the-shoulder catch"
+play,5,0,bancd101,32,BFFBBX,3/L
+play,5,0,grohh101,01,CX,63
+com,"Scott: beautiful pickup"
+play,5,0,frisf101,00,X,S3/BG23
+play,5,0,meusi101,21,PFP>S,SB2.1-2(WP)
+play,5,0,meusi101,22,PFP>S.B,WP.2-3
+play,5,0,meusi101,32,PFP>S.B.X,63
+play,5,1,shawb102,01,CX,8/F
+play,5,1,wittw101,10,BX,13/G1
+com,"Barnes: leaping stop"
+play,5,1,dugaj101,32,BCFBFBX,S7
+play,5,1,ruthb101,22,BBCFFX,43
+play,6,0,younr101,10,BX,S6/G
+play,6,0,kellg101,11,CBX,14(1)/FO
+play,6,0,cunnb102,21,BFBX,9/F
+play,6,0,snydf101,00,X,9/F9DW
+play,6,1,pippw101,32,BBBCCX,2/P2F/FL
+play,6,1,meusb101,31,BBFBB,W
+play,6,1,schaw101,00,>X,43.1-2
+play,6,1,warda101,32,BBCBSC,K/C
+com,"The weather began to get hazy"
+play,7,0,barnj102,11,BCX,43/G4
+play,7,0,bancd101,20,BBX,3/G
+play,7,0,grohh101,10,BX,4/P4MD
+play,7,1,scote101,00,X,3/G
+play,7,1,shawb102,02,CSC,K/C
+play,7,1,wittw101,12,BFFC,K/C
+play,8,0,frisf101,22,BMFFFBFX,5/P5DF/FL
+play,8,0,meusi101,00,X,3/P3DF/FL
+play,8,0,younr101,22,BBCSFX,7/F7
+play,8,1,dugaj101,01,CX,13/BG1S
+play,8,1,ruthb101,01,SX,D7/L7LDW
+play,8,1,pippw101,10,BX,8/F8XD.2-3
+play,8,1,meusb101,32,F>FBBBX,D8/L78.3-H
+com,"Ruth attempted a clean steal of home but Meusel fouled off"
+com,"a bad ball."
+play,8,1,schaw101,00,X,3/G
+play,9,0,kellg101,22,CBBSX,5/P
+play,9,0,cunnb102,00,,NP
 sub,smite106,"Earl Smith",0,7,11
-play,9,0,smite106,??,,K
-play,9,0,snydf101,??,,43
-play,9,1,warda101,??,,NP
+play,9,0,smite106,12,FBCFS,K
+play,9,0,snydf101,11,CBX,43
+play,9,1,warda101,00,,NP
 sub,kingl103,"Lee King",0,7,8
-play,9,1,warda101,??,,K
-play,9,1,scote101,??,,S8
-play,9,1,shawb102,??,,16(1)/FO/BG
-play,9,1,wittw101,??,,S7.1-2
-play,9,1,dugaj101,??,,K
-play,10,0,barnj102,??,,13/G1
-play,10,0,bancd101,??,,S8.BX2(84)
-play,10,0,grohh101,??,,43
-play,10,1,ruthb101,??,,2/FL
-play,10,1,pippw101,??,,3/G
-play,10,1,meusb101,??,,2/FL
-com,"$game called on account of darkness"
+play,9,1,warda101,32,BBCCBS,K
+play,9,1,scote101,01,CX,S8/F8S
+play,9,1,shawb102,01,CX,16(1)/FO/BG
+play,9,1,wittw101,11,CBX,S7/7S.1-2
+play,9,1,dugaj101,22,BBFSS,K
+play,10,0,barnj102,01,CX,13/G1S
+play,10,0,bancd101,22,BFBCX,S8/L78.BX2(84)
+com,"Bancroft tried for 2B when Witt fumbled"
+play,10,0,grohh101,02,CCFX,43/G4S
+play,10,1,ruthb101,20,BBX,2/P2F/FL
+play,10,1,pippw101,10,BX,3/G3S
+com,"Kelly tagged Pipp"
+play,10,1,meusb101,00,X,2/FL
+com,"Game called due to darkness"
 data,er,barnj102,2
 data,er,shawb102,3
 id,NY1192210060
@@ -280,7 +310,7 @@ info,hometeam,NY1
 info,date,1922/10/06
 info,site,NYC14
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:04PM
 info,daynight,day
 info,usedh,false
 info,umphome,mccob104
@@ -288,19 +318,19 @@ info,ump1b,owenb901
 info,ump2b,klemb901
 info,ump3b,hildg101
 info,scorer,"Cohen/Neft,238"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/01 2:24PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
-info,timeofgame,108
-info,attendance,37630
+info,sky,sunny
+info,timeofgame,103
+info,attendance,37620
 info,wp,scotj101
 info,lp,hoytw101
 info,save,
@@ -323,86 +353,98 @@ start,kellg101,"George Kelly",1,6,3
 start,cunnb102,"Bill Cunningham",1,7,8
 start,smite106,"Earl Smith",1,8,2
 start,scotj101,"Jack Scott",1,9,1
-play,1,0,wittw101,??,,53/BG
-play,1,0,dugaj101,??,,9
-play,1,0,ruthb101,??,,43
-play,1,1,bancd101,??,,1/BG
-play,1,1,grohh101,??,,S9
-play,1,1,frisf101,??,,S8.1-2
-play,1,1,meusi101,??,,4(B)3(1)/LDP
-play,2,0,pippw101,??,,S9
-play,2,0,meusb101,??,,3/FL
-play,2,0,schaw101,??,,8
-play,2,0,warda101,??,,SB2
-play,2,0,warda101,??,,63
-play,2,1,younr101,??,,S7/F7S.BX2(74)
-play,2,1,kellg101,??,,63
-play,2,1,cunnb102,??,,S9
-play,2,1,smite106,??,,46(1)/FO
-play,3,0,scote101,??,,9
-play,3,0,hoytw101,??,,43
-play,3,0,wittw101,??,,W
-play,3,0,dugaj101,??,,PO1(23)
-play,3,1,scotj101,??,,S8
-play,3,1,bancd101,??,,E4/G.1-3;B-1
-play,3,1,grohh101,??,,FC1.3XH(1525);1-3;B-2
-play,3,1,frisf101,??,,8/SF.3-H(UR);2-3
-play,3,1,meusi101,??,,S9.3-H(UR)
-play,3,1,younr101,??,,46(1)/FO
-play,4,0,dugaj101,??,,53
-play,4,0,ruthb101,??,,HP
-play,4,0,pippw101,??,,K
-play,4,0,meusb101,??,,E4/G.1X3(45);B-1
-play,4,1,kellg101,??,,S4
-play,4,1,cunnb102,??,,CS2(26)
-play,4,1,cunnb102,??,,53
-play,4,1,smite106,??,,S7
-play,4,1,scotj101,??,,K/C
-play,5,0,schaw101,??,,31
-play,5,0,warda101,??,,8
-play,5,0,scote101,??,,5/FL
-play,5,1,bancd101,??,,K
-play,5,1,grohh101,??,,53/BG
-play,5,1,frisf101,??,,W
-play,5,1,meusi101,??,,CS2(26)
-play,6,0,hoytw101,??,,S8/89
-play,6,0,wittw101,??,,64(1)/FO
-play,6,0,dugaj101,??,,7
-play,6,0,ruthb101,??,,3/G
-play,6,1,meusi101,??,,7
-play,6,1,younr101,??,,S7/L
-play,6,1,kellg101,??,,3/FL
-play,6,1,cunnb102,??,,43
-play,7,0,pippw101,??,,43
-play,7,0,meusb101,??,,S1/G
-play,7,0,schaw101,??,,D9/9L.1-3
-play,7,0,warda101,??,,NP
+com,"Temperature: warm"
+play,1,0,wittw101,21,CBBX,13/BG
+play,1,0,dugaj101,21,CBBX,9/F9D
+play,1,0,ruthb101,22,BSSBX,43
+play,1,1,bancd101,01,CX,1/BG3S
+com,"Hoyt ran over to 1B and beat Bancroft to the bag"
+play,1,1,grohh101,01,CX,S9/L
+play,1,1,frisf101,11,BCX,S8/G6M.1-2
+play,1,1,meusi101,22,CFBBX,4/LDP.1X1(43)
+com,"Ward: leaping catch"
+play,2,0,pippw101,11,BCX,S9/G34
+play,2,0,meusb101,22,S+1CB1BX,3/P3F/FL
+play,2,0,schaw101,02,FSX,8/F8
+play,2,0,warda101,21,SBB>S,SB2
+play,2,0,warda101,32,SBB>S.FBX,63
+play,2,1,younr101,12,SFBX,S7/F7S.BX2(74)
+play,2,1,kellg101,22,FFFBBX,63
+play,2,1,cunnb102,22,BCBCX,S9/G3L
+play,2,1,smite106,01,FX,46(1)/FO
+play,3,0,scote101,01,CX,9/F
+play,3,0,hoytw101,21,BCBX,43/G4
+play,3,0,wittw101,32,BBCBCB,W
+play,3,0,dugaj101,11,BC+1,PO1(23)
+play,3,1,scotj101,01,CX,S8/G6M
+play,3,1,bancd101,11,CBX,E4/G.1-3;B-1
+play,3,1,grohh101,00,X,FC1.3XH(15);1-3;B-2
+play,3,1,frisf101,10,BX,8/F8XD/SF.3-H(UR);2-3
+play,3,1,meusi101,12,FBCFX,S9/L.3-H(UR)
+play,3,1,younr101,00,X,46(1)/FO
+play,4,0,dugaj101,00,X,53
+play,4,0,ruthb101,10,BH,HP
+play,4,0,pippw101,12,CBS+1S,K
+play,4,0,meusb101,22,SFFBB1X,E4/G.1X3(45);B-1
+com,"On the 2-2 count, Ruth started to steal before Scott"
+com,"went into his motion.  When Scott threw to 2B Ruth"
+com,"returned safely to 1B."
+com,"Ruth tried advancing to 3B on Frisch's error but failed to"
+com,"slide, knocking Groh down; the umpires had to step between"
+com,"them to avoid a fight."
+play,4,1,kellg101,02,FCFFFX,S4/G
+play,4,1,cunnb102,10,B>C,CS2(26)
+play,4,1,cunnb102,11,B>C.X,53
+play,4,1,smite106,00,X,S7/7L
+play,4,1,scotj101,02,CFC,K/C
+play,5,0,schaw101,22,FFBBFX,31
+play,5,0,warda101,12,FCBX,8/F8
+play,5,0,scote101,01,CX,5/P5F/FL
+play,5,1,bancd101,22,BFCBS,K
+play,5,1,grohh101,00,X,53/BG5S
+play,5,1,frisf101,32,LBCBBB,W
+play,5,1,meusi101,01,F>B,CS2(26)
+play,6,0,hoytw101,11,FBX,S8/89
+play,6,0,wittw101,01,CX,64(1)/FO
+play,6,0,dugaj101,02,CFX,7/F
+play,6,0,ruthb101,11,SBX,3/G
+play,6,1,meusi101,10,BX,7/F7S
+play,6,1,younr101,01,CX,S7/L7S
+play,6,1,kellg101,21,BBFX,3/P3F/FL
+play,6,1,cunnb102,00,X,43/G4
+play,7,0,pippw101,00,X,43
+play,7,0,meusb101,22,SBBFX,S4/G4MS
+play,7,0,schaw101,00,X,D9/G3L.1-3
+play,7,0,warda101,00,,NP
 sub,smite104,"Elmer Smith",0,7,11
-play,7,0,smite104,??,,K
-play,7,0,scote101,??,,63
-play,7,1,smite106,??,,NP
+play,7,0,smite104,32,CBBBFS,K
+play,7,0,scote101,11,FBX,63
+play,7,1,smite106,00,,NP
 sub,mcnam101,"Mike McNally",0,7,4
-play,7,1,smite106,??,,13/G1
-play,7,1,scotj101,??,,53
-play,7,1,bancd101,??,,W
-play,7,1,grohh101,??,,S9.1-3
-play,7,1,frisf101,??,,S9.3-H;1-3
-play,7,1,meusi101,??,,43
-play,8,0,hoytw101,??,,NP
+play,7,1,smite106,01,CX,13/G1
+play,7,1,scotj101,00,X,53
+play,7,1,bancd101,32,SBCBFBB,W
+play,7,1,grohh101,00,>X,S9/G34.1-3
+play,7,1,frisf101,00,X,S9.3-H;1-3
+play,7,1,meusi101,00,X,43
+play,8,0,hoytw101,00,,NP
 sub,bakef102,"Frank Baker",0,9,11
-play,8,0,bakef102,??,,3/G
-play,8,0,wittw101,??,,8
-play,8,0,dugaj101,??,,53
-play,8,1,younr101,??,,NP
+play,8,0,bakef102,10,BX,3/G3
+play,8,0,wittw101,12,BCFX,8/F
+com,"Cunningham: nice running catch"
+play,8,0,dugaj101,00,X,53
+com,"Groh: spectacular play"
+play,8,1,younr101,00,,NP
 sub,jones104,"Sam Jones",0,9,1
-play,8,1,younr101,??,,S8
-play,8,1,kellg101,??,,13/SH.1-2
-play,8,1,cunnb102,??,,W
-play,8,1,smite106,??,,4/P
-play,8,1,scotj101,??,,5/FL
-play,9,0,ruthb101,??,,43
-play,9,0,pippw101,??,,63
-play,9,0,meusb101,??,,63
+play,8,1,younr101,32,BCBBCX,S8/G4M
+play,8,1,kellg101,11,BFX,13/SH.1-2
+play,8,1,cunnb102,32,SCBBBB,W
+play,8,1,smite106,10,BX,4/P34D
+play,8,1,scotj101,12,FCBX,5/FL
+play,9,0,ruthb101,12,BSFX,43/G4
+play,9,0,pippw101,21,FBBX,63/G6M
+com,"Bancroft: running 1-handed stab & throw"
+play,9,0,meusb101,00,X,63
 data,er,hoytw101,1
 data,er,jones104,0
 data,er,scotj101,0
@@ -414,7 +456,7 @@ info,hometeam,NYA
 info,date,1922/10/07
 info,site,NYC14
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:02PM
 info,daynight,day
 info,usedh,false
 info,umphome,owenb901
@@ -422,18 +464,18 @@ info,ump1b,klemb901
 info,ump2b,hildg101
 info,ump3b,mccob104
 info,scorer,"Cohen/Neft,238"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/01 2:33PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,101
+info,fieldcond,soaked
+info,precip,rain
+info,sky,overcast
+info,timeofgame,114
 info,attendance,36242
 info,wp,mcquh101
 info,lp,maysc101
@@ -457,83 +499,103 @@ start,schaw101,"Wally Schang",1,6,2
 start,warda101,"Aaron Ward",1,7,4
 start,scote101,"Everett Scott",1,8,6
 start,maysc101,"Carl Mays",1,9,1
-play,1,0,bancd101,??,,S1/G
-play,1,0,grohh101,??,,13/G1.1-2
-play,1,0,frisf101,??,,7
-play,1,0,meusi101,??,,63
-play,1,1,wittw101,??,,S8
-play,1,1,dugaj101,??,,S7.1-2
-play,1,1,ruthb101,??,,8/F8D.2-3
-play,1,1,pippw101,??,,S8/89.3-H;1-3;BX2(84)
-com,"Discrepancy: sheet has assist 9 not 8"
-play,1,1,meusb101,??,,S9.3-H
-play,1,1,schaw101,??,,SB2.1-3(E2/TH2)
-play,1,1,schaw101,??,,K/C
-play,2,0,younr101,??,,7
-play,2,0,kellg101,??,,13
-play,2,0,cunnb102,??,,W
-play,2,0,snydf101,??,,53
-play,2,1,warda101,??,,9/F9D
-play,2,1,scote101,??,,63
-play,2,1,maysc101,??,,43
-play,3,0,mcquh101,??,,23/BG
-play,3,0,bancd101,??,,W
-play,3,0,grohh101,??,,7
-play,3,0,frisf101,??,,9
-play,3,1,wittw101,??,,8
-play,3,1,dugaj101,??,,53
-play,3,1,ruthb101,??,,W
-play,3,1,pippw101,??,,9
-play,4,0,meusi101,??,,53
-play,4,0,younr101,??,,S9
-play,4,0,kellg101,??,,36(1)/FO
-play,4,0,cunnb102,??,,46(1)/FO
-play,4,1,meusb101,??,,K
-play,4,1,schaw101,??,,9
-play,4,1,warda101,??,,K
-play,5,0,snydf101,??,,S6
-play,5,0,mcquh101,??,,D7/7L.1-3
-play,5,0,bancd101,??,,S9/G.3-H;2-H
-play,5,0,grohh101,??,,S1/G1.1-2
-play,5,0,frisf101,??,,13/SH.2-3;1-2
-play,5,0,meusi101,??,,43.3-H;2-3
-play,5,0,younr101,??,,S7.3-H
-play,5,0,kellg101,??,,PO1(1363)
-play,5,1,scote101,??,,W
-play,5,1,maysc101,??,,3/FL
-play,5,1,wittw101,??,,46(1)3/GDP
-play,6,0,kellg101,??,,8
-play,6,0,cunnb102,??,,53
-play,6,0,snydf101,??,,S7
-play,6,0,mcquh101,??,,K
-play,6,1,dugaj101,??,,4/P
-play,6,1,ruthb101,??,,2/FL
-play,6,1,pippw101,??,,63
-play,7,0,bancd101,??,,7
-play,7,0,grohh101,??,,3/BG
-play,7,0,frisf101,??,,8
-play,7,1,meusb101,??,,53
-play,7,1,schaw101,??,,43
-play,7,1,warda101,??,,HR/7D
-play,7,1,scote101,??,,6/P56D
-play,8,0,meusi101,??,,S8
-play,8,0,younr101,??,,7
-play,8,0,kellg101,??,,3(B)6(1)/GDP
-play,8,1,maysc101,??,,NP
+com,"Rain which started to fall about 1pm was increased to a"
+com,"heavy downpour before the third inning was reached; more"
+com,"than half the game was played with a grimy ball."
+play,1,0,bancd101,11,CBX,S4/G4MS
+play,1,0,grohh101,01,FX,13/G1.1-2
+play,1,0,frisf101,10,BX,7/L
+play,1,0,meusi101,11,BCX,63/G6M
+play,1,1,wittw101,10,BX,S8/L8S
+play,1,1,dugaj101,12,SFBX,S7/L.1-2
+play,1,1,ruthb101,21,BCBX,8/F8XDW.2-3
+com,"Cunningham: great catch against the wall; he fell and was"
+com,"shaken up.  Time was taken for him to recover."
+play,1,1,pippw101,01,CX,S8/89.3-H;1-3;BX2(84)
+play,1,1,meusb101,20,BBX,S9/L.3-H
+play,1,1,schaw101,02,FFF>B,SB2.1-3(E2/TH2)
+play,1,1,schaw101,22,FFF>B.BC,K/C
+play,2,0,younr101,32,CBBFBX,7/F
+play,2,0,kellg101,22,SFFBBFX,13/G1S
+play,2,0,cunnb102,30,BBBB,W
+play,2,0,snydf101,01,CX,53
+play,2,1,warda101,00,X,9/F9DW
+play,2,1,scote101,00,X,63
+play,2,1,maysc101,11,CBX,43
+play,3,0,mcquh101,01,SX,23/BG2
+play,3,0,bancd101,31,BBCBB,W
+play,3,0,grohh101,12,CBCX,7/F
+play,3,0,frisf101,10,BX,9/F9D
+com,"Ruth: fine running catch"
+play,3,1,wittw101,10,BX,8/F8S
+play,3,1,dugaj101,00,X,53
+com,"Groh: nice stop; perfect throw"
+play,3,1,ruthb101,32,BBCBFB,W
+play,3,1,pippw101,10,BX,9/F
+play,4,0,meusi101,00,X,53
+play,4,0,younr101,22,CFBBX,S9/G34
+play,4,0,kellg101,22,FCBFFBFX,36(1)/FO
+play,4,0,cunnb102,22,BBFFX,46(1)/FO
+play,4,1,meusb101,12,SSBS,K
+play,4,1,schaw101,32,FBSFBBX,9/F
+play,4,1,warda101,22,BSBFS,K
+com,"Rain was still falling steadily"
+play,5,0,snydf101,01,FX,S68/G6M
+play,5,0,mcquh101,01,SX,D7/G5L.1-3
+play,5,0,bancd101,22,CBFBX,S9/G4.3-H;2-H
+com,"Bad hop over Ward"
+play,5,0,grohh101,20,BBX,S13/G1.1-2
+com,"Mays fell as it caromed off his glove to Pipp who nearly"
+com,"made the putout."
+play,5,0,frisf101,01,SX,13/SH.2-3;1-2
+play,5,0,meusi101,21,FBBX,43.3-H;2-3
+play,5,0,younr101,22,BBCFX,S7.3-H
+play,5,0,kellg101,00,1,PO1(1363)
+play,5,1,scote101,31,BBBCB,W
+play,5,1,maysc101,11,BCX,3/FL
+play,5,1,wittw101,12,CCBFFX,46(1)3/GDP
+com,"It started to grow dark and rain fell in torrents"
+play,6,0,kellg101,22,BBFFFFFFFX,8/F
+com,"Witt: nice running catch"
+play,6,0,cunnb102,10,BX,53/G56
+com,"Dugan: great 1-handed stop"
+play,6,0,snydf101,32,FBSBBX,S7
+play,6,0,mcquh101,02,CCS,K
+play,6,1,dugaj101,01,KX,4/P
+play,6,1,ruthb101,21,BKBX,2/FL
+play,6,1,pippw101,21,FBBX,63
+play,7,0,bancd101,01,FX,7/F
+play,7,0,grohh101,00,X,3/BG3S
+play,7,0,frisf101,00,X,8/F8
+play,7,1,meusb101,22,BBCFX,53
+com,"Kelly scooped low throw"
+play,7,1,schaw101,01,CX,43/G4
+play,7,1,warda101,10,BX,HR/F7D
+com,"Into LF bleachers"
+play,7,1,scote101,00,X,6/P56D
+play,8,0,meusi101,00,X,S8/F8S
+play,8,0,younr101,00,X,7/F
+play,8,0,kellg101,00,X,3(B)6(1)/GDP
+play,8,1,maysc101,00,,NP
 sub,smite104,"Elmer Smith",1,9,11
-play,8,1,smite104,??,,K/C
-play,8,1,wittw101,??,,D7/L7L
-play,8,1,dugaj101,??,,8
-play,8,1,ruthb101,??,,4/P34D
-play,9,0,cunnb102,??,,NP
+play,8,1,smite104,22,BFBCFC,K/C
+play,8,1,wittw101,00,X,D7/G5L
+play,8,1,dugaj101,10,BX,8/F8S
+com,"Cunningham: great running catch"
+play,8,1,ruthb101,00,X,4/P9S
+play,9,0,cunnb102,00,,NP
 sub,jones104,"Sam Jones",1,9,1
-play,9,0,cunnb102,??,,8
-play,9,0,snydf101,??,,6/P56D
-play,9,0,mcquh101,??,,8
-play,9,1,pippw101,??,,D9
-play,9,1,meusb101,??,,FC5.2X3(5656);B-1
-play,9,1,schaw101,??,,S8.1-3;BX2(864)
-play,9,1,warda101,??,,7
+play,9,0,cunnb102,10,BX,8/F8
+play,9,0,snydf101,00,X,6/P56D
+play,9,0,mcquh101,02,CCFX,8/F8D
+play,9,1,pippw101,11,BCX,D9/G3L
+play,9,1,meusb101,01,LX,FC5.2X3(5656);B-1
+play,9,1,schaw101,20,BBX,S8/L78.1-3;BX2(864)
+play,9,1,warda101,21,BSBX,7/F
+com,"Pitch counts according to the Associated Press:"
+com,"   McQuillan: 113 (42 balls)"
+com,"   Mays:      108"
+com,"   Jones:       7"
 data,er,mcquh101,3
 data,er,maysc101,4
 data,er,jones104,0
@@ -553,18 +615,18 @@ info,ump1b,hildg101
 info,ump2b,mccob104
 info,ump3b,owenb901
 info,scorer,"Cohen/Neft,238"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/01 2:41PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
-info,timeofgame,120
+info,fieldcond,wet
+info,precip,rain
+info,sky,overcast
+info,timeofgame,121
 info,attendance,38551
 info,wp,nehfa101
 info,lp,bushj102
@@ -588,83 +650,95 @@ start,kellg101,"George Kelly",1,6,3
 start,cunnb102,"Bill Cunningham",1,7,8
 start,snydf101,"Frank Snyder",1,8,2
 start,nehfa101,"Art Nehf",1,9,1
-play,1,0,wittw101,??,,6/L
-play,1,0,dugaj101,??,,S8
-play,1,0,ruthb101,??,,53/SH.1-2
-play,1,0,pippw101,??,,S8.2-H
-play,1,0,meusb101,??,,4(1)/FO
-play,1,1,bancd101,??,,53
-play,1,1,grohh101,??,,S9
-play,1,1,frisf101,??,,16(1)3/GDP
-play,2,0,schaw101,??,,7/FL
-play,2,0,warda101,??,,8
-play,2,0,scote101,??,,63
-play,2,1,meusi101,??,,S5/G
-play,2,1,younr101,??,,W.1-2
-play,2,1,kellg101,??,,1/SH.2-3;1-2
-play,2,1,cunnb102,??,,S8.3-H;2-H
-play,2,1,snydf101,??,,S7.1-2
-play,2,1,nehfa101,??,,W.2-3;1-2
-play,2,1,bancd101,??,,4/L
-play,2,1,grohh101,??,,K
-play,3,0,bushj102,??,,63
-play,3,0,wittw101,??,,63
-play,3,0,dugaj101,??,,63
-play,3,1,frisf101,??,,3/G
-play,3,1,meusi101,??,,9
-play,3,1,younr101,??,,3/P
-play,4,0,ruthb101,??,,K
-play,4,0,pippw101,??,,43
-play,4,0,meusb101,??,,K
-play,4,1,kellg101,??,,S8
-play,4,1,cunnb102,??,,16(1)3/GDP
-play,4,1,snydf101,??,,6/P
-play,5,0,schaw101,??,,K23
-play,5,0,warda101,??,,W
-play,5,0,scote101,??,,S9.1-2
-play,5,0,bushj102,??,,S9.2-H;1XH(94252);B-2
-play,5,0,wittw101,??,,NP
+play,1,0,wittw101,01,CX,6/L
+play,1,0,dugaj101,32,CBBBCX,S8/G6M
+play,1,0,ruthb101,00,X,23/SH.1-2
+play,1,0,pippw101,00,X,S8/78.2-H
+play,1,0,meusb101,22,SF1BBX,4(1)/FO
+com,"Rain stopped in the middle of the inning and the sun came"
+com,"out momentarily."
+play,1,1,bancd101,00,X,53
+play,1,1,grohh101,01,CX,S9
+play,1,1,frisf101,11,BFX,16(1)3/GDP
+play,2,0,schaw101,00,X,7/F7L
+play,2,0,warda101,32,BBBCCFX,8/F8D
+play,2,0,scote101,21,CBBX,63
+play,2,1,meusi101,11,FBX,S5/G5S
+play,2,1,younr101,32,SFBBBB,W.1-2
+play,2,1,kellg101,00,X,1/BG3S/SH.2-3;1-2
+com,"Bush tagged Kelly"
+play,2,1,cunnb102,12,BFSX,S8/G46.3-H;2-H
+play,2,1,snydf101,02,FFX,S7.1-2
+play,2,1,nehfa101,31,BBCBB,W.2-3;1-2
+play,2,1,bancd101,22,BCBFX,4/L
+com,"It started raining again"
+play,2,1,grohh101,02,CFFC,K/C
+play,3,0,bushj102,10,BX,63
+play,3,0,wittw101,02,CCX,63/G6
+play,3,0,dugaj101,21,BBCX,63
+play,3,1,frisf101,01,FX,3/G
+play,3,1,meusi101,22,SFBBFX,9/F
+play,3,1,younr101,01,SX,3/P
+play,4,0,ruthb101,12,CCBS,K
+play,4,0,pippw101,10,BX,43/G4
+play,4,0,meusb101,12,CFFBS,K
+com,"Ump Klem cautioned Yankees for bench jockeying"
+play,4,1,kellg101,32,CBSBBX,S/G46
+play,4,1,cunnb102,00,X,16(1)3/GDP
+play,4,1,snydf101,00,X,6/P
+play,5,0,schaw101,12,CBCS,K23
+play,5,0,warda101,32,FBCBBB,W
+play,5,0,scote101,12,CFBX,S9/G34.1-2
+play,5,0,bushj102,01,FX,S9/L89.2-H;1XH(94252);B-2
+com,"Scott ran through 3B coach Huggins' stop sign"
+play,5,0,wittw101,00,,NP
 sub,mcmin101,"Norm McMillan",0,1,11
-play,5,0,mcmin101,??,,13/G1
-play,5,1,nehfa101,??,,NP
+play,5,0,mcmin101,32,FBSBBX,13
+play,5,1,nehfa101,00,,NP
 sub,mcmin101,"Norm McMillan",0,1,8
-play,5,1,nehfa101,??,,W
-play,5,1,bancd101,??,,46(1)3/GDP
-play,5,1,grohh101,??,,3/G
-play,6,0,dugaj101,??,,63
-play,6,0,ruthb101,??,,13
-play,6,0,pippw101,??,,5/L
-play,6,1,frisf101,??,,S7/78
-play,6,1,meusi101,??,,9
-play,6,1,younr101,??,,16(1)/FO
-play,6,1,kellg101,??,,64(1)/FO
-play,7,0,meusb101,??,,S5
-play,7,0,schaw101,??,,54/SH.1-2
-play,7,0,warda101,??,,WP.2-3
-play,7,0,warda101,??,,IW
-play,7,0,scote101,??,,8/SF.3-H;1-2(THH)
-play,7,0,bushj102,??,,43
-play,7,1,cunnb102,??,,NP
+play,5,1,nehfa101,32,BBCSBB,W
+play,5,1,bancd101,11,BFX,46(1)3/GDP
+play,5,1,grohh101,22,CBFBX,3/G
+com,"Skies started clearing and the sun was shining"
+play,6,0,dugaj101,12,FFBFX,63
+play,6,0,ruthb101,11,BSX,13/G1
+play,6,0,pippw101,00,X,5/L5L
+com,"Groh: diving catch"
+play,6,1,frisf101,12,BCFX,S6/G56
+play,6,1,meusi101,11,BFX,9/L
+play,6,1,younr101,20,BBX,16(1)/FO
+play,6,1,kellg101,21,CBBX,64(1)/FO
+play,7,0,meusb101,22,CBSBX,S5/G5S
+play,7,0,schaw101,21,BFB+1X,54/SH.1-2
+play,7,0,warda101,00,B,WP.2-3
+play,7,0,warda101,30,B.III,IW
+play,7,0,scote101,10,BX,8/F8/SF.3-H;1-2(THH)
+com,"Close play at home.  Ump Klem first called Meusel out, then"
+com,"reversed his decision.  Giants kicked vigorously."
+play,7,0,bushj102,00,X,43
+play,7,1,cunnb102,00,,NP
 sub,smite106,"Earl Smith",1,7,11
-play,7,1,smite106,02,,K
-play,7,1,snydf101,??,,K
-play,7,1,nehfa101,??,,4/P
-play,8,0,mcmin101,??,,NP
+play,7,1,smite106,02,CFC,K/C
+play,7,1,snydf101,22,BSSFBS,K
+play,7,1,nehfa101,00,X,4/P
+play,8,0,mcmin101,00,,NP
 sub,kingl103,"Lee King",1,7,8
-play,8,0,mcmin101,??,,53
-play,8,0,dugaj101,??,,HP
-play,8,0,ruthb101,??,,3/G.1-2
-play,8,0,pippw101,??,,43
-play,8,1,bancd101,??,,3/G
-play,8,1,grohh101,??,,S8
-play,8,1,frisf101,??,,D8.1-3
-play,8,1,meusi101,??,,FC6.3XH(6252);2-3;B-2
-play,8,1,younr101,??,,IW
-play,8,1,kellg101,??,,S8/78.3-H;2-H;1-2
-play,8,1,kingl103,??,,S7/F7S.2-H;1-2
-play,8,1,snydf101,??,,8
-play,9,0,meusb101,??,,6/F56D
-play,9,0,schaw101,??,,9
-play,9,0,warda101,??,,9
+play,8,0,mcmin101,22,BCBCX,53
+play,8,0,dugaj101,11,CBH,HP
+play,8,0,ruthb101,00,X,3/G.1-2
+play,8,0,pippw101,10,BX,43/G4
+play,8,1,bancd101,32,BCBBCX,3/G3L
+com,"Pipp: great bare-handed stab"
+play,8,1,grohh101,11,CBX,S8/G6M
+play,8,1,frisf101,11,BCX,D8/78.1-3
+play,8,1,meusi101,10,BX,FC6.3XH(62);2-3;B-2
+play,8,1,younr101,30,BIII,IW
+play,8,1,kellg101,10,BX,S8/L78.3-H;2-H;1-2
+play,8,1,kingl103,11,FBX,S7/F7S.2-H;1-2
+play,8,1,snydf101,10,BX,8/F
+play,9,0,meusb101,12,SBFX,6/P6D
+play,9,0,schaw101,02,CFX,9/F
+play,9,0,warda101,01,CX,9/F
 data,er,bushj102,5
 data,er,nehfa101,3
+

@@ -4261,13 +4261,13 @@ info,umphome,coont901
 info,ump1b,kaisk901
 info,ump2b,spenf901
 info,ump3b,fordd901
-info,scorer,"Angels, Yankees"
-info,translator,"Doug Burks"
-info,inputter,"Doug Burks"
+info,scorer,"Angels, Yankees, WROW"
+info,translator,"Doug Burks, Wayne Townsend"
+info,inputter,"Doug Burks, Wayne Townsend"
 info,inputtime,1996/05/12 5:46PM
-info,howscored,unknown
-info,pitches,none
-info,oscorer,munse701
+info,howscored,radio
+info,pitches,pitches
+info,scorer,munse701
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -4300,125 +4300,132 @@ start,harll101,"Larry Harlow",1,7,9
 start,patef101,"Freddie Patek",1,8,6
 start,donot101,"Tom Donohue",1,9,2
 start,marta101,"Alfredo Martinez",1,0,1
-play,1,0,randw001,??,,W
-play,1,0,browb001,??,,53.1-2
-play,1,0,spenj101,??,,K
-play,1,0,jackr001,??,,43
-play,1,1,millr001,??,,S9
-play,1,1,lansc001,??,,54(1)/FO
-play,1,1,carer001,??,,S8.1-2
-play,1,1,thomj001,??,,S8.2-H;1-2
-play,1,1,rudij101,??,,K
-play,1,1,gricb001,??,,K
-play,2,0,nettg001,??,,S8
-play,2,0,pinil001,??,,8/L
-play,2,0,lefej001,??,,S7.1-2
-play,2,0,ceror001,??,,K
-play,2,0,dentb001,??,,4/P
-play,2,1,harll101,??,,13
-play,2,1,patef101,??,,8
-play,2,1,donot101,??,,5/P
-play,3,0,randw001,??,,W
-play,3,0,browb001,??,,SB2
-play,3,0,browb001,??,,FC1/BG.2X3(15)
-play,3,0,spenj101,??,,CS2(26)
-play,3,0,spenj101,??,,S9
-play,3,0,jackr001,??,,43
-play,3,1,millr001,??,,S8
-play,3,1,lansc001,??,,64(1)3/GDP
-play,3,1,carer001,??,,7
-play,4,0,nettg001,??,,W
-play,4,0,pinil001,??,,9/P
-play,4,0,lefej001,??,,S9.1-3
-play,4,0,ceror001,??,,54(1)3/GDP
-play,4,1,thomj001,??,,31
-play,4,1,rudij101,??,,63
-play,4,1,gricb001,??,,8
-play,5,0,dentb001,??,,9
-play,5,0,randw001,??,,W
-play,5,0,browb001,??,,PO1(E1).1-2
-play,5,0,browb001,??,,5/FL
-play,5,0,spenj101,??,,3/P
-play,5,1,harll101,??,,S8
-play,5,1,patef101,??,,46(1)/FO
-play,5,1,donot101,??,,S7.1-2
-play,5,1,millr001,??,,41.2-3;1-2
-play,5,1,lansc001,??,,HR/7D.3-H;2-H
-play,5,1,carer001,??,,7
-play,6,0,jackr001,??,,8
-play,6,0,nettg001,??,,K/C
-play,6,0,pinil001,??,,6/L
-play,6,1,thomj001,??,,NP
+play,1,0,randw001,30,BBBB,W
+play,1,0,browb001,22,BFC1B>X,53/G5.1-2
+com,"Thompson caught the high, wide throw and tagged Brown"
+play,1,0,spenj101,12,FCBS,K
+play,1,0,jackr001,22,CBBFX,43/G34
+play,1,1,millr001,32,BCCFBFBX,S9/L89
+play,1,1,lansc001,12,C1B1>FX,54(1)/FO/G5
+play,1,1,carer001,21,1C1BP111X,S8/L78S.1-2
+play,1,1,thomj001,22,BFCBX,S8/L8/THH.2-H;1-2
+play,1,1,rudij101,22,BBSSS,K
+play,1,1,gricb001,12,BSSS,K
+play,2,0,nettg001,01,CX,S8/L8
+play,2,0,pinil001,01,SX,8/L8
+play,2,0,lefej001,21,CBBX,S7/L7.1-2
+play,2,0,ceror001,12,CC*BS,K
+play,2,0,dentb001,11,CBX,4/P34
+play,2,1,harll101,22,BCLBX,13/G1
+play,2,1,patef101,22,CSBBFX,8/L8
+play,2,1,donot101,32,CBBFFBX,5/P5
+play,3,0,randw001,30,BBBB,W
+play,3,0,browb001,10,B>B,SB2
+play,3,0,browb001,20,B>B.X,FC1/BG1S.2X3(15)
+play,3,0,spenj101,10,B>C,CS2(26)
+play,3,0,spenj101,11,B>C.X,S9/L9S
+play,3,0,jackr001,22,BFFBX,43/G4
+play,3,1,millr001,10,BX,S8/G46
+play,3,1,lansc001,00,1X,64(1)3/GDP/G6
+play,3,1,carer001,20,BBX,7/L7D
+play,4,0,nettg001,30,BBBB,W
+play,4,0,pinil001,01,CX,9/F89S
+play,4,0,lefej001,32,BBCBF>X,S9/L9S.1-3
+play,4,0,ceror001,00,X,54(1)3/GDP/G5
+play,4,1,thomj001,32,CBSBBX,31/G34
+play,4,1,rudij101,01,FX,63/G56
+play,4,1,gricb001,02,CFFX,8/F8D
+play,5,0,dentb001,00,X,9/F9S
+play,5,0,randw001,32,BBCBCB,W
+play,5,0,browb001,12,SP>F1,PO1(E1).1-2
+play,5,0,browb001,12,SP>F1.X,5/P5F/FL
+play,5,0,spenj101,32,BCSBBX,3/P3L
+play,5,1,harll101,22,BSBFX,S8/L8S
+play,5,1,patef101,00,1X,46(1)/FO/G4
+play,5,1,donot101,10,11B1X,S7/L7S.1-2
+play,5,1,millr001,00,X,41/G34.2-3;1-2
+play,5,1,lansc001,22,FBFF*BX,HR/L78XD.3-H;2-H
+com,"Over LCF wall near 370' mark"
+play,5,1,carer001,31,BBBCX,7/F7L
+play,6,0,jackr001,32,BFBFBFFFX,8/F8XD
+play,6,0,nettg001,02,SSC,K/C
+play,6,0,pinil001,01,CX,6/L6
+play,6,1,thomj001,00,,NP
 sub,may-r101,"Rudy May",0,0,1
-play,6,1,thomj001,??,,S7
-play,6,1,rudij101,??,,14(1)3/GDP
-play,6,1,gricb001,??,,K/C
-play,7,0,lefej001,??,,HR/9D
-play,7,0,ceror001,??,,W
-play,7,0,dentb001,??,,WP.1-2
-play,7,0,dentb001,??,,FC6.2X3(65)
-play,7,0,randw001,??,,E6.1-2
-play,7,0,browb001,??,,8
-play,7,0,spenj101,??,,D9.2-H(UR);1-3
-play,7,0,jackr001,??,,NP
+play,6,1,thomj001,02,CCX,S7/L7S
+play,6,1,rudij101,00,X,14(1)3/GDP/G1
+play,6,1,gricb001,12,CFBC,K/C
+play,7,0,lefej001,10,BX,HR/F89XD
+com,"Just over RCF wall near 370' mark"
+play,7,0,ceror001,32,FBFFBBB,W
+play,7,0,dentb001,01,KB,WP.1-2
+play,7,0,dentb001,12,KB.FX,FC6/G6.2X3(65)
+play,7,0,randw001,01,FX,E6/G6.1-2
+play,7,0,browb001,00,X,8/F8
+play,7,0,spenj101,22,BBCCX,D9/L9L.2-H(UR);1-3
+play,7,0,jackr001,00,,NP
 sub,larod101,"Dave LaRoche",1,0,1
-play,7,0,jackr001,??,,D9.3-H(UR);2-H(UR)
-play,7,0,nettg001,??,,7
-play,7,1,harll101,??,,63
-play,7,1,patef101,??,,8
-play,7,1,donot101,??,,K
-play,8,0,pinil001,??,,S6
-play,8,0,lefej001,??,,16(1)/BG/FO
-play,8,0,ceror001,??,,53.1-2
-play,8,0,dentb001,??,,T9.2-H
-play,8,0,randw001,??,,S8.3-H
-play,8,0,browb001,??,,SB2
-play,8,0,browb001,??,,53
-play,8,1,millr001,??,,S7
-play,8,1,lansc001,??,,S1.1-H(E1)(NR);B-3
-play,8,1,carer001,??,,D8/78.3-H(UR)
-play,8,1,thomj001,??,,53/SH.2-3
-play,8,1,rudij101,??,,NP
+play,7,0,jackr001,11,BCX,D9/L9L.3-H(UR);2-H(UR)
+play,7,0,nettg001,02,FFFX,7/F7S
+play,7,1,harll101,01,CX,63/G6M
+com,"Dent: great range"
+play,7,1,patef101,00,X,8/F8
+play,7,1,donot101,32,BBFFFBS,K
+play,8,0,pinil001,01,CX,S7/L6D
+play,8,0,lefej001,00,1X,16(1)/FO/BG1S
+play,8,0,ceror001,01,CX,53/G5.1-2
+play,8,0,dentb001,12,FSBX,T9/L9.2-H
+play,8,0,randw001,00,X,S8/L8S.3-H
+play,8,0,browb001,02,1FF>B,SB2
+play,8,0,browb001,12,1FF>B.X,53/G5S
+play,8,1,millr001,01,SX,S6/P6D
+play,8,1,lansc001,00,X,S1/G1S.1-H(E1/TH1)(NR);B-3
+play,8,1,carer001,20,BBX,D8/L78.3-H(UR)
+play,8,1,thomj001,00,X,53/BG25/SH.2-3
+play,8,1,rudij101,00,,NP
 sub,gossr001,"Rich Gossage",0,0,1
-play,8,1,rudij101,??,,7/SF.3-H
-play,8,1,gricb001,??,,K/C
-play,9,0,spenj101,??,,NP
+play,8,1,rudij101,00,X,7/F7/SF.3-H
+play,8,1,gricb001,12,FCBC,K/C
+play,9,0,spenj101,00,,NP
 sub,watsb001,"Bob Watson",0,3,11
-play,9,0,watsb001,??,,43
-play,9,0,jackr001,??,,HR/9D
-play,9,0,nettg001,??,,K
-play,9,0,pinil001,??,,NP
+play,9,0,watsb001,10,BX,43/G4
+play,9,0,jackr001,10,BX,HR/F9D
+com,"Landed well back in the CAL bullpen"
+play,9,0,nettg001,12,BFFS,K
+play,9,0,pinil001,00,,NP
 sub,lemad101,"Dave Lemanczyk",1,0,1
-play,9,0,pinil001,??,,D7
-play,9,0,lefej001,??,,IW
-play,9,0,ceror001,??,,BK.2-3;1-2
-play,9,0,ceror001,??,,63
-play,9,1,harll101,??,,NP
+play,9,0,pinil001,12,FFFBFX,D7/L7L
+play,9,0,lefej001,30,IIII,IW
+play,9,0,ceror001,01,CN,BK.2-3;1-2
+play,9,0,ceror001,01,CN.X,63/G6
+play,9,1,harll101,00,,NP
 sub,watsb001,"Bob Watson",0,3,3
-play,9,1,harll101,??,,S6
-play,9,1,patef101,??,,24/SH.1-2
-play,9,1,donot101,??,,NP
+play,9,1,harll101,22,BFBFX,S6/G6M
+play,9,1,patef101,01,LX,24/BG2R/SH.1-2
+play,9,1,donot101,00,,NP
 sub,thond001,"Dickie Thon",1,9,11
-play,9,1,thond001,??,,63
-play,9,1,millr001,??,,7/L
-play,10,0,dentb001,??,,NP
+play,9,1,thond001,22,CBBFX,63/G6.2-3
+play,9,1,millr001,22,*BBFSX,7/L7S
+com,"Piniella: sliding catch"
+play,10,0,dentb001,00,,NP
 sub,clibs101,"Stan Cliburn",1,9,2
-play,10,0,dentb001,??,,6/P
-play,10,0,randw001,??,,W
-play,10,0,browb001,??,,6(1)/FO
-play,10,0,watsb001,??,,SB2
-play,10,0,watsb001,??,,S8.2-H
-play,10,0,jackr001,??,,NP
+play,10,0,dentb001,01,CX,6/P6MD
+play,10,0,randw001,32,CBBCBB,W
+play,10,0,browb001,32,BBFB>F>X,6(1)/FO/G6M
+com,"Patek's relay went past 1B"
+play,10,0,watsb001,10,B>C,SB2
+play,10,0,watsb001,32,B>C.BBSX,S8/F8S.2-H
+play,10,0,jackr001,00,,NP
 sub,wertd101,"Dennis Werth",0,3,12
-play,10,0,jackr001,??,,S7.1-3
-play,10,0,nettg001,??,,43
-play,10,1,lansc001,??,,NP
+play,10,0,jackr001,00,X,S7/F78S.1-3
+play,10,0,nettg001,01,SX,43/G4
+play,10,1,lansc001,00,,NP
 sub,wertd101,"Dennis Werth",0,3,3
-play,10,1,lansc001,??,,NP
+play,10,1,lansc001,00,,NP
 sub,blaip101,"Paul Blair",0,6,7
-play,10,1,lansc001,??,,7
-play,10,1,carer001,??,,S8
-play,10,1,thomj001,??,,6(B)3(1)/LDP
+play,10,1,lansc001,32,CBBFBX,7/L7
+play,10,1,carer001,10,BX,S8/G46
+play,10,1,thomj001,11,SBX,6/LDP/L6.1X1(63)
 data,er,grifm001,4
 data,er,may-r101,2
 data,er,gossr001,0

@@ -12201,18 +12201,18 @@ info,umphome,weyel901
 info,ump1b,grege901
 info,ump2b,rennd901
 info,ump3b,wendh901
-info,scorer,"Phi"
-info,translator,"Clem Comly"
-info,inputter,"Clem Comly"
+info,scorer,"Phi,ABC"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"Clem Comly, Wayne Townsend"
 info,inputtime,1995/04/23 12:27PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,162
 info,attendance,40305
 info,wp,roges001
@@ -12237,102 +12237,112 @@ start,maddg001,"Garry Maddox",1,6,8
 start,bowal001,"Larry Bowa",1,7,6
 start,boonb001,"Bob Boone",1,8,2
 start,walkb001,"Bob Walk",1,9,1
-play,1,0,whitj001,??,,K/C
-play,1,0,scotr101,??,,E6.B-1
-play,1,0,offir101,??,,SB2
-play,1,0,offir101,??,,W
-play,1,0,dawsa001,??,,CS2(24).2-3
-play,1,0,dawsa001,??,,63
-play,1,1,rosep001,??,,8
-play,1,1,mcbrb101,??,,7
-play,1,1,schmm001,??,,K/C
-play,2,0,cartg001,??,,HR
-play,2,0,cromw101,??,,4
-play,2,0,parrl002,??,,K
-play,2,0,speic001,??,,W
-play,2,0,roges001,??,,K
-play,2,1,luzig001,??,,W
-play,2,1,trilm001,??,,63.1-2
-play,2,1,maddg001,??,,8
-play,2,1,bowal001,??,,S9.2-H
-play,2,1,boonb001,??,,9
-play,3,0,whitj001,??,,W
-play,3,0,scotr101,??,,SB2
-play,3,0,scotr101,??,,54/SH.2-3
-play,3,0,offir101,??,,8/SF.3-H
-play,3,0,dawsa001,??,,S7
-play,3,0,cartg001,??,,K
-play,3,1,walkb001,??,,63
-play,3,1,rosep001,??,,43
-play,3,1,mcbrb101,??,,W
-play,3,1,schmm001,??,,D7.1-3
-play,3,1,luzig001,??,,4/L
-play,4,0,cromw101,??,,S3
-play,4,0,parrl002,??,,8
-play,4,0,speic001,??,,W.1-2
-play,4,0,roges001,??,,54/SH.2-3;1-2
-play,4,0,whitj001,??,,8
-play,4,1,trilm001,??,,9
-play,4,1,maddg001,??,,63
-play,4,1,bowal001,??,,43
-play,5,0,scotr101,??,,K/C
-play,5,0,offir101,??,,7
-play,5,0,dawsa001,??,,K
-play,5,1,boonb001,??,,63
-play,5,1,walkb001,??,,NP
+com,"Weather: very warm"
+play,1,0,whitj001,22,BCBFFFC,K/C
+play,1,0,scotr101,32,BBCBCX,E6/G56.B-1
+play,1,0,offir101,20,111BB>B,SB2
+play,1,0,offir101,32,111BB>B.CFFB,W
+play,1,0,dawsa001,00,>C,CS2(24).2-3
+play,1,0,dawsa001,11,>C.BX,63/G6
+play,1,1,rosep001,10,BX,8/L8D
+play,1,1,mcbrb101,22,SBFFBX,7/F7L
+play,1,1,schmm001,22,BSBCC,K/C
+play,2,0,cartg001,20,BBX,HR/F7D
+com,"Into LF bleachers"
+play,2,0,cromw101,11,SBX,4/L4
+play,2,0,parrl002,32,BCSBBS,K
+play,2,0,speic001,32,BBBCCFB,W
+play,2,0,roges001,22,BFFBFFS,K
+play,2,1,luzig001,32,BBCBCF*B,W
+play,2,1,trilm001,10,B>X,63/G6.1-2
+play,2,1,maddg001,00,X,8/F8XD.2-3
+play,2,1,bowal001,00,X,S9/L9S.3-H
+play,2,1,boonb001,20,1BB>X,9/F9S
+com,"Office: diving catch"
+play,3,0,whitj001,32,BFBFFBB,W
+play,3,0,scotr101,11,BC1>P,SB2
+play,3,0,scotr101,21,BC1>P.X,54/BG25/SH.2-3
+play,3,0,offir101,01,CX,8/L78/SF.3-H
+play,3,0,dawsa001,12,CCBX,S7/G56
+play,3,0,cartg001,02,C1F11F11S,K
+play,3,1,walkb001,21,BCBX,63/G6M
+play,3,1,rosep001,02,CFFX,43/G4
+play,3,1,mcbrb101,31,BBCBB,W
+play,3,1,schmm001,10,B1X,DGR/F78XD.1-3
+com,"Bounced over LCF fence"
+play,3,1,luzig001,11,BCX,4/P4D
+com,"Scott: running catch of looper"
+play,4,0,cromw101,02,FFX,S9/G34
+play,4,0,parrl002,12,FSBX,8/F89
+play,4,0,speic001,32,F>FBBF1>FB1>B,W.1-2
+play,4,0,roges001,10,BX,54/BG56S/SH.2-3;1-2
+play,4,0,whitj001,10,BX,8/F8S
+play,4,1,trilm001,31,BCBBX,9/F9
+play,4,1,maddg001,11,CBX,63/G6
+play,4,1,bowal001,12,FFBX,43/G4
+play,5,0,scotr101,22,BBCFL,K/BP/FL
+play,5,0,offir101,21,BFBX,7/F7
+play,5,0,dawsa001,02,SFS,K
+play,5,1,boonb001,22,BCFFBX,63/G6
+play,5,1,walkb001,00,,NP
 sub,vukog001,"George Vukovich",1,9,11
-play,5,1,vukog001,??,,K
-play,5,1,rosep001,??,,63
-play,6,0,cartg001,??,,NP
+play,5,1,vukog001,12,BSSS,K
+play,5,1,rosep001,11,BFX,63/G4M
+play,6,0,cartg001,00,,NP
 sub,noled001,"Dickie Noles",1,9,1
-play,6,0,cartg001,??,,W
-play,6,0,cromw101,??,,46(1)/FO
-play,6,0,parrl002,??,,S8.1-2
-play,6,0,speic001,??,,T.2-H;1-H
-play,6,0,roges001,??,,S8.3-H
-play,6,0,whitj001,??,,NP
+play,6,0,cartg001,30,BBBB,W
+play,6,0,cromw101,01,CX,46(1)/FO/G4
+play,6,0,parrl002,01,CX,S8/G6M.1-2
+play,6,0,speic001,10,BX,T8/L8.2-H;1-H
+com,"Maddox lost it in the sun and it rolled to the wall"
+play,6,0,roges001,31,BBBCX,S8/G4M.3-H
+play,6,0,whitj001,00,,NP
 sub,sauck101,"Kevin Saucier",1,9,1
-play,6,0,whitj001,??,,54(1)/FO
-play,6,0,scotr101,??,,POCS2(136)
-play,6,1,mcbrb101,??,,43
-play,6,1,schmm001,??,,13
-play,6,1,luzig001,??,,K
-play,7,0,scotr101,??,,53
-play,7,0,offir101,??,,63
-play,7,0,dawsa001,??,,S6
-play,7,0,cartg001,??,,HR.1-H
-play,7,0,cromw101,??,,K
-play,7,1,trilm001,??,,7
-play,7,1,maddg001,??,,S8
-play,7,1,bowal001,??,,36(1)/FO
-play,7,1,boonb001,??,,63
-play,8,0,parrl002,??,,NP
+play,6,0,whitj001,00,X,54(1)/FO/G5
+com,"Schmidt: leaping stop"
+play,6,0,scotr101,00,1>,POCS2(136)
+play,6,1,mcbrb101,22,CFFFBBX,43/G4M
+com,"Scott: diving backhanded stop"
+play,6,1,schmm001,11,CBX,13/G1
+play,6,1,luzig001,22,FBCBS,K
+play,7,0,scotr101,,,53
+play,7,0,offir101,,,63
+play,7,0,dawsa001,20,BBX,S6/G6+
+com,"Off Bowa's glove"
+play,7,0,cartg001,22,1C1>F*B11FP1X,HR/F7D.1-H
+com,"Into LF bleachers"
+play,7,0,cromw101,12,FBFFS,K
+play,7,1,trilm001,22,CBBFX,7/F7
+play,7,1,maddg001,00,X,S8/G6M
+play,7,1,bowal001,11,BFX,36(1)/FO/G34
+play,7,1,boonb001,12,CFF*BFX,63/G6
+play,8,0,parrl002,00,,NP
 sub,reedr001,"Ron Reed",1,9,1
-play,8,0,parrl002,??,,K
-play,8,0,speic001,??,,S8
-play,8,0,roges001,??,,K
-play,8,0,whitj001,??,,9
-play,8,1,reedr001,??,,NP
+play,8,0,parrl002,,,K/C
+play,8,0,speic001,,,S/89
+play,8,0,roges001,,,K/BP/FL
+play,8,0,whitj001,22,B1CFFF*BX,9/F9
+play,8,1,reedr001,00,,NP
 sub,grosg001,"Greg Gross",1,9,11
-play,8,1,grosg001,??,,S8
-play,8,1,rosep001,??,,W.1-2
-play,8,1,mcbrb101,??,,D7.2-H;1-3
-play,8,1,schmm001,??,,7/SF.3-H
-play,8,1,luzig001,??,,7
-play,8,1,trilm001,??,,53
+play,8,1,grosg001,22,BCBFFX,S8/G4M
+play,8,1,rosep001,31,BBBCB,W.1-2
+play,8,1,mcbrb101,12,CBCX,D7/L7S.2-H;1-3
+play,8,1,schmm001,10,BX,8/F78/SF.3-H
+play,8,1,luzig001,00,X,7/F7
+play,8,1,trilm001,00,X,53/G6S
+com,"Good play by Parrish on high chopper; very close play at 1B"
 com,"ej,greed101,M,grege901,Call at 1B"
-com,"$Phillies manager Green ejected by 1B umpire Gregg"
-com,"for arguing Trillo was safe at 1st"
-play,9,0,scotr101,??,,NP
+play,9,0,scotr101,00,,NP
 sub,lercr001,"Randy Lerch",1,9,1
-play,9,0,scotr101,??,,8
-play,9,0,offir101,??,,7
-play,9,0,dawsa001,??,,S7
-play,9,0,cartg001,??,,D8.1-H
-play,9,0,cromw101,??,,3/FL
-play,9,1,maddg001,??,,9
-play,9,1,bowal001,??,,8
-play,9,1,boonb001,??,,7
+play,9,0,scotr101,22,CBCBX,8/F89
+play,9,0,offir101,00,X,7/F78
+play,9,0,dawsa001,11,BSX,S7/G56
+play,9,0,cartg001,22,BBSCX,D87/F78S.1-H
+com,"High turf bounce got away from the charging Maddox"
+play,9,0,cromw101,00,X,3/P34
+play,9,1,maddg001,12,FSBX,9/F89
+play,9,1,bowal001,00,X,8/F8
+play,9,1,boonb001,00,X,7/F7S
 data,er,roges001,3
 data,er,walkb001,2
 data,er,noled001,3

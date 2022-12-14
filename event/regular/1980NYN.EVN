@@ -5684,16 +5684,16 @@ info,ump1b,froeb901
 info,ump2b,kiblj901
 info,ump3b,harrl901
 info,scorer,"NYN"
-info,translator,"Clem Comly"
-info,inputter,"David W. Smith"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"David W. Smith, Wayne Townsend"
 info,inputtime,1995/10/11 11:53AM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,torf
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
+info,fieldcond,dry
+info,precip,none
 info,sky,unknown
 info,timeofgame,187
 info,attendance,0
@@ -5719,129 +5719,143 @@ start,steaj001,"John Stearns",1,6,2
 start,hends001,"Steve Henderson",1,7,7
 start,flynd001,"Doug Flynn",1,8,4
 start,zachp001,"Pat Zachry",1,9,1
-play,1,0,leflr101,??,,S8
-play,1,0,scotr101,??,,SB2
-play,1,0,scotr101,??,,E5/TH/SH.2-H(NR)(UR);B-2
-play,1,0,dawsa001,??,,13.2-3
-play,1,0,cartg001,??,,K
-play,1,0,cromw101,??,,S9.3-H(UR)
-play,1,0,parrl002,??,,S8.1-3
-play,1,0,offir101,??,,W.1-2
-play,1,0,speic001,??,,W.3-H(UR);2-3;1-2
-play,1,0,palmd001,??,,64(1)/FO
-play,1,1,mazzl001,??,,K
-play,1,1,tavef101,??,,S9
-play,1,1,washc001,??,,SB2
-play,1,1,washc001,??,,S7.2-H;B-2(THH)
-play,1,1,younj001,??,,W
-play,1,1,jorgm001,??,,13.2-3;1-2
-play,1,1,steaj001,??,,E6.3-H(NR)(UR);2-3
-play,1,1,hends001,??,,43
-play,2,0,leflr101,??,,S7
-play,2,0,scotr101,??,,S8.1-2
-play,2,0,dawsa001,??,,65(2)/FO.1-2
-play,2,0,cartg001,??,,POCS3(14)
-play,2,0,cartg001,??,,S7.1-2
-play,2,0,cromw101,??,,8/L
-play,2,1,flynd001,??,,S7
-play,2,1,zachp001,??,,E3/SH.1-2
-play,2,1,mazzl001,??,,36(1)/FO.2-3
-play,2,1,tavef101,??,,SB2
-play,2,1,tavef101,??,,S8.3-H;2-H(UR);B-2(THH)
-play,2,1,washc001,??,,POCS3(16)
-play,2,1,washc001,??,,S6
-play,2,1,younj001,??,,SB2.1-3(E2/TH2)
-play,2,1,younj001,??,,53
-play,3,0,parrl002,??,,5/FL
-play,3,0,offir101,??,,43
-play,3,0,speic001,??,,3/FL
-play,3,1,jorgm001,??,,S9
-play,3,1,steaj001,??,,S9.1-3
-play,3,1,hends001,??,,64(1)3/GDP.3-H
-play,3,1,flynd001,??,,63
-play,4,0,palmd001,??,,S8
-play,4,0,leflr101,??,,E6.1-2
-play,4,0,scotr101,??,,56(2)/FO/BG.1-2
-play,4,0,dawsa001,??,,S7.2-H;1-3
-play,4,0,cartg001,??,,S9.3-H;1X3(95)
-play,4,0,cromw101,??,,S9.1-3;B-2(TH3)
-play,4,0,parrl002,??,,NP
+com,"First game of twi-night doubleheader"
+play,1,0,leflr101,11,BFX,S8/G46
+play,1,0,scotr101,00,>B,SB2
+play,1,0,scotr101,10,>B.X,E5/TH1/BG25/SH.2-H(NR)(UR);B-2
+play,1,0,dawsa001,02,LMX,13/G25.2-3
+com,"Check swing"
+play,1,0,cartg001,22,SBBCS,K
+play,1,0,cromw101,12,FFFBX,S9/L4D.3-H(UR)
+play,1,0,parrl002,02,SSX,S6/G46.1-3
+com,"Caromed off 2B bag into short LCF"
+play,1,0,offir101,32,FBBBF>*B,W.1-2
+play,1,0,speic001,30,BBBB,W.3-H(UR);2-3;1-2
+play,1,0,palmd001,01,CX,64(1)/FO/G56
+com,"Stadium lights were turned on though outfield was in bright"
+com,"sunshine."
+play,1,1,mazzl001,22,BCLBFS,K
+play,1,1,tavef101,11,BSX,S9/G34
+play,1,1,washc001,00,>C,SB2
+com,"Taveras was hurt sliding into 2B; the trainer came out to"
+com,"treat him."
+play,1,1,washc001,01,>C.X,S7/F7S.2-H;B-2(THH)
+play,1,1,younj001,32,BBFCB>FB,W
+play,1,1,jorgm001,01,CX,13/G34S.2-3;1-2
+play,1,1,steaj001,11,BFX,E6/G6.3-H(NR)(UR);2-3
+play,1,1,hends001,10,BX,43/G4
+play,2,0,leflr101,21,BCBX,S6/G56
+play,2,0,scotr101,11,11C1B1X,S8/L8S.1-2
+play,2,0,dawsa001,01,CX,65(2)/FO/G6.1-2
+play,2,0,cartg001,20,BB2,POCS3(14)
+play,2,0,cartg001,20,BB2.X,S7/L7.1-2
+play,2,0,cromw101,31,BBFBX,8/L78
+com,"Mazzilli: great diving catch"
+play,2,1,flynd001,00,X,S7/L5D
+play,2,1,zachp001,01,1LX,E3/BG23/SH.1-2
+play,2,1,mazzl001,00,X,36(1)/FO/G3.2-3
+play,2,1,tavef101,00,1>*B,SB2
+com,"No throw"
+play,2,1,tavef101,21,1>*B.BFX,S8/G6M.3-H;2-H(UR);B-2(THH)
+play,2,1,washc001,00,X,S6/G56.2-2
+play,2,1,younj001,10,B>2,POCS3(16)
+play,2,1,younj001,21,B>2.1P111S>B,SB2.1-3(E2/TH2)
+play,2,1,younj001,31,B>2.1P111S>B.X,53/G5
+play,3,0,parrl002,12,BKSX,5/P5F/FL
+play,3,0,offir101,22,FBBSX,43/G4
+play,3,0,speic001,21,CBBX,3/P3F/FL
+play,3,1,jorgm001,10,BX,S9/L9S
+play,3,1,steaj001,00,1>X,S9/G4.1-3
+com,"Through the vacated spot left by Scott covering 2B"
+play,3,1,hends001,22,1BC1BSFX,64(1)3/GDP/G6.3-H
+play,3,1,flynd001,11,BCX,63/G6
+play,4,0,palmd001,11,SBX,S8/G4M
+play,4,0,leflr101,00,X,E6/G6.1-2
+play,4,0,scotr101,01,CX,56(2)/FO/BG25.1-2
+play,4,0,dawsa001,10,BX,S7/L7/THH.2-H;1-3
+play,4,0,cartg001,12,CSB>X,S9/L9.3-H;1X3(95)
+play,4,0,cromw101,00,X,S9.1-3;B-2(TH3)
+play,4,0,parrl002,00,,NP
 sub,glyne001,"Ed Glynn",1,9,1
-play,4,0,parrl002,??,,IW
-play,4,0,offir101,??,,NP
+play,4,0,parrl002,30,IIII,IW
+play,4,0,offir101,00,,NP
 sub,pateb101,"Bob Pate",0,7,11
-play,4,0,pateb101,??,,4/P
-play,4,1,glyne001,??,,NP
+play,4,0,pateb101,02,CCX,4/P4
+play,4,1,glyne001,00,,NP
 sub,pateb101,"Bob Pate",0,7,9
-play,4,1,glyne001,??,,K
-play,4,1,mazzl001,??,,3/G
-play,4,1,tavef101,??,,43
-play,5,0,speic001,??,,9
-play,5,0,palmd001,??,,8
-play,5,0,leflr101,??,,S6
-play,5,0,scotr101,??,,64(1)/FO
-play,5,1,washc001,??,,S8
-play,5,1,younj001,??,,SB2
-play,5,1,younj001,??,,7
-play,5,1,jorgm001,??,,3/G.2-3
-play,5,1,steaj001,??,,63
-play,6,0,dawsa001,??,,8
-play,6,0,cartg001,??,,63
-play,6,0,cromw101,??,,43
-play,6,1,hends001,??,,S6.B-2(E3)
-play,6,1,flynd001,??,,S8.2-3
-play,6,1,glyne001,??,,NP
+play,4,1,glyne001,22,CCBFBS,K
+play,4,1,mazzl001,31,BBBCX,3/G3L
+play,4,1,tavef101,11,BCX,43/G4
+play,5,0,speic001,10,BX,9/F9L
+play,5,0,palmd001,21,BBFX,8/F89XD
+play,5,0,leflr101,10,BX,S6/G56
+play,5,0,scotr101,20,BBX,64(1)/FO/G6
+play,5,1,washc001,12,BSFFX,S8/L8S
+play,5,1,younj001,10,11B11>B,SB2
+play,5,1,younj001,21,11B11>B.2CX,7/F7
+play,5,1,jorgm001,02,SCX,3/G3.2-3
+play,5,1,steaj001,10,BX,63/G6S
+play,6,0,dawsa001,20,BBX,8/F8D
+play,6,0,cartg001,10,BX,63/G6
+play,6,0,cromw101,00,X,43/G4
+play,6,1,hends001,31,FBBBX,S5/G
+play,6,1,flynd001,21,11B1B>F1,PO1(E3).1-2
+play,6,1,flynd001,22,11B1B>F1.MX,S8/G46.2-3
+play,6,1,glyne001,00,,NP
 sub,hodgr001,"Ron Hodges",1,9,11
-play,6,1,hodgr001,??,,NP
+play,6,1,hodgr001,00,,NP
 sub,normf101,"Fred Norman",0,9,1
-play,6,1,hodgr001,??,,NP
+play,6,1,hodgr001,00,,NP
 sub,cardj101,"Jose Cardenal",1,9,11
-play,6,1,cardj101,??,,8/SF.3-H(UR)
-play,6,1,mazzl001,??,,6/L
-play,6,1,tavef101,??,,3/G
-play,7,0,parrl002,??,,NP
+play,6,1,cardj101,20,BBX,8/F89D/SF.3-H(UR)
+play,6,1,mazzl001,10,B1X,6/L6
+play,6,1,tavef101,00,1X,3/BG3S
+play,7,0,parrl002,00,,NP
 sub,rearj001,"Jeff Reardon",1,9,1
-play,7,0,parrl002,??,,9
-play,7,0,pateb101,??,,NP
+play,7,0,parrl002,01,SX,9/F9
+play,7,0,pateb101,00,,NP
 sub,whitj001,"Jerry White",0,7,11
-play,7,0,whitj001,??,,43
-play,7,0,speic001,??,,S9
-play,7,0,normf101,??,,NP
+play,7,0,whitj001,22,BCFBFX,43/G4
+play,7,0,speic001,11,BCX,S9/L9S
+play,7,0,normf101,00,,NP
 sub,huttt101,"Tom Hutton",0,9,11
-play,7,0,huttt101,??,,S9.1-2
-play,7,0,leflr101,??,,4
-play,7,1,washc001,??,,NP
+play,7,0,huttt101,11,FBX,S4/G34.1-2
+com,"Flynn: diving stop"
+play,7,0,leflr101,32,BBSBS>F>F>F>F>X,4/P34D
+play,7,1,washc001,00,,NP
 sub,whitj001,"Jerry White",0,7,9
-play,7,1,washc001,??,,NP
+play,7,1,washc001,00,,NP
 sub,grimr101,"Ross Grimsley",0,9,1
-play,7,1,washc001,??,,43
-play,7,1,younj001,??,,6/L
-play,7,1,jorgm001,??,,S9
-play,7,1,steaj001,??,,S8.1-2
-play,7,1,hends001,??,,S8/OBS.2-H;1-H(E5);B-2(THH)
-com,"$3B Larry Parrish called for obstruction, allowing the second run to score"
-play,7,1,flynd001,??,,S8.2XH(82)
-play,8,0,scotr101,??,,NP
+play,7,1,washc001,22,CSBBX,43/G4
+play,7,1,younj001,12,CBFX,6/L6
+play,7,1,jorgm001,12,BCFX,S9/L9
+play,7,1,steaj001,02,CFX,S8/L8.1-2
+play,7,1,hends001,12,CSBX,S8/F8S/OBS.2-H;1-H(E5);B-2(THH)
+com,"Stearns tried to score when Dawson's throw sailed over"
+com,"Carter but Parrish obstructed his path as he rounded 3B."
+play,7,1,flynd001,00,X,S8/L8.2XH(82)
+play,8,0,scotr101,00,,NP
 sub,washc001,"Claudell Washington",1,3,7
-play,8,0,scotr101,??,,NP
+play,8,0,scotr101,00,,NP
 sub,younj001,"Joel Youngblood",1,4,9
-play,8,0,scotr101,??,,NP
+play,8,0,scotr101,00,,NP
 sub,ramim001,"Mario Ramirez",1,7,5
-play,8,0,scotr101,??,,63
-play,8,0,dawsa001,??,,E1
-play,8,0,cartg001,??,,K
-play,8,0,cromw101,??,,43
-play,8,1,rearj001,??,,K
-play,8,1,mazzl001,??,,HR
-play,8,1,tavef101,??,,63
-play,8,1,washc001,??,,S8
-play,8,1,younj001,??,,63
-play,9,0,parrl002,??,,S8
-play,9,0,whitj001,??,,3/FL
-play,9,0,speic001,??,,3/G.1-2
-play,9,0,grimr101,??,,NP
+play,8,0,scotr101,12,CCBX,63/G6
+play,8,0,dawsa001,01,SX,E1/G1S
+play,8,0,cartg001,12,BCFS,K
+play,8,0,cromw101,00,X,43/G4
+play,8,1,rearj001,12,BCSFFS,K
+play,8,1,mazzl001,22,CBSBFX,HR/F7D
+com,"Over LF wall into the bullpen"
+play,8,1,tavef101,01,CX,63/G6
+play,8,1,washc001,00,X,S8/G46
+play,8,1,younj001,12,BFSFX,63/G6
+play,9,0,parrl002,11,BFX,S8/G46
+play,9,0,whitj001,01,FX,3/P3DF/FL
+play,9,0,speic001,02,FFFX,3/G3.1-2
+play,9,0,grimr101,00,,NP
 sub,tamaj101,"John Tamargo",0,9,11
-play,9,0,tamaj101,??,,63
+play,9,0,tamaj101,11,SBX,63/G6
 data,er,palmd001,3
 data,er,normf101,0
 data,er,grimr101,3
@@ -5907,22 +5921,22 @@ play,1,0,tamaj101,??,,3/G.3-H;2-3
 play,1,0,cromw101,??,,S9.3-H
 play,1,0,parrl002,??,,54(1)/FO
 play,1,1,mazzl001,??,,7
-com,"$Bill Gullickson threw a knock down pitch at Frank Taveras"
 play,1,1,tavef101,??,,W
+com,"Gullickson threw a knock-down pitch at Taveras"
 play,1,1,washc001,??,,T9.1-H
-play,1,1,younj001,??,,HR.3-H
-com,"ej,steaj001,P,froeb901,Fighting"
-com,"$Bill Gullickson threw a knock down pitch at Mike Jorgensen"
-com,"on the third pitch to the hitter; Jorgensen got up and took"
-com,"about four steps towards the mound and pointed his bat at"
-com,"Gullickson; both benches cleared and John Stearns ran to the"
-com,"mound, hit Gullickson with a right then clamped the pitcher"
-com,"in a headlock; Mets 3B coach Chuck Cottier tackled Larry"
-com,"Parrish; several fans threw fire crackers onto the field;"
-com,"Stearns (not in the game) ejected by HP umpire Bruce Froemming"
+play,1,1,younj001,02,,HR.3-H
 play,1,1,jorgm001,??,,S9
+com,"Gullickson threw a knock-down pitch at Jorgensen on a 1-1"
+com,"count; Jorgensen got up and walked towards the mound yelling"
+com,"and pointing his bat at the pitcher while being restrained by"
+com,"Tamargo.  Both benches cleared and John Stearns ran to the"
+com,"mound, hit Gullickson with a right then clamped the pitcher"
+com,"in a headlock.  Mets 3B coach Chuck Cottier tackled Larry"
+com,"Parrish; several fans threw fire crackers onto the field."
+com,"Stearns was ejected by HP umpire Bruce Froemming."
+com,"ej,steaj001,P,froeb901,Fighting"
 play,1,1,hends001,??,,W.1-2
-play,1,1,hodgr001,??,,S3.2-H(E3)(UR);1-3
+play,1,1,hodgr001,??,,S3/G.2-H(E3)(UR);1-3
 play,1,1,flynd001,??,,NP
 sub,bahns101,"Stan Bahnsen",0,9,1
 play,1,1,flynd001,??,,NP
@@ -6047,8 +6061,8 @@ info,ump1b,harrl901
 info,ump2b,tatat901
 info,ump3b,froeb901
 info,scorer,"NYN"
-info,translator,"Clem Comly"
-info,inputter,"David W. Smith"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"David W. Smith, Wayne Townsend"
 info,inputtime,1995/10/10 5:00PM
 info,howscored,park
 info,pitches,none
@@ -6082,6 +6096,7 @@ start,hends001,"Steve Henderson",1,6,7
 start,steaj001,"John Stearns",1,7,2
 start,flynd001,"Doug Flynn",1,8,4
 start,falcp001,"Pete Falcone",1,9,1
+com,"Total attendance: 52,734"
 play,1,0,leflr101,??,,43
 play,1,0,scotr101,??,,S8
 play,1,0,dawsa001,??,,WP.1-2
@@ -6099,8 +6114,10 @@ play,2,0,sands001,??,,13/SH.3-H;2-3;1-2
 play,2,0,leflr101,??,,63
 play,2,1,younj001,??,,7
 play,2,1,jorgm001,??,,W
-play,2,1,hends001,??,,HR.1-H
-play,2,1,steaj001,??,,S7
+play,2,1,hends001,??,,HR/F7D.1-H
+com,"Into the LF bullpen"
+play,2,1,steaj001,10,BX,S9
+com,"The first pitch to Stearns knocked him down"
 play,2,1,flynd001,??,,S7.1-2
 play,2,1,falcp001,??,,14/SH.2-3;1-2
 play,2,1,mazzl001,??,,IW
@@ -6109,17 +6126,19 @@ play,3,0,scotr101,??,,S6
 play,3,0,dawsa001,??,,SB2
 play,3,0,dawsa001,??,,S7.2-3;B-2(THH)
 play,3,0,cartg001,??,,53.3-H
-play,3,0,cromw101,??,,3(B)6(2)/LDP
+play,3,0,cromw101,??,,3/LDP.2X2(36)
 play,3,1,washc001,??,,7
 play,3,1,younj001,??,,S4
 play,3,1,jorgm001,??,,S9.1-2
-play,3,1,hends001,??,,S9.2-H;1-3
-play,3,1,steaj001,??,,8/SF.3-H
+play,3,1,hends001,22,,S9/L89.2-H;1-3
+play,3,1,steaj001,??,,8/F78/SF.3-H
 play,3,1,flynd001,??,,5/FL
-play,4,0,parrl002,??,,HR
+play,4,0,parrl002,??,,HR/F7D
+com,"Into LF bullpen"
 play,4,0,pateb101,??,,53
 play,4,0,speic001,??,,53
-play,4,0,sands001,??,,7/L
+play,4,0,sands001,??,,7/L7D
+com,"Henderson: leaping catch"
 play,4,1,falcp001,??,,63
 play,4,1,mazzl001,??,,8
 play,4,1,tavef101,??,,S8
@@ -6133,19 +6152,19 @@ play,5,0,scotr101,??,,63
 play,5,0,dawsa001,??,,8
 play,5,0,cartg001,??,,7
 play,5,1,jorgm001,??,,W
-play,5,1,hends001,??,,S7.1-2
+play,5,1,hends001,??,,S8/L78.1-2
 play,5,1,steaj001,??,,W.2-3;1-2
 play,5,1,flynd001,??,,NP
 sub,lea-c001,"Charlie Lea",0,9,1
-play,5,1,flynd001,??,,S9.3-H;2-3;1-2
+play,5,1,flynd001,??,,S9/G34.3-H;2-3;1-2
 play,5,1,falcp001,??,,NP
 sub,treva001,"Alex Trevino",1,9,11
-play,5,1,treva001,??,,7/SF.3-H
-play,5,1,mazzl001,??,,S9.2-H;1-3
+play,5,1,treva001,??,,7/F7/SF.3-H
+play,5,1,mazzl001,??,,S9/G34/THH.2-H;1-3
 play,5,1,tavef101,??,,3/P
 play,5,1,washc001,??,,NP
 sub,normf101,"Fred Norman",0,9,1
-play,5,1,washc001,??,,4/L
+play,5,1,washc001,??,,4/L4
 play,6,0,cromw101,??,,NP
 sub,jackr003,"Roy Lee Jackson",1,9,1
 play,6,0,cromw101,??,,S7
@@ -6197,7 +6216,7 @@ sub,grimr101,"Ross Grimsley",0,9,1
 play,8,1,tavef101,??,,8
 play,8,1,washc001,??,,K
 play,8,1,younj001,??,,53
-play,9,0,dawsa001,??,,9/FL
+play,9,0,dawsa001,??,,9/F9LF/FL
 play,9,0,cartg001,??,,W
 play,9,0,cromw101,??,,K
 play,9,0,parrl002,??,,3/G
@@ -7479,8 +7498,8 @@ info,ump1b,harvd901
 info,ump2b,crawj901
 info,ump3b,brocf901
 info,scorer,"NYN, CIN"
-info,translator,"Clem Comly"
-info,inputter,"David W. Smith"
+info,translator,"Clem Comly, Wayne Townsend"
+info,inputter,"David W. Smith, Wayne Townsend"
 info,inputtime,1996/10/26 1:00PM
 info,howscored,park
 info,pitches,none
@@ -7514,10 +7533,10 @@ start,madde101,"Elliott Maddox",1,6,5
 start,treva001,"Alex Trevino",1,7,2
 start,flynd001,"Doug Flynn",1,8,4
 start,pacej001,"John Pacella",1,9,1
-play,1,0,colld001,??,,63
-play,1,0,knigr001,??,,53
-play,1,0,grifk001,??,,W
-play,1,0,fostg001,??,,K/C
+play,1,0,colld001,22,CBSBX,63/G6M
+play,1,0,knigr001,21,FBBX,53/G5
+play,1,0,grifk001,30,BBBB,W
+play,1,0,fostg001,12,1CCBC,K/C
 play,1,1,mazzl001,??,,D9/89
 play,1,1,tavef101,??,,S3/BG.2-3
 play,1,1,hends001,??,,SB2
@@ -7527,24 +7546,24 @@ play,1,1,younj001,??,,K
 play,1,1,moraj101,??,,4/P
 play,1,1,madde101,??,,63
 play,2,0,spilh001,??,,W
-play,2,0,bencj101,??,,7
-play,2,0,concd001,??,,S8.1-2
-play,2,0,oestr001,??,,S7.2-H;1-2
+play,2,0,bencj101,22,BFB1SX,7/F7
+play,2,0,concd001,21,BCB>X,S8/L8.1-2
+play,2,0,oestr001,32,BCCBBFX,S7/L6D.2-H;1-2
 play,2,0,leibc001,??,,56(2)/FO/BG.1-2
 play,2,0,colld001,??,,64(1)/FO
 play,2,1,treva001,??,,2/FL
 play,2,1,flynd001,??,,S9
 play,2,1,pacej001,??,,56(1)/FO/BG
 play,2,1,mazzl001,??,,7
-play,3,0,knigr001,??,,E6
+play,3,0,knigr001,??,,E6/G
 play,3,0,grifk001,??,,W.1-2
-play,3,0,fostg001,??,,S8.2-H(UR);1-2
-play,3,0,spilh001,??,,NP
+play,3,0,fostg001,02,SCX,S8/L8/THH.2-H(UR);1-2
+play,3,0,spilh001,00,,NP
 sub,glyne001,"Ed Glynn",1,9,1
-play,3,0,spilh001,??,,W.2-3;1-2
-play,3,0,bencj101,??,,S7.3-H;2-H;1-2
+play,3,0,spilh001,32,LB+2LBBB,W.2-3;1-2
+play,3,0,bencj101,02,TSX,S7/G56/TH3.3-H;2-H;1-2
 play,3,0,concd001,??,,S8.2-H;1-2
-play,3,0,oestr001,??,,S7.2-H;1-3;B-2(TH)
+play,3,0,oestr001,??,,S7.2-H;1-3;B-2(THH)
 play,3,0,leibc001,??,,NP
 sub,milld101,"Dyar Miller",1,9,1
 play,3,0,leibc001,??,,4/P
@@ -7560,16 +7579,16 @@ play,4,0,fostg001,??,,8
 play,4,0,spilh001,??,,D9
 play,4,0,bencj101,??,,K
 play,4,1,treva001,??,,W
-play,4,1,flynd001,??,,S7.1-2
+play,4,1,flynd001,??,,S57.1-2
 play,4,1,milld101,??,,NP
 sub,normd101,"Dan Norman",1,9,11
-play,4,1,normd101,??,,S6/56.2-3;1-2
+play,4,1,normd101,??,,S6/G56.2-3;1-2
 play,4,1,mazzl001,??,,S7.3-H;2-H;1-3
-play,4,1,tavef101,??,,S3/BG.3-3;1-2
+play,4,1,tavef101,??,,S3/BG34S.3-3;1-2
 play,4,1,hends001,??,,NP
 sub,pricj001,"Joe Price",0,9,1
 play,4,1,hends001,??,,52(3)/FO.2-3;1-2
-play,4,1,younj001,??,,7
+play,4,1,younj001,??,,7/F7S
 play,4,1,moraj101,??,,9/FL
 play,5,0,concd001,??,,NP
 sub,haust101,"Tom Hausman",1,9,1
@@ -7606,12 +7625,13 @@ sub,bentb001,"Butch Benton",1,6,11
 play,7,1,bentb001,??,,53
 play,8,0,knigr001,??,,NP
 sub,allen001,"Neil Allen",1,6,1
-play,8,0,knigr001,??,,T7
-play,8,0,grifk001,??,,43
-play,8,0,fostg001,??,,D7.3-H
-play,8,0,spilh001,??,,HR/9.2-H
-play,8,0,bencj101,??,,8
-play,8,0,concd001,??,,53
+play,8,0,knigr001,??,,T8/F78XDW
+play,8,0,grifk001,21,BBCX,43/G4
+play,8,0,fostg001,12,BSCX,D7/G5L.3-H
+play,8,0,spilh001,??,,HR/F9D.2-H
+com,"Into Mets bullpen"
+play,8,0,bencj101,00,X,8/F8D
+play,8,0,concd001,02,CSX,53/G5
 play,8,1,treva001,??,,NP
 sub,cruzh101,"Heity Cruz",0,3,9
 play,8,1,treva001,??,,NP
@@ -7623,11 +7643,11 @@ play,8,1,flynd001,??,,8
 play,8,1,almob001,??,,5/L
 play,9,0,oestr001,??,,63
 play,9,0,pricj001,??,,K/C
-play,9,0,mejis101,??,,E4
+play,9,0,mejis101,??,,E4/G
 play,9,0,knigr001,??,,K
 play,9,1,mazzl001,??,,13/BG
-play,9,1,tavef101,??,,K
-play,9,1,hends001,??,,53
+play,9,1,tavef101,22,BCBFS,K
+play,9,1,hends001,11,BCX,53/G5
 data,er,leibc001,4
 data,er,pricj001,0
 data,er,pacej001,3

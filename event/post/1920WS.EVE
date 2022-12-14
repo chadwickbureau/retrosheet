@@ -6,25 +6,25 @@ info,hometeam,BRO
 info,date,1920/10/05
 info,site,NYC15
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:02PM
 info,daynight,day
 info,usedh,false
 info,umphome,klemb901
 info,ump1b,connt901
 info,ump2b,odayh101
 info,ump3b,dinnb101
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,208"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/05 2:16PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,overcast
 info,timeofgame,101
 info,attendance,23573
 info,wp,coves101
@@ -49,94 +49,109 @@ start,konee101,"Ed Konetchy",1,6,3
 start,kildp101,"Pete Kilduff",1,7,4
 start,kruee101,"Ernie Krueger",1,8,2
 start,marqr102,"Rube Marquard",1,9,1
-play,1,0,evanj101,??,,63
-play,1,0,wambb101,??,,7
-play,1,0,speat101,??,,K/C
-play,1,1,olsoi101,??,,9/F9S
-play,1,1,johnj107,??,,K/C
-play,1,1,grift102,??,,63
-play,2,0,burng102,??,,S3/P34D.B-H(E3/TH2)
-play,2,0,gardl101,??,,63/G6M
-play,2,0,woodj108,??,,W
-play,2,0,sewej101,??,,S9/89.1-3
-play,2,0,oneis101,??,,D7/G5L.3-H;1-3
-play,2,0,coves101,??,,3(B)/G/DP.3XH(325)
-play,2,1,wheaz101,??,,8/F78S
-play,2,1,myerh102,??,,9/F9D
-play,2,1,konee101,??,,63
-play,3,0,evanj101,30,,W
-play,3,0,wambb101,??,,53/SH.1-2
-play,3,0,speat101,??,,7
-play,3,0,burng102,??,,FC5.2X3(54);B-1
-play,3,1,kildp101,??,,63
-play,3,1,kruee101,??,,53
-play,3,1,marqr102,??,,53/BG
-play,4,0,gardl101,??,,43
-play,4,0,woodj108,??,,D7/78XDW
-play,4,0,sewej101,??,,8
-play,4,0,oneis101,??,,D9/L9DW.2-H
-play,4,0,coves101,??,,43
-play,4,1,olsoi101,??,,S8
-play,4,1,johnj107,??,,46(1)/FO
-play,4,1,grift102,??,,S8/78.1-2
-play,4,1,wheaz101,??,,7/F78S
-play,4,1,myerh102,??,,9/F9D
-play,5,0,evanj101,??,,7
-play,5,0,wambb101,??,,K
-play,5,0,speat101,??,,9/F9DW
-play,5,1,konee101,??,,8/F8D
-play,5,1,kildp101,??,,9
-play,5,1,kruee101,??,,53
-play,6,0,burng102,??,,K
-play,6,0,gardl101,??,,7/F7S
-play,6,0,woodj108,??,,K
-play,6,1,marqr102,??,,NP
+com,"Weather cold, stiff north wind"
+play,1,0,evanj101,12,BCFX,63/G56
+play,1,0,wambb101,02,LCX,7/L7D
+play,1,0,speat101,12,CBFC,K/C
+play,1,1,olsoi101,00,X,9/F9S
+play,1,1,johnj107,12,CSFBS,K
+play,1,1,grift102,00,X,63
+com,"Good catch of wide throw by Burns"
+play,2,0,burng102,00,X,S3/P3D.B-H(E3/TH2)
+play,2,0,gardl101,12,CSBX,63/G6M
+play,2,0,woodj108,31,BBCBB,W
+play,2,0,sewej101,11,CBX,S8/L89S.1-3
+play,2,0,oneis101,22,CBBCX,D7/G5L.3-H;1-3
+play,2,0,coves101,01,SX,3/G/DP.3XH(325)
+play,2,1,wheaz101,11,BFX,8/F78S
+com,"Nice running catch by Speaker"
+play,2,1,myerh102,02,CCX,9/F9DW
+play,2,1,konee101,00,X,63
+play,3,0,evanj101,30,BBBB,W
+play,3,0,wambb101,00,X,53/BG25/SH.1-2
+play,3,0,speat101,22,SCBBX,7/F
+play,3,0,burng102,21,BBCX,FC5.2X3(54);B-1
+play,3,1,kildp101,01,CX,63/G56
+com,"Very close play at 1B; Brooklyn argued the call"
+play,3,1,kruee101,32,BCBCBX,53/G5S
+play,3,1,marqr102,01,SX,53/BG5S
+play,4,0,gardl101,31,BBBCX,43
+play,4,0,woodj108,00,X,D8/F78XDW
+com,"Narrowly missed HR"
+play,4,0,sewej101,11,BCX,8/F8
+play,4,0,oneis101,21,BBCX,D9/L9LDW.2-H
+play,4,0,coves101,11,SBX,43/G4M
+play,4,1,olsoi101,22,CBCBX,S8/F8S
+play,4,1,johnj107,11,FBX,46(1)/FO
+play,4,1,grift102,00,X,S8/78.1-2
+play,4,1,wheaz101,00,X,7/F78S
+com,"Evans collided with Speaker but hung on to the ball"
+com,"Evans limped back to his position"
+play,4,1,myerh102,10,BX,9/F9D
+play,5,0,evanj101,00,X,7/F
+play,5,0,wambb101,22,CBBFS,K
+play,5,0,speat101,12,BSFFX,9/F9DW
+com,"Sensational leaping catch at the wall by Griffith"
+play,5,1,konee101,01,CX,8/F8XD
+play,5,1,kildp101,01,CX,9/F9S
+play,5,1,kruee101,10,BX,53
+play,6,0,burng102,12,FBFS,K
+play,6,0,gardl101,00,X,7/F7S
+play,6,0,woodj108,22,BBFSS,K
+play,6,1,marqr102,00,,NP
 sub,lamab101,"Bill Lamar",1,9,11
-play,6,1,lamab101,??,,6/L
-play,6,1,olsoi101,??,,S8/L78
-play,6,1,johnj107,??,,13/SH.1-2
-play,6,1,grift102,??,,13/G1
-play,7,0,sewej101,??,,NP
+play,6,1,lamab101,12,BSSX,6/L
+com,"Leaping one-handed catch by Sewell"
+play,6,1,olsoi101,00,X,S8/L78S
+play,6,1,johnj107,00,X,13/SH.1-2
+play,6,1,grift102,00,X,13
+play,7,0,sewej101,00,,NP
 sub,mamaa101,"Al Mamaux",1,9,1
-play,7,0,sewej101,??,,K
-play,7,0,oneis101,??,,K
-play,7,0,coves101,??,,K/C
-play,7,1,wheaz101,??,,D9/89XD
-play,7,1,myerh102,??,,63.2-3
-play,7,1,konee101,??,,31.3-H
-play,7,1,kildp101,??,,K
-play,8,0,evanj101,??,,NP
+play,7,0,sewej101,32,BBCCBS,K
+play,7,0,oneis101,12,BSFFS,K
+play,7,0,coves101,22,BSFBC,K/C
+play,7,1,wheaz101,02,CCFX,D8/F89XDW
+play,7,1,myerh102,01,CX,63.2-3
+play,7,1,konee101,11,FBX,31.3-H
+play,7,1,kildp101,22,BFBFS,K
+play,8,0,evanj101,00,,NP
 sub,jamic101,"Charlie Jamieson",0,1,11
-play,8,0,jamic101,??,,63
-play,8,0,wambb101,??,,13/BG
-play,8,0,speat101,??,,53
-play,8,1,kruee101,??,,NP
+play,8,0,jamic101,22,CBBFX,63/G6
+play,8,0,wambb101,01,FX,13/BG1S
+play,8,0,speat101,12,CBFX,53
+play,8,1,kruee101,00,,NP
 sub,jamic101,"Charlie Jamieson",0,1,7
-play,8,1,kruee101,??,,8/F78D
-play,8,1,mamaa101,??,,NP
+play,8,1,kruee101,10,BX,8/F78D
+com,"Speaker: wonderful running catch"
+play,8,1,mamaa101,00,,NP
 sub,mitcc102,"Clarence Mitchell",1,9,11
-play,8,1,mitcc102,??,,S9/9L
-play,8,1,olsoi101,??,,NP
+play,8,1,mitcc102,01,CX,S9/G3L
+play,8,1,olsoi101,00,,NP
 sub,neisb101,"Bernie Neis",1,9,12
-play,8,1,olsoi101,??,,W.1-2
-play,8,1,johnj107,??,,5/P
-play,8,1,grift102,??,,46(1)/FO
-play,9,0,burng102,??,,NP
+play,8,1,olsoi101,30,BBBB,W.1-2
+play,8,1,johnj107,01,CX,5/P5
+play,8,1,grift102,10,BX,46(1)/FO/G4M
+play,9,0,burng102,00,,NP
 sub,cadol101,"Leon Cadore",1,9,1
-play,9,0,burng102,??,,NP
+play,9,0,burng102,00,,NP
 sub,smite104,"Elmer Smith",0,4,11
-play,9,0,smite104,??,,43
-play,9,0,gardl101,??,,3/G
-play,9,0,woodj108,??,,NP
+play,9,0,smite104,00,X,43
+play,9,0,gardl101,10,BX,3/G3L
+play,9,0,woodj108,00,,NP
 sub,johnd107,"Doc Johnston",0,6,11
-play,9,0,johnd107,??,,13/G1
-play,9,1,wheaz101,??,,NP
+play,9,0,johnd107,20,BBX,13
+play,9,1,wheaz101,00,,NP
 sub,smite104,"Elmer Smith",0,4,9
-play,9,1,wheaz101,??,,NP
+play,9,1,wheaz101,00,,NP
 sub,johnd107,"Doc Johnston",0,6,3
-play,9,1,wheaz101,??,,31
-play,9,1,myerh102,??,,8/F89D
-play,9,1,konee101,??,,K
+play,9,1,wheaz101,12,BFCFX,31
+play,9,1,myerh102,10,BX,8/F89D
+play,9,1,konee101,02,FFS,K
+com,"Pitch counts according to the Associated Press"
+com,"  Coveleski  85 (24 balls)"
+com,"  Marquard   80 (31 balls)"
+com,"  Mamaux     26 ( 9 balls)"
+com,"  Cadore      6 ( 2 balls)"
 data,er,coves101,1
 data,er,marqr102,3
 data,er,mamaa101,0
@@ -156,12 +171,12 @@ info,umphome,connt901
 info,ump1b,odayh101
 info,ump2b,dinnb101
 info,ump3b,klemb901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,208"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/05 2:28PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -192,89 +207,103 @@ start,konee101,"Ed Konetchy",1,6,3
 start,kildp101,"Pete Kilduff",1,7,4
 start,millo103,"Otto Miller",1,8,2
 start,grimb101,"Burleigh Grimes",1,9,1
-play,1,0,jamic101,??,,31
-play,1,0,wambb101,??,,53
-play,1,0,speat101,??,,S9
-play,1,0,smite104,??,,K
-play,1,1,olsoi101,??,,4/P
-play,1,1,johnj107,??,,S6
-play,1,1,grift102,??,,SB2
-play,1,1,grift102,??,,31.2-3
-play,1,1,wheaz101,??,,D8/L.3-H
-play,1,1,myerh102,??,,53
-play,2,0,gardl101,??,,D7/G5
-play,2,0,johnd107,??,,FC1.2X3(16);B-1
-play,2,0,sewej101,??,,6/P56D
-play,2,0,oneis101,??,,CS2(24)
-play,2,1,konee101,??,,7/F7D
-play,2,1,kildp101,??,,5/L
-play,2,1,millo103,??,,2/FL
-play,3,0,oneis101,??,,13/G1
-play,3,0,bagbj101,??,,13
-play,3,0,jamic101,??,,S8
-play,3,0,wambb101,??,,7/F7S
-play,3,1,grimb101,??,,S8
-play,3,1,olsoi101,??,,FC1/BG.1-2(E1/TH2);B-1
-play,3,1,johnj107,??,,2/FL/BP
-play,3,1,grift102,??,,D9.2-H(UR);1-3
-play,3,1,wheaz101,??,,IW
-play,3,1,myerh102,??,,52(3)/FO/DP.2XH(232)
-com,"$Steve O'Neill's throw to 1B hit Hi Myers on the back but"
-com,"Doc Johnston retrieved the ball in time to get Tommy Griffith"
-play,4,0,speat101,32,,W
-play,4,0,smite104,??,,3/G.1-2
-play,4,0,gardl101,??,,8
-play,4,0,johnd107,??,,7/F78
-play,4,1,konee101,??,,4/P
-play,4,1,kildp101,??,,8/F7
-play,4,1,millo103,??,,13/G1
-play,5,0,sewej101,??,,13
-play,5,0,oneis101,??,,63
-play,5,0,bagbj101,??,,8
-play,5,1,grimb101,??,,63
-play,5,1,olsoi101,??,,S8
-play,5,1,johnj107,??,,31.1-2
-play,5,1,grift102,??,,S7.2-H
-play,5,1,wheaz101,??,,CS2(24)
-play,6,0,jamic101,??,,43
-play,6,0,wambb101,??,,9/F89S
-play,6,0,speat101,??,,D7/L
-play,6,0,smite104,??,,3/G
-play,6,1,wheaz101,??,,8/F89D
-play,6,1,myerh102,??,,S5/BG25
-play,6,1,konee101,??,,9
-play,6,1,kildp101,??,,9/F9D
-play,7,0,gardl101,??,,S4/G4M
-play,7,0,johnd107,??,,64(1)/FO
-play,7,0,sewej101,??,,9/F9D
-play,7,0,oneis101,??,,S7/F7S.1-2
-play,7,0,bagbj101,??,,NP
+com,"Weather: an autumn nip in the air; slight wind"
+play,1,0,jamic101,11,CBX,31
+com,"Sparkling play; close decision at 1B"
+play,1,0,wambb101,32,BCBFFBX,53/G5S
+play,1,0,speat101,11,CBX,S9/L
+play,1,0,smite104,22,CBFPS,K
+play,1,1,olsoi101,00,X,4/P
+play,1,1,johnj107,01,CX,S6/G56
+com,"D.Johnston blocked low throw"
+play,1,1,grift102,12,MFB>B,SB2
+play,1,1,grift102,22,MFB>B.X,31.2-3
+play,1,1,wheaz101,10,BX,D8/L8S/TH2.3-H
+com,"Wheat stretched a single to a double"
+play,1,1,myerh102,22,SBFBX,53
+play,2,0,gardl101,11,CBX,D57/G5L
+play,2,0,johnd107,12,BLLFX,FC1.2X3(16);B-1
+play,2,0,sewej101,20,BBX,6/P56D
+play,2,0,oneis101,10,B>C,CS2(24)
+play,2,1,konee101,11,CBX,7/L7LD
+play,2,1,kildp101,01,CX,5/L
+play,2,1,millo103,01,CX,2/FL
+play,3,0,oneis101,21,BCBX,13/G1S
+play,3,0,bagbj101,11,FBX,13/G1
+play,3,0,jamic101,01,MX,S8/L8S
+play,3,0,wambb101,00,X,7/F7S
+com,"Wheat: nice running catch"
+play,3,1,grimb101,00,X,S8/G4M
+play,3,1,olsoi101,10,BX,FC1/BG.1-2(E1/TH2);B-1
+com,"Grimes hurt his leg sliding into 2B"
+play,3,1,johnj107,00,X,2/BP/FL
+play,3,1,grift102,02,FFX,D49/G34D.2-H(UR);1-3
+com,"Caromed off the diving Wamby's glove into RF"
+play,3,1,wheaz101,30,IIII,IW
+play,3,1,myerh102,00,X,52(3)/FO/DP.2XH(232)
+com,"O'Neill's throw to 1B hit Myers in the back but D.Johnston"
+com,"retrieved the ball in time to get Griffith."
+play,4,0,speat101,32,BFFBBB,W
+play,4,0,smite104,01,SX,3/G3S.1-2
+play,4,0,gardl101,01,SX,8/F8
+play,4,0,johnd107,22,BBSFFX,7/F78XD
+com,"Wheat: over-the-shoulder catch"
+play,4,1,konee101,10,BX,4/P4
+play,4,1,kildp101,10,BX,8/L78
+com,"Speaker: running catch"
+play,4,1,millo103,00,X,13/G1
+play,5,0,sewej101,22,BCBFFX,13
+play,5,0,oneis101,11,BFX,63/G6S
+com,"Olson: nice play; close decision at 1B"
+play,5,0,bagbj101,00,X,8/F8
+play,5,1,grimb101,10,BX,63/G56
+play,5,1,olsoi101,22,CFFBFFBX,S8/G46
+play,5,1,johnj107,10,BX,31.1-2
+play,5,1,grift102,20,BBX,S8/G6M.2-H
+play,5,1,wheaz101,22,BBFF>P,CS2(24)
+play,6,0,jamic101,01,CX,43/G34
+play,6,0,wambb101,01,SX,9/F89S
+play,6,0,speat101,00,X,D8/L78
+play,6,0,smite104,10,BX,3/G
+play,6,1,wheaz101,01,FX,8/F89D
+play,6,1,myerh102,22,BCBFX,S5/BG25
+play,6,1,konee101,20,BPX,9/F89
+play,6,1,kildp101,00,X,9/F9DW
+play,7,0,gardl101,00,X,S4/G4M
+play,7,0,johnd107,11,BCX,64(1)/FO
+play,7,0,sewej101,11,BCX,9/F9DW
+play,7,0,oneis101,10,BX,S7/F7S.1-2
+play,7,0,bagbj101,00,,NP
 sub,granj104,"Jack Graney",0,9,11
-play,7,0,granj104,??,,K
-play,7,1,millo103,??,,NP
+play,7,0,granj104,02,CFS,K
+play,7,1,millo103,00,,NP
 sub,uhleg101,"George Uhle",0,9,1
-play,7,1,millo103,??,,K/C
-play,7,1,grimb101,??,,9
-play,7,1,olsoi101,??,,K
-play,8,0,jamic101,32,,W
-play,8,0,wambb101,??,,NP
+play,7,1,millo103,22,CFBBC,K/C
+play,7,1,grimb101,12,FBSX,9/F9S
+play,7,1,olsoi101,22,BCBST,K
+play,8,0,jamic101,32,CBBFBB,W
+play,8,0,wambb101,00,,NP
 sub,burng102,"George Burns",0,2,11
-play,8,0,burng102,32,,W.1-2
-play,8,0,speat101,??,,43.2-3;1-2
-play,8,0,smite104,??,,2/FL
-play,8,0,gardl101,30,,W
-play,8,0,johnd107,??,,46(1)/FO
-play,8,1,johnj107,??,,NP
+play,8,0,burng102,32,BSBFBB,W.1-2
+play,8,0,speat101,11,CBX,43/G4.2-3;1-2
+play,8,0,smite104,11,BCX,2/FL
+play,8,0,gardl101,30,BBBB,W
+play,8,0,johnd107,02,CCX,46(1)/FO
+play,8,1,johnj107,00,,NP
 sub,lunth101,"Harry Lunte",0,2,4
-play,8,1,johnj107,??,,6/P
-play,8,1,grift102,??,,K/C
-play,8,1,wheaz101,??,,7/F7S
-play,9,0,sewej101,??,,3/G
-play,9,0,oneis101,??,,9/L
-play,9,0,uhleg101,??,,NP
+play,8,1,johnj107,01,FX,6/P5D
+play,8,1,grift102,12,BFFC,K/C
+play,8,1,wheaz101,22,CFBBX,7/F7S
+play,9,0,sewej101,22,BBCFX,3/G
+play,9,0,oneis101,01,CX,9/F
+play,9,0,uhleg101,00,,NP
 sub,nunal101,"Les Nunamaker",0,9,11
-play,9,0,nunal101,??,,S8
-play,9,0,jamic101,32,,7/F7S
+play,9,0,nunal101,22,CCFBFBX,S8
+play,9,0,jamic101,32,BCBFB>X,7/F7S
+com,"Pitch counts according to the Associated Press:"
+com,"   Bagby:     68 (25 balls)"
+com,"   Uhle:      25 (14 balls)"
+com,"   Grimes:   129 (48 balls)"
 data,er,bagbj101,2
 data,er,uhleg101,0
 data,er,grimb101,0
@@ -293,18 +322,18 @@ info,umphome,odayh101
 info,ump1b,dinnb101
 info,ump2b,klemb901
 info,ump3b,connt901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,208"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/05 2:38PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,107
 info,attendance,25088
 info,wp,smits102
@@ -329,84 +358,99 @@ start,konee101,"Ed Konetchy",1,6,3
 start,kildp101,"Pete Kilduff",1,7,4
 start,millo103,"Otto Miller",1,8,2
 start,smits102,"Sherry Smith",1,9,1
-play,1,0,evanj101,??,,63
-play,1,0,wambb101,32,,W
-play,1,0,speat101,??,,53.1-2
-play,1,0,burng102,32,,63
-play,1,1,olsoi101,32,,W
-play,1,1,johnj107,??,,23/SH.1-2
-play,1,1,grift102,??,,E6/G.2-3;B-1
-play,1,1,wheaz101,??,,S7.3-H;1-2
-play,1,1,myerh102,??,,S9.2-H(UR);1-2
-play,1,1,konee101,??,,NP
+com,"Almost summer-like weather"
+play,1,0,evanj101,12,CCBX,63/G6
+play,1,0,wambb101,32,CBBBCFB,W
+play,1,0,speat101,20,BBX,53/G56.1-2
+play,1,0,burng102,32,CSBBFBX,63
+play,1,1,olsoi101,32,BBBCFB,W
+play,1,1,johnj107,11,FBX,23/SH.1-2
+play,1,1,grift102,32,CBBFBX,E6/G.2-3;B-1
+play,1,1,wheaz101,12,CFBX,S7.3-H;1-2
+play,1,1,myerh102,00,X,S3/P3D.2-H(UR);1-2
+play,1,1,konee101,00,,NP
 sub,mailw101,"Walter Mails",0,9,1
-play,1,1,konee101,??,,4/P
-play,1,1,kildp101,??,,9/FL
-play,2,0,gardl101,??,,9
-play,2,0,woodj108,??,,9
-play,2,0,sewej101,??,,31
-play,2,1,millo103,32,,W
-play,2,1,smits102,??,,1/BP/DP.1X1(13)
-play,2,1,olsoi101,??,,S8/L
-play,2,1,johnj107,??,,CS2(24)
-play,3,0,oneis101,??,,341
-play,3,0,mailw101,??,,8
-play,3,0,evanj101,??,,43
-play,3,1,johnj107,??,,43
-play,3,1,grift102,??,,NP
+play,1,1,konee101,00,X,4/P4M
+play,1,1,kildp101,12,CFFBFX,9/F9LDF/FL
+play,2,0,gardl101,21,BBFX,9/F9
+play,2,0,woodj108,12,BFCX,9/L9L
+com,"Griffith: sensational shoestring catch"
+play,2,0,sewej101,22,CBFFBX,31
+play,2,1,millo103,32,BBCBCB,W
+play,2,1,smits102,00,X,1/BP34S/DP.1X1(13)
+play,2,1,olsoi101,00,X,S8/L8
+play,2,1,johnj107,00,>B,CS2(24)
+play,3,0,oneis101,12,CCBX,341/G34
+com,"Caromed off Konetchy's glove; diving stop by Kilduff"
+play,3,0,mailw101,20,BBX,8/F8D
+play,3,0,evanj101,01,CX,43
+play,3,1,johnj107,22,BCCBX,43/G4
+play,3,1,grift102,00,,NP
 sub,neisb101,"Bernie Neis",1,3,11
-play,3,1,neisb101,??,,63
-play,3,1,wheaz101,??,,S8/F8S
-play,3,1,myerh102,??,,6/P
-play,4,0,wambb101,??,,NP
+play,3,1,neisb101,11,SBX,63
+com,"Close decision at 1B"
+play,3,1,wheaz101,11,BFX,S8/F8S
+play,3,1,myerh102,22,CBBFX,6/P6M
+play,4,0,wambb101,00,,NP
 sub,neisb101,"Bernie Neis",1,3,9
-play,4,0,wambb101,??,,63
-play,4,0,speat101,??,,D7/7L.B-H(UR)(E7)(NR)
-play,4,0,burng102,??,,53
-play,4,0,gardl101,??,,53
-play,4,1,konee101,32,,W
-play,4,1,kildp101,??,,13/SH.1-2
-play,4,1,millo103,??,,7/F7D
-play,4,1,smits102,??,,3/G
-play,5,0,woodj108,32,,K
-play,5,0,sewej101,30,,W
-play,5,0,oneis101,??,,S8.1-2
-play,5,0,mailw101,??,,64(1)3/GDP
-play,5,1,olsoi101,??,,8
-play,5,1,johnj107,??,,K
-play,5,1,neisb101,??,,3/P
-play,6,0,evanj101,??,,7
-play,6,0,wambb101,??,,13/G1
-play,6,0,speat101,??,,3/FL
-play,6,1,wheaz101,??,,3/FL
-play,6,1,myerh102,??,,S7
-play,6,1,konee101,??,,46(1)3/GDP
-play,7,0,burng102,02,,K
-play,7,0,gardl101,??,,43
-play,7,0,woodj108,??,,43
-play,7,1,kildp101,??,,W
-play,7,1,millo103,??,,13/SH.1-2
-play,7,1,smits102,??,,K
-play,7,1,olsoi101,32,,W
-play,7,1,johnj107,32,,63
-play,8,0,sewej101,??,,3/G
-play,8,0,oneis101,??,,S7/F7S
-play,8,0,mailw101,??,,NP
+play,4,0,wambb101,11,BCX,63/G56
+play,4,0,speat101,10,BX,D7/7L.B-H(UR)(E7)(NR)
+com,"Through Wheat and rolled to the LF corner"
+play,4,0,burng102,12,SSBX,53
+com,"Close decision at 1B"
+play,4,0,gardl101,10,BX,53
+play,4,1,konee101,32,FBBFBB,W
+play,4,1,kildp101,00,X,13/SH.1-2
+play,4,1,millo103,10,BX,7/F7D
+play,4,1,smits102,12,CCFBFX,3/G3L
+play,5,0,woodj108,32,CBBBCC,K/C
+play,5,0,sewej101,30,BBBB,W
+play,5,0,oneis101,01,FX,S8.1-3
+play,5,0,mailw101,12,BCCX,64(1)3/GDP
+com,"Konetchy scooped low relay on his knees"
+play,5,1,olsoi101,21,BBCX,8/F8
+play,5,1,johnj107,12,BCCS,K
+play,5,1,neisb101,11,BCX,3/P3D
+play,6,0,evanj101,11,FBX,7/F7L
+play,6,0,wambb101,00,X,13/G1
+com,"Sherry: leaping stop"
+play,6,0,speat101,11,BCX,3/P3DF/FL
+play,6,1,wheaz101,22,BFFBFX,3/P3DF/FL
+com,"Burns: sensational catch while leaning over the railing"
+play,6,1,myerh102,22,BFBCX,S7/L7
+play,6,1,konee101,10,BX,46(1)3/GDP
+play,7,0,burng102,02,CFS,K
+play,7,0,gardl101,00,X,43
+play,7,0,woodj108,10,BX,43
+play,7,1,kildp101,31,BBCBB,W
+play,7,1,millo103,00,X,13/SH.1-2
+play,7,1,smits102,12,BFFS,K
+play,7,1,olsoi101,32,BBBFF>B,W
+play,7,1,johnj107,32,BBCCB>X,63
+play,8,0,sewej101,11,CBX,3/G
+play,8,0,oneis101,22,BBCCX,S7/F78S
+play,8,0,mailw101,00,,NP
 sub,jamic101,"Charlie Jamieson",0,8,12
-play,8,0,mailw101,??,,NP
+play,8,0,mailw101,00,,NP
 sub,nunal101,"Les Nunamaker",0,9,11
-play,8,0,nunal101,??,,54(1)3/GDP
-play,8,1,neisb101,??,,NP
+play,8,0,nunal101,01,CX,54(1)3/GDP
+play,8,1,neisb101,00,,NP
 sub,nunal101,"Les Nunamaker",0,9,2
-play,8,1,neisb101,??,,NP
+play,8,1,neisb101,00,,NP
 sub,uhleg101,"George Uhle",0,8,1
-play,8,1,neisb101,??,,7
-play,8,1,wheaz101,??,,S6
-play,8,1,myerh102,??,,13/G1.1-2
-play,8,1,konee101,??,,8
-play,9,0,evanj101,??,,13
-play,9,0,wambb101,??,,63
-play,9,0,speat101,??,,63
+play,8,1,neisb101,12,FBCX,7/F7D
+play,8,1,wheaz101,22,SBFBFX,S6/G6
+com,"Bad hop off Sewell's chest"
+play,8,1,myerh102,01,FX,13/G1S.1-2
+play,8,1,konee101,01,SX,8/L8D
+play,9,0,evanj101,21,BCBX,13
+play,9,0,wambb101,21,BCBX,63/G56
+play,9,0,speat101,12,CFBX,63
+com,"Pitch counts according to the Associated Press:"
+com,"   Caldwell:  20 (10 balls)"
+com,"   Mails:     92 (39 balls)"
+com,"   Uhle:      14 ( 5 balls)"
+com,"   Smith:    106 (41 balls)"
 data,er,caldr101,1
 data,er,mailw101,0
 data,er,uhleg101,0
@@ -419,19 +463,19 @@ info,hometeam,CLE
 info,date,1920/10/09
 info,site,CLE06
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:40PM
 info,daynight,day
 info,usedh,false
 info,umphome,dinnb101
 info,ump1b,klemb901
 info,ump2b,connt901
 info,ump3b,odayh101
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,208"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/05 3:39PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -462,111 +506,123 @@ start,johnd107,"Doc Johnston",1,6,3
 start,sewej101,"Joe Sewell",1,7,6
 start,oneis101,"Steve O'Neill",1,8,2
 start,coves101,"Stan Coveleski",1,9,1
-play,1,0,olsoi101,??,,53
-play,1,0,johnj107,??,,63
-play,1,0,grift102,??,,5/P
-play,1,1,jamic101,??,,1/L
-play,1,1,wambb101,32,,W
-play,1,1,speat101,??,,S8.1-2
-play,1,1,smite104,??,,S8.2-H;1-3;B-2(TH3)
-play,1,1,gardl101,??,,8/SF.3-H
-play,1,1,johnd107,??,,K
-play,2,0,wheaz101,??,,7/F7D
-play,2,0,myerh102,??,,9/F89D
-play,2,0,konee101,??,,43
-play,2,1,sewej101,??,,S9/9DW
-play,2,1,oneis101,??,,S7.1-2
-play,2,1,coves101,??,,NP
+play,1,0,olsoi101,02,CFX,53/G5S
+play,1,0,johnj107,20,BBX,63/G56
+play,1,0,grift102,32,FBBSFFBX,5/P
+play,1,1,jamic101,21,BBCX,1/L1
+play,1,1,wambb101,32,BCBBCB,W
+play,1,1,speat101,22,BBFFX,S8/G46.1-2
+play,1,1,smite104,11,BCX,S8/G46.2-H;1-3;B-2(TH3)
+play,1,1,gardl101,00,X,8/SF/TH3.3-H
+play,1,1,johnd107,02,CSS,K
+play,2,0,wheaz101,01,CX,7/F7D
+play,2,0,myerh102,02,CFX,9/F89D
+play,2,0,konee101,00,X,43
+play,2,1,sewej101,21,BBCX,S9/L9DW
+play,2,1,oneis101,00,X,S56/L5.1-2
+play,2,1,coves101,00,,NP
 sub,mamaa101,"Al Mamaux",0,9,1
-play,2,1,coves101,??,,K
-play,2,1,jamic101,??,,8/F78S/DP.2X2(864)
-play,3,0,kildp101,02,,K
-play,3,0,millo103,??,,13/G1
-play,3,0,mamaa101,??,,K
-play,3,1,wambb101,??,,S9
-play,3,1,speat101,??,,S8/L.1-3;B-2(TH3)
-play,3,1,smite104,??,,NP
+play,2,1,coves101,02,CLC,K/C
+play,2,1,jamic101,11,BFX,8/L78/DP.2X2(864)
+play,3,0,kildp101,02,FFS,K
+play,3,0,millo103,12,FBSX,13/G15
+play,3,0,mamaa101,12,CCBS,K
+play,3,1,wambb101,00,X,S9/F9S
+play,3,1,speat101,02,CFFX,S8/L.1-3;B-2(TH3)
+play,3,1,smite104,00,,NP
 sub,marqr102,"Rube Marquard",0,9,1
-play,3,1,smite104,??,,NP
+play,3,1,smite104,00,,NP
 sub,burng102,"George Burns",1,4,11
-play,3,1,burng102,??,,S7.3-H;2-H;B-2(E7)
-play,3,1,gardl101,??,,K/C
-play,3,1,johnd107,??,,NP
+play,3,1,burng102,31,BBBSX,S7.3-H;2-H;B-2(E7)
+com,"Wheat fumbled"
+play,3,1,gardl101,12,CCBC,K/C
+play,3,1,johnd107,00,,NP
 sub,woodj108,"Joe Wood",1,6,11
-play,3,1,woodj108,??,,8/L
-play,3,1,sewej101,??,,S3/G.2-3
-play,3,1,oneis101,??,,IW.1-2
-play,3,1,coves101,??,,4(1)/FO
-play,4,0,olsoi101,??,,NP
+play,3,1,woodj108,21,CBBX,8/F8
+play,3,1,sewej101,01,CX,S3/G.2-3
+play,3,1,oneis101,30,IIII,IW.1-2
+play,3,1,coves101,01,CX,4(1)/FO/G4M
+play,4,0,olsoi101,00,,NP
 sub,burng102,"George Burns",1,4,3
-play,4,0,olsoi101,??,,NP
+play,4,0,olsoi101,00,,NP
 sub,woodj108,"Joe Wood",1,6,9
-play,4,0,olsoi101,??,,8/F8S
-play,4,0,johnj107,??,,S7/L
-play,4,0,grift102,??,,D8/89.1-H
-play,4,0,wheaz101,??,,8/F8D.2-3
-play,4,0,myerh102,??,,63
-play,4,1,jamic101,??,,NP
+play,4,0,olsoi101,01,FX,8/F8
+play,4,0,johnj107,01,FX,S7/L7
+play,4,0,grift102,01,FX,D8/L89D.1-H
+play,4,0,wheaz101,00,X,8/F8XD.2-3
+play,4,0,myerh102,01,CX,63
+play,4,1,jamic101,00,,NP
 sub,evanj101,"Joe Evans",1,1,11
-play,4,1,evanj101,??,,8
-play,4,1,wambb101,??,,13/BG
-play,4,1,speat101,??,,43
-play,5,0,konee101,??,,NP
+play,4,1,evanj101,32,BCBBCX,8/L8D
+com,"Myers: miraculous tumbling catch"
+play,4,1,wambb101,00,X,13/BG1S
+play,4,1,speat101,21,BSBX,43
+play,5,0,konee101,00,,NP
 sub,evanj101,"Joe Evans",1,1,7
-play,5,0,konee101,??,,W
-play,5,0,kildp101,??,,K
-play,5,0,millo103,??,,64(1)3/GDP
-play,5,1,burng102,??,,K
-play,5,1,gardl101,??,,8/F9D
-play,5,1,woodj108,??,,63
-play,6,0,marqr102,??,,NP
+play,5,0,konee101,32,CSBBBB,W
+play,5,0,kildp101,12,SBFS,K
+play,5,0,millo103,02,CSX,64(1)3/GDP
+play,5,1,burng102,22,SFBBS,K
+play,5,1,gardl101,02,SCX,8/F89XDW
+com,"Myers: jumping catch"
+play,5,1,woodj108,12,SCBX,63
+com,"Konetchy scooped low throw"
+play,6,0,marqr102,00,,NP
 sub,lamab101,"Bill Lamar",0,9,11
-play,6,0,lamab101,??,,63
-play,6,0,olsoi101,??,,S7
-play,6,0,johnj107,??,,64(1)/FO.BX1(4E3)
-play,6,0,grift102,??,,FC4.1X2(4E6);B-1
-play,6,0,wheaz101,??,,OA.2X3(65)
-com,"Previous two plays really one, but entered separately"
-com,"$Johnston thrown out trying for third after Sewell"
-com,"mishandled Wambsganss's throw to second"
-play,6,1,sewej101,??,,NP
+play,6,0,lamab101,00,X,63
+play,6,0,olsoi101,00,X,S7
+play,6,0,johnj107,01,FX,64(1)/FO.BX1(4E3)
+play,6,0,grift102,10,BX,FC4.1X2(4E6);B-1
+play,6,0,wheaz101,,N,OA.2X3(65)
+com,"Previous two plays really one, but entered separately."
+com,"Johnston thrown out trying for third after Sewell"
+com,"mishandled Wambsganss's throw to second."
+play,6,1,sewej101,00,,NP
 sub,pfefj101,"Jeff Pfeffer",0,9,1
-play,6,1,sewej101,??,,5/P
-play,6,1,oneis101,??,,K
-play,6,1,coves101,??,,S8
-play,6,1,evanj101,??,,WP.1-2
-play,6,1,evanj101,??,,S9.2-3
-play,6,1,wambb101,??,,S6.3-H;1-2
-play,6,1,speat101,??,,2/FL
-play,7,0,wheaz101,??,,53
-play,7,0,myerh102,??,,K
-play,7,0,konee101,??,,8/L8D
-play,7,1,burng102,32,,W
-play,7,1,gardl101,??,,S9/9D.1-3
-play,7,1,woodj108,??,,PB.1-2
-play,7,1,woodj108,11,,NP
+play,6,1,sewej101,22,CBFBX,5/P
+play,6,1,oneis101,12,FBCS,K
+play,6,1,coves101,22,SBCBX,S8/G4M
+play,6,1,evanj101,11,CBB,WP.1-2
+play,6,1,evanj101,21,CBB.X,S9.2-3
+play,6,1,wambb101,01,CX,S6/G56/TH2.3-H;1-2
+play,6,1,speat101,32,BFBFBFX,2/FL
+play,7,0,wheaz101,01,SX,53
+play,7,0,myerh102,12,CSBS,K
+play,7,0,konee101,32,BBCCBX,8/L8XD
+play,7,1,burng102,32,BBCCBB,W
+play,7,1,gardl101,32,BBFBCX,S9/L9DW.1-3
+play,7,1,woodj108,01,CB,PB.1-2
+play,7,1,woodj108,11,CB.,NP
 sub,granj104,"Jack Graney",1,6,11
-play,7,1,granj104,??,,FC4.2X3(42);B-2
-com,"$Kilduff threw to Miller who chased Burns back to third"
-com,"where  Gardner was now standing; Miller tagged both runners"
-com,"and Gardner was called out"
-play,7,1,sewej101,??,,6/P
-play,7,1,oneis101,??,,IW
-play,7,1,coves101,??,,9/F9D
-play,8,0,kildp101,??,,NP
+play,7,1,granj104,11,CB..X,FC4/THH.3-3;2X3(42);B-2
+com,"Kilduff threw to Miller who chased Burns back to third"
+com,"where Gardner was now standing; Miller tagged both runners"
+com,"and Gardner was called out."
+play,7,1,sewej101,10,BX,6/P
+play,7,1,oneis101,30,IIII,IW
+play,7,1,coves101,20,BBX,9/F9DW
+play,8,0,kildp101,00,,NP
 sub,granj104,"Jack Graney",1,6,9
-play,8,0,kildp101,??,,S8
-play,8,0,millo103,??,,54(1)3/GDP
-play,8,0,pfefj101,??,,13
-play,8,1,evanj101,??,,43
-play,8,1,wambb101,??,,8/F8S
-play,8,1,speat101,??,,43
-play,9,0,olsoi101,??,,43
-play,9,0,johnj107,??,,S1
-play,9,0,grift102,??,,NP
+play,8,0,kildp101,00,X,S8/G46
+play,8,0,millo103,11,FBX,54(1)3/GDP
+play,8,0,pfefj101,12,CSFBX,13/G25
+com,"Burns scooped low/wide throw"
+play,8,1,evanj101,12,BFFX,43
+play,8,1,wambb101,22,BBFFFX,8/F8S
+play,8,1,speat101,21,BBCX,43
+play,9,0,olsoi101,12,CFBX,43/G4M
+play,9,0,johnj107,01,FX,S1/G
+com,"Caromed off Coveleski to foul ground near 3B"
+play,9,0,grift102,00,,NP
 sub,neisb101,"Bernie Neis",0,2,12
-play,9,0,grift102,??,,46(1)/FO
-play,9,0,wheaz101,??,,64(1)/FO
+play,9,0,grift102,10,BX,46(1)/FO
+play,9,0,wheaz101,00,X,64(1)/FO
+com,"Pitch counts according to the Associated Press:"
+com,"   Cadore:     28 (10 balls)"
+com,"   Mamaux:     11 (1 ball)"
+com,"   Marquard:   45 (19 balls)"
+com,"   Pfeffer:    63 (29 balls)"
+com,"   Coveleski:  89"
 data,er,cadol101,2
 data,er,mamaa101,2
 data,er,marqr102,0
@@ -587,12 +643,12 @@ info,umphome,klemb901
 info,ump1b,connt901
 info,ump2b,odayh101
 info,ump3b,dinnb101
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,208"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/05 3:50PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -623,94 +679,109 @@ start,johnd107,"Doc Johnston",1,6,3
 start,sewej101,"Joe Sewell",1,7,6
 start,oneis101,"Steve O'Neill",1,8,2
 start,bagbj101,"Jim Bagby",1,9,1
-play,1,0,olsoi101,??,,S7
-play,1,0,sheej101,??,,13/SH.1-2
-play,1,0,grift102,??,,3/G.2-3
-play,1,0,wheaz101,??,,7
-play,1,1,jamic101,??,,S9
-play,1,1,wambb101,??,,S7.1-2
-play,1,1,speat101,??,,S1/BG25.2-3;1-2
-play,1,1,smite104,??,,HR/9D.3-H;2-H;1-H
-play,1,1,gardl101,??,,6/P
-play,1,1,johnd107,??,,S8
-play,1,1,sewej101,??,,64(1)3/GDP
-play,2,0,myerh102,??,,53
-play,2,0,konee101,??,,T8
-play,2,0,kildp101,??,,7(B)2(3)/DP
-play,2,1,oneis101,??,,63
-play,2,1,bagbj101,??,,7
-play,2,1,jamic101,??,,13/G1
-play,3,0,millo103,??,,S7
-play,3,0,grimb101,??,,54(1)3/GDP
-play,3,0,olsoi101,??,,S9
-play,3,0,sheej101,??,,S9.1-2
-play,3,0,grift102,??,,5/P
-play,3,1,wambb101,??,,43
-play,3,1,speat101,??,,43
-play,3,1,smite104,??,,T8/8D
-play,3,1,gardl101,??,,43
-play,4,0,wheaz101,??,,K
-play,4,0,myerh102,??,,S8
-play,4,0,konee101,??,,WP.1X3(25)
-play,4,0,konee101,??,,63
-play,4,1,johnd107,??,,S17/G1
-play,4,1,sewej101,??,,PB.1-2
-play,4,1,sewej101,??,,53.2-3
-play,4,1,oneis101,??,,IW
-play,4,1,bagbj101,??,,HR/8D.3-H;1-H
-play,4,1,jamic101,??,,S9
-play,4,1,wambb101,??,,NP
+play,1,0,olsoi101,22,BKBFX,S7/L
+play,1,0,sheej101,11,BFX,13/SH.1-2
+play,1,0,grift102,00,X,3/G.2-3
+play,1,0,wheaz101,21,FB*BX,7/F78
+play,1,1,jamic101,32,BBKBKX,S3/G3L
+com,"Konetchy: diving stop"
+play,1,1,wambb101,12,KBFFX,S7/G56.1-2
+play,1,1,speat101,00,X,S1/BG25.2-3;1-2
+play,1,1,smite104,12,SSBX,HR/F9D.3-H;2-H;1-H
+com,"Over RF screen"
+play,1,1,gardl101,22,BBKFFX,6/P
+play,1,1,johnd107,32,BFFBBX,S14/G13
+play,1,1,sewej101,01,KX,64(1)3/GDP/G6
+play,2,0,myerh102,10,BX,53
+play,2,0,konee101,00,X,T8/L78XDW
+play,2,0,kildp101,22,KBKBX,7(B)2(3)/LDP
+play,2,1,oneis101,12,KBKX,63/G6M
+play,2,1,bagbj101,32,BBKBFX,7/F7
+play,2,1,jamic101,21,BKBX,13/G1
+play,3,0,millo103,00,X,S7/G5L
+play,3,0,grimb101,10,BX,54(1)3/GDP/G5
+play,3,0,olsoi101,00,X,S9/L
+play,3,0,sheej101,02,KKFX,S9/L.1-2
+play,3,0,grift102,11,KBX,5/P5L
+play,3,1,wambb101,01,KX,43/G4M
+play,3,1,speat101,00,X,43/G4
+play,3,1,smite104,12,BKFX,T8/L78D
+play,3,1,gardl101,21,BBKX,43
+play,4,0,wheaz101,12,KSFBS,K
+play,4,0,myerh102,00,X,S8/G6M
+play,4,0,konee101,00,B,WP.1X3(25)
+play,4,0,konee101,32,B.KBBKX,63
+play,4,1,johnd107,12,KBKX,S17/G1
+com,"Caromed off Grimes' leg into LF"
+play,4,1,sewej101,10,BB,PB.1-2
+play,4,1,sewej101,22,BB.KFX,53.2-3
+play,4,1,oneis101,30,IIII,IW
+play,4,1,bagbj101,10,BX,HR/F8XD.3-H;1-H
+com,"Into temporary stands in CF"
+play,4,1,jamic101,00,X,S34/G
+com,"Off Konetchy's bare hand"
+play,4,1,wambb101,00,,NP
 sub,mitcc102,"Clarence Mitchell",0,9,1
-play,4,1,wambb101,??,,7
-play,4,1,speat101,??,,CS2(26)
-play,5,0,kildp101,??,,S7/78
-play,5,0,millo103,??,,S8.1-2
-play,5,0,mitcc102,??,,4(B)4(2)4(1)/LTP
-com,"$Bill Wambsganss's unassisted triple play"
-play,5,1,speat101,??,,E5/TH1.B-2
-play,5,1,smite104,??,,S8.2-3
-play,5,1,gardl101,??,,S7.3-H(UR);1-2
-play,5,1,johnd107,??,,34/SH.2-3;1-2
-play,5,1,sewej101,??,,5/FL
-play,5,1,oneis101,??,,IW
-play,5,1,bagbj101,??,,64(1)/FO
-play,6,0,olsoi101,??,,6/L
-play,6,0,sheej101,??,,43
-play,6,0,grift102,??,,8
-play,6,1,jamic101,??,,31
-play,6,1,wambb101,??,,7
-play,6,1,speat101,??,,W
-play,6,1,smite104,??,,46(1)/FO
-play,7,0,wheaz101,??,,S8
-play,7,0,myerh102,??,,64(1)/FO
-play,7,0,konee101,??,,K+CS2(E2)
-play,7,0,kildp101,??,,63
-play,7,1,gardl101,??,,NP
+play,4,1,wambb101,10,BX,7/F7
+play,4,1,speat101,00,>K,CS2(26)
+com,"Jamieson overslid 2B"
+play,5,0,kildp101,12,KFBX,S/78
+play,5,0,millo103,21,BFBX,S8/78.1-2
+play,5,0,mitcc102,21,BKBX,4/LTP.2X2(4);1X1(4)
+com,"Wambsganss: unassisted triple play."
+com,"Wamby made a leaping catch of the line drive, stepped"
+com,"on 2B, then tagged Miller who was on his way to 2B."
+play,5,1,speat101,12,BKKX,E5/TH1.B-2
+play,5,1,smite104,12,KKBX,S8.2-3
+play,5,1,gardl101,10,BX,S7/L.3-H(UR);1-2
+play,5,1,johnd107,00,X,34/SH.2-3;1-2
+play,5,1,sewej101,00,X,5/P5DF/FL
+com,"Sheehan: nice running catch near grandstand"
+play,5,1,oneis101,30,IIII,IW
+play,5,1,bagbj101,00,X,64(1)/FO
+play,6,0,olsoi101,11,KBX,6/L6
+com,"Sewell: leaping catch"
+play,6,0,sheej101,32,BBKBKX,43
+play,6,0,grift102,10,BX,8/L89
+play,6,1,jamic101,01,FX,31
+play,6,1,wambb101,10,BX,7/F
+play,6,1,speat101,30,BBBB,W
+play,6,1,smite104,00,X,46(1)/FO
+play,7,0,wheaz101,21,BBKX,S8/L8
+play,7,0,myerh102,02,KKFX,64(1)/FO
+play,7,0,konee101,22,FKBB>S,K+CS2(E2)/TH2
+play,7,0,kildp101,00,X,63/G6
+play,7,1,gardl101,00,,NP
 sub,kruee101,"Ernie Krueger",0,8,2
-play,7,1,gardl101,??,,2/FL
-play,7,1,johnd107,??,,43
-play,7,1,sewej101,??,,W
-play,7,1,oneis101,??,,CS2(24)
-play,8,0,kruee101,??,,S8
-play,8,0,mitcc102,??,,36(1)3/GDP
-play,8,0,olsoi101,??,,E5/G.B-1
-play,8,0,sheej101,??,,3/G
-play,8,1,oneis101,??,,63
-play,8,1,bagbj101,??,,S8
-play,8,1,jamic101,??,,NP
+play,7,1,gardl101,11,KBX,2/P2F/FL
+play,7,1,johnd107,01,KX,43/G4
+play,7,1,sewej101,30,BBBB,W
+play,7,1,oneis101,22,KBKB>B,CS2(24)
+play,8,0,kruee101,11,BFX,S8/L8
+play,8,0,mitcc102,11,BFX,36(1)3/GDP
+play,8,0,olsoi101,01,FX,E5/G.B-1
+play,8,0,sheej101,01,KX,3/G
+play,8,1,oneis101,21,BFBX,63/G6
+play,8,1,bagbj101,00,X,S8/L4D
+play,8,1,jamic101,00,,NP
 sub,granj104,"Jack Graney",1,1,11
-play,8,1,granj104,??,,K
-play,8,1,wambb101,??,,64(1)/FO
-play,9,0,grift102,??,,NP
+play,8,1,granj104,12,BKFC,K/C
+play,8,1,wambb101,22,KKBFBX,64(1)/FO
+play,9,0,grift102,00,,NP
 sub,granj104,"Jack Graney",1,1,7
-play,9,0,grift102,??,,NP
+play,9,0,grift102,00,,NP
 sub,thomp101,"Pinch Thomas",1,8,2
-play,9,0,grift102,??,,K
-play,9,0,wheaz101,??,,S9
-play,9,0,myerh102,??,,S8.1-2
-play,9,0,konee101,??,,S9.2-H;1-3
-play,9,0,kildp101,??,,13/G1.1-2
-play,9,0,kruee101,??,,4/P
+play,9,0,grift102,02,KFS,K
+play,9,0,wheaz101,22,BBKFX,S9/G3L
+play,9,0,myerh102,10,BX,S8/G46.1-2
+play,9,0,konee101,21,BFBX,S34/G.2-H;1-3
+com,"Off Johnston's glove into short RF"
+play,9,0,kildp101,00,X,13.1-2
+play,9,0,kruee101,20,BBX,4/P
+com,"Pitch counts according to the Associated Press:"
+com,"   Grimes:    67 (28 balls)"
+com,"   Mitchell:  52 (24 balls)"
+com,"   Bagby:    109 (35 balls)"
 data,er,grimb101,7
 data,er,mitcc102,0
 data,er,bagbj101,1
@@ -729,18 +800,18 @@ info,umphome,connt901
 info,ump1b,odayh101
 info,ump2b,dinnb101
 info,ump3b,klemb901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,208"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/06 10:27AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,94
 info,attendance,27194
 info,wp,mailw101
@@ -765,79 +836,86 @@ start,woodj108,"Joe Wood",1,6,9
 start,sewej101,"Joe Sewell",1,7,6
 start,oneis101,"Steve O'Neill",1,8,2
 start,mailw101,"Walter Mails",1,9,1
-play,1,0,olsoi101,??,,7/F7D
-play,1,0,sheej101,??,,K/C
-play,1,0,neisb101,??,,43
-play,1,1,evanj101,??,,S7/G5
-play,1,1,wambb101,??,,CS2(26)
-play,1,1,wambb101,??,,9/F9S
-play,1,1,speat101,??,,2/FL
-play,2,0,wheaz101,??,,K
-play,2,0,myerh102,??,,9
-play,2,0,konee101,??,,S9
-play,2,0,kildp101,??,,E6/G.1-2;B-1
-play,2,0,millo103,??,,E5/G.2-3;1-2;B-1
-play,2,0,smits102,??,,8/F8S
-play,2,1,burng102,32,,W
-play,2,1,gardl101,??,,36(1)/FO
-play,2,1,woodj108,??,,S7.1-3;B-2(TH3)
-play,2,1,sewej101,??,,FC4.3XH(42);2-3
-play,2,1,oneis101,??,,4(1)/FO
-play,3,0,olsoi101,??,,6/L
-play,3,0,sheej101,??,,8
-play,3,0,neisb101,??,,6/P
-play,3,1,mailw101,??,,53
-play,3,1,evanj101,??,,S8/78
-play,3,1,wambb101,??,,24(1)/FO/BG
-play,3,1,speat101,??,,3/G
-play,4,0,wheaz101,??,,3/P
-play,4,0,myerh102,??,,S9
-play,4,0,konee101,??,,W.1-2
-play,4,0,kildp101,??,,9/F9S
-play,4,0,millo103,??,,7
-play,4,1,burng102,??,,6/P56D
-play,4,1,gardl101,??,,7
-play,4,1,woodj108,??,,9
-play,5,0,smits102,??,,K/C
-play,5,0,olsoi101,??,,8
-play,5,0,sheej101,??,,63
-play,5,1,sewej101,??,,S8
-play,5,1,oneis101,??,,CS2(26)
-play,5,1,oneis101,??,,43
-play,5,1,mailw101,??,,53
-play,6,0,neisb101,30,,W
-play,6,0,wheaz101,??,,PO1(23)
-play,6,0,wheaz101,??,,63
-play,6,0,myerh102,??,,63
-play,6,1,evanj101,??,,3/P9S
-play,6,1,wambb101,??,,63
-play,6,1,speat101,??,,S7
-play,6,1,burng102,??,,D7/7DW.1-H
-play,6,1,gardl101,??,,9
-play,7,0,konee101,??,,13/G1
-play,7,0,kildp101,??,,K23
-play,7,0,millo103,??,,7
-play,7,1,woodj108,??,,8/F8D
-play,7,1,sewej101,??,,13
-play,7,1,oneis101,??,,53
-play,8,0,smits102,??,,53
-play,8,0,olsoi101,??,,D7/7LD
-play,8,0,sheej101,??,,5/P
-play,8,0,neisb101,??,,NP
+play,1,0,olsoi101,12,CFBX,7/F7DW
+play,1,0,sheej101,12,SLBC,K/C
+play,1,0,neisb101,32,SSBBBX,43/G4M
+play,1,1,evanj101,22,BBCFX,S5/G5
+play,1,1,wambb101,01,L>P,CS2(26)
+play,1,1,wambb101,32,L>P.BBCX,9/F9LS
+play,1,1,speat101,32,FMBBBFX,2/FL
+play,2,0,wheaz101,32,BBCBCS,K
+play,2,0,myerh102,01,FX,9/F9
+play,2,0,konee101,01,CX,S9/L
+play,2,0,kildp101,02,SSFX,E6/G.1-2;B-1
+play,2,0,millo103,01,CX,E5/G.2-3;1-2;B-1
+play,2,0,smits102,20,BBX,8/F8S
+play,2,1,burng102,32,BBCSFBB,W
+play,2,1,gardl101,02,FCX,36(1)/FO
+play,2,1,woodj108,00,X,S57/G5.1-3;B-2(TH3)
+play,2,1,sewej101,22,FCBBFX,FC4.3XH(42);2-3
+play,2,1,oneis101,00,X,4(1)/FO/G4M
+play,3,0,olsoi101,01,CX,6/L
+play,3,0,sheej101,02,CFX,8/F8
+play,3,0,neisb101,10,BX,6/P
+play,3,1,mailw101,10,BX,53
+play,3,1,evanj101,21,CBBX,S8/L78S
+play,3,1,wambb101,00,X,24(1)/FO/BG
+play,3,1,speat101,01,CX,3/G
+play,4,0,wheaz101,00,X,3/P3L
+play,4,0,myerh102,20,BBX,S9/G34
+play,4,0,konee101,30,BBBB,W.1-2
+play,4,0,kildp101,12,FSBX,9/F89S
+play,4,0,millo103,00,X,7/F
+play,4,1,burng102,32,SBFBBX,6/P56D
+play,4,1,gardl101,00,X,7/F7D
+play,4,1,woodj108,11,CBX,9/F
+play,5,0,smits102,32,BFBBCC,K/C
+play,5,0,olsoi101,10,BX,8/F78D
+play,5,0,sheej101,21,BBCX,63
+com,"Burns: leaping catch of high throw"
+play,5,1,sewej101,12,CBFX,S8/L4MD
+play,5,1,oneis101,00,>Q,CS2(26)
+play,5,1,oneis101,11,>Q.BX,43/G4M
+play,5,1,mailw101,21,BBCX,53
+play,6,0,neisb101,30,BBBB,W
+play,6,0,wheaz101,02,LS+1,PO1(23)
+play,6,0,wheaz101,12,LS+1.BF.X,63
+com,"Burns scooped low throw"
+play,6,0,myerh102,11,BCX,63/G6M
+play,6,1,evanj101,21,CBBX,3/P3D
+play,6,1,wambb101,00,X,63/G6
+play,6,1,speat101,01,CX,S7/L
+play,6,1,burng102,11,BCX,D7/F7DW.1-H
+play,6,1,gardl101,00,X,9/F
+play,7,0,konee101,00,X,13/G1S
+play,7,0,kildp101,22,CSBBS,K23
+play,7,0,millo103,10,BX,7/F
+com,"Big drops of rain briefly fell with the sun still shining"
+play,7,1,woodj108,21,CBBX,8/F8XD
+play,7,1,sewej101,10,BX,13/G34S
+play,7,1,oneis101,32,BBBCFX,53
+play,8,0,smits102,00,X,53/G5
+play,8,0,olsoi101,00,X,D7/G5L
+play,8,0,sheej101,00,X,5/P
+play,8,0,neisb101,00,,NP
 sub,kruee101,"Ernie Krueger",0,3,11
-play,8,0,kruee101,??,,FC5.2X3(5)
-play,8,1,mailw101,??,,NP
+play,8,0,kruee101,01,FX,FC5.2X3(5)
+play,8,1,mailw101,00,,NP
 sub,grift102,"Tommy Griffith",0,3,9
-play,8,1,mailw101,??,,K
-play,8,1,evanj101,??,,S7
-play,8,1,wambb101,??,,PO1(13)
-play,8,1,wambb101,??,,7/F7D
-play,9,0,wheaz101,??,,43
-play,9,0,myerh102,??,,E6/TH1.B-1
-play,9,0,konee101,??,,54(1)/FO
-play,9,0,kildp101,??,,NP
+play,8,1,mailw101,22,BCSBS,K
+play,8,1,evanj101,10,BX,S6/G6M
+play,8,1,wambb101,20,BB1,PO1(13)
+play,8,1,wambb101,32,BB1.BFCX,7/L7DW
+play,9,0,wheaz101,10,BX,43
+play,9,0,myerh102,01,FX,E6/TH1/G6M.B-1
+com,"Sewell: fine stop but high throw forced Burns off the bag"
+play,9,0,konee101,02,CSX,54(1)/FO
+play,9,0,kildp101,00,,NP
 sub,mccab101,"Bill McCabe",0,6,12
-play,9,0,kildp101,??,,7/F7D
+play,9,0,kildp101,10,BX,7/F7D
+com,"Pitch counts according to the Associated Press:"
+com,"   Smith: 103 (28 balls)"
+com,"   Mails:  99 (26 balls)"
 data,er,smits102,1
 data,er,mailw101,0
 id,CLE192010120
@@ -855,18 +933,18 @@ info,umphome,odayh101
 info,ump1b,dinnb101
 info,ump2b,klemb901
 info,ump3b,connt901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,208"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/06 10:38AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,115
 info,attendance,27525
 info,wp,coves101
@@ -891,85 +969,100 @@ start,johnd107,"Doc Johnston",1,6,3
 start,sewej101,"Joe Sewell",1,7,6
 start,oneis101,"Steve O'Neill",1,8,2
 start,coves101,"Stan Coveleski",1,9,1
-play,1,0,olsoi101,??,,5/P
-play,1,0,sheej101,??,,7/F7S
-play,1,0,grift102,??,,3E1.B-1
-play,1,0,wheaz101,??,,4/P
-play,1,1,jamic101,??,,3/G
-play,1,1,wambb101,??,,7
-play,1,1,speat101,??,,5/P
-play,2,0,myerh102,??,,63
-play,2,0,konee101,??,,53
-play,2,0,kildp101,??,,63
-play,2,1,smite104,??,,43
-play,2,1,gardl101,??,,E5/TH1.B-2
-play,2,1,johnd107,32,,W
-play,2,1,sewej101,??,,9/L
-play,2,1,oneis101,??,,43
-play,3,0,millo103,??,,K/C
-play,3,0,grimb101,??,,S7/F7S
-play,3,0,olsoi101,??,,E6/G.1-2;B-1
-play,3,0,sheej101,??,,S/BR/G.2-2;1X2(4)
-play,3,0,grift102,??,,9
-play,3,1,coves101,??,,K
-play,3,1,jamic101,??,,13/G1
-play,3,1,wambb101,??,,S1/G
-play,3,1,speat101,??,,43
-play,4,0,wheaz101,??,,S9/9DW.BX2(94)
-play,4,0,myerh102,??,,53/BG
-play,4,0,konee101,??,,7/F7D
-play,4,1,smite104,??,,3/G
-play,4,1,gardl101,??,,S4
-play,4,1,johnd107,??,,S9/L.1-3
-play,4,1,sewej101,??,,7/F7S
-play,4,1,oneis101,??,,SB2.3-H(UR)(E1/TH2)
-play,4,1,oneis101,??,,9
-play,5,0,kildp101,??,,8/L
-play,5,0,millo103,??,,63
-play,5,0,grimb101,??,,13/G1
-play,5,1,coves101,??,,K/C
-play,5,1,jamic101,??,,S2/G2
-play,5,1,wambb101,??,,7/78
-play,5,1,speat101,??,,SB2
-play,5,1,speat101,??,,T9/9LD.2-H
-play,5,1,smite104,??,,8/F8D
-play,6,0,olsoi101,??,,8
-play,6,0,sheej101,??,,43
-play,6,0,grift102,??,,8/F8D
-play,6,1,gardl101,32,,3/G
-play,6,1,johnd107,32,,W
-play,6,1,sewej101,??,,8/F89
-play,6,1,oneis101,??,,CS2(24)
-play,7,0,wheaz101,??,,9/L
-play,7,0,myerh102,??,,43
-play,7,0,konee101,??,,S6
-play,7,0,kildp101,??,,E6/G.1-2;B-1
-play,7,0,millo103,??,,NP
+play,1,0,olsoi101,00,X,5/P5L
+play,1,0,sheej101,22,BCBSX,7/F7S
+play,1,0,grift102,01,CX,3E1.B-1
+com,"Coveleski missed the bag"
+play,1,0,wheaz101,01,CX,4/P
+play,1,1,jamic101,01,CX,3/G
+play,1,1,wambb101,00,X,7/F78D
+play,1,1,speat101,22,BBCCX,5/P
+play,2,0,myerh102,12,SSBX,63
+play,2,0,konee101,02,CFX,53/G5S
+play,2,0,kildp101,02,MSX,63/G6
+play,2,1,smite104,21,BBCX,43/G4MS
+com,"Kilduff: nice play"
+play,2,1,gardl101,11,BFX,E5/TH1/G56.B-2
+play,2,1,johnd107,32,BBBCSB,W
+play,2,1,sewej101,22,CBFBX,9/L9L
+com,"Griffith: running catch"
+play,2,1,oneis101,02,SSFFX,43
+play,3,0,millo103,22,BCFBC,K/C
+play,3,0,grimb101,00,X,S7/F78S
+play,3,0,olsoi101,02,SCX,E6/G6.1-2;B-1
+play,3,0,sheej101,00,X,S/BR/G34.2-2;1X2(4)
+play,3,0,grift102,01,SX,9/F
+play,3,1,coves101,02,KKK,K
+play,3,1,jamic101,00,X,13/G1
+com,"Grimes hurt his left hand/arm on the play; game delayed"
+com,"three minutes to attend to him."
+play,3,1,wambb101,32,BBCBFX,S1/G25
+play,3,1,speat101,12,CFBX,43
+play,4,0,wheaz101,00,X,S9/L9DW.BX2(94)
+com,"Hit high off the RF screen"
+play,4,0,myerh102,00,X,53/BG5S
+play,4,0,konee101,10,BX,7/F7
+play,4,1,smite104,00,X,3/G
+play,4,1,gardl101,11,CBX,S4/G34
+play,4,1,johnd107,10,B>X,S9/L4D/TH2.1-3
+play,4,1,sewej101,02,FFX,7/F7S
+play,4,1,oneis101,01,C>B,SB2.3-H(UR)(E1/TH2)
+com,"Attempted delayed steal; Johnston stopped near 2B as O'Neill"
+com,"threw to Grimes.  Gardner stayed at 3B until Grimes threw"
+com,"past 2B into CF."
+play,4,1,oneis101,32,C>B.FBBX,9/F
+play,5,0,kildp101,22,SBFBX,8/L8S
+play,5,0,millo103,00,X,63/G6M
+play,5,0,grimb101,01,FX,13/G1
+com,"Lined off Coveleski's glove but he recovered"
+play,5,1,coves101,22,BSFBC,K/C
+play,5,1,jamic101,11,CBX,S2/G2L
+play,5,1,wambb101,00,X,7/F78
+play,5,1,speat101,00,>S,SB2
+play,5,1,speat101,22,>S.BBFX,T9/F89D.2-H
+play,5,1,smite104,00,X,8/F8XD
+play,6,0,olsoi101,00,X,8/F78D
+play,6,0,sheej101,12,CBSX,43/G4
+play,6,0,grift102,10,BX,8/F8XD
+play,6,1,gardl101,32,BBCBCX,3/G
+play,6,1,johnd107,32,CBSBBB,W
+play,6,1,sewej101,01,CX,8/F89
+play,6,1,oneis101,02,CF>U,CS2(24)
+play,7,0,wheaz101,12,FFFBX,9/L9
+play,7,0,myerh102,00,X,43/G4S
+play,7,0,konee101,32,BBCFFBX,S6/G
+play,7,0,kildp101,00,X,E6/G.1-2;B-1
+play,7,0,millo103,00,,NP
 sub,lamab101,"Bill Lamar",0,8,11
-play,7,0,lamab101,??,,43
-play,7,1,oneis101,??,,NP
+play,7,0,lamab101,11,CBX,43
+play,7,1,oneis101,00,,NP
 sub,kruee101,"Ernie Krueger",0,8,2
-play,7,1,oneis101,??,,D8/78D
-play,7,1,coves101,??,,FC1/BG.2X3(1563);B-2
-play,7,1,jamic101,??,,D9.2-H
-play,7,1,wambb101,32,,8
-play,7,1,speat101,??,,W
-play,7,1,smite104,??,,W.2-3;1-2
-play,7,1,gardl101,??,,46(1)/FO
-play,8,0,grimb101,??,,NP
+play,7,1,oneis101,01,SX,D7/L78D
+play,7,1,coves101,01,LX,FC1/BG1S.2X3(1563);B-2
+play,7,1,jamic101,12,SFBX,D9/L9LD.2-H
+play,7,1,wambb101,32,BBCLFBX,8/F8S
+play,7,1,speat101,31,BCBBB,W
+play,7,1,smite104,31,BBBCB,W.2-3;1-2
+play,7,1,gardl101,21,BBFX,46(1)/FO
+play,8,0,grimb101,00,,NP
 sub,schmr101,"Ray Schmandt",0,9,11
-play,8,0,schmr101,??,,63
-play,8,0,olsoi101,??,,53
-play,8,0,sheej101,??,,9
-play,8,1,johnd107,??,,NP
+play,8,0,schmr101,00,X,63
+play,8,0,olsoi101,10,BX,53/G5S
+play,8,0,sheej101,00,X,9/F9S
+play,8,1,johnd107,00,,NP
 sub,mamaa101,"Al Mamaux",0,9,1
-play,8,1,johnd107,??,,5/FL
-play,8,1,sewej101,??,,8
-play,8,1,oneis101,??,,K
-play,9,0,grift102,??,,7
-play,9,0,wheaz101,??,,S8
-play,9,0,myerh102,??,,64(1)/FO
-play,9,0,konee101,??,,64(1)/FO
+play,8,1,johnd107,21,BBSX,5/P5F/FL
+play,8,1,sewej101,12,BCFFFFFX,8/F8
+play,8,1,oneis101,12,BSSS,K
+play,9,0,grift102,21,BCBX,7/F7D
+play,9,0,wheaz101,01,CX,S8/G6M
+play,9,0,myerh102,12,FFBX,64(1)/FO
+play,9,0,konee101,31,BBBCX,64(1)/FO
+com,"Pitch counts according to the Associated Press:"
+com,"   Grimes:    120 (47 balls)"
+com,"   Mamaux:     15 ( 4 balls)"
+com,"   Coveleski:  90 (21 balls)"
 data,er,grimb101,2
 data,er,mamaa101,0
 data,er,coves101,0
+
