@@ -14,12 +14,12 @@ info,ump1b,varge901
 info,ump2b,davis901
 info,ump3b,tatat901
 info,scorer,"Cubs"
-info,translator,"C. Chestnut"
+info,translator,"C. Chestnut with pitches from WGN radio recording"
 info,inputter,"C. Chestnut"
 info,inputtime,1995/04/01 9:36PM
 info,howscored,park
-info,pitches,count
-info,temp,31
+info,pitches,pitches
+info,temp,39
 info,winddir,unknown
 info,windspeed,8
 info,fieldcond,unknown
@@ -49,95 +49,98 @@ start,parrl002,"Larry Parrish",1,6,5
 start,cromw101,"Warren Cromartie",1,7,3
 start,speic001,"Chris Speier",1,8,6
 start,roges001,"Steve Rogers",1,9,1
-play,1,0,dejei001,32,,9
-play,1,0,straj101,02,,HP
-play,1,0,buckb001,31,,6(1)3/GDP
-play,1,1,raint001,10,,S1/BG
-play,1,1,scotr101,00,,SB2
-play,1,1,scotr101,22,,43.2-3
-play,1,1,dawsa001,11,,53
-play,1,1,valee001,12,,K/C
-play,2,0,hends001,32,,K
+play,1,0,dejei001,32,CBBBCX,9/F9
+play,1,0,straj101,02,CFH,HP
+play,1,0,buckb001,31,BCB*BX,6(1)3/GDP
+play,1,1,raint001,10,BX,S1/BG23
+play,1,1,scotr101,01,1MB,SB2
+play,1,1,scotr101,22,1MB.LBX,43/G4.2-3
+play,1,1,dawsa001,11,BCX,53/G5
+play,1,1,valee001,12,BCFC,K/C
+play,2,0,hends001,32,BFBCFBS,K
 play,2,0,durhl001,22,,K
-play,2,0,reitk101,32,,K
-play,2,1,cartg001,10,,E6/TH1.B-2
-play,2,1,parrl002,12,,S1.2-3
-play,2,1,cromw101,01,,S7.3-H(UR);1-2
-play,2,1,speic001,20,,46(1)/FO.2-H(E6)(UR);B-2
-play,2,1,roges001,12,,53
-play,2,1,raint001,31,,S7.2-H(UR);B-2(THH)
-play,2,1,scotr101,00,,43
-play,3,0,thoms001,00,,S7
-play,3,0,blact101,20,,6/P
-play,3,0,reusr001,11,,53.1-2
-play,3,0,dejei001,21,,9
-play,3,1,dawsa001,32,,W
-play,3,1,valee001,00,,POCS2(13)
-play,3,1,valee001,32,,4/L
-play,3,1,cartg001,32,,S6
-play,3,1,parrl002,22,,13
-play,4,0,straj101,32,,W
-play,4,0,buckb001,10,,S8.1-2
-play,4,0,hends001,10,,S8.2-H;1-3(E8);B-2
-play,4,0,durhl001,00,,FC1.3XH(125);2-3;B-2
-play,4,0,reitk101,20,,53.3-H(UR);2-3
-play,4,0,thoms001,00,,3/L
-play,4,1,cromw101,21,,9/L
-play,4,1,speic001,00,,3/G
-play,4,1,roges001,11,,63
-play,5,0,blact101,32,,D7
+play,2,0,reitk101,32,KKBBFFBS,K
+play,2,1,cartg001,00,X,E6/TH1/G6.B-2
+play,2,1,parrl002,12,BCFX,S1/G1.2-3
+play,2,1,cromw101,01,CX,S7/G56.3-H(UR);1-2
+play,2,1,speic001,20,BBX,46(1)/FO.2-H(E6/TH1)(UR);B-2
+play,2,1,roges001,12,SFBX,53/G5
+play,2,1,raint001,31,BFBBX,S7/G5.2-H(UR);B-2(THH)
+play,2,1,scotr101,00,X,43/G4
+play,3,0,thoms001,00,X,S7/G56
+play,3,0,blact101,20,BBX,6/P7S
+play,3,0,reusr001,11,LBX,53/G5S.1-2
+play,3,0,dejei001,21,B*BCX,9/F9S
+play,3,1,dawsa001,32,SBKBFFBFB,W
+play,3,1,valee001,21,B11FB1,POCS2(13)
+play,3,1,valee001,32,B11FB1.BCFX,4/L4
+play,3,1,cartg001,32,CFBBFBFX,S6/G56
+play,3,1,parrl002,22,CBBF>X,13/G1
+play,4,0,straj101,32,CBBBCB,W
+play,4,0,buckb001,10,BX,S8/L8.1-2
+play,4,0,hends001,10,BX,S8/G.2-H;1-3(E8);B-2
+play,4,0,durhl001,11,BCX,FC1/G1S.3XH(125);2-3;B-2
+play,4,0,reitk101,20,BBX,53/G5.3-H(UR);2-3
+play,4,0,thoms001,00,X,3/L3
+play,4,1,cromw101,00,X,3/G
+play,4,1,speic001,21,BFBX,9/L9
+play,4,1,roges001,11,BFX,63/G6
+play,5,0,blact101,32,FBFBBX,D7/L7L
 play,5,0,reusr001,00,,NP
 sub,tysom101,"Mike Tyson",0,9,11
-play,5,0,tysom101,00,,S7.2-H;B-2(THH)
-play,5,0,dejei001,20,,63.2-3
-play,5,0,straj101,12,,S7.3-H
-play,5,0,buckb001,00,,6(1)3/GDP
+com,"$Reuschel removed due to a split finger on his pitching hand due to the cold"
+play,5,0,tysom101,00,.X,S7/L5D.2-H;B-2(THH)
+play,5,0,dejei001,20,BBX,63/G6M.2-3
+play,5,0,straj101,12,BCFX,S7/G56.3-H
+play,5,0,buckb001,10,BX,6(1)3/GDP/G6M
 play,5,1,raint001,00,,NP
 sub,caudb001,"Bill Caudill",0,9,1
-play,5,1,raint001,22,,43
-play,5,1,scotr101,11,,13
-play,5,1,dawsa001,00,,3/P
-play,6,0,hends001,31,,W
-play,6,0,durhl001,00,,8/P
-play,6,0,reitk101,12,,54(1)/FO
-play,6,0,thoms001,12,,6/P
-play,6,1,valee001,12,,K
-play,6,1,cartg001,10,,8
-play,6,1,parrl002,02,,K/C
-play,7,0,blact101,11,,43
-play,7,0,caudb001,01,,S8
-play,7,0,dejei001,22,,E5.1-2
-play,7,0,straj101,22,,K
-play,7,0,buckb001,22,,4/P
-play,7,1,cromw101,32,,K
-play,7,1,speic001,10,,63
+play,5,1,raint001,22,.BFFBX,43/G4
+play,5,1,scotr101,11,BCX,13/G1
+play,5,1,dawsa001,10,BX,3/P34S
+play,6,0,hends001,31,BBCBB,W
+play,6,0,durhl001,00,>X,8/P8S
+play,6,0,reitk101,12,BS1FX,54(1)/FO/G56
+play,6,0,thoms001,12,CF*BFFX,6/P6S
+play,6,1,valee001,12,CFBS,K
+play,6,1,cartg001,10,BX,8/F8XD
+play,6,1,parrl002,02,CCC,K/C
+play,7,0,blact101,20,BBX,43/G4
+play,7,0,caudb001,01,CX,S8/G
+play,7,0,dejei001,22,CBSBX,E5/G5.1-2
+play,7,0,straj101,22,FCBBS,K
+play,7,0,buckb001,22,BCFBX,4/P34D
+play,7,1,cromw101,32,BSBMBFFS,K
+play,7,1,speic001,10,BX,63/G6
 play,7,1,roges001,00,,NP
 sub,montw101,"Willie Montanez",1,9,11
-play,7,1,montw101,22,,K/C
+play,7,1,montw101,22,.CBSBFC,K/C
 play,8,0,hends001,00,,NP
 sub,bahns101,"Stan Bahnsen",1,9,1
-play,8,0,hends001,32,,W
-play,8,0,durhl001,00,,PO1(E3).1-2#
-play,8,0,durhl001,00,,OA.2X3(35)#
-com,"DWS: prev 2 plays 1 play"
-play,8,0,durhl001,11,,9/L
-play,8,0,reitk101,12,,K/C
-play,8,1,raint001,22,,43
-play,8,1,scotr101,31,,W
-play,8,1,dawsa001,00,,NP
+play,8,0,hends001,32,.BCBS*BFFB,W
+play,8,0,durhl001,11,BFX,9/L9LS
+play,8,0,reitk101,00,11,PO1(E3).1-2
+play,8,0,reitk101,00,11,OA.2X3(35)
+com,"Previous two lines are one continuous play;"
+com,"pickoff throw not caught by Cromartie and Henderson tried to take two bases but was caught at third"
+play,8,0,reitk101,22,11.BSBFC,K/C
+play,8,1,raint001,32,BCCBBX,43/G4
+play,8,1,scotr101,31,BBCBB,W
+play,8,1,dawsa001,10,.1111B.,SB2
+com,"WGN announcers were certain that he was out after Caudill threw directly to second"
+play,8,1,dawsa001,20,1111B.B,NP
 sub,tidrd001,"Dick Tidrow",0,9,1
-play,8,1,dawsa001,00,,SB2
-play,8,1,dawsa001,22,,S8.2-H
-play,8,1,valee001,00,,PO1(E1).1-3
-play,8,1,valee001,02,,K
-play,8,1,cartg001,22,,S9.3-H(UR)
-play,8,1,parrl002,00,,SB2
-play,8,1,parrl002,12,,K
-play,9,0,thoms001,11,,43
-play,9,0,blact101,21,,7
+play,8,1,dawsa001,22,1111B.B.CSX,S8.2-H
+play,8,1,valee001,02,C1SS,K
+play,8,1,cartg001,12,111F1BC1,PO1(E1/TH).1-3
+play,8,1,cartg001,22,111F1BC1.*BFX,S9/L9S.3-H(UR)
+play,8,1,parrl002,00,C,SB2
+play,8,1,parrl002,12,C.SBC,K/C
+play,9,0,thoms001,11,FBX,43/G4
+play,9,0,blact101,21,BFBX,7/F78
 play,9,0,tidrd001,00,,NP
 sub,tracj101,"Jim Tracy",0,9,11
-play,9,0,tracj101,32,,K
+play,9,0,tracj101,32,.BCBCBS,K
 data,er,reusr001,0
 data,er,caudb001,1
 data,er,tidrd001,0
@@ -5896,7 +5899,7 @@ play,3,0,cruzj001,??,,S8
 play,3,0,cedec001,??,,SB2
 play,3,0,cedec001,??,,S9.2-H
 play,3,0,howea001,??,,SB2
-play,3,0,howea001,??,,FC5.2X3(5/G);B-1
+play,3,0,howea001,??,,FC5/G.2X3(5);B-1
 play,3,1,speic001,??,,63
 play,3,1,gullb001,??,,K/C
 play,3,1,raint001,??,,K/C

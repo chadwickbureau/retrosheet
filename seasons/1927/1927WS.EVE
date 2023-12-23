@@ -6,25 +6,26 @@ info,hometeam,PIT
 info,date,1927/10/05
 info,site,PIT06
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:38PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,quige901
 info,ump1b,nalld901
 info,ump2b,morac102
 info,ump3b,ormsr901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,137"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/05/29 2:25PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,sunny
 info,timeofgame,124
 info,attendance,41467
 info,wp,hoytw101
@@ -49,90 +50,101 @@ start,grang102,"George Grantham",1,6,4
 start,harrj103,"Joe Harris",1,7,3
 start,smite106,"Earl Smith",1,8,2
 start,kremr101,"Ray Kremer",1,9,1
-play,1,0,combe101,??,,7/F7D
-play,1,0,koenm101,??,,K
-play,1,0,ruthb101,??,,S9/L
-play,1,0,gehrl101,??,,T9/F9S.1-H
-play,1,0,meusb101,??,,9/F89
-play,1,1,wanel101,??,,HP
-play,1,1,barnc102,??,,9
-play,1,1,wanep101,??,,D9/9L.1-3
-play,1,1,wrigg102,??,,8/SF.3-H;2-3
-play,1,1,trayp101,??,,9
-play,2,0,lazzt101,??,,5/FL
-play,2,0,dugaj101,??,,4/P
-play,2,0,collp101,??,,W
-play,2,0,hoytw101,??,,43
-play,2,1,grang102,??,,W
-play,2,1,harrj103,??,,4(1)3/GDP
-play,2,1,smite106,??,,43
-play,3,0,combe101,??,,43
-play,3,0,koenm101,??,,E4/G.B-1
-play,3,0,ruthb101,00,,S9.1-3
-play,3,0,gehrl101,??,,W.1-2
-play,3,0,meusb101,??,,W.3-H(UR);2-3;1-2
-play,3,0,lazzt101,??,,64(1)/FO.3-H(UR);2-3
-play,3,0,dugaj101,??,,OA.3XH(25E2)(UR);1-3
-com,"$Lazzeri broke for second and Gehrig edged off third, but catcher"
-com,"faked a throw to second and then got Gehrig off 3rd"
-play,3,0,dugaj101,??,,7
-play,3,1,kremr101,??,,DGR/9DW
-play,3,1,wanel101,??,,7
-play,3,1,barnc102,??,,E7.B-1
-play,3,1,wanep101,??,,S8/L.2-H;1-2
-play,3,1,wrigg102,??,,46(1)/FO.2-3
-play,3,1,trayp101,??,,64(1)/FO
-play,4,0,collp101,??,,8
-play,4,0,hoytw101,??,,9/F9S
-play,4,0,combe101,??,,7/L78D
-play,4,1,grang102,??,,3/G
-play,4,1,harrj103,??,,63
-play,4,1,smite106,??,,2/P2
-play,5,0,koenm101,??,,D9
-play,5,0,ruthb101,??,,4/G.2-3
-play,5,0,gehrl101,??,,9/SF.3-H
-play,5,0,meusb101,??,,6/P
-play,5,1,kremr101,??,,K/C
-play,5,1,wanel101,??,,D7/7L
-play,5,1,barnc102,??,,S7.2-H
-play,5,1,wanep101,??,,S14.1-2
-play,5,1,wrigg102,??,,8/SF.2-3
-play,5,1,trayp101,??,,8/P78S
-play,6,0,lazzt101,??,,D7/L7D
-play,6,0,dugaj101,??,,NP
+com,"$Temperature: hot"
+play,1,0,combe101,00,X,7/F7D
+play,1,0,koenm101,12,BFCS,K
+play,1,0,ruthb101,00,X,S9/L9L
+play,1,0,gehrl101,32,11SBB+1FBX,T9/F9S.1-H
+com,"$P.Waner missed shoestring catch and it rolled to the wall"
+play,1,0,meusb101,12,FBSX,9/F89
+play,1,1,wanel101,22,BBCCH,HP
+com,"$Hit his shirt"
+play,1,1,barnc102,01,SX,9/F
+play,1,1,wanep101,00,X,D9/9L.1-3
+play,1,1,wrigg102,00,X,8/F8D/SF.3-H;2-3
+play,1,1,trayp101,12,CSFBX,9/F9L
+com,"$Ruth: running catch"
+play,2,0,lazzt101,22,BBSSX,5/P25F/FL
+play,2,0,dugaj101,21,BBFX,4/P
+play,2,0,collp101,31,CBBBB,W
+play,2,0,hoytw101,32,CBCBFBX,43/G4
+play,2,1,grang102,32,CFBBBB,W
+play,2,1,harrj103,11,CB>X,4(1)3/GDP
+com,"$Lazzeri tagged Grantham; Gehrig scooped low throw"
+play,2,1,smite106,00,X,43
+play,3,0,combe101,11,BCX,43/G4M
+play,3,0,koenm101,00,X,E4/G34.B-1
+play,3,0,ruthb101,00,X,S9/G3L.1-3
+play,3,0,gehrl101,31,BBCBB,W.1-2
+play,3,0,meusb101,31,SBBBB,W.3-H(UR);2-3;1-2
+play,3,0,lazzt101,22,SBFFBX,64(1)/FO/R3.3-H(UR);2-3
+play,3,0,dugaj101,21,BF>B+3,OA.3XH(25E2)(UR);1-3
+com,"$Attempted double steal; Smith faked a throw to 2B, trapped"
+com,"Gehrig off 3B, but muffed return throw from Traynor."
+play,3,0,dugaj101,22,BF>B+3.FX,7/L
+play,3,1,kremr101,22,CCBBX,DGR/F9D
+play,3,1,wanel101,10,BX,7/F7
+play,3,1,barnc102,00,X,E7/F7.2-2;B-1
+play,3,1,wanep101,02,CCX,S8/L.2-H;1-2
+play,3,1,wrigg102,20,BBX,46(1)/FO/R3.2-3
+play,3,1,trayp101,10,BX,64(1)/FO
+play,4,0,collp101,11,BCX,8/F8D
+play,4,0,hoytw101,01,FX,9/F9S
+play,4,0,combe101,31,BBBCX,7/L78D
+com,"$Barnhart: running catch"
+play,4,1,grang102,00,X,3/G
+play,4,1,harrj103,10,BX,63
+com,"$Gehrig caught wide throw"
+play,4,1,smite106,00,X,2/P1S
+play,5,0,koenm101,11,FBX,D9/L89/TH2
+play,5,0,ruthb101,10,BX,4/G34.2-3
+com,"$With 1B uncovered, Grantham slid into the bag ahead of Ruth"
+play,5,0,gehrl101,00,X,9/F/SF.3-H
+play,5,0,meusb101,32,CBSBBX,6/P56D
+play,5,1,kremr101,22,CBCBC,K/C
+play,5,1,wanel101,00,X,D7/G5L
+play,5,1,barnc102,01,CX,S7/G56.2-H
+play,5,1,wanep101,00,X,S14/G.1-2
+play,5,1,wrigg102,11,CBX,8/F/SF.2-3
+play,5,1,trayp101,02,FFX,8/F78S
+play,6,0,lazzt101,12,LBSX,D7/L7DW
+play,6,0,dugaj101,00,,NP
 sub,miljj101,"Johnny Miljus",1,9,1
-play,6,0,dugaj101,??,,24/SH.2-3
-play,6,0,collp101,??,,W
-play,6,0,hoytw101,??,,64(1)3/GDP
-play,6,1,grang102,??,,3/G
-play,6,1,harrj103,??,,9
-play,6,1,smite106,??,,9/F9S
-play,7,0,combe101,??,,K
-play,7,0,koenm101,??,,31
-play,7,0,ruthb101,??,,S8
-play,7,0,gehrl101,??,,PO1(1363)
-play,7,1,miljj101,??,,K
-play,7,1,wanel101,??,,43
-play,7,1,barnc102,??,,9/F9D
-play,8,0,gehrl101,??,,13
-play,8,0,meusb101,??,,K/C
-play,8,0,lazzt101,??,,53
-play,8,1,wanep101,??,,7
-play,8,1,wrigg102,??,,S9
-play,8,1,trayp101,??,,S8/L.1-2
-play,8,1,grang102,??,,NP
+play,6,0,dugaj101,00,X,24/BG2R/SH.2-3
+play,6,0,collp101,31,BBCBB,W
+play,6,0,hoytw101,12,SFBX,64(1)3/GDP
+play,6,1,grang102,32,BBBCSX,3/G3L
+play,6,1,harrj103,00,X,9/F9D
+play,6,1,smite106,01,CX,9/F9S
+play,7,0,combe101,12,BCFS,K
+play,7,0,koenm101,12,FCFFFBX,31/G3L
+play,7,0,ruthb101,10,BX,S8/G46
+play,7,0,gehrl101,01,1C1,PO1(1363)
+play,7,1,miljj101,22,BBCSS,K
+play,7,1,wanel101,01,LX,43
+play,7,1,barnc102,21,CBBX,9/F9D
+play,8,0,gehrl101,00,X,13
+play,8,0,meusb101,12,BFSFC,K/C
+play,8,0,lazzt101,32,BCSBBX,53
+com,"$Harris grabbed errant throw and tagged Lazzeri"
+play,8,1,wanep101,11,BCX,7/F7
+play,8,1,wrigg102,21,BFBX,S9/L89S
+play,8,1,trayp101,12,CFBX,S8/L8S.1-2
+play,8,1,grang102,00,,NP
 sub,moorw101,"Wilcy Moore",0,9,1
-play,8,1,grang102,??,,36(1)/FO.2-3
-play,8,1,harrj103,??,,S8.3-H;1-3
-play,8,1,smite106,??,,3/G
-play,9,0,dugaj101,??,,63
-play,9,0,collp101,??,,163
-play,9,0,moorw101,??,,K/C
-play,9,1,miljj101,??,,NP
+play,8,1,grang102,10,BX,36(1)/FO.2-3
+com,"$Traynor took out Koenig who required first aid"
+play,8,1,harrj103,01,CX,S8/L/TH3.3-H;1-3
+play,8,1,smite106,12,BFCX,3/G
+play,9,0,dugaj101,00,X,63/G6S
+play,9,0,collp101,00,X,163
+com,"$Deflected by Miljus"
+play,9,0,moorw101,22,BCSBC,K/C
+play,9,1,miljj101,00,,NP
 sub,bricf101,"Fred Brickell",1,9,11
-play,9,1,bricf101,??,,13/G1
-play,9,1,wanel101,??,,8/L
-play,9,1,barnc102,??,,143
+play,9,1,bricf101,11,BCX,13/G1
+play,9,1,wanel101,22,FFBBX,8/L
+play,9,1,barnc102,21,BBCX,143
 data,er,hoytw101,4
 data,er,moorw101,0
 data,er,kremr101,2
@@ -145,25 +157,26 @@ info,hometeam,PIT
 info,date,1927/10/06
 info,site,PIT06
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:35PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,nalld901
 info,ump1b,morac102
 info,ump2b,ormsr901
 info,ump3b,quige901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,137"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/05/29 2:43PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,sunny
 info,timeofgame,140
 info,attendance,41634
 info,wp,pipgg101
@@ -188,91 +201,99 @@ start,grang102,"George Grantham",1,6,4
 start,harrj103,"Joe Harris",1,7,3
 start,goocj101,"Johnny Gooch",1,8,2
 start,aldrv101,"Vic Aldridge",1,9,1
-play,1,0,combe101,??,,7/F7D
-play,1,0,koenm101,??,,S8/G46
-play,1,0,ruthb101,??,,K
-play,1,0,gehrl101,??,,W.1-2
-play,1,0,meusb101,??,,13/G1
-play,1,1,wanel101,??,,T7/7L
-play,1,1,barnc102,??,,9/SF/F9DW.3-H
-play,1,1,wanep101,??,,K/C
-play,1,1,wrigg102,??,,9
-play,2,0,lazzt101,??,,S7
-play,2,0,dugaj101,??,,2/FL
-play,2,0,bengb101,??,,2/FL
-play,2,0,pipgg101,??,,4/L
-play,2,1,trayp101,??,,13/G1
-play,2,1,grang102,??,,S8/8S
-play,2,1,harrj103,??,,3/G.1-2
-play,2,1,goocj101,??,,2/FL
-play,3,0,combe101,??,,S9/G34
-play,3,0,koenm101,??,,S8.1-H(E8);B-3
-play,3,0,ruthb101,??,,8/SF.3-H
-play,3,0,gehrl101,??,,D9/9L
-play,3,0,meusb101,??,,S6.2-3
-play,3,0,lazzt101,??,,9/SF.3-H;1-2
-play,3,0,dugaj101,??,,9/F9S
-play,3,1,aldrv101,??,,4/L
-play,3,1,wanel101,??,,43
-play,3,1,barnc102,??,,S8
-play,3,1,wanep101,??,,7
-play,4,0,bengb101,??,,8
-play,4,0,pipgg101,??,,K
-play,4,0,combe101,??,,K
-play,4,1,wrigg102,??,,8
-play,4,1,trayp101,??,,D8
-play,4,1,grang102,??,,5/FL
-play,4,1,harrj103,??,,9
-play,5,0,koenm101,??,,9
-play,5,0,ruthb101,30,,W
-play,5,0,gehrl101,??,,8/SF/F8D.1-2
-play,5,0,meusb101,??,,K
-play,5,1,goocj101,??,,13/G1
-play,5,1,aldrv101,??,,2/FL
-play,5,1,wanel101,??,,8
-play,6,0,lazzt101,??,,9/F9D
-play,6,0,dugaj101,??,,S7
-play,6,0,bengb101,??,,8
-play,6,0,pipgg101,??,,S9/F9S.1-2
-play,6,0,combe101,??,,8/F8D
-play,6,1,barnc102,??,,8
-play,6,1,wanep101,??,,S7
-play,6,1,wrigg102,??,,8
-play,6,1,trayp101,??,,6(1)/FO
-play,7,0,koenm101,??,,9/F89
-play,7,0,ruthb101,??,,3/G
-play,7,0,gehrl101,??,,13
-play,7,1,grang102,??,,D9/9DW
-play,7,1,harrj103,??,,63
-play,7,1,goocj101,??,,4(B)6(2)/LDP/L34D
-play,8,0,meusb101,??,,S8
-play,8,0,lazzt101,??,,S9/F9S.1-3
-play,8,0,dugaj101,??,,WP.3-H;1-2
-play,8,0,dugaj101,??,,FC2/BG.2X3(25);B-1
-play,8,0,bengb101,??,,W.1-2
-play,8,0,pipgg101,??,,W.2-3;1-2
-play,8,0,combe101,??,,NP
+play,1,0,combe101,11,BCX,7/F7D
+play,1,0,koenm101,10,BX,S8/G4M
+play,1,0,ruthb101,12,CBFS,K
+play,1,0,gehrl101,31,FBBBB,W.1-2
+play,1,0,meusb101,22,BBCSX,13/G1
+play,1,1,wanel101,12,BCFX,T7/G5L/TH3
+play,1,1,barnc102,02,FCFX,9/F9DW/SF.3-H
+play,1,1,wanep101,32,FFBBFFBFFC,K/C
+play,1,1,wrigg102,11,FBX,9/F9
+play,2,0,lazzt101,32,BCCBBX,S16/G
+play,2,0,dugaj101,22,>FBB>FX,2/P23F/FL
+play,2,0,bengb101,10,BX,2/FL
+play,2,0,pipgg101,32,BBFCBFX,4/L4
+play,2,1,trayp101,00,X,13/G1
+play,2,1,grang102,01,CX,S8/F8S
+play,2,1,harrj103,11,1BS1>X,3/G3L.1-2
+play,2,1,goocj101,21,CBBX,2/P25F/FL
+play,3,0,combe101,32,FBFBBX,S9/G34
+play,3,0,koenm101,01,CX,S8/G46.1-H(E8);B-3
+com,"$Through L.Waner"
+play,3,0,ruthb101,20,BBX,8/F8D/SF.3-H
+play,3,0,gehrl101,00,X,D9/L89D
+play,3,0,meusb101,00,X,S6/G56.2-3
+play,3,0,lazzt101,11,BCX,9/F9S/SF/THH.3-H;1-2
+play,3,0,dugaj101,11,CBX,9/F9S
+play,3,1,aldrv101,21,BSBX,4/L
+play,3,1,wanel101,12,LFBFX,43/G4
+play,3,1,barnc102,21,BBFX,S8/G46
+play,3,1,wanep101,10,BX,7/F
+play,4,0,bengb101,10,BX,8/F8
+play,4,0,pipgg101,32,FBBFBS,K
+play,4,0,combe101,12,BSSS,K
+play,4,1,wrigg102,10,BX,8/F8S
+play,4,1,trayp101,32,BFBBCX,D8/F78
+play,4,1,grang102,00,X,5/P5DF/FL
+com,"$Dugan reached into a field box"
+play,4,1,harrj103,00,X,9/F9
+play,5,0,koenm101,11,BCX,9/F9
+play,5,0,ruthb101,30,BBBB,W
+play,5,0,gehrl101,21,SBBX,8/F8XD/SF.1-2
+com,"$To the flagpole"
+play,5,0,meusb101,22,FFBBS,K
+play,5,1,goocj101,22,BCFBX,13/G1
+play,5,1,aldrv101,00,X,2/P23F/FL
+play,5,1,wanel101,00,X,8/F8
+play,6,0,lazzt101,21,BBCX,9/F89XD
+play,6,0,dugaj101,00,X,S7/G5L
+play,6,0,bengb101,02,CFX,8/F8
+play,6,0,pipgg101,22,FBBSX,S9/F9S.1-2
+play,6,0,combe101,22,BCBFFX,8/F8XDW
+com,"$L.Waner: running over-the-shoulder catch near the flagpole"
+play,6,1,barnc102,10,BX,8/F8XD
+play,6,1,wanep101,01,CX,S57/G56
+play,6,1,wrigg102,11,FB1X,8/F8D
+play,6,1,trayp101,22,FBBF>X,6(1)/FO/G6M
+play,7,0,koenm101,22,BCFBX,9/F89D
+play,7,0,ruthb101,20,BBX,3/G3L
+play,7,0,gehrl101,20,BBX,13
+play,7,1,grang102,10,BX,D9/F9DW
+play,7,1,harrj103,10,BX,63
+play,7,1,goocj101,22,FBFBX,4/LDP/L34D.2X2(46)
+play,8,0,meusb101,20,BBX,S48/G4M
+play,8,0,lazzt101,01,L>X,S9/F9S.1-3
+play,8,0,dugaj101,00,B,WP.3-H;1-2
+play,8,0,dugaj101,10,B.X,FC2/BG.2X3(25);B-1
+play,8,0,bengb101,31,BPCBB,W.1-2
+play,8,0,pipgg101,31,BBBCB,W.2-3;1-2
+play,8,0,combe101,00,,NP
 sub,cvenm101,"Mike Cvengros",1,9,1
-play,8,0,combe101,??,,HP.3-H;2-3;1-2
-play,8,0,koenm101,??,,S9.3-H;2-3;1-2
-play,8,0,ruthb101,??,,42(3)/FO.2-3;1-2
-play,8,0,gehrl101,??,,5(2)/FO
-play,8,1,cvenm101,??,,NP
+play,8,0,combe101,01,FH,HP.3-H;2-3;1-2
+com,"$Hit in the side"
+play,8,0,koenm101,00,X,S9/L.3-H;2-3;1-2
+play,8,0,ruthb101,10,BX,42(3)/FO.2-3;1-2
+play,8,0,gehrl101,00,X,5(2)/FO
+play,8,1,cvenm101,00,,NP
 sub,smite106,"Earl Smith",1,9,11
-play,8,1,smite106,??,,3/G
-play,8,1,wanel101,??,,W
-play,8,1,barnc102,??,,S8.1-3
-play,8,1,wanep101,??,,7/SF.3-H
-play,8,1,wrigg102,??,,6(1)/FO
-play,9,0,meusb101,??,,NP
+play,8,1,smite106,12,BCFX,3/G
+play,8,1,wanel101,31,BCBBB,W
+play,8,1,barnc102,32,CBFB+1BFFFX,S8/8S.1-3
+play,8,1,wanep101,00,X,7/SF.3-H
+play,8,1,wrigg102,10,BX,6(1)/FO
+play,9,0,meusb101,00,,NP
 sub,dawsj101,"Joe Dawson",1,9,1
-play,9,0,meusb101,??,,E6/G.B-1
-play,9,0,lazzt101,??,,8
-play,9,0,dugaj101,??,,8
-play,9,0,bengb101,??,,SB2.1X3(45)
-play,9,1,trayp101,??,,8
-play,9,1,grang102,??,,K
-play,9,1,harrj103,??,,13
+play,9,0,meusb101,21,BCBX,E6/G.B-1
+play,9,0,lazzt101,22,L1LBBX,8/F8D
+play,9,0,dugaj101,00,X,8/F8
+play,9,0,bengb101,00,1>C,SB2.1X3(45)
+com,"$When throw by Gooch to 2B eluded Wright, Meusel tried"
+com,"for 3B."
+play,9,1,trayp101,01,CX,8/F8D
+play,9,1,grang102,22,BCSFFBFS,K
+play,9,1,harrj103,11,BFX,1/G
+com,"$Pipgras ran over and stepped on 1B"
 data,er,pipgg101,2
 data,er,aldrv101,6
 data,er,cvenm101,0
@@ -285,25 +306,26 @@ info,hometeam,NYA
 info,date,1927/10/07
 info,site,NYC16
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:37PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,morac102
 info,ump1b,ormsr901
 info,ump2b,quige901
 info,ump3b,nalld901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,137"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/05/29 2:55PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,124
 info,attendance,60695
 info,wp,pennh101
@@ -328,85 +350,91 @@ start,lazzt101,"Tony Lazzeri",1,6,4
 start,dugaj101,"Joe Dugan",1,7,5
 start,grabj101,"Johnny Grabowski",1,8,2
 start,pennh101,"Herb Pennock",1,9,1
-play,1,0,wanel101,??,,63
-play,1,0,rhynh101,??,,7
-play,1,0,wanep101,??,,7/F7S
-play,1,1,combe101,??,,S8
-play,1,1,koenm101,??,,S4.1-2
-play,1,1,ruthb101,??,,6/P6MD
-play,1,1,gehrl101,??,,T8/78XD.2-H;1-H;BXH(862)
-play,1,1,meusb101,??,,K
-play,2,0,wrigg102,??,,8/F8S
-play,2,0,trayp101,??,,43
-play,2,0,barnc102,??,,43
-play,2,1,lazzt101,??,,K/C
-play,2,1,dugaj101,??,,63
-play,2,1,grabj101,??,,53/G15
-play,3,0,harrj103,??,,8
-play,3,0,goocj101,??,,K/C
-play,3,0,meadl101,??,,43
-play,3,1,pennh101,??,,43
-play,3,1,combe101,??,,8
-play,3,1,koenm101,??,,6/P8S
-play,4,0,wanel101,??,,43
-play,4,0,rhynh101,??,,6/P56D
-play,4,0,wanep101,??,,5/L
-play,4,1,ruthb101,??,,K
-play,4,1,gehrl101,??,,W
-play,4,1,meusb101,??,,E5/TH1.1-3;B-2
-play,4,1,lazzt101,??,,K
-play,4,1,dugaj101,??,,53
-play,5,0,wrigg102,??,,2/P2
-play,5,0,trayp101,??,,2/FL
-play,5,0,barnc102,??,,8/F78D
-play,5,1,grabj101,??,,6/P
-play,5,1,pennh101,??,,K/C
-play,5,1,combe101,??,,13/G1
-play,6,0,harrj103,??,,13
-play,6,0,goocj101,??,,9
-play,6,0,meadl101,??,,8/F8S
-play,6,1,koenm101,??,,43
-play,6,1,ruthb101,??,,43
-play,6,1,gehrl101,??,,D9/89D
-play,6,1,meusb101,??,,K
-play,7,0,wanel101,??,,43
-play,7,0,rhynh101,??,,53/BG
-play,7,0,wanep101,??,,43
-play,7,1,lazzt101,??,,S8/8S
-play,7,1,dugaj101,??,,FC1/SH.1-2;B-1
-play,7,1,grabj101,??,,NP
+com,"$Weather: warm and balmy"
+play,1,0,wanel101,11,BCX,63/G6
+play,1,0,rhynh101,21,BCBX,7/F7D
+play,1,0,wanep101,00,X,7/F7S
+play,1,1,combe101,12,CFBFX,S8/G6M
+play,1,1,koenm101,12,>FFFBX,S4/G4MS.1-2
+play,1,1,ruthb101,11,CBX,6/P6MD
+play,1,1,gehrl101,00,X,T7/F78XD.2-H;1-H;BXH(7862)
+play,1,1,meusb101,12,CFBS,K
+play,2,0,wrigg102,01,FX,8/F8S
+play,2,0,trayp101,12,BCCFX,43/G34
+play,2,0,barnc102,01,CX,43
+play,2,1,lazzt101,12,SSBC,K/C
+play,2,1,dugaj101,21,BSBX,63
+com,"$Harris scooped low throw"
+play,2,1,grabj101,11,BCX,53/G56S
+play,3,0,harrj103,01,CX,8/F8XD
+play,3,0,goocj101,22,BCBCC,K/C
+play,3,0,meadl101,02,CFX,43/G4
+play,3,1,pennh101,22,SBCFBFFX,43/G4
+play,3,1,combe101,00,X,8/F8XD
+play,3,1,koenm101,22,CBBFFX,6/P78S
+com,"$Wright: over-the-shoulder catch"
+play,4,0,wanel101,32,BBBCCX,43/G4S
+play,4,0,rhynh101,00,X,6/P56D
+play,4,0,wanep101,01,FX,5/L5L
+com,"$Dugan: diving catch"
+play,4,1,ruthb101,12,CCBS,K
+play,4,1,gehrl101,32,CBFBBB,W
+play,4,1,meusb101,10,B>X,E5/TH1/G5S.1-3;B-2
+play,4,1,lazzt101,32,BFBBFS,K
+play,4,1,dugaj101,10,BX,53/G5S
+play,5,0,wrigg102,21,BCBX,2/P2
+play,5,0,trayp101,11,CBX,2/P2F/FL
+play,5,0,barnc102,11,FBX,8/F78XD
+play,5,1,grabj101,12,FBFX,6/P6
+play,5,1,pennh101,12,BFCC,K/C
+play,5,1,combe101,00,X,13/BG1S
+play,6,0,harrj103,02,CCX,13
+play,6,0,goocj101,00,X,9/F9
+play,6,0,meadl101,00,X,8/F89S
+play,6,1,koenm101,10,BX,43/G4S
+play,6,1,ruthb101,22,CBFFBX,43/G4S
+play,6,1,gehrl101,31,SBBBX,D9/F89/R46
+play,6,1,meusb101,12,BFFS,K
+play,7,0,wanel101,11,BCX,43/G4
+play,7,0,rhynh101,00,X,53/BG25
+com,"$Dugan: charging, off-balance throw"
+play,7,0,wanep101,00,X,43
+play,7,1,lazzt101,32,FBFBBFX,S8/F8S
+play,7,1,dugaj101,00,X,FC1/SH/TH2.1-2;B-1
+play,7,1,grabj101,00,,NP
 sub,dursc101,"Cedric Durst",1,8,11
-play,7,1,dursc101,??,,43.2-3;1-2
-play,7,1,pennh101,??,,FC4.3-H;2-3;B-1
-play,7,1,combe101,??,,S9/89.3-H;1-3
-play,7,1,koenm101,??,,D9/9DW.3-H;1-3
-play,7,1,ruthb101,??,,NP
+play,7,1,dursc101,20,BBX,43.2-3;1-2
+play,7,1,pennh101,12,BLC+3X,FC4/G4S/THH.3-H;2-3;B-1
+play,7,1,combe101,32,BBCCFBX,S9/4D.3-H;1-3
+play,7,1,koenm101,01,FX,D9/9DW.3-H;1-3
+play,7,1,ruthb101,00,,NP
 sub,cvenm101,"Mike Cvengros",0,9,1
-play,7,1,ruthb101,??,,HR/9D.3-H;2-H
-play,7,1,gehrl101,??,,K
-play,7,1,meusb101,??,,K
-play,8,0,wrigg102,??,,NP
+play,7,1,ruthb101,22,BBFSX,HR/L9D.3-H;2-H
+com,"$Terrific drive landed halfway up into RF bleachers"
+play,7,1,gehrl101,22,FBFBS,K
+play,7,1,meusb101,32,CBBBFFS,K
+play,8,0,wrigg102,00,,NP
 sub,bengb101,"Benny Bengough",1,8,2
-play,8,0,wrigg102,??,,63
-play,8,0,trayp101,??,,S7
-play,8,0,barnc102,??,,D9/89.1-H
-play,8,0,harrj103,??,,53
-play,8,0,goocj101,??,,NP
+play,8,0,wrigg102,31,BFBBX,63/G56D
+play,8,0,trayp101,01,SX,S7/G56
+play,8,0,barnc102,11,CBX,D9/L89.1-H
+play,8,0,harrj103,02,CFX,53/G56S
+play,8,0,goocj101,00,,NP
 sub,spenr101,"Roy Spencer",0,8,11
-play,8,0,spenr101,??,,43
-play,8,1,lazzt101,??,,NP
+play,8,0,spenr101,32,CBFBBX,43/G4M
+play,8,1,lazzt101,00,,NP
 sub,spenr101,"Roy Spencer",0,8,2
-play,8,1,lazzt101,??,,43
-play,8,1,dugaj101,??,,S8
-play,8,1,bengb101,??,,43.1-2
-play,8,1,pennh101,??,,53
-play,9,0,cvenm101,??,,NP
+play,8,1,lazzt101,32,BCBCFBX,43
+play,8,1,dugaj101,12,CCBX,S8/G46
+play,8,1,bengb101,10,BX,43.1-2
+play,8,1,pennh101,12,BSCFX,53/G5S
+play,9,0,cvenm101,00,,NP
 sub,grohh101,"Heinie Groh",0,9,11
-play,9,0,grohh101,??,,1/P
-play,9,0,wanel101,??,,S7
-play,9,0,rhynh101,??,,8
-play,9,0,wanep101,??,,DI.1-2
-play,9,0,wanep101,??,,4/P
+play,9,0,grohh101,32,BBBCCX,1/P
+play,9,0,wanel101,12,FBFX,S7/F7LS
+play,9,0,rhynh101,21,BFBX,8/F8D
+play,9,0,wanep101,00,>C,DI.1-2
+play,9,0,wanep101,01,>C.X,4/P
 data,er,meadl101,7
 data,er,cvenm101,1
 data,er,pennh101,1
@@ -421,22 +449,23 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,ormsr901
 info,ump1b,quige901
 info,ump2b,nalld901
 info,ump3b,morac102
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,240"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/05/29 3:06PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,soaked
+info,precip,drizzle
+info,sky,overcast
 info,timeofgame,135
 info,attendance,57909
 info,wp,moorw101
@@ -461,97 +490,103 @@ start,lazzt101,"Tony Lazzeri",1,6,4
 start,dugaj101,"Joe Dugan",1,7,5
 start,collp101,"Pat Collins",1,8,2
 start,moorw101,"Wilcy Moore",1,9,1
-play,1,0,wanel101,??,,S6
-play,1,0,barnc102,??,,63.1-2
-play,1,0,wanep101,??,,53
-play,1,0,wrigg102,??,,S9.2-H;B-2(THH)
-play,1,0,trayp101,??,,FC5.2X3(5)
-play,1,1,combe101,??,,S9
-play,1,1,koenm101,??,,S9/F9S.1-2
-play,1,1,ruthb101,??,,S9.2-H;1-3
-play,1,1,gehrl101,??,,K
-play,1,1,meusb101,??,,SB2
-play,1,1,meusb101,??,,K/C
-play,1,1,lazzt101,??,,K
-play,2,0,grang102,??,,53/BG
-play,2,0,harrj103,??,,S7/G56
-play,2,0,smite106,??,,9/L
-play,2,0,hillc102,??,,W.1-2
-play,2,0,wanel101,??,,S16/G23.2-3;1-2
-play,2,0,barnc102,??,,4(1)/FO
-play,2,1,dugaj101,??,,63
-play,2,1,collp101,??,,D7/7L
-play,2,1,moorw101,??,,63
-play,2,1,combe101,??,,63
-play,3,0,wanep101,??,,S7
-play,3,0,wrigg102,??,,4(1)3/GDP
-play,3,0,trayp101,??,,7/F7D
-play,3,1,koenm101,??,,43
-play,3,1,ruthb101,??,,3/G
-play,3,1,gehrl101,??,,43
-play,4,0,grang102,??,,3/G
-play,4,0,harrj103,??,,S9/F9S
-play,4,0,smite106,??,,64(1)/FO
-play,4,0,hillc102,??,,23
-play,4,1,meusb101,??,,53
-play,4,1,lazzt101,??,,53
-play,4,1,dugaj101,??,,S7
-play,4,1,collp101,??,,S8/78.1-3(E8)
-play,4,1,moorw101,??,,K
-play,5,0,wanel101,??,,S8
-play,5,0,barnc102,??,,54(1)3/GDP
-play,5,0,wanep101,??,,63
-play,5,1,combe101,??,,S8/8S
-play,5,1,koenm101,??,,K
-play,5,1,ruthb101,??,,HR/89D.1-H
-play,5,1,gehrl101,??,,63
-play,5,1,meusb101,??,,63
-play,6,0,wrigg102,??,,13
-play,6,0,trayp101,??,,K
-play,6,0,grang102,??,,S3
-play,6,0,harrj103,??,,8/L
-play,6,1,lazzt101,??,,K
-play,6,1,dugaj101,??,,5/FL
-play,6,1,collp101,??,,W
-play,6,1,moorw101,??,,S9.1-3
-play,6,1,combe101,??,,7/F7D
-play,7,0,smite106,??,,3E1.B-1
-play,7,0,hillc102,??,,NP
+play,1,0,wanel101,00,X,S6/G56
+play,1,0,barnc102,01,CX,63/G6S.1-2
+play,1,0,wanep101,10,BX,53
+play,1,0,wrigg102,00,X,S9.2-H;B-2(THH)
+play,1,0,trayp101,00,X,FC5.2X3(5)
+play,1,1,combe101,11,CBX,S49/G34
+play,1,1,koenm101,01,SX,S9/F9S.1-2
+play,1,1,ruthb101,11,BFX,S9/L.2-H;1-3
+play,1,1,gehrl101,22,BFSBS,K
+play,1,1,meusb101,01,C>S,SB2
+play,1,1,meusb101,02,C>S.C,K/C
+play,1,1,lazzt101,12,BSSS,K
+play,2,0,grang102,00,X,53/BG
+play,2,0,harrj103,20,BBX,S6/G56
+play,2,0,smite106,10,BX,9/L9D
+play,2,0,hillc102,31,BBBCB,W.1-2
+play,2,0,wanel101,12,BSSFX,S1/G23/R3.2-3;1-2
+com,"$Moore slipped and fell"
+play,2,0,barnc102,21,BBFX,4(1)/FO/G4M
+play,2,1,dugaj101,00,X,63/G56D
+play,2,1,collp101,32,BCBSBX,D7/G5L
+play,2,1,moorw101,01,CX,63
+play,2,1,combe101,00,X,63
+play,3,0,wanep101,11,CBX,S7/G5L
+play,3,0,wrigg102,00,X,4(1)3/GDP
+com,"$Lazzeri tagged P.Waner"
+play,3,0,trayp101,32,BCBFBFFX,7/F7D
+play,3,1,koenm101,00,X,43/G34
+play,3,1,ruthb101,31,BCBBX,3/G3L
+play,3,1,gehrl101,21,BBCX,43
+play,4,0,grang102,10,BX,3/G
+play,4,0,harrj103,11,BSX,S9/F9S
+play,4,0,smite106,01,CX,64(1)/FO/R3
+play,4,0,hillc102,12,BCSX,23/G2
+com,"$The rain let up and it cleared perceptibly"
+play,4,1,meusb101,01,SX,53
+play,4,1,lazzt101,12,BCSX,53/G5S
+play,4,1,dugaj101,01,FX,S7/F7LS
+play,4,1,collp101,02,CSX,S8/F78S.1-3(E8)
+com,"$L.Waner fumbled"
+play,4,1,moorw101,12,CSBS,K
+play,5,0,wanel101,12,BCSX,S8/G6M
+play,5,0,barnc102,00,X,54(1)3/GDP/G5L
+play,5,0,wanep101,00,X,63
+play,5,1,combe101,11,CBX,S8/L8S
+play,5,1,koenm101,12,BSFS,K
+play,5,1,ruthb101,11,BFX,HR/F89XD.1-H
+com,"$Into RCF bleachers"
+play,5,1,gehrl101,20,BBX,63
+play,5,1,meusb101,01,CX,63
+play,6,0,wrigg102,22,FBBFFX,13/G1S
+play,6,0,trayp101,12,BFFS,K
+play,6,0,grang102,11,BSX,S3/G3L
+com,"$Gehrig: backhand stab"
+play,6,0,harrj103,20,BBX,8/L8S
+play,6,1,lazzt101,22,BFBSFS,K
+play,6,1,dugaj101,02,CFFX,5/P5F/FL
+play,6,1,collp101,32,BCBBFB,W
+play,6,1,moorw101,00,X,S9/89.1-3
+play,6,1,combe101,20,BBX,7/F7D
+play,7,0,smite106,11,BFX,3E1.B-1
+play,7,0,hillc102,00,,NP
 sub,yde-e101,"Emil Yde",0,8,12
-play,7,0,hillc102,??,,NP
+play,7,0,hillc102,00,,NP
 sub,bricf101,"Fred Brickell",0,9,11
-play,7,0,bricf101,??,,E4/G.1-2;B-1
-play,7,0,wanel101,??,,34/SH.2-3;1-2
-play,7,0,barnc102,??,,S8.3-H(UR);2-3
-play,7,0,wanep101,??,,8/SF.3-H(UR)
-play,7,0,wrigg102,??,,13/G1
-play,7,1,koenm101,??,,NP
+play,7,0,bricf101,10,BX,E4/G4.1-2;B-1
+play,7,0,wanel101,11,MBX,34/BG1S/SH.2-3;1-2
+play,7,0,barnc102,10,BX,S8/G46.3-H(UR);2-3
+play,7,0,wanep101,00,X,8/F8D/SF.3-H(UR)
+play,7,0,wrigg102,01,FX,13/G1
+play,7,1,koenm101,00,,NP
 sub,goocj101,"Johnny Gooch",0,8,2
-play,7,1,koenm101,??,,NP
+play,7,1,koenm101,00,,NP
 sub,miljj101,"Johnny Miljus",0,9,1
-play,7,1,koenm101,??,,S4
-play,7,1,ruthb101,??,,56(1)3/GDP
-play,7,1,gehrl101,??,,7/F7D
-play,8,0,trayp101,??,,53
-play,8,0,grang102,??,,S9/L
-play,8,0,harrj103,??,,43.1-2
-play,8,0,goocj101,??,,IW
-play,8,0,miljj101,??,,K
-play,8,1,meusb101,??,,53
-play,8,1,lazzt101,30,,W
-play,8,1,dugaj101,??,,3/P
-play,8,1,collp101,??,,S8.1-3
-play,8,1,moorw101,??,,K
-play,9,0,wanel101,??,,43
-play,9,0,barnc102,??,,7
-play,9,0,wanep101,??,,13/G1
-play,9,1,combe101,30,,W
-play,9,1,koenm101,??,,S5/BG25.1-2
-play,9,1,ruthb101,??,,WP.2-3;1-2
-play,9,1,ruthb101,??,,IW
-play,9,1,gehrl101,??,,K
-play,9,1,meusb101,??,,K
-play,9,1,lazzt101,10,BB,WP.3-H
+play,7,1,koenm101,11,BCX,S4/G4M/R3
+play,7,1,ruthb101,00,X,56(1)3/GDP
+play,7,1,gehrl101,22,BCBFX,7/F7D
+play,8,0,trayp101,00,X,53/G56
+play,8,0,grang102,22,CBBSX,S9/L89
+play,8,0,harrj103,10,BX,43.1-2
+play,8,0,goocj101,30,IIII,IW
+play,8,0,miljj101,22,FSBFBS,K
+play,8,1,meusb101,01,SX,53
+play,8,1,lazzt101,31,BBSBB,W
+play,8,1,dugaj101,11,FBX,3/P3L
+play,8,1,collp101,01,CX,S8/G46.1-3
+play,8,1,moorw101,12,SBFS,K
+play,9,0,wanel101,12,CBFFX,43
+play,9,0,barnc102,32,CFBFFBFBX,7/F7
+play,9,0,wanep101,02,FCX,13/G1
+play,9,1,combe101,30,BBBB,W
+play,9,1,koenm101,10,BX,S5/BG25.1-2
+play,9,1,ruthb101,00,B,WP.2-3;1-2
+play,9,1,ruthb101,30,B.III,IW
+play,9,1,gehrl101,22,SBSBS,K
+play,9,1,meusb101,22,CBSBFS,K
+play,9,1,lazzt101,01,FB,WP.3-H
 data,er,hillc102,3
 data,er,miljj101,1
 data,er,moorw101,1

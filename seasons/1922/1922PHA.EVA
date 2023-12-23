@@ -103,9 +103,9 @@ play,6,0,pittp101,??,,S5/G
 play,6,0,waltr102,??,,64(1)/FO
 play,6,0,pennh101,??,,S9.1-3
 play,6,0,colls101,??,,FC1/SH.3-H;1-3
-com,"Walters caught in short run down, Collins moving to third."
-com,"Athletics Johnston argues call at home plate and was ejected"
-com,"by HP umpire Owens."
+com,"ej,johnd107,P,owenb901,Call at HP"
+com,"$1Bman Johnston ejected by HP umpire Owens for arguing"
+com,"Walters was out at home after a rundown"
 play,6,0,smite104,??,,NP
 sub,hausj101,"Joe Hauser",1,2,3
 play,6,0,smite104,??,,E8/L/SF.3-H(RBI);1-3
@@ -2474,6 +2474,7 @@ play,7,0,hodgs101,??,,S1.1-2
 play,7,0,johne102,??,,NP
 sub,naylr101,"Rollie Naylor",1,9,1
 com,"$Rube Yarrison left with an injured finger"
+presadj,naylr101,1
 play,7,0,johne102,??,,4(1)/FO.2-3
 play,7,0,mcclh103,??,,S8.1-3;3-H
 play,7,0,colle101,??,,NP
@@ -2505,8 +2506,8 @@ play,9,0,colle101,??,,4/P
 data,er,robec101,6
 data,er,hodgs101,3
 data,er,harrs101,4
-data,er,yarrr101,2
-data,er,naylr101,0
+data,er,yarrr101,1
+data,er,naylr101,1
 data,er,romme101,0
 id,PHA192205170
 version,1
@@ -7269,6 +7270,7 @@ play,8,0,wambb101,??,,S9.1-H(E9)(NR);B-2
 play,8,0,speat101,??,,W
 play,8,0,stepr101,??,,NP
 sub,sullj108,"Jim Sullivan",1,9,1
+presadj,sullj108,1
 play,8,0,stepr101,??,,64(1)/FO.2-3
 play,8,0,sewej101,??,,OA.3XH(2E1)(UR);1-2
 play,8,0,sewej101,??,,W
@@ -9245,13 +9247,13 @@ start,walkt101,"Tilly Walker",1,7,7
 start,scheh101,"Heinie Scheer",1,8,5
 start,naylr101,"Rollie Naylor",1,9,1
 play,1,0,hooph101,??,,S9
-play,1,0,johne102,??,,S9.1-2#
+play,1,0,johne102,??,,S9.1-2
 play,1,0,colle101,??,,34/SH.2-3;1-2
 play,1,0,sheee101,??,,63.3-H
 play,1,0,mostj101,??,,43
 play,1,1,younr103,??,,43
 play,1,1,hausj101,??,,8/F
-play,1,1,mcgob101,??,,S/BG
+play,1,1,mcgob101,??,,S5/BG
 play,1,1,millb110,??,,K
 play,2,0,falkb101,??,,D8
 play,2,0,mcclh103,??,,6/FL
@@ -9263,7 +9265,7 @@ play,2,1,walkt101,??,,S8/78.1-3;BX2(84)
 play,2,1,scheh101,??,,HR/7.3-H
 play,2,1,naylr101,??,,K
 play,3,0,hooph101,??,,6/P
-play,3,0,johne102,??,,S/1/G
+play,3,0,johne102,??,,S6/G
 play,3,0,colle101,??,,K+CS2(24)/DP
 play,3,1,younr103,??,,3/G
 play,3,1,hausj101,??,,S8
@@ -9281,11 +9283,11 @@ play,4,1,naylr101,??,,FC5.3XH(52)
 play,4,1,younr103,??,,9/F
 play,5,0,yaryy101,??,,63
 play,5,0,mackf101,??,,K
-play,5,0,hooph101,??,,S
+play,5,0,hooph101,??,,S9
 play,5,0,johne102,??,,3/P
 play,5,1,hausj101,??,,K
 play,5,1,mcgob101,??,,W
-play,5,1,millb110,??,,S7.1-2#
+play,5,1,millb110,??,,S7.1-2
 play,5,1,perkc101,??,,64(1)3/GDP
 play,6,0,colle101,??,,S8
 play,6,0,sheee101,??,,4/L
@@ -9294,7 +9296,7 @@ play,6,0,falkb101,??,,7/F
 play,6,1,gallc101,??,,S8
 play,6,1,walkt101,??,,7/F
 play,6,1,scheh101,??,,K
-play,6,1,naylr101,??,,S8.1-2#
+play,6,1,naylr101,??,,S8.1-2
 play,6,1,younr103,??,,7/F
 play,7,0,mcclh103,??,,T8
 play,7,0,yaryy101,??,,S7.3-H
@@ -9312,21 +9314,20 @@ play,7,1,millb110,??,,63.1-2
 play,7,1,perkc101,??,,W
 play,7,1,gallc101,??,,FC4.2-3;1X2(4E6)
 play,7,1,walkt101,??,,7/F
-com,"reconstructed last 1.5 innings"
-play,8,0,sheee101,??,,99
-play,8,0,mostj101,??,,99
-play,8,0,falkb101,??,,S
-play,8,0,mcclh103,??,,99
-play,8,1,scheh101,??,,K
-play,8,1,naylr101,??,,W#
-play,8,1,younr103,??,,99
-play,8,1,hausj101,??,,S.1-2#
-play,8,1,mcgob101,??,,D.1-H;2-H#
-play,8,1,millb110,??,,99
-play,9,0,yaryy101,??,,99
+play,8,0,sheee101,??,,4/F9S
+play,8,0,mostj101,??,,9
+play,8,0,falkb101,??,,S9
+play,8,0,mcclh103,??,,64(1)/FO
+play,8,1,scheh101,??,,K/C
+play,8,1,naylr101,??,,W
+play,8,1,younr103,??,,3/FL
+play,8,1,hausj101,??,,S8.1-2
+play,8,1,mcgob101,??,,D7.1-H;2-H
+play,8,1,millb110,??,,2/FL
+play,9,0,yaryy101,??,,2/FL
 play,9,0,courh101,??,,W
-play,9,0,hooph101,??,,99
-play,9,0,johne102,??,,99
+play,9,0,hooph101,??,,8
+play,9,0,johne102,??,,7
 data,er,mackf101,5
 data,er,courh101,2
 data,er,naylr101,2

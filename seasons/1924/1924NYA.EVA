@@ -6610,7 +6610,7 @@ play,7,0,fewsc101,??,,S1/BG23.2-H(E1/TH1)(NR);B-2
 play,7,0,lutzr101,??,,BK.2-3
 com,"$Al Mamaux wound up to pitch but the ball slipped from his grasp"
 play,7,0,lutzr101,??,,W
-play,7,0,smits102,??,,6(1)3/GDP.3-H(UR)
+play,7,0,smits102,??,,6(1)3/GDP.3-H(RBI)(UR)
 play,7,0,jamic101,??,,3/G
 play,7,1,mamaa101,??,,NP
 sub,horas101,"Shags Horan",1,9,11
@@ -8196,6 +8196,7 @@ sub,pipgg101,"George Pipgras",1,9,1
 com,"ej,shawb102,P,hildg101,Doctored ball (Discolored)"
 com,"$Bob Shawkey ejected by HP umpire George Hildebrand"
 com,"for rubbing dirt on the ball and discoloring it"
+presadj,pipgg101,1
 play,8,0,tobij101,??,,W.1-2
 play,8,0,evanj101,??,,65(2)/FO.1-2
 play,8,0,sislg101,??,,WP.2-3;1-2
@@ -8224,8 +8225,8 @@ play,9,1,pippw101,??,,43
 data,er,danfd101,1
 data,er,hoytw101,4
 data,er,gastm101,3
-data,er,shawb102,1
-data,er,pipgg101,0
+data,er,shawb102,0
+data,er,pipgg101,1
 id,NYA192408160
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -9632,6 +9633,7 @@ play,8,0,mcnee101,??,,S9.2-3;1-2
 play,8,0,harrb106,??,,E5/G.3-H(NR)(UR);2-3;1-2
 play,8,0,rices101,??,,NP
 sub,jones104,"Sam Jones",1,9,1
+presadj,jones104,3
 play,8,0,rices101,??,,42(3)/FO.2-3;1-2
 play,8,0,goslg101,??,,T8/L8XD.3-H(UR);2-H(UR);1-H(UR)
 com,"$lost in the sun"
@@ -10017,7 +10019,7 @@ play,3,1,ruthb101,??,,3/G
 play,4,0,leibn101,??,,W
 play,4,0,harrb106,??,,S5/G.1-2
 play,4,0,rices101,??,,99/SH.2-3;1-2
-play,4,0,goslg101,??,,99/SF.3-H
+play,4,0,goslg101,??,,8/SF.3-H
 play,4,0,judgj101,??,,99
 play,4,1,pippw101,??,,99
 play,4,1,schaw101,??,,53
@@ -10242,9 +10244,9 @@ info,umphome,morig101
 info,ump1b,holmd102
 info,ump2b,(none)
 info,ump3b,nalld901
-info,scorer,"71,96,163"
-info,translator,"Jim Herdman"
-info,inputter,"Jim Herdman"
+info,scorer,"71,96,163,114"
+info,translator,"Jim Herdman/Bill Way"
+info,inputter,"Jim Herdman/RWood"
 info,inputtime,2021/10/03 7:59PM
 info,howscored,unknown
 info,pitches,none
@@ -10278,96 +10280,95 @@ start,meusb101,"Bob Meusel",1,6,7
 start,warda101,"Aaron Ward",1,7,4
 start,scote101,"Everett Scott",1,8,6
 start,shawb102,"Bob Shawkey",1,9,1
-play,1,0,flagi101,??,,99
-play,1,0,wambb101,??,,S
-play,1,0,booni101,??,,CS2(24)
-play,1,0,booni101,??,,99
+play,1,0,flagi101,??,,7
+play,1,0,wambb101,??,,7
+play,1,0,booni101,??,,W
+play,1,0,harrj103,??,,64(1)/FO
 play,1,1,wittw101,??,,W
-play,1,1,dugaj101,??,,99
-play,1,1,ruthb101,??,,W.1-2
-play,1,1,pippw101,??,,99
-play,1,1,hofmf101,??,,S.2-3;1-2
-play,1,1,meusb101,??,,99
-play,2,0,harrj103,??,,99
+play,1,1,dugaj101,??,,13.1-2
+play,1,1,ruthb101,??,,W
+play,1,1,pippw101,??,,5(2)/FO.1-2
+play,1,1,hofmf101,??,,7
 play,2,0,veacb101,??,,W
 play,2,0,clard101,??,,2(B)6(1)/FL/DP
+play,2,0,ezzeh101,??,,S8
+play,2,0,oneis101,??,,SB2
+play,2,0,oneis101,??,,W
+play,2,0,pierb103,??,,K
+play,2,1,meusb101,??,,9
 play,2,1,warda101,??,,W
-play,2,1,scote101,??,,PO1(99)#
-play,2,1,scote101,??,,99
-play,2,1,shawb102,??,,99
-play,3,0,ezzeh101,??,,K
-play,3,0,oneis101,??,,W
-play,3,0,pierb103,??,,K
-play,3,0,flagi101,??,,FC.1-2;B-1#
-play,3,0,wambb101,??,,99
+play,2,1,scote101,??,,9/L
+play,2,1,shawb102,??,,64(1)/FO
+play,3,0,flagi101,??,,9
+play,3,0,wambb101,??,,S
+play,3,0,booni101,??,,4/P
+play,3,0,harrj103,??,,CS2(24)
 play,3,1,wittw101,??,,W
 play,3,1,dugaj101,??,,S9.1-3
 play,3,1,ruthb101,??,,S9.3-H;1-3
 play,3,1,pippw101,??,,64(1)3/GDP.3-H(RBI)
-play,3,1,hofmf101,??,,E7/F.B-1
-play,3,1,meusb101,??,,S.1-3
-play,3,1,warda101,??,,CS2(24)
-play,4,0,booni101,??,,W
-play,4,0,harrj103,??,,99
-play,4,0,veacb101,??,,S.1-2
-play,4,0,clard101,??,,99
-play,4,0,ezzeh101,??,,99
-play,4,1,warda101,??,,99
-play,4,1,scote101,??,,99
-play,4,1,shawb102,??,,HR/8
-play,4,1,wittw101,??,,99
-play,5,0,oneis101,??,,99
-play,5,0,pierb103,??,,K
-play,5,0,flagi101,??,,99
-play,5,1,dugaj101,??,,99
-play,5,1,ruthb101,??,,99
-play,5,1,pippw101,??,,99
-play,6,0,wambb101,??,,S
+play,3,1,hofmf101,??,,S7.B-2(E7)
+play,3,1,meusb101,??,,63
+play,4,0,harrj103,??,,3/FL
+play,4,0,veacb101,??,,S
+play,4,0,clard101,??,,2/FL
+play,4,0,ezzeh101,??,,K
+play,4,1,warda101,??,,8
+play,4,1,scote101,??,,4/P
+play,4,1,shawb102,??,,HR8/IPHR
+play,4,1,wittw101,??,,7
+play,5,0,oneis101,??,,9
+play,5,0,pierb103,??,,8
+play,5,0,flagi101,??,,53
+play,5,1,dugaj101,??,,3/FL
+play,5,1,ruthb101,??,,43
+play,5,1,pippw101,??,,3/FL
+play,6,0,wambb101,??,,S/G
 play,6,0,booni101,??,,S8.1-3
-play,6,0,harrj103,??,,FC5.3XH(52);1-2
+play,6,0,harrj103,??,,FC5.3XH(52);1-2;B-1
 play,6,0,veacb101,??,,9/F
 play,6,0,clard101,??,,PO2(E1).2-H(E9)(UR);1-2
 com,"$Shawkey threw wild to second and Ruth fumbled over-throw"
-play,6,0,clard101,??,,99
-play,6,1,hofmf101,??,,99
-play,6,1,meusb101,??,,99
-play,6,1,warda101,??,,99
-play,7,0,ezzeh101,??,,S
+play,6,0,clard101,??,,4/P
+play,6,1,hofmf101,??,,7/L
+play,6,1,meusb101,??,,S7
+play,6,1,warda101,??,,CS2(26)
+play,6,1,warda101,??,,53
+play,7,0,ezzeh101,??,,99
 play,7,0,oneis101,??,,99
-play,7,0,pierb103,??,,SB2
-play,7,0,pierb103,??,,99
-play,7,0,flagi101,??,,E6.2-3;B-1
-play,7,0,wambb101,??,,99
+play,7,0,pierb103,??,,K
 play,7,1,scote101,??,,T.B-H(E6)(NR)
 com,"Ezzell fumbled the relay."
-play,7,1,shawb102,??,,S7/G
+play,7,1,shawb102,??,,S6
 play,7,1,wittw101,??,,S/BG.1-2
 play,7,1,dugaj101,??,,S/G.2-3;1-2
 play,7,1,ruthb101,??,,D7/F7D.3-H;2-H;1-3
 play,7,1,pippw101,??,,NP
 sub,wintc101,"Clarence Winters",0,9,1
-play,7,1,pippw101,??,,S.3-H;2-H
+play,7,1,pippw101,??,,S9.3-H;2-H
 play,7,1,hofmf101,??,,53.1-2
 play,7,1,meusb101,??,,S/G.2-3
-play,7,1,warda101,??,,FC5.3XH(52);1-2
+play,7,1,warda101,??,,FC5.3XH(52);1-2;B-1
 play,7,1,scote101,??,,W.2-3;1-2
 play,7,1,shawb102,??,,S.3-H;2-H;1-2
-play,7,1,wittw101,??,,S.2-H;1-2
+play,7,1,wittw101,??,,S7.2-H;1-2
 play,7,1,dugaj101,??,,NP
 sub,gehrl101,"Lou Gehrig",1,2,11
 play,7,1,gehrl101,??,,NP
 sub,workh102,"Hoge Workman",0,9,1
 play,7,1,gehrl101,??,,W.2-3;1-2
 play,7,1,ruthb101,??,,7/F7D
-play,8,0,booni101,??,,NP
+play,8,0,flagi101,??,,NP
 sub,mcnam101,"Mike McNally",1,2,5
-play,8,0,booni101,??,,NP
+play,8,0,flagi101,??,,NP
 sub,johne102,"Ernie Johnson",1,7,4
+play,8,0,flagi101,??,,E6
+play,8,0,wambb101,??,,FC.1-2;B-1
 play,8,0,booni101,??,,99
 play,8,0,harrj103,??,,99
 play,8,0,veacb101,??,,99
 play,8,1,pippw101,??,,HR
-play,8,1,hofmf101,??,,99
+play,8,1,hofmf101,??,,7
 play,8,1,meusb101,??,,W
 play,8,1,johne102,??,,S.1-2
 play,8,1,scote101,??,,8(B)3(1)/DP

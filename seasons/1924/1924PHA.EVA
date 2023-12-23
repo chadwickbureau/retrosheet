@@ -1919,6 +1919,9 @@ sub,winga101,"Al Wingo",0,3,11
 play,9,0,winga101,??,,W.1-2
 play,9,0,heilh101,??,,NP
 sub,baums101,"Stan Baumgartner",1,9,1
+presadj,baums101,3
+presadj,baums101,2
+presadj,baums101,1
 play,9,0,heilh101,??,,8/8D/SF.3-H;2-3;1-2
 play,9,0,pratd101,??,,D7.3-H;2-H
 play,9,0,rignt101,??,,W
@@ -1935,8 +1938,8 @@ play,9,1,strap101,??,,S.3-H;1-3
 play,9,1,gallc101,??,,64(1)3/GDP
 data,er,stonl101,6
 data,er,meekr101,4
-data,er,harrs101,5
-data,er,baums101,0
+data,er,harrs101,2
+data,er,baums101,3
 id,PHA192405190
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -3435,14 +3438,16 @@ play,9,1,welcf101,??,,W.1-2
 play,9,1,hausj101,??,,S7/5L.2-H;1-2
 play,9,1,simma101,??,,NP
 sub,hoytw101,"Waite Hoyt",0,9,1
+presadj,hoytw101,2
+presadj,hoytw101,1
 play,9,1,simma101,??,,54(1)/FO.2-3
 play,9,1,ricoh101,??,,S7/L.3-H;1-2
 play,9,1,chapj101,??,,S.2-3;1-2
 play,9,1,perkc101,??,,32(3)/FO.2-H(E1)(NR)(UR);1-3
 com,"$Waite Hoyt tripped and dropped the ball while running to cover 1B"
 data,er,shawb102,3
-data,er,bushj102,2
-data,er,hoytw101,0
+data,er,bushj102,1
+data,er,hoytw101,1
 data,er,harrs101,5
 data,er,romme101,1
 id,PHA192407022
@@ -3809,7 +3814,13 @@ play,2,0,pierb103,??,,13
 play,2,1,simma101,??,,99
 play,2,1,ricoh101,??,,99
 play,2,1,gallc101,??,,HP
-play,2,1,perkc101,??,,99
+play,2,1,perkc101,??,,NP
+sub,brugf101,"Frank Bruggy",1,7,12
+com,"$Frank Bruggy entered as a courtesy runner for Galloway"
+com,"who returned to the field in the third inning"
+play,2,1,perkc101,??,,99/COUR
+play,3,0,clard101,??,,NP
+sub,gallc101,"Chick Galloway",1,7,6
 play,3,0,clard101,??,,99
 play,3,0,wambb101,??,,S8
 play,3,0,harrj103,??,,D7/7D.1-H
@@ -4960,7 +4971,7 @@ play,3,1,hausj101,??,,NP
 sub,hollk101,"Ken Holloway",0,9,1
 play,3,1,hausj101,??,,S.2-H;1-2
 play,3,1,simma101,??,,S6.2-3;1-2
-play,3,1,ricoh101,??,,4(1)3/GDP.3-H;2-3
+play,3,1,ricoh101,??,,4(1)3/GDP.3-H(RBI);2-3
 play,3,1,gallc101,??,,13
 play,4,0,bassj102,??,,NP
 sub,meekr101,"Roy Meeker",1,9,1
@@ -6396,6 +6407,7 @@ play,4,1,gallc101,??,,S7.2-H
 play,4,1,perkc101,??,,D9.1-H
 play,4,1,baums101,??,,NP
 sub,winge102,"Ernie Wingard",0,9,1
+presadj,winge102,2
 play,4,1,baums101,??,,53.2-3
 play,4,1,bishm102,??,,S/G1S.3-H
 play,4,1,lamab101,??,,8/L
@@ -6434,8 +6446,8 @@ play,9,0,jacow101,??,,64(1)/FO
 play,9,0,mcmin101,??,,7/F
 play,9,0,seveh101,??,,S7.1-2
 play,9,0,gerbw101,??,,7/F
-data,er,kolpr101,4
-data,er,winge102,1
+data,er,kolpr101,3
+data,er,winge102,2
 data,er,lyong101,0
 data,er,baums101,0
 id,PHA192408131
@@ -6568,6 +6580,8 @@ sub,hales101,"Sammy Hale",1,9,11
 play,7,1,hales101,??,,W.2-3;1-2
 play,7,1,bishm102,??,,NP
 sub,welle101,"Ed Wells",0,9,1
+presadj,welle101,3
+presadj,welle101,2
 play,7,1,bishm102,??,,K
 play,7,1,lamab101,??,,S.3-H;2-H;1-2
 play,7,1,welcf101,??,,W.2-3;1-2
@@ -6602,8 +6616,8 @@ play,9,1,bishm102,??,,SB2
 play,9,1,bishm102,??,,7/F
 play,9,1,lamab101,??,,5/FL
 play,9,1,welcf101,??,,K
-data,er,collr104,4
-data,er,welle101,0
+data,er,collr104,2
+data,er,welle101,2
 data,er,daush101,0
 data,er,johns101,0
 data,er,grays102,3
@@ -6894,7 +6908,7 @@ play,4,0,rignt101,??,,S7.1-2
 play,4,0,bassj102,??,,46(1)3/GDP
 play,4,1,simma101,??,,W
 play,4,1,dykej101,??,,S9.1-3
-play,4,1,gallc101,??,,64(1)3/GDP.3-H
+play,4,1,gallc101,??,,64(1)3/GDP.3-H(RBI)
 play,4,1,perkc101,??,,9/F
 play,5,0,hollk101,??,,3/FL
 play,5,0,joneb103,??,,S9
@@ -7768,6 +7782,7 @@ play,2,0,gerbw101,??,,S9.2-H;1-2
 play,2,0,shocu101,??,,W.2-3;1-2
 play,2,0,tobij101,??,,NP
 sub,meekr101,"Roy Meeker",1,9,1
+presadj,meekr101,2
 play,2,0,tobij101,??,,9/F9D/SF.3-H;2-3
 play,2,0,evanj101,??,,E6/G.3-H(NR)(UR);1-2
 play,2,0,sislg101,??,,S4/G.2-3;1-2
@@ -8256,6 +8271,7 @@ play,6,1,simma101,??,,S/G1.2-2
 play,6,1,dykej101,??,,14(1)/FO.2-3
 play,6,1,ricoh101,??,,NP
 sub,vange101,"Elam Vangilder",0,9,1
+presadj,vange101,3
 play,6,1,ricoh101,??,,CS2(243).3-H
 play,7,0,evanj101,??,,9/F
 play,7,0,sislg101,??,,7/L
@@ -8283,8 +8299,8 @@ play,9,0,sislg101,??,,43
 play,9,0,mcmam101,??,,T8
 play,9,0,jacow101,??,,S8/G46.3-H
 play,9,0,mcmin101,??,,3/FL
-data,er,danfd101,4
-data,er,vange101,0
+data,er,danfd101,3
+data,er,vange101,1
 data,er,kolpr101,0
 data,er,baums101,2
 id,PHA192408260
@@ -9233,38 +9249,38 @@ start,dykej101,"Jimmy Dykes",1,6,4
 start,gallc101,"Chick Galloway",1,7,6
 start,brugf101,"Frank Bruggy",1,8,2
 start,romme101,"Eddie Rommel",1,9,1
-play,1,0,mcnee101,??,,S
-play,1,0,harrb106,??,,W.1-2
+play,1,0,mcnee101,??,,D/89
+play,1,0,harrb106,??,,W
 play,1,0,rices101,??,,WP.2-3;1-2
-play,1,0,rices101,??,,53
-play,1,0,goslg101,??,,S9.3-H;2-H
+play,1,0,rices101,??,,53/G.3-H;2-3
+play,1,0,goslg101,??,,S9.3-H
 play,1,0,judgj101,??,,3/G.1-2
 play,1,0,ruelm101,??,,8/F
-play,1,1,hales101,??,,99
-play,1,1,lamab101,??,,K
+play,1,1,hales101,??,,9
+play,1,1,lamab101,??,,63
 play,1,1,millb110,??,,HP
-play,1,1,hausj101,??,,D7.1-H
+play,1,1,hausj101,??,,D7/78.1-H
 play,1,1,simma101,??,,S4/G.2-3
 play,1,1,dykej101,??,,K
-play,2,0,blueo102,??,,99
-play,2,0,peckr101,??,,99
-play,2,0,marbf101,??,,99
-play,2,1,gallc101,??,,K
+play,2,0,blueo102,??,,53
+play,2,0,peckr101,??,,6/F7S
+play,2,0,marbf101,??,,13
+play,2,1,gallc101,??,,63
 play,2,1,brugf101,??,,W
-play,2,1,romme101,??,,99
-play,2,1,hales101,??,,S.1-2
-play,2,1,lamab101,??,,1/G.2-3;1-2
+play,2,1,romme101,??,,46(1)/FO
+play,2,1,hales101,??,,S8.1-2
+play,2,1,lamab101,??,,1/G
 play,3,0,mcnee101,??,,S
-play,3,0,harrb106,??,,K
-play,3,0,rices101,??,,99
-play,3,0,goslg101,??,,99
-play,3,1,millb110,??,,K
-play,3,1,hausj101,??,,99
-play,3,1,simma101,??,,S
-play,3,1,dykej101,??,,CS2(99)
+play,3,0,harrb106,??,,K/C
+play,3,0,rices101,??,,36(1)/FO
+play,3,0,goslg101,??,,4/F8S
+play,3,1,millb110,??,,4/L
+play,3,1,hausj101,??,,K23
+play,3,1,simma101,??,,S9
+play,3,1,dykej101,??,,CS2(24)
 play,4,0,judgj101,??,,W
 play,4,0,ruelm101,??,,9/L
-play,4,0,blueo102,??,,8/F
+play,4,0,blueo102,??,,8/F78
 play,4,0,peckr101,??,,S7.1-2
 play,4,0,marbf101,??,,4/F
 play,4,1,dykej101,??,,99
@@ -9274,7 +9290,7 @@ play,5,0,mcnee101,??,,99
 play,5,0,harrb106,??,,99
 play,5,0,rices101,??,,99
 play,5,1,romme101,??,,99
-play,5,1,hales101,??,,99
+play,5,1,hales101,??,,K#
 play,5,1,lamab101,??,,S
 play,5,1,millb110,??,,99
 play,6,0,goslg101,??,,99
@@ -9287,41 +9303,41 @@ play,6,1,dykej101,??,,63
 play,7,0,peckr101,??,,99
 play,7,0,marbf101,??,,99
 play,7,0,mcnee101,??,,99
-play,7,1,gallc101,??,,99
+play,7,1,gallc101,??,,K
 play,7,1,brugf101,??,,13
 play,7,1,romme101,??,,13
-play,8,0,harrb106,??,,S8
+play,8,0,harrb106,??,,S8/78
 play,8,0,rices101,??,,99/SH.1-2
 play,8,0,goslg101,??,,FC1.2-2;BX2(16)
 com,"$two runners ended up on 2nd after rundown"
 play,8,0,judgj101,??,,D9.2-H
 play,8,0,ruelm101,??,,NP
 sub,shirm101,"M Shirley",0,5,12
-play,8,0,ruelm101,??,,S8.2-H
-play,8,0,blueo102,??,,S8.1-2
+play,8,0,ruelm101,??,,S8/F8S.2-H
+play,8,0,blueo102,??,,S8.1-3
 play,8,0,peckr101,??,,99(1)/FO
 play,8,1,hales101,??,,NP
 sub,shirm101,"M Shirley",0,5,3
-play,8,1,hales101,??,,D7
+play,8,1,hales101,??,,D7/78
 play,8,1,lamab101,??,,D9.2-H
 play,8,1,millb110,??,,6/P
 play,8,1,hausj101,??,,K
 play,8,1,simma101,??,,3/FL
 play,9,0,marbf101,??,,S7
-play,9,0,mcnee101,??,,FC/SH.1-3(E1/TH);B-2
+play,9,0,mcnee101,??,,FC1/SH.1-3(E1/TH);B-2
 play,9,0,harrb106,??,,HR/7.3-H;2-H
 play,9,0,rices101,??,,D7
 play,9,0,goslg101,??,,2/FL
-play,9,0,shirm101,??,,99
-play,9,0,ruelm101,??,,99
+play,9,0,shirm101,??,,99.2-3
+play,9,0,ruelm101,??,,99/G
 play,9,1,dykej101,??,,99
 play,9,1,gallc101,??,,99
 play,9,1,brugf101,??,,NP
 sub,welcf101,"Frank Welch",1,8,11
-play,9,1,welcf101,??,,D
+play,9,1,welcf101,??,,D7
 play,9,1,romme101,??,,NP
 sub,heimf101,"Fred Heimach",1,9,11
-play,9,1,heimf101,??,,D.2-H
+play,9,1,heimf101,??,,D7.2-H
 play,9,1,hales101,??,,S8/G.2-H
 play,9,1,lamab101,??,,5/P
 data,er,marbf101,4

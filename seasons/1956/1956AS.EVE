@@ -9,24 +9,25 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,allstar
 info,umphome,berrc103
 info,ump1b,pineb101
 info,ump2b,hurle901
 info,ump3b,gorea901
 info,umplf,jackb901
 info,umprf,flahr901
-info,scorer,"TSN Guide 1957"
-info,translator,"Tim Cashion"
-info,inputter,"Tim Cashion"
+info,scorer,"TSN Guide 1957,602"
+info,translator,"Wayne Townsend,Tim Cashion"
+info,inputter,"Wayne Townsend,Tim Cashion"
 info,inputtime,1997/10/01 7:26PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,tocf
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,overcast
 info,timeofgame,165
 info,attendance,28843
 info,wp,frieb102
@@ -54,149 +55,150 @@ start,pierb101,"Billy Pierce",1,9,1
 com,"$Managers: Walter Alston (NL Brooklyn), Casey Stengel (AL New York);"
 com,"position starters chosen by fans and the managers chose the rest of"
 com,"the roster; heavy Cincinnati voting (see 1957)"
-play,1,0,tempj101,??,,NP
-play,1,0,tempj101,??,,K
-play,1,0,robif103,??,,K
-play,1,0,musis101,??,,63
-play,1,1,kuenh101,??,,5/L
-play,1,1,fox-n101,??,,43
-play,1,1,willt103,32,,K
-play,2,0,boyek101,??,,S8
-play,2,0,bellg103,02,,K
-play,2,0,longd101,??,,K/C
-play,2,0,baile101,??,,CS2(26)
-play,2,1,mantm101,??,,K/C
-play,2,1,berry101,??,,S7
-play,2,1,kalia101,??,,8/F
-play,2,1,vernm101,??,,8/F
-play,3,0,baile101,??,,3/FL
-play,3,0,mcmir101,??,,W
-play,3,0,frieb102,??,,14/SH.1-2
-play,3,0,tempj101,??,,S8.2-H
-play,3,0,robif103,??,,K
-play,3,1,kellg102,??,,7/F7D
-play,3,1,pierb101,??,,NP
+play,1,0,tempj101,12,KFBS,K
+play,1,0,robif103,02,FSS,K
+play,1,0,musis101,00,X,63/G6
+play,1,1,kuenh101,11,CBX,5!/L56
+play,1,1,fox-n101,02,FSX,43/G34
+play,1,1,willt103,32,BCBSBS,K
+play,2,0,boyek101,??,,S8/L8S
+play,2,0,bellg103,02,SSS,K
+play,2,0,longd101,22,BFBFC,K/C
+play,2,0,baile101,10,B1>S,CS2(26)
+play,2,1,mantm101,12,SBCC,K/C
+play,2,1,berry101,??,,S7/G56
+play,2,1,kalia101,??,,8/L8D
+play,2,1,vernm101,22,BSF1BX,8/F78S
+play,3,0,baile101,32,BCSBBX,3/P3F/FL
+play,3,0,mcmir101,32,BBBCFFFB,W
+play,3,0,frieb102,01,LX,14/BG1S/SH.1-2
+play,3,0,tempj101,12,CFBFX,S8/L89.2-H
+play,3,0,robif103,12,FBFS,K
+play,3,1,kellg102,20,BBX,7/L7DW
+play,3,1,pierb101,00,,NP
 sub,simph101,"Harry Simpson",1,9,11
-play,3,1,simph101,??,,K23
-play,3,1,kuenh101,??,,S7
-play,3,1,fox-n101,??,,S7.1-2
-play,3,1,willt103,??,,3/G
-play,4,0,musis101,??,,NP
+play,3,1,simph101,02,SCS,K23
+play,3,1,kuenh101,??,,S7/G56
+play,3,1,fox-n101,11,BFX,S7/G56.1-2
+play,3,1,willt103,22,CBBFX,3/G3
+play,4,0,musis101,00,,NP
 sub,fordw101,"Whitey Ford",1,9,1
-play,4,0,musis101,??,,K/C
-play,4,0,boyek101,??,,S7
-play,4,0,bellg103,??,,NP
+play,4,0,musis101,12,BCSFC,K/C
+play,4,0,boyek101,11,CBX,S7/G56
+play,4,0,bellg103,00,,NP
 sub,maysw101,"Willie Mays",0,5,11
-play,4,0,maysw101,??,,HR/78.1-H
-play,4,0,longd101,??,,K
-play,4,0,baile101,30, BBBB,W
-play,4,0,mcmir101,??,,S7.1-2
-play,4,0,frieb102,??,,NP
+play,4,0,maysw101,01,11SX,HR/F78XD.1-H
+play,4,0,longd101,12,BSCFS,K
+play,4,0,baile101,30,BBBB,W
+play,4,0,mcmir101,32,1BF1BBC>X,S7/G56.1-2
+play,4,0,frieb102,00,,NP
 sub,repur101,"Rip Repulski",0,9,11
-play,4,0,repur101,??,,2/FL
-play,4,1,mantm101,??,,NP
+play,4,0,repur101,02,CFX,2/P2F/FL
+play,4,1,mantm101,00,,NP
 sub,maysw101,"Willie Mays",0,5,8
-play,4,1,mantm101,??,,NP
+play,4,1,mantm101,00,,NP
 sub,spahw101,"Warren Spahn",0,9,1
-play,4,1,mantm101,??,,K
-play,4,1,berry101,??,,S4
-play,4,1,kalia101,??,,8/F
-play,4,1,vernm101,??,,46(1)/FO
-play,5,0,tempj101,??,,NP
+play,4,1,mantm101,12,BSFS,K
+play,4,1,berry101,01,CX,S4/G4M
+play,4,1,kalia101,00,X,8/F8
+play,4,1,vernm101,11,BFX,46(1)/FO/G4M
+play,5,0,tempj101,00,,NP
 sub,wilsj104,"Jim Wilson",1,9,1
-play,5,0,tempj101,??,,S5/BG
-play,5,0,robif103,??,,NP
+play,5,0,tempj101,00,X,S5/BG25/R3
+play,5,0,robif103,00,,NP
 sub,snidd101,"Duke Snider",0,2,11
-play,5,0,snidd101,??,,7/F
-play,5,0,musis101,??,,13.1-2
-play,5,0,boyek101,??,,S8.2-H
-play,5,0,maysw101,??,,K/C
+play,5,0,snidd101,22,1B1BSC1X,7/F7
+play,5,0,musis101,01,1F1X,13/G1.1-2
+play,5,0,boyek101,00,X,S/F89S.2-H
+play,5,0,maysw101,02,>FS1C,K/C
 com,"umpchange,5,umphome,pineb101"
 com,"umpchange,5,ump1b,hurle901"
 com,"umpchange,5,ump2b,gorea901"
 com,"umpchange,5,ump3b,berrc103"
 com,"$the umpires changed positions"
-play,5,1,kellg102,??,,NP
+play,5,1,kellg102,00,,NP
 sub,snidd101,"Duke Snider",0,2,8
-play,5,1,kellg102,??,,NP
+play,5,1,kellg102,00,,NP
 sub,maysw101,"Willie Mays",0,5,9
-play,5,1,kellg102,??,,NP
+play,5,1,kellg102,00,,NP
 sub,musis101,"Stan Musial",0,3,7
-play,5,1,kellg102,??,,63
-play,5,1,wilsj104,??,,NP
+play,5,1,kellg102,02,CLX,63/G6S
+play,5,1,wilsj104,00,,NP
 sub,martb105,"Billy Martin",1,9,11
-play,5,1,martb105,??,,63
-play,5,1,kuenh101,??,,53
-play,6,0,longd101,??,,NP
+play,5,1,martb105,12,CBCX,63/G6
+play,5,1,kuenh101,01,CX,5!3/G5L
+play,6,0,longd101,00,,NP
 sub,brewt101,"Tom Brewer",1,9,1
-play,6,0,longd101,??,,NP
+play,6,0,longd101,00,,NP
 sub,klust101,"Ted Kluszewski",0,6,11
-play,6,0,klust101,??,,D7/7D
-play,6,0,baile101,??,,7/F7S
-play,6,0,mcmir101,??,,S9.2-3
-play,6,0,spahw101,??,,WP.3-H;1-2
-play,6,0,spahw101,??,,53
-play,6,0,tempj101,??,,K
-play,6,1,fox-n101,??,,NP
+play,6,0,klust101,22,CFFBBX,D7/F7D
+com,"$Berra injured a finger on his right hand on Kluszewski's"
+com,"first foul ball."
+play,6,0,baile101,00,X,7/F78S
+play,6,0,mcmir101,10,BX,S43/P3D.2-3
+play,6,0,spahw101,01,CB,WP.3-H;1-2
+play,6,0,spahw101,11,CB.X,53/G5
+play,6,0,tempj101,12,CBCS,K
+play,6,1,fox-n101,00,,NP
 sub,klust101,"Ted Kluszewski",0,6,3
-play,6,1,fox-n101,??,,S/78
-play,6,1,willt103,??,,HR/9D.1-H
-play,6,1,mantm101,??,,HR/7D
-play,6,1,berry101,??,,NP
+play,6,1,fox-n101,??,,S8/L78
+play,6,1,willt103,21,CBBX,HR/F89XD.1-H
+play,6,1,mantm101,22,BKBSFX,HR/L78XD
+play,6,1,berry101,00,,NP
 sub,antoj103,"Johnny Antonelli",0,9,1
-play,6,1,berry101,??,,NP
+play,6,1,berry101,00,,NP
 sub,lolls101,"Sherm Lollar",1,5,11
-play,6,1,lolls101,??,,S8
-play,6,1,kalia101,??,,S7.1-2
-play,6,1,vernm101,??,,NP
+play,6,1,lolls101,12,FFBX,S8/F8S
+play,6,1,kalia101,00,X,S7/G56.1-2
+play,6,1,vernm101,00,,NP
 sub,powev101,"Vic Power",1,7,11
-play,6,1,powev101,??,,7/F7S
-play,6,1,kellg102,??,,64(1)3/GDP
-play,7,0,snidd101,??,,NP
+play,6,1,powev101,21,BBCX,7/F7S
+play,6,1,kellg102,11,F*BX,64(1)3/GDP
+play,7,0,snidd101,00,,NP
 sub,powev101,"Vic Power",1,7,3
-play,7,0,snidd101,??,,NP
+play,7,0,snidd101,00,,NP
 sub,lolls101,"Sherm Lollar",1,5,2
-play,7,0,snidd101,??,,K
-play,7,0,musis101,??,,HR/78XD
-play,7,0,boyek101,??,,63
-play,7,0,maysw101,??,,W
-play,7,0,klust101,??,,D9/9L.1-H
-play,7,0,baile101,??,,WP.2-3
-play,7,0,baile101,??,,63
-play,7,1,brewt101,??,,NP
+play,7,0,snidd101,22,CSBBS,K
+play,7,0,musis101,00,X,HR/F78XD
+play,7,0,boyek101,22,BSFBX,63/G6
+play,7,0,maysw101,31,BBSBB,W
+play,7,0,klust101,00,>X,D9/L9L.1-H
+play,7,0,baile101,12,CBSB,WP.2-3
+play,7,0,baile101,32,CBSB.BX,63/G6
+play,7,1,brewt101,00,,NP
 sub,campr102,"Roy Campanella",0,7,2
-play,7,1,brewt101,??,,NP
+play,7,1,brewt101,00,,NP
 sub,boonr101,"Ray Boone",1,9,11
-play,7,1,boonr101,??,,5/L
-play,7,1,kuenh101,??,,9/F
-play,7,1,fox-n101,??,,1/P
-play,8,0,mcmir101,??,,NP
+play,7,1,boonr101,32,FBBFBFX,5/L5L
+play,7,1,kuenh101,01,CX,9/F9L
+play,7,1,fox-n101,01,SX,1/P
+play,8,0,mcmir101,00,,NP
 sub,scorh101,"Herb Score",1,9,1
-play,8,0,mcmir101,??,,NP
+play,8,0,mcmir101,00,,NP
 sub,pierj102,"Jim Piersall",1,6,9
-play,8,0,mcmir101,??,,3/FL
-play,8,0,antoj103,??,,K
-play,8,0,tempj101,??,,W
-play,8,0,snidd101,??,,SB2
-play,8,0,snidd101,??,,2/P
-play,8,1,willt103,??,,7/F
-com,"$Stan Musial hurt making play"
-play,8,1,mantm101,??,,NP
+play,8,0,mcmir101,10,BX,3/P3F/FL
+play,8,0,antoj103,22,BSSBS,K
+play,8,0,tempj101,32,SBFBBB,W
+play,8,0,snidd101,01,F>B,SB2
+play,8,0,snidd101,22,F>B.CBX,2/P2
+play,8,1,willt103,01,SX,7/F7S
+com,"$Musial hurt making shoestring catch colliding with Boyer"
+play,8,1,mantm101,00,,NP
 sub,aaroh101,"Hank Aaron",0,3,7
-play,8,1,mantm101,??,,K
-play,8,1,lolls101,??,,8/F78
-play,9,0,aaroh101,??,,NP
+play,8,1,mantm101,02,CSS,K
+play,8,1,lolls101,31,CBBBX,8/F78D
+play,9,0,aaroh101,00,,NP
 sub,wynne101,"Early Wynn",1,9,1
-play,9,0,aaroh101,??,,9/F89
-play,9,0,boyek101,??,,6/P
-play,9,0,maysw101,??,,K
-play,9,1,pierj102,??,,63
-play,9,1,powev101,??,,S4
-play,9,1,kellg102,??,,S9.1-2
-play,9,1,wynne101,??,,NP
+play,9,0,aaroh101,00,X,9/F89
+play,9,0,boyek101,11,FBX,6/P56D
+play,9,0,maysw101,22,FBBSS,K
+play,9,1,pierj102,??,,63/G6M
+play,9,1,powev101,??,,S4/G4M/R3
+play,9,1,kellg102,??,,S9/L9S.1-2
+play,9,1,wynne101,00,,NP
 sub,sievr101,"Roy Sievers",1,9,11
-play,9,1,sievr101,??,,5/P
-play,9,1,kuenh101,??,,64(1)/FO
+play,9,1,sievr101,20,BBX,5/P5
+play,9,1,kuenh101,11,CBX,64(1)/FO/G6
 data,er,frieb102,0
 data,er,spahw101,3
 data,er,antoj103,0

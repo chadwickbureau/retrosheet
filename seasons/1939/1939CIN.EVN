@@ -11169,25 +11169,25 @@ info,hometeam,CIN
 info,date,1939/09/26
 info,site,CIN07
 info,number,1
-info,starttime,0:00PM
+info,starttime,1:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"279"
-info,translator,"279"
-info,inputter,"Comly"
+info,scorer,"279,602"
+info,translator,"Comly/Townsend"
+info,inputter,"Comly/Townsend"
 info,inputtime,2013/08/26 12:54AM
 info,umphome,goetl901
 info,ump1b,pineb101
 info,ump2b,rearb901
 info,ump3b,campb901
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,fromlf
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,sunny
 info,timeofgame,127
 info,attendance,0
 info,wp,thomj102
@@ -11212,106 +11212,114 @@ start,crafh101,"Harry Craft",1,6,8
 start,bergw101,"Wally Berger",1,7,7
 start,myerb101,"Billy Myers",1,8,6
 start,thomj102,"Junior Thompson",1,9,1
-play,1,0,browj107,??,,13
-play,1,0,guttd101,??,,7/F
-play,1,0,slaue101,??,,S8/L
-play,1,0,medwj101,??,,D9.1-3
-play,1,0,mizej101,??,,IW
-play,1,0,padgd101,??,,64(1)/F
-play,1,1,werbb101,??,,E5/G
-play,1,1,freyl101,??,,13/SH.1-2
-play,1,1,goodi101,??,,7/F
-play,1,1,mccof101,??,,63
-play,2,0,moort102,??,,63
-play,2,0,marts103,??,,3/G
-play,2,0,davic103,??,,S7
-play,2,0,browj107,??,,E4/G.1-2
-play,2,0,guttd101,??,,2/FL
-play,2,1,lombe101,??,,D9/L
-play,2,1,crafh101,??,,S7.2-3
-play,2,1,bergw101,??,,6/P
-play,2,1,myerb101,??,,HR/7.3-H;1-H
-play,2,1,thomj102,??,,S9/9S
-play,2,1,werbb101,??,,2/FL
-play,2,1,freyl101,??,,S9/L.1-2
-play,2,1,goodi101,??,,NP
+play,1,0,browj107,,,13
+play,1,0,guttd101,,,7/F
+play,1,0,slaue101,,,S8/L
+play,1,0,medwj101,,,D9/F9LS.1-3
+play,1,0,mizej101,30,IIII,IW
+play,1,0,padgd101,00,X,64(1)/FO
+play,1,1,werbb101,00,X,E5/G56S
+com,"$Davis collided with Gutteridge"
+play,1,1,freyl101,00,X,13/SH.1-2
+play,1,1,goodi101,01,SX,7/F78
+play,1,1,mccof101,01,SX,63
+play,2,0,moort102,22,BFFBX,63
+play,2,0,marts103,01,FX,3/G
+play,2,0,davic103,21,BBFX,S7/L6D
+play,2,0,browj107,00,X,E4/G.1-2
+play,2,0,guttd101,00,X,2/P23F/FL
+play,2,1,lombe101,00,X,D9/F9DW
+play,2,1,crafh101,22,BSCBX,S7/L6D.2-3
+play,2,1,bergw101,00,X,6/P6MS
+play,2,1,myerb101,00,X,HR/F7D.3-H;1-H
+com,"$Hit atop LF wall and bounded over into York Street"
+play,2,1,thomj102,11,SBX,S9/F89S
+play,2,1,werbb101,11,BCX,2/P23F/FL
+play,2,1,freyl101,11,BCX,S9/L.1-2
+play,2,1,goodi101,00,,NP
 sub,shouc101,"Clyde Shoun",0,9,1
-play,2,1,goodi101,??,,7/F
-play,3,0,slaue101,??,,4/P
-play,3,0,medwj101,??,,S8
-play,3,0,mizej101,??,,D9.1-3
-play,3,0,padgd101,??,,IW
-play,3,0,moort102,??,,W.3-H;2-3;1-2
-play,3,0,marts103,??,,32(3)/FO.2-3;1-2
-play,3,0,shouc101,??,,NP
+play,2,1,goodi101,32,BBBCFX,7/F78D
+play,3,0,slaue101,00,X,4/P89S
+com,"$Frey: running over-the-shoulder catch"
+play,3,0,medwj101,00,X,S8/L
+play,3,0,mizej101,20,BBX,D9/L9L.1-3
+play,3,0,padgd101,30,IIII,IW
+play,3,0,moort102,31,BSBBB,W.3-H;2-3;1-2
+play,3,0,marts103,32,FFBBBX,32(3)/FO.2-3;1-2
+play,3,0,shouc101,00,,NP
 sub,hoppj102,"Johnny Hopp",0,9,11
-play,3,0,hoppj102,??,,K
-play,3,1,mccof101,??,,NP
+play,3,0,hoppj102,22,FCB*BS,K
+play,3,1,mccof101,00,,NP
 sub,bowmb103,"Bob Bowman",0,9,1
-play,3,1,mccof101,??,,S7
-play,3,1,lombe101,??,,S9.1-3
-play,3,1,crafh101,??,,6/P
-play,3,1,bergw101,??,,7/FDP.3XH(72)
-play,4,0,browj107,??,,43
-play,4,0,guttd101,??,,S8
-play,4,0,slaue101,??,,64(1)/FO
-play,4,0,medwj101,??,,63/6M
-play,4,1,myerb101,??,,9/F
-play,4,1,thomj102,??,,S/1
-play,4,1,werbb101,??,,54(1)3/GDP
-play,5,0,mizej101,??,,3/G
-play,5,0,padgd101,??,,43
-play,5,0,moort102,??,,W
-play,5,0,marts103,??,,9/F
-play,5,1,freyl101,??,,W
-play,5,1,goodi101,??,,53/SH.1-2
-play,5,1,mccof101,??,,8/L
-play,5,1,lombe101,??,,IW
-play,5,1,crafh101,??,,9/9D/F
-play,6,0,bowmb103,??,,NP
+play,3,1,mccof101,12,BFFX,S7/L6D
+play,3,1,lombe101,11,K*BX,S9/G34/TH3.1-3
+play,3,1,crafh101,10,BX,6/P6D
+play,3,1,bergw101,22,FBBFFFX,7/FDP.3XH(72)
+play,4,0,browj107,21,BCBX,43
+play,4,0,guttd101,00,X,S8/L8
+play,4,0,slaue101,01,1CX,64(1)/FO
+play,4,0,medwj101,02,S1FF1X,63/G6M
+com,"$Caromed off 2B bag to Myers; Medwick argued vehemently with"
+com,"decision at 1B."
+play,4,1,myerb101,22,FBBFFX,9/F89
+play,4,1,thomj102,01,FX,S8/G4M
+play,4,1,werbb101,00,X,54(1)3/GDP
+play,5,0,mizej101,22,BFBCX,3/G3L
+play,5,0,padgd101,10,BX,43
+play,5,0,moort102,31,CBBBB,W
+play,5,0,marts103,00,X,9/F9D
+play,5,1,freyl101,30,BBBB,W
+play,5,1,goodi101,00,1X,53/BG25/SH.1-2
+play,5,1,mccof101,01,CX,8/L8D
+play,5,1,lombe101,30,IIII,IW
+play,5,1,crafh101,01,SX,9/F9D
+play,6,0,bowmb103,00,,NP
 sub,kingl102,"Lynn King",0,9,11
-play,6,0,kingl102,??,,W
-play,6,0,browj107,??,,36(1)/FO
-play,6,0,guttd101,??,,64(1)3/GDP
-play,6,1,bergw101,??,,NP
+play,6,0,kingl102,31,BBBCB,W
+play,6,0,browj107,01,FX,36(1)/FO/G34S
+play,6,0,guttd101,00,X,64(1)3/GDP
+play,6,1,bergw101,00,,NP
 sub,warnl101,"Lon Warneke",0,9,1
-play,6,1,bergw101,??,,S8
-play,6,1,myerb101,??,,2/FL
-play,6,1,thomj102,??,,K#
-play,6,1,werbb101,??,,K
-play,7,0,slaue101,??,,K
-play,7,0,medwj101,??,,D9
-play,7,0,mizej101,??,,9/F
-play,7,0,padgd101,??,,23
-play,7,1,freyl101,??,,S8
-play,7,1,goodi101,??,,16(1)3/GDP
-play,7,1,mccof101,??,,D7/7D
-play,7,1,lombe101,??,,IW
-play,7,1,crafh101,??,,64(1)/FO
-play,8,0,moort102,??,,S8
-play,8,0,marts103,??,,4/FL
-play,8,0,warnl101,??,,NP
+play,6,1,bergw101,21,BBCX,S8/F8S
+play,6,1,myerb101,21,BCBX,2/BP23F/FL
+com,"$Padgett: diving catch"
+play,6,1,thomj102,12,CFBL,K/BF
+play,6,1,werbb101,12,BCCF>S,K
+play,7,0,slaue101,22,CCBBFFS,K
+play,7,0,medwj101,,,D9/G3L
+play,7,0,mizej101,32,BBFFFF2BFX,9/F9S/R6
+com,"$Myers tried the hidden-ball trick on Medwick"
+play,7,0,padgd101,11,BCX,23/G2
+play,7,1,freyl101,20,BBX,S8/L89S
+play,7,1,goodi101,11,FBX,16(1)3/GDP
+com,"$Warneke: leaping stop of high bounder"
+play,7,1,mccof101,32,CBBBFX,D7/L7DW
+play,7,1,lombe101,30,IIII,IW
+play,7,1,crafh101,00,X,64(1)/FO
+play,8,0,moort102,00,X,S8/G46
+play,8,0,marts103,12,SBFFX,4/P3DF/FL
+play,8,0,warnl101,00,,NP
 sub,martp103,"Pepper Martin",0,9,11
-play,8,0,martp103,??,,W.1-2
-play,8,0,browj107,??,,8/L
-play,8,0,guttd101,??,,K/C
-play,8,1,bergw101,??,,NP
+play,8,0,martp103,30,BBBB,W.1-2
+play,8,0,browj107,10,BX,8/L8
+play,8,0,guttd101,12,CSBC,K/C
+play,8,1,bergw101,00,,NP
 sub,weilb101,"Bob Weiland",0,9,1
-play,8,1,bergw101,??,,S7
-play,8,1,myerb101,??,,NP
+play,8,1,bergw101,11,BFX,S7/L7S
+play,8,1,myerb101,00,,NP
 sub,dimav101,"Vince DiMaggio",1,7,12
-play,8,1,myerb101,??,,43.1-2
-play,8,1,thomj102,??,,2/FL
-play,8,1,werbb101,??,,IW
-play,8,1,freyl101,??,,31
-play,9,0,slaue101,??,,NP
+play,8,1,myerb101,00,1X,43.1-2
+play,8,1,thomj102,20,BBX,2/P23F/FL
+play,8,1,werbb101,30,IIII,IW
+play,8,1,freyl101,10,BX,31
+play,9,0,slaue101,00,,NP
 sub,dimav101,"Vince DiMaggio",1,7,7
-play,9,0,slaue101,??,,K
-play,9,0,medwj101,??,,63
-play,9,0,mizej101,??,,S7/L
-play,9,0,padgd101,??,,NP
+play,9,0,slaue101,12,BCCS,K
+play,9,0,medwj101,21,BBCX,63/G6S
+play,9,0,mizej101,00,X,S7/L7S
+play,9,0,padgd101,22,BFBK,NP
 sub,lakee101,"Eddie Lake",0,5,12
-play,9,0,padgd101,??,,43
+play,9,0,padgd101,22,BFBK.X,43
 data,er,davic103,3
 data,er,shouc101,0
 data,er,bowmb103,0

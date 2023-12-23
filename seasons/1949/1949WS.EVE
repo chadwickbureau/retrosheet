@@ -9,31 +9,32 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,hubbc901
 info,ump1b,rearb901
 info,ump2b,passa901
 info,ump3b,jordl901
 info,umplf,hurle901
 info,umprf,barrg901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,602"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1994/06/10 7:43AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,wet
+info,precip,none
+info,sky,cloudy
 info,timeofgame,144
 info,attendance,66224
 info,wp,reyna102
 info,lp,newcd101
 info,save,
 info,gwrbi,
-start,reesp101,"Peewee Reese",0,1,6
+start,reesp101,"Pee Wee Reese",0,1,6
 start,jorgs101,"Spider Jorgensen",0,2,5
 start,snidd101,"Duke Snider",0,3,8
 start,robij103,"Jackie Robinson",0,4,4
@@ -51,69 +52,71 @@ start,johnb108,"Bill Johnson",1,6,5
 start,mapec101,"Cliff Mapes",1,7,9
 start,colej106,"Jerry Coleman",1,8,4
 start,reyna102,"Allie Reynolds",1,9,1
-play,1,0,reesp101,??,,3/G
-play,1,0,jorgs101,??,,D7/78D
-play,1,0,snidd101,??,,K
-play,1,0,robij103,??,,9
-play,1,1,rizzp101,??,,3/FL/BP
-play,1,1,henrt101,??,,63
-play,1,1,berry101,??,,6/P
-play,2,0,hermg101,??,,W
-play,2,0,furic101,??,,W.1-2
-play,2,0,hodgg101,??,,14(1)3/GDP.2-3
-play,2,0,campr102,??,,9
-play,2,1,dimaj101,??,,K
-play,2,1,lindj101,??,,S7
-play,2,1,johnb108,??,,K
-play,2,1,mapec101,??,,K
-play,3,0,newcd101,??,,63
-play,3,0,reesp101,??,,53/BG
-play,3,0,jorgs101,??,,43
-play,3,1,colej106,??,,K/C
-play,3,1,reyna102,??,,D7
-play,3,1,rizzp101,??,,4/P
-play,3,1,henrt101,??,,6/P
-play,4,0,snidd101,??,,5/FL
-play,4,0,robij103,??,,53
-play,4,0,hermg101,??,,9
-play,4,1,berry101,??,,63
-play,4,1,dimaj101,??,,4/P
-play,4,1,lindj101,??,,8
-play,5,0,furic101,??,,E4/G.B-1
-play,5,0,hodgg101,??,,53/SH.1-2
-play,5,0,campr102,??,,W
-play,5,0,newcd101,??,,K
-play,5,0,reesp101,??,,5(2)/FO
-play,5,1,johnb108,??,,K
-play,5,1,mapec101,??,,K
-play,5,1,colej106,??,,K
-play,6,0,jorgs101,??,,W
-play,6,0,snidd101,??,,K
-play,6,0,robij103,??,,8
-play,6,0,hermg101,??,,K
-play,6,1,reyna102,??,,S7
-play,6,1,rizzp101,??,,54(1)/FO
-play,6,1,henrt101,??,,8
-play,6,1,berry101,??,,K
-play,7,0,furic101,??,,3/P
-play,7,0,hodgg101,??,,K/C
-play,7,0,campr102,??,,K/C
-play,7,1,dimaj101,??,,4/P
-play,7,1,lindj101,??,,K/C
-play,7,1,johnb108,??,,53
-play,8,0,newcd101,??,,K/C
-play,8,0,reesp101,??,,S8
-play,8,0,jorgs101,??,,SB2
-play,8,0,jorgs101,??,,K
-play,8,0,snidd101,??,,K
-play,8,1,mapec101,??,,K
-play,8,1,colej106,??,,D9/9L
-play,8,1,reyna102,??,,K/C
-play,8,1,rizzp101,??,,8
-play,9,0,robij103,??,,63
-play,9,0,hermg101,??,,6/P
-play,9,0,furic101,??,,9
-play,9,1,henrt101,20,,HR/9D
+com,"Weather: warm and humid."
+com,"The batter's eye in CF was removed for additional seating."
+play,1,0,reesp101,12,CCBX,3/G3
+play,1,0,jorgs101,01,CX,D8/F78D
+play,1,0,snidd101,32,BBCBSS,K
+play,1,0,robij103,11,CBX,9/L9D
+play,1,1,rizzp101,11,BCX,3/BP23F/FL
+play,1,1,henrt101,31,BBBCX,63/G6
+play,1,1,berry101,11,FBX,6/P6D
+play,2,0,hermg101,32,BCBFBB,W
+play,2,0,furic101,32,*BBCB>F>B,W.1-2
+play,2,0,hodgg101,12,BLLX,14(1)3/GDP.2-3
+play,2,0,campr102,10,BX,9/F9
+play,2,1,dimaj101,12,BCFS,K
+play,2,1,lindj101,01,CX,S7/L
+play,2,1,johnb108,02,CFS,K
+play,2,1,mapec101,12,FBSS,K
+play,3,0,newcd101,01,CX,63/G6
+play,3,0,reesp101,01,CX,53/BG
+play,3,0,jorgs101,00,X,43/G4
+play,3,1,colej106,12,FBFC,K/C
+play,3,1,reyna102,11,FBX,D7/F7L
+play,3,1,rizzp101,11,FBX,4/P3D
+play,3,1,henrt101,10,BX,6/P56
+play,4,0,snidd101,32,BFBSBX,5/P5F/FL
+play,4,0,robij103,21,CBBX,53/G5
+play,4,0,hermg101,00,X,9/F89S
+play,4,1,berry101,02,FFX,63/G6M
+play,4,1,dimaj101,12,CFBX,4/P4MD
+play,4,1,lindj101,00,X,8/F8
+play,5,0,furic101,00,X,E4/G4.B-1
+play,5,0,hodgg101,01,SX,53/BG/SH.1-2
+play,5,0,campr102,32,CFBBBB,W
+play,5,0,newcd101,22,CBBSS,K
+play,5,0,reesp101,00,X,5(2)/FO/G5
+play,5,1,johnb108,02,CCS,K
+play,5,1,mapec101,22,FFBFFBS,K
+play,5,1,colej106,22,CBFBFS,K
+play,6,0,jorgs101,32,CCFBBBB,W
+play,6,0,snidd101,02,CSS,K
+play,6,0,robij103,32,B1B>F1FB>X,8/L78XD
+play,6,0,hermg101,02,CSS,K
+play,6,1,reyna102,22,LBBFX,S7/L
+play,6,1,rizzp101,22,P+1CLBX,54(1)/FO/R3
+play,6,1,henrt101,22,B+1B>FFX,8/F78XD
+play,6,1,berry101,22,1FPB+111SF1S,K
+play,7,0,furic101,00,X,3/P34
+play,7,0,hodgg101,32,BBSFFBC,K/C
+play,7,0,campr102,32,BBSBFC,K/C
+play,7,1,dimaj101,22,BFBFX,4/P4MS
+play,7,1,lindj101,22,CBBCC,K/C
+play,7,1,johnb108,10,BX,53/G5L
+play,8,0,newcd101,12,BSCC,K/C
+play,8,0,reesp101,11,CBX,S8/G46
+play,8,0,jorgs101,11,11BF>,SB2
+play,8,0,jorgs101,12,11BF>S.S,K
+play,8,0,snidd101,22,FBBCS,K
+play,8,1,mapec101,12,BCMT,K
+play,8,1,colej106,21,BFBX,D9/L9L
+play,8,1,reyna102,22,CSBBC,K/C
+play,8,1,rizzp101,11,BFX,8/F8D
+play,9,0,robij103,01,CX,63/G6
+play,9,0,hermg101,00,X,6/P6S
+play,9,0,furic101,22,FBCBFFX,9/F89S
+play,9,1,henrt101,20,BBX,HR/F9D
 data,er,newcd101,1
 data,er,reyna102,0
 id,NYA194910060
@@ -127,31 +130,32 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,rearb901
 info,ump1b,passa901
 info,ump2b,jordl901
 info,ump3b,hubbc901
 info,umplf,hurle901
 info,umprf,barrg901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,602"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1994/06/10 7:52AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,fromlf
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,wet
+info,precip,none
+info,sky,sunny
 info,timeofgame,150
 info,attendance,70053
 info,wp,roe-p101
 info,lp,rascv101
 info,save,
 info,gwrbi,
-start,reesp101,"Peewee Reese",0,1,6
+start,reesp101,"Pee Wee Reese",0,1,6
 start,jorgs101,"Spider Jorgensen",0,2,5
 start,snidd101,"Duke Snider",0,3,8
 start,robij103,"Jackie Robinson",0,4,4
@@ -169,91 +173,93 @@ start,johnb108,"Bill Johnson",1,6,5
 start,colej106,"Jerry Coleman",1,7,4
 start,silvc101,"Charlie Silvera",1,8,2
 start,rascv101,"Vic Raschi",1,9,1
-play,1,0,reesp101,??,,7
-play,1,0,jorgs101,??,,3/G
-play,1,0,snidd101,??,,63
-play,1,1,rizzp101,??,,S7/7L
-play,1,1,henrt101,??,,9
-play,1,1,baueh101,??,,4/FL
-play,1,1,dimaj101,??,,8
-play,2,0,robij103,??,,D7
-play,2,0,hermg101,??,,4/P3DF.2-3
-play,2,0,rackm101,??,,53
-play,2,0,hodgg101,??,,S7.3-H;B-2(E7)
-play,2,0,campr102,??,,IW
-play,2,0,roe-p101,??,,K
-play,2,1,lindj101,??,,9
-play,2,1,johnb108,??,,8
-play,2,1,colej106,??,,8
-play,3,0,reesp101,??,,63
-play,3,0,jorgs101,??,,2/FL
-play,3,0,snidd101,??,,43
-play,3,1,silvc101,??,,5/P
-play,3,1,rascv101,??,,63
-play,3,1,rizzp101,??,,E6/G.B-1
-play,3,1,henrt101,??,,SB2
-play,3,1,henrt101,??,,63
-play,4,0,robij103,??,,K
-play,4,0,hermg101,??,,T8/L
-play,4,0,rackm101,??,,FC4.3XH(42);B-1
-play,4,0,hodgg101,??,,9
-play,4,1,baueh101,??,,S8.BX2(86)
-play,4,1,dimaj101,??,,NP
+com,"Weather: cool"
+play,1,0,reesp101,22,CBFBX,7/F7
+play,1,0,jorgs101,11,BCX,3/G3
+play,1,0,snidd101,11,SBX,63/G6
+play,1,1,rizzp101,11,FBX,S7/L5D
+play,1,1,henrt101,11,1C1BX,9/F9L
+play,1,1,baueh101,21,B+1BFX,4/P3DF/FL
+play,1,1,dimaj101,31,1BBFB>X,8/F78XD
+play,2,0,robij103,22,CBBCX,D7/L5D
+play,2,0,hermg101,11,BSX,4/P3DF/FL.2-3
+play,2,0,rackm101,01,CX,53/G5S
+play,2,0,hodgg101,21,BCBX,S7/G56.3-H;B-2(E7)
+play,2,0,campr102,30,IIII,IW
+play,2,0,roe-p101,22,CCBBS,K
+play,2,1,lindj101,32,FBBBFX,9/F89S
+play,2,1,johnb108,32,BCBBFX,8/F8XD
+play,2,1,colej106,22,BCFFFBFX,8/F89
+play,3,0,reesp101,22,BCBCX,63/G6
+play,3,0,jorgs101,20,BBX,2/P2F/FL
+play,3,0,snidd101,11,BCX,43/G34
+play,3,1,silvc101,11,BFX,5/P5L
+play,3,1,rascv101,32,CBSFBFBX,63/G6
+play,3,1,rizzp101,11,BCX,E6/G6M.B-1
+play,3,1,henrt101,12,>FB1S>B,SB2
+play,3,1,henrt101,22,>FB1S>B.X,63/G6
+play,4,0,robij103,12,LCBS,K
+play,4,0,hermg101,00,X,T9/L89
+play,4,0,rackm101,11,SPX,FC4/G4S.3XH(42);B-1
+play,4,0,hodgg101,21,B1CP1X,9/F89
+play,4,1,baueh101,10,BX,S8/L89.BX2(86)
+com,"After the play Rackley limped off the field"
+play,4,1,dimaj101,00,,NP
 sub,olmol101,"Luis Olmo",0,6,7
-play,4,1,dimaj101,??,,K
-play,4,1,lindj101,??,,13
-play,5,0,campr102,??,,S7.BX2(74)
-play,5,0,roe-p101,??,,K/C
-play,5,0,reesp101,??,,53
-play,5,1,johnb108,??,,2/FL
-play,5,1,colej106,??,,D7
-play,5,1,silvc101,??,,63.2-3
-play,5,1,rascv101,??,,53
-play,6,0,jorgs101,??,,D7
-play,6,0,snidd101,??,,8
-play,6,0,robij103,??,,63.2-3
-play,6,0,hermg101,??,,3/G
-play,6,1,rizzp101,??,,3/G
-play,6,1,henrt101,??,,31
-play,6,1,baueh101,??,,53
-play,7,0,olmol101,??,,S9
-play,7,0,hodgg101,??,,64(1)3/GDP
-play,7,0,campr102,??,,7
-play,7,1,dimaj101,??,,53
-play,7,1,lindj101,??,,7
-play,7,1,johnb108,??,,S7
-play,7,1,colej106,??,,SB2
-play,7,1,colej106,??,,43
-play,8,0,roe-p101,??,,K
-play,8,0,reesp101,??,,63
-play,8,0,jorgs101,??,,4/L
-play,8,1,silvc101,??,,NP
+play,4,1,dimaj101,12,FBFS,K
+play,4,1,lindj101,12,CBCX,13/G1
+play,5,0,campr102,31,BBFBX,S7/G56.BX2(74)
+play,5,0,roe-p101,12,LSBC,K/C
+play,5,0,reesp101,32,BBCBCX,53/G5
+play,5,1,johnb108,00,X,2/P25F/FL
+play,5,1,colej106,01,CX,D7/G5L
+play,5,1,silvc101,00,X,63/G56.2-3
+play,5,1,rascv101,12,CFBX,53/G5S
+play,6,0,jorgs101,11,CBX,D7/F7LS
+play,6,0,snidd101,11,BSX,8/F8S
+play,6,0,robij103,12,BFFX,63/G6.2-3
+play,6,0,hermg101,20,BBX,3/G3S
+play,6,1,rizzp101,12,CBCX,3/G3
+play,6,1,henrt101,20,BBX,31/G34
+play,6,1,baueh101,31,BBCBX,53/G5
+play,7,0,olmol101,12,CFBX,S9/L9S
+play,7,0,hodgg101,10,BX,64(1)3/GDP/G56
+play,7,0,campr102,21,BBCX,7/F78XD
+play,7,1,dimaj101,11,BFX,53/G5L
+play,7,1,lindj101,10,BX,7/F7
+play,7,1,johnb108,21,BBCX,S7/L7
+play,7,1,colej106,11,B11C>B,SB2
+play,7,1,colej106,21,B11C>B.X,43/G34
+play,8,0,roe-p101,22,BSSBS,K
+play,8,0,reesp101,20,BBX,63/G6
+play,8,0,jorgs101,00,X,4/L4
+play,8,1,silvc101,00,,NP
 sub,mizej101,"Johnny Mize",1,8,11
-play,8,1,mizej101,??,,S9
-play,8,1,rascv101,??,,NP
+play,8,1,mizej101,11,CBX,S9/L9S
+play,8,1,rascv101,00,,NP
 sub,stirs101,"Snuffy Stirnweiss",1,8,12
-play,8,1,rascv101,??,,NP
+play,8,1,rascv101,00,,NP
 sub,browb105,"Bobby Brown",1,9,11
-play,8,1,browb105,??,,K/C
-play,8,1,rizzp101,??,,E1/G/SH.1-2;B-1
-play,8,1,henrt101,??,,7
-play,8,1,baueh101,??,,54(1)/FO
-play,9,0,snidd101,??,,NP
+play,8,1,browb105,12,1CBCC,K/C
+play,8,1,rizzp101,11,1BFX,E1/BG25/SH.1-2;B-1
+play,8,1,henrt101,32,BBSFFFB>FX,7/F7D
+play,8,1,baueh101,31,BBBCX,54(1)/FO/G5
+play,9,0,snidd101,00,,NP
 sub,niarg101,"Gus Niarhos",1,8,2
-play,9,0,snidd101,??,,NP
+play,9,0,snidd101,00,,NP
 sub,pagej101,"Joe Page",1,9,1
-play,9,0,snidd101,??,,S7
-play,9,0,robij103,??,,34/SH.1-2
-play,9,0,hermg101,??,,NP
+play,9,0,snidd101,11,FBX,S7/G56
+play,9,0,robij103,10,1BX,34/BG/SH.1-2
+play,9,0,hermg101,00,,NP
 sub,furic101,"Carl Furillo",0,5,11
-play,9,0,furic101,??,,4/P
-play,9,0,olmol101,??,,63
-play,9,1,dimaj101,??,,NP
+play,9,0,furic101,01,FX,4/P34D
+play,9,0,olmol101,10,BX,63/G6
+play,9,1,dimaj101,00,,NP
 sub,mccom101,"Mike McCormick",0,5,9
-play,9,1,dimaj101,??,,S5/G
-play,9,1,lindj101,??,,K
-play,9,1,johnb108,??,,4/P
-play,9,1,colej106,??,,9
+play,9,1,dimaj101,02,FCX,S5/G56S
+play,9,1,lindj101,12,P+1S1LS,K
+play,9,1,johnb108,12,11BCFFX,4/P34
+play,9,1,colej106,11,BFX,9/F89
 data,er,roe-p101,0
 data,er,rascv101,1
 data,er,pagej101,0
@@ -268,24 +274,25 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,passa901
 info,ump1b,jordl901
 info,ump2b,hubbc901
 info,ump3b,rearb901
 info,umplf,barrg901
 info,umprf,hurle901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,602"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1994/06/10 8:02AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,fromrf
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,overcast
 info,timeofgame,150
 info,attendance,32788
 info,wp,pagej101
@@ -301,7 +308,7 @@ start,woodg101,"Gene Woodling",0,6,7
 start,mapec101,"Cliff Mapes",0,7,9
 start,colej106,"Jerry Coleman",0,8,4
 start,byrnt101,"Tommy Byrne",0,9,1
-start,reesp101,"Peewee Reese",1,1,6
+start,reesp101,"Pee Wee Reese",1,1,6
 start,mikse101,"Eddie Miksis",1,2,5
 start,furic101,"Carl Furillo",1,3,9
 start,robij103,"Jackie Robinson",1,4,4
@@ -310,90 +317,90 @@ start,olmol101,"Luis Olmo",1,6,7
 start,snidd101,"Duke Snider",1,7,8
 start,campr102,"Roy Campanella",1,8,2
 start,branr103,"Ralph Branca",1,9,1
-play,1,0,rizzp101,??,,53
-play,1,0,henrt101,??,,3/G
-play,1,0,berry101,??,,K
-play,1,1,reesp101,??,,HP
-play,1,1,mikse101,??,,2(B)4(1)/FL/DP
-play,1,1,furic101,??,,8
-play,2,0,dimaj101,??,,K
-play,2,0,browb105,??,,4/P
-play,2,0,woodg101,??,,5/FL
-play,2,1,robij103,??,,4/P
-play,2,1,hodgg101,??,,2/FL
-play,2,1,olmol101,??,,53
-play,3,0,mapec101,??,,W
-play,3,0,colej106,??,,K/C
-play,3,0,byrnt101,??,,S8.1-3
-play,3,0,rizzp101,??,,9.3-H
-play,3,0,henrt101,??,,W.1-2
-play,3,0,berry101,??,,4/P
-play,3,1,snidd101,??,,7
-play,3,1,campr102,??,,53
-play,3,1,branr103,??,,K23
-play,4,0,dimaj101,??,,K
-play,4,0,browb105,??,,5/FL
-play,4,0,woodg101,??,,D9/9DW
-play,4,0,mapec101,??,,41
-play,4,1,reesp101,??,,HR/78D
-play,4,1,mikse101,??,,8
-play,4,1,furic101,??,,S7
-play,4,1,robij103,??,,W.1-2
-play,4,1,hodgg101,??,,W.2-3;1-2
-play,4,1,olmol101,??,,NP
+play,1,0,rizzp101,12,FCBFX,53/G56
+play,1,0,henrt101,12,CBCX,3/G3
+play,1,0,berry101,12,FBFFFS,K
+play,1,1,reesp101,12,CBSH,HP
+play,1,1,mikse101,32,LBBBC>X,2(B)4(1)/DP/P25F/FL
+play,1,1,furic101,00,X,8/F89XD
+play,2,0,dimaj101,12,CBSS,K
+play,2,0,browb105,00,X,4/P4MD
+play,2,0,woodg101,22,BCCBX,5/P25F/FL
+play,2,1,robij103,00,X,4/P3D
+play,2,1,hodgg101,12,CBCX,2/P25F/FL
+play,2,1,olmol101,22,BBCFX,53/G5S
+play,3,0,mapec101,32,CBBTFBB,W
+play,3,0,colej106,02,CFFC+1,K/C
+play,3,0,byrnt101,21,CBB>X,S8/G4M.1-3
+play,3,0,rizzp101,02,CLX,9/F89/THH.3-H
+play,3,0,henrt101,30,BBBB,W.1-2
+play,3,0,berry101,10,BX,4/P4
+play,3,1,snidd101,11,BCX,7/F78S
+play,3,1,campr102,00,X,53/G5
+play,3,1,branr103,02,CCS,K23
+play,4,0,dimaj101,12,SFBS,K
+play,4,0,browb105,10,BX,5/P5F/FL
+play,4,0,woodg101,11,BCX,D9/L89XDW
+play,4,0,mapec101,10,BX,41/G34
+play,4,1,reesp101,01,CX,HR/F78XD
+play,4,1,mikse101,10,BX,8/L8XD
+play,4,1,furic101,00,X,S7/G56
+play,4,1,robij103,30,BBBB,W.1-2
+play,4,1,hodgg101,31,BBBCB,W.2-3;1-2
+play,4,1,olmol101,00,,NP
 sub,pagej101,"Joe Page",0,9,1
-play,4,1,olmol101,??,,3/FL
-play,4,1,snidd101,??,,43
-play,5,0,colej106,??,,8
-play,5,0,pagej101,??,,K
-play,5,0,rizzp101,??,,63
-play,5,1,campr102,??,,43
-play,5,1,branr103,??,,K/C
-play,5,1,reesp101,??,,13/G1
-play,6,0,henrt101,??,,9
-play,6,0,berry101,??,,3/G
-play,6,0,dimaj101,??,,3/P
-play,6,1,mikse101,??,,9
-play,6,1,furic101,??,,43
-play,6,1,robij103,??,,W
-play,6,1,hodgg101,??,,8
-play,7,0,browb105,??,,43
-play,7,0,woodg101,??,,8
-play,7,0,mapec101,??,,8
-play,7,1,olmol101,??,,2/FL
-play,7,1,snidd101,??,,3/G
-play,7,1,campr102,??,,7
-play,8,0,colej106,??,,K/C
-play,8,0,pagej101,??,,63
-play,8,0,rizzp101,??,,6/P
-play,8,1,branr103,??,,K/C
-play,8,1,reesp101,??,,W
-play,8,1,mikse101,??,,S7.1-2
-play,8,1,furic101,??,,9
-play,8,1,robij103,??,,8
-play,9,0,henrt101,??,,43
-play,9,0,berry101,??,,W
-play,9,0,dimaj101,??,,5/FL
-play,9,0,browb105,??,,S9.1-2
-play,9,0,woodg101,??,,W.2-3;1-2
-play,9,0,mapec101,??,,NP
+play,4,1,olmol101,12,CBSX,3/P3F/FL
+play,4,1,snidd101,00,X,43/G4
+play,5,0,colej106,02,CSX,8/F8
+play,5,0,pagej101,02,CCS,K
+play,5,0,rizzp101,32,FBFBBX,63/G6
+play,5,1,campr102,22,CCBFFBX,43/G4
+play,5,1,branr103,32,BCSFBBC,K/C
+play,5,1,reesp101,32,BCFBBX,13/G1
+play,6,0,henrt101,22,SBBCX,9/F9S
+play,6,0,berry101,01,CX,3/G3
+play,6,0,dimaj101,01,CX,3/P3L
+play,6,1,mikse101,21,BBCX,9/F89
+play,6,1,furic101,10,BX,43/G4
+play,6,1,robij103,30,BBBB,W
+play,6,1,hodgg101,00,X,8/F8
+play,7,0,browb105,00,X,43/G4
+play,7,0,woodg101,12,CBFX,8/F8D
+play,7,0,mapec101,22,FBFBX,8/F8D
+play,7,1,olmol101,??,,2/P2F/FL
+play,7,1,snidd101,01,FX,3/G34
+play,7,1,campr102,??,,7/F78D
+play,8,0,colej106,22,BCSBC,K/C
+play,8,0,pagej101,11,BFX,63/G6M
+play,8,0,rizzp101,00,X,6/P56D
+play,8,1,branr103,12,FCBC,K/C
+play,8,1,reesp101,31,BBCBB,W
+play,8,1,mikse101,11,1C+1PX,S7/G56.1-2
+play,8,1,furic101,??,,9/F89
+play,8,1,robij103,??,,8/L8
+play,9,0,henrt101,??,,43/G34D
+play,9,0,berry101,32,BBKKBFB,W
+play,9,0,dimaj101,22,BF*BSX,5/P5F/FL
+play,9,0,browb105,01,FX,S9/G34.1-2
+play,9,0,woodg101,32,FBBBC>*B,W.2-3;1-2
+play,9,0,mapec101,00,,NP
 sub,mizej101,"Johnny Mize",0,7,11
-play,9,0,mizej101,??,,S9/9DW.3-H;2-H;1-3
-play,9,0,colej106,??,,NP
-sub,bantj101,"Jack Banta",1,9,1
-play,9,0,colej106,??,,NP
+play,9,0,mizej101,21,BCBX,S9/L9DW.3-H;2-H;1-3
+play,9,0,colej106,00,,NP
 sub,baueh101,"Hank Bauer",0,7,12
-play,9,0,colej106,??,,S8.3-H;1-3
-play,9,0,pagej101,??,,K
-play,9,1,hodgg101,??,,NP
+play,9,0,colej106,00,,NP
+sub,bantj101,"Jack Banta",1,9,1
+play,9,0,colej106,02,LCX,S8/G4M.3-H;1-3
+play,9,0,pagej101,22,BBFFS,K
+play,9,1,hodgg101,00,,NP
 sub,baueh101,"Hank Bauer",0,7,9
-play,9,1,hodgg101,??,,43
-play,9,1,olmol101,??,,HR/7D
-play,9,1,snidd101,??,,K
-play,9,1,campr102,??,,HR/7D
-play,9,1,bantj101,??,,NP
+play,9,1,hodgg101,01,LX,43/G4
+play,9,1,olmol101,??,,HR/F7D
+play,9,1,snidd101,02,CCFS,K
+play,9,1,campr102,12,FFBFX,HR/F7D
+play,9,1,bantj101,00,,NP
 sub,edwab101,"Bruce Edwards",1,9,11
-play,9,1,edwab101,??,,K/C
+play,9,1,edwab101,12,KSBC,K/C
 data,er,byrnt101,1
 data,er,pagej101,2
 data,er,branr103,4
@@ -409,24 +416,25 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,jordl901
 info,ump1b,hubbc901
 info,ump2b,rearb901
 info,ump3b,passa901
 info,umplf,hurle901
 info,umprf,barrg901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,602"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1994/06/10 8:12PM
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,75
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,overcast
 info,timeofgame,162
 info,attendance,33934
 info,wp,lopae101
@@ -442,7 +450,7 @@ start,woodg101,"Gene Woodling",0,6,7
 start,mapec101,"Cliff Mapes",0,7,9
 start,colej106,"Jerry Coleman",0,8,4
 start,lopae101,"Eddie Lopat",0,9,1
-start,reesp101,"Peewee Reese",1,1,6
+start,reesp101,"Pee Wee Reese",1,1,6
 start,mikse101,"Eddie Miksis",1,2,5
 start,snidd101,"Duke Snider",1,3,8
 start,robij103,"Jackie Robinson",1,4,4
@@ -451,109 +459,108 @@ start,olmol101,"Luis Olmo",1,6,7
 start,campr102,"Roy Campanella",1,7,2
 start,hermg101,"Gene Hermanski",1,8,9
 start,newcd101,"Don Newcombe",1,9,1
-play,1,0,rizzp101,??,,S8
-play,1,0,henrt101,??,,S9.1-3
-play,1,0,berry101,??,,FC5/DP/RINT.3XH(52);1X3(24)
-com,"$Phil Rizzuto called for interference for running out of the"
-com,"baseline to elude Roy Campanella's tag; Tommy Henrich rounded"
-com,"2B too far"
-play,1,0,dimaj101,??,,W.1-2
-play,1,0,browb105,??,,W.2-3;1-2
-play,1,0,woodg101,??,,8/L
-play,1,1,reesp101,??,,D7/78XDW
-play,1,1,mikse101,??,,23
-play,1,1,snidd101,??,,53
-play,1,1,robij103,??,,63
-play,2,0,mapec101,??,,13/G1
-play,2,0,colej106,??,,2/FL
-play,2,0,lopae101,??,,8
-play,2,1,hodgg101,??,,7
-play,2,1,olmol101,??,,7
-play,2,1,campr102,??,,13
-play,3,0,rizzp101,??,,53
-play,3,0,henrt101,??,,31
-play,3,0,berry101,??,,9
-play,3,1,hermg101,??,,K
-play,3,1,newcd101,??,,K
-play,3,1,reesp101,??,,3/P
-play,4,0,dimaj101,??,,8
-play,4,0,browb105,??,,D8/78XDW
-play,4,0,woodg101,??,,W
-play,4,0,mapec101,??,,D7/7L.2-H;1-H
-play,4,0,colej106,??,,7/FL
-play,4,0,lopae101,??,,D7/78XDW.2-H
-play,4,0,rizzp101,??,,NP
+com,"Weather: warm and humid"
+play,1,0,rizzp101,10,BX,S8/L
+play,1,0,henrt101,22,BFPFFF1F1FX,S9/G34/TH3.1-3
+play,1,0,berry101,12,BFFX,FC5/DP/RINT.3XH(52);1X3(24);B-1
+com,"Rizzuto ran out of the baseline to avoid Campanella tag."
+com,"Henrich was then caught off 2B."
+play,1,0,dimaj101,31,BBS+1B>B,W.1-2
+play,1,0,browb105,30,*B*BBB,W.2-3;1-2
+play,1,0,woodg101,21,BBC+3X,8/F8XD
+play,1,1,reesp101,01,CX,D8/L78D
+play,1,1,mikse101,00,X,23/G2.2-2
+play,1,1,snidd101,10,BX,53/G56.2-2
+play,1,1,robij103,00,X,63/G6M
+play,2,0,mapec101,10,BX,13/G1
+play,2,0,colej106,10,BX,2/P2F/FL
+play,2,0,lopae101,12,CBSX,8/F8XD
+play,2,1,hodgg101,21,BBCX,7/F7
+play,2,1,olmol101,00,X,7/F7
+play,2,1,campr102,10,BX,13/G3S
+play,3,0,rizzp101,11,CBX,53/G5
+play,3,0,henrt101,20,BBX,31/G3
+play,3,0,berry101,11,BFX,9/F89D
+play,3,1,hermg101,32,SBSFBFFBS,K
+play,3,1,newcd101,12,CSBS,K
+play,3,1,reesp101,22,CBCBX,3/P34S
+play,4,0,dimaj101,11,CBX,8/F78XDW
+play,4,0,browb105,22,FSBBFFX,D8/L78D
+play,4,0,woodg101,30,BBBB,W
+play,4,0,mapec101,10,BX,D7/F7LD.2-H;1-H
+play,4,0,colej106,01,CX,7/F7LF/FL
+play,4,0,lopae101,10,BX,D7/L78.2-H
+play,4,0,rizzp101,00,,NP
 sub,hattj101,"Joe Hatten",1,9,1
-play,4,0,rizzp101,??,,S7.2XH(72)
-play,4,1,mikse101,??,,K/C
-play,4,1,snidd101,??,,9
-play,4,1,robij103,??,,W
-play,4,1,hodgg101,??,,K
-play,5,0,henrt101,??,,W
-play,5,0,berry101,??,,S9/G.1-3(E5);B-2
-com,"$Eddie Miksis muffed Gene Hermanski's throw"
-play,5,0,dimaj101,??,,IW
-play,5,0,browb105,??,,T9/L.3-H;2-H;1-H
-play,5,0,woodg101,??,,8
-play,5,0,mapec101,??,,NP
+play,4,0,rizzp101,21,CBBX,S7/G56.2XH(72)
+play,4,1,mikse101,12,CSBC,K/C
+play,4,1,snidd101,??,,9/F89
+play,4,1,robij103,30,BBBB,W
+play,4,1,hodgg101,02,CCS,K
+play,5,0,henrt101,32,SFBBBB,W
+play,5,0,berry101,20,BBX,S9/G34/TH3.1-3(E5);B-2
+play,5,0,dimaj101,30,IIII,IW
+play,5,0,browb105,22,CBFBFX,T9/L3D.3-H;2-H;1-H
+play,5,0,woodg101,11,BFX,8/F8S
+play,5,0,mapec101,00,,NP
 sub,baueh101,"Hank Bauer",0,7,11
-play,5,0,baueh101,??,,9/L
-play,5,0,colej106,??,,63
-play,5,1,olmol101,??,,NP
+play,5,0,baueh101,21,*BFBX,9/F89S
+play,5,0,colej106,00,X,63/G6
+play,5,1,olmol101,00,,NP
 sub,baueh101,"Hank Bauer",0,7,9
-play,5,1,olmol101,??,,2/FL
-play,5,1,campr102,??,,63
-play,5,1,hermg101,??,,S9
-play,5,1,hattj101,??,,NP
+play,5,1,olmol101,00,X,2/P25F/FL
+play,5,1,campr102,00,X,63/G56
+play,5,1,hermg101,11,BFX,S9/G34
+play,5,1,hattj101,00,,NP
 sub,browt103,"Tommy Brown",1,9,11
-play,5,1,browt103,??,,9
-play,6,0,lopae101,??,,NP
+play,5,1,browt103,00,X,9/F9S
+play,6,0,lopae101,00,,NP
 sub,erskc101,"Carl Erskine",1,9,1
-play,6,0,lopae101,??,,3/P
-play,6,0,rizzp101,??,,7
-play,6,0,henrt101,??,,S9/9DW
-play,6,0,berry101,??,,4/P
-play,6,1,reesp101,??,,S8
-play,6,1,mikse101,??,,NP
+play,6,0,lopae101,??,,3/P23
+play,6,0,rizzp101,11,FBX,7/F78D
+play,6,0,henrt101,??,,S9/L9LDW
+play,6,0,berry101,11,CBX,4/P4M
+play,6,1,reesp101,21,BCBX,S8/F89S
+play,6,1,mikse101,00,,NP
 sub,cox-b101,"Billy Cox",1,2,11
-play,6,1,cox-b101,??,,S5/G.1-2
-play,6,1,snidd101,??,,6(1)3/GDP.2-3
-play,6,1,robij103,??,,S7.3-H
-play,6,1,hodgg101,??,,S8.1-3
-play,6,1,olmol101,??,,S8.3-H;1-3
-play,6,1,campr102,??,,S7.3-H;1-2
-play,6,1,hermg101,??,,S9.2-H;1-3
-play,6,1,erskc101,??,,NP
+play,6,1,cox-b101,??,,S1/G25.1-2
+play,6,1,snidd101,12,FFBX,6(1)3/GDP/G6M.2-3
+play,6,1,robij103,11,SBX,S7/L.3-H
+play,6,1,hodgg101,01,FX,S8/G46/TH3.1-3
+play,6,1,olmol101,01,CX,S8/G6M.3-H;1-3
+play,6,1,campr102,??,,S7/L.3-H;1-2
+play,6,1,hermg101,11,FBX,S9/L.2-H;1-3
+play,6,1,erskc101,00,,NP
 sub,reyna102,"Allie Reynolds",0,9,1
-play,6,1,erskc101,??,,NP
+play,6,1,erskc101,00,,NP
 sub,jorgs101,"Spider Jorgensen",1,9,11
-play,6,1,jorgs101,??,,K/C
-play,7,0,dimaj101,??,,NP
+play,6,1,jorgs101,02,CFC,K/C
+play,7,0,dimaj101,00,,NP
 sub,cox-b101,"Billy Cox",1,2,5
-play,7,0,dimaj101,??,,NP
+play,7,0,dimaj101,00,,NP
 sub,bantj101,"Jack Banta",1,9,1
-play,7,0,dimaj101,??,,43
-play,7,0,browb105,??,,43
-play,7,0,woodg101,??,,43
-play,7,1,reesp101,??,,9/L
-play,7,1,cox-b101,??,,8
-play,7,1,snidd101,??,,K
-play,8,0,baueh101,??,,63
-play,8,0,colej106,??,,9
-play,8,0,reyna102,??,,2/FL
-play,8,1,robij103,??,,53
-play,8,1,hodgg101,??,,63
-play,8,1,olmol101,??,,K/C
-play,9,0,rizzp101,??,,W
-play,9,0,henrt101,??,,S9.1-3
-play,9,0,berry101,??,,PO3(25)
-play,9,0,berry101,??,,9
-play,9,0,dimaj101,??,,K
-play,9,1,campr102,??,,53
-play,9,1,hermg101,??,,K
-play,9,1,bantj101,??,,NP
+play,7,0,dimaj101,02,FSX,43/G4
+play,7,0,browb105,11,BSX,43/G4
+play,7,0,woodg101,21,BCBX,43/G4
+play,7,1,reesp101,??,,9/L89
+play,7,1,cox-b101,21,BBFX,8/F8D
+play,7,1,snidd101,12,SBFS,K
+play,8,0,baueh101,??,,63/G6M
+play,8,0,colej106,10,BX,9/F9S
+play,8,0,reyna102,10,BX,2/P2F/FL
+play,8,1,robij103,22,CBCBX,53/G5
+play,8,1,hodgg101,??,,63/G6
+play,8,1,olmol101,32,BCBBCC,K/C
+play,9,0,rizzp101,30,BBBB,W
+play,9,0,henrt101,10,1BX,S9/G34.1-3
+play,9,0,berry101,11,FP+3,PO3(25)
+play,9,0,berry101,31,FP+3.BBX,9/F9L
+play,9,0,dimaj101,12,FP+1CS,K
+play,9,1,campr102,??,,53/G5
+play,9,1,hermg101,32,BFSBBS,K
+play,9,1,bantj101,00,,NP
 sub,whitd103,"Dick Whitman",1,9,11
-play,9,1,whitd103,??,,K
+play,9,1,whitd103,12,BCFS,K
 data,er,lopae101,4
 data,er,reyna102,0
 data,er,newcd101,3
@@ -568,27 +575,28 @@ info,hometeam,BRO
 info,date,1949/10/09
 info,site,NYC15
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,hubbc901
 info,ump1b,rearb901
 info,ump2b,passa901
 info,ump3b,jordl901
 info,umplf,barrg901
 info,umprf,hurle901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,602"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1994/06/10 8:23PM
 info,howscored,unknown
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,80
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,184
 info,attendance,33711
 info,wp,rascv101
@@ -604,7 +612,7 @@ start,woodg101,"Gene Woodling",0,6,7
 start,mapec101,"Cliff Mapes",0,7,9
 start,colej106,"Jerry Coleman",0,8,4
 start,rascv101,"Vic Raschi",0,9,1
-start,reesp101,"Peewee Reese",1,1,6
+start,reesp101,"Pee Wee Reese",1,1,6
 start,jorgs101,"Spider Jorgensen",1,2,5
 start,snidd101,"Duke Snider",1,3,8
 start,robij103,"Jackie Robinson",1,4,4
@@ -613,120 +621,121 @@ start,hodgg101,"Gil Hodges",1,6,3
 start,rackm101,"Marv Rackley",1,7,7
 start,campr102,"Roy Campanella",1,8,2
 start,barnr103,"Rex Barney",1,9,1
-play,1,0,rizzp101,??,,W
-play,1,0,henrt101,??,,W.1-2
-play,1,0,berry101,??,,PO2(E1).2-3;1-2
-play,1,0,berry101,??,,K
-play,1,0,dimaj101,??,,8/F8D.3-H;2-3
-play,1,0,browb105,??,,S8.3-H
-play,1,0,woodg101,??,,W.1-2
-play,1,0,mapec101,??,,K/C
-play,1,1,reesp101,??,,63
-play,1,1,jorgs101,??,,53
-play,1,1,snidd101,??,,K
-play,2,0,colej106,??,,6/P
-play,2,0,rascv101,??,,W
-play,2,0,rizzp101,??,,3/SH.1-2
-play,2,0,henrt101,??,,31
-play,2,1,robij103,??,,4/L
-play,2,1,hermg101,??,,9
-play,2,1,hodgg101,??,,63
-play,3,0,berry101,??,,13
-play,3,0,dimaj101,??,,8/L
-play,3,0,browb105,??,,W
-play,3,0,woodg101,??,,S8.1-3
-play,3,0,mapec101,??,,W.1-2
-play,3,0,colej106,??,,S7.3-H;2-H;1-2
-play,3,0,rascv101,??,,NP
+play,1,0,rizzp101,30,BBBB,W
+play,1,0,henrt101,31,BBC+1B>B,W.1-2
+play,1,0,berry101,32,BCSF*BB2,PO2(E1).2-3;1-2
+play,1,0,berry101,32,BCSF*BB2.FS,K
+play,1,0,dimaj101,10,BX,8/F8XDW.3-H;2-3
+play,1,0,browb105,10,BX,S8/G4M.3-H
+play,1,0,woodg101,32,BC+1B1FB>B,W.1-2
+play,1,0,mapec101,32,CFBBFB>C,K/C
+play,1,1,reesp101,01,CX,63/G6
+play,1,1,jorgs101,01,CX,53/G5
+play,1,1,snidd101,12,CBSS,K
+play,2,0,colej106,01,CX,6/P5D
+play,2,0,rascv101,32,BBCBCB,W
+play,2,0,rizzp101,11,BCX,3/BG23/SH.1-2
+play,2,0,henrt101,00,X,31/G34
+play,2,1,robij103,10,BX,4/L4
+play,2,1,hermg101,22,CBBFX,9/F89
+play,2,1,hodgg101,11,CBX,63/G56
+play,3,0,berry101,00,X,13/G1
+play,3,0,dimaj101,10,BX,8/L8
+play,3,0,browb105,30,BBBB,W
+play,3,0,woodg101,01,CX,S8/G4M.1-3
+play,3,0,mapec101,32,FBBSFB>B,W.1-2
+play,3,0,colej106,10,BX,S7/G56/TH2.3-H;2-H;1-2
+play,3,0,rascv101,00,,NP
 sub,bantj101,"Jack Banta",1,9,1
-play,3,0,rascv101,??,,S8.2-H;1-2
-play,3,0,rizzp101,??,,8
-play,3,1,rackm101,??,,K
-play,3,1,campr102,??,,D7
-play,3,1,bantj101,??,,3/G.2-3
-play,3,1,reesp101,??,,S9.3-H
-play,3,1,jorgs101,??,,6/P
-play,4,0,henrt101,??,,43
-play,4,0,berry101,??,,3/L
-play,4,0,dimaj101,??,,HR/7D
-play,4,0,browb105,??,,K
-play,4,1,snidd101,??,,K
-play,4,1,robij103,??,,S8
-play,4,1,hermg101,??,,7
-play,4,1,hodgg101,??,,S9/9DW.1-3
-play,4,1,rackm101,??,,K
-play,5,0,woodg101,??,,D9/9DW
-play,5,0,mapec101,??,,13/SH.2-3
-play,5,0,colej106,??,,3/G.3-H
-play,5,0,rascv101,??,,K/C
-play,5,1,campr102,??,,6/L
-play,5,1,bantj101,??,,NP
+play,3,0,rascv101,01,SX,S8/G6M/TH2.2-H;1-2
+play,3,0,rizzp101,32,FBBBC>X,8/F78
+play,3,1,rackm101,02,CFT,K
+play,3,1,campr102,21,BCBX,D7/G5L
+play,3,1,bantj101,01,CX,3/G3.2-3
+play,3,1,reesp101,12,BCFX,S9/G34.3-H
+play,3,1,jorgs101,00,X,6/P6MD
+play,4,0,henrt101,21,BSBX,43/G4
+play,4,0,berry101,31,BBBCX,3/L3
+play,4,0,dimaj101,20,BBX,HR/F7LD
+play,4,0,browb105,02,CCS,K
+play,4,1,snidd101,02,CSS,K
+play,4,1,robij103,01,CX,S8/G46
+play,4,1,hermg101,00,X,7/F7S
+play,4,1,hodgg101,21,BBCX,S9/L9LDW.1-3
+play,4,1,rackm101,32,BBCBC>S,K
+play,5,0,woodg101,21,BCBX,D8/L89XDW
+play,5,0,mapec101,21,BBMX,13/BG1S/SH.2-3
+play,5,0,colej106,00,X,3/G3/R2.3-H
+play,5,0,rascv101,02,CSC,K/C
+play,5,1,campr102,22,CCBBFFX,6/L6
+play,5,1,bantj101,00,,NP
 sub,browt103,"Tommy Brown",1,9,11
-play,5,1,browt103,??,,K
-play,5,1,reesp101,??,,S7
-play,5,1,jorgs101,??,,3/G
-play,6,0,rizzp101,??,,NP
+play,5,1,browt103,12,CBFS,K
+play,5,1,reesp101,01,CX,S7/L5D
+play,5,1,jorgs101,00,X,3/G3
+play,6,0,rizzp101,00,,NP
 sub,erskc101,"Carl Erskine",1,9,1
-play,6,0,rizzp101,??,,W
-play,6,0,henrt101,??,,S7.1-3
-play,6,0,berry101,??,,7/F7D.3-H
-play,6,0,dimaj101,??,,4/P
-play,6,0,browb105,??,,T9/9DW.1-H;B-H(E4/THH)
-play,6,0,woodg101,??,,NP
+play,6,0,rizzp101,30,BBBB,W
+play,6,0,henrt101,01,C>X,S7/L6D.1-3
+play,6,0,berry101,01,FX,7/F7D/TH2.3-H
+play,6,0,dimaj101,00,X,4/P34D
+play,6,0,browb105,00,X,T9/F9LDW.1-H;B-H(E4/THH)
+play,6,0,woodg101,00,,NP
 sub,hattj101,"Joe Hatten",1,9,1
-play,6,0,woodg101,??,,D8/78XDW
-play,6,0,mapec101,??,,7
-play,6,1,snidd101,??,,D8/78XDW
-play,6,1,robij103,??,,W
-play,6,1,hermg101,??,,S9.2-H;1-3(E9)
-play,6,1,hodgg101,??,,K
-play,6,1,rackm101,??,,3/G.1-2
-play,6,1,campr102,??,,W
-play,6,1,hattj101,??,,NP
+play,6,0,woodg101,21,CBBX,D7/L78
+play,6,0,mapec101,10,BX,7/F7S
+play,6,1,snidd101,00,X,D8/F78XDW
+play,6,1,robij103,31,BBFBB,W
+play,6,1,hermg101,01,FX,S9/G34.2-H;1-3(E9)
+play,6,1,hodgg101,12,CS*BS,K
+play,6,1,rackm101,00,X,3/G3.1-2
+play,6,1,campr102,32,CBC*B+3BB,W
+play,6,1,hattj101,00,,NP
 sub,cox-b101,"Billy Cox",1,9,11
-play,6,1,cox-b101,??,,K
-play,7,0,colej106,??,,NP
+play,6,1,cox-b101,22,BSFBS,K
+play,7,0,colej106,00,,NP
 sub,palie101,"Erv Palica",1,9,1
-play,7,0,colej106,??,,43
-play,7,0,rascv101,??,,13/G1
-play,7,0,rizzp101,??,,K
-play,7,1,reesp101,??,,7/L
-play,7,1,jorgs101,??,,W
-play,7,1,snidd101,??,,S8.1-3
-play,7,1,robij103,??,,7.3-H
-play,7,1,hermg101,??,,W.1-2
-play,7,1,hodgg101,??,,HR/7D.2-H;1-H
-play,7,1,rackm101,??,,NP
+play,7,0,colej106,12,FSBX,43/G4
+play,7,0,rascv101,22,BSBCX,13/G1
+play,7,0,rizzp101,02,CFS,K
+play,7,1,reesp101,00,X,7/L7
+play,7,1,jorgs101,30,BBBB,W
+play,7,1,snidd101,00,X,S48/G4M.1-3
+play,7,1,robij103,12,BCFX,7/F7.3-H
+play,7,1,hermg101,30,BBBB,W.1-2
+play,7,1,hodgg101,11,BCX,HR/F7D.2-H;1-H
+play,7,1,rackm101,00,,NP
 sub,pagej101,"Joe Page",0,9,1
-play,7,1,rackm101,??,,NP
+play,7,1,rackm101,00,,NP
 sub,olmol101,"Luis Olmo",1,7,11
-play,7,1,olmol101,??,,K
-play,8,0,henrt101,??,,NP
+play,7,1,olmol101,02,CFS,K
+play,8,0,henrt101,00,,NP
 sub,olmol101,"Luis Olmo",1,7,7
-play,8,0,henrt101,??,,8/L
-play,8,0,berry101,??,,8
-play,8,0,dimaj101,??,,W
-play,8,0,browb105,??,,S7.1-2
-play,8,0,woodg101,??,,7
-play,8,1,campr102,??,,3/P
-play,8,1,palie101,??,,NP
+play,8,0,henrt101,00,X,8/L89
+play,8,0,berry101,11,CBX,8/F89XD
+play,8,0,dimaj101,32,BCBBSB,W
+play,8,0,browb105,01,C>X,S7/L.1-2
+play,8,0,woodg101,00,X,7/F7
+play,8,1,campr102,00,X,3/P3
+play,8,1,palie101,00,,NP
 sub,edwab101,"Bruce Edwards",1,9,11
-play,8,1,edwab101,??,,S7
-play,8,1,reesp101,??,,16(1)3/GDP
-com,"$the lights were turned on for first time in World Series history"
-play,9,0,mapec101,??,,NP
+play,8,1,edwab101,11,SBX,S7/G56
+play,8,1,reesp101,02,CSX,16(1)3/GDP
+play,9,0,mapec101,00,,NP
 sub,minnp101,"Paul Minner",1,9,1
-play,9,0,mapec101,??,,7
-play,9,0,colej106,??,,D9/89XDW
-play,9,0,pagej101,??,,13/G1
-play,9,0,rizzp101,??,,9/L
-play,9,1,jorgs101,??,,NP
+com,"In the top of the 9th, the lights were turned on for first"
+com,"time in World Series history."
+play,9,0,mapec101,12,CCBX,7/F78
+play,9,0,colej106,21,BFBX,D9/F89XD
+play,9,0,pagej101,10,BX,13/G1
+play,9,0,rizzp101,11,FBX,9/L9
+play,9,1,jorgs101,00,,NP
 sub,mikse101,"Eddie Miksis",1,2,11
-play,9,1,mikse101,??,,D7/7L
-play,9,1,snidd101,??,,K
-play,9,1,robij103,??,,K
-play,9,1,hermg101,??,,W
-play,9,1,hodgg101,??,,K
+play,9,1,mikse101,00,X,D7/L7LS
+play,9,1,snidd101,12,BSCS,K
+play,9,1,robij103,02,FFFS,K
+play,9,1,hermg101,32,CFBBBB,W
+play,9,1,hodgg101,22,BCBFS,K
 data,er,rascv101,6
 data,er,pagej101,0
 data,er,barnr103,5

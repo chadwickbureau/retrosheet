@@ -135,7 +135,7 @@ play,7,1,dejei001,??,,S7.1-2
 play,7,1,sizet101,??,,64(1)3/GDP
 play,8,0,mazzl001,??,,D8
 play,8,0,chapk001,??,,63.2-3
-play,8,0,hebnr001,??,,5/
+play,8,0,hebnr001,??,,5
 play,8,0,steaj001,??,,3/G
 play,8,1,buckb001,??,,3/G
 play,8,1,kingd001,??,,53
@@ -1790,7 +1790,7 @@ info,umphome,maheb901
 info,ump1b,palld901
 info,ump2b,caved901
 info,ump3b,riccd901
-info,scorer,"Atl, 1/2 Chi"
+info,scorer,"Atl & 1/2 Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/03/31 1:11AM
@@ -1935,7 +1935,7 @@ info,umphome,caved901
 info,ump1b,riccd901
 info,ump2b,palld901
 info,ump3b,maheb901
-info,scorer,"Chi, Atl"
+info,scorer,"Chi/Atl"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/03/31 1:43AM
@@ -2110,7 +2110,7 @@ info,umphome,riccd901
 info,ump1b,brocf901
 info,ump2b,slicd901
 info,ump3b,caved901
-info,scorer,"Cinn, Chi"
+info,scorer,"Cinn/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/03/18 10:43PM
@@ -2301,7 +2301,7 @@ info,umphome,brocf901
 info,ump1b,slicd901
 info,ump2b,caved901
 info,ump3b,riccd901
-info,scorer,"Cinn,Chi"
+info,scorer,"Cin/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/03/19 6:50PM
@@ -2460,7 +2460,7 @@ info,umphome,slicd901
 info,ump1b,brocf901
 info,ump2b,pompj901
 info,ump3b,caved901
-info,scorer,"Cinn, Cub"
+info,scorer,"Cin/Cubs"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/03/21 12:09AM
@@ -2738,7 +2738,7 @@ info,umphome,lawsb901
 info,ump1b,caved901
 info,ump2b,riccd901
 info,ump3b,slicd901
-info,scorer,"Chi, Phi"
+info,scorer,"Chi/Phi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/04/06 10:42PM
@@ -2873,7 +2873,7 @@ info,umphome,riccd901
 info,ump1b,lawsb901
 info,ump2b,slicd901
 info,ump3b,caved901
-info,scorer,"Chi,Phi"
+info,scorer,"Chi/Phi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/04/06 11:34PM
@@ -3018,25 +3018,25 @@ info,hometeam,CHN
 info,site,CHI11
 info,date,1979/05/17
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:30PM
 info,daynight,day
 info,usedh,false
 info,umphome,caved901
 info,ump1b,lawsb901
 info,ump2b,riccd901
 info,ump3b,slicd901
-info,scorer,"Chi, Phi"
+info,scorer,"Chi/Phi"
 info,translator,"Comly"
-info,inputter,"Comly"
+info,inputter,"Comly with Wigley adding pitches from video"
 info,inputtime,1996/04/07 10:19AM
 info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
+info,pitches,pitches
+info,temp,68
+info,winddir,tolf
 info,windspeed,18
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,243
 info,attendance,14952
 info,wp,eastr101
@@ -3061,179 +3061,188 @@ start,martj001,"Jerry Martin",1,6,8
 start,footb101,"Barry Foote",1,7,2
 start,sizet101,"Ted Sizemore",1,8,4
 start,lampd001,"Dennis Lamp",1,9,1
-play,1,0,mcbrb101,??,,S7
-play,1,0,bowal001,??,,D7.1-3
-play,1,0,rosep001,??,,FC1.3XH(15);2-2;B-1
-play,1,0,schmm001,??,,HR.2-H;1-H
-play,1,0,unsed101,??,,S8
-play,1,0,maddg001,??,,S7.1-2
-play,1,0,boonb001,??,,HR.2-H;1-H
-play,1,0,meolr101,??,,NP
+play,1,0,mcbrb101,11,SBX,S7/L78
+play,1,0,bowal001,00,X,D8/F78.1-3
+com,"Kingman got there and dove for it, but the ball fell just below his outstretched glove--Martin backed him up"
+play,1,0,rosep001,11,BCX,FC1/G1.3XH(15);2-2;B-1
+com,"McBride tried to get back to 3rd but was tagged by Ontiveros"
+play,1,0,schmm001,00,X,HR/F7D.2-H;1-H
+play,1,0,unsed101,31,CBBBX,S8/G6M
+play,1,0,maddg001,11,SBX,S7/L7S.1-2
+play,1,0,boonb001,11,BFX,HR/F7D.2-H;1-H
+play,1,0,meolr101,00,,NP
 sub,moord001,"Donnie Moore",1,9,1
-play,1,0,meolr101,??,,K/C
-play,1,0,lercr001,??,,HR
-play,1,0,mcbrb101,??,,5/P
-play,1,1,dejei001,??,,S8
-play,1,1,vailm001,??,,S9.1-2
-play,1,1,buckb001,??,,S9.2-H;1-2#
-play,1,1,kingd001,??,,HR.2-H;1-H
-play,1,1,ontis101,??,,3/G
-play,1,1,martj001,??,,D9
-play,1,1,footb101,??,,NP
+play,1,0,meolr101,22,.BCBFFC,K/C
+play,1,0,lercr001,32,BFBFBX,HR/F7D
+play,1,0,mcbrb101,02,CFX,5/P5S
+play,1,1,dejei001,22,KCBFFBX,S8/L8S
+play,1,1,vailm001,02,FSX,S9/L9S.1-2
+play,1,1,buckb001,21,BBCX,S9/F9S.2-H;1-2
+play,1,1,kingd001,10,BX,HR/F7LD.2-H;1-H
+play,1,1,ontis101,10,BX,3/G3
+play,1,1,martj001,21,BBCX,D9/L89
+play,1,1,footb101,00,,NP
 sub,birdd101,"Doug Bird",0,9,1
-play,1,1,footb101,??,,9/L
-play,1,1,sizet101,??,,S8.2-H
-play,1,1,moord001,??,,T8.1-H
-play,1,1,dejei001,??,,9
-play,2,0,bowal001,??,,3/G
-play,2,0,rosep001,??,,W
-play,2,0,schmm001,??,,6/P
-play,2,0,unsed101,??,,9/L
-play,2,1,vailm001,??,,S7
-play,2,1,buckb001,??,,S8.1-3
-play,2,1,kingd001,??,,54(1)3/GDP.3-3
-play,2,1,ontis101,??,,3/G
-play,3,0,maddg001,??,,D9
-play,3,0,boonb001,??,,S7.2-H;B-2(E7)
-play,3,0,meolr101,??,,8.2-3
-play,3,0,birdd101,??,,W
-play,3,0,mcbrb101,??,,S8.3-H;1-2
-play,3,0,bowal001,??,,S8.2-3;1-2
-play,3,0,rosep001,??,,D.3-H;2-H;1-3
-play,3,0,schmm001,??,,NP
+play,1,1,footb101,11,.CBX,9/F89
+play,1,1,sizet101,10,BX,S8/L78.2-H
+play,1,1,moord001,01,CX,T8/L89.1-H
+play,1,1,dejei001,02,CCX,9/F89
+play,2,0,bowal001,00,X,3/G3
+play,2,0,rosep001,30,BBBB,W
+play,2,0,schmm001,12,BF1CX,6/P6MD
+play,2,0,unsed101,21,BFBX,9/F
+play,2,1,vailm001,21,BBSX,S7/G56
+play,2,1,buckb001,01,C1X,S8/G4M.1-3
+play,2,1,kingd001,00,X,54(1)3/GDP/G5.3-3
+play,2,1,ontis101,22,BBSSX,3/G3
+play,3,0,maddg001,00,X,D9/F89S
+com,"Vail attempted a sliding catch but the ball landed just beyond his glove"
+play,3,0,boonb001,01,CX,S7/F7S.2-H;B-2(E7/THH)
+play,3,0,meolr101,10,BX,8/F8D.2-3
+play,3,0,birdd101,32,FBBFBB,W
+play,3,0,mcbrb101,10,BX,S8/F8S.3-H;1-2
+play,3,0,bowal001,00,X,S8/L8.2-3;1-2
+play,3,0,rosep001,00,X,D8/F78D.3-H;2-H;1-3
+play,3,0,schmm001,00,,NP
 sub,hernw001,"Willie Hernandez",1,9,1
-play,3,0,schmm001,??,,IW
-play,3,0,unsed101,??,,3/G.3-H;2-3;1-2
-play,3,0,maddg001,??,,HR.3-H;2-H
-play,3,0,boonb001,??,,HP
-play,3,0,meolr101,??,,S7.1-2
-play,3,0,birdd101,??,,K
-play,3,1,martj001,??,,63
-play,3,1,footb101,??,,53
-play,3,1,sizet101,??,,S9
-play,3,1,hernw001,??,,K
-play,4,0,mcbrb101,??,,8
-play,4,0,bowal001,??,,S7
-play,4,0,rosep001,??,,D9.1-H
-play,4,0,schmm001,??,,IW
-play,4,0,unsed101,??,,46(1)/FO.2-3
-play,4,0,maddg001,??,,D.3-H;1-3
-play,4,0,boonb001,??,,NP
+play,3,0,schmm001,30,.IIII,IW
+play,3,0,unsed101,22,BBFFX,3/G3S.3-H;2-3;1-2
+play,3,0,maddg001,00,X,HR/F7D.3-H;2-H
+play,3,0,boonb001,00,H,HP
+play,3,0,meolr101,21,CBBX,S7/L56D.1-2
+play,3,0,birdd101,12,FBFS,K
+play,3,1,martj001,11,BCX,63
+play,3,1,footb101,12,CBCX,53
+play,3,1,sizet101,00,X,S9/F89
+play,3,1,hernw001,12,CCBS,K
+play,4,0,mcbrb101,12,CBSFFFFX,8/F8D
+play,4,0,bowal001,12,FFBFX,S7/G56
+play,4,0,rosep001,22,CSBBX,D9/L89.1-H
+play,4,0,schmm001,30,IIII,IW
+play,4,0,unsed101,21,BBSX,46(1)/FO/G4.2-3
+play,4,0,maddg001,01,SX,D8/F89.3-H;1-3
+com,"Maddox injured sliding into 2nd"
+play,4,0,boonb001,00,,NP
 sub,grosg001,"Greg Gross",0,6,12
-play,4,0,boonb001,??,,IW
-play,4,0,meolr101,??,,46(1)/FO
-play,4,1,dejei001,??,,NP
+play,4,0,boonb001,30,.IIII,IW
+play,4,0,meolr101,11,BCX,46(1)/FO
+play,4,1,dejei001,00,,NP
 sub,grosg001,"Greg Gross",0,6,8
-play,4,1,dejei001,??,,K
-play,4,1,vailm001,??,,S7
-play,4,1,buckb001,??,,7
-play,4,1,kingd001,??,,HR.1-H
-play,4,1,ontis101,??,,HR
-play,4,1,martj001,??,,8
-play,5,0,birdd101,??,,NP
+play,4,1,dejei001,22,.BBFCS,K
+play,4,1,vailm001,12,BFFX,S7/L56D
+play,4,1,buckb001,31,BBBCX,7
+play,4,1,kingd001,32,SBBFBFX,HR/F7LD.1-H
+play,4,1,ontis101,12,FBFX,HR/F9LD
+play,4,1,martj001,21,CBBX,8/F8XD
+play,5,0,birdd101,00,,NP
 sub,luzig001,"Greg Luzinski",0,9,11
-play,5,0,luzig001,??,,W
-play,5,0,mcbrb101,??,,NP
+play,5,0,luzig001,32,.BFBBFFB,W
+play,5,0,mcbrb101,00,,NP
 sub,espin101,"Nino Espinosa",0,9,12
-play,5,0,mcbrb101,??,,S9.1-2#
-play,5,0,bowal001,??,,D9.2-H;1-3
-play,5,0,rosep001,??,,E6.3-H(RBI);2-2;B-1
-play,5,0,schmm001,??,,W.2-3;1-2
-play,5,0,unsed101,??,,8/SF.3-H(UR);2-3
-play,5,0,grosg001,??,,7/SF.3-H(UR);1-2
-play,5,0,boonb001,??,,IW
-play,5,0,meolr101,??,,W.2-3;1-2
-play,5,0,espin101,??,,43
-play,5,1,footb101,??,,NP
+play,5,0,mcbrb101,10,.BX,S9/G34.1-2
+play,5,0,bowal001,00,X,D9/F9LS.2-H;1-3
+com,"Bowa hit only a pop foul down the RF line but the wind blew it fair"
+play,5,0,rosep001,11,CBX,E6/G6.3-H(RBI);2-2;B-1
+play,5,0,schmm001,32,BFCFBFBFB,W.2-3;1-2
+play,5,0,unsed101,01,CX,8/SF.3-H(UR);2-3
+play,5,0,grosg001,01,FX,7/SF/F7DW.3-H(UR);1-2
+play,5,0,boonb001,30,IIII,IW
+play,5,0,meolr101,32,CBS*BBB,W.2-3;1-2
+play,5,0,espin101,00,X,43
+play,5,1,footb101,00,,NP
 sub,mcgrt001,"Tug McGraw",0,9,1
-play,5,1,footb101,??,,S7
-play,5,1,sizet101,??,,E5.1-2;B-1
-play,5,1,hernw001,??,,NP
+play,5,1,footb101,01,.FX,S7/L7S
+play,5,1,sizet101,11,FBX,E5/G5.1-2;B-1
+play,5,1,hernw001,00,,NP
 sub,dills101,"Steve Dillard",1,9,11
-play,5,1,dills101,??,,W.2-3;1-2
-play,5,1,dejei001,??,,W.3-H;2-3;1-2
-play,5,1,vailm001,??,,8
-play,5,1,buckb001,??,,HR.3-H(UR);2-H;1-H
-play,5,1,kingd001,??,,W
-play,5,1,ontis101,??,,K
-play,5,1,martj001,??,,HR.1-H(UR);B-H(UR)
-play,5,1,footb101,??,,D7
-play,5,1,sizet101,??,,NP
+play,5,1,dills101,30,.BBBB,W.2-3;1-2
+play,5,1,dejei001,32,BBBCCB,W.3-H;2-3;1-2
+play,5,1,vailm001,21,FB+1BX,8/P8S
+play,5,1,buckb001,21,BBCX,HR/F89XD.3-H(UR);2-H;1-H
+play,5,1,kingd001,32,BFFBBFFB,W
+play,5,1,ontis101,12,CFBFS,K
+play,5,1,martj001,22,FBSBX,HR/F78XD.1-H(UR);B-H(UR)
+play,5,1,footb101,10,BX,D7/G5
+play,5,1,sizet101,00,,NP
 sub,reedr001,"Ron Reed",0,9,1
-play,5,1,sizet101,??,,63
-play,6,0,mcbrb101,??,,NP
+play,5,1,sizet101,02,.SSFX,63/G6M
+play,6,0,mcbrb101,00,,NP
 sub,caudb001,"Bill Caudill",1,8,1
-play,6,0,mcbrb101,??,,NP
+play,6,0,mcbrb101,00,.,NP
 sub,dills101,"Steve Dillard",1,9,4
-play,6,0,mcbrb101,??,,K
-play,6,0,bowal001,??,,S7
-play,6,0,rosep001,??,,7/L
-play,6,0,schmm001,??,,SB2
-play,6,0,schmm001,??,,W
-play,6,0,unsed101,??,,K
-play,6,1,dills101,??,,S6
-play,6,1,dejei001,??,,D8.1-3
-play,6,1,vailm001,??,,63.3-H;2-3
-play,6,1,buckb001,??,,63.3-H
-play,6,1,kingd001,??,,HR
-play,6,1,ontis101,??,,13
-play,7,0,grosg001,??,,T8
-play,7,0,boonb001,??,,D8.3-H
-play,7,0,meolr101,??,,K/C
-play,7,0,reedr001,??,,W
-play,7,0,mcbrb101,??,,NP
+play,6,0,mcbrb101,02,..SCS,K
+play,6,0,bowal001,12,CSFBX,S7/F7S
+play,6,0,rosep001,02,CCX,7/L
+play,6,0,schmm001,21,CBBS,SB2
+play,6,0,schmm001,32,CBBS.BB,W
+play,6,0,unsed101,22,BCBCFS,K
+play,6,1,dills101,00,X,S6/G56D
+play,6,1,dejei001,00,X,D8/L8XDW.1-3
+play,6,1,vailm001,22,SFB*BX,63/G6.3-H;2-3
+play,6,1,buckb001,32,BFBBFX,63/G6MS.3-H
+play,6,1,kingd001,00,X,HR/F7LD
+com,"Ball landed in the front yard of the third house across Waveband Avenue down N Kenmore Ave"
+play,6,1,ontis101,02,CSX,13/G1
+play,7,0,grosg001,32,BBCSFBX,T7/F78XDW
+play,7,0,boonb001,10,BX,D8/F89D.3-H
+play,7,0,meolr101,22,CBCBC,K/C
+play,7,0,reedr001,31,CBBBB,W
+play,7,0,mcbrb101,00,,NP
 sub,burrr001,"Ray Burris",1,2,1
-play,7,0,mcbrb101,??,,NP
+play,7,0,mcbrb101,00,.,NP
 sub,murcb101,"Bobby Murcer",1,8,9
-play,7,0,mcbrb101,??,,K
-play,7,0,bowal001,??,,43
-play,7,1,martj001,??,,63
-play,7,1,footb101,??,,E5.B-1
-play,7,1,murcb101,??,,S9.1-2
-play,7,1,dills101,??,,NP
+play,7,0,mcbrb101,22,..SSBBS,K
+play,7,0,bowal001,00,X,43/G4
+play,7,1,martj001,01,FX,63/G6
+play,7,1,footb101,12,SCBX,E5/G5.B-1
+play,7,1,murcb101,01,CX,S9/L9S.1-2
+play,7,1,dills101,00,,NP
 sub,biitl101,"Larry Biittner",1,9,11
-play,7,1,biitl101,??,,6(1)3/GDP
-play,8,0,rosep001,??,,NP
+play,7,1,biitl101,00,.X,6(1)3/GDP/G6M
+play,8,0,rosep001,00,,NP
 sub,kellm101,"Mick Kelleher",1,9,4
-play,8,0,rosep001,??,,S8
-play,8,0,schmm001,??,,9
-play,8,0,unsed101,??,,3/G.1-2
-play,8,0,grosg001,??,,31
-play,8,1,dejei001,??,,S6
-play,8,1,burrr001,??,,NP
+play,8,0,rosep001,21,.CBBX,S8/G6M
+play,8,0,schmm001,02,C+1CX,9/F
+play,8,0,unsed101,01,CX,3/G3.1-2
+play,8,0,grosg001,21,BCBX,31/G34
+play,8,1,dejei001,10,BX,S6/G56
+play,8,1,burrr001,00,,NP
 sub,thoms001,"Scot Thompson",1,2,11
-play,8,1,thoms001,??,,S9.1-3
-play,8,1,buckb001,??,,S8.3-H;1-2
-play,8,1,kingd001,??,,8
-play,8,1,ontis101,??,,46(1)/FO.2-3
-play,8,1,martj001,??,,S8.3-H;1-2
-play,8,1,footb101,??,,S7.2-H;1-2
-play,8,1,murcb101,??,,43
-play,9,0,boonb001,??,,NP
+play,8,1,thoms001,32,.CM+1BFFBBX,S9/F9DW.1-3
+play,8,1,buckb001,00,X,S8/F8S.3-H;1-2
+play,8,1,kingd001,22,BBSSX,8/F
+play,8,1,ontis101,01,CX,46(1)/FO/G4M.2-3
+com,"ball bobbled before the toss to shortstop"
+play,8,1,martj001,00,X,S8/G6M.3-H;1-2
+play,8,1,footb101,11,FB+1X,S7/G56.2-H;1-2
+play,8,1,murcb101,32,BCBBSX,43/G4
+play,9,0,boonb001,00,,NP
 sub,thoms001,"Scot Thompson",1,2,9
-play,9,0,boonb001,??,,NP
+play,9,0,boonb001,00,.,NP
 sub,suttb001,"Bruce Sutter",1,6,1
-play,9,0,boonb001,??,,NP
+play,9,0,boonb001,00,..,NP
 sub,murcb101,"Bobby Murcer",1,8,8
-play,9,0,boonb001,??,,8/L
-play,9,0,meolr101,??,,W
-play,9,0,reedr001,??,,NP
+play,9,0,boonb001,22,...BCBCX,8/F
+play,9,0,meolr101,31,CBBBB,W
+play,9,0,reedr001,00,,NP
 sub,mccat101,"Tim McCarver",0,9,11
-play,9,0,mccat101,??,,SB2
-play,9,0,mccat101,??,,43.2-3
-play,9,0,mcbrb101,??,,43
-play,9,1,kellm101,??,,NP
+play,9,0,mccat101,00,.S,SB2
+play,9,0,mccat101,22,.S.FBBX,43.2-3
+play,9,0,mcbrb101,02,SFX,43
+com,"ball bounced unexpectedly and Kelleher had to leap straight up--he barely kept it in the infield"
+play,9,1,kellm101,00,,NP
 sub,eastr101,"Rawly Eastwick",0,9,1
-play,9,1,kellm101,??,,63
-play,9,1,dejei001,??,,3/FL
-play,9,1,thoms001,??,,63
-play,10,0,bowal001,??,,43
-play,10,0,rosep001,??,,7
-play,10,0,schmm001,??,,HR
-play,10,0,unsed101,??,,K
-play,10,1,buckb001,??,,7/L
-play,10,1,kingd001,??,,K
-play,10,1,ontis101,??,,53
+play,9,1,kellm101,00,.X,63/G56
+play,9,1,dejei001,01,CX,3/FL/P3F
+play,9,1,thoms001,01,CX,63
+play,10,0,bowal001,21,BBCX,43
+play,10,0,rosep001,12,BFCX,7/F7L
+play,10,0,schmm001,32,BBCBSX,HR/F7D
+play,10,0,unsed101,02,CSS,K23
+play,10,1,buckb001,02,CFX,7/F78
+play,10,1,kingd001,02,CFFFS,K
+play,10,1,ontis101,00,X,53
+com,"ball put in play on a checked swing"
 data,er,lercr001,5
 data,er,birdd101,4
 data,er,mcgrt001,4
@@ -3260,7 +3269,7 @@ info,umphome,pompj901
 info,ump1b,tremd901
 info,ump2b,riccd901
 info,ump3b,caved901
-info,scorer,"Chi,Pit1&2"
+info,scorer,"Chi/Pit1&2"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/04/04 10:06PM
@@ -3394,7 +3403,7 @@ info,umphome,kiblj901
 info,ump1b,colon901
 info,ump2b,tatat901
 info,ump3b,crawj901
-info,scorer,"Chi,Pit1&2"
+info,scorer,"Chi/Pit1&2"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/04/04 10:32PM
@@ -3539,7 +3548,7 @@ info,umphome,colon901
 info,ump1b,tatat901
 info,ump2b,crawj901
 info,ump3b,kiblj901
-info,scorer,"Chi,Pit1&2"
+info,scorer,"Chi/Pit1&2"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/04/04 11:14PM
@@ -3704,7 +3713,7 @@ info,umphome,harrl901
 info,ump1b,olsea901
 info,ump2b,pullf901
 info,ump3b,harvd901
-info,scorer,"SF,Chi"
+info,scorer,"SF/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/02 10:02PM
@@ -3853,7 +3862,7 @@ info,umphome,olsea901
 info,ump1b,pullf901
 info,ump2b,harvd901
 info,ump3b,harrl901
-info,scorer,"Chi, SF"
+info,scorer,"Chi/SF"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/03 2:49PM
@@ -4036,7 +4045,7 @@ info,umphome,pullf901
 info,ump1b,harvd901
 info,ump2b,harrl901
 info,ump3b,olsea901
-info,scorer,"SF, Chi"
+info,scorer,"SF/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/03 3:36PM
@@ -4618,7 +4627,7 @@ info,umphome,tatat901
 info,ump1b,crawj901
 info,ump2b,kiblj901
 info,ump3b,fiels901
-info,scorer,"Chi,LA,Hunter"
+info,scorer,"Chi/LA/Hunter"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/07 5:51PM
@@ -4749,7 +4758,7 @@ info,umphome,crawj901
 info,ump1b,kiblj901
 info,ump2b,fiels901
 info,ump3b,tatat901
-info,scorer,"LA,Chi"
+info,scorer,"LA/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/07 6:15PM
@@ -4907,7 +4916,7 @@ info,umphome,kiblj901
 info,ump1b,fiels901
 info,ump2b,tatat901
 info,ump3b,crawj901
-info,scorer,"Chi,LA,Hunter"
+info,scorer,"Chi/LA/Hunter"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/07 6:37PM
@@ -5056,7 +5065,7 @@ info,umphome,varge901
 info,ump1b,pryop901
 info,ump2b,davis901
 info,ump3b,brocf901
-info,scorer,"Chi, Phi"
+info,scorer,"Chi/Phi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/16 10:38PM
@@ -5214,7 +5223,7 @@ info,umphome,pryop901
 info,ump1b,davis901
 info,ump2b,brocf901
 info,ump3b,varge901
-info,scorer,"Chi, Phi"
+info,scorer,"Chi/Phi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/16 11:09PM
@@ -5379,7 +5388,7 @@ info,umphome,davis901
 info,ump1b,brocf901
 info,ump2b,varge901
 info,ump3b,pryop901
-info,scorer,"Chi, Phi"
+info,scorer,"Chi/Phi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/16 11:42PM
@@ -5559,7 +5568,7 @@ info,umphome,rennd901
 info,ump1b,monte901
 info,ump2b,weyel901
 info,ump3b,wendh901
-info,scorer,"NY,Chi"
+info,scorer,"NY/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/02/16 12:04AM
@@ -5762,7 +5771,7 @@ info,umphome,monte901
 info,ump1b,weyel901
 info,ump2b,wendh901
 info,ump3b,rennd901
-info,scorer,"NY,Chi"
+info,scorer,"NY/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/01/28 9:06AM
@@ -5938,7 +5947,7 @@ info,umphome,weyel901
 info,ump1b,wendh901
 info,ump2b,rennd901
 info,ump3b,monte901
-info,scorer,"Chi, NY"
+info,scorer,"Chi/NY"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1996/01/28 9:21AM
@@ -7705,7 +7714,7 @@ info,umphome,westj901
 info,ump1b,willb901
 info,ump2b,dalej901
 info,ump3b,fiels901
-info,scorer,"Chi, Cin"
+info,scorer,"Chi/Cin"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/12/30 7:44PM
@@ -7868,7 +7877,7 @@ info,umphome,willb901
 info,ump1b,dalej901
 info,ump2b,fiels901
 info,ump3b,westj901
-info,scorer,"Chi,Cin"
+info,scorer,"Chi/Cin"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/12/30 8:09PM
@@ -8027,7 +8036,7 @@ info,umphome,fiels901
 info,ump1b,westj901
 info,ump2b,willb901
 info,ump3b,dalej901
-info,scorer,"Chi,Cin"
+info,scorer,"Chi/Cin"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/12/30 8:24PM
@@ -8165,7 +8174,7 @@ info,umphome,engeb901
 info,ump1b,palld901
 info,ump2b,rungp901
 info,ump3b,steld901
-info,scorer,"StL, Chi"
+info,scorer,"StL/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/17 8:17PM
@@ -8301,7 +8310,7 @@ info,umphome,palld901
 info,ump1b,rungp901
 info,ump2b,steld901
 info,ump3b,engeb901
-info,scorer,"StL, Chi"
+info,scorer,"StL/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/17 9:03PM
@@ -8472,7 +8481,7 @@ info,umphome,rungp901
 info,ump1b,steld901
 info,ump2b,engeb901
 info,ump3b,palld901
-info,scorer,"StL, Chi"
+info,scorer,"StL/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/17 9:40PM
@@ -8618,7 +8627,7 @@ info,umphome,steld901
 info,ump1b,engeb901
 info,ump2b,palld901
 info,ump3b,rungp901
-info,scorer,"StL, Chi"
+info,scorer,"StL/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/17 10:11PM
@@ -8770,7 +8779,7 @@ info,umphome,monte901
 info,ump1b,harrl901
 info,ump2b,wendh901
 info,ump3b,rennd901
-info,scorer,"Pit1&2,Chi"
+info,scorer,"Pit1&2/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/13 9:59PM
@@ -8929,7 +8938,7 @@ info,umphome,harrl901
 info,ump1b,wendh901
 info,ump2b,rennd901
 info,ump3b,monte901
-info,scorer,"Chi,Pit1,Pit2"
+info,scorer,"Chi/Pit1/Pit2"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/13 11:29PM
@@ -9100,7 +9109,7 @@ info,umphome,wendh901
 info,ump1b,rennd901
 info,ump2b,monte901
 info,ump3b,harrl901
-info,scorer,"Pit1,Pit2,Chi"
+info,scorer,"Pit1/Pit2/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/14 12:01AM
@@ -9243,7 +9252,7 @@ info,umphome,mcshj901
 info,ump1b,fiels901
 info,ump2b,tatat901
 info,ump3b,crawj901
-info,scorer,"Cubs, SF"
+info,scorer,"Cubs/SF"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/10/26 8:41PM
@@ -9400,7 +9409,7 @@ info,umphome,fiels901
 info,ump1b,crawj901
 info,ump2b,tatat901
 info,ump3b,mcshj901
-info,scorer,"SF, Cubs"
+info,scorer,"SF/Cubs"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/10/28 10:27AM
@@ -9565,7 +9574,7 @@ info,umphome,tatat901
 info,ump1b,crawj901
 info,ump2b,mcshj901
 info,ump3b,fiels901
-info,scorer,"SF, Cub"
+info,scorer,"SF/Cub"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/10/29 11:32AM
@@ -10194,7 +10203,7 @@ info,umphome,kiblj901
 info,ump1b,tatat901
 info,ump2b,crawj901
 info,ump3b,willc901
-info,scorer,"LA,Hunter,Chi"
+info,scorer,"LA/Hunter/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/05 2:54PM
@@ -10333,7 +10342,7 @@ info,umphome,tatat901
 info,ump1b,crawj901
 info,ump2b,willc901
 info,ump3b,kiblj901
-info,scorer,"LA,Hunter,Chi"
+info,scorer,"LA/Hunter/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/05 3:13PM
@@ -10481,7 +10490,7 @@ info,umphome,crawj901
 info,ump1b,willc901
 info,ump2b,kiblj901
 info,ump3b,tatat901
-info,scorer,"Hunter,Chi"
+info,scorer,"Hunter/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/11/05 3:42PM
@@ -10766,7 +10775,7 @@ info,umphome,weyel901
 info,ump1b,rennd901
 info,ump2b,(none)
 info,ump3b,harrl901
-info,scorer,"StL, Chi"
+info,scorer,"StL/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/12/16 1:59PM
@@ -11369,7 +11378,7 @@ info,umphome,tatat901
 info,ump1b,crawj901
 info,ump2b,kiblj901
 info,ump3b,steld901
-info,scorer,"Phi, Chi"
+info,scorer,"Phi/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/12/17 4:52PM
@@ -11551,7 +11560,7 @@ info,umphome,crawj901
 info,ump1b,kiblj901
 info,ump2b,steld901
 info,ump3b,tatat901
-info,scorer,"Phi, Chi"
+info,scorer,"Phi/Chi"
 info,translator,"Comly"
 info,inputter,"Comly"
 info,inputtime,1995/12/17 6:03PM

@@ -3018,7 +3018,7 @@ play,1,1,bluel101,??,,99
 play,1,1,joneb103,??,,99
 play,1,1,cobbt101,??,,99
 play,2,0,dykej101,??,,HP
-com,"Heimach used as courtesy runner."
+com,"$Heimach used as courtesy runner."
 play,2,0,harrs101,??,,NP
 sub,heimf101,"Fred Heimach",0,8,12
 play,2,0,harrs101,??,,K/COUR
@@ -5220,8 +5220,8 @@ play,7,1,flagi101,02,,NP
 sub,wrigr104,"Rasty Wright",0,9,1
 play,7,1,flagi101,02,,NP
 sub,hanef101,"Fred Haney",1,9,11
-com,"$Haney batted with 2 strikes on Flagstead"
 play,7,1,hanef101,??,,K
+com,"$Haney batted with 2 strikes on Flagstead; K charged to Flagstead"
 play,7,1,bluel101,??,,43
 play,8,0,wrigr104,??,,NP
 sub,stonl101,"Lil Stoner",1,9,1
@@ -5607,7 +5607,7 @@ play,4,0,colle101,??,,S/7S.2-3
 play,4,0,hooph101,??,,46(1)3/GDP.3-H(RBI)
 play,4,0,mostj101,??,,7
 com,"umpchange,4,umphome,evanb901"
-com,"umpchange,4,ump3b,(None)"
+com,"umpchange,4,ump3b,(none)"
 com,"$HP Umpire Brick Owens was struck on the chest by a foul ball; he"
 com,"was carried from the field; 3B Umpire Bill Evans moved to HP"
 play,4,1,veacb101,??,,3/G
@@ -5820,8 +5820,8 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,scorer,"39"
-info,translator,"DWV"
-info,inputter,"DWV"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,1998/03/12 8:52AM
 info,umphome,connt901
 info,ump1b,chilo901
@@ -5885,18 +5885,18 @@ play,3,1,cobbt101,??,,D7
 play,3,1,veacb101,??,,3/G.2-3
 play,3,1,heilh101,??,,13
 play,4,0,speat101,??,,S7
-play,4,0,stepr101,??,,D.1-3
+play,4,0,stepr101,??,,D7.1-3
 play,4,0,sewej101,??,,43.3-H;2-3
 play,4,0,mcins101,??,,S8.3-H
 play,4,0,woodj108,??,,S8.1-2
 play,4,0,oneis101,??,,HP.2-3;1-2
-play,4,0,coves101,??,,3
+play,4,0,coves101,??,,3/P
 play,4,0,evanj101,??,,S7.3-H;2-H;1-3
 play,4,0,wambb101,??,,NP
 sub,stonl101,"Lil Stoner",1,9,1
 play,4,0,wambb101,??,,S7.3-H;1-3
 play,4,0,speat101,??,,SB2
-play,4,0,speat101,??,,3
+play,4,0,speat101,??,,3/P
 play,4,1,clard101,??,,NP
 sub,jamic101,"Charlie Jamieson",0,1,7
 play,4,1,clard101,??,,3/G
@@ -5932,7 +5932,7 @@ play,7,0,sewej101,??,,W
 play,7,0,mcins101,??,,14(1)3/GDP
 play,7,0,woodj108,??,,DGR/7
 play,7,0,oneis101,??,,K
-play,7,1,joneb103,??,,3
+play,7,1,joneb103,??,,3/P
 play,7,1,cobbt101,??,,13
 play,7,1,veacb101,??,,9
 play,8,0,coves101,??,,K
@@ -5961,12 +5961,11 @@ play,9,0,oneis101,??,,SB3;SB2
 play,9,0,oneis101,??,,S9.3-H;2-H
 play,9,0,coves101,??,,S7.1-2
 play,9,0,jamic101,??,,W.2-3;1-2
-play,9,0,wambb101,??,,5
+play,9,0,wambb101,??,,5/P
 play,9,0,speat101,??,,46(1)/FO
-com,"pbp account ends here, rest deduced"
-play,9,1,joneb103,??,,99
-play,9,1,cobbt101,??,,99
-play,9,1,veacb101,??,,99
+play,9,1,joneb103,??,,13
+play,9,1,cobbt101,??,,13
+play,9,1,veacb101,??,,43
 data,er,coves101,4
 data,er,oldhr101,5
 data,er,stonl101,1
@@ -7195,6 +7194,8 @@ play,1,0,pratd101,??,,S9.1-3
 play,1,0,harrj103,??,,S7.3-H;1-2
 play,1,0,fewsc101,??,,NP
 sub,ehmkh101,"Howard Ehmke",1,9,1
+presadj,ehmkh101,2
+presadj,ehmkh101,1
 play,1,0,fewsc101,??,,W.2-3;1-2
 play,1,0,mille102,??,,E6/TH1.3-H(RBI);2-H(NR)(UR);1-3
 play,1,0,colls101,??,,8/SF.3-H(UR)
@@ -7272,8 +7273,8 @@ play,9,0,menom101,??,,99
 play,9,0,pratd101,??,,99
 data,er,russa101,3
 data,er,karrb101,3
-data,er,oldhr101,2
-data,er,ehmkh101,0
+data,er,oldhr101,1
+data,er,ehmkh101,1
 id,DET192208040
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8286,6 +8287,7 @@ play,10,0,johne102,??,,S
 play,10,0,colle101,??,,99/SH.1-2
 play,10,0,sheee101,??,,NP
 sub,olseo101,"Ole Olson",1,9,1
+presadj,olseo101,2
 play,10,0,sheee101,??,,HR/78.2-H
 play,10,0,mostj101,??,,99
 play,10,0,falkb101,??,,99
@@ -8295,8 +8297,8 @@ play,10,1,clard101,??,,99
 play,10,1,bluel101,??,,99
 play,10,1,cutsg101,??,,99
 data,er,leved101,3
-data,er,oldhr101,4
-data,er,olseo101,1
+data,er,oldhr101,3
+data,er,olseo101,2
 id,DET192208300
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8797,7 +8799,9 @@ play,3,1,johns101,??,,T/78
 play,3,1,bluel101,??,,3/G
 play,3,1,cutsg101,??,,53.3-H
 play,3,1,cobbt101,??,,43
-com,"Cobb ejected by Guthrie for arguing call."
+com,"ej,cobbt101,P,guthb901,Call at 1B"
+com,"$Cobb ejected by 1B umpire Guthrie for arguing"
+com,"he was safe at 1st"
 play,4,0,willk101,??,,NP
 sub,flagi101,"Ira Flagstead",1,3,8
 play,4,0,willk101,??,,6/L

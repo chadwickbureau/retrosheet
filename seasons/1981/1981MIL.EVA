@@ -435,13 +435,13 @@ info,ump1b,bremn901
 info,ump2b,(none)
 info,ump3b,reilm901
 info,scorer,"Royals"
-info,translator,"Tom Shrimplin"
+info,translator,"Tom Shrimplin with pitches by Wigley NBC GOW"
 info,inputter,"Bob Kapla"
 info,inputtime,1996/01/27 1:32PM
 info,howscored,park
-info,pitches,count
+info,pitches,pitches
 info,temp,45
-info,winddir,tocf
+info,winddir,ltor
 info,windspeed,15
 info,fieldcond,unknown
 info,precip,unknown
@@ -472,86 +472,90 @@ start,thomg001,"Gorman Thomas",1,7,9
 start,moned101,"Don Money",1,8,5
 start,gantj001,"Jim Gantner",1,9,4
 start,vuckp001,"Pete Vuckovich",1,0,1
-play,1,0,wilsw001,00,,S7
-play,1,0,washu001,10,,53.1-2
-play,1,0,mcrah001,00,,9
-play,1,0,bretg001,01,,S9.2-H
-play,1,0,aikew001,01,,HR/9.1-H
-play,1,0,otisa001,02,,8
-play,1,1,molip001,12,,9
-play,1,1,younr001,01,,53
-play,1,1,coopc001,00,,43
-play,2,0,wathj001,12,,63
-play,2,0,geroc101,20,,S7
-play,2,0,chald101,12,,S9.1-3
-play,2,0,wilsw001,12,,9
-play,2,0,washu001,20,,64(1)/FO
-play,2,1,hisll101,11,,53
-play,2,1,oglib001,22,,K
-play,2,1,simmt001,32,,53
-play,3,0,mcrah001,32,,K
-play,3,0,bretg001,01,,43
-play,3,0,aikew001,12,,K
-play,3,1,thomg001,21,,HR/8
-play,3,1,moned101,00,,13
-play,3,1,gantj001,00,,9
-play,3,1,molip001,00,,63
-play,4,0,otisa001,22,,S8
-play,4,0,wathj001,??,,POCS2(134)
-play,4,0,wathj001,32,,8/L
-play,4,0,geroc101,32,,8
-play,4,1,younr001,32,,S7
-play,4,1,coopc001,12,,8
-play,4,1,hisll101,11,,64(1)/FO
-play,4,1,oglib001,12,,K
-play,5,0,chald101,00,,7
-play,5,0,wilsw001,12,,S4
-play,5,0,washu001,31,,W.1-2
-play,5,0,mcrah001,12,,K
-play,5,0,bretg001,11,,HP.2-3;1-2
-play,5,0,aikew001,02,,K/C
-play,5,1,simmt001,12,,E6
-play,5,1,thomg001,32,,W.1-2
-play,5,1,moned101,??,,PO2(14)
-play,5,1,moned101,32,,K/C
-play,5,1,gantj001,01,,53
-play,6,0,otisa001,00,,63
-play,6,0,wathj001,12,,S9
-play,6,0,geroc101,00,,S8.1-2
-play,6,0,chald101,11,,E6.2-H(NR)(UR);1-3
-play,6,0,wilsw001,10,,FC3.3XH(325);1-2
-play,6,0,washu001,11,,54(1)/FO
-play,6,1,molip001,22,,D7
-play,6,1,younr001,??,,WP.2-3
-play,6,1,younr001,22,,53
-play,6,1,coopc001,02,,7/SF.3-H
-play,6,1,hisll101,00,,9/L
-play,7,0,mcrah001,??,,NP
+play,1,0,wilsw001,00,X,S8/L8S
+play,1,0,washu001,10,B1X,53/G5.1-2
+play,1,0,mcrah001,00,X,9/L9L
+play,1,0,bretg001,01,CX,S9/G34.2-H
+play,1,0,aikew001,11,CBX,HR/F9D.1-H
+play,1,0,otisa001,02,SLX,8/F8XD
+play,1,1,molip001,22,BFFBFX,9/F9
+play,1,1,younr001,11,BCX,53/G56S
+play,1,1,coopc001,00,X,43/G4
+play,2,0,wathj001,12,BSCFX,63/G6
+play,2,0,geroc101,20,BBX,S7/F7S
+play,2,0,chald101,12,CLB>X,S9/L9L.1-3
+com,"Chalk's hit was a pitchout about a foot off the plate"
+play,2,0,wilsw001,12,FFBFX,9/F9S
+com,"Geronimo went half way to home and turned around"
+play,2,0,washu001,20,BBX,6(1)/FO/G6M
+play,2,1,hisll101,11,BFX,53/G5
+play,2,1,oglib001,22,BCBSS,K
+play,2,1,simmt001,32,BCBFBX,53/G56
+play,3,0,mcrah001,32,BBFFFBS,K
+play,3,0,bretg001,01,SX,43/G4
+play,3,0,aikew001,12,SBFS,K
+play,3,1,thomg001,21,BBFX,HR/F8XD
+play,3,1,moned101,01,CX,13/G1
+play,3,1,gantj001,00,X,9/F89D
+play,3,1,molip001,00,X,63/G6M
+play,4,0,otisa001,32,CBBFBFX,S4/G4MD
+play,4,0,wathj001,22,BBFF11,POCS2(134)
+play,4,0,wathj001,32,BBFF11.BX,8/L8
+play,4,0,geroc101,32,BSBFFBX,8/F8
+play,4,1,younr001,32,CBFBBX,S7/L7S
+play,4,1,coopc001,22,BF1BF1FX,8/F78D
+play,4,1,hisll101,21,1F1BBX,64(1)/FO/G6
+play,4,1,oglib001,22,FCFBFBS,K
+play,5,0,chald101,10,BX,7/F56D
+play,5,0,wilsw001,12,CBFX,S2/G2
+play,5,0,washu001,31,BBBCB,W.1-2
+play,5,0,mcrah001,12,FBC+1S,K
+play,5,0,bretg001,11,BSH,HP.2-3;1-2
+play,5,0,aikew001,02,CFC,K/C
+play,5,1,simmt001,12,BCFX,E6/TH
+play,5,1,thomg001,32,FBCBBFB,W.1-2
+play,5,1,moned101,10,B2,PO2(14)
+play,5,1,moned101,32,B2.FBFB1C,K/C
+play,5,1,gantj001,01,CX,53/G5
+play,6,0,otisa001,00,X,63/G6
+play,6,0,wathj001,12,FCBX,S9/G34
+play,6,0,geroc101,00,X,S8/G4M.1-2
+play,6,0,chald101,11,BCX,E6.2-H(NR)(UR);1-3
+com,"Wathan running blocked Yount's view of ball and it went between his legs into LF"
+play,6,0,wilsw001,10,BX,FC3/G3.3XH(325);1-2
+play,6,0,washu001,11,BFX,54(1)/FO/G56
+play,6,1,molip001,22,BCFBX,D7/L7LS
+play,6,1,younr001,12,CBCB,WP.2-3
+play,6,1,younr001,22,CBCB.X,53/G5
+play,6,1,coopc001,02,FFX,7/SF/F7D.3-H
+play,6,1,hisll101,00,X,9/L9D
+play,7,0,mcrah001,00,,NP
 sub,auguj001,"Jerry Augustine",1,0,1
-play,7,0,mcrah001,32,,63
-play,7,0,bretg001,10,,3/G
-play,7,0,aikew001,30,,S8
-play,7,0,otisa001,01,,9/L
-play,7,1,oglib001,01,,HP
-play,7,1,simmt001,00,,6
-play,7,1,thomg001,32,,K
-play,7,1,moned101,01,,53
-play,8,0,wathj001,00,,43
-play,8,0,geroc101,12,,K/C
-play,8,0,chald101,31,,13
-play,8,1,gantj001,??,,NP
+play,7,0,mcrah001,32,.BSBBFFX,63/G6
+play,7,0,bretg001,10,BX,3/G3
+play,7,0,aikew001,30,BBBX,S8/G4M
+play,7,0,otisa001,01,FX,9/L9
+play,7,1,oglib001,00,H,HP
+play,7,1,simmt001,02,CFX,6/P6D
+play,7,1,thomg001,32,SBFBBS,K
+play,7,1,moned101,00,X,53/G56S
+play,8,0,wathj001,10,BX,43/G4
+play,8,0,geroc101,12,BCFC,K/C
+play,8,0,chald101,31,BSBBX,13/G3S
+play,8,1,gantj001,00,,NP
 sub,moorc001,"Charlie Moore",1,9,11
-play,8,1,moorc001,??,,153
-play,8,1,molip001,??,,7/L
-play,8,1,younr001,??,,53
-play,9,0,wilsw001,??,,NP
+play,8,1,moorc001,01,.CX,153/G1
+com,"comebacker off Gura's wrist just above the glove, into a 53"
+play,8,1,molip001,00,X,7/L7D
+play,8,1,younr001,00,X,53/G56S
+play,9,0,wilsw001,00,,NP
 sub,romee001,"Ed Romero",1,9,4
-play,9,0,wilsw001,12,,3/FL
-play,9,0,washu001,21,,63
-play,9,0,mcrah001,31,,8
-play,9,1,coopc001,??,,9
-play,9,1,hisll101,12,,K/C
-play,9,1,oglib001,02,,9
+play,9,0,wilsw001,22,.BSFFFBX,3/FL/P3F
+play,9,0,washu001,21,BBCX,63/G56
+play,9,0,mcrah001,21,FBBX,8/F8XD
+play,9,1,coopc001,00,X,9/F89
+play,9,1,hisll101,12,FBFFC,K/C
+play,9,1,oglib001,02,CCX,9/F9S
 data,er,gural001,2
 data,er,vuckp001,3
 data,er,auguj001,0
@@ -1231,6 +1235,9 @@ play,13,1,younr001,??,,CS2(24)
 play,14,0,upshw001,??,,NP
 sub,eastj001,"Jamie Easterly",1,0,1
 play,14,0,upshw001,??,,W
+com,"ej,willj107,C,bremn901,Balls and strikes"
+com,"$Third base coach Jimy Williams ejected by HP umpire"
+com,"Bremigan for arguing balls and strikes"
 play,14,0,machk101,??,,9
 play,14,0,wooda001,??,,S9.1-3
 play,14,0,bonnb001,??,,NP

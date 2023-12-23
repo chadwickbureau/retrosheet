@@ -4754,7 +4754,7 @@ play,5,0,mostj101,??,,NP
 sub,shauj101,"Joe Shaute",1,9,1
 play,5,0,mostj101,??,,S/BG1S.2-3
 play,5,0,sheee101,??,,S9.3-H;1-3
-play,5,0,elshr101,??,,4(1)3/GDP.3-H(NR)
+play,5,0,elshr101,??,,4(1)3/GDP.3-H(RBI)
 play,5,0,kammw101,??,,S8
 play,5,0,schar103,??,,CS2(24)
 play,5,1,jamic101,??,,W
@@ -5714,7 +5714,7 @@ play,4,0,shanh101,??,,S8.2-H;1-2
 play,4,0,mcmin101,??,,S9.2-3;1-2
 play,4,0,waltr102,??,,NP
 sub,reicd101,"Dick Reichle",0,8,11
-play,4,0,reicd101,??,,5(2)3/GDP.3-H(NR);1-2
+play,4,0,reicd101,??,,5(2)3/GDP.3-H(RBI);1-2
 play,4,0,fullc102,??,,NP
 sub,odoul101,"Lefty O'Doul",0,9,11
 play,4,0,odoul101,??,,31
@@ -6808,7 +6808,7 @@ play,6,1,stepr101,??,,E5/G.1-H(E5/TH1)(NR);B-1
 play,6,1,lutzr101,??,,PB.1-2
 play,6,1,lutzr101,??,,S/G6.2-3
 play,6,1,browf102,??,,S/4.3-H(UR);1-3
-play,6,1,oneis101,??,,64(1)3/GDP.3-H(NR)(UR)
+play,6,1,oneis101,??,,64(1)3/GDP.3-H(RBI)(UR)
 play,6,1,shauj101,??,,31
 play,7,0,hausj101,??,,9/F
 play,7,0,millb110,??,,S8
@@ -9277,6 +9277,7 @@ play,1,0,rices101,??,,D9.3-H;2-3
 play,1,0,judgj101,??,,W
 play,1,0,ruelm101,??,,NP
 sub,boond102,"Dan Boone",1,9,1
+presadj,boond102,3
 play,1,0,ruelm101,??,,S9.3-H;2-H;1-3(E9);B-2
 play,1,0,harrb106,??,,FC5.3XH(52);2-3
 play,1,0,evanj101,??,,S8.3-H(UR);1-3(E8)
@@ -9369,8 +9370,8 @@ play,9,1,sewej101,??,,W
 play,9,1,stepr101,??,,13
 data,er,zacht101,4
 data,er,russa101,1
-data,er,edwaj102,3
-data,er,boond102,4
+data,er,edwaj102,2
+data,er,boond102,5
 data,er,shauj101,0
 id,CLE192308230
 version,1
@@ -11141,13 +11142,14 @@ info,number,2
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,translator,"Cliff Blau"
-info,inputter,"Cliff Blau"
-info,inputtime,2022/03/15 3:26PM
 info,umphome,holmd102
 info,ump1b,owenb901
 info,ump2b,(none)
 info,ump3b,hildg101
+info,scorer,"39,111,612"
+info,translator,"Cliff Blau/WTownsend"
+info,inputter,"Cliff Blau/WTownsend"
+info,inputtime,2022/03/15 3:26PM
 info,howscored,unknown
 info,pitches,none
 info,temp,0
@@ -11157,7 +11159,7 @@ info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
 info,timeofgame,130
-info,attendance,0
+info,attendance,6000
 info,wp,lyont102
 info,lp,edwaj102
 info,save,cvenm101
@@ -11180,17 +11182,17 @@ start,lutzr101,"Rube Lutzke",1,6,5
 start,knodr101,"Ray Knode",1,7,3
 start,oneis101,"Steve O'Neill",1,8,2
 start,edwaj102,"James Edwards",1,9,1
-play,1,0,archm101,??,,S4
+play,1,0,archm101,??,,S4/G
 play,1,0,happj101,??,,13/SH.1-2
 play,1,0,mostj101,??,,S7.2-H
 play,1,0,sheee101,??,,SB2
 play,1,0,sheee101,??,,NP
 sub,myatg101,"Glenn Myatt",1,8,2
-play,1,0,sheee101,??,,6(B)4(2)/LDP
+play,1,0,sheee101,??,,6/LDP.2X2(64)
 play,1,1,jamic101,??,,9/L
-play,1,1,summh101,??,,D9
+play,1,1,summh101,??,,D9/F9DW
 play,1,1,speat101,??,,5/P
-play,1,1,sewej101,??,,S4.2-3
+play,1,1,sewej101,??,,S4/G.2-3
 play,1,1,wambb101,??,,7/F
 play,2,0,barrb105,??,,S7
 play,2,0,kammw101,??,,K
@@ -11200,105 +11202,100 @@ play,2,1,lutzr101,??,,K
 play,2,1,knodr101,??,,K
 play,2,1,myatg101,??,,S9
 play,2,1,edwaj102,??,,13
-com,"Remainder of game deduced from Cle. Plain Dealer."
-play,3,0,robec101,??,,D
-play,3,0,archm101,??,,99
-play,3,0,happj101,??,,99
-play,3,0,mostj101,??,,99
+play,3,0,robec101,??,,D9/F9D
+play,3,0,archm101,??,,2/BP
+play,3,0,happj101,??,,8/F
+play,3,0,mostj101,??,,4/L
 play,3,1,jamic101,??,,W
-play,3,1,summh101,??,,99
-play,3,1,speat101,??,,W.1-2
-play,3,1,sewej101,??,,W.2-3;1-2
-play,3,1,wambb101,??,,D.3-H;2-H;1-3#
-play,3,1,lutzr101,??,,NP
-sub,lyont102,"Ted Lyons",0,9,1
-play,3,1,lutzr101,??,,WP.3-H;2-3#
-play,3,1,lutzr101,??,,K#
+play,3,1,summh101,??,,8/F8XD
+play,3,1,speat101,??,,S4/L.1-3
+play,3,1,sewej101,??,,S9.3-H;1-2
+play,3,1,wambb101,??,,D9.2-H;1-3
+play,3,1,lutzr101,??,,W
 play,3,1,knodr101,??,,NP
 sub,browf102,"Frank Brower",1,7,11
-play,3,1,browf102,??,,D.3-H
-play,3,1,myatg101,??,,S.2-3#
-play,3,1,edwaj102,??,,99
+play,3,1,browf102,??,,W.3-H;2-3;1-2
+play,3,1,myatg101,20,BB,NP
+sub,lyont102,"Ted Lyons",0,9,1
+play,3,1,myatg101,??,,WP.3-H;2-3;1-2
+play,3,1,myatg101,??,,2/FL
+play,3,1,edwaj102,??,,143
 play,4,0,sheee101,??,,NP
 sub,browf102,"Frank Brower",1,7,3
-play,4,0,sheee101,??,,S/G
-play,4,0,barrb105,??,,S/G.1-2#
-play,4,0,kammw101,??,,S/8/P.2-H;1-2#
+play,4,0,sheee101,??,,S1/G
+play,4,0,barrb105,??,,S6/G.1-3(E6)
+play,4,0,kammw101,??,,S/F78S.3-H;1-3;B-2(TH3)
 play,4,0,mcclh103,??,,NP
 sub,smits102,"Sherry Smith",1,9,1
-play,4,0,mcclh103,??,,S8/P.2-H;1-2#
-play,4,0,grahr101,??,,W.2-3;1-2
-play,4,0,lyont102,??,,K
-play,4,0,archm101,??,,S.3-H;2-3;1-2#
-play,4,0,happj101,??,,S.3-H;2-H;1-2#
+play,4,0,mcclh103,??,,S8/8S.3-H;2-3
+play,4,0,grahr101,??,,W.1-2
+play,4,0,lyont102,??,,K/C
+play,4,0,archm101,??,,S7.3-H;2-3;1-2
+play,4,0,happj101,??,,S8.3-H;2-H;1-3
 play,4,0,mostj101,??,,NP
 sub,boond102,"Dan Boone",1,9,1
 play,4,0,mostj101,??,,NP
 sub,hooph101,"Harry Hooper",0,3,11
-play,4,0,hooph101,??,,S.2-H;1-2#
-play,4,0,sheee101,??,,16(1)3/GDP#
+play,4,0,hooph101,??,,S8.3-H;1-3
+play,4,0,sheee101,??,,16(1)3/GDP
 play,4,1,jamic101,??,,NP
 sub,hooph101,"Harry Hooper",0,3,9
-play,4,1,jamic101,??,,99
-play,4,1,summh101,??,,99
-play,4,1,speat101,??,,S#
-play,4,1,sewej101,??,,S.1-2#
-play,4,1,wambb101,??,,99
-play,5,0,barrb105,??,,NP
-sub,falkb101,"Bibb Falk",0,5,11
-com,"Not certain when Falk entered."
-play,5,0,falkb101,??,,W
-play,5,0,kammw101,??,,99
-play,5,0,mcclh103,??,,99
-play,5,0,grahr101,??,,99
-play,5,1,lutzr101,??,,NP
+play,4,1,jamic101,??,,NP
 sub,falkb101,"Bibb Falk",0,5,7
-play,5,1,lutzr101,??,,99
-play,5,1,browf102,??,,W#
-play,5,1,myatg101,??,,99.1-H#
+play,4,1,jamic101,??,,7/F
+play,4,1,summh101,??,,4/FL
+play,4,1,speat101,??,,W
+play,4,1,sewej101,??,,W.1-2
+play,4,1,wambb101,??,,9/F
+play,5,0,falkb101,??,,W
+play,5,0,kammw101,??,,9/F
+play,5,0,mcclh103,??,,53.1-2
+play,5,0,grahr101,??,,3/G
+play,5,1,lutzr101,??,,3/FL
+play,5,1,browf102,??,,D9
+play,5,1,myatg101,??,,S9.2-H
 play,5,1,boond102,??,,NP
 sub,gardl101,"Larry Gardner",1,9,11
-play,5,1,gardl101,??,,99
+play,5,1,gardl101,??,,3/FL
+play,5,1,jamic101,??,,43
 play,6,0,lyont102,??,,NP
 sub,levsd101,"Dutch Levsen",1,9,1
-play,6,0,lyont102,??,,99
-play,6,0,archm101,??,,S#
-play,6,0,happj101,??,,PO1(99)#
-play,6,0,happj101,??,,K#
-play,6,1,jamic101,??,,99
-play,6,1,summh101,??,,99
-play,6,1,speat101,??,,W#
-play,6,1,sewej101,??,,99
-play,7,0,hooph101,??,,S
-play,7,0,sheee101,??,,99/SH.1-2
-play,7,0,falkb101,??,,99
-play,7,0,kammw101,??,,FLE6#
-play,7,0,kammw101,??,,99
-play,7,1,wambb101,??,,99
-play,7,1,lutzr101,??,,W#
-play,7,1,browf102,??,,W.1-2#
-play,7,1,myatg101,??,,NP
+play,6,0,lyont102,??,,63
+play,6,0,archm101,??,,S/G6
+play,6,0,happj101,??,,PO1(136)
+play,6,0,happj101,??,,K
+play,6,1,summh101,??,,8/F
+play,6,1,speat101,??,,W
+play,6,1,sewej101,??,,2/FL
+play,6,1,wambb101,??,,6/P
+play,7,0,hooph101,??,,S8
+play,7,0,sheee101,??,,14/SH.1-2
+play,7,0,falkb101,??,,43.2-3
+play,7,0,kammw101,??,,13
+play,7,1,lutzr101,??,,NP
 sub,croub101,"Buck Crouse",0,8,2
-com,"Unknown when Crouse entered."
-play,7,1,myatg101,??,,99
+com,"$Graham was struck by a Lutzke foul tip and left game"
+play,7,1,lutzr101,??,,K
+play,7,1,browf102,??,,W
+play,7,1,myatg101,??,,43.1-2
 play,7,1,levsd101,??,,NP
 sub,stepr101,"Riggs Stephenson",1,9,11
-play,7,1,stepr101,??,,99
+play,7,1,stepr101,??,,K
 play,8,0,mcclh103,??,,NP
 sub,drakl101,"Logan Drake",1,9,1
-play,8,0,mcclh103,??,,99
-play,8,0,croub101,??,,99
+play,8,0,mcclh103,??,,6
+play,8,0,croub101,??,,9
 play,8,0,lyont102,??,,W
-play,8,0,archm101,??,,99
-play,8,1,jamic101,??,,S#
+play,8,0,archm101,??,,46(1)/FO
+play,8,1,jamic101,??,,S
 play,8,1,summh101,??,,HP.1-2
-play,8,1,speat101,??,,W.2-3;1-2#
+play,8,1,speat101,??,,W.2-3;1-2
 play,8,1,sewej101,??,,NP
 sub,cvenm101,"Mike Cvengros",0,9,1
-play,8,1,sewej101,??,,99/FL
+play,8,1,sewej101,??,,2/FL
 play,8,1,wambb101,??,,8/SF.3-H
-play,8,1,lutzr101,??,,53#
-com,"Game called for darkness"
+play,8,1,lutzr101,??,,53
+com,"$Game called for darkness"
 data,er,robec101,4
 data,er,lyont102,2
 data,er,cvenm101,0
