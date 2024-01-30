@@ -2488,6 +2488,7 @@ play,9,1,clard101,20,BB,NP
 sub,mogrg101,"George Mogridge",0,9,1
 play,9,1,clard101,20,BB,NP
 sub,ofarb101,"Bob O'Farrell",1,9,11
+presadj,mogrg101,1
 play,9,1,ofarb101,??,,W.1-2
 play,9,1,doutt101,??,,5(2)/FO.1-2
 play,9,1,frisf101,??,,HR/F7D.2-H;1-H
@@ -2512,8 +2513,8 @@ play,10,1,holmw101,??,,3/G
 play,10,1,soutb101,??,,43
 play,10,1,belll101,??,,K
 data,er,bentl101,4
-data,er,edwaf101,2
-data,er,mogrg101,1
+data,er,edwaf101,1
+data,er,mogrg101,2
 data,er,mcgrb101,6
 data,er,bellh101,0
 data,er,ringj101,0
@@ -3638,6 +3639,7 @@ play,5,1,bottj101,??,,W
 play,5,1,holmw101,??,,D.1-3
 play,5,1,soutb101,??,,NP
 sub,jonep101,"Percy Jones",0,9,1
+presadj,jonep101,3
 play,5,1,soutb101,??,,FC4.3XH(42);2-3
 play,5,1,belll101,??,,T/89.3-H;1-H
 play,5,1,snydf101,??,,W
@@ -3683,8 +3685,8 @@ play,9,0,beckc101,??,,99
 play,9,0,gramh101,??,,NP
 sub,tolsc101,"Chick Tolson",0,9,11
 play,9,0,tolsc101,??,,99
-data,er,brilj101,7
-data,er,jonep101,2
+data,er,brilj101,6
+data,er,jonep101,3
 data,er,gramh101,3
 data,er,rhemf101,3
 id,SLN192706220
@@ -5701,9 +5703,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"276,96,104,208"
-info,translator,"Jim Herdman"
-info,inputter,"Jim Herdman"
+info,scorer,"611,276,96,104,208,611"
+info,translator,"Jim Herdman/RWood/WTownsend"
+info,inputter,"Jim Herdman/RWood/WTownsend"
 info,inputtime,2020/07/07 9:51PM
 info,umphome,mccob104
 info,ump1b,klemb901
@@ -5742,60 +5744,57 @@ start,schuj106,"Johnny Schulte",1,7,2
 start,schuh105,"Heinie Schuble",1,8,6
 start,sherb101,"Bill Sherdel",1,9,1
 play,1,0,reesr102,??,,K
-play,1,0,mannl101,??,,S6/G
-play,1,0,ott-m101,??,,SB2.1-3(E2/TH)
+play,1,0,mannl101,??,,S6/G6M
+play,1,0,ott-m101,??,,SB2.1-3(E2/TH2)
 play,1,0,ott-m101,??,,3/G.3-3
-com,"Runner held at third base on infield ground out."
-play,1,0,hornr101,??,,13
+play,1,0,hornr101,??,,7
 play,1,1,holmw101,??,,63
-play,1,1,topos101,??,,99
+play,1,1,topos101,??,,23
 play,1,1,frisf101,??,,63
 play,2,0,terrb101,??,,W
 play,2,0,jackt101,??,,8
-play,2,0,harpg101,??,,7
+play,2,0,harpg101,??,,9
 play,2,0,taylz101,??,,7
 play,2,1,bottj101,??,,S9
 play,2,1,soutb101,??,,S9.1-3
-play,2,1,doutt101,??,,CS2(26)
 play,2,1,doutt101,??,,6/P
-play,2,1,schuj106,??,,99
+play,2,1,schuj106,??,,K+CS2(26)/DP
 play,3,0,barnv101,??,,K
 play,3,0,reesr102,??,,7
-play,3,0,mannl101,??,,S
-play,3,0,ott-m101,??,,99(1)/FO
+play,3,0,mannl101,??,,S8
+play,3,0,ott-m101,??,,4(1)/FO
 play,3,1,schuh105,??,,K
 play,3,1,sherb101,??,,W
-play,3,1,holmw101,??,,S.1-2
+play,3,1,holmw101,??,,S7.1-2
 play,3,1,topos101,??,,54(1)/FO.2-3
-play,3,1,frisf101,??,,99
-play,4,0,hornr101,??,,9/F
-play,4,0,terrb101,??,,E5.B-1
-play,4,0,jackt101,??,,W.1-2
-play,4,0,harpg101,??,,1(B)3(1)/LDP
-play,4,1,bottj101,??,,99
-play,4,1,soutb101,??,,99
-play,4,1,doutt101,??,,D
+play,3,1,frisf101,??,,6
+play,4,0,hornr101,??,,9/F89S
+play,4,0,terrb101,??,,163
+play,4,0,jackt101,??,,W
+play,4,0,harpg101,??,,4
+play,4,1,bottj101,??,,8
+play,4,1,soutb101,??,,3/G
+play,4,1,doutt101,??,,D7
 play,4,1,schuj106,??,,3/G
 play,5,0,taylz101,??,,S9
-play,5,0,barnv101,??,,2(B)3(1)/BP/DP
-com,"Attempted sacrifice."
+play,5,0,barnv101,??,,1/BPDP.1X1(13)
 play,5,0,reesr102,??,,9
 play,5,1,schuh105,??,,63
-play,5,1,sherb101,??,,99
+play,5,1,sherb101,??,,6/P78S
 play,5,1,holmw101,??,,8
-play,6,0,mannl101,??,,E6.B-1
-play,6,0,ott-m101,??,,99(1)/FO
+play,6,0,mannl101,??,,E6/TH1
+play,6,0,ott-m101,??,,56(1)/FO
 play,6,0,hornr101,??,,64(1)3/GDP
 play,6,1,topos101,??,,63
-play,6,1,frisf101,??,,T/F8D.B-H(NR)(E6/TH)
+play,6,1,frisf101,??,,T8/F8D.B-H(NR)(E6/THH)
 play,6,1,bottj101,??,,43
-play,6,1,soutb101,??,,S
-play,6,1,doutt101,??,,99
-play,7,0,terrb101,??,,HR/9
+play,6,1,soutb101,??,,S6
+play,6,1,doutt101,??,,2/P
+play,7,0,terrb101,??,,HR/L9D
 play,7,0,jackt101,??,,S2/BG
-play,7,0,harpg101,??,,S7.1-2
+play,7,0,harpg101,??,,S7/F7S.1-2
 play,7,0,taylz101,??,,13/SH.2-3;1-2
-play,7,0,barnv101,??,,8/8D/SF.3-H
+play,7,0,barnv101,??,,8/F8XD/SF.3-H;2-3
 play,7,0,reesr102,??,,K
 play,7,1,schuj106,??,,W
 play,7,1,schuh105,??,,NP
@@ -5805,7 +5804,7 @@ sub,hafec101,"Chick Hafey",1,8,11
 play,7,1,hafec101,??,,K
 play,7,1,sherb101,??,,36(1)/FO
 play,7,1,holmw101,??,,S7.1-2
-play,7,1,topos101,??,,D9.2-H;1-3
+play,7,1,topos101,??,,D9/G3.2-H;1-3
 play,7,1,frisf101,??,,53
 play,8,0,mannl101,??,,NP
 sub,topos101,"Specs Toporcer",1,2,6
@@ -5816,32 +5815,30 @@ sub,snydf101,"Frank Snyder",1,7,2
 play,8,0,mannl101,??,,K
 play,8,0,ott-m101,??,,S8
 play,8,0,hornr101,??,,S8.1-2
-play,8,0,terrb101,??,,9
-play,8,0,jackt101,??,,S5/G.2-3;1-2
-play,8,0,harpg101,??,,HR/F89D.3-H;2-H;1-H
-com,"Harper's long grand slam landed on Grand Boulevard."
+play,8,0,terrb101,??,,9/F
+play,8,0,jackt101,??,,S5/G56.2-3;1-2
+play,8,0,harpg101,??,UX,HR/F89XD.3-H;2-H;1-H
 play,8,0,taylz101,??,,63
 play,8,1,bottj101,??,,NP
 sub,rouse101,"Edd Roush",0,3,8
 play,8,1,bottj101,??,,5/P
 play,8,1,soutb101,??,,8/F
-play,8,1,doutt101,??,,D
+play,8,1,doutt101,??,,D7
 play,8,1,snydf101,??,,S8.2-H
-play,8,1,belll101,??,,99
-play,9,0,barnv101,??,,S
-play,9,0,reesr102,??,,S/BG.1X3(15)
-play,9,0,mannl101,??,,99
-play,9,0,rouse101,??,,S/89.1-H
-com,"Reese scored from first base on hit and run play."
-play,9,0,hornr101,??,,FC.1-2#
+play,8,1,belll101,??,,3/P
+play,9,0,barnv101,??,,S5
+play,9,0,reesr102,??,,S1/BG.1-2
+play,9,0,mannl101,??,,2/P/DP.2X2(26)
+play,9,0,rouse101,??,,S8/89.1-H
+com,"Reese scored from first base on hit and run"
+play,9,0,hornr101,??,,E6.1-2
 play,9,0,terrb101,??,,43
 play,9,1,sherb101,??,,NP
 sub,clard101,"Danny Clark",1,9,11
-play,9,1,clard101,??,,S
-play,9,1,holmw101,??,,FC/TH2.1-2;B-1
-com,"Throw to second base was late."
-play,9,1,topos101,??,,K+CS2(26)/DP
-play,9,1,frisf101,??,,S.2-H
+play,9,1,clard101,??,,S3
+play,9,1,holmw101,??,,63.1-2
+play,9,1,topos101,??,,K
+play,9,1,frisf101,??,,S8/L.2-H
 play,9,1,bottj101,??,,43
 data,er,barnv101,4
 data,er,sherb101,7
@@ -7108,8 +7105,8 @@ info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
 info,scorer,"102"
-info,translator,"Wayne Townsend"
-info,inputter,"Wayne Townsend"
+info,translator,"Wayne Townsend/WTownsend"
+info,inputter,"Wayne Townsend/WTownsend"
 info,inputtime,2004/11/27 9:57PM
 info,umphome,riglc901
 info,ump1b,jordl901
@@ -7147,10 +7144,10 @@ start,holmw101,"Wattie Holm",1,6,7
 start,ofarb101,"Bob O'Farrell",1,7,2
 start,belll101,"Les Bell",1,8,6
 start,rhemf101,"Flint Rhem",1,9,1
-play,1,0,wanel101,??,,S8
+play,1,0,wanel101,??,,S8/L
 play,1,0,grang102,??,,7/F7S
-play,1,0,wanep101,??,,8/L
-play,1,0,barnc102,??,,5/P
+play,1,0,wanep101,??,,8/L8S
+play,1,0,barnc102,??,,5/P5
 play,1,1,doutt101,??,,7/L
 play,1,1,topos101,??,,63
 play,1,1,frisf101,??,,S9
@@ -7163,18 +7160,15 @@ play,2,1,soutb101,??,,S7
 play,2,1,holmw101,??,,54(1)3/GDP
 play,2,1,ofarb101,??,,K/C
 play,3,0,goocj101,??,,43
-play,3,0,meadl101,??,,S/G46
-play,3,0,wanel101,??,,54(1)/FO
+play,3,0,meadl101,??,,S4/G4M
+play,3,0,wanel101,??,,54(1)/FO/R3
 play,3,0,grang102,??,,SB2.1-3(E2/TH2)
 play,3,0,grang102,??,,W
-play,3,0,wanep101,??,,S9.3-H;1-H(E6)(NR)(UR);B-2
+play,3,0,wanep101,??,,S9/R6.3-H;1-H(E6)(NR)(UR);B-2
 play,3,0,barnc102,??,,13
 play,3,1,belll101,??,,D/78
 play,3,1,rhemf101,??,,43.2-3
-play,3,1,doutt101,??,,FC1.3XH(12)
-com,"$Johnny Gooch dropped the ball but HP umpire Cy Rigler did not see it;"
-com,"the Cardinals protested and Rigler consulted with the other"
-com,"umpires but none saw the ball dropped"
+play,3,1,doutt101,??,,FC1/G1S.3XH(12)
 play,3,1,topos101,??,,PO1(13)
 play,4,0,trayp101,??,,D/78
 play,4,0,wrigg102,??,,3/G.2-3
@@ -7185,24 +7179,22 @@ play,4,1,frisf101,??,,S8
 play,4,1,bottj101,??,,3/FL
 play,4,1,soutb101,??,,8/L
 play,5,0,meadl101,??,,K
-play,5,0,wanel101,??,,S9/9DW
+play,5,0,wanel101,??,,S9/F9DW
 play,5,0,grang102,??,,S9.1-3
 play,5,0,wanep101,??,,9/SF.3-H
 play,5,0,barnc102,??,,SB2
 play,5,0,barnc102,??,,W
 play,5,0,trayp101,??,,8/L
 play,5,1,holmw101,??,,D4/P8S
-com,"$Hal Rhyne and Lloyd Waner collided and Rhyne dropped the ball;"
-com,"the Pirates argued Ryne held it long enough for the out"
 play,5,1,ofarb101,??,,S7.2-H
-play,5,1,belll101,??,,E1/G.1-2
+play,5,1,belll101,??,,E1/G1S.1-2
 play,5,1,rhemf101,??,,NP
 sub,clard101,"Danny Clark",1,9,11
 play,5,1,clard101,??,,W.2-3;1-2
 play,5,1,doutt101,??,,46(1)/FO.3-H(UR);2-3
 play,5,1,topos101,??,,NP
 sub,hafec101,"Chick Hafey",1,2,11
-play,5,1,hafec101,??,,K
+play,5,1,hafec101,02,KKS,K
 play,5,1,frisf101,??,,W.1-2
 play,5,1,bottj101,??,,5/FL
 play,6,0,wrigg102,??,,NP
@@ -7220,7 +7212,7 @@ play,6,1,holmw101,??,,64(1)3/GDP
 play,6,1,ofarb101,??,,W
 play,6,1,belll101,??,,3/FL
 play,7,0,wanel101,??,,63
-play,7,0,grang102,??,,T8
+play,7,0,grang102,??,,T/78D
 play,7,0,wanep101,??,,43.3-H
 play,7,0,barnc102,??,,9
 play,7,1,keenv101,??,,NP
@@ -7234,7 +7226,7 @@ sub,littc101,"Carlisle Littlejohn",1,9,1
 play,8,0,trayp101,??,,S9
 play,8,0,wrigg102,??,,63.1-2
 play,8,0,rhynh101,??,,43.2-3
-play,8,0,goocj101,??,,S/G6.3-H
+play,8,0,goocj101,??,,S6/G.3-H
 play,8,0,meadl101,??,,6/P
 play,8,1,bottj101,??,,7
 play,8,1,soutb101,??,,63
@@ -7243,13 +7235,12 @@ play,9,0,wanel101,??,,43
 play,9,0,grang102,??,,S/BG23
 play,9,0,wanep101,??,,S9.1-3
 play,9,0,barnc102,??,,64(1)3/GDP
-com,"pbp account ends here, rest deduced"
-play,9,1,ofarb101,??,,99
-play,9,1,belll101,??,,99
+play,9,1,ofarb101,??,,9
+play,9,1,belll101,??,,3/G
 play,9,1,littc101,??,,NP
 sub,bladr102,"Ray Blades",1,9,11
-play,9,1,bladr102,??,,S
-play,9,1,doutt101,??,,99
+play,9,1,bladr102,??,,S8/L8S
+play,9,1,doutt101,??,,3/G
 data,er,meadl101,1
 data,er,rhemf101,3
 data,er,keenv101,1

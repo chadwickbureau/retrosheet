@@ -5121,11 +5121,11 @@ info,ump1b,barla901
 info,ump2b,varge901
 info,ump3b,kiblj901
 info,scorer,"Cubs"
-info,translator,"Stuart Shea"
+info,translator,"Stuart Shea with some pitches from radio"
 info,inputter,"Stuart Shea"
 info,inputtime,1995/03/22 10:52PM
 info,howscored,park
-info,pitches,count
+info,pitches,pitches
 info,temp,64
 info,winddir,unknown
 info,windspeed,-1
@@ -5204,7 +5204,7 @@ play,6,0,willb104,11,,S9
 play,6,0,santr102,02,,K/C
 play,6,1,sangm101,11,,53
 play,6,1,oliva001,10,,43
-play,6,1,martj103,10,,8
+play,6,1,martj103,10,,8/F
 play,7,0,smitw102,12,,3/G
 play,7,0,hundr101,01,,S8
 play,7,0,spana101,00,,SB2
@@ -5218,30 +5218,29 @@ play,7,1,aloum101,02,,K/C
 play,8,0,kessd101,32,,S8
 play,8,0,popop101,00,,34/SH/BG.1-2
 play,8,0,willb104,30,,IW
-play,8,0,santr102,32,,T8.2-H;1-H;BXH(52)
-com,"no pitches"
+play,8,0,santr102,32,,T8/L89D.2-H;1-H;BXH(52)
 play,8,0,smitw102,00,,K
 play,8,1,taylc102,31,,W
 play,8,1,clemr101,00,,NP
 sub,jetej101,"Johnny Jeter",1,2,12
-play,8,1,clemr101,32,,HR/7.1-H
+play,8,1,clemr101,32,,HR/L7D.1-H
 play,8,1,pagaj101,01,,6/L
 play,8,1,sangm101,22,,63
 play,8,1,oliva001,22,,63
 play,9,0,hundr101,00,,NP
 sub,jetej101,"Johnny Jeter",1,2,7
-play,9,0,hundr101,22,,8
-play,9,0,spana101,00,,S9
-play,9,0,yound103,12,,K
-play,9,0,holtk101,11,,6/P
-com,"no pitches for next three hitters"
-play,9,1,martj103,00,,S8
-play,9,1,patef101,00,,14/SH/BG.1-2
+play,9,0,hundr101,22,.LFBBX,8/F8D
+play,9,0,spana101,00,X,S9/G34
+play,9,0,yound103,12,MBCS,K
+play,9,0,holtk101,01,FX,6/P6M
+play,9,1,martj103,00,X,S8/G
+play,9,1,patef101,00,X,14/SH/BG23.1-2
 play,9,1,ellid101,00,,NP
 sub,hebnr001,"Richie Hebner",1,9,11
-play,9,1,hebnr001,00,,HP
-play,9,1,aloum101,12,,14(1)/FO.2-3;B-1
-play,9,1,jetej101,12,,K
+play,9,1,hebnr001,00,H,HP
+play,9,1,aloum101,12,CBCX,14(1)/FO/G1.2-3;B-1
+play,9,1,jetej101,00,S,DI.1-2
+play,9,1,jetej101,12,S.BSS,K
 play,10,0,kessd101,00,,NP
 sub,gibbj102,"Joe Gibbon",1,9,1
 play,10,0,kessd101,12,,K
@@ -5250,14 +5249,13 @@ play,10,0,willb104,22,,S8
 play,10,0,santr102,32,,9
 play,10,1,clemr101,00,,NP
 sub,regap101,"Phil Regan",0,9,1
-play,10,1,clemr101,00,,NP
+play,10,1,clemr101,01,..CX,D9/L9LDW
+play,10,1,pagaj101,00,,NP
 sub,hickj103,"Jim Hickman",0,7,9
-play,10,1,clemr101,01,,D9
-play,10,1,pagaj101,00,,13
-play,10,1,sangm101,12,,K
-com,"no pitches"
-play,10,1,oliva001,00,,IW
-play,10,1,martj103,20,,S7.2-H;1-2
+play,10,1,pagaj101,00,X,13/G1
+play,10,1,sangm101,02,CSS,K
+play,10,1,oliva001,30,IIII,IW
+play,10,1,martj103,20,BBX,S7/G56.2-H;1-2
 data,er,holtk101,2
 data,er,regap101,1
 data,er,ellid101,2
@@ -5925,7 +5923,7 @@ info,hometeam,PIT
 info,site,PIT06
 info,date,1969/07/04
 info,number,2
-info,starttime,0:00PM
+info,starttime,2:04PM
 info,daynight,day
 info,usedh,false
 info,umphome,pryop901
@@ -5933,17 +5931,17 @@ info,ump1b,venzt901
 info,ump2b,secof101
 info,ump3b,davis901
 info,scorer,"Mets"
-info,translator,"Dobrow"
+info,translator,"Dobrow/Mike Grahek"
 info,inputter,"Dobrow"
 info,inputtime,1995/01/14 11:49AM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,overcast
 info,timeofgame,148
 info,attendance,17631
 info,wp,cardd101
@@ -5968,109 +5966,116 @@ start,hebnr001,"Richie Hebner",1,6,5
 start,martj103,"Jose Martinez",1,7,4
 start,patef101,"Freddie Patek",1,8,6
 start,ellid101,"Dock Ellis",1,9,1
-play,1,0,ageet101,??,,S8
-play,1,0,boswk101,??,,63.1-2
-play,1,0,jonec102,??,,63
-play,1,0,shama101,??,,W
-play,1,0,garrw101,??,,S6/G.2-3;1-2
-play,1,0,krane101,??,,W.3-H;2-3;1-2
-play,1,0,martj107,??,,S6/G.3-H;2-3;1-2
-play,1,0,weisa101,??,,T9.3-H;2-H;1-H
-play,1,0,cardd101,??,,K
-play,1,1,aloum101,??,,8/F
-play,1,1,sangm101,??,,D8/78
-play,1,1,starw101,??,,T9.2-H
-play,1,1,clemr101,??,,13
-play,1,1,oliva001,??,,W
-play,1,1,hebnr001,??,,NP
+play,1,0,ageet101,12,BCCX,S8
+play,1,0,boswk101,21,BCB1>X,63.1-2
+play,1,0,jonec102,12,SBSX,63
+play,1,0,shama101,32,BBCCBB,W
+play,1,0,garrw101,00,X,S6/G5.2-3;1-2
+play,1,0,krane101,31,BBCBB,W.3-H;2-3;1-2
+play,1,0,martj107,02,CCX,S6/G4MS.3-H;2-3;1-2
+play,1,0,weisa101,20,BBX,T8/L89.3-H;2-H;1-H
+play,1,0,cardd101,12,SSBS,K
+play,1,1,aloum101,00,X,8/F8S
+play,1,1,sangm101,22,CBCBX,D7/G5
+play,1,1,starw101,00,X,T8/F89.2-H
+play,1,1,clemr101,22,FBCBX,13
+play,1,1,oliva001,30,BBBB,W
+play,1,1,hebnr001,00,,NP
 sub,pagaj101,"Jose Pagan",1,6,11
-play,1,1,pagaj101,??,,9/F
-play,2,0,ageet101,??,,NP
+play,1,1,pagaj101,00,.X,9/F9S
+play,2,0,ageet101,00,,NP
 sub,pagaj101,"Jose Pagan",1,6,5
-play,2,0,ageet101,??,,S8
-play,2,0,boswk101,??,,13/SH.1-2
-play,2,0,jonec102,??,,8/F
-play,2,0,shama101,??,,S9.2-H;B-2(THH)
-play,2,0,garrw101,??,,WP.2-3
-play,2,0,garrw101,??,,NP
+play,2,0,ageet101,10,.BX,S8/L8
+play,2,0,boswk101,11,CBX,13/SH.1-2
+play,2,0,jonec102,22,BBFFX,8/F78S
+play,2,0,shama101,32,BBCCBX,S9/L.2-H
+play,2,0,garrw101,01,CB,WP.1-3
+play,2,0,garrw101,21,CB.B,NP
 sub,gibbj102,"Joe Gibbon",1,9,1
-play,2,0,garrw101,??,,63
-play,2,1,martj103,??,,53
-play,2,1,patef101,??,,HR
-play,2,1,gibbj102,??,,K/C
-play,2,1,aloum101,??,,9/F
-play,3,0,krane101,??,,43
-play,3,0,martj107,??,,HR
-play,3,0,weisa101,??,,D8/78
-play,3,0,cardd101,??,,K
-play,3,0,ageet101,??,,8/F
-play,3,1,sangm101,??,,43
-play,3,1,starw101,??,,S9
-play,3,1,clemr101,??,,S/BR.1X2(4);B-1
-play,3,1,oliva001,??,,36(1)/FO
-play,4,0,boswk101,??,,NP
+play,2,0,garrw101,21,CB.B.X,63
+play,2,1,martj103,01,FX,53
+play,2,1,patef101,21,BBCX,HR/F7D
+play,2,1,gibbj102,12,FBFFC,K/C
+play,2,1,aloum101,22,FFBBX,9/F89
+play,3,0,krane101,00,X,43
+play,3,0,martj107,01,CX,HR/F9D
+play,3,0,weisa101,02,CFX,D7/L78
+play,3,0,cardd101,22,BSBSC,K/C
+play,3,0,ageet101,32,FBBSFFFBX,8/L8
+play,3,1,sangm101,02,SCX,43/G4D
+play,3,1,starw101,11,CBX,S9/L9
+play,3,1,clemr101,21,BSBX,S/BR.1X2(4);B-1
+play,3,1,oliva001,10,BX,36(1)/FO
+com,"After being hit by the batted ball, Stargell was late"
+com,"taking the field for the top of the inning and umpire"
+com,"Tony Venzon put on a glove and warmed up the infield"
+com,"until Stargell returned."
+play,4,0,boswk101,00,,NP
 sub,pfeib101,"Bobby Pfeil",0,2,11
-play,4,0,pfeib101,??,,S9
-play,4,0,jonec102,??,,9/F
-play,4,0,shama101,??,,WP.1-2#
-play,4,0,shama101,??,,S9.2XH(92);B-2(THH)
-play,4,0,garrw101,??,,43
-play,4,1,pagaj101,??,,NP
+com,"Boswell had a bruised left thumb and couldn't bat."
+play,4,0,pfeib101,32,.BCFFFBBFX,S9/L9
+com,"Pfeil had to scramble back to 1B as Clemente threw"
+com,"behind him on a close play."
+play,4,0,jonec102,00,B,WP.1-2
+play,4,0,jonec102,20,B.BX,9/F89S
+play,4,0,shama101,10,BX,S9/L9.2XH(92);B-2(THH)
+play,4,0,garrw101,20,BBX,43
+play,4,1,pagaj101,00,,NP
 sub,pfeib101,"Bobby Pfeil",0,2,4
-play,4,1,pagaj101,??,,7/L
-play,4,1,martj103,??,,W
-play,4,1,patef101,??,,64(1)/FO
-play,4,1,gibbj102,??,,NP
+play,4,1,pagaj101,00,.X,7/L7D
+play,4,1,martj103,31,BBBCB,W
+play,4,1,patef101,22,CBFBX,64(1)/FO
+play,4,1,gibbj102,00,,NP
 sub,taylc102,"Carl Taylor",1,9,11
-play,4,1,taylc102,??,,64(1)/FO
-play,5,0,krane101,??,,NP
+play,4,1,taylc102,11,.CBX,64(1)/FO
+play,5,0,krane101,00,,NP
 sub,marol101,"Lou Marone",1,9,1
-play,5,0,krane101,??,,43
-play,5,0,martj107,??,,7/F
-play,5,0,weisa101,??,,4/P
-play,5,1,aloum101,??,,S7
-play,5,1,sangm101,??,,6/P
-play,5,1,starw101,??,,3/G.1-2
-play,5,1,clemr101,??,,8/F
-play,6,0,cardd101,??,,K
-play,6,0,ageet101,??,,9/F
-play,6,0,pfeib101,??,,3/L
-play,6,1,oliva001,??,,3/G
-play,6,1,pagaj101,??,,63
-play,6,1,martj103,??,,8/F
-play,7,0,jonec102,??,,HP
-play,7,0,shama101,??,,13.1-2
-play,7,0,garrw101,??,,43.2-3
-play,7,0,krane101,??,,43
-play,7,1,patef101,??,,8/F
-play,7,1,marol101,??,,NP
+play,5,0,krane101,22,.BBFFX,43
+play,5,0,martj107,20,BBX,7/F78
+play,5,0,weisa101,00,X,4/P9S
+play,5,1,aloum101,21,FBBX,S7/G56
+play,5,1,sangm101,01,FX,6/P6
+play,5,1,starw101,00,X,3/G.1-2
+play,5,1,clemr101,22,FBBFFX,8/F8S
+play,6,0,cardd101,12,CSBS,K
+play,6,0,ageet101,01,CX,9/F9
+play,6,0,pfeib101,01,CX,3/L
+play,6,1,oliva001,00,X,31/G3#
+play,6,1,pagaj101,00,X,63
+play,6,1,martj103,22,CBMFBFX,8/F8
+play,7,0,jonec102,02,FFH,HP
+play,7,0,shama101,12,CB>FX,13.1-2
+play,7,0,garrw101,01,CX,43.2-3
+play,7,0,krane101,00,X,43
+play,7,1,patef101,12,CLBX,9/F89
+play,7,1,marol101,00,,NP
 sub,kolbg101,"Gary Kolb",1,9,11
-play,7,1,kolbg101,??,,8/F
-play,7,1,aloum101,??,,53
-play,8,0,martj107,??,,NP
+play,7,1,kolbg101,00,.X,8/F89XD
+play,7,1,aloum101,11,BCX,53
+play,8,0,martj107,00,,NP
 sub,hartc105,"Chuck Hartenstein",1,9,1
-play,8,0,martj107,??,,7/F
-play,8,0,weisa101,??,,53
-play,8,0,cardd101,??,,NP
+play,8,0,martj107,00,.X,7/L7L
+play,8,0,weisa101,22,CBSBFFX,53
+play,8,0,cardd101,00,,NP
 sub,swobr101,"Ron Swoboda",0,9,11
-play,8,0,swobr101,??,,53
-play,8,1,sangm101,??,,NP
+play,8,0,swobr101,30,.BBBX,53
+play,8,1,sangm101,00,,NP
 sub,dilaj101,"Jack DiLauro",0,9,1
-play,8,1,sangm101,??,,S1/BG
-play,8,1,starw101,??,,8/F
-play,8,1,clemr101,??,,S/BG.1-2
-play,8,1,oliva001,??,,46(1)3/GDP
-play,9,0,ageet101,??,,63
-play,9,0,pfeib101,??,,S8/78
-play,9,0,jonec102,??,,S7.1-3
-play,9,0,shama101,??,,S9.3-H;1-2
-play,9,0,garrw101,??,,S8.2-H;1-2
-play,9,0,krane101,??,,6(1)63/GDP
-play,9,1,pagaj101,??,,NP
+play,8,1,sangm101,00,.X,S5/BG
+play,8,1,starw101,10,BX,8/F8D
+play,8,1,clemr101,10,BX,S5/BG.1-2
+play,8,1,oliva001,02,SFX,46(1)3/GDP
+play,9,0,ageet101,00,X,63
+play,9,0,pfeib101,22,CBSBX,S9/L9
+play,9,0,jonec102,32,BCBSFFBF>X,S7/G56.1-3
+play,9,0,shama101,00,X,S3/G3.3-H;1-2
+play,9,0,garrw101,22,FBFBX,S8/L8.2-H;1-2
+play,9,0,krane101,10,BX,6(1)63/GDP
+play,9,1,pagaj101,00,,NP
 sub,gaspr101,"Rod Gaspar",0,3,7
-play,9,1,pagaj101,??,,53
-play,9,1,martj103,??,,13
-play,9,1,patef101,??,,13
+play,9,1,pagaj101,01,.FX,53
+play,9,1,martj103,02,CCX,13
+play,9,1,patef101,21,CBBX,13/BG1
 data,er,cardd101,2
 data,er,dilaj101,0
 data,er,ellid101,6
@@ -7803,12 +7808,12 @@ info,ump1b,burkk101
 info,ump2b,sudoe901
 info,ump3b,wendh901
 info,scorer,"Hunter"
-info,translator,"Marc Stephenson"
+info,translator,"Marc Stephenson with pitches from audio recording"
 info,inputter,"Marc Stephenson"
 info,inputtime,1997/04/05 10:35AM
 info,howscored,park
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,77
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -7851,7 +7856,7 @@ play,2,0,sizet101,??,,43
 play,2,0,torbj101,??,,13
 play,2,1,clemr101,??,,63
 play,2,1,hebnr001,??,,9/L
-play,2,1,sangm101,??,,W
+play,2,1,sangm101,30,BBBB,W
 play,2,1,patef101,??,,WP.1-2
 play,2,1,patef101,??,,S7.2XH(72)
 play,3,0,suttd001,??,,7
@@ -7883,33 +7888,33 @@ play,7,0,motam101,??,,W
 play,7,0,kosca101,??,,SB2
 play,7,0,kosca101,??,,K
 play,7,0,boyek101,??,,S7.2-3
-play,7,0,sudab101,??,,64(1)3/GDP
-play,7,1,starw101,??,,S9
-play,7,1,clemr101,??,,9
-play,7,1,hebnr001,??,,8
-play,7,1,sangm101,??,,7
-play,8,0,sizet101,??,,E5.B-1
-play,8,0,torbj101,??,,14/SH.1-2
-play,8,0,suttd001,??,,63.2-3
-play,8,0,russb001,??,,S8.3-H(UR)
-play,8,0,willm102,??,,SB2.1-3(E2/TH2)
-play,8,0,willm102,??,,S4.3-H(UR)
-play,8,0,motam101,??,,CS2(26)
-play,8,1,patef101,??,,NP
+play,7,0,sudab101,12,BK1KX,64(1)3/GDP
+play,7,1,starw101,22,FCBBX,S9/L9LD
+play,7,1,clemr101,11,FBX,9/F9
+play,7,1,hebnr001,10,BX,8/F8D
+play,7,1,sangm101,02,FFX,7/P7S
+play,8,0,sizet101,00,X,E5/G5.B-1
+play,8,0,torbj101,01,LX,14/SH.1-2
+play,8,0,suttd001,11,BSX,63/G4M.2-3
+play,8,0,russb001,10,BX,S8/G6.3-H(UR)
+play,8,0,willm102,00,1M,SB2.1-3(E2/TH2)
+play,8,0,willm102,01,1M.X,S4/BG34S.3-H(UR)
+play,8,0,motam101,10,B1B,CS2(26)
+play,8,1,patef101,20,.BBX,HR/F7D
+play,8,1,martj103,02,FFX,S6/G56D
+play,8,1,vealb101,00,.,NP
 sub,huttt101,"Tom Hutton",0,5,3
-play,8,1,patef101,??,,HR/7
-play,8,1,martj103,??,,S6
-play,8,1,vealb101,??,,NP
+play,8,1,vealb101,00,,NP
 sub,pagaj101,"Jose Pagan",1,9,11
-play,8,1,pagaj101,??,,S7.1-2
-play,8,1,aloum101,??,,NP
+play,8,1,pagaj101,12,..CBSFX,S9/F9S.1-2
+play,8,1,aloum101,00,,NP
 sub,davir102,"Ron Davis",1,9,12
-play,8,1,aloum101,??,,NP
+play,8,1,aloum101,00,.,NP
 sub,brewj102,"Jim Brewer",0,9,1
-play,8,1,aloum101,??,,K
-play,8,1,taylc102,??,,9
-play,8,1,starw101,??,,S9.2-H;1-3
-play,8,1,clemr101,??,,K
+play,8,1,aloum101,12,..BLCL,K
+play,8,1,taylc102,32,BFBFBF2X,9/F9S
+play,8,1,starw101,00,X,S9/L9LS.2-H;1-3
+play,8,1,clemr101,12,BCST,K
 play,9,0,motam101,??,,NP
 sub,gibbj102,"Joe Gibbon",1,9,1
 play,9,0,motam101,??,,S9
@@ -7918,26 +7923,26 @@ play,9,0,huttt101,??,,WP.2-3
 play,9,0,huttt101,??,,NP
 sub,millj104,"John Miller",0,5,11
 play,9,0,millj104,??,,3/G
-play,9,0,sudab101,??,,13
-play,9,1,hebnr001,??,,NP
+play,9,0,sudab101,22,,13/G1
+play,9,1,hebnr001,00,,NP
 sub,millj104,"John Miller",0,5,3
-play,9,1,hebnr001,??,,31
-play,9,1,sangm101,??,,S7
-play,9,1,patef101,??,,K
-play,9,1,martj103,??,,7
+play,9,1,hebnr001,32,.BBBCFX,31/G34
+play,9,1,sangm101,01,FX,S7/G56
+play,9,1,patef101,22,B1FSB1L,K
+play,9,1,martj103,10,1BX,7/F78
 play,10,0,sizet101,??,,E6.B-1
 play,10,0,torbj101,??,,14/SH.1-2
 play,10,0,brewj102,??,,NP
 sub,grabb101,"Billy Grabarkewitz",0,9,11
 play,10,0,grabb101,??,,W
 play,10,0,russb001,??,,9
-play,10,0,willm102,??,,6(1)/G/FO
-play,10,1,gibbj102,??,,NP
+play,10,0,willm102,31,CBBBX,6(1)/G6/FO
+play,10,1,gibbj102,00,,NP
 sub,mcbea101,"Al McBean",0,9,1
-play,10,1,gibbj102,??,,K/C
-play,10,1,aloum101,??,,43
-play,10,1,taylc102,??,,W
-play,10,1,starw101,??,,HR/7.1-H
+play,10,1,gibbj102,32,.CBFBBFC,K/C
+play,10,1,aloum101,11,BCX,43/G4
+play,10,1,taylc102,30,BBBB,W
+play,10,1,starw101,12,CS*BX,HR/F9D.1-H
 data,er,suttd001,2
 data,er,brewj102,0
 data,er,mcbea101,2
@@ -8058,6 +8063,7 @@ play,6,0,moelj101,??,,NP
 sub,motam101,"Manny Mota",0,9,11
 play,6,0,motam101,??,,S9/DP.2XH(92);1X3(265)
 play,6,0,willm102,??,,W.1-2
+presadj,dalcb101,2
 play,6,0,craww101,??,,S8.2-H;1-3
 com,"ej,shepl801,M,burkk101,Balls and strikes"
 com,"$Pirates manager Shepard ejected by HP umpire Burkhart"
@@ -12304,25 +12310,25 @@ info,hometeam,PIT
 info,site,PIT06
 info,date,1969/10/02
 info,number,0
-info,starttime,0:00PM
+info,starttime,8:05PM
 info,daynight,night
 info,usedh,false
 info,umphome,steim901
 info,ump1b,steld901
 info,ump2b,engeb901
 info,ump3b,donaa901
-info,scorer,"MON"
-info,translator,"Marc Stephenson"
-info,inputter,"Marc Stephenson"
+info,scorer,"MON/Expos radio broadcast"
+info,translator,"Marc Stephenson/Mike Grahek"
+info,inputter,"Marc Stephenson/Mike Grahek"
 info,inputtime,1997/08/30 10:01PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,wet
+info,precip,rain
+info,sky,overcast
 info,timeofgame,135
 info,attendance,2700
 info,wp,moosb101
@@ -12347,101 +12353,100 @@ start,sangm101,"Manny Sanguillen",1,6,2
 start,hebnr001,"Richie Hebner",1,7,5
 start,patef101,"Freddie Patek",1,8,6
 start,moosb101,"Bob Moose",1,9,1
-play,1,0,staem101,??,,D9
-play,1,0,fairj102,??,,S7.2-H
-play,1,0,staur001,??,,K
-play,1,0,jonem102,??,,K
-play,1,0,collk101,??,,43
-play,1,1,aloum101,??,,3
-play,1,1,cashd101,??,,K
-play,1,1,clemr101,??,,W
-play,1,1,starw101,??,,K/C
-play,2,0,clint101,??,,63
-play,2,0,branr101,??,,63
-play,2,0,wineb101,??,,K
-play,2,1,oliva001,??,,43
-play,2,1,sangm101,??,,K/C
-play,2,1,hebnr001,??,,4
-play,3,0,robej102,??,,K
-play,3,0,staem101,??,,43
-play,3,0,fairj102,??,,43
-play,3,1,patef101,??,,S
-play,3,1,moosb101,??,,99/SH.1-2#
-com,"missing play in PIT196910020"
-play,3,1,aloum101,??,,4
-play,3,1,cashd101,??,,S8.2-H
-play,3,1,clemr101,??,,S8.1-3
-play,3,1,starw101,??,,7
-play,4,0,staur001,??,,NP
+play,1,0,staem101,32,BFBBFX,D9/L89
+play,1,0,fairj102,02,FCX,S7/L7L.2-H
+play,1,0,staur001,12,C1*BSFFS,K
+play,1,0,jonem102,22,BCSFBS,K
+play,1,0,collk101,01,SX,43
+play,1,1,aloum101,00,X,43
+play,1,1,cashd101,12,CFFBS,K
+play,1,1,clemr101,30,BBBB,W
+play,1,1,starw101,22,FBSBS,K
+play,2,0,clint101,12,BCSFX,63
+play,2,0,branr101,10,BX,6!3/G56
+play,2,0,wineb101,12,SBFS,K
+play,2,1,oliva001,32,BFBBFFX,43
+play,2,1,sangm101,12,LFBC,K/C
+play,2,1,hebnr001,00,X,7/F7LF
+play,3,0,robej102,22,CBFBS,K
+play,3,0,staem101,21,BFBX,43
+play,3,0,fairj102,10,BX,43
+play,3,1,patef101,11,BSX,S8/L8
+play,3,1,moosb101,10,BX,14/BG13/SH.1-2
+play,3,1,aloum101,00,X,7/F7LF
+play,3,1,cashd101,21,BBCX,S8/G1.2-H
+play,3,1,clemr101,12,FBFFX,S8/G6M.1-3
+play,3,1,starw101,12,SSBX,7/F78S
+play,4,0,staur001,00,,NP
 sub,robeb101,"Bob Robertson",1,5,3
 com,"$Al Oliver sick with food poisoning"
-play,4,0,staur001,??,,S7
-play,4,0,jonem102,??,,6(1)/FO
-play,4,0,collk101,??,,E2.1-2;B-1
-play,4,0,clint101,??,,K
-play,4,0,branr101,??,,43
-play,4,1,robeb101,??,,K/C
-play,4,1,sangm101,??,,63
-play,4,1,hebnr001,??,,S9
-play,4,1,patef101,??,,53
-play,5,0,wineb101,??,,53
-play,5,0,robej102,??,,K
-play,5,0,staem101,??,,43
-play,5,1,moosb101,??,,3/L
-play,5,1,aloum101,??,,7
-play,5,1,cashd101,??,,8
-play,6,0,fairj102,??,,S
-play,6,0,staur001,??,,S9.1-3;B-2(TH3)
-play,6,0,jonem102,??,,W
-play,6,0,collk101,??,,5
-play,6,0,clint101,??,,S7.3-H;2XH(72);1-3
-play,6,0,branr101,??,,64(1)/FO
-play,6,1,clemr101,??,,S9
-play,6,1,starw101,??,,9
-play,6,1,robeb101,??,,S7.1-2#
-play,6,1,sangm101,??,,S8.2-H;1-2#
-play,6,1,hebnr001,??,,S9.2-H;1-2
-play,6,1,patef101,??,,NP
+play,4,0,staur001,01,.CX,S7/L7
+play,4,0,jonem102,22,BFBSX,6(1)/L6/FO
+play,4,0,collk101,01,F1X,E2/G2.1-2
+play,4,0,clint101,22,BCBFS,K
+play,4,0,branr101,00,X,43
+play,4,1,robeb101,32,SBSBBC,K/C
+play,4,1,sangm101,00,X,3/G3
+play,4,1,hebnr001,00,X,S3/G3
+play,4,1,patef101,00,X,53
+play,5,0,wineb101,02,SSX,53
+play,5,0,robej102,02,SFFS,K
+play,5,0,staem101,12,FBFFX,43
+play,5,1,moosb101,22,BBCFFFX,23/G2
+play,5,1,aloum101,10,BX,7/F7S
+play,5,1,cashd101,10,BX,8!/F8D
+play,6,0,fairj102,10,BX,S7/L7
+play,6,0,staur001,12,BSFX,S9/L9.1-3;B-2(TH3)
+play,6,0,jonem102,32,SBFBBB,W
+play,6,0,collk101,22,FFBBX,5/P5DF
+play,6,0,clint101,11,BFX,S7/L7.3-H;2XH(72);1-2
+play,6,0,branr101,12,FBFFFX,6!4(1)/L6/FO
+play,6,1,clemr101,01,CX,S9/L9
+play,6,1,starw101,00,X,9/F9D
+play,6,1,robeb101,11,BCX,S7/L7.1-2
+play,6,1,sangm101,32,BCBBFFF1X,S8/L8.2-H;1-2
+play,6,1,hebnr001,22,SBBSX,S9/L9.2-H;1-3
+play,6,1,patef101,00,,NP
 sub,raymc101,"Claude Raymond",0,9,1
-play,6,1,patef101,??,,CS3(25)
-play,6,1,patef101,??,,K
-play,7,0,wineb101,??,,K
-play,7,0,raymc101,??,,NP
+play,6,1,patef101,21,.B1S1BQ,POCSH(2525).1-2
+play,6,1,patef101,22,.B1S1BQ.S,K
+play,7,0,wineb101,02,KKFS,K
+play,7,0,raymc101,00,,NP
 sub,bailb103,"Bob Bailey",0,9,11
-play,7,0,bailb103,??,,K
-play,7,0,staem101,??,,W
-play,7,0,fairj102,??,,46(1)/FO
-play,7,1,moosb101,??,,NP
+play,7,0,bailb103,12,.BCFS,K
+play,7,0,staem101,32,BBCCBB,W
+play,7,0,fairj102,11,CBX,46(1)/FO
+play,7,1,moosb101,00,,NP
 sub,waslg101,"Gary Waslewski",0,9,1
-play,7,1,moosb101,??,,7
-play,7,1,aloum101,??,,S
-play,7,1,cashd101,??,,K
-play,7,1,clemr101,??,,D9.1-3
-play,7,1,starw101,??,,IW
-play,7,1,robeb101,??,,NP
+play,7,1,moosb101,12,.BFFX,7/F7
+play,7,1,aloum101,22,SBBFFX,S8/G
+play,7,1,cashd101,12,BKC+1FS,K
+play,7,1,clemr101,00,X,D9/L9.1-3
+play,7,1,starw101,30,IIII,IW
+play,7,1,robeb101,00,,NP
 sub,jetej101,"Johnny Jeter",1,4,12
-play,7,1,robeb101,??,,W.3-H;2-3;1-2
-play,7,1,sangm101,??,,S9.3-H;2-H;1-H(NR)(E9)(UR);B-2
-play,7,1,hebnr001,??,,IW
-play,7,1,patef101,??,,K
-play,8,0,staur001,??,,NP
+play,7,1,robeb101,31,.BBBCB,W.3-H;2-3;1-2
+play,7,1,sangm101,00,X,S9/F9S.3-H;2-H;1-H(NR)(UR);B-2(E9)
+play,7,1,hebnr001,30,IIII,IW
+play,7,1,patef101,02,FKS,K
+play,8,0,staur001,00,,NP
 sub,jetej101,"Johnny Jeter",1,4,7
-play,8,0,staur001,??,,9
-play,8,0,jonem102,??,,D7
-play,8,0,collk101,??,,43.2-3
-play,8,0,clint101,??,,43
-play,8,1,moosb101,??,,NP
+play,8,0,staur001,00,.X,9/F9
+play,8,0,jonem102,01,CX,D7/L7
+play,8,0,collk101,11,BFX,43.2-3
+play,8,0,clint101,22,CSB*BX,43
+play,8,1,moosb101,00,,NP
 sub,sembc101,"Carroll Sembera",0,9,1
-play,8,1,moosb101,??,,K
-play,8,1,aloum101,??,,D9
-play,8,1,cashd101,??,,S4.2-3
-play,8,1,clemr101,??,,53.3-H;1-2
-play,8,1,jetej101,??,,K
-play,9,0,branr101,??,,S7
-play,9,0,wineb101,??,,54(1)3/GDP
-play,9,0,sembc101,??,,NP
+play,8,1,moosb101,12,.CCBS,K
+play,8,1,aloum101,01,FX,D9/L9L
+play,8,1,cashd101,10,BX,S4/G4MS.2-3
+play,8,1,clemr101,01,SX,53.3-H;1-2
+play,8,1,jetej101,12,BKSS,K
+play,9,0,branr101,20,BBX,S7/G
+play,9,0,wineb101,22,BBFFX,54(1)3/GDP
+play,9,0,sembc101,00,,NP
 sub,suthg101,"Gary Sutherland",0,9,11
-play,9,0,suthg101,??,,53
+play,9,0,suthg101,00,.X,3/G
 data,er,robej102,3
 data,er,raymc101,0
 data,er,waslg101,3

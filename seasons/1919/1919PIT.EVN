@@ -1,5 +1,5 @@
 id,PIT191905020
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/05/02
@@ -50,11 +50,10 @@ start,schmw102,"Walter Schmidt",1,8,2
 start,mayee101,"Erskine Mayer",1,9,1
 play,1,0,flacm101,??,,63
 play,1,0,hollc101,??,,13
-com,"$hard hopper split Mayer's hand open"
+com,"$Mayer injured by Hollocher's hot smash"
 play,1,0,barbt101,??,,NP
 sub,evanb102,"Bill Evans",1,9,1
 play,1,0,barbt101,??,,S/P1
-com,"$the fielders lost the ball in the sun"
 play,1,0,paskd101,??,,SB2
 play,1,0,paskd101,??,,K
 play,1,1,terrz101,??,,S8/L
@@ -114,7 +113,6 @@ play,6,0,flacm101,??,,K/C
 play,6,0,hollc101,??,,W
 play,6,0,barbt101,??,,63
 play,6,1,bigbc101,??,,T
-com,"to the scoreboard"
 play,6,1,mollf101,??,,NP
 sub,saiev101,"Vic Saier",1,7,11
 play,6,1,saiev101,??,,NP
@@ -135,7 +133,6 @@ play,8,0,killb101,??,,S/G56S
 play,8,0,dougp101,??,,8
 play,8,0,flacm101,??,,8
 play,8,1,cutsg101,??,,S5/P
-com,"$Deal lost it in the sun"
 play,8,1,boect101,??,,S7/G6.1-3
 play,8,1,bigbc101,??,,SB2
 play,8,1,bigbc101,??,,53
@@ -160,7 +157,7 @@ data,er,mayee101,0
 data,er,evanb102,4
 data,er,adamb104,0
 id,PIT191905030
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/05/03
@@ -246,7 +243,6 @@ play,5,0,killb101,??,,13.1-2
 play,5,0,vaugh101,??,,K
 play,5,0,flacm101,??,,13
 play,5,1,schmw102,??,,63
-com,"sensatoinal play"
 play,5,1,hamie101,??,,K
 play,5,1,terrz101,??,,153
 play,6,0,hollc101,??,,9
@@ -256,9 +252,7 @@ play,6,0,merkf101,??,,E7/F.3-H(UR)(NR)
 play,6,0,pickc103,??,,43
 play,6,1,carem101,??,,63
 play,6,1,stenc101,??,,T
-com,"to the flagpole"
 play,6,1,cutsg101,??,,FC1/BG.3XH(12)
-com,"$attempted squeeze play"
 play,6,1,boect101,??,,K
 play,7,0,dealc102,??,,8/L
 play,7,0,killb101,??,,7
@@ -269,7 +263,6 @@ play,7,1,schmw102,??,,43
 play,8,0,flacm101,??,,1/G
 play,8,0,hollc101,??,,S9
 play,8,0,mannl101,??,,K/C
-com,"$Mann kicked at Byron's call"
 play,8,0,paskd101,??,,CS2(24)
 play,8,1,hamie101,??,,7
 play,8,1,terrz101,??,,6/L
@@ -299,7 +292,7 @@ play,11,1,stenc101,??,,K
 data,er,vaugh101,0
 data,er,hamie101,1
 id,PIT191905080
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/05/08
@@ -364,15 +357,16 @@ play,2,1,saiev101,??,,S8/P8S
 play,2,1,boect101,??,,13/SH.1-2
 play,2,1,bigbc101,??,,8
 play,2,1,schmw102,??,,W
-play,2,1,hamie101,??,,43
+play,2,1,hamie101,??,,2/P
+com,"K in pbp, entered as 2/P to match official stats"
 play,3,0,sherb101,??,,HP
-play,3,0,shotb101,??,,FC/SH.1X2(26)
-com,"$Sherdel overran 2B"
+play,3,0,shotb101,??,,FC2/TH2/SH.1X2(26)
+com,"$Sherdel overran second"
 play,3,0,smitj106,??,,SB2
 play,3,0,smitj106,??,,63
 play,3,0,stocm101,??,,3/G
-play,3,1,terrz101,??,,S/G3
-play,3,1,carem101,??,,FC1.1-2(E1/TH2)
+play,3,1,terrz101,??,,S3/G3
+play,3,1,carem101,??,,FC1.1-2(E1/TH2);B-1
 play,3,1,stenc101,??,,5(B)4(2)/LDP
 play,3,1,cutsg101,??,,CS2(16)
 play,4,0,hornr101,??,,9
@@ -410,13 +404,12 @@ play,6,1,hamie101,??,,63
 play,7,0,paulg102,??,,NP
 sub,zitzb101,"Billy Zitzmann",1,7,7
 play,7,0,paulg102,??,,53
-play,7,0,milld102,??,,6
+play,7,0,milld102,??,,6/P
 play,7,0,snydf101,??,,7
 play,7,1,terrz101,??,,63
 play,7,1,carem101,??,,3/G
 play,7,1,stenc101,??,,S7
 play,7,1,cutsg101,??,,PO1(13)
-com,"Paulette's finger cut on Stengel's spikes"
 play,8,0,horso101,??,,NP
 sub,mchea101,"Austin McHenry",0,9,11
 play,8,0,mchea101,??,,8
@@ -429,7 +422,7 @@ play,8,1,cutsg101,??,,NP
 sub,meadl101,"Lee Meadows",0,9,1
 play,8,1,cutsg101,??,,S7
 play,8,1,saiev101,??,,6(1)/FO
-play,8,1,boect101,??,,99
+play,8,1,boect101,??,,8
 play,8,1,zitzb101,??,,7/F7S
 play,9,0,paulg102,??,,W
 play,9,0,milld102,??,,43.1-2
@@ -442,7 +435,7 @@ data,er,horso101,0
 data,er,meadl101,0
 data,er,hamie101,2
 id,PIT191905120
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/05/12
@@ -527,7 +520,6 @@ play,4,1,cutsg101,??,,8/L
 play,4,1,saiev101,??,,D9/9L
 play,4,1,boect101,??,,S7.2-H
 play,4,1,bigbc101,??,,K+SB2
-com,"$Daly's throw went into CF but Boeckel fell"
 play,4,1,schmw102,??,,4
 play,5,0,hendc101,??,,3/FL
 play,5,0,flacm101,??,,13
@@ -539,7 +531,6 @@ play,5,1,stenc101,??,,23.1-2
 play,5,1,cutsg101,??,,8
 play,6,0,mannl101,??,,S1/BG25
 play,6,0,paskd101,??,,263/SH.1-2
-com,"$Paskert did not run thinking the ball was foul"
 play,6,0,merkf101,??,,8
 play,6,0,pickc103,??,,2/FL
 play,6,1,saiev101,??,,2/FL
@@ -571,7 +562,6 @@ play,9,1,bigbc101,??,,8/F8S
 play,9,1,schmw102,??,,13
 play,10,0,dalyt102,??,,S9
 play,10,0,hendc101,??,,4E3.1-2
-com,"low throw"
 play,10,0,flacm101,??,,5/BP/FL
 play,10,0,hollc101,??,,13.2-3;1-2
 play,10,0,mannl101,??,,2/FL
@@ -589,7 +579,7 @@ play,11,1,bigbc101,??,,D9.1-H
 data,er,hendc101,3
 data,er,coopw101,2
 id,PIT191905290
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/05/29
@@ -638,7 +628,6 @@ start,mollf101,"Fritz Mollwitz",1,6,3
 start,boect101,"Tony Boeckel",1,7,5
 start,sweej102,"Jeff Sweeney",1,8,2
 start,mayee101,"Erskine Mayer",1,9,1
-com,"$Reds president Herrmann at the game"
 play,1,0,rathm101,??,,3/G
 play,1,0,nealg101,??,,9
 play,1,0,grohh101,??,,W
@@ -683,9 +672,6 @@ play,6,0,grohh101,??,,W
 play,6,0,rouse101,??,,7
 play,6,0,kopfl101,??,,S7.1-2
 play,6,0,daubj101,??,,S7/G6.2-3;1-2
-com,"$Cueto allowed an inside pitch to hit him but Rigler"
-com,"refused to give him first base because he had time to"
-com,"avoid the ball"
 play,6,0,cuetm101,??,,8/SF/F8XD.3-H;2-3;1-2
 play,6,0,wingi101,??,,IW
 play,6,0,salls101,??,,31
@@ -694,7 +680,6 @@ play,6,1,stenc101,??,,8/L
 play,6,1,soutb101,??,,S4.1-2
 play,6,1,cutsg101,??,,8(B)4(2)/FDP
 play,7,0,rathm101,??,,8
-com,"$diving catch by Bigbee"
 play,7,0,nealg101,??,,43
 play,7,0,grohh101,??,,5/L
 play,7,1,mollf101,??,,8/L
@@ -710,7 +695,6 @@ play,8,0,rouse101,??,,S7
 play,8,0,kopfl101,??,,S9.1-2
 play,8,0,daubj101,??,,15(2)/FO.1-2
 play,8,0,cuetm101,??,,4(B)6(2)/LDP
-com,"leaping catch"
 play,8,1,terrz101,??,,S6
 play,8,1,stenc101,??,,S9/9L.1-3
 play,8,1,soutb101,??,,46(1)/FO.3-H
@@ -719,7 +703,6 @@ play,8,1,mollf101,??,,SB2
 play,8,1,mollf101,??,,W
 play,8,1,boect101,??,,8
 play,9,0,wingi101,??,,D7
-com,"$Southworth missed a diving catch"
 play,9,0,salls101,??,,13/BG.2-2
 play,9,0,rathm101,??,,8(B)4(2)/LDP
 play,9,1,lee-c101,??,,S8
@@ -733,13 +716,13 @@ play,9,1,terrz101,??,,K
 data,er,salls101,1
 data,er,mayee101,3
 id,PIT191905301
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/05/30
 info,site,PIT06
 info,number,1
-info,starttime,10:30
+info,starttime,10:30AM
 info,daynight,day
 info,usedh,false
 info,scorer,"137"
@@ -782,6 +765,7 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,mollf101,"Fritz Mollwitz",1,7,3
 start,lee-c101,"Cliff Lee",1,8,2
 start,millf102,"Frank Miller",1,9,1
+com,"$Morning game of morning-afternoon double-header"
 play,1,0,rathm101,??,,2/FL
 play,1,0,nealg101,??,,W
 play,1,0,grohh101,??,,T9/9L.1-H
@@ -810,7 +794,6 @@ play,3,1,stenc101,??,,W
 play,3,1,boect101,??,,NP
 sub,ringj101,"Jimmy Ring",0,9,1
 play,3,1,boect101,??,,HP.1-2
-com,"$hit on the right arm"
 play,3,1,soutb101,??,,53.3-H;2-3;1-2
 play,3,1,cutsg101,??,,13
 play,4,0,rouse101,??,,4
@@ -850,12 +833,10 @@ play,7,1,soutb101,??,,W.1-2
 play,7,1,cutsg101,??,,NP
 sub,ruetd101,"Dutch Ruether",0,9,1
 play,7,1,cutsg101,??,,T7.2-H;1-H
-com,"$the ball skidded past Neale"
 play,7,1,mollf101,??,,S8.3-H
 play,7,1,lee-c101,??,,64(1)/FO
 play,7,1,millf102,??,,K
 play,8,0,wingi101,??,,163
-com,"$Miller suffered a bruised finger"
 play,8,0,ruetd101,??,,6/L
 play,8,0,rathm101,??,,E6/G
 play,8,0,nealg101,??,,9
@@ -872,7 +853,7 @@ data,er,ringj101,4
 data,er,ruetd101,1
 data,er,millf102,2
 id,PIT191905302
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/05/30
@@ -921,6 +902,7 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,mollf101,"Fritz Mollwitz",1,7,3
 start,sweej102,"Jeff Sweeney",1,8,2
 start,coopw101,"Wilbur Cooper",1,9,1
+com,"$Afternoon game of morning-afternoon double-header"
 play,1,0,rathm101,??,,63
 play,1,0,nealg101,??,,43
 play,1,0,grohh101,??,,S9
@@ -947,8 +929,6 @@ play,3,0,rarib101,??,,3/G
 play,3,0,elleh101,??,,S7
 play,3,0,rathm101,??,,S8.1-2
 play,3,0,nealg101,??,,K
-com,"$Stengel was hit on the face with Rariden's return throw to"
-com,"Eller but stayed in the game"
 play,3,1,stenc101,??,,T/78
 play,3,1,boect101,??,,S8.3-H
 play,3,1,soutb101,??,,S8.1-2
@@ -993,8 +973,6 @@ play,7,1,boect101,??,,13
 play,8,0,rathm101,??,,S6
 play,8,0,nealg101,??,,S8.1-3
 play,8,0,grohh101,??,,9(B)3(1)/FDP/F9S/SF.3-H
-com,"$Rath had left 3B but tagged up and scored as Stengel threw"
-com,"to 1B"
 play,8,0,rouse101,??,,13
 play,8,1,soutb101,??,,K
 play,8,1,cutsg101,??,,S7
@@ -1007,7 +985,7 @@ data,er,elleh101,3
 data,er,mitcr101,0
 data,er,coopw101,1
 id,PIT191905310
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/05/31
@@ -1058,7 +1036,6 @@ start,sweej102,"Jeff Sweeney",1,8,2
 start,hamie101,"Earl Hamilton",1,9,1
 play,1,0,rathm101,??,,W
 play,1,0,nealg101,??,,6(B)6(1)/FDP/F6M
-com,"$Rath ran thinking that the ball would drop"
 play,1,0,grohh101,??,,S8
 play,1,0,rouse101,??,,CS2(24)
 play,1,1,bigbc101,??,,D8
@@ -1139,12 +1116,10 @@ play,8,1,bigbc101,??,,9
 play,8,1,terrz101,??,,63
 play,8,1,stenc101,??,,4
 play,9,0,rouse101,??,,S6/P
-com,"$Terry lost the popup in the sun"
 play,9,0,kopfl101,??,,S7.1-3
 play,9,0,daubj101,??,,8/SF.3-H
 play,9,0,cuetm101,??,,13.1-2
 play,9,0,allen101,??,,SB3
-com,"possible DI"
 play,9,0,allen101,??,,S9.3-H
 play,9,0,bresr101,??,,T9/F9DW.1-H
 play,9,0,rathm101,??,,S8.3-H
@@ -1155,7 +1130,7 @@ data,er,ringj101,2
 data,er,bresr101,0
 data,er,hamie101,5
 id,PIT191906060
-version,2
+version,1
 info,visteam,NY1
 info,hometeam,PIT
 info,date,1919/06/06
@@ -1232,7 +1207,6 @@ play,3,0,chash101,??,,63
 play,3,0,doyll101,??,,9
 play,3,1,terrz101,??,,7
 play,3,1,stenc101,??,,W+WP.B-2
-com,"$ball four went all the way to the screen"
 play,3,1,boect101,??,,W
 play,3,1,soutb101,??,,D7/78S.2-H;1-H
 play,3,1,cutsg101,??,,NP
@@ -1259,7 +1233,6 @@ play,5,1,cutsg101,??,,63
 play,5,1,mollf101,??,,13
 play,5,1,lee-c101,??,,S7/G6
 play,5,1,adamb104,??,,T9.1-H
-com,"$the ball took a bad hop past Youngs"
 play,5,1,bigbc101,??,,S9.3-H
 play,5,1,terrz101,??,,POCS2(136)
 play,6,0,chash101,??,,8
@@ -1304,7 +1277,7 @@ data,er,perrp101,3
 data,er,wintj101,0
 data,er,adamb104,1
 id,PIT191906070
-version,2
+version,1
 info,visteam,NY1
 info,hometeam,PIT
 info,date,1919/06/07
@@ -1355,7 +1328,6 @@ start,blacf101,"Fred Blackwell",1,8,2
 start,coopw101,"Wilbur Cooper",1,9,1
 play,1,0,burng101,??,,13
 play,1,0,younr101,??,,8/F8S
-com,"$running catch"
 play,1,0,chash101,??,,S1
 play,1,0,doyll101,??,,T/L89XD.1-H
 play,1,0,kaufb101,??,,63
@@ -1383,20 +1355,14 @@ play,4,0,gonzm101,??,,W
 play,4,0,causr101,??,,SB2
 play,4,0,causr101,??,,E5/TH1.3-H(NR)(UR);2-H(NR)(UR);B-3
 play,4,0,burng101,??,,8
-com,"$bottles were tossed on the field between innings"
 play,4,1,bigbc101,??,,63
 play,4,1,terrz101,??,,53
 play,4,1,stenc101,??,,53
 play,5,0,younr101,??,,5
 play,5,0,chash101,??,,S7.B-2(E7)
 play,5,0,doyll101,??,,S8.2-H(E1/TH1)(NR)(UR);B-2
-com,"$Cooper took Bigbee's throw in and attempted to catch Doyle"
-com,"who had rounded 1B"
 play,5,0,kaufb101,??,,PO2(E1).2-3
-com,"$Mollwitz ran to the mound and yelled at Cooper"
-com,"until Byron came over and told them to play ball"
 play,5,0,kaufb101,??,,9/F9DW/SF.3-H(UR)
-com,"$leaping catch by Stengel"
 play,5,0,zimmh101,??,,7/F7D
 play,5,1,boect101,??,,4
 play,5,1,soutb101,??,,E6/P.B-2
@@ -1409,8 +1375,6 @@ play,6,0,gonzm101,??,,S7/G5L.1-2
 play,6,0,causr101,??,,K
 play,6,0,burng101,??,,S7.2-H;1-2
 play,6,0,younr101,??,,43.2-3;1-2
-com,"$with an 0-2 count Gonzalez tried to steal home"
-com,"but Chase fouled off the pitch"
 play,6,0,chash101,??,,S5.3-H;2-3
 play,6,0,doyll101,??,,8
 play,6,1,blacf101,??,,D7/P7S
@@ -1446,18 +1410,16 @@ play,9,1,boect101,??,,7/L
 play,9,1,soutb101,??,,S8
 play,9,1,cutsg101,??,,SB2
 play,9,1,cutsg101,??,,SB3
-com,"possible DIs"
 play,9,1,cutsg101,??,,S8.3-H
 play,9,1,mollf101,??,,SB2
 play,9,1,mollf101,??,,SB3
-com,"possible DIs"
 play,9,1,mollf101,??,,63
 data,er,causr101,2
 data,er,coopw101,2
 data,er,hillc102,2
 data,er,millf102,1
 id,PIT191906100
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/06/10
@@ -1619,7 +1581,7 @@ data,er,mamaa101,0
 data,er,hamie101,4
 data,er,mayee101,0
 id,PIT191906110
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/06/11
@@ -1668,7 +1630,6 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,adamb104,"Babe Adams",1,9,1
-com,"Sweeney released by the Pirates"
 play,1,0,olsoi101,??,,S8
 play,1,0,johnj107,??,,S9.1-3
 play,1,0,grift102,??,,46(1)3/GDP.3-H(RBI)
@@ -1680,9 +1641,7 @@ play,1,1,stenc101,??,,S8
 play,1,1,boect101,??,,SB2
 play,1,1,boect101,??,,9
 play,2,0,schmr101,??,,9/9D
-com,"$Stengel slipped while starting back but recovered"
-play,2,0,malol101,??,,S5
-com,"$liner into Boeckel's stomach"
+play,2,0,malol101,??,,S5/L
 play,2,0,millo103,??,,8/L8XD
 play,2,0,cadol101,??,,K/C
 play,2,1,soutb101,??,,43
@@ -1693,8 +1652,8 @@ play,3,0,johnj107,??,,S5/BG.1-3
 play,3,0,grift102,??,,64(1)3/GDP.3-H(RBI)
 play,3,0,wheaz101,??,,S7.B-2(E7)
 com,"ej,bezdh801,M,riglc901,Call at 2B"
-com,"$Pirates manager Bezdek ejected by HP umpire Moran for"
-com,"arguing Wheat was out at 2nd; suspended indefinitely"
+com,"$Pirates manager Bezdek ejected by 1B umpire Moran for"
+com,"arguing Wheat was out at 2nd"
 play,3,0,konee101,??,,63
 play,3,1,schmw102,??,,53
 play,3,1,adamb104,??,,63
@@ -1725,7 +1684,6 @@ play,7,0,cadol101,??,,K
 play,7,1,terrz101,??,,8
 play,7,1,stenc101,??,,8
 play,7,1,boect101,??,,2/FL
-com,"at the visitors' dugout"
 play,8,0,olsoi101,??,,7/L
 play,8,0,johnj107,??,,5
 play,8,0,grift102,??,,S8
@@ -1738,9 +1696,9 @@ play,8,1,adamb104,??,,S8.2-H;1-2
 play,8,1,bigbc101,??,,NP
 sub,smits102,"Sherry Smith",0,9,1
 play,8,1,bigbc101,??,,S7.2-H;1-2
-play,8,1,terrz101,??,,64(2)/FO.1-2
-com,"$Bigbee beat the throw to 2B but Adams was caught in between"
-com,"bases"
+play,8,1,terrz101,??,,FC6.2XH(645);1-2;B-1
+com,"$Bigbee beat the throw to 2B but Adams was caught"
+com,"rounding third too far"
 play,8,1,stenc101,??,,43
 play,9,0,konee101,??,,8/L8S
 play,9,0,schmr101,??,,43
@@ -1749,7 +1707,7 @@ data,er,cadol101,3
 data,er,smits102,0
 data,er,adamb104,2
 id,PIT191906120
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/06/12
@@ -1798,7 +1756,6 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,millf102,"Frank Miller",1,9,1
-com,"$Pitts mgr Bezdek still suspended"
 play,1,0,olsoi101,??,,13
 play,1,0,johnj107,??,,7
 play,1,0,grift102,??,,S9
@@ -1821,10 +1778,10 @@ play,3,0,olsoi101,??,,9
 play,3,0,johnj107,??,,S8.2-H;B-2(THH)
 play,3,0,grift102,??,,S9.2-H
 play,3,0,wheaz101,??,,CS2(26)
-com,"ej,boect101,P,riglc901,Call at HP"
-com,"Boeckel ejected for continuing to argue the call at home in"
-com,"the second inning"
 play,3,1,schmw102,??,,8
+com,"ej,boect101,P,riglc901,Call at HP"
+com,"$Boeckel ejected by HP umpire Rigler for continuing"
+com,"to argue the call at home in the second inning"
 play,3,1,millf102,??,,13
 play,3,1,bigbc101,??,,W
 play,3,1,terrz101,??,,54(1)/FO
@@ -1845,11 +1802,11 @@ play,5,0,smits102,??,,43
 play,5,1,schmw102,??,,W
 play,5,1,millf102,??,,S4.1-2
 play,5,1,bigbc101,??,,S7.2-H;1-2
-play,5,1,terrz101,??,,FC1/BG/R5.2X3(5);1-2
-com,"$Miller overran 3B after an overthrow"
+play,5,1,terrz101,??,,FC1/BG/R5.2X3(15);1-2;B-1
+com,"$Frank Miller overran 3B"
 play,5,1,stenc101,??,,K
 play,5,1,barbw101,??,,S9.2-H;1-3;B-2(THH)
-com,"$Otto Miller was spiked accidently by Bigbee"
+com,"$Otto Miller spiked by Bigbee's slide into home"
 play,5,1,soutb101,??,,NP
 sub,kruee101,"Ernie Krueger",0,8,2
 play,5,1,soutb101,??,,S9.3-H;2-H;B-2(THH)
@@ -1883,8 +1840,6 @@ play,8,0,grift102,??,,CS2(26)
 play,8,1,soutb101,??,,NP
 sub,fitzt101,"Tom Fitzsimmons",0,7,5
 play,8,1,soutb101,??,,S9.BX2(96)
-com,"$Southworth tried to stretch the hit when Griffith had"
-com,"trouble with the ball"
 play,8,1,cutsg101,??,,63
 play,8,1,saiev101,??,,13
 play,9,0,grift102,??,,9
@@ -1895,7 +1850,7 @@ data,er,smits102,4
 data,er,mamaa101,1
 data,er,millf102,4
 id,PIT191906130
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/06/13
@@ -1944,7 +1899,6 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,coopw101,"Wilbur Cooper",1,9,1
-com,"$Pitts mgr Bezdek still suspended"
 play,1,0,olsoi101,??,,K
 play,1,0,johnj107,??,,7
 play,1,0,hickj102,??,,3/L
@@ -2016,11 +1970,11 @@ play,8,0,wheam101,??,,HP
 play,8,0,olsoi101,??,,S4/G4S.1-2
 play,8,0,johnj107,??,,S1/G56S.2-3;1-2
 play,8,0,hickj102,32,,63
-com,"$the game was called so that Brooklyn could catch the train"
+com,"$Game called to allow Brooklyn to catch a train"
 data,er,chenl101,3
 data,er,coopw101,0
 id,PIT191906140
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/06/14
@@ -2029,9 +1983,9 @@ info,number,0
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,odayh101
 info,ump1b,quige901
@@ -2070,7 +2024,7 @@ start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,mayee101,"Erskine Mayer",1,9,1
 play,1,0,baird101,??,,T7/7D
-play,1,0,willc103,??,,4
+play,1,0,willc103,??,,4/P
 play,1,0,meusi101,??,,S4.3-H
 play,1,0,cravg101,??,,SB2
 play,1,0,cravg101,??,,K
@@ -2079,7 +2033,7 @@ play,1,1,bigbc101,00,X,S8
 play,1,1,terrz101,00,X,T9/F9DW.1-H
 play,1,1,stenc101,00,X,S8/G46.3-H
 play,1,1,boect101,??,,S1/BG.1-2
-play,1,1,soutb101,??,,S/G4.2-H;1-3
+play,1,1,soutb101,??,,S9/G4.2-H;1-3
 play,1,1,cutsg101,??,,SB2
 play,1,1,cutsg101,??,,9/SF/FDP.3-H;2X3(95)
 play,1,1,saiev101,??,,7
@@ -2095,17 +2049,17 @@ play,2,1,terrz101,??,,NP
 sub,smitg104,"George Smith",0,9,1
 play,2,1,terrz101,??,,K
 play,2,1,stenc101,??,,9
-play,3,0,smitg104,??,,S/P5D
-play,3,0,baird101,??,,4
+play,3,0,smitg104,??,,S7/P5D
+play,3,0,baird101,??,,4/P
 play,3,0,willc103,??,,3/FL
-play,3,0,meusi101,??,,4
+play,3,0,meusi101,??,,4/P
 play,3,1,boect101,??,,S8
 play,3,1,soutb101,??,,CS2(26)
 play,3,1,soutb101,??,,S8/L
 play,3,1,cutsg101,??,,SB2.1X3(2465)
-com,"$Adams' throw got away but was backed up by Pearce"
+com,"Adams throw to 2B got away but was backed up by SS Pearce"
 play,3,1,cutsg101,??,,7
-play,4,0,cravg101,??,,3
+play,4,0,cravg101,??,,3/P
 play,4,0,ludef101,??,,S8
 play,4,0,whitp102,??,,K
 play,4,0,pearh101,??,,2/FL
@@ -2114,18 +2068,18 @@ play,4,1,schmw102,??,,63
 play,4,1,mayee101,??,,13
 play,5,0,adamb106,??,,463
 play,5,0,smitg104,??,,63
-play,5,0,baird101,??,,3
-play,5,1,bigbc101,??,,5
+play,5,0,baird101,??,,3/P
+play,5,1,bigbc101,??,,5/P
 play,5,1,terrz101,??,,2/FL
 play,5,1,stenc101,??,,S5/BG25
 play,5,1,boect101,??,,S9.1-2
 play,5,1,soutb101,??,,8
 play,6,0,willc103,??,,43
-play,6,0,meusi101,??,,4
+play,6,0,meusi101,??,,4/P
 play,6,0,cravg101,??,,63
 play,6,1,cutsg101,??,,5/FL
 play,6,1,saiev101,??,,S8
-play,6,1,schmw102,??,,5
+play,6,1,schmw102,??,,5/P
 play,6,1,mayee101,??,,K
 play,7,0,ludef101,??,,7
 play,7,0,whitp102,??,,S3
@@ -2141,7 +2095,6 @@ play,8,0,smitg104,??,,NP
 sub,calll101,"Leo Callahan",0,9,11
 play,8,0,calll101,??,,31
 play,8,0,baird101,??,,7/L
-com,"$one-handed catch"
 play,8,0,willc103,??,,D9/9L
 play,8,0,meusi101,??,,63
 play,8,1,soutb101,??,,NP
@@ -2161,7 +2114,7 @@ data,er,smitg104,1
 data,er,rixee101,2
 data,er,mayee101,1
 id,PIT191906160
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/06/16
@@ -2170,9 +2123,9 @@ info,number,0
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,quige901
 info,ump1b,odayh101
@@ -2210,8 +2163,6 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,adamb104,"Babe Adams",1,9,1
-com,"$NL Prez Heydler at game; he lifted Pitts mgr"
-com,"Bezdek's suspension"
 play,1,0,baird101,??,,2/FL
 play,1,0,willc103,??,,K
 play,1,0,meusi101,??,,9
@@ -2228,7 +2179,6 @@ sub,smitg104,"George Smith",0,9,1
 play,1,1,saiev101,??,,CS2(26)
 play,1,1,saiev101,??,,31
 play,2,0,cravg101,??,,8/F8XDW
-com,"at the scoreboard"
 play,2,0,ludef101,??,,K
 play,2,0,whitp102,??,,9
 play,2,1,schmw102,??,,7
@@ -2259,7 +2209,7 @@ play,4,0,ludef101,??,,7
 play,4,0,whitp102,??,,13
 play,4,1,saiev101,??,,K
 play,4,1,schmw102,??,,K
-play,4,1,adamb104,??,,6
+play,4,1,adamb104,??,,6/P
 play,5,0,sicke101,??,,K
 play,5,0,watsm102,??,,NP
 sub,calll101,"Leo Callahan",0,8,11
@@ -2279,12 +2229,11 @@ play,6,0,meusi101,??,,6/L
 play,6,0,cravg101,??,,D7/7D
 play,6,0,ludef101,??,,S8.2-H
 play,6,0,whitp102,??,,3/G
-play,6,1,soutb101,??,,5
+play,6,1,soutb101,??,,5/P
 play,6,1,cutsg101,??,,7
 play,6,1,saiev101,??,,K
 play,7,0,sicke101,??,,S7
 play,7,0,rixee101,??,,46(1)/FO
-com,"$leaping stab by Cutshaw"
 play,7,0,clarn101,??,,46(1)/FO
 play,7,0,baird101,??,,K
 play,7,1,schmw102,??,,43
@@ -2293,15 +2242,14 @@ play,7,1,bigbc101,??,,43
 play,8,0,willc103,??,,D8/F8S
 play,8,0,meusi101,??,,S8.2-H
 play,8,0,cravg101,??,,T8/F8XD.1-H
-com,"$to the flagpole"
-play,8,0,ludef101,??,,4
+play,8,0,ludef101,??,,4/P
 play,8,0,whitp102,??,,13
 play,8,0,sicke101,??,,63
 play,8,1,terrz101,??,,9
 play,8,1,stenc101,??,,53
 play,8,1,boect101,??,,W
 play,8,1,soutb101,??,,SB2
-play,8,1,soutb101,??,,4
+play,8,1,soutb101,??,,4/P
 play,9,0,rixee101,??,,NP
 sub,adamb106,"Bert Adams",0,8,11
 play,9,0,adamb106,??,,63
@@ -2311,10 +2259,8 @@ play,9,0,willc103,??,,S9.2-H;B-2(THH)
 play,9,0,meusi101,??,,NP
 sub,coopw101,"Wilbur Cooper",1,9,1
 play,9,0,meusi101,??,,8
-com,"$Cooper argued against walking Cravath"
 play,9,0,cravg101,??,,IW
 play,9,0,ludef101,??,,13
-com,"$Tony Boeckel waived by Pittsburgh; goes to Boston"
 data,er,woodf102,4
 data,er,smitg104,0
 data,er,watsm102,1
@@ -2322,7 +2268,7 @@ data,er,rixee101,0
 data,er,adamb104,5
 data,er,coopw101,0
 id,PIT191906170
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/06/17
@@ -2331,9 +2277,9 @@ info,number,0
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,odayh101
 info,ump1b,quige901
@@ -2371,12 +2317,9 @@ start,saiev101,"Vic Saier",1,6,3
 start,barbw101,"Walter Barbare",1,7,5
 start,schmw102,"Walter Schmidt",1,8,2
 start,millf102,"Frank Miller",1,9,1
-com,"$lightning flashed throughout the game;"
-com,"the Pirates were forced to release Zitzman because"
-com,"he is still under contract to Jersey City"
 play,1,0,baird101,??,,2/FL
 play,1,0,willc103,??,,3/L
-play,1,0,meusi101,??,,4
+play,1,0,meusi101,??,,4/P
 play,1,1,bigbc101,??,,8
 play,1,1,terrz101,??,,K
 play,1,1,stenc101,??,,S9
@@ -2395,43 +2338,40 @@ play,3,0,baird101,??,,5/FL
 play,3,0,willc103,??,,W
 play,3,0,meusi101,??,,3/G
 play,3,1,schmw102,??,,13
-play,3,1,millf102,??,,6
+play,3,1,millf102,??,,6/P
 play,3,1,bigbc101,??,,7
 play,4,0,cravg101,??,,S9
 play,4,0,ludef101,??,,9/FL
-play,4,0,whitp102,??,,FC1.1-2(E1/TH2)
+play,4,0,whitp102,??,,FC1.1-2(E1/TH2);B-1
 play,4,0,sicke101,??,,3/G.2-3;1-2
 play,4,0,adamb106,??,,8/L
 play,4,1,terrz101,??,,13
 play,4,1,stenc101,??,,S8
-play,4,1,soutb101,??,,S/G1.1-2
+play,4,1,soutb101,??,,S8/G1.1-2
 play,4,1,cutsg101,??,,S9/P9S.2-3;1-2
 play,4,1,saiev101,??,,S7.3-H;2-H;1-3;BX2(714)
 play,4,1,barbw101,??,,53
 play,5,0,jacoe101,??,,63
 play,5,0,baird101,??,,4/L
 play,5,0,willc103,??,,W
-play,5,0,meusi101,??,,4
+play,5,0,meusi101,??,,4/P
 play,5,1,schmw102,??,,7/F7LDF
 play,5,1,millf102,??,,163
 play,5,1,bigbc101,??,,S8
-play,5,1,terrz101,??,,POCS2(134)
-com,"$big drops of rain start falling during this inning"
+play,5,1,terrz101,??,,PO1(134)
 play,6,0,cravg101,??,,9
 play,6,0,ludef101,??,,D9/9LD
 play,6,0,whitp102,??,,K
 play,6,0,sicke101,??,,K
 play,6,1,terrz101,??,,9
-play,6,1,stenc101,??,,99#
-com,"missing play in PIT1906170"
-play,6,1,soutb101,??,,S8#
-com,"missing play in PIT1906170"
+play,6,1,stenc101,??,,9
+play,6,1,soutb101,??,,S8
 play,6,1,cutsg101,??,,CS2(24)
 play,7,0,adamb106,??,,8
-play,7,0,jacoe101,??,,4
+play,7,0,jacoe101,??,,4/P
 play,7,0,baird101,??,,S8
 play,7,0,willc103,??,,K
-play,7,1,cutsg101,??,,S/G6
+play,7,1,cutsg101,??,,S7/G6
 play,7,1,saiev101,??,,8
 play,7,1,barbw101,??,,SB2
 play,7,1,barbw101,??,,43.2-3
@@ -2445,7 +2385,7 @@ play,8,1,bigbc101,??,,E6/G
 play,8,1,terrz101,??,,S9.1-3
 play,8,1,stenc101,??,,HR9/IPHR.3-H(UR);1-H
 play,8,1,soutb101,??,,W
-play,8,1,cutsg101,??,,5.1-2(E5/TH1)
+play,8,1,cutsg101,??,,5/L.1-2(E5/TH1)
 play,8,1,saiev101,??,,5/FL
 play,9,0,whitp102,??,,9
 play,9,0,sicke101,??,,8
@@ -2453,7 +2393,7 @@ play,9,0,adamb106,??,,8
 data,er,jacoe101,5
 data,er,millf102,0
 id,PIT191906180
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/06/18
@@ -2502,8 +2442,6 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,coopw101,"Wilbur Cooper",1,9,1
-com,"$Bigbee out with an abcessed tooth; Boeckel's first"
-com,"game with Boston"
 play,1,0,marar101,??,,7
 play,1,0,herzb101,??,,S7
 play,1,0,power101,??,,D8.1-3
@@ -2516,7 +2454,6 @@ play,1,1,stenc101,??,,13
 play,2,0,riggj101,??,,W
 play,2,0,boect101,??,,3/SH.1-2
 play,2,0,tragw101,??,,D7.2-3
-com,"$the ball bounded around Southworth"
 play,2,0,rudod101,??,,T9.3-H;2-H
 play,2,0,marar101,??,,43
 play,2,0,herzb101,??,,K
@@ -2531,7 +2468,6 @@ play,3,0,holkw101,??,,63
 play,3,1,coopw101,??,,63
 play,3,1,barbw101,??,,9
 play,3,1,terrz101,??,,D7/P7S
-com,"$Terry ran for second as Thorpe threw to first"
 play,3,1,stenc101,??,,13
 play,4,0,riggj101,??,,9/L
 play,4,0,boect101,??,,63
@@ -2565,10 +2501,6 @@ play,7,1,schmw102,??,,S7
 play,7,1,coopw101,??,,S9.1-2
 play,7,1,barbw101,??,,53.2-3;1-2
 play,7,1,terrz101,??,,S9.3-H;2XH(9E2)(UR)(NR);B-3
-com,"$Cooper was injured in the collision at home but dragged"
-com,"himself to the plate to touch safely; the game was halted"
-com,"for a few minutes until he could get to the bench; he was"
-com,"bruised on the legs"
 play,7,1,stenc101,??,,T9/9D.3-H(UR)
 play,7,1,lee-c101,??,,W
 play,7,1,soutb101,??,,CS2(26)
@@ -2586,7 +2518,6 @@ play,9,0,boect101,??,,W
 play,9,0,tragw101,??,,SB2
 play,9,0,tragw101,??,,K
 play,9,1,coopw101,??,,S/L6D
-com,"$Cooper limped to first"
 play,9,1,barbw101,??,,NP
 sub,warnh102,"Hooks Warner",1,9,12
 play,9,1,barbw101,??,,23/SH.1-2
@@ -2618,7 +2549,7 @@ data,er,rudod101,3
 data,er,coopw101,5
 data,er,carlh101,1
 id,PIT191906190
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/06/19
@@ -2667,8 +2598,6 @@ start,barbw101,"Walter Barbare",1,6,5
 start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,mayee101,"Erskine Mayer",1,9,1
-com,"$Bigbee out with an abcessed tooth; Caton's first"
-com,"game in centerfield"
 play,1,0,marar101,??,,63
 play,1,0,herzb101,??,,7
 play,1,0,power101,??,,43
@@ -2760,7 +2689,7 @@ data,er,nortj102,1
 data,er,mayee101,5
 data,er,carlh101,0
 id,PIT191906200
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/06/20
@@ -2821,8 +2750,7 @@ play,2,0,holkw101,??,,8/L
 play,2,0,riggj101,??,,2/FL
 play,2,0,boect101,??,,63
 play,2,1,cutsg101,??,,D7/7LD
-play,2,1,soutb101,??,,S/G3.2-H
-com,"$the ball caromed off Holke's ankle"
+play,2,1,soutb101,??,,S3/G3.2-H
 play,2,1,barbw101,??,,13/SH.1-2
 play,2,1,saiev101,??,,S8.2-3;B-2(THH)
 play,2,1,schmw102,??,,4
@@ -2842,7 +2770,8 @@ play,4,0,thorj101,??,,4
 play,4,0,holkw101,??,,43
 play,4,1,saiev101,??,,E8/F
 play,4,1,schmw102,??,,46(1)/FO/DP.BX2(36)
-com,"$Maranville made a bad throw to 1B - no DP"
+com,"$Holke retrieved bad throw from Maranville and threw"
+com,"out Schmidt trying for second"
 play,4,1,hamie101,??,,S8
 play,4,1,bigbc101,??,,S/P6D.1-2
 play,4,1,terrz101,??,,W.2-3;1-2
@@ -2900,7 +2829,7 @@ data,er,demaa101,4
 data,er,scotj101,0
 data,er,hamie101,0
 id,PIT191906210
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/06/21
@@ -2949,12 +2878,10 @@ start,barbw101,"Walter Barbare",1,6,5
 start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,adamb104,"Babe Adams",1,9,1
-com,"$early starting time so Boston could catch the train"
-com,"at 5pm; game curfew set at 4:15"
 play,1,0,rawlj101,??,,6/L
 play,1,0,herzb101,??,,6
 play,1,0,power101,??,,K
-play,1,1,bigbc101,??,,6
+play,1,1,bigbc101,??,,6/P
 play,1,1,terrz101,??,,9
 play,1,1,stenc101,??,,7
 play,2,0,cruiw101,??,,43
@@ -2966,11 +2893,9 @@ play,2,1,soutb101,??,,6/L
 play,2,1,barbw101,??,,W
 play,2,1,saiev101,??,,SB2
 play,2,1,saiev101,??,,W+OA.2X3(25)
-com,"would have been passed ball"
 play,3,0,boect101,??,,S7
 play,3,0,tragw101,??,,13/SH.1-2
 play,3,0,keatr101,??,,2/G.2-3
-com,"$Keating attempted to dodge an inside pitch"
 play,3,0,rawlj101,??,,3/FL
 play,3,1,schmw102,??,,53
 play,3,1,adamb104,??,,7
@@ -3003,8 +2928,6 @@ play,6,1,cutsg101,??,,S9/G4
 play,6,1,soutb101,??,,S8.1-2
 play,6,1,barbw101,??,,SB3
 play,6,1,barbw101,??,,9(B)3(1)/F9S/FDP
-com,"Powell turned a somersault as he caught the ball and the"
-com,"fans thought he trapped it"
 play,7,0,cruiw101,??,,D/P5D
 play,7,0,holkw101,??,,53/SH.2-3
 play,7,0,riggj101,??,,8
@@ -3017,16 +2940,16 @@ play,8,0,tragw101,??,,4
 play,8,0,keatr101,??,,23
 play,8,0,rawlj101,??,,S4/G4S
 play,8,0,herzb101,??,,2/FL
-play,8,1,bigbc101,??,,99
-play,8,1,terrz101,??,,99
-play,8,1,stenc101,??,,99
+play,8,1,bigbc101,??,,4/L
+play,8,1,terrz101,??,,63
+play,8,1,stenc101,??,,6/P
 play,9,0,power101,??,,K23
 play,9,0,cruiw101,??,,K
 play,9,0,holkw101,??,,3/L
 data,er,keatr101,1
 data,er,adamb104,0
 id,PIT191906270
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/06/27
@@ -3165,7 +3088,7 @@ data,er,luqud101,1
 data,er,carlh101,4
 data,er,mayee101,1
 id,PIT191906280
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/06/28
@@ -3295,7 +3218,7 @@ data,er,salls101,0
 data,er,millf102,1
 data,er,mayee101,0
 id,PIT191906300
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/06/30
@@ -3352,7 +3275,6 @@ play,1,1,bigbc101,??,,W
 play,1,1,catoh101,??,,3/G.1-2
 play,1,1,stenc101,??,,8
 play,1,1,cutsg101,??,,S5.2-3
-com,"$the ball bounced up and hit Hornsby in the chest"
 play,1,1,soutb101,??,,SB2
 play,1,1,soutb101,??,,S1.3-H;2-3
 play,1,1,warnh102,??,,CSH(262)
@@ -3390,7 +3312,6 @@ play,5,1,catoh101,??,,K
 play,6,0,milld102,??,,S/G1
 play,6,0,stocm101,??,,13/SH.1-2
 play,6,0,hornr101,??,,S1/BG.2-3#
-com,"no advance anyway"
 play,6,0,shotb101,??,,S5.3-3;1-2
 play,6,0,mchea101,??,,S6/G6M.3-H;2-3;1-2
 play,6,0,snydf101,??,,12(3)/FO.2-3;1-2
@@ -3431,7 +3352,7 @@ data,er,may-j102,2
 data,er,tuero101,2
 data,er,adamb104,1
 id,PIT191907010
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/07/01
@@ -3480,11 +3401,6 @@ start,warnh102,"Hooks Warner",1,6,5
 start,saiev101,"Vic Saier",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,mayee101,"Erskine Mayer",1,9,1
-com,"$the rope on the flagpole broke when it was time to"
-com,"hoist the flag before the game; a man in the stands"
-com,"offered to climb the pole and fastening the new rope;"
-com,"he turned out to be the 'Human Fly' scheduled to do his"
-com,"act the following night in Pittsburgh"
 play,1,0,shotb101,??,,63
 play,1,0,smitj106,??,,143
 play,1,0,stocm101,??,,8/L
@@ -3530,7 +3446,6 @@ play,4,1,soutb101,??,,PO1(136)
 play,5,0,lavad101,??,,S5
 play,5,0,snydf101,??,,S8.1-2
 play,5,0,meadl101,??,,S2/BG.2-3;1-2
-com,"$Schmidt thought the ball was foul and made no play"
 play,5,0,shotb101,??,,9/SF.3-H
 play,5,0,smitj106,??,,5/FL
 play,5,0,stocm101,??,,6
@@ -3548,7 +3463,6 @@ play,6,1,catoh101,??,,7
 play,6,1,stenc101,??,,W
 play,6,1,cutsg101,??,,CS2(24)
 play,7,0,snydf101,??,,3/FL
-com,"$good running catch"
 play,7,0,meadl101,??,,NP
 sub,paulg102,"Gene Paulette",0,9,11
 play,7,0,paulg102,??,,8
@@ -3584,7 +3498,7 @@ data,er,meadl101,0
 data,er,amesr101,4
 data,er,mayee101,2
 id,PIT191907020
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/07/02
@@ -3672,8 +3586,6 @@ play,4,1,soutb101,??,,CSH(242)
 play,5,0,snydf101,??,,7/FL
 play,5,0,may-j102,??,,S9
 play,5,0,shotb101,??,,96(1)/FO/P9S
-com,"$the ball dropped too far back for Cutshaw and Stengel had"
-com,"it drop in off his glove"
 play,5,0,smitj106,??,,CS2(24)
 play,5,1,soutb101,??,,4
 play,5,1,warnh102,??,,E6/G
@@ -3715,9 +3627,6 @@ sub,mollf101,"Fritz Mollwitz",1,8,11
 play,8,1,mollf101,??,,23.1-2
 play,8,1,hamie101,??,,NP
 sub,nichf101,"Fred Nicholson",1,9,11
-com,"$Nicholson's first appearance for the Pirates after being"
-com,"obtained via waivers from Detroit; he recently reported back"
-com,"from the US Army in France"
 play,8,1,nichf101,??,,7
 play,8,1,bigbc101,??,,W+SB3
 play,8,1,catoh101,??,,7
@@ -3728,17 +3637,13 @@ sub,carlh101,"Hal Carlson",1,9,1
 play,9,0,mchea101,??,,D8
 play,9,0,lavad101,??,,13/SH.2-3
 play,9,0,snydf101,??,,CSH(2)
-com,"$Schmidt knocked down the wide pitch and grabbed it"
 play,9,0,snydf101,??,,8
 play,9,1,stenc101,??,,W
-com,"$during the last few innings, May had been toweled off on"
-com,"the bench by teammates, who also provided sponge baths; the"
-com,"heat had tired May out"
 play,9,1,cutsg101,20,,NP
 sub,sherb101,"Bill Sherdel",0,9,1
 play,9,1,cutsg101,??,,9
 play,9,1,soutb101,??,,HR/89.1-H
-com,"Bounce HR into the bleachers"
+com,"$Bounce HR"
 play,9,1,terrz101,??,,NP
 sub,tuero101,"Oscar Tuero",0,9,1
 play,9,1,terrz101,??,,53
@@ -3749,7 +3654,7 @@ data,er,tuero101,0
 data,er,hamie101,4
 data,er,carlh101,0
 id,PIT191907030
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/07/03
@@ -3825,17 +3730,13 @@ play,3,1,terrz101,??,,SB2
 play,3,1,terrz101,??,,E3/P.2-3
 play,3,1,stenc101,??,,2/FL.1-2
 play,3,1,cutsg101,??,,BK.3-H;2-3
-com,"$as Douglas started his pitching motion the ball fell out of"
-com,"his hand onto the grass behind him"
 play,3,1,cutsg101,??,,FC4.3-H(E4/THH)(UR)(NR)
-com,"$high throw home and Terry had to dodge the catcher"
 play,3,1,soutb101,??,,SB2
 play,3,1,soutb101,??,,9
 play,3,1,catoh101,??,,63
 play,4,0,magel101,??,,8
 play,4,0,merkf101,??,,2/FL
 play,4,0,pickc103,??,,53/BG
-com,"high throw pulled down by Saier"
 play,4,1,saiev101,??,,S9
 play,4,1,schmw102,??,,SB2
 play,4,1,schmw102,??,,5
@@ -3860,7 +3761,6 @@ play,6,1,saiev101,??,,7
 play,6,1,schmw102,??,,CS2(26)
 play,6,1,schmw102,??,,E6/G
 play,6,1,coopw101,??,,S9/G4.1-3
-com,"$the ball hopped over Pick's head"
 play,6,1,bigbc101,??,,CSH(242)
 play,7,0,pickc103,??,,HP
 play,7,0,dealc102,??,,S7.1-2
@@ -3896,13 +3796,13 @@ data,er,dougp101,3
 data,er,marts102,0
 data,er,coopw101,2
 id,PIT191907041
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/07/04
 info,site,PIT06
 info,number,1
-info,starttime,10:30
+info,starttime,10:30AM
 info,daynight,day
 info,usedh,false
 info,scorer,"137"
@@ -3945,6 +3845,7 @@ start,catoh101,"Howdy Caton",1,6,5
 start,saiev101,"Vic Saier",1,7,3
 start,blacf101,"Fred Blackwell",1,8,2
 start,millf102,"Frank Miller",1,9,1
+com,"$Morning game of morning-afternoon double-header"
 play,1,0,flacm101,??,,S9
 play,1,0,hollc101,??,,HP.1-2
 play,1,0,magel101,??,,3/BP
@@ -4016,7 +3917,6 @@ play,8,0,mannl101,??,,5
 play,8,0,ofarb101,??,,63
 play,8,1,nichf101,??,,S8/L
 play,8,1,terrz101,??,,S9.1-3
-com,"run and hit"
 play,8,1,stenc101,??,,7/SF.3-H
 play,8,1,cutsg101,??,,54(1)3/GDP
 play,9,0,hendc101,??,,43
@@ -4029,7 +3929,7 @@ data,er,hendc101,3
 data,er,millf102,6
 data,er,carlh101,1
 id,PIT191907042
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/07/04
@@ -4078,6 +3978,7 @@ start,catoh101,"Howdy Caton",1,6,5
 start,mollf101,"Fritz Mollwitz",1,7,3
 start,schmw102,"Walter Schmidt",1,8,2
 start,adamb104,"Babe Adams",1,9,1
+com,"$Afternoon game of morning-afternoon double-header"
 play,1,0,flacm101,??,,W
 play,1,0,hollc101,??,,43.1-2
 play,1,0,magel101,??,,3/FL
@@ -4090,8 +3991,7 @@ play,2,0,pickc103,??,,43
 play,2,0,dealc102,??,,9
 play,2,0,mannl101,??,,7/F7D
 play,2,1,soutb101,??,,W
-play,2,1,catoh101,??,,FC1/BG.1-2(E1/TH2)
-com,"high throw"
+play,2,1,catoh101,??,,FC1/BG.1-2(E1/TH2);B-1
 play,2,1,mollf101,??,,35(2)/FO/BG.1-2
 play,2,1,schmw102,??,,46(1)3/GDP
 play,3,0,killb101,??,,63
@@ -4109,10 +4009,8 @@ play,4,0,dealc102,??,,2/FL
 play,4,0,mannl101,??,,63
 play,4,1,cutsg101,??,,43
 play,4,1,soutb101,??,,43
-play,4,1,catoh101,??,,W#
-com,"missing play in PIT1907042"
-play,4,1,mollf101,??,,99#
-com,"missing play in PIT1907042"
+play,4,1,catoh101,??,,W
+play,4,1,mollf101,??,,4/P
 play,5,0,killb101,??,,23/BG
 play,5,0,vaugh101,??,,S9
 play,5,0,flacm101,??,,8
@@ -4138,8 +4036,8 @@ play,6,1,catoh101,??,,7
 play,7,0,mannl101,??,,S4
 play,7,0,killb101,??,,23/SH.1-2
 play,7,0,vaugh101,??,,43.2-3
-play,7,0,flacm101,??,,4
-play,7,1,mollf101,??,,3
+play,7,0,flacm101,??,,4/P
+play,7,1,mollf101,??,,3/P
 play,7,1,schmw102,??,,53
 play,7,1,adamb104,??,,8
 play,8,0,hollc101,??,,3/FL
@@ -4148,9 +4046,8 @@ play,8,0,merkf101,??,,53.1-2
 play,8,0,pickc103,??,,53
 play,8,1,bigbc101,??,,5/FL
 play,8,1,terrz101,??,,43
-play,8,1,nichf101,??,,W#
-play,8,1,cutsg101,??,,99#
-com,"missing plays in PIT1907042"
+play,8,1,nichf101,??,,W
+play,8,1,cutsg101,??,,9
 play,9,0,dealc102,??,,D8
 play,9,0,mannl101,??,,13/SH.2-3
 play,9,0,killb101,??,,54/SH.3-H
@@ -4162,7 +4059,7 @@ play,9,1,mollf101,??,,K
 data,er,vaugh101,1
 data,er,adamb104,3
 id,PIT191907050
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/07/05
@@ -4250,9 +4147,8 @@ play,4,1,catoh101,??,,CS3(25)
 play,4,1,catoh101,??,,9
 play,5,0,flacm101,??,,W
 play,5,0,hollc101,??,,W.1-2
-play,5,0,magel101,??,,8/F8XD.2-H(TH1)(NR);1-1
-com,"$Hollocher started for 2B but had to hustle back; Flack"
-com,"scored during the rundown"
+play,5,0,magel101,??,,8/F8XD.2-H(TH1)(NR)
+com,"$Flack scored during rundown on Hollocher"
 play,5,0,merkf101,??,,D9.1XH(9352)
 play,5,0,pickc103,??,,3/G
 play,5,1,schmw102,??,,63
@@ -4273,7 +4169,6 @@ play,7,0,merkf101,??,,S1
 play,7,0,pickc103,??,,S7.1-2
 play,7,0,dealc102,??,,8
 play,7,0,mannl101,??,,T8.2-H;1-H
-com,"$Bigbee fell trying to make a one-handed catch"
 play,7,0,ofarb101,??,,E6/G.3-H(UR)(NR)
 play,7,0,cartp101,??,,S8.1-3
 play,7,0,flacm101,??,,3E1.3-H(UR)(NR);1-2
@@ -4309,7 +4204,7 @@ data,er,cartp101,2
 data,er,hamie101,4
 data,er,hillc102,2
 id,PIT191907070
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/07/07
@@ -4442,9 +4337,7 @@ play,7,1,catoh101,??,,NP
 sub,mollf101,"Fritz Mollwitz",1,6,12
 play,7,1,catoh101,??,,S7.1-3
 play,7,1,schmw102,??,,S9/G3.3-H;1-3
-play,7,1,mayee101,??,,OA.3-H(E4/TH2)(UR);1-2
-com,"$Miller stepped away from 2B as he caught Snyder's throw and"
-com,"threw wildly to Lavan trying to catch Schmidt off the bag"
+play,7,1,mayee101,??,,OA.3-H(E4)(UR);1-2
 play,7,1,mayee101,??,,63
 play,8,0,shotb101,??,,NP
 sub,mollf101,"Fritz Mollwitz",1,6,3
@@ -4466,7 +4359,6 @@ play,8,1,cutsg101,??,,64(1)3/GDP
 play,9,0,milld102,??,,S7
 play,9,0,paulg102,??,,SB2
 play,9,0,paulg102,??,,SB3
-com,"possible DI"
 play,9,0,paulg102,??,,63
 play,9,0,hornr101,??,,53.3-H
 play,9,0,shotb101,??,,W
@@ -4481,7 +4373,7 @@ data,er,tuero101,2
 data,er,goodm102,2
 data,er,mayee101,9
 id,PIT191907240
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/07/24
@@ -4554,10 +4446,9 @@ play,3,1,schmw102,??,,63
 play,3,1,coopw101,??,,T/89XD
 play,3,1,bigbc101,??,,5/L
 play,3,1,mollf101,??,,HP
-com,"ej,mollf101,P,riglc901,Claiming intent to hit with pitch"
-com,"$Mollwitz threw his bat at Ruether, claiming the Ruether"
-com,"tried to bean him; both benches emptied but no there was no"
-com,"fight; Mollwitz was ejected by Rigler"
+com,"ej,mollf101,P,riglc901,Throwing bat at pitcher"
+com,"$Mollwitz ejected by HP umpire Rigler for throwing his"
+com,"bat at Ruether after being hit by pitch"
 play,3,1,soutb101,??,,NP
 sub,warnh102,"Hooks Warner",1,2,12
 play,3,1,soutb101,??,,K/C
@@ -4567,7 +4458,7 @@ play,4,0,grohh101,??,,43/G4M
 play,4,0,rouse101,??,,E2/P2
 play,4,0,nealg101,??,,SB2.1-3(E2/TH2)
 play,4,0,nealg101,??,,K
-play,4,0,kopfl101,??,,6
+play,4,0,kopfl101,??,,6/P
 play,4,1,stenc101,??,,53
 play,4,1,cutsg101,??,,7
 play,4,1,barbw101,??,,8
@@ -4578,13 +4469,11 @@ play,5,0,rathm101,??,,6/L
 play,5,1,terrz101,??,,63
 play,5,1,schmw102,??,,D7/7LD
 play,5,1,coopw101,??,,W+SB3/R5
-com,"$Groh hurled the ball down and argued the call at 3B;"
-com,"Cutshaw suggested that Groh be ejected"
 play,5,1,bigbc101,??,,34.3-3;1-2
 play,5,1,saiev101,??,,K
 play,6,0,daubj101,??,,W
 play,6,0,grohh101,??,,T9/9LD.1-H
-play,6,0,rouse101,??,,5
+play,6,0,rouse101,??,,5/P
 play,6,0,nealg101,??,,FC5.3XH(52);B-2
 play,6,0,kopfl101,??,,D7.2-H
 play,6,0,bresr101,??,,13
@@ -4595,7 +4484,7 @@ play,6,1,barbw101,??,,D9/G3L.2-H
 play,6,1,terrz101,??,,13
 play,7,0,rarib101,??,,8
 play,7,0,ruetd101,??,,63
-play,7,0,rathm101,??,,3
+play,7,0,rathm101,??,,3/P
 play,7,1,schmw102,??,,63
 play,7,1,coopw101,??,,8
 play,7,1,bigbc101,??,,43
@@ -4606,11 +4495,11 @@ play,8,1,saiev101,??,,W
 play,8,1,soutb101,??,,46(1)/FO
 play,8,1,stenc101,??,,S6/G56.1-2
 play,8,1,cutsg101,??,,9
-play,8,1,barbw101,??,,5
+play,8,1,barbw101,??,,5/P
 play,9,0,nealg101,??,,43/G34S
 play,9,0,kopfl101,??,,53
 play,9,0,bresr101,??,,S7
-play,9,0,rarib101,??,,99
+play,9,0,rarib101,??,,8
 play,9,1,terrz101,??,,43
 play,9,1,schmw102,??,,NP
 sub,nichf101,"Fred Nicholson",1,8,11
@@ -4621,7 +4510,7 @@ play,9,1,lee-c101,??,,63
 data,er,ruetd101,1
 data,er,coopw101,3
 id,PIT191907250
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/07/25
@@ -4745,7 +4634,7 @@ play,9,1,cutsg101,??,,6(1)/FO
 data,er,elleh101,0
 data,er,adamb104,4
 id,PIT191907260
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/07/26
@@ -4816,9 +4705,8 @@ play,2,1,millf102,??,,K
 play,2,1,bigbc101,??,,S6.2XH(632575)
 com,"$Schmidt rounded 3B but turned back on Daubert's throw home;"
 com,"Wingo's throw to 3B hit Schmidt on the shoulder and the ball"
-com,"rolled across the 3B coaching line; Schmidt ran home but"
-com,"hurt his ankle and fell 20 feet from the bag; Groh tagged"
-com,"the fallen runner; Schmidt was carried off the field"
+com,"bounced away; Schmidt tried to run home but twisted his ankle"
+com,"and was tagged out by Groh"
 play,3,0,ringj101,??,,NP
 sub,lee-c101,"Cliff Lee",1,8,2
 play,3,0,ringj101,??,,K
@@ -4880,7 +4768,7 @@ play,9,1,lee-c101,??,,9
 data,er,ringj101,2
 data,er,millf102,4
 id,PIT191907291
-version,2
+version,1
 info,visteam,NY1
 info,hometeam,PIT
 info,date,1919/07/29
@@ -5001,7 +4889,7 @@ play,9,1,cutsg101,??,,63
 data,er,tonef101,0
 data,er,adamb104,3
 id,PIT191907292
-version,2
+version,1
 info,visteam,NY1
 info,hometeam,PIT
 info,date,1919/07/29
@@ -5143,7 +5031,7 @@ data,er,dubuj101,2
 data,er,dougp101,0
 data,er,coopw101,6
 id,PIT191907301
-version,2
+version,1
 info,visteam,NY1
 info,hometeam,PIT
 info,date,1919/07/30
@@ -5195,8 +5083,6 @@ start,ponde101,"Elmer Ponder",1,9,1
 play,1,0,burng101,??,,S7
 play,1,0,younr101,??,,36(1)/FO
 play,1,0,fleta101,??,,WP.1-3
-com,"$Youngs scored but umpire O'Day sent him back to 3B because"
-com,"the ball rolled back of the screen"
 play,1,0,fleta101,??,,7
 play,1,0,doyll101,??,,3
 play,1,1,bigbc101,??,,7/FL
@@ -5213,7 +5099,6 @@ play,2,1,cutsg101,??,,7
 play,2,1,saiev101,??,,K
 play,3,0,burng101,??,,5
 play,3,0,younr101,??,,E1/TH1.B-2
-com,"$the throw went to the grandstand"
 play,3,0,fleta101,??,,S8.2-H(UR)
 play,3,0,doyll101,??,,8/F8XD
 play,3,0,kaufb101,??,,D8/F8XD.1-H(UR)
@@ -5229,7 +5114,6 @@ play,4,0,burng101,??,,4
 play,4,0,younr101,??,,3/G
 play,4,1,bigbc101,??,,63
 play,4,1,barbw101,??,,S3/R1
-com,"$Barnes failed to touch the bag"
 play,4,1,soutb101,??,,S7.1-2
 play,4,1,stenc101,??,,8.2-3
 play,4,1,cutsg101,??,,163
@@ -5285,7 +5169,7 @@ data,er,barnj102,0
 data,er,ponde101,3
 data,er,mayee101,3
 id,PIT191907302
-version,2
+version,1
 info,visteam,NY1
 info,hometeam,PIT
 info,date,1919/07/30
@@ -5351,8 +5235,6 @@ play,1,1,lee-c101,??,,13
 play,2,0,doyll101,??,,8
 play,2,0,kaufb101,??,,13
 play,2,0,zimmh101,??,,D7/F7LD
-com,"near the line but called fair by Quigley over the arguments"
-com,"of the Pirates; fans threw bottles towards Quigley"
 play,2,0,chash101,??,,D7/7L.2-H
 play,2,0,snydf101,??,,5/FL
 play,2,1,millf102,??,,K/C
@@ -5408,7 +5290,6 @@ sub,oescj101,"Joe Oeschger",0,9,1
 play,8,1,barbw101,??,,7/L
 play,8,1,soutb101,??,,S9
 play,8,1,stenc101,??,,FC1/TH2.1-2;B-1
-com,"Oeschger's throw went into CF but Southworth did not run"
 play,8,1,cutsg101,??,,OA.2X3(25);1-2
 play,8,1,cutsg101,??,,S/G.2-3
 play,8,1,saiev101,??,,SB2
@@ -5555,7 +5436,7 @@ data,er,dougp101,1
 data,er,carlh101,5
 data,er,hamie101,0
 id,PIT191908010
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/08/01
@@ -5638,8 +5519,6 @@ play,4,1,stenc101,??,,13
 play,5,0,boect101,??,,D7
 play,5,0,herzb101,??,,14/SH.2-3
 play,5,0,rawlj101,??,,S5.3-H
-com,"$Barbare one-handed the ball but it dropped in the mud at"
-com,"his feet"
 play,5,0,smitr108,??,,64(1)3/GDP
 play,5,1,cutsg101,??,,5
 play,5,1,saiev101,??,,43
@@ -5686,7 +5565,7 @@ data,er,nehfa101,1
 data,er,hamie101,2
 data,er,adamb104,0
 id,PIT191908020
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/08/02
@@ -5816,7 +5695,7 @@ data,er,filld101,4
 data,er,coopw101,2
 data,er,mayee101,0
 id,PIT191908050
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/08/05
@@ -5825,9 +5704,9 @@ info,number,0
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,klemb901
 info,ump1b,emslb101
@@ -5866,7 +5745,6 @@ start,saiev101,"Vic Saier",1,7,3
 start,blacf101,"Fred Blackwell",1,8,2
 start,adamb104,"Babe Adams",1,9,1
 play,1,0,bancd101,??,,S8.B-2(E8)
-com,"$the ball hit in the water-soaked grass and skipped by Carey"
 play,1,0,blacl101,??,,54/SH.2-3
 play,1,0,willc103,??,,63
 play,1,0,meusi101,??,,S7.3-H
@@ -5877,7 +5755,7 @@ play,1,1,carem101,??,,23/BG
 play,1,1,terrz101,??,,9
 play,1,1,stenc101,??,,9
 play,2,0,paulg102,??,,53
-play,2,0,tragw101,??,,3
+play,2,0,tragw101,??,,3/P
 play,2,0,meadl101,??,,3/G
 play,2,1,cutsg101,??,,K
 play,2,1,soutb101,??,,E4/G
@@ -5896,7 +5774,7 @@ play,4,0,whitp102,??,,5/FL
 play,4,0,paulg102,??,,S6
 play,4,0,tragw101,??,,K
 play,4,1,stenc101,??,,8
-play,4,1,cutsg101,??,,S/G25
+play,4,1,cutsg101,??,,S5/G25
 play,4,1,soutb101,??,,64(1)/FO
 play,4,1,barbw101,??,,S9.1-3
 play,4,1,saiev101,??,,3/G
@@ -5921,8 +5799,8 @@ play,7,1,barbw101,??,,43
 play,7,1,saiev101,??,,8
 play,8,0,bancd101,??,,K
 play,8,0,blacl101,??,,S8
-play,8,0,willc103,??,,4
-play,8,0,meusi101,??,,4
+play,8,0,willc103,??,,4/P
+play,8,0,meusi101,??,,4/P
 play,8,1,blacf101,??,,S7
 play,8,1,adamb104,??,,NP
 sub,bigbc101,"Carson Bigbee",1,9,11
@@ -5935,8 +5813,7 @@ sub,mayee101,"Erskine Mayer",1,9,1
 play,9,0,ludef101,??,,13
 play,9,0,whitp102,??,,53
 play,9,0,paulg102,??,,13
-play,9,1,stenc101,??,,53#
-com,"play says Blackwell; is it Blackburne or the catcher?"
+play,9,1,stenc101,??,,53
 play,9,1,cutsg101,??,,2/FL
 play,9,1,soutb101,??,,S9
 play,9,1,barbw101,??,,9
@@ -5944,7 +5821,7 @@ data,er,meadl101,0
 data,er,adamb104,2
 data,er,mayee101,0
 id,PIT191908070
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/08/07
@@ -5953,9 +5830,9 @@ info,number,0
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,klemb901
 info,ump1b,emslb101
@@ -5995,8 +5872,9 @@ start,lee-c101,"Cliff Lee",1,8,2
 start,millf102,"Frank Miller",1,9,1
 play,1,0,bancd101,??,,T7/7D
 play,1,0,blacl101,??,,13
-play,1,0,willc103,??,,FC3.3-3(E2/TH3);B-2
-com,"$Lee's throw hit Bancroft on the back"
+play,1,0,willc103,??,,FC3.3-3;B-2(E2/TH3)
+com,"$Bancroft was trapped off 3rd but returned safely when"
+com,"catcher Lee made an errant throw during rundown"
 play,1,0,meusi101,??,,8/SF.3-H;2-3
 play,1,0,ludef101,??,,43
 play,1,1,carem101,??,,63
@@ -6013,14 +5891,14 @@ play,2,1,lee-c101,??,,53
 play,3,0,rixee101,??,,9
 play,3,0,bancd101,??,,K
 play,3,0,blacl101,??,,W
-play,3,0,willc103,??,,4
+play,3,0,willc103,??,,4/P
 play,3,1,millf102,??,,9
 play,3,1,carem101,??,,7
 play,3,1,terrz101,??,,63
 play,4,0,meusi101,??,,63
 play,4,0,ludef101,??,,S8
 play,4,0,whitp102,??,,14(1)/FO
-play,4,0,paulg102,??,,4
+play,4,0,paulg102,??,,4/P
 play,4,1,cutsg101,??,,9
 play,4,1,soutb101,??,,W
 play,4,1,barbw101,??,,S7/G5.1-3
@@ -6038,7 +5916,7 @@ play,6,0,blacl101,??,,8
 play,6,0,willc103,??,,41
 play,6,0,meusi101,??,,T7/7D
 play,6,0,ludef101,??,,43
-play,6,1,cutsg101,??,,3
+play,6,1,cutsg101,??,,3/P
 play,6,1,soutb101,??,,K
 play,6,1,barbw101,??,,S/G1
 play,6,1,nichf101,??,,46(1)/FO
@@ -6049,13 +5927,12 @@ play,7,0,rixee101,??,,9/SF.3-H
 play,7,0,bancd101,??,,3/G
 play,7,1,mollf101,??,,W
 play,7,1,lee-c101,??,,96(1)/FO
-com,"$Meusel muffed Lee's fly ball"
 play,7,1,millf102,??,,K
 play,7,1,carem101,??,,OA.1X2(2E4)
 play,7,1,carem101,??,,W
 play,7,1,terrz101,??,,PO2(16)
 play,8,0,blacl101,??,,43
-play,8,0,willc103,??,,S/G2
+play,8,0,willc103,??,,S2/BG
 play,8,0,meusi101,??,,S7.1-3;B-2(TH3)
 play,8,0,ludef101,??,,3/FL
 play,8,0,whitp102,??,,HR7/7D/IPHR.3-H;2-H
@@ -6069,13 +5946,13 @@ play,9,0,bancd101,??,,W
 play,9,0,blacl101,??,,8
 play,9,0,willc103,??,,K
 play,9,1,barbw101,??,,7
-play,9,1,nichf101,??,,T/89XD
+play,9,1,nichf101,??,,T8/89XD
 play,9,1,mollf101,??,,K
 play,9,1,lee-c101,??,,63
 data,er,rixee101,1
 data,er,millf102,5
 id,PIT191908080
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/08/08
@@ -6200,7 +6077,7 @@ data,er,mamaa101,2
 data,er,smits102,0
 data,er,coopw101,0
 id,PIT191908090
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/08/09
@@ -6255,7 +6132,6 @@ play,1,0,grift102,??,,SB2
 play,1,0,grift102,??,,8
 play,1,0,wheaz101,??,,63
 play,1,1,bigbc101,??,,HP
-com,"$Bigbee was hit on the leg"
 play,1,1,carem101,??,,13.1-2
 play,1,1,soutb101,??,,7(B)64(2)/FDP
 play,2,0,myerh102,??,,4
@@ -6282,7 +6158,7 @@ play,4,0,konee101,??,,D7/7LD
 play,4,0,wardc102,??,,8
 play,4,0,wheam101,??,,8.2-3
 play,4,0,pfefj101,??,,K
-play,4,1,carem101,??,,99
+play,4,1,carem101,??,,3/L
 play,4,1,soutb101,??,,S
 play,4,1,cutsg101,??,,63(B)4(1)/DP
 play,5,0,olsoi101,??,,8
@@ -6302,8 +6178,7 @@ play,6,1,carlh101,??,,K
 play,6,1,bigbc101,??,,D9/L
 play,6,1,carem101,??,,7
 play,7,0,wheam101,??,,13
-play,7,0,pfefj101,??,,S56
-com,"$the ball deflected off Barbare's glove to Terry"
+play,7,0,pfefj101,??,,S5
 play,7,0,olsoi101,??,,7
 play,7,0,johnj107,??,,S7/7D.1-3
 play,7,0,grift102,??,,CS2(24)
@@ -6331,12 +6206,12 @@ play,9,0,olsoi101,??,,S7.3-H;1-2
 play,9,0,johnj107,??,,8/L
 play,9,1,carem101,??,,5/FL
 play,9,1,soutb101,??,,3/G
-play,9,1,cutsg101,??,,4
+play,9,1,cutsg101,??,,4/P
 data,er,pfefj101,0
 data,er,carlh101,1
 data,er,hamie101,1
 id,PIT191908280
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/08/28
@@ -6392,7 +6267,6 @@ play,1,1,bigbc101,??,,W
 play,1,1,carem101,??,,9.1-2
 play,1,1,soutb101,??,,23.2-3
 play,1,1,whitp102,??,,S7.3-H
-com,"$the only hit of the game by the Pirates"
 play,1,1,barbw101,??,,63
 play,2,0,hornr101,??,,K
 play,2,0,mchea101,??,,7
@@ -6426,7 +6300,6 @@ play,5,1,bigbc101,??,,43
 play,6,0,schuj101,??,,S4
 play,6,0,heatc101,??,,S1/BG.1-2
 play,6,0,stocm101,??,,S5/BG/R4.2-3;1-2
-com,"$both Heathcote & Stock beat throws on attempted sacrifices"
 play,6,0,hornr101,??,,9/F9D/SF.3-H;2-3;1-2
 play,6,0,mchea101,??,,W
 play,6,0,clemv101,??,,W.3-H;2-3;1-2
@@ -6444,8 +6317,7 @@ play,7,1,cutsg101,??,,43
 play,7,1,terrz101,??,,7
 play,8,0,hornr101,??,,D9/9D
 play,8,0,mchea101,??,,2/INT
-com,"no putout credited on this play in 1919"
-com,"$McHenry ran into his own batted ball"
+com,"$McHenry declared out for running into his own batted ball"
 play,8,0,clemv101,??,,43.2-3
 play,8,0,milld102,??,,8
 play,8,1,schmw102,??,,7
@@ -6463,7 +6335,7 @@ play,9,1,whitp102,??,,43
 data,er,schuf102,1
 data,er,coopw101,3
 id,PIT191908290
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/08/29
@@ -6582,8 +6454,8 @@ play,8,1,soutb101,??,,8
 play,8,1,whitp102,??,,S7
 play,8,1,barbw101,??,,D7.1-H
 play,8,1,cutsg101,??,,S5.2-3
-play,8,1,terrz101,??,,FC5.3-3;1-2
-com,"$Barbare was trapped but got back to 3B safely"
+play,8,1,terrz101,??,,FC5/THH.3-3;1-2;B-1
+com,"Barbare escaped rundown and returned safely to 3rd"
 play,8,1,schmw102,??,,7/FDP.3XH(72)
 play,9,0,hornr101,??,,K
 play,9,0,mchea101,??,,D7
@@ -6592,7 +6464,7 @@ play,9,0,milld102,??,,53
 data,er,sherb101,4
 data,er,millf102,2
 id,PIT191908300
-version,2
+version,1
 info,visteam,CIN
 info,hometeam,PIT
 info,date,1919/08/30
@@ -6731,7 +6603,7 @@ play,11,1,terrz101,??,,FC1/BG/THH.3-H;2-3;1-2;B-1
 data,er,ringj101,1
 data,er,adamb104,0
 id,PIT191909011
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/09/01
@@ -6780,6 +6652,7 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,terrz101,"Zeb Terry",1,7,6
 start,schmw102,"Walter Schmidt",1,8,2
 start,millf102,"Frank Miller",1,9,1
+com,"$Morning game of morning-afternoon double-header"
 play,1,0,schuj101,??,,6
 play,1,0,heatc101,??,,S9
 play,1,0,stocm101,??,,S7/G5.1-2
@@ -6809,8 +6682,6 @@ play,2,1,hamie101,??,,K
 play,3,0,clemv101,??,,7
 play,3,0,lavad101,??,,4
 play,3,0,mollf101,??,,S5/G25
-com,"$Mollwitz' chopper was foul and rolled fair before Barbare"
-com,"could field it"
 play,3,0,schuf102,??,,SB2
 play,3,0,schuf102,??,,1/G
 play,3,1,nichf101,??,,W
@@ -6823,14 +6694,13 @@ play,4,0,heatc101,??,,W
 play,4,0,stocm101,??,,NP
 sub,milld102,"Dots Miller",0,3,11
 com,"ej,stocm101,P,harrp901,Balls and strikes"
-com,"$Stock ejected by HP umpire Harrison for arguing balls and"
-com,"strikes; he objected to first strike and while he was sulking"
-com,"Hamilton threw another causing Stock to argue"
+com,"$Stock ejected by HP umpire Harrison for arguing"
+com,"balls and strikes (Miller took over at bat)"
 play,4,0,milld102,??,,3/G.1-2
 play,4,0,hornr101,??,,23
 com,"ej,rickb101,M,harrp901,Balls and strikes"
-com,"$Cardinals manager Rickey objected to Stock's earlier"
-com,"ejection and was ejected by HP umpire Harrison"
+com,"$Cardinals manager Rickey ejected by HP umpire Harrison"
+com,"for arguing balls and strikes"
 play,4,1,cutsg101,??,,NP
 sub,hornr101,"Rogers Hornsby",0,4,5
 play,4,1,cutsg101,??,,NP
@@ -6892,7 +6762,7 @@ data,er,doakb101,0
 data,er,millf102,5
 data,er,hamie101,0
 id,PIT191909012
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/09/01
@@ -6941,7 +6811,7 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,terrz101,"Zeb Terry",1,7,6
 start,lee-c101,"Cliff Lee",1,8,2
 start,coopw101,"Wilbur Cooper",1,9,1
-com,"$afternoon game"
+com,"$Afternoon game of morning-afternoon double-header"
 play,1,0,schuj101,??,,9
 play,1,0,heatc101,??,,3/P3DF
 play,1,0,stocm101,??,,43
@@ -7014,7 +6884,7 @@ play,9,0,mchea101,??,,9
 data,er,sherb101,2
 data,er,coopw101,1
 id,PIT191909020
-version,2
+version,1
 info,visteam,SLN
 info,hometeam,PIT
 info,date,1919/09/02
@@ -7141,7 +7011,7 @@ data,er,goodm102,1
 data,er,ponde101,1
 data,er,millf102,0
 id,PIT191909040
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/09/04
@@ -7277,7 +7147,6 @@ play,9,1,adamb104,??,,NP
 sub,lee-c101,"Cliff Lee",1,9,11
 play,9,1,lee-c101,??,,W
 play,9,1,bigbc101,??,,S3.2-H(UR);1-2
-com,"$Nicholson slid under Merkle's throw"
 play,9,1,carem101,??,,S8.2XH(82);1-2
 play,10,0,flacm101,??,,NP
 sub,lee-c101,"Cliff Lee",1,9,2
@@ -7296,7 +7165,6 @@ play,10,1,soutb101,??,,NP
 sub,paskd101,"Dode Paskert",0,6,7
 play,10,1,soutb101,??,,5/FL
 play,10,1,whitp102,??,,T8
-com,"$to the cinder path at the edge of the scoreboard"
 play,10,1,barbw101,??,,NP
 sub,hendc101,"Claude Hendrix",0,9,1
 play,10,1,barbw101,??,,FC5/SH/R2.3-H
@@ -7306,7 +7174,7 @@ data,er,hendc101,0
 data,er,adamb104,3
 data,er,coopw101,0
 id,PIT191909050
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/09/05
@@ -7383,7 +7251,7 @@ play,4,0,robed103,??,,S7/P7S.3-H;1-2
 play,4,0,merkf101,??,,8
 play,4,0,barbt101,??,,K/C
 com,"ej,barbt101,P,byrol901,Called third strike"
-com,"$Barber ejected by HP umpire Byron for protesting"
+com,"$Barber ejected by HP umpire Byron for arguing"
 com,"called third strike"
 play,4,1,soutb101,??,,NP
 sub,paskd101,"Dode Paskert",0,6,7
@@ -7438,7 +7306,7 @@ data,er,vaugh101,0
 data,er,carlh101,1
 data,er,millf102,1
 id,PIT191909060
-version,2
+version,1
 info,visteam,CHN
 info,hometeam,PIT
 info,date,1919/09/06
@@ -7571,7 +7439,7 @@ data,er,hendc101,4
 data,er,cartp101,4
 data,er,coopw101,0
 id,PIT191909081
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/09/08
@@ -7644,8 +7512,8 @@ play,2,1,carem101,??,,S8.2-H
 play,2,1,soutb101,??,,D9/G3.1-H
 play,2,1,whitp102,??,,31
 com,"ej,whitp102,P,quige901,Call at 1B"
-com,"$Whitted ejected by 1B umpire Quigley for arguing he"
-com,"was safe at 1st"
+com,"$Whitted ejected by 1B umpire Quigley for arguing"
+com,"he was safe at 1st"
 play,3,0,demaa101,??,,NP
 sub,grimc101,"Charlie Grimm",1,4,3
 play,3,0,demaa101,??,,7
@@ -7662,8 +7530,6 @@ play,4,0,marar101,??,,14(1)/FO
 play,4,1,schmw102,??,,53
 play,4,1,millf102,??,,K
 play,4,1,bigbc101,??,,HR9/G3/IPHR
-com,"$the ball got lodged in the folds of the old rain cover at"
-com,"the edge of the bullpen"
 play,4,1,carem101,??,,8
 play,5,0,gowdh101,??,,4
 play,5,0,demaa101,??,,K
@@ -7708,7 +7574,7 @@ play,9,0,mannl101,??,,7
 data,er,demaa101,4
 data,er,millf102,0
 id,PIT191909082
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/09/08
@@ -7858,7 +7724,7 @@ data,er,filld101,0
 data,er,ponde101,4
 data,er,coopw101,0
 id,PIT191909091
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/09/09
@@ -7967,7 +7833,6 @@ play,7,1,schmw102,??,,7
 play,7,1,carlh101,??,,S1/BG.1-2
 play,7,1,bigbc101,??,,S7/7S.2-H;1-2
 play,7,1,carem101,??,,86(1)/FO.2-3
-com,"$Nutter dropped Carey's fly"
 play,7,1,soutb101,??,,SB2
 play,7,1,soutb101,??,,D7/7L.3-H;2-H
 play,7,1,grimc101,??,,63
@@ -8000,7 +7865,7 @@ data,er,scotj101,5
 data,er,mcquh101,1
 data,er,carlh101,1
 id,PIT191909092
-version,2
+version,1
 info,visteam,BSN
 info,hometeam,PIT
 info,date,1919/09/09
@@ -8133,7 +7998,7 @@ play,9,0,marar101,??,,53
 data,er,keatr101,4
 data,er,adamb104,0
 id,PIT191909111
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/09/11
@@ -8142,9 +8007,9 @@ info,number,1
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,odayh101
 info,ump1b,quige901
@@ -8191,8 +8056,6 @@ play,1,1,soutb101,??,,13.1-2
 play,1,1,grimc101,??,,S8/G46.2-H
 play,1,1,barbw101,??,,SB2.1-2(PB)
 play,1,1,barbw101,??,,D9/9L.2-H;B-H(E9)(NR)(UR)
-com,"$Meusel picked up the ball and started to throw but it"
-com,"slipped out of his hand into the bullpen"
 play,1,1,cutsg101,??,,23
 play,2,0,meusi101,??,,8
 play,2,0,ludef101,??,,W
@@ -8209,12 +8072,12 @@ play,3,0,lebob101,??,,K
 play,3,1,soutb101,??,,S7.BX2(76)
 play,3,1,grimc101,??,,S6.B-2(E6/TH1)
 play,3,1,barbw101,??,,S6.2-3
-com,"$Bancroft hurt his wrist throwing the ball"
+com,"$Bancroft injured his arm throwing the ball"
 play,3,1,cutsg101,??,,NP
 sub,pearh101,"Harry Pearce",0,6,6
 play,3,1,cutsg101,??,,S8.3-H;1-2
-play,3,1,terrz101,??,,FC4/DP.1X2(46);2XH(632)
-play,4,0,blacl101,??,,5
+play,3,1,terrz101,??,,46(1)/FO/DP.2XH(632)
+play,4,0,blacl101,??,,5/P
 play,4,0,willc103,??,,2/FL
 play,4,0,meusi101,??,,S2
 play,4,0,ludef101,??,,63
@@ -8237,7 +8100,7 @@ play,6,0,meusi101,??,,9
 play,6,1,terrz101,??,,63
 play,6,1,lee-c101,??,,S7
 play,6,1,coopw101,??,,64(1)/FO
-com,"$Lee twisted a foot going towards 2B"
+com,"$Lee injured sliding into 2nd"
 play,6,1,bigbc101,??,,SB2.1-3(E2/TH2)
 play,6,1,bigbc101,??,,7
 play,7,0,ludef101,??,,NP
@@ -8247,7 +8110,7 @@ play,7,0,pearh101,??,,K
 play,7,0,paulg102,??,,43
 play,7,1,carem101,??,,S6
 play,7,1,soutb101,??,,13/SH.1-2
-play,7,1,grimc101,??,,S/78.2-H
+play,7,1,grimc101,??,,S8/78.2-H
 play,7,1,barbw101,??,,54(1)/FO
 play,7,1,cutsg101,??,,CS2(24)
 play,8,0,tragw101,??,,D9/9D
@@ -8278,7 +8141,7 @@ data,er,amesr101,4
 data,er,chenl101,2
 data,er,coopw101,1
 id,PIT191909112
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/09/11
@@ -8287,9 +8150,9 @@ info,number,2
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,quige901
 info,ump1b,morac102
@@ -8328,7 +8191,7 @@ start,terrz101,"Zeb Terry",1,7,6
 start,schmw102,"Walter Schmidt",1,8,2
 start,hamie101,"Earl Hamilton",1,9,1
 play,1,0,lebob101,??,,53
-play,1,0,blacl101,??,,3
+play,1,0,blacl101,??,,3/P
 play,1,0,willc103,??,,63
 play,1,1,bigbc101,??,,3/G
 play,1,1,carem101,??,,8
@@ -8349,14 +8212,15 @@ play,3,1,hamie101,??,,56(1)/FO
 play,3,1,bigbc101,??,,FC4.1X2(4E6);B-1
 play,3,1,carem101,??,,S8.2-H(UR);1-3;B-2(E8)
 play,3,1,soutb101,??,,S8/8S.3-H;2-H
-play,3,1,whitp102,??,,D/78.1-3
+play,3,1,whitp102,??,,D7/78.1-3
 play,3,1,barbw101,??,,OA.3X3(45)
-com,"$hidden ball trick by Paulette"
+com,"$Southworth out on hidden ball trick (Paulette threw to"
+com,"Blackburne who tagged Southworth when he took a lead)"
 play,3,1,barbw101,??,,HR7/IPHR.2-H
 play,3,1,cutsg101,??,,8
-play,4,0,blacl101,??,,S/BG25
+play,4,0,blacl101,??,,S5/BG25
 play,4,0,willc103,??,,9
-play,4,0,meusi101,??,,3
+play,4,0,meusi101,??,,3/P
 play,4,0,ludef101,??,,D7/7L.1-H
 play,4,0,pearh101,??,,D9/9L.2-H
 play,4,0,paulg102,??,,43
@@ -8370,7 +8234,7 @@ play,5,1,bigbc101,??,,43
 play,5,1,carem101,??,,S8
 play,5,1,soutb101,??,,S3/G34.1-2
 play,5,1,whitp102,??,,CS3(25).1-2
-play,5,1,whitp102,??,,S/G46.2-3
+play,5,1,whitp102,??,,S6/G46.2-3
 play,5,1,barbw101,??,,SBH;SB2
 play,5,1,barbw101,??,,63
 play,6,0,blacl101,??,,63
@@ -8383,29 +8247,29 @@ play,6,1,schmw102,??,,S7.1-2
 play,6,1,hamie101,??,,13.2-3;1-2
 play,6,1,bigbc101,??,,W
 play,6,1,carem101,??,,3/G
-play,7,0,ludef101,??,,S/P6D
+play,7,0,ludef101,??,,S7/P6D
 play,7,0,pearh101,??,,9
 play,7,0,paulg102,??,,3/G.1-2
-play,7,0,adamb106,??,,1
+play,7,0,adamb106,??,,1/G
 play,7,1,soutb101,??,,T9/F9DW
 play,7,1,whitp102,??,,7/SF.3-H
 play,7,1,barbw101,??,,K
 play,7,1,cutsg101,??,,5/FL
-play,8,0,meadl101,??,,5
+play,8,0,meadl101,??,,5/P
 play,8,0,lebob101,??,,K
 play,8,0,blacl101,??,,5/L
-play,8,1,terrz101,??,,4
+play,8,1,terrz101,??,,4/P
 play,8,1,schmw102,??,,63
 play,8,1,hamie101,??,,63
 play,9,0,willc103,??,,43
-play,9,0,meusi101,??,,5
+play,9,0,meusi101,??,,5/P
 play,9,0,ludef101,??,,NP
 sub,cravg101,"Gavvy Cravath",0,5,11
 play,9,0,cravg101,??,,63/G6M
 data,er,meadl101,6
 data,er,hamie101,2
 id,PIT191909120
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/09/12
@@ -8414,9 +8278,9 @@ info,number,0
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,mccob104
 info,ump1b,harrp901
@@ -8454,7 +8318,7 @@ start,cutsg101,"George Cutshaw",1,6,4
 start,terrz101,"Zeb Terry",1,7,6
 start,schmw102,"Walter Schmidt",1,8,2
 start,millf102,"Frank Miller",1,9,1
-play,1,0,calll101,??,,5
+play,1,0,calll101,??,,5/P
 play,1,0,blacl101,??,,K
 play,1,0,willc103,??,,43
 play,1,1,bigbc101,??,,43
@@ -8472,7 +8336,7 @@ play,3,0,cantm101,??,,K
 play,3,1,terrz101,??,,W
 play,3,1,schmw102,??,,64(1)3/GDP
 play,3,1,millf102,??,,63
-play,4,0,calll101,??,,4
+play,4,0,calll101,??,,4/P
 play,4,0,blacl101,??,,2/FL
 play,4,0,willc103,??,,8
 play,4,1,bigbc101,??,,D9/G3
@@ -8486,45 +8350,44 @@ play,5,0,ludef101,??,,S8
 play,5,0,bancd101,??,,S8.1-3;B-2(TH3)
 play,5,0,paulg102,??,,FC4.3-H;2-3;B-1
 play,5,0,clarn101,??,,HP.1-2
-play,5,0,cantm101,??,,S/BG2.3-H;2-3;1-2
+play,5,0,cantm101,??,,S2/BG/BG2.3-H;2-3;1-2
 play,5,0,calll101,??,,96(1)/FO.3-H;2-3
 play,5,0,blacl101,??,,CS2(24)
-play,5,1,barbw101,??,,5
+play,5,1,barbw101,??,,5/P
 play,5,1,cutsg101,??,,53
 play,5,1,terrz101,??,,13
 play,6,0,blacl101,??,,D9/9L
 play,6,0,willc103,??,,34/SH.2-3
-play,6,0,meusi101,??,,FC4.3XH(425)
+play,6,0,meusi101,??,,FC4.3XH(425);B-1
 play,6,0,ludef101,??,,64(1)/FO
 play,6,1,schmw102,??,,31
-play,6,1,millf102,??,,6
+play,6,1,millf102,??,,6/P
 play,6,1,bigbc101,??,,43
 play,7,0,bancd101,??,,S9
 play,7,0,paulg102,??,,S9.1-3;B-2(TH3)
 play,7,0,clarn101,??,,NP
 sub,ponde101,"Elmer Ponder",1,9,1
 play,7,0,clarn101,??,,9/SF.3-H;2-3
-play,7,0,cantm101,??,,S/G46.3-H
+play,7,0,cantm101,??,,S8/G46.3-H
 play,7,0,calll101,??,,T9/9L.1-H#
-play,7,0,blacl101,??,,FC3.3XH(32)
-play,7,0,willc103,??,,6
-play,7,1,carem101,??,,6
+play,7,0,blacl101,??,,FC3.3XH(32);B-1
+play,7,0,willc103,??,,6/P
+play,7,1,carem101,??,,6/P
 play,7,1,soutb101,??,,T9/9L
-play,7,1,whitp102,??,,S/78.3-H
-play,7,1,barbw101,??,,6
+play,7,1,whitp102,??,,S8/78.3-H
+play,7,1,barbw101,??,,6/P
 play,7,1,cutsg101,??,,54(1)/FO
 play,8,0,meusi101,??,,NP
 sub,wisnj101,"Jack Wisner",1,9,1
 play,8,0,meusi101,00,H,HP
-com,"$Meusel was hit on the arm"
 play,8,0,ludef101,??,,W.1-2
-play,8,0,bancd101,??,,5
+play,8,0,bancd101,??,,5/P
 play,8,0,paulg102,??,,3(B)6(2)/FDP
 play,8,1,terrz101,??,,S7/G5
 play,8,1,schmw102,??,,64(1)3/GDP
 play,8,1,wisnj101,??,,K
 play,9,0,clarn101,??,,E1/TH1.B-2
-play,9,0,cantm101,??,,FC3.2X3(35)
+play,9,0,cantm101,??,,FC3.2X3(35);B-1
 play,9,0,calll101,??,,S7.1-2
 play,9,0,blacl101,??,,S9.2-3;1-2
 play,9,0,willc103,??,,46(1)3/GDP
@@ -8541,7 +8404,7 @@ data,er,millf102,5
 data,er,ponde101,1
 data,er,wisnj101,0
 id,PIT191909131
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/09/13
@@ -8550,9 +8413,9 @@ info,number,1
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,mccob104
 info,ump1b,morac102
@@ -8592,7 +8455,7 @@ start,schmw102,"Walter Schmidt",1,8,2
 start,carlh101,"Hal Carlson",1,9,1
 play,1,0,lebob101,??,,S8
 play,1,0,blacl101,??,,13/SH.1-2
-play,1,0,willc103,??,,6
+play,1,0,willc103,??,,6/P
 play,1,0,meusi101,??,,S9.2-H;BX2(9163)
 play,1,1,bigbc101,??,,43
 play,1,1,carem101,??,,9
@@ -8602,7 +8465,7 @@ play,2,0,bancd101,??,,E5/G
 play,2,0,paulg102,??,,46(1)3/GDP
 play,2,1,grimc101,??,,31
 play,2,1,barbw101,??,,S7
-play,2,1,cutsg101,??,,5
+play,2,1,cutsg101,??,,5/P
 play,2,1,terrz101,??,,7
 play,3,0,clarn101,??,,9/F9D
 play,3,0,smitg104,??,,K
@@ -8619,7 +8482,7 @@ play,4,1,soutb101,??,,D9
 play,4,1,grimc101,??,,8(B)6(2)/LDP
 play,5,0,ludef101,??,,8
 play,5,0,bancd101,??,,9
-play,5,0,paulg102,??,,4
+play,5,0,paulg102,??,,4/P
 play,5,1,barbw101,??,,S7
 play,5,1,cutsg101,??,,5/FL
 play,5,1,terrz101,??,,31.1-2
@@ -8651,15 +8514,15 @@ play,8,0,paulg102,??,,63
 play,8,1,soutb101,??,,8
 play,8,1,grimc101,??,,9
 play,8,1,barbw101,??,,43
-play,9,0,clarn101,??,,4
+play,9,0,clarn101,??,,4/P
 play,9,0,smitg104,??,,NP
 sub,calll101,"Leo Callahan",0,9,11
 play,9,0,calll101,??,,63
-play,9,0,lebob101,??,,4
+play,9,0,lebob101,??,,4/P
 data,er,smitg104,4
 data,er,carlh101,1
 id,PIT191909132
-version,2
+version,1
 info,visteam,PHI
 info,hometeam,PIT
 info,date,1919/09/13
@@ -8668,9 +8531,9 @@ info,number,2
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"137"
-info,translator,""
-info,inputter,"DWV"
+info,scorer,"137,74"
+info,translator,"DWV/RWood"
+info,inputter,"DWV/RWood"
 info,inputtime,
 info,umphome,morac102
 info,ump1b,mccob104
@@ -8714,7 +8577,7 @@ play,1,0,willc103,??,,S8
 play,1,0,meusi101,??,,43
 play,1,1,bigbc101,??,,7
 play,1,1,carem101,??,,13
-play,1,1,soutb101,??,,6
+play,1,1,soutb101,??,,6/P
 play,2,0,ludef101,??,,8
 play,2,0,bancd101,??,,7
 play,2,0,paulg102,??,,S7
@@ -8729,15 +8592,14 @@ play,3,0,lebob101,??,,E3/G
 play,3,0,blacl101,??,,64(1)/FO
 play,3,0,willc103,??,,7
 play,3,1,adamb104,??,,D9/9D
-com,"$to the bleachers"
 play,3,1,bigbc101,??,,13
 play,3,1,carem101,??,,K
 play,3,1,soutb101,??,,9
-play,4,0,meusi101,??,,4
+play,4,0,meusi101,??,,4/P
 play,4,0,ludef101,??,,S8
 play,4,0,bancd101,??,,S9.1-3(E9)
-play,4,0,paulg102,??,,8(B)25(3)/FDP
-com,"Luderus was out on appeal"
+play,4,0,paulg102,??,,8(B)25(3)/AP/FDP
+com,"$Luderus declard out for leaving 3rd early"
 play,4,1,whitp102,??,,7
 play,4,1,barbw101,??,,2/FL
 play,4,1,cutsg101,??,,23
@@ -8747,7 +8609,7 @@ play,5,0,lebob101,??,,K
 play,5,1,terrz101,??,,7
 play,5,1,schmw102,??,,3/FL
 play,5,1,adamb104,??,,S9
-play,5,1,bigbc101,??,,2
+play,5,1,bigbc101,??,,2/P
 play,6,0,blacl101,??,,4/L
 play,6,0,willc103,??,,S4
 play,6,0,meusi101,??,,64(1)/FO
@@ -8759,31 +8621,31 @@ play,6,1,whitp102,??,,S7
 play,6,1,barbw101,??,,SB2
 play,6,1,barbw101,??,,3/FL
 play,7,0,bancd101,??,,S8
-play,7,0,paulg102,??,,S6/R4.1-2
+play,7,0,paulg102,??,,S6.1-2
 play,7,0,adamb106,??,,NP
 sub,calll101,"Leo Callahan",0,8,11
 play,7,0,calll101,??,,13/SH.2-3;1-2
-play,7,0,hoggb102,??,,FC1.3XH(12);2-3
+play,7,0,hoggb102,??,,FC1.3XH(1252);2-3;B-2
 play,7,0,lebob101,??,,NP
 sub,cravg101,"Gavvy Cravath",0,1,11
-play,7,0,cravg101,??,,IW.1-2
+play,7,0,cravg101,??,,IW
 play,7,0,blacl101,??,,7
 play,7,1,cutsg101,??,,NP
 sub,calll101,"Leo Callahan",0,8,9
 play,7,1,cutsg101,??,,NP
 sub,tragw101,"Walt Tragesser",0,1,2
-play,7,1,cutsg101,??,,S3/R1
+play,7,1,cutsg101,??,,S3
 play,7,1,terrz101,??,,14/SH.1-2
 play,7,1,schmw102,??,,IW
 play,7,1,adamb104,??,,8/L
 play,7,1,bigbc101,??,,S8.2-H;1-2
-play,7,1,carem101,??,,3
+play,7,1,carem101,??,,3/P
 play,8,0,willc103,??,,13
 play,8,0,meusi101,??,,7
-play,8,0,ludef101,??,,5
+play,8,0,ludef101,??,,5/P
 play,8,1,soutb101,??,,13
 play,8,1,whitp102,??,,9
-play,8,1,barbw101,??,,6
+play,8,1,barbw101,??,,6/P
 play,9,0,bancd101,??,,43
 play,9,0,paulg102,??,,63
 play,9,0,calll101,??,,T9
@@ -8791,7 +8653,7 @@ play,9,0,hoggb102,??,,43
 data,er,hoggb102,2
 data,er,adamb104,0
 id,PIT191909151
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/09/15
@@ -8921,7 +8783,7 @@ play,9,1,coopw101,??,,64(1)/FO
 data,er,smits102,3
 data,er,coopw101,4
 id,PIT191909152
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/09/15
@@ -9051,7 +8913,7 @@ data,er,cadol101,0
 data,er,hamie101,5
 data,er,wisnj101,0
 id,PIT191909160
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/09/16
@@ -9122,7 +8984,7 @@ play,3,0,pfefj101,??,,S6
 play,3,0,olsoi101,??,,K/C
 com,"ej,olsoi101,P,mccob104,Called third strike (Threw bat)"
 com,"$Olson ejected by HP umpire McCormick for arguing called"
-com,"third strike; he threw his bat"
+com,"third strike (he threw his bat)"
 play,3,1,millf102,??,,NP
 sub,johnj107,"Jimmy Johnston",0,2,6
 play,3,1,millf102,??,,NP
@@ -9198,7 +9060,7 @@ play,11,1,soutb101,??,,S9.2-H
 data,er,pfefj101,3
 data,er,millf102,3
 id,PIT191909170
-version,2
+version,1
 info,visteam,BRO
 info,hometeam,PIT
 info,date,1919/09/17
@@ -9278,7 +9140,6 @@ play,3,1,barbw101,??,,W
 play,3,1,carem101,??,,SB2.1-3(E2/TH2)
 play,3,1,carem101,??,,W
 play,3,1,soutb101,??,,D9/9L.3-H;1-H
-com,"hit and run"
 play,3,1,whitp102,??,,43.2-3
 play,3,1,grimc101,??,,63
 play,4,0,mitcc102,??,,S9
@@ -9351,7 +9212,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"73"
+info,scorer,"73,137"
 info,translator,"Ron Fisher"
 info,inputter,"Ron Fisher"
 info,inputtime,2002/05/07 11:45AM
@@ -9400,7 +9261,7 @@ play,1,1,carem101,??,,43
 play,1,1,soutb101,??,,63
 play,2,0,fleta101,??,,8
 play,2,0,statj101,??,,K
-play,2,0,kellg101,??,,D
+play,2,0,kellg101,??,,D7
 play,2,0,gonzm101,??,,43
 play,2,1,grimc101,??,,63
 play,2,1,barbw101,??,,S9
@@ -9409,13 +9270,13 @@ play,2,1,terrz101,??,,S8.2-3
 play,2,1,blacf101,??,,SBH;SB2
 play,2,1,blacf101,??,,E6.2-3
 play,2,1,adamb104,??,,S9.3-H(UR);1-3
-play,2,1,bigbc101,??,,S.3-H(UR);1-2
+play,2,1,bigbc101,??,,S7.3-H(UR);1-2
 play,2,1,carem101,??,,43
 play,3,0,barnj102,??,,K
 play,3,0,burng101,??,,K
 play,3,0,kaufb101,??,,K
 play,3,1,soutb101,??,,3/G
-play,3,1,grimc101,??,,T
+play,3,1,grimc101,??,,T8
 play,3,1,barbw101,??,,K
 play,3,1,cutsg101,??,,63
 play,4,0,frisf101,??,,3/P
@@ -9425,13 +9286,13 @@ play,4,1,terrz101,??,,7
 play,4,1,blacf101,??,,43
 play,4,1,adamb104,??,,23
 play,5,0,statj101,??,,13
-play,5,0,kellg101,??,,S/89
+play,5,0,kellg101,??,,S8/89
 play,5,0,gonzm101,??,,8
 play,5,0,barnj102,??,,S9.1-3
 play,5,0,burng101,??,,63
-play,5,1,bigbc101,??,,S
-play,5,1,carem101,??,,S.1-2
-play,5,1,soutb101,??,,S.2-H;1-3
+play,5,1,bigbc101,??,,S/G
+play,5,1,carem101,??,,S7.1-2
+play,5,1,soutb101,??,,S9.2-H;1-3
 play,5,1,grimc101,??,,5/P
 play,5,1,barbw101,??,,SB2
 play,5,1,barbw101,??,,T7.3-H;2-H
@@ -9462,9 +9323,9 @@ play,8,1,cutsg101,??,,S9.1-2
 play,8,1,terrz101,??,,46(1)3/GDP.2-3
 play,8,1,blacf101,??,,S3.3-H
 play,8,1,adamb104,??,,46(1)/FO
-play,9,0,kaufb101,??,,99
-play,9,0,frisf101,??,,99
-play,9,0,doyll101,??,,99
+play,9,0,kaufb101,??,,43
+play,9,0,frisf101,??,,8
+play,9,0,doyll101,??,,7
 data,er,barnj102,4
 data,er,snovc101,1
 data,er,adamb104,0
@@ -9700,7 +9561,7 @@ play,7,0,fleta101,??,,7
 play,7,1,grimc101,??,,T9
 play,7,1,cutsg101,??,,43
 play,7,1,terrz101,??,,CSH(12)
-com,"blown squeeze play!"
+com,"failed squeeze play"
 play,7,1,terrz101,??,,63
 play,8,0,kinsb101,??,,NP
 sub,younr101,"Ross Youngs",0,6,11

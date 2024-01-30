@@ -609,11 +609,11 @@ info,ump2b,rennd901
 info,ump3b,monte901
 info,scorer,"Astros"
 info,translator,"Dobrow"
-info,inputter,"Dobrow"
+info,inputter,"Dobrow with Wigley for pitches from NBC GOW"
 info,inputtime,1995/04/10 2:41AM
 info,howscored,park
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,77
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -643,123 +643,130 @@ start,leonj001,"Jeff Leonard",1,6,3
 start,pujol001,"Luis Pujols",1,7,2
 start,reync001,"Craig Reynolds",1,8,6
 start,ruhlv001,"Vern Ruhle",1,9,1
-play,1,0,moreo001,??,,K
-play,1,0,folit001,??,,13
-play,1,0,parkd001,??,,31
-play,1,1,puhlt001,??,,7
-play,1,1,thond001,??,,8
-play,1,1,cedec001,??,,63
-play,2,0,easlm001,??,,8
-play,2,0,madlb001,??,,63
-play,2,0,thomj001,??,,63
-play,2,1,cruzj001,??,,S3/G
-play,2,1,howea001,??,,36(1)3/GDP
-play,2,1,leonj001,??,,63
-play,3,0,nicos001,??,,63
-play,3,0,law-v001,??,,K
-play,3,0,candj001,??,,S8
-play,3,0,moreo001,??,,3/G
-play,3,1,pujol001,??,,9
-play,3,1,reync001,??,,K
-play,3,1,ruhlv001,??,,S7
-play,3,1,puhlt001,??,,4
-play,4,0,folit001,??,,53
-play,4,0,parkd001,??,,63
-play,4,0,easlm001,??,,K23
-play,4,1,thond001,??,,8
-play,4,1,cedec001,??,,13
-play,4,1,cruzj001,??,,53
-play,5,0,madlb001,??,,53
-play,5,0,thomj001,??,,HR/8
-play,5,0,nicos001,??,,K
-play,5,0,law-v001,??,,T8
-play,5,0,candj001,??,,8
-play,5,1,howea001,??,,HR/7
-play,5,1,leonj001,??,,8
+play,1,0,moreo001,12,MCBS,K
+play,1,0,folit001,01,CX,13/G13
+play,1,0,parkd001,00,X,31/G3
+play,1,1,puhlt001,11,BFX,7/F7LS
+play,1,1,thond001,32,FBCBFFBX,8/F8D
+play,1,1,cedec001,22,CBBSFX,63/G6
+play,2,0,easlm001,32,BBCCBFX,8/F8S
+play,2,0,madlb001,10,BX,63/G56
+play,2,0,thomj001,20,BBX,63/G6
+play,2,1,cruzj001,00,X,S3/BG34S
+play,2,1,howea001,00,X,36(1)3/GDP/G3
+play,2,1,leonj001,12,SBSFFX,63/G4
+play,3,0,nicos001,11,CBX,63/G6
+play,3,0,law-v001,12,CCBS,K
+play,3,0,candj001,10,BX,S8/G4M
+play,3,0,moreo001,10,BX,3/G3
+play,3,1,pujol001,32,CBBFBX,9/F9
+play,3,1,reync001,12,CFBS,K
+play,3,1,ruhlv001,32,BSFBBX,S7/L7S
+play,3,1,puhlt001,22,CSBFFBFX,4/P3D
+play,4,0,folit001,11,BSX,53/G5
+play,4,0,parkd001,22,CSBBX,63/G6
+play,4,0,easlm001,02,SFS,K23
+play,4,1,thond001,21,CBBX,8/F78D
+play,4,1,cedec001,01,FX,13/G1
+play,4,1,cruzj001,00,X,53/G56S
+play,5,0,madlb001,00,X,53/G5
+play,5,0,thomj001,21,CBBX,HR/F8XD
+com,"straightway to center, barely cleared the fence"
+play,5,0,nicos001,02,FCS,K
+play,5,0,law-v001,22,FFBFFBFX,T7/F78XD
+play,5,0,candj001,00,X,8/F78
+play,5,1,howea001,21,,HR/7
+play,5,1,leonj001,??,,8/F
 play,5,1,pujol001,??,,53
 play,5,1,reync001,??,,43
-play,6,0,moreo001,??,,5/FL
-play,6,0,folit001,??,,13
-play,6,0,parkd001,??,,13
-play,6,1,ruhlv001,??,,W
+play,6,0,moreo001,12,BCCFX,5/FL/P25F
+play,6,0,folit001,01,FX,13/BG2
+play,6,0,parkd001,10,BX,8/F8S
+play,6,1,ruhlv001,32,,W
 play,6,1,puhlt001,??,,34/SH.1-2
-play,6,1,thond001,??,,7
-play,6,1,cedec001,??,,IW
-play,6,1,cruzj001,??,,3/FL
-play,7,0,easlm001,??,,K/C
-play,7,0,madlb001,??,,63
-play,7,0,thomj001,??,,6
-play,7,1,howea001,??,,3/P
-play,7,1,leonj001,??,,K/C
+play,6,1,thond001,20,,7/F
+play,6,1,cedec001,30,IIII,IW
+play,6,1,cruzj001,32,BBFFBX,3/FL/P3F
+play,7,0,easlm001,32,BFBFBC,K/C
+play,7,0,madlb001,11,CBX,63/G56
+play,7,0,thomj001,22,BBCFX,6/P6M
+play,7,1,howea001,22,BCFBX,3/P3DF/FL
+play,7,1,leonj001,12,CCBFC,K/C
 play,7,1,pujol001,??,,S5/G
 play,7,1,reync001,??,,43
-play,8,0,nicos001,??,,NP
+play,8,0,nicos001,00,,NP
 sub,milnj101,"John Milner",0,7,11
-play,8,0,milnj101,??,,E4.B-2
-play,8,0,law-v001,??,,14/SH.2-3(E4)
-play,8,0,candj001,??,,NP
+play,8,0,milnj101,21,.BBCX,E4/F9S.B-2
+com,"Thon caught but immediately dropped the ball as he avoided a collision with Puhl"
+play,8,0,law-v001,01,LX,14/SH.2-3
+play,8,0,candj001,00,,NP
 sub,starw101,"Willie Stargell",0,9,11
-play,8,0,starw101,??,,8
-play,8,0,moreo001,??,,43
-play,8,1,ruhlv001,??,,NP
+play,8,0,starw101,22,.FBBCX,8/F8S
+com,"Milner went a third of the way home and returned to third when Cedeno's throw came in quickly"
+play,8,0,moreo001,10,BX,43/G4
+play,8,1,ruhlv001,00,,NP
 sub,romoe101,"Enrique Romo",0,9,1
-play,8,1,ruhlv001,??,,NP
+play,8,1,ruhlv001,00,.,NP
 sub,penat001,"Tony Pena",0,7,2
-play,8,1,ruhlv001,??,,NP
+play,8,1,ruhlv001,00,..,NP
 sub,bergd001,"Dave Bergman",1,9,11
-play,8,1,bergd001,??,,63
-play,8,1,puhlt001,??,,9
-play,8,1,thond001,??,,2/FL
-play,9,0,folit001,??,,NP
+play,8,1,bergd001,21,...BBCX,63/G6M
+play,8,1,puhlt001,21,LBBX,9/F9
+play,8,1,thond001,32,LBBSBX,2/FL/P23F
+play,9,0,folit001,00,,NP
 sub,sambj001,"Joe Sambito",1,9,1
-play,9,0,folit001,??,,S7
-play,9,0,parkd001,??,,K
-play,9,0,easlm001,??,,NP
+play,9,0,folit001,12,.BFFX,S7/L78S
+play,9,0,parkd001,02,SSS,K
+play,9,0,easlm001,00,.,NP
 sub,lacyl001,"Leon Lacy",0,4,11
-play,9,0,lacyl001,??,,S7.1-2
-play,9,0,madlb001,??,,E5/G.2-3;1-2
-play,9,0,thomj001,??,,64(1)/FO.3-H(UR);2-H(E4/TH1)(NR)(UR)
-play,9,0,penat001,??,,54(1)/FO
-play,9,1,cedec001,??,,NP
+play,9,0,lacyl001,12,.SFBFX,S7/L7S.1-2
+play,9,0,madlb001,21,SBBX,E5/G5.2-3;1-2
+com,"ball hit off base of Howe's glove for a bobble"
+play,9,0,thomj001,00,X,64(1)/FO/G6.3-H(UR);2-H(E4/TH1)(NR)(UR)
+com,"Madlock took out Thon, whose throw short-hopped to Leonard at first, preventing the double play"
+play,9,0,penat001,11,FBX,54(1)/FO/G56
+play,9,1,cedec001,00,,NP
 sub,lacyl001,"Leon Lacy",0,4,7
-play,9,1,cedec001,??,,NP
+play,9,1,cedec001,01,..FX,53/G5
+com,"Ball cut Madlock's lip"
+play,9,1,cruzj001,??,,NP
 sub,berrd001,"Dale Berra",0,5,5
-play,9,1,cedec001,??,,53
-play,9,1,cruzj001,??,,HR/9
-play,9,1,howea001,??,,HR/7
-play,9,1,leonj001,??,,53
-play,9,1,pujol001,??,,63
-play,10,0,law-v001,??,,K/C
-play,10,0,romoe101,??,,NP
+play,9,1,cruzj001,12,.CBFX,HR/F9D
+play,9,1,howea001,31,BBBCX,HR/F7D
+play,9,1,leonj001,22,BBFFX,53/G56
+play,9,1,pujol001,10,BX,63/G56
+play,10,0,law-v001,12,FCBC,K/C
+play,10,0,romoe101,00,.,NP
 sub,robib101,"Bill Robinson",0,9,11
-play,10,0,robib101,??,,53
-play,10,0,moreo001,??,,2/P
-play,10,1,reync001,??,,NP
+play,10,0,robib101,31,.FBBBX,53/G5
+play,10,0,moreo001,02,CFX,2/P23
+play,10,1,reync001,00,,NP
 sub,jackg101,"Grant Jackson",0,9,1
-play,10,1,reync001,??,,8
-play,10,1,sambj001,??,,NP
+play,10,1,reync001,12,.FBSX,8/F8S
+play,10,1,sambj001,00,,NP
 sub,woodg001,"Gary Woods",1,9,11
-play,10,1,woodg001,??,,2/FL
-play,10,1,puhlt001,??,,S9
-play,10,1,thond001,??,,S7.1-2
-play,10,1,cedec001,??,,6
-play,11,0,folit001,??,,NP
+play,10,1,woodg001,12,.BCCX,2/FL/P2F
+play,10,1,puhlt001,01,CX,S9/G34
+play,10,1,thond001,20,BBX,S7/L7S.1-2
+play,10,1,cedec001,10,BX,6/P6D
+play,11,0,folit001,00,,NP
 sub,smitd001,"Dave Smith",1,9,1
 play,11,0,folit001,??,,W
-play,11,0,parkd001,??,,63.1-2
-play,11,0,lacyl001,??,,D7.2-H
-play,11,0,berrd001,??,,HP
-play,11,0,thomj001,??,,S8.2-H;1-3
-play,11,0,penat001,??,,FC1.3-H(RBI);1-2;B-1
-play,11,0,law-v001,??,,NP
+play,11,0,parkd001,12,1SSFBFX,63/G6S.1-2
+play,11,0,lacyl001,01,SX,D7/G5.2-H
+play,11,0,berrd001,01,FH,HP
+play,11,0,thomj001,00,X,S8/L89S.2-H;1-3
+play,11,0,penat001,11,BFX,FC1/G1S.3-H(RBI);1-2;B-1
+com,"Smith could not get the ball out of his glove cleanly and was late with the throw to the plate"
+play,11,0,law-v001,00,,NP
 sub,lacof001,"Frank LaCorte",1,9,1
-play,11,0,law-v001,??,,K/C
-play,11,0,jackg101,??,,4
-play,11,1,cruzj001,??,,NP
+play,11,0,law-v001,12,.CCFBC,K/C
+play,11,0,jackg101,12,FFBX,4/P34D
+play,11,1,cruzj001,00,,NP
 sub,alexg101,"Gary Alexander",0,3,9
-play,11,1,cruzj001,??,,9
-play,11,1,howea001,??,,9
-play,11,1,leonj001,??,,53
+play,11,1,cruzj001,00,.X,9/L89
+play,11,1,howea001,01,CX,9/F89
+play,11,1,leonj001,00,X,53/G56
 data,er,candj001,1
 data,er,romoe101,2
 data,er,jackg101,0

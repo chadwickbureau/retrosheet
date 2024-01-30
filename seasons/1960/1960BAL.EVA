@@ -3171,8 +3171,8 @@ version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NYA
 info,hometeam,BAL
-info,site,BAL11
 info,date,1960/05/31
+info,site,BAL11
 info,number,0
 info,starttime,8:05PM
 info,daynight,night
@@ -3181,18 +3181,18 @@ info,umphome,chyln901
 info,ump1b,mckib901
 info,ump2b,stevj901
 info,ump3b,honoj901
-info,scorer,"Yankees"
-info,translator,"Ron Fisher"
-info,inputter,"Ron Fisher"
+info,scorer,"Yankees,602"
+info,translator,"Wayne Townsend,Ron Fisher"
+info,inputter,"Wayne Townsend,Ron Fisher"
 info,inputtime,1995/06/30 2:15PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,night
 info,timeofgame,143
 info,attendance,19103
 info,wp,walkj104
@@ -3217,100 +3217,101 @@ start,tasbw101,"Willie Tasby",1,6,9
 start,hansr102,"Ron Hansen",1,7,6
 start,courc101,"Clint Courtney",1,8,2
 start,walkj104,"Jerry Walker",1,9,1
-play,1,0,kubet101,??,,K
-play,1,0,mantm101,??,,K
-play,1,0,marir101,??,,W
-play,1,0,berry101,??,,K
-play,1,1,breem101,??,,8
-play,1,1,woodg101,??,,W
-play,1,1,branj101,??,,D7.1-3
-play,1,1,dropw101,??,,53
-play,1,1,robib104,??,,53
-play,2,0,cervb101,??,,63
-play,2,0,skowb101,??,,K
-play,2,0,mcdog101,??,,8/L
-play,2,1,tasbw101,??,,K/C
-play,2,1,hansr102,??,,D/89
-play,2,1,courc101,??,,3/G.2-3
-play,2,1,walkj104,??,,S7.3-H
-play,2,1,breem101,??,,64(1)/FO
-play,3,0,richb102,??,,K
-play,3,0,fordw101,??,,K
-play,3,0,kubet101,??,,5/FL
-play,3,1,woodg101,??,,W
-play,3,1,branj101,??,,54(1)/FO
-play,3,1,dropw101,??,,9/L
-play,3,1,robib104,??,,S7.1XH(742);B-2(THH)
-play,4,0,mantm101,??,,K
-play,4,0,marir101,??,,W
-play,4,0,berry101,??,,46(1)3/GDP
-play,4,1,tasbw101,??,,13
-play,4,1,hansr102,??,,63
-play,4,1,courc101,??,,K/C
-play,5,0,cervb101,??,,53
-play,5,0,skowb101,??,,8
-play,5,0,mcdog101,??,,53
-play,5,1,walkj104,??,,K/C
-play,5,1,breem101,??,,S8/G
-play,5,1,woodg101,??,,5/FL
-play,5,1,branj101,??,,K
-play,6,0,richb102,??,,63
-play,6,0,fordw101,??,,W
-play,6,0,kubet101,??,,4(B)43(1)/LDP
-play,6,1,dropw101,??,,9/L
-play,6,1,robib104,??,,63
-play,6,1,tasbw101,??,,K
-play,7,0,mantm101,??,,D7
-play,7,0,marir101,??,,S9.2-H
-play,7,0,berry101,??,,46(1)3/GDP
-play,7,0,cervb101,??,,S8/G
-play,7,0,skowb101,??,,54(1)/FO
-play,7,1,hansr102,??,,W
-play,7,1,courc101,??,,S9.1-3
-play,7,1,walkj104,??,,64(1)/FO
-play,7,1,breem101,??,,S8/G.3-H;1-2
-play,7,1,woodg101,??,,31.2-3;1-2
-play,7,1,branj101,??,,5/FL
-play,8,0,mcdog101,??,,NP
+play,1,0,kubet101,12,CBFS,K
+play,1,0,mantm101,22,BCSBS,K
+play,1,0,marir101,32,FBBSBB,W
+play,1,0,berry101,12,BC1FS,K
+play,1,1,breem101,11,BFX,8/F8XD
+play,1,1,woodg101,31,BBBCB,W
+play,1,1,branj101,00,X,D7/L5D.1-3
+play,1,1,dropw101,12,BSCX,53/G5
+play,1,1,robib104,10,BX,53/G56
+play,2,0,cervb101,00,X,63/G6
+play,2,0,skowb101,22,SBFBS,K
+play,2,0,mcdog101,32,CBBBFX,8/L78
+play,2,1,tasbw101,12,FLBC,K/C
+play,2,1,hansr102,00,X,D8/F89XD
+play,2,1,courc101,20,BBX,3/G3.2-3
+play,2,1,walkj104,02,SLX,S7.3-H
+play,2,1,breem101,12,BCFFX,64(1)/FO
+play,3,0,richb102,22,CFFBBS,K
+play,3,0,fordw101,12,BFCS,K
+play,3,0,kubet101,10,BX,5/P5DF/FL
+play,3,1,woodg101,30,BBBB,W
+play,3,1,branj101,21,BBFX,54(1)/FO/R3
+play,3,1,dropw101,00,X,9/L9D
+play,3,1,robib104,00,X,S57.1XH(742);B-2(THH)
+play,4,0,mantm101,02,CCS,K
+play,4,0,marir101,31,BSBBB,W
+play,4,0,berry101,22,BBFFX,46(1)3/GDP
+play,4,1,tasbw101,12,CCBX,13/G1
+play,4,1,hansr102,10,BX,63/G6
+play,4,1,courc101,12,BCCC,K/C
+play,5,0,cervb101,01,SX,53/G5
+play,5,0,skowb101,22,SBBSX,8/F8XD
+play,5,0,mcdog101,10,BX,53/G5L
+com,"$Robinson: diving backhand stop"
+play,5,1,walkj104,02,FSFFC,K/C
+play,5,1,breem101,02,CFX,S8/G46
+play,5,1,woodg101,22,BCBSFX,5/P25F/FL
+play,5,1,branj101,32,BSBBC>S,K
+play,6,0,richb102,01,CX,63/G6
+play,6,0,fordw101,31,BCBBB,W
+play,6,0,kubet101,11,1FBX,4/LDP.1X1(43)
+play,6,1,dropw101,12,BCCFX,9/L89D
+play,6,1,robib104,11,BCX,63/G6
+play,6,1,tasbw101,12,CBFS,K
+play,7,0,mantm101,02,CFX,D7/F7LS
+play,7,0,marir101,00,X,S9/G34.2-H
+play,7,0,berry101,01,SX,46(1)3/GDP
+play,7,0,cervb101,31,BBBCX,S8/G46
+play,7,0,skowb101,12,BSSX,54(1)/FO
+play,7,1,hansr102,32,BBBCCB,W
+play,7,1,courc101,32,1BFBFB1FX,S9/L/TH2.1-3
+play,7,1,walkj104,12,F3FBFX,64(1)/FO.3-3
+play,7,1,breem101,00,X,S8/G46.3-H;1-2
+play,7,1,woodg101,10,BX,31/G3.2-3;1-2
+play,7,1,branj101,11,CBX,5/P5DF/FL
+play,8,0,mcdog101,00,,NP
 sub,pilaa101,"Al Pilarcik",1,2,9
-play,8,0,mcdog101,??,,NP
+play,8,0,mcdog101,00,,NP
 sub,tasbw101,"Willie Tasby",1,6,7
-play,8,0,mcdog101,??,,63
-play,8,0,richb102,??,,NP
+play,8,0,mcdog101,??,,63/G6
+play,8,0,richb102,00,,NP
 sub,howae101,"Elston Howard",0,8,11
-play,8,0,howae101,??,,S/78
-play,8,0,fordw101,??,,NP
-sub,lopeh101,"Hector Lopez",0,9,11
-play,8,0,lopeh101,??,,NP
+play,8,0,howae101,??,,S7/L78
+play,8,0,fordw101,00,,NP
 sub,demaj101,"Joe DeMaestri",0,8,12
-play,8,0,lopeh101,??,,8
-play,8,0,kubet101,??,,3/G
-play,8,1,dropw101,??,,NP
+play,8,0,fordw101,00,,NP
+sub,lopeh101,"Hector Lopez",0,9,11
+play,8,0,lopeh101,01,SX,8/F8
+play,8,0,kubet101,21,BBC>X,3/G3
+play,8,1,dropw101,00,,NP
 sub,demaj101,"Joe DeMaestri",0,8,4
-play,8,1,dropw101,??,,NP
+play,8,1,dropw101,00,,NP
 sub,durer101,"Ryne Duren",0,9,1
-play,8,1,dropw101,??,,NP
+play,8,1,dropw101,00,,NP
 sub,gentj101,"Jim Gentile",1,4,11
-play,8,1,gentj101,??,,W
-play,8,1,robib104,??,,16(1)/FO/BG
-play,8,1,tasbw101,??,,NP
+play,8,1,gentj101,31,SBBBB,W
+play,8,1,robib104,11,CBX,16(1)/FO/BG1S
+play,8,1,tasbw101,00,,NP
 sub,peara102,"Albie Pearson",1,6,11
-play,8,1,peara102,??,,W.1-2
-play,8,1,hansr102,??,,W.2-3;1-2
-play,8,1,courc101,??,,NP
+play,8,1,peara102,32,1CBFBB>B,W.1-2
+play,8,1,hansr102,32,BFBFBB,W.2-3;1-2
+play,8,1,courc101,00,,NP
 sub,gablg102,"Gabe Gabler",0,9,1
-play,8,1,courc101,??,,9/SF.3-H;2-3
-play,8,1,walkj104,??,,43
-play,9,0,mantm101,??,,NP
+play,8,1,courc101,10,BX,9/L9D/SF.3-H;2-3
+play,8,1,walkj104,02,CSX,43/G4
+play,9,0,mantm101,00,,NP
 sub,gentj101,"Jim Gentile",1,4,3
-play,9,0,mantm101,??,,NP
+play,9,0,mantm101,00,,NP
 sub,peara102,"Albie Pearson",1,6,7
-play,9,0,mantm101,??,,W
-play,9,0,marir101,??,,NP
+play,9,0,mantm101,32,SBBCBB,W
+play,9,0,marir101,00,,NP
 sub,barbs102,"Steve Barber",1,9,1
-play,9,0,marir101,??,,E4.1-3
-play,9,0,berry101,??,,6(1)3/GDP.3-H(UR)(NR)
-play,9,0,cervb101,??,,31
+play,9,0,marir101,10,BX,E4/G.1-3;B-1
+play,9,0,berry101,10,BX,6(1)3/GDP/G6M.3-H(NR)(UR)
+play,9,0,cervb101,01,CX,31/G3
 data,er,fordw101,2
 data,er,durer101,1
 data,er,gablg102,0
@@ -11177,8 +11178,8 @@ version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NYA
 info,hometeam,BAL
-info,site,BAL11
 info,date,1960/09/02
+info,site,BAL11
 info,number,0
 info,starttime,8:01PM
 info,daynight,night
@@ -11187,17 +11188,17 @@ info,umphome,berrc103
 info,ump1b,nappl901
 info,ump2b,stewb902
 info,ump3b,umonf901
-info,scorer,"Orioles"
-info,translator,"Ron Rakowski"
-info,inputter,"Ron Rakowski"
+info,scorer,"Orioles,602"
+info,translator,"Wayne Townsend,Ron Rakowski"
+info,inputter,"Wayne Townsend,Ron Rakowski"
 info,inputtime,1996/02/18 10:44PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
+info,precip,none
 info,sky,unknown
 info,timeofgame,135
 info,attendance,44518
@@ -11223,92 +11224,92 @@ start,hansr102,"Ron Hansen",1,6,6
 start,busbj101,"Jim Busby",1,7,8
 start,breem101,"Marv Breeding",1,8,4
 start,pappm101,"Milt Pappas",1,9,1
-play,1,0,kubet101,??,,S8
-play,1,0,boyec102,??,,K
-play,1,0,marir101,??,,46(1)3/GDP
-play,1,1,branj101,??,,S7
-play,1,1,woodg101,??,,9.1-2
-play,1,1,robib104,??,,D9.2-H
-play,1,1,dropw101,??,,5(B)4(2)/LDP
-play,2,0,mantm101,??,,43
-play,2,0,skowb101,??,,K
-play,2,0,berry101,??,,K/C
-play,2,1,triag101,??,,W
-play,2,1,hansr102,??,,4
-play,2,1,busbj101,??,,K
-play,2,1,breem101,??,,S8.1-2
-play,2,1,pappm101,??,,K
-play,3,0,blanj101,??,,K/C
-play,3,0,richb102,??,,K
-play,3,0,fordw101,??,,43
-play,3,1,branj101,??,,7/7D
-play,3,1,woodg101,??,,K
-play,3,1,robib104,??,,63
-play,4,0,kubet101,??,,7
-play,4,0,boyec102,??,,7
-play,4,0,marir101,??,,9
-play,4,1,dropw101,??,,S8
-play,4,1,triag101,??,,W.1-2
-play,4,1,hansr102,??,,HP.2-3;1-2
-play,4,1,busbj101,??,,S7.3-H;2-3;1-2
-play,4,1,breem101,??,,64(1)/FO.3-H;2-3
-play,4,1,pappm101,??,,K
-play,4,1,branj101,??,,2/FL
-play,5,0,mantm101,??,,K
-play,5,0,skowb101,??,,K
-play,5,0,berry101,??,,7
-play,5,1,woodg101,??,,43
-play,5,1,robib104,??,,2/FL
-play,5,1,dropw101,??,,HR/7D
-play,5,1,triag101,??,,8/8D
-play,6,0,blanj101,??,,K
-play,6,0,richb102,??,,NP
+play,1,0,kubet101,02,CFFFX,S8/L
+play,1,0,boyec102,12,MMBT,K
+play,1,0,marir101,00,X,46(1)3/GDP
+play,1,1,branj101,00,X,S7/L
+play,1,1,woodg101,20,BBX,9/F9D/TH3.1-2
+play,1,1,robib104,11,SBX,D9/L9LD.2-H
+play,1,1,dropw101,11,BSX,5/LDP.2X2(54)
+play,2,0,mantm101,01,CX,4!3/BG4S
+play,2,0,skowb101,22,SBBFS,K
+play,2,0,berry101,32,BSBBCS,K
+play,2,1,triag101,31,BBBCB,W
+play,2,1,hansr102,10,BX,4/P34D
+play,2,1,busbj101,22,CBFBS,K
+play,2,1,breem101,21,BSBX,S/78.1-2
+play,2,1,pappm101,12,CBSS,K
+play,3,0,blanj101,02,SFS,K
+play,3,0,richb102,22,BBCSS,K
+play,3,0,fordw101,32,BCCBFBX,43/G4
+play,3,1,branj101,11,CBX,7!/F7LDW
+play,3,1,woodg101,12,CBFFS,K
+play,3,1,robib104,11,CBX,63/G6
+play,4,0,kubet101,02,CFX,7/F7
+play,4,0,boyec102,00,X,7/F7D
+play,4,0,marir101,32,BFSBBX,9/F9D
+play,4,1,dropw101,11,FBX,S8/L8
+play,4,1,triag101,30,BB1BB,W.1-2
+play,4,1,hansr102,11,CBH,HP.2-3;1-2
+play,4,1,busbj101,21,BS*BX,S7/L.3-H;2-3;1-2
+play,4,1,breem101,12,BSFX,64(1)/FO/R3.3-H;2-3
+play,4,1,pappm101,22,CBFBL,K/BF
+play,4,1,branj101,22,BBFF>X,2/P2F/FL
+play,5,0,mantm101,22,CBFFBS,K
+play,5,0,skowb101,12,FBFFS,K
+play,5,0,berry101,32,BBBCFFX,6/P56D
+play,5,1,woodg101,11,BSX,43/G4
+play,5,1,robib104,00,X,2/P25F/FL
+play,5,1,dropw101,??,,HR/F7LD
+play,5,1,triag101,21,BBFX,8/F78XD
+play,6,0,blanj101,12,BFSC,K/C
+play,6,0,richb102,00,,NP
 sub,mcdog101,"Gil McDougald",0,8,11
-play,6,0,mcdog101,??,,6/L
-play,6,0,fordw101,??,,NP
+play,6,0,mcdog101,22,CSBBX,6/P6
+play,6,0,fordw101,00,,NP
 sub,longd101,"Dale Long",0,9,11
-play,6,0,longd101,??,,2/FL
-play,6,1,hansr102,??,,NP
+play,6,0,longd101,00,X,2/P2F/FL
+play,6,1,hansr102,00,,NP
 sub,mcdog101,"Gil McDougald",0,8,4
-play,6,1,hansr102,??,,NP
+play,6,1,hansr102,00,,NP
 sub,durer101,"Ryne Duren",0,9,1
-play,6,1,hansr102,??,,W
-play,6,1,busbj101,??,,NP
+play,6,1,hansr102,31,CBBBB,W
+play,6,1,busbj101,00,,NP
 sub,phild102,"Dave Philley",1,7,11
-play,6,1,phild102,??,,K
-play,6,1,breem101,??,,SB2
-play,6,1,breem101,??,,K/C
-play,6,1,pappm101,??,,WP.2-3
-play,6,1,pappm101,??,,K
-play,7,0,kubet101,??,,NP
+play,6,1,phild102,22,BBCT>B,SB2
+play,6,1,phild102,32,BBCT>B.S,K
+play,6,1,breem101,02,SFB,WP.2-3
+play,6,1,breem101,12,SFB.C,K/C
+play,6,1,pappm101,02,SSS,K
+play,7,0,kubet101,00,,NP
 sub,stepg101,"Gene Stephens",1,7,9
-play,7,0,kubet101,??,,NP
+play,7,0,kubet101,00,,NP
 sub,branj101,"Jackie Brandt",1,1,8
-play,7,0,kubet101,??,,13
-play,7,0,boyec102,??,,S9
-play,7,0,marir101,??,,13.1-2
-play,7,0,mantm101,??,,5/FL
-play,7,1,branj101,??,,43
-play,7,1,woodg101,??,,3/G
-play,7,1,robib104,??,,S8
-play,7,1,dropw101,??,,NP
+play,7,0,kubet101,01,CX,13/G1
+play,7,0,boyec102,21,BCBX,S9/L
+play,7,0,marir101,20,BBX,13/G1S.1-2
+play,7,0,mantm101,11,CBX,5/P5F/FL
+play,7,1,branj101,11,BCX,43/G4M
+play,7,1,woodg101,22,BCBCX,3/G3S
+play,7,1,robib104,??,,S9/L9S
+play,7,1,dropw101,00,,NP
 sub,gentj101,"Jim Gentile",1,4,11
-play,7,1,gentj101,??,,W.1-2
-play,7,1,triag101,??,,S7.2-H;1-2
-play,7,1,hansr102,??,,K
-play,8,0,skowb101,??,,NP
+play,7,1,gentj101,32,B1BSC1FB>F>B,W.1-2
+play,7,1,triag101,20,BBX,S7/G56.2-H;1-2
+play,7,1,hansr102,32,CBBCB>S,K
+play,8,0,skowb101,00,,NP
 sub,gentj101,"Jim Gentile",1,4,3
-play,8,0,skowb101,??,,63
-play,8,0,berry101,??,,43
-play,8,0,blanj101,??,,9
-play,8,1,stepg101,??,,K
-play,8,1,breem101,??,,9
-play,8,1,pappm101,??,,5/FL
-play,9,0,mcdog101,??,,K
-play,9,0,durer101,??,,NP
+play,8,0,skowb101,00,X,63/G6S
+play,8,0,berry101,10,BX,43/G4
+play,8,0,blanj101,01,CX,9/F9S
+play,8,1,stepg101,12,CBSS,K
+play,8,1,breem101,??,,9/F9
+play,8,1,pappm101,32,SBSBFBX,5/P5F/FL
+play,9,0,mcdog101,12,CBFS,K
+play,9,0,durer101,00,,NP
 sub,lopeh101,"Hector Lopez",0,9,11
-play,9,0,lopeh101,??,,153
-play,9,0,kubet101,??,,S4
+play,9,0,lopeh101,10,BX,153
+play,9,0,kubet101,??,,S6/G6M
 play,9,0,boyec102,??,,64(1)/FO
 data,er,fordw101,4
 data,er,durer101,1
@@ -11481,18 +11482,18 @@ info,umphome,stewb902
 info,ump1b,umonf901
 info,ump2b,berrc103
 info,ump3b,nappl901
-info,scorer,"Orioles"
-info,translator,"Ron Rakowski"
-info,inputter,"Ron Rakowski"
+info,scorer,"Orioles,602"
+info,translator,"Wayne Townsend,Ron Rakowski"
+info,inputter,"Wayne Townsend,Ron Rakowski"
 info,inputtime,1995/07/01 11:08PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,torf
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,178
 info,attendance,34587
 info,wp,estrc101
@@ -11517,116 +11518,116 @@ start,hansr102,"Ron Hansen",1,6,6
 start,stepg101,"Gene Stephens",1,7,9
 start,breem101,"Marv Breeding",1,8,4
 start,estrc101,"Chuck Estrada",1,9,1
-play,1,0,mcdog101,??,,9
-play,1,0,kubet101,??,,9/9D
-play,1,0,mantm101,??,,K
-play,1,1,branj101,??,,HP
-play,1,1,woodg101,??,,7
-play,1,1,robib104,??,,7
-play,1,1,gentj101,??,,W.1-2
-play,1,1,triag101,??,,6/L
-play,2,0,berry101,??,,43
-play,2,0,marir101,??,,W
-play,2,0,skowb101,??,,8
-play,2,0,cervb101,??,,9
-play,2,1,hansr102,??,,K/C
-play,2,1,stepg101,??,,43
-play,2,1,breem101,??,,6
-play,3,0,boyec102,??,,63
-play,3,0,stafb101,??,,K
-play,3,0,mcdog101,??,,9
-play,3,1,estrc101,??,,23
-play,3,1,branj101,??,,8/8D
-play,3,1,woodg101,??,,W
-play,3,1,robib104,??,,S8.1-2
-play,3,1,gentj101,??,,S9.2-H;1-3
-play,3,1,triag101,??,,143
-play,4,0,kubet101,??,,7
-play,4,0,mantm101,??,,K
-play,4,0,berry101,??,,4
-play,4,1,hansr102,??,,K/C
-play,4,1,stepg101,??,,D
-play,4,1,breem101,??,,63
-play,4,1,estrc101,??,,S8.2-H;B-3(E8)
-play,4,1,branj101,??,,W
-play,4,1,woodg101,??,,NP
+play,1,0,mcdog101,32,BBCFBX,9/F9S
+play,1,0,kubet101,21,FBBX,9/F9D
+play,1,0,mantm101,12,BCCS,K
+play,1,1,branj101,21,BCBH,HP
+play,1,1,woodg101,32,BC1BFB1>X,7/F7
+play,1,1,robib104,00,X,7/F7D
+play,1,1,gentj101,31,BF1*BBB,W.1-2
+play,1,1,triag101,00,X,6/L6
+play,2,0,berry101,20,BBX,43/G34
+play,2,0,marir101,32,BSBCBFB,W
+play,2,0,skowb101,12,SBFX,8/F8
+play,2,0,cervb101,??,,9/F9
+play,2,1,hansr102,02,FFC,K/C
+play,2,1,stepg101,21,BBFX,43/G4
+play,2,1,breem101,11,FBX,6/P6MS
+play,3,0,boyec102,11,BFX,63/G6S
+play,3,0,stafb101,02,FSS,K
+play,3,0,mcdog101,02,CCX,9/F9
+play,3,1,estrc101,11,BSX,23/G2R
+play,3,1,branj101,01,CX,8!/L78XDW
+play,3,1,woodg101,30,BBBB,W
+play,3,1,robib104,10,BX,S8/L.1-2
+play,3,1,gentj101,10,BX,S9/G34/TH3.2-H;1-3
+play,3,1,triag101,12,SCBX,143
+play,4,0,kubet101,32,BFBBCX,7/F7D
+play,4,0,mantm101,22,FBBSS,K
+play,4,0,berry101,??,,4/P4M
+play,4,1,hansr102,12,CFBFC,K/C
+play,4,1,stepg101,21,BFBX,D7/F7DW
+play,4,1,breem101,02,FCFX,63/G6
+play,4,1,estrc101,10,BX,S8/L8S.2-H;B-3(E8)
+play,4,1,branj101,31,B*BBCB,W
+play,4,1,woodg101,00,,NP
 sub,fordw101,"Whitey Ford",0,9,1
-play,4,1,woodg101,??,,9/9D
-play,5,0,marir101,??,,W
-play,5,0,skowb101,??,,64(1)/FO
-play,5,0,cervb101,??,,64(1)3/GDP
-play,5,1,robib104,??,,9
-play,5,1,gentj101,??,,W
-play,5,1,triag101,??,,D9.1-H
-play,5,1,hansr102,??,,3/FL
-play,5,1,stepg101,??,,NP
+play,4,1,woodg101,01,CX,9/F9D
+play,5,0,marir101,31,FBBBB,W
+play,5,0,skowb101,12,FSBX,64(1)/FO/R3
+play,5,0,cervb101,22,FBBCX,64(1)3/GDP
+play,5,1,robib104,02,CFX,9/L9
+play,5,1,gentj101,32,BFBBCB,W
+play,5,1,triag101,22,*BCBFFX,D9/F9LDW/THH.1-H
+play,5,1,hansr102,10,B2X,3/P3F/FL
+play,5,1,stepg101,00,,NP
 sub,nichd101,"Dave Nicholson",1,7,11
-play,5,1,nichd101,??,,K/C
-play,6,0,boyec102,??,,NP
+play,5,1,nichd101,02,SSC,K/C
+play,6,0,boyec102,00,,NP
 sub,busbj101,"Jim Busby",1,7,8
-play,6,0,boyec102,??,,NP
+play,6,0,boyec102,00,,NP
 sub,branj101,"Jackie Brandt",1,1,9
-play,6,0,boyec102,??,,K/C
-play,6,0,fordw101,??,,NP
+play,6,0,boyec102,32,BCFBBC,K/C
+play,6,0,fordw101,00,,NP
 sub,longd101,"Dale Long",0,9,11
-play,6,0,longd101,??,,K
-play,6,0,mcdog101,??,,E5
-play,6,0,kubet101,??,,3/L
-play,6,1,breem101,??,,NP
+play,6,0,longd101,32,SBSFFBBFS,K
+play,6,0,mcdog101,12,CSBX,E5/TH1/G5S
+play,6,0,kubet101,00,X,3!/L3
+play,6,1,breem101,00,,NP
 sub,shanb102,"Bobby Shantz",0,9,1
-play,6,1,breem101,??,,K
+play,6,1,breem101,12,CBSS,K
 play,6,1,estrc101,??,,43
-play,6,1,branj101,??,,S7
-play,6,1,woodg101,??,,S9.1-2
-play,6,1,robib104,??,,7/7D
-play,7,0,mantm101,??,,K
-play,7,0,berry101,??,,8/L
-play,7,0,marir101,??,,W
-play,7,0,skowb101,??,,S9.1-2
+play,6,1,branj101,10,BX,S7/G56
+play,6,1,woodg101,01,CX,S9/L.1-2
+play,6,1,robib104,11,CBX,7/F7DW
+play,7,0,mantm101,32,BBBCSS,K
+play,7,0,berry101,22,BFBCFFX,8/L8
+play,7,0,marir101,30,BBBB,W
+play,7,0,skowb101,??,,S9/L.1-2
 play,7,0,cervb101,??,,64(1)/FO
-play,7,1,gentj101,??,,7
-play,7,1,triag101,??,,53
-play,7,1,hansr102,??,,13
-play,8,0,boyec102,??,,S8
-play,8,0,shanb102,??,,NP
+play,7,1,gentj101,22,FBCBX,7/F7D
+play,7,1,triag101,22,CFBBFX,53/G5
+play,7,1,hansr102,??,,13/G1S
+play,8,0,boyec102,??,,S8/F8S
+play,8,0,shanb102,00,,NP
 sub,blanj101,"Johnny Blanchard",0,9,11
-play,8,0,blanj101,??,,S9.1-3
-play,8,0,mcdog101,??,,NP
+play,8,0,blanj101,02,FFFX,S9/L9L.1-3
+play,8,0,mcdog101,01,C,NP
 sub,grbae101,"Eli Grba",0,9,12
-play,8,0,mcdog101,??,,8/SF.3-H
-play,8,0,kubet101,??,,K
-play,8,0,mantm101,??,,W.1-2
-play,8,0,berry101,??,,NP
+play,8,0,mcdog101,22,C.BBFX,8/F8D/SF.3-H
+play,8,0,kubet101,01,F,NP
 sub,richb102,"Bobby Richardson",0,9,12
-play,8,0,berry101,??,,S9.2-H;1-3
-play,8,0,marir101,??,,NP
+play,8,0,kubet101,22,F.BFBFS,K
+play,8,0,mantm101,32,BBBCF>B,W.1-2
+play,8,0,berry101,20,BBX,S9/L/TH3.2-H;1-3
+play,8,0,marir101,00,,NP
 sub,wilhh101,"Hoyt Wilhelm",1,9,1
-play,8,0,marir101,??,,3/G
-play,8,1,busbj101,??,,NP
+play,8,0,marir101,32,BSSBFBX,3/G3
+play,8,1,busbj101,00,,NP
 sub,durer101,"Ryne Duren",0,9,1
-play,8,1,busbj101,??,,W
-play,8,1,breem101,??,,NP
+play,8,1,busbj101,32,CBFBBB,W
+play,8,1,breem101,00,,NP
 sub,arrol101,"Luis Arroyo",0,9,1
-play,8,1,breem101,??,,S7.1-3(E7);B-2
-play,8,1,wilhh101,??,,K
-play,8,1,branj101,??,,IW
-play,8,1,woodg101,??,,W.3-H;2-3;1-2
-play,8,1,robib104,??,,NP
+play,8,1,breem101,02,SFFX,S7/G56.1-3(E7);B-2
+play,8,1,wilhh101,12,BCSS,K
+play,8,1,branj101,30,IIII,IW
+play,8,1,woodg101,32,FBSFFBBB,W.3-H;2-3;1-2
+play,8,1,robib104,00,,NP
 sub,pilaa101,"Al Pilarcik",1,2,12
-play,8,1,robib104,??,,46(1)/FO.3-H;2-3
-play,8,1,gentj101,??,,S9.3-H;1-3
-play,8,1,triag101,??,,13
-play,9,0,skowb101,??,,NP
+play,8,1,robib104,21,BCBX,46(1)/FO/R3.3-H;2-3
+play,8,1,gentj101,20,BBX,S8/G4M.3-H;1-3
+play,8,1,triag101,??,,13/G1
+play,9,0,skowb101,00,,NP
 sub,branj101,"Jackie Brandt",1,1,7
-play,9,0,skowb101,??,,NP
+play,9,0,skowb101,00,,NP
 sub,pilaa101,"Al Pilarcik",1,2,9
-play,9,0,skowb101,??,,S4
-play,9,0,cervb101,??,,7
-play,9,0,boyec102,??,,2/FL
-play,9,0,arrol101,??,,NP
+play,9,0,skowb101,02,CSX,S4/L
+play,9,0,cervb101,??,,7/F7
+play,9,0,boyec102,11,BFX,2/P23
+play,9,0,arrol101,00,,NP
 sub,lopeh101,"Hector Lopez",0,9,11
-play,9,0,lopeh101,??,,W.1-2
-play,9,0,mcdog101,??,,64(1)/FO
+play,9,0,lopeh101,30,BBBB,W.1-2
+play,9,0,mcdog101,12,SBFX,64(1)/FO/G6M
 data,er,stafb101,2
 data,er,fordw101,1
 data,er,shanb102,0

@@ -1,0 +1,231 @@
+It is hoped that the column headings for the .csv files developed by Retrosheet will be self-explanatory. Just in case not, here are the columns.
+
+gameinfo.csv
+------------
+gid          GameID
+visteam      visiting team
+hometeam     home team
+site         site of game
+date         date of game
+number       game number = 0 if a single game; 1, 2, or (in rare cases) 3, otherwise
+starttime    starting time of game, if known
+daynight     day or night game
+innings      scheduled innings (game 2 of Negro League DHs were frequently scheduled for 7 innings)
+tiebreaker   did game use a tiebreaker (e.g., runner on 2b to start extra innings)?
+usedh        did game use a DH ("no" for all Negro League games)
+htbf         did the home team bat first
+timeofgame   length of game, in minutes
+attendance   attendance
+fieldcond    field conditions, if known
+precip       precipitation, if known
+sky          sky conditions, if known
+temp         temperature at game time
+winddir      wind direction
+windspeed    wind speed
+oscorer      official scorer, if known
+forfeit      was the game forfeited
+umphome      home-plate umpire, if known
+ump1b        1st-base umpire
+ump2b        2nd-base umpire
+ump3b        3rd-base umpire
+umplf        left field umpire
+umprf        right field umpire
+wp           winning pitcher
+lp           losing pitcher
+save         pitcher who earned save, if any
+gametype     type of game (e.g., regular-season, exhibition, etc.)
+vruns        visiting team runs scored
+hruns        home team runs scored
+wteam        winning team
+lteam        losing team
+line         do we know the line score of the game
+batteries    do we know the teams' batteries
+lineups      do we know the teams' lineups
+box          do we have a box score
+season       season in which game took place
+
+teamstats.csv
+-------------
+gid              Game ID
+team             Team ID
+inn1             runs scored by team in 1st inning
+inn2             runs scored by team in 2nd inning
+inn3             runs scored by team in 3rd inning
+inn4             runs scored by team in 4th inning
+inn5             runs scored by team in 5th inning
+inn6             runs scored by team in 6th inning
+inn7             runs scored by team in 7th inning
+inn8             runs scored by team in 8th inning
+inn9             runs scored by team in 9th inning
+inn10 - inn28    runs scored by team in inning # {10 - 28)
+lob              runners left on base by team
+stattype         value, lower, or upper: 
+                 upper and lower bounds are shown for some stats to highlight data uncertainty
+b_ab             at bats by team's batters
+b_r              runs scored
+b_h              hits
+b_d              doubles
+b_t              triples
+b_hr             home runs
+b_rbi            runs batted in
+b_sh             sacrifice hits
+b_sf             sacrifice flies
+b_hbp            times hit by pitch for team's batters
+b_w              batter walks by team
+b_iw             intentional walks
+b_k              batter strikeouts by team
+b_sb             stolen bases
+b_cs             times caught stealing
+b_gdp            times grounded in double play by team's batters
+b_xi             times reached base on catcher's interference
+p_ipouts         outs recorded by team pitchers (IP * 3)
+p_noout          batters faced by team's pitchers in any innings in which no outs were recorded
+p_bfp            batters faced by team's pitchers
+p_h              hits allowed
+p_d              doubles allowed
+p_t              triples allowed
+p_hr             home runs allowed
+p_r              runs allowed
+p_er             earned runs allowed
+p_w              walks allowed
+p_iw             intentional walks allowed
+p_k              strikeouts by team's pitchers
+p_hbp            hit by pitches allowed
+p_wp             wild pitches allowed
+p_bk             balks allowed
+p_sh             sacrifice hits allowed
+p_sf             sacrifice flies allowed
+d_po             team putouts
+d_a              fielding assists by team
+d_e              errors committed by team
+d_dp             double plays turned by team
+d_tp             triple plays turned by team
+d_pb             passed balls allowed by team
+start_l1         starter at lineup position 1
+start_l2         starter at lineup position 2
+start_l3         starter at lineup position 3
+start_l4         starter at lineup position 4
+start_l5         starter at lineup position 5
+start_l6         starter at lineup position 6
+start_l7         starter at lineup position 7
+start_l8         starter at lineup position 8
+start_l9         starter at lineup position 9
+start_f1         starter at fielding position 1 (i.e., pitcher)
+start_f2         starter at fielding position 2 (catcher)
+start_f3         starter at fielding position 3 (1B)
+start_f4         starter at fielding position 4 (2B)
+start_f5         starter at fielding position 5 (3B)
+start_f6         starter at fielding position 6 (SS)
+start_f7         starter at fielding position 7 (LF)
+start_f8         starter at fielding position 8 (CF)
+start_f9         starter at fielding position 9 (RF)
+start_f10        starter at fielding position 10 (DH - blank for Negro League games)
+date             date of game
+number           game numer (0 if single game; 1, 2, etc. if multiple games on same date)
+site             location of game
+opp              team's opponent in game
+wl               did the team win or lose the game
+gametype         type of game (e.g., regular-season, exhibition, etc.)
+box              do we have a box score for this game
+
+batting.csv
+-----------
+gid              Game ID
+id               Player ID
+team             Team ID
+b_lp             player's lineup position (if known)
+b_seq            order in which the player appears
+                 (1 = starter, 2 = 2nd player at given lineup slot, etc.)
+stattype         value, lower, or upper: 
+                 upper and lower bounds are shown for some stats to highlight data uncertainty
+b_ab             at bats
+b_r              runs scored
+b_h              hits
+b_d              doubles
+b_t              triples
+b_hr             home runs
+b_rbi            runs batted in
+b_sh             sacrifice hits
+b_sf             sacrifice flies
+b_hbp            times hit by pitch
+b_w              walks
+b_iw             intentional walks
+b_k              strikeouts
+b_sb             stolen bases
+b_cs             times caught stealing
+b_gdp            times grounded in double play by team's batters
+b_xi             times reached base on catcher's interference
+dh               did the player DH in the game
+ph               did the player pinch hit
+pr               did the player pinch run
+date             date of game
+number           game numer (0 if single game; 1, 2, etc. if multiple games on same date)
+site             location of game
+opp              player's opponent in game
+wl               did the player's team win or lose the game
+gametype         type of game (e.g., regular-season, exhibition, etc.)
+box              do we have a box score for this game
+
+pitching.csv
+------------
+gid              Game ID
+id               Player ID
+team             Team ID
+p_seq            order in which the pitcher appeared
+                 (1 = starter, 2 = 2nd pitcher of game, etc.)
+stattype         value, lower, or upper: 
+                 upper and lower bounds are shown for some stats to highlight data uncertainty
+p_ipouts         outs recorded (IP * 3)
+p_noout          batters faced by in any innings in which no outs were recorded
+p_bfp            batters faced by pitcher
+p_h              hits
+p_d              doubles
+p_t              triples
+p_hr             home runs
+p_r              runs
+p_er             earned runs
+p_w              walks allowed
+p_iw             intentional walks
+p_k              strikeouts
+p_hbp            hit by pitches
+p_wp             wild pitches
+p_bk             balks allowed
+p_sh             sacrifice hits
+p_sf             sacrifice flies
+wp               winning pitcher?
+lp               losing pitcher?
+save             did player earn a save?
+gs               game started
+gf               game finished (in relief)
+cg               complete game
+date             date of game
+number           game numer (0 if single game; 1, 2, etc. if multiple games on same date)
+site             location of game
+opp              player's opponent in game
+wl               did the player's team win or lose the game
+gametype         type of game (e.g., regular-season, exhibition, etc.)
+box              do we have a box score for this game
+
+fielding.csv
+------------
+gid              Game ID
+id               Player ID
+team             Team ID
+d_seq            order of positions (if player played multiple positions - 1 = first position, etc.)
+d_pos            fielding position
+stattype         value, lower, or upper: 
+                 upper and lower bounds are shown for some stats to highlight data uncertainty
+d_ifouts         defensive outs for which player played this position
+d_po             putouts
+d_a              assists
+d_e              errors
+d_dp             double plays
+d_tp             triple plays
+d_pb             passed balls
+date             date of game
+number           game numer (0 if single game; 1, 2, etc. if multiple games on same date)
+site             location of game
+opp              player's opponent in game
+wl               did the player's team win or lose the game
+gametype         type of game (e.g., regular-season, exhibition, etc.)
+box              do we have a box score for this game

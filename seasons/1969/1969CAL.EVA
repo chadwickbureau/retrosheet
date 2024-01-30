@@ -11979,19 +11979,19 @@ info,hometeam,CAL
 info,site,ANA01
 info,date,1969/09/22
 info,number,0
-info,starttime,0:00PM
+info,starttime,8:00PM
 info,daynight,night
 info,usedh,false
 info,umphome,stewb902
 info,ump1b,sprim901
 info,ump2b,denkd901
 info,ump3b,flahr901
-info,scorer,"CAL"
-info,translator,"Chris Chestnut"
-info,inputter,"Chris Chestnut"
+info,scorer,"CAL/Angels radio"
+info,translator,"Chris Chestnut/Mike Grahek"
+info,inputter,"Chris Chestnut/Mike Grahek"
 info,inputtime,1997/01/06 7:38PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -12023,104 +12023,126 @@ start,spenj101,"Jim Spencer",1,7,3
 start,rodra101,"Aurelio Rodriguez",1,8,5
 start,messa101,"Andy Messersmith",1,9,1
 play,1,0,harpt101,??,,8
-play,1,0,donaj101,??,,K/C
-play,1,0,waltd101,??,,13
-play,1,1,aloms101,??,,3/FL
-play,1,1,johnj002,??,,13
-play,1,1,fregj101,??,,HR/7
-play,1,1,reicr101,??,,W
-play,1,1,cowab101,??,,6/P
-play,2,0,hovls101,??,,K
-play,2,0,mincd101,??,,8
-play,2,0,mcnej101,??,,13
-play,2,1,azcuj101,??,,W
-play,2,1,spenj101,??,,S9.1X3(95)
-play,2,1,rodra101,??,,4/P
-play,2,1,messa101,??,,7
-play,3,0,whits101,??,,K
-play,3,0,kennj105,??,,K/C
+play,1,0,donaj101,12,KKBS,K
+play,1,0,waltd101,21,BFBX,13/G1
+com,"Check swing roller."
+play,1,1,aloms101,10,BX,3/FL
+play,1,1,johnj002,11,BFX,13/G1
+play,1,1,fregj101,10,BX,HR/F7D
+com,"HR #12 well over LF fence at 366' mark."
+play,1,1,reicr101,30,BBBB,W
+play,1,1,cowab101,11,F1BX,6/P6D
+play,2,0,hovls101,12,BCFS,K
+play,2,0,mincd101,20,BBX,8/F8S
+play,2,0,mcnej101,20,BBX,13/G1
+play,2,1,azcuj101,30,BBBB,W
+play,2,1,spenj101,01,FX,S9/L9.1X3(95)
+com,"Strong one-hop throw by Whitaker, out on a close play."
+play,2,1,rodra101,01,FX,4/P34
+play,2,1,messa101,01,FX,7/L7LD
+com,"Great one-handed running catch by Walton on a hard"
+com,"liner into the corner."
+play,3,0,whits101,22,BCBFFS,K
+play,3,0,kennj105,02,CCC,K/C
 com,"ej,kennj105,P,stewb902,Called third strike (threw equipment)"
 com,"$Kennedy ejected by HP umpire Stewart for arguing called"
-com,"third strike; he threw bats and helmet onto field"
-play,3,0,brung101,??,,K/C
-play,3,1,aloms101,??,,NP
+com,"third strike"
+play,3,0,brung101,12,CFBC,K/C
+com,"Between innings Kennedy threw bats and helmet onto field."
+play,3,1,aloms101,00,,NP
 sub,stanf101,"Fred Stanley",0,8,6
-play,3,1,aloms101,??,,7
-play,3,1,johnj002,??,,W
-play,3,1,fregj101,??,,POCS2(1343)#
-play,3,1,fregj101,??,,K/C
-play,4,0,harpt101,??,,D8
-play,4,0,donaj101,??,,5/FL
-play,4,0,waltd101,??,,HR/7.2-H
-play,4,0,hovls101,??,,K
-play,4,0,mincd101,??,,K/C
-play,4,1,reicr101,??,,53
-play,4,1,cowab101,??,,HR/7
-play,4,1,azcuj101,??,,S7
-play,4,1,spenj101,??,,8
-play,4,1,rodra101,??,,K
-play,5,0,mcnej101,??,,W
-play,5,0,whits101,??,,S8.1-2
-play,5,0,stanf101,??,,13/SH.2-3;1-2
-play,5,0,brung101,??,,NP
+play,3,1,aloms101,01,.FX,7/F7L
+com,"Another fine backhanded running catch by Walton."
+play,3,1,johnj002,32,BBBCCFFB,W
+play,3,1,fregj101,32,BBBCF1,POCS2(1343)
+play,3,1,fregj101,32,BBBCF1.C,K/C
+play,4,0,harpt101,21,BBCX,D8/L89
+play,4,0,donaj101,22,BFBFFX,5/P25F
+play,4,0,waltd101,22,BCFFFBX,HR/F7D.2-H
+com,"HR #3 over LF fence."
+play,4,0,hovls101,12,CLBS,K
+play,4,0,mincd101,22,BCBFC,K/C
+play,4,1,reicr101,11,BSX,53
+com,"Nice backhand play by Harper on a hard smash."
+play,4,1,cowab101,01,FX,HR/F7LD
+com,"HR #5 just inside the foul pole."
+play,4,1,azcuj101,01,FX,S7/L78
+play,4,1,spenj101,11,BFX,8/L89
+play,4,1,rodra101,12,CFBFS,K
+play,5,0,mcnej101,31,BBBCB,W
+play,5,0,whits101,10,BX,S8/L8.1-2
+play,5,0,stanf101,00,X,14/BG1S/SH.2-3;1-2#
+com,"RS had scored 13. Messersmith juggled, but was just able"
+com,"to get Stanley at 1B."
+play,5,0,brung101,00,,NP
 sub,comew101,"Wayne Comer",0,9,11
-play,5,0,comew101,??,,E1.3-H(NR);2-H(NR);B-2
-play,5,0,harpt101,??,,NP
+play,5,0,comew101,00,.X,E1/TH1/G1.3-H(NR);2-H(NR);B-2
+com,"Hard shot back to the mound took Messersmith's glove off;"
+com,"he recovered but threw wide to 1B."
+play,5,0,harpt101,00,,NP
 sub,pattm101,"Marty Pattin",0,9,12
-play,5,0,harpt101,??,,S8.2-H(UR);B-2(THH)
-play,5,0,donaj101,??,,43.2-3
-play,5,0,waltd101,??,,K/C
-play,5,1,messa101,??,,NP
+play,5,0,harpt101,01,.SX,S8/G6M.2-H(UR);B-2(THH)
+play,5,0,donaj101,10,222BX,43.2-3
+play,5,0,waltd101,22,SLBBC,K/C
+play,5,1,messa101,00,,NP
 sub,womad101,"Dooley Womack",0,9,1
-play,5,1,messa101,??,,53
-play,5,1,aloms101,??,,43
-play,5,1,johnj002,??,,43
-play,6,0,hovls101,??,,K/C
-play,6,0,mincd101,??,,3/P
-play,6,0,mcnej101,??,,8
-play,6,1,fregj101,??,,K/C
-play,6,1,reicr101,??,,9
-play,6,1,cowab101,??,,K
-play,7,0,whits101,??,,5/P
-play,7,0,stanf101,??,,4/P
-play,7,0,womad101,??,,K
-play,7,1,azcuj101,??,,K
-play,7,1,spenj101,??,,31
-play,7,1,rodra101,??,,NP
+play,5,1,messa101,01,.CX,53
+play,5,1,aloms101,32,BBCBCX,43
+play,5,1,johnj002,22,BCCFFBX,43
+play,6,0,hovls101,22,BBCSC,K/C
+play,6,0,mincd101,32,BFCFBBX,3/P3D
+play,6,0,mcnej101,12,BCCFX,8/F8
+play,6,1,fregj101,22,BCFBC,K/C
+play,6,1,reicr101,21,BFBX,9/L9
+play,6,1,cowab101,12,SBSS,K
+play,7,0,whits101,21,BBFX,5/P1S
+play,7,0,stanf101,01,SX,4/P34D
+play,7,0,womad101,02,FCS,K
+play,7,1,azcuj101,32,BBCBFFFFS,K
+play,7,1,spenj101,31,BBCBX,31
+play,7,1,rodra101,00,,NP
 sub,browr102,"Randy Brown",1,8,11
-play,7,1,browr102,??,,8
-play,8,0,harpt101,??,,NP
+play,7,1,browr102,11,.BFX,8/F8
+play,8,0,harpt101,00,,NP
 sub,perem101,"Marty Perez",1,8,5
-play,8,0,harpt101,??,,9
-play,8,0,donaj101,??,,43
-play,8,0,waltd101,??,,K
-play,8,1,messa101,??,,NP
+play,8,0,harpt101,31,.BBBCX,9/F9
+play,8,0,donaj101,22,FSBFFBX,43
+play,8,0,waltd101,12,BSLS,K
+play,8,1,messa101,00,,NP
 sub,llenw101,"Winston Llenas",1,9,11
-play,8,1,llenw101,??,,K/C
-play,8,1,aloms101,??,,23
-play,8,1,johnj002,??,,S5
-play,8,1,fregj101,??,,D9.1-3
-play,8,1,reicr101,??,,S7.3-H;2-H
-play,8,1,cowab101,??,,NP
+play,8,1,llenw101,02,CSC,K/C
+com,"Llenas sent his bat screaming into Angels' dugout on"
+com,"swinging second strike."
+play,8,1,aloms101,12,LLBX,23/BG2
+com,"Nice play by McNertney fielding bunt along 3B line"
+com,"and whirling to make throw to 1B."
+play,8,1,johnj002,01,SX,S5/BG5S
+play,8,1,fregj101,00,X,D9/F9L.1-3
+com,"Whitaker shaded over to RCF could not reach slicing"
+com,"fly about 10' off RF line."
+play,8,1,reicr101,10,BX,S7/L7.3-H;2-H
+play,8,1,cowab101,00,,NP
 sub,segud101,"Diego Segui",0,9,1
-play,8,1,cowab101,??,,NP
+play,8,1,cowab101,00,,NP
 sub,repor101,"Roger Repoz",1,5,11
-play,8,1,repor101,??,,6/P
-play,9,0,hovls101,??,,NP
+play,8,1,repor101,11,.F1BX,6/P
+play,9,0,hovls101,00,,NP
 sub,repor101,"Roger Repoz",1,5,9
-play,9,0,hovls101,??,,NP
+play,9,0,hovls101,00,,NP
 sub,wrigc102,"Clyde Wright",1,9,1
-play,9,0,hovls101,??,,13
-play,9,0,mincd101,??,,K/C
-play,9,0,mcnej101,??,,43
-play,9,1,azcuj101,??,,9
-play,9,1,spenj101,??,,4/L
-play,9,1,perem101,??,,NP
+play,9,0,hovls101,10,BX,13/BG1S
+play,9,0,mincd101,22,CBBFC,K/C
+com,"Mincher very upset with third strike call."
+play,9,0,mcnej101,12,CFBX,43
+play,9,1,azcuj101,01,FX,9/F9D
+play,9,1,spenj101,22,FBSBX,4/L
+play,9,1,perem101,00,,NP
 sub,vossb101,"Bill Voss",1,8,11
-play,9,1,vossb101,??,,S9
-play,9,1,wrigc102,??,,NP
+play,9,1,vossb101,20,.BBX,S9/L89
+com,"Just over Donaldson's head."
+play,9,1,wrigc102,00,,NP
 sub,mortb101,"Bubba Morton",1,9,11
-play,9,1,mortb101,??,,K/C
+play,9,1,mortb101,32,CBSBBC,K/C
 data,er,brung101,2
 data,er,womad101,2
 data,er,segud101,0

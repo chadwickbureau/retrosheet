@@ -9,16 +9,17 @@ info,number,0
 info,starttime,9:00PM
 info,daynight,night
 info,usedh,false
+info,gametype,allstar
 info,umphome,romme101
 info,ump1b,conlj102
 info,ump2b,rue-j901
 info,ump3b,dunnt901
-info,scorer,"TSN Guide"
-info,translator,"Tim Cashion"
-info,inputter,"Tim Cashion"
+info,scorer,"TSN Guide,602"
+info,translator,"Tim Cashion/Wayne Townsend"
+info,inputter,"Tim Cashion/Wayne Townsend"
 info,inputtime,1996/12/10 11:52PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -49,134 +50,132 @@ start,laabc101,"Chet Laabs",1,6,8
 start,earlj101,"Jake Early",1,7,2
 start,doerb101,"Bobby Doerr",1,8,4
 start,leond103,"Dutch Leonard",1,9,1
-com,"$Managers: Joe McCarthy (AL New York), Billy Southworth (NL St. Louis);"
-com,"the game was broadcast to GIs via shortwave radio"
-play,1,0,hacks101,??,,S/4D
-play,1,0,hermb101,??,,S.1-3
-play,1,0,musis101,??,,8.3-H
-play,1,0,nichb101,??,,36(1)/FO
-play,1,0,flete101,??,,43
-play,1,1,caseg101,??,,HP
-play,1,1,keltk101,??,,K
-play,1,1,waked101,??,,46(1)/FO
-play,1,1,stepv101,??,,63
-play,2,0,coopw102,??,,4
-play,2,0,walkh102,??,,13
-play,2,0,marim101,??,,E6/G
-play,2,0,coopm101,??,,8/F
-play,2,1,siebd102,??,,8/F
-play,2,1,laabc101,??,,W
-play,2,1,earlj101,??,,W.1-2
-play,2,1,doerb101,??,,HR/7D.2-H;1-H
-play,2,1,leond103,??,,S9
-play,2,1,caseg101,??,,54(1)3/GDP
-play,3,0,hacks101,??,,7/F
-play,3,0,hermb101,??,,5/P
-play,3,0,musis101,??,,43
-play,3,1,keltk101,??,,D8
-play,3,1,waked101,??,,D7/7S.2-H
-play,3,1,stepv101,??,,13/SH.2-3
-play,3,1,siebd102,??,,NP
+com,"$Managers: Joe McCarthy (AL New York), Billy Southworth (NL St. Louis)."
+com,"Start delayed 15 minutes to allow BBC set-up time for"
+com,"broadcasting game to GIs over shortwave radio."
+play,1,0,hacks101,00,X,S8/G4M
+play,1,0,hermb101,21,1B>FB1>X,S7/G6.1-3
+play,1,0,musis101,00,X,8/F89D.3-H
+play,1,0,nichb101,21,B1SBX,36(1)/FO/G3L/R3
+play,1,0,flete101,10,BX,43/G4S
+play,1,1,caseg101,00,H,HP
+play,1,1,keltk101,22,CF1BBFFS,K
+play,1,1,waked101,00,X,46(1)/FO/G4M
+play,1,1,stepv101,20,P+1B1X,63
+play,2,0,coopw102,10,BX,4/P4MD
+play,2,0,walkh102,00,X,13/G1
+play,2,0,marim101,11,CBX,E6/G6M
+play,2,0,coopm101,21,BSBX,8/F8D
+play,2,1,siebd102,00,X,8/L8
+play,2,1,laabc101,32,CBFBBB,W
+play,2,1,earlj101,32,S+1BBB>F>B,W.1-2
+play,2,1,doerb101,11,BCX,HR/F7D.2-H;1-H
+play,2,1,leond103,21,BBCX,S9/F9LS
+play,2,1,caseg101,32,CBFBFBX,54(1)3/GDP/G56
+play,3,0,hacks101,11,CBX,7/F7LD
+play,3,0,hermb101,22,FBCBFX,5/P5
+play,3,0,musis101,10,BX,43/G4M
+play,3,1,keltk101,,,D8/L89
+play,3,1,waked101,21,BBCX,D7/G56.2-H
+play,3,1,stepv101,01,LX,13/BG23/SH.2-3
+play,3,1,siebd102,00,,NP
 sub,vandj101,"Johnny Vander Meer",0,9,1
-play,3,1,siebd102,??,,NP
+play,3,1,siebd102,00,,NP
 sub,yorkr101,"Rudy York",1,5,11
-play,3,1,yorkr101,??,,K
-play,3,1,laabc101,??,,K
-play,4,0,nichb101,??,,NP
+play,3,1,yorkr101,02,CSS,K
+play,3,1,laabc101,22,BBSCS,K
+play,4,0,nichb101,00,,NP
 sub,newhh101,"Hal Newhouser",1,9,1
-play,4,0,nichb101,??,,NP
+play,4,0,nichb101,00,,NP
 sub,yorkr101,"Rudy York",1,5,3
-play,4,0,nichb101,??,,8/F8D
-play,4,0,flete101,??,,7/F
-play,4,0,coopw102,??,,S8
-play,4,0,walkh102,??,,NP
+play,4,0,nichb101,11,BCX,8/F78D
+play,4,0,flete101,22,BCBFX,7/F7
+play,4,0,coopw102,00,X,S8/G46
+play,4,0,walkh102,00,,NP
 sub,dimav101,"Vince DiMaggio",0,7,11
-play,4,0,dimav101,??,,S7.1-2
-play,4,0,marim101,??,,54(1)/FO
-play,4,1,earlj101,??,,NP
+play,4,0,dimav101,00,X,S7/L5D.1-2
+play,4,0,marim101,01,SX,54(1)/FO
+play,4,1,earlj101,00,,NP
 sub,dimav101,"Vince DiMaggio",0,7,8
-play,4,1,earlj101,??,,K
-play,4,1,doerb101,??,,S7
-play,4,1,newhh101,??,,16(1)4/BG/GDP
-play,5,0,vandj101,??,,K
-play,5,0,hacks101,??,,53
-play,5,0,hermb101,??,,63
+play,4,1,earlj101,22,BFBCC,K/C
+play,4,1,doerb101,32,SBBCBX,S7/G56
+play,4,1,newhh101,01,CX,16(1)4/BGDP/BG1S
+play,5,0,vandj101,32,BBCBCC,K/C
+play,5,0,hacks101,32,BBBCCX,53/G5
+play,5,0,hermb101,00,X,63/G6
 com,"umpchange,5,umphome,dunnt901"
 com,"umpchange,5,ump1b,rue-j901"
 com,"umpchange,5,ump2b,conlj102"
 com,"umpchange,5,ump3b,romme101"
-com,"$the umpires changed positions"
-play,5,1,caseg101,??,,W
-play,5,1,keltk101,??,,K
-play,5,1,waked101,??,,K
-play,5,1,stepv101,??,,S7.1-3
-play,5,1,yorkr101,??,,OA.3XH(2E4)(UR);1-2
-com,"$Vern Stephens broke for 2B; as Walker Cooper threw to"
-com,"Billy Herman, George Case made a dash for HP and scored"
-com,"when Herman's return throw bounced in front of Cooper"
-play,5,1,yorkr101,??,,K
-play,6,0,musis101,??,,D7
-play,6,0,nichb101,??,,NP
+com,"$The umpires changed positions"
+play,5,1,caseg101,31,FBBBB,W
+play,5,1,keltk101,12,SBFS,K
+play,5,1,waked101,02,SSS,K
+play,5,1,stepv101,10,P+1>X,S7/L/TH3/R6.1-3
+play,5,1,yorkr101,31,BBBC>S,OA.3XH(2E4/THH)(UR);1-2
+play,5,1,yorkr101,32,BBBC>S.FS,K
+play,6,0,musis101,01,FX,D7/G5L
+play,6,0,nichb101,00,,NP
 sub,galaa101,"Augie Galan",0,4,11
-play,6,0,galaa101,??,,W
-play,6,0,flete101,??,,NP
+play,6,0,galaa101,32,F*BBFBFB,W
+play,6,0,flete101,00,,NP
 sub,dahlb101,"Babe Dahlgren",0,5,11
-play,6,0,dahlb101,??,,64(1)3/GDP.2-3
-play,6,0,coopw102,??,,NP
+play,6,0,dahlb101,02,CFX,64(1)3/GDP.2-3
+play,6,0,coopw102,00,,NP
 sub,lombe101,"Ernie Lombardi",0,6,11
-play,6,0,lombe101,??,,8/F
-play,6,1,laabc101,??,,NP
+play,6,0,lombe101,10,BX,8/F8S
+play,6,1,laabc101,00,,NP
 sub,galaa101,"Augie Galan",0,4,7
-play,6,1,laabc101,??,,NP
+play,6,1,laabc101,00,,NP
 sub,musis101,"Stan Musial",0,3,9
-play,6,1,laabc101,??,,NP
+play,6,1,laabc101,00,,NP
 sub,lombe101,"Ernie Lombardi",0,6,2
-play,6,1,laabc101,??,,NP
+play,6,1,laabc101,00,,NP
 sub,dahlb101,"Babe Dahlgren",0,5,3
-play,6,1,laabc101,??,,NP
+play,6,1,laabc101,00,,NP
 sub,sewer101,"Rip Sewell",0,9,1
-play,6,1,laabc101,??,,E5/G.B-1
-play,6,1,earlj101,??,,13/SH.1-2
-play,6,1,doerb101,??,,53.2-3
-play,6,1,newhh101,??,,NP
+play,6,1,laabc101,00,X,E5/G56.B-1
+play,6,1,earlj101,00,X,13/BG23/SH.1-2
+play,6,1,doerb101,00,X,53/G5S.2-3
+play,6,1,newhh101,00,,NP
 sub,heatj101,"Jeff Heath",1,9,11
-play,6,1,heatj101,??,,8/F
-play,7,0,dimav101,??,,NP
+play,6,1,heatj101,11,BCX,8/F8S
+play,7,0,dimav101,00,,NP
 sub,hught102,"Tex Hughson",1,9,1
-play,7,0,dimav101,??,,T7/7D
-play,7,0,marim101,??,,NP
+play,7,0,dimav101,22,BCFBX,T7/F7LDW
+play,7,0,marim101,00,,NP
 sub,ott-m101,"Mel Ott",0,8,11
-play,7,0,ott-m101,??,,K
-play,7,0,sewer101,??,,NP
+play,7,0,ott-m101,32,BBBCCS,K
+play,7,0,sewer101,00,,NP
 sub,walkd101,"Dixie Walker",0,9,11
-play,7,0,walkd101,??,,7.3-H
-play,7,0,hacks101,??,,S5
-play,7,0,hermb101,??,,S.1-3
-play,7,0,musis101,??,,5/P
-play,7,1,caseg101,??,,NP
+play,7,0,walkd101,00,X,7/L7/THH.3-H
+play,7,0,hacks101,02,CCX,S57/L5
+play,7,0,hermb101,10,BX,S9/L3D.1-3
+play,7,0,musis101,01,CX,5/P5F/FL
+play,7,1,caseg101,00,,NP
 sub,mille104,"Eddie Miller",0,8,6
-play,7,1,caseg101,??,,NP
+play,7,1,caseg101,00,,NP
 sub,javea101,"Al Javery",0,9,1
-play,7,1,caseg101,??,,K
-play,7,1,keltk101,??,,K
-play,7,1,waked101,??,,S8
-play,7,1,stepv101,??,,K
-play,8,0,galaa101,??,,NP
+play,7,1,caseg101,12,CBFS,K
+play,7,1,keltk101,12,CBFC,K/C
+play,7,1,waked101,32,BSBFBFX,S9/G34
+play,7,1,stepv101,02,1SCS,K
+play,8,0,galaa101,00,,NP
 sub,johnb102,"Bob Johnson",1,3,7
-play,8,0,galaa101,??,,8/F
-play,8,0,dahlb101,??,,63
-play,8,0,lombe101,??,,8/F
-play,8,1,yorkr101,??,,S8
-play,8,1,laabc101,??,,64(1)3/GDP
-play,8,1,earlj101,??,,E4/G
-play,8,1,doerb101,??,,7/F
-play,9,0,dimav101,??,,HR/7D
-play,9,0,mille104,??,,K
-play,9,0,javea101,??,,NP
+play,8,0,galaa101,32,BFBBCX,8/F8S
+play,8,0,dahlb101,02,FFX,63/G6
+play,8,0,lombe101,20,BBX,8/L8
+play,8,1,yorkr101,10,BX,S8/G4M
+play,8,1,laabc101,01,SX,64(1)3/GDP
+play,8,1,earlj101,21,BBFX,E4/G4S/R3
+play,8,1,doerb101,10,BX,7/F7LD
+play,9,0,dimav101,01,CX,HR/F7D
+play,9,0,mille104,22,CBFBS,K
+play,9,0,javea101,00,,NP
 sub,freyl101,"Lonny Frey",0,9,11
-play,9,0,freyl101,??,,8/F
-play,9,0,hacks101,??,,S3
-play,9,0,hermb101,??,,7/F
+play,9,0,freyl101,02,CCX,8/F8D
+play,9,0,hacks101,11,FBX,S9/G3
+play,9,0,hermb101,10,BX,7/L7
 data,er,coopm101,4
 data,er,vandj101,0
 data,er,sewer101,0
@@ -184,3 +183,300 @@ data,er,javea101,0
 data,er,leond103,1
 data,er,newhh101,0
 data,er,hught102,2
+id,ASW194308010
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,ASE
+info,hometeam,ASW
+info,site,CHI10
+info,date,1943/08/01
+info,number,0
+info,starttime,0:00PM
+info,daynight,day
+info,usedh,false
+info,umphome,bluev901
+info,ump1b,mccrf901
+info,ump2b,walkh901
+info,ump3b,forbf901
+info,scorer,"Baltimore Afro-American"
+info,translator,"Tom Thress"
+info,inputter,"Tom Thress"
+info,inputtime,2020/09/25 10:44PM
+info,howscored,park
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,136
+info,attendance,51723
+info,wp,paigs101
+info,lp,barnd101
+info,save,mossp101
+info,gwrbi,
+start,bellj103,"Cool Papa Bell",0,1,7
+start,kimbh102,"Henry Kimbro",0,2,8
+start,leonb101,"Buck Leonard",0,3,3
+start,gibsj101,"Josh Gibson",0,4,2
+start,easth104,"Howard Easterling",0,5,5
+start,pearl102,"Lennie Pearson",0,6,9
+start,banks101,"Sam Bankhead",0,7,4
+start,martr105,"Rabbit Martinez",0,8,6
+start,barnd101,"Dave Barnhill",0,9,1
+start,willj111,"Jesse Williams",1,1,6
+start,davel102,"Lloyd Davenport",1,2,9
+start,radca101,"Alex Radcliff",1,3,5
+start,broww101,"Willard Brown",1,4,8
+start,robin101,"Neil Robinson",1,5,7
+start,oneib801,"Buck O'Neil",1,6,3
+start,sampt101,"Tommy Sampson",1,7,4
+start,radct101,"Ted Radcliffe",1,8,2
+start,paigs101,"Satchel Paige",1,9,1
+play,1,0,bellj103,??,,6/L
+play,1,0,kimbh102,??,,K/C
+play,1,0,leonb101,??,,K/C
+play,1,1,willj111,??,,63
+play,1,1,davel102,??,,W
+play,1,1,radca101,??,,9
+play,1,1,broww101,??,,6
+play,2,0,gibsj101,??,,W
+play,2,0,easth104,??,,7
+play,2,0,pearl102,??,,6/L
+play,2,0,banks101,??,,PB.1-2
+play,2,0,banks101,??,,K
+play,2,1,robin101,??,,W
+play,2,1,oneib801,??,,13.1-2
+play,2,1,sampt101,??,,S9.2-H
+play,2,1,radct101,??,,4(B)3(1)/LDP
+play,3,0,martr105,??,,53
+play,3,0,barnd101,??,,43
+play,3,0,bellj103,??,,K
+play,3,1,paigs101,??,,D7
+play,3,1,willj111,??,,NP
+sub,hydec101,"Cowan Hyde",1,9,12
+play,3,1,willj111,??,,FC1/BG.2-3
+play,3,1,davel102,??,,9/L/DP.3XH(925)
+play,3,1,radca101,??,,SB2
+play,3,1,radca101,??,,2
+play,4,0,kimbh102,??,,NP
+sub,mckig101,"Gready McKinnis",1,9,1
+play,4,0,kimbh102,??,,NP
+sub,vargt101,"Tetelo Vargas",0,2,11
+play,4,0,vargt101,??,,43
+play,4,0,leonb101,??,,43
+play,4,0,gibsj101,??,,63
+play,4,1,broww101,??,,NP
+sub,vargt101,"Tetelo Vargas",0,2,8
+play,4,1,broww101,??,,NP
+sub,wrigj105,"Johnny Wright",0,9,1
+play,4,1,broww101,??,,S8
+play,4,1,robin101,??,,SB2
+play,4,1,robin101,??,,13.2-3
+play,4,1,oneib801,??,,13.3-H
+play,4,1,sampt101,??,,43
+play,5,0,easth104,??,,7
+play,5,0,pearl102,??,,K
+play,5,0,banks101,??,,7
+play,5,1,radct101,??,,K
+play,5,1,mckig101,??,,K
+play,5,1,willj111,??,,S8
+play,5,1,davel102,??,,43
+play,6,0,martr105,??,,S8
+play,6,0,wrigj105,??,,NP
+sub,scalg101,"George Scales",0,9,11
+play,6,0,scalg101,??,,3/FL
+play,6,0,bellj103,??,,7
+play,6,0,vargt101,??,,64(1)/FO
+play,6,1,radca101,??,,NP
+sub,harvb101,"Bill Harvey",0,9,1
+play,6,1,radca101,??,,S9
+play,6,1,broww101,??,,36(1)/FO
+play,6,1,robin101,??,,K
+play,6,1,oneib801,??,,PO1(13)
+play,7,0,leonb101,??,,NP
+sub,smitt105,"Theolic Smith",1,9,1
+play,7,0,leonb101,??,,43
+play,7,0,gibsj101,??,,43
+play,7,0,easth104,??,,3/G
+play,7,1,oneib801,??,,NP
+sub,day-l101,"Leon Day",0,9,1
+play,7,1,oneib801,??,,W
+play,7,1,sampt101,??,,2/FL
+play,7,1,radct101,??,,3
+play,7,1,smitt105,??,,2/FL
+play,8,0,pearl102,??,,53
+play,8,0,banks101,??,,3/FL
+play,8,0,martr105,??,,W
+play,8,0,day-l101,??,,K
+play,8,1,willj111,??,,S/78
+play,8,1,davel102,??,,53.1-2
+play,8,1,radca101,??,,3
+play,8,1,broww101,??,,IW
+play,8,1,robin101,??,,NP
+sub,wilsf104,"Fred Wilson",1,5,11
+play,8,1,wilsf104,??,,43
+play,9,0,bellj103,??,,NP
+sub,lockl101,"Lester Lockett",1,5,7
+play,9,0,bellj103,??,,9
+play,9,0,vargt101,??,,NP
+sub,benjj101,"Jerry Benjamin",0,2,11
+play,9,0,benjj101,??,,43
+play,9,0,leonb101,??,,HR/9
+play,9,0,gibsj101,??,,S7
+play,9,0,easth104,??,,S9.1-2#
+play,9,0,pearl102,??,,NP
+sub,mossp101,"Porter Moss",1,9,1
+play,9,0,pearl102,??,,NP
+sub,harrv102,"Vic Harris",0,6,11
+play,9,0,harrv102,??,,8
+data,er,barnd101,1
+data,er,wrigj105,1
+data,er,harvb101,0
+data,er,day-l101,0
+data,er,paigs101,0
+data,er,mckig101,0
+data,er,smitt105,1
+data,er,mossp101,0
+id,SAS194309260
+version,1
+info,inputprogvers,"version 7RS(19) of 07/07/92"
+info,visteam,NAS
+info,hometeam,SAS
+info,site,NOL01
+info,date,1943/09/26
+info,number,0
+info,starttime,0:00PM
+info,daynight,night
+info,usedh,false
+info,translator,"Tom Thress"
+info,inputter,"Tom Thress"
+info,inputtime,2021/04/26 5:14PM
+info,howscored,unknown
+info,pitches,none
+info,temp,0
+info,winddir,unknown
+info,windspeed,-1
+info,fieldcond,unknown
+info,precip,unknown
+info,sky,unknown
+info,timeofgame,130
+info,attendance,19000
+info,wp,paigs101
+info,lp,barnd101
+info,save,mcdab101
+info,gwrbi,
+start,currg102,"Goose Curry",0,1,9
+start,willh105,"Harry Williams",0,2,6
+start,perej103,"Javier Perez",0,3,4
+start,pearl102,"Lennie Pearson",0,4,8
+start,brooa101,"Ameal Brooks",0,5,7
+start,westj102,"Jim West",0,6,3
+start,speah101,"Henry Spearman",0,7,5
+start,loudl101,"Lou Louden",0,8,2
+start,barnd101,"Dave Barnhill",0,9,1
+start,simmw101,"Willie Simms",1,1,7
+start,davel102,"Lloyd Davenport",1,2,9
+start,soueh101,"Herb Souell",1,3,5
+start,broww101,"Willard Brown",1,4,8
+start,serrb101,"Bonnie Serrell",1,5,4
+start,charb102,"Bill Charter",1,6,3
+start,duncf102,"Frank Duncan",1,7,2
+start,hornb101,"Billy Horne",1,8,6
+start,paigs101,"Satchel Paige",1,9,1
+com,"$Play-by-play deduced from newspaper game stories and box score"
+play,1,0,currg102,??,,S
+play,1,0,willh105,??,,SB2
+play,1,0,willh105,??,,99
+play,1,0,perej103,??,,99
+play,1,0,pearl102,??,,99
+play,1,1,simmw101,??,,S
+play,1,1,davel102,??,,99
+play,1,1,soueh101,??,,D.1-3
+play,1,1,broww101,??,,W
+play,1,1,serrb101,??,,E6/TH.3-H;2-H(NR);1-3;B-2#
+play,1,1,charb102,??,,S.3-H;2-H(UR)
+play,1,1,duncf102,??,,D.1-3
+play,1,1,hornb101,??,,99
+play,1,1,paigs101,??,,99
+play,2,0,brooa101,??,,S
+play,2,0,westj102,??,,99
+play,2,0,speah101,??,,S.1-2#
+play,2,0,loudl101,??,,99
+play,2,0,barnd101,??,,99
+play,2,1,simmw101,??,,S
+play,2,1,davel102,??,,SB2
+play,2,1,davel102,??,,S.2-H
+play,2,1,soueh101,??,,CS2(99)#
+play,2,1,soueh101,??,,99
+play,2,1,broww101,??,,D
+play,2,1,serrb101,??,,NP
+sub,hillj104,"Jimmy Hill",0,9,1
+play,2,1,serrb101,??,,99
+play,3,0,currg102,??,,S
+play,3,0,willh105,??,,99
+play,3,0,perej103,??,,D.1-3
+play,3,0,pearl102,??,,99
+play,3,0,brooa101,??,,99
+play,3,1,charb102,??,,FLE3#
+play,3,1,charb102,??,,99
+play,3,1,duncf102,??,,D
+play,3,1,hornb101,??,,PB.2-3#
+play,3,1,hornb101,??,,99
+play,3,1,paigs101,??,,99
+play,4,0,westj102,??,,99
+play,4,0,speah101,??,,99
+play,4,0,loudl101,??,,S
+play,4,0,hillj104,??,,99
+play,4,1,simmw101,??,,99
+play,4,1,davel102,??,,99
+play,4,1,soueh101,??,,99
+play,5,0,currg102,??,,99
+play,5,0,willh105,??,,99
+play,5,0,perej103,??,,99
+play,5,1,broww101,??,,99
+play,5,1,serrb101,??,,W
+play,5,1,charb102,??,,CS2(99)#
+play,5,1,charb102,??,,99
+play,6,0,pearl102,??,,NP
+sub,allen102,"Newt Allen",1,5,6
+play,6,0,pearl102,??,,NP
+sub,hornb101,"Billy Horne",1,8,4
+play,6,0,pearl102,??,,S
+play,6,0,brooa101,??,,99
+play,6,0,westj102,??,,99
+play,6,0,speah101,??,,D.1-H
+play,6,0,loudl101,??,,99
+play,6,1,duncf102,??,,S6.B-2(E6/TH)#
+play,6,1,hornb101,??,,99
+play,6,1,paigs101,??,,99
+play,6,1,simmw101,??,,99
+play,7,0,hillj104,??,,NP
+sub,mcdab101,"Booker McDaniel",1,9,1
+play,7,0,hillj104,??,,S
+play,7,0,currg102,??,,D.1-3
+play,7,0,willh105,??,,99.3-H
+play,7,0,perej103,??,,99
+play,7,0,pearl102,??,,99
+play,7,1,davel102,??,,99
+play,7,1,soueh101,??,,99
+play,7,1,broww101,??,,S6.B-2(E6/TH)#
+play,7,1,allen102,??,,PB.2-3#
+play,7,1,allen102,??,,99
+play,8,0,brooa101,??,,S
+play,8,0,westj102,??,,99
+play,8,0,speah101,??,,D.1-3#
+play,8,0,loudl101,??,,99
+play,8,0,hillj104,??,,99
+play,8,1,charb102,??,,99
+play,8,1,duncf102,??,,99
+play,8,1,hornb101,??,,99
+play,9,0,currg102,??,,S#
+play,9,0,willh105,??,,99
+play,9,0,perej103,??,,99
+play,9,0,pearl102,??,,99
+data,er,barnd101,4
+data,er,hillj104,0
+data,er,paigs101,1
+data,er,mcdab101,1

@@ -5868,12 +5868,11 @@ play,4,0,cobbt101,??,,S9
 play,4,0,heilh101,??,,SB2.1-3(E2/TH2)
 com,"$Cobb injured his leg sliding into 2B but wiggled to 3B"
 com,"where he collapsed and had to be carried from the field."
+com,"Larry Woodall was used as a courtesy runner. Woodall entered the game again"
+com,"in the 6th inning replacing Bassler at C batting 8th."
 play,4,0,heilh101,??,,NP
 sub,woodl101,"Larry Woodall",0,4,12
-com,"Woodall did not take the field"
-com,"again until the 6th, replacing Bassler in the 8th spot."
-play,4,0,heilh101,??,,9/L9D/SF/COUR.3-H
-com,"Sensational leaping 1-handed catch"
+play,4,0,heilh101,??,,9!/L9D/SF/COUR.3-H
 play,4,0,bluel101,??,,S7
 play,4,0,tavej101,??,,NP
 sub,rignt101,"Topper Rigney",0,7,11
@@ -7039,6 +7038,7 @@ play,5,1,burng102,??,,5/BP
 play,5,1,fewsc101,??,,D7/7L.2-H;1-3
 play,5,1,spurf101,??,,NP
 sub,baums101,"Stan Baumgartner",0,9,1
+presadj,baums101,3
 play,5,1,spurf101,??,,IW
 play,5,1,sewel101,??,,D7.3-H;2-H;1-H
 play,5,1,coleb101,??,,S1/G3S.2-3
@@ -7051,6 +7051,7 @@ play,5,1,lee-c101,??,,NP
 sub,stoka101,"Art Stokes",0,9,1
 play,5,1,lee-c101,??,,NP
 sub,mcnup101,"Pat McNulty",1,2,11
+presadj,stoka101,3
 play,5,1,mcnup101,??,,W
 play,5,1,speat101,??,,SB2
 play,5,1,speat101,??,,W
@@ -7113,9 +7114,9 @@ play,9,0,stoka101,??,,13
 play,9,0,gautd101,??,,K
 play,9,0,perkc101,??,,7/F
 data,er,walbr101,2
-data,er,heimf101,3
+data,er,heimf101,2
 data,er,baums101,4
-data,er,stoka101,4
+data,er,stoka101,5
 data,er,karrb101,2
 data,er,coleb101,0
 id,CLE192507082
@@ -8145,6 +8146,7 @@ play,8,1,jamic101,??,,13
 play,9,0,lee-d101,??,,W
 play,9,0,biscj101,??,,NP
 sub,shauj101,"Joe Shaute",1,9,1
+presadj,shauj101,1
 play,9,0,biscj101,??,,13/SH.1-2
 play,9,0,neubh101,??,,NP
 sub,carlr101,"Roy Carlyle",0,9,11
@@ -8167,8 +8169,8 @@ data,er,rossb103,1
 data,er,neubh101,0
 data,er,wingt101,0
 data,er,smits102,7
-data,er,millj109,3
-data,er,shauj101,1
+data,er,millj109,2
+data,er,shauj101,2
 id,CLE192507140
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8814,8 +8816,8 @@ com,"Off Gehrig's glove"
 play,7,1,myatg101,??,,W.2-3;1-2
 play,7,1,shauj101,??,,NP
 sub,caldc101,"Charlie Caldwell",0,9,1
+presadj,caldc101,2
 play,7,1,shauj101,??,,SBH.2-H(PB)(UR);1-3
-com,"Stole while Ferguson was winding up"
 play,7,1,shauj101,??,,W
 play,7,1,jamic101,??,,8/F
 play,8,0,dugaj101,??,,E6/TH1
@@ -12413,10 +12415,11 @@ play,8,0,kanej102,??,,HP
 play,8,0,hooph101,??,,2/BP/DP.1X1(23)
 play,8,0,sheee101,??,,W
 play,8,0,falkb101,??,,NP
-sub,schar103,"Ray Schalk",0,4,12
-com,"On an attempted pick-off by Smith, Sheely hurt his right"
+com,"sub,schar103,'Ray Schalk',0,4,12"
+com,"$On an attempted pick-off by Smith, Sheely hurt his right"
 com,"ankle sliding into 1B and was helped from the field."
-com,"Schalk left game after Falk's AB but returned in the 9th."
+com,"Ray Schalk ran for Sheely and left the game after Falk's AB"
+com,"but returned in the 9th."
 play,8,0,falkb101,??,,2/P1S/COUR
 play,8,1,jamic101,??,,NP
 sub,elshr101,"Roy Elsh",0,4,3

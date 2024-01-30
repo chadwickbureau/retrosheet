@@ -1075,6 +1075,7 @@ play,3,0,stenc101,??,,W.1-2
 play,3,0,wheaz101,??,,NP
 sub,mcqug103,"George McQuillan",1,9,1
 play,3,0,wheaz101,??,,S9.2-3;1-2;BX2(93)
+presadj,mcqug103,3
 play,3,0,mowrm101,??,,9/SF.3-H
 play,3,0,cutsg101,??,,7/F
 play,3,1,byrnb101,??,,53
@@ -1137,8 +1138,8 @@ play,9,1,cravg101,??,,54(1)/FO
 play,9,1,whitp102,??,,43.1-2
 play,9,1,coopc101,??,,43
 data,er,pfefj101,2
-data,er,chalg101,2
-data,er,mcqug103,1
+data,er,chalg101,1
+data,er,mcqug103,2
 id,PHI191605272
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -3660,6 +3661,7 @@ sub,mcqug103,"George McQuillan",1,9,1
 play,8,0,snodf101,??,,W
 play,8,0,tragw101,??,,NP
 sub,tylel101,"Lefty Tyler",0,8,11
+presadj,mcqug103,3
 play,8,0,tylel101,??,,FC.3-H;1-2
 play,8,0,nehfa101,??,,46(1)/FO.2-3
 play,8,0,marar101,??,,SB2
@@ -3711,8 +3713,8 @@ data,er,ragap101,3
 data,er,nehfa101,1
 data,er,hught107,0
 data,er,barnj102,0
-data,er,mayee101,4
-data,er,mcqug103,1
+data,er,mayee101,3
+data,er,mcqug103,2
 id,PHI191607261
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -9272,11 +9274,10 @@ play,9,0,egand102,??,,W.2-3;1-2
 play,9,0,gowdh101,??,,K/C
 play,9,1,whitp102,??,,2/FL
 play,9,1,goodw101,??,,63
-play,9,1,bendc101,??,,8#
-com,"$Bender not charged with AB in official records, although"
-com,"clear that 6th spot was last in game for Phillies; pbp"
-com,"accounts had Niehoff batting here, which would require"
-com,"batting out of turn"
+ladj,1,7
+play,9,1,niehb101,??,,8/BOOT
+com,"$Official records and pbp accounts indicate that"
+com,"Niehaus batted out of turn to end the game"
 data,er,tylel101,1
 data,er,mayee101,0
 data,er,bendc101,2

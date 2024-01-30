@@ -9,6 +9,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,summb901
 info,ump1b,dascf901
 info,ump2b,hurle901
@@ -172,6 +173,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,dascf901
 info,ump1b,hurle901
 info,ump2b,secof101
@@ -340,6 +342,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,hurle901
 info,ump1b,secof101
 info,ump2b,summb901
@@ -387,20 +390,16 @@ play,1,0,aparl101,32,BCBFBC,K/C
 play,1,0,fox-n101,31,BCBBB,W
 play,1,0,landj103,12,B1S+1SFX,S8/G46.1-3
 play,1,0,klust101,10,B>B,SB2
-com,"No throw"
 play,1,0,klust101,30,B>B.BI,IW
 play,1,0,lolls101,10,BX,5/P5F/FL
 play,1,0,goodb101,32,,3/G3S
-com,"Hodges tagged Goodman"
-play,1,1,gillj102,01,CX,8/F89
-com,"Landis: spectacular 1-handed diving catch"
+play,1,1,gillj102,01,CX,8!/F89
 play,1,1,nealc101,11,BCX,5/L5
 play,1,1,moonw101,01,CX,8/F8
 play,2,0,smita102,01,CX,7/L78
 play,2,0,rivej101,30,BBBB,W
-play,2,0,donod101,00,1>,CS2(26)
-play,2,0,donod101,11,1>.KBX,S7/F7DW
-com,"Off LF screen"
+play,2,0,donod101,00,1>K,CS2(26)
+play,2,0,donod101,11,1>K.BX,S7/F7DW
 play,2,0,aparl101,32,BBBCCB,W.1-2
 play,2,0,fox-n101,02,CFX,31/G34
 play,2,1,larkn101,12,CBFS,K
@@ -414,8 +413,7 @@ play,3,0,smita102,12,BC+2KS,K
 play,3,1,rosej101,00,X,3/BG3S
 play,3,1,willm102,12,LBFS,K
 play,3,1,drysd101,32,BBSBSS,K
-play,4,0,rivej101,,,5/P7LSF/FL
-com,"Gilliam: great running catch"
+play,4,0,rivej101,,,5!/P7LSF/FL
 play,4,0,donod101,,,63
 play,4,0,aparl101,,,S8
 play,4,0,fox-n101,,,CS2(26)
@@ -423,7 +421,6 @@ play,4,1,gillj102,,,43
 play,4,1,nealc101,,,13/G1
 play,4,1,moonw101,,,43
 play,5,0,fox-n101,21,BBCX,S7/F7LDW
-com,"Off LF screen"
 play,5,0,landj103,32,BBCBF>S,K+CS2(24)/DP
 play,5,0,klust101,01,FX,5/P5DF/FL
 play,5,1,larkn101,10,BX,31/G3
@@ -431,7 +428,6 @@ play,5,1,hodgg101,12,CFBS,K
 play,5,1,demed101,00,X,53/G5
 play,6,0,lolls101,01,FX,9/F89D
 play,6,0,goodb101,10,BX,S7/F7DW
-com,"Off LF screen"
 play,6,0,smita102,21,BBFX,54(1)3/GDP/G5
 play,6,1,rosej101,20,BBX,9/F89XD
 play,6,1,willm102,21,BLBX,43/G4
@@ -439,12 +435,10 @@ play,6,1,drysd101,12,CSBS,K
 play,7,0,rivej101,01,FX,6/L6
 play,7,0,donod101,02,CSC,K/C
 play,7,0,aparl101,32,BCCBBX,S7/L7DW
-com,"Off LF screen"
 play,7,0,fox-n101,21,11BCPX,S7/L7S.1-2
 play,7,0,landj103,32,CFBBB>S,K
 play,7,1,gillj102,21,BCBX,43/G34
 play,7,1,nealc101,00,X,S7/L7DW
-com,"Off LF screen"
 play,7,1,moonw101,10,B>X,43/G4.1-2
 play,7,1,larkn101,30,*BBBB,W
 play,7,1,hodgg101,31,*BBFBB,W.2-3;1-2
@@ -453,7 +447,6 @@ sub,stalg103,"Gerry Staley",0,9,1
 play,7,1,demed101,00,,NP
 sub,furic101,"Carl Furillo",1,6,11
 play,7,1,furic101,01,CX,S8/G6M.3-H;2-H;1-2
-com,"Under Aparicio's outstretched glove"
 play,7,1,rosej101,00,,NP
 sub,fairr101,"Ron Fairly",1,6,12
 play,7,1,rosej101,12,FFBX,4/L4
@@ -475,8 +468,6 @@ play,8,1,willm102,12,FFFBX,S9/L9
 play,8,1,sherl101,20,1B+1BX,24/BG23/SH.1-2
 play,8,1,gillj102,20,BBX,63/G6.2-3
 play,8,1,nealc101,02,FSX,D56/G5L.3-H
-com,"Hard hit off Esposito, rolled down LF line, and was"
-com,"retrieved by Aparicio in foul territory."
 play,8,1,moonw101,00,X,63/G6
 play,9,0,stalg103,00,,NP
 sub,cashn101,"Norm Cash",0,9,11
@@ -499,6 +490,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,secof101
 info,ump1b,summb901
 info,ump2b,dascf901
@@ -667,6 +659,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,summb901
 info,ump1b,dascf901
 info,ump2b,hurle901
@@ -842,6 +835,7 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,dascf901
 info,ump1b,hurle901
 info,ump2b,secof101

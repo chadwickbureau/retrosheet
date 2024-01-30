@@ -1124,7 +1124,7 @@ play,2,1,bancd101,??,,W.3-H;2-3;1-2
 play,2,1,rawlj101,??,,NP
 sub,smitg104,"George Smith",0,9,1
 play,2,1,rawlj101,??,,62(3)/FO.2-3;1-2
-play,2,1,grohh101,??,,D7/F.3-H;2-H;1-3;B-2(TH3)
+play,2,1,grohh101,??,,D7/F.3-H;2-H;1-3
 play,2,1,younr101,??,,3/G
 play,3,0,leslr101,??,,K/C
 play,3,0,henlb101,??,,3/P
@@ -2068,6 +2068,7 @@ play,7,1,bancd101,??,,T9
 play,7,1,frisf101,??,,S8.3-H
 play,7,1,grohh101,??,,NP
 sub,stueg101,"George Stueland",0,9,1
+presadj,stueg101,1
 play,7,1,grohh101,??,,W.1-2
 play,7,1,meusi101,??,,D9/F9DW.2-H;1-3
 play,7,1,younr101,??,,S8.3-H;2-H;B-2(E8)
@@ -2095,8 +2096,8 @@ play,9,0,hollc101,??,,8/L
 play,9,0,krugm101,??,,8
 play,9,0,grimr103,??,,T/89
 play,9,0,barbt101,??,,8/L
-data,er,aldrv101,6
-data,er,stueg101,4
+data,er,aldrv101,5
+data,er,stueg101,5
 data,er,kauft101,0
 data,er,barnj102,4
 data,er,causr101,1
@@ -4913,6 +4914,7 @@ play,2,1,frisf101,??,,S8.3-H;2-3;1-2
 play,2,1,meusi101,??,,NP
 sub,smits102,"Sherry Smith",0,9,1
 play,2,1,meusi101,??,,4/P3D
+presadj,smits102,3
 play,2,1,younr101,??,,W.3-H(UR);2-3;1-2
 play,2,1,kellg101,??,,K
 play,3,0,johnj107,??,,63
@@ -6840,6 +6842,7 @@ play,9,0,callm101,??,,W.2-3;1-2
 play,9,0,heatc101,??,,W.3-H;2-3;1-2
 play,9,0,hollc101,??,,NP
 sub,jonnc101,"Claude Jonnard",1,9,1
+presadj,jonnc101,3
 play,9,0,hollc101,??,,8/SF.3-H;2-3(THH);1-2(THH)
 play,9,0,terrz101,??,,WP.3-H;2-3
 play,9,0,terrz101,??,,63
@@ -6859,8 +6862,8 @@ play,9,1,grohh101,??,,SB2
 play,9,1,grohh101,??,,FC5.2X3(5)
 data,er,kauft101,2
 data,er,alexg102,0
-data,er,mcquh101,3
-data,er,jonnc101,0
+data,er,mcquh101,2
+data,er,jonnc101,1
 id,NY1192208042
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -6974,7 +6977,7 @@ play,8,1,bancd101,??,,9
 play,8,1,grohh101,??,,9
 play,9,0,heatc101,??,,S9/G3
 play,9,0,hollc101,??,,S9.1-3
-play,9,0,terrz101,??,,46(1)3/GDP.3-H
+play,9,0,terrz101,??,,46(1)3/GDP.3-H(RBI)
 play,9,0,grimr103,??,,S7
 play,9,0,fribb101,??,,2
 data,er,alexg102,2
@@ -8146,10 +8149,10 @@ play,7,0,higha101,??,,OA.1X2(24)
 play,7,1,bancd101,??,,D9/G3L
 play,7,1,younr101,??,,D9/89.2-H
 play,7,1,frisf101,??,,S7.2-3
-play,7,1,kellg101,??,,FC3/R2.3-3;1-2
-play,7,1,meusi101,??,,8/SF/F8XD/R5.3-H
+play,7,1,kellg101,??,,FC3.3-3;1-2
+play,7,1,meusi101,??,,8/SF/F8XD.3-H
 play,7,1,stenc101,??,,WP.2-3;1-2
-play,7,1,stenc101,20,,NP
+play,7,1,stenc101,??,,NP
 sub,mamaa101,"Al Mamaux",0,9,1
 play,7,1,stenc101,??,,W
 play,7,1,grohh101,??,,S8/L.3-H;2-H;1-H(E8/THH)(NR)(UR);B-3
@@ -8282,6 +8285,7 @@ play,6,0,walkc101,??,,16(1)/FO.2-3
 play,6,0,henlb101,??,,D7/7L.3-H;1-3
 play,6,0,lee-c101,??,,NP
 sub,jonnc101,"Claude Jonnard",1,9,1
+presadj,jonnc101,3
 play,6,0,lee-c101,??,,9/SF.3-H;2-3
 play,6,0,leslr101,??,,S1.3-H
 play,6,0,smitj107,??,,8
@@ -8322,8 +8326,8 @@ play,9,1,kellg101,??,,K
 play,9,1,meusi101,??,,S3.2-H(E1)(NR)(UR)
 data,er,wintj101,5
 data,er,ringj101,0
-data,er,nehfa101,5
-data,er,jonnc101,2
+data,er,nehfa101,4
+data,er,jonnc101,3
 id,NY1192209111
 version,2
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8843,6 +8847,7 @@ play,2,1,kellg101,??,,W.2-3;1-2
 play,2,1,stenc101,??,,S9.3-H;2-H;1-3
 play,2,1,snydf101,??,,NP
 sub,kauft101,"Tony Kaufmann",0,9,1
+presadj,kauft101,3
 play,2,1,snydf101,??,,FC5.3XH(521);1-3;B-2
 play,2,1,mcquh101,??,,8/F8S
 play,2,1,bancd101,??,,D9/9DW.3-H;2-H
@@ -8877,7 +8882,7 @@ play,5,0,grimr103,??,,K
 play,5,0,callm101,??,,7/L
 play,5,1,meusi101,??,,W
 play,5,1,younr101,??,,S8.1-2
-play,5,1,kellg101,??,,S/BG.2-3;1-2
+play,5,1,kellg101,??,,S3/BG.2-3;1-2
 play,5,1,stenc101,??,,W.3-H;2-3;1-2
 play,5,1,snydf101,??,,6
 play,5,1,ryanr101,??,,NP
@@ -8909,7 +8914,7 @@ play,7,0,grimr103,??,,S9.1-2
 play,7,0,callm101,??,,NP
 sub,jonnc101,"Claude Jonnard",1,9,1
 play,7,0,callm101,??,,S9/9S.2-3;1-2
-play,7,0,barbt101,??,,S/78.3-H;2-H;1-2
+play,7,0,barbt101,??,,S7/78.3-H;2-H;1-2
 play,7,0,kellj107,??,,15(2)/FO/BG.1-2
 play,7,0,ofarb101,??,,43.2-3;1-2
 play,7,0,jonep101,??,,NP
@@ -8927,17 +8932,16 @@ play,8,0,terrz101,??,,S7
 play,8,0,grimr103,??,,S9/G3.1-3
 play,8,0,callm101,??,,W.1-2
 play,8,0,barbt101,??,,64(1)/FO
-com,"reconstructed bottom 8 to end for NY12209140"
-play,8,1,bancd101,??,,99
-play,8,1,grohh101,??,,99
-play,8,1,frisf101,??,,99
+play,8,1,bancd101,??,,63
+play,8,1,grohh101,??,,8
+play,8,1,frisf101,??,,7
 play,9,0,kellj107,??,,99
 play,9,0,ofarb101,??,,99
 play,9,0,stueg101,??,,NP
 sub,fribb101,"Bernie Friberg",0,9,11
 play,9,0,fribb101,??,,K
-data,er,aldrv101,4
-data,er,kauft101,3
+data,er,aldrv101,3
+data,er,kauft101,4
 data,er,jonep101,0
 data,er,stueg101,0
 data,er,mcquh101,3
@@ -9097,6 +9101,7 @@ play,9,0,statj101,??,,D7.3-H;1-3
 play,9,0,hollc101,??,,S8.3-H;2-H
 play,9,0,terrz101,??,,NP
 sub,scotj101,"Jack Scott",1,9,1
+presadj,scotj101,1
 play,9,0,terrz101,??,,W.1-2
 play,9,0,grimr103,??,,K/C
 play,9,0,callm101,??,,E5/TH.2-H(UR);1-3;B-2

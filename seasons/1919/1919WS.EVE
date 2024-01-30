@@ -9,13 +9,14 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,riglc901
 info,ump1b,evanb901
 info,ump2b,nalld901
 info,ump3b,quige901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/06 2:21PM
 info,howscored,unknown
 info,pitches,pitches
@@ -24,7 +25,7 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,102
 info,attendance,30511
 info,wp,ruetd101
@@ -49,104 +50,107 @@ start,kopfl101,"Larry Kopf",1,6,6
 start,nealg101,"Greasy Neale",1,7,9
 start,wingi101,"Ivey Wingo",1,8,2
 start,ruetd101,"Dutch Ruether",1,9,1
-com,"$overflow crowd rings the outfield behind low temporary fences"
-play,1,0,colls101,21,BBKX,S8/L
+com,"$Overflow crowd ringed outfield behind low temporary fences."
+com,"Ground rules: two bases into LF crowd, three into RF crowd."
+play,1,0,colls101,21,BBCX,S8/L
 com,"Debut game for Dutch Ruether"
-play,1,0,colle101,11,BKX,16(1)/FO/BG
-play,1,0,weavb101,10,BK,CS2(24)
-play,1,0,weavb101,11,BK.X,8/F78
-com,"Roush making a great one-handed catch"
-play,1,1,rathm101,01,KH,HP
+play,1,0,colle101,11,BCX,16(1)/FO/BG
+play,1,0,weavb101,10,B>S,CS2(24)
+play,1,0,weavb101,11,B>S.X,8/F78XDW
+play,1,1,rathm101,01,CH,HP
+com,"$Rath was hit on the back"
 com,"Debut game for Morrie Rath"
-play,1,1,daubj101,01,KX,S8/89.1-3
-play,1,1,grohh101,20,BBX,7/SF/F7D.3-H
+play,1,1,daubj101,01,CX,S8/89.1-3
+play,1,1,grohh101,20,BBX,7/F7D/SF.3-H
 com,"Debut game for Heinie Groh"
-play,1,1,rouse101,20,BBK,CS2(26)
+play,1,1,rouse101,21,BBC>B,CS2(26)
 com,"Debut game for Edd Roush"
-play,1,1,rouse101,31,BBK.BB,W
-play,1,1,duncp101,10,BK,SB2
+play,1,1,rouse101,31,BBC>B.B,W
+play,1,1,duncp101,10,B>S,SB2
 com,"Debut game for Pat Duncan"
-play,1,1,duncp101,12,BK.KX,63
-play,2,0,jackj101,00,X,E6/TH1.B-2
-play,2,0,felsh101,00,X,13/SH.2-3
-play,2,0,gandc101,10,BX,S8/F78S.3-H(UR)
-play,2,0,risbs101,10,BK,CS2(24)
-play,2,0,risbs101,32,BK.BKBB,W
-play,2,0,schar103,21,BKBX,8
-play,2,1,kopfl101,02,KKK,K
+play,1,1,duncp101,12,B>S.CX,63
+play,2,0,jackj101,11,CBX,E6/TH1.B-2
+play,2,0,felsh101,00,X,13/BG/SH.2-3
+play,2,0,gandc101,12,CFBX,S8/F78S.3-H(UR)
+play,2,0,risbs101,20,BB>S,CS2(24)
+play,2,0,risbs101,32,BB>S.FBB,W
+play,2,0,schar103,21,PCBX,8/F8
+play,2,1,kopfl101,02,FFS,K
 com,"Debut game for Larry Kopf"
-play,2,1,nealg101,11,KBX,43
+play,2,1,nealg101,11,CBX,43
 com,"Debut game for Greasy Neale"
-play,2,1,wingi101,31,BBBKX,8
+play,2,1,wingi101,31,BBBCX,8/F8
 com,"Debut game for Ivey Wingo"
-play,3,0,cicoe101,12,KKBK,K/C
-play,3,0,colls101,11,KBX,8
-play,3,0,colle101,32,BKBBKX,63
-play,3,1,ruetd101,31,BKBBB,W
-play,3,1,rathm101,00,X,13/SH.1-2
-play,3,1,daubj101,10,BX,7
-play,3,1,grohh101,22,BKBKX,7
-play,4,0,weavb101,00,X,53/BG
-play,4,0,jackj101,11,BKX,63
-play,4,0,felsh101,01,KX,63
-play,4,1,rouse101,00,X,8/F8D
-play,4,1,duncp101,10,BX,S9
-play,4,1,kopfl101,00,X,16(1)/FO
-play,4,1,nealg101,00,X,S6.1-2
-play,4,1,wingi101,00,X,S9.2-H;1-3;B-2(THH)
+play,3,0,cicoe101,12,CCBC,K/C
+play,3,0,colls101,11,CBX,8/F8
+play,3,0,colle101,32,BCBBCX,63
+play,3,1,ruetd101,31,BFBBB,W
+play,3,1,rathm101,00,X,13/BG23/SH.1-2
+play,3,1,daubj101,10,BX,7/F7D
+play,3,1,grohh101,22,BCBFX,7/F7
+play,4,0,weavb101,10,BX,53/BG5S
+play,4,0,jackj101,11,BSX,63
+play,4,0,felsh101,01,CX,63/G6
+play,4,1,rouse101,00,X,8/F8XD
+play,4,1,duncp101,10,BX,S9/L4D
+play,4,1,kopfl101,00,X,16(1)/FO/R3
+play,4,1,nealg101,00,X,S6/G6M.1-2
+play,4,1,wingi101,00,X,S9/L.2-H;1-3;B-2(THH)
 play,4,1,ruetd101,10,BX,T8/78XD.3-H;2-H
-play,4,1,rathm101,20,BBX,DGR/7.3-H
-com,"$into the overflow crowd"
-play,4,1,daubj101,31,BKBBX,S9.2-H;B-2(THH)
+play,4,1,rathm101,20,BBX,DGR/G5L.3-H
+com,"$Rolled into the overflow crowd in LF"
+play,4,1,daubj101,31,BCBBX,S9.2-H;B-2(THH)
 play,4,1,grohh101,00,,NP
 sub,wilkr101,"Roy Wilkinson",0,9,1
-play,4,1,grohh101,11,.BKX,8
+play,4,1,grohh101,11,.BCX,8/F8S
 com,"Debut game for Roy Wilkinson"
-play,5,0,gandc101,11,BKX,S8
+play,5,0,gandc101,11,BCX,S8/L
 play,5,0,risbs101,00,X,8/F89D
 play,5,0,schar103,11,FBX,54(1)/FO
-play,5,0,wilkr101,00,X,4(1)/FO
-play,5,1,rouse101,01,KX,8/F8D
-play,5,1,duncp101,10,BX,S8
-play,5,1,kopfl101,11,KBB,CS2(26)
-play,5,1,kopfl101,32,KBB.KBX,63
-play,6,0,colls101,00,X,8/F78
-play,6,0,colle101,11,FBX,S1
+play,5,0,wilkr101,00,X,4(1)/FO/G4M
+play,5,1,rouse101,01,CX,8/F8XD
+play,5,1,duncp101,10,BX,S8/G6M
+play,5,1,kopfl101,11,CB>B,CS2(26)
+play,5,1,kopfl101,32,CB>B.CBX,63/G6M
+play,6,0,colls101,00,X,8/F78XD
+play,6,0,colle101,11,FBX,S14/R3
 play,6,0,weavb101,01,FX,S9/F9S.1-2
 play,6,0,jackj101,00,X,3/G.2-3;1-2
-play,6,0,felsh101,22,KBBFFX,9/F9S
-play,6,1,nealg101,10,BX,S8/89
-play,6,1,wingi101,02,FKC,K/C
-play,6,1,ruetd101,21,BBFX,S9.1-2
-play,6,1,rathm101,21,KBBX,6(B)4(2)/LDP
-play,7,0,gandc101,00,X,9/F9S
-play,7,0,risbs101,00,X,43
+play,6,0,felsh101,22,CBBFFX,9/F9S
+play,6,1,nealg101,10,BX,S8/L4D
+play,6,1,wingi101,12,FBFC,K/C
+play,6,1,ruetd101,21,BBF1X,S9.1-2
+play,6,1,rathm101,21,CBBX,6/LDP.2X2(64)
+play,7,0,gandc101,01,CX,9/F9S
+play,7,0,risbs101,10,BX,43
 play,7,0,schar103,00,X,53
-play,7,1,daubj101,11,KBX,T9/9D
-com,"$into the overflow crowd"
-play,7,1,grohh101,22,BKFBX,S8.3-H
-play,7,1,rouse101,00,X,5E3/SH.1-3;B-1
-play,7,1,duncp101,00,X,64(1)/FO.3-H(UR)
+play,7,1,daubj101,11,CBX,T9/89D
+com,"$Bounded into the overflow crowd on the first bounce for a"
+com,"ground-rule triple."
+play,7,1,grohh101,22,*BCFBX,S8/G6M.3-H
+play,7,1,rouse101,00,X,5E3/BG25/SH.1-3;B-1
+play,7,1,duncp101,00,X,64(1)/FO/R2.3-H(UR)
 play,7,1,kopfl101,00,X,64(1)3/GDP
 play,8,0,wilkr101,00,,NP
 sub,mcmuf101,"Fred McMullin",0,9,11
-play,8,0,mcmuf101,22,.KBKBX,S8
-play,8,0,colls101,01,KX,7
-play,8,0,colle101,00,X,8
-play,8,0,weavb101,10,BX,8
+play,8,0,mcmuf101,22,.CBFFBX,S8/L6D
+play,8,0,colls101,01,CX,7/F7
+play,8,0,colle101,00,X,8/F8
+play,8,0,weavb101,10,BX,8/F8
 play,8,1,nealg101,00,,NP
 sub,lowdg101,"Grover Lowdermilk",0,9,1
-play,8,1,nealg101,01,.KX,S7
+play,8,1,nealg101,01,.CX,S7/G5L
 com,"Debut game for Grover Lowdermilk"
-play,8,1,wingi101,00,X,13/SH.1-2
-play,8,1,ruetd101,11,FBX,T8/8D.2-H
+play,8,1,wingi101,00,X,13/BG1S/SH.1-2
+play,8,1,ruetd101,11,FBX,T8/L8XD.2-H
 play,8,1,rathm101,10,BX,63
-play,8,1,daubj101,32,BBKKBH,HP
-com,"Daubert was hit on the head, dropped but soon recovered"
-play,8,1,grohh101,31,BBBKB,W.1-2
+play,8,1,daubj101,32,B*BCC*BH,HP
+com,"$Daubert was hit on the back of the head and dropped to the"
+com,"ground.  After a few minutes he recovered and walked to 1B."
+play,8,1,grohh101,31,BBBCB,W.1-2
 play,8,1,rouse101,10,BX,46(1)/FO
-play,9,0,jackj101,00,X,9/F9D
-play,9,0,felsh101,02,FKX,8
+play,9,0,jackj101,01,CX,9/F9D
+play,9,0,felsh101,02,FFX,8/F8
 play,9,0,gandc101,00,X,43
 data,er,cicoe101,6
 data,er,wilkr101,1
@@ -160,16 +164,17 @@ info,hometeam,CIN
 info,date,1919/10/02
 info,site,CIN07
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:58PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,evanb901
 info,ump1b,quige901
 info,ump2b,nalld901
 info,ump3b,riglc901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,Vicksburg Eve Post"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/06 2:34PM
 info,howscored,unknown
 info,pitches,pitches
@@ -203,84 +208,82 @@ start,kopfl101,"Larry Kopf",1,6,6
 start,nealg101,"Greasy Neale",1,7,9
 start,rarib101,"Bill Rariden",1,8,2
 start,salls101,"Slim Sallee",1,9,1
-play,1,0,colls101,00,X,13/G1
-play,1,0,colle101,32,BBKFBB,W
-play,1,0,weavb101,10,BX,6(B)3(1)/LDP
-play,1,1,rathm101,32,KBBKBX,8
-play,1,1,daubj101,22,BKBFX,63
+play,1,0,colls101,10,BX,13/G1
+play,1,0,colle101,32,BBCFBB,W
+play,1,0,weavb101,10,BX,6/LDP.1X1(63)
+play,1,1,rathm101,32,CBBCBX,8/F8S
+play,1,1,daubj101,22,BCBFX,63
 play,1,1,grohh101,00,X,9/L
-play,2,0,jackj101,01,KX,D8/L
-com,"Roush missed the catch by a few inches"
-play,2,0,felsh101,00,X,13/SH.2-3
-play,2,0,gandc101,01,KX,63
-play,2,0,risbs101,20,BBX,9
-play,2,1,rouse101,31,BBBKB,W
-play,2,1,duncp101,22,BKFBX,4(B)3(1)/LDP
-play,2,1,kopfl101,20,BBX,8
-play,3,0,schar103,22,KBKBFX,8/F89
-play,3,0,willl104,01,KX,S7
+play,2,0,jackj101,01,CX,D8/F78S
+play,2,0,felsh101,00,X,13/BG/SH.2-3
+play,2,0,gandc101,01,CX,63/G6S
+play,2,0,risbs101,20,BBX,9/F
+play,2,1,rouse101,31,BBBCB,W
+play,2,1,duncp101,22,BCFBX,4/LDP.1X1(43)
+play,2,1,kopfl101,20,BBX,8/F
+play,3,0,schar103,22,CBSBFX,8/L89
+play,3,0,willl104,01,CX,S7/6D
 play,3,0,colls101,10,BX,7/L7S
 play,3,0,colle101,10,BX,3/G
-play,3,1,nealg101,12,KFBK,K
-play,3,1,rarib101,21,BKBX,7/F78
-com,"Jackson nearly lost it in the sun"
-play,3,1,salls101,10BX,,5/P
-play,4,0,weavb101,01,FX,S8
+play,3,1,nealg101,12,CFBS,K
+play,3,1,rarib101,21,BCBX,7/F78
+play,3,1,salls101,10,BX,5/P5S
+play,4,0,weavb101,01,FX,S8/8S
 play,4,0,jackj101,00,X,S7.1-2
-play,4,0,felsh101,00,X,14/SH.2-3;1-2
+play,4,0,felsh101,00,X,14/BG1S/SH.2-3;1-2
 play,4,0,gandc101,00,X,FC3.3XH(32);2-3;B-1
-play,4,0,risbs101,01,KB,SB2
-play,4,0,risbs101,32,KB.BBFX,3/P9S
-play,4,1,rathm101,32,BBKBKB,W
-play,4,1,daubj101,02,FLX,13/SH.1-2
-play,4,1,grohh101,32,KBKBFBB,W
-play,4,1,rouse101,21,BBKX,S8/L.2-H;1-3(THH)
-play,4,1,duncp101,22,KKBBB,CS2(26)
-play,4,1,duncp101,32,KKBBB.B,W
-play,4,1,kopfl101,00,X,T7/7DW.3-H;1-H
-com,"$Ground rule triple into the overflow crowd"
-play,4,1,nealg101,02,KKX,43
-play,5,0,schar103,11,KBX,8/F7S
-play,5,0,willl104,32,KBBBFX,63
+play,4,0,risbs101,01,C>B,SB2/R1
+play,4,0,risbs101,32,C>B.BBFX,3/P3D
+play,4,1,rathm101,32,BBCBCB,W
+play,4,1,daubj101,01,LX,13/BG23/SH.1-2
+play,4,1,grohh101,32,CBCBFBB,W
+play,4,1,rouse101,21,BBCX,S8/L8S.2-H;1-3(THH)
+play,4,1,duncp101,22,CSBB>B,CS2(26)
+play,4,1,duncp101,32,CSBB>B.B,W
+play,4,1,kopfl101,00,X,T7/7D.3-H;1-H
+com,"$Ground rule triple into the overflow LF crowd"
+play,4,1,nealg101,02,SCX,43/G4
+play,5,0,schar103,11,CBX,8/F78S
+play,5,0,willl104,32,CBBBFX,63
 play,5,0,colls101,00,X,63
-play,5,1,rarib101,11,BKX,S7
-play,5,1,salls101,22,FKBFBFX,8
-play,5,1,rathm101,11,BKX,E6/G.1-2;B-1
-play,5,1,daubj101,01,KX,4/P
-play,5,1,grohh101,22,KFBBX,8/L
-play,6,0,colle101,22,KBKBX,6/L
-play,6,0,weavb101,00,X,D7/7DW
-play,6,0,jackj101,02,KKC,K/C
+play,5,1,rarib101,11,BCX,S7/L7L
+play,5,1,salls101,22,LLBFFBFX,8/F8
+play,5,1,rathm101,11,BCX,E6/G6S.1-2;B-1
+play,5,1,daubj101,01,FX,4/P4
+play,5,1,grohh101,22,CFBBX,8/L8
+play,6,0,colle101,22,CBFBX,6/L6
+play,6,0,weavb101,00,X,D8/F7DW
+play,6,0,jackj101,02,CFC,K/C
 play,6,0,felsh101,00,N,BK.2-3
-play,6,0,felsh101,00,.X,8/F8D
-play,6,1,rouse101,32,KBBBKB,W
-play,6,1,duncp101,00,X,13/SH.1-2
-play,6,1,kopfl101,10,BX,5/FL
-play,6,1,nealg101,12,KBKX,S7.2-H
-play,6,1,rarib101,22,KBFBB,CS2(26)
-play,7,0,gandc101,01,KX,31
+play,6,0,felsh101,00,.X,8/F8XD
+play,6,1,rouse101,32,SBBBCB,W
+play,6,1,duncp101,00,X,13/BG23/SH.1-2
+play,6,1,kopfl101,10,BX,5/P5F/FL
+play,6,1,nealg101,12,S*BSX,S7.2-H
+play,6,1,rarib101,22,CBFB>C,CS2(26)
+play,7,0,gandc101,01,CX,31
 com,"An airplane passed over and dropped a dummy that fell"
-com,"just behind shortstop. Play was held until it was removed"
+com,"just behind shortstop. Play was held until it was removed."
 play,7,0,risbs101,00,X,S7
 play,7,0,schar103,00,X,S9.1-H(NR)(UR)(E9/TH2);B-H(NR)(UR)
-play,7,0,willl104,22,KKBBK,K
-play,7,0,colls101,21,BKBX,8
-play,7,1,rarib101,11,KBX,2/FL
-play,7,1,salls101,01,FX,9
-play,7,1,rathm101,01,KX,5/L
-play,8,0,colle101,21,BBKX,8
+play,7,0,willl104,22,CSBBS,K
+play,7,0,colls101,21,BSBX,8/F8
+play,7,1,rarib101,11,CBX,2/P25F/FL
+play,7,1,salls101,01,FX,9/F9LD
+play,7,1,rathm101,01,CX,5/L5
+play,8,0,colle101,21,BBCX,8/F8
 play,8,0,weavb101,00,X,63
-play,8,0,jackj101,00,X,S3/9S.B-2(E3/TH1)
-play,8,0,felsh101,00,X,53/L
-play,8,1,daubj101,32,BBKBKX,63
+play,8,0,jackj101,00,X,S3/G34.B-2(E3/TH1)
+play,8,0,felsh101,00,X,53/G5
+play,8,1,daubj101,32,BBCCBX,63
 play,8,1,grohh101,31,BFBBB,W
 play,8,1,rouse101,00,X,8/F8S/DP.1X1(843)
-play,9,0,gandc101,00,X,S8
+play,9,0,gandc101,00,X,S8/8S
 play,9,0,risbs101,00,X,46(1)3/GDP
-play,9,0,schar103,32,BBKBKX,S8
+play,9,0,schar103,32,BBCBCX,S8
 play,9,0,willl104,00,,NP
 sub,mcmuf101,"Fred McMullin",0,9,11
-play,9,0,mcmuf101,01,.KX,43
+play,9,0,mcmuf101,01,.CX,43/G4
 data,er,willl104,4
 data,er,salls101,0
 id,CHA191910030
@@ -294,22 +297,23 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,quige901
 info,ump1b,nalld901
 info,ump2b,riglc901
 info,ump3b,evanb901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,Vicksburg Eve Post"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/06 2:44PM
 info,howscored,unknown
 info,pitches,pitches
 info,temp,75
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,wet
+info,precip,none
+info,sky,cloudy
 info,timeofgame,90
 info,attendance,29126
 info,wp,kerrd101
@@ -334,80 +338,77 @@ start,gandc101,"Chick Gandil",1,6,3
 start,risbs101,"Swede Risberg",1,7,6
 start,schar103,"Ray Schalk",1,8,2
 start,kerrd101,"Dickie Kerr",1,9,1
-play,1,0,rathm101,12,SFBFX,63
+play,1,0,rathm101,12,CLBFX,63
 com,"Debut game for Dickie Kerr"
-play,1,0,daubj101,10,BX,8
-play,1,0,grohh101,12,BKKK,K
-play,1,1,leibn101,11,KBX,9
+play,1,0,daubj101,21,BCBX,8/F8S
+play,1,0,grohh101,12,BCCS,K
+play,1,1,leibn101,11,CBX,9/L9S
 com,"Debut game for Ray Fisher"
 play,1,1,colle101,00,X,13/G1
-play,1,1,weavb101,12,BKFX,3/P
-play,2,0,rouse101,00,X,63
-play,2,0,duncp101,01,KX,S9/89
-play,2,0,kopfl101,21,KBBX,63.1-2
+play,1,1,weavb101,12,BCFX,3/P
+play,2,0,rouse101,00,X,63/G6
+play,2,0,duncp101,01,CX,S9/89S
+play,2,0,kopfl101,21,CBB>X,63.1-2
 play,2,0,nealg101,10,BX,43
-play,2,1,jackj101,12,KBKX,S7
-play,2,1,felsh101,01,KX,FC1.1-3(E1/TH2);B-2
-play,2,1,gandc101,00,X,S9.3-H(UR);2-H(UR);B-2(THH)
-play,2,1,risbs101,32,BKBKBB,W
-play,2,1,schar103,00,X,15(2)/FO.1-2
-play,2,1,kerrd101,11,FK+2,NP
-com,"Fisher threw to Groh at 3B thinking Risberg was trying to steal."
-com,"Risberg got back to 2B ahead of the throw."
-play,2,1,kerrd101,12,FK+2.BX,15(2)/FO.1-2
-play,2,1,leibn101,00,X,53
-play,3,0,rarib101,32,BBBKKX,53
-play,3,0,fishr101,01,KX,S1/G
-play,3,0,rathm101,01,1KX,6/P
-play,3,0,daubj101,01,KX,46(1)/FO
-play,3,1,colle101,11,BKX,S7
-play,3,1,weavb101,01,K>X,S7.1-2
-play,3,1,jackj101,01,KX,3/BP
+play,2,1,jackj101,12,CBSX,S7/L
+play,2,1,felsh101,01,CX,FC1/BG.1-3(E1/TH2);B-2
+play,2,1,gandc101,00,X,S9/G34.3-H(UR);2-H(UR);B-2(THH)
+play,2,1,risbs101,32,CBBLBB,W
+play,2,1,schar103,00,X,15(2)/FO/BG25.1-2
+play,2,1,kerrd101,12,FS+2.BX,15(2)/FO.1-2
+play,2,1,leibn101,00,X,53/G56
+play,3,0,rarib101,32,BBBCCX,53
+play,3,0,fishr101,01,CX,S1/G25
+play,3,0,rathm101,01,1CX,6/P
+play,3,0,daubj101,01,CX,46(1)/FO
+play,3,1,colle101,11,BCX,S67/L
+play,3,1,weavb101,01,C>X,S7/G6.1-2
+play,3,1,jackj101,01,CX,3/BP13
 play,3,1,felsh101,00,X,54(1)3/GDP
-play,4,0,grohh101,31,BBKBB,W
-play,4,0,rouse101,01,KX,63.1-2
-play,4,0,duncp101,02,KFX,6(B)4(2)/LDP
+play,4,0,grohh101,31,BBCBB,W
+play,4,0,rouse101,01,CX,63/G6MS.1-2
+play,4,0,duncp101,02,CFX,6/LDP.2X2(64)
 play,4,1,gandc101,00,X,53
-play,4,1,risbs101,11,KBX,T9
-play,4,1,schar103,00,X,S1/BG.3-H
-play,4,1,kerrd101,00,K,CS2(24)
-play,4,1,kerrd101,21,K.BBX,63
-play,5,0,kopfl101,11,BKX,S9
-play,5,0,nealg101,21,BBKX,36(1)/FO
-play,5,0,rarib101,11,FBX,43.1-2
+play,4,1,risbs101,11,FBX,T9/F9L
+play,4,1,schar103,00,X,S15/L1.3-H
+play,4,1,kerrd101,00,>C,CS2(24)
+play,4,1,kerrd101,21,>C.BBX,63/G6
+play,5,0,kopfl101,11,BCX,S9
+play,5,0,nealg101,21,BBCX,36(1)/FO
+play,5,0,rarib101,11,FBX,43/G4.1-2
 play,5,0,fishr101,20,BBX,53
-play,5,1,leibn101,11,BKX,3/G
-play,5,1,colle101,21,BKBX,13/G1
-play,5,1,weavb101,01,KX,13/G1
-play,6,0,rathm101,11,BKX,63
-play,6,0,daubj101,21,BBKX,7/L
-play,6,0,grohh101,21,BBKX,53
-play,6,1,jackj101,22,KBBFFX,S7
-play,6,1,felsh101,00,K,CS2(26)
-play,6,1,felsh101,32,K.BKBBB,W
-play,6,1,gandc101,00,B,CS2(24)
-play,6,1,gandc101,22,B.BKFFC,K/C
-play,7,0,rouse101,00,X,3/P
-play,7,0,duncp101,32,BKBBKFS,K
-play,7,0,kopfl101,01,KX,9
-play,7,1,risbs101,11,KBX,53
-play,7,1,schar103,22,BFKBX,53
+play,5,1,leibn101,11,BCX,3/G
+play,5,1,colle101,21,BCBX,13/G1
+play,5,1,weavb101,01,SX,13/G1
+play,6,0,rathm101,11,BCX,63
+play,6,0,daubj101,21,BBCX,7/F7
+play,6,0,grohh101,21,BBCX,53
+play,6,1,jackj101,22,SBBFFX,S6/F78S
+play,6,1,felsh101,00,>S,CS2(26)
+play,6,1,felsh101,32,>S.BSBBB,W
+play,6,1,gandc101,00,>B,CS2(24)
+play,6,1,gandc101,22,>B.BCFFC,K/C
+play,7,0,rouse101,00,X,3/P3D
+play,7,0,duncp101,32,BCBBCFS,K
+play,7,0,kopfl101,01,SX,9/F9S
+play,7,1,risbs101,11,CBX,53/G56
+play,7,1,schar103,22,BFCBX,53/G5
 play,7,1,kerrd101,00,X,43
-play,8,0,nealg101,12,KBFS,K
+play,8,0,nealg101,12,CBFS,K
 play,8,0,rarib101,10,BX,43
 play,8,0,fishr101,00,,NP
 sub,mages101,"Sherry Magee",0,9,11
-play,8,0,mages101,11,.BFX,9
+play,8,0,mages101,11,.BFX,9/F
 com,"Debut game for Sherry Magee"
 play,8,1,leibn101,00,,NP
 sub,luqud101,"Dolf Luque",0,9,1
-play,8,1,leibn101,22,.BKKBK,K
+play,8,1,leibn101,22,.BCFBC,K/C
 com,"Debut game for Dolf Luque"
-play,8,1,colle101,22,BKBFX,31
-play,8,1,weavb101,20,BBX,43
-play,9,0,rathm101,01,KX,43
-play,9,0,daubj101,22,BBKKK,K
-play,9,0,grohh101,01,KX,53
+play,8,1,colle101,22,BCBFX,31
+play,8,1,weavb101,20,BBX,43/G4
+play,9,0,rathm101,01,SX,43
+play,9,0,daubj101,22,BBCCS,K
+play,9,0,grohh101,01,CX,53
 data,er,fishr101,1
 data,er,luqud101,0
 data,er,kerrd101,0
@@ -419,16 +420,17 @@ info,hometeam,CHA
 info,date,1919/10/04
 info,site,CHI10
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,nalld901
 info,ump1b,riglc901
 info,ump2b,evanb901
 info,ump3b,quige901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,Vicksburg Eve Post"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/06 2:55PM
 info,howscored,unknown
 info,pitches,pitches
@@ -437,7 +439,7 @@ info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,97
 info,attendance,34363
 info,wp,ringj101
@@ -462,80 +464,80 @@ start,gandc101,"Chick Gandil",1,6,3
 start,risbs101,"Swede Risberg",1,7,6
 start,schar103,"Ray Schalk",1,8,2
 start,cicoe101,"Eddie Cicotte",1,9,1
-play,1,0,rathm101,12,KFBFFX,S7
+play,1,0,rathm101,12,CFBFFX,S7/L5D
 play,1,0,daubj101,10,BX,46(1)3/GDP
-play,1,0,grohh101,10,BX,6/P
-play,1,1,leibn101,22,FFBBX,3/P9S
+play,1,0,grohh101,10,BX,6/P56D
+play,1,1,leibn101,22,FFBBX,3/P3D
 com,"Debut game for Jimmy Ring"
 play,1,1,colle101,11,BFX,4/P
-play,1,1,weavb101,10,BX,9
-play,2,0,rouse101,01,KX,7
-play,2,0,duncp101,02,KFX,4/P34D
-play,2,0,kopfl101,12,FBKFK,K
+play,1,1,weavb101,10,BX,9/F9
+play,2,0,rouse101,01,CX,7/F7
+play,2,0,duncp101,02,SFX,4/P34D
+play,2,0,kopfl101,12,FBSFS,K
 play,2,1,jackj101,01,SX,D8/F89
-play,2,1,felsh101,00,X,14/SH.2-3
-play,2,1,gandc101,11,FBX,5/P2
-play,2,1,risbs101,32,BBBKKFB,W
-play,2,1,schar103,10,P1B,SB2
-play,2,1,schar103,30,P1B.II,IW
-play,2,1,cicoe101,32,KBBKBX,43
+play,2,1,felsh101,01,CX,14/BG/SH.2-3
+play,2,1,gandc101,11,FBX,5/P1S
+play,2,1,risbs101,32,BBBCSFB,W
+play,2,1,schar103,10,P1>B,SB2
+play,2,1,schar103,30,P1>B.BI,IW
+play,2,1,cicoe101,32,CBBCB>X,43/G4
 play,3,0,nealg101,00,X,53
-play,3,0,wingi101,01,KX,S8
-play,3,0,ringj101,02,LFFS,K
-play,3,0,rathm101,11,BFB,CS2(24)
-play,3,1,leibn101,11,BKX,9
+play,3,0,wingi101,01,CX,S8/4D
+play,3,0,ringj101,02,LLS,K
+play,3,0,rathm101,11,BF>B,CS2(24)
+play,3,1,leibn101,11,BCX,9/F9D
 play,3,1,colle101,00,H,HP
-play,3,1,weavb101,11,BKX,3/G.1-2
-play,3,1,jackj101,00,X,E4.2-3;B-1
+play,3,1,weavb101,11,BCX,3/G3L.1-2
+play,3,1,jackj101,00,X,E4/G.2-3;B-1
 play,3,1,felsh101,00,X,53
-play,4,0,rathm101,02,KFX,7
-play,4,0,daubj101,01,FX,23/BG
-play,4,0,grohh101,11,BKX,4/L
-play,4,1,gandc101,01,FX,3/FL
-play,4,1,risbs101,01,FX,9
-play,4,1,schar103,11,BKX,6/P
-play,5,0,rouse101,11,BFX,23/G2
+play,4,0,rathm101,02,CFX,7/F7S
+play,4,0,daubj101,01,FX,23/G2
+play,4,0,grohh101,11,BCX,4/L4
+play,4,1,gandc101,01,FX,3/P3F/FL
+play,4,1,risbs101,01,FX,9/F9
+play,4,1,schar103,11,BCX,6/P56D
+play,5,0,rouse101,11,BFX,23/G1S
 play,5,0,duncp101,10,BX,E1/TH1.B-2
-play,5,0,kopfl101,22,BKKBFX,S7.2-H(E1)(NR)(UR);B-2
-com,"$Cicotte tried to cut off Jackson's throw to the plate but"
+play,5,0,kopfl101,22,BSFBFX,S7/L/THH.2-H(E1)(NR)(UR);B-2
+com,"$Cicotte tried to cut off throw from Jackson to the plate but"
 com,"deflected it to the grandstand allowing Duncan to score"
 com,"and Kopf to advance to second"
-play,5,0,nealg101,21,KBBX,D7.2-H(UR)
+play,5,0,nealg101,21,BMBX,D7/F7D.2-H(UR)
 play,5,0,wingi101,00,X,43.2-3
-play,5,0,ringj101,01,KX,43
-play,5,1,cicoe101,00,X,31
-play,5,1,leibn101,32,FBBBKX,E5/TH1.B-2
-play,5,1,colle101,10,BX,FC5.2X3(54)
-play,5,1,weavb101,10,BX,3/G
-play,6,0,rathm101,22,KBFBFX,63
-play,6,0,daubj101,21,KBBX,43
+play,5,0,ringj101,01,SX,43/G4
+play,5,1,cicoe101,00,X,31/G34
+play,5,1,leibn101,32,SBBBCX,E5/TH1/G5S.B-2
+play,5,1,colle101,10,*BX,FC5.2X3(54);B-1
+play,5,1,weavb101,10,BX,3/G3L
+play,6,0,rathm101,22,CBFBFX,63/G6
+play,6,0,daubj101,21,CBBX,43/G4
 play,6,0,grohh101,22,FBFBX,53
-play,6,1,jackj101,10,BX,63
-play,6,1,felsh101,00,X,7/F7D
-play,6,1,gandc101,22,BKBKX,S8
-play,6,1,risbs101,21,BKBX,9
-play,7,0,rouse101,21,BKBX,43
-play,7,0,duncp101,11,KBX,53
+play,6,1,jackj101,10,BX,63/G6M
+play,6,1,felsh101,00,X,7/F7DW
+play,6,1,gandc101,32,BBCBCX,S8/G6M
+play,6,1,risbs101,21,BCBX,9/L9L
+play,7,0,rouse101,21,BSBX,43/G4
+play,7,0,duncp101,11,CBX,53/G56
 play,7,0,kopfl101,10,BX,63
-play,7,1,schar103,11,BKH,HP
-play,7,1,cicoe101,01,KX,4/P
-play,7,1,leibn101,11,BKX,8
+play,7,1,schar103,11,BCH,HP
+play,7,1,cicoe101,01,CX,4/P34D
+play,7,1,leibn101,11,BCX,8/F8
 play,7,1,colle101,00,X,53
-play,8,0,nealg101,12,BKKX,13/G1
-play,8,0,wingi101,00,X,S8
-play,8,0,ringj101,01,MX,16(1)3/GDP
-play,8,1,weavb101,22,BBKFX,4/P3D
-play,8,1,jackj101,22,KBKFBS,K
-play,8,1,felsh101,12,SBSX,S7
+play,8,0,nealg101,12,BCMX,13/G1
+play,8,0,wingi101,00,X,S8/G46
+play,8,0,ringj101,01,MX,16(1)3/BGDP
+play,8,1,weavb101,22,BBCFX,4/P3D
+play,8,1,jackj101,22,CBSFBS,K
+play,8,1,felsh101,22,TBBSX,S7/L5D
 play,8,1,gandc101,12,BFFC,K/C
-play,9,0,rathm101,21,BKBX,2/FL
-play,9,0,daubj101,01,KX,7
+play,9,0,rathm101,21,BCBX,2/P2F/FL
+play,9,0,daubj101,01,CX,7/L
 play,9,0,grohh101,00,X,2/FL
 play,9,1,risbs101,01,FX,13/G1
-play,9,1,schar103,31,KBBBB,W
+play,9,1,schar103,31,CBBBB,W
 play,9,1,cicoe101,00,,NP
 sub,murpe102,"Eddie Murphy",1,9,11
-play,9,1,murpe102,00,.X,8
+play,9,1,murpe102,00,.X,8/L8D
 play,9,1,leibn101,00,X,5/L
 data,er,ringj101,0
 data,er,cicoe101,0
@@ -550,13 +552,14 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,riglc901
 info,ump1b,evanb901
 info,ump2b,quige901
 info,ump3b,nalld901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,Vicksburg Eve Post"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/06 3:07PM
 info,howscored,unknown
 info,pitches,pitches
@@ -590,82 +593,81 @@ start,gandc101,"Chick Gandil",1,6,3
 start,risbs101,"Swede Risberg",1,7,6
 start,schar103,"Ray Schalk",1,8,2
 start,willl104,"Lefty Williams",1,9,1
-play,1,0,rathm101,32,BKBKBB,W
-play,1,0,daubj101,00,X,23/SH.1-2
-play,1,0,grohh101,20,BBX,8
-play,1,0,rouse101,11,BKX,31
-play,1,1,leibn101,32,BBKFBB,W
+play,1,0,rathm101,32,BCBCBB,W
+play,1,0,daubj101,10,BX,23/BG2L/SH.1-2
+play,1,0,grohh101,20,BBX,8/F8
+play,1,0,rouse101,11,BCX,31
+play,1,1,leibn101,32,BBCFBB,W
 com,"Debut game for Hod Eller"
-play,1,1,colle101,21,BBKX,63.1-2
-play,1,1,weavb101,01,KX,S1.2-3
-play,1,1,jackj101,02,KFX,5/P
-play,1,1,felsh101,01,KX,7
-play,2,0,duncp101,22,KKBBS,K
-play,2,0,kopfl101,12,KBFX,2/FL
-play,2,0,nealg101,12,KBKK,K
+play,1,1,colle101,21,BBCX,63.1-2
+play,1,1,weavb101,01,FX,S1/L.2-3
+play,1,1,jackj101,02,SFX,5/P5L
+play,1,1,felsh101,01,SX,7/F
+play,2,0,duncp101,22,CCBBS,K
+play,2,0,kopfl101,12,CBFX,2/FL
+play,2,0,nealg101,12,SBSS,K
 play,2,1,gandc101,22,SBSFBS,K
-play,2,1,risbs101,32,BBKBKC,K/C
-play,2,1,schar103,22,KBFFBC,K/C
-play,3,0,rarib101,11,KBX,3/G
-play,3,0,elleh101,01,FX,5/P2
-play,3,0,rathm101,12,KBKX,3/FL
-play,3,1,willl104,22,BKBKC,K/C
-play,3,1,leibn101,02,KFC,K/C
-play,3,1,colle101,32,BBBKKK,K
-play,4,0,daubj101,02,FFX,8
-play,4,0,grohh101,12,KBKX,8
-com,"Groh fell down to avoid Williams' second pitch"
-play,4,0,rouse101,22,SSBFFBFX,E6/G.B-1
-play,4,0,duncp101,10,BK,SB2.1-2(PB)
-play,4,0,duncp101,22,BK.BKX,7
-play,4,1,weavb101,11,BKX,13/G1
-play,4,1,jackj101,01,KX,13
-play,4,1,felsh101,02,KFK,K
-play,5,0,kopfl101,01,FX,S9/89
-play,5,0,nealg101,02,LLX,64(1)/FO
-play,5,0,rarib101,00,B,CS2(26)
-play,5,0,rarib101,22,B.KBFX,8
-play,5,1,gandc101,00,X,43
-play,5,1,risbs101,12,KBKX,53
-play,5,1,schar103,01,FX,S7
-play,5,1,willl104,12,KBKFK,K
-play,6,0,elleh101,02,KKX,D8/78.B-3(E8/TH2)
-play,6,0,rathm101,22,BKKFBX,S9.3-H
-play,6,0,daubj101,01,KX,53/SH.1-2
+play,2,1,risbs101,32,BBCBCC,K/C
+play,2,1,schar103,22,SBFBC,K/C
+play,3,0,rarib101,11,SBX,3/G3L
+play,3,0,elleh101,01,FX,5/P1S
+play,3,0,rathm101,12,CBCX,3/P3F/FL
+play,3,1,willl104,22,BBCCC,K/C
+play,3,1,leibn101,02,CFC,K/C
+play,3,1,colle101,32,BBBCCS,K
+play,4,0,daubj101,02,LFX,8/F
+play,4,0,grohh101,12,CBCX,8/F
+play,4,0,rouse101,22,SSBFFBFFX,E6/G6S.B-1
+play,4,0,duncp101,10,B>S,SB2.1-2(PB)
+play,4,0,duncp101,22,B>S.BCX,7/F7
+play,4,1,weavb101,11,BCX,13/G1
+play,4,1,jackj101,01,SX,13/G1S
+play,4,1,felsh101,02,SFS,K
+play,5,0,kopfl101,01,FX,S9/L89S
+play,5,0,nealg101,02,LLFX,64(1)/FO
+play,5,0,rarib101,00,>B,CS2(26)
+play,5,0,rarib101,22,>B.CBFX,8/F
+play,5,1,gandc101,00,X,43/G4
+play,5,1,risbs101,12,SBSX,53
+play,5,1,schar103,01,FX,S7/G56
+play,5,1,willl104,12,SBSFS,K
+play,6,0,elleh101,02,CSX,D8/F78/R65.B-3(E8/TH3)
+play,6,0,rathm101,22,BCBCFX,S9/L4D.3-H
+play,6,0,daubj101,01,CX,53/BG/SH.1-2
 play,6,0,grohh101,30,BBBB,W
-play,6,0,rouse101,01,KX,T8/8D.2-H;1-H
-com,"ej,schar103,P,riglc901,Call at HP (Bumped umpire"
+play,6,0,rouse101,01,CX,T8/F8XD/R42.2-H;1-H
+com,"ej,schar103,P,riglc901,Call at HP (Bumped umpire)"
 com,"$Schalk ejected by HP umpire Rigler for arguing Groh was"
 com,"out at home; he bumped umpire"
 play,6,0,duncp101,00,,NP
 sub,lynnb101,"Byrd Lynn",1,8,2
-play,6,0,duncp101,02,KKX,7/SF.3-H
-play,6,0,kopfl101,00,X,8
-play,6,1,leibn101,00,X,53
-play,6,1,colle101,10,BX,8/F8D
-play,6,1,weavb101,01,FX,63
+play,6,0,duncp101,02,SCFX,7/SF/THH.3-H
+play,6,0,kopfl101,00,X,8/F8
+play,6,1,leibn101,00,X,53/G5
+play,6,1,colle101,10,BX,8/F78D
+play,6,1,weavb101,01,FX,63/G6
 play,7,0,nealg101,10,BX,43
-play,7,0,rarib101,11,FBX,9
-play,7,0,elleh101,12,FKBK,K
-play,7,1,jackj101,12,FFBX,43
-play,7,1,felsh101,12,FBKX,2/FL
-play,7,1,gandc101,00,X,8
-play,8,0,rathm101,02,LFX,7/L
-play,8,0,daubj101,00,X,8
-play,8,0,grohh101,02,FFFX,8
-play,8,1,risbs101,00,X,9
-play,8,1,lynnb101,01,KX,7
+play,7,0,rarib101,11,FBX,9/F9
+play,7,0,elleh101,12,FSBS,K
+play,7,1,jackj101,12,FFBX,43/G4
+play,7,1,felsh101,12,FBFX,2/FL
+play,7,1,gandc101,00,X,8/F8
+play,8,0,rathm101,02,LFX,7/F7S
+play,8,0,daubj101,00,X,8/F89S
+play,8,0,grohh101,02,FFFFX,8/F8S
+play,8,1,risbs101,00,X,9/F89S
+play,8,1,lynnb101,01,CX,7/F7L
 play,8,1,willl104,00,,NP
 sub,murpe102,"Eddie Murphy",1,9,11
-play,8,1,murpe102,12,.BKFS,K
+play,8,1,murpe102,12,.BCFS,K
 play,9,0,rouse101,00,,NP
 sub,mayee101,"Erskine Mayer",1,9,1
-play,9,0,rouse101,32,.BBBKKX,E4.B-1
+play,9,0,rouse101,32,.BBBCCX,E4/G4M.B-1
 play,9,0,duncp101,30,BBBB,W.1-2
-play,9,0,kopfl101,21,BKBX,53/SH.2-3;1-2
+play,9,0,kopfl101,21,BCBX,53/BG/SH.2-3;1-2
 play,9,0,nealg101,00,X,63.3-H(UR);2-3
-play,9,0,rarib101,32,FBFBBX,43
-play,9,1,leibn101,01,FX,43
+play,9,0,rarib101,32,CFBFBBX,43
+play,9,1,leibn101,01,FX,43/G4S
 play,9,1,colle101,00,X,63
 play,9,1,weavb101,00,X,T8/89D
 play,9,1,jackj101,00,X,63
@@ -683,13 +685,14 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,evanb901
 info,ump1b,quige901
 info,ump2b,nalld901
 info,ump3b,riglc901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,Vicksburg Eve Post"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/07 12:55PM
 info,howscored,unknown
 info,pitches,pitches
@@ -723,107 +726,105 @@ start,kopfl101,"Larry Kopf",1,6,6
 start,nealg101,"Greasy Neale",1,7,9
 start,rarib101,"Bill Rariden",1,8,2
 start,ruetd101,"Dutch Ruether",1,9,1
-play,1,0,colls101,32,BBBKKX,4/P8S
-play,1,0,colle101,22,BBKKX,8/L
-play,1,0,weavb101,12,FFBX,S8
-play,1,0,jackj101,21,BBFX,6/P
-play,1,1,rathm101,21,KBBX,6/P
-play,1,1,daubj101,00,X,13/G1
-play,1,1,grohh101,32,KBBFBX,D9
-play,1,1,rouse101,32,BBFFBX,S6.2X3(65)
-com,"$Heinie Groh overran 3B"
+play,1,0,colls101,32,BBBCCX,4/P4MD
+play,1,0,colle101,22,BBCCX,8/L8S
+play,1,0,weavb101,12,FSBX,S8/G6M
+play,1,0,jackj101,21,BBFX,5/P
+play,1,1,rathm101,21,CBBX,6/P
+play,1,1,daubj101,00,X,13/G34S
+play,1,1,grohh101,32,CBBFBX,D9/L89
+play,1,1,rouse101,32,BBFFBX,S6/G6M.2XH(65)
 play,2,0,felsh101,22,FBBFX,9/F9D
-play,2,0,gandc101,12,FBFX,63
-play,2,0,risbs101,10,BX,9
-play,2,1,duncp101,21,KBBX,E6/G.B-1
-play,2,1,kopfl101,30,BBBB,W.1-2
+play,2,0,gandc101,12,FBTX,63
+play,2,0,risbs101,11,BFX,9/F9
+play,2,1,duncp101,21,CBBX,E6/G6S.B-1
+play,2,1,kopfl101,30,PPBB,W.1-2
 play,2,1,nealg101,00,X,15(2)/FO/BG.1-2
 play,2,1,rarib101,20,BBX,46(1)/FO.2-3
 play,2,1,ruetd101,10,BX,13/G1
-play,3,0,schar103,31,BBKBB,W
-play,3,0,kerrd101,10,BX,54/SH.1-2
-play,3,0,colls101,00,X,8
-play,3,0,colle101,02,FKX,7/L
-play,3,1,rathm101,21,BKBX,43
-play,3,1,daubj101,01,KX,S9
-play,3,1,grohh101,12,KFBC,K/C
-play,3,1,rouse101,00,B,SB2
-play,3,1,rouse101,10,B.H,HP
-play,3,1,duncp101,01,KX,D9/89.2-H;1-H
-play,3,1,kopfl101,01,FX,8/F8D
-play,4,0,weavb101,00,X,7
-play,4,0,jackj101,00,X,2/FL
-play,4,0,felsh101,01,KX,S8
-play,4,0,gandc101,31,BBBKX,63
-play,4,1,nealg101,00,X,T9/9D
-play,4,1,rarib101,00,X,43
-play,4,1,ruetd101,11,BKX,D7.3-H
-play,4,1,rathm101,00,X,FC6.2-H(E6/TH3)(UR)(NR);B-2
-com,"$the throw from Risberg hit Ruether on the back"
-play,4,1,daubj101,00,B,SB3
-play,4,1,daubj101,20,B.BX,7(B)2(3)/DP
-play,5,0,risbs101,31,BBBKB,W
-play,5,0,schar103,32,BFBFBFFB,W.1-2
-play,5,0,kerrd101,01,KX,S6/G6.2-3;1-2
-play,5,0,colls101,00,X,8/8S
-play,5,0,colle101,22,BBFFFX,8/SF/DP.3-H;1X2(85)
-com,"$Dickie Kerr ran to 2B but Ray Schalk was still there"
-play,5,1,grohh101,32,BBBKKX,8
-play,5,1,rouse101,12,KBKX,9
-play,5,1,duncp101,20,BBX,E8.B-3
+play,3,0,schar103,31,BBCBB,W
+play,3,0,kerrd101,10,BX,54/BG25/SH.1-2
+play,3,0,colls101,00,X,8/F78S
+play,3,0,colle101,02,FCX,7/L78S
+play,3,1,rathm101,21,BCBX,43/G4
+play,3,1,daubj101,01,CX,S9/L4D
+play,3,1,grohh101,12,CFBC,K/C
+play,3,1,rouse101,00,>B,SB2
+play,3,1,rouse101,10,>B.H,HP
+play,3,1,duncp101,01,CX,D9/L89D.2-H;1-H
+play,3,1,kopfl101,01,FX,8/F8XD
+play,4,0,weavb101,00,X,7/L7D
+play,4,0,jackj101,00,X,2/P2F/FL
+play,4,0,felsh101,01,SX,S8/G4M
+play,4,0,gandc101,31,BBBCX,63
+play,4,1,nealg101,10,BX,T9/L89
+play,4,1,rarib101,00,X,43/G4.3-3
+play,4,1,ruetd101,11,BCX,D7/G5L.3-H
+play,4,1,rathm101,01,CX,FC6/G6.2-H(E6/TH3)(NR)(UR);B-2
+play,4,1,daubj101,00,>B,SB3
+play,4,1,daubj101,20,>B.BX,7(B)2(3)/FDP
+play,5,0,risbs101,31,BBBCB,W
+play,5,0,schar103,32,BFBFBF>FB,W.1-2
+play,5,0,kerrd101,01,CX,S6/G6/R5.2-3;1-2
+play,5,0,colls101,10,BX,8/F8/THH/R4
+play,5,0,colle101,32,BBFFBX,8(B)5(1)/FDP/SF/TH3.3-H
+com,"$Kerr ran to 2B which was occupied by Schalk."
+com,"The throw went to 3B and Groh ran over and tagged Kerr."
+play,5,1,grohh101,32,BBBCCX,8/F8
+play,5,1,rouse101,12,CBCX,9/F9S
+play,5,1,duncp101,20,BBX,E8/F8XD.B-3
 play,5,1,kopfl101,00,X,63
-play,6,0,weavb101,12,BFKX,D7/F7S
-com,"Kopf and Duncan each thought the other would catch it"
-play,6,0,jackj101,00,X,S8.2-H
-play,6,0,felsh101,22,KBFBFX,D8/78.1-H
+play,6,0,weavb101,12,BFCX,D7/F7S
+play,6,0,jackj101,00,X,S8/G6M.2-H
+play,6,0,felsh101,22,SBFBFX,D8/78D.1-H
 play,6,0,gandc101,00,,NP
 sub,ringj101,"Jimmy Ring",1,9,1
-play,6,0,gandc101,22,.BFKFBX,3/P
+play,6,0,gandc101,22,.BFCFBX,3/P3
 play,6,0,risbs101,10,BX,63.2-3
-play,6,0,schar103,01,KX,S7.3-H
-play,6,0,kerrd101,11,BFK,SB2
-play,6,0,kerrd101,22,BFK.BX,53
-play,6,1,nealg101,22,KBBFX,S8
-play,6,1,rarib101,10,BX,9/L
+play,6,0,schar103,01,CX,S57/L56.3-H
+play,6,0,kerrd101,12,BFC>B,SB2
+play,6,0,kerrd101,22,BFC>B.X,53
+play,6,1,nealg101,22,FBBFX,S1/G/R3
+play,6,1,rarib101,10,BX,9/F89
 play,6,1,ringj101,12,FBFS,K
-play,6,1,rathm101,10,BB,CS2(26)
-play,7,0,colls101,??,,NP
+play,6,1,rathm101,10,B>B,CS2(26)
+play,7,0,colls101,00,,NP
 sub,leibn101,"Nemo Leibold",0,1,11
-play,7,0,leibn101,21,.BKBX,63
-play,7,0,colle101,11,BKX,8
-play,7,0,weavb101,00,X,43
-play,7,1,rathm101,??,,NP
+play,7,0,leibn101,21,.BCBX,63/G6M
+play,7,0,colle101,11,BCX,8/F78
+play,7,0,weavb101,00,X,43/G4
+play,7,1,rathm101,00,,NP
 sub,leibn101,"Nemo Leibold",0,1,9
-play,7,1,rathm101,21,KBBX,S7/F7S
-play,7,1,daubj101,01,LX,13/SH.1-2
-play,7,1,grohh101,32,BKFBBFFFB,W
+play,7,1,rathm101,21,CBBX,S7/F78S
+play,7,1,daubj101,01,LX,13/BG1S/SH.1-2
+play,7,1,grohh101,32,BCFBBFFFB,W
 play,7,1,rouse101,00,X,64(1)3/GDP
-play,8,0,jackj101,31,BBBKB,W
-play,8,0,felsh101,00,X,9
+play,8,0,jackj101,31,BBBCB,W
+play,8,0,felsh101,00,X,9/F
 play,8,0,gandc101,30,BBBB,W.1-2
-play,8,0,risbs101,32,KBKBFBX,8/L/DP.2X2(84)
-play,8,1,duncp101,00,X,3/FL
-play,8,1,kopfl101,22,BBKFX,1/L
-play,8,1,nealg101,00,X,S7
-play,8,1,rarib101,11,BKX,S1.1-2
-play,8,1,ringj101,00,X,64(1)/FO
-play,9,0,schar103,12,KKBC,K/C
-play,9,0,kerrd101,10,BX,13/G1
-play,9,0,leibn101,31,BBBKB,W
-play,9,0,colle101,00,B,SB2
-play,9,0,colle101,20,B.BX,8
-play,9,1,rathm101,32,BBKBKX,53
-play,9,1,daubj101,02,KKX,S8
+play,8,0,risbs101,32,CBCBFBX,8/LDP/L8S.2X2(84)
+play,8,1,duncp101,11,CBX,3/P3DF/FL
+play,8,1,kopfl101,22,BBCFX,1/L1
+play,8,1,nealg101,00,X,S7/G56
+play,8,1,rarib101,11,BCX,S16/R3.1-2
+play,8,1,ringj101,00,X,64(1)/FO/G
+play,9,0,schar103,12,CCBC,K/C
+play,9,0,kerrd101,10,BX,13
+play,9,0,leibn101,31,BBBCB,W
+play,9,0,colle101,00,>B,SB2
+play,9,0,colle101,20,>B.BX,8/F
+play,9,1,rathm101,32,BBCBCX,53
+play,9,1,daubj101,02,CSX,S8/L
 play,9,1,grohh101,00,X,64(1)/FO
-play,9,1,rouse101,00,.,CS2(24)
-play,10,0,weavb101,00,X,D7/78
-play,10,0,jackj101,21,LBBX,S2/BG25.2-3
-play,10,0,felsh101,22,KBFBS,K
-play,10,0,gandc101,01,FX,S8/G46.3-H;1-2
-play,10,0,risbs101,00,X,6(B)4(2)/LDP
-play,10,1,rouse101,01,KX,43
-play,10,1,duncp101,00,X,2/FL
-play,10,1,kopfl101,01,KX,43
+play,9,1,rouse101,00,>B,CS2(24)
+play,10,0,weavb101,00,X,D7/F7S
+play,10,0,jackj101,21,LBBX,S2/BG2L.2-3
+play,10,0,felsh101,22,SBFBS,K
+play,10,0,gandc101,01,FX,S8/G6M.3-H;1-2
+play,10,0,risbs101,00,X,6/LDP.2X2(64)
+play,10,1,rouse101,01,CX,43
+play,10,1,duncp101,00,X,2/P2F/FL
+play,10,1,kopfl101,01,CX,43
 data,er,kerrd101,3
 data,er,ruetd101,4
 data,er,ringj101,1
@@ -835,16 +836,17 @@ info,hometeam,CIN
 info,date,1919/10/08
 info,site,CIN07
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:04PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,quige901
 info,ump1b,nalld901
 info,ump2b,riglc901
 info,ump3b,evanb901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,Vicksburg Eve Post"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/08 2:55PM
 info,howscored,unknown
 info,pitches,pitches
@@ -878,99 +880,94 @@ start,kopfl101,"Larry Kopf",1,6,6
 start,nealg101,"Greasy Neale",1,7,9
 start,wingi101,"Ivey Wingo",1,8,2
 start,salls101,"Slim Sallee",1,9,1
-play,1,0,colls101,11,KBX,S8
-play,1,0,colle101,10,BX,13/SH.1-2
-play,1,0,weavb101,02,FFX,8
+com,"$Overflow crowd behind temporary fences in left field and"
+com,"foul territory."
+play,1,0,colls101,11,FBX,S8/G6M
+play,1,0,colle101,10,BX,13/BG23/SH.1-2
+play,1,0,weavb101,02,FFX,8/F8D
 play,1,0,jackj101,22,FBFBX,S7.2-H;BX1(7534E3)
-com,"$Jackson returned to first safely after being trapped between"
-com,"first and second when Daubert dropped throw"
 play,1,0,felsh101,00,X,S5/BG25.1-2
-play,1,0,gandc101,00,X,64(1)/FO
-play,1,1,rathm101,00,X,E4.B-1
-play,1,1,daubj101,00,X,4/P
-play,1,1,grohh101,12,BKKS,K
+play,1,0,gandc101,11,SBX,64(1)/FO
+play,1,1,rathm101,11,CBX,E4/G4M.B-1
+play,1,1,daubj101,00,X,4/P4MS
+play,1,1,grohh101,12,BCCS,K
 play,1,1,rouse101,01,FX,46(1)/FO
-play,2,0,risbs101,00,X,63
-play,2,0,schar103,01,KX,9/L89
-play,2,0,cicoe101,01,FX,53
-play,2,1,duncp101,00,X,8
-play,2,1,kopfl101,11,KBX,S7/78
-play,2,1,nealg101,00,X,5/FL
-play,2,1,wingi101,01,FB,CS2(26)
-play,3,0,colls101,11,FBX,S14
-play,3,0,colle101,00,X,S6/BG.1-2
-play,3,0,weavb101,02,LKX,6(1)3(B)/GDP/RINT.2-2
-com,"$Weaver out at first base to complete the double-play after"
-com,"interference by Eddie Collins sliding into second base;"
-com,"Shano Collins to second base by umpires"
-play,3,0,jackj101,00,X,S7.2-H
+play,2,0,risbs101,00,X,63/G6
+play,2,0,schar103,01,CX,9/L89
+play,2,0,cicoe101,01,FX,53/G5S
+play,2,1,duncp101,00,X,8/F8
+play,2,1,kopfl101,11,CBX,S7/L78S
+play,2,1,nealg101,01,SX,5/P5F/FL
+play,2,1,wingi101,01,F>B,CS2(26)
+play,3,0,colls101,11,FBX,S146/G
+play,3,0,colle101,00,>X,S6/G6M/R3.1-2
+play,3,0,weavb101,02,LLX,6(1)3/GDP/RINT.2-3
+play,3,0,jackj101,00,X,S7/G56.3-H
 play,3,0,felsh101,00,X,64(1)/FO
-play,3,1,wingi101,31,BBKBB,W
-play,3,1,salls101,12,BKKFX,9
-play,3,1,rathm101,01,KX,64(1)/FO
-play,3,1,daubj101,01,KX,13/G1
-play,4,0,gandc101,22,KBFBX,9/9S
-play,4,0,risbs101,20,BBX,3/FL
-play,4,0,schar103,00,X,S5
-play,4,0,cicoe101,00,X,8
-play,4,1,grohh101,21,BBKX,43
-play,4,1,rouse101,00,X,43
-play,4,1,duncp101,01,KX,53
-play,5,0,colls101,00,X,9
-play,5,0,colle101,32,BBBKFX,S8
-play,5,0,weavb101,00,X,E5.1-2;B-1
-play,5,0,jackj101,00,X,E4.2-3;1-2;B-1
-play,5,0,felsh101,11,BKX,S8.3-H(UR);2-H(UR);1-2
+play,3,1,wingi101,31,BBCBB,W
+play,3,1,salls101,12,BCSFX,9/L9L
+play,3,1,rathm101,01,CX,64(1)/FO
+play,3,1,daubj101,00,X,13/G1
+play,4,0,gandc101,22,CBFBX,9/F9S
+play,4,0,risbs101,20,BBX,3/P3DF/FL
+play,4,0,schar103,00,X,S5/G5L/R3
+play,4,0,cicoe101,10,BX,8/F78
+play,4,1,grohh101,21,BBCX,43/G4
+play,4,1,rouse101,00,X,43/G4
+play,4,1,duncp101,01,CX,53/G5
+play,5,0,colls101,00,X,9/F9
+play,5,0,colle101,32,BBBCFX,S8/G6M
+play,5,0,weavb101,00,X,E5/G.1-2;B-1
+play,5,0,jackj101,10,BX,E4/G.2-3;1-2;B-1
+play,5,0,felsh101,11,BSX,S8/F8S.3-H(UR);2-H(UR);1-2
 play,5,0,gandc101,00,,NP
 sub,fishr101,"Ray Fisher",1,9,1
-play,5,0,gandc101,11,.FBX,13/G1.2-3;1-2
-play,5,0,risbs101,22,KBFBK,K
-play,5,1,kopfl101,12,FKBX,7
-play,5,1,nealg101,32,FBFBBX,S7
-play,5,1,wingi101,32,KBFBBB,W.1-2
+play,5,0,gandc101,11,.FBX,13/G56S.2-3;1-2
+play,5,0,risbs101,22,CBFBS,K
+play,5,1,kopfl101,12,LCBX,7/F7L
+play,5,1,nealg101,32,CBFBBX,S7/L6D
+play,5,1,wingi101,32,SBFBBB,W.1-2
 play,5,1,fishr101,00,,NP
 sub,ruetd101,"Dutch Ruether",1,9,11
-play,5,1,ruetd101,11,.BKX,5/FL
-play,5,1,rathm101,01,KX,53
+play,5,1,ruetd101,11,.BCX,5/P25F/FL
+play,5,1,rathm101,01,CX,53/G5S
 play,6,0,schar103,00,,NP
 sub,luqud101,"Dolf Luque",1,9,1
-play,6,0,schar103,21,.BBKX,7
-play,6,0,cicoe101,12,BKKK,K
-play,6,0,colls101,01,FX,D7/7L
-play,6,0,colle101,12,BKKK,K23
-play,6,1,daubj101,12,KFBC,K/C
-play,6,1,grohh101,11,BKX,DGR/7D
-com,"$ground-rule double on long flyball over the temporary fence"
-com,"in left field erected for overflow crowd control"
+play,6,0,schar103,21,.BBCX,7/F7
+play,6,0,cicoe101,12,BSCS,K
+play,6,0,colls101,01,FX,D7/G5L
+play,6,0,colle101,12,BCCS,K23
+play,6,1,daubj101,12,CFBC,K/C
+play,6,1,grohh101,11,BCX,DGR/F7D
 play,6,1,rouse101,00,X,13/G1.2-3
-play,6,1,duncp101,22,BKFBX,S8.3-H
+play,6,1,duncp101,22,BCFBX,S8/G6M.3-H
 play,6,1,kopfl101,10,BX,46(1)/FO
-play,7,0,weavb101,32,FBBFFFBC,K/C
+play,7,0,weavb101,32,FBBFFFFBC,K/C
 play,7,0,jackj101,00,X,43
-play,7,0,felsh101,32,KBFBBS,K
-play,7,1,nealg101,12,KBFFS,K
-play,7,1,wingi101,32,BFBBKFB,W
-play,7,1,luqud101,22,KBBKK,K
-play,7,1,rathm101,01,KX,S8.1-2
-play,7,1,daubj101,01,KX,43
-play,8,0,gandc101,01,KX,6/P7S
-play,8,0,risbs101,10,BX,E8/F.BX2(84)
-play,8,0,schar103,31,BBFBX,63
-play,8,1,grohh101,22,BBKFX,7
-play,8,1,rouse101,01,KX,43
+play,7,0,felsh101,32,CBFBBS,K
+play,7,1,nealg101,12,CBFFS,K
+play,7,1,wingi101,32,BFBBCFB,W
+play,7,1,luqud101,22,CBBSS,K
+play,7,1,rathm101,01,CX,S8/L8S.1-2
+play,7,1,daubj101,01,CX,43
+play,8,0,gandc101,01,CX,6/P7S
+play,8,0,risbs101,10,BX,E8/F8S.BX2(84)
+play,8,0,schar103,31,BBFBX,63/G56
+play,8,1,grohh101,22,BBCFX,7/F7D
+play,8,1,rouse101,01,CX,43/G4M
 play,8,1,duncp101,00,X,63
-play,9,0,cicoe101,02,KKC,K/C
-play,9,0,colls101,11,BFX,8/78
-play,9,0,colle101,00,X,43
-play,9,1,kopfl101,11,FBX,4/P
-play,9,1,nealg101,00,X,7
-play,9,1,wingi101,01,KX,S8
+play,9,0,cicoe101,02,SCC,K/C
+play,9,0,colls101,11,BFX,8/L78
+play,9,0,colle101,00,X,43/G4
+play,9,1,kopfl101,11,FBX,4/P4
+play,9,1,nealg101,00,X,7/F7
+play,9,1,wingi101,01,CX,S9/G34
 play,9,1,luqud101,00,,NP
 sub,mages101,"Sherry Magee",1,9,11
-play,9,1,mages101,22,.KBFBX,S9.1-2
+play,9,1,mages101,22,.CBFBX,S9.1-2
 play,9,1,rathm101,00,,NP
 sub,smitj107,"Jimmy Smith",1,9,12
-play,9,1,rathm101,00,.X,9/F89
+play,9,1,rathm101,32,.CBBBC>X,9/L89
 com,"Debut game for Jimmy Smith"
 data,er,cicoe101,1
 data,er,salls101,2
@@ -984,25 +981,26 @@ info,hometeam,CHA
 info,date,1919/10/09
 info,site,CHI10
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:01PM
 info,daynight,day
 info,usedh,false
+info,gametype,worldseries
 info,umphome,nalld901
 info,ump1b,riglc901
 info,ump2b,evanb901
 info,ump3b,quige901
-info,scorer,"Cohen/Neft"
-info,translator,"John Booth"
-info,inputter,"John Booth"
+info,scorer,"Cohen/Neft,96,137,Vicksburg Eve Post"
+info,translator,"John Booth, Wayne Townsend"
+info,inputter,"John Booth, Wayne Townsend"
 info,inputtime,1995/06/08 3:08PM
 info,howscored,unknown
 info,pitches,pitches
 info,temp,78
 info,winddir,unknown
-info,windspeed,-1
+info,windspeed,20
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,sunny
 info,timeofgame,147
 info,attendance,32930
 info,wp,elleh101
@@ -1027,111 +1025,109 @@ start,gandc101,"Chick Gandil",1,6,3
 start,risbs101,"Swede Risberg",1,7,6
 start,schar103,"Ray Schalk",1,8,2
 start,willl104,"Lefty Williams",1,9,1
-play,1,0,rathm101,02,CFFX,6/P56D
-play,1,0,daubj101,01,KX,S8
-play,1,0,grohh101,12,FBFFX,S9.1-2
-play,1,0,rouse101,11,BKX,D9.2-H;1-3
-play,1,0,duncp101,11,FBX,D7.3-H;2-H
+play,1,0,rathm101,02,CFFX,6/P5D
+play,1,0,daubj101,01,CX,S8/L8S
+play,1,0,grohh101,12,FBFX,S9.1-2
+play,1,0,rouse101,11,BCX,D9/G3L.2-H;1-3
+play,1,0,duncp101,11,FBX,D7/L5D.3-H;2-H
 play,1,0,kopfl101,00,,NP
 sub,jameb103,"Bill James",1,9,1
-play,1,0,kopfl101,30,.BBBB,W
+play,1,0,kopfl101,31,.BBCBB,W
 com,"Debut game for Bill James"
-play,1,0,nealg101,12,KSBC,K/C
-play,1,0,rarib101,10,BX,S9/L.2-H;1-3
-play,1,0,elleh101,01,FB,SB2
-play,1,0,elleh101,21,FB.BX,9/F89S
-play,1,1,leibn101,01,KX,S7
-play,1,1,colle101,11,KBX,D7/L.1-3
-play,1,1,weavb101,12,BKKC,K/C
+play,1,0,nealg101,12,CSBC,K/C
+play,1,0,rarib101,10,BX,S9/L3D.2-H;1-3
+play,1,0,elleh101,01,F>B,SB2
+play,1,0,elleh101,21,F>B.BX,9/F89S
+play,1,1,leibn101,01,CX,S7/L5D
+play,1,1,colle101,11,CBX,D78/L78.1-3
+play,1,1,weavb101,22,BSBSC,K/C
 play,1,1,jackj101,00,X,6/P5D
-play,1,1,felsh101,22,FSFBFBK,K
-play,2,0,rathm101,22,KKBBK,K/C
-play,2,0,daubj101,10,BX,7
-play,2,0,grohh101,32,KFBBBX,S3/G
-play,2,0,rouse101,20,BBX,D8/7D.1-H;BX2(86254)
-com,"$Roush overran 2B"
-play,2,1,gandc101,11,BKX,3/L
-play,2,1,risbs101,31,BBBKB,W
-play,2,1,schar103,10,BF,FLE2
-play,2,1,schar103,22,B.FKFFBX,S7.1-2
-play,2,1,jameb103,00,X,5/FL
-play,2,1,leibn101,22,KBFBS,K
-play,3,0,duncp101,01,KX,53
-play,3,0,kopfl101,11,KBX,53
-play,3,0,nealg101,32,BBFBKFFB,W
-play,3,0,rarib101,02,KKB,CS2(24)
-play,3,1,colle101,22,BKFBX,7/L
-play,3,1,weavb101,10,BX,4/P4D
-play,3,1,jackj101,10,BX,HR/9D
+play,1,1,felsh101,22,FSFBFBS,K
+play,2,0,rathm101,32,CCBBBC,K/C
+play,2,0,daubj101,10,BX,7/F7
+play,2,0,grohh101,32,CFBBBX,S3/G3L/R1
+play,2,0,rouse101,20,BBX,D78/F78D.1-H;BX3(86254)
+play,2,1,gandc101,11,BCX,3/L
+play,2,1,risbs101,31,BBBCB,W
+play,2,1,schar103,10,BF,FLE2/P23F
+play,2,1,schar103,22,BF.CFFBX,S7/7S.1-2
+play,2,1,jameb103,00,X,5/P5F/FL
+play,2,1,leibn101,22,CBFBS,K
+play,3,0,duncp101,01,CX,53
+play,3,0,kopfl101,11,CBX,53/G56S
+play,3,0,nealg101,32,BBFBCFFB,W
+play,3,0,rarib101,02,CC>B,CS2(24)
+play,3,1,colle101,22,BCFBX,7/L78
+play,3,1,weavb101,10,BX,4/P89S
+play,3,1,jackj101,10,BX,HR/F9D
 play,3,1,felsh101,00,X,63
-play,4,0,rarib101,00,X,3/L
+play,4,0,rarib101,01,CX,3/L
 play,4,0,elleh101,00,H,HP
-play,4,0,rathm101,22,LBFBX,S6.1-2
-play,4,0,daubj101,21,BFBX,S8.2XH(82);1-3(THH);B-2
+play,4,0,rathm101,22,LBLBX,S6/G6MS.1-2
+play,4,0,daubj101,21,BFBX,S8/L.2XH(82);1-3;B-2(THH)
 play,4,0,grohh101,00,X,4/P
-play,4,1,gandc101,00,X,8/F89
-play,4,1,risbs101,22,KBBKT,K
-play,4,1,schar103,02,KFX,53
+play,4,1,gandc101,00,X,9/F89
+play,4,1,risbs101,22,SBBCT,K
+play,4,1,schar103,02,CFX,53
 play,5,0,rouse101,00,X,43
 play,5,0,duncp101,10,BX,4/L
-play,5,0,kopfl101,10,BX,T9/G3
-play,5,0,nealg101,12,BKFX,S7.3-H
-play,5,0,rarib101,00,B,SB2
-play,5,0,rarib101,22,B.2BFFX,63
-play,5,1,jameb103,02,KKFFFFK,K
+play,5,0,kopfl101,10,BX,T9/G3L
+play,5,0,nealg101,12,BSFX,S7/G56.3-H
+play,5,0,rarib101,00,>B,SB2
+play,5,0,rarib101,22,>B.2BFFX,63
+play,5,1,jameb103,02,CSFFFS,K
 play,5,1,leibn101,00,X,63
 play,5,1,colle101,10,BX,63
-play,6,0,elleh101,01,KX,S4/G4M
-play,6,0,rathm101,32,BBBKKB,W.1-2
+play,6,0,elleh101,11,BCX,S4/G4M
+play,6,0,rathm101,32,BBBCCB,W.1-2
 play,6,0,daubj101,00,,NP
 sub,wilkr101,"Roy Wilkinson",1,9,1
 play,6,0,daubj101,11,.BLX,FC2/BG.2-3(E2/TH3);1-2;B-1
-play,6,0,grohh101,02,KFS,K
-play,6,0,rouse101,12,BKKX,S9/G4.3-H(UR);2-H;1-3
-play,6,0,duncp101,20,BBX,S9.3-H;1-3(TH3);B-2
-play,6,0,kopfl101,32,BBFKBB,W
-play,6,0,nealg101,01,FX,52(3)/FO.2-3;1-2
-play,6,0,rarib101,32,BFBFB.,PO2(26)
-play,6,1,weavb101,12,FFBX,S9
-play,6,1,jackj101,01,FX,8/F8D
-play,6,1,felsh101,12,FFFBX,8
-play,6,1,gandc101,11,FBX,9
-play,7,0,rarib101,00,X,9
-play,7,0,elleh101,02,KFFS,K
-play,7,0,rathm101,32,BBKBKB,W
-play,7,0,daubj101,22,BKFB.,SB2
-play,7,0,daubj101,32,BKFB.BB,W
-play,7,0,grohh101,00,X,8
-play,7,1,risbs101,22,BFBKFX,4/P4D
+play,6,0,grohh101,02,CFS,K
+play,6,0,rouse101,12,BCSX,S49/G34.3-H(UR);2-H;1-3
+play,6,0,duncp101,21,CBBX,S8/G4M.3-H;1-3;B-2(TH3)
+play,6,0,kopfl101,32,BBFCBB,W
+play,6,0,nealg101,01,FX,52(3)/FO/R3.2-3;1-2
+play,6,0,rarib101,32,BFBFB+2,PO2(26)
+play,6,1,weavb101,12,FFBX,S34/G3L
+play,6,1,jackj101,01,FX,8/F8XD
+play,6,1,felsh101,12,FFFBX,8/F8D
+play,6,1,gandc101,11,FBX,9/F9
+play,7,0,rarib101,00,X,9/F9
+play,7,0,elleh101,02,SFFS,K
+play,7,0,rathm101,32,BBCBCB,W
+play,7,0,daubj101,12,BCF>B,SB2
+play,7,0,daubj101,32,BCF>B.BB,W
+play,7,0,grohh101,00,X,8/F8
+play,7,1,risbs101,22,BFBCFX,4/P4D
 play,7,1,schar103,10,BX,2/FL
-play,7,1,wilkr101,22,KBBKK,K
-play,8,0,rouse101,01,KH,HP
-play,8,0,duncp101,00,X,13/SH.1-2
-play,8,0,kopfl101,00,X,5/P25
-play,8,0,nealg101,32,BKBBKFFB,W
-play,8,0,rarib101,10,BX,S7.2-H;1-3;B-2(THH)
-play,8,0,elleh101,00,X,63/6D
-play,8,1,leibn101,32,BKKBFBX,9/F9D
-play,8,1,colle101,00,X,S8
-play,8,1,weavb101,01,FX,D9.1-3
-play,8,1,jackj101,10,BX,D9/9D.3-H;2-H
-play,8,1,felsh101,00,X,3/P
-play,8,1,gandc101,00,X,T9/F9DW.2-H
-com,"$Greasy Neale lost the ball in the sun"
-play,8,1,risbs101,12,KBKX,E8/F89S.3-H(UR)(NR)
-play,8,1,schar103,00,X,43
-play,9,0,rathm101,10,BX,S6
-play,9,0,daubj101,00,X,13/SH.1-2
-play,9,0,grohh101,11,KBX,8
+play,7,1,wilkr101,22,SBBSS,K
+play,8,0,rouse101,00,H,HP
+play,8,0,duncp101,00,X,13/BG23/SH.1-2
+play,8,0,kopfl101,00,X,5/P25F/FL
+play,8,0,nealg101,32,BCBBSFFB,W
+play,8,0,rarib101,10,BX,S7/R24.2-H;1-3;B-2(THH)
+play,8,0,elleh101,00,X,63/G56
+play,8,1,leibn101,32,BCSBFBX,9/F9D
+play,8,1,colle101,00,X,S8/G46
+play,8,1,weavb101,01,FX,D9/L3D.1-3
+play,8,1,jackj101,10,BX,D9/L9D.3-H;2-H
+play,8,1,felsh101,00,X,3/P3S
+play,8,1,gandc101,00,X,T9/F89D.2-H
+play,8,1,risbs101,12,CBSX,E8/F89S.3-H(NR)(UR)
+play,8,1,schar103,00,X,43/G4
+play,9,0,rathm101,10,BX,S6/G6M
+play,9,0,daubj101,00,X,13/BG1S/SH.1-2
+play,9,0,grohh101,11,CBX,8/F8
 play,9,0,rouse101,00,X,53
 play,9,1,wilkr101,00,,NP
 sub,murpe102,"Eddie Murphy",1,9,11
 play,9,1,murpe102,20,BBH,HP
-play,9,1,leibn101,21,BBKX,8/F8D
-play,9,1,colle101,12,KBFX,S8.1-2
+play,9,1,leibn101,21,BBCX,8/L89D
+play,9,1,colle101,12,CBFFX,S8/G4M.1-2
 play,9,1,weavb101,00,X,9/F9D.2-3
-play,9,1,jackj101,01,KK,SB2
-play,9,1,jackj101,12,KK.BFX,43
+play,9,1,jackj101,00,>C,SB2
+play,9,1,jackj101,12,>C.CBFX,43/G4
 data,er,elleh101,4
 data,er,willl104,4
 data,er,jameb103,3

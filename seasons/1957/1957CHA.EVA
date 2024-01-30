@@ -4901,8 +4901,8 @@ version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NYA
 info,hometeam,CHA
-info,site,CHI10
 info,date,1957/06/13
+info,site,CHI10
 info,number,0
 info,starttime,0:00PM
 info,daynight,day
@@ -4911,17 +4911,17 @@ info,umphome,nappl901
 info,ump1b,stevj901
 info,ump2b,ricej901
 info,ump3b,romme101
-info,scorer,"Yankees"
-info,translator,"Mike Grahek"
-info,inputter,"Mike Grahek"
+info,scorer,"Yankees/602/96/104/111"
+info,translator,"Wayne Townsend/Mike Grahek"
+info,inputter,"Townsend/Grahek"
 info,inputtime,1998/10/22 9:01AM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,wet
-info,precip,unknown
+info,precip,drizzle
 info,sky,overcast
 info,timeofgame,178
 info,attendance,23401
@@ -4947,129 +4947,130 @@ start,dropw101,"Walt Dropo",1,6,3
 start,rivej101,"Jim Rivera",1,7,9
 start,aparl101,"Luis Aparicio",1,8,6
 start,pierb101,"Billy Pierce",1,9,1
-play,1,0,richb102,??,,S7/G
-play,1,0,mcdog101,??,,K+CS2(24)/DP
-play,1,0,mantm101,??,,S8/G
-play,1,0,skowb101,??,,S7/78.1-3
-play,1,0,baueh101,??,,K
-play,1,1,philb102,??,,K
-play,1,1,fox-n101,??,,W
-play,1,1,minom101,??,,S1.1-2
-play,1,1,lolls101,??,,8/F
-play,1,1,dobyl101,??,,WP.2-3;1-2
+play,1,0,richb102,10,BX,S7/G56
+play,1,0,mcdog101,12,1CLBFF>S,K+CS2(24)/DP
+play,1,0,mantm101,20,BBX,S8/G46
+play,1,0,skowb101,32,BBCB1F>FFFX,S7/L78.1-3
+play,1,0,baueh101,12,BFCS,K
+play,1,1,philb102,12,FSBS,K
+play,1,1,fox-n101,31,BBBCB,W
+play,1,1,minom101,20,*BBX,S2/G2R/R3.1-2
+play,1,1,lolls101,11,FBX,8/F8
+play,1,1,dobyl101,02,FFFB,WP.2-3;1-2
 com,"ej,dobyl101,P,nappl901,Fighting"
 com,"ej,dropw101,P,nappl901,Fighting"
 com,"ej,martb105,P,nappl901,Fighting"
 com,"ej,slaue101,P,nappl901,Fighting"
-play,1,1,dobyl101,12,,NP
-sub,phild102,"Dave Philley",1,5,11
 com,"$White Sox Doby and Dropo as well as Yankees Martin and"
 com,"Slaughter, latter not in game, ejected by HP umpire Napp"
-com,"for fighting after pitch at Doby's head; delay of 28"
-com,"minutes; Philley replaced Doby with count of 1-2,"
-com,"completing strikeout charged to Doby"
-play,1,1,phild102,12,,NP
+com,"for fighting after wild pitch at Doby's head. The brawl"
+com,"caused a delay of 28 minutes."
+com,"Philley replaced Doby with a 1-2 count and completed the"
+com,"strikeout charged to Doby."
+play,1,1,dobyl101,12,FFFB.,NP
+sub,phild102,"Dave Philley",1,5,11
+play,1,1,phild102,12,FFFB..,NP
 sub,carea101,"Andy Carey",0,7,5
-play,1,1,phild102,??,,K
-play,2,0,berry101,??,,NP
+play,1,1,phild102,12,FFFB...S,K
+play,2,0,berry101,00,,NP
 sub,phild102,"Dave Philley",1,5,3
-play,2,0,berry101,??,,NP
+play,2,0,berry101,00,,NP
 sub,hatff101,"Fred Hatfield",1,6,5
-play,2,0,berry101,??,,NP
+play,2,0,berry101,00,,NP
 sub,philb102,"Bubba Phillips",1,1,8
-play,2,0,berry101,??,,8/F
-play,2,0,carea101,??,,53
-play,2,0,howae101,??,,S9
-play,2,0,ditma101,??,,9/F
-play,2,1,hatff101,??,,S4/BG
+play,2,0,berry101,00,X,8/F8
+play,2,0,carea101,01,CX,5!3/BG56S
+play,2,0,howae101,00,X,S9/L
+play,2,0,ditma101,12,FBFX,9/F9S
+play,2,1,hatff101,00,X,S4/BG34S/TH1
 com,"ej,fordw101,P,stevj901,Call at 1B"
-com,"$Yankees Ford, not in game, ejected by 1B umpire Stevens"
-com,"for arguing Hatfield was out at 1st"
-play,2,1,rivej101,??,,HR/9.1-H
-com,"$off RF pole"
-play,2,1,aparl101,??,,K
-play,2,1,pierb101,??,,7/F
-play,2,1,philb102,??,,7/F
-play,3,0,richb102,??,,DGR/7
-play,3,0,mcdog101,??,,D7.2-H
-play,3,0,mantm101,??,,53
-play,3,0,skowb101,??,,63.2-3
-play,3,0,baueh101,??,,63
-play,3,1,fox-n101,??,,41
-play,3,1,minom101,??,,E6
-play,3,1,lolls101,??,,8/F
-play,3,1,phild102,??,,43
-play,4,0,berry101,??,,S9
-play,4,0,carea101,??,,8/F
-play,4,0,howae101,??,,S7/78/P.1-3
-play,4,0,ditma101,??,,6(1)3(B)/GDP
-play,4,1,hatff101,??,,S8
-play,4,1,rivej101,??,,3(B)6(1)/GDP
-play,4,1,aparl101,??,,W
-play,4,1,pierb101,??,,NP
+com,"$Yankees' Ford, not in game, ejected by 1B umpire Stevens"
+com,"for arguing Hatfield was out at 1st."
+play,2,1,rivej101,11,BCX,HR/L9LD.1-H
+play,2,1,aparl101,12,CFBC,K/C
+play,2,1,pierb101,22,BSSBX,7/F7S
+play,2,1,philb102,01,CX,7/F7
+play,3,0,richb102,11,BCX,D7/G5L
+play,3,0,mcdog101,01,FX,D7/G5L.2-H
+play,3,0,mantm101,32,FBBBSX,53/G5
+play,3,0,skowb101,01,CX,63/G6.2-3
+play,3,0,baueh101,10,BX,63/G6M
+play,3,1,fox-n101,11,BCX,41/G34
+play,3,1,minom101,12,SBFX,E6/G6M.B-1
+play,3,1,lolls101,01,CX,8/F89
+play,3,1,phild102,00,>X,43/G4
+play,4,0,berry101,11,CBX,S9/L
+play,4,0,carea101,00,X,8/F78
+play,4,0,howae101,01,CX,S8/F78S.1-3
+play,4,0,ditma101,00,X,6(1)3/GDP
+play,4,1,hatff101,11,FBX,S8/L
+play,4,1,rivej101,01,FX,3(B)6(1)/GDP
+play,4,1,aparl101,30,BBBB,W
+play,4,1,pierb101,12,CB1F,NP
 sub,johnd106,"Darrell Johnson",0,8,2
-com,"$Elston Howard suffered injured finger when struck by foul ball"
-play,4,1,pierb101,??,,63
-play,5,0,richb102,??,,D8.BX3(865)
-com,"$Bobby Richardson overslid 3B"
-play,5,0,mcdog101,??,,D7/78
-play,5,0,mantm101,??,,D7/78.2-H
-play,5,0,skowb101,??,,NP
+com,"$Howard suffered injured finger from Pierce's foul tip"
+play,4,1,pierb101,12,CB1F.X,63/G6MS
+play,5,0,richb102,02,CSX,D8/L8S.BX3(865)
+com,"$Phillips slipped and fell in a puddle; the ball rolled to"
+com,"the bullpen.  Richardson overslid 3B."
+play,5,0,mcdog101,12,BCFX,D8/L78
+play,5,0,mantm101,20,B*BX,D8/L78XDW.2-H
+play,5,0,skowb101,00,,NP
 sub,stalg103,"Gerry Staley",1,9,1
-play,5,0,skowb101,??,,S7/G.2-H
-play,5,0,baueh101,??,,63.1-2
-play,5,0,berry101,??,,IW
-play,5,0,carea101,??,,NP
+play,5,0,skowb101,00,X,S7/G56.2-H
+play,5,0,baueh101,32,CBBFB1>X,63/G56.1-2
+play,5,0,berry101,30,IIII,IW
+play,5,0,carea101,00,,NP
 sub,collj101,"Joe Collins",0,7,11
-play,5,0,collj101,??,,S8.2-H;1-2
-play,5,0,johnd106,??,,54(1)/FO
-play,5,1,philb102,??,,NP
+play,5,0,collj101,01,CX,S8/L8S.2-H;1-2
+play,5,0,johnd106,00,X,54(1)/FO/G56S
+play,5,1,philb102,00,,NP
 sub,colej106,"Jerry Coleman",0,7,5
-play,5,1,philb102,??,,63
-play,5,1,fox-n101,??,,43
-play,5,1,minom101,??,,43
-play,6,0,ditma101,??,,13
-play,6,0,richb102,??,,2/FL
-play,6,0,mcdog101,??,,13
-play,6,1,lolls101,??,,8/8D/F
-play,6,1,phild102,??,,S7/G
-play,6,1,hatff101,??,,K
-play,6,1,rivej101,??,,K
-play,7,0,mantm101,??,,W
-play,7,0,skowb101,??,,D8/89.1-3
-play,7,0,baueh101,??,,53
-play,7,0,berry101,??,,IW
-play,7,0,colej106,??,,6(1)3(B)/GDP
-play,7,1,aparl101,??,,S7/G
-play,7,1,stalg103,??,,NP
+play,5,1,philb102,12,BCSX,63/G6
+play,5,1,fox-n101,11,CBX,43/G4
+play,5,1,minom101,01,SX,43/G4M
+play,6,0,ditma101,02,SSFX,13/G25
+play,6,0,richb102,12,CBFX,2/P25F/FL
+play,6,0,mcdog101,02,CFX,13/G1
+play,6,1,lolls101,02,FFX,8/F8XD
+play,6,1,phild102,22,CBCFBX,S7/G56
+play,6,1,hatff101,02,SFS,K
+play,6,1,rivej101,12,FBFS,K
+play,7,0,mantm101,31,BBBCB,W
+play,7,0,skowb101,12,FB11S>X,D8/L89.1-3
+play,7,0,baueh101,00,X,53/G5
+play,7,0,berry101,30,IIII,IW
+play,7,0,colej106,00,X,6(1)3/GDP/G6M
+play,7,1,aparl101,??,,S7/G56
+play,7,1,stalg103,00,,NP
 sub,nortr101,"Ron Northey",1,9,11
 play,7,1,nortr101,??,,46(1)3/GDP
-play,7,1,philb102,??,,6/L
-play,8,0,johnd106,??,,NP
+play,7,1,philb102,02,SSX,5/L5
+play,8,0,johnd106,00,,NP
 sub,howed101,"Dixie Howell",1,9,1
-play,8,0,johnd106,??,,4/P
-play,8,0,ditma101,??,,K
-play,8,0,richb102,??,,63
-play,8,1,fox-n101,??,,63
-play,8,1,minom101,??,,43
-play,8,1,lolls101,??,,HR/7
-play,8,1,phild102,??,,S7/P
-play,8,1,hatff101,??,,3/G
-play,9,0,mcdog101,??,,S7/G
-play,9,0,mantm101,??,,46(1)/FO
-play,9,0,skowb101,??,,SB2
-play,9,0,skowb101,??,,63
-play,9,0,baueh101,??,,S6.2-3
-play,9,0,berry101,??,,NP
+play,8,0,johnd106,11,FBX,4/P4
+play,8,0,ditma101,12,FBSS,K
+play,8,0,richb102,00,X,63/G6
+play,8,1,fox-n101,11,FBX,63/G56
+play,8,1,minom101,22,BFBKX,4/P4
+play,8,1,lolls101,32,FBSBFBX,HR/F7D
+play,8,1,phild102,20,BBX,S/F8S
+play,8,1,hatff101,31,BBBC>X,3/G3L
+play,9,0,mcdog101,00,X,S7/G56
+play,9,0,mantm101,11,BCX,46(1)/FO/R3
+play,9,0,skowb101,31,FPB1B>C,SB2
+play,9,0,skowb101,32,FPB1B>C.X,63/G6
+play,9,0,baueh101,12,CFBX,S6/G6M.2-3
+play,9,0,berry101,00,,NP
 sub,lapap102,"Paul LaPalme",1,9,1
-play,9,0,berry101,??,,13
-play,9,1,rivej101,??,,NP
+play,9,0,berry101,12,FBFX,13/G1
+play,9,1,rivej101,00,,NP
 sub,grimb102,"Bob Grim",0,9,1
-play,9,1,rivej101,??,,K/C
-play,9,1,aparl101,??,,63
-play,9,1,lapap102,??,,NP
+play,9,1,rivej101,22,BFBCC,K/C
+play,9,1,aparl101,32,BCFBBFX,63/G6
+play,9,1,lapap102,00,,NP
 sub,donod101,"Dick Donovan",1,9,11
-play,9,1,donod101,??,,3/G
+play,9,1,donod101,00,X,3/G3
 data,er,ditma101,3
 data,er,grimb102,0
 data,er,pierb101,3
