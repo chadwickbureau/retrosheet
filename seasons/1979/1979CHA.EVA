@@ -6652,15 +6652,15 @@ info,umphome,phild901
 info,ump1b,morrd901
 info,ump2b,parkd901
 info,ump3b,merrd901
-info,scorer,"DET/CHA"
+info,scorer,"DET/CHA and WSNS/WGN broadcast"
 info,translator,"Dunkle"
 info,inputter,"Dunkle"
 info,inputtime,1996/08/28 8:04PM
 info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,pitches,pitches
+info,temp,84
+info,winddir,tolf
+info,windspeed,12
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -6690,92 +6690,100 @@ start,morrj002,"Jim Morrison",1,7,5
 start,pryog001,"Greg Pryor",1,8,6
 start,colbm101,"Mike Colbern",1,9,2
 start,howaf101,"Fred Howard",1,0,1
-play,1,0,leflr101,??,,53
-play,1,0,whitl001,??,,W
-play,1,0,staur001,??,,S9.1-3
-play,1,0,thomj001,??,,SB2.3-H(E2/TH)(UR)
-play,1,0,thomj001,??,,K
-play,1,0,summc001,??,,7
-play,1,1,banna001,??,,D7
-play,1,1,moorj101,??,,43.2-3
-play,1,1,lemoc001,??,,6/L
-play,1,1,johnl101,??,,8
-play,2,0,moraj101,??,,E5
-play,2,0,parrl001,??,,SB2
-play,2,0,parrl001,??,,7
-play,2,0,broot001,??,,T7.2-H(UR)
-play,2,0,trama001,??,,FC6.3XH(62);B-1
-play,2,0,leflr101,??,,54(1)/FO
-play,2,1,nordw101,??,,43
-play,2,1,torrr101,??,,S7
-play,2,1,morrj002,??,,K
-play,2,1,pryog001,??,,D7.1-H
-play,2,1,colbm101,??,,63
-play,3,0,whitl001,??,,31
-play,3,0,staur001,??,,W
-play,3,0,thomj001,??,,9
-play,3,0,summc001,??,,S4.1-2
-play,3,0,moraj101,??,,S9.2-H;1-3
-play,3,0,parrl001,??,,K
-play,3,1,banna001,??,,7
-play,3,1,moorj101,??,,53
-play,3,1,lemoc001,??,,63
-play,4,0,broot001,??,,53
-play,4,0,trama001,??,,63
-play,4,0,leflr101,??,,9
-play,4,1,johnl101,??,,K
-play,4,1,nordw101,??,,7
-play,4,1,torrr101,??,,8
-play,5,0,whitl001,??,,63
-play,5,0,staur001,??,,K/C
-play,5,0,thomj001,??,,K
-play,5,1,morrj002,??,,K
-play,5,1,pryog001,??,,8
-play,5,1,colbm101,??,,9
-play,6,0,summc001,??,,S9
-play,6,0,moraj101,??,,SB2
-play,6,0,moraj101,??,,53
-play,6,0,parrl001,??,,S8.2-H
-play,6,0,broot001,??,,NP
+play,1,0,leflr101,21,CBBX,53/G56
+play,1,0,whitl001,30,BBBB,W
+play,1,0,staur001,10,B1X,S9/G34.1-3
+play,1,0,thomj001,32,CBCBFBFS,K+SB2.3-H(E2/TH)(UR)
+play,1,0,summc001,00,X,7/L7
+play,1,1,banna001,11,BCX,D7/G5
+play,1,1,moorj101,00,X,43/G4.2-3
+play,1,1,lemoc001,20,BBX,6/L6
+play,1,1,johnl101,32,BC*BFBX,8/L78
+play,2,0,moraj101,01,SX,E5/G5
+play,2,0,parrl001,00,1B,SB2
+play,2,0,parrl001,10,1B.X,7/F7D
+com,"$Brief delay to remove roll of toilet paper from outfield"
+play,2,0,broot001,11,SBX,T7/F7L.2-H(UR)
+play,2,0,trama001,11,LBX,FC6/G6MS.3XH(62);B-1
+com,"$Another delay to remove rolls of toilet paper from outfield"
+play,2,0,leflr101,00,11X,54(1)/FO/G5
+play,2,1,nordw101,20,BBX,43/G4
+play,2,1,torrr101,00,X,S7/L7LS
+play,2,1,morrj002,12,SFFBFS,K
+play,2,1,pryog001,21,BBFX,D7/L7L.1-H
+com,"$More toilet paper rolls removed by right fielder--third delay"
+play,2,1,colbm101,00,X,63/G6
+play,3,0,whitl001,32,LBBBCX,31/G34S
+play,3,0,staur001,32,CBBBCFFB,W
+play,3,0,thomj001,22,SBBCX,9/F9S
+play,3,0,summc001,21,CBBX,S4/G4.1-2
+play,3,0,moraj101,01,CX,S9/L89.2-H;1-3
+play,3,0,parrl001,02,SFFS,K
+play,3,1,banna001,02,CFX,7/F7D
+play,3,1,moorj101,20,BBX,53/G5
+play,3,1,lemoc001,12,CLBX,53/G56
+play,4,0,broot001,00,X,53/G5
+play,4,0,trama001,00,X,63/G6M
+play,4,0,leflr101,21,CBBX,9/F9
+play,4,1,johnl101,02,CFS,K
+play,4,1,nordw101,10,BX,7/F7D
+play,4,1,torrr101,12,CSBX,8/F78
+play,5,0,whitl001,22,CFBFFBX,63/G6M
+play,5,0,staur001,12,BFSFC,K/C
+play,5,0,thomj001,12,FBCS,K
+play,5,1,morrj002,22,FCBBS,K
+play,5,1,pryog001,12,CBSX,8/F78D
+play,5,1,colbm101,00,X,9/F9D
+play,6,0,summc001,22,BBFFX,S9/L9S
+play,6,0,moraj101,00,C,SB2
+play,6,0,moraj101,01,C.X,53/G5
+com,"$Delay to remove disco records thrown into the infield"
+play,6,0,parrl001,02,CSX,S8/G6.2-H
+play,6,0,broot001,00,,NP
 sub,farme101,"Ed Farmer",1,0,1
-play,6,0,broot001,??,,16(1)3/GDP
-play,6,1,banna001,??,,63
-play,6,1,moorj101,??,,63
-play,6,1,lemoc001,??,,S7
-play,6,1,johnl101,??,,W.1-2
-play,6,1,nordw101,??,,5(2)/FO
-play,7,0,trama001,??,,8
-play,7,0,leflr101,??,,S9
-play,7,0,whitl001,??,,SB2
-play,7,0,whitl001,??,,63
-play,7,0,staur001,??,,43
-play,7,1,torrr101,??,,9
-play,7,1,morrj002,??,,53
-play,7,1,pryog001,??,,2/FL
-play,8,0,thomj001,??,,K
-play,8,0,summc001,??,,W
-play,8,0,moraj101,??,,S9.1-3
-play,8,0,parrl001,??,,6(B)3(1)/LDP
-play,8,1,colbm101,??,,63
-play,8,1,banna001,??,,53
-play,8,1,moorj101,??,,D8
-play,8,1,lemoc001,??,,W
-play,8,1,johnl101,??,,NP
+play,6,0,broot001,01,.1CX,16(1)3/GDP/G1
+play,6,1,banna001,02,CFX,63/G6
+play,6,1,moorj101,01,CX,63/G56
+play,6,1,lemoc001,21,BBCX,S7/G56
+play,6,1,johnl101,31,*BF*BBB,W.1-2
+play,6,1,nordw101,11,CBX,5(2)/FO/G5
+com,"$Fireworks thrown onto the field"
+play,7,0,trama001,20,BBX,8/F8D
+play,7,0,leflr101,32,SBCBBX,S9/F9S
+play,7,0,whitl001,00,1P,SB2
+play,7,0,whitl001,22,1P.CCBX,63/G6M
+play,7,0,staur001,12,FBSX,43/G4
+com,"$More records thrown all over the field; another long delay"
+play,7,1,torrr101,12,CFBX,9/F89
+play,7,1,morrj002,31,BBCBX,53/G5
+play,7,1,pryog001,11,CBX,2/FL/P2F
+play,8,0,thomj001,22,CBCBS,K
+play,8,0,summc001,30,BBBB,W
+play,8,0,moraj101,01,C111>X,S9/G34.1-3
+com,"$More records onto the field; nearly hit bullpen pitchers"
+play,8,0,parrl001,02,CF>X,6(B)3(1)/LDP/L6
+play,8,1,colbm101,01,CX,63/G56
+play,8,1,banna001,00,X,53/G5S
+play,8,1,moorj101,10,BX,D8/F78XD
+com,"$Tigers bullpen catcher nearly hit by firecracker and Tigers"
+com,"manager Anderson talks to umpire about concerns"
+play,8,1,lemoc001,32,BFBBCFB,W
+play,8,1,johnl101,00,,NP
 sub,lopea001,"Aurelio Lopez",0,0,1
-play,8,1,johnl101,??,,64(1)/FO
-play,9,0,broot001,??,,53
-play,9,0,trama001,??,,4/L
-play,9,0,leflr101,??,,S9
-play,9,0,whitl001,??,,SB2
-play,9,0,whitl001,??,,7
-play,9,1,nordw101,??,,NP
+play,8,1,johnl101,11,.FBX,64(1)/FO/G6
+play,9,0,broot001,00,X,53/G5
+play,9,0,trama001,11,CBX,4/L4
+play,9,0,leflr101,20,BBX,S9/L9L
+play,9,0,whitl001,00,11B,SB2
+play,9,0,whitl001,20,11B.BX,7/L7
+play,9,1,nordw101,00,,NP
 sub,ortaj001,"Jorge Orta",1,5,11
-play,9,1,ortaj001,??,,2/FL
-play,9,1,torrr101,??,,NP
+play,9,1,ortaj001,11,.BCX,2/FL/P25F
+play,9,1,torrr101,00,,NP
 sub,washc001,"Claudell Washington",1,6,11
-play,9,1,washc001,??,,K
-play,9,1,morrj002,??,,K
-com,"$second game of DH forfeited to Detroit (Disco Demolition Night)"
+play,9,1,washc001,02,.CFS,K
+play,9,1,morrj002,22,BCFBS,K
+com,"$Second game of DH forfeited to Detroit (Disco Demolition Night)"
 data,er,undep101,1
 data,er,lopea001,0
 data,er,howaf101,2

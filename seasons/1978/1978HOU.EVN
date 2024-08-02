@@ -1977,12 +1977,16 @@ play,7,0,hebnr001,??,,8
 play,7,0,maddg001,??,,K
 play,7,1,cedec001,??,,S7
 com,"ej,boonb001,P,froeb901,Balls and strikes"
+com,"ej,harrb101,P,froeb901,Bench jockeying"
 com,"$Warren Brusstar thought he had struck out Cesar Cedeno on a pitch"
 com,"that was called a ball by HP umpire Bruce Froemming; after Cedeno"
 com,"singled, Brusstar yelled at Froemming, who came out from behind"
 com,"the plate and walked toward Brusstar; catcher Bob Boone ran in"
 com,"front of Froemming and there was contact between the two; Boone"
-com,"ejected by Froemming"
+com,"ejected by Froemming."
+com,"After Boone was ejected the Mets bench began heckling Froemming;"
+com,"Bud Harrelson apparently made a comment about Froemmming's height"
+com,"and was ejected."
 play,7,1,cruzj001,??,,NP
 sub,footb101,"Barry Foote",0,7,2
 play,7,1,cruzj001,??,,SB2#
@@ -2017,19 +2021,19 @@ info,hometeam,HOU
 info,site,HOU02
 info,date,1978/05/16
 info,number,0
-info,starttime,0:00PM
+info,starttime,7:35PM
 info,daynight,night
 info,usedh,false
 info,umphome,grege901
 info,ump1b,willb901
 info,ump2b,steld901
 info,ump3b,froeb901
-info,scorer,"18,23"
-info,translator,"Comly"
-info,inputter,"Comly"
+info,scorer,"18,23,Phillies radio broadcast"
+info,translator,"Clem Comly/Mike Grahek"
+info,inputter,"Clem Comly/Mike Grahek"
 info,inputtime,1996/08/21 9:27PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -2060,116 +2064,117 @@ start,cruzj001,"Jose Cruz",1,6,9
 start,fergj101,"Joe Ferguson",1,7,2
 start,metzr101,"Roger Metzger",1,8,6
 start,lemom101,"Mark Lemongello",1,9,1
-play,1,0,mcbrb101,??,,S5/BG
-play,1,0,bowal001,??,,64(1)/FO.B-2(E4/TH1)
-play,1,0,schmm001,??,,7
-play,1,0,luzig001,??,,W
-play,1,0,hebnr001,??,,K/C
-play,1,1,puhlt001,??,,T8
-play,1,1,cabee001,??,,S7.3-H
-play,1,1,cedec001,??,,S8.1-3
-play,1,1,watsb001,??,,S7.3-H;1-3
-play,1,1,howea001,??,,9/SF.3-H
-play,1,1,cruzj001,??,,W.1-2
-play,1,1,fergj101,??,,W.2-3;1-2
-play,1,1,metzr101,??,,46(1)3/GDP
-play,2,0,maddg001,??,,8
-play,2,0,mccat101,??,,8
-play,2,0,harrb101,??,,9
-play,2,1,lemom101,??,,K
-play,2,1,puhlt001,??,,7
-play,2,1,cabee001,??,,63
-play,3,0,carls001,??,,S8
-play,3,0,mcbrb101,??,,3
-play,3,0,bowal001,??,,64(1)/FO
-play,3,0,schmm001,??,,K
-play,3,1,cedec001,??,,9
-play,3,1,watsb001,??,,W
-play,3,1,howea001,??,,S7.1-2
-play,3,1,cruzj001,??,,K
-play,3,1,fergj101,??,,9
-play,4,0,luzig001,??,,9
-play,4,0,hebnr001,??,,W
-play,4,0,maddg001,??,,PB.1-2#
-play,4,0,maddg001,??,,6
-play,4,0,mccat101,??,,S9.2-H
-play,4,0,harrb101,??,,S7.1-2
-play,4,0,carls001,??,,13
-play,4,1,metzr101,??,,63
-play,4,1,lemom101,??,,K/C
-play,4,1,puhlt001,??,,4
-play,5,0,mcbrb101,??,,S8
-play,5,0,bowal001,??,,S9.1-3
-play,5,0,schmm001,??,,4
-play,5,0,luzig001,??,,K/C
-play,5,0,hebnr001,??,,8
-play,5,1,cabee001,??,,63
-play,5,1,cedec001,??,,4
-play,5,1,watsb001,??,,8
-play,6,0,maddg001,??,,S8
-play,6,0,mccat101,??,,S8.1-2
-play,6,0,harrb101,??,,14/SH.2-3;1-2
-play,6,0,carls001,??,,NP
+play,1,0,mcbrb101,11,BCX,S5/BG25
+play,1,0,bowal001,00,11X,64(1)/FO/G6.B-2(E4/TH1)
+play,1,0,schmm001,02,SSFX,7/F7D
+play,1,0,luzig001,32,BCBFBB,W
+play,1,0,hebnr001,02,CFC,K/C
+play,1,1,puhlt001,12,BFCX,T8/L8
+play,1,1,cabee001,01,FX,S7/G56.3-H
+play,1,1,cedec001,10,111BX,S8/L8S.1-3
+play,1,1,watsb001,22,111S1BF1*BF1>X,S7/G56.3-H;1-3
+play,1,1,howea001,12,FFBX,9/SF/F9.3-H
+play,1,1,cruzj001,32,BBSSBB,W.1-2
+play,1,1,fergj101,32,SCBFBBFB,W.2-3;1-2
+play,1,1,metzr101,11,BCX,46(1)3/GDP/G4
+play,2,0,maddg001,00,X,8/L8
+play,2,0,mccat101,21,CBBX,8/F8S
+play,2,0,harrb101,11,FBX,9/F9L
+play,2,1,lemom101,12,SBSS,K
+play,2,1,puhlt001,22,CCBFBX,7/L78
+play,2,1,cabee001,00,X,63/G6D
+play,3,0,carls001,21,BCBX,S8/G4M
+play,3,0,mcbrb101,00,X,3/FL/P3F
+play,3,0,bowal001,00,X,64(1)/FO/G6
+play,3,0,schmm001,22,1CSBBT,K
+play,3,1,cedec001,20,BBX,9/F9L
+play,3,1,watsb001,32,FCBBBFB,W
+play,3,1,howea001,22,PFCFBX,S7/L7L.1-2
+play,3,1,cruzj001,02,FCS,K
+play,3,1,fergj101,00,X,9/F9L
+play,4,0,luzig001,11,BFX,9/F89
+play,4,0,hebnr001,31,BBBCB,W
+play,4,0,maddg001,00,X,6/P6
+play,4,0,mccat101,01,CS,PB.1-2
+play,4,0,mccat101,02,CS.X,S9/L9.2-H
+play,4,0,harrb101,02,CFX,S7/G56.1-2
+play,4,0,carls001,02,CFX,13/G1
+play,4,1,metzr101,12,FFBFX,63/G6D
+play,4,1,lemom101,02,SSC,K/C
+play,4,1,puhlt001,00,X,4/BP/P34S
+play,5,0,mcbrb101,01,CX,S8/G
+play,5,0,bowal001,32,LBB>FB>X,S9/G34.1-3
+play,5,0,schmm001,11,FBX,4/P3D
+play,5,0,luzig001,02,1SCC,K/C
+play,5,0,hebnr001,00,X,8/F8
+play,5,1,cabee001,10,BX,63/G6
+play,5,1,cedec001,11,FBX,4/P4D
+play,5,1,watsb001,22,FBCBX,8/F8S
+play,6,0,maddg001,00,X,S8/G
+play,6,0,mccat101,01,11C1X,S8/L8.1-2
+play,6,0,harrb101,01,LX,14/SH/BG25.2-3;1-2
+play,6,0,carls001,00,,NP
 sub,bannf001,"Floyd Bannister",1,9,1
-play,6,0,carls001,??,,NP
+play,6,0,carls001,00,.,NP
 sub,boonb001,"Bob Boone",0,9,11
-play,6,0,boonb001,??,,5/L
-play,6,0,mcbrb101,??,,7/L
-play,6,1,howea001,??,,NP
+play,6,0,boonb001,12,..CFF*BFFX,5/L5
+play,6,0,mcbrb101,01,CX,7/L7
+play,6,1,howea001,00,,NP
 sub,boonb001,"Bob Boone",0,9,2
-play,6,1,howea001,??,,NP
+play,6,1,howea001,00,.,NP
 sub,reedr001,"Ron Reed",0,7,1
-play,6,1,howea001,??,,W
-play,6,1,cruzj001,??,,T9.1-H
-play,6,1,fergj101,??,,W
-play,6,1,metzr101,??,,S7.3-H;1-2
-play,6,1,bannf001,??,,34/SH.2-3;1-2
-play,6,1,puhlt001,??,,IW
-play,6,1,cabee001,??,,K
-play,6,1,cedec001,??,,54(1)/FO
-play,7,0,bowal001,??,,9/L
-play,7,0,schmm001,??,,W
-play,7,0,luzig001,??,,K
-play,7,0,hebnr001,??,,K
-play,7,1,watsb001,??,,D8
-play,7,1,howea001,??,,NP
+play,6,1,howea001,32,..BBBCFB,W
+play,6,1,cruzj001,11,BCX,T9/F89D.1-H
+play,6,1,fergj101,31,BBBFB,W
+play,6,1,metzr101,01,1CX,S7/L7.3-H;1-2
+play,6,1,bannf001,10,BX,34/SH/BG3S.2-3;1-2
+play,6,1,puhlt001,30,IIII,IW
+play,6,1,cabee001,12,SSBFFS,K
+play,6,1,cedec001,31,BBFBX,54(1)/FO/G5
+play,7,0,bowal001,22,BBCFFFFX,9/L89D
+play,7,0,schmm001,32,SBBFBB,W
+play,7,0,luzig001,32,BSBSFFBT,K
+play,7,0,hebnr001,12,BFS>S,K
+play,7,1,watsb001,11,BFX,D8/L8D
+play,7,1,howea001,00,,NP
 sub,bergd001,"Dave Bergman",1,4,12
-play,7,1,howea001,??,,6
-play,7,1,cruzj001,??,,6
-play,7,1,fergj101,??,,63
-play,8,0,maddg001,??,,NP
+play,7,1,howea001,12,.SBFFX,6/P6D
+play,7,1,cruzj001,20,BBX,6/FL/P5DF
+play,7,1,fergj101,32,BCBCBX,63/G6
+play,8,0,maddg001,00,,NP
 sub,bergd001,"Dave Bergman",1,4,3
-play,8,0,maddg001,??,,63
+play,8,0,maddg001,11,.SBX,63/G6M
 com,"ej,taylt101,C,willb901,Call at 1B"
-com,"Phillies Coach Tony Taylor ejected by 1B umpire Bill Williams;"
+com,"$Phillies Coach Tony Taylor ejected by 1B umpire Bill Williams"
+com,"for arguing call at first base;"
 com,"Phillies manager Danny Ozark takes over at 1B"
-play,8,0,reedr001,??,,NP
+play,8,0,reedr001,00,,NP
 sub,martj001,"Jerry Martin",0,7,11
-play,8,0,martj001,??,,D7
-play,8,0,harrb101,??,,8
-play,8,0,boonb001,??,,W
-play,8,0,mcbrb101,??,,K
-play,8,1,metzr101,??,,NP
+play,8,0,martj001,11,.BCX,D7/F7D
+play,8,0,harrb101,22,BCBSFX,8/F78D
+play,8,0,boonb001,30,BBBB,W
+play,8,0,mcbrb101,22,BCSBS,K
+play,8,1,metzr101,00,,NP
 sub,martj001,"Jerry Martin",0,7,9
-play,8,1,metzr101,??,,NP
+play,8,1,metzr101,00,.,NP
 sub,mcgrt001,"Tug McGraw",0,1,1
-play,8,1,metzr101,??,,13
-play,8,1,bannf001,??,,NP
+play,8,1,metzr101,11,..BCX,13/G1
+play,8,1,bannf001,00,,NP
 sub,alouj101,"Jesus Alou",1,9,11
-play,8,1,alouj101,??,,53
-play,8,1,puhlt001,??,,HR
-play,8,1,cabee001,??,,4
-play,9,0,bowal001,??,,NP
+play,8,1,alouj101,20,.BBX,53/G5
+play,8,1,puhlt001,01,FX,HR/F9D
+play,8,1,cabee001,10,BX,4/L4S
+play,9,0,bowal001,00,,NP
 sub,sambj001,"Joe Sambito",1,9,1
 com,"umpchange,9,ump2b,(None)"
 com,"$2B umpire Dick Stello left game due to upset stomach"
-play,9,0,bowal001,??,,E6.B-1
-play,9,0,schmm001,??,,K
-play,9,0,luzig001,??,,W.1-2
-play,9,0,hebnr001,??,,NP
+play,9,0,bowal001,02,.CFX,E6/G6
+play,9,0,schmm001,12,CFBS,K
+play,9,0,luzig001,32,FBBFBB,W.1-2
+play,9,0,hebnr001,00,,NP
 sub,cardj101,"Jose Cardenal",0,5,11
-play,9,0,cardj101,??,,K
-play,9,0,maddg001,??,,8
+play,9,0,cardj101,12,.CBFS,K
+play,9,0,maddg001,00,X,8/F8
 data,er,carls001,3
 data,er,reedr001,2
 data,er,mcgrt001,1
@@ -11395,7 +11400,7 @@ info,inputter,"Comly"
 info,inputtime,1996/12/01 10:47PM
 info,howscored,park
 info,pitches,none
-info,temp,0
+info,temp,75
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -11441,7 +11446,7 @@ play,2,0,bakec101,??,,K
 play,2,0,rasme101,??,,53
 play,2,1,cabee001,??,,S
 play,2,1,watsb001,??,,PB.1-2
-play,2,1,watsb001,??,,9.2-3
+play,2,1,watsb001,??,,9/F.2-3
 play,2,1,walld001,??,,43.3-H(UR)
 play,2,1,bochb002,??,,13
 play,3,0,richg001,??,,S
@@ -11484,16 +11489,16 @@ play,6,1,watsb001,??,,2/FL
 play,7,0,bakec101,??,,43
 play,7,0,rasme101,??,,7
 play,7,0,richg001,??,,K
-play,7,1,walld001,??,,T
+play,7,1,walld001,??,,T9
 play,7,1,bochb002,??,,NP
 sub,howaw101,"Wilbur Howard",1,8,11
-play,7,1,howaw101,??,,D.3-H
+play,7,1,howaw101,??,,D/L7LD.3-H
 play,7,1,richj101,??,,14/SH.2-3
 play,7,1,landr001,??,,NP
 sub,shirb001,"Bob Shirley",0,9,1
 play,7,1,landr001,??,,NP
 sub,alouj101,"Jesus Alou",1,1,11
-play,7,1,alouj101,??,,S.3-H
+play,7,1,alouj101,??,,S9.3-H
 play,7,1,gonzj101,??,,NP
 sub,sextj101,"Jimmy Sexton",1,1,12
 play,7,1,gonzj101,??,,43(B)6(1)/GDP
@@ -11506,7 +11511,7 @@ play,8,0,perkb001,??,,S
 play,8,0,winfd001,??,,NP
 sub,almob001,"Bill Almon",0,3,12
 play,8,0,winfd001,??,,K
-play,8,0,turnj101,??,,99(1)/FO
+play,8,0,turnj101,??,,6(1)/FO
 play,8,1,puhlt001,??,,NP
 sub,tenag101,"Gene Tenace",0,3,3
 play,8,1,puhlt001,??,,13

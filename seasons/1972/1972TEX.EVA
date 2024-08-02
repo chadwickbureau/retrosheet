@@ -4968,8 +4968,7 @@ start,randl101,"Len Randle",1,8,4
 start,brobp101,"Pete Broberg",1,9,1
 play,1,0,kellp101,??,,K/C
 play,1,0,andrm101,??,,13
-play,1,0,alled101,??,,99#
-com,"missing play in TEX197206240"
+play,1,0,alled101,??,,4
 play,1,1,nelsd101,??,,8
 play,1,1,harrt001,??,,W
 play,1,1,fordt102,??,,64(1)/FO
@@ -4996,7 +4995,7 @@ play,4,0,reicr101,??,,HP.1-2
 play,4,0,lyttj101,??,,K/C
 play,4,0,egant101,??,,8
 play,4,0,alval101,??,,S7.2XH(72);1-2
-play,4,1,fordt102,??,,S5
+play,4,1,fordt102,??,,S5/G5
 play,4,1,billd101,??,,BK.1-2
 play,4,1,billd101,??,,43.2-3
 play,4,1,howaf102,??,,43
@@ -5016,8 +5015,9 @@ play,6,0,egant101,??,,S8.1-2
 play,6,0,alval101,??,,46(1)3/GDP
 play,6,1,nelsd101,??,,K/C
 play,6,1,harrt001,??,,6
-play,6,1,fordt102,??,,D7
-play,6,1,billd101,??,,S8.2-H
+play,6,1,fordt102,??,,D7/P6D
+com,"$Alvarado and Reichardt collided ball fell for a hit"
+play,6,1,billd101,??,,S8/L8S.2-H
 play,6,1,howaf102,??,,8
 play,7,0,lemod101,??,,K
 play,7,0,kellp101,??,,63
@@ -5040,8 +5040,8 @@ play,8,0,lyttj101,??,,NP
 sub,willw103,"Walt Williams",0,6,11
 play,8,0,willw103,??,,NP
 sub,paulm101,"Mike Paul",1,9,1
-play,8,0,willw103,??,,7
-play,8,0,egant101,??,,8
+play,8,0,willw103,??,,7/F
+play,8,0,egant101,??,,8/L8
 play,8,1,nelsd101,??,,NP
 sub,willw103,"Walt Williams",0,6,7
 play,8,1,nelsd101,??,,NP
@@ -5052,11 +5052,11 @@ sub,gossr001,"Rich Gossage",0,9,1
 play,8,1,harrt001,??,,SB2
 play,8,1,harrt001,??,,W
 play,8,1,fordt102,??,,13/SH.2-3;1-2
-play,8,1,billd101,??,,D7.3-H;2-H
+play,8,1,billd101,??,,D7/G5.3-H;2-H
 play,8,1,howaf102,??,,S5.2-3
 play,8,1,lovij102,??,,63.1-2
 play,8,1,biitl101,??,,W
-play,8,1,randl101,??,,D8.3-H;2-H;1-H
+play,8,1,randl101,??,,D8/F78XDW.3-H;2-H;1-H
 play,8,1,paulm101,??,,7
 play,9,0,alval101,??,,7
 play,9,0,gossr001,??,,NP
@@ -8293,8 +8293,9 @@ play,7,1,harrv101,??,,IW
 play,7,1,paulm101,??,,54/SH.1-2;2-3;3-H
 play,7,1,nelsd101,??,,NP
 sub,wrigk101,"Ken Wright",0,9,1
-com,"Hard rain came with 3-2 count on Dave Nelson; game called after"
-com,"52 minute delay"
+play,7,1,nelsd101,32,,NP
+com,"$Hard rain came with 3-2 count on Dave Nelson"
+com,"Game called after 52 minute delay"
 data,er,splip001,3
 data,er,wrigk101,0
 data,er,paulm101,0

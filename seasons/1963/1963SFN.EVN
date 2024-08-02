@@ -2581,8 +2581,8 @@ version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
 info,visteam,NYN
 info,hometeam,SFN
-info,date,1963/05/17
 info,site,SFO02
+info,date,1963/05/17
 info,number,0
 info,starttime,0:00PM
 info,daynight,night
@@ -2591,13 +2591,14 @@ info,umphome,conlj102
 info,ump1b,burkk101
 info,ump2b,pelec901
 info,ump3b,walsf901
-info,scorer,"Bob Stevens"
-info,inputter,"Alan Boodman"
+info,scorer,"Bob Stevens,602"
+info,translator,"Wayne Townsend,Alan Boodman"
+info,inputter,"Wayne Townsend,Alan Boodman"
 info,inputtime,1995/04/24 8:36AM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,ltor
 info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
@@ -2626,119 +2627,122 @@ start,baile101,"Ed Bailey",1,6,2
 start,amalj101,"Joey Amalfitano",1,7,4
 start,pagaj101,"Jose Pagan",1,8,6
 start,pierb101,"Billy Pierce",1,9,1
-play,1,0,nealc101,??,,4/P
-play,1,0,huntr101,??,,43
-play,1,0,cookc101,??,,5/L
-play,1,1,davej101,??,,K/C
-play,1,1,alouf101,??,,31
-play,1,1,maysw101,??,,HR/7
-play,1,1,mccow101,??,,HR/8
-play,1,1,cepeo101,??,,W
-play,1,1,baile101,??,,K/C
-play,2,0,snidd101,??,,2/FL
-play,2,0,hickj103,??,,K
-play,2,0,krane101,??,,K
-play,2,1,amalj101,??,,W
-play,2,1,pagaj101,??,,63.1-2
-play,2,1,pierb101,??,,43.2-3
-play,2,1,davej101,??,,6
-play,3,0,cannc101,??,,K/C
-play,3,0,moraa102,??,,K/C
-play,3,0,ciscg101,??,,13
-play,3,1,alouf101,??,,6/L
-play,3,1,maysw101,??,,63
-play,3,1,mccow101,??,,K
-play,4,0,nealc101,??,,53
-play,4,0,huntr101,??,,53
-play,4,0,cookc101,??,,K
-play,4,1,cepeo101,??,,K
-play,4,1,baile101,??,,S
-play,4,1,amalj101,??,,S.1-2
-play,4,1,pagaj101,??,,K/C
-play,4,1,pierb101,??,,WP.1-2;2-3
-play,4,1,pierb101,??,,W
-play,4,1,davej101,??,,W.3-H;2-3;1-2
-play,4,1,alouf101,??,,54(1)/FO
-play,5,0,snidd101,??,,S8
-play,5,0,hickj103,??,,K
-play,5,0,krane101,??,,K/C
-play,5,0,cannc101,??,,S8.1-3
-play,5,0,moraa102,??,,S/78.3-H;1-H(E7)(UR);B-2
-play,5,0,ciscg101,??,,43
-play,5,1,maysw101,??,,63
-play,5,1,mccow101,??,,W
-play,5,1,cepeo101,??,,63.1-2
-play,5,1,baile101,??,,8
-play,6,0,nealc101,??,,63
-play,6,0,huntr101,??,,S9
-play,6,0,cookc101,??,,5
-play,6,0,snidd101,??,,W.1-2
-play,6,0,hickj103,??,,NP
+play,1,0,nealc101,00,X,4/P4D
+play,1,0,huntr101,00,X,43/G4
+play,1,0,cookc101,01,CX,5/L5+
+play,1,1,davej101,12,BSFC,K/C
+com,"$Game delayed 32 minutes due to fog and wind"
+play,1,1,alouf101,01,CX,31/G34
+play,1,1,maysw101,21,CBBX,HR/F7D
+play,1,1,mccow101,31,BBBKX,HR/F8XD
+play,1,1,cepeo101,32,BBFSBB,W
+play,1,1,baile101,22,BSBCC,K/C
+play,2,0,snidd101,??,,2/P2F/FL
+play,2,0,hickj103,12,BCSS,K
+play,2,0,krane101,12,BFFS,K
+play,2,1,amalj101,31,BCBBB,W
+play,2,1,pagaj101,10,B>X,63/G6S.1-2
+play,2,1,pierb101,??,,43/G4.2-3
+play,2,1,davej101,??,,6/L-
+play,3,0,cannc101,22,BBCCC,K/C
+play,3,0,moraa102,22,BCBSC,K/C
+play,3,0,ciscg101,00,X,13/G1
+play,3,1,alouf101,??,,6/L6+
+play,3,1,maysw101,01,CX,63/G6
+play,3,1,mccow101,12,SFBS,K
+play,4,0,nealc101,10,BX,53/G5
+play,4,0,huntr101,01,FX,5!3/G56
+play,4,0,cookc101,12,SBSS,K
+play,4,1,cepeo101,12,FBCS,K
+play,4,1,baile101,10,BX,S3/G3
+play,4,1,amalj101,01,CX,S5/G5S-.1-2
+play,4,1,pagaj101,22,BSBCC,K/C
+play,4,1,pierb101,20,BB+2B,WP.2-3;1-2
+play,4,1,pierb101,30,BB+2B.B,W
+play,4,1,davej101,32,CBBBKB,W.3-H;2-3;1-2
+play,4,1,alouf101,00,X,54(1)/FO/G56
+play,5,0,snidd101,22,,S8/L89
+play,5,0,hickj103,22,SBBFS,K
+play,5,0,krane101,02,CCC,K/C
+play,5,0,cannc101,??,,S/L78.1-3
+play,5,0,moraa102,10,BX,S7/L7L.3-H;1-H(E7)(NR)(UR);B-2
+play,5,0,ciscg101,01,CX,43/G4
+play,5,1,maysw101,??,,63/G56
+play,5,1,mccow101,30,BBBB,W
+play,5,1,cepeo101,??,,63/G6.1-2
+play,5,1,baile101,11,F*BX,8/F8XD
+play,6,0,nealc101,??,,63/G56
+play,6,0,huntr101,01,FX,S9/L
+play,6,0,cookc101,??,,5/L5
+play,6,0,snidd101,31,BBBCB,W.1-2
+play,6,0,hickj103,00,,NP
 sub,larsd102,"Don Larsen",1,9,1
-play,6,0,hickj103,??,,W.2-3;1-2
-play,6,0,krane101,??,,K
-play,6,1,amalj101,??,,S/89
-play,6,1,pagaj101,??,,W.1-2
-play,6,1,larsd102,??,,NP
+play,6,0,hickj103,31,BBC*BB,W.2-3;1-2
+play,6,0,krane101,32,BSFBBS,K
+play,6,1,amalj101,??,,S8/L89
+play,6,1,pagaj101,32,B1BC11B1F>F>FB,W.1-2
+play,6,1,larsd102,00,,NP
 sub,odelb101,"Billy O'Dell",1,9,11
-play,6,1,odelb101,??,,15(2)/FO.1-2
-play,6,1,davej101,??,,54(1)3/GDP
-play,7,0,cannc101,??,,NP
+play,6,1,odelb101,01,LX,15(2)/FO/BG25.1-2
+play,6,1,davej101,11,BCX,54(1)3/GDP
+play,7,0,cannc101,00,,NP
 sub,bolib101,"Bobby Bolin",1,9,1
-play,7,0,cannc101,??,,7
-play,7,0,moraa102,??,,6/P
-play,7,0,ciscg101,??,,9
-play,7,1,alouf101,??,,6/P
-play,7,1,maysw101,??,,8
-play,7,1,mccow101,??,,3/G
-play,8,0,nealc101,??,,K
-play,8,0,huntr101,??,,HR/78
-play,8,0,cookc101,??,,5/FL
-play,8,0,snidd101,??,,W
-play,8,0,hickj103,??,,K
-play,8,1,cepeo101,??,,7
-play,8,1,baile101,??,,43
-play,8,1,amalj101,??,,K/C
-play,9,0,krane101,??,,K
-play,9,0,cannc101,??,,NP
+play,7,0,cannc101,12,SSBX,7/F78S
+play,7,0,moraa102,12,SCBFX,6/P6MD
+play,7,0,ciscg101,00,X,9/F9D
+play,7,1,alouf101,??,,6/P78S
+play,7,1,maysw101,10,BX,8/F78XDW
+play,7,1,mccow101,20,BBX,3/G3L
+play,8,0,nealc101,22,BSBFS,K
+play,8,0,huntr101,02,FLX,HR/F78XD
+play,8,0,cookc101,22,SCBFBFX,5/P5DF/FL
+play,8,0,snidd101,30,BBBB,W
+play,8,0,hickj103,02,CSS,K
+play,8,1,cepeo101,12,CFBX,7/F7D
+play,8,1,baile101,12,BCFX,43/G4
+play,8,1,amalj101,12,CCBC,K/C
+play,9,0,krane101,32,BCFBBFS,K
+play,9,0,cannc101,00,,NP
 sub,harkt101,"Tim Harkness",0,7,11
 play,9,0,harkt101,??,,K
-play,9,0,moraa102,??,,K
-play,9,1,pagaj101,??,,NP
+play,9,0,moraa102,22,BFCBS,K
+play,9,1,pagaj101,00,,NP
 sub,shern102,"Norm Sherry",0,7,2
-play,9,1,pagaj101,??,,E5.B-3(E4)#
-play,9,1,bolib101,??,,NP
+play,9,1,pagaj101,02,CCX,E5/TH1/G5L.B-3(E4/TH2)
+play,9,1,bolib101,00,,NP
 sub,kuenh101,"Harvey Kuenn",1,9,11
-play,9,1,kuenh101,??,,43
-play,9,1,davej101,??,,NP
+play,9,1,kuenh101,11,CBX,43/G4
+play,9,1,davej101,00,,NP
 sub,aloum101,"Matty Alou",1,1,11
-play,9,1,aloum101,??,,43
-play,9,1,alouf101,??,,63
-play,10,0,ciscg101,??,,NP
+play,9,1,aloum101,12,SBCX,43/G4S
+play,9,1,alouf101,??,,63/G56
+play,10,0,ciscg101,00,,NP
 sub,bowme101,"Ernie Bowman",1,9,4
-play,10,0,ciscg101,??,,NP
+play,10,0,ciscg101,00,,NP
 sub,perrg101,"Gaylord Perry",1,1,1
-play,10,0,ciscg101,??,,NP
+play,10,0,ciscg101,00,,NP
 sub,amalj101,"Joey Amalfitano",1,7,5
-play,10,0,ciscg101,??,,NP
+play,10,0,ciscg101,00,,NP
 sub,colec105,"Clarence Coleman",0,9,11
-play,10,0,colec105,??,,3/FL
-play,10,0,nealc101,??,,S9
-play,10,0,huntr101,??,,E3.1-3
-play,10,0,cookc101,??,,K
-play,10,0,snidd101,??,,43
-play,10,1,maysw101,??,,NP
+play,10,0,colec105,32,BLBFBX,3/P3F/FL
+play,10,0,nealc101,??,,S9/9L
+play,10,0,huntr101,12,CBSX,E3/G3.1-3;B-1
+play,10,0,cookc101,12,SFBS,K
+play,10,0,snidd101,??,,43/G4
+play,10,1,maysw101,00,,NP
 sub,crair101,"Roger Craig",0,9,1
-play,10,1,maysw101,??,,HP
-play,10,1,mccow101,??,,36(1)3/GDP
-play,10,1,cepeo101,??,,6
-play,11,0,hickj103,??,,5E3
+play,10,1,maysw101,00,H,HP
+com,"$Hit on left elbow; he was in pain for a few minutes"
+play,10,1,mccow101,11,11BCX,36(1)3/GDP
+play,10,1,cepeo101,??,,6/L6
+play,11,0,hickj103,10,BX,5E3/G5L.B-1
+com,"$Cepeda did not have his foot on the bag"
 play,11,0,krane101,??,,46(1)/FO
-play,11,0,shern102,??,,K/C
+play,11,0,shern102,02,CLC,K/C
 play,11,0,moraa102,??,,SB2
-play,11,0,moraa102,??,,63
-play,11,1,baile101,??,,3/G
-play,11,1,amalj101,??,,HR/7
+play,11,0,moraa102,??,,63/G6
+play,11,1,baile101,??,,3/G3
+play,11,1,amalj101,10,BX,HR/F7LD
 data,er,ciscg101,3
 data,er,crair101,1
 data,er,pierb101,1
