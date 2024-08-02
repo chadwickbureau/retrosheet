@@ -2485,18 +2485,18 @@ info,umphome,bremn901
 info,ump1b,goetr901
 info,ump2b,brinj901
 info,ump3b,fordd901
-info,scorer,"Red Sox"
-info,translator,"Greg Beston"
-info,inputter,"Greg Beston"
+info,scorer,"2,Tigers radio broadcast"
+info,translator,"Greg Beston/Mike Grahek"
+info,inputter,"Greg Beston/Mike Grahek"
 info,inputtime,1996/12/12 1:36PM
-info,howscored,unknown
-info,pitches,none
+info,howscored,park
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,wet
+info,precip,none
+info,sky,sunny
 info,timeofgame,147
 info,attendance,0
 info,wp,wilcm001
@@ -2523,41 +2523,41 @@ start,parrl001,"Lance Parrish",1,7,2
 start,rodra101,"Aurelio Rodriguez",1,8,5
 start,dills101,"Steve Dillard",1,9,4
 start,wilcm001,"Milt Wilcox",1,0,1
-play,1,0,burlr001,??,,K/C
-play,1,0,remyj001,??,,7/L
-play,1,0,ricej001,??,,S
-play,1,0,yastc101,??,,K
-play,1,1,leflr101,??,,9/FL
-play,1,1,wagnm001,??,,S
-play,1,1,staur001,??,,W.1-2
-play,1,1,thomj001,??,,S.2-3;1-2
-play,1,1,kemps001,??,,3/G.3-H;2-3;1-2
-play,1,1,wockj001,??,,53
-play,2,0,fiskc001,??,,13/BG
-play,2,0,lynnf001,??,,6
-play,2,0,hobsb101,??,,8
-play,2,1,parrl001,??,,8
-play,2,1,rodra101,??,,63
-play,2,1,dills101,??,,7
-play,3,0,evand002,??,,K/C
-play,3,0,carbb101,??,,D
-play,3,0,burlr001,??,,53
-play,3,0,remyj001,??,,53
-play,3,1,leflr101,??,,63
-play,3,1,wagnm001,??,,S
-play,3,1,staur001,??,,W.1-2
-play,3,1,thomj001,??,,9/L
-play,3,1,kemps001,??,,W.2-3;1-2
-play,3,1,wockj001,??,,5(2)/G/FO
-play,4,0,ricej001,??,,K
-play,4,0,yastc101,??,,W
-play,4,0,fiskc001,??,,K+CS2(24)/DP
-play,4,1,parrl001,??,,S
-play,4,1,rodra101,??,,46(1)/FO
-play,4,1,dills101,??,,46(1)3/GDP
-play,5,0,lynnf001,??,,43
-play,5,0,hobsb101,??,,K
-play,5,0,evand002,??,,13
+play,1,0,burlr001,22,CFBBFC,K/C
+play,1,0,remyj001,12,CBCX,7/L7S
+play,1,0,ricej001,00,X,S8/L89S
+play,1,0,yastc101,12,CFFBS,K
+play,1,1,leflr101,12,FFBX,9/FL
+play,1,1,wagnm001,21,BBFX,S8/L8
+play,1,1,staur001,31,BB+1BC11>B,W.1-2
+play,1,1,thomj001,10,2BX,S7/G56.2-3;1-2
+play,1,1,kemps001,00,X,3/G3.3-H;2-3;1-2
+play,1,1,wockj001,12,CBCX,53/G5
+play,2,0,fiskc001,00,X,13/BG1S
+play,2,0,lynnf001,32,SBBBCX,6/P6
+play,2,0,hobsb101,02,CFX,8/F8
+play,2,1,parrl001,10,BX,8/F8S
+play,2,1,rodra101,32,CBCBFFBX,63/G6S
+play,2,1,dills101,22,BBSFX,7/F7S
+play,3,0,evand002,32,CBBBSC,K/C
+play,3,0,carbb101,22,CSBBFFX,D7/L7D
+play,3,0,burlr001,00,X,53/G5
+play,3,0,remyj001,01,CX,53/G5
+play,3,1,leflr101,31,BBBCX,63/G6
+play,3,1,wagnm001,01,SX,S7/L78S
+play,3,1,staur001,30,BBBB,W.1-2
+play,3,1,thomj001,00,X,9/L9
+play,3,1,kemps001,31,2BBFBB,W.2-3;1-2
+play,3,1,wockj001,01,CX,5(2)/FO/G5
+play,4,0,ricej001,22,CFBBS,K
+play,4,0,yastc101,31,BBBFB,W
+play,4,0,fiskc001,32,CFBBB1>S,K+CS2(24)/DP
+play,4,1,parrl001,21,BSBX,S9/F9S
+play,4,1,rodra101,11,1BCX,46(1)/FO/P4D
+play,4,1,dills101,00,X,46(1)3/GDP/G4
+play,5,0,lynnf001,00,X,43/G4
+play,5,0,hobsb101,22,BBSCS,K
+play,5,0,evand002,01,CX,13/G1
 play,5,1,leflr101,??,,4
 play,5,1,wagnm001,??,,S
 play,5,1,staur001,??,,16(1)3/GDP
@@ -2602,7 +2602,8 @@ play,9,0,fiskc001,??,,53
 play,9,0,lynnf001,??,,K/C
 com,"ej,lynnf001,P,bremn901,Called third strike"
 com,"ej,zimmd101,M,bremn901,Called third strike"
-com,"Fred Lynn and Red Sox Manager Don Zimmer ejected by HP umpire Nick Bremigan"
+com,"$Fred Lynn and Red Sox Manager Don Zimmer ejected by HP umpire Nick Bremigan"
+com,"for arguing called third strike"
 play,9,0,hobsb101,??,,S
 play,9,0,evand002,??,,K
 data,er,lee-b101,2
@@ -2790,9 +2791,9 @@ info,inputter,"Bill Disney"
 info,inputtime,1993/02/27 4:52AM
 info,howscored,park
 info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,temp,81
+info,winddir,tolf
+info,windspeed,11
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,night
@@ -2829,7 +2830,7 @@ play,1,0,may-l101,??,,S8
 play,1,0,murre001,??,,43
 play,1,1,leflr101,??,,63
 play,1,1,trama001,??,,9
-play,1,1,staur001,??,,99#
+play,1,1,staur001,??,,4
 play,2,0,decid001,??,,8
 play,2,0,moraa101,??,,7
 play,2,0,dempr001,??,,43
@@ -2844,8 +2845,8 @@ play,3,0,may-l101,??,,HR/78.3-H;1-H
 play,3,0,murre001,??,,63
 play,3,1,wockj001,??,,63
 play,3,1,rodra101,??,,43
-play,3,1,whitl001,??,,S5#
-play,3,1,leflr101,??,,D/89.1-H
+play,3,1,whitl001,??,,S5/G5S
+play,3,1,leflr101,??,,D/L89.1-H
 play,3,1,trama001,??,,53
 play,4,0,decid001,??,,W
 play,4,0,moraa101,??,,S8.1-3
@@ -2895,7 +2896,7 @@ play,9,0,dempr001,??,,63
 play,9,0,belam101,??,,3/FL
 play,9,1,leflr101,??,,S8
 play,9,1,trama001,??,,8
-play,9,1,staur001,??,,HR/9.1-H
+play,9,1,staur001,??,,HR/L9.1-H
 play,9,1,thomj001,??,,31
 play,9,1,kemps001,??,,S4
 play,9,1,parrl001,??,,53
@@ -3052,25 +3053,25 @@ info,hometeam,DET
 info,site,DET04
 info,date,1978/05/31
 info,number,0
-info,starttime,0:00PM
+info,starttime,8:00PM
 info,daynight,night
 info,usedh,true
 info,umphome,chyln901
 info,ump1b,lucir901
 info,ump2b,garcr901
 info,ump3b,voltv901
-info,scorer,"MIL/DET"
-info,translator,"David W. Smith"
-info,inputter,"David W. Smith"
+info,scorer,"4,5,Tigers radio broadcast"
+info,translator,"David W. Smith/Mike Grahek"
+info,inputter,"David W. Smith/Mike Grahek"
 info,inputtime,1996/08/01 9:47AM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,night
 info,timeofgame,140
 info,attendance,13017
 info,wp,wilcm001
@@ -3097,86 +3098,86 @@ start,parrl001,"Lance Parrish",1,7,2
 start,rodra101,"Aurelio Rodriguez",1,8,5
 start,whitl001,"Lou Whitaker",1,9,4
 start,wilcm001,"Milt Wilcox",1,0,1
-play,1,0,molip001,??,,S/F78
-play,1,0,moned101,??,,K
-play,1,0,coopc001,??,,9
-play,1,0,bands101,??,,CS2(24)
-play,1,1,leflr101,??,,S7
-play,1,1,trama001,??,,8
-play,1,1,staur001,??,,W.1-2
-play,1,1,thomj001,??,,SB3
-play,1,1,thomj001,??,,13.1-2
-play,1,1,kemps001,??,,63
-play,2,0,bands101,??,,S9
-play,2,0,oglib001,??,,S7.1-2
-play,2,0,lezcs001,??,,K
-play,2,0,thomg001,??,,K
-play,2,0,younr001,??,,8
-play,2,1,wockj001,??,,63
-play,2,1,parrl001,??,,43
-play,2,1,rodra101,??,,HR/7
-play,2,1,whitl001,??,,7
-play,3,0,moorc001,??,,K
-play,3,0,molip001,??,,9
-play,3,0,moned101,??,,8/L
-play,3,1,leflr101,??,,9
-play,3,1,trama001,??,,53
-play,3,1,staur001,??,,7
-play,4,0,coopc001,??,,K
-play,4,0,bands101,??,,S8
-play,4,0,oglib001,??,,5
-play,4,0,lezcs001,??,,4
-play,4,1,thomj001,??,,S9
-play,4,1,kemps001,??,,6
-play,4,1,wockj001,??,,9(B)6(1)/9D/DP
-play,5,0,thomg001,??,,K
-play,5,0,younr001,??,,13
-play,5,0,moorc001,??,,S4
-play,5,0,molip001,??,,S7/F.1-2
-play,5,0,moned101,??,,W.2-3;1-2
-play,5,0,coopc001,??,,53
-play,5,1,parrl001,??,,S7.B-2(E7)
-play,5,1,rodra101,??,,S9.2-H;BX2(926)
+play,1,0,molip001,32,BSCBBFX,S8/F78S
+play,1,0,moned101,12,C1B>FS,K
+play,1,0,coopc001,12,B>FFFX,9/F9S
+play,1,0,bands101,00,>C,CS2(24)
+play,1,1,leflr101,11,FBX,S7/G56
+play,1,1,trama001,20,BBX,8/F8
+play,1,1,staur001,31,PBBC>B,W.1-2
+play,1,1,thomj001,21,BFB>B,SB3
+play,1,1,thomj001,31,BFBB.X,13/G15.1-2
+play,1,1,kemps001,12,BCLFX,63/G6
+play,2,0,bands101,02,FFX,S9/L9
+play,2,0,oglib001,00,X,S7/L7.1-2
+play,2,0,lezcs001,02,CSFS,K
+play,2,0,thomg001,12,BCCFS,K
+play,2,0,younr001,22,FBBSFX,8/F8S
+play,2,1,wockj001,11,BFX,63/G6
+play,2,1,parrl001,12,CBCX,43
+play,2,1,rodra101,01,CX,HR/F7D
+play,2,1,whitl001,11,BSX,7/F78D
+play,3,0,moorc001,02,FLS,K
+play,3,0,molip001,10,BX,9/F89
+play,3,0,moned101,02,FSFX,8/L78
+play,3,1,leflr101,22,BBCFX,9/F9
+play,3,1,trama001,00,X,53/G5
+play,3,1,staur001,12,BFFX,7/F7
+play,4,0,coopc001,22,SBBST,K
+play,4,0,bands101,32,BBCFBX,S8/L8
+play,4,0,oglib001,01,SX,5/P5
+play,4,0,lezcs001,00,X,4/P4M
+play,4,1,thomj001,31,BBBCX,S9/L9
+play,4,1,kemps001,32,FSBBFFBX,6/P6D
+play,4,1,wockj001,21,BBCX,9(B)/DP/F9D.1X2(96)
+play,5,0,thomg001,22,BCFBT,K
+play,5,0,younr001,00,X,13/BG13
+play,5,0,moorc001,00,X,S8/L89
+play,5,0,molip001,10,BX,S6/L7S.1-2
+play,5,0,moned101,32,BBBCCFB,W.2-3;1-2
+play,5,0,coopc001,32,BSSBFBX,53/G5
+play,5,1,parrl001,32,BBBCFX,S7/G6.B-2(E7)
+play,5,1,rodra101,00,X,S9/L9.2-H;BX2(926)
 play,5,1,whitl001,??,,S7
 play,5,1,leflr101,??,,7
 play,5,1,trama001,??,,S8.1-3
 play,5,1,staur001,??,,3/G
-play,6,0,bands101,??,,63
-play,6,0,oglib001,??,,D9
-play,6,0,lezcs001,??,,WP.2-3#
-play,6,0,lezcs001,??,,K
-play,6,0,thomg001,??,,K
-play,6,1,thomj001,??,,E7/F
-play,6,1,kemps001,??,,WP.1-2
-play,6,1,kemps001,??,,43.2-3
-play,6,1,wockj001,??,,NP
+play,6,0,bands101,31,BCBBX,63/G6
+play,6,0,oglib001,32,CFBBBFX,D9/L9L
+play,6,0,lezcs001,02,FFB,WP.2-3
+play,6,0,lezcs001,12,FFB.S,K
+play,6,0,thomg001,22,BFFFBFS,K
+play,6,1,thomj001,00,X,E7/L7
+play,6,1,kemps001,11,BFB,WP.1-2
+play,6,1,kemps001,32,BFB.BFFFX,43/G4.2-3
+play,6,1,wockj001,00,,NP
 sub,steir101,"Randy Stein",0,0,1
-play,6,1,wockj001,??,,NP
+play,6,1,wockj001,00,.,NP
 sub,corct001,"Tim Corcoran",1,6,11
-play,6,1,corct001,??,,E4.3-H(RBI)(UR)
-play,6,1,parrl001,??,,64(1)3/GDP
-play,7,0,younr001,??,,NP
+play,6,1,corct001,00,..X,E4/G4.3-H(RBI)(UR)
+play,6,1,parrl001,10,BX,64(1)3/GDP/G6
+play,7,0,younr001,00,,NP
 sub,corct001,"Tim Corcoran",1,6,9
-play,7,0,younr001,??,,3/G
-play,7,0,moorc001,??,,6
-play,7,0,molip001,??,,8
-play,7,1,rodra101,??,,63
-play,7,1,whitl001,??,,E1
-play,7,1,leflr101,??,,CS2(24)
-play,7,1,leflr101,??,,63
-play,8,0,moned101,??,,8/8D
-play,8,0,coopc001,??,,S8
-play,8,0,bands101,??,,K
-play,8,0,oglib001,??,,3/G
-play,8,1,trama001,??,,NP
+play,7,0,younr001,01,.CX,3/G3
+play,7,0,moorc001,31,BCBBX,6/P6
+play,7,0,molip001,11,BFX,8/F89S
+play,7,1,rodra101,12,BFCX,63/G6
+play,7,1,whitl001,22,BFBFFX,E1/G1
+play,7,1,leflr101,01,F>P,CS2(24)
+play,7,1,leflr101,32,F>P.CFFBBX,63/G6
+play,8,0,moned101,01,LX,8/F78D
+play,8,0,coopc001,32,SSFBFBBX,S8/L89
+play,8,0,bands101,12,BCFS,K
+play,8,0,oglib001,00,X,3/G3
+play,8,1,trama001,00,,NP
 sub,mcclb001,"Bob McClure",0,0,1
-play,8,1,trama001,??,,3/FL
-play,8,1,staur001,??,,S7
-play,8,1,thomj001,??,,3/G.1-3(E3)
-play,8,1,kemps001,??,,3/G
-play,9,0,lezcs001,??,,9
-play,9,0,thomg001,??,,7/7D
-play,9,0,younr001,??,,4
+play,8,1,trama001,21,.BCBX,3/FL/P3F
+play,8,1,staur001,12,BFCX,S7/L7
+play,8,1,thomj001,10,BX,3/G3.1-3(E3/TH2)
+play,8,1,kemps001,00,X,3/G3
+play,9,0,lezcs001,11,FBX,9/F9D
+play,9,0,thomg001,02,SCX,7/F7D
+play,9,0,younr001,12,FFBX,4/P4
 data,er,travb101,2
 data,er,steir101,0
 data,er,mcclb001,0

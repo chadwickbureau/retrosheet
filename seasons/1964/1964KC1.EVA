@@ -2603,18 +2603,18 @@ info,umphome,salea901
 info,ump1b,mckib901
 info,ump2b,chyln901
 info,ump3b,soarh901
-info,scorer,"Yankees"
-info,translator,"G. Robbins"
-info,inputter,"D. Lamoureaux"
+info,scorer,"Yankees,602"
+info,translator,"Wayne Townsend,G. Robbins"
+info,inputter,"Wayne Townsend,D. Lamoureaux"
 info,inputtime,1994/06/10 9:28PM
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,fromcf
 info,windspeed,-1
-info,fieldcond,unknown
+info,fieldcond,wet
 info,precip,rain
-info,sky,unknown
+info,sky,overcast
 info,timeofgame,146
 info,attendance,18764
 info,wp,odonj101
@@ -2639,102 +2639,104 @@ start,edwad102,"Doc Edwards",1,6,3
 start,greed102,"Dick Green",1,7,4
 start,lau-c101,"Charlie Lau",1,8,2
 start,odonj101,"John O'Donoghue",1,9,1
-com,"46 minute rain relay before start of game"
-play,1,0,kubet101,??,,S7
-play,1,0,richb102,??,,16(1)/FO
-play,1,0,lopeh101,??,,54(1)43/GDP
-play,1,1,causw101,??,,S8
-play,1,1,mathn101,??,,2/BP/FL
-play,1,1,alusg101,??,,54(1)43/GDP
-play,2,0,marir101,??,,43
-play,2,0,trest101,??,,8/F
-play,2,0,howae101,??,,9/F
-com,"57 minute rain delay; lights turned on"
-play,2,1,colar101,??,,K/C
-play,2,1,chare101,??,,K/C
-play,2,1,edwad102,??,,5/P/FL
-play,3,0,pepij101,??,,3/G
-play,3,0,boyec102,??,,63
-play,3,0,downa101,??,,K
-play,3,1,greed102,??,,S9
-play,3,1,lau-c101,??,,K
-play,3,1,odonj101,??,,34/SH.1-2
-play,3,1,causw101,??,,43
-play,4,0,kubet101,??,,6/P
-play,4,0,richb102,??,,63
-play,4,0,lopeh101,??,,S8/G
-play,4,0,marir101,??,,4/P
-play,4,1,mathn101,??,,63
-play,4,1,alusg101,??,,7/F
-play,4,1,colar101,??,,D7
-play,4,1,chare101,??,,WP.2-3
-play,4,1,chare101,??,,63
-play,5,0,trest101,??,,7/L
-play,5,0,howae101,??,,S7
-play,5,0,pepij101,??,,S9.1-2
-play,5,0,boyec102,??,,53.1-2;2-3
-play,5,0,downa101,??,,K23/C
-play,5,1,edwad102,??,,6/P
-play,5,1,greed102,??,,6/P7S
-play,5,1,lau-c101,??,,S8/L
-play,5,1,odonj101,??,,3/G
-play,6,0,kubet101,??,,7/F
-play,6,0,richb102,??,,7/F
-play,6,0,lopeh101,??,,S8
-play,6,0,marir101,??,,3/G
-play,6,1,causw101,??,,5/P/FL
-play,6,1,mathn101,??,,K
-play,6,1,alusg101,??,,S8/G
-play,6,1,colar101,??,,WP.1-2
-play,6,1,colar101,??,,S7/G.2-H;B-2(THH)
-play,6,1,chare101,??,,63
-play,7,0,trest101,??,,9/L
-play,7,0,howae101,??,,43
-play,7,0,pepij101,??,,S8/G
-play,7,0,boyec102,??,,S5/15.1-2
-play,7,0,downa101,??,,NP
+com,"$46-minute rain relay before start of game"
+play,1,0,kubet101,11,CBX,S7/L
+play,1,0,richb102,21,B111CBX,16(1)/FO/R3
+play,1,0,lopeh101,01,CX,54(1)3/GDP
+play,1,1,causw101,02,CCX,S8/F78S
+play,1,1,mathn101,11,BLX,2/BP2F/FL
+play,1,1,alusg101,01,CX,54(1)43/GDP
+play,2,0,marir101,10,BX,43/G4
+com,"$Stadium lights were turned on"
+play,2,0,trest101,31,BBBCX,8/F8
+play,2,0,howae101,01,CX,9/F89D
+com,"$57-minute rain delay"
+play,2,1,colar101,32,CBBBFC,K/C
+play,2,1,chare101,12,BSSC,K/C
+play,2,1,edwad102,11,CBX,5/P5F/FL
+play,3,0,pepij101,01,FX,3/G3
+play,3,0,boyec102,10,BX,63/G6
+play,3,0,downa101,12,CSFBS,K
+play,3,1,greed102,21,BFBX,S9/L
+play,3,1,lau-c101,32,L1BBB>F1FS,K
+play,3,1,odonj101,10,BX,34/BG23/SH.1-2
+play,3,1,causw101,22,BFFFBX,43/G4
+play,4,0,kubet101,11,BCX,6/P6
+play,4,0,richb102,10,BX,63/G6+
+play,4,0,lopeh101,10,BX,S8/G46
+play,4,0,marir101,31,BBBCX,4/P4
+play,4,1,mathn101,??,,63/G6
+play,4,1,alusg101,10,BX,7/F7
+play,4,1,colar101,11,CBX,D7/L
+play,4,1,chare101,00,B,WP.2-3
+play,4,1,chare101,20,B.BX,63/G6
+play,5,0,trest101,12,BFCX,7/F78
+play,5,0,howae101,10,BX,S7/L78S
+play,5,0,pepij101,??,,S9/L.1-2
+play,5,0,boyec102,22,BCFFB2X,53/G5S.2-3;1-2
+play,5,0,downa101,02,FFC,K23/C
+com,"$Stadium lights were turned off"
+play,5,1,edwad102,02,FSX,6/P6D
+play,5,1,greed102,11,CBX,6/P5D
+play,5,1,lau-c101,32,BBFFBFFX,S8/F8S
+play,5,1,odonj101,02,FCX,3/G3
+play,6,0,kubet101,21,BCBX,7/L7L
+play,6,0,richb102,12,CFBFX,7/F7
+play,6,0,lopeh101,12,CBCX,S8/L8S
+play,6,0,marir101,10,BX,3/G3
+play,6,1,causw101,00,X,5/P5F/FL
+play,6,1,mathn101,12,BSCS,K
+play,6,1,alusg101,32,BBCSBX,S8/G46
+play,6,1,colar101,10,BB,WP.1-2
+play,6,1,colar101,20,BB.X,S7/G56.2-H;B-2(THH)
+play,6,1,chare101,12,CFFFBFX,63/G6
+play,7,0,trest101,00,X,9/F9
+play,7,0,howae101,20,BBX,43/G4
+play,7,0,pepij101,10,BX,S8/G4M
+play,7,0,boyec102,31,CBBBX,S5/G5S.1-2
+play,7,0,downa101,00,,NP
 sub,mantm101,"Mickey Mantle",0,9,11
-play,7,0,mantm101,??,,S8.1-H;2-H
-play,7,0,kubet101,??,,NP
+play,7,0,mantm101,00,.X,S8/F89D.2-H;1-H
+play,7,0,kubet101,00,,NP
 sub,gonzp101,"Pedro Gonzalez",0,9,12
-play,7,0,kubet101,??,,8/F
-play,7,1,edwad102,??,,NP
+play,7,0,kubet101,01,.SX,8/F8D
+play,7,1,edwad102,00,,NP
 sub,renih101,"Hal Reniff",0,9,1
-play,7,1,edwad102,??,,7/F
-play,7,1,greed102,??,,K
-play,7,1,lau-c101,??,,W
-play,7,1,odonj101,??,,NP
+play,7,1,edwad102,11,.BCX,7/F7
+play,7,1,greed102,12,CBCS,K
+play,7,1,lau-c101,32,BFBSBB,W
+play,7,1,odonj101,00,,NP
 sub,tartj101,"Jose Tartabull",1,8,12
-play,7,1,odonj101,??,,NP
+play,7,1,odonj101,00,.,NP
 sub,gentj101,"Jim Gentile",1,9,11
-play,7,1,gentj101,??,,W.1-2
-play,7,1,causw101,??,,NP
+play,7,1,gentj101,30,..BBBB,W.1-2
+play,7,1,causw101,00,,NP
 sub,drabm101,"Moe Drabowsky",1,9,12
-play,7,1,causw101,??,,HR/9.2-H;1-H
-play,7,1,mathn101,??,,4/P8S
-play,8,0,richb102,??,,NP
+play,7,1,causw101,12,.BFFFX,HR/F9D.2-H;1-H
+play,7,1,mathn101,11,SBX,4/P4D
+play,8,0,richb102,00,,NP
 sub,wyatj102,"John Wyatt",1,9,1
-play,8,0,richb102,??,,NP
+play,8,0,richb102,00,.,NP
 sub,tartj101,"Jose Tartabull",1,8,7
-play,8,0,richb102,??,,NP
+play,8,0,richb102,00,..,NP
 sub,bryab101,"Billy Bryan",1,3,2
-play,8,0,richb102,??,,S4
-play,8,0,lopeh101,??,,6/P7S
-play,8,0,marir101,??,,W.1-2
-play,8,0,trest101,??,,4(B)46(2)/LDP
-play,8,1,bryab101,??,,S8/L
-play,8,1,colar101,??,,14/SH.1-2
-play,8,1,chare101,??,,8/F
-play,8,1,edwad102,??,,63
-play,9,0,howae101,??,,8/F
-play,9,0,pepij101,??,,S9
-play,9,0,boyec102,??,,K
-play,9,0,renih101,??,,NP
+play,8,0,richb102,12,...CBCX,S14/G
+play,8,0,lopeh101,12,CBSFFFX,6/P56D
+play,8,0,marir101,32,BBBCSFB,W.1-2
+play,8,0,trest101,22,BBFCX,4!/LDP.2X2(46)
+play,8,1,bryab101,00,X,S8/F89S
+play,8,1,colar101,21,BLBX,14/BG1S/SH.1-2
+play,8,1,chare101,12,BCSX,8/F8D
+play,8,1,edwad102,11,F*BX,63/G6
+play,9,0,howae101,00,X,8/F8D
+play,9,0,pepij101,10,BX,S9/L9LS
+play,9,0,boyec102,32,LBCBFBS,K
+play,9,0,renih101,00,,NP
 sub,blanj101,"Johnny Blanchard",0,9,11
-play,9,0,blanj101,??,,S9.1-2
-play,9,0,kubet101,??,,NP
+play,9,0,blanj101,10,.BX,S9/L.1-2
+play,9,0,kubet101,00,,NP
 sub,linzp101,"Phil Linz",0,9,12
-play,9,0,kubet101,??,,7/F
+play,9,0,kubet101,22,.CBFFFFBX,7/F7L
 data,er,downa101,1
 data,er,renih101,3
 data,er,odonj101,2
@@ -10084,10 +10086,9 @@ play,11,0,whitf103,??,,HR
 play,11,0,wagnl101,??,,43
 play,11,0,alvim101,??,,63
 play,11,0,davav101,??,,9
-play,11,1,colar101,??,,99#
-play,11,1,harrk101,??,,99#
-play,11,1,bryab101,??,,99#
-com,"missing plays in KC1196408290"
+play,11,1,colar101,??,,53#
+play,11,1,harrk101,??,,3#
+play,11,1,bryab101,??,,2#
 data,er,tianl101,3
 data,er,mcmad102,0
 data,er,drabm101,3
@@ -11259,9 +11260,9 @@ info,umphome,valeb901
 info,ump1b,nappl901
 info,ump2b,ricej901
 info,ump3b,stevj901
-info,scorer,"Yankees-Fishel"
-info,translator,"G. Robbins"
-info,inputter,"G. Robbins"
+info,scorer,"Yankees-Fishel,143"
+info,translator,"G. Robbins,Wayne Townsend"
+info,inputter,"G. Robbins,Wayne Townsend"
 info,inputtime,1994/06/14 10:50PM
 info,howscored,park
 info,pitches,none
@@ -11295,7 +11296,7 @@ start,chare101,"Ed Charles",1,6,5
 start,mathn101,"Nelson Mathews",1,7,8
 start,greed102,"Dick Green",1,8,4
 start,segud101,"Diego Segui",1,9,1
-play,1,0,kubet101,??,,HR/9D
+play,1,0,kubet101,??,UUX,HR/F89XD
 play,1,0,richb102,??,,9
 play,1,0,marir101,??,,K
 play,1,0,mantm101,??,,7/7D
@@ -11321,9 +11322,9 @@ play,4,0,marir101,??,,SB2
 play,4,0,marir101,??,,K
 play,4,0,mantm101,??,,K
 play,4,0,pepij101,??,,7/7S
-play,4,1,causw101,??,,T8/78
+play,4,1,causw101,??,,T7/78
 play,4,1,colar101,??,,3/FL
-play,4,1,gentj101,??,,5
+play,4,1,gentj101,??,,5/P
 play,4,1,bryab101,??,,K
 play,5,0,trest101,??,,K
 play,5,0,howae101,??,,S9
@@ -11346,42 +11347,43 @@ play,7,0,howae101,??,,D7
 play,7,0,boyec102,??,,4/L
 play,7,0,shelr101,??,,K
 play,7,0,kubet101,??,,13
-play,7,1,colar101,??,,S7
+play,7,1,colar101,??,,S7/L7DW
 play,7,1,gentj101,??,,36(1)3/GDP
 play,7,1,bryab101,??,,S8/G
-play,7,1,chare101,??,,9/8
+play,7,1,chare101,??,,9/F89
 play,8,0,richb102,??,,S8/G
 play,8,0,marir101,??,,WP.1-2
 play,8,0,marir101,??,,43.2-3
-play,8,0,mantm101,??,,FC4/BG.B-1;3-H
+play,8,0,mantm101,??,,FC4/G4S-/THH.3-H;B-1
 play,8,0,pepij101,??,,K
 play,8,0,trest101,??,,SB2
 play,8,0,trest101,??,,2/FL
-play,8,1,mathn101,??,,9
-play,8,1,greed102,??,,S8
-play,8,1,segud101,??,,NP
+play,8,1,mathn101,22,KBFFBX,9/L9
+play,8,1,greed102,21,BBCX,S48/L4
+play,8,1,segud101,00,,NP
 sub,jimem101,"Manny Jimenez",1,9,11
-play,8,1,jimem101,??,,5
-play,8,1,campb101,??,,8
-play,9,0,howae101,20,,NP
+play,8,1,jimem101,12,.SCFBFX,5/P5
+play,8,1,campb101,00,X,8/F8S
+play,9,0,howae101,00,,NP
 sub,stocw101,"Wes Stock",1,9,1
-play,9,0,howae101,??,,S8
-play,9,0,boyec102,??,,NP
+play,9,0,howae101,11,.CBX,S8/L
+play,9,0,boyec102,20,BB,NP
 sub,drabm101,"Moe Drabowsky",1,9,1
-play,9,0,boyec102,??,,WP.1-2
-com,"discrepancy: Official gives WP to Stock"
-play,9,0,boyec102,??,,K
-play,9,0,shelr101,??,,K/C
-play,9,0,kubet101,??,,7/7D
-play,9,1,causw101,??,,W
-play,9,1,colar101,??,,NP
+com,"$Drabowsky replaced Stock with a 2-0 count on Boyer"
+play,9,0,boyec102,21,BB.FB,WP.1-2
+com,"discrepancy: Official gave WP to Stock"
+play,9,0,boyec102,32,BB.FB.SS,K
+play,9,0,shelr101,32,BBCCBFC,K/C
+play,9,0,kubet101,12,BFFX,7/F78D
+play,9,1,causw101,31,BCBBB,W
+play,9,1,colar101,00,,NP
 sub,ramop101,"Pedro Ramos",0,9,1
-play,9,1,colar101,??,,S7/7LS.1-2
-play,9,1,gentj101,??,,S8.2-H;1-3
-play,9,1,bryab101,??,,NP
+play,9,1,colar101,22,.BBCSX,S56/G5.1-2
+play,9,1,gentj101,22,BFSBFX,S8/G46.2-H;1-3
+play,9,1,bryab101,00,,NP
 sub,tartj101,"Jose Tartabull",1,4,12
-play,9,1,bryab101,??,,36(1)3/GDP.3-H(NR)
-play,9,1,chare101,??,,6/P7S
+play,9,1,bryab101,22,.FBFFBX,36(1)3/GDP.3-H(NR)
+play,9,1,chare101,20,BBX,6/P6D
 data,er,shelr101,1
 data,er,ramop101,1
 data,er,segud101,3
@@ -11903,7 +11905,7 @@ play,2,1,chare101,??,,3
 play,2,1,mathn101,??,,8
 play,3,0,bethb101,??,,W
 play,3,0,boswd101,??,,54/SH.1-2
-play,3,0,rollr101,??,,FC1.2-H(NORBI);BX2(64536)
+play,3,0,rollr101,??,,FC1.2-H(NR);BX2(64536)
 play,3,0,versz101,??,,D7
 play,3,0,olivt102,??,,K
 play,3,1,duncd101,??,,53

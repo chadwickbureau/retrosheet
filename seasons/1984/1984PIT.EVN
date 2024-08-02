@@ -1203,16 +1203,16 @@ info,umphome,willb901
 info,ump1b,steld901
 info,ump2b,mcshj901
 info,ump3b,brocf901
-info,scorer,""
-info,inputter,""
-info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,scorer,"ProjSS + Wigley from video NBC GOW"
+info,inputter,"ProjSS + Wigley from video NBC GOW"
+info,howscored,tv
+info,pitches,pitches
+info,temp,52
+info,winddir,fromrf
+info,windspeed,10
 info,fieldcond,unknown
 info,precip,unknown
-info,sky,unknown
+info,sky,cloudy
 info,timeofgame,210
 info,attendance,18176
 info,wp,tekuk001
@@ -1237,60 +1237,61 @@ start,penat001,"Tony Pena",1,6,2
 start,frobd001,"Doug Frobel",1,7,9
 start,berrd001,"Dale Berra",1,8,6
 start,candj001,"John Candelaria",1,9,1
-play,1,0,sax-s001,,,K
-play,1,0,russb001,,,8
-play,1,0,guerp001,,,D
-play,1,0,marsm001,,,3/FL
-play,1,1,wynnm001,,,5/FL
+play,1,0,sax-s001,22,BCBFFFC,K/C
+play,1,0,russb001,11,CBX,8/F78
+play,1,0,guerp001,20,BBX,D7/F7LD
+play,1,0,marsm001,31,FBBBX,3/FL/P3F
+play,1,1,wynnm001,,,5/FL/P
 play,1,1,orsuj001,,,43
 play,1,1,madlb001,,,S
 play,1,1,thomj001,,,8
 play,2,0,maldc001,,,D
-play,2,0,yeags001,,,S.2-3
-play,2,0,brocg001,,,46(1)3/GDP.3-H
+play,2,0,yeags001,,,S9/F9S.2-3
+play,2,0,brocg001,,,46(1)3/GDP/G4.3-H
 play,2,0,anded001,,,4/P
-play,2,1,ray-j001,,,43
-play,2,1,penat001,,,13
-play,2,1,frobd001,,,K
+play,2,1,ray-j001,32,CBBFBFX,63/G6
+play,2,1,penat001,02,CFX,13/G1
+play,2,1,frobd001,32,BBFBSS,K
 play,3,0,welcb001,,,9
 play,3,0,sax-s001,,,S
-play,3,0,russb001,,,S.1-2
+play,3,0,russb001,,,S7/F78.1-2
 play,3,0,guerp001,,,W.2-3;1-2
-play,3,0,marsm001,,,7/SF.3-H
+play,3,0,marsm001,,,7/SF/F7LD.3-H
 play,3,0,maldc001,,,54(1)/FO
-play,3,1,berrd001,,,S
-play,3,1,candj001,,,16(1)4/BG/GDP
-play,3,1,wynnm001,,,9
+play,3,1,berrd001,10,BX,S9/F9S
+play,3,1,candj001,31,BBCBX,16(1)4/BG1/GDP
+play,3,1,wynnm001,22,BFBFFX,9/P9LS
 play,4,0,yeags001,,,S
 play,4,0,brocg001,,,46(1)3/GDP
 play,4,0,anded001,,,8
-play,4,1,orsuj001,,,S
-play,4,1,madlb001,,,4/P
-play,4,1,thomj001,,,SB2
-play,4,1,thomj001,,,D.2-H
-play,4,1,ray-j001,,,W
-play,4,1,penat001,,,8.2-3
-play,4,1,frobd001,,,K
+play,4,1,orsuj001,00,X,S3/BG34S
+play,4,1,madlb001,01,11111FX,4/P4
+play,4,1,thomj001,22,1CKBBB,SB2
+play,4,1,thomj001,32,1CKBBB.FX,D8/F78XDW.2-H
+play,4,1,ray-j001,32,BBBC2CB,W
+play,4,1,penat001,00,X,8/F8XD.2-3
+play,4,1,frobd001,12,SS1BS,K
 play,5,0,welcb001,,,7
 play,5,0,sax-s001,,,W
 play,5,0,russb001,,,S.1-3
-play,5,0,guerp001,,,8/SF.3-H
+play,5,0,guerp001,,,8/SF/F8D.3-H
 play,5,0,marsm001,,,CS2(24)
 play,5,1,berrd001,,,W
-play,5,1,candj001,,,W.1-2
-play,5,1,wynnm001,,,8
-play,5,1,orsuj001,,,E6.2-3;1-2
-play,5,1,madlb001,,,S.3-H;2-H;1-2
-play,5,1,thomj001,,,NP
+play,5,1,candj001,32,LBBBKFB,W.1-2
+play,5,1,wynnm001,32,BBMFBX,8/F8D
+play,5,1,orsuj001,01,FX,E6/G6M.2-3;1-2
+play,5,1,madlb001,,,S7/G56.3-H;2-H;1-2
+play,5,1,thomj001,00,,NP
 sub,zachp001,"Pat Zachry",0,9,1
-play,5,1,thomj001,,,D.2-H(UR);1-3
-play,5,1,ray-j001,,,IW
-play,5,1,penat001,,,S.3-H;2-3;1-2
-play,5,1,frobd001,,,7
-play,5,1,berrd001,,,HP.3-H(TUR);2-3;1-2
-play,5,1,candj001,,,K
-play,6,0,marsm001,,,W
+play,5,1,thomj001,20,.BBX,D8/F78D.2-H(UR);1-3;B-2(TH3)
+play,5,1,ray-j001,30,IIII,IW
+play,5,1,penat001,20,BBX,S7/F7S.3-H;2-3;1-2
+play,5,1,frobd001,,,7/F7S
+play,5,1,berrd001,22,CFBBH,HP.3-H(TUR);2-3;1-2
+play,5,1,candj001,12,FBSS,K
+play,6,0,marsm001,32,,W
 play,6,0,maldc001,,,W.1-2
+com,"$Brief rain delay"
 play,6,0,yeags001,,,NP
 sub,sciom001,"Mike Scioscia",0,6,11
 play,6,0,sciom001,,,NP
@@ -1306,23 +1307,23 @@ play,6,0,mondr001,,,HR.2-H;1-H
 play,6,0,sax-s001,,,E5.B-1
 play,6,0,russb001,,,SB2
 play,6,0,russb001,,,7
-play,6,1,wynnm001,,,NP
+play,6,1,wynnm001,00,,NP
 sub,sciom001,"Mike Scioscia",0,6,2
-play,6,1,wynnm001,,,NP
+play,6,1,wynnm001,00,.,NP
 sub,stubf001,"Franklin Stubbs",0,7,3
-play,6,1,wynnm001,,,NP
+play,6,1,wynnm001,00,..,NP
 sub,hootb001,"Burt Hooton",0,9,1
-play,6,1,wynnm001,,,S
-play,6,1,orsuj001,,,16(1)/FO/G.B-1
-play,6,1,madlb001,,,4(1)3/GDP
+play,6,1,wynnm001,01,...CX,S2/G2
+play,6,1,orsuj001,11,1B1LX,16(1)/FO/BG1.B-1
+play,6,1,madlb001,12,FC1BX,4(1)3/GDP/G4M
 play,7,0,guerp001,,,9
 play,7,0,marsm001,,,K
 play,7,0,maldc001,,,W
 play,7,0,sciom001,,,K
-play,7,1,thomj001,,,43
-play,7,1,ray-j001,,,W
+play,7,1,thomj001,11,BCX,43/G4M
+play,7,1,ray-j001,31,BBBCB,W
 play,7,1,penat001,,,5/FL
-play,7,1,frobd001,,,CS2(26)
+play,7,1,frobd001,10,BU,CS2(26)
 play,8,0,stubf001,,,K
 play,8,0,anded001,,,W
 play,8,0,hootb001,,,NP
@@ -1331,48 +1332,48 @@ play,8,0,landr001,,,63.1-2
 play,8,0,sax-s001,,,K
 play,8,1,frobd001,,,NP
 sub,niedt001,"Tom Niedenfuer",0,9,1
-play,8,1,frobd001,,,D
-play,8,1,berrd001,,,NP
+play,8,1,frobd001,32,BBFBCFFFX,D8/F89D
+play,8,1,berrd001,00,,NP
 sub,mazzl001,"Lee Mazzilli",1,8,11
-play,8,1,mazzl001,,,K
-play,8,1,guanc001,,,NP
+play,8,1,mazzl001,12,.FBCC,K/C
+play,8,1,guanc001,00,,NP
 sub,may-m001,"Milt May",1,9,11
-play,8,1,may-m001,,,W
-play,8,1,wynnm001,,,NP
+play,8,1,may-m001,30,.BBBB,W
+play,8,1,wynnm001,00,,NP
 sub,bellr001,"Rafael Belliard",1,9,12
-play,8,1,wynnm001,,,S.2-H;1-3
-play,8,1,orsuj001,,,9
-play,8,1,madlb001,,,9
+play,8,1,wynnm001,00,.X,S9/G34.2-H;1-3
+play,8,1,orsuj001,11,1SBX,9/F9S
+play,8,1,madlb001,00,X,9/F9S
 play,9,0,russb001,,,NP
 sub,tekuk001,"Kent Tekulve",1,8,1
 play,9,0,russb001,,,NP
 sub,bellr001,"Rafael Belliard",1,9,6
-play,9,0,russb001,,,53
-play,9,0,guerp001,,,S
-play,9,0,marsm001,,,D.1-3
+play,9,0,russb001,,,53/G5S
+play,9,0,guerp001,,,S9/F9LS
+play,9,0,marsm001,,,D9/F9LD.1-3
 play,9,0,maldc001,,,NP
 sub,whitt001,"Terry Whitfield",0,5,11
-play,9,0,whitt001,,,IW
-play,9,0,sciom001,,,64(1)3/GDP
-play,9,1,thomj001,,,NP
+play,9,0,whitt001,30,IIII,IW
+play,9,0,sciom001,11,BCX,64(1)3/GDP/G6M
+play,9,1,thomj001,00,,NP
 sub,whitt001,"Terry Whitfield",0,5,9
-play,9,1,thomj001,,,31
-play,9,1,ray-j001,,,K
-play,9,1,penat001,,,S
-play,9,1,frobd001,,,4/P
-play,10,0,stubf001,,,T
-play,10,0,anded001,,,43
+play,9,1,thomj001,00,.X,31/G3
+play,9,1,ray-j001,12,FBSS,K
+play,9,1,penat001,21,BBSX,S9/L9S
+play,9,1,frobd001,10,BX,4/P4D
+play,10,0,stubf001,,,T9/F89XDW
+play,10,0,anded001,,,43/G4
 play,10,0,niedt001,,,NP
 sub,moraj001,"Jose Morales",0,9,11
-play,10,0,moraj001,,,53
-play,10,0,sax-s001,,,63
-play,10,1,tekuk001,,,NP
+play,10,0,moraj001,,,53/G56S
+play,10,0,sax-s001,01,KX,63/G6
+play,10,1,tekuk001,00,,NP
 sub,otisa001,"Amos Otis",1,8,11
-play,10,1,otisa001,,,NP
+play,10,1,otisa001,00,.,NP
 sub,herso001,"Orel Hershiser",0,9,1
-play,10,1,otisa001,,,D
-play,10,1,bellr001,,,S.2-3
-play,10,1,wynnm001,,,S.3-H;1-2
+play,10,1,otisa001,21,..FBBX,DGR/F9LD
+play,10,1,bellr001,00,X,S5/BG5.2-3
+play,10,1,wynnm001,31,FBBBX,S8/F8D.3-H;1-2
 data,er,welcb001,4
 data,er,zachp001,1
 data,er,hootb001,0

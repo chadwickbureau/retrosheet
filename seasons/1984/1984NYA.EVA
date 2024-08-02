@@ -4365,13 +4365,13 @@ info,umphome,mccol901
 info,ump1b,bremn901
 info,ump2b,welkt901
 info,ump3b,brinj901
-info,scorer,""
-info,inputter,""
-info,howscored,unknown
+info,scorer,"ProjSS + Wigley from WPIX video"
+info,inputter,"ProjSS + Wigley from WPIX video"
+info,howscored,tv
 info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,temp,95
+info,winddir,fromlf
+info,windspeed,15
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -4414,12 +4414,12 @@ play,2,0,iorgg001,,,63
 play,2,0,martb001,,,W
 play,2,0,fernt001,,,CS2(24)
 play,2,0,fernt001,,,3/G
-play,2,1,winfd001,,,S
-play,2,1,gambo001,,,6
-play,2,1,kemps001,,,PO1(E1).1-2
-play,2,1,kemps001,,,K
-play,2,1,harrt001,,,S.2-H(UR)
-play,2,1,moreo001,,,8
+play,2,1,winfd001,11,KBX,S8/F8
+play,2,1,gambo001,02,C1FX,6/P7LS
+play,2,1,kemps001,21,BCB11,PO1(E1/TH).1-2
+play,2,1,kemps001,22,BCB11.FS,K
+play,2,1,harrt001,32,BBCCBFX,S8/P89.2-H(UR)
+play,2,1,moreo001,01,FX,8/F8
 play,3,0,garcd001,,,D
 play,3,0,mosel001,,,WP.2-3
 play,3,0,mosel001,,,W
@@ -4434,10 +4434,10 @@ sub,chric001,"Clay Christiansen",1,0,1
 play,3,0,martb001,,,7
 play,3,1,robea001,,,13
 play,3,1,randw001,,,63
-play,3,1,wyneb001,,,S
-play,3,1,mattd001,,,HR.1-H
-play,3,1,winfd001,,,D
-play,3,1,gambo001,,,2/FL
+play,3,1,wyneb001,,,S8/G4M
+play,3,1,mattd001,11,BFX,HR/F9D.1-H
+play,3,1,winfd001,10,BX,D9/L9L
+play,3,1,gambo001,12,CBCX,2/FL/P2F
 play,4,0,fernt001,,,43
 play,4,0,garcd001,,,53
 play,4,0,mosel001,,,S
@@ -4448,7 +4448,7 @@ play,4,1,moreo001,,,6
 play,5,0,johnc001,,,S
 play,5,0,barfj001,,,NP
 sub,colld001,"Dave Collins",0,5,11
-play,5,0,colld001,,,36(1)/FO/G.B-1
+play,5,0,colld001,,,36(1)/FO/G3.B-1
 play,5,0,upshw001,,,6(1)3/GDP
 play,5,1,robea001,,,NP
 sub,bellg001,"George Bell",0,3,9
@@ -4497,21 +4497,21 @@ play,8,0,garcd001,,,NP
 sub,grifa001,"Alfredo Griffin",0,9,12
 play,8,0,garcd001,,,1(B)3(1)/LDP
 com,"ej,cox-b103,M,mccol901,Balls and strikes"
-com,"Blue Jays manager Bobby Cox ejected by HP umpire Larry McCoy"
+com,"$Blue Jays manager Bobby Cox ejected by HP umpire Larry McCoy"
 com,"arguing balls and strikes"
 play,8,1,mattd001,,,NP
 sub,white002,"Ernie Whitt",0,8,2
 play,8,1,mattd001,,,NP
 sub,grifa001,"Alfredo Griffin",0,9,6
-play,8,1,mattd001,,,53
-play,8,1,winfd001,,,7
-play,8,1,gambo001,,,8
+play,8,1,mattd001,10,BX,53/G56S
+play,8,1,winfd001,12,CBCX,7/F7LD
+play,8,1,gambo001,22,FCBBX,8/F89
 play,9,0,mosel001,,,NP
 sub,righd001,"Dave Righetti",1,0,1
-play,9,0,mosel001,,,K
-play,9,0,bellg001,,,S
-play,9,0,johnc001,,,3/G.1-2
-play,9,0,colld001,,,K
+play,9,0,mosel001,22,BCCBS,K
+play,9,0,bellg001,01,FX,S7/G6
+play,9,0,johnc001,,,3/G3S.1-2
+play,9,0,colld001,02,FFS,K
 data,er,alexd001,4
 data,er,jackr003,0
 data,er,rawls001,2
@@ -4665,13 +4665,13 @@ info,umphome,garcr901
 info,ump1b,reilm901
 info,ump2b,clara901
 info,ump3b,denkd901
-info,scorer,""
-info,inputter,""
-info,howscored,unknown
+info,scorer,"ProjSS + Wigley NBC GOW"
+info,inputter,"ProjSS + Wigley NBC GOW"
+info,howscored,tv
 info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,temp,75
+info,winddir,ltor
+info,windspeed,12
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -4705,18 +4705,18 @@ play,1,0,bumba001,,,S
 play,1,0,grosw001,,,K+SB2
 play,1,0,ripkc001,,,3
 play,1,0,murre001,,,K
-play,1,1,randw001,,,S
-play,1,1,wyneb001,,,S.1-2
-play,1,1,winfd001,,,6(B)4(2)/LDP
-play,1,1,bayld001,,,4
+play,1,1,randw001,10,BX,S9/L9
+play,1,1,wyneb001,32,BBBCFX,S7/L7.1-2
+play,1,1,winfd001,10,BX,6(B)4(2)/LDP/L6
+play,1,1,bayld001,01,FX,4/P4MD
 play,2,0,lowej001,,,43
-play,2,0,singk001,,,S.BX2(74)
+play,2,0,singk001,01,SX,S7/L7L.BX2(74)
 play,2,0,younm002,,,W
-play,2,0,dauer001,,,S.1-2
-play,2,0,dempr001,,,S.2-H;1-2
+play,2,0,dauer001,,,S8/L8.1-2
+play,2,0,dempr001,,,S7/L7S.2-H;1-2
 play,2,0,bumba001,,,S.2-3;1-2
 play,2,0,grosw001,,,31
-play,2,1,pinil001,,,9
+play,2,1,pinil001,11,BFX,9/F9L
 play,2,1,harrt001,,,53
 play,2,1,mattd001,,,S
 play,2,1,moreo001,,,5/FL
@@ -4729,7 +4729,7 @@ play,3,1,randw001,,,S.2-3
 play,3,1,wyneb001,,,K
 play,3,1,winfd001,,,W.1-2
 play,3,1,bayld001,,,S.3-H;2-3;1-2
-play,3,1,pinil001,,,64(1)/FO/G.3-H;2-3;B-1
+play,3,1,pinil001,10,BX,64(1)/FO/G6.3-H;2-3;B-1
 play,3,1,harrt001,,,63
 play,4,0,younm002,,,K
 play,4,0,dauer001,,,K
@@ -4744,7 +4744,7 @@ play,4,1,winfd001,,,NP
 sub,swagb001,"Bill Swaggerty",0,0,1
 play,4,1,winfd001,,,S.3-H;1-2
 play,4,1,bayld001,,,3/FL
-play,4,1,pinil001,,,K
+play,4,1,pinil001,22,FBFFBS,K
 play,5,0,grosw001,,,3/FL
 play,5,0,ripkc001,,,4
 play,5,0,murre001,,,S
@@ -4780,8 +4780,8 @@ sub,roeng001,"Gary Roenicke",0,5,11
 play,7,0,roeng001,,,64(1)3/GDP
 play,7,1,pinil001,,,NP
 sub,roeng001,"Gary Roenicke",0,5,7
-play,7,1,pinil001,,,63
-play,7,1,harrt001,,,K
+play,7,1,pinil001,11,BFX,63/G56
+play,7,1,harrt001,22,CFBFBS,K
 play,7,1,mattd001,,,53
 play,8,0,singk001,,,K
 play,8,0,younm002,,,63
@@ -4795,14 +4795,14 @@ play,8,1,meacb001,,,W
 play,8,1,randw001,,,W.1-2
 play,8,1,wyneb001,,,7
 play,8,1,winfd001,,,S.3-H;2-H;1-2
-play,8,1,bayld001,,,S.2-H;1-2
-play,8,1,pinil001,,,46(1)3/GDP
+play,8,1,bayld001,20,BBX,S7/L7S.2-H;1-2
+play,8,1,pinil001,12,FFBX,46(1)3/GDP/G4
 play,9,0,shelj001,,,NP
 sub,armsm001,"Mike Armstrong",1,0,1
 play,9,0,shelj001,,,NP
 sub,kemps001,"Steve Kemp",1,5,7
-play,9,0,shelj001,,,S
-play,9,0,cruzt001,,,8
+play,9,0,shelj001,10,BX,S7/L7S
+play,9,0,cruzt001,11,BFX,8/F89D
 play,9,0,ripkc001,,,HR.1-H
 play,9,0,murre001,,,S
 play,9,0,roeng001,,,8

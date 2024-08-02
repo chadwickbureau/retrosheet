@@ -39,9 +39,10 @@ hruns        home team runs scored
 wteam        winning team
 lteam        losing team
 line         do we know the line score of the game
-batteries    do we know the teams' batteries
+batteries    do we know the teams' batteries; p = pitchers, both = pitchers & catchers
 lineups      do we know the teams' lineups
 box          do we have a box score
+pbp          do we have a play-by-play account; d = deduced account, y = play-by-play account from newspaper or scorecard
 season       season in which game took place
 
 teamstats.csv
@@ -59,8 +60,10 @@ inn8             runs scored by team in 8th inning
 inn9             runs scored by team in 9th inning
 inn10 - inn28    runs scored by team in inning # {10 - 28)
 lob              runners left on base by team
+mgr              in-game manager for team; this field has not been populated yet for Negro League games
 stattype         value, lower, or upper: 
                  upper and lower bounds are shown for some stats to highlight data uncertainty
+b_pa             plate appearances by team's batters
 b_ab             at bats by team's batters
 b_r              runs scored
 b_h              hits
@@ -78,6 +81,7 @@ b_sb             stolen bases
 b_cs             times caught stealing
 b_gdp            times grounded in double play by team's batters
 b_xi             times reached base on catcher's interference
+b_roe            times reached base via error
 p_ipouts         outs recorded by team pitchers (IP * 3)
 p_noout          batters faced by team's pitchers in any innings in which no outs were recorded
 p_bfp            batters faced by team's pitchers
@@ -95,6 +99,9 @@ p_wp             wild pitches allowed
 p_bk             balks allowed
 p_sh             sacrifice hits allowed
 p_sf             sacrifice flies allowed
+p_sb             stolen bases allowed
+p_cs             caught stealing allowed
+p_pb             passed balls allowed
 d_po             team putouts
 d_a              fielding assists by team
 d_e              errors committed by team
@@ -138,6 +145,7 @@ b_seq            order in which the player appears
                  (1 = starter, 2 = 2nd player at given lineup slot, etc.)
 stattype         value, lower, or upper: 
                  upper and lower bounds are shown for some stats to highlight data uncertainty
+b_pa             plate appearances
 b_ab             at bats
 b_r              runs scored
 b_h              hits
@@ -155,6 +163,7 @@ b_sb             stolen bases
 b_cs             times caught stealing
 b_gdp            times grounded in double play by team's batters
 b_xi             times reached base on catcher's interference
+b_roe            times reached base via error
 dh               did the player DH in the game
 ph               did the player pinch hit
 pr               did the player pinch run
@@ -192,6 +201,9 @@ p_wp             wild pitches
 p_bk             balks allowed
 p_sh             sacrifice hits
 p_sf             sacrifice flies
+p_sb             stolen bases allowed
+p_cs             caught stealing allowed
+p_pb             passed balls allowed
 wp               winning pitcher?
 lp               losing pitcher?
 save             did player earn a save?
@@ -222,6 +234,7 @@ d_e              errors
 d_dp             double plays
 d_tp             triple plays
 d_pb             passed balls
+d_gs             games started at fielding position
 date             date of game
 number           game numer (0 if single game; 1, 2, etc. if multiple games on same date)
 site             location of game

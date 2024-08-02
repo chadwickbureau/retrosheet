@@ -10492,16 +10492,17 @@ info,umphome,weyel901
 info,ump1b,monte901
 info,ump2b,brocf901
 info,ump3b,rennd901
-info,scorer,"MARRERO"
-info,inputter,"ZMINDA"
+info,scorer,"MARRERO,615"
+info,translator,"Wayne Townsend,ZMINDA"
+info,inputter,"Wayne Townsend,ZMINDA"
 info,howscored,unknown
-info,pitches,none
+info,pitches,pitches
 info,temp,0
-info,winddir,unknown
+info,winddir,ltor
 info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,fieldcond,dry
+info,precip,none
+info,sky,night
 info,timeofgame,137
 info,attendance,47237
 info,wp,browt001
@@ -10526,92 +10527,100 @@ start,concd001,"Dave Concepcion",1,6,6
 start,diazb001,"Bo Diaz",1,7,2
 start,oestr001,"Ron Oester",1,8,4
 start,browt001,"Tom Browning",1,9,1
-play,1,0,tempg001,,,K
-play,1,0,roysj001,,,53
-play,1,0,gwynt001,,,43
-play,1,1,milne001,,,5
-play,1,1,rosep001,,,S
-play,1,1,parkd001,,,W.1-2
-play,1,1,esasn001,,,64(1)/FO/G.2-3;B-1
-play,1,1,bellb001,,,7
-play,2,0,garvs001,,,63
-play,2,0,martc001,,,K
-play,2,0,mcrek001,,,S
-play,2,0,bochb002,,,K
-play,2,1,concd001,,,S
-play,2,1,diazb001,,,7
-play,2,1,oestr001,,,7
-play,2,1,browt001,,,5
-play,3,0,bevak001,,,6
-play,3,0,showe001,,,K
-play,3,0,tempg001,,,8
-play,3,1,milne001,,,9
-play,3,1,rosep001,,,W
-play,3,1,parkd001,,,S.1-3
-play,3,1,esasn001,,,46(1)/FO/G.3-H;B-1
-play,3,1,bellb001,,,K
-play,4,0,roysj001,,,2
-play,4,0,gwynt001,,,4
-play,4,0,garvs001,,,K
-play,4,1,concd001,,,E1.B-1
-play,4,1,diazb001,,,64(1)3/GDP
-play,4,1,oestr001,,,3/G
-play,5,0,martc001,,,K
-play,5,0,mcrek001,,,8
-play,5,0,bochb002,,,S
-play,5,0,bevak001,,,54(1)/FO/G
-play,5,1,browt001,,,D
-play,5,1,milne001,,,8.2-3
-play,5,1,rosep001,,,7
-play,5,1,parkd001,,,I
-play,5,1,esasn001,,,6(1)/FO
-play,6,0,showe001,,,53
-play,6,0,tempg001,,,9
-play,6,0,roysj001,,,4
-play,6,1,bellb001,,,53
-play,6,1,concd001,,,43
-play,6,1,diazb001,,,D
-play,6,1,oestr001,,,I
-play,6,1,browt001,,,13
-play,7,0,gwynt001,,,S
-play,7,0,garvs001,,,9
-play,7,0,martc001,,,SB2
-play,7,0,martc001,,,8
-play,7,0,mcrek001,,,8
-play,7,1,milne001,,,63
-play,7,1,rosep001,,,T
-play,7,1,parkd001,,,I
-play,7,1,esasn001,,,8/SF.3-H
-play,7,1,bellb001,,,D.1-3
-play,7,1,concd001,,,9
-play,8,0,bochb002,,,NP
+play,1,0,tempg001,02,CFFFS,K
+play,1,0,roysj001,22,SBCFBFX,53/G56S
+play,1,0,gwynt001,21,BBFX,43/G4
+play,1,1,milne001,22,FBBFX,5/P25F/FL
+play,1,1,rosep001,21,BFBX,S7/L78
+com,"$Game delayed 7 minutes to honor Rose's 4,192nd hit"
+play,1,1,parkd001,30,B*BBB,W.1-2
+play,1,1,esasn001,00,X,64(1)/FO/G6/R3.2-3;B-1
+play,1,1,bellb001,00,X,7/F7
+play,2,0,garvs001,22,CSBBX,63/G6
+play,2,0,martc001,12,SBLS,K
+play,2,0,mcrek001,32,BBBTSX,S5/G56/R3
+play,2,0,bochb002,12,CBSS,K
+play,2,1,concd001,12,CFBX,S8/G4M
+play,2,1,diazb001,20,BBX,7/L7D
+play,2,1,oestr001,31,BB*BC11>X,7/F78D
+play,2,1,browt001,02,SFX,5/P5F/FL
+play,3,0,bevak001,32,BCFFBFBX,6/P5D
+play,3,0,showe001,02,FSS,K
+play,3,0,tempg001,01,CX,8/F8D
+play,3,1,milne001,22,CBBCX,9/F9
+play,3,1,rosep001,31,BBCBB,W
+play,3,1,parkd001,00,X,S7/F7S.1-3
+play,3,1,esasn001,10,BX,46(1)/FO/G6M/R3.3-H;B-1
+play,3,1,bellb001,12,CCBS,K
+play,4,0,roysj001,01,FX,2!/P23F/FL
+play,4,0,gwynt001,11,CBX,4!/L4
+play,4,0,garvs001,12,FBFF*S,K23
+play,4,1,concd001,10,BX,E1/G13.B-1
+play,4,1,diazb001,11,CBX,64(1)3/GDP/G6
+play,4,1,oestr001,21,BFBX,3/G3
+play,5,0,martc001,02,CSS,K
+play,5,0,mcrek001,10,BX,8/F8
+play,5,0,bochb002,00,X,S7/L56D
+play,5,0,bevak001,10,BX,54(1)/FO/G56
+play,5,1,browt001,32,CFBBBX,D8/L89D
+play,5,1,milne001,10,BX,8/F8XD.2-3
+play,5,1,rosep001,32,BBBCCFFX,7/F7
+play,5,1,parkd001,30,B*BII,IW
+play,5,1,esasn001,11,BFX,6(1)/FO/G6M
+play,6,0,showe001,32,SFBBFBX,53/G56
+play,6,0,tempg001,02,FFFX,7/F7
+play,6,0,roysj001,20,BBX,4/P4D
+play,6,1,bellb001,11,CBX,53/G5
+play,6,1,concd001,22,BCBCFX,43/G4
+play,6,1,diazb001,11,BCX,D8/F78XD
+play,6,1,oestr001,30,IIII,I
+play,6,1,browt001,10,B.X,13/G1
+play,7,0,gwynt001,21,BBCX,S8/G6M
+play,7,0,garvs001,00,X,9/F9
+play,7,0,martc001,21,BCB>B,SB2
+play,7,0,martc001,32,BCB>B.SX,8/F78XDW
+com,"$Milner: running 1-handed catch at the wall; he banged his right"
+com,"knee and needed a few minutes to recover."
+play,7,0,mcrek001,10,BX,8/F8XD
+play,7,1,milne001,12,FBFX,63/G6
+play,7,1,rosep001,12,BSCFX,T7/L7LD
+com,"$It caromed away from Martinez"
+play,7,1,parkd001,30,IIII,IW
+play,7,1,esasn001,00,X,8/F8XD/SF.3-H
+play,7,1,bellb001,11,11C1BX,D7/G5L.1-3
+play,7,1,concd001,20,BBX,9/L9L
+play,8,0,bochb002,00,,NP
 sub,venam001,"Max Venable",1,4,7
-play,8,0,bochb002,,,9
-play,8,0,bevak001,,,S
-play,8,0,showe001,,,NP
+play,8,0,bochb002,02,.SCX,9/F9
+play,8,0,bevak001,20,BBX,S7/G56
+play,8,0,showe001,00,,NP
 sub,davig002,"Jerry Davis",0,9,11
-play,8,0,davig002,,,64(1)3/GDP
-play,8,1,diazb001,,,NP
+play,8,0,davig002,02,.SCFX,64(1)3/GDP/G6
+com,"$Rose scooped low throw"
+play,8,1,diazb001,00,,NP
 sub,jackr003,"Roy Lee Jackson",0,9,1
-play,8,1,diazb001,,,W
-play,8,1,oestr001,,,NP
+play,8,1,diazb001,31,.BCBBB,W
+play,8,1,oestr001,00,,NP
 sub,redug001,"Gary Redus",1,7,12
-play,8,1,oestr001,,,CS2(26)
-play,8,1,oestr001,,,S
-play,8,1,browt001,,,NP
+play,8,1,oestr001,10,.P1>B,CS2(26)
+com,"$Redus was first called safe but slid past the bag"
+play,8,1,oestr001,32,P1>B.FBCX,S7/G56
+play,8,1,browt001,00,,NP
 sub,waltg001,"Gene Walter",0,9,1
-play,8,1,browt001,,,K
-play,8,1,milne001,,,K
-play,9,0,tempg001,,,NP
+play,8,1,browt001,12,.SBLL,K/BF
+play,8,1,milne001,12,BSC*S,K
+play,9,0,tempg001,00,,NP
 sub,vangd001,"Dave Van Gorder",1,7,2
-play,9,0,tempg001,,,43
-play,9,0,roysj001,,,S
-play,9,0,gwynt001,,,NP
+play,9,0,tempg001,12,.CFFBX,43/G4
+play,9,0,roysj001,32,BBCCBX,S9/L9S
+play,9,0,gwynt001,00,,NP
 sub,franj001,"Johnny Franco",1,9,1
-play,9,0,gwynt001,,,8
-play,9,0,garvs001,,,NP
+play,9,0,gwynt001,00,.X,8/L8S
+com,"$Milner: shoestring catch"
+play,9,0,garvs001,00,,NP
 sub,powet001,"Ted Power",1,9,1
-play,9,0,garvs001,,,31
+play,9,0,garvs001,11,.FBX,31/G34
+com,"$Rose: diving stop and threw to 1B while sitting on the turf"
 data,er,showe001,2
 data,er,jackr003,0
 data,er,waltg001,0

@@ -83,7 +83,8 @@ com,"his side."
 play,3,0,mcins101,??,,54(1)3/GDP
 play,3,1,rices101,??,,S9/L
 play,3,1,lewid101,??,,99(1)/FO
-play,3,1,harrb106,??,,S/BR.1X2(4)
+play,3,1,harrb106,??,,S/BR.1X2(99)
+com,"No fielding credit awarded for S/BR in 1921"
 play,3,1,shanh101,??,,99
 play,4,0,colls101,??,,99
 play,4,0,scote101,??,,S7
@@ -868,8 +869,8 @@ sub,harrs101,"Slim Harriss",0,9,1
 play,6,1,shanh101,??,,4(B)3(1)/LDP
 com,"pbp account ends here, rest deduced"
 play,7,0,dykej101,??,,E6/TH
-play,7,0,wittw101,??,,99(1)/FO
-play,7,0,walkt101,??,,CS2(99)
+play,7,0,wittw101,??,,54(1)/FO#
+play,7,0,walkt101,??,,CS2(26)
 play,7,0,walkt101,??,,99
 play,7,1,orouf101,??,,2/FL
 play,7,1,gharp101,??,,W
@@ -878,8 +879,8 @@ play,7,1,judgj101,??,,S.2-H;1-3
 play,7,1,milac101,??,,S.3-H;1-3
 play,7,1,rices101,??,,NP
 sub,romme101,"Eddie Rommel",0,9,1
-play,7,1,rices101,??,,99
-play,7,1,lewid101,??,,99
+play,7,1,rices101,??,,1#
+play,7,1,lewid101,??,,13#
 play,8,0,brazf101,??,,99
 play,8,0,dugaj101,??,,99
 play,8,0,perkc101,??,,W
@@ -1699,7 +1700,7 @@ play,2,1,judgj101,??,,7
 play,3,0,pippw101,??,,13
 play,3,0,meusb101,??,,S7/L
 play,3,0,bodip101,??,,K
-play,3,0,warda101,??,,S7.BX3(75)
+play,3,0,warda101,??,,S7.1X3(75)
 play,3,1,harrb106,??,,S9
 play,3,1,rices101,??,,6/P56
 play,3,1,browf102,??,,9/L9D
@@ -1829,7 +1830,7 @@ start,orouf101,"Frank O'Rourke",1,8,6
 start,johnw102,"Walter Johnson",1,9,1
 play,1,0,leibn101,??,,99
 play,1,0,foste103,??,,K/C
-play,1,0,menom101,??,,K
+play,1,0,menom101,??,,K23#
 play,1,1,judgj101,??,,W
 play,1,1,harrb106,??,,99/SH.1-2
 play,1,1,rices101,??,,S5/G56.2-2
@@ -3598,7 +3599,7 @@ com,"Grounder per Free Press"
 play,6,1,harrb106,??,,99
 play,6,1,rices101,??,,99
 play,6,1,browf102,??,,HR/9
-play,6,1,millb110,??,,K
+play,6,1,millb110,??,,K23#
 play,7,0,bluel101,??,,99
 play,7,0,bushd102,??,,43
 play,7,0,cobbt101,??,,43
@@ -3835,7 +3836,8 @@ play,1,0,younr103,??,,99
 play,1,0,bushd102,??,,W
 play,1,0,cobbt101,??,,99
 ladj,0,5
-play,1,0,heilh101,??,,2/BOOT
+play,1,0,heilh101,??,,99/BOOT
+com,"No fielding credit awarded for BOOT in 1921"
 com,"$Heilmann hit a home run, but Veach was due up. Senators"
 com,"alerted umpire and Heilmann was declared out for the"
 com,"third out of the inning. Heilmann will lead off the"
@@ -4332,7 +4334,7 @@ play,4,0,gardl101,??,,S.1-2
 play,4,0,sewej101,??,,W.2-3;1-2
 play,4,0,burng102,??,,99
 play,4,1,orouf101,??,,99
-play,4,1,erice101,??,,K
+play,4,1,erice101,??,,K23#
 play,4,1,smite107,??,,W
 play,4,1,harrb106,??,,SB2.1-3(E2/TH)
 play,4,1,harrb106,??,,9/L
@@ -4381,7 +4383,7 @@ play,7,0,johnd107,??,,K
 play,7,0,jamic101,??,,8/F
 play,7,1,millb110,??,,NP
 sub,coves101,"Stan Coveleski",0,9,1
-play,7,1,millb110,??,,K
+play,7,1,millb110,??,,K23#
 play,7,1,shanh101,??,,W
 play,7,1,gharp101,??,,S.1-2
 play,7,1,orouf101,??,,99
@@ -4397,7 +4399,7 @@ play,8,0,smite104,??,,W
 play,8,0,gardl101,??,,K
 play,8,0,sewej101,??,,99(1)/FO.3-H
 play,8,0,burng102,??,,9/F9D
-play,8,1,smite107,??,,K
+play,8,1,smite107,??,,K23#
 play,8,1,harrb106,??,,99
 play,8,1,rices101,??,,D
 play,8,1,browf102,??,,99
@@ -4613,8 +4615,8 @@ info,ump1b,nalld901
 info,ump2b,(none)
 info,ump3b,chilo901
 info,scorer,"102,128,208,408,427,408a"
-info,translator,"Rob Wood"
-info,inputter,"Rob Wood"
+info,translator,"Rob Wood/RWood"
+info,inputter,"Rob Wood/RWood"
 info,inputtime,2022/08/20 9:34AM
 info,howscored,park
 info,pitches,none
@@ -4732,7 +4734,7 @@ sub,richr102,"Ray Richmond",0,9,1
 play,8,1,shanh101,??,,NP
 sub,mcmam101,"Marty McManus",0,8,6
 play,8,1,shanh101,??,,S9
-play,8,1,gharp101,??,,99/SH.1-2
+play,8,1,gharp101,??,,34/SH.1-2
 play,8,1,orouf101,??,,S9.2-H;BX2(94)
 play,8,1,schaa101,??,,W
 play,8,1,judgj101,??,,NP
@@ -4863,7 +4865,7 @@ play,7,0,tobij101,??,,T9
 play,7,0,lambl101,??,,S7.3-H
 play,7,0,sislg101,??,,4(1)/FO
 play,7,0,willk101,??,,PO1(13)
-play,7,0,willk101,??,,K
+play,7,0,willk101,??,,K23#
 play,7,1,judgj101,??,,W
 play,7,1,harrb106,??,,99/FL
 play,7,1,rices101,??,,4(1)/FO
@@ -4882,7 +4884,7 @@ play,8,1,orouf101,??,,6/P
 play,8,1,acosj101,??,,W
 play,8,1,judgj101,??,,W.2-3;1-2
 play,8,1,harrb106,??,,SBH;SB3;SB2
-play,8,1,harrb106,??,,K
+play,8,1,harrb106,??,,K23#
 play,9,0,lee-d101,??,,NP
 sub,seveh101,"Hank Severeid",0,8,11
 play,9,0,seveh101,??,,99
@@ -5061,8 +5063,8 @@ info,ump1b,nalld901
 info,ump2b,(none)
 info,ump3b,chilo901
 info,scorer,"222,427,408a,408,208,102"
-info,translator,"Jim Herdman"
-info,inputter,"Jim Herdman"
+info,translator,"Jim Herdman/RWood"
+info,inputter,"Jim Herdman/RWood"
 info,inputtime,2022/09/20 8:36PM
 info,howscored,unknown
 info,pitches,none
@@ -5146,7 +5148,6 @@ play,6,0,lambl101,??,,S7.1-2
 play,6,0,sislg101,??,,K
 play,6,1,orouf101,??,,T7
 play,6,1,zacht101,??,,13
-com,"Runner held at third base."
 play,6,1,judgj101,??,,W
 play,6,1,harrb106,??,,54(1)3/GDP
 play,7,0,willk101,??,,3/FL
@@ -5154,16 +5155,16 @@ play,7,0,jacow101,??,,43
 play,7,0,collp101,??,,S7
 play,7,0,mcmam101,??,,S9.1X3(96)
 com,"Collins overran second base."
-play,7,1,rices101,??,,99
-play,7,1,browf102,??,,99
+play,7,1,rices101,??,,2/P
+play,7,1,browf102,??,,5/FL
 play,7,1,millb110,??,,S9.BX2(94)
 play,8,0,lee-d101,??,,NP
 sub,wetzd101,"Dutch Wetzel",0,8,11
-play,8,0,wetzd101,??,,99
+play,8,0,wetzd101,??,,43
 play,8,0,vange101,??,,NP
 sub,seveh101,"Hank Severeid",0,9,11
-play,8,0,seveh101,??,,99
-play,8,0,tobij101,??,,99
+play,8,0,seveh101,??,,53
+play,8,0,tobij101,??,,9
 play,8,1,shanh101,??,,NP
 sub,debej101,"Joe DeBerry",0,9,1
 play,8,1,shanh101,??,,NP
@@ -5171,7 +5172,7 @@ sub,kolpr101,"Ray Kolp",0,8,6
 com,"Normally a pitcher, Kolp's first game at shortstop."
 play,8,1,shanh101,??,,63
 play,8,1,gharp101,??,,63
-play,8,1,orouf101,??,,99
+play,8,1,orouf101,??,,53
 play,9,0,lambl101,??,,T/78
 play,9,0,sislg101,??,,D/89.3-H
 play,9,0,willk101,??,,7/F
@@ -5377,7 +5378,7 @@ start,shanh101,"Howie Shanks",1,6,5
 start,gharp101,"Patsy Gharrity",1,7,2
 start,lamob101,"Bobby LaMotte",1,8,6
 start,zacht101,"Tom Zachary",1,9,1
-play,1,0,wittw101,??,,K
+play,1,0,wittw101,??,,K23#
 play,1,0,dykej101,??,,T/78
 play,1,0,welcf101,??,,FC6.3XH(625);B-1
 play,1,0,johnp102,??,,S9.1-3;B-2(TH3)
@@ -8891,7 +8892,7 @@ play,1,1,rices101,??,,7/FL
 play,2,0,colls101,??,,99
 play,2,0,scote101,??,,99
 play,2,0,ruelm101,??,,99
-play,2,1,millb110,??,,K
+play,2,1,millb110,??,,K23#
 play,2,1,harrb106,??,,S
 play,2,1,shanh101,??,,99
 play,2,1,piciv101,??,,CS2(24)
@@ -10547,7 +10548,7 @@ play,1,1,judgj101,??,,99
 play,1,1,harrb106,??,,99
 play,1,1,milac101,??,,99
 play,2,0,bluel101,??,,99
-play,2,0,tavej101,??,,K
+play,2,0,tavej101,??,,K23#
 play,2,0,bassj102,??,,S8/L
 play,2,0,oldhr101,??,,3/G
 play,2,1,rices101,??,,S7/L
