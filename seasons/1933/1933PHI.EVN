@@ -2461,9 +2461,9 @@ info,number,0
 info,starttime,0:00
 info,daynight,day
 info,usedh,false
-info,scorer,"98"
-info,translator,"DWV/Smith"
-info,inputter,"DWV/Smith"
+info,scorer,"98,97"
+info,translator,"DWV/Smith/RWood"
+info,inputter,"DWV/Smith/RWood"
 info,inputtime,
 info,umphome,morac102
 info,ump1b,rearb901
@@ -2483,7 +2483,7 @@ info,wp,hubbc101
 info,lp,rhemf101
 info,save,
 info,gwrbi,
-start,moorj103,"Jo-jo Moore",0,1,7
+start,moorj103,"Jo-Jo Moore",0,1,7
 start,crith101,"Hughie Critz",0,2,4
 start,ott-m101,"Mel Ott",0,3,9
 start,lesls101,"Sam Leslie",0,4,3
@@ -2515,7 +2515,7 @@ play,2,0,davik101,??,,13
 play,2,0,mancg101,??,,9/L
 play,2,0,ryanb101,??,,3/FL
 play,2,1,bartd101,??,,63
-play,2,1,lee-h101,??,,4
+play,2,1,lee-h101,??,,4/P
 play,2,1,davis101,??,,S9
 play,2,1,warnj101,??,,13
 play,3,0,hubbc101,??,,5/FL
@@ -2524,38 +2524,42 @@ play,3,0,crith101,??,,E5/G
 play,3,0,ott-m101,??,,W.1-2
 play,3,0,lesls101,??,,53
 play,3,1,rhemf101,??,,S8
-play,3,1,fullc101,??,,S/BG25.1-2
+play,3,1,fullc101,??,,S1/BG25.1-2
 play,3,1,finnn101,??,,PO2(E2).2-3;1-2
 play,3,1,finnn101,??,,8/F8S
 play,3,1,kleic101,??,,IW
 play,3,1,hursd101,??,,K/C
 play,3,1,bartd101,??,,64(1)/FO
-play,4,0,vergj101,??,,5
+play,4,0,vergj101,??,,5/P
 play,4,0,davik101,??,,63
 play,4,0,mancg101,??,,S8
 play,4,0,ryanb101,??,,S9.1-2
 play,4,0,hubbc101,??,,63
-play,4,1,lee-h101,??,,T/78XDW
+play,4,1,lee-h101,??,,T7/78XDW
+com,"Jo-Jo Moore crashed into wall chasing flyball and game"
+com,"was delayed several minutes while he received first aid"
 play,4,1,davis101,??,,13
 play,4,1,warnj101,??,,D8/8S.3-H
 play,4,1,rhemf101,??,,K
 play,4,1,fullc101,??,,7
-play,5,0,moorj103,??,,T/89XDW
+play,5,0,moorj103,??,,T8/89XDW
 play,5,0,crith101,??,,63
 play,5,0,ott-m101,??,,S9.3-H
 play,5,0,lesls101,??,,WP.1-2
 play,5,0,lesls101,??,,S3.2-3
 play,5,0,vergj101,??,,FC5.3-H(NR);1-3;B-2
-play,5,0,davik101,??,,D9/G3.3-H;2-H
-play,5,0,mancg101,??,,S9.2-3
+com,"Ott escaped rundown and scored when home plate was"
+com,"left uncovered (3bman Warner 'chasing' him across)"
+play,5,0,davik101,??,,S9/G3.3-H;2-H
+play,5,0,mancg101,??,,S9.1-3
 play,5,0,ryanb101,??,,NP
 sub,collp102,"Phil Collins",1,9,1
 play,5,0,ryanb101,??,,S9.3-H;1-3
 play,5,0,hubbc101,??,,9.3-H
 play,5,0,moorj103,??,,63
 play,5,1,finnn101,??,,HP
-play,5,1,kleic101,??,,D/89.1-3
-play,5,1,hursd101,??,,D/89.3-H;2-H
+play,5,1,kleic101,??,,D8/89.1-3
+play,5,1,hursd101,??,,D8/89.3-H;2-H
 play,5,1,bartd101,??,,S6.2-2
 play,5,1,lee-h101,??,,K
 play,5,1,davis101,??,,S5.2-3;1-2
@@ -2572,10 +2576,10 @@ play,6,0,lesls101,??,,S9.3-H;1-2
 play,6,0,vergj101,??,,S7.2-3;1-2
 play,6,0,davik101,??,,NP
 sub,moorc101,"Cy Moore",1,9,1
-play,6,0,davik101,??,,S9.3-H;2XH(96E2)(NR)(UR);1-2
+play,6,0,davik101,??,,S9.3-H;2XH(9E2)(NR)(UR);1-2
 play,6,0,mancg101,??,,53/SH.2-3;1-2
 play,6,0,ryanb101,??,,S7.3-H;2-H;B-2(THH)
-play,6,0,hubbc101,??,,13
+play,6,0,hubbc101,??,,13.2-3
 play,6,0,moorj103,??,,43
 play,6,1,fullc101,??,,8
 play,6,1,finnn101,??,,53
@@ -2586,30 +2590,27 @@ play,7,0,lesls101,??,,64(1)/FO/DP.BX2(24)
 play,7,1,hursd101,??,,43
 play,7,1,bartd101,??,,3/FL
 play,7,1,lee-h101,??,,S9
-play,7,1,davis101,??,,D/78.1-3
-play,7,1,warnj101,??,,3/FL
-com,"pbp account ends here, rest deduced"
-play,8,0,vergj101,??,,99
-play,8,0,davik101,??,,S
-play,8,0,mancg101,??,,99
-play,8,0,ryanb101,??,,99
-play,8,1,moorc101,??,,99
-play,8,1,fullc101,??,,99
-play,8,1,finnn101,??,,99
-play,9,0,hubbc101,??,,99
-play,9,0,moorj103,??,,NP
-sub,peelh101,"Homer Peel",0,1,11
-play,9,0,peelh101,??,,S
-play,9,0,crith101,??,,S.1-2
-play,9,0,ott-m101,??,,99
-play,9,0,lesls101,??,,99
-play,9,1,kleic101,??,,NP
+play,7,1,davis101,??,,D7/78.1-3
+play,7,1,warnj101,??,,9/FL
+play,8,0,vergj101,??,,7
+play,8,0,davik101,??,,D9
+play,8,0,mancg101,??,,63
+play,8,0,ryanb101,??,,43
+play,8,1,moorc101,??,,NP
 sub,peelh101,"Homer Peel",0,1,7
+play,8,1,moorc101,??,,7
+play,8,1,fullc101,??,,8
+play,8,1,finnn101,??,,53
+play,9,0,hubbc101,??,,53
+play,9,0,peelh101,??,,S9
+play,9,0,crith101,??,,S7.1-2
+play,9,0,ott-m101,??,,63.2-3;1-2
+play,9,0,lesls101,??,,43
 play,9,1,kleic101,??,,S
 play,9,1,hursd101,??,,K
 play,9,1,bartd101,??,,S.1-2
 play,9,1,lee-h101,??,,K
-play,9,1,davis101,??,,99
+play,9,1,davis101,??,,8
 data,er,hubbc101,3
 data,er,rhemf101,6
 data,er,collp102,0

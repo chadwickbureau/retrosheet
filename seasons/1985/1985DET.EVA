@@ -12,13 +12,13 @@ info,umphome,sprim901
 info,ump1b,mckej901
 info,ump2b,merrd901
 info,ump3b,voltv901
-info,scorer,"Dave Brown"
-info,inputter,"Gary Gillette"
-info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,scorer,"Dave Brown + Wigley from WILX video"
+info,inputter,"Gary Gillette + Wigley from WILX video"
+info,howscored,tv
+info,pitches,pitches
+info,temp,42
+info,winddir,ltor
+info,windspeed,13
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -48,113 +48,115 @@ start,hernl001,"Larry Herndon",1,7,7
 start,lemoc001,"Chet Lemon",1,8,8
 start,pittc001,"Chris Pittaro",1,9,5
 start,morrj001,"Jack Morris",1,0,1
-play,1,0,butlb001,,,K
-play,1,0,franj002,,,D
-play,1,0,hallm001,,,S.2-H
-play,1,0,cartj001,,,K
-play,1,0,tablp001,,,54(1)/FO/G
-play,1,1,whitl001,,,43
-play,1,1,trama001,,,7
-play,1,1,gibsk001,,,43
-play,2,0,jacob001,,,63
-play,2,0,vukog001,,,7
-play,2,0,bandc001,,,W
-play,2,0,bernt001,,,K
-play,2,1,parrl001,,,7
-play,2,1,grubj001,,,8
-play,2,1,evand001,,,43
-play,3,0,butlb001,,,7
-play,3,0,franj002,,,W
-play,3,0,hallm001,,,W.1-2
-play,3,0,cartj001,,,4(1)3/GDP
-play,3,1,hernl001,,,D
-play,3,1,lemoc001,,,8
-play,3,1,pittc001,,,K
+play,1,0,butlb001,12,BCFS,K
+play,1,0,franj002,11,BSX,D7/F78S
+play,1,0,hallm001,00,X,S7/G56.2-H
+play,1,0,cartj001,22,BFPFS,K
+play,1,0,tablp001,02,CCX,54(1)/FO/G5
+play,1,1,whitl001,31,CBBBX,43/G4
+play,1,1,trama001,11,BFX,7/F7DW
+play,1,1,gibsk001,12,BCFX,43/G34
+play,2,0,jacob001,21,SBBX,63/G6M
+play,2,0,vukog001,01,FX,7/F7D
+play,2,0,bandc001,32,CSBBBB,W
+play,2,0,bernt001,02,CSS,K
+play,2,1,parrl001,00,X,7/P7S
+play,2,1,grubj001,20,BBX,8/F78
+play,2,1,evand001,20,BBX,43/G34
+play,3,0,butlb001,10,BX,7/L7
+play,3,0,franj002,31,BFBBB,W
+play,3,0,hallm001,32,BSP1SFFBB,W.1-2
+play,3,0,cartj001,00,X,4(1)3/GDP/G4M
+play,3,1,hernl001,12,CBFX,D7/L5D
+play,3,1,lemoc001,22,LFBBX,8/F78
+play,3,1,pittc001,12,CFBS,K
 com,"Debut game for Chris Pittaro"
-play,3,1,whitl001,,,W
-play,3,1,trama001,,,W.2-3;1-2
-play,3,1,gibsk001,,,9
-play,4,0,tablp001,,,8
-play,4,0,jacob001,,,K
-play,4,0,vukog001,,,K
-play,4,1,parrl001,,,53
-play,4,1,grubj001,,,W
-play,4,1,evand001,,,PB.1-2
-play,4,1,evand001,,,S.2-H(UR)
-play,4,1,hernl001,,,54(1)/FO
-play,4,1,lemoc001,,,64(1)/FO
-play,5,0,bandc001,,,K
-play,5,0,bernt001,,,31
-play,5,0,butlb001,,,8
-play,5,1,pittc001,,,S
-play,5,1,whitl001,,,CS2(26)
-play,5,1,whitl001,,,S
-play,5,1,trama001,,,S.1-2
-play,5,1,gibsk001,,,13.2-3;1-2
-play,5,1,parrl001,,,S.3-H;2-H
-play,5,1,grubj001,,,W.1-2
-play,5,1,evand001,,,NP
+play,3,1,whitl001,30,BBBB,W
+play,3,1,trama001,32,BBCBCB,W.2-3;1-2
+play,3,1,gibsk001,00,X,9/F9D
+play,4,0,tablp001,10,BX,8/F89
+play,4,0,jacob001,12,SSBS,K
+play,4,0,vukog001,12,BSCS,K
+play,4,1,parrl001,20,BBX,53/G5
+play,4,1,grubj001,31,BBCBB,W
+play,4,1,evand001,02,CSB,PB.1-2
+play,4,1,evand001,12,CSB.X,S9/F9D.2-H(UR)
+play,4,1,hernl001,20,BBX,54(1)/FO/G5
+play,4,1,lemoc001,11,BFX,64(1)/FO/G6
+play,5,0,bandc001,12,CBCS,K
+play,5,0,bernt001,11,BFX,31/G3S
+play,5,0,butlb001,00,X,8/F8S
+com,"$Light snow begins to fall"
+play,5,1,pittc001,11,CBX,S7/L7S
+play,5,1,whitl001,12,BC1>FB,CS2(26)
+play,5,1,whitl001,32,BC1>FB.BX,S56/G56
+play,5,1,trama001,22,CPPFX,S1/L1.1-2
+play,5,1,gibsk001,01,CX,13/G1.2-3;1-2
+play,5,1,parrl001,10,BX,S8/G6M.3-H;2-H
+play,5,1,grubj001,32,CBBFB+1FB,W.1-2
+play,5,1,evand001,00,,NP
 sub,jeffm001,"Mike Jeffcoat",0,0,1
-play,5,1,evand001,,,NP
+play,5,1,evand001,00,.,NP
 sub,garbb001,"Barbaro Garbey",1,6,11
-play,5,1,garbb001,,,5(2)/FO/G
-play,6,0,franj002,,,NP
+play,5,1,garbb001,00,..X,5(2)/FO/G5
+com,"$Snow flurries have stopped"
+play,6,0,franj002,00,,NP
 sub,garbb001,"Barbaro Garbey",1,6,3
-play,6,0,franj002,,,S
-play,6,0,hallm001,,,8
-play,6,0,cartj001,,,S.1-3
-play,6,0,tablp001,,,D.3-H;1-3
-play,6,0,jacob001,,,8/SF.3-H
-play,6,0,vukog001,,,WP.2-3
-play,6,0,vukog001,,,S.3-H
-play,6,0,bandc001,,,SB2
-play,6,0,bandc001,,,7
-play,6,1,hernl001,,,NP
+play,6,0,franj002,02,.SCX,S56/G56
+play,6,0,hallm001,01,FX,8/F89
+play,6,0,cartj001,02,LFX,S8/F89S.1-3
+play,6,0,tablp001,00,X,D7/G5.3-H;1-3
+play,6,0,jacob001,11,FBX,8/SF/F8D.3-H
+play,6,0,vukog001,00,B,WP.2-3
+play,6,0,vukog001,10,B.X,S9/L9L.3-H
+play,6,0,bandc001,12,FCBFB,SB2
+play,6,0,bandc001,22,FCBFB.X,7/F7L
+play,6,1,hernl001,00,,NP
 sub,waddt001,"Tom Waddell",0,0,1
-play,6,1,hernl001,,,8
-play,6,1,lemoc001,,,9
-play,6,1,pittc001,,,S
-play,6,1,whitl001,,,SB2
-play,6,1,whitl001,,,W
-play,6,1,trama001,,,54(1)/FO/G
-play,7,0,bernt001,,,NP
+play,6,1,hernl001,12,.CCBFX,8/F8D
+play,6,1,lemoc001,22,CBCBFX,9/F9
+play,6,1,pittc001,22,BBFFX,S8/G6M
+play,6,1,whitl001,10,B1C,SB2
+play,6,1,whitl001,32,B1C.BBFB,W
+play,6,1,trama001,01,CX,54(1)/FO/G5
+play,7,0,bernt001,00,,NP
 sub,hargm001,"Mike Hargrove",0,9,11
-play,7,0,hargm001,,,8
-play,7,0,butlb001,,,W
-play,7,0,franj002,,,W.1-2
-play,7,0,hallm001,,,46(1)3/GDP
-play,7,1,gibsk001,,,NP
+play,7,0,hargm001,01,.SX,8/F8D
+play,7,0,butlb001,32,BBBCCFFFB,W
+play,7,0,franj002,31,FPBBB,W.1-2
+play,7,0,hallm001,10,BX,46(1)3/GDP/G4
+play,7,1,gibsk001,00,,NP
 sub,fiscm001,"Mike Fischlin",0,9,4
-play,7,1,gibsk001,,,S
-play,7,1,parrl001,,,54(1)3/GDP
-play,7,1,grubj001,,,8
-play,8,0,cartj001,,,3
-play,8,0,tablp001,,,W
-play,8,0,jacob001,,,8
-play,8,0,vukog001,,,5
-play,8,1,garbb001,,,3
-play,8,1,hernl001,,,S
-play,8,1,lemoc001,,,NP
+play,7,1,gibsk001,00,.X,S9/G34
+play,7,1,parrl001,11,CBX,54(1)3/GDP/G5
+play,7,1,grubj001,31,BCBBX,8/F8S
+play,8,0,cartj001,32,BBSFFBX,3/P3
+play,8,0,tablp001,32,BBBCFB,W
+play,8,0,jacob001,21,BCBX,8/F8D
+play,8,0,vukog001,12,CF*BX,5/P5
+play,8,1,garbb001,11,BCX,3/P34
+play,8,1,hernl001,10,BX,S8/P89
+play,8,1,lemoc001,00,,NP
 sub,camae001,"Ernie Camacho",0,0,1
-play,8,1,lemoc001,,,W.1-2
-play,8,1,pittc001,,,S.2-H;1-3
-play,8,1,whitl001,,,8/SF.3-H
-play,8,1,trama001,,,C/E2.1-2
-play,8,1,gibsk001,,,WP.2-3;1-2
-play,8,1,gibsk001,,,K
-play,9,0,bandc001,,,NP
+play,8,1,lemoc001,30,.BBBB,W.1-2
+play,8,1,pittc001,12,FBSX,S8/G4M.2-H;1-3
+play,8,1,whitl001,01,CX,8/SF/F8D.3-H
+play,8,1,trama001,01,1>FN,C/E2.1-2
+play,8,1,gibsk001,10,BB,WP.2-3;1-2
+play,8,1,gibsk001,22,BB.FFS,K
+play,9,0,bandc001,00,,NP
 sub,hernw001,"Willie Hernandez",1,0,1
-play,9,0,bandc001,,,NP
+play,9,0,bandc001,00,.,NP
 sub,bergd001,"Dave Bergman",1,6,3
-play,9,0,bandc001,,,NP
+play,9,0,bandc001,00,..,NP
 sub,broot001,"Tom Brookens",1,9,5
-play,9,0,bandc001,,,K
-play,9,0,fiscm001,,,NP
+play,9,0,bandc001,32,...BBCFBS,K
+play,9,0,fiscm001,00,,NP
 sub,bentb001,"Butch Benton",0,9,11
-play,9,0,bentb001,,,K
-play,9,0,butlb001,,,NP
+play,9,0,bentb001,12,.FSFBS,K
+play,9,0,butlb001,00,,NP
 sub,castc001,"Carmelo Castillo",0,1,11
-play,9,0,castc001,,,63
+play,9,0,castc001,22,.CBBFFX,63/G6
 data,er,blylb001,2
 data,er,jeffm001,0
 data,er,waddt001,1
