@@ -2682,6 +2682,7 @@ play,5,0,harpt001,11,CBX,5/FL/P25F
 play,5,0,hubbg001,31,BBBCX,4/P4D
 play,5,0,beneb001,31,CBBBB,W
 play,5,0,barkl001,21,BBCX,FC6/G56.1-2;B-1
+com,"Smith threw to second poorly but no error called"
 play,5,0,washc001,21,FBBX,S9/G34.2-3;1-2
 play,5,0,ramir001,01,CX,64(1)/FO/G56D
 play,5,1,smito001,11,SBX,S4/P9LS
@@ -2715,6 +2716,7 @@ play,7,1,colev001,02,CCS,K
 play,7,1,smito001,21,CBBX,S7/G56
 play,7,1,mcgew001,12,111C1B>FX,S9/G34.1-3
 play,7,1,clarj001,00,111B,SB2
+com,"no throw to second as no one covered the bag"
 play,7,1,clarj001,32,111B.BCFFFBI,IW
 play,7,1,vansa001,00,,NP
 sub,herrt001,"Tom Herr",1,5,11
@@ -3024,23 +3026,23 @@ info,hometeam,SLN
 info,site,STL09
 info,date,1985/06/01
 info,number,0
-info,starttime,0:00PM
+info,starttime,12:05PM
 info,daynight,day
 info,usedh,false
 info,umphome,davig901
 info,ump1b,wendh901
 info,ump2b,tatat901
 info,ump3b,crawj901
-info,scorer,"COOK"
-info,inputter,"CROCKETT"
-info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,scorer,"COOK + Wigley from NBC GOW video"
+info,inputter,"CROCKETT + Wigley from NBC GOW video"
+info,howscored,tv
+info,pitches,pitches
+info,temp,78
+info,winddir,fromcf
+info,windspeed,8
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,drizzle
+info,sky,cloudy
 info,timeofgame,173
 info,attendance,35586
 info,wp,browt001
@@ -3065,109 +3067,114 @@ start,landt001,"Tito Landrum",1,6,9
 start,smito001,"Ozzie Smith",1,7,6
 start,niett001,"Tom Nieto",1,8,2
 start,kepsk001,"Kurt Kepshire",1,9,1
-play,1,0,redug001,,,W
-play,1,0,milne001,,,SB2
-play,1,0,milne001,,,PO2(E1).2-H(UR)
-play,1,0,milne001,,,7
-play,1,0,rosep001,,,3/G
-play,1,0,parkd001,,,K
-play,1,1,colev001,,,W
-play,1,1,mcgew001,,,K
-play,1,1,herrt001,,,8
-play,1,1,clarj001,,,SB2
-play,1,1,clarj001,,,D.2-H
-play,1,1,pendt001,,,3
-play,2,0,knica001,,,9
-play,2,0,concd001,,,S
-play,2,0,oestr001,,,4(1)3/GDP
-play,2,1,landt001,,,D
-play,2,1,smito001,,,K
-play,2,1,niett001,,,POCS3(156)
-play,2,1,niett001,,,K
-play,3,0,krenw001,,,D
-play,3,0,browt001,,,W
-play,3,0,redug001,,,8
-play,3,0,milne001,,,S.2-H;1-2
-play,3,0,rosep001,,,7
-play,3,0,parkd001,,,7
-play,3,1,kepsk001,,,S
-play,3,1,colev001,,,K
-play,3,1,mcgew001,,,16(1)/FO
-play,3,1,herrt001,,,SB2
-play,3,1,herrt001,,,43
-play,4,0,knica001,,,S
-play,4,0,concd001,,,D.1-3
-play,4,0,oestr001,,,8/SF.3-H;2-3
-play,4,0,krenw001,,,FC4/G.3XH(42);B-1
-play,4,0,browt001,,,W.1-2
-play,4,0,redug001,,,64(1)/FO/G
-play,4,1,clarj001,,,43
-play,4,1,pendt001,,,2
-play,4,1,landt001,,,K
-play,5,0,milne001,,,3/G
-play,5,0,rosep001,,,S
-play,5,0,parkd001,,,5
-play,5,0,knica001,,,63
-play,5,1,smito001,,,S
-play,5,1,niett001,,,8(B)3(1)/DP
-play,5,1,kepsk001,,,K
-play,6,0,concd001,,,W
-play,6,0,oestr001,,,NP
+play,1,0,redug001,32,BCBBFB,W
+play,1,0,milne001,00,P,SB2
+play,1,0,milne001,32,P.BBC2C2,PO2(E1).2-H(UR)
+play,1,0,milne001,32,P.BBC2C2.X,7/F7D
+play,1,0,rosep001,32,BFBSBX,3/G34
+play,1,0,parkd001,32,SFBFFBBS,K
+play,1,1,colev001,32,BCBFBB,W
+play,1,1,mcgew001,12,1C1S1FP+11S,K
+play,1,1,herrt001,10,BX,8/F89D
+play,1,1,clarj001,00,B,SB2
+play,1,1,clarj001,20,B.BX,D7/F7D.2-H
+play,1,1,pendt001,02,CSX,3/P3F/FL
+play,2,0,knica001,32,BCSBFFFBFX,9!/L89
+play,2,0,concd001,21,BCBX,S8/G6M
+play,2,0,oestr001,21,BCBX,4(1)3/GDP/G4M
+play,2,1,landt001,21,FBBX,D7/F7L
+play,2,1,smito001,12,CSBS,K
+play,2,1,niett001,11,BFN,POCS3(156)
+com,"Landrum broke for 3rd before the pitch and without a pickoff attempt"
+play,2,1,niett001,22,BFN.BFS,K
+play,3,0,krenw001,12,CBSX,D9/G3
+play,3,0,browt001,31,BBFBB,W
+play,3,0,redug001,20,BBX,8/F8D
+play,3,0,milne001,00,X,S9/G34.2-H;1-2
+play,3,0,rosep001,21,BCBX,7/F7
+play,3,0,parkd001,00,X,7/F78D
+play,3,1,kepsk001,02,CSFX,S8/G6M
+play,3,1,colev001,22,L*BBSS,K
+play,3,1,mcgew001,11,BSX,16(1)/FO/G1
+play,3,1,herrt001,11,FBS,SB2
+play,3,1,herrt001,22,FBS.BX,43/G4M
+play,4,0,knica001,00,X,S8/L6MD
+play,4,0,concd001,31,BBBCX,D8/F78XD.1-3
+play,4,0,oestr001,11,FBX,8/SF/F8D.3-H;2-3
+play,4,0,krenw001,11,FBX,FC4/G4M.3XH(42);B-1
+play,4,0,browt001,30,BBBB,W.1-2
+play,4,0,redug001,12,BCSX,64(1)/FO/G56D
+play,4,1,clarj001,00,X,43/G34
+play,4,1,pendt001,10,BX,2/P2F/FL
+play,4,1,landt001,32,BBFFBC,K/C
+play,5,0,milne001,00,X,3/BG3
+play,5,0,rosep001,12,CBFX,S7/G5
+play,5,0,parkd001,00,X,5/P5F/FL
+play,5,0,knica001,02,FF>X,63/G6M
+play,5,1,smito001,22,BBFCX,S7/G56
+play,5,1,niett001,22,FBSF>FFB>X,8(B)3(1)/DP/F8D
+play,5,1,kepsk001,22,BSSFBS,K
+play,6,0,concd001,30,BBBB,W
+play,6,0,oestr001,00,,NP
 sub,daylk001,"Ken Dayley",1,9,1
-play,6,0,oestr001,,,D.1-3
-play,6,0,krenw001,,,8/SF/DP.3-H;2X3(864)
-play,6,0,browt001,,,S
-play,6,0,redug001,,,64(1)/FO/G
-play,6,1,colev001,,,6
-play,6,1,mcgew001,,,63
-play,6,1,herrt001,,,D
-play,6,1,clarj001,,,S.2-H
-play,6,1,pendt001,,,43
-play,7,0,milne001,,,S
-play,7,0,rosep001,,,S.1-3
-play,7,0,parkd001,,,S.3-H;1-3
-play,7,0,knica001,,,NP
+play,6,0,oestr001,00,.X,D7/L7L.1-3
+play,6,0,krenw001,02,CSX,8/SF/DP/F89.3-H;2X3(864)
+com,"Oester wandered too far off second and Milner threw behind him"
+play,6,0,browt001,32,BBCCBX,S7/F5D
+play,6,0,redug001,22,BCC*BFX,6!4(1)/FO/G56D
+play,6,1,colev001,22,CSBFBX,6/FL/P5DF
+com,"drizzle begins"
+play,6,1,mcgew001,01,FX,63/G56
+play,6,1,herrt001,10,BX,D7/L5D
+play,6,1,clarj001,11,BCX,S8/G6.2-H
+play,6,1,pendt001,22,BFBSX,43/G34
+play,7,0,milne001,21,CBBX,S8/F8S
+play,7,0,rosep001,10,BX,S9/L89S.1-3
+play,7,0,parkd001,12,FBSX,S9/L34D.3-H;1-3
+play,7,0,knica001,00,,NP
 sub,allen001,"Neil Allen",1,9,1
-play,7,0,knica001,,,64(1)3/GDP.3-H
-play,7,0,concd001,,,63
-play,7,1,landt001,,,NP
+play,7,0,knica001,20,.BBX,64(1)3/GDP/G6.3-H
+play,7,0,concd001,22,KBCFBX,63/G6M
+play,7,1,landt001,00,,NP
 sub,braus001,"Steve Braun",1,6,11
-play,7,1,braus001,,,NP
+play,7,1,braus001,00,.,NP
 sub,humet001,"Tom Hume",0,9,1
-play,7,1,braus001,,,W
-play,7,1,smito001,,,46(1)3/GDP
-play,7,1,niett001,,,8
-play,8,0,oestr001,,,NP
+play,7,1,braus001,30,..BBBB,W
+play,7,1,smito001,12,BCCX,46(1)3/GDP/G4M
+play,7,1,niett001,11,SBX,8/F8D
+play,8,0,oestr001,00,,NP
 sub,braus001,"Steve Braun",1,6,9
-play,8,0,oestr001,,,43
-play,8,0,krenw001,,,9
-play,8,0,humet001,,,K+PB.B-1
-play,8,0,redug001,,,8
-play,8,1,allen001,,,NP
+play,8,0,oestr001,00,.X,43/G4
+play,8,0,krenw001,12,CBFX,9/F9D
+play,8,0,humet001,02,CFS,K+PB.B-1
+play,8,0,redug001,00,X,8/F8XD
+com,"drizzle turns to showers"
+play,8,1,allen001,00,,NP
 sub,jorgm001,"Mike Jorgensen",1,9,11
-play,8,1,jorgm001,,,13
-play,8,1,colev001,,,S
-play,8,1,mcgew001,,,SB2
-play,8,1,mcgew001,,,43.2-3
-play,8,1,herrt001,,,E4.3-H(NR)(UR);B-1
-play,8,1,clarj001,,,W.1-2
-play,8,1,pendt001,,,43
-play,9,0,milne001,,,NP
+play,8,1,jorgm001,21,.BBCX,13/G1
+play,8,1,colev001,12,CFFBF,S4/G34D
+com,"NBC timed Coleman to first as 3.2 seconds"
+play,8,1,mcgew001,00,C,SB2
+play,8,1,mcgew001,01,C.X,43/G4.2-3
+play,8,1,herrt001,21,BCBX,E4/G4M.3-H(NR)(UR);B-1
+play,8,1,clarj001,32,CBBFBFB,W.1-2
+play,8,1,pendt001,00,X,43/G34
+play,9,0,milne001,00,,NP
 sub,campb001,"Bill Campbell",1,4,1
-play,9,0,milne001,,,NP
+play,9,0,milne001,00,.,NP
 sub,portd001,"Darrell Porter",1,8,2
-play,9,0,milne001,,,NP
+play,9,0,milne001,00,..,NP
 sub,jorgm001,"Mike Jorgensen",1,9,3
-play,9,0,milne001,,,S
-play,9,0,rosep001,,,SB2
-play,9,0,rosep001,,,43.2-3
-play,9,0,parkd001,,,I
-play,9,0,knica001,,,HR.3-H;1-H
-play,9,0,concd001,,,53
-play,9,0,oestr001,,,43
-play,9,1,braus001,,,43
-play,9,1,smito001,,,43
-play,9,1,portd001,,,31
+play,9,0,milne001,22,...BSFBFX,S6/G56
+play,9,0,rosep001,10,1B1B,SB2
+play,9,0,rosep001,32,1B1B.SBFFX,3/G34.2-3
+play,9,0,parkd001,30,IIII,I
+play,9,0,knica001,22,1SBSBFFX,HR/F7D.3-H;1-H
+play,9,0,concd001,11,BSX,53/G5
+play,9,0,oestr001,10,BX,43/G4
+play,9,1,braus001,32,BCBBCX,43/G4M
+play,9,1,smito001,01,CX,43/G4
+play,9,1,portd001,00,X,31/G34
 data,er,browt001,2
 data,er,humet001,0
 data,er,kepsk001,3
@@ -7981,7 +7988,7 @@ play,7,0,orsuj001,,,NP
 sub,lezcs001,"Sixto Lezcano",0,1,11
 play,7,0,lezcs001,,,8
 play,7,0,wynnm001,,,E6.2-3;B-1
-play,7,0,ray-j001,,,99
+play,7,0,ray-j001,,,53
 play,7,1,hortr001,,,NP
 sub,lezcs001,"Sixto Lezcano",0,1,9
 play,7,1,hortr001,,,NP

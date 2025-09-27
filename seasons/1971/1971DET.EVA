@@ -6481,19 +6481,19 @@ info,hometeam,DET
 info,site,DET04
 info,date,1971/07/24
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:00PM
 info,daynight,day
 info,usedh,false
 info,umphome,malog901
 info,ump1b,soarh901
 info,ump2b,barnl901
 info,ump3b,anthm901
-info,scorer,"4,33"
-info,translator,"Comly"
-info,inputter,"Comly"
+info,scorer,"4,33,27"
+info,translator,"Comly + Wigley from 27"
+info,inputter,"Comly + Wigley from 27"
 info,inputtime,1997/09/28 11:20PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -6524,103 +6524,104 @@ start,freeb103,"Bill Freehan",1,6,2
 start,mcaud101,"Dick McAuliffe",1,7,4
 start,brine101,"Ed Brinkman",1,8,6
 start,cainl101,"Les Cain",1,9,1
-play,1,0,campb101,??,,4/L
-play,1,0,hendg001,??,,43
-play,1,0,jackr001,??,,HP
-play,1,0,davit103,??,,W.1-2
-play,1,0,bands101,??,,HR/7.2-H;1-H
-play,1,0,epstm101,??,,8
-play,1,1,rodra101,??,,9
-play,1,1,nortj101,??,,63
-play,1,1,browg101,??,,9
-play,2,0,tenag101,??,,S7
-play,2,0,greed102,??,,W.1-2
-play,2,0,odomj101,??,,K
-play,2,0,campb101,??,,W.2-3;1-2
-play,2,0,hendg001,??,,S7.3-H;2-H;1-2
-play,2,0,jackr001,??,,6/P
-play,2,0,davit103,??,,NP
+play,1,0,campb101,21,BCBX,4/L34
+play,1,0,hendg001,01,CX,43/G4M
+play,1,0,jackr001,32,BCBFBH,HP
+play,1,0,davit103,31,BBBCB,W.1-2
+play,1,0,bands101,10,BX,HR/F7D.2-H;1-H
+play,1,0,epstm101,00,X,8/F78D
+play,1,1,rodra101,01,CX,9/F9
+play,1,1,nortj101,10,BX,63/G6
+play,1,1,browg101,10,BX,9
+play,2,0,tenag101,00,X,S7/L7S
+play,2,0,greed102,31,BCBBB,W.1-2
+play,2,0,odomj101,12,CBFS,K
+play,2,0,campb101,32,BBBCFB,W.2-3;1-2
+play,2,0,hendg001,21,BFBX,S7/G5.3-H;2-H;1-2
+play,2,0,jackr001,22,SBSBX,6/P
+play,2,0,davit103,00,,NP
 sub,chand102,"Dean Chance",1,9,1
-play,2,0,davit103,??,,54(1)/FO
-play,2,1,hortw101,??,,8
-play,2,1,cashn101,??,,S8
-play,2,1,freeb103,??,,54(1)/FO
-play,2,1,mcaud101,??,,S9.1-3
-play,2,1,brine101,??,,7
-play,3,0,bands101,??,,63
-play,3,0,epstm101,??,,43
-play,3,0,tenag101,??,,5/L
-play,3,1,chand102,??,,NP
+play,2,0,davit103,22,.BCBFX,54(1)/FO/G5
+play,2,1,hortw101,11,CBX,8
+play,2,1,cashn101,10,BX,S8/L8S
+play,2,1,freeb103,21,CBBX,54(1)/FO/G5
+play,2,1,mcaud101,32,CBFBBX,S9/G3.1-3
+play,2,1,brine101,22,BBFCX,7
+play,3,0,bands101,21,BBFX,63/G56
+play,3,0,epstm101,01,FX,43
+play,3,0,tenag101,00,X,5/L
+play,3,1,chand102,00,,NP
 sub,browi101,"Ike Brown",1,9,11
-play,3,1,browi101,??,,W
-play,3,1,rodra101,??,,K
-play,3,1,nortj101,??,,4(1)3/GDP
-play,4,0,greed102,??,,NP
+play,3,1,browi101,32,.BCBSBB,W
+play,3,1,rodra101,22,BSFBS,K
+play,3,1,nortj101,11,CBX,4(1)3/GDP/G4M
+play,4,0,greed102,00,,NP
 sub,niekj001,"Joe Niekro",1,9,1
-play,4,0,greed102,??,,63
-play,4,0,odomj101,??,,63
-play,4,0,campb101,??,,8/L
-play,4,1,browg101,??,,43
-play,4,1,hortw101,??,,S8
-play,4,1,cashn101,??,,S9.1-2
-play,4,1,freeb103,??,,S7.2-H;1-3
-play,4,1,mcaud101,??,,36(1)3/GDP
-play,5,0,hendg001,??,,D7
-play,5,0,jackr001,??,,S7.2-H
-play,5,0,davit103,??,,8
-play,5,0,bands101,??,,7
-play,5,0,epstm101,??,,W.1-2
-play,5,0,tenag101,??,,S7.2-H;1-2
-play,5,0,greed102,??,,9
-play,5,1,brine101,??,,W
-play,5,1,niekj001,??,,NP
+play,4,0,greed102,01,.CX,63
+play,4,0,odomj101,00,X,63
+play,4,0,campb101,00,X,8/L
+play,4,1,browg101,11,BFX,43
+play,4,1,hortw101,31,BSBBX,S8/L8S
+play,4,1,cashn101,00,X,S9/G34.1-2
+play,4,1,freeb103,20,BBX,S7/L56D.2-H;1-3
+play,4,1,mcaud101,10,BX,36(1)3/GDP/G3
+play,5,0,hendg001,32,FSBBBX,D7/L9LS
+play,5,0,jackr001,02,FFX,S7/G6.2-H
+play,5,0,davit103,01,CX,8
+play,5,0,bands101,20,BBX,7
+play,5,0,epstm101,31,BBBCB,W.1-2
+play,5,0,tenag101,01,CX,S7/G5.2-H;1-2
+play,5,0,greed102,21,BBCX,9
+play,5,1,brine101,31,BFBBB,W
+play,5,1,niekj001,00,,NP
 sub,collk101,"Kevin Collins",1,9,11
-play,5,1,collk101,??,,16(1)3/GDP
-play,5,1,rodra101,??,,K
-play,6,0,odomj101,??,,NP
+play,5,1,collk101,00,.X,16(1)3/GDP
+play,5,1,rodra101,32,BBCBSS,K
+play,6,0,odomj101,00,,NP
 sub,timmt101,"Tom Timmermann",1,9,1
-play,6,0,odomj101,??,,S8
-play,6,0,campb101,??,,14(1)/FO
-play,6,0,hendg001,??,,7
-play,6,0,jackr001,??,,K
-play,6,1,nortj101,??,,63
-play,6,1,browg101,??,,S9
-play,6,1,hortw101,??,,4(B)3(1)/LDP
-play,7,0,davit103,??,,S7
-play,7,0,bands101,??,,6/L
-play,7,0,epstm101,??,,36(1)3/GDP
-play,7,1,cashn101,??,,NP
+play,6,0,odomj101,00,.X,S68/G6M
+play,6,0,campb101,11,BCX,16(1)/FO
+play,6,0,hendg001,32,BFBFBX,7
+play,6,0,jackr001,02,FFS,K
+play,6,1,nortj101,32,BBFFBX,63
+play,6,1,browg101,21,BSBX,S9/L34D
+play,6,1,hortw101,00,X,4(B)3(1)/LDP
+play,7,0,davit103,02,SFX,S7/L5D
+play,7,0,bands101,02,FFFX,6/L56
+play,7,0,epstm101,01,CX,36(1)3/GDP/G3
+play,7,1,cashn101,00,,NP
 sub,mondr001,"Rick Monday",0,4,8
-play,7,1,cashn101,??,,NP
+play,7,1,cashn101,00,.,NP
 sub,hegam101,"Mike Hegan",0,6,3
-play,7,1,cashn101,??,,NP
+play,7,1,cashn101,00,..,NP
 sub,hendg001,"George Hendrick",0,2,7
-play,7,1,cashn101,??,,2/FL
-play,7,1,freeb103,??,,K/C
-play,7,1,mcaud101,??,,31
-play,8,0,tenag101,??,,4/P
-play,8,0,greed102,??,,43
-play,8,0,odomj101,??,,K
-play,8,1,brine101,??,,NP
+play,7,1,cashn101,01,...FX,2/FL
+play,7,1,freeb103,32,BBCSBC,K/C
+play,7,1,mcaud101,12,FFFFBX,31/G34
+play,8,0,tenag101,10,BX,4/P4
+play,8,0,greed102,12,BFSX,43
+play,8,0,odomj101,32,BBSBFS,K
+play,8,1,brine101,00,,NP
 sub,larut101,"Tony LaRussa",0,8,4
-play,8,1,brine101,??,,7
-play,8,1,timmt101,??,,NP
+play,8,1,brine101,10,.BX,7
+play,8,1,timmt101,00,,NP
 sub,joned102,"Dalton Jones",1,9,11
-play,8,1,joned102,??,,7
-play,8,1,rodra101,??,,7
-play,9,0,campb101,??,,NP
+play,8,1,joned102,11,.FBX,7/F78
+play,8,1,rodra101,12,BFFFX,7
+play,9,0,campb101,00,,NP
 sub,kilkm101,"Mike Kilkenny",1,9,1
-play,9,0,campb101,??,,K
-play,9,0,hendg001,??,,53
-play,9,0,jackr001,??,,K
-play,9,1,nortj101,??,,S8
-play,9,1,browg101,??,,S9.1-2
-play,9,1,hortw101,??,,K
-play,9,1,cashn101,??,,W.2-3;1-2
-play,9,1,freeb103,??,,NP
+play,9,0,campb101,32,.BFBFBS,K
+play,9,0,hendg001,00,X,53
+play,9,0,jackr001,22,CFBBS,K
+play,9,1,nortj101,01,SX,S8/L8S
+play,9,1,browg101,00,X,S9/G34.1-2
+play,9,1,hortw101,22,BFFBFS,K
+play,9,1,cashn101,30,BBBB,W.2-3;1-2
+play,9,1,freeb103,00,,NP
 sub,fingr001,"Rollie Fingers",0,9,1
-play,9,1,freeb103,??,,3/FL/SF.3-H
-play,9,1,mcaud101,??,,31
+play,9,1,freeb103,00,.X,3/FL/SF/P23F.3-H
+com,"Fingers failed to cover the plate to prevent the run"
+play,9,1,mcaud101,31,BBBCX,31
 data,er,odomj101,2
 data,er,fingr001,0
 data,er,cainl101,5

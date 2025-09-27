@@ -3090,7 +3090,7 @@ play,12,0,wilsc102,??,,CS2(26)
 play,12,1,omaro101,??,,99
 play,12,1,daubj101,??,,99
 play,12,1,daltj101,??,,S8
-play,12,1,hummj101,??,,CS2(99)
+play,12,1,hummj101,??,,CS2(26)
 play,13,0,wilsc102,??,,9
 play,13,0,whitp102,??,,9
 play,13,0,snydf101,??,,E5/G
@@ -3100,8 +3100,8 @@ play,13,1,smitr108,??,,64(1)/FO
 play,13,1,riggj101,??,,9/L
 play,13,1,egand102,??,,3/FL
 play,14,0,millc101,??,,K
-play,14,0,salls101,??,,99
-play,14,0,magel101,??,,99
+play,14,0,salls101,??,,43
+play,14,0,magel101,??,,43
 play,14,1,mccal102,??,,99
 play,14,1,pfefj101,??,,99
 play,14,1,omaro101,??,,W
@@ -3124,11 +3124,11 @@ play,16,0,cruiw101,??,,PB.3-H(UR)
 play,16,0,cruiw101,??,,7
 play,16,1,mccal102,??,,NP
 sub,cruiw101,"Walton Cruise",0,9,8
-play,16,1,mccal102,??,,99
+play,16,1,mccal102,??,,13
 play,16,1,pfefj101,??,,NP
 sub,millo103,"Otto Miller",1,9,11
 play,16,1,millo103,??,,K
-play,16,1,omaro101,??,,99
+play,16,1,omaro101,??,,8/F
 data,er,robih102,1
 data,er,steeb102,0
 data,er,salls101,0
@@ -4987,10 +4987,19 @@ sub,daltj101,"Jack Dalton",1,9,11
 play,7,1,daltj101,??,,S.1-2
 play,7,1,omaro101,??,,65(2)/FO.1-2
 play,7,1,daubj101,??,,8/LDP.2X2(86)
-play,8,0,morah101,??,,NP
-sub,fiscw101,"William Fischer",1,8,2
-com,"$Game called for rain (Brooklyn was batting"
-com,"in 8th; score reverted to end of 7th)"
+com,"play,8,0,morah101,??,,NP"
+com,"sub,fiscw101,'William Fischer',1,8,2"
+com,"play,8,0,morah101,??,,NP"
+com,"sub,ruele101,'Ed Ruelbach',1,9,1"
+com,"play,8,0,mollf101,??,,S"
+com,"play,8,0,clart101,??,,99"
+com,"play,8,0,amesr101,??,,99"
+com,"play,8,0,danib101,??,,99"
+com,"play,8,1,hummj101,??,,K"
+com,"play,8,1,wheaz101,??,,NP"
+com,"$Game called due to rain with Wheat batting"
+com,"with one out in the bottom of the 8th;"
+com,"score reverted to end of 7th."
 data,er,bentr102,3
 data,er,amesr101,0
 data,er,browe101,1
@@ -5008,9 +5017,9 @@ info,number,0
 info,starttime,0:00PM
 info,daynight,day
 info,usedh,false
-info,scorer,"98,80,591,589,240"
-info,translator,"Jim Herdman/Smith"
-info,inputter,"Jim Herdman/Smith"
+info,scorer,"98,80,591,589,240,141"
+info,translator,"Jim Herdman/Smith/Bill Way"
+info,inputter,"Jim Herdman/Smith/RWood"
 info,inputtime,2013/10/07 9:32AM
 info,umphome,hartb106
 info,ump1b,riglc901
@@ -5205,18 +5214,18 @@ play,16,0,dougp101,??,,NP
 sub,vonkf101,"Fritz Von Kolnitz",0,9,11
 play,16,0,vonkf101,??,,E5/THH.3-H(NR);2-3;1-2
 play,16,0,danib101,??,,S9.3-H;2-H(UR);1-2
-play,16,0,herzb101,??,,S.2-3;1X3(99)
-play,16,0,twomg101,??,,FC/SH.3-H(UR);1-2;B-1
+play,16,0,herzb101,??,,S6.2-3;1-2
+play,16,0,twomg101,??,,7/SF.3-H(UR);2-3
 play,16,0,niehb101,??,,K
 play,16,1,daubj101,??,,NP
 sub,amesr101,"Red Ames",0,9,1
-play,16,1,daubj101,??,,S
+play,16,1,daubj101,??,,S8
 play,16,1,hummj101,??,,SB2
-play,16,1,hummj101,??,,99
-play,16,1,wheaz101,??,,S.2-H
+play,16,1,hummj101,??,,6/P
+play,16,1,wheaz101,??,,S8.2-H
 play,16,1,cutsg101,??,,99(1)/FO
 play,16,1,egand102,??,,SB2
-play,16,1,egand102,??,,99
+play,16,1,egand102,??,,8
 data,er,yinge101,3
 data,er,dougp101,0
 data,er,amesr101,1
@@ -6826,6 +6835,9 @@ start,myerh102,"Hi Myers",1,6,7
 start,egand102,"Dick Egan",1,7,5
 start,millo103,"Otto Miller",1,8,2
 start,ragap101,"Pat Ragan",1,9,1
+com,"ej,pearg101,P,easom101,Bench jockeying"
+com,"$Cubs George Pierce, not in game, ejected by HP umpire"
+com,"Eason for bench jockeying at some time during the game"
 play,1,0,leact101,??,,W
 play,1,0,goodw101,??,,S9/G.1-3
 com,"Hit and run"
