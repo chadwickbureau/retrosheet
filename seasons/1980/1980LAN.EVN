@@ -3600,15 +3600,15 @@ info,umphome,brocf901
 info,ump1b,harvd901
 info,ump2b,olsea901
 info,ump3b,colon901
-info,scorer,"LAN, CIN"
-info,translator,"Clem Comly"
-info,inputter,"David W. Smith"
+info,scorer,"LAN, CIN, 27"
+info,translator,"Clem Comly + Wigley from 27"
+info,inputter,"David W. Smith + Wigley from 27"
 info,inputtime,1996/07/01 2:45PM
 info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,pitches,pitches
+info,temp,66
+info,winddir,tocf
+info,windspeed,9
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -3636,95 +3636,96 @@ start,cey-r001,"Ron Cey",1,6,5
 start,russb001,"Bill Russell",1,7,6
 start,sciom001,"Mike Scioscia",1,8,2
 start,suttd001,"Don Sutton",1,9,1
-play,1,0,colld001,??,,6/P
-play,1,0,concd001,??,,8
-play,1,0,grifk001,??,,6/FL
-play,1,1,loped001,??,,S8
-play,1,1,law-r001,??,,SB2
-play,1,1,law-r001,??,,7
-play,1,1,smitr101,??,,K
-play,1,1,garvs001,??,,63
-play,2,0,fostg001,??,,K/C
-play,2,0,dried001,??,,W
-play,2,0,knigr001,??,,2/FL
-play,2,0,bencj101,??,,54(1)/FO
-play,2,1,baked002,??,,S8
-play,2,1,cey-r001,??,,S7.1-2
-play,2,1,russb001,??,,64(1)/FO.2-3
-play,2,1,sciom001,??,,6/P
-play,2,1,suttd001,??,,4/L
-play,3,0,oestr001,??,,D8
-play,3,0,lacom001,??,,63
-play,3,0,colld001,??,,5/FL
-play,3,0,concd001,??,,S8.2-H
-play,3,0,grifk001,??,,S8.1-2
-play,3,0,fostg001,??,,8
-play,3,1,loped001,??,,6/P
-play,3,1,law-r001,??,,3/G
-play,3,1,smitr101,??,,S7
-play,3,1,garvs001,??,,S9.1-3
-play,3,1,baked002,??,,5/L
-play,4,0,dried001,??,,13
-play,4,0,knigr001,??,,S8
-play,4,0,bencj101,??,,4(1)3/GDP
-play,4,1,cey-r001,??,,9
-play,4,1,russb001,??,,S5
-play,4,1,sciom001,??,,46(1)3/GDP
-play,5,0,oestr001,??,,S9
-play,5,0,lacom001,??,,K
+play,1,0,colld001,00,X,6/P
+play,1,0,concd001,32,,8
+play,1,0,grifk001,20,BBX,6/FL/P5DF
+play,1,1,loped001,22,CSBBX,S8/G
+play,1,1,law-r001,10,BX,7
+play,1,1,smitr101,20,BBB,SB2
+play,1,1,smitr101,32,BBB.SSFS,K
+play,1,1,garvs001,20,BBX,63
+play,2,0,fostg001,32,FBFBFBC,K/C
+play,2,0,dried001,31,BBBCB,W
+play,2,0,knigr001,00,X,2/FL/P2F
+play,2,0,bencj101,01,FX,54(1)/FO
+play,2,1,baked002,10,BX,S8/L
+play,2,1,cey-r001,10,BX,S7/G.1-2
+play,2,1,russb001,12,CFBFFFX,64(1)/FO.2-3
+play,2,1,sciom001,21,BFBX,6/P56
+play,2,1,suttd001,00,X,4/L
+play,3,0,oestr001,00,X,D8/F
+play,3,0,lacom001,00,X,63
+play,3,0,colld001,20,BBX,5/FL/P5F
+play,3,0,concd001,22,BBCCFX,S8/G.2-H
+play,3,0,grifk001,01,FX,S8/L.1-2
+play,3,0,fostg001,00,X,8
+play,3,1,loped001,22,BBFFX,6/P
+play,3,1,law-r001,31,BBFBX,3/G
+play,3,1,smitr101,02,CSX,S7/L
+play,3,1,garvs001,10,BX,S9/L.1-3
+play,3,1,baked002,32,BBCBCX,5/L
+play,4,0,dried001,10,BX,13
+play,4,0,knigr001,00,X,S8/L
+play,4,0,bencj101,00,X,4(1)3/GDP/G4M
+play,4,1,cey-r001,00,X,9
+play,4,1,russb001,01,CX,S5/G5
+play,4,1,sciom001,20,BBX,46(1)3/GDP/G4
+play,5,0,oestr001,00,X,S9/L
+play,5,0,lacom001,22,FBFBC,K/C
 play,5,0,colld001,??,,8/L
 play,5,0,concd001,??,,9
-play,5,1,suttd001,??,,8/L
+play,5,1,suttd001,00,X,8/L
 play,5,1,loped001,??,,53
 play,5,1,law-r001,??,,9
 play,6,0,grifk001,??,,4/L
 play,6,0,fostg001,??,,4/P
 play,6,0,dried001,??,,43
-play,6,1,smitr101,??,,3/G
-play,6,1,garvs001,??,,S7
-play,6,1,baked002,??,,13.1-2
+play,6,1,smitr101,32,BCBBFX,3/G
+play,6,1,garvs001,11,FBX,S7/L
+play,6,1,baked002,11,BFX,13.1-2
 play,6,1,cey-r001,??,,53
-play,7,0,knigr001,??,,9
-play,7,0,bencj101,??,,W
-play,7,0,oestr001,??,,K
-play,7,0,lacom001,??,,K
-play,7,1,russb001,??,,W
-play,7,1,sciom001,??,,34/SH.1-2
-play,7,1,suttd001,??,,NP
+play,7,0,knigr001,22,,9
+play,7,0,bencj101,30,BBBB,W
+play,7,0,oestr001,12,BCSS,K
+play,7,0,lacom001,22,BFBKS,K
+play,7,1,russb001,30,BBBB,W
+play,7,1,sciom001,01,LX,34/SH.1-2
+play,7,1,suttd001,00,,NP
 sub,johnj002,"Jay Johnstone",1,9,11
-play,7,1,johnj002,??,,4/P
+play,7,1,johnj002,11,.CBX,4/P
 play,7,1,loped001,??,,HR/7.2-H
-play,7,1,law-r001,??,,S7
+play,7,1,law-r001,??,,S7/G
 play,7,1,smitr101,??,,SB2
 play,7,1,smitr101,??,,K
-play,8,0,colld001,??,,NP
+play,8,0,colld001,00,,NP
 sub,sutcr001,"Rick Sutcliffe",1,9,1
 play,8,0,colld001,??,,43
-play,8,0,concd001,??,,W
-play,8,0,grifk001,??,,63.1-2
-play,8,0,fostg001,??,,S9.2-H
-play,8,0,dried001,??,,8
-play,8,1,garvs001,??,,NP
+play,8,0,concd001,32,BBBCCB,W
+play,8,0,grifk001,21,BBSX,63.1-2
+play,8,0,fostg001,21,BFBX,S9/L.2-H
+play,8,0,dried001,12,FBFX,8/F78XDW
+play,8,1,garvs001,00,,NP
 sub,geroc101,"Cesar Geronimo",0,1,8
-play,8,1,garvs001,??,,K
-play,8,1,baked002,??,,63
-play,8,1,cey-r001,??,,K
-play,9,0,knigr001,??,,8/L
-play,9,0,bencj101,??,,S7
-play,9,0,oestr001,??,,NP
+play,8,1,garvs001,22,.BFFBS,K
+play,8,1,baked002,00,X,63
+play,8,1,cey-r001,22,FBBFS,K
+play,9,0,knigr001,00,X,8/L
+play,9,0,bencj101,10,BX,S7/G
+play,9,0,oestr001,00,,NP
 sub,wernd101,"Don Werner",0,7,12
-play,9,0,oestr001,??,,8
-play,9,0,lacom001,??,,NP
+com,"$Bench strained his left calf muscle"
+play,9,0,oestr001,22,.FFBBX,8
+play,9,0,lacom001,00,,NP
 sub,spilh001,"Harry Spilman",0,9,11
-play,9,0,spilh001,??,,K/C
-play,9,1,russb001,??,,NP
+play,9,0,spilh001,22,.CBFFBC,K/C
+play,9,1,russb001,00,,NP
 sub,wernd101,"Don Werner",0,7,2
-play,9,1,russb001,??,,NP
+play,9,1,russb001,00,.,NP
 sub,baird001,"Doug Bair",0,9,1
-play,9,1,russb001,??,,K
-play,9,1,sciom001,??,,NP
+play,9,1,russb001,12,..CBFS,K
+play,9,1,sciom001,00,,NP
 sub,mondr001,"Rick Monday",1,8,11
-play,9,1,mondr001,??,,HR/9
+play,9,1,mondr001,01,.CX,HR/F9D
 data,er,lacom001,2
 data,er,baird001,1
 data,er,suttd001,1

@@ -158,17 +158,17 @@ info,umphome,mccol901
 info,ump1b,brinj901
 info,ump2b,bremn901
 info,ump3b,chyln901
-info,scorer,"NYA DET"
+info,scorer,"NYA DET audio"
 info,translator,"M Williamson"
-info,inputter,"M Williamson"
+info,inputter,"M Williamson + Farrell from audio"
 info,inputtime,1998/04/19 8:55PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,47
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,drizzle
+info,winddir,tocf
+info,windspeed,7
+info,fieldcond,dry
+info,precip,none
 info,sky,cloudy
 info,timeofgame,114
 info,attendance,6640
@@ -196,81 +196,79 @@ start,stanm101,"Mickey Stanley",1,7,8
 start,freeb103,"Bill Freehan",1,8,2
 start,suthg101,"Gary Sutherland",1,9,4
 start,colej102,"Joe Coleman",1,0,1
-play,1,0,whitr101,??,,HP
-com,"$Roy White hit in lower back"
-play,1,0,hegam101,??,,36(1)3/GDP
-play,1,0,munst101,??,,3/G
-play,1,1,brine101,??,,8
-play,1,1,rodra101,??,,9
-play,1,1,nortj101,??,,63
-play,2,0,murcb101,??,,41
-play,2,0,blomr101,??,,W
-play,2,0,nettg001,??,,4/P9S
-play,2,0,sudab101,??,,K
-play,2,1,kalia101,??,,S7/G
-play,2,1,hortw101,??,,64(1)/FO
-play,2,1,cashn101,??,,S8.1-3
-play,2,1,stanm101,??,,54(1)3/GDP
-play,3,0,michg101,??,,3/G
-play,3,0,masoj101,??,,63
-play,3,0,whitr101,??,,13
-play,3,1,freeb103,??,,31
-play,3,1,suthg101,??,,D9/89
-play,3,1,brine101,??,,7
-play,3,1,rodra101,??,,S8.2-H;BX2(824)
-play,4,0,hegam101,??,,K/C
-play,4,0,munst101,??,,8
-play,4,0,murcb101,??,,13
-play,4,1,nortj101,??,,8
-play,4,1,kalia101,??,,53
-play,4,1,hortw101,??,,D9/89.BX3(945)
-play,5,0,blomr101,??,,5/P
-play,5,0,nettg001,??,,43
-play,5,0,sudab101,??,,K
-play,5,1,cashn101,??,,D9
-play,5,1,stanm101,??,,S9.2-3
-play,5,1,freeb103,??,,54(1)/FO/DP.3XH(42);B-1
-play,5,1,suthg101,??,,8
-play,6,0,michg101,??,,3/G
-play,6,0,masoj101,??,,7
-play,6,0,whitr101,??,,HP
-com,"Roy White hit in lower back"
-play,6,0,hegam101,??,,SB2
-play,6,0,hegam101,??,,K
-play,6,1,brine101,??,,53
-play,6,1,rodra101,??,,53
-play,6,1,nortj101,??,,31
-play,7,0,munst101,??,,53
-play,7,0,murcb101,??,,W
-play,7,0,blomr101,??,,7
-play,7,0,nettg001,??,,13
-play,7,1,kalia101,??,,S8
-play,7,1,hortw101,??,,8/78
-play,7,1,cashn101,??,,8/8D
-play,7,1,stanm101,??,,HR/7.1-H
-play,7,1,freeb103,??,,W
-play,7,1,suthg101,??,,S8.1-3
-play,7,1,brine101,??,,NP
+play,1,0,whitr101,02,CLH,HP
+play,1,0,hegam101,02,F1CX,36(1)3/G3/GDP
+play,1,0,munst101,11,BFX,3/G3/G
+play,1,1,brine101,31,BBBCX,8/F8D
+play,1,1,rodra101,01,CX,9/F9
+play,1,1,nortj101,20,BBX,63/G6
+play,2,0,murcb101,12,CBFX,41/G4
+play,2,0,blomr101,31,BBCBB,W
+play,2,0,nettg001,11,CB1X,4/P3DF/FL
+play,2,0,sudab101,12,B1>F1SS,K
+play,2,1,kalia101,20,BBX,S7/G56
+play,2,1,hortw101,11,CBX,64(1)/G6/FO
+play,2,1,cashn101,12,BCFX,S8/G4.1-3
+play,2,1,stanm101,01,CX,54(1)3/G5/GDP
+play,3,0,michg101,10,BX,3/G3
+play,3,0,masoj101,21,BCBX,63/G6M
+play,3,0,whitr101,20,BBX,13/G1
+play,3,1,freeb103,10,BX,31/G34S
+play,3,1,suthg101,10,BX,D9/L9L
+play,3,1,brine101,31,BBBCX,7/L7
+play,3,1,rodra101,10,BX,S8/L8.2-H;BX2(824)
+play,4,0,hegam101,12,CBSC,K/C
+play,4,0,munst101,10,BX,8/F8
+play,4,0,murcb101,12,CCBX,13/G2
+play,4,1,nortj101,22,SBBFX,8/F89
+play,4,1,kalia101,00,X,53/G5
+play,4,1,hortw101,11,BCX,D9/F89D.BX3(945)
+play,5,0,blomr101,00,X,5/P5
+play,5,0,nettg001,01,CX,43/G4
+play,5,0,sudab101,22,CBSFBS,K
+play,5,1,cashn101,11,BFX,D9/L3D
+play,5,1,stanm101,21,CBBX,S9/L9.2-3
+play,5,1,freeb103,00,X,54(1)/G5/FO/DP.3XH(42);B-1
+play,5,1,suthg101,00,X,8/F8
+play,6,0,michg101,00,X,3/G3
+play,6,0,masoj101,31,BBBCX,7/F7
+play,6,0,whitr101,12,BCFFH,HP
+play,6,0,hegam101,02,S11S>P,SB2
+play,6,0,hegam101,12,S11S>P.S,K
+play,6,1,brine101,21,FBBX,53/G5
+play,6,1,rodra101,00,X,53/G5
+play,6,1,nortj101,00,X,31/G3
+play,7,0,munst101,00,X,53/G5
+play,7,0,murcb101,30,BBBB,W
+play,7,0,blomr101,01,F1X,7/F7
+play,7,0,nettg001,10,111B1>X,13/G1
+play,7,1,kalia101,31,BBBCX,S8/L8
+play,7,1,hortw101,11,1BSX,8/F78
+play,7,1,cashn101,02,CFX,8/F78D
+play,7,1,stanm101,01,FX,HR/F7D.1-H
+play,7,1,freeb103,31,BBFBB,W
+play,7,1,suthg101,11,B1FX,S8/F89.1-3
+play,7,1,brine101,00,,NP
 sub,buskt101,"Tom Buskey",0,0,1
-play,7,1,brine101,??,,S9.3-H;1-2
-play,7,1,rodra101,??,,9
-play,8,0,sudab101,??,,8
-play,8,0,michg101,??,,S8/G
-play,8,0,masoj101,??,,NP
+play,7,1,brine101,00,.X,S9/L9S.3-H;1-2
+play,7,1,rodra101,31,BFBBX,9/F9S
+play,8,0,sudab101,10,BX,8/F9
+play,8,0,michg101,32,CBTBBX,S8/G4M
+play,8,0,masoj101,00,,NP
 sub,clarh101,"Horace Clarke",0,9,11
-play,8,0,clarh101,??,,16(1)3/GDP
-play,8,1,nortj101,??,,NP
+play,8,0,clarh101,21,.BCBX,16(1)3/G1/GDP
+play,8,1,nortj101,00,,NP
 sub,michg101,"Gene Michael",0,8,6
-play,8,1,nortj101,??,,NP
+play,8,1,nortj101,00,.,NP
 sub,clarh101,"Horace Clarke",0,9,4
-play,8,1,nortj101,??,,6/P7S
-play,8,1,kalia101,??,,3/P9S
-play,8,1,hortw101,??,,S7
-play,8,1,cashn101,??,,7
-play,9,0,whitr101,??,,HR/9D
-play,9,0,hegam101,??,,K
-play,9,0,munst101,??,,13
-play,9,0,murcb101,??,,43
+play,8,1,nortj101,32,..BCFBBFX,6/F7S
+play,8,1,kalia101,11,CBX,3/P9S
+play,8,1,hortw101,01,CX,S7/L7
+play,8,1,cashn101,01,CX,7/F7
+play,9,0,whitr101,10,BX,HR/F9D
+play,9,0,hegam101,22,BCSBS,K
+play,9,0,munst101,02,CFX,13/G1
+play,9,0,murcb101,02,CFX,43/G4
 data,er,stotm101,4
 data,er,buskt101,0
 data,er,colej102,1

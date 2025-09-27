@@ -3344,23 +3344,23 @@ info,hometeam,LAN
 info,site,LOS03
 info,date,1985/06/03
 info,number,0
-info,starttime,0:00PM
-info,daynight,day
+info,starttime,5:11PM
+info,daynight,night
 info,usedh,false
 info,umphome,kiblj901
 info,ump1b,steld901
 info,ump2b,demud901
 info,ump3b,froeb901
-info,scorer,"Nester"
-info,inputter,"Dewan"
-info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,scorer,"Nester + Wigley from ABC MNB video"
+info,inputter,"Dewan + Wigley from ABC MNB video"
+info,howscored,tv
+info,pitches,pitches
+info,temp,62
+info,winddir,ltor
+info,windspeed,9
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,234
 info,attendance,36935
 info,wp,howes001
@@ -3385,155 +3385,157 @@ start,sciom001,"Mike Scioscia",1,6,2
 start,bailb001,"Bob Bailor",1,7,5
 start,anded001,"Dave Anderson",1,8,6
 start,herso001,"Orel Hershiser",1,9,1
-play,1,0,wilsm001,,,K
-play,1,0,backw001,,,K
-play,1,0,hernk001,,,13
-play,1,1,sax-s001,,,3/G
-play,1,1,landk001,,,53
-play,1,1,reynr001,,,D
-play,1,1,guerp001,,,S.2-H
-play,1,1,brocg001,,,K
-play,2,0,cartg001,,,S
-play,2,0,fostg001,,,4
-play,2,0,heepd001,,,46(1)3/GDP
-play,2,1,sciom001,,,5
-play,2,1,bailb001,,,43
-play,2,1,anded001,,,W
-play,2,1,herso001,,,D.1-H
-play,2,1,sax-s001,,,W
-play,2,1,landk001,,,8
-play,3,0,johnh001,,,S
-play,3,0,santr001,,,64(1)3/GDP
-play,3,0,lynce001,,,63
-play,3,1,reynr001,,,63
-play,3,1,guerp001,,,D
-play,3,1,brocg001,,,9
-play,3,1,sciom001,,,63
-play,4,0,wilsm001,,,W
-play,4,0,backw001,,,43.1-2
-play,4,0,hernk001,,,W
-play,4,0,cartg001,,,64(1)/FO/G.2-3;B-1
-play,4,0,fostg001,,,3/G
-play,4,1,bailb001,,,S
-play,4,1,anded001,,,9
-play,4,1,herso001,,,2/SH.1-2
-play,4,1,sax-s001,,,3/L
-play,5,0,heepd001,,,43
-play,5,0,johnh001,,,9
-play,5,0,santr001,,,53
-play,5,1,landk001,,,S
-play,5,1,reynr001,,,13/SH.1-2
-play,5,1,guerp001,,,53
-play,5,1,brocg001,,,9
-play,6,0,lynce001,,,NP
+play,1,0,wilsm001,02,CSS,K213
+com,"ball off Scioscia to Hershiser to Brock for K"
+play,1,0,backw001,32,CBFBBS,K
+play,1,0,hernk001,21,CBBX,13/G4S
+play,1,1,sax-s001,01,CX,3/G3
+play,1,1,landk001,12,FFFBFX,53/G5S
+play,1,1,reynr001,00,X,D8/F78D
+play,1,1,guerp001,22,CBFBX,S7/F78S.2-H
+play,1,1,brocg001,32,BBCBSFFFFS,K
+play,2,0,cartg001,00,X,S7/G56
+play,2,0,fostg001,31,BB1B>FX,4/F4D
+play,2,0,heepd001,10,1BX,46(1)3/GDP/G34
+play,2,1,sciom001,00,X,5/P56S
+play,2,1,bailb001,10,BX,43/G4M
+play,2,1,anded001,31,BBBCB,W
+play,2,1,herso001,11,LBX,D7/F7D.1-H
+play,2,1,sax-s001,32,LBBBCB,W
+play,2,1,landk001,10,BX,8/F8D
+play,3,0,johnh001,10,BX,S8/L4MD
+play,3,0,santr001,12,1B1C1FX,64(1)3/GDP/G6
+play,3,0,lynce001,00,X,63/G6M
+play,3,1,reynr001,02,SFFX,63/G6
+play,3,1,guerp001,11,BFX,D9/F89D
+play,3,1,brocg001,00,X,9/F89
+play,3,1,sciom001,21,CBBX,63/G4M
+play,4,0,wilsm001,32,BCSFBBB,W
+play,4,0,backw001,32,C1B1B1>F>F1B>X,43/G4M.1-2
+play,4,0,hernk001,31,BBBCB,W
+play,4,0,cartg001,00,X,64(1)/FO/G56.2-3;B-1
+play,4,0,fostg001,10,BX,3/G3
+play,4,1,bailb001,10,BX,S7/G56
+play,4,1,anded001,11,B1C1X,9/F89D
+play,4,1,herso001,11,BCX,2/SH/BG2.1-2
+play,4,1,sax-s001,11,BCX,3/L34
+play,5,0,heepd001,10,BX,41/G34
+play,5,0,johnh001,00,X,9/F9
+play,5,0,santr001,11,BSX,53/G56
+play,5,1,landk001,01,CX,S9/F89S
+play,5,1,reynr001,11,B>FX,13/SH/BG25.1-2
+play,5,1,guerp001,10,BX,53/G5
+play,5,1,brocg001,10,BX,9/F9LD
+play,6,0,lynce001,00,,NP
 sub,bloct001,"Terry Blocker",0,9,11
-play,6,0,bloct001,,,13
-play,6,0,wilsm001,,,S
-play,6,0,backw001,,,S.1-2
-play,6,0,hernk001,,,D.2-H;1-H
-play,6,0,cartg001,,,S.2-3
-play,6,0,fostg001,,,64(1)3/GDP
-play,6,1,sciom001,,,NP
+play,6,0,bloct001,00,.X,13/G1S
+play,6,0,wilsm001,11,CBX,S6/G56
+play,6,0,backw001,10,BX,S4/G34D.1-2
+play,6,0,hernk001,00,X,D7/F7L.2-H;1-H
+play,6,0,cartg001,00,X,S7/L7S.2-3
+play,6,0,fostg001,10,BX,64(1)3/GDP/G56
+play,6,1,sciom001,00,,NP
 sub,mcdor001,"Roger McDowell",0,9,1
-play,6,1,sciom001,,,K
-play,6,1,bailb001,,,S
-play,6,1,anded001,,,K
-play,6,1,herso001,,,K
-play,7,0,heepd001,,,W
-play,7,0,johnh001,,,K
-play,7,0,santr001,,,CS2(24)
-play,7,0,santr001,,,53
-play,7,1,sax-s001,,,K
-play,7,1,landk001,,,43
-play,7,1,reynr001,,,K
-play,8,0,mcdor001,,,NP
+play,6,1,sciom001,02,.CCC,K/C
+play,6,1,bailb001,20,BBX,S7/G5
+play,6,1,anded001,12,11BC1FFFFS,K
+play,6,1,herso001,02,CCS,K
+play,7,0,heepd001,31,BBBCB,W
+play,7,0,johnh001,22,LCBBS,K
+play,7,0,santr001,10,1PS,CS2(24)
+play,7,0,santr001,12,1PS.SX,53/G5
+play,7,1,sax-s001,12,CBSS,K
+play,7,1,landk001,12,CBFX,43/G4
+play,7,1,reynr001,22,BCBSS,K
+play,8,0,mcdor001,00,,NP
 sub,hurdc001,"Clint Hurdle",0,9,11
-play,8,0,hurdc001,,,NP
+play,8,0,hurdc001,00,.,NP
 sub,duncm001,"Mariano Duncan",1,1,4
-play,8,0,hurdc001,,,43
-play,8,0,wilsm001,,,9
-play,8,0,backw001,,,8
-play,8,1,guerp001,,,NP
+play,8,0,hurdc001,10,..BX,43/G4M
+play,8,0,wilsm001,00,X,9/F9
+play,8,0,backw001,12,CBCX,8/F89D
+play,8,1,guerp001,00,,NP
 sub,orosj001,"Jesse Orosco",0,9,1
-play,8,1,guerp001,,,8
-play,8,1,brocg001,,,2/FL
-play,8,1,sciom001,,,S
-play,8,1,bailb001,,,NP
+play,8,1,guerp001,31,.BBCBX,8/F8
+play,8,1,brocg001,12,BCFFX,2/FL/P2F
+play,8,1,sciom001,20,BBX,S8/L8S
+play,8,1,bailb001,11,.CBX,E6/G56.1-2;B-1
+play,8,1,anded001,00,,NP
 sub,russb001,"Bill Russell",1,6,12
-play,8,1,bailb001,,,E6.1-2;B-1
-play,8,1,anded001,,,NP
+play,8,1,anded001,00,.,NP
 sub,castr001,"Bobby Castillo",1,7,12
-play,8,1,anded001,,,W.2-3;1-2
-play,8,1,herso001,,,NP
+com,"Bailor pulled a hamstring running to first"
+play,8,1,anded001,32,..BBBCSB,W.2-3;1-2
+play,8,1,herso001,00,,NP
 sub,marsm001,"Mike Marshall",1,9,11
-play,8,1,marsm001,,,9
-play,9,0,hernk001,,,NP
+play,8,1,marsm001,01,.CX,9/P9S
+play,9,0,hernk001,00,,NP
 sub,russb001,"Bill Russell",1,6,6
-play,9,0,hernk001,,,NP
+play,9,0,hernk001,00,.,NP
 sub,yeags001,"Steve Yeager",1,7,2
-play,9,0,hernk001,,,NP
+play,9,0,hernk001,00,..,NP
 sub,anded001,"Dave Anderson",1,8,5
-play,9,0,hernk001,,,NP
+play,9,0,hernk001,00,...,NP
 sub,howek001,"Ken Howell",1,9,1
-play,9,0,hernk001,,,S
-play,9,0,cartg001,,,3/FL
-play,9,0,fostg001,,,6
-play,9,0,heepd001,,,HR.1-H
-play,9,0,johnh001,,,31
-play,9,1,duncm001,,,D
-play,9,1,landk001,,,NP
+play,9,0,hernk001,12,....BFSX,S7/G56
+play,9,0,cartg001,12,CSBX,3/FL/P3F
+play,9,0,fostg001,00,X,6/P56D
+play,9,0,heepd001,11,>FB1X,HR/F9D.1-H
+play,9,0,johnh001,01,CX,31/G34
+play,9,1,duncm001,00,X,DGR/F89XD
+play,9,1,landk001,00,,NP
 sub,maldc001,"Candy Maldonado",1,2,11
-play,9,1,maldc001,,,8.2-3
-play,9,1,reynr001,,,D.3-H
-play,9,1,guerp001,,,S.2-H
-play,9,1,brocg001,,,43.1-2
-play,9,1,russb001,,,6
-play,10,0,santr001,,,NP
+play,9,1,maldc001,01,.CX,8/F89D.2-3
+play,9,1,reynr001,10,BX,DGR/F89D.3-H
+play,9,1,guerp001,11,FBX,S8/G6M.2-H
+play,9,1,brocg001,10,BX,43/G34D.1-2
+play,9,1,russb001,22,CFBFFB>FX,6/P6D
+play,10,0,santr001,00,,NP
 sub,maldc001,"Candy Maldonado",1,2,9
-play,10,0,santr001,,,53
-play,10,0,orosj001,,,NP
+play,10,0,santr001,22,.CBFBFX,53/G56S
+play,10,0,orosj001,00,,NP
 sub,chapk001,"Kelvin Chapman",0,9,11
-play,10,0,chapk001,,,8
-play,10,0,wilsm001,,,63
-play,10,1,yeags001,,,NP
+play,10,0,chapk001,12,.CBCX,8/F8D
+play,10,0,wilsm001,02,SSX,63/G6M
+play,10,1,yeags001,00,,NP
 sub,gormt001,"Tom Gorman",0,9,1
-play,10,1,yeags001,,,S
-play,10,1,anded001,,,13/SH.1-2
-play,10,1,howek001,,,NP
+play,10,1,yeags001,01,.FX,S7/G56
+play,10,1,anded001,02,CLX,13/SH/BG1S.1-2
+play,10,1,howek001,00,,NP
 sub,breas001,"Sid Bream",1,9,11
-play,10,1,breas001,,,3/G.2-3
-play,10,1,duncm001,,,9/FL
-play,11,0,backw001,,,NP
+play,10,1,breas001,12,.BSFX,3/G3.2-3
+play,10,1,duncm001,00,X,9/FL/F9LF
+play,11,0,backw001,00,,NP
 sub,howes001,"Steve Howe",1,9,1
-play,11,0,backw001,,,S
-play,11,0,hernk001,,,SB2
-play,11,0,hernk001,,,3/G.2-3
-play,11,0,cartg001,,,I
-play,11,0,fostg001,,,K
-play,11,0,heepd001,,,7
-play,11,1,maldc001,,,43
-play,11,1,reynr001,,,S
-play,11,1,guerp001,,,63.1-2
-play,11,1,brocg001,,,43
-play,12,0,johnh001,,,S
-play,12,0,santr001,,,24/SH.1-2
-play,12,0,gormt001,,,NP
+play,11,0,backw001,32,.LBFFBFFBX,S8/L6MD
+play,11,0,hernk001,22,>FBB1>FB,SB2
+play,11,0,hernk001,32,>FBB1>FB.X,3/G3.2-3
+play,11,0,cartg001,30,IIII,I
+play,11,0,fostg001,22,BBFSS,K
+play,11,0,heepd001,21,BBCX,7/F7S
+play,11,1,maldc001,22,CSBBX,43/G34
+play,11,1,reynr001,01,SX,S8/L4MD
+play,11,1,guerp001,21,1CB*BX,63/G56.1-2
+play,11,1,brocg001,02,CFX,43/G4
+play,12,0,johnh001,00,X,S18/G6M
+play,12,0,santr001,00,X,24/SH/BG23.1-2
+play,12,0,gormt001,00,,NP
 sub,chrij001,"John Christensen",0,9,11
-play,12,0,chrij001,,,3/FL
-play,12,0,wilsm001,,,I
-play,12,0,backw001,,,NP
+play,12,0,chrij001,22,.CFBBX,3/FL/P3F
+play,12,0,wilsm001,30,IIII,I
+play,12,0,backw001,00,,NP
 sub,knigr001,"Ray Knight",0,2,11
-play,12,0,knigr001,,,13
-play,12,1,russb001,,,NP
+play,12,0,knigr001,11,.FBX,13/G1S
+play,12,1,russb001,00,,NP
 sub,knigr001,"Ray Knight",0,2,4
-play,12,1,russb001,,,NP
+play,12,1,russb001,00,.,NP
 sub,siskd001,"Doug Sisk",0,9,1
-play,12,1,russb001,,,S
-play,12,1,yeags001,,,5
-play,12,1,anded001,,,W.1-2
-play,12,1,howes001,,,NP
+play,12,1,russb001,10,..BX,S5/G5S
+play,12,1,yeags001,01,LX,5/BP56S
+play,12,1,anded001,30,*BBBB,W.1-2
+play,12,1,howes001,00,,NP
 sub,whitt001,"Terry Whitfield",1,9,11
-play,12,1,whitt001,,,E6.2-H(NR)(UR);1-2
+play,12,1,whitt001,02,.CSX,E6/TH2/G56.2-H(NR)(UR);1-2
 data,er,lynce001,2
 data,er,mcdor001,0
 data,er,orosj001,2

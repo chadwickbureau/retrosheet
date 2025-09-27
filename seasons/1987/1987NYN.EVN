@@ -9118,23 +9118,23 @@ info,hometeam,NYN
 info,site,NYC17
 info,date,1987/08/12
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:35PM
 info,daynight,day
 info,usedh,false
 info,umphome,ripps901
 info,ump1b,froeb901
 info,ump2b,rennd901
 info,ump3b,palld901
-info,scorer,"Ginny Soybel"
-info,inputter,"Jeff Yaguda"
-info,howscored,unknown
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,scorer,"Ginny Soybel + Wigley from WWOR video"
+info,inputter,"Jeff Yaguda + Wigley from WWOR video"
+info,howscored,tv
+info,pitches,pitches
+info,temp,76
+info,winddir,fromcf
+info,windspeed,10
+info,fieldcond,dry
+info,precip,none
+info,sky,sunny
 info,timeofgame,141
 info,attendance,40313
 info,wp,darlr001
@@ -9159,81 +9159,89 @@ start,magad001,"Dave Magadan",1,6,5
 start,lyonb002,"Barry Lyons",1,7,2
 start,santr001,"Rafael Santana",1,8,6
 start,darlr001,"Ron Darling",1,9,1
-play,1,0,raint001,,,43
-play,1,0,folet001,,,K
-play,1,0,websm001,,,W
-play,1,0,brooh001,,,53
-play,1,1,dyksl001,,,63
-play,1,1,backw001,,,7
-play,1,1,hernk001,,,S9/L9S
-play,1,1,strad001,,,5/FL
-play,2,0,galaa001,,,W
-play,2,0,winnh001,,,K
-play,2,0,candc001,,,4/P
-play,2,0,fitzm001,,,7
-play,2,1,wilsm001,,,3/G
-play,2,1,magad001,,,3/G
-play,2,1,lyonb002,,,K/C
-play,3,0,sebrb001,,,D7/L7L
-play,3,0,raint001,,,43.2-3
-play,3,0,folet001,,,63.3-H
-play,3,0,websm001,,,K
-play,3,1,santr001,,,D7/G5
-play,3,1,darlr001,,,14/SH.2-3
-play,3,1,dyksl001,,,W
-play,3,1,backw001,,,46(1)/FO.3-H
-play,3,1,hernk001,,,SB2
-play,3,1,hernk001,,,3/G
-play,4,0,brooh001,,,53
-play,4,0,galaa001,,,8
-play,4,0,winnh001,,,8
-play,4,1,strad001,,,E4.B-1
-play,4,1,wilsm001,,,S8/G6.1-H(E8)(UR);B-2
-play,4,1,magad001,,,7
-play,4,1,lyonb002,,,FC/G.2-3;B-2
-play,4,1,santr001,,,9/SF.3-H(UR)
-play,4,1,darlr001,,,53
-play,5,0,candc001,,,K
-play,5,0,fitzm001,,,K/C
-play,5,0,sebrb001,,,S6/G6
-play,5,0,raint001,,,K
-play,5,1,dyksl001,,,S9/G34
-play,5,1,backw001,,,46(1)/FO/BG
-play,5,1,hernk001,,,SB2
-play,5,1,hernk001,,,W
-play,5,1,strad001,,,K
-play,5,1,wilsm001,,,S8/F8S.2-H;1-2
-play,5,1,magad001,,,K
-play,6,0,folet001,,,K
-play,6,0,websm001,,,7
-play,6,0,brooh001,,,K/C
-play,6,1,lyonb002,,,8/L
-play,6,1,santr001,,,K
-play,6,1,darlr001,,,4/L
-play,7,0,galaa001,,,S8/L8S
-play,7,0,winnh001,,,46(1)3/GDP
-play,7,0,candc001,,,7
-play,7,1,dyksl001,,,K/C
-play,7,1,backw001,,,9
-play,7,1,hernk001,,,31
-play,8,0,fitzm001,,,S8/F8S
-play,8,0,sebrb001,,,NP
+play,1,0,raint001,00,X,43/G34
+play,1,0,folet001,12,CSBS,K
+play,1,0,websm001,31,CBBBB,W
+play,1,0,brooh001,00,X,53/G56
+play,1,1,dyksl001,12,BCCX,63/G6
+play,1,1,backw001,11,FBX,7/F7L
+play,1,1,hernk001,20,BBX,S9/L9S
+play,1,1,strad001,22,FBBFX,5/FL/P5F
+play,2,0,galaa001,31,BCBBB,W
+play,2,0,winnh001,22,SB1SB1S+1,K
+play,2,0,candc001,00,X,4/P4S
+play,2,0,fitzm001,00,X,7/P7L
+play,2,1,wilsm001,11,CBX,3/G3
+play,2,1,magad001,32,BBFFBX,3/G3
+play,2,1,lyonb002,22,BFBCC,K/C
+play,3,0,sebrb001,00,X,D7/G5
+play,3,0,raint001,20,BBX,43/G34.2-3
+play,3,0,folet001,22,SBBSX,63/G6M.3-H
+com,"high bouncer over Darling's head"
+play,3,0,websm001,12,CFBS,K
+play,3,1,santr001,02,CSX,D7/G5
+play,3,1,darlr001,00,2X,14/SH/BG15.2-3
+play,3,1,dyksl001,30,BBBB,W
+play,3,1,backw001,10,11BX,46(1)/FO/G34.3-H
+play,3,1,hernk001,00,1B,SB2
+play,3,1,hernk001,22,1B.CCFBX,3/G3
+play,4,0,brooh001,10,BX,53/G5
+play,4,0,galaa001,32,BSBBFX,8/F8XD
+play,4,0,winnh001,32,BSBBFX,8/F8
+play,4,1,strad001,21,BBSX,E4/G34.B-1
+com,"Candaele let it bounce through his legs into RF"
+play,4,1,wilsm001,31,PP1BC1>X,S8/G6.1-H(E8)(UR);B-2
+com,"Wilson bobbled ball on his CF pickup"
+play,4,1,magad001,22,BBCFX,7/F7
+play,4,1,lyonb002,22,BSCBX,FC1/G1.2-3;B-2
+com,"Routine grounder back to Sebra who threw to third to"
+com,"catch Wilson between 2nd and 3rd but Wilson dodged"
+com,"the tag attempt and Sebra was late covering third on"
+com,"return throw but stepped on Wilson's forearm and"
+com,"spiked him; meanwhile Lyons reached second"
+play,4,1,santr001,01,FX,9/SF/F9.3-H(UR)
+play,4,1,darlr001,12,BFSFX,53/G5
+play,5,0,candc001,12,BFFS,K
+play,5,0,fitzm001,22,BCFBC,K/C
+play,5,0,sebrb001,10,BX,S6/G56D
+play,5,0,raint001,12,CSBS,K
+play,5,1,dyksl001,22,CBCBF,S9/G34
+play,5,1,backw001,11,B>FX,46(1)/FO/BG34
+play,5,1,hernk001,10,1BB,SB2
+play,5,1,hernk001,31,1BB.CBB,W
+play,5,1,strad001,12,CBFS,K
+play,5,1,wilsm001,10,BX,S8/F8S.2-H;1-2
+play,5,1,magad001,02,CCS,K
+play,6,0,folet001,22,BSBFFS,K
+play,6,0,websm001,02,CCX,7/F7
+play,6,0,brooh001,02,CSC,K/C
+play,6,1,lyonb002,21,BFBX,8/L8
+play,6,1,santr001,12,CBSS,K
+play,6,1,darlr001,00,X,4/L4
+play,7,0,galaa001,11,BSX,S8/L6MD
+play,7,0,winnh001,00,X,46(1)3/GDP/G4M
+play,7,0,candc001,11,CBX,7/F7
+play,7,1,dyksl001,32,CBFFBBC,K/C
+play,7,1,backw001,02,CSX,9/F89D
+play,7,1,hernk001,02,SFX,31/G3
+play,8,0,fitzm001,00,X,S8/F8S
+play,8,0,sebrb001,00,,NP
 sub,johnw001,"Wallace Johnson",0,9,11
-play,8,0,johnw001,,,63.1-2
-play,8,0,raint001,,,D8/L89.2-H
-play,8,0,folet001,,,S9/G34.2-3
-play,8,0,websm001,,,NP
+play,8,0,johnw001,12,.BCFX,63/G4M.1-2
+play,8,0,raint001,31,BBBCX,D8/L89D.2-H
+play,8,0,folet001,20,BBX,S9/L34D.2-3
+play,8,0,websm001,00,,NP
 sub,mcdor001,"Roger McDowell",1,9,1
-play,8,0,websm001,,,4/P
-play,8,0,brooh001,,,53
-play,8,1,strad001,,,NP
+play,8,0,websm001,00,.X,4/P4MD
+play,8,0,brooh001,11,CBX,53/G5
+play,8,1,strad001,00,,NP
 sub,mcclb001,"Bob McClure",0,9,1
-play,8,1,strad001,,,8
-play,8,1,wilsm001,,,63
-play,8,1,magad001,,,7
-play,9,0,galaa001,,,31
-play,9,0,winnh001,,,13
-play,9,0,candc001,,,43
+play,8,1,strad001,11,.BSX,8/F8D
+play,8,1,wilsm001,00,X,63/G6M
+play,8,1,magad001,22,BCCBFX,7/F78D
+play,9,0,galaa001,00,X,31/G34
+play,9,0,winnh001,10,BX,13/G13
+play,9,0,candc001,22,CBSFFFFFBFX,43/G4
 data,er,sebrb001,2
 data,er,mcclb001,0
 data,er,darlr001,2

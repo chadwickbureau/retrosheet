@@ -6,7 +6,7 @@ info,hometeam,CHN
 info,site,CHI11
 info,date,1979/04/05
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:30PM
 info,daynight,day
 info,usedh,false
 info,umphome,riccd901
@@ -14,17 +14,17 @@ info,ump1b,harrl901
 info,ump2b,caved901
 info,ump3b,pompj901
 info,scorer,"Cubs"
-info,translator,"Chris Chestnut"
-info,inputter,"Chris Chestnut"
+info,translator,"Chris Chestnut + Wigley from WGN video"
+info,inputter,"Chris Chestnut + Wigley from WGN video"
 info,inputtime,1995/06/27 8:48PM
 info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,pitches,pitches
+info,temp,48
+info,winddir,rtol
+info,windspeed,25
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,overcast
 info,timeofgame,154
 info,attendance,35615
 info,wp,swanc001
@@ -51,114 +51,118 @@ start,footb101,"Barry Foote",1,8,2
 start,reusr001,"Rick Reuschel",1,9,1
 com,"Debut for umpires Dick Cavenaugh, Lanny Harris, Joe"
 com,"Pomponi and Dennis Riccio"
-play,1,0,mazzl001,??,,63
-play,1,0,chapk001,??,,S8
+play,1,0,mazzl001,31,CBBBX,63/G56
+play,1,0,chapk001,00,X,S8/L4MD
 com,"Debut game for Kelvin Chapman"
-play,1,0,hebnr001,??,,S8.1-3
-play,1,0,steaj001,??,,8/SF.3-H
-play,1,0,montw101,??,,K
-play,1,1,dejei001,??,,D9
-play,1,1,sizet101,??,,6/P
-play,1,1,buckb001,??,,3/G.2-3
-play,1,1,kingd001,??,,S7.3-H
-play,1,1,murcb101,??,,3/G
-play,2,0,hends001,??,,13
-play,2,0,madde101,??,,43
-play,2,0,flynd001,??,,43
-play,2,1,ontis101,??,,D9
-play,2,1,martj001,??,,2/P
-play,2,1,footb101,??,,K
-play,2,1,reusr001,??,,K
-play,3,0,swanc001,??,,K
-play,3,0,mazzl001,??,,43
-play,3,0,chapk001,??,,53
-play,3,1,dejei001,??,,63
-play,3,1,sizet101,??,,S7
-play,3,1,buckb001,??,,7
-play,3,1,kingd001,??,,D7.1-H
-play,3,1,murcb101,??,,3/G
-play,4,0,hebnr001,??,,HR
-play,4,0,steaj001,??,,K
-play,4,0,montw101,??,,43
-play,4,0,hends001,??,,K
-play,4,1,ontis101,??,,13
-play,4,1,martj001,??,,5/P
-play,4,1,footb101,??,,6/P
-play,5,0,madde101,??,,K/C
-play,5,0,flynd001,??,,13
-play,5,0,swanc001,??,,S9
-play,5,0,mazzl001,??,,W.1-2
-play,5,0,chapk001,??,,S8.2-H;1-3
-play,5,0,hebnr001,??,,D9.3-H;1-H
-play,5,0,steaj001,??,,K
-play,5,1,reusr001,??,,8
-play,5,1,dejei001,??,,7
-play,5,1,sizet101,??,,S8
-play,5,1,buckb001,??,,9
-play,6,0,montw101,??,,31
-play,6,0,hends001,??,,9
-play,6,0,madde101,??,,D7
-play,6,0,flynd001,??,,IW
-play,6,0,swanc001,??,,8
-play,6,1,kingd001,??,,HR
-play,6,1,murcb101,??,,9
-play,6,1,ontis101,??,,9
-play,6,1,martj001,??,,53
-play,7,0,mazzl001,??,,S8
-play,7,0,chapk001,??,,SB2#
-play,7,0,chapk001,??,,WP.2-3#
-play,7,0,chapk001,??,,2/FL
-play,7,0,hebnr001,??,,NP
+play,1,0,hebnr001,21,FBBX,S8/G6M.1-3
+play,1,0,steaj001,20,BBX,8/SF/F8XDW.3-H
+play,1,0,montw101,22,CS*B*BS,K
+play,1,1,dejei001,02,CSX,D9/F9L
+play,1,1,sizet101,21,BCBX,6/P4MD
+play,1,1,buckb001,01,CX,3/G3.2-3
+play,1,1,kingd001,00,X,S5/G5D.3-H
+com,"Hebner made stop well behind third and threw from foul territory"
+com," but his throw pulled Montanez off the bag--no error"
+play,1,1,murcb101,32,1B1BFBCX,3/G3
+play,2,0,hends001,31,BBSBX,13/G1
+play,2,0,madde101,10,BX,43/G4M
+play,2,0,flynd001,11,CBX,43/G4M
+play,2,1,ontis101,00,X,D9/F89D
+play,2,1,martj001,10,BX,2/P25F/FL
+play,2,1,footb101,22,BCSBFFS,K
+play,2,1,reusr001,12,CBCFS,K
+play,3,0,swanc001,32,CCBBBS,K
+play,3,0,mazzl001,32,BCFBBX,43/G4M
+play,3,0,chapk001,01,CX,53/G5
+play,3,1,dejei001,11,BSX,63/G6
+play,3,1,sizet101,10,BX,S6/P56D
+com,"High popup blown from foul territory to fair"
+play,3,1,buckb001,00,X,7/F7
+play,3,1,kingd001,12,BSC>X,D6/P6MD.1-H
+com,"Sizemore running with two outs as the ball was blown away"
+com," from Flynn and dropped safely"
+play,3,1,murcb101,01,SX,3/G3
+play,4,0,hebnr001,22,BBCFX,HR/F89XD
+play,4,0,steaj001,12,BCCS,K
+play,4,0,montw101,12,CFBX,43/G34
+play,4,0,hends001,12,CSBS,K
+play,4,1,ontis101,21,FBBX,13/G1S
+play,4,1,martj001,11,BSX,5/P56
+play,4,1,footb101,00,X,6/P7S
+play,5,0,madde101,02,CCC,K/C
+play,5,0,flynd001,32,CCBBFBX,13/G1S
+play,5,0,swanc001,32,BFBSBX,S9/G34
+play,5,0,mazzl001,32,BCBFBB,W.1-2
+play,5,0,chapk001,11,CBX,S18/L1.2-H;1-3
+com,"Liner off Reuschel's glove into 4MD zone"
+play,5,0,hebnr001,01,SX,D8/F9DW.3-H;1-H
+play,5,0,steaj001,32,BBSBCS,K
+play,5,1,reusr001,12,BSSX,8/F89XD
+play,5,1,dejei001,10,BX,7/F7
+play,5,1,sizet101,00,X,S8/L6MD
+play,5,1,buckb001,11,BCX,9/F89D
+play,6,0,montw101,21,FBBX,31/G34
+play,6,0,hends001,10,BX,9/F89D
+play,6,0,madde101,10,BX,D8/F78XDW
+play,6,0,flynd001,30,IIII,IW
+play,6,0,swanc001,10,BX,8/F8D
+play,6,1,kingd001,31,BFBBX,HR/F8XD
+play,6,1,murcb101,12,BSFX,9/F89
+play,6,1,ontis101,00,X,9/F9S
+play,6,1,martj001,00,X,53/G5
+play,7,0,mazzl001,11,CBX,S8/G4M
+play,7,0,chapk001,00,1B,SB2
+play,7,0,chapk001,12,1B.MCB,WP.2-3
+play,7,0,chapk001,22,1B.MCB.FFX,2/FL/P2F
+play,7,0,hebnr001,00,,NP
 sub,hernw001,"Willie Hernandez",1,5,1
-play,7,0,hebnr001,??,,NP
+play,7,0,hebnr001,00,.,NP
 sub,thoms001,"Scot Thompson",1,9,9
-play,7,0,hebnr001,??,,D7.3-H
-play,7,0,steaj001,??,,IW
-play,7,0,montw101,??,,S8.2-3;1-2
-play,7,0,hends001,??,,NP
+play,7,0,hebnr001,21,..BFBX,D7/F78D.3-H
+play,7,0,steaj001,30,IIII,IW
+play,7,0,montw101,02,CFX,S8/F8S.2-3;1-2
+play,7,0,hends001,00,,NP
 sub,moord001,"Donnie Moore",1,5,1
-play,7,0,hends001,??,,S8.3-H;2-H;1-3
-play,7,0,madde101,??,,S9.3-H;1-3
-play,7,0,flynd001,??,,FC4/SH/THH.3-H;1-2;B-1
-play,7,0,swanc001,??,,POCS3(265)/OBS.1-2(E4)
-com,"$Swan missed a bunt attempt and Foote threw to second"
-com,"where Maddox was well off the base and was out trying"
-com,"for third; in the meantime Flynn tried for second and"
-com,"was apparently thrown out Ontoveros to DeJesus, but"
-com,"Mets complained, leading to an umpire conference and a"
-com,"ruling that Sizemore had obstructed Flynn, who was"
-com,"awarded second while Sizemore was charged with an error"
-play,7,0,swanc001,??,,K
-play,7,1,footb101,??,,K
-play,7,1,thoms001,??,,S8
-play,7,1,dejei001,??,,S7.1-2
-play,7,1,sizet101,??,,64(1)3/GDP
-play,8,0,mazzl001,??,,D8
-play,8,0,chapk001,??,,63.2-3
-play,8,0,hebnr001,??,,5
-play,8,0,steaj001,??,,3/G
-play,8,1,buckb001,??,,3/G
-play,8,1,kingd001,??,,53
-play,8,1,moord001,??,,NP
+play,7,0,hends001,20,.BBX,S8/G6M.3-H;2-H;1-3
+com,"slow grounder just under DeJesus' glove"
+play,7,0,madde101,22,FBSB1X,S8/F89D.3-H;1-3
+play,7,0,flynd001,01,CX,FC1/SH/THH/BG23.3-H;1-2;B-1
+play,7,0,swanc001,21,CBB+2,POCS3(265)/OBS.1-2(E4)
+com,"$On an aborted bunt attempt, Foote threw to second"
+com,"and caught Maddox off the base and out trying"
+com,"for third; Flynn tried for second and was thrown out"
+com,"Ontiveros to DeJesus, but umpires ruled Sizemore had com,"obstructed Flynn, who was awarded second and Sizemore" com,"was charged with an error"
+play,7,0,swanc001,22,CBB+2.CS,K
+play,7,1,footb101,12,SFBC,K/C
+play,7,1,thoms001,22,BBCFX,S7/F78
+play,7,1,dejei001,02,CSFX,S7/G56.1-2
+play,7,1,sizet101,02,LFFX,64(1)3/GDP/G6
+play,8,0,mazzl001,10,BX,D8/F8XD
+play,8,0,chapk001,32,BBBCFX,63/G56.2-3
+play,8,0,hebnr001,00,X,5/P5
+play,8,0,steaj001,02,FFFX,3/G3
+play,8,1,buckb001,01,CX,3/G3
+play,8,1,kingd001,12,FBSFX,53/G5
+play,8,1,moord001,00,,NP
 sub,biitl101,"Larry Biittner",1,5,11
-play,8,1,biitl101,??,,31
-play,9,0,montw101,??,,NP
+play,8,1,biitl101,02,.FCX,31/G3
+play,9,0,montw101,00,,NP
 sub,lampd001,"Dennis Lamp",1,5,1
-play,9,0,montw101,??,,43
-play,9,0,hends001,??,,9
-play,9,0,madde101,??,,W
-play,9,0,flynd001,??,,23
-play,9,1,ontis101,??,,NP
+play,9,0,montw101,00,.X,43/G4M
+play,9,0,hends001,11,CBX,9/L9
+play,9,0,madde101,31,BBFBB,W
+play,9,0,flynd001,12,FBCX,23/G2
+play,9,1,ontis101,00,,NP
 sub,bernd101,"Dwight Bernard",0,9,1
-play,9,1,ontis101,??,,13
-play,9,1,martj001,??,,D9
-play,9,1,footb101,??,,K
-play,9,1,thoms001,??,,S8.2-H
-play,9,1,dejei001,??,,S9.1-3
-play,9,1,sizet101,??,,D7.3-H;1-H
-play,9,1,buckb001,??,,NP
+play,9,1,ontis101,21,.BBCX,13/G34S
+play,9,1,martj001,21,FBBX,D9/F9LD
+play,9,1,footb101,12,FSBFC,K/C
+play,9,1,thoms001,00,X,S8/L4MD.2-H
+play,9,1,dejei001,00,X,S8/F8S.1-3
+play,9,1,sizet101,12,BCFX,D7/F78XDW.3-H;1-H
+play,9,1,buckb001,00,,NP
 sub,orosj001,"Jesse Orosco",0,9,1
-play,9,1,buckb001,??,,9
+play,9,1,buckb001,32,.BBCBCFX,9/F9D
 com,"Debut game for Jesse Orosco"
 data,er,swanc001,3
 data,er,bernd101,3
@@ -8482,17 +8486,17 @@ info,ump1b,steld901
 info,ump2b,engeb901
 info,ump3b,palld901
 info,scorer,"StL/Chi"
-info,translator,"Comly"
-info,inputter,"Comly"
+info,translator,"Comly + Wigley from WGN video"
+info,inputter,"Comly + Wigley from WGN video"
 info,inputtime,1995/11/17 9:40PM
 info,howscored,park
-info,pitches,none
+info,pitches,pitches
 info,temp,71
-info,winddir,unknown
-info,windspeed,-1
+info,winddir,tocf
+info,windspeed,8
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,overcast
 info,timeofgame,140
 info,attendance,0
 info,wp,hernw001
@@ -8517,95 +8521,99 @@ start,ontis101,"Steve Ontiveros",1,6,5
 start,dills101,"Steve Dillard",1,7,4
 start,blact101,"Tim Blackwell",1,8,2
 start,lampd001,"Dennis Lamp",1,9,1
-play,1,0,tempg001,??,,K
-play,1,0,brocl102,??,,8/L
-play,1,0,scott001,??,,S9
-play,1,0,hernk001,??,,D7.1-H
-play,1,0,hendg001,??,,S8.2-H
-play,1,0,kennt001,??,,S7.1-2
-play,1,0,reitk101,??,,64(1)/FO
-play,1,1,dejei001,??,,K
-play,1,1,thoms001,??,,W
-play,1,1,buckb001,??,,S9.1-3
-play,1,1,kingd001,??,,K
-play,1,1,martj001,??,,8
-play,2,0,oberk001,??,,W
-play,2,0,marts101,??,,14/SH.1-2
-play,2,0,tempg001,??,,43.2-3
-play,2,0,brocl102,??,,63
-play,2,1,ontis101,??,,43
-play,2,1,dills101,??,,8/L
-play,2,1,blact101,??,,31
-play,3,0,scott001,??,,43
-play,3,0,hernk001,??,,S4
-play,3,0,hendg001,??,,46(1)/FO
-play,3,0,kennt001,??,,9
-play,3,1,lampd001,??,,4/P
-play,3,1,dejei001,??,,43
-play,3,1,thoms001,??,,43
-play,4,0,reitk101,??,,K
-play,4,0,oberk001,??,,43
-play,4,0,marts101,??,,43
-play,4,1,buckb001,??,,HR/8
-play,4,1,kingd001,??,,K
-play,4,1,martj001,??,,63
-play,4,1,ontis101,??,,W
-play,4,1,dills101,??,,S8.1-3
-play,4,1,blact101,??,,4/P
-play,5,0,tempg001,??,,NP
+play,1,0,tempg001,22,CFFFFBBS,K
+play,1,0,brocl102,21,BSBX,8/L8D
+play,1,0,scott001,11,CBX,S9/F9S
+play,1,0,hernk001,21,B1BCX,D8/F78D.1-H
+play,1,0,hendg001,01,CX,S8/F78.2-H
+play,1,0,kennt001,21,BSBX,S7/G56.1-2
+play,1,0,reitk101,00,X,64(1)/FO/G6
+play,1,1,dejei001,02,CCS,K
+play,1,1,thoms001,32,BBCFBB,W
+play,1,1,buckb001,11,BCX,S9/G34.1-3
+play,1,1,kingd001,02,SFS,K
+play,1,1,martj001,10,BX,8/F8
+play,2,0,oberk001,31,CBBBB,W
+play,2,0,marts101,01,1LX,14/SH/BG34S.1-2
+play,2,0,tempg001,10,BX,43/G4M.2-3
+play,2,0,brocl102,00,X,63/G56
+play,2,1,ontis101,00,X,43/G4
+play,2,1,dills101,21,BCBX,8/F89D
+play,2,1,blact101,10,BX,31/G34
+play,3,0,scott001,32,BFLBBX,43/G4M
+play,3,0,hernk001,11,BCX,S4/G4M
+com,"Dillard's throw was wide of first but no error"
+play,3,0,hendg001,01,CX,46(1)/FO/G34
+play,3,0,kennt001,11,SBX,9/F9D
+play,3,1,lampd001,22,BBCCX,4/P34D
+play,3,1,dejei001,21,BBCX,43/G34D
+play,3,1,thoms001,12,FBFX,43/G34
+play,4,0,reitk101,12,SCBS,K
+play,4,0,oberk001,22,CFBBFFFX,43/G34
+play,4,0,marts101,02,CCX,43/G4M
+play,4,1,buckb001,01,LX,HR/F9D
+play,4,1,kingd001,22,BBSCS,K
+play,4,1,martj001,21,BCBX,63/G56
+play,4,1,ontis101,30,BBBB,W
+play,4,1,dills101,12,FBFFX,S8/G4M.1-3
+play,4,1,blact101,32,BBBCCFX,4/P9S
+play,5,0,tempg001,00,,NP
 sub,biitl101,"Larry Biittner",1,4,7
-play,5,0,tempg001,??,,D7
-play,5,0,brocl102,??,,3/G.2-3
-play,5,0,scott001,??,,63
-play,5,0,hernk001,??,,K
-play,5,1,lampd001,??,,63
-play,5,1,dejei001,??,,63
-play,5,1,thoms001,??,,31
-play,6,0,hendg001,??,,K
-play,6,0,kennt001,??,,31
-play,6,0,reitk101,??,,53
-play,6,1,buckb001,??,,43
-play,6,1,biitl101,??,,K
-play,6,1,martj001,??,,7
-play,7,0,oberk001,??,,S4
-play,7,0,marts101,??,,34/SH.1-2
-play,7,0,tempg001,??,,13
-play,7,0,brocl102,??,,53
-play,7,1,ontis101,??,,W
-play,7,1,dills101,??,,NP
+com,"Kingman left the game with nausea and headache"
+play,5,0,tempg001,21,.BBFX,D8/F78
+play,5,0,brocl102,10,BX,3!/G3.2-3
+play,5,0,scott001,32,FBFBBFX,63/G6S
+com,"infield playing in"
+play,5,0,hernk001,12,CBCS,K
+play,5,1,lampd001,00,X,63/G6
+play,5,1,dejei001,30,BBBX,63/G6M
+play,5,1,thoms001,21,FBBX,31
+play,6,0,hendg001,02,CFS,K
+play,6,0,kennt001,00,X,31/G3D
+play,6,0,reitk101,01,CX,53/G5
+play,6,1,buckb001,00,X,43/G4
+play,6,1,biitl101,32,CCBBBT,K
+play,6,1,martj001,32,BBFFFBX,7/F78D
+play,7,0,oberk001,02,CCX,S4/G4M
+play,7,0,marts101,00,X,34/SH/BG34S.1-2
+play,7,0,tempg001,10,BX,13/G13
+play,7,0,brocl102,00,X,53/G5
+play,7,1,ontis101,31,BBFBB,W
+play,7,1,dills101,00,,NP
 sub,dilom001,"Miguel Dilone",1,6,12
-play,7,1,dills101,??,,2/BP/FL
-play,7,1,blact101,??,,NP
+play,7,1,dills101,00,.X,3!/BP/FL/P23F
+com,"Hernandez after holding Dilone sprinted into foul ground"
+play,7,1,blact101,00,,NP
 sub,hendk101,"Ken Henderson",1,8,11
-play,7,1,hendk101,??,,CS2(26)#
-play,7,1,hendk101,??,,8
-play,8,0,scott001,??,,NP
+play,7,1,hendk101,01,.F1111111S,CS2(26)
+play,7,1,hendk101,22,.F1111111S.BBX,8/F8
+play,8,0,scott001,00,,NP
 sub,hernw001,"Willie Hernandez",1,8,1
-play,8,0,scott001,??,,NP
+play,8,0,scott001,00,.,NP
 sub,kellm101,"Mick Kelleher",1,6,5
-play,8,0,scott001,??,,NP
+play,8,0,scott001,00,..,NP
 sub,footb101,"Barry Foote",1,9,2
-play,8,0,scott001,??,,S5
-play,8,0,hernk001,??,,43.1-2
-play,8,0,hendg001,??,,53
-play,8,0,kennt001,??,,K
-play,8,1,footb101,??,,W
-play,8,1,dejei001,??,,3/BP
-play,8,1,thoms001,??,,S9.1-3
-play,8,1,buckb001,??,,NP
+play,8,0,scott001,22,...CFBBX,S56/L5
+play,8,0,hernk001,10,B1X,43/G34.1-2
+play,8,0,hendg001,31,BBCBX,53/G5
+play,8,0,kennt001,02,CCS,K
+play,8,1,footb101,31,BSBBB,W
+play,8,1,dejei001,11,LBX,3/BP/P3S
+play,8,1,thoms001,00,X,S9/G3.1-3
+play,8,1,buckb001,00,,NP
 sub,knowd101,"Darold Knowles",0,9,1
-play,8,1,buckb001,??,,D7.3-H;1-H
-play,8,1,biitl101,??,,13
-play,8,1,martj001,??,,NP
+play,8,1,buckb001,11,.C*BX,D8/L78S.3-H;1-H
+play,8,1,biitl101,00,X,13/L1
+play,8,1,martj001,00,,NP
 sub,littm101,"Mark Littell",0,6,1
-play,8,1,martj001,??,,NP
+play,8,1,martj001,00,.,NP
 sub,simmt001,"Ted Simmons",0,9,2
-play,8,1,martj001,??,,K
-play,9,0,reitk101,??,,NP
+play,8,1,martj001,02,..CSS,K
+play,9,0,reitk101,00,,NP
 sub,suttb001,"Bruce Sutter",1,8,1
-play,9,0,reitk101,??,,53
-play,9,0,oberk001,??,,43
-play,9,0,simmt001,??,,43
+play,9,0,reitk101,12,.CBFX,43/G4
+play,9,0,oberk001,00,X,43/G34
+play,9,0,simmt001,11,BFX,43/G34
 data,er,marts101,3
 data,er,knowd101,0
 data,er,littm101,0

@@ -610,8 +610,8 @@ info,ump1b,bushg901
 info,ump2b,(none)
 info,ump3b,(none)
 info,scorer,"73,80"
-info,translator,"Mike Grahek"
-info,inputter,"Mike Grahek"
+info,translator,"Mike Grahek/RWood"
+info,inputter,"Mike Grahek/RWood"
 info,inputtime,2012/11/08 11:27AM
 info,howscored,park
 info,pitches,none
@@ -664,7 +664,7 @@ play,2,0,grahp101,??,,9/F
 play,2,1,shaft102,??,,W
 play,2,1,meyec101,??,,9/F
 play,2,1,tesrj101,??,,SB2
-play,2,1,tesrj101,??,,FC6.2X3(65)
+play,2,1,tesrj101,??,,FC6.2X3(65);B-1
 play,2,1,devoj101,??,,6/FL
 play,3,0,moore103,??,,13
 play,3,0,knabo101,??,,4/P
@@ -720,25 +720,25 @@ play,7,1,snodf101,??,,SB3
 play,7,1,snodf101,??,,W
 play,7,1,beckb101,??,,2/P
 play,7,1,merkf101,??,,S.3-H;1-2
-play,7,1,herzb101,??,,64(1)/FO#
+play,7,1,herzb101,??,,64(1)/FO
 play,8,0,paskd101,??,,S
-play,8,0,cravg101,??,,99/F
-play,8,0,ludef101,??,,99/F
-play,8,0,doolm101,??,,99/F
-play,8,1,shaft102,??,,99
+play,8,0,cravg101,??,,5/P
+play,8,0,ludef101,??,,5/FL
+play,8,0,doolm101,??,,3/P
+play,8,1,shaft102,??,,43
 play,8,1,meyec101,??,,NP
 sub,wilsa102,"Art Wilson",1,8,11
 com,"ej,meyec101,P,klemb901,Balls and strikes"
 com,"$Meyers ejected by HP umpire Klem for arguing"
 com,"balls and strikes; Wilson took over at bat"
-play,8,1,wilsa102,??,,99
-play,8,1,tesrj101,??,,99
+play,8,1,wilsa102,??,,2/P
+play,8,1,tesrj101,??,,63
 play,9,0,grahp101,??,,NP
 sub,wilsa102,"Art Wilson",1,8,2
-play,9,0,grahp101,??,,99
+play,9,0,grahp101,??,,63
 play,9,0,moore103,??,,NP
 sub,downt101,"Tom Downey",0,9,11
-play,9,0,downt101,??,,99
+play,9,0,downt101,??,,3/G
 play,9,0,knabo101,??,,S8
 play,9,0,tituj101,??,,SB2
 play,9,0,tituj101,??,,HR/9.2-H
@@ -1287,7 +1287,7 @@ play,3,1,doyll101,??,,NP
 sub,harmb101,"Bob Harmon",0,9,1
 play,3,1,doyll101,??,,W
 play,3,1,snodf101,??,,W.1-2
-play,3,1,murrr103,??,,S7.2-H(UR);1-2#
+play,3,1,murrr103,??,,S7.2-H;1-2
 play,3,1,beckb101,??,,13/SH.2-3;1-2
 play,3,1,herzb101,??,,9/9S/L
 play,3,1,meyec101,??,,W
@@ -1359,7 +1359,7 @@ play,9,0,magel101,??,,S4/G
 play,9,0,ellir102,??,,S9.1-2
 play,9,0,mowrm101,??,,54(1)3/GDP
 data,er,steeb102,3
-data,er,harmb101,6
+data,er,harmb101,7
 data,er,mathc102,4
 id,NY1191206030
 version,1
@@ -2110,7 +2110,7 @@ play,7,1,beckb101,??,,W.1-2
 play,7,1,herzb101,??,,13/SH.2-3;1-2
 play,7,1,meyec101,??,,IW
 play,7,1,fleta101,??,,D8.3-H;2-H;1-3
-play,7,1,marqr102,??,,WP.3-H(UR);2-H(UR)
+play,7,1,marqr102,??,,WP.3-H;2-H
 play,7,1,marqr102,??,,K
 play,7,1,devoj101,??,,9/9D/F
 play,8,0,bentr102,??,,NP
@@ -2133,7 +2133,7 @@ play,8,1,beckb101,??,,6/P
 play,9,0,grane101,??,,9/F
 play,9,0,phela101,??,,9/F
 play,9,0,esmoj101,??,,2/FL
-data,er,bentr102,2
+data,er,bentr102,4
 data,er,froma101,1
 data,er,marqr102,1
 id,NY1191206100
@@ -2196,7 +2196,7 @@ play,1,0,saiev101,??,,PO3(215)
 play,1,1,devoj101,??,,W
 play,1,1,doyll101,??,,S6/G.1-3
 play,1,1,snodf101,??,,8/SF.3-H
-play,1,1,murrr103,??,,HR/9.1-H(UR)#
+play,1,1,murrr103,??,,HR/9.1-H
 play,1,1,beckb101,??,,3/G
 play,1,1,herzb101,??,,8/F
 play,2,0,saiev101,??,,43
@@ -2300,7 +2300,7 @@ play,10,1,meyec101,??,,D7.3-H;1-3
 play,10,1,fleta101,??,,NP
 sub,shaft102,"Tillie Shafer",1,7,12
 play,10,1,fleta101,??,,43
-data,er,richl102,3
+data,er,richl102,4
 data,er,browm102,0
 data,er,lavej101,2
 data,er,reule101,1
@@ -3909,22 +3909,22 @@ start,herzb101,"Buck Herzog",1,6,5
 start,meyec101,"Chief Meyers",1,7,2
 start,fleta101,"Art Fletcher",1,8,6
 start,mathc102,"Christy Mathewson",1,9,1
-play,1,0,mcdoe101,??,,K#
-play,1,0,campv101,??,,99
-play,1,0,sweeb102,??,,K#
-play,1,1,snodf101,??,,99
-play,1,1,doyll101,??,,99
-play,1,1,merkf101,??,,S
-play,1,1,murrr103,??,,S.1-2
-play,1,1,beckb101,??,,99
+play,1,0,mcdoe101,??,,K
+play,1,0,campv101,??,,5/FL
+play,1,0,sweeb102,??,,7/L
+play,1,1,snodf101,??,,53
+play,1,1,doyll101,??,,13
+play,1,1,merkf101,??,,S7
+play,1,1,murrr103,??,,SB2
+play,1,1,murrr103,??,,63
 play,2,0,kirkj101,??,,99
 play,2,0,tituj101,??,,S
 play,2,0,housb101,??,,S.1-2
 play,2,0,orouf101,??,,99
 play,2,0,rarib101,??,,K
+play,2,1,beckb101,??,,99
 play,2,1,herzb101,??,,W
-play,2,1,meyec101,??,,CS2(99)#
-play,2,1,meyec101,??,,S8
+play,2,1,meyec101,??,,S8.1-2
 play,2,1,fleta101,??,,K#
 play,2,1,mathc102,??,,99
 play,3,0,donne102,??,,99
@@ -3951,11 +3951,11 @@ play,4,1,fleta101,??,,99
 play,4,1,mathc102,??,,HP
 play,4,1,snodf101,??,,WP.1-2
 play,4,1,snodf101,??,,S.2-3
-play,4,1,doyll101,??,,SBH(UR);SB2
+play,4,1,doyll101,??,,SBH;SB2
 play,4,1,doyll101,??,,99
 play,5,0,campv101,??,,S#
-play,5,0,sweeb102,??,,46(1)3/GDP#
-play,5,0,kirkj101,??,,99
+play,5,0,sweeb102,??,,K#
+play,5,0,kirkj101,??,,46(1)3/GDP#
 play,5,1,merkf101,??,,99
 play,5,1,murrr103,??,,99
 play,5,1,beckb101,??,,S
@@ -3976,7 +3976,8 @@ play,6,1,merkf101,??,,99
 play,7,0,donne102,??,,99
 play,7,0,mcdoe101,??,,99
 play,7,0,campv101,??,,99
-play,7,1,murrr103,??,,99
+play,7,1,murrr103,??,,S#
+play,7,1,beckb101,??,,CS2(99)#
 play,7,1,beckb101,??,,99
 play,7,1,herzb101,??,,K
 play,8,0,sweeb102,??,,NP
@@ -3994,14 +3995,13 @@ play,8,1,doyll101,??,,D
 play,8,1,merkf101,??,,NP
 sub,grohh101,"Heinie Groh",1,2,12
 play,8,1,merkf101,??,,S.2-H
-play,8,1,murrr103,??,,SB2#
 play,8,1,murrr103,??,,99
 play,9,0,rarib101,??,,NP
 sub,grohh101,"Heinie Groh",1,2,4
 play,9,0,rarib101,??,,99
 play,9,0,donne102,??,,99
 play,9,0,mcdoe101,??,,99
-data,er,donne102,6
+data,er,donne102,7
 data,er,mathc102,3
 id,NY1191206282
 version,1
@@ -4860,9 +4860,11 @@ play,8,1,fleta101,??,,W
 play,8,1,meyec101,??,,9/F.2-3
 play,8,1,snodf101,??,,SB2
 play,8,1,snodf101,??,,PB.3-H(UR);2-H(E2/TH)(UR)
-com,"$catcher's throw trying to nail Shafer hit Snodgrass"
-com,"(Brooklyn argued that Snodgrass should have been called"
-com,"for interference)"
+com,"ej,dahlb102,M,brenb901,Interference non-call"
+com,"$Brooklyn manager Dahlen ejected by HP umpire Brennan"
+com,"for arguing that Snodgrass should have been called"
+com,"for interference when the catcher's throw trying to"
+com,"nail Shafer stealing hit Snodgrass and bounced away"
 play,8,1,snodf101,??,,W
 play,8,1,doyll101,??,,SB2
 play,8,1,doyll101,??,,9/F
@@ -5411,6 +5413,10 @@ sub,shaft102,"Tillie Shafer",1,2,4
 play,8,0,shecj101,??,,NP
 sub,wilsa102,"Art Wilson",1,7,2
 play,8,0,shecj101,??,,46(1)/FO.2-3
+com,"ej,millw104,P,bushg901,Call at 2B"
+com,"ej,downt101,P,bushg901,Call at 2B"
+com,"$Miller and Downey, coaching at 1st, ejected by base"
+com,"umpire Bush for arguing Miller was safe at 2nd"
 play,8,0,schuf103,??,,SB2.3XH(242)
 play,8,1,devoj101,??,,NP
 sub,reule101,"Ed Reulbach",0,9,1
@@ -7342,7 +7348,7 @@ start,tesrj101,"Jeff Tesreau",1,9,1
 play,1,0,huggm101,??,,W
 play,1,0,magel101,??,,6/P
 play,1,0,mowrm101,??,,13/SH.1-2
-play,1,0,konee101,??,,WP.2-H(UR)
+play,1,0,konee101,??,,WP.2-H
 play,1,0,konee101,??,,W
 play,1,0,evans101,??,,CS2(26)
 play,1,1,snodf101,??,,W
@@ -7417,7 +7423,7 @@ play,9,0,hausa101,??,,K
 play,9,0,oaker101,??,,S7.1-2
 play,9,0,wingi101,??,,PO2(24)
 data,er,steeb102,6
-data,er,tesrj101,1
+data,er,tesrj101,2
 id,NY1191208120
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -10424,7 +10430,7 @@ play,2,1,hartg102,??,,K
 play,3,0,campv101,??,,W
 play,3,0,devla101,??,,S7.1-3
 play,3,0,schuj101,??,,3/FL
-play,3,0,kirkj101,??,,WP.3-H(UR);1X3(235)
+play,3,0,kirkj101,??,,WP.3-H;1X3(235)
 play,3,0,kirkj101,??,,31
 play,3,1,fleta101,??,,S7
 play,3,1,goult101,??,,13/SH.1-2
@@ -10480,7 +10486,7 @@ play,7,1,shaft102,??,,CS2(26)
 com,"$Game called on account of darkness"
 data,er,donne102,6
 data,er,mctib101,0
-data,er,goult101,5
+data,er,goult101,6
 id,NY1191209300
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"

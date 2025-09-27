@@ -15,17 +15,17 @@ info,ump2b,wendh901
 info,ump3b,koscg901
 info,umplf,hallt901
 info,umprf,tscht901
-info,scorer,"TSN Guide"
+info,scorer,"TSN Guide + Wigley from video"
 info,translator,""
-info,inputter,"DWV"
-info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,inputter,"DWV + Wigley from video"
+info,howscored,tv
+info,pitches,pitches
+info,temp,72
+info,winddir,rtol
+info,windspeed,10
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,night
 info,timeofgame,175
 info,attendance,59372
 info,wp,browk001
@@ -52,179 +52,179 @@ start,glavt001,"Tom Glavine",1,9,1
 com,"$Managers: Tom Kelly (AL Minnesota), Bobby Cox (Atlanta NL);"
 com,"MVP: Ken Griffey Jr. (Seattle AL); first father-son pair each"
 com,"named All-Star MVP (Griffey Sr. in 1980)"
-play,1,0,alomr001,??,,43
-play,1,0,boggw001,??,,S8
-play,1,0,puckk001,??,,S8.1-2
-play,1,0,cartj001,??,,S8.2-3;1-2
-play,1,0,mcgwm001,??,,S8.3-H;2-H;1-2
-play,1,0,ripkc001,??,,S9.2-H;1-3;BX2(96)
-play,1,0,grifk002,??,,S8.3-H
-play,1,0,aloms001,??,,S7.1-2
-com,"$seven consecutive singles by AL"
-play,1,0,browk001,??,,K
-play,1,1,smito001,??,,K
-play,1,1,gwynt001,??,,7
-play,1,1,bondb001,??,,7
-play,2,0,alomr001,??,,S8
-play,2,0,boggw001,??,,7/L
-play,2,0,puckk001,??,,SB2
-play,2,0,puckk001,??,,K
-play,2,0,cartj001,??,,SB3
-play,2,0,cartj001,??,,S8.3-H
-play,2,0,mcgwm001,??,,NP
+play,1,0,alomr001,02,SFX,43/G4
+play,1,0,boggw001,22,BBFFFX,S8/G6M
+play,1,0,puckk001,01,FX,S8/F8S.1-2
+play,1,0,cartj001,01,FX,S8/L8S.2-3;1-2
+play,1,0,mcgwm001,20,BBX,S8/L4MD.3-H;2-H;1-2
+play,1,0,ripkc001,10,BX,S9/F9L.2-H;1-3;BX2(96)
+play,1,0,grifk002,11,CBX,S8/F8S.3-H
+play,1,0,aloms001,11,SBX,S67/G56.1-2
+play,1,0,browk001,12,BSSS,K
+play,1,1,smito001,12,CFBFC,K/C
+play,1,1,gwynt001,10,BX,7/F78XD
+play,1,1,bondb001,10,BX,7/F7D
+play,2,0,alomr001,10,BX,S8/F89S
+play,2,0,boggw001,02,CFX,7/L7LSF/FL
+play,2,0,puckk001,01,FB,SB2
+com,"Santiago's throw went into CF but not far enough for Alomar to continue to 3rd"
+play,2,0,puckk001,22,FB.2BST,K
+play,2,0,cartj001,20,BBC,SB3
+play,2,0,cartj001,22,BBC.CX,S8/L4MD.3-H
+play,2,0,mcgwm001,00,,NP
 sub,maddg002,"Greg Maddux",1,9,1
-play,2,0,mcgwm001,??,,53
-play,2,1,mcgrf001,??,,NP
+play,2,0,mcgwm001,01,.FX,53/G5
+play,2,1,mcgrf001,00,,NP
 sub,mcdoj001,"Jack McDowell",0,9,1
-play,2,1,mcgrf001,??,,9
-play,2,1,pendt001,??,,43
-play,2,1,vansa001,??,,8
-play,3,0,ripkc001,??,,7
-play,3,0,grifk002,??,,HR/7
-play,3,0,aloms001,??,,31
-play,3,0,mcdoj001,??,,NP
+play,2,1,mcgrf001,00,.X,9/F9D
+play,2,1,pendt001,11,BFX,43/G4M
+play,2,1,vansa001,32,BBBCFFX,8/F8D
+play,3,0,ripkc001,01,CX,7/F7LD
+play,3,0,grifk002,20,BBX,HR/F78XD
+play,3,0,aloms001,12,CCFFBX,31/G34
+play,3,0,mcdoj001,00,,NP
 sub,marte001,"Edgar Martinez",0,9,11
-play,3,0,marte001,??,,43
-play,3,1,sandr001,??,,NP
+play,3,0,marte001,00,.X,43/G4M
+play,3,1,sandr001,00,,NP
 sub,guzmj003,"Juan Guzman",0,9,1
-play,3,1,sandr001,??,,K
-play,3,1,santb001,??,,K
-play,3,1,maddg002,??,,NP
+play,3,1,sandr001,12,.BCFS,K
+play,3,1,santb001,12,FSFBC,K/C
+play,3,1,maddg002,00,,NP
 sub,walkl001,"Larry Walker",1,9,11
-play,3,1,walkl001,??,,S5
-play,3,1,smito001,??,,D7.1-3
-play,3,1,gwynt001,??,,W
-play,3,1,bondb001,??,,5/FL
-play,4,0,alomr001,??,,NP
+play,3,1,walkl001,22,.BSBSX,S5/G5
+play,3,1,smito001,00,X,D7/F7LS.1-3
+play,3,1,gwynt001,32,BFBFBFF*B,W
+play,3,1,bondb001,10,*BX,5/FL/P5F
+play,4,0,alomr001,00,,NP
 sub,coned001,"David Cone",1,9,1
-play,4,0,alomr001,??,,63
-play,4,0,boggw001,??,,K
-play,4,0,puckk001,??,,53
-play,4,1,mcgrf001,??,,NP
+play,4,0,alomr001,01,.FX,63/G6
+play,4,0,boggw001,02,FCFC,K/C
+play,4,0,puckk001,11,SBX,53/G56
+play,4,1,mcgrf001,00,,NP
 sub,clemr001,"Roger Clemens",0,3,1
-play,4,1,mcgrf001,??,,NP
+play,4,1,mcgrf001,00,.,NP
 sub,baerc001,"Carlos Baerga",0,1,4
-play,4,1,mcgrf001,??,,NP
+play,4,1,mcgrf001,00,..,NP
 sub,ventr001,"Robin Ventura",0,2,5
-play,4,1,mcgrf001,??,,NP
+play,4,1,mcgrf001,00,...,NP
 sub,andeb001,"Brady Anderson",0,9,7
-play,4,1,mcgrf001,??,,S8
-play,4,1,pendt001,??,,S7.1-2
-play,4,1,vansa001,??,,46(1)3/GDP.2-3
-play,4,1,sandr001,??,,43
-play,5,0,cartj001,??,,NP
+play,4,1,mcgrf001,00,....X,S8/G4M
+play,4,1,pendt001,22,FBCBX,S7/G56.1-2
+play,4,1,vansa001,12,CBFX,46(1)3/GDP/G4.2-3
+play,4,1,sandr001,00,X,43/G4
+play,5,0,cartj001,00,,NP
 sub,tewkb001,"Bob Tewksbury",1,5,1
-play,5,0,cartj001,??,,NP
+play,5,0,cartj001,00,.,NP
 sub,dauld001,"Darren Daulton",1,8,2
-play,5,0,cartj001,??,,NP
+play,5,0,cartj001,00,..,NP
 sub,shefg001,"Gary Sheffield",1,9,5
-play,5,0,cartj001,??,,4
-play,5,0,mcgwm001,??,,4
-play,5,0,ripkc001,??,,2/G/BINT
+play,5,0,cartj001,20,...BBX,4/P4MD
+play,5,0,mcgwm001,11,CBX,4/P4D
+play,5,0,ripkc001,12,CBFX,2/G/BINT
 com,"$Cal Ripken called for interference for running into his own batted ball"
-play,5,1,dauld001,??,,NP
-sub,mussm001,"Mike Mussina",0,6,1
-play,5,1,dauld001,??,,NP
+play,5,1,dauld001,00,,NP
+sub,mussm001,"Mike Messina",0,6,1
+play,5,1,dauld001,00,.,NP
 sub,frymt001,"Travis Fryman",0,4,6
-play,5,1,dauld001,??,,NP
+play,5,1,dauld001,00,..,NP
 sub,sierr001,"Ruben Sierra",0,3,9
-play,5,1,dauld001,??,,4
-play,5,1,shefg001,??,,7/L
-play,5,1,smito001,??,,63
-play,6,0,grifk002,??,,NP
+play,5,1,dauld001,31,...BFBBX,4/P4
+play,5,1,shefg001,11,BCX,7/F7
+play,5,1,smito001,32,BCBBFX,63/G6
+play,6,0,grifk002,00,,NP
 sub,fernt001,"Tony Fernandez",1,1,6
-play,6,0,grifk002,??,,D9
-play,6,0,aloms001,??,,43.2-3
-play,6,0,andeb001,??,,3/G
-play,6,0,baerc001,??,,D/78.3-H
-play,6,0,ventr001,??,,D/G3.2-H
-play,6,0,sierr001,??,,HR/9.2-H
-play,6,0,frymt001,??,,W
-play,6,0,mcgwm001,??,,NP
+play,6,0,grifk002,11,.FBX,D9/L9L
+play,6,0,aloms001,01,FX,43/G4.2-3
+play,6,0,andeb001,10,BX,3/G3
+play,6,0,baerc001,11,BSX,D8/F78D.3-H
+play,6,0,ventr001,31,BFBBX,D39/G3.2-H
+play,6,0,sierr001,11,CBX,HR/F9D.2-H
+play,6,0,frymt001,30,BBBB,W
+play,6,0,mcgwm001,00,,NP
 sub,smolj001,"John Smoltz",1,5,1
-play,6,0,mcgwm001,??,,NP
+play,6,0,mcgwm001,00,.,NP
 sub,molip001,"Paul Molitor",0,5,11
-play,6,0,molip001,??,,S9.1X2(96)
+play,6,0,molip001,12,..CBSFX,S9/L9.1X2(96)
 com,"$Travis Fryman rounded 2B too far"
-play,6,1,gwynt001,??,,NP
+play,6,1,gwynt001,00,,NP
 sub,langm001,"Mark Langston",0,8,1
-play,6,1,gwynt001,??,,NP
+play,6,1,gwynt001,00,.,NP
 sub,rodri001,"Ivan Rodriguez",0,7,2
-play,6,1,gwynt001,??,,NP
+play,6,1,gwynt001,00,..,NP
 sub,molip001,"Paul Molitor",0,5,3
-play,6,1,gwynt001,??,,NP
+play,6,1,gwynt001,00,...,NP
 sub,kellb002,"Roberto Kelly",0,6,8
-play,6,1,gwynt001,??,,63
-play,6,1,bondb001,??,,D9/G3
-play,6,1,mcgrf001,??,,S7.2-H
-play,6,1,smolj001,??,,NP
+play,6,1,gwynt001,10,....BX,63/G6
+play,6,1,bondb001,20,BBX,D9/G3
+play,6,1,mcgrf001,20,BBX,S7/F78.2-H
+play,6,1,smolj001,00,,NP
 sub,clarw001,"Will Clark",1,5,11
-play,6,1,clarw001,??,,K
-play,6,1,vansa001,??,,NP
+play,6,1,clarw001,32,BBCBFFC,K/C
+play,6,1,vansa001,00,,NP
 sub,gantr001,"Ron Gant",1,6,11
-play,6,1,gantr001,??,,53
-play,7,0,kellb002,??,,NP
+play,6,1,gantr001,32,.BBCBFX,53/G5
+play,7,0,kellb002,00,,NP
 sub,clarw001,"Will Clark",1,5,3
-play,7,0,kellb002,??,,NP
+play,7,0,kellb002,00,.,NP
 sub,martd001,"Dennis Martinez",1,4,1
-play,7,0,kellb002,??,,NP
+play,7,0,kellb002,00,..,NP
 sub,biggc001,"Craig Biggio",1,7,4
-play,7,0,kellb002,??,,NP
+play,7,0,kellb002,00,...,NP
 sub,robeb002,"Bip Roberts",1,3,7
-play,7,0,kellb002,??,,NP
+play,7,0,kellb002,00,....,NP
 sub,gantr001,"Ron Gant",1,6,8
-play,7,0,kellb002,??,,NP
+play,7,0,kellb002,00,.....,NP
 sub,krukj001,"John Kruk",1,2,9
-play,7,0,kellb002,??,,K
-play,7,0,rodri001,??,,E9/F.BX3(945)
-play,7,0,langm001,??,,NP
+play,7,0,kellb002,02,......SFS,K
+play,7,0,rodri001,01,CX,E9/F9DW.BX3(945)
+play,7,0,langm001,00,,NP
 sub,knobc001,"Chuck Knoblauch",0,8,11
-play,7,0,knobc001,??,,W
-play,7,0,andeb001,??,,6(1)/FO
-play,7,1,biggc001,??,,NP
+play,7,0,knobc001,30,BBBB,W
+play,7,0,andeb001,22,CCBBX,6(1)/FO/G6M
+play,7,1,biggc001,00,,NP
 sub,knobc001,"Chuck Knoblauch",0,8,4
-play,7,1,biggc001,??,,NP
+play,7,1,biggc001,00,.,NP
 sub,nagyc001,"Charles Nagy",0,1,1
-play,7,1,biggc001,??,,K
-play,7,1,dauld001,??,,3/G
-play,7,1,shefg001,??,,63
-play,8,0,nagyc001,??,,NP
+play,7,1,biggc001,02,..CFS,K
+play,7,1,dauld001,00,X,3/G3
+play,7,1,shefg001,22,BSFBFX,63/G6
+play,8,0,nagyc001,00,,NP
 sub,joned001,"Doug Jones",1,4,1
-play,8,0,nagyc001,??,,NP
+play,8,0,nagyc001,00,.,NP
 sub,sharm001,"Mike Sharperson",1,9,5
-play,8,0,nagyc001,??,,S/G1
-play,8,0,ventr001,??,,S8.1-2
-play,8,0,sierr001,??,,46(1)/FO.2-3
-play,8,0,frymt001,??,,S9.3-H;1-3
-play,8,0,molip001,??,,K
-play,8,0,kellb002,??,,D7.3-H;1-H
-play,8,0,rodri001,??,,K
-play,8,1,fernt001,??,,NP
+play,8,0,nagyc001,01,..CX,S6/G6S
+play,8,0,ventr001,00,X,S8/L8S.1-2
+play,8,0,sierr001,11,BCX,46(1)/FO/G34.2-3
+play,8,0,frymt001,12,SSBX,S9/G34.3-H;1-3
+play,8,0,molip001,02,CFC,K/C
+play,8,0,kellb002,10,BX,D7/G5.3-H;1-H
+play,8,0,rodri001,22,SBFBS,K
+play,8,1,fernt001,00,,NP
 sub,montj002,"Jeff Montgomery",0,1,1
-play,8,1,fernt001,??,,3/G
-play,8,1,krukj001,??,,S8
-play,8,1,robeb002,??,,S9.1-2
-play,8,1,joned001,??,,NP
+play,8,1,fernt001,20,.BBX,3/G3
+play,8,1,krukj001,10,BX,S8/L8S
+play,8,1,robeb002,11,F*BX,S9/L34D.1-2
+play,8,1,joned001,00,,NP
 sub,pagnt001,"Tom Pagnozzi",1,4,11
-play,8,1,pagnt001,??,,9
-play,8,1,clarw001,??,,NP
+play,8,1,pagnt001,01,.SX,9/P9S
+play,8,1,clarw001,00,,NP
 sub,aguir001,"Rick Aguilera",0,1,1
-play,8,1,clarw001,??,,HR/7.2-H;1-H
-play,8,1,gantr001,??,,5/FL
-play,9,0,knobc001,??,,NP
+play,8,1,clarw001,00,.X,HR/F7LD.2-H;1-H
+play,8,1,gantr001,31,BBBFX,5/FL/P25F
+play,9,0,knobc001,00,,NP
 sub,charn001,"Norm Charlton",1,4,1
-play,9,0,knobc001,??,,3
-play,9,0,andeb001,??,,8
-play,9,0,aguir001,??,,K
-play,9,1,biggc001,??,,8/L
-play,9,1,dauld001,??,,NP
+play,9,0,knobc001,21,.BBCX,3/P3D
+play,9,0,andeb001,02,CFX,8/F8D
+play,9,0,aguir001,22,FBCBT,K
+play,9,1,biggc001,11,BCX,8/L8
+play,9,1,dauld001,00,,NP
 sub,ecked001,"Dennis Eckersley",0,1,1
-play,9,1,dauld001,??,,E3/G
-play,9,1,sharm001,??,,K
-play,9,1,fernt001,??,,S9.1-2
-play,9,1,krukj001,??,,S4.2-3;1-2
-play,9,1,robeb002,??,,S/89.3-H(UR);2-H(UR);1-2
-play,9,1,charn001,??,,K
+play,9,1,dauld001,31,.BFBBX,E3/G3
+play,9,1,sharm001,02,CFS,K
+play,9,1,fernt001,32,CBCBBFX,S9/L9S.1-2
+play,9,1,krukj001,12,BCFX,S4/G34D.2-3;1-2
+play,9,1,robeb002,22,SBBCFX,S9/L4D.3-H(UR);2-H(UR);1-2
+play,9,1,charn001,02,SFS,K
 data,er,browk001,0
 data,er,mcdoj001,0
 data,er,guzmj003,0
