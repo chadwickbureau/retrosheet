@@ -229,7 +229,7 @@ play,6,1,barrj104,??,,SB2
 play,6,1,barrj104,??,,FC5.2X3(546);B-2
 play,6,1,lappj101,??,,S7.2-H;BX2(724)
 play,7,0,knigj102,??,,S7
-play,7,0,creeb101,??,,9(B)931(1)/DP
+play,7,0,creeb101,??,,9/DP.1X1(931)
 play,7,0,johno101,??,,W
 play,7,0,blaiw101,??,,CS2(26)
 play,7,1,coomj101,??,,NP
@@ -1409,7 +1409,7 @@ play,6,1,bakef102,??,,S9
 play,6,1,davih101,??,,5/FL
 play,6,1,murpd106,??,,W.1-2
 play,6,1,barrj104,??,,D8.2-H;1-3
-play,6,1,thomi101,??,,S1.3-H;2-H(E1/TH);B-3(E3/TH)
+play,6,1,thomi101,??,,S1.3-H;2-H(E1/TH)(NR);B-3(E3/TH)
 play,6,1,plane101,??,,7/SF.3-H(UR)
 play,6,1,lordb101,??,,K
 play,7,0,caldr101,??,,K
@@ -2810,7 +2810,7 @@ play,2,1,murpd106,??,,53
 play,3,0,casej101,??,,S7
 play,3,0,mullg102,??,,PB.1-2
 play,3,0,mullg102,??,,K
-play,3,0,drakd101,??,,S7.2-H
+play,3,0,drakd101,??,,S7.2-H(UR)
 play,3,0,bushd102,??,,W.1-2
 play,3,0,cobbt101,??,,7
 play,3,0,craws101,??,,8
@@ -2818,7 +2818,7 @@ play,3,1,barrj104,??,,W
 play,3,1,thomi101,??,,SB2
 play,3,1,thomi101,??,,4
 play,3,1,krauh101,??,,S9.2-H;B-2(E9)
-play,3,1,lordb101,??,,S8.2-H
+play,3,1,lordb101,??,,S8.2-H(UR)
 play,3,1,strua102,??,,13/SH.1-2
 play,3,1,colle101,??,,9
 play,4,0,delaj103,??,,63
@@ -2876,8 +2876,8 @@ play,9,0,mullg102,??,,3/G.1-2
 play,9,0,drakd101,??,,S8.2-3
 play,9,0,bushd102,??,,S8.3-H;1-3
 play,9,0,cobbt101,??,,43
-data,er,mullg102,4
-data,er,krauh101,4
+data,er,mullg102,3
+data,er,krauh101,3
 id,PHA191106100
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -3171,9 +3171,9 @@ info,umphome,perrb901
 info,ump1b,dinnb101
 info,ump2b,(none)
 info,ump3b,(none)
-info,scorer,"66"
-info,translator,"Comly"
-info,inputter,"Ron Fisher"
+info,scorer,"66,128"
+info,translator,"Comly/RWood"
+info,inputter,"Ron Fisher/RWood"
 info,inputtime,1994/11/29 7:43PM
 info,howscored,park
 info,pitches,none
@@ -3213,7 +3213,7 @@ play,1,0,melop101,??,,7
 play,1,1,lordb101,??,,63
 play,1,1,strua102,??,,W
 play,1,1,colle101,??,,S9.1-3
-play,1,1,bakef102,??,,FC1.3XH(12);1-2
+play,1,1,bakef102,??,,FC1.3XH(12);1-2;B-1
 play,1,1,mcins101,??,,T7.2-H;1-H
 play,1,1,murpd106,??,,63
 play,2,0,lapof101,??,,K
@@ -3231,10 +3231,10 @@ play,3,0,melop101,??,,K
 play,3,1,lordb101,??,,8
 play,3,1,strua102,??,,W
 play,3,1,colle101,??,,23.1-2
-play,3,1,bakef102,??,,HR.2-H
+play,3,1,bakef102,??,,HR/9.2-H
 play,3,1,mcins101,??,,5/FL
 play,4,0,lapof101,??,,53
-play,4,0,hogaw101,??,,6
+play,4,0,hogaw101,??,,6/P
 play,4,0,clarn101,??,,W
 play,4,0,wallb101,??,,S9.1-2
 play,4,0,rowad101,??,,K
@@ -3242,7 +3242,7 @@ play,4,1,murpd106,??,,D9
 play,4,1,barrj104,??,,K
 play,4,1,thomi101,??,,S5.2-3
 play,4,1,plane101,??,,FC1.3XH(1521);1-3;B-2
-play,4,1,lordb101,??,,CSH(21)#
+play,4,1,lordb101,??,,OA.3XH(21)
 play,5,0,lakej101,??,,63
 play,5,0,shotb101,??,,K
 play,5,0,austj101,??,,S7
@@ -3261,7 +3261,7 @@ play,6,0,wallb101,??,,W
 play,6,0,rowad101,??,,W.1-2
 play,6,0,lakej101,??,,K
 play,6,1,mcins101,??,,D8
-play,6,1,murpd106,??,,6
+play,6,1,murpd106,??,,6/P
 play,6,1,barrj104,??,,E1/TH.2-H(NR)(UR);B-2(E5/TH)
 play,6,1,thomi101,??,,7
 play,6,1,plane101,??,,7
@@ -4246,10 +4246,9 @@ play,8,0,conrw101,??,,WP.2-3;1-2#
 play,8,0,conrw101,??,,W
 play,8,0,ainse101,??,,K
 play,8,1,murpd106,??,,8
-play,8,1,barrj104,??,,S6.B-1(E6)
-com,"This appears to have been scored as both a hit and an error"
+play,8,1,barrj104,??,,E6/G
 play,8,1,thomi101,??,,S9.1-2
-play,8,1,leone101,??,,S8.2-H;1-2
+play,8,1,leone101,??,,S8.2-H(UR);1-2
 play,8,1,lordb101,??,,S8.2-H;1-3
 play,8,1,strua102,??,,CS2(26)
 play,8,1,strua102,??,,K
@@ -4263,7 +4262,7 @@ play,9,0,elbek101,??,,S5.3-H;1-2
 play,9,0,gessd101,??,,D9.2-H;1-3
 play,9,0,mcbrg101,??,,E6/TH.3-H(UR)(NR);2-3
 play,9,0,conrw101,??,,5
-data,er,walkd102,5
+data,er,walkd102,4
 data,er,bendc101,2
 data,er,leone101,2
 id,PHA191107251
@@ -5032,7 +5031,7 @@ play,1,0,morig101,??,,K
 play,1,1,lordb101,??,,W
 play,1,1,oldrr101,??,,K
 play,1,1,colle101,??,,W.1-2
-play,1,1,bakef102,??,,S8.2-H;1-H(E8)(NR);B-2
+play,1,1,bakef102,??,,S8.2-H;1-H(E8)(NR)(UR);B-2
 play,1,1,barrj104,??,,7
 play,1,1,murpd106,??,,7/FL
 play,2,0,oleac101,??,,53
@@ -5104,7 +5103,7 @@ play,8,1,coomj101,??,,3/FL
 play,9,0,cobbt101,??,,63
 play,9,0,craws101,??,,43
 play,9,0,delaj103,??,,63
-data,er,donob101,4
+data,er,donob101,3
 data,er,coomj101,3
 id,PHA191107290
 version,1
@@ -6021,7 +6020,7 @@ play,3,0,shotb101,??,,S9
 play,3,0,austj101,??,,E5/TH/SH.1-3
 play,3,0,schwa102,??,,W.1-2
 play,3,0,lapof101,??,,K
-play,3,0,hogaw101,??,,143/DP.3-H;2-H;1X3(25)
+play,3,0,hogaw101,??,,143/DP.3-H(UR);2-H(UR);1X3(25)
 play,3,1,thomi101,??,,S8
 play,3,1,coomj101,??,,S9.1-2
 play,3,1,lordb101,??,,15(2)/FO/BG.1-2
@@ -6082,7 +6081,7 @@ sub,hartt102,"Topsy Hartsel",1,7,11
 play,9,1,hartt102,??,,8
 play,9,1,thomi101,??,,43
 data,er,lakej101,1
-data,er,coomj101,3
+data,er,coomj101,1
 id,PHA191108071
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -6942,7 +6941,7 @@ play,4,1,bendc101,??,,9/F
 play,5,0,henro101,??,,S6
 play,5,0,englc103,??,,S7.1-3
 play,5,0,speat101,??,,7(B)/DP.3XH(72);1-2
-play,5,0,gardl101,??,,E3/G.2-H(NR)
+play,5,0,gardl101,??,,E3/G.2-H(NR)(UR)
 play,5,0,willr104,??,,6/P
 play,5,1,lordb101,??,,W
 play,5,1,strua102,??,,NP
@@ -6974,7 +6973,7 @@ play,8,1,lordb101,??,,S
 play,8,1,strua102,??,,99(1)/FO
 play,8,1,colle101,??,,SB2.1-3(E2/TH)
 play,8,1,colle101,??,,7
-play,8,1,bakef102,??,,S.3-H
+play,8,1,bakef102,??,,S.3-H(UR)
 play,8,1,murpd106,??,,SB2.1-3(E2/TH)
 play,8,1,murpd106,??,,1/P
 play,9,0,henro101,??,,99
@@ -6982,8 +6981,8 @@ play,9,0,englc103,??,,K
 play,9,0,speat101,??,,99
 data,er,woodj108,4
 data,er,mcham101,5
-data,er,cicoe101,1
-data,er,bendc101,5
+data,er,cicoe101,0
+data,er,bendc101,4
 id,PHA191108112
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -7954,7 +7953,7 @@ play,1,0,yerks101,??,,W
 play,1,0,speat101,??,,SB2
 play,1,0,speat101,??,,D8.2-H
 play,1,0,gardl101,??,,S3.2-H(E4/TH);B-3
-play,1,0,englc103,??,,PB.3-H
+play,1,0,englc103,??,,PB.3-H(UR)
 play,1,0,englc103,??,,43
 play,1,0,henro101,??,,S7.BX2(74)
 play,1,1,lordb101,??,,7
@@ -8038,7 +8037,7 @@ play,9,1,bakef102,??,,IW
 play,9,1,murpd106,??,,IW.1-2
 play,9,1,mcins101,??,,S5.3-H;2-3;1-2
 data,er,cicoe101,3
-data,er,bendc101,4
+data,er,bendc101,3
 id,PHA191109062
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -9927,7 +9926,7 @@ play,2,0,calld101,??,,T8
 play,2,0,balln101,??,,K
 play,2,0,turnt105,??,,9/SF.3-H
 play,2,0,oneis101,??,,8/F
-play,2,1,bakef102,??,,HR/8
+play,2,1,bakef102,??,,HR8/78/IPHR
 play,2,1,emerc102,??,,K
 play,2,1,strua102,??,,W
 play,2,1,derrc101,??,,S4.1-2
@@ -9967,7 +9966,7 @@ play,6,0,calld101,??,,3/G
 play,6,0,balln101,??,,W
 play,6,0,turnt105,??,,S/5.1-2
 play,6,0,oneis101,??,,46(1)/FO.2-3;BX1(6E3)
-play,6,0,kahlg101,??,,SB2.3-H
+play,6,0,kahlg101,??,,SB2.3-H(UR)
 play,6,0,kahlg101,??,,K
 play,6,1,emerc102,??,,W
 play,6,1,strua102,??,,14(1)/FO
@@ -10001,7 +10000,7 @@ sub,lappj101,"Jack Lapp",1,9,11
 play,9,1,lappj101,??,,5/FL
 play,9,1,lordb101,??,,3/G
 data,er,kahlg101,3
-data,er,browb103,6
+data,er,browb103,5
 id,PHA191109280
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -10057,7 +10056,7 @@ play,1,0,butch101,??,,S8
 play,1,0,olsoi101,??,,1E3/SH.1-3
 play,1,0,calld101,??,,7/F
 play,1,0,lajon101,??,,W.1-2
-play,1,0,granj104,??,,HP.3-H;2-3;1-2
+play,1,0,granj104,??,,HP.3-H(UR);2-3;1-2
 play,1,0,balln101,??,,54(1)3/GDP
 play,1,1,lordb101,??,,7/F
 play,1,1,emerc102,??,,K
@@ -10111,7 +10110,7 @@ play,5,1,bakef102,??,,8/L/SF.3-H
 play,5,1,murpd106,??,,K
 play,5,1,strua102,??,,S8.2-H;B-2(TH)
 play,5,1,derrc101,??,,E6/G.2-3
-play,5,1,thomi101,??,,SBH;SB2
+play,5,1,thomi101,??,,SBH;SB2.3-H(UR)
 play,5,1,thomi101,??,,K
 play,6,0,granj104,??,,K
 play,6,0,balln101,??,,53
@@ -10147,8 +10146,8 @@ play,9,0,stovg101,??,,2/FL
 play,9,0,butch101,??,,4/P
 play,9,0,olsoi101,??,,7/FL
 data,er,krapg101,3
-data,er,reisb101,4
-data,er,danfd101,3
+data,er,reisb101,3
+data,er,danfd101,2
 id,PHA191109301
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -10435,9 +10434,9 @@ info,umphome,dinnb101
 info,ump1b,eganr101
 info,ump2b,(none)
 info,ump3b,(none)
-info,scorer,"73"
-info,translator,"Turocy"
-info,inputter,"Turocy"
+info,scorer,"73,640"
+info,translator,"Turocy/RWood"
+info,inputter,"Turocy/RWood"
 info,inputtime,1998/08/03 9:53AM
 info,howscored,unknown
 info,pitches,none
@@ -10478,19 +10477,19 @@ play,1,1,lordb101,??,,9
 play,1,1,oldrr101,??,,2/FL
 play,1,1,colle101,??,,5/FL
 play,2,0,creeb101,??,,S3.B-2(E3)
-play,2,0,knigj102,??,,FC5
-play,2,0,hartr102,??,,4
-play,2,0,garde101,??,,64(1)3/GDP#
+play,2,0,knigj102,??,,FC5/TH2.2-2;B-1
+play,2,0,hartr102,??,,4/P
+play,2,0,garde101,??,,4(1)3/GDP
 play,2,1,bakef102,??,,43
 play,2,1,murpd106,??,,43
 play,2,1,davih101,??,,8
 play,3,0,willb103,??,,K
-play,3,0,quinj102,??,,6
-play,3,0,danib101,??,,4
+play,3,0,quinj102,??,,6/P
+play,3,0,danib101,??,,4/P
 play,3,1,barrj104,??,,53
 play,3,1,livip101,??,,43
 play,3,1,morgc102,??,,K
-play,4,0,dolac102,??,,S
+play,4,0,dolac102,??,,S8
 play,4,0,chash101,??,,4(B)3(1)/LDP
 com,"Hit-and-run"
 play,4,0,creeb101,??,,W
@@ -10498,7 +10497,7 @@ play,4,0,knigj102,??,,WP.1-2
 play,4,0,knigj102,??,,K
 play,4,1,lordb101,??,,43
 play,4,1,oldrr101,??,,43
-play,4,1,colle101,??,,S
+play,4,1,colle101,??,,S8
 play,4,1,bakef102,??,,46(1)/FO
 play,5,0,hartr102,??,,63
 play,5,0,garde101,??,,HP
@@ -10511,38 +10510,38 @@ play,5,1,murpd106,??,,NP
 sub,zinng101,"Guy Zinn",0,7,8
 play,5,1,murpd106,??,,NP
 sub,chash101,"Hal Chase",0,3,4
-play,5,1,murpd106,??,,S
+play,5,1,murpd106,??,,S7
 play,5,1,davih101,??,,34/SH.1-2
-play,5,1,barrj104,??,,S.2-H
-play,5,1,livip101,??,,S.1-3
+play,5,1,barrj104,??,,S8.2-H
+play,5,1,livip101,??,,S8.1-3
 play,5,1,morgc102,??,,4(B)5(3)/LDP
 play,6,0,danib101,??,,NP
 sub,derrc101,"Claud Derrick",1,6,3
-play,6,0,danib101,??,,S
+play,6,0,danib101,??,,S8
 play,6,0,dolac102,??,,2/FL/DP.1X2(26)
 play,6,0,chash101,??,,13
 play,6,1,lordb101,??,,8
 play,6,1,oldrr101,??,,53
-play,6,1,colle101,??,,S
+play,6,1,colle101,??,,S9
 play,6,1,bakef102,??,,9
 play,7,0,creeb101,??,,K
 play,7,0,knigj102,??,,W
 play,7,0,hartr102,??,,8
 play,7,0,zinng101,??,,CS2(24)
 play,7,1,murpd106,??,,53
-play,7,1,derrc101,??,,S
+play,7,1,derrc101,??,,S8
 play,7,1,barrj104,??,,S8.1X3(85);B-2(TH)
 play,7,1,livip101,??,,13
 play,8,0,zinng101,??,,63
-play,8,0,willb103,??,,6
+play,8,0,willb103,??,,6/P
 play,8,0,quinj102,??,,K
 play,8,1,morgc102,??,,K
 play,8,1,lordb101,??,,9
-play,8,1,oldrr101,??,,S
+play,8,1,oldrr101,??,,S9/89
 play,8,1,colle101,??,,HP.1-2
 play,8,1,bakef102,??,,3/G
-play,9,0,danib101,??,,S
-play,9,0,dolac102,??,,CS2(24)#
+play,9,0,danib101,??,,S8
+play,9,0,dolac102,??,,CS2(26)
 play,9,0,dolac102,??,,S8.B-2(E8)
 play,9,0,chash101,??,,63
 play,9,0,creeb101,??,,43
