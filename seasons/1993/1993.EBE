@@ -721,7 +721,7 @@ stat,dline,bordp001,0,1,2,27,7,0,0,0,0,0
 stat,dline,ferna001,1,1,1,24,1,0,0,1,0,0
 stat,dline,hernr001,1,1,1,3,0,0,0,0,0,0
 stat,dline,raint001,1,1,7,27,0,1,0,0,0,0
-stat,dline,coraj001,1,1,4,27,2,9,1,1,0,0
+stat,dline,coraj001,1,1,4,27,2,8,1,1,0,0
 stat,dline,ventr001,1,1,5,24,1,0,0,0,0,0
 stat,dline,ventr001,1,2,3,3,3,0,0,0,0,0
 stat,dline,burke001,1,1,9,27,1,0,0,0,0,0
@@ -834,7 +834,7 @@ stat,dline,mccak001,1,1,1,4,0,2,0,0,0,0
 stat,dline,radis001,1,1,1,1,0,0,1,0,0,0
 stat,dline,hernr001,1,1,1,1,0,0,0,0,0,0
 stat,dline,raint001,1,1,7,27,1,0,0,0,0,0
-stat,dline,coraj001,1,1,4,27,5,3,1,0,0,0
+stat,dline,coraj001,1,1,4,27,5,2,1,0,0,0
 stat,dline,thomf001,1,1,3,27,5,1,0,0,0,0
 stat,dline,ventr001,1,1,5,27,2,0,1,0,0,0
 stat,dline,burke001,1,1,9,27,2,0,0,0,0,0
@@ -1971,7 +1971,8 @@ stat,bline,holld001,0,4,1,4,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
 stat,bline,dauld001,0,5,1,4,0,1,0,0,0,1,0,0,0,1,1,2,0,0,0,0
 stat,bline,eisej001,0,6,1,5,0,1,0,0,0,1,0,0,0,0,0,2,0,0,0,0
 stat,bline,jordr001,0,7,1,5,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0
-stat,bline,thomm001,0,8,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+stat,bline,thomm001,0,8,1,3,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
+stat,bline,incap001,0,8,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,stock001,0,9,1,3,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,schic002,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,westd001,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -2006,7 +2007,8 @@ stat,dline,krukj001,0,1,3,24,9,0,0,1,0,0
 stat,dline,holld001,0,1,5,24,2,1,0,0,0,0
 stat,dline,dauld001,0,1,2,24,5,1,0,0,0,0
 stat,dline,eisej001,0,1,9,24,3,0,0,0,0,0
-stat,dline,thomm001,0,1,7,24,1,0,1,0,0,0
+stat,dline,thomm001,0,1,7,21,1,0,1,0,0,0
+stat,dline,incap001,0,1,7,3,0,0,0,0,0,0
 stat,dline,stock001,0,1,6,24,1,2,0,1,0,0
 stat,dline,guzmj003,1,1,1,15,0,1,0,0,0,0
 stat,dline,leita001,1,1,1,8,0,0,0,0,0,0
@@ -2019,6 +2021,7 @@ stat,dline,olerj001,1,1,3,27,9,0,0,1,0,0
 stat,dline,fernt001,1,1,6,27,1,2,0,1,0,0
 stat,dline,sprae001,1,1,5,27,0,3,1,0,0,0
 stat,dline,bordp001,1,1,2,27,12,0,0,0,0,0
+stat,phline,incap001,8,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 event,csline,1,fernt001,schic002,dauld001,4
 event,dpline,0,stock001,duncm001,krukj001
 event,dpline,1,fernt001,olerj001
