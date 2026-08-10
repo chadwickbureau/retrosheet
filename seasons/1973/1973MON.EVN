@@ -2232,7 +2232,7 @@ play,7,0,beckg101,??,,S7.1-2
 play,7,0,willb104,??,,PO1(E1).2-3;1-2
 play,7,0,willb104,??,,IW
 play,7,0,hickj103,??,,W.3-H;2-3;1-2
-play,7,0,santr102,??,,S9.3-H;2XH(92);1-3
+play,7,0,santr102,??,,S9.3-H;2XH(921);1-3
 play,7,1,huntr101,??,,NP
 sub,lockb102,"Bob Locker",0,9,1
 play,7,1,huntr101,??,,4/P
@@ -3877,24 +3877,24 @@ info,hometeam,MON
 info,site,MON01
 info,date,1973/06/16
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:20PM
 info,daynight,day
 info,usedh,false
 info,umphome,gormt101
 info,ump1b,steld901
 info,ump2b,(none)
 info,ump3b,dalej901
-info,scorer,"40"
+info,scorer,"40,Roth"
 info,translator,"David W. Smith"
-info,inputter,"David W. Smith"
+info,inputter,"David W. Smith + Wigley from Roth"
 info,inputtime,1999/05/28 9:39PM
 info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,unknown
-info,precip,unknown
+info,pitches,pitches
+info,temp,51
+info,winddir,fromcf
+info,windspeed,17
+info,fieldcond,wet
+info,precip,drizzle
 info,sky,unknown
 info,timeofgame,124
 info,attendance,10187
@@ -3920,78 +3920,77 @@ start,singk001,"Ken Singleton",1,6,9
 start,boccj101,"John Boccabella",1,7,2
 start,folit001,"Tim Foli",1,8,6
 start,stonb101,"Bill Stoneman",1,9,1
-play,1,0,loped001,??,,W
-play,1,0,buckb001,??,,SB2
-play,1,0,buckb001,??,,3/G.2-3
-play,1,0,daviw102,??,,3/G.3-H
-play,1,0,fergj101,??,,63
-play,1,1,huntr101,??,,S6.B-2(E6/TH)
-play,1,1,woodr102,??,,43.2-3
-play,1,1,mashc101,??,,7/SF.3-H(UR)
-play,1,1,breeh101,??,,W
-play,1,1,bailb103,??,,54(1)/FO
-play,2,0,craww101,??,,43
-play,2,0,cey-r001,??,,S9
-play,2,0,joshv101,??,,S7.1-2
-play,2,0,russb001,??,,D7.2-H;1-3
-play,2,0,ostec103,??,,3/G
-play,2,0,loped001,??,,W
-play,2,0,buckb001,??,,31
-play,2,1,singk001,??,,S9
-play,2,1,boccj101,??,,S7.1-2
-play,2,1,folit001,??,,9
-play,2,1,stonb101,??,,54(1)3/GDP
-play,3,0,daviw102,??,,S8
-play,3,0,fergj101,??,,SB2
-play,3,0,fergj101,??,,PO2(E1).2-3
-play,3,0,fergj101,??,,S8.3-H
-play,3,0,craww101,??,,W.1-2
-play,3,0,cey-r001,??,,HR/7.2-H;1-H
-play,3,0,joshv101,??,,NP
+play,1,0,loped001,31,BBCBB,W
+play,1,0,buckb001,01,CB,SB2
+play,1,0,buckb001,11,CB.X,3/G.2-3
+play,1,0,daviw102,00,X,3/G.3-H
+play,1,0,fergj101,00,X,63
+play,1,1,huntr101,00,X,S6/G6.B-2(E6/TH1)
+play,1,1,woodr102,00,X,43.2-3
+play,1,1,mashc101,01,CX,7/SF/L.3-H(UR)
+play,1,1,breeh101,32,BFBBFFB,W
+play,1,1,bailb103,31,BBCBX,54(1)/FO
+play,2,0,craww101,10,BX,43
+play,2,0,cey-r001,12,CCBX,S9/F9
+play,2,0,joshv101,12,CBFX,S7/G56.1-2
+play,2,0,russb001,31,BBCBX,D7/F7L.2-H;1-3
+play,2,0,ostec103,20,BBX,3/G
+play,2,0,loped001,32,CBBBCB,W
+play,2,0,buckb001,00,X,31
+play,2,1,singk001,10,BX,S9/L9S
+play,2,1,boccj101,10,BX,S7/G56.1-2
+play,2,1,folit001,31,FBBBX,9
+play,2,1,stonb101,22,BBFFX,54(1)3/GDP
+play,3,0,daviw102,02,CCFFFFX,S8/L8S
+play,3,0,fergj101,00,N,SB2.1-3(E1/TH)
+play,3,0,fergj101,20,N.BBX,S8/L8S.3-H
+play,3,0,craww101,31,BBCBB,W.1-2
+play,3,0,cey-r001,22,FBLBX,HR/7.2-H;1-H
+play,3,0,joshv101,00,,NP
 sub,scotm101,"Mickey Scott",1,9,1
-play,3,0,joshv101,??,,K
-play,3,0,russb001,??,,6/L
-play,3,0,ostec103,??,,S7
-play,3,0,loped001,??,,9
-play,3,1,huntr101,??,,13
-play,3,1,woodr102,??,,D7
-play,3,1,mashc101,??,,K
-play,3,1,breeh101,??,,HR/7.2-H
-play,3,1,bailb103,??,,W
-play,3,1,singk001,??,,64(1)/FO
-play,4,0,buckb001,??,,NP
+play,3,0,joshv101,32,.BCBCBC,K/C
+play,3,0,russb001,00,X,6/L56
+play,3,0,ostec103,10,BX,S7/L7S
+play,3,0,loped001,00,X,9/F89D
+play,3,1,huntr101,12,CFBX,163
+play,3,1,woodr102,00,X,D7/F78D
+play,3,1,mashc101,32,FBBSBS,K
+play,3,1,breeh101,00,X,HR/7.2-H
+play,3,1,bailb103,30,BBBB,W
+play,3,1,singk001,10,BX,64(1)/FO
+play,4,0,buckb001,00,,NP
 sub,friap101,"Pepe Frias",1,8,6
-play,4,0,buckb001,??,,63
-play,4,0,daviw102,??,,8
-play,4,0,fergj101,??,,53
-play,4,1,boccj101,??,,W
-play,4,1,friap101,??,,9
-play,4,1,scotm101,??,,NP
+play,4,0,buckb001,11,.BFX,63
+play,4,0,daviw102,10,BX,8
+play,4,0,fergj101,31,BFBBX,53
+play,4,1,boccj101,31,BBBCB,W
+play,4,1,friap101,12,FFBX,9
+play,4,1,scotm101,00,,NP
 sub,humpt101,"Terry Humphrey",1,9,11
-play,4,1,humpt101,??,,9(B)3(1)/DP
-play,5,0,craww101,??,,NP
+play,4,1,humpt101,00,.X,9(B)3(1)/DP
+play,5,0,craww101,00,,NP
 sub,stroj102,"John Strohmayer",1,9,1
-play,5,0,craww101,??,,8
+play,5,0,craww101,??,,8/L
 play,5,0,cey-r001,??,,W
-play,5,0,joshv101,??,,S9.1-2
-play,5,0,russb001,??,,65(2)/FO.1-2
-play,5,0,ostec103,??,,K/C
-play,5,1,huntr101,??,,43
-play,5,1,woodr102,??,,7
-play,5,1,mashc101,??,,W
+play,5,0,joshv101,10,BX,S9/L9.1-2
+play,5,0,russb001,11,BCX,65(2)/FO.1-2
+play,5,0,ostec103,22,FBBFC,K/C
+play,5,1,huntr101,00,X,43
+play,5,1,woodr102,10,BX,7
+play,5,1,mashc101,32,BBCBCB,W
 play,5,1,breeh101,??,,7
-play,6,0,loped001,??,,W
-play,6,0,buckb001,??,,CS2(26)#
-play,6,0,buckb001,??,,K
-play,6,0,daviw102,??,,8
-play,6,1,bailb103,??,,W
-play,6,1,singk001,??,,64(1)3/GDP
-play,6,1,boccj101,??,,S5
+play,6,0,loped001,32,,W
+play,6,0,buckb001,01,LS,CS2(26)
+play,6,0,buckb001,02,LS.S,K
+play,6,0,daviw102,00,X,8
+play,6,1,bailb103,31,BCBBB,W
+play,6,1,singk001,22,CBBSX,64(1)3/GDP
+play,6,1,boccj101,??,,S5/G56
 play,6,1,friap101,??,,S8.1-2
-play,6,1,stroj102,??,,NP
+play,6,1,stroj102,00,,NP
 sub,fairr101,"Ron Fairly",1,9,11
 play,6,1,fairr101,??,,43
-com,"Game called for rain"
+com,"$Game called due to rain"
 data,er,ostec103,2
 data,er,stonb101,6
 data,er,scotm101,0
@@ -4113,8 +4112,7 @@ play,8,1,day-b102,??,,46(1)/FO
 play,9,0,loped001,??,,S8
 play,9,0,buckb001,??,,S8.1-3;BX2(854)
 play,9,0,daviw102,??,,S7.3-H
-play,9,0,fergj101,??,,SB2#
-play,9,0,fergj101,??,,K
+play,9,0,fergj101,??,,K+SB2
 play,9,0,craww101,??,,FC3.2XH(32)#
 play,9,1,boccj101,??,,8
 play,9,1,folit001,??,,W
@@ -6396,20 +6394,20 @@ info,hometeam,MON
 info,site,MON01
 info,date,1973/07/09
 info,number,0
-info,starttime,0:00PM
+info,starttime,8:20PM
 info,daynight,night
 info,usedh,false
 info,umphome,pryop901
 info,ump1b,froeb901
 info,ump2b,tatat901
 info,ump3b,varge901
-info,scorer,"Cin"
+info,scorer,"Cin,Roth"
 info,translator,"Comly"
-info,inputter,"Comly"
+info,inputter,"Comly + Wigley from Roth"
 info,inputtime,1996/06/23 8:57PM
 info,howscored,park
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,80
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -6439,153 +6437,153 @@ start,singk001,"Ken Singleton",1,6,9
 start,boccj101,"John Boccabella",1,7,2
 start,friap101,"Pepe Frias",1,8,6
 start,stonb101,"Bill Stoneman",1,9,1
-play,1,0,rosep001,??,,W
-play,1,0,morgj001,??,,HR/9.1-H
-play,1,0,dried001,??,,S
-play,1,0,bencj101,??,,D.1-H
-play,1,0,peret001,??,,53
-play,1,0,tolab101,??,,43
-play,1,0,concd001,??,,63
-play,1,1,huntr101,??,,W
-play,1,1,mashc101,??,,53.1-2
-play,1,1,bailb103,??,,K
-play,1,1,breeh101,??,,W
-play,1,1,woodr102,??,,W.2-3;1-2
-play,1,1,singk001,??,,K
-play,2,0,stahl101,??,,13
-play,2,0,hallt101,??,,K
-play,2,0,rosep001,??,,S
-play,2,0,morgj001,??,,W.1-2
-play,2,0,dried001,??,,9
-play,2,1,boccj101,??,,63
-play,2,1,friap101,??,,W
-play,2,1,stonb101,??,,NP
+play,1,0,rosep001,31,BBBCB,W
+play,1,0,morgj001,00,X,HR/F9D.1-H
+play,1,0,dried001,31,BFBBX,S7/L78S
+play,1,0,bencj101,22,BCBFX,D8/F78D.1-H
+play,1,0,peret001,22,BCFBX,63/G56
+play,1,0,tolab101,00,X,43
+play,1,0,concd001,10,BX,63
+play,1,1,huntr101,32,BCBBCB,W
+play,1,1,mashc101,00,X,53.1-2
+play,1,1,bailb103,12,SCBS,K
+play,1,1,breeh101,32,FBBCFBB,W
+play,1,1,woodr102,31,FBBBB,W.2-3;1-2
+play,1,1,singk001,22,BSBCS,K
+play,2,0,stahl101,32,BBBCSFX,13
+play,2,0,hallt101,12,BCFS,K
+play,2,0,rosep001,00,X,S6/G6M
+play,2,0,morgj001,30,BBBB,W.1-2
+play,2,0,dried001,00,X,9/F9DW
+play,2,1,boccj101,00,X,63
+play,2,1,friap101,32,BBBCCFB,W
+play,2,1,stonb101,00,,NP
 sub,renks101,"Steve Renko",1,9,11
-play,2,1,renks101,??,,W.1-2
-play,2,1,huntr101,??,,D.2-H;1-H
-play,2,1,mashc101,??,,K
-play,2,1,bailb103,??,,K
-play,3,0,bencj101,??,,NP
+play,2,1,renks101,32,.BBBCFB,W.1-2
+play,2,1,huntr101,21,BCBX,D7/L7L.2-H;1-H
+play,2,1,mashc101,12,BCFS,K
+play,2,1,bailb103,22,BCCBS,K
+play,3,0,bencj101,00,,NP
 sub,walkt103,"Tom Walker",1,9,1
-play,3,0,bencj101,??,,HR
-play,3,0,peret001,??,,63
-play,3,0,tolab101,??,,K
-play,3,0,concd001,??,,W
-play,3,0,stahl101,??,,SB2
-play,3,0,stahl101,??,,IW
-play,3,0,hallt101,??,,WP.2-3;1-2
-play,3,0,hallt101,??,,9
-play,3,1,breeh101,??,,D7
-play,3,1,woodr102,??,,W
-play,3,1,singk001,??,,54(1)/FO.2-3
-play,3,1,boccj101,??,,K/C
-play,3,1,friap101,??,,S8.3-H;1-2
-play,3,1,walkt103,??,,NP
+play,3,0,bencj101,00,.X,HR/F9D
+play,3,0,peret001,22,FBBFX,63
+play,3,0,tolab101,12,BFFS,K
+play,3,0,concd001,32,CBBBFB,W
+play,3,0,stahl101,01,CB,SB2
+play,3,0,stahl101,31,CB.III,IW
+play,3,0,hallt101,00,B,WP.2-3;1-2
+play,3,0,hallt101,22,B.BCFFX,9/F89
+play,3,1,breeh101,00,X,D7/G5
+play,3,1,woodr102,31,BBFBB,W
+play,3,1,singk001,32,BBCFBX,54(1)/FO.2-3
+play,3,1,boccj101,22,BFBFFC,K/C
+play,3,1,friap101,22,FBBCX,S8/G6M.3-H;1-2
+play,3,1,walkt103,00,,NP
 sub,humpt101,"Terry Humphrey",1,9,11
-play,3,1,humpt101,??,,K/C
-play,4,0,rosep001,??,,NP
+play,3,1,humpt101,02,.FCC,K/C
+play,4,0,rosep001,00,,NP
 sub,gilbj103,"Joe Gilbert",1,9,1
-play,4,0,rosep001,??,,63
-play,4,0,morgj001,??,,W
-play,4,0,dried001,??,,CS2(26)
-play,4,0,dried001,??,,23
-play,4,1,huntr101,??,,W
-play,4,1,mashc101,??,,NP
+play,4,0,rosep001,11,.BCX,63/G6M
+play,4,0,morgj001,30,BBBB,W
+play,4,0,dried001,00,B,CS2(26)
+play,4,0,dried001,10,B.X,23/G2
+play,4,1,huntr101,32,BBBCCB,W
+play,4,1,mashc101,00,,NP
 sub,borbp101,"Pedro Borbon",0,9,1
-play,4,1,mashc101,??,,14/SH.1-2
-play,4,1,bailb103,??,,13
-play,4,1,breeh101,??,,S.2-H
-play,4,1,woodr102,??,,E6.1-2;B-1
-play,4,1,singk001,??,,W.2-3;1-2
-play,4,1,boccj101,??,,64(1)/FO
-play,5,0,bencj101,??,,7/FL
-play,5,0,peret001,??,,S8
-play,5,0,tolab101,??,,W.1-2
-play,5,0,concd001,??,,K
-play,5,0,stahl101,??,,NP
+play,4,1,mashc101,00,.X,14/SH.1-2
+play,4,1,bailb103,01,FX,13
+play,4,1,breeh101,10,BX,S9/L9S.2-H
+play,4,1,woodr102,10,BX,E6/G6.1-2;B-1
+play,4,1,singk001,32,CBBCFBB,W.2-3;1-2
+play,4,1,boccj101,00,X,64(1)/FO
+play,5,0,bencj101,10,BX,7/FL/F7LF
+play,5,0,peret001,21,BBFX,S8/F89D
+play,5,0,tolab101,30,BBBB,W.1-2
+play,5,0,concd001,22,BFCBS,K
+play,5,0,stahl101,00,,NP
 sub,kosca101,"Andy Kosco",0,8,11
-play,5,0,kosca101,??,,W.2-3;1-2
-play,5,0,borbp101,??,,NP
+play,5,0,kosca101,32,.BCBFBFFFB,W.2-3;1-2
+play,5,0,borbp101,00,,NP
 sub,gaglp101,"Phil Gagliano",0,9,11
-play,5,0,gaglp101,??,,6/L
-play,5,1,friap101,??,,NP
+play,5,0,gaglp101,11,.CBX,6/L
+play,5,1,friap101,00,,NP
 sub,kosca101,"Andy Kosco",0,8,9
-play,5,1,friap101,??,,NP
+play,5,1,friap101,00,.,NP
 sub,sprae101,"Ed Sprague",0,9,1
-play,5,1,friap101,??,,43
-play,5,1,gilbj103,??,,K
-play,5,1,huntr101,??,,53
+play,5,1,friap101,02,..CFX,43
+play,5,1,gilbj103,22,BBCCS,K
+play,5,1,huntr101,32,BCBCBX,53
 play,6,0,rosep001,??,,W
-play,6,0,morgj001,??,,W.1-2
-play,6,0,dried001,??,,NP
+play,6,0,morgj001,32,CBBFFBB,W.1-2
+play,6,0,dried001,00,,NP
 sub,menkd101,"Denis Menke",0,3,11
-play,6,0,menkd101,??,,NP
+play,6,0,menkd101,00,.,NP
 sub,jarvp101,"Pat Jarvis",1,9,1
-play,6,0,menkd101,??,,E1/SH.2-3;1-2;B-1
-play,6,0,bencj101,??,,8/SF.3-H
-play,6,0,peret001,??,,W.2-3;1-2
-play,6,0,tolab101,??,,S9.3-H;2-H(UR);1-2
-play,6,0,concd001,??,,31.2-3;1-2
-play,6,0,kosca101,??,,IW
-play,6,0,sprae101,??,,NP
+play,6,0,menkd101,??,..X,E1/SH.2-3;1-2;B-1
+play,6,0,bencj101,??,,8/SF/F8XD.3-H
+play,6,0,peret001,32,BCBBFFB,W.2-3;1-2
+play,6,0,tolab101,21,BBFX,S9/L9S.3-H;2-H(UR);1-2
+play,6,0,concd001,01,CX,31.2-3;1-2
+play,6,0,kosca101,30,BIII,IW
+play,6,0,sprae101,00,,NP
 sub,kingh102,"Hal King",0,9,11
-play,6,0,kingh102,??,,HR/9.3-H(UR);2-H(UR);1-H(UR);B-H(UR)
-play,6,0,rosep001,??,,W
-play,6,0,morgj001,??,,S8.1-2
-play,6,0,menkd101,??,,W.2-3;1-2
-play,6,0,bencj101,??,,NP
+play,6,0,kingh102,11,.CBX,HR/9.3-H(UR);2-H(UR);1-H(UR);B-H(UR)
+play,6,0,rosep001,30,BBBB,W
+play,6,0,morgj001,10,BX,S9/L9S.1-2
+play,6,0,menkd101,31,BBBCB,W.2-3;1-2
+play,6,0,bencj101,00,,NP
 sub,stroj102,"John Strohmayer",1,9,1
-play,6,0,bencj101,??,,54(1)/FO
-play,6,1,mashc101,??,,NP
+play,6,0,bencj101,00,.X,54(1)/FO
+play,6,1,mashc101,00,,NP
 sub,geroc101,"Cesar Geronimo",0,8,8
-play,6,1,mashc101,??,,NP
+play,6,1,mashc101,00,.,NP
 sub,tolab101,"Bobby Tolan",0,6,9
-play,6,1,mashc101,??,,NP
+play,6,1,mashc101,00,..,NP
 sub,carrc103,"Clay Carroll",0,9,1
-play,6,1,mashc101,??,,NP
+play,6,1,mashc101,00,...,NP
 sub,menkd101,"Denis Menke",0,3,5
-play,6,1,mashc101,??,,NP
+play,6,1,mashc101,00,....,NP
 sub,day-b102,"Boots Day",1,2,11
-play,6,1,day-b102,??,,W
-play,6,1,bailb103,??,,54(1)3/GDP
-play,6,1,breeh101,??,,K
-play,7,0,peret001,??,,NP
+play,6,1,day-b102,32,.....BCBCBB,W
+play,6,1,bailb103,22,BCCBX,54(1)3/GDP
+play,6,1,breeh101,12,BCFS,K
+play,7,0,peret001,00,,NP
 sub,day-b102,"Boots Day",1,2,7
-play,7,0,peret001,??,,63
-play,7,0,tolab101,??,,6/P
-play,7,0,concd001,??,,7
-play,7,1,woodr102,??,,NP
+play,7,0,peret001,01,.SX,63
+play,7,0,tolab101,10,BX,6/P5D
+play,7,0,concd001,12,BCCX,7
+play,7,1,woodr102,00,,NP
 sub,fairr101,"Ron Fairly",1,5,11
-play,7,1,fairr101,??,,S
-play,7,1,singk001,??,,7
-play,7,1,boccj101,??,,46(1)3/GDP
-play,8,0,geroc101,??,,NP
+play,7,1,fairr101,01,.CX,S9/L9S
+play,7,1,singk001,22,BCBFX,7
+play,7,1,boccj101,11,BFX,46(1)3/GDP
+play,8,0,geroc101,00,,NP
 sub,fairr101,"Ron Fairly",1,5,7
-play,8,0,geroc101,??,,NP
+play,8,0,geroc101,00,.,NP
 sub,day-b102,"Boots Day",1,2,8
-play,8,0,geroc101,??,,4
-play,8,0,carrc103,??,,63
-play,8,0,rosep001,??,,W
-play,8,0,morgj001,??,,9
-play,8,1,friap101,??,,63
-play,8,1,stroj102,??,,NP
+play,8,0,geroc101,00,..X,4
+play,8,0,carrc103,21,BCBX,63/G6M
+play,8,0,rosep001,32,BCCBBB,W
+play,8,0,morgj001,31,BBBCX,9/F89D
+play,8,1,friap101,00,X,63
+play,8,1,stroj102,00,,NP
 sub,jorgm001,"Mike Jorgensen",1,9,11
-play,8,1,jorgm001,??,,D
-play,8,1,huntr101,??,,53
-play,8,1,day-b102,??,,8
-play,9,0,menkd101,??,,NP
+play,8,1,jorgm001,00,.X,D9/L89
+play,8,1,huntr101,21,BCBX,53
+play,8,1,day-b102,11,CBX,8
+play,9,0,menkd101,00,,NP
 sub,jorgm001,"Mike Jorgensen",1,9,8
-play,9,0,menkd101,??,,NP
+play,9,0,menkd101,00,.,NP
 sub,scotm101,"Mickey Scott",1,2,1
-play,9,0,menkd101,??,,K
-play,9,0,bencj101,??,,W
-play,9,0,peret001,??,,S.1-2
-play,9,0,tolab101,??,,64(1)3/GDP
+play,9,0,menkd101,12,..BFFC,K/C
+play,9,0,bencj101,30,BBBB,W
+play,9,0,peret001,21,BCBX,S8/F78D.1-2
+play,9,0,tolab101,12,BCCFX,64(1)3/GDP
 play,9,1,bailb103,??,,D
 play,9,1,breeh101,??,,13
 play,9,1,fairr101,??,,W
-play,9,1,singk001,??,,S.2-H;1-2
-play,9,1,boccj101,??,,S.2-3;1-2
+play,9,1,singk001,??,,S7.2-H;1-2
+play,9,1,boccj101,??,,S9.2-3;1-2
 play,9,1,friap101,??,,S.3-H;2-3;1-2
 play,9,1,jorgm001,??,,5/FL
 play,9,1,huntr101,??,,3/P
@@ -9505,20 +9503,20 @@ info,hometeam,MON
 info,site,MON01
 info,date,1973/08/27
 info,number,0
-info,starttime,0:00PM
+info,starttime,8:20PM
 info,daynight,night
 info,usedh,false
 info,umphome,pullf901
 info,ump1b,burkk101
 info,ump2b,weyel901
 info,ump3b,kiblj901
-info,scorer,"40"
+info,scorer,"40,Roth"
 info,translator,"David W. Smith"
-info,inputter,"David W. Smith"
+info,inputter,"David W. Smith + Wigley from Roth"
 info,inputtime,1999/05/29 4:46PM
 info,howscored,park
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,77
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -9548,91 +9546,91 @@ start,alleb105,"Bernie Allen",1,6,5
 start,stinb101,"Bob Stinson",1,7,2
 start,folit001,"Tim Foli",1,8,6
 start,roges001,"Steve Rogers",1,9,1
-play,1,0,loped001,??,,7/7D
-play,1,0,buckb001,??,,W
-play,1,0,daviw102,??,,46(1)/FO
-play,1,0,fergj101,??,,64(1)/FO
-play,1,1,jorgm001,??,,13
-play,1,1,lintl101,??,,W
-play,1,1,fairr101,??,,SB2
-play,1,1,fairr101,??,,W
-play,1,1,singk001,??,,S9.2-H;1-3
-play,1,1,day-b102,??,,K
-play,1,1,alleb105,??,,3/L
-play,2,0,craww101,??,,7/7D
-play,2,0,garvs001,??,,43
-play,2,0,russb001,??,,53
-play,2,1,stinb101,??,,HR/9
-play,2,1,folit001,??,,8
-play,2,1,roges001,??,,9
-play,2,1,jorgm001,??,,W
-play,2,1,lintl101,??,,HP.1-2
-play,2,1,fairr101,??,,2/P
-play,3,0,cey-r001,??,,53
-play,3,0,messa101,??,,8
-play,3,0,loped001,??,,K
-play,3,1,singk001,??,,K
-play,3,1,day-b102,??,,4
-play,3,1,alleb105,??,,43
-play,4,0,buckb001,??,,13
-play,4,0,daviw102,??,,63
-play,4,0,fergj101,??,,S7
-play,4,0,craww101,??,,43
-play,4,1,stinb101,??,,W
-play,4,1,folit001,??,,9
-play,4,1,roges001,??,,3/SH.1-2
-play,4,1,jorgm001,??,,K
-play,5,0,garvs001,??,,W
-play,5,0,russb001,??,,54(1)3/GDP
-play,5,0,cey-r001,??,,K
-play,5,1,lintl101,??,,3/BG
-play,5,1,fairr101,??,,K
-play,5,1,singk001,??,,13
-play,6,0,messa101,??,,8/8XD
-play,6,0,loped001,??,,63
-play,6,0,buckb001,??,,7/L
-play,6,1,day-b102,??,,K
-play,6,1,alleb105,??,,5/FL
-play,6,1,stinb101,??,,3/G
-play,7,0,daviw102,??,,9
-play,7,0,fergj101,??,,S7
-play,7,0,craww101,??,,WP.1-2#
-play,7,0,craww101,??,,K
-play,7,0,garvs001,??,,43
-play,7,1,folit001,??,,53
-play,7,1,roges001,??,,43
-play,7,1,jorgm001,??,,S9
-play,7,1,lintl101,??,,53
-play,8,0,russb001,??,,53
-play,8,0,cey-r001,??,,63
-play,8,0,messa101,??,,NP
+play,1,0,loped001,12,BCSX,7/F78D
+play,1,0,buckb001,31,CBBBB,W
+play,1,0,daviw102,12,FFBX,46(1)/FO
+play,1,0,fergj101,00,X,64(1)/FO
+play,1,1,jorgm001,11,CBX,13
+play,1,1,lintl101,30,BBBB,W
+play,1,1,fairr101,22,BC>FBB,SB2
+play,1,1,fairr101,32,BC>FBB.B,W
+play,1,1,singk001,11,BCX,S9/L89.2-H;1-3
+play,1,1,day-b102,02,CSS,K
+play,1,1,alleb105,31,BCBBX,3/L
+play,2,0,craww101,01,CX,7/7D
+play,2,0,garvs001,10,BX,43
+play,2,0,russb001,11,BCX,53
+play,2,1,stinb101,32,BBCBCFX,HR/9
+play,2,1,folit001,22,BCBFX,8
+play,2,1,roges001,10,BX,9/L
+play,2,1,jorgm001,30,BBBB,W
+play,2,1,lintl101,00,H,HP.1-2
+play,2,1,fairr101,20,BBX,2/P2
+play,3,0,cey-r001,20,BBX,53
+play,3,0,messa101,12,BFFX,8
+play,3,0,loped001,32,BCBSBS,K
+play,3,1,singk001,12,BCCS,K
+play,3,1,day-b102,00,X,4/P4M
+play,3,1,alleb105,12,CCFBX,43
+play,4,0,buckb001,00,X,13
+play,4,0,daviw102,10,BX,63/G6M
+play,4,0,fergj101,00,X,S7/G56
+play,4,0,craww101,10,BX,46(1)/FO/G4M
+play,4,1,stinb101,32,BCBSBB,W
+play,4,1,folit001,21,BBCX,9/F89XD
+play,4,1,roges001,01,LX,3/SH/BG3S.1-2
+play,4,1,jorgm001,12,FBCS,K
+play,5,0,garvs001,30,BBBB,W
+play,5,0,russb001,01,FX,54(1)3/GDP
+play,5,0,cey-r001,22,BCBSS,K
+play,5,1,lintl101,00,X,3/BG3S
+play,5,1,fairr101,02,CCS,K
+play,5,1,singk001,00,X,13
+play,6,0,messa101,21,BFBX,8/F8XD
+play,6,0,loped001,21,BSBX,63/G6M
+play,6,0,buckb001,01,FX,7/L
+play,6,1,day-b102,22,BBSMS,K
+play,6,1,alleb105,22,SBBSX,5/FL/P5F
+play,6,1,stinb101,00,X,3/G
+play,7,0,daviw102,00,X,9
+play,7,0,fergj101,22,BSCBX,S7/L7S
+play,7,0,craww101,02,FKS,K
+play,7,0,garvs001,00,B,WP.1-2
+play,7,0,garvs001,10,B.X,43
+play,7,1,folit001,32,BCBSBX,53
+play,7,1,roges001,00,X,43
+play,7,1,jorgm001,32,FBBBFX,S9/L9S
+play,7,1,lintl101,00,X,53
+play,8,0,russb001,21,BBCX,53
+play,8,0,cey-r001,00,X,63
+play,8,0,messa101,00,,NP
 sub,joshv101,"Von Joshua",0,9,11
-play,8,0,joshv101,??,,K
-play,8,1,fairr101,??,,NP
+play,8,0,joshv101,12,.SBCS,K
+play,8,1,fairr101,00,,NP
 sub,rau-d101,"Doug Rau",0,9,1
-play,8,1,fairr101,??,,W
-play,8,1,singk001,??,,NP
+play,8,1,fairr101,31,.BCBBB,W
+play,8,1,singk001,00,,NP
 sub,mangp101,"Pepe Mangual",1,3,12
-play,8,1,singk001,??,,SB2
-play,8,1,singk001,??,,K
-play,8,1,day-b102,??,,NP
+play,8,1,singk001,22,.BCBCB,SB2
+play,8,1,singk001,32,.BCBCB.S,K
+play,8,1,day-b102,00,,NP
 sub,woodr102,"Ron Woods",1,5,11
-play,8,1,woodr102,??,,8
-play,8,1,alleb105,??,,NP
+play,8,1,woodr102,31,.BBCBX,8
+play,8,1,alleb105,00,,NP
 sub,bailb103,"Bob Bailey",1,6,11
-play,8,1,bailb103,??,,IW
-play,8,1,stinb101,??,,D7.2-H;1-H
-play,8,1,folit001,??,,9
-play,9,0,loped001,??,,NP
+play,8,1,bailb103,31,.FBBBI,IW
+play,8,1,stinb101,32,FFFBBBX,D7/F78D.2-H;1-H
+play,8,1,folit001,00,X,9
+play,9,0,loped001,00,,NP
 sub,mangp101,"Pepe Mangual",1,3,7
-play,9,0,loped001,??,,NP
+play,9,0,loped001,00,.,NP
 sub,woodr102,"Ron Woods",1,5,8
-play,9,0,loped001,??,,NP
+play,9,0,loped001,00,..,NP
 sub,friap101,"Pepe Frias",1,6,5
-play,9,0,loped001,??,,8
-play,9,0,buckb001,??,,13
-play,9,0,daviw102,??,,S/78
-play,9,0,fergj101,??,,63
+play,9,0,loped001,32,...BCCFBBX,8
+play,9,0,buckb001,01,CX,13
+play,9,0,daviw102,02,CCX,S8/L78
+play,9,0,fergj101,01,FX,63
 data,er,messa101,2
 data,er,rau-d101,2
 data,er,roges001,0

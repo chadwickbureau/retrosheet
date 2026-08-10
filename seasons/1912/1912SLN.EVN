@@ -193,7 +193,7 @@ play,2,0,wagnh101,??,,53
 play,2,0,milld102,??,,S7
 play,2,0,wilsc102,??,,T9.1-H
 play,2,0,mccaa103,??,,CSH(2)
-com,"$failed squeeze play"
+com,"$Failed squeeze play"
 play,2,0,mccaa103,??,,S7
 play,2,0,gibsg101,??,,SB2
 play,2,0,gibsg101,??,,63
@@ -250,7 +250,7 @@ sub,wingi101,"Ivey Wingo",1,9,11
 play,7,1,wingi101,??,,5E3
 play,7,1,huggm101,??,,46(1)/FO
 play,7,1,ellir102,??,,SB2
-play,7,1,ellir102,??,,S7.2-H
+play,7,1,ellir102,??,,S7.2-H(UR)
 play,7,1,oaker101,??,,CS2(24)
 play,8,0,milld102,??,,NP
 sub,geyer101,"Rube Geyer",1,9,1
@@ -279,7 +279,7 @@ play,10,1,konee101,??,,NP
 sub,magel101,"Lee Magee",1,2,12
 play,10,1,konee101,??,,K
 play,10,1,evans101,??,,S7.2-H
-data,er,hendc101,5
+data,er,hendc101,4
 data,er,steeb102,4
 data,er,geyer101,0
 id,SLN191204140
@@ -390,7 +390,7 @@ play,6,1,salls101,??,,K
 play,6,1,huggm101,??,,99
 play,7,0,lenne102,??,,S
 play,7,0,hofms101,??,,DGR/8.1-3
-com,"$Into overflow crowd in CF"
+com,"$Into CF overflow crowd"
 play,7,0,tinkj101,??,,4/P
 play,7,0,archj102,??,,13.3-H;2-3
 play,7,0,browm102,??,,53
@@ -424,7 +424,7 @@ play,10,0,shecj101,??,,W
 play,10,0,schuf103,??,,9/F
 play,10,1,konee101,??,,W
 play,10,1,evans101,??,,DGR/9.1-3
-com,"$Into overflow crowd in RF"
+com,"$Into RF overflow crowd"
 play,10,1,mowrm101,??,,NP
 sub,magel101,"Lee Magee",1,5,12
 play,10,1,mowrm101,??,,K
@@ -440,7 +440,7 @@ play,11,1,blisj101,??,,K
 play,11,1,salls101,??,,S8
 play,11,1,huggm101,??,,9/F
 play,11,1,ellir102,??,,DGR/9.1-3
-com,"$Into overflow crowd in RF"
+com,"$Into RF overflow crowd"
 play,11,1,oaker101,??,,5/FL
 play,12,0,browm102,??,,6/P
 play,12,0,everj102,??,,9/9S/F
@@ -1882,7 +1882,7 @@ play,8,0,devoj101,??,,HP
 play,8,0,fleta101,??,,SB2
 play,8,0,fleta101,??,,S2.2-3
 play,8,0,snodf101,??,,CSH(242).1-2
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,8,0,snodf101,??,,13.2-3
 play,8,0,beckb101,??,,T8.3-H
 play,8,0,merkf101,??,,6/P
@@ -2419,7 +2419,7 @@ play,3,1,ellir102,??,,99
 play,3,1,mowrm101,??,,S
 play,3,1,konee101,??,,S.1-3
 play,3,1,evans101,??,,CSH(262)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,4,0,kirkj101,??,,S
 play,4,0,devla101,??,,99/SH.1-2
 play,4,0,housb101,??,,W
@@ -3036,7 +3036,7 @@ play,3,1,mowrm101,??,,3/FL
 play,3,1,konee101,??,,W
 play,3,1,mille102,??,,S8.1-3
 play,3,1,hausa101,??,,CSH(2152)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,4,0,erwit101,??,,3/G
 play,4,0,yinge101,??,,S8
 play,4,0,morah101,??,,W.1-2
@@ -3192,7 +3192,7 @@ play,2,1,mowrm101,??,,64(1)/FO
 play,2,1,konee101,??,,K#
 play,2,1,evans101,??,,S.1-3
 play,2,1,hausa101,??,,CSH(242)
-com,"$attempted double steal"
+com,"$Attempted double steal"
 play,3,0,moore103,??,,K#
 play,3,0,knabo101,??,,99
 play,3,0,tituj101,??,,99
@@ -3336,7 +3336,7 @@ play,3,1,wingi101,??,,D/78
 play,3,1,harmb101,??,,S5/BG.2-3
 play,3,1,huggm101,??,,9/FL
 play,3,1,ellir102,??,,CS2(26).3-H
-com,"$attempted double-steal (Wingo scored from 3rd"
+com,"$Attempted double-steal (Wingo scored from 3rd"
 com,"before third out was made at 2nd)"
 play,4,0,ludef101,??,,W
 play,4,0,paskd101,??,,PO1(E2).1-3
@@ -4093,7 +4093,7 @@ play,5,1,evans101,??,,53.3-H;1-2
 play,5,1,hausa101,??,,WP.2-3
 play,5,1,hausa101,??,,HP
 play,5,1,oaker101,??,,CSH(215)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,6,0,mitcm102,??,,S
 play,6,0,egand102,??,,99
 play,6,0,phela101,??,,S.1-2
@@ -4420,7 +4420,9 @@ play,9,0,phela101,??,,S8
 play,9,0,esmoj101,??,,7/F
 play,9,0,mclel101,??,,8/78S/F
 play,9,0,bentr102,??,,OA.1X2(4)
-com,"$Magee pulled hidden-ball trick on Phelan"
+com,"$Magee pulled hidden-ball trick on Phelan when Phelan"
+com,"tried to advance to 2nd when apparently nobody was"
+com,"paying attention to him"
 play,9,1,magel101,??,,99
 play,9,1,ellir102,??,,99
 play,9,1,mowrm101,??,,99
@@ -4518,7 +4520,7 @@ play,2,0,saiev101,??,,S8
 play,2,0,everj102,??,,S5/BG.1-2
 play,2,0,archj102,??,,99(1)/FO.2-3
 play,2,0,leifl101,??,,CSH(262).1-2
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,2,0,leifl101,??,,99
 play,2,1,smitw103,??,,S
 play,2,1,oaker101,??,,S7.1X3(75);B-2(TH)
@@ -4713,7 +4715,7 @@ play,6,0,archj102,??,,IW
 play,6,0,lavej101,??,,S8.2-H;1-2
 play,6,0,shecj101,??,,S9.2-H;1-3
 play,6,0,schuf103,??,,CSH(262)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,6,1,hausa101,??,,K
 play,6,1,konee101,??,,8/F
 play,6,1,evans101,??,,HR/9
@@ -6372,7 +6374,7 @@ play,4,0,schuf103,??,,99
 com,"umpchange,4,umphome,finnw901"
 com,"umpchange,4,ump1b,riglc901"
 com,"$HP umpire Rigler was overcome by the heat and"
-com,"switched places with umpire Finneran, who went behind"
+com,"switched places with umpire Finneran who went behind"
 com,"the plate for the remainder of the game"
 play,4,1,hausa101,??,,S7
 play,4,1,oaker101,??,,3/P
@@ -6524,7 +6526,7 @@ play,5,1,oaker101,??,,S
 play,5,1,wingi101,??,,CS2(99)
 com,"ej,bresr102,M,owenb901,Call at 2B"
 com,"$Cardinals manager Bresnahan ejected by 1B umpire"
-com,"Owens for arguing Oakes was out at 2nd"
+com,"Owens for arguing Oakes was safe at 2nd"
 play,5,1,wingi101,??,,99
 play,6,0,perdh101,??,,W#
 play,6,0,mcdoe101,??,,S.1-3#
@@ -7395,7 +7397,7 @@ play,3,1,smitw103,??,,S7.3-H;1-2
 play,3,1,konee101,??,,25(2)/FO/BG.1-2
 play,3,1,evans101,??,,46(1)/FO.2-3
 play,3,1,hausa101,??,,CSH(242)#
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,4,0,meyec101,??,,99
 play,4,0,shaft102,??,,99
 play,4,0,marqr102,??,,99
@@ -8180,7 +8182,7 @@ play,8,1,mowrm101,??,,S
 play,8,1,konee101,??,,9
 play,8,1,evans101,??,,S.1-3
 play,8,1,hausa101,??,,CSH(212)#
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,9,0,smitr108,??,,53
 play,9,0,daubj101,??,,S7
 play,9,0,cutsg101,??,,7/7D/F
@@ -8270,7 +8272,7 @@ play,3,1,magel101,??,,S4/G.3-H(UR);2-3
 play,3,1,mowrm101,??,,SBH(UR);SB2.1-3(E2/TH)
 play,3,1,mowrm101,??,,W
 play,3,1,konee101,??,,CSH(262)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,4,0,mages101,??,,4/P
 play,4,0,cravg101,??,,43
 play,4,0,ludef101,??,,13
@@ -8866,7 +8868,7 @@ play,5,1,konee101,??,,64(1)/FO.3-H;2-3
 play,5,1,evans101,??,,864(1)/FO/SF.3-H#
 play,5,1,hausa101,??,,S9.1-3
 play,5,1,oaker101,??,,CS2(2436).3-H
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,6,0,campv101,??,,K
 play,6,0,sweeb102,??,,E6/G
 play,6,0,jackg102,??,,T8/78.1-H(UR)
@@ -9172,7 +9174,7 @@ play,6,1,mowrm101,??,,CS3(25).1-2
 play,6,1,mowrm101,??,,K
 play,7,0,campv101,??,,NP
 sub,grind101,"Dan Griner",1,9,1
-com,"$Major league debut of Dan Griner"
+com,"$ML debut for Dan Griner"
 play,7,0,campv101,??,,3/G
 play,7,0,sweeb102,??,,K
 play,7,0,jackg102,??,,7/F
@@ -9263,7 +9265,7 @@ play,2,0,rarib101,??,,43
 play,2,1,konee101,??,,8
 play,2,1,evans101,??,,D9
 play,2,1,hausa101,??,,S6.2-3
-play,2,1,oaker101,??,,E4.3-H(RBI)(UR);1-2
+play,2,1,oaker101,??,,E4.3-H;1-2
 play,2,1,blisj101,??,,E7.2-3;1-2
 play,2,1,burks101,??,,52(3)/FO.2-3;1-2
 play,2,1,huggm101,??,,K
@@ -9349,7 +9351,7 @@ play,10,0,mcdoe101,??,,8(B)3(1)/FDP
 play,10,0,campv101,??,,99
 play,10,1,huggm101,??,,E6/TH
 play,10,1,magel101,??,,23/SH.1-2
-play,10,1,mowrm101,??,,S8.2-H
+play,10,1,mowrm101,??,,S8.2-H(UR)
 data,er,hesso101,1
 data,er,burks101,1
 data,er,salls101,1
@@ -9859,7 +9861,7 @@ play,1,1,evans101,??,,64(1)3/GDP.3-H;2-3
 play,1,1,hausa101,??,,S7.3-H
 play,1,1,oaker101,??,,S3/G.1-3
 play,1,1,wingi101,??,,CSH(262)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,2,0,wheaz101,??,,53
 play,2,0,cutsg101,??,,13
 play,2,0,fisht103,??,,3/G
@@ -10042,7 +10044,7 @@ play,4,1,smitw103,??,,S8/P.2X3(85);B-2
 play,4,1,konee101,??,,SB3
 play,4,1,konee101,??,,W
 play,4,1,evans101,??,,CSH(1342)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,5,0,north101,??,,4/P
 play,5,0,smitr108,??,,5/P
 play,5,0,daubj101,??,,13
@@ -10077,7 +10079,7 @@ play,7,1,oaker101,??,,99
 play,7,1,wingi101,??,,99
 play,8,0,cutsg101,??,,NP
 sub,gallj101,"Jim Galloway",1,1,4
-com,"$Major league debut of Jim Galloway"
+com,"$ML debut for Jim Galloway"
 play,8,0,cutsg101,??,,99
 play,8,0,fisht103,??,,99
 play,8,0,phele101,??,,99
@@ -10920,7 +10922,7 @@ play,4,1,magel101,??,,9/L
 play,4,1,mowrm101,??,,8/F
 play,5,0,carem101,??,,NP
 sub,perrp101,"Pol Perritt",1,9,1
-com,"$Major league debut for Pol Perritt"
+com,"$ML debut for Pol Perritt"
 play,5,0,carem101,??,,3/BG
 play,5,0,donlm101,??,,43
 play,5,0,wagnh101,??,,K
@@ -10950,7 +10952,7 @@ play,8,1,konee101,??,,8/L
 play,8,1,evans101,??,,E6/P
 play,8,1,hausa101,??,,46(1)/FO
 play,8,1,gallj101,??,,S3/G.1-2
-play,8,1,bresr102,??,,S7.2-H;1-2
+play,8,1,bresr102,??,,S7.2-H(UR);1-2
 play,8,1,perrp101,??,,NP
 sub,rollr102,"Ray Rolling",1,8,12
 play,8,1,perrp101,??,,K
@@ -10963,7 +10965,7 @@ play,9,1,gilhf101,??,,43
 play,9,1,magel101,??,,S8
 play,9,1,mowrm101,??,,9/F
 play,9,1,konee101,??,,2/FL
-data,er,robih102,1
+data,er,robih102,0
 data,er,burks101,2
 data,er,perrp101,1
 id,SLN191209080

@@ -430,6 +430,7 @@ line,0,0,1,0,0,2,1,0,0,0
 line,1,0,0,0,3,0,0,1,2
 stat,tline,0,5,6,0,0
 stat,tline,1,6,4,0,0
+com,""ej,helmt101,P,venzt901,Call at 1B""
 id,ATL196904120
 version,3
 info,visteam,CIN
@@ -979,9 +980,9 @@ info,umphome,engeb901
 info,ump1b,steld901
 info,ump2b,donaa901
 info,ump3b,steim901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -1083,9 +1084,9 @@ info,umphome,steld901
 info,ump1b,donaa901
 info,ump2b,steim901
 info,ump3b,engeb901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -1745,6 +1746,7 @@ line,0,2,0,0,1,0,0,0,0,0
 line,1,0,0,0,0,3,1,1,0
 stat,tline,0,7,5,1,0
 stat,tline,1,11,3,1,0
+com,""ej,maucg101,M,lands901,Balk call""
 id,ATL196905210
 version,3
 info,visteam,NYN
@@ -2608,9 +2610,9 @@ info,umphome,lands901
 info,ump1b,willb901
 info,ump2b,colon901
 info,ump3b,gormt101
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -2947,9 +2949,9 @@ info,umphome,gormt101
 info,ump1b,lands901
 info,ump2b,willb901
 info,ump3b,colon901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -3373,9 +3375,9 @@ info,umphome,davis901
 info,ump1b,pryop901
 info,ump2b,venzt901
 info,ump3b,secof101
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -3478,9 +3480,9 @@ info,umphome,pryop901
 info,ump1b,venzt901
 info,ump2b,secof101
 info,ump3b,davis901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -3593,9 +3595,9 @@ info,umphome,venzt901
 info,ump1b,secof101
 info,ump2b,davis901
 info,ump3b,pryop901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -3720,9 +3722,9 @@ info,umphome,secof101
 info,ump1b,davis901
 info,ump2b,pryop901
 info,ump3b,venzt901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -3929,19 +3931,19 @@ info,hometeam,ATL
 info,site,ATL01
 info,date,1969/06/21
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:20PM
 info,daynight,day
 info,usedh,false
 info,umphome,varge901
 info,ump1b,olsea901
 info,ump2b,(none)
 info,ump3b,barla901
-info,temp,0
+info,temp,90
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
-info,precip,unknown
-info,sky,unknown
+info,precip,none
+info,sky,cloudy
 info,timeofgame,139
 info,attendance,33206
 info,wp,bolib101
@@ -3994,20 +3996,20 @@ stat,pline,doylp101,1,2,5,0,6,2,1,0,0,1,1,0,0,0,0,0,0,0,1
 stat,pline,raymc101,1,3,3,0,4,1,0,0,0,1,0,0,0,0,0,0,0,0,1
 stat,dline,bondb101,0,1,9,27,6,0,0,0,0,0
 stat,dline,huntr101,0,1,4,27,4,3,0,0,0,0
-stat,dline,maysw101,0,1,8,27,0,0,0,0,0,0
+stat,dline,maysw101,0,1,8,27,1,0,0,0,0,0
 stat,dline,mccow101,0,1,3,27,6,0,0,0,0,0
 stat,dline,hartj102,0,1,7,18,2,0,0,0,0,0
 stat,dline,hendk101,0,1,7,9,0,0,0,0,0,0
 stat,dline,davej101,0,1,5,27,3,3,0,0,0,0
-stat,dline,dietd101,0,1,2,27,4,0,0,0,0,0
+stat,dline,dietd101,0,1,2,27,3,0,0,0,0,0
 stat,dline,lanih101,0,1,6,27,2,2,0,0,0,0
 stat,dline,bolib101,0,1,1,27,0,0,0,0,0,0
 stat,dline,millf105,1,1,4,27,1,4,0,1,0,0
-stat,dline,gonzt101,1,1,8,27,2,0,0,0,0,0
+stat,dline,gonzt101,1,1,8,27,3,0,0,0,0,0
 stat,dline,aaroh101,1,1,9,27,3,1,0,0,0,0
 stat,dline,cepeo101,1,1,3,27,9,2,0,2,0,0
 stat,dline,cartr101,1,1,7,27,0,0,0,0,0,0
-stat,dline,asprb101,1,1,5,27,4,1,1,0,0,0
+stat,dline,asprb101,1,1,5,27,3,1,1,0,0,0
 stat,dline,jacks102,1,1,6,27,4,3,0,2,0,0
 stat,dline,didib101,1,1,2,27,3,1,1,0,0,0
 stat,dline,niekp001,1,1,1,19,1,1,0,1,0,0
@@ -5045,6 +5047,7 @@ line,0,2,0,0,1,0,0,1,0,0
 line,1,2,3,0,2,0,0,2,0
 stat,tline,0,9,9,0,0
 stat,tline,1,12,4,1,0
+com,""ej,pappm101,P,weyel901,Bench jockeyin about hit batters""
 id,ATL196907181
 version,3
 info,visteam,SDN
@@ -5059,9 +5062,9 @@ info,umphome,steim901
 info,ump1b,engeb901
 info,ump2b,steld901
 info,ump3b,donaa901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -5164,9 +5167,9 @@ info,umphome,engeb901
 info,ump1b,steld901
 info,ump2b,donaa901
 info,ump3b,steim901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -5276,9 +5279,9 @@ info,umphome,steld901
 info,ump1b,donaa901
 info,ump2b,steim901
 info,ump3b,engeb901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -5384,9 +5387,9 @@ info,umphome,donaa901
 info,ump1b,steim901
 info,ump2b,engeb901
 info,ump3b,steld901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -5723,9 +5726,9 @@ info,umphome,barla901
 info,ump1b,varge901
 info,ump2b,kiblj901
 info,ump3b,olsea901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -7256,6 +7259,7 @@ line,0,3,1,0,0,0,0,1,0,0
 line,1,2,0,0,0,0,0,1,1,0
 stat,tline,0,7,4,0,0
 stat,tline,1,11,5,1,0
+com,""ej,gonzt101,P,pryop901,Call at 1B""
 id,ATL196908310
 version,3
 info,visteam,CHN
@@ -7399,9 +7403,9 @@ info,umphome,sudoe901
 info,ump1b,weyel901
 info,ump2b,wendh901
 info,ump3b,burkk101
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -7501,9 +7505,9 @@ info,umphome,weyel901
 info,ump1b,wendh901
 info,ump2b,burkk101
 info,ump3b,sudoe901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -8076,9 +8080,9 @@ info,umphome,kiblj901
 info,ump1b,olsea901
 info,ump2b,barla901
 info,ump3b,varge901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -8184,9 +8188,9 @@ info,umphome,olsea901
 info,ump1b,barla901
 info,ump2b,varge901
 info,ump3b,kiblj901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -8312,9 +8316,9 @@ info,umphome,barla901
 info,ump1b,varge901
 info,ump2b,kiblj901
 info,ump3b,olsea901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -8419,9 +8423,9 @@ info,umphome,willb901
 info,ump1b,colon901
 info,ump2b,gormt101
 info,ump3b,lands901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -8541,9 +8545,9 @@ info,umphome,colon901
 info,ump1b,gormt101
 info,ump2b,lands901
 info,ump3b,willb901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -8646,9 +8650,9 @@ info,umphome,gormt101
 info,ump1b,lands901
 info,ump2b,willb901
 info,ump3b,colon901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -9623,6 +9627,7 @@ line,0,0,0,2,0,3,0,0,1,0
 line,1,2,2,0,0,0,0,0,0,3
 stat,tline,0,4,1,1,0
 stat,tline,1,8,1,0,0
+com,""ej,hundr101,P,donaa901,Called third strike""
 id,CHN196904140
 version,3
 info,visteam,PIT
@@ -11837,8 +11842,8 @@ info,ump1b,steld901
 info,ump2b,donaa901
 info,ump3b,steim901
 info,temp,60
-info,winddir,unknown
-info,windspeed,-1
+info,winddir,rtol
+info,windspeed,12
 info,fieldcond,wet
 info,precip,rain
 info,sky,overcast
@@ -11905,7 +11910,7 @@ stat,pline,aguih101,1,4,2,0,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,dline,rosep001,0,1,8,24,0,0,0,0,0,0
 stat,dline,tolab101,0,1,9,24,2,0,0,0,0,0
 stat,dline,johna104,0,1,7,24,0,0,0,0,0,0
-stat,dline,peret001,0,1,5,24,0,6,0,0,0,0
+stat,dline,peret001,0,1,5,24,0,7,0,0,0,0
 stat,dline,may-l101,0,1,3,24,9,0,0,0,0,0
 stat,dline,bencj101,0,1,2,21,5,0,0,0,0,0
 stat,dline,woodw101,0,1,6,3,1,0,0,0,0,0
@@ -12045,6 +12050,7 @@ line,0,1,0,0,0,0,1,1,1,0
 line,1,0,0,0,0,0,0,1,0,0
 stat,tline,0,8,1,1,0
 stat,tline,1,9,4,1,0
+com,""ej,durol101,M,donaa901,Taking too long to change pitchers""
 id,CHN196906200
 version,3
 info,visteam,MON
@@ -14386,10 +14392,10 @@ info,ump1b,venzt901
 info,ump2b,secof101
 info,ump3b,davis901
 info,temp,85
-info,winddir,unknown
-info,windspeed,-1
+info,winddir,tocf
+info,windspeed,14
 info,fieldcond,unknown
-info,precip,unknown
+info,precip,none
 info,sky,cloudy
 info,timeofgame,187
 info,attendance,29172
@@ -14953,6 +14959,7 @@ line,0,0,0,1,0,0,1,0,1,3
 line,1,1,0,0,0,0,0,1,1,0
 stat,tline,0,9,3,0,0
 stat,tline,1,8,6,1,0
+com,""ej,bartb101,P,kiblj901,Call at 2B""
 id,CHN196907310
 version,3
 info,visteam,SFN
@@ -15803,8 +15810,8 @@ info,ump1b,gormt101
 info,ump2b,secof101
 info,ump3b,lands901
 info,temp,76
-info,winddir,unknown
-info,windspeed,-1
+info,winddir,rtol
+info,windspeed,8
 info,fieldcond,dry
 info,precip,none
 info,sky,sunny
@@ -16367,6 +16374,7 @@ line,0,3,4,0,0,0,0,0,0,1
 line,1,1,0,0,1,2,0,2,0,1
 stat,tline,0,9,5,0,0
 stat,tline,1,6,7,0,0
+com,""ej,durol101,M,craws901,Abusive language and kicking umpire""
 id,CHN196908270
 version,3
 info,visteam,CIN
@@ -16700,8 +16708,8 @@ info,ump1b,sudoe901
 info,ump2b,weyel901
 info,ump3b,wendh901
 info,temp,83
-info,winddir,unknown
-info,windspeed,-1
+info,winddir,ltor
+info,windspeed,10
 info,fieldcond,wet
 info,precip,rain
 info,sky,overcast
@@ -16934,6 +16942,7 @@ line,0,1,1,0,0,0,2,0,0,1,0,2
 line,1,1,0,1,0,0,0,1,2,0,0,0
 stat,tline,0,12,4,4,0
 stat,tline,1,9,5,2,0
+com,""ej,shepl801,M,wendh901,Call at 2B""
 id,CHN196909170
 version,3
 info,visteam,PHI
@@ -17032,9 +17041,9 @@ stat,dline,boozj101,0,1,1,1,0,0,0,0,0,0
 stat,dline,farrt101,0,1,1,5,0,0,0,0,0,0
 stat,dline,raffa101,0,1,1,3,0,0,0,0,0,0
 stat,dline,gambo001,1,1,8,27,2,0,1,0,0,0
-stat,dline,beckg101,1,1,4,27,2,2,1,0,0,0
+stat,dline,beckg101,1,1,4,27,1,3,1,0,0,0
 stat,dline,willb104,1,1,7,27,3,0,0,0,0,0
-stat,dline,santr102,1,1,5,27,2,4,0,0,0,0
+stat,dline,santr102,1,1,5,27,3,3,0,0,0,0
 stat,dline,banke101,1,1,3,27,9,0,0,0,0,0
 stat,dline,hickj103,1,1,9,27,2,0,0,0,0,0
 stat,dline,popop101,1,1,6,27,0,2,0,0,0,0
@@ -19408,6 +19417,7 @@ line,0,1,1,0,0,1,1,6,0,0
 line,1,0,0,1,1,1,3,3,0,0
 stat,tline,0,7,8,2,0
 stat,tline,1,7,9,2,0
+com,""ej,brisd801,M,craws901,Game not called due to weather""
 id,CIN196905170
 version,3
 info,visteam,NYN
@@ -20772,6 +20782,7 @@ line,0,1,2,1,0,0,2,0,0,2,6
 line,1,0,0,4,0,2,0,0,0,2,0
 stat,tline,0,7,7,0,0
 stat,tline,1,13,14,1,0
+com,""ej,brisd801,M,barla901,Call at HP""
 id,CIN196906140
 version,3
 info,visteam,CHN
@@ -20905,6 +20916,7 @@ line,0,0,0,0,2,3,1,1,0,0,2
 line,1,0,3,1,2,1,0,0,0,0,1
 stat,tline,0,9,8,1,0
 stat,tline,1,14,8,0,0
+com,""ej,olivg101,P,kiblj901,Fair/foul call (from bullpen)""
 id,CIN196906151
 version,3
 info,visteam,CHN
@@ -21168,6 +21180,12 @@ line,0,0,0,3,0,0,2,0,0,0
 line,1,0,0,0,0,1,0,3,0,0
 stat,tline,0,8,3,2,0
 stat,tline,1,9,3,3,0
+com,""Suspend=19690902,CIN07,5,4,42""
+com,""umpchange,8,umphome,venzt901""
+com,""umpchange,8,ump1b,secof101""
+com,""umpchange,8,ump2b,davis901""
+com,""umpchange,8,ump3b,pryop901""
+com,""suspended,19690902,CIN07,pre-determined stopping time""
 id,CIN196906200
 version,3
 info,visteam,LAN
@@ -21287,6 +21305,7 @@ line,0,0,1,0,0,1,1,0,0,1
 line,1,0,0,0,0,0,0,2,0,0
 stat,tline,0,9,2,2,0
 stat,tline,1,5,4,2,0
+com,""ej,tolab101,P,engeb901,Call at 1B""
 id,CIN196906210
 version,3
 info,visteam,LAN
@@ -21685,14 +21704,14 @@ stat,pline,fishj101,1,1,5,0,10,5,3,1,0,3,3,0,0,1,0,0,0,0,0
 stat,pline,ramop101,1,2,8,0,11,4,0,0,0,0,0,0,0,2,0,0,0,1,0
 stat,pline,granw101,1,3,8,0,8,0,0,0,0,0,0,1,0,3,1,0,0,0,0
 stat,pline,carrc103,1,4,6,0,8,3,1,0,0,0,0,0,0,1,0,0,0,0,0
-stat,dline,sipij101,0,1,4,26,1,2,0,0,0,0
+stat,dline,sipij101,0,1,4,26,3,2,0,0,0,0
 stat,dline,penar101,0,1,6,21,1,1,0,0,0,0
 stat,dline,penar101,0,2,3,5,0,0,0,0,0,0
 stat,dline,browo102,0,1,9,26,0,1,0,0,0,0
 stat,dline,ferra101,0,1,7,21,3,0,0,0,0,0
 stat,dline,arcij101,0,1,6,5,0,1,0,0,0,0
-stat,dline,spiee101,0,1,5,26,4,1,1,1,0,0
-stat,dline,stahl101,0,1,3,21,4,0,1,1,0,0
+stat,dline,spiee101,0,1,5,26,3,1,1,0,0,0
+stat,dline,stahl101,0,1,3,21,3,1,1,0,0,0
 stat,dline,stahl101,0,2,7,2,0,0,0,0,0,0
 stat,dline,mccob105,0,1,1,3,0,2,0,0,0,0
 stat,dline,cannc101,0,1,2,26,9,1,0,0,0,0
@@ -21718,13 +21737,12 @@ event,csline,0,stahl101,ramop101,bencj101,4
 event,csline,1,helmt101,santa101,cannc101,4
 event,dpline,1,chand101,helmt101,may-l101
 event,dpline,1,helmt101,chand101,may-l101
-event,dpline,0,spiee101,stahl101
 event,dpline,1,chand101,helmt101,may-l101
 event,hpline,1,granw101,spiee101
 event,hrline,1,may-l101,santa101,4,1,0
 line,0,1,2,0,0,0,0,0,0,0
 line,1,1,0,0,2,0,0,0,0,1
-stat,tline,0,7,3,1,0
+stat,tline,0,7,3,0,0
 stat,tline,1,7,3,3,0
 id,CIN196906250
 version,3
@@ -24330,6 +24348,7 @@ line,0,0,0,0,2,0,0,1,0,0
 line,1,0,1,2,0,0,0,0,1
 stat,tline,0,8,4,1,0
 stat,tline,1,12,3,1,0
+com,""ej,ruizc102,P,kiblj901,Call at 1B (Threw helmet)""
 id,CIN196908150
 version,3
 info,visteam,PIT
@@ -24438,7 +24457,7 @@ info,hometeam,CIN
 info,site,CIN07
 info,date,1969/08/16
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:15PM
 info,daynight,day
 info,usedh,false
 info,umphome,lands901
@@ -26016,6 +26035,7 @@ line,0,0,0,0,0,1,0,2,4,0
 line,1,0,1,0,0,0,0,0,1,2
 stat,tline,0,5,0,1,0
 stat,tline,1,7,7,0,0
+com,""ej,rosep001,P,olsea901,Claiming Gaylord Perry throwing spitter""
 id,CIN196909100
 version,3
 info,visteam,SDN
@@ -27771,9 +27791,9 @@ info,umphome,dezef901
 info,ump1b,craws901
 info,ump2b,pelec901
 info,ump3b,harvd901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -28228,6 +28248,7 @@ line,0,2,0,1,1,0,3,3,4,0
 line,1,0,0,0,0,0,0,0,0,0
 stat,tline,0,8,0,2,0
 stat,tline,1,6,11,0,0
+com,""ej,johna104,P,gormt101,Balls and strikes""
 id,HOU196904230
 version,3
 info,visteam,SDN
@@ -28242,9 +28263,9 @@ info,umphome,lands901
 info,ump1b,willb901
 info,ump2b,colon901
 info,ump3b,gormt101
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -28347,7 +28368,7 @@ info,ump2b,gormt101
 info,ump3b,lands901
 info,temp,72
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -29851,6 +29872,7 @@ line,0,1,0,0,0,0,1,0,0,0
 line,1,0,1,0,0,0,0,1,0,4
 stat,tline,0,7,6,1,0
 stat,tline,1,2,2,1,0
+com,""ej,walkh102,M,steim901,Balls and strikes""
 id,HOU196905280
 version,3
 info,visteam,PHI
@@ -30665,6 +30687,7 @@ line,0,1,0,0,1,1,6,0,2,2
 line,1,1,0,2,0,3,0,1,1,0
 stat,tline,0,7,7,1,0
 stat,tline,1,9,11,1,0
+com,""ej,walkh102,M,kiblj901,Call at HP""
 id,HOU196906120
 version,3
 info,visteam,PIT
@@ -30679,9 +30702,9 @@ info,umphome,olsea901
 info,ump1b,barla901
 info,ump2b,varge901
 info,ump3b,kiblj901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -30769,6 +30792,7 @@ line,0,1,0,0,0,0,2,0,0,1
 line,1,0,0,3,0,0,0,0,0,0
 stat,tline,0,4,1,1,0
 stat,tline,1,9,4,1,0
+com,""ej,shepl801,M,olsea901,Call at HP""
 id,HOU196906190
 version,3
 info,visteam,SDN
@@ -30892,9 +30916,9 @@ info,umphome,burkk101
 info,ump1b,sudoe901
 info,ump2b,weyel901
 info,ump3b,wendh901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -30989,9 +31013,9 @@ info,umphome,sudoe901
 info,ump1b,weyel901
 info,ump2b,wendh901
 info,ump3b,burkk101
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -31102,9 +31126,9 @@ info,umphome,weyel901
 info,ump1b,wendh901
 info,ump2b,burkk101
 info,ump3b,sudoe901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -31207,9 +31231,9 @@ info,umphome,wendh901
 info,ump1b,burkk101
 info,ump2b,sudoe901
 info,ump3b,weyel901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -32057,6 +32081,7 @@ line,0,0,0,0,1,1,1,0,0,0,2
 line,1,0,1,0,0,0,1,0,0,1,1
 stat,tline,0,8,3,1,0
 stat,tline,1,11,4,1,0
+com,""ej,helmt101,P,steld901,Call at 1B""
 id,HOU196907110
 version,3
 info,visteam,CIN
@@ -32178,6 +32203,7 @@ line,0,1,0,0,0,0,0,0,1,0
 line,1,0,0,0,2,1,9,0,1
 stat,tline,0,7,13,1,0
 stat,tline,1,10,2,0,0
+com,""ej,brisd801,M,donaa901,Illegal pitch inference (Bumped umpire)""
 id,HOU196907120
 version,3
 info,visteam,CIN
@@ -32287,6 +32313,8 @@ line,0,0,1,2,0,0,0,0,0,1
 line,1,3,0,0,0,3,0,4,0
 stat,tline,0,7,7,0,0
 stat,tline,1,9,3,1,0
+com,""Protest=V""
+com,""ej,tolab101,P,donaa901,Balls and strikes""
 id,HOU196907130
 version,3
 info,visteam,CIN
@@ -34596,13 +34624,13 @@ stat,dline,javij101,0,1,4,27,3,0,0,0,0,0
 stat,dline,maxvd101,0,1,6,27,2,1,0,0,0,0
 stat,dline,carls001,0,1,1,20,0,0,0,0,0,0
 stat,dline,granj101,0,1,1,7,0,0,0,0,0,0
-stat,dline,morgj001,1,1,4,27,3,2,0,0,0,0
+stat,dline,morgj001,1,1,4,27,3,1,0,0,0,0
 stat,dline,alouj101,1,1,9,27,1,0,0,0,0,0
 stat,dline,wynnj101,1,1,8,27,3,0,0,0,0,0
 stat,dline,davit103,1,1,7,27,1,0,0,0,0,0
 stat,dline,raded103,1,1,5,27,2,2,0,0,0,0
 stat,dline,menkd101,1,1,3,27,6,1,0,0,0,0
-stat,dline,martm102,1,1,6,27,1,1,0,0,0,0
+stat,dline,martm102,1,1,6,27,1,2,0,0,0,0
 stat,dline,edwaj101,1,1,2,27,9,2,0,0,0,0
 stat,dline,wilsd102,1,1,1,20,1,0,0,0,0,0
 stat,dline,billj101,1,1,1,2,0,0,0,0,0,0
@@ -35127,9 +35155,9 @@ info,umphome,weyel901
 info,ump1b,wendh901
 info,ump2b,burkk101
 info,ump3b,sudoe901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -35236,9 +35264,9 @@ info,umphome,wendh901
 info,ump1b,burkk101
 info,ump2b,sudoe901
 info,ump3b,weyel901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -35863,9 +35891,9 @@ info,umphome,steld901
 info,ump1b,donaa901
 info,ump2b,steim901
 info,ump3b,engeb901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -38198,7 +38226,7 @@ info,umphome,colon901
 info,ump1b,gormt101
 info,ump2b,lands901
 info,ump3b,willb901
-info,temp,0
+info,temp,68
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -38513,6 +38541,7 @@ line,0,0,0,0,0,2,0,0,0,0
 line,1,1,0,0,0,0,2,1,0
 stat,tline,0,9,3,0,0
 stat,tline,1,7,2,0,0
+com,""ej,alstw101,M,pelec901,Balk call""
 id,LAN196906070
 version,3
 info,visteam,MON
@@ -39019,6 +39048,8 @@ line,0,1,0,0,0,0,0,0,0,0
 line,1,0,0,0,0,0,0,0,0,0
 stat,tline,0,5,0,2,0
 stat,tline,1,6,1,1,0
+com,""ej,alstw101,M,wendh901,Call at 1B""
+com,""ej,sizet101,P,wendh901,Call at 1B""
 id,LAN196906130
 version,3
 info,visteam,NYN
@@ -41829,6 +41860,7 @@ line,0,0,0,0,0,0,0,0,0,0
 line,1,0,2,2,0,0,1,0,0
 stat,tline,0,3,4,0,0
 stat,tline,1,10,0,0,0
+com,""Protest=V""
 id,LAN196908090
 version,3
 info,visteam,CHN
@@ -44702,6 +44734,7 @@ line,0,0,0,3,0,1,1,0,1,0
 line,1,2,0,0,0,0,0,1,0,0
 stat,tline,0,4,2,0,0
 stat,tline,1,4,5,0,0
+com,""ej,willm102,P,varge901.Bench jockeying""
 id,LAN196910010
 version,3
 info,visteam,HOU
@@ -46304,6 +46337,7 @@ line,0,2,2,1,0,1,2,0
 line,1,2,0,1,0,1,1
 stat,tline,0,6,4,1,0
 stat,tline,1,7,8,1,0
+com,""ej,brisd801,M,willb901,Call at 3B""
 id,MON196905100
 version,3
 info,visteam,CIN
@@ -46883,6 +46917,7 @@ line,0,1,0,3,0,0,0,4,0
 line,1,0,0,1,0,2,0,0
 stat,tline,0,5,3,1,0
 stat,tline,1,7,7,2,0
+com,""ej,maucg101,M,wendh901,Stalling""
 id,MON196905270
 version,3
 info,visteam,LAN
@@ -47222,9 +47257,9 @@ info,umphome,pelec901
 info,ump1b,harvd901
 info,ump2b,dezef901
 info,ump3b,craws901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -47683,6 +47718,8 @@ line,0,0,0,5,3,0,1,0,0,0
 line,1,1,0,0,1,1,0,0,0,0
 stat,tline,0,6,2,1,0
 stat,tline,1,12,8,3,0
+com,""ej,branr101,P,donaa901,Call at 1B""
+com,""ej,maucg101,M,donaa901,Call at 1B""
 id,MON196906040
 version,3
 info,visteam,SFN
@@ -48802,6 +48839,8 @@ line,0,1,0,0,0,0,0,1,0,0
 line,1,0,0,2,1,0,2,0,0
 stat,tline,0,10,5,3,0
 stat,tline,1,12,2,2,0
+com,""Protest=V""
+com,""ej,durol101,M,pryop901,Home run non-call (Protested game)""
 id,MON196907010
 version,3
 info,visteam,CHN
@@ -49539,7 +49578,7 @@ stat,bline,clemr101,0,4,1,2,0,1,0,0,0,1,0,1,0,2,0,0,0,0,0,0
 stat,bline,hebnr001,0,5,1,3,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0
 stat,bline,sangm101,0,6,1,5,0,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 stat,bline,alleg101,0,7,1,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,patef101,0,8,1,4,1,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+stat,bline,patef101,0,8,1,4,1,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 stat,bline,bunnj101,0,9,1,2,0,0,0,0,0,0,1,0,0,1,0,0,0,0,0,0
 stat,bline,moosb101,0,9,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,phila101,1,1,1,3,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0
@@ -49703,6 +49742,7 @@ line,0,0,0,0,1,2,0,0,2,0
 line,1,0,0,0,2,0,0,0,0,0
 stat,tline,0,8,2,2,0
 stat,tline,1,6,5,2,0
+com,""ej,jonec102,P,willb901,Fighting""
 id,MON196907190
 version,3
 info,visteam,NYN
@@ -50162,6 +50202,7 @@ line,0,3,0,0,0,0,2,0,0,0
 line,1,0,1,0,0,0,2,0,0,0
 stat,tline,0,4,1,0,0
 stat,tline,1,9,5,0,0
+com,""ej,jonem102,P,kiblj901,Called third strike (Threw bat)""
 id,MON196908020
 version,3
 info,visteam,HOU
@@ -51250,6 +51291,7 @@ line,0,0,0,1,0,0,0,0,0,2,0,5
 line,1,0,0,1,0,0,1,1,0,0,0,0
 stat,tline,0,11,3,1,0
 stat,tline,1,12,8,1,0
+com,""ej,brisd801,M,lands901,Fair/foul call""
 id,MON196908140
 version,3
 info,visteam,CIN
@@ -52503,9 +52545,9 @@ info,umphome,harvd901
 info,ump1b,dezef901
 info,ump2b,craws901
 info,ump3b,pelec901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -52629,9 +52671,9 @@ info,umphome,dezef901
 info,ump1b,craws901
 info,ump2b,pelec901
 info,ump3b,harvd901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -57723,6 +57765,8 @@ line,0,0,0,0,0,0,1,3,1,0,1
 line,1,1,0,0,3,1,0,0,0,0,0
 stat,tline,0,3,5,0,0
 stat,tline,1,7,5,0,0
+com,""ej,rojac101,P,burkk101,Arguing single hit runner""
+com,""ej,skinb101,M,weyel901,Balls and strikes""
 id,NYN196906260
 version,3
 info,visteam,PHI
@@ -58772,6 +58816,7 @@ line,0,2,0,1,3,0,1,0,0,0
 line,1,1,1,0,5,0,0,1,1
 stat,tline,0,7,8,0,0
 stat,tline,1,8,7,1,0
+com,""ej,jonec102,P,dezef901,Call at 2B""
 id,NYN196907240
 version,3
 info,visteam,CIN
@@ -59453,6 +59498,9 @@ line,0,0,0,10,0,0,1,0,0,0
 line,1,0,0,0,1,0,1,0,3,0
 stat,tline,0,3,4,2,0
 stat,tline,1,8,11,1,0
+com,""umpchange,7,umphome,pryop901""
+com,""umpchange,7,ump1b,venzt901""
+com,""umpchange,7,ump2b,(None)""
 id,NYN196907310
 version,3
 info,visteam,HOU
@@ -61717,7 +61765,7 @@ stat,dline,clend101,1,1,3,36,8,1,1,1,0,0
 stat,dline,grotj101,1,1,2,36,8,2,1,1,0,0
 stat,dline,harrb101,1,1,6,36,5,3,1,2,0,0
 stat,dline,mcanj101,1,1,1,33,1,2,0,0,0,0
-stat,dline,taylr101,1,1,1,3,0,0,0,0,0,0
+stat,dline,taylr101,1,1,1,3,0,1,0,0,0,0
 stat,phline,fairj102,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0
 stat,phline,gosgj101,11,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,phline,collk101,12,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -64847,6 +64895,7 @@ line,0,0,0,0,0,0,0,0,0,0
 line,1,0,0,1,0,2,3,0,1
 stat,tline,0,5,6,3,0
 stat,tline,1,12,0,1,0
+com,""ej,rojac101,P,wendh901,Call at 2B""
 id,PHI196905160
 version,3
 info,visteam,SFN
@@ -66045,12 +66094,12 @@ stat,dline,jonec102,0,1,7,24,0,0,0,0,0,0
 stat,dline,clend101,0,1,3,24,10,0,0,2,0,0
 stat,dline,chare101,0,1,5,24,1,3,0,1,0,0
 stat,dline,swobr101,0,1,9,24,2,0,0,0,0,0
-stat,dline,grotj101,0,1,2,24,7,1,0,1,0,0
+stat,dline,grotj101,0,1,2,24,8,1,0,1,0,0
 stat,dline,weisa101,0,1,4,24,1,3,1,0,0,0
 stat,dline,cardd101,0,1,1,9,0,0,0,0,0,0
 stat,dline,koonc101,0,1,1,3,0,0,0,0,0,0
 stat,dline,ryann001,0,1,1,6,0,0,0,0,0,0
-stat,dline,mcanj101,0,1,1,6,1,2,0,1,0,0
+stat,dline,mcanj101,0,1,1,6,0,2,0,1,0,0
 stat,dline,taylt101,1,1,5,27,0,3,0,0,0,0
 stat,dline,rojac101,1,1,4,27,0,1,0,0,0,0
 stat,dline,alled101,1,1,3,27,10,0,0,0,0,0
@@ -69324,7 +69373,7 @@ event,dpline,0,raded103,morgj001,blefc101
 event,dpline,0,menkd101,morgj001,blefc101
 event,dpline,1,rojac101,moned101,alled101
 event,dpline,1,moned101,rojac101,alled101
-event,dpline,1,alled101,moned101,alled101,rojac101,alled101
+event,dpline,1,rojac101,alled101,moned101,alled101
 event,hpline,1,jackg101,wynnj101
 event,hpline,1,jackg101,wynnj101
 event,hrline,1,hisll101,lemad102,2,0,2
@@ -70120,6 +70169,7 @@ line,0,1,0,1,4,0,0,0,0,0
 line,1,1,2,1,1,0,0,0,2
 stat,tline,0,7,6,0,0
 stat,tline,1,9,4,0,0
+com,""ej,taylt101,P,pryop901,Interference call""
 id,PHI196908240
 version,3
 info,visteam,SDN
@@ -72279,6 +72329,7 @@ line,0,3,0,0,0,0,2,0,0,0
 line,1,0,5,0,2,0,0,0,0
 stat,tline,0,3,6,1,0
 stat,tline,1,6,4,1,0
+com,""ej,durol101,M,olsea901,Balls and strikes""
 id,PIT196904222
 version,3
 info,visteam,CHN
@@ -73163,9 +73214,9 @@ info,umphome,pryop901
 info,ump1b,venzt901
 info,ump2b,secof101
 info,ump3b,davis901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -73275,9 +73326,9 @@ info,umphome,venzt901
 info,ump1b,secof101
 info,ump2b,davis901
 info,ump3b,pryop901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -73953,9 +74004,9 @@ info,umphome,steld901
 info,ump1b,donaa901
 info,ump2b,steim901
 info,ump3b,engeb901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -74032,7 +74083,7 @@ stat,dline,martj103,1,1,7,3,1,0,0,0,0,0
 stat,dline,clemr101,1,1,9,27,1,0,0,0,0,0
 stat,dline,sangm101,1,1,2,27,7,0,0,0,0,0
 stat,dline,alleg101,1,1,6,27,2,4,0,0,1,0
-stat,dline,oliva001,1,1,3,27,8,2,0,0,1,0
+stat,dline,oliva001,1,1,3,27,8,3,0,0,1,0
 stat,dline,mazeb101,1,1,4,27,2,0,0,0,0,0
 stat,dline,bunnj101,1,1,1,27,0,1,0,0,0,0
 stat,phline,geigg101,8,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
@@ -74057,9 +74108,9 @@ info,umphome,donaa901
 info,ump1b,steim901
 info,ump2b,engeb901
 info,ump3b,steld901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -74176,9 +74227,9 @@ info,umphome,steim901
 info,ump1b,engeb901
 info,ump2b,steld901
 info,ump3b,donaa901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -74289,9 +74340,9 @@ info,umphome,engeb901
 info,ump1b,steld901
 info,ump2b,donaa901
 info,ump3b,steim901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -74629,9 +74680,9 @@ info,umphome,gormt101
 info,ump1b,lands901
 info,ump2b,willb901
 info,ump3b,colon901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -74734,9 +74785,9 @@ info,umphome,lands901
 info,ump1b,willb901
 info,ump2b,colon901
 info,ump3b,gormt101
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -75187,6 +75238,7 @@ line,0,0,0,0,0,0,0,0,0,0
 line,1,0,0,0,0,0,0,1,0
 stat,tline,0,10,1,0,0
 stat,tline,1,11,0,0,0
+com,""ej,jetej101,P,varge901,Call at HP""
 id,PIT196906172
 version,3
 info,visteam,CHN
@@ -76827,9 +76879,9 @@ info,umphome,dezef901
 info,ump1b,craws901
 info,ump2b,pelec901
 info,ump3b,harvd901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -76930,9 +76982,9 @@ info,umphome,craws901
 info,ump1b,pelec901
 info,ump2b,harvd901
 info,ump3b,dezef901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -77153,9 +77205,9 @@ info,umphome,harvd901
 info,ump1b,dezef901
 info,ump2b,craws901
 info,ump3b,pelec901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -77481,6 +77533,7 @@ line,0,0,1,1,0,0,4,0,0,0
 line,1,0,0,0,1,3,0,1,0,0
 stat,tline,0,8,5,0,0
 stat,tline,1,9,5,1,0
+com,""ej,shepl801,M,burkk101,Balls and strikes""
 id,PIT196907300
 version,3
 info,visteam,LAN
@@ -78034,9 +78087,9 @@ info,umphome,varge901
 info,ump1b,kiblj901
 info,ump2b,olsea901
 info,ump3b,barla901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -78141,9 +78194,9 @@ info,umphome,kiblj901
 info,ump1b,olsea901
 info,ump2b,barla901
 info,ump3b,varge901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -78673,9 +78726,9 @@ info,umphome,davis901
 info,ump1b,pryop901
 info,ump2b,venzt901
 info,ump3b,secof101
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -78891,9 +78944,9 @@ info,umphome,venzt901
 info,ump1b,secof101
 info,ump2b,davis901
 info,ump3b,pryop901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -80430,7 +80483,7 @@ stat,bline,cashd101,1,2,1,3,1,1,0,0,0,0,1,0,0,1,0,1,0,0,0,0
 stat,bline,clemr101,1,3,1,5,1,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,starw101,1,4,1,5,1,2,2,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,oliva001,1,5,1,3,1,3,1,0,0,1,0,0,1,1,0,0,0,0,0,0
-stat,bline,sangm101,1,6,1,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0
+stat,bline,sangm101,1,6,1,4,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0
 stat,bline,hebnr001,1,7,1,4,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,patef101,1,8,1,0,0,0,0,0,0,0,0,0,0,2,1,0,0,0,0,0
 stat,bline,pagaj101,1,8,2,1,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
@@ -80453,14 +80506,14 @@ stat,dline,suthg101,0,1,4,24,1,3,2,0,0,0
 stat,dline,staur001,0,1,9,24,2,0,0,0,0,0
 stat,dline,bailb103,0,1,7,18,0,0,0,0,0,0
 stat,dline,jonem102,0,1,7,6,0,0,1,0,0,0
-stat,dline,laboc101,0,1,5,24,3,0,0,1,0,0
+stat,dline,laboc101,0,1,5,24,2,0,0,0,0,0
 stat,dline,herrj102,0,1,8,15,1,1,0,0,0,0
 stat,dline,fairj102,0,1,8,9,1,0,1,0,0,0
 stat,dline,batej102,0,1,2,24,3,1,1,0,0,0
 stat,dline,jestg101,0,1,6,15,2,0,1,0,0,0
 stat,dline,clint101,0,1,3,9,3,0,0,0,0,0
 stat,dline,hermr101,0,1,6,0,0,0,0,0,0,0
-stat,dline,wineb101,0,1,3,15,5,1,0,2,0,0
+stat,dline,wineb101,0,1,3,15,6,0,0,2,0,0
 stat,dline,wineb101,0,2,6,9,2,1,0,0,0,0
 stat,dline,renks101,0,1,1,17,1,1,0,0,0,0
 stat,dline,mcgid101,0,1,1,6,0,0,0,0,0,0
@@ -80488,7 +80541,7 @@ stat,phline,robeb101,8,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,phline,hermr101,9,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,phline,boccj101,9,0,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,prline,martj103,6,1,0,0,0
-event,dpline,0,wineb101,laboc101
+event,dpline,0,wineb101
 event,dpline,0,wineb101
 event,hpline,0,renks101,oliva001
 event,hpline,1,walkl101,staur001
@@ -81088,15 +81141,15 @@ stat,dline,hartj102,0,1,7,27,0,0,0,0,0,0
 stat,dline,davej101,0,1,5,27,0,1,0,0,0,0
 stat,dline,lanih101,0,1,6,27,0,3,0,1,0,0
 stat,dline,marij101,0,1,1,27,2,2,0,0,0,0
-stat,dline,roblr101,1,1,6,24,2,2,1,1,0,0
+stat,dline,roblr101,1,1,6,24,1,3,1,1,0,0
 stat,dline,arcij101,1,1,6,3,0,1,0,0,0,0
-stat,dline,penar101,1,1,4,27,3,3,0,1,0,0
+stat,dline,penar101,1,1,4,27,3,4,0,1,0,0
 stat,dline,gonzt101,1,1,7,27,2,0,0,0,0,0
-stat,dline,browo102,1,1,9,24,1,0,0,0,0,0
+stat,dline,browo102,1,1,9,24,0,0,0,0,0,0
 stat,dline,rebef101,1,1,1,3,0,0,0,0,0,0
-stat,dline,davib106,1,1,3,21,8,0,0,1,0,0
+stat,dline,davib106,1,1,3,21,9,0,0,1,0,0
 stat,dline,colbn101,1,1,3,6,2,0,0,0,0,0
-stat,dline,gastc101,1,1,8,27,3,0,0,0,0,0
+stat,dline,gastc101,1,1,8,27,4,0,0,0,0,0
 stat,dline,spiee101,1,1,5,27,1,3,1,0,0,0
 stat,dline,cannc101,1,1,2,27,4,1,0,0,0,1
 stat,dline,mcbea101,1,1,1,21,0,1,0,0,0,0
@@ -82501,9 +82554,9 @@ info,umphome,colon901
 info,ump1b,gormt101
 info,ump2b,lands901
 info,ump3b,willb901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -82603,9 +82656,9 @@ info,umphome,gormt101
 info,ump1b,lands901
 info,ump2b,willb901
 info,ump3b,colon901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -83017,6 +83070,7 @@ line,0,0,0,2,0,5,0,0,0,0
 line,1,1,0,0,3,0,0,0,1,0
 stat,tline,0,8,3,1,0
 stat,tline,1,4,6,1,0
+com,""ej,durol101,M,steld901,Call at 1B""
 id,SDN196905251
 version,3
 info,visteam,CHN
@@ -85886,11 +85940,11 @@ stat,dline,garrg101,0,1,6,24,2,2,0,1,0,0
 stat,dline,jacks102,0,1,6,3,0,0,0,0,0,0
 stat,dline,jarvp101,0,1,1,24,0,3,0,0,0,0
 stat,dline,doylp101,0,1,1,3,0,0,0,0,0,0
-stat,dline,sipij101,1,1,4,27,5,1,0,1,0,0
+stat,dline,sipij101,1,1,4,27,5,2,0,1,0,0
 stat,dline,penar101,1,1,6,27,0,5,0,0,0,0
 stat,dline,browo102,1,1,9,27,2,0,0,0,0,0
-stat,dline,colbn101,1,1,3,27,9,1,0,1,0,0
-stat,dline,kellv101,1,1,5,27,1,3,0,1,0,0
+stat,dline,colbn101,1,1,3,27,10,0,0,1,0,0
+stat,dline,kellv101,1,1,5,27,0,2,0,0,0,0
 stat,dline,stahl101,1,1,7,27,1,0,0,0,0,0
 stat,dline,murri101,1,1,8,27,3,0,0,0,0,0
 stat,dline,cannc101,1,1,2,27,6,1,0,0,0,0
@@ -85905,7 +85959,7 @@ stat,phline,spiee101,9,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,phline,gastc101,9,1,1,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,prline,jacks102,9,0,1,0,0
 event,csline,0,alouf101,kelld102,cannc101,1
-event,dpline,1,kelld102,kellv101,colbn101,sipij101
+event,dpline,1,kelld102,sipij101,colbn101
 event,dpline,0,garrg101,millf105,cepeo101
 event,hpline,1,kelld102,gonzt101
 line,0,0,0,0,3,0,0,0,0,3
@@ -86568,6 +86622,7 @@ line,0,0,4,1,0,0,0,2,0,0
 line,1,0,0,0,0,0,0,1,0,0
 stat,tline,0,9,1,1,0
 stat,tline,1,12,6,1,0
+com,""ej,clemr101,P,weyel901,Called third strike""
 id,SDN196908101
 version,3
 info,visteam,PIT
@@ -87001,6 +87056,7 @@ line,0,0,0,0,4,0,0,0,0,0
 line,1,0,1,0,0,0,1,0,0,0
 stat,tline,0,5,1,1,0
 stat,tline,1,6,4,0,1
+com,""ej,penar101,P,pelec901,Call at 2B""
 id,SDN196908261
 version,3
 info,visteam,NYN
@@ -88865,9 +88921,9 @@ info,umphome,davis901
 info,ump1b,pryop901
 info,ump2b,venzt901
 info,ump3b,secof101
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -88991,9 +89047,9 @@ info,umphome,pryop901
 info,ump1b,venzt901
 info,ump2b,secof101
 info,ump3b,davis901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -89098,9 +89154,9 @@ info,umphome,venzt901
 info,ump1b,secof101
 info,ump2b,davis901
 info,ump3b,pryop901
-info,temp,unknown
+info,temp,0
 info,winddir,unknown
-info,windspeed,unknown
+info,windspeed,-1
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -93765,7 +93821,7 @@ stat,dline,jacks102,0,1,6,24,2,2,0,0,0,0
 stat,dline,gonzt101,0,1,7,24,1,0,0,0,0,0
 stat,dline,frant101,0,1,3,24,8,0,1,0,0,0
 stat,dline,boyec102,0,1,5,24,1,3,0,0,0,0
-stat,dline,millf105,0,1,4,24,2,4,0,0,0,0
+stat,dline,millf105,0,1,4,24,2,5,0,0,0,0
 stat,dline,lum-m101,0,1,9,24,1,0,0,0,0,0
 stat,dline,didib101,0,1,2,24,8,0,0,0,0,1
 stat,dline,reedr001,0,1,1,21,0,0,0,0,0,0
@@ -94912,18 +94968,18 @@ info,hometeam,SFN
 info,site,SFO02
 info,date,1969/07/19
 info,number,0
-info,starttime,0:00PM
+info,starttime,12:25PM
 info,daynight,day
 info,usedh,false
 info,umphome,barla901
 info,ump1b,varge901
 info,ump2b,olsea901
 info,ump3b,colon901
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,temp,71
+info,winddir,fromlf
+info,windspeed,20
 info,fieldcond,unknown
-info,precip,unknown
+info,precip,none
 info,sky,unknown
 info,timeofgame,159
 info,attendance,26216
@@ -99074,7 +99130,7 @@ stat,bline,pinsv101,1,3,1,4,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,torrj101,1,4,1,4,0,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,hickj105,1,4,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,whitb105,1,4,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,mccat101,1,5,1,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+stat,bline,mccat101,1,5,1,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 stat,bline,shanm101,1,6,1,4,0,1,0,0,0,1,0,0,0,0,0,1,0,0,0,0
 stat,bline,hunts101,1,7,1,4,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,maxvd101,1,8,1,4,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -99431,6 +99487,7 @@ line,0,1,0,0,0,0,0,0,0,1
 line,1,0,0,0,0,0,0,0,0,0
 stat,tline,0,9,0,1,0
 stat,tline,1,7,1,0,0
+com,""ej,maucg101,M,pelec901,Interference call""
 id,SLN196905020
 version,3
 info,visteam,PHI
@@ -99613,12 +99670,12 @@ stat,pline,carls001,1,1,21,0,31,5,0,0,0,2,1,5,0,4,0,0,0,0,1
 stat,pline,willr102,1,2,6,0,10,3,1,0,0,2,2,1,0,2,0,0,0,0,1
 stat,dline,hisll101,0,1,8,27,3,0,1,0,0,0
 stat,dline,rojac101,0,1,4,27,3,3,0,0,0,0
-stat,dline,callj101,0,1,9,27,2,0,0,0,0,0
+stat,dline,callj101,0,1,9,27,1,0,0,0,0,0
 stat,dline,johnd103,0,1,3,27,10,0,0,0,0,0
 stat,dline,moned101,0,1,6,27,0,6,1,0,0,0
 stat,dline,joser101,0,1,5,27,2,0,0,0,0,0
 stat,dline,watkd101,0,1,7,21,1,0,0,0,0,0
-stat,dline,brigj102,0,1,7,6,1,0,0,0,0,0
+stat,dline,brigj102,0,1,7,6,2,0,0,0,0,0
 stat,dline,ryanm101,0,1,2,27,4,0,0,0,0,0
 stat,dline,wiser101,0,1,1,27,1,2,0,0,0,0
 stat,dline,brocl102,1,1,7,27,1,0,1,0,0,0
@@ -99951,6 +100008,8 @@ line,0,0,0,2,0,0,1,1,0,1
 line,1,0,0,0,0,1,1,1,0,0
 stat,tline,0,11,3,0,0
 stat,tline,1,5,4,1,0
+com,""ej,pinsv101,P,donaa901,Call at HP on teammate""
+com,""ej,schor101,M,donaa901,Call at HP""
 id,SLN196905090
 version,3
 info,visteam,SDN
@@ -100201,6 +100260,7 @@ line,0,0,0,0,5,0,0,0,0,0
 line,1,2,0,1,0,0,0,0,0,0
 stat,tline,0,13,3,0,0
 stat,tline,1,5,5,1,0
+com,""ej,mccat101,P,engeb901,Bench jockeying""
 id,SLN196905110
 version,3
 info,visteam,SDN
@@ -103768,6 +103828,7 @@ line,0,1,0,0,0,0,0,0,0,0,0,0,0,0
 line,1,1,0,0,0,0,0,0,0,0,0,0,0,1
 stat,tline,0,6,2,1,0
 stat,tline,1,9,1,2,0
+com,""ej,huntr101,P,wendh901,Called third strike""
 id,SLN196907260
 version,3
 info,visteam,SFN
@@ -105056,9 +105117,9 @@ stat,dline,ruizc102,0,1,4,6,1,1,0,1,0,0
 stat,dline,peret001,0,1,5,27,2,0,0,0,0,0
 stat,dline,bencj101,0,1,2,27,5,0,0,0,0,0
 stat,dline,may-l101,0,1,3,27,4,0,0,1,0,0
-stat,dline,stewj102,0,1,4,21,2,2,0,0,0,0
+stat,dline,stewj102,0,1,4,21,3,2,0,0,0,0
 stat,dline,stewj102,0,2,7,6,0,0,0,0,0,0
-stat,dline,woodw101,0,1,6,27,4,2,0,1,0,0
+stat,dline,woodw101,0,1,6,27,3,2,0,1,0,0
 stat,dline,merrj102,0,1,1,20,0,1,0,0,0,0
 stat,dline,granw101,0,1,1,2,0,0,0,0,0,0
 stat,dline,jacka101,0,1,1,5,0,0,0,0,0,0
@@ -105193,6 +105254,7 @@ line,0,0,2,0,0,0,0,0,0,0
 line,1,0,0,2,0,2,0,0,0
 stat,tline,0,7,4,1,0
 stat,tline,1,8,2,1,0
+com,""ej,cepeo101,P,olsea901,Pitcher not coming to complete stop""
 id,SLN196908230
 version,3
 info,visteam,ATL

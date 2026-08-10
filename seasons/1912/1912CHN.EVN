@@ -477,7 +477,7 @@ play,1,1,hofms101,??,,SB2
 play,1,1,hofms101,??,,W
 play,1,1,zimmh101,??,,S8.2-H;1-3
 play,1,1,everj102,??,,CSH(152)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,2,0,konee101,??,,S8
 play,2,0,evans101,??,,K
 play,2,0,mowrm101,??,,7/F
@@ -522,7 +522,7 @@ play,6,1,lenne102,??,,53
 play,7,0,konee101,??,,S7
 play,7,0,evans101,??,,K
 play,7,0,mowrm101,??,,4(B)6(1)/LDP
-com,"hit and run"
+com,"Hit and run"
 play,7,1,archj102,??,,7/F
 play,7,1,mcinh101,??,,63
 play,7,1,shecj101,??,,3/G
@@ -907,7 +907,7 @@ play,1,0,mitcm102,??,,K/C
 play,1,1,shecj101,??,,D9
 play,1,1,schuf103,??,,E4/TH.2-3
 play,1,1,tinkj101,??,,5/P
-play,1,1,hofms101,??,,SBH(UR);SB2
+play,1,1,hofms101,??,,SBH;SB2
 play,1,1,hofms101,??,,PO2(E1/TH).2-3
 play,1,1,hofms101,??,,FC6.3XH(62)
 play,1,1,zimmh101,??,,CS2(26)
@@ -918,8 +918,8 @@ play,2,0,mclel101,??,,CS2(24)#
 play,2,1,zimmh101,??,,S7/L
 play,2,1,everj102,??,,S5/BG.1-2
 play,2,1,lenne102,??,,34/SH.2-3;1-2
-play,2,1,archj102,??,,FC5.3XH(5E2);2-3
-play,2,1,lavej101,??,,7/7S/SF.3-H
+play,2,1,archj102,??,,FC5.3XH(5E2)(NR)(UR);2-3
+play,2,1,lavej101,??,,7/7S/SF.3-H(UR)
 play,2,1,shecj101,??,,3/G
 play,3,0,mclel101,??,,K
 play,3,0,suggg101,??,,43
@@ -982,7 +982,7 @@ play,8,1,lenne102,??,,5/P
 play,9,0,suggg101,??,,63
 play,9,0,bescb101,??,,D7
 play,9,0,batej101,??,,43.2-3
-play,9,0,hobld101,??,,E4/G.3-H(NR)
+play,9,0,hobld101,??,,E4/G.3-H(NR)(UR)
 play,9,0,mitcm102,??,,SB2
 play,9,0,mitcm102,??,,13
 play,9,1,archj102,??,,8/F
@@ -991,9 +991,9 @@ sub,millw104,"Ward Miller",1,9,11
 play,9,1,millw104,??,,S8
 play,9,1,shecj101,??,,6/P
 play,9,1,schuf103,??,,5/FL
-data,er,suggg101,3
+data,er,suggg101,2
 data,er,lavej101,1
-data,er,browm102,1
+data,er,browm102,0
 id,CHN191205050
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -1549,7 +1549,7 @@ play,7,1,everj102,??,,S.3-H
 play,7,1,lenne102,??,,PO1(13)
 play,8,0,mcdoe101,??,,S
 play,8,0,klinj101,??,,OA.1-3(E2/TH)
-play,8,0,klinj101,??,,7/SF.3-H
+play,8,0,klinj101,??,,7/SF.3-H(UR)
 play,8,0,dickw101,??,,K
 play,8,0,sweeb102,??,,99
 play,8,1,lenne102,??,,99
@@ -1568,13 +1568,13 @@ play,9,1,schuf103,??,,4/P
 play,9,1,tinkj101,??,,13.1-2
 play,9,1,hofms101,??,,S7.2-H
 play,9,1,zimmh101,??,,PB.1-2
-play,9,1,zimmh101,??,,S7.2-H
+play,9,1,zimmh101,??,,S7.2-H(UR)
 data,er,hoggb102,2
 data,er,tylel101,4
-data,er,dickw101,3
+data,er,dickw101,2
 data,er,colek101,3
 data,er,reule101,1
-data,er,tonef101,3
+data,er,tonef101,2
 data,er,richl102,0
 id,CHN191205090
 version,1
@@ -1790,7 +1790,7 @@ play,4,1,zimmh101,??,,S8
 play,4,1,everj102,??,,S9.1-3;B-2(TH)
 play,4,1,lenne102,??,,FC5.3XH(52);2-3;B-1
 play,4,1,archj102,??,,CSH(242)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,5,0,amesr101,??,,7/F
 play,5,0,devoj101,??,,13/BG
 play,5,0,doyll101,??,,3/G
@@ -1827,7 +1827,7 @@ play,8,1,everj102,??,,6(1)/FO
 play,9,0,herzb101,??,,S
 play,9,0,shaft102,??,,13.1-2
 play,9,0,meyec101,??,,4(B)68(2)/DP
-com,"Herzog thought there were two outs and raced for home. Evers made"
+com,"$Herzog thought there were two outs and raced for home. Evers made"
 com,"the catch in short center and flipped it to Tinker, who waited for"
 com,"Hofman to run in before handing him the ball to make the putout at 2B."
 play,9,1,lenne102,??,,E5/G
@@ -2655,7 +2655,7 @@ play,2,0,smitr108,??,,NP
 sub,lavej101,"Jimmy Lavender",1,9,1
 play,2,0,smitr108,??,,53
 play,2,1,hofms101,??,,S8.B-3(E8)
-play,2,1,tinkj101,??,,S9/89.3-H;BX2(96)#
+play,2,1,tinkj101,??,,S9/89.3-H(UR);BX2(96)#
 play,2,1,everj102,??,,43
 play,2,1,needt101,??,,13
 play,3,0,north101,??,,S8
@@ -2718,7 +2718,7 @@ play,9,1,millw104,??,,S6/BG
 play,9,1,schuf103,??,,K
 play,9,1,zimmh101,??,,K
 play,9,1,hofms101,??,,5/FL
-data,er,ragap101,2
+data,er,ragap101,1
 data,er,smitc107,3
 data,er,lavej101,2
 data,er,moroj101,0
@@ -2786,7 +2786,7 @@ play,2,1,zimmh101,??,,D7
 play,2,1,hofms101,??,,FC6.2X3(65)
 play,2,1,tinkj101,??,,SB2
 play,2,1,tinkj101,??,,K
-play,2,1,everj102,??,,S7.2-H(E7)#
+play,2,1,everj102,??,,S7.2-H(E7)(NR)(UR)#
 play,2,1,needt101,??,,CS2(24)#
 play,3,0,toolb101,??,,W
 play,3,0,phele101,??,,SB2
@@ -2800,7 +2800,7 @@ play,3,1,moroj101,??,,S3/BG
 play,3,1,shecj101,??,,S8.1-2
 play,3,1,millw104,??,,K
 play,3,1,schuf103,??,,S7.2-3;1X3(75)
-com,"Sheckard out before Moroney crossed home"
+com,"$Sheckard out at 3rd before Moroney crossed home"
 play,4,0,smitr108,??,,63
 play,4,0,north101,??,,7/F
 play,4,0,wheaz101,??,,13
@@ -2860,7 +2860,7 @@ play,9,0,cutsg101,??,,64(1)/FO.3-H
 play,9,0,morah101,??,,NP
 sub,millo103,"Otto Miller",0,1,11
 play,9,0,millo103,??,,CS2(26)
-data,er,ruckn101,5
+data,er,ruckn101,4
 data,er,knete101,0
 data,er,moroj101,4
 id,CHN191205220
@@ -3223,7 +3223,7 @@ play,5,1,needt101,??,,S7
 play,5,1,reule101,??,,FC3/BG.1X2(3E6);B-1
 play,5,1,shecj101,??,,S1/BG.2-3;1-2
 play,5,1,schuf103,??,,8/8S/F
-play,5,1,tinkj101,??,,8/SF.3-H
+play,5,1,tinkj101,??,,8/SF.3-H(UR)
 play,5,1,zimmh101,??,,6/P7
 play,6,0,mclel101,??,,43
 play,6,0,froma101,??,,43
@@ -3251,7 +3251,7 @@ play,9,0,bescb101,??,,S9
 play,9,0,marsa101,??,,8/F
 play,9,0,hobld101,??,,9/F
 play,9,0,mitcm102,??,,63
-data,er,froma101,3
+data,er,froma101,2
 data,er,reule101,1
 id,CHN191205280
 version,1
@@ -3459,7 +3459,7 @@ play,1,0,bescb101,??,,D7
 play,1,0,marsa101,??,,S1/BG.2-3
 play,1,0,hobld101,??,,E6/G.3-H;1-2
 play,1,0,mitcm102,??,,HP.2-3;1-2
-play,1,0,egand102,??,,4(1)3(B)/GDP.3-H;2-3
+play,1,0,egand102,??,,4(1)3(B)/GDP.3-H(UR);2-3
 play,1,0,phela101,??,,K
 play,1,1,shecj101,??,,43
 play,1,1,schuf103,??,,6/P
@@ -3480,7 +3480,8 @@ play,3,0,egand102,??,,53
 play,3,1,needt101,??,,53
 play,3,1,chenl101,??,,K
 play,3,1,shecj101,??,,W
-play,3,1,schuf103,??,,HR9/IPHR.1-H
+play,3,1,schuf103,??,,HR/9.1-H
+com,"$Ball hit off RF signboard which was a HR per ground rules"
 play,3,1,tinkj101,??,,7/7D/F
 play,4,0,phela101,??,,99
 play,4,0,esmoj101,??,,99
@@ -3532,7 +3533,7 @@ play,9,0,phela101,??,,99/G
 play,9,0,esmoj101,??,,S7
 play,9,0,mclel101,??,,6/P
 data,er,bentr102,3
-data,er,chenl101,2
+data,er,chenl101,1
 id,CHN191205302
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -3647,9 +3648,9 @@ play,6,1,tinkj101,??,,K
 play,6,1,zimmh101,??,,8/8D/F
 play,7,0,phela101,??,,9/F
 play,7,0,esmoj101,??,,S7
-play,7,0,clart101,??,,S7.1-H(NR);B-2(E7)#
+play,7,0,clart101,??,,S7.1-H(E7)(NR);B-2#
 play,7,0,humpb101,??,,S1/G.2-3
-play,7,0,bescb101,??,,E6/G.3-H;1-2
+play,7,0,bescb101,??,,E6/G.3-H(UR);1-2
 play,7,0,marsa101,??,,64(1)3/GDP
 play,7,1,millw104,??,,43
 play,7,1,saiev101,??,,S9
@@ -3671,7 +3672,7 @@ com,"$Game called to allow teams to catch trains"
 data,er,bagbj101,4
 data,er,smitf106,2
 data,er,humpb101,0
-data,er,lavej101,3
+data,er,lavej101,2
 id,CHN191206230
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -4154,7 +4155,7 @@ play,4,0,mccaa103,??,,7/F
 play,4,0,gibsg101,??,,43
 play,4,1,zimmh101,??,,S8
 play,4,1,leact101,??,,S7.1-H(E7/TH3);B-3
-play,4,1,saiev101,??,,S9.3-H
+play,4,1,saiev101,??,,S9.3-H(UR)
 play,4,1,everj102,??,,43.1-2
 play,4,1,archj102,??,,FC5.2X3(541);B-2
 play,4,1,richl102,??,,K
@@ -4173,7 +4174,7 @@ play,5,1,schuf103,??,,8/F
 play,5,1,tinkj101,??,,K/C
 play,6,0,wilsc102,??,,S9/89
 play,6,0,mccaa103,??,,FC1/BG.1-3(E1/TH2);B-1
-play,6,0,gibsg101,??,,S9.3-H;1-H(E9)(NR);B-2
+play,6,0,gibsg101,??,,S9.3-H(UR);1-H(E9)(NR)(UR);B-2
 play,6,0,hendc101,??,,K/C
 play,6,0,byrnb101,??,,53.2-3
 play,6,0,carem101,??,,43
@@ -4203,9 +4204,9 @@ play,9,1,archj102,??,,K
 play,9,1,richl102,??,,NP
 sub,millw104,"Ward Miller",1,9,11
 play,9,1,millw104,??,,K
-data,er,adamb104,2
+data,er,adamb104,1
 data,er,hendc101,2
-data,er,richl102,7
+data,er,richl102,5
 id,CHN191207080
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -4291,8 +4292,8 @@ play,4,0,grohh101,??,,4/P
 play,4,1,leact101,??,,W
 play,4,1,saiev101,??,,E4/G.1-2
 play,4,1,everj102,??,,53/SH.2-3;1-2
-play,4,1,archj102,??,,9/SF.3-H;2-3
-play,4,1,lavej101,??,,E6/G.3-H
+play,4,1,archj102,??,,9/SF.3-H(UR);2-3
+play,4,1,lavej101,??,,E6/G.3-H(NR)(UR)
 play,4,1,shecj101,??,,6/FL
 play,5,0,marqr102,??,,K
 play,5,0,snodf101,??,,S5/G
@@ -4337,7 +4338,7 @@ play,8,1,shecj101,??,,4/P
 play,9,0,herzb101,??,,7/F
 play,9,0,wilsa102,??,,K
 play,9,0,fleta101,??,,13
-data,er,marqr102,5
+data,er,marqr102,3
 data,er,tesrj101,1
 data,er,lavej101,2
 id,CHN191207090
@@ -4711,7 +4712,7 @@ play,4,0,crand101,??,,63
 play,4,1,saiev101,??,,13
 com,"ej,everj102,P,riglc901,Balls and strikes"
 com,"$Evers ejected by HP umpire Rigler for arguing balls"
-com,"and strikes; Downs took over at-bat"
+com,"and strikes (Downs took over at-bat)"
 play,4,1,everj102,??,,NP
 sub,downr101,"Red Downs",1,7,11
 play,4,1,downr101,??,,53
@@ -4726,7 +4727,7 @@ play,5,1,shecj101,??,,W
 play,5,1,schuf103,??,,FC1/SH/TH3.2-3;1-2;B-1
 play,5,1,tinkj101,??,,8/SF.3-H;2-3;1-2
 play,5,1,zimmh101,??,,E4/TH.3-H;2-3
-play,5,1,leact101,??,,S9.3-H;1-H(TH)(NR);B-2(TH)#
+play,5,1,leact101,??,,S9.3-H;1-H(TH)(NR)(UR);B-2(TH)#
 play,5,1,saiev101,??,,S3/G.2XH(32)
 play,5,1,downr101,??,,CS2(24)
 play,6,0,merkf101,??,,S6/G
@@ -4759,17 +4760,17 @@ play,8,0,snodf101,??,,13/SH.2-3
 play,8,0,doyll101,??,,7/L
 play,8,1,zimmh101,??,,E6/TH
 play,8,1,leact101,??,,13/SH.1-2
-play,8,1,saiev101,??,,S6/G.2-H
+play,8,1,saiev101,??,,S6/G.2-H(UR)
 play,8,1,downr101,??,,S8.1-2
 play,8,1,archj102,??,,D7.2-H;1-H
 play,8,1,chenl101,??,,K
-play,8,1,shecj101,??,,HR/9.2-H
+play,8,1,shecj101,??,,HR/9.2-H(UR);B-H(UR)
 play,8,1,schuf103,??,,K
 play,9,0,beckb101,??,,6/P
 play,9,0,merkf101,??,,43
 play,9,0,murrr103,??,,13
 data,er,wilth102,2
-data,er,crand101,9
+data,er,crand101,5
 data,er,lavej101,3
 data,er,chenl101,2
 id,CHN191207120
@@ -4878,7 +4879,7 @@ play,6,1,zimmh101,??,,3/P
 play,6,1,leact101,??,,E6/TH
 play,6,1,saiev101,??,,SB2
 play,6,1,saiev101,??,,43.2-3
-play,6,1,everj102,??,,S4.3-H
+play,6,1,everj102,??,,S4.3-H(UR)
 play,6,1,archj102,??,,43
 play,7,0,campv101,??,,HP
 play,7,0,sweeb102,??,,S7.1-2
@@ -4901,7 +4902,7 @@ play,8,1,saiev101,??,,31
 play,9,0,sweeb102,??,,6/P
 play,9,0,jackg102,??,,8
 play,9,0,kirkj101,??,,K
-data,er,donne102,4
+data,er,donne102,3
 data,er,chenl101,2
 id,CHN191207130
 version,1
@@ -5237,10 +5238,10 @@ play,13,0,jackg102,??,,8/8D/F
 play,13,1,downr101,??,,S9
 play,13,1,richl102,??,,99/SH.1-2
 play,13,1,needt101,??,,PO2(E2/TH).2-3
-play,13,1,needt101,??,,8/SF.3-H
+play,13,1,needt101,??,,8/SF.3-H(UR)
 data,er,hesso101,4
 data,er,browb102,1
-data,er,tylel101,1
+data,er,tylel101,0
 data,er,reule101,3
 data,er,leifl101,2
 data,er,moroj101,0
@@ -5517,7 +5518,7 @@ play,6,0,herzb101,??,,53
 play,6,1,tinkj101,??,,S7
 play,6,1,zimmh101,??,,SB2
 play,6,1,zimmh101,??,,K13
-com,"third strike bounded off Meyers mitt to Tesreau"
+com,"$Third strike bounded off Meyers mitt to Tesreau"
 com,"who threw Zimmerman out at 1st"
 play,6,1,leact101,??,,6(B)4(2)/LDP
 play,7,0,meyec101,??,,4/L
@@ -5781,7 +5782,7 @@ play,4,0,paskd101,??,,K
 play,4,1,saiev101,??,,W
 play,4,1,everj102,??,,9/F
 play,4,1,cottd101,??,,T8/89.1-H
-play,4,1,smitc107,??,,FC4.3-H(E4/TH)(NR);B-1#
+play,4,1,smitc107,??,,FC4.3-H(E4/TH)(NR)(UR);B-1#
 play,4,1,shecj101,??,,64(1)/FO
 play,4,1,schuf103,??,,S8.1-2
 play,4,1,tinkj101,??,,3/P#
@@ -5796,7 +5797,7 @@ play,5,1,leact101,??,,S8/L
 play,5,1,saiev101,??,,PB.1-2#
 play,5,1,saiev101,??,,2/FL
 play,5,1,everj102,??,,S8/89.2-3
-play,5,1,cottd101,??,,SB2.3-H(TH)
+play,5,1,cottd101,??,,SB2.3-H(TH)(UR)
 play,5,1,cottd101,??,,8/F
 play,6,0,doolm101,??,,7/F
 play,6,0,killb101,??,,K/C
@@ -5846,7 +5847,7 @@ sub,millw104,"Ward Miller",1,8,11
 play,9,1,millw104,??,,S7.3-H;1-2
 play,9,1,moroj101,??,,NP
 sub,willc103,"Cy Williams",1,9,11
-com,"$Major league debut of Cy Williams"
+com,"$ML debut for Cy Williams"
 play,9,1,willc103,??,,6/P
 play,9,1,shecj101,??,,9/L
 play,10,0,doolm101,??,,NP
@@ -5873,7 +5874,7 @@ play,11,1,saiev101,??,,S9
 play,11,1,everj102,??,,K
 play,11,1,needt101,??,,D9.1-H
 play,11,1,lavej101,??,,K/C
-data,er,brena101,7
+data,er,brena101,5
 data,er,seatt102,1
 data,er,richl102,4
 data,er,smitc107,1
@@ -6073,8 +6074,9 @@ play,2,1,leact101,??,,63
 play,2,1,saiev101,??,,K
 com,"ej,dooir101,M,riglc901,Coating ball with liniment"
 com,"$Phillies manager Dooin ejected by HP umpire Rigler"
-com,"when it was discovered Phillies had been coating the ball"
-com,"with liniment in an effort to disrupt Lavender's spitter."
+com,"when it was discovered Phillies had been coating the"
+com,"ball with liniment in an effort to disrupt Cubs pitcher"
+com,"Lavender's spitter."
 play,3,0,rixee101,??,,13
 play,3,0,paskd101,??,,HR/7
 com,"$Bounce HR"
@@ -6253,7 +6255,7 @@ play,6,0,alexg102,??,,NP
 sub,goodw101,"Wilbur Good",1,1,7
 play,6,0,alexg102,??,,NP
 sub,vernj101,"Joe Vernon",1,9,1
-com,"$Major league debut of Joe Vernon"
+com,"$ML debut for Joe Vernon"
 play,6,0,alexg102,??,,7/7D/F
 play,6,0,paskd101,??,,W
 play,6,0,lobeh101,??,,WP.1-2
@@ -7066,11 +7068,11 @@ play,1,1,tinkj101,??,,63
 play,2,0,murrr103,??,,53
 play,2,0,merkf101,??,,E4/TH
 play,2,0,herzb101,??,,DGR/8.1-3
-com,"$Into overflow crowd in CF"
+com,"$Into CF overflow crowd"
 play,2,0,meyec101,??,,IW
 play,2,0,fleta101,??,,64(1)3/GDP
 play,2,1,zimmh101,??,,DGR/7
-com,"$Into overflow crowd in LF"
+com,"$Into LF overflow crowd"
 play,2,1,leact101,??,,FC1/BG.2X3(15)
 play,2,1,saiev101,??,,SB2
 play,2,1,saiev101,??,,S1/L.2-3
@@ -7086,9 +7088,9 @@ play,3,1,richl102,??,,3/G
 play,3,1,shecj101,??,,W
 play,3,1,schuf103,??,,13
 play,4,0,murrr103,??,,DGR/7
-com,"$Into overflow crowd in LF"
+com,"$Into LF overflow crowd"
 play,4,0,merkf101,??,,DGR/8.2-H
-com,"$Into overflow crowd in CF"
+com,"$Into CF overflow crowd"
 play,4,0,herzb101,??,,24/SH.2-3#
 play,4,0,meyec101,??,,FC5/DP.3XH(525);BX2(54)
 play,4,1,tinkj101,??,,9/F
@@ -7104,9 +7106,9 @@ play,5,1,richl102,??,,S9
 play,5,1,shecj101,??,,W.1-2
 play,5,1,schuf103,??,,3/P
 play,5,1,tinkj101,??,,DGR/9.2-H;1-3
-com,"$Into overflow crowd in RF"
+com,"$Into RF overflow crowd"
 play,5,1,zimmh101,??,,DGR/9.3-H;2-H
-com,"$Into overflow crowd in RF"
+com,"$Into RF overflow crowd"
 play,5,1,leact101,??,,S9.2-H;B-2(TH)
 play,5,1,saiev101,??,,WP.2-3
 play,5,1,saiev101,??,,W
@@ -7245,7 +7247,7 @@ play,5,0,beckb101,??,,W
 play,5,0,murrr103,??,,3/FL
 play,5,0,merkf101,??,,SB2
 play,5,0,merkf101,??,,DGR/7.2-H
-com,"$Into overflow crowd in LF"
+com,"$Into LF overflow crowd"
 play,5,0,herzb101,??,,S9.2-H
 play,5,0,meyec101,??,,S7.1-2
 play,5,0,fleta101,??,,15(2)/FO.1-2
@@ -7279,7 +7281,7 @@ play,7,0,merkf101,??,,7/F
 play,7,0,herzb101,??,,W.1-2
 play,7,0,meyec101,??,,46(1)/FO.2-3
 play,7,0,fleta101,??,,CSH(252)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,7,1,schuf103,??,,W
 play,7,1,tinkj101,??,,6/P
 play,7,1,zimmh101,??,,8/L
@@ -7289,7 +7291,7 @@ play,8,0,fleta101,??,,W
 play,8,0,tesrj101,??,,13/SH.1-2
 play,8,0,snodf101,??,,5/FL
 play,8,0,doyll101,??,,DGR/9.2-H
-com,"$Into overflow crowd in RF"
+com,"$Into RF overflow crowd"
 play,8,0,beckb101,??,,43
 play,8,1,downt101,??,,K
 play,8,1,archj102,??,,4/P
@@ -7403,7 +7405,7 @@ play,4,1,leact101,??,,E6/TH.2-H(UR);B-2#
 play,4,1,saiev101,??,,3/G.2-3
 play,4,1,everj102,??,,53
 play,5,0,beckb101,??,,DGR/9
-com,"$Into overflow crowd in RF"
+com,"$Into RF overflow crowd"
 play,5,0,murrr103,??,,K
 play,5,0,merkf101,??,,FC5/INT.2X3(5);B-1
 com,"$Becker called out for interfering with 3bman Zimmerman"
@@ -7547,7 +7549,7 @@ play,3,0,knabo101,??,,13#
 play,3,1,shecj101,??,,W
 play,3,1,schuf103,??,,S1/G.1-2
 play,3,1,tinkj101,??,,3/SH.2-3;1-2
-play,3,1,zimmh101,??,,PB.3-H;2-H#
+play,3,1,zimmh101,??,,PB.3-H(UR);2-H(UR)#
 play,3,1,zimmh101,??,,K
 play,3,1,leact101,??,,W
 play,3,1,saiev101,??,,NP
@@ -7565,7 +7567,7 @@ play,4,0,paskd101,??,,NP
 sub,milld106,"Doc Miller",0,1,11
 com,"ej,paskd101,P,owenb901,Balls and strikes"
 com,"$Paskert ejected by HP umpire Owens for arguing balls"
-com,"and strikes. Miller took over at-bat"
+com,"and strikes (Miller took over at-bat)"
 play,4,0,milld106,??,,9/F
 play,4,0,lobeh101,??,,S7.2-H;1X3(75)
 play,4,1,everj102,??,,NP
@@ -7641,7 +7643,7 @@ play,9,0,rixee101,??,,K
 play,9,1,saiev101,??,,9/F
 play,9,1,everj102,??,,5/FL
 play,9,1,archj102,??,,9/F
-data,er,seatt102,6
+data,er,seatt102,4
 data,er,shult101,0
 data,er,rixee101,0
 data,er,smitc107,5
@@ -7896,7 +7898,7 @@ play,7,0,killb101,??,,13
 play,7,0,alexg102,??,,NP
 sub,mangg101,"George Mangus",0,9,11
 play,7,0,mangg101,??,,K/C
-com,"$Major league debut of George Mangus"
+com,"$ML debut for George Mangus"
 play,7,1,tinkj101,??,,NP
 sub,finnh102,"Happy Finneran",0,9,1
 play,7,1,tinkj101,??,,6/L
@@ -8002,8 +8004,8 @@ play,3,1,schuf103,??,,S9.1X3(9451);B-2#
 play,3,1,tinkj101,??,,43.2-3
 play,3,1,zimmh101,??,,S8.3-H
 play,3,1,millw104,??,,E5/G.1-2
-play,3,1,saiev101,??,,T9.2-H;1-H
-play,3,1,everj102,??,,S7.3-H
+play,3,1,saiev101,??,,T9.2-H(UR);1-H(UR)
+play,3,1,everj102,??,,S7.3-H(UR)
 play,3,1,archj102,??,,64(1)/FO
 play,4,0,cravg101,??,,9/F
 play,4,0,ludef101,??,,143#
@@ -8032,7 +8034,7 @@ play,5,1,everj102,??,,W
 play,5,1,archj102,??,,FC6.1-2(E6/TH)
 play,5,1,smitc107,??,,K
 play,5,1,shecj101,??,,W.2-3;1-2
-play,5,1,schuf103,??,,99(1)/FO.3-H;2-3
+play,5,1,schuf103,??,,99(1)/FO.3-H(UR);2-3
 play,5,1,tinkj101,??,,99
 play,6,0,paskd101,??,,K
 play,6,0,lobeh101,??,,99
@@ -8069,8 +8071,8 @@ play,7,1,saiev101,??,,99
 play,7,1,everj102,??,,99
 play,8,0,paskd101,??,,E6
 play,8,0,lobeh101,??,,D.1-3
-play,8,0,mages101,??,,8/SF.3-H;2-3#
-play,8,0,cravg101,??,,8/SF.3-H#
+play,8,0,mages101,??,,8/SF.3-H(UR);2-3#
+play,8,0,cravg101,??,,8/SF.3-H(UR)#
 play,8,0,ludef101,??,,S7.BX2(74)#
 play,8,1,cottd101,??,,99
 play,8,1,smitc107,??,,99
@@ -8084,11 +8086,11 @@ sub,willc103,"Cy Williams",1,1,7
 play,9,0,walsj101,??,,99
 play,9,0,doolm101,??,,99
 play,9,0,morap101,??,,K
-data,er,moore103,9
-data,er,ritth101,3
+data,er,moore103,6
+data,er,ritth101,2
 data,er,finnh102,1
 data,er,reule101,0
-data,er,smitc107,3
+data,er,smitc107,1
 id,CHN191208210
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -8181,11 +8183,11 @@ play,5,0,snodf101,??,,5/L
 play,5,1,archj102,??,,43
 play,5,1,richl102,??,,43
 play,5,1,shecj101,??,,DGR/9
-com,"$Into overflow crowd in RF"
+com,"$Into RF overflow crowd"
 play,5,1,schuf103,??,,9/F
 play,6,0,doyll101,??,,43
 play,6,0,beckb101,??,,DGR/9
-com,"$Into overflow crowd in RF"
+com,"$Into RF overflow crowd"
 play,6,0,murrr103,??,,5(2)3(B)/DP/G/INT
 com,"$Becker called out for running out of baseline to avoid tag"
 play,6,1,tinkj101,??,,S8
@@ -8195,7 +8197,7 @@ play,6,1,saiev101,??,,FC5/SH.1-2(TH)
 play,6,1,everj102,??,,S1/BG.2-3;1-2
 play,6,1,archj102,??,,5/FL
 play,6,1,richl102,??,,2/FL
-play,6,1,shecj101,??,,PB.3-H
+play,6,1,shecj101,??,,PB.3-H(UR)
 play,6,1,shecj101,??,,3/G
 play,7,0,devoj101,??,,6/FL
 play,7,0,herzb101,??,,S8/78
@@ -8221,7 +8223,7 @@ play,8,1,shecj101,??,,53
 play,9,0,murrr103,??,,8/F
 play,9,0,devoj101,??,,E3
 play,9,0,herzb101,??,,64(1)3/GDP
-data,er,tesrj101,3
+data,er,tesrj101,2
 data,er,crand101,1
 data,er,richl102,0
 id,CHN191208220
@@ -8455,13 +8457,13 @@ play,1,1,schuf103,??,,W.1-2
 play,1,1,tinkj101,??,,1/SH.2-3;1-2
 play,1,1,zimmh101,??,,FC1.3XH(12);2-3;B-1
 play,1,1,leact101,??,,CSH(262)#
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,2,0,devla101,??,,43
 play,2,0,brida101,??,,63
 play,2,0,klinj101,??,,5/FL
 play,2,1,leact101,??,,S8
 play,2,1,saiev101,??,,S7.1-2
-play,2,1,everj102,??,,S5/BG.2-H(NR);1-3;B-2(E5/TH1)
+play,2,1,everj102,??,,S5/BG.2-H(E5/TH1)(NR)(UR);1-3;B-2
 play,2,1,archj102,??,,6/P7
 play,2,1,lavej101,??,,K
 play,2,1,shecj101,??,,43
@@ -8544,7 +8546,7 @@ play,9,0,jackg102,??,,7/F
 play,9,1,tinkj101,??,,4/P#
 play,9,1,zimmh101,??,,8/F
 play,9,1,leact101,??,,8/F
-data,er,tylel101,3
+data,er,tylel101,2
 data,er,lavej101,5
 data,er,tonef101,1
 id,CHN191208250
@@ -8626,7 +8628,7 @@ play,3,0,campv101,??,,36(1)/FO#
 play,3,0,kirkj101,??,,S9.1-3
 play,3,0,sweeb102,??,,S7.3-H;1-2
 play,3,0,jackg102,??,,15(2)/FO.1-2
-play,3,0,tituj101,??,,S3.2-H(E3/TH);1-2
+play,3,0,tituj101,??,,S3.2-H(E3/TH)(NR)(UR);1-2
 play,3,0,housb101,??,,46(1)/FO
 play,3,1,shecj101,??,,S8
 play,3,1,schuf103,??,,64(1)3/GDP
@@ -8695,7 +8697,7 @@ play,9,1,downt101,??,,NP
 sub,goodw101,"Wilbur Good",1,3,11
 play,9,1,goodw101,??,,64(1)3/GDP
 data,er,perdh101,5
-data,er,smitc107,4
+data,er,smitc107,3
 data,er,leifl101,0
 id,CHN191208260
 version,1
@@ -9174,7 +9176,8 @@ play,1,0,magel101,??,,T8/89
 play,1,0,smitw103,??,,FC6.3XH(625);B-2(TH)
 play,1,0,konee101,??,,63
 play,1,1,shecj101,??,,1/L
-play,1,1,schuf103,??,,HR9/IPHR
+play,1,1,schuf103,??,,HR/9
+com,"$Ball hit off RF signboard which was a HR per ground rules"
 play,1,1,downr101,??,,9/F
 play,1,1,zimmh101,??,,9/F
 play,2,0,evans101,??,,8/F
@@ -9478,9 +9481,9 @@ play,3,0,magel101,??,,13/SH.2-3
 play,3,0,mowrm101,??,,9/F/DP.3XH(92)
 play,3,1,shecj101,??,,31
 play,3,1,schuf103,??,,K
-com,"Umpire Brennan chased every player on the St. Louis bench"
-com,"to the clubhouse (my guess is that these players were not"
-com,"ejected and could come into the game later -- rwood)"
+com,"$Umpire Brennan chased every player on the St. Louis"
+com,"bench to the clubhouse (these players were not ejected"
+com,"and could come into the game later)"
 play,3,1,tinkj101,??,,6/P
 play,4,0,konee101,??,,7/F
 play,4,0,evans101,??,,HP
@@ -9530,7 +9533,7 @@ play,8,1,shecj101,??,,9/F
 play,8,1,schuf103,??,,8/F
 play,9,0,magel101,??,,NP
 sub,maddl101,"Len Madden",1,9,1
-com,"$Major league debut of Len Madden"
+com,"$ML debut for Len Madden"
 play,9,0,magel101,??,,NP
 sub,needt101,"Tom Needham",1,8,2
 play,9,0,magel101,??,,K
@@ -10200,7 +10203,7 @@ play,1,0,grane101,??,,WP.2-3
 play,1,0,grane101,??,,W
 play,1,0,egand102,??,,7/F/DP.3XH(72)
 play,1,1,shecj101,??,,31
-com,"$Major league debut of Gene Packard"
+com,"$ML debut for Gene Packard"
 play,1,1,millw104,??,,43
 play,1,1,tinkj101,??,,63
 play,2,0,seveh101,??,,K
@@ -10242,7 +10245,7 @@ play,5,1,downr101,??,,S7.2-H;1-2
 play,5,1,shecj101,??,,K
 play,6,0,almer101,??,,NP
 sub,hechm101,"Mike Hechinger",1,8,2
-com,"$Major league debut of Mike Hechinger"
+com,"$ML debut for Mike Hechinger"
 play,6,0,almer101,??,,NP
 sub,cotte101,"Ensign Cottrell",1,9,1
 play,6,0,almer101,??,,D7
@@ -10500,7 +10503,7 @@ play,1,0,bescb101,??,,2/P#
 play,1,0,batej101,??,,S8
 play,1,0,hobld101,??,,W.1-2
 play,1,0,mitcm102,??,,E4/G.2-3;1-2
-play,1,0,almer101,??,,7/SF.3-H
+play,1,0,almer101,??,,7/SF.3-H(UR)
 play,1,0,grane101,??,,7/FL
 play,1,1,willc103,??,,5/P
 play,1,1,millw104,??,,53
@@ -10573,10 +10576,10 @@ play,7,1,hechm101,??,,63.2-3
 play,7,1,lowdg101,??,,NP
 sub,zimmh101,"Heinie Zimmerman",1,9,11
 play,7,1,zimmh101,??,,K
-com,"$Game called on account of darkness (second game"
-com,"of scheduled double-header cancelled)"
+com,"$Game called on account of darkness"
+com,"(second game of scheduled DH cancelled)"
 data,er,workr101,1
-data,er,lowdg101,10
+data,er,lowdg101,9
 id,CHN191209290
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -10695,7 +10698,7 @@ play,8,0,wilsc102,??,,T8
 play,8,0,butla101,??,,63
 play,8,0,simom102,??,,W
 play,8,0,otoom101,??,,FC1.3-H(E1)(NR)(UR);1-2;B-1
-com,"Wilson escaped rundown when Reulback erred"
+com,"$Wilson escaped rundown when Reulback erred"
 play,8,0,byrnb101,??,,46(1)3/GDP
 play,8,1,reule101,??,,NP
 sub,willc103,"Cy Williams",1,9,11
@@ -10809,7 +10812,7 @@ play,3,1,zimmh101,??,,63
 play,4,0,butla101,??,,K/C
 play,4,0,gibsg101,??,,W
 play,4,0,hendc101,??,,S8.1-3
-com,"hit and run"
+com,"Hit and run"
 play,4,0,mccaa103,??,,W.1-2
 play,4,0,carem101,??,,S7/F/AP.3-H;2-H;1-2;BX2(764)
 com,"$Runner on 1st McCarthy held up until drive landed safely"
@@ -10840,7 +10843,7 @@ play,6,1,schuf103,??,,S8
 play,6,1,saiev101,??,,W.1-2
 play,6,1,everj102,??,,W.2-3;1-2
 play,6,1,archj102,??,,8/F/DP.2X3(85)
-com,"Saier was out at 3B before Schulte crossed home"
+com,"$Saier was out at 3B before Schulte crossed home"
 play,7,0,hyath101,??,,43
 play,7,0,wagnh101,??,,K
 play,7,0,grays101,??,,K
@@ -10856,7 +10859,7 @@ play,8,0,wilsc102,??,,NP
 sub,poweb102,"Bill Powell",1,9,1
 play,8,0,wilsc102,??,,NP
 sub,yantg101,"George Yantz",1,8,2
-com,"$Major league debut of George Yantz"
+com,"$ML debut for George Yantz"
 play,8,0,wilsc102,??,,43
 play,8,0,butla101,??,,W
 play,8,0,gibsg101,??,,43.1-2
@@ -10962,7 +10965,7 @@ play,4,0,gibsg101,??,,43
 play,4,0,adamb104,??,,K
 play,4,1,millw104,??,,S6/G
 play,4,1,tinkj101,??,,S9.1-3
-com,"hit and run"
+com,"Hit and run"
 play,4,1,zimmh101,??,,13.3-H;1-2
 play,4,1,schuf103,??,,8/8D/F
 play,4,1,saiev101,??,,5/FL

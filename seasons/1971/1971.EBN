@@ -2425,7 +2425,7 @@ start,didib101,"Bob Didier",1,7,2
 start,perem101,"Marty Perez",1,8,6
 start,niekp001,"Phil Niekro",1,9,1
 stat,bline,huntr101,0,1,1,6,0,1,0,0,0,0,0,0,0,1,0,2,0,0,0,0
-stat,bline,gosgj101,0,2,1,6,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+stat,bline,gosgj101,0,2,1,6,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0
 stat,bline,staur001,0,3,1,5,1,1,1,0,0,0,0,0,0,1,0,0,1,0,0,0
 stat,bline,bailb103,0,4,1,4,1,1,0,0,0,0,0,0,0,2,0,2,0,0,0,0
 stat,bline,fairr101,0,5,1,5,0,1,1,0,0,1,0,0,0,1,0,1,0,0,0,0
@@ -3324,6 +3324,7 @@ line,0,0,0,0,0,1,1,0,0,4,1
 line,1,1,0,0,0,0,1,3,1,0,0
 stat,tline,0,6,6,2,0
 stat,tline,1,11,7,0,0
+com,""ej,cepeo101,P,engeb901,Call at 1B""
 id,ATL197106080
 version,3
 info,visteam,SLN
@@ -4997,6 +4998,7 @@ line,0,0,0,0,0,1,0,0,0,0
 line,1,1,0,0,0,2,0,0,0
 stat,tline,0,5,3,1,0
 stat,tline,1,8,0,0,0
+com,""ej,garrr101,P,pelec901,Called third strike""
 id,ATL197107170
 version,3
 info,visteam,LAN
@@ -8891,6 +8893,7 @@ line,0,0,0,0,1,0,4,0,0,0
 line,1,0,0,2,1,0,1,0,0,0
 stat,tline,0,7,4,1,0
 stat,tline,1,7,5,0,0
+com,""ej,mathe101,C,pelec901,Fair/foul call""
 id,ATL197109260
 version,3
 info,visteam,LAN
@@ -10034,12 +10037,12 @@ stat,pline,handb101,1,1,27,0,36,5,2,0,0,2,0,2,1,9,0,0,0,0,0
 stat,dline,bailb103,0,1,5,24,0,1,0,0,0,0
 stat,dline,huntr101,0,1,4,24,0,6,0,1,0,0
 stat,dline,staur001,0,1,9,24,0,1,0,0,0,0
-stat,dline,fairr101,0,1,3,24,11,1,0,1,0,0
+stat,dline,fairr101,0,1,3,24,12,1,0,1,0,0
 stat,dline,fairj102,0,1,7,24,0,0,0,0,0,0
 stat,dline,branr101,0,1,7,0,0,0,0,0,0,0
 stat,dline,day-b102,0,1,8,24,6,0,0,0,0,0
 stat,dline,batej102,0,1,2,24,2,0,0,0,0,0
-stat,dline,wineb101,0,1,6,24,3,1,0,1,0,0
+stat,dline,wineb101,0,1,6,24,2,1,0,1,0,0
 stat,dline,mortc102,0,1,1,24,2,3,1,0,0,0
 stat,dline,kessd101,1,1,6,27,0,4,0,0,0,0
 stat,dline,beckg101,1,1,4,27,2,5,1,0,0,0
@@ -10950,6 +10953,12 @@ line,0,0,0,0,0,3,0,1,0,0
 line,1,2,1,0,0,3,0,0,0
 stat,tline,0,6,4,0,0
 stat,tline,1,7,4,2,0
+com,""Suspend=19710804,,3,6,36""
+com,""umpchange,7,umphome,varge901""
+com,""umpchange,7,ump1b,harvd901""
+com,""umpchange,7,ump2b,dalej901""
+com,""umpchange,7,ump3b,donaa901""
+com,""suspended,19710804,CHI11,darkness""
 id,CHN197105180
 version,3
 info,visteam,SFN
@@ -13190,6 +13199,9 @@ line,0,1,0,3,1,0,1,0,0,0
 line,1,0,1,0,0,0,0,2,0,1
 stat,tline,0,10,4,4,0
 stat,tline,1,3,6,2,0
+com,""umpchange,7,umphome,lands901""
+com,""umpchange,7,ump3b,engeb901""
+com,""umpchange,7,ump2b,(None)""
 id,CHN197106290
 version,3
 info,visteam,LAN
@@ -15049,6 +15061,7 @@ line,0,1,0,1,0,0,2,0,0,1
 line,1,1,0,1,3,0,0,0,1
 stat,tline,0,10,3,0,0
 stat,tline,1,8,5,0,0
+com,""Protest=V""
 id,CHN197108081
 version,3
 info,visteam,SFN
@@ -15153,6 +15166,7 @@ line,0,1,0,0,0,1,0,0,0,0,0,2
 line,1,0,0,0,2,0,0,0,0,0,0,0
 stat,tline,0,9,2,1,0
 stat,tline,1,4,3,2,0
+com,""ej,fox-c101,M,colon901,Check swing""
 id,CHN197108082
 version,3
 info,visteam,SFN
@@ -15486,6 +15500,7 @@ line,0,0,0,2,1,1,0,0,0,0
 line,1,0,0,0,2,0,0,1,2
 stat,tline,0,5,5,1,0
 stat,tline,1,8,4,2,0
+com,""ej,hiatj101,P,craws901,Balls and strikes""
 id,CHN197108210
 version,3
 info,visteam,HOU
@@ -15799,6 +15814,7 @@ line,0,0,0,0,0,1,0,0,0,2
 line,1,2,0,1,0,0,2,1,0
 stat,tline,0,6,6,0,0
 stat,tline,1,10,3,2,0
+com,""ej,clont101,P,lands901,Balls and strikes""
 id,CHN197108240
 version,3
 info,visteam,CIN
@@ -16709,6 +16725,8 @@ line,0,0,0,0,0,0,8,0,1,2
 line,1,0,0,1,0,0,0,1,0,0
 stat,tline,0,5,1,3,0
 stat,tline,1,10,11,3,0
+com,""Suspend=19710901,,8,1,36""
+com,""suspended,19710901,CHI11,darkness""
 id,CHN197109010
 version,3
 info,visteam,MON
@@ -19500,6 +19518,7 @@ line,0,0,0,0,0,1,1,0,4,1
 line,1,0,2,0,0,1,0,0,2,0
 stat,tline,0,9,4,1,0
 stat,tline,1,9,7,2,0
+com,""ej,carrc103,P,colon901,Balls and strikes (bumped umpire)""
 id,CIN197105010
 version,3
 info,visteam,SFN
@@ -20965,6 +20984,7 @@ line,0,0,0,2,1,0,0,1,0,0
 line,1,0,0,0,0,0,1,0,0,0
 stat,tline,0,6,1,1,0
 stat,tline,1,7,4,1,0
+com,""ej,grama101,C,barla901,Umpire baiting (praise strike zone)""
 id,CIN197106021
 version,3
 info,visteam,CHN
@@ -22064,6 +22084,7 @@ line,0,0,0,0,0,0,4,0,0,0
 line,1,0,0,2,0,1,0,0,1,1
 stat,tline,0,5,5,0,0
 stat,tline,1,11,4,1,0
+com,""ej,harrl101,M,froeb901,Call at 2B""
 id,CIN197106202
 version,3
 info,visteam,ATL
@@ -24756,6 +24777,8 @@ line,0,0,0,0,1,0,0,0,0,0
 line,1,1,0,1,1,0,1,1,0
 stat,tline,0,5,3,0,0
 stat,tline,1,6,0,0,0
+com,""ej,andes101,M,steld901,Called third strike""
+com,""ej,may-l101,P,steld901,Called third strike""
 id,CIN197108160
 version,3
 info,visteam,SLN
@@ -25001,6 +25024,7 @@ line,0,2,0,0,0,1,0,0,0,0
 line,1,0,0,0,0,1,2,0,0,2
 stat,tline,0,6,5,2,0
 stat,tline,1,10,3,1,0
+com,""ej,carls001,P,harvd901,Bench jockeying""
 id,CIN197108180
 version,3
 info,visteam,SLN
@@ -28427,7 +28451,7 @@ stat,dline,wynnj101,1,1,8,30,2,0,0,0,0,0
 stat,dline,watsb001,1,1,7,24,0,0,0,0,0,0
 stat,dline,geroc101,1,1,7,6,1,0,0,0,0,0
 stat,dline,menkd101,1,1,3,30,11,1,0,0,0,0
-stat,dline,raded103,1,1,5,30,0,2,0,0,0,0
+stat,dline,raded103,1,1,5,30,0,3,0,0,0,0
 stat,dline,cedec001,1,1,9,30,2,1,0,0,0,0
 stat,dline,edwaj101,1,1,2,27,7,1,0,0,0,0
 stat,dline,hiatj101,1,1,2,3,1,0,0,0,0,0
@@ -31070,7 +31094,7 @@ start,dierl101,"Larry Dierker",1,9,1
 stat,bline,speic001,0,1,1,5,0,1,0,0,0,0,0,0,0,0,0,2,0,0,0,0
 stat,bline,fuent101,0,2,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,bondb101,0,3,1,3,1,1,0,0,1,1,0,0,0,1,0,1,0,0,0,0
-stat,bline,hendk101,0,4,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+stat,bline,hendk101,0,4,1,4,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 stat,bline,dietd101,0,5,1,2,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0
 stat,bline,goode101,0,6,1,3,1,2,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 stat,bline,willb105,0,7,1,4,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -32654,6 +32678,8 @@ line,0,0,0,0,0,0,2,0,0,0,0,0
 line,1,1,0,0,1,0,0,0,0,0,0,1
 stat,tline,0,13,3,4,0
 stat,tline,1,7,2,1,0
+com,""ej,luccf801,M,froeb901,Interference call""
+com,""ej,myatg102,C,froeb901,Interference call""
 id,HOU197107200
 version,3
 info,visteam,MON
@@ -33583,13 +33609,13 @@ stat,pline,sevea101,0,2,6,0,10,2,0,0,0,1,1,1,1,1,1,0,0,1,0
 stat,pline,wilsd102,1,1,18,0,24,4,2,1,0,3,1,1,0,3,0,1,0,0,1
 stat,pline,culvg101,1,2,9,0,11,2,0,0,0,0,0,1,0,2,0,0,0,0,0
 stat,dline,herne102,0,1,6,24,1,4,1,1,0,0
-stat,dline,masod101,0,1,4,24,6,3,1,1,0,0
+stat,dline,masod101,0,1,4,24,5,4,1,1,0,0
 stat,dline,gastc101,0,1,8,24,2,0,0,0,0,0
 stat,dline,colbn101,0,1,3,24,9,0,1,1,0,0
 stat,dline,browo102,0,1,9,24,0,0,0,0,0,0
 stat,dline,lee-l101,0,1,7,24,1,0,0,0,0,0
 stat,dline,spiee101,0,1,5,24,0,2,0,0,0,0
-stat,dline,bartb101,0,1,2,24,5,1,2,0,0,0
+stat,dline,bartb101,0,1,2,24,6,1,2,0,0,0
 stat,dline,arlis101,0,1,1,18,0,0,0,0,0,0
 stat,dline,sevea101,0,1,1,6,0,1,0,0,0,0
 stat,dline,metzr101,1,1,6,18,0,2,1,0,0,0
@@ -34454,8 +34480,8 @@ stat,dline,cedec001,1,1,8,27,4,0,0,0,0,0
 stat,dline,watsb001,1,1,3,27,7,1,1,1,0,0
 stat,dline,raded103,1,1,5,27,0,0,0,0,0,0
 stat,dline,wynnj101,1,1,9,27,0,0,0,0,0,0
-stat,dline,hiatj101,1,1,2,3,2,0,0,0,0,0
-stat,dline,howal102,1,1,2,24,5,0,0,0,0,0
+stat,dline,hiatj101,1,1,2,2,1,0,0,0,0,0
+stat,dline,howal102,1,1,2,25,6,0,0,0,0,0
 stat,dline,metzr101,1,1,6,27,4,3,0,1,0,0
 stat,dline,forsk001,1,1,1,18,0,1,0,0,0,0
 stat,dline,lemad102,1,1,1,6,0,2,0,0,0,0
@@ -34470,6 +34496,8 @@ line,0,0,0,3,0,0,0,0,0,0
 line,1,0,0,0,0,0,0,0,2,0
 stat,tline,0,8,2,0,0
 stat,tline,1,5,3,1,0
+com,""ej,hiatj101,P,pryop901,Fighting""
+com,""ej,craww101,P,pryop901,Fighting""
 id,HOU197108310
 version,3
 info,visteam,LAN
@@ -37670,6 +37698,7 @@ line,0,1,0,2,0,0,0,0,8,0
 line,1,1,0,0,0,3,1,0,0,0
 stat,tline,0,3,5,0,0
 stat,tline,1,12,11,3,0
+com,""ej,murtd101,M,davis901,Call at 3B""
 id,LAN197105110
 version,3
 info,visteam,ATL
@@ -39964,6 +39993,7 @@ line,0,1,0,0,0,0,0,0,3,0
 line,1,0,8,0,3,0,0,0,0
 stat,tline,0,11,11,1,0
 stat,tline,1,8,2,2,0
+com,""ej,beauj101,P,weyel901,Called third strike""
 id,LAN197106250
 version,3
 info,visteam,SDN
@@ -49476,6 +49506,7 @@ line,0,0,0,0,4,0,0,1,1,0
 line,1,0,0,1,1,0,0,0,0,0
 stat,tline,0,6,1,4,0
 stat,tline,1,7,4,1,0
+com,""ej,gibsb101,P,burkk101,Bench jockeying""
 id,MON197107241
 version,3
 info,visteam,SLN
@@ -50961,6 +50992,8 @@ line,0,0,1,1,0,3,1,0,1,0
 line,1,0,0,0,0,0,2,0,0,0
 stat,tline,0,7,1,1,0
 stat,tline,1,8,7,1,0
+com,""ej,virdb101,C,weyel901,Complaining about warning""
+com,""ej,granj101,P,weyel901,Complaining about warning""
 id,MON197108200
 version,3
 info,visteam,SFN
@@ -51403,6 +51436,7 @@ line,0,1,2,0,0,0,2,0,1,0
 line,1,0,5,0,3,0,0,0,4
 stat,tline,0,8,10,0,0
 stat,tline,1,5,6,2,0
+com,""ej,alstw101,M,dalej901,Call at HP""
 id,MON197108240
 version,3
 info,visteam,LAN
@@ -52641,6 +52675,7 @@ line,0,0,0,0,4,0,3,0,0,0
 line,1,0,0,1,0,1,0,0,0,0
 stat,tline,0,9,2,1,0
 stat,tline,1,7,7,1,0
+com,""ej,maucg101,M,gormt101,Condition of field""
 id,MON197109180
 version,3
 info,visteam,SLN
@@ -53536,6 +53571,7 @@ line,0,0,0,2,0,0,1,2,0,0
 line,1,0,2,1,0,0,0,1,1,1
 stat,tline,0,7,5,1,0
 stat,tline,1,14,5,0,0
+com,""ej,dobyl101,C,burkk101,Balls and strikes""
 id,MON197109300
 version,3
 info,visteam,CHN
@@ -55773,6 +55809,7 @@ line,0,1,0,2,1,0,0,0,0,0,0,0,0
 line,1,3,0,0,0,1,0,0,0,0,0,0,1
 stat,tline,0,9,4,1,0
 stat,tline,1,11,4,0,0
+com,""ej,shorc102,P,davis901,Bench Jockeying""
 id,NYN197105260
 version,3
 info,visteam,PHI
@@ -56326,6 +56363,7 @@ line,0,0,0,0,2,0,0,0,0,0,1
 line,1,0,0,0,0,0,0,0,0,2,0
 stat,tline,0,6,2,1,0
 stat,tline,1,9,3,0,0
+com,""ej,hodgg101,M,weyel901,Fan interference non-call""
 id,NYN197106120
 version,3
 info,visteam,SFN
@@ -56413,7 +56451,7 @@ stat,dline,rebef101,0,1,1,18,1,1,0,0,0,0
 stat,dline,cumbj101,0,1,1,3,0,0,0,0,0,0
 stat,dline,mcmad102,0,1,1,6,0,1,0,0,0,0
 stat,dline,harrb101,1,1,6,27,1,2,0,1,0,0
-stat,dline,boswk101,1,1,4,27,2,2,0,1,0,0
+stat,dline,boswk101,1,1,4,27,3,2,0,1,0,0
 stat,dline,singk001,1,1,9,27,1,0,0,0,0,0
 stat,dline,krane101,1,1,3,21,0,0,0,0,0,0
 stat,dline,krane101,1,2,7,6,0,0,0,0,0,0
@@ -56422,7 +56460,7 @@ stat,dline,clend101,1,1,3,6,2,0,0,0,0,0
 stat,dline,asprb101,1,1,5,27,2,0,0,1,0,0
 stat,dline,grotj101,1,1,2,27,11,2,0,1,0,0
 stat,dline,hahnd102,1,1,8,27,4,0,0,0,0,0
-stat,dline,sader101,1,1,1,20,1,1,1,1,0,0
+stat,dline,sader101,1,1,1,20,0,1,1,1,0,0
 stat,dline,taylr101,1,1,1,4,0,0,0,0,0,0
 stat,dline,mcgrt001,1,1,1,3,0,0,0,0,0,0
 stat,phline,johnf103,7,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
@@ -59177,6 +59215,7 @@ line,0,0,0,0,0,0,0,0,0,0
 line,1,0,0,1,0,2,0,1,0
 stat,tline,0,7,4,0,0
 stat,tline,1,12,0,0,0
+com,""ej,durol101,M,burkk101,Search of pitcher by umpire""
 id,NYN197107310
 version,3
 info,visteam,CHN
@@ -62953,6 +62992,7 @@ line,0,3,0,1,0,0,0,0,1,0
 line,1,1,0,1,0,0,0,2,2
 stat,tline,0,8,6,1,0
 stat,tline,1,6,4,1,0
+com,""ej,luccf801,M,wendh901,Balls and strikes (Foul tip)""
 id,PHI197104160
 version,3
 info,visteam,ATL
@@ -63300,6 +63340,7 @@ line,0,1,0,0,1,0,1,1,0,0,1
 line,1,0,2,0,0,0,1,0,0,1,0
 stat,tline,0,8,4,0,0
 stat,tline,1,8,5,1,0
+com,""ej,bowal001,P,wendh901,Call at 1B""
 id,PHI197105030
 version,3
 info,visteam,SLN
@@ -64155,6 +64196,7 @@ line,0,0,0,0,4,0,0,5,0,0
 line,1,0,0,0,0,0,2,1,1,0
 stat,tline,0,4,4,0,0
 stat,tline,1,6,9,1,0
+com,""ej,myatg102,C,gormt101,Foul tip""
 id,PHI197105190
 version,3
 info,visteam,NYN
@@ -66019,6 +66061,8 @@ line,0,4,0,0,2,0,3,1,1,0
 line,1,0,1,3,0,0,0,0,0,5
 stat,tline,0,8,7,0,0
 stat,tline,1,5,11,0,0
+com,""umpchange,4,ump1b,kiblj901""
+com,""umpchange,4,ump2b,(None)""
 id,PHI197106271
 version,3
 info,visteam,PIT
@@ -66460,6 +66504,8 @@ line,0,0,0,0,1,0,0,0,2,0
 line,1,0,0,0,0,0,0,0,0,0
 stat,tline,0,7,0,1,0
 stat,tline,1,4,3,0,0
+com,""ej,boswk101,P,donaa901,Arguing call at 1B""
+com,""ej,hodgg101,M,donaa901,Arguing call at 1B""
 id,PHI197106300
 version,3
 info,visteam,CIN
@@ -68357,6 +68403,13 @@ line,0,0,0,1,0,1,0,0,0,1,0,0,3,3
 line,1,0,2,0,1,0,0,0,0,0,0,0,3,0
 stat,tline,0,13,4,0,0
 stat,tline,1,12,8,1,0
+com,""Suspend=19710907,,6,3,67""
+com,""Protest=X""
+com,""umpchange,12,umphome,kiblj901""
+com,""umpchange,12,ump1b,froeb901""
+com,""umpchange,12,ump2b,barla901""
+com,""umpchange,12,ump3b,pryop901""
+com,""suspended,19710907,PHI12,protested - unplayable field""
 id,PHI197108020
 version,3
 info,visteam,ATL
@@ -70300,6 +70353,7 @@ line,0,0,0,6,0,0,0,0,0,0
 line,1,0,0,0,0,0,0,0,0,3
 stat,tline,0,9,3,0,0
 stat,tline,1,6,5,1,0
+com,""ej,mccat101,P,barla901,Punching Lou Brock""
 id,PHI197109062
 version,3
 info,visteam,SLN
@@ -70539,6 +70593,7 @@ line,0,0,0,2,0,1,0,0,0,2,2
 line,1,0,0,0,2,0,0,2,1,0,0
 stat,tline,0,7,5,0,0
 stat,tline,1,8,5,1,0
+com,""ej,luccf801,M,barla901,Balk call""
 id,PHI197109150
 version,3
 info,visteam,MON
@@ -72997,6 +73052,7 @@ line,0,0,0,0,3,3,0,2,1,0
 line,1,1,0,1,0,0,0,1,0,2
 stat,tline,0,6,4,2,0
 stat,tline,1,7,9,2,0
+com,""ej,gentg101,P,craws901,Balls and strikes (Pushed umpire)""
 id,PIT197105160
 version,3
 info,visteam,NYN
@@ -74082,6 +74138,7 @@ line,0,0,0,0,0,0,0,0,0,0
 line,1,0,2,1,0,2,0,0,1
 stat,tline,0,7,5,2,0
 stat,tline,1,6,0,2,0
+com,""ej,durol101,M,colon901,Balls and strikes""
 id,PIT197106010
 version,3
 info,visteam,SLN
@@ -76981,6 +77038,8 @@ line,0,1,1,0,0,0,0,0,0,6
 line,1,0,0,0,0,1,0,2,1,0
 stat,tline,0,7,4,1,0
 stat,tline,1,4,8,1,0
+com,""ej,murtd101,M,engeb901,Balls and strikes""
+com,""ej,oceaf801,C,engeb901,Balls and strikes""
 id,PIT197107220
 version,3
 info,visteam,SFN
@@ -78511,6 +78570,7 @@ line,0,0,0,0,0,0,0,1,1,0
 line,1,0,1,0,1,0,0,0,0,1
 stat,tline,0,7,3,1,0
 stat,tline,1,16,2,1,0
+com,""ej,walkh102,M,colon901,Arguing interference call""
 id,PIT197108300
 version,3
 info,visteam,PHI
@@ -78640,6 +78700,7 @@ line,0,0,0,0,0,0,4,0,0,0
 line,1,0,0,0,1,2,3,0,0
 stat,tline,0,11,6,1,0
 stat,tline,1,10,1,1,0
+com,""ej,mccat101,P,steim901,Balls and strikes""
 id,PIT197108310
 version,3
 info,visteam,PHI
@@ -79431,7 +79492,7 @@ stat,bline,hebnr001,1,1,2,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0
 stat,bline,cling101,1,2,1,4,1,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,davav101,1,2,2,1,1,1,1,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,clemr101,1,3,1,4,1,2,0,0,0,1,0,0,0,1,1,1,0,0,0,0
-stat,bline,starw101,1,4,1,5,1,1,0,0,1,4,0,0,0,0,0,1,0,0,0,0
+stat,bline,starw101,1,4,1,5,1,1,0,0,1,4,0,0,0,0,0,1,0,0,1,0
 stat,bline,sangm101,1,5,1,4,1,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0
 stat,bline,cashd101,1,6,1,4,1,3,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,oliva001,1,7,1,4,1,2,1,0,1,2,0,0,0,0,0,0,0,0,1,0
@@ -82730,6 +82791,7 @@ line,0,0,2,0,0,0,0,0,0,0
 line,1,2,0,0,0,2,0,0,0
 stat,tline,0,4,4,1,0
 stat,tline,1,11,2,2,0
+com,""ej,gomep101,M,engeb901,Fair/foul call""
 id,SDN197105311
 version,3
 info,visteam,PHI
@@ -87053,6 +87115,7 @@ line,0,1,0,0,0,4,0,4,0,2
 line,1,0,0,0,0,0,0,0,0,0
 stat,tline,0,8,0,0,0
 stat,tline,1,8,7,1,0
+com,""ej,huntr101,P,steim901,Fighting""
 id,SDN197108180
 version,3
 info,visteam,MON
@@ -87734,6 +87797,7 @@ line,0,1,0,0,2,0,0,0,4,0
 line,1,0,1,0,1,0,2,0,2,2
 stat,tline,0,8,8,2,0
 stat,tline,1,11,4,2,0
+com,""ej,bencj101,P,wendh901,Call at home""
 id,SDN197109080
 version,3
 info,visteam,CIN
@@ -89705,7 +89769,7 @@ stat,bline,aloum101,0,1,1,4,0,3,0,0,0,1,0,0,1,0,0,0,1,0,0,0
 stat,bline,haguj101,0,2,1,2,0,0,0,0,0,0,0,0,0,2,0,2,0,0,0,0
 stat,bline,drabm101,0,2,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,mcnej101,0,2,3,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,brocl102,0,3,1,4,1,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0
+stat,bline,brocl102,0,3,1,4,1,0,0,0,0,0,0,0,0,0,0,2,0,0,1,0
 stat,bline,torrj101,0,4,1,3,0,1,0,0,0,0,0,0,0,1,0,1,0,0,0,0
 stat,bline,cardj101,0,5,1,4,0,2,2,0,0,1,0,0,0,0,0,1,0,0,1,0
 stat,bline,simmt001,0,6,1,3,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
@@ -93172,7 +93236,7 @@ start,lanih101,"Hal Lanier",1,8,5
 start,cumbj101,"John Cumberland",1,9,1
 stat,bline,kessd101,0,1,1,3,0,1,0,0,0,0,0,0,0,1,0,0,0,0,0,0
 stat,bline,beckg101,0,2,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-stat,bline,willb104,0,3,1,3,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0
+stat,bline,willb104,0,3,1,3,0,0,0,0,0,0,0,0,0,1,0,1,0,0,1,0
 stat,bline,santr102,0,4,1,4,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,pepij101,0,5,1,4,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,hickj103,0,6,1,3,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
@@ -93208,10 +93272,10 @@ stat,dline,cannc101,0,1,2,24,5,0,0,0,0,0
 stat,dline,davib105,0,1,8,24,0,0,0,0,0,0
 stat,dline,jenkf101,0,1,1,21,0,2,0,0,0,0
 stat,dline,tompr101,0,1,1,3,0,0,0,0,0,0
-stat,dline,speic001,1,1,6,27,3,2,0,1,0,0
+stat,dline,speic001,1,1,6,27,2,2,0,1,0,0
 stat,dline,fuent101,1,1,4,27,5,2,0,0,0,0
 stat,dline,bondb101,1,1,8,27,2,0,0,0,0,0
-stat,dline,maysw101,1,1,3,27,7,1,0,1,0,0
+stat,dline,maysw101,1,1,3,27,8,1,0,1,0,0
 stat,dline,hendk101,1,1,9,27,4,0,0,0,0,0
 stat,dline,dietd101,1,1,2,27,4,0,0,0,0,0
 stat,dline,wickf101,1,1,7,27,1,0,0,0,0,0
@@ -96713,6 +96777,7 @@ line,0,0,1,3,1,1,0,0,0,0
 line,1,0,0,4,0,3,1,1,7
 stat,tline,0,8,16,0,0
 stat,tline,1,9,5,1,0
+com,""ej,speic001,P,colon901,Called third strike""
 id,SFN197109040
 version,3
 info,visteam,HOU
@@ -97148,6 +97213,10 @@ line,0,2,0,0,1,2,0,0,0,0
 line,1,0,1,0,0,0,0,3,0,0
 stat,tline,0,5,2,0,0
 stat,tline,1,9,5,0,0
+com,""ej,marij101,P,craws901,Intentional HBP""
+com,""ej,buckb001,P,craws901,Charging mound""
+com,""ej,johnj104,P,craws901,Making choke gesture at umpire""
+com,""ej,willm102,P,lands901,Interference non-call""
 id,SFN197109140
 version,3
 info,visteam,LAN
@@ -100981,7 +101050,7 @@ stat,bline,barbs102,0,9,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,evand001,0,9,6,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,brocl102,1,1,1,5,1,2,0,1,0,0,0,0,0,0,0,1,0,0,1,0
 stat,bline,aloum101,1,2,1,5,2,2,1,0,0,1,0,0,0,0,0,0,1,0,0,0
-stat,bline,simmt001,1,3,1,4,1,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0
+stat,bline,simmt001,1,3,1,4,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1,0
 stat,bline,torrj101,1,4,1,3,1,2,0,0,0,1,0,0,0,1,0,0,0,0,0,0
 stat,bline,cardj101,1,5,1,3,2,2,0,0,1,3,0,1,0,0,0,0,0,0,0,0
 stat,bline,haguj101,1,6,1,3,1,1,0,0,1,3,0,0,0,1,1,1,0,0,0,0
@@ -101167,7 +101236,7 @@ start,schod101,"Dick Schofield",1,8,4
 start,reusj001,"Jerry Reuss",1,9,1
 stat,bline,cashd101,0,1,1,5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,cling101,0,2,1,5,0,2,0,0,0,0,0,0,0,0,0,1,0,0,0,0
-stat,bline,clemr101,0,3,1,5,1,1,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+stat,bline,clemr101,0,3,1,5,1,1,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 stat,bline,starw101,0,4,1,2,1,1,1,0,0,0,0,0,0,2,0,1,0,0,0,0
 stat,bline,sangm101,0,5,1,4,0,1,0,0,0,1,0,0,0,0,0,0,0,0,0,0
 stat,bline,robeb101,0,6,1,2,1,1,0,0,1,1,0,0,0,2,2,1,0,0,0,0
@@ -101778,6 +101847,7 @@ line,0,0,0,0,0,0,0,1,0,0
 line,1,0,1,1,2,0,0,0,2
 stat,tline,0,3,6,1,0
 stat,tline,1,4,1,0,0
+com,""ej,rosep001,P,kiblj901,Called third strike""
 id,SLN197106160
 version,3
 info,visteam,CIN
@@ -102613,6 +102683,7 @@ line,0,0,2,0,0,0,3,0,0,0
 line,1,0,4,4,0,0,1,0,0
 stat,tline,0,9,9,1,0
 stat,tline,1,9,5,1,0
+com,""ej,cardj101,P,varge901,Balls and strikes""
 id,SLN197107100
 version,3
 info,visteam,HOU
@@ -103058,6 +103129,7 @@ line,0,0,0,1,4,0,0,1,0,0
 line,1,2,0,0,0,1,1,0,0,0
 stat,tline,0,12,3,2,0
 stat,tline,1,8,6,1,0
+com,""ej,zimmd101,C,lands901,Called third strike""
 id,SLN197107160
 version,3
 info,visteam,MON
@@ -105666,7 +105738,7 @@ stat,bline,aloum101,1,3,1,4,0,1,0,0,0,1,0,1,0,0,0,0,0,0,0,0
 stat,bline,drabm101,1,3,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,torrj101,1,4,1,5,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,simmt001,1,5,1,5,2,4,1,0,0,0,0,0,0,0,0,0,0,0,1,0
-stat,bline,haguj101,1,6,1,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0
+stat,bline,haguj101,1,6,1,5,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0
 stat,bline,cruzj001,1,7,1,3,1,2,0,1,0,1,0,0,0,1,0,0,0,0,0,0
 stat,bline,maxvd101,1,8,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 stat,bline,melel101,1,8,2,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0

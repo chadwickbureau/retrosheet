@@ -49,7 +49,7 @@ start,smitr108,"Red Smith",1,6,5
 start,fisht103,"Tom Fisher",1,7,6
 start,millo103,"Otto Miller",1,8,2
 start,ruckn101,"Nap Rucker",1,9,1
-com,"$First game in Ebbets Field"
+com,"$First game at Ebbets Field"
 play,1,0,paskd101,??,,S7.BX2(74)
 play,1,0,knabo101,??,,D9/L
 play,1,0,lobeh101,??,,FLE9
@@ -1906,7 +1906,7 @@ play,6,0,schuf103,??,,HP.1-2
 play,6,0,mitcm102,??,,5(2)/FO.1-2
 play,6,0,phela101,??,,36(1)/FO.2-3
 play,6,0,archj102,??,,SBH(UR).1XH(E2/TH)(82)
-com,"$catcher made wild throw to 2nd on double-steal;"
+com,"$Catcher made wild throw to 2nd on double-steal;"
 com,"Phelan thrown out at home trying to score from 1st"
 play,6,1,daubj101,??,,13
 play,6,1,smitr108,??,,S6/G
@@ -2067,7 +2067,7 @@ play,8,0,archj102,??,,7
 play,8,1,wheaz101,??,,S/4
 play,8,1,daubj101,??,,13/SH.1-2
 play,8,1,smitr108,??,,E4.2-3
-play,8,1,fisht103,??,,63/DP.3-H;1X3(35)
+play,8,1,fisht103,??,,63/G/DP.3-H(UR);1X3(35)
 play,9,0,humpb101,??,,NP
 sub,leact101,"Tommy Leach",0,9,11
 play,9,0,leact101,??,,9/F
@@ -2075,7 +2075,7 @@ play,9,0,clymo101,??,,6/P
 play,9,0,schuf103,??,,K
 data,er,pearg101,4
 data,er,reule101,1
-data,er,humpb101,1
+data,er,humpb101,0
 data,er,stace101,2
 data,er,curtc101,2
 id,BRO191305100
@@ -2303,14 +2303,14 @@ play,5,0,marsa101,??,,5/L
 play,5,0,bergm101,??,,W
 play,5,0,grane101,??,,6E3.1-3
 play,5,0,clart101,??,,S9.3-H;1-2
-play,5,0,johnc102,??,,S9.2-H;1-2
+play,5,0,johnc102,??,,S9.2-H(UR);1-2
 play,5,0,batej101,??,,S9.2-H;1-2
 play,5,0,beckb101,??,,65(2)/FO.1-2
 play,5,0,tinkj101,??,,64(1)/FO
 play,5,1,fisht103,??,,43
 play,5,1,millo103,??,,S8
 play,5,1,ruckn101,??,,S4/BG.1-3(E4/TH)
-play,5,1,morah101,??,,WP.3-H;1-2
+play,5,1,morah101,??,,WP.3-H(UR);1-2
 play,5,1,morah101,??,,7/F
 play,5,1,cutsg101,??,,63
 play,6,0,hobld101,??,,S7
@@ -2354,9 +2354,9 @@ play,9,0,seveh101,??,,6/L
 play,9,0,browm102,??,,NP
 sub,blace101,"Earl Blackburn",0,9,11
 play,9,0,blace101,??,,43
-data,er,johnc102,4
+data,er,johnc102,3
 data,er,browm102,0
-data,er,ruckn101,3
+data,er,ruckn101,2
 id,BRO191305130
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -3360,9 +3360,9 @@ play,6,0,wagnh101,??,,S7.2-H;B-2(TH)
 play,6,0,milld102,??,,FC1.2X3(15);B-2
 com,"ej,millo103,P,klemb901,Balls and strikes"
 com,"ej,cutsg101,P,klemb901,Balls and strikes"
-com,"$catcher Miller ejected by HP umpire Klem for arguing"
-com,"a called ball to Wilson; Dodgers Cutshaw, not in game,"
-com,"also ejected by Klem"
+com,"$Catcher Miller ejected by HP umpire Klem for arguing"
+com,"a called ball to Wilson; Dodgers George Cutshaw, not"
+com,"in game, also ejected by Klem"
 play,6,0,wilsc102,??,,NP
 sub,erwit101,"Tex Erwin",1,8,2
 play,6,0,wilsc102,??,,3/G.2-3
@@ -4081,7 +4081,7 @@ sub,lordb101,"Bris Lord",0,8,8
 play,4,1,smitr108,??,,6/F
 play,4,1,hummj101,??,,E4
 play,4,1,millo103,??,,D.1-3
-play,4,1,yinge101,??,,43.3-H;2-3
+play,4,1,yinge101,??,,43.3-H(UR);2-3
 play,4,1,morah101,??,,K
 play,5,0,mcdot101,??,,NP
 sub,devla101,"Art Devlin",0,2,11
@@ -4126,7 +4126,7 @@ play,9,1,cutsg101,??,,NP
 sub,calll101,"Leo Callahan",1,2,11
 play,9,1,calll101,??,,13
 play,9,1,stenc101,??,,4/P
-data,er,rudod101,3
+data,er,rudod101,2
 data,er,curtc101,5
 data,er,yinge101,1
 id,BRO191307020
@@ -4213,7 +4213,7 @@ play,3,1,cutsg101,??,,E6/G.1-3(E6/TH);B-1
 play,3,1,stenc101,??,,S9.3-H;1-3
 play,3,1,wheaz101,??,,S4/G.3-H(UR);1-2
 play,3,1,daubj101,??,,FC2/BG.2XH(E5/TH1)(2E5)(NR)(UR);1-3;B-1
-com,"3Bman dropped catcher's throw and then threw wildly to 1st"
+com,"$3Bman dropped catcher's throw and then threw wildly to 1st"
 play,3,1,smitr108,??,,NP
 sub,devla101,"Art Devlin",0,2,5
 play,3,1,smitr108,??,,NP
@@ -4747,7 +4747,7 @@ play,8,1,hummj101,??,,6/P
 play,9,0,hartg102,??,,NP
 sub,hallb107,"Bill Hall",1,9,1
 play,9,0,hartg102,??,,K
-com,"$Major league debut for Bill Hall"
+com,"$ML debut for Bill Hall"
 play,9,0,snodf101,??,,K
 play,9,0,marqr102,??,,K
 play,9,1,daubj101,??,,S
@@ -4827,7 +4827,7 @@ play,3,0,snodf101,02,,NP
 sub,mccom104,"Moose McCormick",0,8,11
 com,"ej,snodf101,P,riglc901,Balls and strikes"
 com,"$Snodgrass ejected by HP umpire Rigler for arguing balls"
-com,"and strikes; McCormick took over at bat with 0-2 count."
+com,"and strikes (McCormick took over at bat with 0-2 count)"
 play,3,0,mccom104,??,,K
 play,3,0,mathc102,??,,13
 play,3,0,burng101,??,,D7
@@ -4859,7 +4859,7 @@ play,6,0,herzb101,??,,D/L89.2-H;1-H
 play,6,0,doyll101,??,,S9/G34.2-H;B-2(THH)
 play,6,0,merkf101,??,,NP
 sub,hechm101,"Mike Hechinger",1,8,2
-com,"$Fischer injured by foul tip from Merkle"
+com,"$Fischer injured by foul tip by Merkle"
 play,6,0,merkf101,??,,6/LDP.2X2(64)
 play,6,1,hummj101,??,,9/F
 play,6,1,calll101,??,,7/F
@@ -5618,7 +5618,7 @@ play,5,0,dodgj101,??,,7/F
 play,5,0,hobld101,??,,SB2
 play,5,0,hobld101,??,,S7.2-3
 play,5,0,tinkj101,??,,SB2.3X3(2E5)
-com,"Catcher threw to 3rd and 3Bman dropped throw for an error"
+com,"$Catcher threw to 3rd and 3Bman dropped throw for an error"
 play,5,0,tinkj101,??,,K
 play,5,0,grohh101,??,,8/F
 play,5,1,stace101,??,,K
@@ -5686,8 +5686,8 @@ info,ump1b,emslb101
 info,ump2b,(none)
 info,ump3b,(none)
 info,scorer,"277,589"
-info,translator,"Cliff Blau/RWood"
-info,inputter,"Cliff Blau/RWood"
+info,translator,"Cliff Blau/RWood/RWood"
+info,inputter,"Cliff Blau/RWood/RWood"
 info,inputtime,2013/12/01 7:55PM
 info,howscored,unknown
 info,pitches,none
@@ -5758,7 +5758,7 @@ play,4,0,humpb101,??,,24/SH.1-2
 play,4,0,leact101,??,,NP
 sub,willc103,"Cy Williams",0,1,11
 play,4,0,willc103,??,,43.2-3
-play,4,0,everj102,??,,E2/SH.3-H(UR)
+play,4,0,everj102,??,,FC5.3XH(5E2)(NR)(UR);B-1
 play,4,0,schuf103,??,,CS2(24)
 play,4,1,meyeb103,??,,NP
 sub,willc103,"Cy Williams",0,1,8
@@ -6267,7 +6267,7 @@ play,8,1,wheaz101,??,,S8.3-H
 play,8,1,daubj101,??,,SB2
 play,8,1,daubj101,??,,K/C
 play,8,1,smitr108,??,,FC4.2XH(425)
-com,"2B fumbled grounder but caught Wheat rounding 3rd"
+com,"$2B fumbled grounder but caught Wheat rounding 3rd"
 com,"too far (official scorer did not charge an error)"
 play,9,0,mitcm102,??,,43
 play,9,0,corrr101,??,,43
@@ -6556,7 +6556,7 @@ play,6,0,carem101,??,,6/P
 play,6,0,kommf101,??,,9/L
 play,6,1,morah101,??,,S5/BG.B-2(E5/TH)
 play,6,1,cutsg101,??,,FC1.2-2;BX2(1561)
-com,"Moran trapped between 2nd and 3rd but returned safely"
+com,"$Moran trapped between 2nd and 3rd but returned safely"
 com,"to 2nd where Cutshaw was now standing. Adams tagged"
 com,"both and Cutshaw was declared out"
 play,6,1,meyeb103,??,,43.2-3
@@ -7301,9 +7301,10 @@ sub,herzb101,"Buck Herzog",0,9,11
 play,6,0,herzb101,??,,W
 play,6,0,burng101,??,,SB2
 play,6,0,burng101,??,,W
-play,6,0,shaft102,??,,PB.2-H;1X1(2E4)#
-play,6,0,shaft102,??,,3/G.1-2
-play,6,0,fleta101,??,,HR8/F8D/IPHR.2-H
+play,6,0,shaft102,??,,PB.2-3
+play,6,0,shaft102,??,,PO1(E4).3-H;1-1
+play,6,0,shaft102,??,,3/P
+play,6,0,fleta101,??,,HR8/F8D/IPHR.1-H
 play,6,0,doyll101,??,,NP
 sub,ragap101,"Pat Ragan",1,9,1
 play,6,0,doyll101,??,,13
@@ -7873,7 +7874,7 @@ play,1,0,vioxj101,??,,S7
 play,1,0,wagnh101,??,,8
 play,1,1,morah101,??,,W
 play,1,1,cutsg101,??,,S8.1-3
-com,"hit and run."
+com,"Hit and run."
 play,1,1,stenc101,??,,E4/G.3-H;1-3#
 play,1,1,wheaz101,??,,6/P
 play,1,1,daubj101,??,,46(1)/FO.3-H(UR)
@@ -9273,7 +9274,7 @@ play,5,0,marsa101,??,,13.2-3;1-2
 play,5,0,hobld101,??,,13
 play,5,1,morah101,??,,63
 play,5,1,cutsg101,??,,9/L
-com,"Klem cleared the Dodgers bench."
+com,"$Klem cleared the Dodgers bench."
 play,5,1,collb101,??,,63
 play,6,0,tinkj101,??,,8/F
 play,6,0,dodgj101,??,,6/P
@@ -9399,9 +9400,9 @@ play,4,0,archj102,??,,63
 play,4,1,collb101,??,,HP
 play,4,1,wheaz101,??,,E9.1-3;B-2
 play,4,1,daubj101,??,,43.3-H;2-3
-play,4,1,smitr108,??,,D7.3-H
+play,4,1,smitr108,??,,D7.3-H(UR)
 play,4,1,fisht103,??,,K
-play,4,1,millo103,??,,S/4.2-H
+play,4,1,millo103,??,,S/4.2-H(UR)
 play,4,1,yinge101,??,,CS2(24)
 play,5,0,humpb101,??,,6/P
 play,5,0,leact101,??,,7/F
@@ -9454,7 +9455,7 @@ sub,meyeb103,"Benny Meyer",1,8,12
 play,9,1,yinge101,??,,13.1-2
 play,9,1,morah101,??,,WP.2-3
 play,9,1,morah101,??,,63
-data,er,humpb101,4
+data,er,humpb101,2
 data,er,lavej101,0
 data,er,allef101,2
 data,er,yinge101,1
@@ -9894,9 +9895,9 @@ info,umphome,odayh101
 info,ump1b,emslb101
 info,ump2b,(none)
 info,ump3b,(none)
-info,scorer,"73"
-info,translator,"Cliff Blau"
-info,inputter,"Cliff Blau"
+info,scorer,"73,99,141"
+info,translator,"Cliff Blau/Bill Way"
+info,inputter,"Cliff Blau/RWood"
 info,inputtime,2014/02/01 7:54PM
 info,howscored,unknown
 info,pitches,none
@@ -9934,11 +9935,10 @@ play,1,0,marar101,??,,S
 play,1,0,myerh101,??,,46(1)/FO
 play,1,0,lordb101,??,,43.1-2
 play,1,0,sweeb102,??,,S8.2-H;B-3(E8)
-play,1,0,mannl101,??,,S.3-H
-play,1,0,zinng101,??,,S.1-H
-play,1,0,smitf103,??,,E6.1-H(UR)
-play,1,0,rarib101,??,,E5.1-2
-play,1,0,tylel101,??,,PO2(134)
+play,1,0,mannl101,??,,S8.3-H
+play,1,0,zinng101,??,,S9.1-2
+play,1,0,smitf103,??,,E6.2-H(UR);1-3
+play,1,0,rarib101,??,,E5.3-H(UR);1XH(32)
 play,1,1,morah101,??,,W
 play,1,1,cutsg101,??,,WP.1-2
 play,1,1,cutsg101,??,,13
@@ -9947,7 +9947,7 @@ play,1,1,wheaz101,??,,43
 play,2,0,tylel101,??,,K
 play,2,0,marar101,??,,W
 play,2,0,myerh101,??,,SB2
-play,2,0,myerh101,??,,D.2-H
+play,2,0,myerh101,??,,D7.2-H
 play,2,0,lordb101,??,,CS3(25)
 play,2,0,lordb101,??,,NP
 sub,wagnb102,"Bull Wagner",1,9,1
@@ -10018,7 +10018,7 @@ play,8,0,tylel101,??,,E6/G
 play,8,0,marar101,??,,8/F
 play,8,0,myerh101,??,,S4.1-2
 play,8,0,connj107,??,,E6/G.2-3;1-2
-play,8,0,sweeb102,??,,D.3-H(UR);2-H;1-H
+play,8,0,sweeb102,??,,D.3-H(UR);2-H(UR);1-H(UR)
 play,8,0,grift102,??,,S.2-3
 play,8,0,zinng101,??,,8/SF.3-H(UR)
 play,8,0,smitf103,??,,43
@@ -10037,9 +10037,9 @@ play,9,1,collb101,??,,S.1-2
 play,9,1,wheaz101,??,,K
 play,9,1,daubj101,??,,8/F
 data,er,tylel101,0
-data,er,allef101,4
+data,er,allef101,3
 data,er,wagnb102,1
-data,er,pfefj101,2
+data,er,pfefj101,0
 id,BRO191308302
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -10675,7 +10675,7 @@ play,3,0,knabo101,??,,53
 play,3,0,paskd101,??,,7/F
 play,3,0,mages101,??,,S
 play,3,0,cravg101,??,,SB2.1-3(E2/TH)
-play,3,0,cravg101,??,,S.3-H
+play,3,0,cravg101,??,,S.3-H(UR)
 play,3,0,ludef101,??,,CS2(26)#
 play,3,1,morah101,??,,8/F
 play,3,1,cutsg101,??,,53
@@ -10713,7 +10713,7 @@ play,7,0,knabo101,??,,SB2
 play,7,0,knabo101,??,,FC1.2X3(15)#
 play,7,0,paskd101,??,,W.1-2
 play,7,0,mages101,??,,PO2(E2).2-3
-play,7,0,mages101,??,,7/SF.3-H
+play,7,0,mages101,??,,7/SF.3-H(UR)
 play,7,0,cravg101,??,,E5.1-2
 play,7,0,ludef101,??,,8/F
 play,7,1,fisht103,??,,3/G
@@ -10752,7 +10752,7 @@ sub,kirke101,"Enos Kirkpatrick",1,1,11
 play,9,1,kirke101,??,,K
 data,er,camnh101,2
 data,er,brena101,0
-data,er,pfefj101,4
+data,er,pfefj101,2
 id,BRO191309032
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
