@@ -104,7 +104,6 @@ play,7,0,mcgap101,??,,13/SH.1-2
 play,7,0,stocm101,??,,2/FL
 play,7,0,cravg101,??,,D7.2-H
 play,7,0,ludef101,??,,3/G
-com,"pbp account ends here, rest deduced"
 play,7,1,konee101,??,,99
 play,7,1,smitr108,??,,S
 play,7,1,rehgw101,??,,99
@@ -512,7 +511,7 @@ play,6,1,smitr108,??,,NP
 sub,conwr101,"Rip Conway",1,5,11
 com,"ej,smitr108,P,morac102,Balls and strikes"
 com,"$Smith ejected by HP umpire Moran for throwing bat in air"
-com,"while objecting to called strike (Conway assumed at bat)"
+com,"while objecting to called strike (Conway took over at bat)"
 play,6,1,conwr101,??,,1(B)3(1)/LDP
 play,7,0,mcgap101,??,,NP
 sub,conwr101,"Rip Conway",1,5,5
@@ -636,7 +635,8 @@ play,4,1,rehgw101,??,,SB3;SB2
 play,4,1,rehgw101,??,,W
 play,4,1,smitr108,??,,8/SF/DP.3-H;2XH(14362)
 com,"ej,kellj102,P,morac102,Call at HP"
-com,"$Kelly ejected by HP umpire Moran for arguing call at HP"
+com,"$Kelly ejected by HP umpire Moran for arguing"
+com,"he was safe at home"
 play,5,0,rarib101,??,,NP
 sub,power101,"Ray Powell",1,3,8
 play,5,0,rarib101,??,,8/F
@@ -1029,7 +1029,6 @@ play,1,1,herzb101,??,,S6.1-2
 play,1,1,kellj102,??,,14/SH.2-3;1-2
 play,1,1,wicka101,??,,63.3-H;2-3
 play,1,1,smitr108,??,,W
-com,"Smith hit by ball 4, but is officially a walk"
 play,1,1,konee101,??,,SBH;SB2
 play,1,1,konee101,??,,53
 play,2,0,hickj102,??,,K
@@ -1314,7 +1313,7 @@ start,wilsa102,"Art Wilson",1,8,2
 start,filld101,"Dana Fillingim",1,9,1
 play,1,0,olsoi101,??,,D9
 play,1,0,omaro101,??,,99/SH.2-3
-play,1,0,wheaz101,??,,E4/G.3-H
+play,1,0,wheaz101,??,,E4/G.3-H(NR)(UR)
 play,1,0,myerh102,??,,8/F
 play,1,0,johnj107,??,,53
 play,1,1,power101,??,,FLE4#
@@ -1401,7 +1400,7 @@ play,9,1,smitr108,??,,99
 play,9,1,konee101,??,,99
 play,9,1,rawlj101,??,,99
 data,er,marqr102,1
-data,er,filld101,2
+data,er,filld101,1
 data,er,hearb102,0
 id,BSN191806010
 version,1
@@ -1457,8 +1456,8 @@ start,ragap101,"Pat Ragan",1,9,1
 play,1,0,flacm101,??,,S5
 play,1,0,hollc101,??,,W.1-2
 play,1,0,mannl101,??,,35(2)/FO.1-2
-play,1,0,merkf101,??,,S7/INT.2-H;1-2
-com,"$Hollocher was awarded home due to obstruction"
+play,1,0,merkf101,??,,S7/OBS.2-H;1-2
+com,"$Hollocher awarded home due to obstruction"
 com,"called on 3bman Smith"
 play,1,0,paskd101,??,,E6/G.2-3;1-2
 play,1,0,dealc102,??,,5/FL
@@ -2035,10 +2034,6 @@ play,2,1,rehgw101,??,,99
 play,3,0,tonef101,??,,99
 play,3,0,grohh101,??,,6/L
 play,3,0,magel101,??,,99
-com,"Braves bench was riding Groh after making second out. When"
-com,"inning ended he headed over to Braves dugout to confront them"
-com,"especially Herzog. Players and umps separated the two and"
-com,"play resumed after a short delay."
 play,3,1,wilsa102,??,,S.BX2(99)#
 play,3,1,nehfa101,??,,99
 play,3,1,rawlj101,??,,53
@@ -3137,7 +3132,7 @@ play,2,1,smitj107,??,,99
 play,3,0,wheed102,??,,99
 play,3,0,snydf101,??,,S7
 play,3,0,packg101,??,,S.1-2
-play,3,0,heatc101,??,,S9.2-H(E9/TH)(NR);1-3;B-2(TH)
+play,3,0,heatc101,??,,S9.2-H;1-3;B-2(E9/TH)
 play,3,0,baird101,??,,7/SF.3-H
 play,3,0,cruiw101,??,,99
 play,3,1,rehgw101,??,,99
@@ -3400,7 +3395,7 @@ play,1,1,herzb101,??,,53
 play,1,1,power101,??,,4/P
 play,2,0,wilhj101,??,,S8
 play,2,0,zimmh101,??,,FC2/TH2/SH.1-3;BX2(86341)
-com,"catcher Wilson threw ball into center"
+com,"$Catcher Wilson threw ball into center"
 play,2,0,holkw101,??,,53/SH.3-H
 play,2,0,rarib101,??,,13
 play,2,1,wicka101,??,,4/P
@@ -3805,10 +3800,10 @@ play,2,0,rarib101,??,,36(1)3/GDP
 play,2,1,wicka101,??,,W
 play,2,1,smitr108,??,,36(1)/FO
 play,2,1,konee101,??,,S.1-2
-play,2,1,kellj102,??,,FC1.2-3;1-2;B-1
-com,"ej,zimmh101,P,byrol901,Call at 1B"
-com,"$Zimmerman ejected by 1B umpire Byron for arguing"
-com,"call at 1st"
+play,2,1,kellj102,??,,FC1/TH3.2-3;1-2;B-1
+com,"ej,zimmh101,P,byrol901,Call at 3B"
+com,"$3bman Zimmerman ejected by 1B umpire Byron for"
+com,"arguing Smith was out at 3rd"
 play,2,1,henrj101,??,,NP
 sub,rodrj101,"Jose Rodriguez",0,5,4
 play,2,1,henrj101,??,,NP
@@ -3884,7 +3879,6 @@ play,8,0,younr101,??,,S8.2-H(UR);1-3
 play,8,0,fleta101,??,,K+SB2
 play,8,0,wilhj101,??,,8/SF.3-H(UR)
 play,8,0,rodrj101,??,,13
-com,"pbp account ends here, rest deduced"
 play,8,1,kellj102,??,,S
 play,8,1,henrj101,??,,SB2
 play,8,1,henrj101,??,,K
@@ -4419,7 +4413,7 @@ play,8,0,johnj107,??,,23/SH.1X2(36E5)#
 com,"$Grimes overran 2nd but returned safely when 3bman Smith"
 com,"made errant throw during rundown"
 play,8,0,olsoi101,??,,53.2-3
-play,8,0,daubj101,??,,S9.3-H
+play,8,0,daubj101,??,,S9.3-H(UR)
 play,8,0,wheaz101,??,,S.1-2
 play,8,0,hickj102,??,,99(1)/FO
 play,8,1,kellj102,??,,S7
@@ -4441,7 +4435,7 @@ play,9,1,herzb101,??,,99
 play,9,1,power101,??,,K
 play,9,1,wicka101,??,,99
 data,er,grimb101,0
-data,er,filld101,2
+data,er,filld101,1
 data,er,nehfa101,1
 id,BSN191807030
 version,1
@@ -4555,7 +4549,6 @@ play,8,0,willc103,??,,53/SH/DP.1X3(36)
 play,8,0,stocm101,??,,9/F
 play,8,1,wilsa102,??,,8/F
 play,8,1,rudod101,??,,K+PB.B-1
-com,"DWS: Should have been scored E2 by rules of the day"
 play,8,1,rawlj101,??,,13.1-2
 play,8,1,herzb101,??,,PB.2-3
 play,8,1,herzb101,??,,K
@@ -4773,7 +4766,7 @@ play,3,0,meusi101,??,,99
 play,3,1,smitj107,??,,99
 play,3,1,ragap101,??,,63
 play,3,1,rawlj101,??,,E5/TH.B-H(E1/TH3)(UR)
-com,"Oeschger retrieved 3bman Stock's bad throw while Rawlings"
+com,"$Oeschger retrieved 3bman Stock's bad throw while Rawlings"
 com,"raced to 3rd, then scored on Oeschger's peg over Stock's head."
 play,3,1,herzb101,??,,99
 play,4,0,pearh101,??,,99
@@ -5659,7 +5652,7 @@ play,4,1,smitr108,??,,8/F
 play,4,1,konee101,??,,E6/G.1-2
 play,4,1,wilsa102,??,,WP.2-3;1-2
 play,4,1,wilsa102,??,,OA.3-H(E1/TH)(UR);2-3
-com,"Wilson asked to see ball so Hendrix threw it to him."
+com,"$Wilson asked to see ball so Hendrix threw it to him."
 play,4,1,wilsa102,??,,K
 play,5,0,hollc101,??,,43
 play,5,0,mannl101,??,,3/P
@@ -5829,7 +5822,6 @@ play,7,1,herzb101,??,,S9
 play,7,1,kellj105,??,,63.1-2
 play,7,1,massr101,??,,63
 play,8,0,mollf101,??,,K+PB.B-1
-com,"DWS: should be E2 by rules of the day"
 play,8,0,mckeb101,??,,6(1)/FO
 play,8,0,schmw102,??,,8
 play,8,0,mayee101,??,,CS2(26)#
@@ -6716,7 +6708,7 @@ play,4,0,mchea101,??,,64(1)/FO.2-3
 play,4,0,bronh101,??,,PO3(25)
 com,"ej,hornr101,P,harrp901,Call at 3B"
 com,"$Hornsby ejected by HP umpire Harrison for arguing"
-com,"call at 3rd"
+com,"he was safe on pickoff"
 play,4,0,bronh101,??,,CS2(24)
 play,4,1,kellj105,??,,NP
 sub,grimc101,"Charlie Grimm",0,4,3

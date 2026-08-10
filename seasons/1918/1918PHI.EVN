@@ -198,8 +198,8 @@ play,2,0,nehfa101,??,,E1/SH.2-3
 play,2,0,massr101,??,,S7.3-H(UR);1-2
 play,2,0,herzb101,??,,K
 play,2,0,power101,??,,E4/G.2-3;1-2
-play,2,0,konee101,??,,63.3-H;2-3;1-2
-play,2,0,smitr108,??,,S9.3-H;2-H(UR)
+play,2,0,konee101,??,,63.3-H(UR);2-3;1-2
+play,2,0,smitr108,??,,S9.3-H(UR);2-H(UR)
 play,2,0,wicka101,??,,WP.1-2
 play,2,0,wicka101,??,,D8.2-H(UR)
 play,2,0,conwr101,??,,K
@@ -226,7 +226,7 @@ sub,dillp101,"Pickles Dillhoefer",1,8,2
 play,5,0,henrj101,??,,7/F
 play,5,0,nehfa101,??,,D7
 play,5,0,massr101,??,,43.2-3
-play,5,0,herzb101,??,,E9/F.3-H(NR);B-3
+play,5,0,herzb101,??,,E9/F.3-H(NR)(UR);B-3
 play,5,0,power101,??,,6/P
 play,5,1,ludef101,??,,S/1
 play,5,1,whitp102,??,,S9.1-2
@@ -281,7 +281,7 @@ play,9,1,woodf102,??,,SB2
 play,9,1,woodf102,??,,SB3
 play,9,1,woodf102,??,,6
 data,er,nehfa101,2
-data,er,tincb101,7
+data,er,tincb101,4
 data,er,woodf102,4
 id,PHI191804190
 version,1
@@ -417,14 +417,12 @@ play,10,0,massr101,??,,8/F
 play,10,0,herzb101,??,,9/F
 play,10,0,power101,??,,D7
 play,10,0,konee101,??,,FC6.2X3(6545)
-com,"pbp account ends here, rest deduced"
 play,10,1,ludef101,??,,3/P
 play,10,1,whitp102,??,,E4/G
-play,10,1,meusi101,??,,T7.1-H
+play,10,1,meusi101,??,,T7.1-H(UR)
 com,"$Meusel's ball landed well up into the bleachers, but under"
 com,"the rules of the day he was only credited with a triple"
-com,"(but the run was ruled an earned run)"
-data,er,hught107,4
+data,er,hught107,3
 data,er,prenm101,3
 id,PHI191804200
 version,1
@@ -1453,7 +1451,8 @@ start,meusi101,"Irish Meusel",1,6,7
 start,mcgap101,"Patsy McGaffigan",1,7,4
 start,adamb106,"Bert Adams",1,8,2
 start,oescj101,"Joe Oeschger",1,9,1
-com,"$Scheduled morning game cancelled due to rain"
+com,"$Scheduled morning game of double-header"
+com,"cancelled due to rain"
 play,1,0,younr101,??,,5E3
 play,1,0,kaufb101,??,,S9.1-3
 play,1,0,burng101,??,,4/SF.3-H(UR);1-2
@@ -1596,7 +1595,8 @@ start,meusi101,"Irish Meusel",1,6,7
 start,mcgap101,"Patsy McGaffigan",1,7,4
 start,burne101,"Ed Burns",1,8,2
 start,hoggb102,"Brad Hogg",1,9,1
-com,"$Scheduled morning game cancelled due to rain"
+com,"$Scheduled morning game of double-header"
+com,"cancelled due to rain"
 play,1,0,younr101,??,,8/F
 play,1,0,kaufb101,??,,63
 play,1,0,burng101,??,,S/G
@@ -1889,7 +1889,7 @@ play,2,1,mcgap101,??,,6/P
 play,2,1,burne101,??,,W
 play,2,1,oescj101,??,,W.1-2
 play,2,1,bancd101,??,,S3/9.2-3;1X3(965)
-com,"Oeschger tried to advance to 3rd despite Burns standing on 3rd"
+com,"$Oeschger tried to advance to 3rd despite Burns standing on 3rd"
 play,2,1,willc103,??,,4/P
 play,3,0,grohh101,??,,13
 play,3,0,magel101,??,,W
@@ -2158,7 +2158,7 @@ play,2,1,cravg101,??,,HR/7
 play,2,1,meusi101,??,,S6/G
 play,2,1,mcgap101,??,,E4/G.1-2
 play,2,1,burne101,??,,S1/G.2-3;1-2
-play,2,1,mayee101,??,,9/SF.3-H;2-3;1-2
+play,2,1,mayee101,??,,9/SF.3-H(UR);2-3;1-2
 play,2,1,bancd101,??,,63
 play,3,0,bresr101,??,,W
 play,3,0,grohh101,??,,D7.1-3
@@ -2203,7 +2203,7 @@ play,7,0,magel101,??,,S4
 play,7,0,rouse101,??,,54(1)/FO
 play,7,0,chash101,??,,S5/G.1-2
 play,7,0,mages101,??,,OA.2X2(13E5);1-1
-com,"When Chase was trapped off 1st Roush broke for 3rd"
+com,"$When Chase was trapped off 1st Roush broke for 3rd"
 com,"and returned safely to 2nd when 3Bman made errant throw"
 com,"to 2nd during rundown"
 play,7,0,mages101,??,,6/P
@@ -2236,7 +2236,7 @@ sub,fitzm102,"Mike Fitzgerald",1,9,12
 play,9,1,bancd101,??,,S7.1-2
 play,9,1,willc103,??,,3/G.2-3;1-2
 play,9,1,stocm101,??,,53
-data,er,bresr101,4
+data,er,bresr101,3
 data,er,mayee101,7
 data,er,watsm102,0
 id,PHI191806060
@@ -2899,7 +2899,7 @@ play,19,0,gonzm101,??,,46(1)/FO
 play,19,1,ludef101,??,,9
 play,19,1,cravg101,??,,K
 play,19,1,meusi101,??,,63
-com,"$Game called for darkness"
+com,"$Game called on account of darkness"
 data,er,amesr101,5
 data,er,sherb101,2
 data,er,meadl101,0
@@ -4175,7 +4175,6 @@ play,7,1,willc103,??,,S9
 play,7,1,stocm101,??,,D7.1-3
 play,7,1,ludef101,??,,8/SF.3-H;2-H(E2)(NR)(UR)
 play,7,1,cravg101,??,,4/P
-com,"pbp account ends here, rest deduced"
 play,8,0,konee101,??,,S
 play,8,0,kellj102,??,,7
 play,8,0,wilsa102,??,,S.1-2
@@ -4942,7 +4941,7 @@ play,2,1,prenm101,??,,4/P
 play,3,0,vaugh101,??,,E3/G
 play,3,0,flacm101,??,,W.1-2
 play,3,0,hollc101,??,,5E4/SH.2-3;1-2#
-play,3,0,mannl101,??,,6(1)3/GDP.3-H(RBI);2-3
+play,3,0,mannl101,??,,6(1)3/GDP.3-H(RBI)(UR);2-3
 play,3,0,merkf101,??,,6/P
 play,3,1,bancd101,??,,W
 play,3,1,willc103,??,,3/FL
@@ -5010,7 +5009,7 @@ play,9,1,bancd101,??,,W
 play,9,1,willc103,??,,3/G.3-H;2-3;1-2
 play,9,1,hemie101,??,,K
 data,er,vaugh101,4
-data,er,prenm101,4
+data,er,prenm101,3
 data,er,david102,0
 id,PHI191807251
 version,1
@@ -5248,7 +5247,7 @@ play,4,0,hendc101,??,,63
 play,4,1,ludef101,??,,6/L
 play,4,1,meusi101,??,,53
 play,4,1,cravg101,??,,43
-com,"$Cravath injured in this at bat and left game"
+com,"$Cravath injured running to 1st and left game"
 play,5,0,flacm101,??,,NP
 sub,fitzm102,"Mike Fitzgerald",1,6,9
 play,5,0,flacm101,??,,63
@@ -5257,7 +5256,7 @@ play,5,0,mannl101,??,,W
 play,5,0,merkf101,??,,W.1-2
 play,5,0,paskd101,??,,W.2-3;1-2
 play,5,0,barbt101,??,,S3.3-H;2-H(E6/TH)(NR)(UR);1-3;B-2
-com,"wild throw came after Paskert overran second"
+com,"$Wild throw came after Paskert overran second"
 play,5,0,zeidr101,??,,6/P
 play,5,1,hemie101,??,,8/F
 play,5,1,burne101,??,,S8
@@ -5835,7 +5834,7 @@ play,4,0,mages101,??,,D7
 play,4,0,nealg101,??,,W
 play,4,0,grift102,??,,7/F
 play,4,0,blacl101,??,,4/P
-play,4,0,wingi101,??,,PO1(E2).2-H;1-3
+play,4,0,wingi101,??,,PO1(E2).2-H(UR);1-3
 play,4,0,wingi101,??,,CSH(2)
 play,4,1,fitzm102,??,,8/F
 play,4,1,bancd101,??,,31
@@ -5905,7 +5904,7 @@ play,11,1,fitzm102,??,,S5
 play,11,1,bancd101,??,,W.1-2
 play,11,1,stocm101,??,,S7.2-H;1-2
 data,er,schnp101,5
-data,er,hoggb102,3
+data,er,hoggb102,2
 id,PHI191808011
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -5966,7 +5965,7 @@ play,1,1,bancd101,??,,S9.1-2
 play,1,1,stocm101,??,,63.2-3;1-2
 play,1,1,ludef101,??,,W
 play,1,1,meusi101,??,,E4/G.3-H;2-3;1-2
-play,1,1,willc103,??,,S9.3-H;2-H(UR);1-3
+play,1,1,willc103,??,,S9.3-H;2-H;1-3
 play,1,1,hemie101,??,,46(1)/FO.3-H(UR)
 play,1,1,adamb106,??,,SB2
 play,1,1,adamb106,??,,W
@@ -6028,7 +6027,7 @@ play,9,0,heatc101,??,,16(1)/FO
 play,9,0,paulg102,??,,S7.1-2
 play,9,0,hornr101,??,,8/F
 play,9,0,fisht103,??,,5/P
-data,er,meadl101,5
+data,er,meadl101,6
 data,er,jacoe101,0
 id,PHI191808012
 version,1
@@ -6420,7 +6419,7 @@ play,7,0,hornr101,??,,HP
 play,7,0,fisht103,??,,S8.1-3;B-2(TH)
 play,7,0,mchea101,??,,E6/G.3-H(NR);2-3
 play,7,0,bronh101,??,,S8.3-H;1X3(86)
-com,"$McHenry overran second"
+com,"McHenry overran second"
 play,7,0,gonzm101,??,,E8/F.1-2
 play,7,0,packg101,??,,S9.2-H(UR);1-3
 play,7,0,andeg102,??,,E4/G.3-H(NR)(UR);1-2
@@ -6970,9 +6969,8 @@ play,3,1,bancd101,??,,FLE5
 play,3,1,bancd101,??,,W
 play,3,1,willc103,??,,S9.1-2
 play,3,1,stocm101,??,,W.2-3;1-2
-play,3,1,ludef101,??,,36(1)/FO.3-H;2-3
+play,3,1,ludef101,??,,36(1)/FO.3-H(UR);2-3
 play,3,1,meusi101,??,,CSH(242)
-com,"$Attempted double-steal"
 play,4,0,mollf101,??,,53
 play,4,0,mckeb101,??,,13
 play,4,0,schmw102,??,,W
@@ -7032,7 +7030,7 @@ play,9,1,adamb106,??,,NP
 sub,fitzm102,"Mike Fitzgerald",1,8,11
 play,9,1,fitzm102,??,,W.2-3;1-2
 play,9,1,watsm102,??,,PO1(23)
-data,er,mayee101,1
+data,er,mayee101,0
 data,er,watsm102,4
 id,PHI191808081
 version,1
@@ -7661,7 +7659,7 @@ play,4,1,ludef101,??,,26(1)/FO
 play,4,1,meusi101,??,,S8.1-3(E8);B-2
 play,4,1,cravg101,??,,IW
 play,4,1,fitzm102,??,,CSH(252).2-3;1-2
-com,"$failed squeeze play"
+com,"$Failed squeeze play"
 play,4,1,fitzm102,??,,K
 play,5,0,smitr108,??,,563
 play,5,0,konee101,??,,HR/7
@@ -7916,7 +7914,7 @@ play,2,0,coomj101,??,,S7
 play,2,0,myerh102,??,,S.1-2
 play,2,0,omaro101,??,,S/BG.2-3;1-2
 play,2,0,doolm101,??,,46(1)3/GDP.3-H(RBI);2-H(RBI)
-com,"two runs scored on gdp"
+com,"Two runs scored on gdp"
 play,2,0,wheam101,??,,K
 play,2,1,ludef101,??,,99
 play,2,1,meusi101,??,,99

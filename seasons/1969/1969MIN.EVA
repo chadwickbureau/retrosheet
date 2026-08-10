@@ -423,7 +423,7 @@ play,5,1,boswd101,??,,T7.1-H
 play,5,1,uhlat101,??,,S9.3-H
 play,5,1,carer001,??,,S9.1-3
 play,5,1,olivt102,??,,W.1-2
-play,5,1,killh102,??,,S9.3-H;2-3;1X2(94)
+play,5,1,killh102,??,,S9.3-H;2-3;1X3(94)
 com,"$Tony Oliva rounded 2B too far"
 play,6,0,johnj002,??,,NP
 sub,quilf101,"Frank Quilici",1,4,5
@@ -2225,7 +2225,7 @@ play,8,1,mittg101,??,,NP
 sub,uhlat101,"Ted Uhlaender",1,5,12
 play,8,1,mittg101,??,,SB2
 play,8,1,mittg101,??,,E6.2-3
-play,8,1,cardl101,??,,S.3-H(UR);1X2(64)
+play,8,1,cardl101,??,,S6.3-H(UR);1X3(64)
 com,"$George Mitterwald rounded 2B too far"
 play,9,0,hende103,??,,NP
 sub,uhlat101,"Ted Uhlaender",1,5,8
@@ -2578,12 +2578,12 @@ info,umphome,odomj901
 info,ump1b,barnl901
 info,ump2b,runge901
 info,ump3b,drumc901
-info,scorer,"Twins/Tigers"
+info,scorer,"Twins/Tigers/Roth"
 info,translator,"Bob Kapla"
 info,inputter,"Bob Kapla"
 info,inputtime,1997/05/11 2:57PM
-info,howscored,unknown
-info,pitches,none
+info,howscored,park
+info,pitches,pitches
 info,temp,56
 info,winddir,ltor
 info,windspeed,12
@@ -2614,105 +2614,103 @@ start,nettg001,"Graig Nettles",1,6,5
 start,cardl101,"Leo Cardenas",1,7,6
 start,rosej101,"John Roseboro",1,8,2
 start,chand102,"Dean Chance",1,9,1
-play,1,0,stanm101,??,,W
-play,1,0,mcaud101,??,,SB2#
-play,1,0,mcaud101,??,,K
-play,1,0,kalia101,??,,7
-play,1,0,cashn101,??,,S9.2XH(9E2)(NR)(UR);B-2(THH)
-play,1,0,browg101,??,,3/L
-play,1,1,uhlat101,??,,3/P
-play,1,1,carer001,??,,8
-play,1,1,olivt102,??,,5/FL
-play,2,0,nortj101,??,,8
-play,2,0,matct101,??,,S
-play,2,0,freeb103,??,,8
-play,2,0,mclad101,??,,63
-play,2,1,killh102,??,,9/L
-play,2,1,manuc101,??,,S7
-play,2,1,nettg001,??,,46(1)/FO
-play,2,1,cardl101,??,,6/L
-play,3,0,stanm101,??,,8/L
-play,3,0,mcaud101,??,,9
-play,3,0,kalia101,??,,S7
-play,3,0,cashn101,??,,43
-play,3,1,rosej101,??,,S/89
-play,3,1,chand102,??,,CS2(26)#
-play,3,1,chand102,??,,4/L
-play,3,1,uhlat101,??,,W
-play,3,1,carer001,??,,5/P
-play,4,0,browg101,??,,S
-play,4,0,nortj101,??,,S8.1-3
-play,4,0,matct101,??,,S7.3-H;1-2
-play,4,0,freeb103,??,,S7.2-3;1-2
-play,4,0,mclad101,??,,S9.3-H;2-3;1-2
-play,4,0,stanm101,??,,NP
+play,1,0,stanm101,30,BBBB,W
+play,1,0,mcaud101,32,SSBBFBS,K+SB2
+play,1,0,kalia101,00,X,7
+play,1,0,cashn101,00,X,S9/G34.2XH(9E2)(NR)(UR);B-2(THH)
+play,1,0,browg101,10,BX,3/L
+play,1,1,uhlat101,20,BBX,3/P
+play,1,1,carer001,22,BBFFX,8/F89D
+play,1,1,olivt102,20,BBX,5/FL/P5F
+play,2,0,nortj101,31,BCBBX,8
+play,2,0,matct101,01,CX,S1/G25
+play,2,0,freeb103,10,BX,8
+play,2,0,mclad101,01,SX,63
+play,2,1,killh102,00,X,9/L89
+play,2,1,manuc101,01,FX,S8/L78D
+play,2,1,nettg001,12,BFFFX,46(1)/FO
+play,2,1,cardl101,10,BX,6/L
+play,3,0,stanm101,11,BFX,8/L
+play,3,0,mcaud101,11,BMX,9
+play,3,0,kalia101,00,X,S7/L
+play,3,0,cashn101,00,X,43/G34
+play,3,1,rosej101,00,X,S8/F89D
+play,3,1,chand102,11,BLB,CS2(26)
+play,3,1,chand102,32,BLB.BCX,4/L34D
+play,3,1,uhlat101,32,BBFBFB,W
+play,3,1,carer001,02,FFX,5/P5
+play,4,0,browg101,22,SFBBX,S5/G5
+play,4,0,nortj101,00,X,S8/G6M.1-3
+play,4,0,matct101,12,FBFX,S7/G56.3-H;1-2
+play,4,0,freeb103,01,FX,S7/L56D.2-3;1-2
+play,4,0,mclad101,01,FX,S9/L34D.3-H;2-3;1-2
+play,4,0,stanm101,00,,NP
 sub,grzej101,"Joe Grzenda",1,9,1
-play,4,0,stanm101,??,,52(3)/FO.2-3;1-2
-play,4,0,mcaud101,??,,46(1)/FO.3-H;2-3
-play,4,0,kalia101,??,,7/L
-play,4,1,olivt102,??,,K
-play,4,1,killh102,??,,S9
-play,4,1,manuc101,??,,D9.1-3
-play,4,1,nettg001,??,,K
-play,4,1,cardl101,??,,2/FL
-play,5,0,cashn101,??,,HR/9
-com,"420 ft"
+play,4,0,stanm101,00,.X,52(3)/FO.2-3;1-2
+play,4,0,mcaud101,00,X,46(1)/FO.3-H;2-3
+play,4,0,kalia101,10,BX,7/L
+play,4,1,olivt102,22,BFFBS,K
+play,4,1,killh102,00,X,S9/F9S
+play,4,1,manuc101,00,X,D9/L9L.1-3
+play,4,1,nettg001,32,BFBBSS,K
+play,4,1,cardl101,12,BFSX,2/FL/P2F
+play,5,0,cashn101,10,BX,HR/F89XD
 play,5,0,browg101,??,,K
-play,5,0,nortj101,??,,K
-play,5,0,matct101,??,,43
-play,5,1,rosej101,??,,7
-play,5,1,grzej101,??,,NP
+play,5,0,nortj101,22,BFBFS,K
+play,5,0,matct101,10,BX,43
+play,5,1,rosej101,00,X,7
+play,5,1,grzej101,00,,NP
 sub,allib103,"Bob Allison",1,9,11
-play,5,1,allib103,??,,S9
-play,5,1,uhlat101,??,,46(1)3/GDP
-play,6,0,freeb103,??,,NP
+play,5,1,allib103,10,.BX,S9
+play,5,1,uhlat101,00,X,46(1)3/GDP
+play,6,0,freeb103,00,,NP
 sub,woodd102,"Dick Woodson",1,9,1
-play,6,0,freeb103,??,,53
-play,6,0,mclad101,??,,K
-play,6,0,stanm101,??,,K/C
-play,6,1,carer001,??,,S9
-play,6,1,olivt102,??,,46(1)3/GDP
-play,6,1,killh102,??,,8
-play,7,0,mcaud101,??,,3/G
-play,7,0,kalia101,??,,63
-play,7,0,cashn101,??,,9
-play,7,1,manuc101,??,,6/P
-play,7,1,nettg001,??,,S8
-play,7,1,cardl101,??,,8/L
-play,7,1,rosej101,??,,9
-play,8,0,browg101,??,,S9
-play,8,0,nortj101,??,,S8.1-3
-play,8,0,matct101,??,,NP
+play,6,0,freeb103,21,.BFBX,53
+play,6,0,mclad101,02,FFC,K/C
+play,6,0,stanm101,32,FBCBBC,K/C
+play,6,1,carer001,01,FX,S9/G34
+play,6,1,olivt102,00,X,46(1)3/GDP
+play,6,1,killh102,02,SFX,8/F78D
+play,7,0,mcaud101,00,X,3/G
+play,7,0,kalia101,10,BX,63
+play,7,0,cashn101,32,BFBBFX,9
+play,7,1,manuc101,32,BBBCCX,6/P
+play,7,1,nettg001,22,FFBBX,S9/L89
+play,7,1,cardl101,12,SFFBFFX,8/F8XD
+play,7,1,rosej101,00,X,9
+play,8,0,browg101,00,X,S9/G34
+play,8,0,nortj101,02,CFX,S8/L8S.1-3
+play,8,0,matct101,00,,NP
 sub,perrr101,"Ron Perranoski",1,9,1
-play,8,0,matct101,??,,NP
+play,8,0,matct101,00,.,NP
 sub,wertd103,"Don Wert",0,7,11
-play,8,0,wertd103,??,,7/L/SF.3-H
-play,8,0,freeb103,??,,W.1-2
-play,8,0,mclad101,??,,13/SH.2-3;1-2
-play,8,0,stanm101,??,,IW
-play,8,0,mcaud101,??,,9
-play,8,1,perrr101,??,,NP
+play,8,0,wertd103,02,..FFX,7/L/SF.3-H
+play,8,0,freeb103,32,BFFBFBB,W.1-2
+play,8,0,mclad101,00,X,13/SH.2-3;1-2
+play,8,0,stanm101,30,IIII,IW
+play,8,0,mcaud101,21,BCBX,9/F89
+play,8,1,perrr101,00,,NP
 sub,wertd103,"Don Wert",0,7,5
-play,8,1,perrr101,??,,NP
+play,8,1,perrr101,00,.,NP
 sub,tracd101,"Dick Tracewski",0,5,6
-play,8,1,perrr101,??,,NP
+play,8,1,perrr101,00,..,NP
 sub,stanm101,"Mickey Stanley",0,1,8
-play,8,1,perrr101,??,,NP
+play,8,1,perrr101,00,...,NP
 sub,nortj101,"Jim Northrup",0,6,7
-play,8,1,perrr101,??,,NP
+play,8,1,perrr101,00,....,NP
 sub,tovac101,"Cesar Tovar",1,9,11
-play,8,1,tovac101,??,,53
-play,8,1,uhlat101,??,,K
-play,8,1,carer001,??,,D7
-play,8,1,olivt102,??,,8
-play,9,0,kalia101,??,,NP
+play,8,1,tovac101,00,.....X,53
+play,8,1,uhlat101,32,BBBCFS,K
+play,8,1,carer001,20,BBX,D7/F7L
+play,8,1,olivt102,21,FBBX,8
+play,9,0,kalia101,00,,NP
 sub,millb106,"Bob Miller",1,9,1
-play,9,0,kalia101,??,,3/G
-play,9,0,cashn101,??,,8
-play,9,0,tracd101,??,,6/P
-play,9,1,killh102,??,,K/C
-play,9,1,manuc101,??,,8
-play,9,1,nettg001,??,,43
+play,9,0,kalia101,00,.X,3/G
+play,9,0,cashn101,32,BFBFBFFX,8
+play,9,0,tracd101,20,BBX,6/P
+play,9,1,killh102,12,CCBC,K/C
+play,9,1,manuc101,02,FFX,8
+play,9,1,nettg001,22,BBCFX,43
 data,er,mclad101,0
 data,er,chand102,3
 data,er,grzej101,1
@@ -8562,20 +8560,20 @@ info,hometeam,MIN
 info,site,MIN02
 info,date,1969/08/02
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:35PM
 info,daynight,day
 info,usedh,false
 info,umphome,honoj901
 info,ump1b,umonf901
 info,ump2b,lucir901
 info,ump3b,hallb901
-info,scorer,"Orioles"
+info,scorer,"Orioles,Roth"
 info,translator,"Wayne Townsend"
 info,inputter,"Wayne Townsend"
 info,inputtime,1996/11/20 3:31PM
 info,howscored,park
-info,pitches,none
-info,temp,0
+info,pitches,pitches
+info,temp,81
 info,winddir,unknown
 info,windspeed,-1
 info,fieldcond,unknown
@@ -8605,119 +8603,120 @@ start,cardl101,"Leo Cardenas",1,6,6
 start,renir101,"Rick Renick",1,7,5
 start,tisct101,"Tom Tischinski",1,8,2
 start,perrj102,"Jim Perry",1,9,1
-play,1,0,bufod101,??,,7
-play,1,0,blaip101,??,,D/78#
-play,1,0,robif103,??,,K
-play,1,0,poweb101,??,,K
-com,"ej,weave801,M,hallb901,Smoking in dugout"
-com,"Orioles Manager Earl Weaver ejected by 3B umpire Bill Haller"
-play,1,1,tovac101,??,,S8
-play,1,1,carer001,??,,13/SH.1-2
-play,1,1,killh102,??,,53
-play,1,1,olivt102,??,,W
-play,1,1,allib103,??,,7/L
-play,2,0,robib104,??,,63
-play,2,0,johnd105,??,,S8
-play,2,0,belam101,??,,W.1-2
-play,2,0,dalrc101,??,,4
-play,2,0,cuelm101,??,,4/L
-play,2,1,cardl101,??,,S7
-play,2,1,renir101,??,,K
-play,2,1,tisct101,??,,8
-play,2,1,perrj102,??,,K
-play,3,0,bufod101,??,,S8
-play,3,0,blaip101,??,,SB2
-play,3,0,blaip101,??,,E5/SH.2-3
-play,3,0,robif103,??,,46(1)3/GDP.3-H
-play,3,0,poweb101,??,,S9
-play,3,0,robib104,??,,8
-play,3,1,tovac101,??,,8
-play,3,1,carer001,??,,W
-play,3,1,killh102,??,,54(1)3/GDP
-play,4,0,johnd105,??,,63
-play,4,0,belam101,??,,S7
-play,4,0,dalrc101,??,,S9.1-3
-play,4,0,cuelm101,??,,8/SF.3-H;1-2
-play,4,0,bufod101,??,,S8.2-H;B-2(E8)
-play,4,0,blaip101,??,,NP
+play,1,0,bufod101,00,X,7
+play,1,0,blaip101,12,CBCX,D8/F78D
+play,1,0,robif103,12,CFBFS,K
+play,1,0,poweb101,12,BFFFS,K
+com,"ej,weave801,M,hallb901,Obscene gesture"
+com,"$Orioles Manager Earl Weaver ejected by 3B umpire Bill Haller"
+com,"for making an obscene gesture"
+play,1,1,tovac101,00,X,S8/L8S
+play,1,1,carer001,00,X,13/SH/BG3S.1-2
+play,1,1,killh102,00,X,53
+play,1,1,olivt102,31,BCBBB,W
+play,1,1,allib103,11,BSX,7/L7
+play,2,0,robib104,00,X,63
+play,2,0,johnd105,21,CBBX,S8/G
+play,2,0,belam101,30,BBBB,W.1-2
+play,2,0,dalrc101,22,BCBFFX,4/P4MD
+play,2,0,cuelm101,00,X,4/L4D
+play,2,1,cardl101,22,BBCCX,S7/L
+play,2,1,renir101,02,CFS,K
+play,2,1,tisct101,32,BBCLBX,8
+play,2,1,perrj102,12,CFBS,K
+play,3,0,bufod101,00,X,S8/L89
+play,3,0,blaip101,00,B,SB2
+play,3,0,blaip101,10,B.X,E5/SH/BG5S.2-3
+play,3,0,robif103,00,X,46(1)3/GDP.3-H
+play,3,0,poweb101,11,BFX,S9/L
+play,3,0,robib104,00,X,8/L89D
+play,3,1,tovac101,21,BBCX,8
+play,3,1,carer001,31,BCBBB,W
+play,3,1,killh102,00,X,54(1)3/GDP
+play,4,0,johnd105,00,X,63/G56
+play,4,0,belam101,01,CX,S7/F78S
+play,4,0,dalrc101,00,X,S9/L9LS.1-3
+play,4,0,cuelm101,11,BCX,8/SF/F8D.3-H;1-2
+play,4,0,bufod101,32,BFFBBX,S8/L89.2-H;B-2(E8)
+play,4,0,blaip101,00,,NP
 sub,woodd102,"Dick Woodson",1,9,1
-play,4,0,blaip101,??,,8
-play,4,1,olivt102,??,,T/89#
-play,4,1,allib103,??,,W
-play,4,1,cardl101,??,,8/SF.3-H
-play,4,1,renir101,??,,9
-play,4,1,tisct101,??,,K
-play,5,0,robif103,??,,7
-play,5,0,poweb101,??,,43
-play,5,0,robib104,??,,43
-play,5,1,woodd102,??,,NP
+play,4,0,blaip101,00,.X,8
+play,4,1,olivt102,00,X,T9/F89D
+play,4,1,allib103,31,BBBCB,W
+play,4,1,cardl101,10,BX,8/SF.3-H
+play,4,1,renir101,01,FX,9
+play,4,1,tisct101,32,FBBBCS,K
+play,5,0,robif103,11,BFX,7/F78
+play,5,0,poweb101,21,BBCX,43
+play,5,0,robib104,00,X,43
+play,5,1,woodd102,00,,NP
 sub,quilf101,"Frank Quilici",1,9,11
-play,5,1,quilf101,??,,S7
-play,5,1,tovac101,??,,E6.1-2
-play,5,1,carer001,??,,34/SH.2-3;1-2
-play,5,1,killh102,??,,E6.3-H(RBI)(UR);B-1
+play,5,1,quilf101,00,.X,S7/L78
+play,5,1,tovac101,31,BBBCX,E6/G6.1-2
+play,5,1,carer001,00,X,34/SH/BG3S.2-3;1-2
+play,5,1,killh102,11,FBX,E6/G6.3-H(RBI)(UR);B-1
 play,5,1,olivt102,??,,46(1)/FO.2-H(E6/TH1)(UR);B-2
-play,5,1,allib103,??,,S9.2-H(UR)
-play,5,1,cardl101,??,,8
-play,6,0,johnd105,??,,NP
+play,5,1,allib103,10,BX,S9/L.2-H(UR)
+play,5,1,cardl101,10,BX,8/F89
+play,6,0,johnd105,00,,NP
 sub,cridj101,"Jerry Crider",1,9,1
-play,6,0,johnd105,??,,63
-play,6,0,belam101,??,,4
-play,6,0,dalrc101,??,,HR/9
-play,6,0,cuelm101,??,,K
-play,6,1,renir101,??,,53
-play,6,1,tisct101,??,,53
-play,6,1,cridj101,??,,S7#
-play,6,1,tovac101,??,,4
-play,7,0,bufod101,??,,NP
+play,6,0,johnd105,00,.X,63
+play,6,0,belam101,12,CBCX,4/P4
+play,6,0,dalrc101,10,BX,HR/F9D
+play,6,0,cuelm101,12,BCSS,K
+play,6,1,renir101,00,X,53
+play,6,1,tisct101,32,CBBCBFX,53
+play,6,1,cridj101,10,BX,S9
+play,6,1,tovac101,12,BCFX,8
+play,7,0,bufod101,00,,NP
 sub,worta101,"Al Worthington",1,9,1
-play,7,0,bufod101,??,,3/G
-play,7,0,blaip101,??,,S7
-play,7,0,robif103,??,,7/FL
-play,7,0,poweb101,??,,HR/9.1-H
-play,7,0,robib104,??,,4
-play,7,1,carer001,??,,9/L
-play,7,1,killh102,??,,HR/9
-play,7,1,olivt102,??,,S9
-play,7,1,allib103,??,,NP
+play,7,0,bufod101,10,.BX,3/G
+play,7,0,blaip101,12,BFCX,S7/L78
+play,7,0,robif103,11,FB1X,7/FL/P7LF
+play,7,0,poweb101,00,X,HR/F9D.1-H
+play,7,0,robib104,12,BFFFX,4/P4
+play,7,1,carer001,11,BCX,9/L
+play,7,1,killh102,00,X,HR/F89XD
+play,7,1,olivt102,22,BFFFBX,S9/L
+play,7,1,allib103,00,,NP
 sub,sevea101,"Al Severinsen",0,9,1
-play,7,1,allib103,??,,K
-play,7,1,cardl101,??,,43
-play,8,0,johnd105,??,,S4#
-play,8,0,belam101,??,,K
-play,8,0,dalrc101,??,,64(1)/FO.B-2(E4/TH1)
-play,8,0,sevea101,??,,K
-play,8,1,renir101,??,,NP
+play,7,1,allib103,22,.LBBFS,K
+play,7,1,cardl101,12,CBFX,43
+play,8,0,johnd105,22,BBCFFFFX,S4/G4D
+play,8,0,belam101,22,BBCCS,K
+play,8,0,dalrc101,12,FBFX,64(1)/FO.B-2(E4/TH1)
+play,8,0,sevea101,32,BSMBBS,K
+play,8,1,renir101,00,,NP
 sub,reesr101,"Rich Reese",1,7,11
-play,8,1,reesr101,??,,8
-play,8,1,tisct101,??,,NP
+play,8,1,reesr101,00,.X,8
+play,8,1,tisct101,00,,NP
 sub,nettg001,"Graig Nettles",1,8,11
-play,8,1,nettg001,??,,8
-play,8,1,worta101,??,,NP
+play,8,1,nettg001,11,.BFX,8
+play,8,1,worta101,00,,NP
 sub,manuc101,"Chuck Manuel",1,9,11
-play,8,1,manuc101,??,,K
-play,9,0,bufod101,??,,NP
+play,8,1,manuc101,22,.BSSBS,K
+play,9,0,bufod101,00,,NP
 sub,reesr101,"Rich Reese",1,7,3
-play,9,0,bufod101,??,,NP
+play,9,0,bufod101,00,.,NP
 sub,rosej101,"John Roseboro",1,8,2
-play,9,0,bufod101,??,,NP
+play,9,0,bufod101,00,..,NP
 sub,millb106,"Bob Miller",1,9,1
-play,9,0,bufod101,??,,NP
+play,9,0,bufod101,00,...,NP
 sub,killh102,"Harmon Killebrew",1,3,5
-play,9,0,bufod101,??,,7
-play,9,0,blaip101,??,,W
-play,9,0,robif103,??,,S9.1-3(E9)
-play,9,0,poweb101,??,,NP
+play,9,0,bufod101,02,....LMX,7/L
+play,9,0,blaip101,32,CBFBBFB,W
+play,9,0,robif103,11,BFX,S9/L9.1-3(E9)
+play,9,0,poweb101,00,,NP
 sub,perrr101,"Ron Perranoski",1,9,1
-play,9,0,poweb101,??,,64(1)3/GDP
-play,9,1,tovac101,??,,8
-play,9,1,carer001,??,,43
-play,9,1,killh102,??,,W
-play,9,1,olivt102,??,,NP
+play,9,0,poweb101,10,.BX,64(1)3/GDP/G56D
+play,9,1,tovac101,00,X,8
+play,9,1,carer001,22,CBBFX,43
+play,9,1,killh102,30,BBBB,W
+play,9,1,olivt102,00,,NP
 sub,uhlat101,"Ted Uhlaender",1,3,12
-play,9,1,olivt102,??,,NP
+play,9,1,olivt102,00,.,NP
 sub,richp102,"Pete Richert",0,9,1
-play,9,1,olivt102,??,,2/FL
+play,9,1,olivt102,11,..BFX,2/FL
 data,er,cuelm101,2
 data,er,sevea101,0
 data,er,richp102,0
@@ -9954,24 +9953,24 @@ info,hometeam,MIN
 info,site,MIN02
 info,date,1969/08/30
 info,number,0
-info,starttime,0:00PM
+info,starttime,1:15PM
 info,daynight,day
 info,usedh,false
 info,umphome,neudj901
 info,ump1b,chyln901
 info,ump2b,odonj901
 info,ump3b,dimul901
-info,scorer,"Red Sox/Twins"
+info,scorer,"Red Sox/Twins/Roth"
 info,translator,"D Lamoureaux"
 info,inputter,"D Lamoureaux"
 info,inputtime,1998/11/16 5:55PM
-info,howscored,unknown
-info,pitches,none
+info,howscored,park
+info,pitches,pitches
 info,temp,88
-info,winddir,unknown
+info,winddir,fromrf
 info,windspeed,18
 info,fieldcond,unknown
-info,precip,unknown
+info,precip,none
 info,sky,unknown
 info,timeofgame,148
 info,attendance,19917
@@ -9997,104 +9996,99 @@ start,nettg001,"Graig Nettles",1,6,7
 start,rosej101,"John Roseboro",1,7,2
 start,cardl101,"Leo Cardenas",1,8,6
 start,boswd101,"Dave Boswell",1,9,1
-play,1,0,obris101,??,,53
-play,1,0,andrm101,??,,S7
-play,1,0,yastc101,??,,43.1-2
-play,1,0,smitr101,??,,W
-play,1,0,petrr101,??,,64(1)/FO
-play,1,1,uhlat101,??,,43
-play,1,1,tovac101,??,,8
-play,1,1,olivt102,??,,43
-play,2,0,conit101,??,,HR/7
-com,"385 feet"
-play,2,0,joned102,??,,5
-play,2,0,mosej101,??,,3/FL
-play,2,0,nagym101,??,,7/L
-play,2,1,killh102,??,,8
-play,2,1,reesr101,??,,3/FL
-play,2,1,nettg001,??,,53
-play,3,0,obris101,??,,HR/7
-com,"364 feet"
-play,3,0,andrm101,??,,63
-play,3,0,yastc101,??,,K
-play,3,0,smitr101,??,,K
-play,3,1,rosej101,??,,8
-play,3,1,cardl101,??,,3/FL
-play,3,1,boswd101,??,,53
-play,4,0,petrr101,??,,8
-play,4,0,conit101,??,,W
-play,4,0,joned102,??,,36(1)3/GDP
-play,4,1,uhlat101,??,,3/G
-play,4,1,tovac101,??,,D7
-play,4,1,olivt102,??,,43
-play,4,1,killh102,??,,HP
-play,4,1,reesr101,??,,43
-play,5,0,mosej101,??,,8
-play,5,0,nagym101,??,,HP
-play,5,0,obris101,??,,PO1(E2).1-2
-play,5,0,obris101,??,,W
-play,5,0,andrm101,??,,HR/7.2-H;1-H
-com,"369 feet"
-play,5,0,yastc101,??,,9/L
-play,5,0,smitr101,??,,9
-play,5,1,nettg001,??,,S7
-play,5,1,rosej101,??,,16(1)3/GDP
-play,5,1,cardl101,??,,S8
-play,5,1,boswd101,??,,NP
+play,1,0,obris101,32,BFBFBFX,53
+play,1,0,andrm101,12,BCCX,S7/L56D
+play,1,0,yastc101,11,CBX,43.1-2
+play,1,0,smitr101,31,BBCBB,W
+play,1,0,petrr101,02,SFX,64(1)/FO
+play,1,1,uhlat101,12,BFCX,43
+play,1,1,tovac101,10,BX,8
+play,1,1,olivt102,02,CFFX,43
+play,2,0,conit101,00,X,HR/7
+play,2,0,joned102,00,X,5
+play,2,0,mosej101,00,X,3/FL/P3F
+play,2,0,nagym101,32,BFBFBX,7/L
+play,2,1,killh102,31,BBFBX,63
+play,2,1,reesr101,21,BFBX,43
+play,2,1,nettg001,11,BFX,31
+play,3,0,obris101,00,X,HR/7
+play,3,0,andrm101,00,X,63
+play,3,0,yastc101,12,CBSS,K
+play,3,0,smitr101,32,BCBBSS,K
+play,3,1,rosej101,10,BX,8
+play,3,1,cardl101,20,BBX,3/FL/P3F
+play,3,1,boswd101,11,CBX,53
+play,4,0,petrr101,00,X,8
+play,4,0,conit101,32,CSBFFBFBB,W
+play,4,0,joned102,11,FBX,36(1)3/GDP
+play,4,1,uhlat101,11,BFX,3/G
+play,4,1,tovac101,11,CBX,D7/F78D
+play,4,1,olivt102,12,CBFFX,43
+play,4,1,killh102,01,CH,HP
+play,4,1,reesr101,00,X,43
+play,5,0,mosej101,00,X,8
+play,5,0,nagym101,00,H,HP
+play,5,0,obris101,01,C+1,PO1(E2).1-2
+play,5,0,obris101,32,C+1.BCBBB,W
+play,5,0,andrm101,31,BBCBX,HR/F78XD.2-H;1-H
+play,5,0,yastc101,30,BBBX,9/L
+play,5,0,smitr101,00,X,9
+play,5,1,nettg001,21,BBCX,S7/L6D
+play,5,1,rosej101,31,BBBCX,16(1)3/GDP
+play,5,1,cardl101,32,BFBFBX,S8/G
+play,5,1,boswd101,00,,NP
 sub,renir101,"Rick Renick",1,9,11
-play,5,1,renir101,??,,S8.1-2
-play,5,1,uhlat101,??,,43
-play,6,0,petrr101,??,,NP
+play,5,1,renir101,11,.BCX,S8/G.1-2
+play,5,1,uhlat101,10,BX,43
+play,6,0,petrr101,00,,NP
 sub,zeppb101,"Bill Zepp",1,9,1
-play,6,0,petrr101,??,,S1
-play,6,0,conit101,??,,2/FL
-play,6,0,joned102,??,,7
-play,6,0,mosej101,??,,T9.1-H
-play,6,0,nagym101,??,,43
-play,6,1,tovac101,??,,63
-play,6,1,olivt102,??,,8/L
-play,6,1,killh102,??,,63
-play,7,0,obris101,??,,NP
+play,6,0,petrr101,20,.BBX,S14
+play,6,0,conit101,01,LX,2/FL/BP
+play,6,0,joned102,00,X,7
+play,6,0,mosej101,10,BX,T9/F89D.1-H
+play,6,0,nagym101,10,BX,43
+play,6,1,tovac101,21,BCBX,63
+play,6,1,olivt102,00,X,8/L
+play,6,1,killh102,01,CX,63
+play,7,0,obris101,00,,NP
 sub,mittg101,"George Mitterwald",1,7,2
-play,7,0,obris101,??,,63
-play,7,0,andrm101,??,,S8.B-2(E4)
-play,7,0,yastc101,??,,W
-play,7,0,smitr101,??,,6(1)/FO.2-3
-play,7,0,petrr101,??,,PO1(E3).1-2;3-H(UR)
-play,7,0,petrr101,??,,53
-play,7,1,reesr101,??,,D9
-play,7,1,nettg001,??,,2/FL
-play,7,1,mittg101,??,,S8.2-H
-play,7,1,cardl101,??,,W.1-2
-play,7,1,zeppb101,??,,NP
+play,7,0,obris101,11,.FBX,63
+play,7,0,andrm101,30,BBBX,S8/F78XD.BX2(8E4)
+play,7,0,yastc101,31,BBCBB,W
+play,7,0,smitr101,11,BFX,46(1)/FO.2-H(NR)(UR);BX1(6E3)
+play,7,0,petrr101,10,BX,54(1)/FO
+play,7,1,reesr101,00,X,D9/F9LD
+play,7,1,nettg001,11,BCX,2/FL/P2F
+play,7,1,mittg101,21,CBBX,S8/G.2-H
+play,7,1,cardl101,30,BBBB,W.1-2
+play,7,1,zeppb101,00,,NP
 sub,manuc101,"Chuck Manuel",1,9,11
-play,7,1,manuc101,??,,7
-play,7,1,uhlat101,??,,D7.1-H;2-H
-play,7,1,tovac101,??,,HR/7.2-H
-com,"375 feet"
-play,7,1,olivt102,??,,NP
+play,7,1,manuc101,11,.BFX,7
+play,7,1,uhlat101,20,BBX,D7/F7LD.1-H;2-H
+play,7,1,tovac101,22,BBFFX,HR/F7LD.2-H
+play,7,1,olivt102,00,,NP
 sub,lyles101,"Sparky Lyle",0,9,1
-play,7,1,olivt102,??,,3/G
-play,8,0,conit101,??,,NP
+play,7,1,olivt102,00,.X,3/G
+play,8,0,conit101,00,,NP
 sub,woodd102,"Dick Woodson",1,9,1
-play,8,0,conit101,??,,63
-play,8,0,joned102,??,,6
-play,8,0,mosej101,??,,9
-play,8,1,killh102,??,,7/FL
-play,8,1,reesr101,??,,K
-play,8,1,nettg001,??,,K
-play,9,0,lyles101,??,,3
-play,9,0,obris101,??,,63
-play,9,0,andrm101,??,,W
-play,9,0,yastc101,??,,PB.1-2
-play,9,0,yastc101,??,,S5.2-3
-play,9,0,smitr101,??,,3/G
-play,9,1,mittg101,??,,K
-play,9,1,cardl101,??,,W
-play,9,1,woodd102,??,,NP
+play,8,0,conit101,01,.CX,63
+play,8,0,joned102,31,BFBBX,6
+play,8,0,mosej101,10,BX,9
+play,8,1,killh102,32,SFBFBFBX,7/FL/F7LF
+play,8,1,reesr101,02,CFS,K
+play,8,1,nettg001,12,FCBS,K
+play,9,0,lyles101,00,X,3
+play,9,0,obris101,22,BFBSX,63
+play,9,0,andrm101,30,BBBB,W
+play,9,0,yastc101,00,B,PB.1-2
+play,9,0,yastc101,10,B.X,S5.2-3
+play,9,0,smitr101,00,X,3/L
+play,9,1,mittg101,12,FFBS,K
+play,9,1,cardl101,32,BBBCCB,W
+play,9,1,woodd102,00,,NP
 sub,allib103,"Bob Allison",1,9,11
-play,9,1,allib103,??,,54(1)/FO
-play,9,1,uhlat101,??,,6
+play,9,1,allib103,10,.BX,54(1)/FO
+play,9,1,uhlat101,00,X,6
 data,er,nagym101,5
 data,er,lyles101,0
 data,er,boswd101,5
@@ -10182,7 +10176,7 @@ play,4,0,yastc101,??,,43
 play,4,0,smitr101,??,,8
 play,4,0,petrr101,??,,7/L
 play,4,1,nettg001,??,,W
-play,4,1,rosej101,??,,53(B)5(1)/DP
+play,4,1,rosej101,??,,53/DP.1X3(35)
 play,4,1,cardl101,??,,7/L
 play,5,0,conit101,??,,S1
 play,5,0,joned102,??,,43.1-2
@@ -10304,7 +10298,9 @@ start,chand102,"Dean Chance",1,9,1
 play,1,0,snydr102,??,,K
 play,1,0,kliml101,??,,S9
 play,1,0,bakef104,??,,S8.1-2
-play,1,0,hortt101,??,,E4.2-H(UR);1X2(64)
+play,1,0,hortt101,??,,64(1)/FO.2-H(E4/TH1)(UR)
+com,"Runner from 2nd scored when 2bman made bad throw to 1st"
+com,"trying for double-play"
 play,1,0,harrk101,??,,54(1)/FO
 play,1,1,tovac101,??,,D8
 play,1,1,olivt102,??,,S4.2-3

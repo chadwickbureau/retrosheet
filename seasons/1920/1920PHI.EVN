@@ -509,7 +509,7 @@ play,6,1,millr101,??,,99
 play,6,1,wheam101,??,,99
 play,6,1,causr101,??,,S
 play,6,1,bancd101,??,,S.1-2
-com,"$Game called for rain. All statistics count"
+com,"$Game called due to rain"
 data,er,bentr102,3
 data,er,causr101,2
 id,PHI192005010
@@ -1115,8 +1115,6 @@ play,11,0,pickc103,??,,PB.2-3;1-2
 play,11,0,pickc103,??,,FC3.3-H(E3/TH)(NR)(UR);2-3;B-1
 play,11,0,mannl101,??,,OA.3XH(1642)
 play,11,0,mannl101,??,,OA.1X2(24)
-com,"DWS: last two plays may be continuation and DP, but official"
-com,"don't show DP or CS"
 play,11,1,milld102,??,,NP
 sub,oneim102,"Mickey O'Neil",0,8,2
 play,11,1,milld102,??,,13
@@ -1382,8 +1380,8 @@ play,4,1,bancd101,??,,K
 play,4,1,willc103,??,,3/P
 play,5,0,pickc103,??,,6/P
 play,5,0,mannl101,??,,2/P
-play,5,0,sullj105,??,,K
-com,"$on a 3-2 count Sullivan stuck his arm over the plate"
+play,5,0,sullj105,??,,K/C
+com,"$On a 3-2 count Sullivan stuck his arm over the plate"
 com,"and was hit by the pitch; HP umpire McCormick called"
 com,"him out (it was ruled a strikeout)"
 play,5,1,stenc101,??,,63
@@ -1405,7 +1403,6 @@ play,7,0,jonej104,??,,K
 play,7,0,power101,??,,HR/9
 play,7,0,pickc103,??,,2/P
 play,7,0,mannl101,??,,W
-com,"hit by pitch on 3-ball count recorded as Walk"
 play,7,0,sullj105,??,,4(1)/FO
 play,7,1,meusi101,??,,63
 play,7,1,milld102,??,,8
@@ -1700,11 +1697,11 @@ play,8,0,pickc103,??,,36(1)/FO.2-3
 play,8,0,mannl101,??,,PO3(E2).3-H(UR);1-2#
 play,8,0,mannl101,??,,S/4.2-3
 play,8,0,cruiw101,??,,OA.3XH(262);1-2
+com,"$Eayrs injured running bases"
 play,8,1,meusi101,??,,NP
 sub,gowdh101,"Hank Gowdy",0,8,2
 play,8,1,meusi101,??,,NP
 sub,hearb102,"Bunny Hearn",0,9,1
-com,"$Eayrs hurt running bases"
 play,8,1,meusi101,??,,E6/G
 play,8,1,milld102,??,,E5/TH/SH.1-2
 play,8,1,paulg102,??,,15(2)/FO.1-2
@@ -1773,7 +1770,7 @@ play,1,0,pickc103,??,,6/L
 play,1,0,mannl101,??,,K
 play,1,0,sullj105,??,,W
 play,1,0,holkw101,??,,PO3(251)
-com,"$Powell caught in rundown on attempted double-steal"
+com,"$Attempted double-steal"
 play,1,1,bancd101,??,,S5
 play,1,1,willc103,??,,9
 play,1,1,stenc101,??,,K+CS2(26)/DP
@@ -1945,7 +1942,7 @@ play,3,1,willc103,??,,6/P
 play,3,1,stenc101,??,,S7.2-H
 play,3,1,meusi101,??,,CS2(24)
 play,3,1,meusi101,??,,HR/7
-com,"$Muesel HR bounced into LF bleachers per 73"
+com,"$Bounce HR"
 play,3,1,milld102,??,,9
 play,4,0,kildp101,??,,NP
 sub,weinl101,"Lefty Weinert",1,9,1
@@ -2521,7 +2518,6 @@ play,8,1,wheam101,??,,NP
 sub,twomb101,"Babe Twombly",0,8,4
 play,8,1,wheam101,??,,NP
 sub,tragw101,"Walt Tragesser",1,8,11
-com,"Not clear when or if Tragesser entered."
 play,8,1,tragw101,??,,3/P
 play,8,1,smitg104,??,,K
 play,8,1,milld102,??,,43
@@ -4158,15 +4154,13 @@ play,3,1,stenc101,??,,W
 play,3,1,meusi101,??,,99
 play,3,1,fleta101,??,,99
 play,4,0,daubj101,??,,31
-com,"Daubert wrenched his leg sliding into 1B.  He was limping the"
-com,"rest of the game."
 play,4,0,grohh101,??,,99
 play,4,0,rouse101,??,,S
 play,4,0,duncp101,??,,S9.1XH(942)
-com,"ej,allen101,P,quige901,Bench jockeying"
-com,"ej,elleh101,P,quige901,Bench jockeying"
+com,"ej,allen101,P,quige901,Call at HP"
+com,"ej,elleh101,P,quige901,Call at HP"
 com,"$Reds Nick Allen and Hod Eller, neither in game, ejected"
-com,"by HP umpire Quigley for arguing call at HP"
+com,"by HP umpire Quigley for arguing Roush was safe at home"
 play,4,1,ludef101,??,,99
 play,4,1,millr101,??,,K
 play,4,1,tragw101,??,,99
@@ -4187,7 +4181,6 @@ play,6,1,millr101,??,,S8.2-H
 play,6,1,tragw101,??,,99
 play,7,0,grohh101,??,,99
 play,7,0,rouse101,??,,S8.B-2(E8)
-com,"Williams fumbled"
 play,7,0,duncp101,??,,K
 play,7,0,kopfl101,??,,99
 play,7,1,meadl101,??,,S
@@ -4663,7 +4656,6 @@ play,11,0,smite106,??,,NP
 sub,meusi101,"Irish Meusel",1,4,9
 play,11,0,smite106,??,,NP
 sub,smitg104,"George Smith",1,3,1
-com,"After out call at home pop bottles thrown at ump Harrison"
 play,11,0,smite106,??,,S9
 play,11,0,nehfa101,??,,W.1-2
 play,11,0,burng101,??,,14/SH.2-3;1-2
@@ -4885,7 +4877,7 @@ play,3,0,burng101,??,,63
 play,3,0,bancd101,??,,S9
 play,3,0,younr101,??,,W.1-2
 play,3,0,frisf101,??,,HR/7.2-H;1-H
-com,"Bounce HR first hop into LF bleachers"
+com,"$Bounce HR"
 play,3,0,kellg101,??,,K
 play,3,0,kaufb101,??,,9/FL
 play,3,1,rawlj101,??,,63
@@ -5092,7 +5084,7 @@ play,7,1,paulg102,??,,9
 play,7,1,millr101,??,,S8
 play,7,1,wheam101,??,,2/FL
 play,8,0,burng101,??,,HR/78
-com,"Bounce HR by Burns"
+com,"$Bounce HR"
 play,8,0,bancd101,??,,HP
 play,8,0,younr101,??,,7
 play,8,0,frisf101,??,,8
@@ -5880,7 +5872,7 @@ play,4,0,vaugh101,??,,K
 play,4,0,flacm101,??,,S6.2-3
 play,4,0,herzb101,??,,13
 play,4,1,willc103,??,,HR/7/L
-com,"Bounced into stands."
+com,"$Bounce HR"
 play,4,1,meusi101,??,,2/FL
 play,4,1,fleta101,??,,K
 play,4,1,milld102,??,,S9
@@ -6177,8 +6169,6 @@ play,5,0,terrz101,??,,7
 play,5,1,paulg102,??,,3/P
 play,5,1,rawlj101,??,,3/P
 play,5,1,stenc101,??,,2/P
-com,"listed as a K in scoresheet and box scores; I will enter"
-com,"2/P to match official K tallies for Stengel and Alexander"
 play,6,0,merkf101,??,,K
 play,6,0,paskd101,??,,S9.BX2(94)
 play,6,0,dealc102,??,,3/P
@@ -7520,7 +7510,7 @@ play,5,0,clemv101,??,,5/P
 play,5,1,lebob101,??,,W
 play,5,1,rawlj101,??,,E6/TH.1X3(35)
 play,5,1,willc103,??,,23.1-2(E5/TH)
-com,"Rawlings over-ran 2nd but returned safely to 2nd"
+com,"$Rawlings over-ran 2nd but returned safely to 2nd"
 com,"when 3Bman made wild throw during rundown"
 play,5,1,meusi101,??,,8/F
 play,6,0,jacoe101,??,,3/FL
@@ -7665,7 +7655,7 @@ play,5,1,meusi101,??,,S9.3-H(UR);2-3
 play,5,1,milld102,??,,NP
 sub,barnj102,"Jess Barnes",0,9,1
 play,5,1,milld102,??,,6(1)3/GDP
-com,"$Rain delay 10 minutes"
+com,"$10 minute rain delay"
 play,6,0,kingl103,??,,K
 play,6,0,doyll101,??,,S
 play,6,0,snydf101,??,,S9.1-2
@@ -7977,7 +7967,6 @@ play,7,1,paulg102,??,,63
 play,7,1,rawlj101,??,,63
 play,8,0,myerh102,??,,W
 play,8,0,konee101,??,,46(1)/FO
-com,"$Rawlings let pop up drop."
 play,8,0,kildp101,??,,S9.1-2
 play,8,0,millo103,??,,NP
 sub,lamab101,"Bill Lamar",0,8,11
@@ -8211,8 +8200,8 @@ start,tragw101,"Walt Tragesser",1,8,2
 start,smitg104,"George Smith",1,9,1
 play,1,0,olsoi101,??,,43
 com,"ej,olsoi101,P,odayh101,Call at 1B"
-com,"$Olson ejected by 1B umpire O'Day for arguing he"
-com,"was safe at 1st"
+com,"$Olson ejected by 1B umpire O'Day for arguing"
+com,"he was safe at 1st"
 play,1,0,johnj107,??,,8
 play,1,0,grift102,??,,31
 play,1,1,paulg102,??,,NP
@@ -8229,7 +8218,7 @@ play,2,1,meusi101,??,,23
 play,2,1,fleta101,??,,4/L
 play,2,1,lebob101,??,,S4
 play,2,1,milld102,??,,SB2
-com,"$Sheridan spiked on hand by LeBourveau on SB2"
+com,"$Sheridan spiked on hand by LeBourveau on stolen base"
 play,2,1,milld102,??,,W
 play,2,1,tragw101,??,,3/G
 play,3,0,kruee101,??,,S5
@@ -8396,7 +8385,7 @@ play,5,0,wheaz101,??,,43
 play,5,1,milld102,??,,7
 play,5,1,withf101,??,,S8
 play,5,1,rixee101,??,,S3.1-3(E3/TH1);B-2
-com,"$Mamaux twisted ankle covering furst"
+com,"$Mamaux twisted ankle covering 1st"
 play,5,1,paulg102,??,,NP
 sub,smits102,"Sherry Smith",0,9,1
 play,5,1,paulg102,??,,S7.3-H;2-H
@@ -8705,9 +8694,10 @@ play,7,0,grimc101,??,,7
 play,7,1,willc103,??,,S9
 play,7,1,meusi101,??,,S5.1-2
 play,7,1,fleta101,??,,D9.1-3;2-H
-play,7,1,wrigr102,??,,FC5.3-3;2X3(525)
-com,"Meusel was boxed.  He went back to third and Fletcher was"
-com,"there. Fletcher was tagged."
+play,7,1,wrigr102,??,,FC5.3-3;2X3(525);B-1
+com,"$Meusel trapped off 3rd. He returned safely to 3rd"
+com,"where Fletcher was now standing. Both were tagged"
+com,"and Fletcher was declared out"
 play,7,1,millr101,??,,63.3-H;1-2
 play,7,1,tragw101,??,,3/P
 play,8,0,mckeb101,??,,63
@@ -8967,8 +8957,7 @@ play,4,0,grimc101,??,,FC5.3XH(5262);1-3;B-2
 play,4,0,mckeb101,??,,S9.2-H;3-H;B-2(TH)
 play,4,0,schmw102,??,,FC5.2X3(5)
 play,4,1,willc103,??,,D9
-play,4,1,meusi101,??,,D9.2-3
-com,"Williams thought RFer would catch flyball"
+play,4,1,meusi101,??,,D9/F.2-3
 play,4,1,fleta101,??,,7/SF.3-H
 play,4,1,paulg102,??,,9(B)5(2)/DP
 play,5,0,hamie101,??,,S6
@@ -9099,7 +9088,7 @@ play,3,1,rixee101,??,,HR/8
 play,3,1,paulg102,??,,13
 play,3,1,rawlj101,??,,W
 play,3,1,willc103,??,,PO1(1343)
-com,"Rawlings called for interference."
+com,"$Rawlings called out for interference."
 play,3,1,willc103,??,,K
 play,4,0,grohh101,??,,63
 play,4,0,rouse101,??,,S/4
@@ -9553,7 +9542,7 @@ play,3,0,terrz101,??,,E6/G.3-H(NR);2-3
 play,3,0,robed103,??,,S8.3-H;1-3
 play,3,0,merkf101,??,,NP
 sub,enzmj101,"Johnny Enzmann",1,9,1
-play,3,0,merkf101,??,,S8.3-H;1-3;BX2(843)
+play,3,0,merkf101,??,,S8.3-H(UR);1-3;BX2(843)
 play,3,0,paskd101,??,,K/C
 play,3,1,rawlj101,??,,63
 play,3,1,willc103,??,,2/P
@@ -9600,9 +9589,7 @@ play,7,1,meusi101,??,,99
 play,7,1,fleta101,??,,S.1-2
 play,7,1,lebob101,??,,NP
 sub,cravg101,"Gavvy Cravath",1,6,11
-play,7,1,cravg101,??,,S.2-3;1-2
-com,"$Cravath hit a high drive off RF wall on which Williams"
-com,"could only advance to 3B"
+play,7,1,cravg101,??,,S9.2-3;1-2
 play,7,1,milld102,??,,99
 play,7,1,withf101,??,,K
 play,8,0,paskd101,??,,NP
@@ -9637,7 +9624,7 @@ play,9,1,cravg101,??,,K
 play,9,1,milld102,??,,99
 data,er,vaugh101,3
 data,er,alexg102,0
-data,er,hubbb101,3
+data,er,hubbb101,2
 data,er,enzmj101,3
 data,er,causr101,3
 id,PHI192009170
@@ -9718,7 +9705,6 @@ play,3,1,rawlj101,??,,W
 play,3,1,willc103,??,,6/P
 play,4,0,robed103,??,,63
 play,4,0,merkf101,??,,2
-com,"listed as K in pbp, changed to 2 to match official K stats"
 play,4,0,paskd101,??,,E9.B-2
 play,4,0,ofarb101,??,,8/L
 play,4,1,stenc101,??,,43
@@ -9863,7 +9849,6 @@ play,3,0,flacm101,??,,3/L
 play,3,0,terrz101,??,,63
 play,3,0,robed103,??,,S9
 play,3,0,merkf101,??,,2
-com,"listed as K in pbp, changed to 2 to match official K stats"
 play,3,1,meadl101,??,,63
 play,3,1,stenc101,??,,K
 play,3,1,rawlj101,??,,63
@@ -10377,7 +10362,6 @@ play,8,1,milld102,??,,6(1)3/GDP
 play,9,0,schuj101,??,,S7
 play,9,0,fourj101,??,,23/SH.1-2
 play,9,0,stocm101,??,,8/L/DP.2X3(85)
-com,"Overslid third."
 play,9,1,willc103,??,,S7
 play,9,1,meusi101,??,,8/L
 play,9,1,fleta101,??,,9/F

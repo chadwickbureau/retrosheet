@@ -119,7 +119,7 @@ play,6,1,shorc101,??,,S
 play,6,1,hobld101,??,,PB.1-2
 play,6,1,hobld101,??,,NP
 sub,gaind101,"Del Gainer",1,4,11
-play,6,1,gaind101,??,,S.2-H
+play,6,1,gaind101,??,,S.2-H(UR)
 play,6,1,lewid101,??,,99
 play,7,0,wittw101,??,,NP
 sub,shorc101,"Chick Shorten",1,3,8
@@ -146,7 +146,7 @@ play,8,0,piciv101,??,,NP
 sub,agnes101,"Sam Agnew",1,8,2
 play,8,0,piciv101,??,,99
 play,8,0,mcins101,??,,99
-play,8,0,healt102,??,,T9.BXH(9E2)(NR)
+play,8,0,healt102,??,,T9.BXH(9E2)(NR)(UR)
 play,8,0,kingl101,??,,W
 play,8,0,naboj101,??,,K
 play,8,1,wyckj101,??,,K
@@ -170,19 +170,19 @@ play,9,1,gaind101,??,,S
 play,9,1,lewid101,??,,S.1-2
 play,9,1,walsj108,??,,W.2-3;1-2
 play,9,1,mcnam101,??,,99/SF.3-H
-play,9,1,agnes101,??,,S9.2XH(9E5);1-2
+play,9,1,agnes101,??,,S9.2XH(9E5)(UR);1-2
 play,9,1,wyckj101,??,,NP
 sub,cadyh101,"Hick Cady",1,9,11
 play,9,1,cadyh101,??,,PB.2-3
 play,9,1,cadyh101,??,,99
-play,9,1,henro101,??,,E6.3-H(NR);1-2
+play,9,1,henro101,??,,E6.3-H(NR)(UR);1-2
 play,9,1,janvh101,??,,NP
 sub,pennh101,"Herb Pennock",1,2,11
 play,9,1,pennh101,??,,K
 data,er,myere101,1
-data,er,naboj101,4
+data,er,naboj101,1
 data,er,ruthb101,2
-data,er,wyckj101,2
+data,er,wyckj101,1
 id,CHA191605281
 version,4
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -933,8 +933,8 @@ info,ump1b,dinnb101
 info,ump2b,(none)
 info,ump3b,(none)
 info,scorer,"266,39"
-info,translator,"David W. Smith"
-info,inputter,"David W. Smith"
+info,translator,"David W. Smith/RWood"
+info,inputter,"David W. Smith/RWood"
 info,inputtime,2024/01/10 10:05PM
 info,howscored,park
 info,pitches,none
@@ -1009,7 +1009,7 @@ play,4,1,coves101,??,,NP
 sub,lannr101,"Red Lanning",0,9,1
 play,4,1,coves101,??,,S
 play,4,1,granj104,??,,W.1-2
-play,4,1,chapr101,??,,99.2-3;1-2
+play,4,1,chapr101,??,,99/SH.2-3;1-2
 play,4,1,speat101,??,,S3.3-H;2-3
 play,4,1,rothb102,??,,NP
 sub,lohrh101,"Howard Lohr",1,3,12
@@ -1039,7 +1039,7 @@ play,5,1,coves101,??,,NP
 sub,lambo101,"Otis Lambeth",1,9,11
 play,5,1,lambo101,??,,99/G.1-2
 play,5,1,granj104,??,,FC.2-3;B-1
-play,5,1,chapr101,??,,FC/SH.3-H;1-2;B-1
+play,5,1,chapr101,??,,FC.3-H;1-2;B-1
 play,5,1,lohrh101,??,,S.2-3;1-2
 play,5,1,rothb102,??,,99
 play,6,0,mcins101,??,,NP
@@ -1175,7 +1175,7 @@ play,4,0,pickc103,??,,99
 play,4,0,haler101,??,,S.1-2#
 play,4,0,myere101,??,,PB.2-3;1-2#
 play,4,0,myere101,??,,99
-play,4,0,wittw101,??,,S.3-H;2-H#
+play,4,0,wittw101,??,,S.3-H;2-H(UR)#
 play,4,0,mcell101,??,,99
 play,4,1,wambb101,??,,S/BG
 play,4,1,guisl101,??,,W.1-2
@@ -1232,7 +1232,7 @@ play,9,0,grovr101,??,,99
 play,9,0,strua102,??,,WP.2-3;1-2#
 play,9,0,strua102,??,,K#
 data,er,myere101,7
-data,er,beebf101,3
+data,er,beebf101,2
 data,er,lambo101,1
 id,CLE191609140
 version,4
@@ -1330,7 +1330,7 @@ play,5,0,naboj101,??,,99
 play,5,1,speat101,??,,S
 play,5,1,allim101,??,,99/G.1-2
 play,5,1,wambb101,??,,S.2-3
-play,5,1,guisl101,??,,PO1(E1).3-H;1-2
+play,5,1,guisl101,??,,PO1(E1).3-H(UR);1-2
 play,5,1,guisl101,??,,SB3#
 play,5,1,guisl101,??,,99
 play,5,1,chapr101,??,,K
@@ -1369,7 +1369,7 @@ play,9,0,schaw101,??,,S
 play,9,0,mcins101,??,,SB2
 play,9,0,mcins101,??,,S.2-3
 play,9,0,pickc103,??,,99
-data,er,naboj101,5
+data,er,naboj101,4
 data,er,sheet102,1
 data,er,goula101,1
 id,CLE191609150
@@ -1676,165 +1676,6 @@ data,er,pennk102,4
 data,er,goula101,2
 data,er,lambo101,1
 data,er,klepe101,1
-id,DET191605292
-version,4
-info,inputprogvers,"version 7RS(19) of 07/07/92"
-info,visteam,SLA
-info,hometeam,DET
-info,date,1916/05/29
-info,site,DET04
-info,number,2
-info,starttime,0:00PM
-info,daynight,day
-info,usedh,false
-info,umphome,chilo901
-info,ump1b,dinnb101
-info,ump2b,(none)
-info,ump3b,(none)
-info,scorer,"56,212,410"
-info,translator,"Jim Herdman"
-info,inputter,"Jim Herdman"
-info,inputtime,2023/11/30 10:33AM
-info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
-info,fieldcond,wet
-info,precip,none
-info,sky,cloudy
-info,timeofgame,115
-info,attendance,5174
-info,wp,dubuj101
-info,lp,plane101
-info,save,
-info,gwrbi,
-start,shotb101,"Burt Shotton",0,1,7
-start,johne102,"Ernie Johnson",0,2,6
-start,tobij101,"Jack Tobin",0,3,8
-start,sislg101,"George Sisler",0,4,3
-start,millw104,"Ward Miller",0,5,9
-start,pratd101,"Del Pratt",0,6,4
-start,austj101,"Jimmy Austin",0,7,5
-start,seveh101,"Hank Severeid",0,8,2
-start,plane101,"Eddie Plank",0,9,1
-start,bushd102,"Donie Bush",1,1,6
-start,vitto101,"Ossie Vitt",1,2,5
-start,cobbt101,"Ty Cobb",1,3,8
-start,veacb101,"Bobby Veach",1,4,7
-start,heilh101,"Harry Heilmann",1,5,9
-start,burng102,"George Burns",1,6,3
-start,younr103,"Ralph Young",1,7,4
-start,stano101,"Oscar Stanage",1,8,2
-start,dubuj101,"Jean Dubuc",1,9,1
-play,1,0,shotb101,??,,S9
-play,1,0,johne102,??,,S9.1-3
-play,1,0,tobij101,??,,13.1-2
-play,1,0,sislg101,??,,9/SF/DP.3-H;2X3(915)
-play,1,1,bushd102,??,,W
-play,1,1,vitto101,??,,24/SH.1-2
-play,1,1,cobbt101,??,,T7/G.2-H
-play,1,1,veacb101,??,,7/SF.3-H
-play,1,1,heilh101,??,,53
-play,2,0,millw104,??,,6/F
-play,2,0,pratd101,??,,S8
-play,2,0,austj101,??,,PO1(13)
-play,2,0,austj101,??,,13
-play,2,1,burng102,??,,D7
-play,2,1,younr103,??,,FC5/SH.2-H(E5/TH)(NR)(UR);B-2
-play,2,1,stano101,??,,6/F
-play,2,1,dubuj101,??,,K
-play,2,1,bushd102,??,,S1/G.2-3
-play,2,1,vitto101,??,,SB2
-play,2,1,vitto101,??,,8/F
-play,3,0,seveh101,??,,W
-play,3,0,plane101,??,,S.1-2
-play,3,0,shotb101,??,,E3.2-3;1-2
-play,3,0,johne102,??,,PO2(99)#
-play,3,0,johne102,??,,S.3-H;1-2
-play,3,0,tobij101,??,,FC.2-3;1-2;B-1#
-play,3,0,sislg101,??,,99/SF.3-H(UR)
-play,3,0,millw104,??,,E9/F.2-H(NR)(UR);1-3
-play,3,0,pratd101,??,,CS2(99)
-play,3,1,cobbt101,??,,S6/G.B-2(E6/TH)
-play,3,1,veacb101,??,,S7.2-H;B-2(E2)
-play,3,1,heilh101,??,,S9.2-H
-play,3,1,burng102,??,,S4/G4S.1-3
-com,"Hit and run"
-play,3,1,younr103,??,,E6/G.3-H(NR);1-2
-play,3,1,stano101,??,,NP
-sub,crand101,"Doc Crandall",0,9,1
-play,3,1,stano101,??,,HP.2-3;1-2
-play,3,1,dubuj101,??,,6/F
-play,3,1,bushd102,??,,W.3-H;2-3;1-2
-play,3,1,vitto101,??,,S.3-H(UR);2-H;1-2
-play,3,1,cobbt101,??,,D.2-H;1-H;B-3(THH)
-play,3,1,veacb101,??,,NP
-sub,fincb101,"Bill Fincher",0,9,1
-play,3,1,veacb101,??,,99/SF.3-H(UR)
-play,3,1,heilh101,??,,S1.B-2(E1/TH)#
-play,3,1,burng102,??,,8/F
-play,4,0,pratd101,??,,S
-play,4,0,austj101,??,,99/G.1-2
-play,4,0,seveh101,??,,99
-play,4,0,fincb101,??,,D.2-H
-play,4,0,shotb101,??,,99
-play,4,1,younr103,??,,99
-play,4,1,stano101,??,,K
-play,4,1,dubuj101,??,,S
-play,4,1,bushd102,??,,S4/G.1-H(E4/TH)(NR)(UR);B-2
-play,4,1,vitto101,??,,WP.2-3
-play,4,1,vitto101,??,,99
-play,5,0,johne102,??,,S
-play,5,0,tobij101,??,,E8.1-3;B-2#
-play,5,0,sislg101,??,,99/G.3-H(UR);2-3
-play,5,0,millw104,??,,PO3(99)#
-play,5,0,millw104,??,,99
-play,5,1,cobbt101,??,,S
-play,5,1,veacb101,??,,SB2
-play,5,1,veacb101,??,,SB3
-play,5,1,veacb101,??,,99/G.3-3#
-play,5,1,heilh101,??,,S.3-H
-play,5,1,burng102,??,,FC.1-2;B-1#
-com,"$Heilmann injured sliding into 2nd and left game at end of inning"
-play,5,1,younr103,??,,99
-play,5,1,stano101,??,,K
-play,6,0,pratd101,??,,NP
-sub,harpg101,"George Harper",1,5,9
-play,6,0,pratd101,??,,K
-play,6,0,austj101,??,,W
-play,6,0,seveh101,??,,WP.1-2
-play,6,0,seveh101,??,,K
-play,6,0,fincb101,??,,99
-play,6,1,dubuj101,??,,99
-play,6,1,bushd102,??,,99
-play,6,1,vitto101,??,,99
-play,7,0,shotb101,??,,99
-play,7,0,johne102,??,,W
-play,7,0,tobij101,??,,54(1)3/GDP
-play,7,1,cobbt101,??,,99
-play,7,1,veacb101,??,,S
-play,7,1,harpg101,??,,E8.1-H(NR);B-2
-play,7,1,burng102,??,,T.2-H(UR)
-play,7,1,younr103,??,,W
-play,7,1,stano101,??,,99
-play,7,1,dubuj101,??,,S.3-H(UR);1-2
-play,7,1,bushd102,??,,99
-play,8,0,sislg101,??,,99
-play,8,0,millw104,??,,D
-play,8,0,pratd101,??,,S.2-3
-play,8,0,austj101,??,,99
-play,8,0,seveh101,??,,K
-play,8,1,vitto101,??,,S
-play,8,1,cobbt101,??,,CS2(99)
-play,8,1,cobbt101,??,,99
-play,8,1,veacb101,??,,S
-play,8,1,harpg101,??,,CS2(99)#
-com,"$Game called per agreement to allow teams to catch trains"
-data,er,plane101,6
-data,er,crand101,3
-data,er,fincb101,2
-data,er,dubuj101,3
 id,DET191607230
 version,4
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -1954,7 +1795,7 @@ play,4,1,craws101,??,,S
 play,4,1,veacb101,??,,S.1-2
 play,4,1,heilh101,??,,NP
 sub,cicoe101,"Eddie Cicotte",0,1,1
-play,4,1,heilh101,??,UUX,5(2)/FO
+play,4,1,heilh101,??,,5(2)/FO
 play,5,0,leibn101,??,,S
 play,5,0,cicoe101,??,,99/SH.1-2
 play,5,0,weavb101,??,,99
@@ -1964,7 +1805,7 @@ sub,wolfm101,"Mellie Wolfgang",0,1,1
 play,5,1,younr103,??,,W
 com,"ej,jennh101,M,nalld901,Balls and strikes"
 com,"$Tigers manager Jennings ejected by HP umpire Nallin"
-com,"for arguing balls and strikes during Young's at bat"
+com,"for arguing balls and strikes"
 play,5,1,baked102,??,,NP
 sub,cobbt101,"Ty Cobb",1,8,11
 play,5,1,cobbt101,??,,W.1-2
@@ -1996,7 +1837,7 @@ play,8,0,terrz101,??,,99
 play,8,0,leibn101,??,,99
 play,8,1,mcker103,??,,99
 play,8,1,daush101,??,,T9/L78XDW
-com,"Ball caromed off the LCF scoreboard toward RF where"
+com,"$Ball caromed off the LCF scoreboard toward RF where"
 com,"RF Leibold fielded it."
 play,8,1,vitto101,??,,W
 play,8,1,bushd102,??,,W.1-2
@@ -2409,7 +2250,7 @@ play,7,1,millw104,??,,S7
 play,7,1,sislg101,??,,S/89.1-3
 play,7,1,pratd101,??,,8/SF/DP.3-H;1X2(826)
 play,7,1,marsa101,??,,43
-com,"$Game called due to darkness"
+com,"$Game called on account of darkness"
 data,er,bagbj101,1
 data,er,baumg101,1
 data,er,parkj102,0
@@ -3437,9 +3278,9 @@ play,9,1,barbt101,??,,99(1)/FO.3-H;2-3
 com,"Crowell replaced Nabors with a 1-0 count on Barber."
 play,9,1,moeld101,??,,S9.3-H;1-3
 play,9,1,foste103,??,,FC4.3-H(RBI);1X2(4E6);B-1
-play,9,1,milac101,??,,S/89.2-H;1-2
+play,9,1,milac101,??,,S/89.2-H(UR);1-2
 data,er,naboj101,6
-data,er,crowc101,1
+data,er,crowc101,0
 data,er,dumog101,3
 data,er,boehj101,2
 data,er,gallb103,0

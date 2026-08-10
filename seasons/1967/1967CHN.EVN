@@ -736,7 +736,7 @@ play,10,0,seavt001,01,,S9
 play,10,0,jonec102,21,,3/SH.1-2
 play,10,0,reynt101,??,,WP.2-3#
 play,10,0,reynt101,22,,K
-play,10,0,boyek101,00,,IW
+play,10,0,boyek101,30,,IW
 play,10,0,lupla101,00,,NP
 sub,hendb101,"Bob Hendley",1,9,1
 play,10,0,lupla101,01,,S9.1-2;3-H
@@ -2070,7 +2070,7 @@ play,8,0,daviw102,00,,NP
 sub,altmg101,"George Altman",1,3,7
 play,8,0,daviw102,21,,31
 play,8,0,lefej101,11,,S7
-play,8,0,fairr101,11,,3(B)6(1)/DP
+play,8,0,fairr101,11,,3(B)6(1)/GDP
 play,8,1,holtk101,10,,13
 play,8,1,kessd101,00,,63
 play,8,1,beckg101,00,,HR8/IPHR
@@ -2952,7 +2952,7 @@ sub,popop101,"Paul Popovich",1,2,4
 play,7,0,mathe101,00,,NP
 sub,altmg101,"George Altman",1,3,7
 play,7,0,mathe101,22,,43
-play,7,0,davir102,21,,K
+play,7,0,davir102,22,,K
 play,7,0,harrc101,11,,53
 play,7,1,banke101,01,,S7
 play,7,1,thoml103,00,,3/P
@@ -3067,7 +3067,7 @@ play,3,0,harrc101,00,,SB2
 play,3,0,harrc101,02,,K/C
 play,3,1,popop101,30,,W
 play,3,1,willb104,02,,3/G.1-2
-play,3,1,santr102,31,,K
+play,3,1,santr102,32,,K
 play,3,1,banke101,00,,S7.2-H
 play,3,1,hundr101,10,,8
 play,4,0,staur001,10,,HP
@@ -3364,7 +3364,7 @@ play,5,0,aaroh101,22,,5/FL
 play,5,0,jonem102,00,,HR/7.1-H
 play,5,0,torrj101,31,,W
 play,5,0,olivg101,00,,53
-play,5,1,banke101,21,,K
+play,5,1,banke101,22,,K
 play,5,1,thoml103,11,,8
 play,5,1,hundr101,11,,D7
 play,5,1,phila101,00,,WP.2-3
@@ -3501,7 +3501,7 @@ play,3,1,banke101,32,,53
 play,3,1,gigon101,11,,31
 play,4,0,jonec102,12,,S7
 play,4,0,shawb103,32,,6(B)6(1)/LDP
-play,4,0,harrb101,21,,K/C
+play,4,0,harrb101,22,,K/C
 play,4,1,hundr101,00,,S5/BG
 play,4,1,phila101,01,,5/FL
 play,4,1,culpr101,11,,14/SH.1-2
@@ -4427,9 +4427,9 @@ play,4,1,kessd101,00,,13
 play,5,0,gotaj101,10,,53
 play,5,0,morgj001,32,,W
 play,5,0,wynnj101,00,,54(1)/FO
-play,5,0,staur001,00,,SB2#
-play,5,0,staur001,22,,W
-play,5,0,harrc101,00,,PB.2-3;1-2
+play,5,0,staur001,??,,SB2#
+play,5,0,staur001,??,,W
+play,5,0,harrc101,??,,PB.2-3;1-2
 play,5,0,harrc101,12,,2/FL
 play,5,1,popop101,12,,5/FL
 play,5,1,willb104,30,,W
@@ -4454,7 +4454,7 @@ play,7,0,wynnj101,10,,63
 play,7,0,staur001,30,,IW
 play,7,0,harrc101,00,,NP
 sub,mathe101,"Eddie Mathews",0,5,11
-play,7,0,mathe101,00,,WP.2-3;1-2
+play,7,0,mathe101,??,,WP.2-3;1-2
 play,7,0,mathe101,31,,IW
 play,7,0,landj103,00,,NP
 sub,radad101,"Dick Radatz",1,9,1
@@ -4476,7 +4476,7 @@ play,7,1,radad101,22,,K/C
 play,8,0,asprb101,30,,W
 play,8,0,adled101,00,,5/P
 play,8,0,sembc101,00,,56(1)/FO
-play,8,0,jacks102,00,,WP.1-2
+play,8,0,jacks102,??,,WP.1-2
 play,8,0,jacks102,31,,W
 play,8,0,morgj001,00,,NP
 sub,hartc105,"Chuck Hartenstein",1,9,1
@@ -4600,7 +4600,7 @@ play,4,1,phila101,11,,WP.2-3;1-2
 play,4,1,phila101,31,,IW
 play,4,1,jenkf101,01,,8
 play,5,0,branr101,00,,9/L
-play,5,0,cuelm101,01,,K
+play,5,0,cuelm101,02,,K
 play,5,0,morgj001,12,,K
 play,5,1,kessd101,01,,3/BG
 play,5,1,beckg101,31,,S8
@@ -5810,12 +5810,12 @@ info,umphome,barla901
 info,ump1b,donaa901
 info,ump2b,lands901
 info,ump3b,steim901
-info,scorer,"Ford/CHN"
+info,scorer,"Ford/CHN/Roth"
 info,translator,"M. Dehler"
 info,inputter,"M. Dehler"
 info,inputtime,1999/05/13 6:20PM
-info,howscored,unknown
-info,pitches,count
+info,howscored,park
+info,pitches,pitches
 info,temp,85
 info,winddir,unknown
 info,windspeed,-1
@@ -5846,88 +5846,87 @@ start,spana101,"Al Spangler",1,6,9
 start,hundr101,"Randy Hundley",1,7,2
 start,savat101,"Ted Savage",1,8,8
 start,nye-r101,"Rich Nye",1,9,1
-play,1,0,ruizc102,02,,63
-play,1,0,pinsv101,01,,43
-play,1,0,rosep001,00,,4/L
-play,1,1,kessd101,02,,43
-play,1,1,beckg101,21,,9
-play,1,1,willb104,20,,7
-play,2,0,peret001,22,,63
-play,2,0,johnd103,22,,63
-play,2,0,pavld101,10,,S7
-play,2,0,may-l101,00,,S7.1-2
-play,2,0,helmt101,01,,64(1)/FO
-play,2,1,santr102,22,,53
-play,2,1,banke101,00,,S7
-play,2,1,spana101,10,,6/P
-play,2,1,hundr101,31,,7
-play,3,0,queem102,00,,43
-play,3,0,ruizc102,01,,53
-play,3,0,pinsv101,02,,K
-play,3,1,savat101,32,,K
-play,3,1,nye-r101,00,,S9
-play,3,1,kessd101,12,,K
-play,3,1,beckg101,31,,W.1-2
-play,3,1,willb104,20,,4/P
-play,4,0,rosep001,00,,63
+play,1,0,ruizc102,02,CFX,63/G6M
+play,1,0,pinsv101,01,CX,43/G4M
+play,1,0,rosep001,00,X,4/L
+play,1,1,kessd101,02,CFX,43/G4M
+play,1,1,beckg101,21,BFBX,9
+play,1,1,willb104,20,BBX,7
+play,2,0,peret001,12,BCFX,63
+play,2,0,johnd103,22,SBBFFFFX,63/G6M
+play,2,0,pavld101,00,X,S7/G56
+play,2,0,may-l101,00,X,S7/L7S.1-2
+play,2,0,helmt101,01,CX,64(1)/FO
+play,2,1,santr102,22,BCBSFX,53
+play,2,1,banke101,00,X,S7/L7S
+play,2,1,spana101,10,BX,6/P5D
+play,2,1,hundr101,31,BBSBX,7/F78
+play,3,0,queem102,00,X,43
+play,3,0,ruizc102,10,BX,53
+play,3,0,pinsv101,02,FFS,K
+play,3,1,savat101,22,BSSBS,K
+play,3,1,nye-r101,00,X,S9/L9S
+play,3,1,kessd101,12,FBCS,K
+play,3,1,beckg101,31,BCBBB,W.1-2
+play,3,1,willb104,20,BBX,4/P4M
+play,4,0,rosep001,00,X,63
 play,4,0,peret001,00,,NP
 sub,thoml103,"Lee Thomas",1,5,3
-com,"$Ernie Banks spiked on heel"
-play,4,0,peret001,21,,8
-play,4,0,johnd103,12,,K
-play,4,1,santr102,01,,HR/8
-play,4,1,thoml103,00,,S8
-play,4,1,spana101,01,,4/P
-play,4,1,hundr101,01,,13.1-2
-play,4,1,savat101,00,,WP.2-3
-play,4,1,savat101,31,,HR/8.3-H
-play,4,1,nye-r101,32,,K/C
-play,5,0,pavld101,22,,D7
-play,5,0,may-l101,00,,7/L
-play,5,0,helmt101,22,,9.2-3
-play,5,0,queem102,31,,S8.3-H
-play,5,0,ruizc102,10,,9
-play,5,1,kessd101,12,,43
-play,5,1,beckg101,00,,8
-play,5,1,willb104,00,,S9
-play,5,1,santr102,21,,6/P
-play,6,0,pinsv101,22,,9
-play,6,0,rosep001,11,,13
-play,6,0,peret001,22,,K
-play,6,1,thoml103,12,,9
-play,6,1,spana101,12,,3/G
-play,6,1,hundr101,32,,31
-play,7,0,johnd103,10,,43
-play,7,0,pavld101,32,,K
-play,7,0,may-l101,32,,W
-play,7,0,helmt101,00,,HR/7.1-H
-play,7,0,queem102,21,,5/L
-play,7,1,savat101,32,,K
-play,7,1,nye-r101,10,,D9
-play,7,1,kessd101,11,,7
-play,7,1,beckg101,00,,S9.2-H
+com,"$Ernie Banks spiked on heel by Rose"
+play,4,0,peret001,21,.BBFX,8/F89D
+play,4,0,johnd103,12,CBSS,K
+play,4,1,santr102,11,CBX,HR/F78XD
+play,4,1,thoml103,00,X,S8
+play,4,1,spana101,01,CX,4/P
+play,4,1,hundr101,01,FX,13.1-2
+play,4,1,savat101,11,FBB,WP.2-3
+play,4,1,savat101,31,FBB.BX,HR/F8XD.3-H
+play,4,1,nye-r101,32,BBBCFC,K/C
+play,5,0,pavld101,22,BBCSX,D7/L78
+play,5,0,may-l101,00,X,7/L
+play,5,0,helmt101,22,BBCFX,9.2-3
+play,5,0,queem102,31,BBBCX,S8/L8S.3-H
+play,5,0,ruizc102,10,BX,9
+play,5,1,kessd101,12,BFLX,43
+play,5,1,beckg101,00,X,8
+play,5,1,willb104,00,X,S9/L9S
+play,5,1,santr102,21,BSBX,6/P5D
+play,6,0,pinsv101,22,SFBBX,9/L
+play,6,0,rosep001,11,FBX,13
+play,6,0,peret001,22,CBBFS,K
+play,6,1,thoml103,12,CBCX,9
+play,6,1,spana101,12,FBFFX,3/G
+play,6,1,hundr101,32,BFBFBX,31
+play,7,0,johnd103,10,BX,43
+play,7,0,pavld101,32,FBBFBFS,K
+play,7,0,may-l101,32,SSBBBB,W
+play,7,0,helmt101,00,X,HR/F7D.1-H
+play,7,0,queem102,22,FBBCX,5/L
+play,7,1,savat101,32,BSCBBS,K
+play,7,1,nye-r101,10,BX,D9/F9LDW
+play,7,1,kessd101,11,FBX,7
+play,7,1,beckg101,00,X,S9/L9S.2-H
 play,7,1,willb104,00,,NP
 sub,arrig101,"Gerry Arrigo",0,9,1
-play,7,1,willb104,00,,3/G
-play,8,0,ruizc102,22,,13
-play,8,0,pinsv101,21,,43
-play,8,0,rosep001,31,,W
+play,7,1,willb104,00,.X,3/G
+play,8,0,ruizc102,22,SFBFFBX,13
+play,8,0,pinsv101,21,BFBX,43
+play,8,0,rosep001,32,BCBCBB,W
 play,8,0,peret001,00,,NP
 sub,hartc105,"Chuck Hartenstein",1,9,1
-play,8,0,peret001,00,,43
-play,8,1,santr102,10,,HR/8
-play,8,1,thoml103,00,,S9
-play,8,1,spana101,01,,46(1)/FO
-play,8,1,hundr101,00,,S7.1-2
+play,8,0,peret001,10,.BX,43/G34D
+play,8,1,santr102,10,BX,HR/F8XD
+play,8,1,thoml103,10,BX,S9/G34
+play,8,1,spana101,02,LCX,46(1)/FO
+play,8,1,hundr101,10,BX,S7/G56.1-2
 play,8,1,savat101,00,,NP
 sub,abert101,"Ted Abernathy",0,9,1
-play,8,1,savat101,30,,S8.2-H;1-3
-play,8,1,hartc105,00,,SB2
-play,8,1,hartc105,00,,CSH(2525).2-3
-play,8,1,hartc105,12,,K
-play,9,0,johnd103,22,,S8
-play,9,0,pavld101,10,,54(1)3/GDP
-play,9,0,may-l101,11,,43
+play,8,1,savat101,30,.BBBX,S8/G6M.2-H;1-3
+play,8,1,hartc105,00,S,SB2
+play,8,1,hartc105,12,S.FBS,K+CSH(2525)/NDP.2-3
+play,9,0,johnd103,22,CBSBX,S8/G6M
+play,9,0,pavld101,10,BX,54(1)3/GDP
+play,9,0,may-l101,11,BFX,43
 data,er,queem102,4
 data,er,arrig101,2
 data,er,abert101,0
@@ -6192,7 +6191,7 @@ play,8,1,phila101,01,,HP.1-2
 play,8,1,handb101,??,,SB3;SB2
 play,8,1,handb101,12,,K
 play,8,1,kessd101,22,,S9.3-H;2-H
-play,8,1,beckg101,11,,43(B)6(1)/DP
+play,8,1,beckg101,11,,43(B)6(1)/GDP
 play,9,0,cartr101,01,,S8
 play,9,0,torrj101,00,,6(1)3/GDP
 play,9,0,boyec102,02,,S9
@@ -7798,7 +7797,7 @@ play,1,0,frant101,00,,HR/9
 play,1,0,aaroh101,10,,8
 play,1,0,torrj101,11,,HR/9
 play,1,0,boyec102,??,,HR/7
-play,1,0,cartr101,01,,K
+play,1,0,cartr101,??,,K
 play,1,1,kessd101,12,,3/G
 play,1,1,beckg101,32,,K
 play,1,1,willb104,11,,43
@@ -8131,7 +8130,7 @@ play,3,0,alouf101,00,,7
 play,3,1,kessd101,00,,3/BG
 play,3,1,beckg101,22,,D7
 play,3,1,willb104,21,,6/L
-play,3,1,santr102,22,,W
+play,3,1,santr102,32,,W
 play,3,1,banke101,00,,E6.2-3;1-2
 com,"$Clarence Jones struck on eye by foul ball"
 play,3,1,jonec103,02,,NP
@@ -8598,7 +8597,7 @@ play,3,0,aloum101,21,,43
 play,3,0,clemr101,01,,43
 play,3,0,lupla101,32,,63
 play,3,1,beckg101,31,,W
-play,3,1,stepj102,01,,3(B)6(1)/DP
+play,3,1,stepj102,01,,3(B)6(1)/GDP
 play,3,1,handb101,02,,K/C
 play,4,0,mazeb101,00,,4
 play,4,0,rodga101,11,,3/FL
@@ -8832,7 +8831,7 @@ play,5,1,willb104,??,,WP.2-3#
 play,5,1,willb104,22,,K
 play,5,1,santr102,22,,HR/7.3-H
 play,5,1,banke101,10,,63
-play,5,1,savat101,20,,W
+play,5,1,savat101,30,,W
 play,5,1,hundr101,??,,CS2(24)
 play,6,0,clemr101,11,,13
 play,6,0,starw101,21,,S8
@@ -10423,12 +10422,12 @@ play,5,0,buchj102,32,,8/F
 play,5,0,chare101,00,,E6
 play,5,0,grotj101,01,,53.1-2
 play,5,0,seavt001,12,,K/C
-play,5,1,kessd101,00,,E3.B-2
-play,5,1,beckg101,00,,3/SH.2-3
-play,5,1,willb104,00,,3/G.3-H(UR)
-play,5,1,santr102,00,,63
-play,6,0,harrb101,00,,63
-play,6,0,jonec102,30,,W
+play,5,1,kessd101,??,,E3.B-2
+play,5,1,beckg101,??,,3/SH.2-3
+play,5,1,willb104,??,,3/G.3-H(UR)
+play,5,1,santr102,??,,63
+play,6,0,harrb101,??,,63
+play,6,0,jonec102,??,,W
 play,6,0,johnb104,11,,63.1-2
 play,6,0,davit103,11,,S8.2-H;BX2(826)
 play,6,1,banke101,10,,7/F
@@ -10464,16 +10463,16 @@ sub,krane101,"Ed Kranepool",0,6,3
 play,9,1,hundr101,00,,NP
 sub,johnb104,"Bob Johnson",0,3,4
 play,9,1,hundr101,10,,D9
-play,9,1,savat101,00,,54/SH.2-3
-play,9,1,phila101,00,,IW
+play,9,1,savat101,??,,54/SH.2-3
+play,9,1,phila101,??,,IW
 play,9,1,stonb101,00,,NP
 sub,thoml103,"Lee Thomas",1,9,11
-play,9,1,thoml103,00,,IW.1-2
-play,9,1,kessd101,00,,7(B)2(3)/FDP
+play,9,1,thoml103,??,,IW.1-2
+play,9,1,kessd101,??,,7(B)2(3)/FDP
 play,10,0,chare101,00,,NP
 sub,hartc105,"Chuck Hartenstein",1,9,1
-play,10,0,chare101,00,,13
-play,10,0,grotj101,00,,53
+play,10,0,chare101,??,,13
+play,10,0,grotj101,??,,53
 play,10,0,seavt001,00,,NP
 sub,stahl101,"Larry Stahl",0,9,11
 play,10,0,stahl101,31,,5/P
@@ -10615,7 +10614,7 @@ play,7,1,santr102,00,,S8.3-H;1-2#
 play,7,1,banke101,31,,W.2-3;1-2
 play,7,1,hundr101,20,,7/F
 play,8,0,krane101,12,,5/P
-play,8,0,swobr101,11,,K
+play,8,0,swobr101,12,,K
 play,8,0,stahl101,32,,S9
 play,8,0,buchj102,30,,W.1-2
 play,8,0,sullj103,01,,43
@@ -10735,7 +10734,7 @@ play,5,1,culpr101,22,,K/C
 play,6,0,swobr101,00,,13
 play,6,0,buchj102,12,,K
 play,6,0,linzp101,22,,D7
-play,6,0,grotj101,00,,IW
+play,6,0,grotj101,30,,IW
 play,6,0,cardd101,22,,K
 play,6,1,kessd101,00,,43
 play,6,1,beckg101,00,,13
@@ -10880,7 +10879,7 @@ play,6,1,santr102,31,,W
 play,6,1,banke101,22,,K
 play,6,1,spana101,01,,S9.3-H;1-H(NR);B-3(E9)
 play,6,1,hundr101,01,,D8.3-H
-play,6,1,phila101,00,,IW
+play,6,1,phila101,30,,IW
 play,6,1,niekj001,01,,63
 play,7,0,krane101,00,,43
 play,7,0,swobr101,32,,63
@@ -10905,7 +10904,7 @@ play,8,1,banke101,32,,9/F
 play,8,1,spana101,22,,S9
 play,8,1,hundr101,??,,WP.1-2#
 play,8,1,hundr101,22,,K
-play,8,1,phila101,00,,IW
+play,8,1,phila101,30,,IW
 play,8,1,niekj001,02,,S9.1-3;2-H
 play,8,1,kessd101,10,,5/FL
 play,9,0,johnb104,12,,S9
@@ -11153,7 +11152,7 @@ play,4,1,phila101,00,,53
 play,4,1,handb101,22,,K/C
 play,5,0,buchj102,02,,53
 play,5,0,sullj103,10,,S8
-play,5,0,grahb101,22,,3(B)6(1)/DP
+play,5,0,grahb101,22,,3(B)6(1)/GDP
 play,5,1,kessd101,01,,S7
 play,5,1,beckg101,01,,36(1)/FO
 play,5,1,willb104,21,,HR/9.1-H
@@ -11295,7 +11294,7 @@ play,5,0,reynt101,10,,53
 play,5,1,banke101,00,,8/F
 play,5,1,spana101,31,,W
 play,5,1,hundr101,00,,S9.1-3;B-2(TH)
-play,5,1,phila101,00,,IW
+play,5,1,phila101,30,,IW
 play,5,1,holtk101,22,,K
 play,5,1,kessd101,01,,32(3)/FO
 play,6,0,linzp101,21,,6/P

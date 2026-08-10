@@ -875,22 +875,22 @@ info,hometeam,DET
 info,site,DET04
 info,date,1969/04/26
 info,number,0
-info,starttime,0:00PM
+info,starttime,2:20PM
 info,daynight,day
 info,usedh,false
 info,umphome,honoj901
 info,ump1b,lucir901
 info,ump2b,umonf901
 info,ump3b,hallb901
-info,scorer,"Red Sox"
+info,scorer,"Red Sox,Roth"
 info,translator,"David Matthews"
 info,inputter,"David Matthews"
 info,inputtime,1998/02/04 8:53PM
 info,howscored,park
-info,pitches,none
-info,temp,0
-info,winddir,unknown
-info,windspeed,-1
+info,pitches,pitches
+info,temp,73
+info,winddir,tocf
+info,windspeed,15
 info,fieldcond,unknown
 info,precip,unknown
 info,sky,unknown
@@ -918,110 +918,108 @@ start,nortj101,"Jim Northrup",1,6,8
 start,freeb103,"Bill Freehan",1,7,2
 start,wertd103,"Don Wert",1,8,5
 start,sparj101,"Joe Sparma",1,9,1
-play,1,0,lahoj101,??,,9
-play,1,0,andrm101,??,,S6
-play,1,0,yastc101,??,,WP.1-2
-play,1,0,yastc101,??,,31.2-3
-play,1,0,conit101,??,,63
-play,1,1,matct101,??,,43
-play,1,1,stanm101,??,,5/L
-play,1,1,kalia101,??,,K
-play,2,0,scotg102,??,,3/FL
-play,2,0,joned102,??,,S8/L
-play,2,0,petrr101,??,,8
-play,2,0,azcuj101,??,,W.1-2
-play,2,0,culpr101,??,,W.2-3;1-2
-play,2,0,lahoj101,??,,W.3-H;2-3;1-2
-play,2,0,andrm101,??,,W.3-H;2-3;1-2
-play,2,0,yastc101,??,,HR/8.3-H;2-H;1-H
-play,2,0,conit101,??,,NP
+play,1,0,lahoj101,10,BX,9
+play,1,0,andrm101,20,BBX,S5
+play,1,0,yastc101,10,BB,WP.1-2
+play,1,0,yastc101,20,BB.X,31.2-3
+play,1,0,conit101,01,CX,63/G56
+play,1,1,matct101,00,X,43
+play,1,1,stanm101,02,CSX,5/L
+play,1,1,kalia101,32,BBBCSS,K
+play,2,0,scotg102,21,BBFX,2/FL/P23F
+play,2,0,joned102,20,BBX,S8/L
+play,2,0,petrr101,00,X,8
+play,2,0,azcuj101,31,BSBBB,W.1-2
+play,2,0,culpr101,30,BBBB,W.2-3;1-2
+play,2,0,lahoj101,32,FSFBBBFB,W.3-H;2-3;1-2
+play,2,0,andrm101,30,BBBB,W.3-H;2-3;1-2
+play,2,0,yastc101,00,X,HR/F8XD.3-H;2-H;1-H
+play,2,0,conit101,00,,NP
 sub,dobsp101,"Pat Dobson",1,9,1
-play,2,0,conit101,??,,S5
-play,2,0,scotg102,??,,SB2
-play,2,0,scotg102,??,,K
-play,2,1,cashn101,??,,HR/9
-com,"$Onto the roof"
-play,2,1,hortw101,??,,K
-play,2,1,nortj101,??,,43
-play,2,1,freeb103,??,,53
-play,3,0,joned102,??,,S9/G
-play,3,0,petrr101,??,,S7/G.1-2
-play,3,0,azcuj101,??,,64(1)3/GDP.2-3
-play,3,0,culpr101,??,,K/C
-play,3,1,wertd103,??,,23
-play,3,1,dobsp101,??,,NP
+play,2,0,conit101,12,.BCSX,S6/G6M
+play,2,0,scotg102,01,SS,SB2
+play,2,0,scotg102,02,SS.S,K
+play,2,1,cashn101,00,X,HR/9
+play,2,1,hortw101,22,SSBBFS,K
+play,2,1,nortj101,01,FX,43
+play,2,1,freeb103,00,X,53
+play,3,0,joned102,32,BBBCSX,S9/G34
+play,3,0,petrr101,00,X,S7/G.1-2
+play,3,0,azcuj101,12,FBCX,64(1)3/GDP/G6M.2-3
+play,3,0,culpr101,02,SCC,K/C
+play,3,1,wertd103,11,BFX,23/G2
+play,3,1,dobsp101,00,,NP
 sub,woodr102,"Ron Woods",1,9,11
-play,3,1,woodr102,??,,3/FL
-play,3,1,matct101,??,,S7/L
-play,3,1,stanm101,??,,53
-play,4,0,lahoj101,??,,NP
+play,3,1,woodr102,11,.CBX,3/FL/P3F
+play,3,1,matct101,20,BBX,S8/L78
+play,3,1,stanm101,32,BBCFBX,53
+play,4,0,lahoj101,00,,NP
 sub,schef102,"Fred Scherman",1,9,1
-play,4,0,lahoj101,??,,3/G
-com,"Debut game for Fred Scherman"
-play,4,0,andrm101,??,,63
-play,4,0,yastc101,??,,HR/9
-play,4,0,conit101,??,,8
-play,4,1,kalia101,??,,3/P
-play,4,1,cashn101,??,,9
-play,4,1,hortw101,??,,K
-play,5,0,scotg102,??,,53
-play,5,0,joned102,??,,T9
-play,5,0,petrr101,??,,K/C
-play,5,0,azcuj101,??,,63
-play,5,1,nortj101,??,,3/G
-play,5,1,freeb103,??,,E5
-play,5,1,wertd103,??,,K/C
-play,5,1,schef102,??,,NP
+play,4,0,lahoj101,00,.X,3/G
+play,4,0,andrm101,22,CBFFBX,63
+play,4,0,yastc101,11,FBX,HR/F89XD
+play,4,0,conit101,11,BSX,8
+play,4,1,kalia101,12,FBFX,3/P3
+play,4,1,cashn101,32,BFBFBFFX,9
+play,4,1,hortw101,02,FSS,K
+play,5,0,scotg102,01,CX,53
+play,5,0,joned102,01,FX,T9/F9LD
+play,5,0,petrr101,32,FBCBBFC,K/C
+play,5,0,azcuj101,11,BFX,63
+play,5,1,nortj101,22,CBSBX,3/G
+play,5,1,freeb103,22,BFCBFX,E5/G5
+play,5,1,wertd103,02,CFC,K/C
+play,5,1,schef102,00,,NP
 sub,campd101,"Dave Campbell",1,9,11
-play,5,1,campd101,??,,K/C
-play,6,0,culpr101,??,,NP
+play,5,1,campd101,22,.BCBFS,K
+play,6,0,culpr101,00,,NP
 sub,radad101,"Dick Radatz",1,9,1
-play,6,0,culpr101,??,,K
-play,6,0,lahoj101,??,,2/FL
-play,6,0,andrm101,??,,W
-play,6,0,yastc101,??,,W.1-2
-play,6,0,conit101,??,,K
-play,6,1,matct101,??,,K/C
-play,6,1,stanm101,??,,S7/G
-play,6,1,kalia101,??,,W.1-2
-play,6,1,cashn101,??,,36(1)/FO.2-3
-play,6,1,hortw101,??,,D9.3-H;1-H
-play,6,1,nortj101,??,,63
-play,7,0,scotg102,??,,3/FL
-play,7,0,joned102,??,,6/P
-play,7,0,petrr101,??,,8/P
-play,7,1,freeb103,??,,W
-play,7,1,wertd103,??,,7/L
-play,7,1,radad101,??,,NP
+play,6,0,culpr101,02,.FFS,K
+play,6,0,lahoj101,22,BSBCX,2/FL/P2F
+play,6,0,andrm101,30,BBBB,W
+play,6,0,yastc101,32,FBFBBB,W.1-2
+play,6,0,conit101,22,BCBSFS,K
+play,6,1,matct101,22,BCFBC,K/C
+play,6,1,stanm101,02,CSX,S7/G
+play,6,1,kalia101,30,BBBB,W.1-2
+play,6,1,cashn101,11,SBX,36(1)/FO.2-3
+play,6,1,hortw101,00,X,D9/F9LD.3-H;1-H
+play,6,1,nortj101,12,SBCFX,63
+play,7,0,scotg102,02,SFX,3/FL/P3F
+play,7,0,joned102,01,CX,6/P
+play,7,0,petrr101,30,BBBX,8/P8
+play,7,1,freeb103,31,BBBCB,W
+play,7,1,wertd103,00,X,7/L
+play,7,1,radad101,00,,NP
 sub,mcaud101,"Dick McAuliffe",1,9,11
-play,7,1,mcaud101,??,,K
-play,7,1,matct101,??,,3/G
-play,8,0,azcuj101,??,,NP
+play,7,1,mcaud101,22,.CBFBS,K
+play,7,1,matct101,11,BFX,3/G
+play,8,0,azcuj101,00,,NP
 sub,kilkm101,"Mike Kilkenny",1,9,1
-play,8,0,azcuj101,??,,K
-play,8,0,culpr101,??,,K/C
-play,8,0,lahoj101,??,,HP
-play,8,0,andrm101,??,,5/L
-play,8,1,stanm101,??,,63
-play,8,1,kalia101,??,,D8/L
-play,8,1,cashn101,??,,6/P
-play,8,1,hortw101,??,,6/P
-play,9,0,yastc101,??,,K/C
-play,9,0,conit101,??,,K
-play,9,0,scotg102,??,,53
-play,9,1,nortj101,??,,NP
+play,8,0,azcuj101,22,.BBCSS,K
+play,8,0,culpr101,22,CSBBC,K/C
+play,8,0,lahoj101,20,BBH,HP
+play,8,0,andrm101,12,BCCX,5/L
+play,8,1,stanm101,00,X,63
+play,8,1,kalia101,00,X,D9/F89
+play,8,1,cashn101,10,BX,6/P6M
+play,8,1,hortw101,00,X,6/P6M
+play,9,0,yastc101,02,CFC,K/C
+play,9,0,conit101,02,SSS,K
+play,9,0,scotg102,10,BX,53
+play,9,1,nortj101,00,,NP
 sub,thomg102,"George Thomas",0,3,7
-play,9,1,nortj101,??,,NP
+play,9,1,nortj101,00,.,NP
 sub,conib101,"Billy Conigliaro",0,4,8
-play,9,1,nortj101,??,,NP
+play,9,1,nortj101,00,..,NP
 sub,lahoj101,"Joe Lahoud",0,1,9
-play,9,1,nortj101,??,,13
-play,9,1,freeb103,??,,HR/7
-play,9,1,wertd103,??,,53
-play,9,1,kilkm101,??,,NP
+play,9,1,nortj101,10,...BX,13
+play,9,1,freeb103,22,BCFBX,HR/7
+play,9,1,wertd103,00,X,7
+play,9,1,kilkm101,00,,NP
 sub,browg101,"Gates Brown",1,9,11
-play,9,1,browg101,??,,W
-play,9,1,matct101,??,,8
+play,9,1,browg101,31,.BBBCB,W
+play,9,1,matct101,22,BBCFX,8
 data,er,culpr101,4
 data,er,sparj101,6
 data,er,dobsp101,0
@@ -4934,7 +4932,7 @@ play,5,1,mcaud101,??,,8/L
 play,6,0,murcb101,??,,9
 play,6,0,pepij101,??,,HR/9
 play,6,0,whitr101,??,,W
-play,6,0,lyttj101,??,,43(B)6(1)/DP
+play,6,0,lyttj101,??,,43(B)6(1)/GDP
 play,6,1,trest101,??,,53
 play,6,1,kalia101,??,,43
 play,6,1,hortw101,??,,53
@@ -5378,8 +5376,8 @@ sub,satrt101,"Tom Satriano",0,9,11
 play,7,0,satrt101,21,,7/F
 play,7,1,stanm101,00,,NP
 sub,siebs101,"Sonny Siebert",0,9,1
-play,7,1,stanm101,00,,43/G
-play,7,1,dobsp101,00,,K
+play,7,1,stanm101,??,,43/G
+play,7,1,dobsp101,??,,K
 play,7,1,mcaud101,21,,13/G
 play,8,0,schod101,12,,K
 play,8,0,lahoj101,31,,W
@@ -6763,7 +6761,7 @@ sub,campd101,"Dave Campbell",1,7,3
 play,9,0,harrk101,??,,K
 play,9,0,kliml101,??,,S8
 play,9,0,scher101,??,,S9.1-2
-play,9,0,fullv101,??,,5(1)3/GDP
+play,9,0,fullv101,??,,5(2)3/GDP
 data,er,hargs101,5
 data,er,burcl101,0
 data,er,wilse102,1
@@ -8261,10 +8259,9 @@ play,6,0,chand102,??,,K/C
 play,6,1,browg101,??,,HR/7
 play,6,1,cashn101,??,,4/L
 play,6,1,hortw101,??,,W
-play,6,1,freeb103,??,,8.1-3(E8)
-play,6,1,matct101,??,,WP.3-H(UR)
-play,6,1,matct101,??,,S8
-play,6,1,wertd103,??,,PO1(215)
+play,6,1,freeb103,??,,8/F
+play,6,1,matct101,??,,S8.1-3(E8)
+play,6,1,wertd103,??,,WP.3-H(UR);1X3(215)
 play,7,0,uhlat101,??,,S7
 play,7,0,carer001,??,,9/L
 play,7,0,olivt102,??,,S7.1-2
@@ -9439,7 +9436,7 @@ play,3,1,nortj101,??,,E3.2-3
 play,3,1,kalia101,??,,5/L
 play,4,0,jackr001,??,,8
 play,4,0,bands101,??,,W
-play,4,0,frant101,??,,43(B)4(1)/DP
+play,4,0,frant101,??,,43/GDP.1X2(364)
 play,4,1,cashn101,??,,S8
 play,4,1,hortw101,??,,OA.1X2(24)
 play,4,1,hortw101,??,,W
@@ -9577,7 +9574,7 @@ play,4,0,cated101,??,,E2.3-H(NR);2-3
 play,4,0,reynt101,??,,S7.3-H(UR);1-2
 play,4,0,greed102,??,,64(1)3/GDP
 play,4,1,trest101,??,,S9
-play,4,1,kalia101,??,,3(B)6(1)/DP
+play,4,1,kalia101,??,,3/GDP.1X2(36)
 play,4,1,cashn101,??,,43
 play,5,0,roofp101,??,,8
 play,5,0,dobsc101,??,,K/C

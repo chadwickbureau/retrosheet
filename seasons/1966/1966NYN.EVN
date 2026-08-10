@@ -1292,7 +1292,10 @@ sub,abert101,"Ted Abernathy",0,9,1
 play,3,1,hickj103,??,,63
 play,4,0,altmg101,??,,W
 play,4,0,willb104,??,,6/P
-play,4,0,santr102,??,,64(1)/FO/NDP.BX1(43)
+play,4,0,santr102,??,,64(1)/FO/INT/DP.BX1(43)#
+com,"This is not an official GDP so I assume batter was"
+com,"declared out due to runner interference at 2nd"
+com,"(rwood)"
 play,4,1,stepj102,??,,7/L
 play,4,1,ribad101,??,,K
 play,4,1,huntr101,??,,13
@@ -1541,7 +1544,9 @@ start,grotj101,"Jerry Grote",1,8,2
 start,mcgrt001,"Tug McGraw",1,9,1
 play,1,0,morgj001,??,,W
 play,1,0,jacks102,??,,46(1)/FO
-play,1,0,wynnj101,??,,63/NDP.1X3(36)
+play,1,0,wynnj101,??,,PO1(36)
+com,"Out trying to advance to 2nd after low pickoff throw to 1st"
+play,1,0,wynnj101,??,,63
 play,1,1,huntr101,??,,S7
 play,1,1,brese101,??,,K
 play,1,1,boyek101,??,,13.1-2
@@ -1574,7 +1579,7 @@ play,4,0,asprb101,??,,E5.1-2
 play,4,0,batej102,??,,13
 play,4,1,lewij102,??,,43
 play,4,1,hickj103,??,,W
-play,4,1,grotj101,??,,CS2(26)#
+play,4,1,grotj101,??,,CS2(26)
 play,4,1,grotj101,??,,K/C
 play,5,0,staur001,??,,K
 play,5,0,latmb101,??,,9
@@ -1842,7 +1847,8 @@ play,14,0,linzf101,??,,64(1)/FO
 play,14,1,krane101,??,,HP
 play,14,1,murpb101,??,,FC/SH.1-2
 play,14,1,swobr101,??,,K/C
-play,14,1,grotj101,??,,S7.2-3;1X2(75)
+play,14,1,grotj101,??,,S7.2-3;1X3(75)
+com,"Kranepool stopped at 3rd but Murphy out trying for 3rd"
 play,14,1,mcmir101,??,,13
 play,15,0,davej101,??,,63
 play,15,0,fuent101,??,,23
@@ -3073,7 +3079,7 @@ play,7,1,krane101,??,,43.1-2
 play,7,1,stuad101,??,,K
 play,8,0,aloum101,??,,63
 play,8,0,alleg101,??,,S
-play,8,0,motam101,??,,OA.1X2(2E6)#
+play,8,0,motam101,??,,OA.1X2(2E6)
 play,8,0,motam101,??,,3/G.2-3
 play,8,0,starw101,??,,E3.3-H(NR)(UR)
 play,8,0,clemr101,??,,S9.1-3
@@ -10418,11 +10424,11 @@ play,4,0,rojac101,01,,4/L
 play,4,1,hillc101,00,,S4/BG
 play,4,1,boyek101,00,,64(1)3/GDP
 play,4,1,lupla101,12,,43
-play,5,0,callj101,00,,K
+play,5,0,callj101,??,,K
 play,5,0,groad101,32,,4/P
 play,5,0,alled101,12,,HR/8
-play,5,0,kuenh101,00,,K
-play,5,1,ellil101,00,,K
+play,5,0,kuenh101,??,,K
+play,5,1,ellil101,??,,K
 play,5,1,krane101,10,,6/P
 play,5,1,brese101,22,,K
 play,6,0,taylt101,00,,NP
@@ -10431,39 +10437,39 @@ play,6,0,taylt101,00,,NP
 sub,harrb101,"Bud Harrelson",1,9,6
 play,6,0,taylt101,12,,8/L
 play,6,0,whitb105,01,,4/P
-play,6,0,ueckb101,00,,K
+play,6,0,ueckb101,??,,K
 play,6,1,grotj101,22,,63
 play,6,1,harrb101,01,,43
 play,6,1,jonec102,10,,63
-play,7,0,bunnj101,00,,E6/G
-play,7,0,rojac101,00,,13/SH.1-2
-play,7,0,callj101,00,,D9.2-H(UR)
-play,7,0,groad101,00,,9/F/DP.2X3(95)
+play,7,0,bunnj101,??,,E6/G
+play,7,0,rojac101,??,,13/SH.1-2
+play,7,0,callj101,??,,D9.2-H(UR)
+play,7,0,groad101,??,,9/F/DP.2X3(95)
 play,7,1,hillc101,32,,S8
 play,7,1,boyek101,00,,54(1)/FO
 play,7,1,lupla101,12,,S7/P.1-2
 play,7,1,ellil101,12,,13.2-3;1-2
 play,7,1,krane101,32,,53
-play,8,0,alled101,00,,HR/7
-play,8,0,kuenh101,00,,S7/G
+play,8,0,alled101,??,,HR/7
+play,8,0,kuenh101,??,,S7/G
 play,8,0,taylt101,00,,NP
 sub,gonzt101,"Tony Gonzalez",0,5,12
-play,8,0,taylt101,00,,46(1)3/GDP
-play,8,0,whitb105,00,,43
+play,8,0,taylt101,??,,46(1)3/GDP
+play,8,0,whitb105,??,,43
 play,8,1,terrr101,00,,NP
 sub,gonzt101,"Tony Gonzalez",0,5,7
 play,8,1,terrr101,00,,NP
 sub,stepj102,"John Stephenson",1,7,11
-play,8,1,stepj102,00,,3/G
-play,8,1,grotj101,00,,S5/G
-play,8,1,harrb101,00,,54(1)/FO
-play,8,1,jonec102,00,,43
+play,8,1,stepj102,??,,3/G
+play,8,1,grotj101,??,,S5/G
+play,8,1,harrb101,??,,54(1)/FO
+play,8,1,jonec102,??,,43
 play,9,0,ueckb101,00,,NP
 sub,heplb101,"Bill Hepler",1,7,1
 play,9,0,ueckb101,20,,S7
-play,9,0,bunnj101,00,,FC/SH.1-2;B-1
-play,9,0,rojac101,00,,46(1)3/GDP.2-3
-play,9,0,callj101,00,,K
+play,9,0,bunnj101,??,,FC/SH.1-2;B-1
+play,9,0,rojac101,??,,46(1)3/GDP.2-3
+play,9,0,callj101,??,,K
 play,9,1,hillc101,12,,K/C
 play,9,1,boyek101,01,,7/F
 play,9,1,lupla101,00,,S9
@@ -10529,15 +10535,15 @@ play,1,0,callj101,02,,43.2-3
 play,1,0,alled101,10,,3/FL
 play,1,1,hillc101,21,,D9
 play,1,1,lupla101,20,,7/F78.2-3
-play,1,1,boyek101,00,,9/SF.3-H
-play,1,1,ellil101,02,,K
-play,2,0,whitb105,00,,3/G
+play,1,1,boyek101,??,,9/SF.3-H
+play,1,1,ellil101,??,,K
+play,2,0,whitb105,??,,3/G
 play,2,0,dalrc101,32,,W
-play,2,0,groad101,00,,64(1)/FO
-play,2,0,taylt101,00,,6(1)/FO
-play,2,1,hickj103,00,,K
+play,2,0,groad101,??,,64(1)/FO
+play,2,0,taylt101,??,,6(1)/FO
+play,2,1,hickj103,??,,K
 play,2,1,swobr101,32,,K
-play,2,1,brese101,00,,D9
+play,2,1,brese101,??,,D9
 play,2,1,grotj101,32,,W
 play,2,1,shawb103,01,,E4/G.2-3;1-2
 play,2,1,hillc101,22,,53
@@ -10556,39 +10562,39 @@ play,4,0,taylt101,00,,43
 play,4,1,hickj103,22,,K
 play,4,1,swobr101,30,,63
 play,4,1,brese101,10,,53
-play,5,0,wiser101,02,,K
-play,5,0,brigj102,00,,13/BG
-play,5,0,gonzt101,00,,E6/TH
+play,5,0,wiser101,??,,K
+play,5,0,brigj102,??,,13/BG
+play,5,0,gonzt101,??,,E6/TH
 play,5,0,callj101,12,,K/C
 play,5,1,grotj101,32,,W
 play,5,1,shawb103,21,,9/F
-play,5,1,hillc101,00,,46(1)/FO
-play,5,1,lupla101,00,,13
-play,6,0,alled101,00,,K
-play,6,0,whitb105,00,,W
+play,5,1,hillc101,??,,46(1)/FO
+play,5,1,lupla101,??,,13
+play,6,0,alled101,??,,K
+play,6,0,whitb105,??,,W
 play,6,0,dalrc101,10,,BK.1-2
-play,6,0,dalrc101,30,,W
-play,6,0,groad101,00,,S7.2-H;1-H(E7)(NR);B-3
-play,6,0,taylt101,00,,S7/G.3-H(UR)
+play,6,0,dalrc101,??,,W
+play,6,0,groad101,??,,S7.2-H;1-H(E7)(NR);B-3
+play,6,0,taylt101,??,,S7/G.3-H(UR)
 play,6,0,wiser101,01,,6/P
-play,6,0,brigj102,00,,53
+play,6,0,brigj102,??,,53
 play,6,1,boyek101,12,,D7
 play,6,1,ellil101,01,,7/F78
 play,6,1,hickj103,11,,D7.2-H
 play,6,1,swobr101,22,,K
-play,6,1,brese101,00,,4/P
+play,6,1,brese101,??,,4/P
 play,7,0,gonzt101,01,,13
 play,7,0,callj101,01,,43
-play,7,0,alled101,00,,D7/78
+play,7,0,alled101,??,,D7/78
 play,7,0,whitb105,00,,NP
 sub,gardr101,"Rob Gardner",1,9,1
-play,7,0,whitb105,00,,W
+play,7,0,whitb105,??,,W
 play,7,0,dalrc101,00,,NP
 sub,rojac101,"Cookie Rojas",0,6,11
-play,7,0,rojac101,00,,W.2-3;1-2
-play,7,0,groad101,00,,S7.3-H;2-H;1-2
-play,7,0,taylt101,00,,E6/G.2-H(NR)(UR);1-3
-play,7,0,wiser101,00,,9/F
+play,7,0,rojac101,??,,W.2-3;1-2
+play,7,0,groad101,??,,S7.3-H;2-H;1-2
+play,7,0,taylt101,??,,E6/G.2-H(NR)(UR);1-3
+play,7,0,wiser101,??,,9/F
 play,7,1,grotj101,00,,NP
 sub,ueckb101,"Bob Uecker",0,6,2
 play,7,1,grotj101,00,,NP
@@ -10597,8 +10603,8 @@ play,7,1,stepj102,22,,K
 play,7,1,gardr101,00,,NP
 sub,krane101,"Ed Kranepool",1,9,11
 play,7,1,krane101,21,,43
-play,7,1,hillc101,00,,W
-play,7,1,lupla101,00,,8/F
+play,7,1,hillc101,??,,W
+play,7,1,lupla101,??,,8/F
 play,8,0,brigj102,00,,NP
 sub,krane101,"Ed Kranepool",1,9,3
 play,8,0,brigj102,00,,NP
@@ -10608,24 +10614,24 @@ sub,hamij101,"Jack Hamilton",1,6,1
 play,8,0,brigj102,00,,NP
 sub,stepj102,"John Stephenson",1,8,2
 play,8,0,brigj102,22,,K
-play,8,0,gonzt101,00,,9/F
-play,8,0,callj101,00,,D9
+play,8,0,gonzt101,??,,9/F
+play,8,0,callj101,??,,D9
 play,8,0,alled101,22,,HR/9.2-H
 play,8,0,whitb105,30,,S7/F
 play,8,0,ueckb101,31,,S7.1-2
 play,8,0,groad101,32,,W.2-3;1-2
 play,8,0,taylt101,12,,4(1)/FO
-play,8,1,boyek101,00,,53
+play,8,1,boyek101,??,,53
 play,8,1,ellil101,11,,8/F
-play,8,1,hickj103,00,,3/G
-play,9,0,wiser101,00,,8/F
-play,9,0,brigj102,00,,3/G
-play,9,0,gonzt101,00,,63
+play,8,1,hickj103,??,,3/G
+play,9,0,wiser101,??,,8/F
+play,9,0,brigj102,??,,3/G
+play,9,0,gonzt101,??,,63
 play,9,1,hamij101,00,,NP
 sub,harrb101,"Bud Harrelson",1,6,11
 play,9,1,harrb101,01,,S5/G
-play,9,1,brese101,00,,9/F
-play,9,1,stepj102,00,,K
+play,9,1,brese101,??,,9/F
+play,9,1,stepj102,??,,K
 play,9,1,krane101,12,,HR/9.1-H
 play,9,1,hillc101,21,,6/P
 data,er,wiser101,4
@@ -10652,7 +10658,7 @@ info,translator,"Dobrow"
 info,inputter,"Dobrow"
 info,inputtime,1997/07/15 3:27AM
 info,howscored,park
-info,pitches,count
+info,pitches,none
 info,temp,0
 info,winddir,unknown
 info,windspeed,-1
@@ -10689,19 +10695,19 @@ play,1,0,groad101,02,,S7.2-3;BX2(7543)
 play,1,0,alled101,01,,D9.3-H;BX3(945)
 play,1,1,jonec102,00,,4/P
 play,1,1,huntr101,21,,D8/89
-play,1,1,boyek101,00,,PO2(E1).2-3#
-play,1,1,boyek101,00,,OA.3XH(62)#
+play,1,1,boyek101,??,,PO2(E1).2-3#
+play,1,1,boyek101,??,,OA.3XH(62)#
 com,"previous two plays one play"
 play,1,1,boyek101,01,,S8
 play,1,1,hickj103,21,,64(1)/FO
 play,2,0,kuenh101,32,,K
 play,2,0,callj101,10,,HR/9
-play,2,0,ueckb101,00,,3/G
+play,2,0,ueckb101,??,,3/G
 play,2,0,brigj102,12,,S9
-play,2,0,shorc102,00,,WP.1-2
-play,2,0,shorc102,00,,8/F
-play,2,1,swobr101,00,,4/P
-play,2,1,brese101,00,,63
+play,2,0,shorc102,??,,WP.1-2
+play,2,0,shorc102,??,,8/F
+play,2,1,swobr101,??,,4/P
+play,2,1,brese101,??,,63
 play,2,1,murpb101,22,,6/P
 play,3,0,taylt101,22,,8/F
 play,3,0,rojac101,00,,S9
@@ -10711,18 +10717,18 @@ play,3,1,grotj101,21,,S8
 play,3,1,mcgrt001,00,,13/SH.1-2
 play,3,1,jonec102,00,,53
 play,3,1,huntr101,11,,8/F
-play,4,0,kuenh101,00,,D7
-play,4,0,callj101,00,,3/G.2-3
+play,4,0,kuenh101,??,,D7
+play,4,0,callj101,??,,3/G.2-3
 play,4,0,ueckb101,31,,9/SF.3-H
 play,4,0,brigj102,12,,43
-play,4,1,boyek101,00,,K/C
-play,4,1,hickj103,00,,53
-play,4,1,swobr101,00,,3/P
-play,5,0,shorc102,00,,63
-play,5,0,taylt101,00,,43
-play,5,0,rojac101,00,,63
-play,5,1,brese101,00,,D7
-play,5,1,murpb101,00,,D7/F7DW.2-3
+play,4,1,boyek101,??,,K/C
+play,4,1,hickj103,??,,53
+play,4,1,swobr101,??,,3/P
+play,5,0,shorc102,??,,63
+play,5,0,taylt101,??,,43
+play,5,0,rojac101,??,,63
+play,5,1,brese101,??,,D7
+play,5,1,murpb101,??,,D7/F7DW.2-3
 play,5,1,grotj101,12,,K/C
 play,5,1,mcgrt001,00,,NP
 sub,taylh102,"Hawk Taylor",1,9,11
@@ -10730,19 +10736,19 @@ play,5,1,taylh102,12,,K
 play,5,1,jonec102,12,,9/F9D
 play,6,0,groad101,00,,NP
 sub,frieb102,"Bob Friend",1,9,1
-play,6,0,groad101,00,,6/L
-play,6,0,alled101,00,,53
-play,6,0,kuenh101,00,,9/F
-play,6,1,huntr101,00,,S7
-play,6,1,boyek101,02,,K
+play,6,0,groad101,??,,6/L
+play,6,0,alled101,??,,53
+play,6,0,kuenh101,??,,9/F
+play,6,1,huntr101,??,,S7
+play,6,1,boyek101,??,,K
 play,6,1,hickj103,32,,64(1)3/GDP
-play,7,0,callj101,00,,W
-play,7,0,ueckb101,00,,54/SH.1-2
-play,7,0,brigj102,30,,IW
-play,7,0,shorc102,00,,46(1)/FO.2-3
-play,7,0,taylt101,00,,64(1)/FO
-play,7,1,swobr101,00,,63
-play,7,1,brese101,00,,S7
+play,7,0,callj101,??,,W
+play,7,0,ueckb101,??,,54/SH.1-2
+play,7,0,brigj102,??,,IW
+play,7,0,shorc102,??,,46(1)/FO.2-3
+play,7,0,taylt101,??,,64(1)/FO
+play,7,1,swobr101,??,,63
+play,7,1,brese101,??,,S7
 play,7,1,murpb101,32,,K
 play,7,1,grotj101,12,,S9.1-2
 play,7,1,frieb102,00,,NP
@@ -10753,35 +10759,35 @@ play,8,0,rojac101,00,,NP
 sub,hamij101,"Jack Hamilton",1,9,1
 play,8,0,rojac101,00,,NP
 sub,gonzt101,"Tony Gonzalez",0,2,11
-play,8,0,gonzt101,00,,D7
-play,8,0,groad101,00,,T9.2-H
+play,8,0,gonzt101,??,,D7
+play,8,0,groad101,??,,T9.2-H
 play,8,0,alled101,31,,W
 play,8,0,kuenh101,00,,NP
 sub,heplb101,"Bill Hepler",1,9,1
 play,8,0,kuenh101,00,,NP
 sub,whitb105,"Bill White",0,5,11
 play,8,0,whitb105,21,,46(1)3/GDP.3-H(NR)
-play,8,0,callj101,00,,E3/G3.B-2
-play,8,0,ueckb101,00,,8/F78
+play,8,0,callj101,??,,E3/G3.B-2
+play,8,0,ueckb101,??,,8/F78
 play,8,1,huntr101,00,,NP
 sub,gonzt101,"Tony Gonzalez",0,2,7
 play,8,1,huntr101,00,,NP
 sub,whitb105,"Bill White",0,5,3
-play,8,1,huntr101,00,,9/F
-play,8,1,boyek101,00,,S7
-play,8,1,hickj103,00,,W.1-2
+play,8,1,huntr101,??,,9/F
+play,8,1,boyek101,??,,S7
+play,8,1,hickj103,??,,W.1-2
 play,8,1,swobr101,12,,K
 play,8,1,brese101,12,,K
-play,9,0,brigj102,00,,4/P
-play,9,0,shorc102,00,,D9
-play,9,0,taylt101,00,,W
-play,9,0,gonzt101,00,,FC6.2X3(645);1-2;B-1
-play,9,0,groad101,00,,4(1)/FO
-play,9,1,murpb101,00,,S5/G
-play,9,1,grotj101,00,,46(1)3/GDP
+play,9,0,brigj102,??,,4/P
+play,9,0,shorc102,??,,D9
+play,9,0,taylt101,??,,W
+play,9,0,gonzt101,??,,FC6.2X3(645);1-2;B-1
+play,9,0,groad101,??,,4(1)/FO
+play,9,1,murpb101,??,,S5/G
+play,9,1,grotj101,??,,46(1)3/GDP
 play,9,1,heplb101,00,,NP
 sub,harrb101,"Bud Harrelson",1,9,11
-play,9,1,harrb101,00,,6/P
+play,9,1,harrb101,??,,6/P
 data,er,shorc102,0
 data,er,mcgrt001,3
 data,er,frieb102,0

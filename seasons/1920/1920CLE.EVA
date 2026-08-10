@@ -327,7 +327,6 @@ play,1,0,cobbt101,??,,K#
 play,1,1,granj104,??,,HP
 play,1,1,chapr101,??,,36(1)/FO/BG
 play,1,1,speat101,??,,HR/F9D.1-H
-com,"Speaker hit the ball far over the right field screen."
 play,1,1,smite104,??,,99
 play,1,1,gardl101,??,,99
 play,2,0,veacb101,??,,D
@@ -345,11 +344,11 @@ play,3,0,cobbt101,??,,CS2(24)
 play,3,1,coves101,??,,S7
 play,3,1,granj104,??,,99/SH.1-2
 play,3,1,chapr101,??,,DGR/8.2-H
-com,"Into the crowd."
+com,"$Into CF overflow crowd."
 play,3,1,speat101,??,,13.2-3
 play,3,1,smite104,??,,S9.3-H
 play,3,1,gardl101,??,,DGR/9.1-3
-com,"Into the crowd."
+com,"$Into RF overflow crowd."
 play,3,1,wambb101,??,,D7.3-H;2-H
 play,3,1,johnd107,??,,NP
 sub,loves101,"Slim Love",0,9,1
@@ -387,8 +386,8 @@ play,6,1,coves101,??,,99
 play,6,1,granj104,??,,W
 play,6,1,chapr101,??,,S.1-2
 play,6,1,speat101,??,,DGR/F9D.2-H;1-3
-com,"Speaker just missed a home run high off the screen, hit ruled"
-com,"a ground rule double off the screen and into the crowd."
+com,"$Speaker's long drive ruled a ground rule double when"
+com,"it bounced off RF screen into the overflow crowd"
 play,6,1,woodj108,??,,99/SF.3-H
 play,6,1,gardl101,??,,S.2-H
 play,6,1,wambb101,??,,99
@@ -400,9 +399,8 @@ play,7,1,oneis101,??,,SB2
 play,7,1,oneis101,??,,99/G.2-3
 play,7,1,coves101,??,,NP
 sub,jamic101,"Charlie Jamieson",1,7,12
-com,"Johnstone forced to quit because of a charley horse."
-play,7,1,coves101,??,,99/G.3-3
-com,"Runner had to hold at third base."
+com,"$Johnstone left game with a charley horse."
+play,7,1,coves101,??,,99/G
 play,7,1,granj104,??,,S/G.3-H
 play,7,1,chapr101,??,,CS2(24)
 play,8,0,loves101,??,,NP
@@ -635,7 +633,7 @@ play,1,0,bushd102,??,,S8
 play,1,0,younr103,??,,23/SH.1-2
 play,1,0,cobbt101,??,,S6/G.2-3
 play,1,0,veacb101,??,,FC1.3XH(152);1-H(NR);B-2
-com,"Cobb scored when plate was left uncovered after"
+com,"$Cobb scored when plate was left uncovered after"
 com,"rundown on Bush"
 play,1,0,heilh101,??,,K
 play,1,1,granj104,??,,S8
@@ -1882,7 +1880,7 @@ play,2,1,johnd107,??,,S5/G.2-3
 play,2,1,oneis101,??,,W.1-2
 play,2,1,caldr101,??,,S7.3-H;2-H;1-3(TH);B-2(TH)
 play,2,1,jamic101,??,,4/P
-play,2,1,chapr101,??,,HR/F8XD.3-H;2-H
+play,2,1,chapr101,??,,HR8/F8XD/IPHR.3-H;2-H
 play,2,1,speat101,??,,S6/G
 play,2,1,smite104,??,,9/F
 play,3,0,wilkr101,??,,13
@@ -1896,7 +1894,6 @@ play,3,1,oneis101,??,,43
 play,4,0,colle101,??,,43
 play,4,0,weavb101,??,,8/F
 play,4,0,felsh101,??,,D9
-com,"Says 'Smith turned ankle while going for ball'"
 play,4,0,jourt101,??,,63
 play,4,1,caldr101,??,,K
 play,4,1,jamic101,??,,8/F
@@ -2056,7 +2053,7 @@ play,7,0,schar103,??,,S9.1-2
 play,7,0,cicoe101,??,,54/SH.2-3;1-2
 play,7,0,murpe102,??,,FC1.3XH(1);2-2;B-1
 play,7,0,colle101,??,,S4/G.2-H;1-H(E4/TH)(NR)(UR);B-3
-com,"2Bman Wamby made a great stop back of second but his throw"
+com,"$2Bman Wamby made a great stop back of second but his throw"
 com,"to the plate to head off Schalk was high. Catcher O'Neill"
 com,"leaped into the air, and was ruled by Umpire Dinneen to have"
 com,"thrown his mitt at the ball. Murphy was waved home and Collins"
@@ -2073,7 +2070,7 @@ play,7,1,smite104,??,,31.3-H;2-3;1-2
 play,7,1,gardl101,??,,S9.3-H;2-H
 play,7,1,wambb101,??,,S8.1-2
 play,7,1,johnd107,??,,S9.2-H;1-H;B-2
-com,"Wamby scored during rundown on Johnston between 1st and 2nd"
+com,"$Wamby scored during rundown on Johnston between 1st and 2nd"
 play,7,1,oneis101,??,,7/F
 play,8,0,felsh101,??,,NP
 sub,uhleg101,"George Uhle",1,9,1
@@ -3429,7 +3426,7 @@ sub,evanj101,"Joe Evans",1,8,12
 play,9,1,bagbj101,??,,13/SH.1-2
 play,9,1,jamic101,??,,13.2-3
 play,9,1,chapr101,??,,W
-play,9,1,speat101,??,,SB2
+play,9,1,speat101,??,,DI.1-2
 play,9,1,speat101,??,,W
 play,9,1,smite104,??,,S5/G.3-H;2-3;1-2
 data,er,david102,2
@@ -4338,7 +4335,7 @@ play,4,0,warda101,??,,9
 play,4,0,hannt101,??,,63
 play,4,1,nunal101,??,,E5/G.B-1
 play,4,1,coves101,??,,2/BINT/BG.1-1
-com,"Coveleski out for interfering with catcher fielding bunt"
+com,"$Coveleski out for interfering with catcher fielding bunt"
 play,4,1,evanj101,??,,8
 play,4,1,chapr101,??,,CS2(24)
 play,5,0,thorh101,??,,K
@@ -4609,7 +4606,7 @@ play,2,1,wambb101,??,,5/FL
 play,2,1,johnd107,??,,5/FL
 play,2,1,nunal101,??,,K
 play,3,0,judgj101,??,,S3/G.B-3(E1/TH)
-com,"Hot smash deflected off 1Bman to pitcher"
+com,"$Hot smash deflected off 1Bman to pitcher"
 play,3,0,milac101,??,,43
 play,3,0,rices101,??,,W
 play,3,0,rothb102,??,,4/P
@@ -4779,9 +4776,9 @@ play,5,0,milac101,??,,43
 play,5,0,rices101,??,,S8
 play,5,0,rothb102,??,,SB2
 play,5,0,rothb102,??,,K/C
-com,"ej,rothb102,P,morig101,Called third strike (Threw bat)"
+com,"ej,rothb102,P,morig101,Called third strike"
 com,"$Roth ejected by HP umpire Moriarty for arguing"
-com,"called third strike (he threw his bat)"
+com,"called third strike"
 play,5,1,gardl101,??,,NP
 sub,calvj101,"Jack Calvo",0,4,9
 play,5,1,gardl101,??,,13
@@ -4801,7 +4798,7 @@ play,7,0,judgj101,??,,2/FL
 play,7,0,milac101,??,,23
 play,7,1,smite104,??,,S9/L9D
 play,7,1,gardl101,??,,S9/OBS.1-3
-com,"Smith granted 3rd due to obstruction by SS O'Neill"
+com,"$Smith awarded 3rd due to obstruction by SS O'Neill"
 com,"after Smith rounded 2nd."
 play,7,1,wambb101,??,,FC5/G.3XH(5);1-2;B-1
 play,7,1,johnd107,??,,3/G.2-3;1-2
@@ -5135,7 +5132,7 @@ play,8,0,schaw101,??,,S9
 play,8,0,mcins101,??,,14/SH.1-2
 play,8,0,vitto101,??,,W
 play,8,0,scote101,??,,S9.2-H;1XH(12);B-3(TH)
-com,"RFer throw was wild and retrived by pitcher"
+com,"$RFer throw was wild and retrived by pitcher"
 com,"who threw out Vitt trying to score from 1st"
 play,8,0,waltr102,??,,5/FL
 play,8,1,chapr101,??,,S8
@@ -6229,7 +6226,7 @@ play,6,1,gardl101,??,,S9.2-H;B-2(TH)
 play,6,1,wambb101,??,,NP
 sub,burng102,"George Burns",1,6,11
 play,6,1,burng102,??,,T7.2-H
-com,"LFer Menosky injured crashing into wall"
+com,"$LFer Menosky injured crashing into wall"
 play,6,1,johnd107,??,,NP
 sub,bailg101,"Gene Bailey",0,3,7
 play,6,1,johnd107,??,,3/FL
@@ -6748,7 +6745,7 @@ play,1,1,smite104,??,,3/P
 play,2,0,harrb106,??,,63
 play,2,0,ellef101,??,,W
 play,2,0,thomf102,??,,86(1)/FO
-com,"Speaker drops flyball but gets force out"
+com,"Speaker dropped flyball but got force out"
 play,2,0,gharp101,??,,CS2(26)
 play,2,1,gardl101,??,,8
 play,2,1,wambb101,??,,S7
@@ -6868,7 +6865,7 @@ play,1,0,milac101,??,,9/L
 play,1,0,rices101,??,,CS2(26)
 play,1,0,rices101,??,,W
 play,1,0,rothb102,??,,SB2.1-3(E3/TH2)
-com,"Rice stole on attempted pickoff to 1st"
+com,"$Rice stole on attempted pickoff to 1st"
 play,1,0,rothb102,??,,W
 play,1,0,harrb106,??,,CSH(142)
 com,"$Attempted double-steal"
@@ -6887,8 +6884,8 @@ play,2,0,zacht101,??,,K23
 play,2,1,wambb101,??,,63
 play,2,1,johnd107,??,,S8/G6
 play,2,1,oneis101,??,,OA.1-2(E6/TH1)
-com,"Johnston takes 2nd when Ellerbe throws wild as Johnston"
-com,"retreats back to 1st on failed hit and run."
+com,"$Johnston took 2nd when Ellerbe threw wild as Johnston"
+com,"retreated back to 1st on failed hit and run."
 play,2,1,oneis101,??,,S9.2-H(UR)
 play,2,1,caldr101,??,,6/P
 play,2,1,jamic101,??,,9
@@ -6899,7 +6896,7 @@ play,3,1,chapr101,??,,8
 play,3,1,speat101,??,,S1/G
 play,3,1,smite104,??,,S9.1-2
 play,3,1,gardl101,??,,86(1)/FO.2-3
-com,"Harris falls chasing pop but Rice throws out Smith."
+com,"$Harris fell chasing pop but Rice threw out Smith."
 play,3,1,wambb101,??,,CS2(14)
 play,4,0,rothb102,??,,K
 play,4,0,harrb106,??,,5/FL
@@ -7724,7 +7721,7 @@ start,bagbj101,"Jim Bagby",1,9,1
 play,1,0,warda101,??,,7/L
 play,1,0,peckr101,??,,8
 play,1,0,ruthb101,??,,S8.B-2(E8)
-com,"$Ruth injured his right knee sliding into second"
+com,"$Ruth injured his right knee sliding into 2nd"
 play,1,0,pratd101,??,,FLE2
 com,"$Ruth collapsed on bad knee returning from foul. He"
 com,"remained in game after receiving treatment from trainer."
@@ -8565,7 +8562,7 @@ play,3,1,johnd107,??,,5/L
 play,3,1,oneis101,??,,W
 play,3,1,lunth101,??,,E6/G.1-2
 play,3,1,caldr101,??,,S5.2-3;1-2
-play,3,1,jamic101,??,,7/SF.3-H
+play,3,1,jamic101,??,,7/SF.3-H(UR)
 play,3,1,wambb101,??,,W.2-3;1-2
 play,3,1,speat101,??,,8
 play,4,0,pineb101,??,,D9
@@ -8619,7 +8616,7 @@ play,9,0,flagi101,??,,7
 play,9,0,younr103,??,,D9
 play,9,0,bushd102,??,,1/P
 data,er,ayerd101,4
-data,er,morrb102,3
+data,er,morrb102,2
 data,er,caldr101,3
 id,CLE192009050
 version,1
@@ -9148,7 +9145,7 @@ play,6,1,jamic101,??,,8
 play,6,1,wambb101,??,,64(1)/FO
 play,7,0,collr104,??,,S4/46.B-2(E4)
 play,7,0,peckr101,??,,7/L
-play,7,0,pippw101,??,,S8.2-H
+play,7,0,pippw101,??,,S8.2-H(UR)
 play,7,0,ruthb101,??,,W.1-2
 play,7,0,pratd101,??,,6/P
 play,7,0,meusb101,??,,64(1)/FO
@@ -9181,14 +9178,14 @@ play,9,0,peckr101,??,,NP
 sub,granj104,"Jack Graney",1,1,7
 play,9,0,peckr101,??,,6/P
 play,9,0,pippw101,??,,E4/G
-play,9,0,ruthb101,??,,SB2
+play,9,0,ruthb101,??,,DI.1-2
 play,9,0,ruthb101,??,,3/G.2-3
 play,9,0,pratd101,??,,2/FL
 data,er,quinj102,2
 data,er,collr104,0
 data,er,mogrg101,4
 data,er,mcgrb101,0
-data,er,coves101,4
+data,er,coves101,3
 id,CLE192009100
 version,1
 info,inputprogvers,"version 7RS(19) of 07/07/92"
@@ -10920,8 +10917,6 @@ play,4,0,kerrd101,??,,SB2;SBH
 play,4,0,kerrd101,??,,3/G
 play,4,1,gardl101,??,,13
 play,4,1,johnd107,??,,13
-com,"$Kerr injured his finger fielding Johnston's hot smash"
-com,"but stayed in the game after receiving first aid"
 play,4,1,sewej101,??,,6/P
 play,5,0,strua102,??,,8
 play,5,0,weavb101,??,,9/9D
@@ -10935,7 +10930,7 @@ play,6,0,colls101,??,,1E4/SH.2-3;B-1
 play,6,0,risbs101,??,,S7.3-H(UR);1-3;B-2(TH)
 play,6,0,schar103,??,,63
 play,6,0,kerrd101,??,,34/G.3-H(UR);2-3
-com,"Hot smash deflected by 1Bman over to 2Bman who"
+com,"$Hot smash deflected by 1Bman over to 2Bman who"
 com,"ran to 1st ahead of batter"
 play,6,0,strua102,??,,63
 play,6,1,wambb101,??,,8
@@ -11066,7 +11061,7 @@ play,2,1,oneis101,??,,SB2
 play,2,1,oneis101,??,,S8.2-H
 play,2,1,mailw101,??,,53/SH.1-2
 play,2,1,jamic101,??,,S9.2XH(91435);B-2
-com,"Jamieson caught off 1st then  O'Neill off 3rd"
+com,"$Jamieson caught off 1st then O'Neill off 3rd"
 play,2,1,wambb101,??,,3/P
 play,3,0,faber101,??,,K
 play,3,0,strua102,??,,9/L/9D

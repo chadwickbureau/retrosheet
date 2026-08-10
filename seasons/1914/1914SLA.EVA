@@ -72,14 +72,14 @@ play,2,1,hamie101,??,,K
 play,2,1,shotb101,??,,99
 play,3,0,daush101,??,,S8
 play,3,0,bushd102,??,,16(1)/FO
-com,"hot smash deflected off pitcher"
+com,"Hot smash deflected off pitcher"
 play,3,0,kavam101,??,,46(1)/FO
 play,3,0,cobbt101,??,,S9.1-3
 play,3,0,craws101,??,,S7.3-H;1-2
 play,3,0,veacb101,??,,D7.2-H;1-H
 play,3,0,burng102,??,,S6.2-3
 play,3,0,morig101,??,,CSH(242)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,3,1,austj101,??,,K
 play,3,1,pratd101,??,,99
 play,3,1,willg103,??,,S
@@ -95,7 +95,7 @@ play,5,0,bushd102,??,,K
 play,5,0,kavam101,??,,99
 play,5,0,cobbt101,??,,W
 play,5,0,craws101,??,,S9.1-H(E4)(NR)(UR);B-3
-com,"after RF threw to 3rd, 2bman mishandled 3bman's throw to 2nd"
+com,"$After RF threw to 3rd, 2bman mishandled 3bman's throw to 2nd"
 play,5,0,veacb101,??,,3/FL
 play,5,1,crosf102,??,,99
 play,5,1,hamie101,??,,99
@@ -197,7 +197,7 @@ play,2,0,burng102,??,,S
 play,2,0,morig101,??,,99
 play,2,0,stano101,??,,99
 play,2,1,willg103,??,,D9.B-3(E9)
-play,2,1,walkt101,??,,7/SF.3-H
+play,2,1,walkt101,??,,7/SF.3-H(UR)
 play,2,1,learj101,??,,S4/BG
 play,2,1,walsd101,??,,16(1)3/GDP
 play,3,0,maina101,??,,8/F
@@ -265,7 +265,7 @@ play,9,1,pratd101,??,,99
 play,9,1,willg103,??,,W
 play,9,1,walkt101,??,,D7.1-3
 play,9,1,learj101,??,,63
-data,er,maina101,1
+data,er,maina101,0
 data,er,weilc101,3
 data,er,taylw101,0
 id,SLA191404240
@@ -333,7 +333,7 @@ play,2,0,morig101,??,,SB2
 play,2,0,morig101,??,,99
 play,2,0,stano101,??,,99
 play,2,1,willg103,??,,S/P
-com,"$popup dropped between pitcher and shortstop"
+com,"Popup dropped between pitcher and shortstop"
 play,2,1,walkt101,??,,6(1)3/GDP
 play,2,1,learj101,??,,D7
 play,2,1,walsd101,??,,S7.2-H
@@ -354,7 +354,7 @@ play,4,0,burng102,??,,E4/G.1-3
 play,4,0,morig101,??,,8(B)2(3)/DP.1-2(TH)
 play,4,0,stano101,??,,99
 play,4,1,willg103,??,,S/P
-com,"$popup dropped between pitcher, 2bman, and 1bman"
+com,"Popup dropped between pitcher, 2bman, and 1bman"
 play,4,1,walkt101,??,,99(1)/FO
 play,4,1,learj101,??,,S.1-2
 play,4,1,walsd101,??,,53.2-3;1-2
@@ -919,7 +919,7 @@ play,1,0,turnt105,??,,99/SH.1-2
 play,1,0,johnd107,??,,S3/BG.2-3
 play,1,0,jackj101,??,,K+SB2
 play,1,0,lajon101,??,,PO3(E2).3-H(UR);2-H(E7)(UR)
-com,"Catcher made errant pickoff throw to 3rd, then LFer"
+com,"$Catcher made errant pickoff throw to 3rd, then LFer"
 com,"misplayed overthrow allowing second run to score"
 play,1,0,lajon101,??,,99
 play,1,1,shotb101,??,,S
@@ -966,7 +966,7 @@ play,6,1,shotb101,??,,S8
 play,6,1,austj101,??,,16(1)/FO/BG
 play,6,1,pratd101,??,,W.1-2
 play,6,1,willg103,??,,S3.2-H;1-3
-com,"hit and run"
+com,"Hit and run"
 play,6,1,walkt101,??,,46(1)/FO.3-H
 play,6,1,learj101,??,,99
 play,7,0,granj104,??,,99
@@ -2304,7 +2304,7 @@ play,2,1,mille103,??,,99
 play,2,1,walkt101,??,,HP
 play,2,1,learj101,??,,W.1-2
 play,2,1,wareb101,??,,OA.2X3(65)
-com,"Boehling made wild pickoff throw to second."
+com,"$Boehling made wild pickoff throw to second."
 play,2,1,wareb101,??,,7/F
 play,3,0,henrj101,??,,99
 play,3,0,boehj101,??,,99
@@ -2447,7 +2447,7 @@ play,2,1,walkt101,??,,S6/G.2-3
 play,2,1,learj101,??,,W.1-2
 play,2,1,wareb101,??,,S.3-H;2-3;1-2
 play,2,1,agnes101,??,,96(1)/FO.3-H;2-3#
-com,"Moeller dropped fly."
+com,"Moeller dropped fly but got force out"
 play,2,1,jameb103,??,,K
 play,2,1,shotb101,??,,PO1(136)#
 play,3,0,moeld101,??,,99
@@ -2505,7 +2505,7 @@ play,7,0,gandc101,??,,NP
 sub,mitcr101,"Roy Mitchell",1,9,1
 play,7,0,gandc101,??,,HP.2-3;1-2
 play,7,0,shanh101,??,,CSH(252).2-3;1-2#
-com,"$failed squeeze play"
+com,"$Failed squeeze play"
 play,7,0,shanh101,??,,PO3(E1).3-H(UR);2-3#
 play,7,0,shanh101,??,,K
 play,7,0,morgr101,??,,HP
@@ -2777,7 +2777,7 @@ play,1,0,cookd101,??,,S9.2-H;1-3
 play,1,0,walsj108,??,,SB2
 play,1,0,walsj108,??,,OA.3XH(2E5)(UR)
 com,"previous two plays actually one continuous play:"
-com,"attempted double-steal"
+com,"$Attempted double-steal"
 play,1,0,walsj108,??,,53
 play,1,1,shotb101,??,,53
 play,1,1,austj101,??,,W
@@ -3106,7 +3106,7 @@ play,5,0,peckr101,??,,7/L
 play,5,0,hartr102,??,,5/P
 play,5,1,mitcr101,??,,63
 play,5,1,shotb101,??,,S9.B-3(E4)
-play,5,1,mille103,??,,8/SF.3-H
+play,5,1,mille103,??,,8/SF.3-H(UR)
 play,5,1,pratd101,??,,S7/G
 play,5,1,willg103,??,,9/L
 play,6,0,cookd101,??,,43
@@ -3155,7 +3155,7 @@ play,8,1,learj101,??,,99
 play,9,0,holdb101,??,,99
 play,9,0,nunal101,??,,99
 play,9,0,willh103,??,,99
-data,er,mcham101,2
+data,er,mcham101,1
 data,er,caldr101,3
 data,er,mitcr101,1
 data,er,weilc101,0
@@ -3430,7 +3430,7 @@ play,8,1,learj101,??,,S.BX2(99)
 play,9,0,speat101,??,,S
 play,9,0,lewid101,??,,99/SH.1-2
 play,9,0,janvh101,??,,OA.2X3(65)
-com,"Attempted pickoff went wild but recovered for out"
+com,"$Attempted pickoff went wild but recovered for out"
 play,9,0,janvh101,??,,99
 play,9,1,wareb101,??,,NP
 sub,walke101,"Ernie Walker",1,8,11
@@ -3639,7 +3639,7 @@ play,1,0,scote101,??,,W.1-2
 play,1,0,speat101,??,,99/SH.2-3;1-2
 play,1,0,lewid101,??,,FC5.3XH(52);2-3;B-1
 play,1,0,janvh101,??,,CSH(242)
-com,"$attempted double-steal"
+com,"$Attempted double-steal"
 play,1,1,shotb101,??,,W
 play,1,1,pratd101,??,,SB2
 play,1,1,pratd101,??,,99
@@ -3668,8 +3668,8 @@ play,4,0,lewid101,??,,99
 play,4,1,willg103,??,,K
 play,4,1,walkt101,??,,99
 play,4,1,learj101,??,,S
-play,4,1,austj101,??,,S.1X3(84)
-com,"$Leary over-ran 2nd"
+play,4,1,austj101,??,,S8.1X3(84)
+com,"Leary over-ran 2nd"
 play,5,0,janvh101,??,,99
 play,5,0,gardl101,??,,S
 play,5,0,yerks101,??,,4(1)3/GDP
@@ -5297,7 +5297,7 @@ sub,bassj102,"Johnny Bassler",0,9,11
 play,5,0,bassj102,??,,W
 play,5,0,granj104,??,,99(1)/FO
 play,5,0,turnt105,??,,CS2(99)
-com,"$Game called to allow Indians to catch train"
+com,"$Game called to allow Cleveland to catch train"
 data,er,steeb101,2
 data,er,mortg101,0
 data,er,jameb103,3
@@ -5869,7 +5869,7 @@ play,5,1,howai101,??,,99/SF.3-H
 play,5,1,shotb101,??,,WP.2-3
 play,5,1,shotb101,??,,OA.1X2(24)#
 com,"Previous two plays actually one continuous play."
-com,"On wild pitch, Rumler was thrown out trying for 2nd."
+com,"$On wild pitch, Rumler was thrown out trying for 2nd."
 play,6,0,morgr101,??,,NP
 sub,taylw101,"Wiley Taylor",1,9,1
 play,6,0,morgr101,??,,D
@@ -6796,7 +6796,7 @@ play,6,1,pratd101,??,,SB2
 play,6,1,pratd101,??,,S9.2-H;B-2(TH)
 play,6,1,walkt101,??,,S6.2-3
 play,6,1,learj101,??,,S/5.3-H;1-2
-play,6,1,willg103,??,,T9.2-H;1-H;B-H(E3/TH)(NR)
+play,6,1,willg103,??,,T9.2-H;1-H;B-H(E3/TH)(NR)(UR)
 play,6,1,lavad101,??,,7/L
 play,6,1,crosf102,??,,3/P
 play,7,0,janvh101,??,,K#
@@ -6825,7 +6825,7 @@ play,8,1,willg103,??,,K
 play,9,0,gardl101,??,,99
 play,9,0,janvh101,??,,99
 play,9,0,hobld101,??,,K
-data,er,gregv101,6
+data,er,gregv101,5
 data,er,bedih101,0
 data,er,jameb103,1
 id,SLA191408040
@@ -7179,7 +7179,7 @@ play,4,0,mullc101,??,,S7
 play,4,0,peckr101,??,,53/SH.1-2
 play,4,0,nunal101,??,,9/F
 play,4,0,maisf101,??,,E6/G.2X3(62E5);B-2#
-com,"Mullen escaped rundown between 3rd and home."
+com,"$Mullen escaped rundown between 3rd and home."
 play,4,0,fishr101,??,,S/78/P.3-H(UR);2-H(UR)
 play,4,0,boonl101,??,,99
 play,4,1,walkt101,??,,99
@@ -7347,7 +7347,8 @@ play,5,1,howai101,??,,FC5.2X3(5)
 play,6,0,dalet101,??,,W
 play,6,0,cookd101,??,,E1/TH/SH.1-2#
 play,6,0,creeb101,??,,3/BP.2-3;1-2
-com,"Mullen made wild throw to first but not charged with error."
+com,"$Mullen made wild throw allowing runners to advance"
+com,"(error not charged)"
 play,6,0,mullc101,??,,FC1.3XH(126);2-3;B-2#
 play,6,0,peckr101,??,,IW
 play,6,0,sweej102,??,,43
@@ -8170,7 +8171,7 @@ play,1,1,walke101,??,,99
 play,2,0,demmr101,??,,S1.B-2(E1/TH)
 play,2,0,mayew101,??,,HP
 play,2,0,chapl101,??,,PO1(24)
-com,"2Bman Pratt snuck in behind Mayer for pickoff at 1st"
+com,"$2Bman Pratt snuck in behind Mayer for pickoff at 1st"
 play,2,0,chapl101,??,,K
 play,2,0,bergj103,??,,99
 play,2,1,willg103,??,,W
@@ -8495,7 +8496,7 @@ play,3,1,agnes101,??,,S7
 play,3,1,weilc101,??,,S7.1-2
 play,3,1,shotb101,??,,S9.2-H;1-3;BX2(956)
 play,3,1,austj101,??,,7(B)/FDP.3X3(75)
-com,"$Weilman called out for leaving 3rd too soon"
+com,"$Weilman called out for leaving 3rd early"
 play,4,0,granj104,??,,S
 play,4,0,turnt105,??,,43.1-2
 play,4,0,wambb101,??,,PO2(99)
@@ -9252,7 +9253,7 @@ sub,russr102,"Reb Russell",0,9,1
 play,7,1,shotb101,??,,K
 presadj,russr102,3
 presadj,russr102,2
-play,7,1,austj101,??,,S9/G.3-H;2-H;1-2
+play,7,1,austj101,??,,S9/G.3-H;2-H(UR);1-2
 play,7,1,pratd101,??,,99(1)/FO.2-3
 presadj,russr102,3
 play,7,1,walkt101,??,,S8.3-H;1-2
@@ -9283,7 +9284,7 @@ play,9,0,faber101,??,,NP
 sub,baumg101,"George Baumgardner",1,9,1
 play,9,0,faber101,??,,99(1)/FO
 data,er,wolfm101,0
-data,er,russr102,3
+data,er,russr102,2
 data,er,faber101,0
 data,er,levew101,1
 data,er,baumg101,0
@@ -9473,7 +9474,7 @@ play,1,0,gandc101,??,,SB2.1-2(PB)
 play,1,0,gandc101,??,,WP.2-3
 play,1,0,gandc101,??,,W
 play,1,0,shanh101,??,,OA.3XH(1365)
-com,"Milan was thrown out off of 3rd when Gandil"
+com,"$Milan was thrown out off of 3rd when Gandil"
 com,"was in a rundown after being picked off 1st"
 play,1,1,shotb101,??,,S9
 play,1,1,austj101,??,,3/FL
@@ -11037,9 +11038,9 @@ info,umphome,chilo901
 info,ump1b,olous901
 info,ump2b,(none)
 info,ump3b,(none)
-info,scorer,"56,208,212,410"
-info,translator,"Rob Wood"
-info,inputter,"Rob Wood"
+info,scorer,"56,208,212,410,212(2)"
+info,translator,"Rob Wood/RWood"
+info,inputter,"Rob Wood/RWood"
 info,inputtime,2024/10/07 7:53PM
 info,howscored,park
 info,pitches,none
@@ -11073,76 +11074,77 @@ start,howai101,"Ivan Howard",1,6,3
 start,lavad101,"Doc Lavan",1,7,6
 start,agnes101,"Sam Agnew",1,8,2
 start,levew101,"Walt Leverenz",1,9,1
-play,1,0,bushd102,??,,S
-play,1,0,vitto101,??,,CS2(99)
-play,1,0,vitto101,??,,99
+play,1,0,bushd102,??,,S8
+play,1,0,vitto101,??,,54(1)/FO
+play,1,0,cobbt101,??,,CS2(24)
 play,1,0,cobbt101,??,,W
 play,1,0,craws101,??,,D9.1-H;B-3(TH)
 play,1,0,veacb101,??,,S8.3-H
-play,1,0,kavam101,??,,T7.1-H
+play,1,0,kavam101,??,,T8/78.1-H
 play,1,0,morig101,??,,NP
 sub,mitcr101,"Roy Mitchell",1,9,1
 play,1,0,morig101,??,,8/L
-play,1,1,shotb101,??,,99
-play,1,1,austj101,??,,99
-play,1,1,pratd101,??,,99
-play,2,0,stano101,??,,99
-play,2,0,dubuj101,??,,99
-play,2,0,bushd102,??,,D
-play,2,0,vitto101,??,,99
+play,1,1,shotb101,??,,43
+play,1,1,austj101,??,,3/G
+play,1,1,pratd101,??,,K
+play,2,0,stano101,??,,63
+play,2,0,dubuj101,??,,K/C
+play,2,0,bushd102,??,,D7
+play,2,0,vitto101,??,,13
 play,2,1,walkt101,??,,W
 play,2,1,willg103,??,,D9.1-3
-play,2,1,howai101,??,,99/G.3-H;2-3
-play,2,1,lavad101,??,,99/G.3-H
-play,2,1,agnes101,??,,99
-play,3,0,cobbt101,??,,S5
-play,3,0,craws101,??,,FC3.1-2(E3/TH);B-1
-play,3,0,veacb101,??,,99/SH.2-3;1-2
-play,3,0,kavam101,??,,7
+play,2,1,howai101,??,,43.3-H;2-3
+play,2,1,lavad101,??,,63.3-H
+play,2,1,agnes101,??,,7/F
+play,3,0,cobbt101,??,,S7
+play,3,0,craws101,??,,FC3.1-2(E3/TH2);B-1
+play,3,0,veacb101,??,,23/SH.2-3;1-2
+play,3,0,kavam101,??,,7/F
 play,3,0,morig101,??,,SBH(UR);SB3.2-H(WP)(UR)
-play,3,0,morig101,??,,99
-play,3,1,mitcr101,??,,99
-play,3,1,shotb101,??,,99
-play,3,1,austj101,??,,S
-play,3,1,pratd101,??,,K
+play,3,0,morig101,??,,7/F
+play,3,1,mitcr101,??,,53
+play,3,1,shotb101,??,,2/FL
+play,3,1,austj101,??,,S8
+play,3,1,pratd101,??,,9/F
 play,4,0,stano101,??,,W
-play,4,0,dubuj101,??,,K
-play,4,0,bushd102,??,,S.1-2
-play,4,0,vitto101,??,,99
-play,4,0,cobbt101,??,,99
-play,4,1,walkt101,??,,99
-play,4,1,willg103,??,,99
-play,4,1,howai101,??,,S
-play,4,1,lavad101,??,,99
-play,5,0,craws101,??,,S
-play,5,0,veacb101,??,,S.1-2
-play,5,0,kavam101,??,,99
-play,5,0,morig101,??,,64(1)3/GDP
-play,5,1,agnes101,??,,99
-play,5,1,mitcr101,??,,99
-play,5,1,shotb101,??,,S
-play,5,1,austj101,??,,99
-play,6,0,stano101,??,,99
-play,6,0,dubuj101,??,,99
-play,6,0,bushd102,??,,99
-play,6,1,pratd101,??,,S
+play,4,0,dubuj101,??,,64(1)3/GDP
+play,4,0,bushd102,??,,S8
+play,4,0,vitto101,??,,64(1)/FO
+play,4,1,walkt101,??,,53
+play,4,1,willg103,??,,7/F
+play,4,1,howai101,??,,S8
+play,4,1,lavad101,??,,5/FL
+play,5,0,cobbt101,??,,13
+play,5,0,craws101,??,,S8
+play,5,0,veacb101,??,,S9.1-3
+play,5,0,kavam101,??,,8/F
+play,5,0,morig101,??,,46(1)/FO
+play,5,1,agnes101,??,,13
+play,5,1,mitcr101,??,,2/FL
+play,5,1,shotb101,??,,S8
+play,5,1,austj101,??,,2/FL
+play,6,0,stano101,??,,63
+play,6,0,dubuj101,??,,8/F
+play,6,0,bushd102,??,,63
+play,6,1,pratd101,??,,S7
 play,6,1,walkt101,??,,54(1)3/GDP
-play,6,1,willg103,??,,99
-play,7,0,vitto101,??,,S
-play,7,0,cobbt101,??,,S.1-2
+play,6,1,willg103,??,,7/F
+play,7,0,vitto101,??,,S7
+play,7,0,cobbt101,??,,S7.1-2
 play,7,0,craws101,??,,E1/SH.2-3;1-2
 play,7,0,veacb101,??,,S8.3-H;2-H;1-2
 play,7,0,kavam101,??,,6(1)3/GDP.2-3
-play,7,0,morig101,??,,S.3-H(UR)
+play,7,0,morig101,??,,S7.3-H(UR)
 play,7,0,stano101,??,,SB2
 play,7,0,stano101,??,,W
-play,7,0,dubuj101,??,,99
+play,7,0,dubuj101,??,,13
 play,7,1,howai101,??,,43
-play,7,1,lavad101,??,,S5
-play,7,1,agnes101,??,,PO1(E1).1-3
+play,7,1,lavad101,??,,S5/G
+play,7,1,agnes101,??,,SB2
 play,7,1,agnes101,??,,W
 play,7,1,mitcr101,??,,NP
 sub,walke101,"Ernie Walker",1,9,11
+play,7,1,walke101,??,,PO2(E1/TH).2-3
 play,7,1,walke101,??,,S9.3-H;1-2
 play,7,1,shotb101,??,,W.2-3;1-2
 play,7,1,austj101,??,,S8.3-H;2-H;1-3
@@ -11152,14 +11154,14 @@ play,7,1,pratd101,??,,S8.3-H;1-2
 play,7,1,walkt101,??,,64(1)3/GDP
 play,8,0,bushd102,??,,NP
 sub,baumg101,"George Baumgardner",1,9,1
-play,8,0,bushd102,??,,S
-play,8,0,vitto101,??,,99
+play,8,0,bushd102,??,,S7
+play,8,0,vitto101,??,,9/L
 play,8,0,cobbt101,??,,SB2
-play,8,0,cobbt101,??,,99/G.2-3
+play,8,0,cobbt101,??,,63.2-3
 play,8,0,craws101,??,,WP.3-H
 play,8,0,craws101,??,,K
-play,8,1,willg103,??,,99
-play,8,1,howai101,??,,99
+play,8,1,willg103,??,,13
+play,8,1,howai101,??,,8/F
 play,8,1,lavad101,??,,K
 com,"$Game called on account of darkness"
 data,er,dubuj101,6

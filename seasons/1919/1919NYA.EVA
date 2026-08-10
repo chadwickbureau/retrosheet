@@ -925,7 +925,7 @@ play,15,1,peckr101,??,,S
 play,15,1,pippw101,??,,E3/SH.1X3(35);B-1
 play,15,1,bakef102,??,,9
 play,15,1,fewsc101,??,,CS2(26)
-com,"$Game called for darkness"
+com,"$Game called on account of darkness"
 data,er,shawj101,2
 data,er,ayerd101,1
 data,er,harph101,0
@@ -2084,7 +2084,7 @@ play,2,0,demmr101,??,,HP
 play,2,0,jacow101,??,,T8/L89D.1-H
 play,2,0,smite107,??,,53
 play,2,0,gerbw101,??,,CSH(2)
-com,"$failed squeeze play"
+com,"$Failed squeeze play"
 play,2,0,gerbw101,??,,8/L
 play,2,1,lewid101,??,,S9
 play,2,1,pippw101,??,,7/F7S
@@ -5994,7 +5994,9 @@ play,7,1,bodip101,??,,99
 play,7,1,ruelm101,??,,S
 play,7,1,shawb102,??,,E5.1-2#
 play,7,1,fewsc101,??,,K/C
-com,"Umpire Owens hurt by foul ball and left game."
+com,"umpchange,7,umphome,connt901"
+com,"umpchange,7,ump1b,(none)"
+com,"$Umpire Owens injured by foul ball and left game."
 play,7,1,peckr101,??,,99
 play,8,0,heilh101,??,,S
 play,8,0,shorc101,??,,99
@@ -6634,7 +6636,7 @@ play,1,1,vicks101,??,,S5/BG.1-3(E5/TH1);B-2
 play,1,1,bakef102,??,,W
 play,1,1,lewid101,??,,K
 play,1,1,pippw101,??,,S7.3-H;2-H;1-H(E7/THH)(NR);B-3
-com,"$wild throw went into the Yankees dugout; Indians"
+com,"$Wild throw went into the Yankees dugout; Indians"
 com,"argued runners should have been held at 2nd and 3rd;"
 com,"Indians officially protested game"
 play,1,1,pratd101,??,,HP
@@ -6819,7 +6821,7 @@ play,3,1,pratd101,??,,8
 play,3,1,bodip101,??,,S9/G3.1-3
 play,3,1,ruelm101,??,,E1/SH.3-H;1-2
 play,3,1,quinj102,??,,S8/8S.2XH(82);1-2
-play,3,1,fewsc101,??,,S7.2-H;1-2
+play,3,1,fewsc101,??,,S7.2-H(UR);1-2
 play,3,1,vicks101,??,,53
 play,4,0,johnd107,??,,D9
 play,4,0,oneis101,??,,4/L
@@ -6894,7 +6896,7 @@ play,9,1,pippw101,??,,43
 play,9,1,pratd101,??,,53
 play,9,1,bodip101,??,,6
 data,er,bagbj101,4
-data,er,myere101,5
+data,er,myere101,4
 data,er,quinj102,5
 data,er,shore101,4
 data,er,smalw101,2
@@ -7254,7 +7256,7 @@ start,lewid101,"Duffy Lewis",1,6,7
 start,bodip101,"Ping Bodie",1,7,8
 start,hannt101,"Truck Hannah",1,8,2
 start,mogrg101,"George Mogridge",1,9,1
-com,"$Major-league debut for Bucky Harris and Frank Ellerbe"
+com,"$ML debut for Bucky Harris and Frank Ellerbe"
 play,1,0,judgj101,??,,K#
 play,1,0,foste103,??,,99
 play,1,0,milac101,??,,99
@@ -8684,7 +8686,7 @@ play,4,1,pippw101,??,,8
 play,5,0,jacow101,??,,E4
 play,5,0,sislg101,??,,46(1)/FO
 play,5,0,demmr101,??,,S9.1-2
-play,5,0,seveh101,??,,S8.2-H;1-2
+play,5,0,seveh101,??,,S8.2-H(UR);1-2
 play,5,0,schej102,??,,WP.2-3;1-2
 play,5,0,schej102,??,,9
 play,5,0,gerbw101,??,,W
@@ -8692,7 +8694,7 @@ play,5,0,gallb103,??,,K
 play,5,1,pratd101,??,,7
 play,5,1,lewid101,??,,S7
 play,5,1,bodip101,??,,S9.1-3;B-2(E9)
-play,5,1,ruelm101,??,,S8/G46.3-H;2-H
+play,5,1,ruelm101,??,,S8/G46.3-H;2-H(UR)
 play,5,1,quinj102,??,,NP
 sub,vicks101,"Sammy Vick",1,9,11
 play,5,1,vicks101,??,,K
@@ -8741,10 +8743,10 @@ play,9,0,gerbw101,??,,W
 play,9,0,leifl101,??,,NP
 sub,austj101,"Jimmy Austin",0,9,11
 play,9,0,austj101,??,,99
-data,er,gallb103,4
+data,er,gallb103,3
 data,er,leifl101,3
 data,er,thorh101,1
-data,er,quinj102,1
+data,er,quinj102,0
 data,er,shore101,0
 id,NYA191909140
 version,1
@@ -9377,7 +9379,7 @@ play,2,0,flagi101,??,,K23
 play,2,0,joneb103,??,,K
 play,2,1,lewid101,??,,S8
 play,2,1,bodip101,??,,S8.1-3;BX2(854)
-com,"$Bodie overslid second"
+com,"Bodie overslid second"
 play,2,1,ruelm101,??,,S7.3-H
 play,2,1,mogrg101,??,,53/SH.1-2
 play,2,1,vicks101,??,,S9.2-H;B-3(E1/TH3)
@@ -9692,8 +9694,6 @@ play,6,1,pratd101,??,,S8.3-H;2-H;B-2(E8)
 play,6,1,lewid101,??,,99.2-3
 play,6,1,bodip101,??,,NP
 sub,fewsc101,"Chick Fewster",1,7,11
-com,"Not certain when Fewster entered.  Bodie hit on wrist in 1st"
-com,"and was out for rest of season."
 play,6,1,fewsc101,??,,K
 play,7,0,bushd102,??,,NP
 sub,fewsc101,"Chick Fewster",1,7,8
@@ -9984,7 +9984,7 @@ play,8,1,ruelm101,??,,2/BINT
 com,"$Ruel declared out for running into his own batted ball"
 play,8,1,shawb102,??,,43
 play,9,0,ruthb101,??,,HR/9
-com,"$Ruth's 28th of the season to top Ned Williamson's 1884"
+com,"$Ruth's 28th HR of the season to top Ned Williamson's 1884"
 com,"record; the ball went over the RF roof and out of the park"
 com,"into Manhattan Field"
 play,9,0,mcins101,??,,W

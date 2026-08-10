@@ -3587,8 +3587,8 @@ sub,hackw102,"Warren Hacker",0,9,1
 play,6,1,hodgg101,11,.BCX,D7/L
 play,6,1,campr102,00,X,T9.2-H
 play,6,1,furic101,00,.X,5
-play,6,1,hoakd101,11,CBM,OA.3XH(2)
-com,"$missed squeeze"
+play,6,1,hoakd101,11,CBM,CSH(2)
+com,"$Failed squeeze play"
 play,6,1,hoakd101,12,CBM..X,D9/L
 play,6,1,labic101,32,BCCBBB,W
 play,6,1,gillj102,00,X,7
@@ -3690,7 +3690,7 @@ play,2,0,sereb101,32,BFBBSB,W.1-2
 play,2,0,tappe101,22,BCBFX,5/FL
 play,2,0,jeffh101,22,BSSBX,7/SF.3-H
 play,2,0,baumf101,00,X,8
-play,2,1,shubg101,11,CBX,C/E1
+play,2,1,shubg101,11,CBX,C/E1/OBS
 play,2,1,furic101,00,.,NP
 sub,thomd102,"Don Thompson",1,5,12
 com,"George Shuba left injured"
@@ -7002,11 +7002,11 @@ sub,buhlb101,"Bob Buhl",0,9,1
 play,9,1,reesp101,11,.BCX,3/G.2-3;1-2
 play,9,1,snidd101,30,IIII,I
 play,9,1,hodgg101,12,CBFFX,5/FL
-play,10,0,ocond101,01,X,NP
+play,10,0,ocond101,00,,NP
 sub,furic101,"Carl Furillo",1,7,9
-play,10,0,ocond101,01,X.,NP
+play,10,0,ocond101,00,.,NP
 sub,amors101,"Sandy Amoros",1,5,7
-play,10,0,ocond101,01,X..X,6/FL
+play,10,0,ocond101,00,..X,6/FL
 play,10,0,mathe101,32,CBBBCFFB,W
 play,10,0,aaroh101,02,FFX,7
 play,10,0,adcoj101,32,CBBBCX,63
@@ -7266,7 +7266,9 @@ play,3,0,sarnb101,11,.BCX,S7/G.3-H;1-2
 play,3,0,cunnj101,22,CFBBFX,7
 play,3,1,reesp101,12,BFCX,9
 play,3,1,robij103,00,X,S8/G
-play,3,1,hodgg101,32,FBBFBS,K.1X1(26E4)
+play,3,1,hodgg101,32,FBBFBS,K.1X1(246E4)
+com,"$Robinson was running on pitch and escaped rundown"
+com,"when he tried to return to 1st"
 play,3,1,furic101,01,.FX,HR/8.1-H(UR)
 play,3,1,hoakd101,21,CBBX,63
 play,4,0,grama101,31,BBBCB,W
